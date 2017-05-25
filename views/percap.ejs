@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Carbon Emission Per Capita</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<style> /* set the CSS */
+
+.bar { fill: steelblue; }
+
+</style>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Per Capita Carbon Emissions Data By Country</a>
+            </div>
+
+
+            <div style="overflow-y:auto;height:100vh;" class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul  class="nav" id="myUL">
+                        <li class="sidebar-search">
+                            <div class="input-group custom-search-form">
+                                <input type="text" id="myInput" onkeyup="myFunction()" class="form-control" placeholder="Search...">
+                                <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                            </div>
+                            <!-- /input-group -->
+                        </li>
+                        <% for (var i=0;i<data.json.length;i++) { %>
+                        <li onclick = "load_country_data(<%=i%>,'<%= data.json[i].Country %>')">
+                            <a href="#"><i class="fa fa-dashboard fa-fw"></i><%= data.json[i].Country %></a>
+                        </li>
+                        <% } %>
+
+
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12" >
+                    <h1 class="page-header" id='country_name'></h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+
+            <!-- /.row -->
+            <div class="row">
+                <div class="col">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" >
+                            <i class="fa fa-bar-chart-o fa-fw"></i>
+                            Carbon dioxide emissions (CO2), metric tons of CO2 per capita (CDIAC)
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div id="bar">
+
+                            </div>
+
+                        <!-- /.panel-body -->
+                    </div>
+                  </div>
+                  <div class="center-block"><a href="https://mdgs.un.org/unsd/mdg/SeriesDetail.aspx?srid=751" class="btn btn-success pull-right">Data Source</a>
+                  </div>
+
+                <!-- /.col-lg-8 -->
+
+
+                        <!-- /.panel-heading -->
+
+                        <!-- /.panel-body -->
+
+                        <!-- /.panel-footer -->
+                    </div>
+                    <!-- /.panel .chat-panel -->
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="//d3js.org/d3.v4.min.js"></script>
+    <script>
+          function load_country_data(countryid,country){
+            $.get({
+              url : '/percap/get_country/'+countryid,
+              method : 'get',
+              success : function(data){
+                var margin = {top: 20, right: 20, bottom: 30, left: 40},
+                    width = 960 - margin.left - margin.right,
+                    height = 500 - margin.top - margin.bottom;
+
+                // set the ranges
+                var x = d3.scaleBand()
+                          .range([0, width])
+                          .padding(0.1);
+                var y = d3.scaleLinear()
+                          .range([height, 0]);
+                document.getElementById('bar').innerHTML = '';
+                var svg = d3.select("#bar").append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                  .append("g")
+                    .attr("transform",
+                          "translate(" + margin.left + "," + margin.top + ")");
+
+                  // get the data
+                  data = d3.entries(data);
+                  // format the data
+
+                  // Scale the range of the data in the domains
+                  x.domain(data.map(function(d) { return d.key; }));
+                  y.domain([0, d3.max(data, function(d) { return d.value; })]);
+                  // append the rectangles for the bar chart
+                  svg.selectAll(".bar")
+                      .data(data)
+                    .enter().append("rect")
+                      .attr("class", "bar")
+                      .attr("x", function(d) { return x(d.key); })
+                      .attr("width", x.bandwidth())
+                      .attr("y", function(d) { return y(d.value); })
+                      .attr("height", function(d) { return height - y(d.value); });
+
+                      // add the x Axis
+                      svg.append("g")
+                          .attr("transform", "translate(0," + height + ")")
+                          .call(d3.axisBottom(x));
+
+                      // add the y Axis
+                      svg.append("g")
+                          .call(d3.axisLeft(y));
+                      $('#country_name').html(country)
+              }
+            });
+
+          }
+        function myFunction() {
+            // Declare variables
+            var input, filter, ul, li, a, i;
+            // input = document.getElementById('myInput');
+            filter = $('#myInput').val().toUpperCase();
+            $('#myUL > li:not(.sidebar-search)').each( function() {
+                a = this.querySelector('a');
+                if (a && a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    this.style.display = "";
+                } else {
+                    this.style.display = "none";
+                }
+            });
+        }
+    </script>
+    <script src="../vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+
+
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+    <!-- Loads the first country on initial run -->
+    <script type="text/javascript">
+      $(document).ready(function(){
+        load_country_data(0,'Afghanistan');
+      })
+    </script>
+</body>
+
+</html>
