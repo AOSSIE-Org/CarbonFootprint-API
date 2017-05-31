@@ -10,6 +10,7 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var percap = require('./routes/percap');
 
+var vehicles = require('./footprintModels/vehicle');
 var app = express();
 
 // view engine setup
@@ -25,7 +26,23 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 //Routes
-app.use('/', index);
+app.use('/',(req,res,next)=>{
+	input = {
+		type:"mini",
+		fuel:"P",
+		gas:"co2e",
+		resultIn:{
+			distanceType : "miles",   // options available miles,kilometers,foot
+			footprintType: "pounds"  // pounds,kg,grams
+		},
+		distance:0.83
+	}
+	var v = new vehicles;
+	v.getData(input).then((result)=>{
+		console.log(result);
+	}).catch(error => console.log(error));
+	next(); 
+},index);
 app.use('/percap', percap);
 
 // catch 404 and forward to error handler
@@ -45,5 +62,7 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+app.listen('8080')
 
 module.exports = app;

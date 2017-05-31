@@ -8,6 +8,8 @@
   "dependencies": {
     "body-parser": "~1.16.0",
     "cookie-parser": "~1.4.3",
+    "csv-parser": "^1.11.0",
+    "csvtojson": "^1.1.6",
     "debug": "~2.6.0",
     "ejs": "~2.5.5",
     "express": "~4.14.1",
