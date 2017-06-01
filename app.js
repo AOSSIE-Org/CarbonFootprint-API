@@ -33,7 +33,7 @@ app.use('/',(req,res,next)=>{
 		gas:"co2e",
 		resultIn:{
 			distanceType : "miles",   // options available miles,kilometers,foot
-			footprintType: "pounds"  // pounds,kg,grams
+			footprintType: "grams"  // pounds,kg,grams
 		},
 		distance:0.83
 	}
