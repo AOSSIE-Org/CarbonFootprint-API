@@ -26,23 +26,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 //Routes
-app.use('/',(req,res,next)=>{
-	input = {
-		type:"mini",
-		fuel:"P",
-		gas:"co2e",
-		resultIn:{
-			distanceType : "miles",   // options available miles,kilometers,foot
-			footprintType: "pounds"  // pounds,kg,grams
-		},
-		distance:0.83
-	}
-	var v = new vehicles;
-	v.getData(input).then((result)=>{
-		console.log(result);
-	}).catch(error => console.log(error));
-	next(); 
-},index);
+app.use('/',index);
 app.use('/percap', percap);
 
 // catch 404 and forward to error handler

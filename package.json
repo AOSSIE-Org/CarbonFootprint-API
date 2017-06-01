@@ -3,10 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "forever start ./bin/www"
+      "start": "forever start ./bin/www",
+      "test" : "mocha"
   },
   "dependencies": {
     "body-parser": "~1.16.0",
+    "chai": "^4.0.1",
     "cookie-parser": "~1.4.3",
     "csv-parser": "^1.11.0",
     "csvtojson": "^1.1.6",
