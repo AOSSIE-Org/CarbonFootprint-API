@@ -136,7 +136,7 @@
     <script>
           function load_country_data(countryid,country){
             $.get({
-              url : '/percap/get_country/'+countryid,
+              url : 'dashboard/get_country/'+countryid,
               method : 'get',
               success : function(data){
                 var margin = {top: 20, right: 20, bottom: 30, left: 40},
