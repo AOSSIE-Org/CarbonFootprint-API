@@ -1,0 +1,29 @@
+// database setup
+var mongoose = require('mongoose');
+// get the database configuration file
+try {
+	var config = require('../../../config.json');
+}
+catch(e){
+	console.log(`Database configuration file "config.json" is missing.`);
+	process.exit(0);
+}
+var db = config.database;
+
+// connect to the database
+mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`);
+
+// When successfully connected
+mongoose.connection.on('connected', () => {  
+  console.log('Connection to database established successfully');
+}); 
+
+// If the connection throws an error
+mongoose.connection.on('error', (err) => {  
+  console.log('Error connecting to database: ' + err);
+}); 
+
+// When the connection is disconnected
+mongoose.connection.on('disconnected', () => {  
+  console.log('Database disconnected'); 
+});
