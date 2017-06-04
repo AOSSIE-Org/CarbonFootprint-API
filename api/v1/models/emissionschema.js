@@ -11,11 +11,7 @@ var emissionSchema = new Schema({
     	type: String,
     	required: true
     },
-    country: {
-    	type: String,
-    	required: true
-    },
-    countryCode: {
+    region: {
     	type: String,
     	required: true
     },
@@ -30,14 +26,9 @@ var emissionSchema = new Schema({
     },
     components: [{
     	name: String,
-    	quantity: String,
+    	quantity: Number,
     	units: String
-    }],
-    emissions: {
-    	CO2: Number,
-    	NO2: Number,
-    	CH4: Number
-    }
+    }]
 })                        
 
 module.exports =  mongoose.model('Emission', emissionSchema);
