@@ -28,7 +28,7 @@ let find = (component, region, quantity) => {
                             .then((emis) => {
                                 sum += emis;
                                 if (i === numOfComponents - 1) {
-                                    resolve(sum);
+                                    resolve(quantity * sum);
                                 }
                             })
                             .catch((err) => console.log(err));
