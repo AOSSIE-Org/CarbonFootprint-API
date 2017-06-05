@@ -24,6 +24,10 @@ var emissionSchema = new Schema({
     	type: String,
     	required: true
     },
+    categories: [{
+    	name: String,
+    	required: false
+    }],
     components: [{
     	name: String,
     	quantity: Number,

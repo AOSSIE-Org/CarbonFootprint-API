@@ -38,6 +38,9 @@ for(js in json){
   obj.region=json[js]['Country'];
   obj.quantity=1;
   obj.units="kg/kWh";
+  obj.categories=[{
+    name:"electricity"
+  }]
   obj.components=[
     {
     	name: "CO2",
