@@ -1,5 +1,4 @@
-/////////////////////  EXPRESS //////////////////
-//require our dependencies
+// get required dependencies 
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -7,8 +6,39 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var index = require('./routes/index');
-var percap = require('./routes/percap');
+// database setup
+var mongoose = require('mongoose');
+// get the database configuration file
+try {
+	var config = require('./config.json');
+}
+catch(e){
+	console.log(`Database configuration file "config.json" is missing.`);
+	process.exit(0);
+}
+var db = config.database;
+
+// connect to the database
+mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`);
+
+// When successfully connected
+mongoose.connection.on('connected', () => {  
+  console.log('Connection to database established successfully');
+}); 
+
+// If the connection throws an error
+mongoose.connection.on('error', (err) => {  
+  console.log('Error connecting to database: ' + err);
+}); 
+
+// When the connection is disconnected
+mongoose.connection.on('disconnected', () => {  
+  console.log('Database disconnected'); 
+});
+
+// get different routes required
+var emissions = require('./api/v1/routes/emissionRoutes');
+var dashboard = require('./routes/dashboard');
 
 var app = express();
 
@@ -24,19 +54,24 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-//Routes
-app.use('/', index);
-app.use('/percap', percap);
+//routes for api v1
+v1 = express.Router();
+v1.use('/emissions', emissions);
+
+// Use v1 router for all the API requests adhering to version 1
+app.use('/v1', v1);
+// show the API dashboard
+app.use('/dashboard', dashboard);
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
+app.use((req, res, next) => {
   var err = new Error('Not Found');
   err.status = 404;
   next(err);
 });
 
 // error handler
-app.use(function(err, req, res, next) {
+app.use((err, req, res, next) => {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
