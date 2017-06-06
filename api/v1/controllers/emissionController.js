@@ -23,16 +23,15 @@ let find = (component, region, quantity) => {
                 // if component type is complex, recurse to find its atomic components
                 else {
                     let numOfComponents = item.components.length; // number of subcomponents
-                    for (let i = 0; i < numOfComponents; i++) {
-                        find(item.components[i].name, region, item.components[i].quantity)
+                    (async function(){
+                        for (let i = 0; i < numOfComponents; i++) {
+                        await find(item.components[i].name, region, item.components[i].quantity)
                             .then((emis) => {
                                 sum += emis;
-                                if (i === numOfComponents - 1) {
-                                    resolve(quantity * sum);
-                                }
                             })
                             .catch((err) => console.log(err));
-                    }
+                        }
+                    })().then(() => resolve(quantity * sum));
                 }
             } 
             // return an error if component is not found
