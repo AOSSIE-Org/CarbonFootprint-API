@@ -41,6 +41,8 @@ var emissions = require('./api/v1/routes/emissionRoutes');
 var dashboard = require('./routes/dashboard');
 
 var app = express();
+app.use(bodyParser.json()); // support json encoded bodies
+app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

@@ -10,10 +10,10 @@ let find = (component, region, quantity) => {
     var sum = 0; // emissions accumulator
     return new Promise((resolve, reject) => {
         // find the component in the database
-        Emission.findOne({ $or:[ { 'item': new RegExp(component, "i"), 'region': new RegExp(region, "i") }, { 'item': new RegExp(component, "i"), 'region': 'Default' }]}, (err, item) => {
+        Emission.findOne({ $or:[ { 'item': new RegExp(`^${component}$`, "i"), 'region': new RegExp(`^${region}$`, "i") }, { 'item': new RegExp(`^${component}$`, "i"), 'region': 'Default' }]}, (err, item) => {
             // if component is found
             if (!err && item) {
-                console.log(`\nItem name: ${item.item} :: Type: ${item.itemType}`);
+                console.log(`\nItem name: ${item.item} :: Type: ${item.itemType} :: Region: ${item.region}`);
                 // if component type is atomic return its CO2 emissions
                 if (item.itemType == 'atomic') {
                     sum += (quantity * item.components[0].quantity);
@@ -42,8 +42,8 @@ let find = (component, region, quantity) => {
 }
 
 exports.find = (req, res) => {
-	// dummy values for testing
-    find('electricity', 'nm', 1)
+    console.log(req.body);
+    find(req.body["item"],req.body["region"],req.body["quantity"])
         .then((sum) => {
             console.log(`\nTotal Emissions: ${sum}`);
             res.json({
