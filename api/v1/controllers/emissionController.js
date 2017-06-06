@@ -43,7 +43,8 @@ let find = (component, region, quantity) => {
 
 exports.find = (req, res) => {
 	// dummy values for testing
-    find('electricity', 'Africa', 1)
+    console.log(req.body);
+    find(req.body["item"],req.body["region"],req.body["quantity"])
         .then((sum) => {
             console.log(`\nTotal Emissions: ${sum}`);
             res.json({
