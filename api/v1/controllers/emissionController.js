@@ -10,7 +10,7 @@ let find = (component, region, quantity) => {
     var sum = 0; // emissions accumulator
     return new Promise((resolve, reject) => {
         // find the component in the database
-        Emission.findOne({ 'item': component, 'region': region }, (err, item) => {
+        Emission.findOne({ $or:[ { 'item': new RegExp(component, "i"), 'region': new RegExp(region, "i") }, { 'item': new RegExp(component, "i"), 'region': 'Default' }]}, (err, item) => {
             // if component is found
             if (!err && item) {
                 console.log(`\nItem name: ${item.item} :: Type: ${item.itemType}`);
