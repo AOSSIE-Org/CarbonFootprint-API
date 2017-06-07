@@ -28,7 +28,7 @@ mongoose.connection.on('error', (err) => {
 mongoose.connection.on('disconnected', () => {  
   console.log('Database disconnected'); 
 });
-var Emission = require('../models/emissionschema.js')
+var Emission = require('../models/emissionModel.js')
 
 var json = require('../../../raw_data/electricty_emission.json');
 for(js in json){
@@ -43,46 +43,19 @@ for(js in json){
     {
     	name: "CO2",
     	quantity: json[js]['Generation-CO2'],
-    	units: "kgCO2/kWh"
+    	units: "kg CO2/kWh"
     },{
     	name: "CH4",
     	quantity: json[js]['Generation-CH4'],
-    	units: "kgCH4/kWh"
+    	units: "kg CH4/kWh"
     },{
     	name: "N20",
     	quantity: json[js]['Generation-N20'],
-    	units: "kgN20/kWh"
+    	units: "kg N20/kWh"
     }]
-    obj.save(function(err){
-      if ( err ) throw err;
-      console.log("Object Saved Successfully");
-    });
+  obj.save(function(err){
+    if ( err ) throw err;
+    console.log("Object Saved Successfully");
+  });
     // console.log(obj);
 }
-// var obj = new Emission({
-//     item:"generation",
-//     itemType: "atomic",
-//     region: "Africa",
-//     quantity: 1,
-//     units: "kg/kWh",
-//     components: [{
-//     	name: "CO2",
-//     	quantity: 0.73576632,
-//     	units: "kgCO2/kWh"
-//     },{
-//     	name: "CH4",
-//     	quantity: 0.00001173634,
-//     	units: "kgCH4/kWh"
-//     },{
-//     	name: "N20",
-//     	quantity: 0.00000857091,
-//     	units: "kgCH4/kWh"
-//     }]
-// })
-// obj.save(function(err){
-//   if ( err ) throw err;
-//   console.log("Book Saved Successfully");
-// });
-
-// console.log(obj);
-//Emission.collection.drop({});

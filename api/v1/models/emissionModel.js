@@ -7,10 +7,6 @@ var emissionSchema = new Schema({
     	type: String,
     	required: true
     },
-    itemType: {
-    	type: String,
-    	required: true
-    },
     region: {
     	type: String,
     	required: true
