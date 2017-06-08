@@ -23,7 +23,7 @@ let find = (component, region, quantity) => {
         }, (err, item) => {
             // if component is found
             if (!err && item) {
-                // console.log(`\nItem name: ${item.item} :: Region: ${item.region}`);
+                console.log(`\nItem name: ${item.item} :: Region: ${item.region}`);
                 // if component type is atomic return its CO2 emissions
                 if (item.components[0].name == 'CO2') {
                     sum += (quantity * item.components[0].quantity);
@@ -51,17 +51,17 @@ let find = (component, region, quantity) => {
 }
 
 exports.find = (req, res) => {
-    // console.log(req.body);
+    console.log(req.body);
     find(req.body["item"],req.body["region"],req.body["quantity"])
         .then((sum) => {
-            // console.log(`\nTotal Emissions: ${sum}`);
+            console.log(`\nTotal Emissions: ${sum}`);
             res.status(200).json({
                 success: true,
                 emissions: parseFloat(sum.toFixed(10))
             });
         })
         .catch((err) => {
-            // console.log(`Error: ${err}`);
+            console.log(`Error: ${err}`);
             res.json({
                 success: false,
                 err: err
