@@ -2,9 +2,9 @@
   "name": "carbonfootprint",
   "version": "0.0.0",
   "private": true,
-    "scripts": {
-    "start": "./bin/www",
-    "test": "mocha --timeout 10000"
+  "scripts": {
+  "start": "./bin/www",
+  "test": "mocha --timeout 10000"
   },
   "dependencies": {
     "body-parser": "~1.16.0",
