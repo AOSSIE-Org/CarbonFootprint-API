@@ -148,7 +148,7 @@ Vehicles.prototype.convertFootprint = function({distanceType,footprintType}){
         //console.log("conversion factor is "+result);
         resolve(result);
     });
-}
+};
 
 /**
 * return a Promise which on resolve results footprint
@@ -183,5 +183,5 @@ Vehicles.prototype.getData = function({type,engine,fuel,gas,distance,resultIn}){
     }
 }
 
-module.exports  = Vehicles
+module.exports  = Vehicles;
 
