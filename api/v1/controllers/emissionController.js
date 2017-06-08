@@ -27,7 +27,7 @@ let find = (component, region, quantity) => {
                 // if component type is atomic return its CO2 emissions
                 if (item.components[0].name == 'CO2' ||
                     item.components[0].name == 'CH4' ||
-                    item.components[0].name == 'NO2') {
+                    item.components[0].name == 'N2O') {
                     sum += (quantity * item.components[0].quantity);
                     // console.log(`Emissions: ${sum} ${item.components[0].units}`);
                     resolve(sum);
