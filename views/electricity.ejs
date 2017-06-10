@@ -29,23 +29,58 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style>
-    #container1 { border:1px dotted blue; width: 700px; height: 475px; position: relative; }
-    </style>
 
 </head>
-<!DOCTYPE html>
+
 <body>
-      <div id="wrapper">
+<style> /* set the CSS */
+
+.bar { fill: steelblue; }
+
+</style>
+
+    <div id="wrapper">
 
         <!-- Navigation -->
-       
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Per Capita Carbon Emissions Data By Country</a>
+            </div>
+
+
+            <div style="overflow-y:auto;height:100vh;" class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul  class="nav" id="myUL">
+                        <li class="sidebar-search">
+                            <div class="input-group custom-search-form">
+                                <input type="text" id="myInput" onkeyup="myFunction()" class="form-control" placeholder="Search...">
+                                <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                            </div>
+                            <!-- /input-group -->
+                        </li>
+                       
+
+
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+
         <div id="page-wrapper">
             <div class="row">
-                <div class="col-lg-12" >
-                    <h1 class="page-header" id='country_name'></h1>
-                </div>
-                <!-- /.col-lg-12 -->
+                                <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
 
@@ -55,16 +90,57 @@
                     <div class="panel panel-default">
                         <div class="panel-heading" >
                             <i class="fa fa-bar-chart-o fa-fw"></i>
-                            Emission per kilowatt consumption of electricity around the world.
+                            Carbon dioxide emissions (CO2), metric tons of CO2 per capita (CDIAC)
                         </div>
                         <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <div id="bar">
+                        <div class="panel-body" id="container1"></div>
 
-                            </div>
-                        <div id="container1"></div>
+  
+                            
+                        </div>    
+                        <!-- /.panel-body -->
+                    </div>
+                    
+                  </div>
+                  <div class="center-block"><a href="https://mdgs.un.org/unsd/mdg/SeriesDetail.aspx?srid=751" class="btn btn-success pull-right">Data Source</a>
+                  </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+                <!-- /.col-lg-8 -->
+
+
+                        <!-- /.panel-heading -->
+
+                        <!-- /.panel-body -->
+
+                        <!-- /.panel-footer -->
+                    </div>
+                    <!-- /.panel .chat-panel -->
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="//d3js.org/d3.v4.min.js"></script>
+ 
+    <script src="../vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+
+
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/datamaps/0.5.8/datamaps.all.js"></script>
   
@@ -145,33 +221,9 @@
         }
     });
 </script>
-                        <!-- /.panel-body -->
-                    </div>
-                  </div>
-                  <div class="center-block"><a href="https://ecometrica.com/assets/Electricity-specific-emission-factors-for-grid-el
-ectricity.pdf" class="btn btn-success pull-right">Data Source</a>
-                  </div>
 
-                <!-- /.col-lg-8 -->
-
-
-                        <!-- /.panel-heading -->
-
-                        <!-- /.panel-body -->
-
-                        <!-- /.panel-footer -->
-                    </div>
-                    <!-- /.panel .chat-panel -->
-                </div>
-                <!-- /.col-lg-4 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /#page-wrapper -->
-
-    </div>
-    
-  
-  
 </body>
+
 </html>
+
+
