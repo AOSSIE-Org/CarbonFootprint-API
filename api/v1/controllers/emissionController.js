@@ -1,11 +1,9 @@
-var mongoose = require('mongoose');
 var Emission = require('../models/emissionModel');
 
 /*
  * A function to calculate the emissions of a component.
  * Refer to the Emission schema for more information on the components.
  */
-
 let find = (component, region, quantity) => {
     var sum = 0; // emissions accumulator
     return new Promise((resolve, reject) => {
