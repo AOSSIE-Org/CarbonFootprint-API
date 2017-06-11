@@ -36,17 +36,17 @@ for(js in json){
   obj.itemType="complex";
   obj.region=json[js]['Country'];
   obj.quantity=1;
-  obj.units="kg/kWh";
+  obj.unit="kWh";
   obj.categories=["electricity"];
   obj.components=[
     {
     	name: "generation",
     	quantity: 1,
-    	units: "kg/kWh"
+    	unit: "kWh"
     },{
     	name: "td",
     	quantity: 1,
-    	units: "kg/kWh"
+    	unit: "kWh"
     }]
   obj.save(function(err){
     if ( err ) throw err;

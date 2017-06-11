@@ -36,21 +36,21 @@ for(js in json){
   obj.itemType="atomic";
   obj.region=json[js]['Country'];
   obj.quantity=1;
-  obj.units="kg/kWh";
+  obj.unit="kg/kWh";
   obj.categories=["electricity"];
   obj.components=[
     {
     	name: "CO2",
     	quantity: json[js]['Td-CO2'],
-    	units: "kg CO2/kWh"
+    	unit: "kg CO2/kWh"
     },{
     	name: "CH4",
     	quantity: json[js]['Td-CH4'],
-    	units: "kg CH4/kWh"
+    	unit: "kg CH4/kWh"
     },{
     	name: "N20",
     	quantity: json[js]['Td-N20'],
-    	units: "kg N20/kWh"
+    	unit: "kg N20/kWh"
     }]
   obj.save(function(err){
     if ( err ) throw err;
