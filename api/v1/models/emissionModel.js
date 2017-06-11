@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-// create a schema for emissions related to electricity
+// create a schema for general schema to deal with emissions.
 var emissionSchema = new Schema({
     item: {
     	type: String,
@@ -16,7 +16,7 @@ var emissionSchema = new Schema({
     	required: true,
     	default: 1
     },
-    units: {
+    unit: {
     	type: String,
     	required: true
     },
@@ -24,7 +24,7 @@ var emissionSchema = new Schema({
     components: [{
     	name: String,
     	quantity: Number,
-    	units: String
+    	unit: String
     }]
 })                        
 
