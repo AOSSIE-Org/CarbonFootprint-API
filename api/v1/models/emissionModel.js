@@ -9,21 +9,23 @@ var emissionSchema = new Schema({
     },
     region: {
     	type: String,
-    	required: true
+    	required: true,
+        default: 'Default'
     },
     quantity: {
-    	type: Number,
+    	type: [Number],
     	required: true,
-    	default: 1
+    	default: [1]
     },
     unit: {
     	type: String,
     	required: true
     },
     categories: [String],
+    calculationMethod: String,
     components: [{
     	name: String,
-    	quantity: Number,
+    	quantity: [Number],
     	unit: String
     }]
 })                        
