@@ -7,7 +7,7 @@ try {
 }
 catch(e){
 	console.log(`Database configuration file "config.json" is missing.`);
-	process.exit(0);
+	process.exit(1);
 }
 var db = config.database;
 
