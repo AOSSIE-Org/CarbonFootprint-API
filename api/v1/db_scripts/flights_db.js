@@ -37,7 +37,7 @@ obj.region="Default";
 obj.quantity=[125, 250, 500, 750, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 8500, 9000, 9500, 10000, 10500, 11000, 11500, 12000];
 obj.unit="nm";
 obj.categories=["flights"];
-obj. calculationMethod="interpolation"
+obj.calculationMethod="interpolation"
 obj.components=[
 {
     name: "airplane fuel",
@@ -56,7 +56,7 @@ obj.region="Default";
 obj.quantity=[125, 250, 500, 750, 1000, 1500, 2000, 2500];
 obj.unit="nm";
 obj.categories=["flights"];
-obj. calculationMethod="interpolation"
+obj.calculationMethod="interpolation"
 obj.components=[
 {
     name: "airplane fuel",
