@@ -82,25 +82,25 @@ let find = (component, region, quantity) => {
     });
 }
 
-exports.find = (req, res) => {
-    console.log(req.body);
-    let itemName = req.body["item"];
-    let region = req.body["region"] || "Default";
-    let quantity = req.body["quantity"] || 1;
+exports.calculate = (a, b, c) => find(a, b, c);
+    // console.log(req.body);
+    // let itemName = req.body["item"];
+    // let region = req.body["region"] || "Default";
+    // let quantity = req.body["quantity"] || 1;
 
-    find(itemName, region, quantity)
-        .then((sum) => {
-            console.log(`\nTotal Emissions: ${sum}`);
-            res.status(200).json({
-                success: true,
-                emissions: parseFloat(sum.toFixed(10))
-            });
-        })
-        .catch((err) => {
-            console.log(`Error: ${err}`);
-            res.json({
-                success: false,
-                err: err
-            });
-        });
-}
+    // find(itemName, region, quantity)
+    //     .then((sum) => {
+    //         console.log(`\nTotal Emissions: ${sum}`);
+    //         res.status(200).json({
+    //             success: true,
+    //             emissions: parseFloat(sum.toFixed(10))
+    //         });
+    //     })
+    //     .catch((err) => {
+    //         console.log(`Error: ${err}`);
+    //         res.json({
+    //             success: false,
+    //             err: err
+    //         });
+    //     });
+// }
