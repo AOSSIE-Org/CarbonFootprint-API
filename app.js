@@ -14,7 +14,7 @@ try {
 }
 catch(e){
 	console.log(`Database configuration file "config.json" is missing.`);
-	process.exit(0);
+	process.exit(1);
 }
 var db = config.database;
 
@@ -37,10 +37,12 @@ mongoose.connection.on('disconnected', () => {
 });
 
 // get different routes required
-var vehicles = require('./api/v1/routes/vehicleRoutes');
+var emissions = require('./api/v1/routes/emissionRoutes');
 var dashboard = require('./routes/dashboard');
 
 var app = express();
+app.use(bodyParser.json()); // support json encoded bodies
+app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -56,7 +58,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //routes for api v1
 v1 = express.Router();
-v1.use('/vehicles', vehicles);
+v1.use('/emissions', emissions);
 
 // Use v1 router for all the API requests adhering to version 1
 app.use('/v1', v1);
