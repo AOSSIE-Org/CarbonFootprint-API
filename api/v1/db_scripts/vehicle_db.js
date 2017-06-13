@@ -35,7 +35,7 @@ for(js in json){
   obj.item=json[js]['langKey'];
   obj.region="Default";
   obj.quantity=[1];
-  obj.unit="kg/L";
+  obj.unit="L";
   obj.categories=["vehicle"];
   obj.components=[
     {
