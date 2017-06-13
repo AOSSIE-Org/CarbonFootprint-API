@@ -33,19 +33,18 @@ var json = require('../../../raw_data/electricty_emission.json');
 for(js in json){
   var obj = new Emission();
   obj.item="electricity";
-  obj.itemType="complex";
   obj.region=json[js]['Country'];
-  obj.quantity=1;
+  obj.quantity=[1];
   obj.unit="kWh";
   obj.categories=["electricity"];
   obj.components=[
     {
     	name: "generation",
-    	quantity: 1,
+    	quantity: [1],
     	unit: "kWh"
     },{
     	name: "td",
-    	quantity: 1,
+    	quantity: [1],
     	unit: "kWh"
     }]
   obj.save(function(err){
