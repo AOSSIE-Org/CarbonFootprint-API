@@ -43,6 +43,9 @@ router.post('/flight', (req, res) => {
 		if(!model && type == 'international'){
 			model = 'A380';
 		}
+		if(!model && type == 'domestic'){
+			model = 'A320'
+		}
 
 		Emission.calculate(`airplane model ${model}`, 'Default', distance)
 	        .then((sum) => {
@@ -69,6 +72,40 @@ router.post('/flight', (req, res) => {
 
 });
 
+router.post('/vehicle', (req, res) => {
+	let type = req.body.type || 'Diesel';
+	let distance = req.body.distance;
+	let unit = req.body.unit || 'km';
+	let mileage = req.body.mileage;
+	let mileage_unit = req.body.mileage_unit || 'km/L';
+
+	if (distance>=0 && mileage>=0){
+		let fuelConsumed = distance/mileage;
+		Emission.calculate(`fuel${type}`, 'Default', fuelConsumed)
+	        .then((sum) => {
+	            console.log(`\nCO2 Emissions: ${sum}`);
+	            res.status(200).json({
+	                success: true,
+	                emissions: parseFloat(sum.toFixed(10))
+	            });
+	        })
+	        .catch((err) => {
+	            console.log(`Error: ${err}`);
+	            res.json({
+	                success: false,
+	                err: `Unable to find emissions for fuel type ${type}`
+	            });
+	        });
+	}
+	else {
+		res.status(400).json({
+            success: false,
+            error: 'Distance or Mileage cannot be less than zero'
+        });
+	}
+});
 module.exports = router;
 //curl test- curl -H "Content-Type: application/json" -X POST -d '{"item":"electricity","region":"Africa","unit":"kWh","quantity":1}' http://localhost:3080/v1/emissions
 //curl test- curl -H "Content-Type: application/json" -X POST -d '{"item":"airplane model A380","region":"Default","unit":"nm","quantity":125}' http://localhost:3080/v1/emissions
+//curl test- curl -H "Content-Type: application/json" -X POST -d '{"type":"Petrol","distance":100,"unit":"km","mileage":50,"mileage_unit":"km/L"}' http://localhost:3080/v1/vehicle
+//curl test- curl -H "Content-Type: application/json" -X POST -d '{"type":"international","model":"A380","origin":"DEL","destination":"IXG"}' http://localhost:3080/v1/flight
