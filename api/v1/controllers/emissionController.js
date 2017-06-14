@@ -13,6 +13,11 @@ let interpolate = (l1, l2, d) => {
             let slope=Math.abs((l2[l2.length-1]-l2[l2.length-2])/(l1[l1.length-1]-l1[l1.length-2]));
             return l2[l2.length-1]+(slope*(d-l1[l1.length-1]))
         }
+        if(d <= l1[0]){
+            let slope=Math.abs((l2[1]-l2[0])/(l1[1]-l1[0]));
+            console.log(slope*d)
+            return slope*d
+        }
     }
 }
 
