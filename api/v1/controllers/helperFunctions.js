@@ -1,4 +1,4 @@
-exports.getDistanceFromlatLon = (lat1, lon1, lat2, lon2) => {
+exports.getDistanceFromLatLon = (lat1, lon1, lat2, lon2) => {
   let p = 0.017453292519943295;    // Math.PI / 180
   let c = Math.cos;
   let a = 0.5 - c((lat2 - lat1) * p)/2 +
