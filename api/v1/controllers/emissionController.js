@@ -49,8 +49,8 @@ let find = (component, region, quantity) => {
                         for (let i = 0; i < numOfComponents; i++) {
                             if(item.components[i].quantity.length > 1){
                                 let getInterpolatedQuantity = await interpolate(item.quantity, item.components[i].quantity, quantity);
-                                console.log(`calQuantity = ${calQuantity}`)
-                                await find(item.components[i].name, region, calQuantity)
+                                console.log(`Interpolated value= ${getInterpolatedQuantity}`)
+                                await find(item.components[i].name, region, getInterpolatedQuantity)
                                         .then((emis) => {
                                             sum += emis;
                                         })
