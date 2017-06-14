@@ -2,10 +2,7 @@ var Emission = require('../models/emissionModel');
 
 let interpolate = (l1, l2, d) => {
     for(var x = 0; x < l1.length; x++){
-        if(d == l1[x]){
-            return l2[x];
-        }
-        if(d > l1[x] && d < l1[x+1] && x < l1.length - 1){
+        if(d >= l1[x] && d < l1[x+1] && x < l1.length - 1){
             l1Floor = l1[x]
             l1Ceil = l1[x+1];
             l2Floor = l2[x]
@@ -51,7 +48,7 @@ let find = (component, region, quantity) => {
                     (async function(){
                         for (let i = 0; i < numOfComponents; i++) {
                             if(item.components[i].quantity.length > 1){
-                                let calQuantity = await interpolate(item.quantity, item.components[i].quantity, quantity);
+                                let getInterpolatedQuantity = await interpolate(item.quantity, item.components[i].quantity, quantity);
                                 console.log(`calQuantity = ${calQuantity}`)
                                 await find(item.components[i].name, region, calQuantity)
                                         .then((emis) => {
