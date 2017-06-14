@@ -76,10 +76,11 @@ router.post('/vehicle', (req, res) => {
 	let type = req.body.type || 'Diesel';
 	let distance = req.body.distance;
 	let unit = req.body.unit || 'km';
-	let mileage = req.body.mileage;
+	let mileage = req.body.mileage || 20;
 	let mileage_unit = req.body.mileage_unit || 'km/L';
 
 	if (distance>=0 && mileage>=0){
+		if (mileage==0){mileage=1}//to prevent divide by zero case
 		let fuelConsumed = distance/mileage;
 		Emission.calculate(`fuel${type}`, 'Default', fuelConsumed)
 	        .then((sum) => {
