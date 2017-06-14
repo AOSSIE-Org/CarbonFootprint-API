@@ -2,10 +2,7 @@ var Emission = require('../models/emissionModel');
 
 let interpolate = (l1, l2, d) => {
     for(var x = 0; x < l1.length; x++){
-        if(d == l1[x]){
-            return l2[x];
-        }
-        if(d > l1[x] && d < l1[x+1] && x < l1.length - 1){
+        if(d >= l1[x] && d < l1[x+1] && x < l1.length - 1){
             l1Floor = l1[x]
             l1Ceil = l1[x+1];
             l2Floor = l2[x]
@@ -51,7 +48,7 @@ let find = (component, region, quantity) => {
                     (async function(){
                         for (let i = 0; i < numOfComponents; i++) {
                             if(item.components[i].quantity.length > 1){
-                                let calQuantity = await interpolate(item.quantity, item.components[i].quantity, quantity);
+                                let getInterpolatedQuantity = await interpolate(item.quantity, item.components[i].quantity, quantity);
                                 console.log(`calQuantity = ${calQuantity}`)
                                 await find(item.components[i].name, region, calQuantity)
                                         .then((emis) => {
@@ -82,25 +79,25 @@ let find = (component, region, quantity) => {
     });
 }
 
-exports.find = (req, res) => {
-    console.log(req.body);
-    let itemName = req.body["item"];
-    let region = req.body["region"] || "Default";
-    let quantity = req.body["quantity"] || 1;
+exports.calculate = (a, b, c) => find(a, b, c);
+    // console.log(req.body);
+    // let itemName = req.body["item"];
+    // let region = req.body["region"] || "Default";
+    // let quantity = req.body["quantity"] || 1;
 
-    find(itemName, region, quantity)
-        .then((sum) => {
-            console.log(`\nTotal Emissions: ${sum}`);
-            res.status(200).json({
-                success: true,
-                emissions: parseFloat(sum.toFixed(10))
-            });
-        })
-        .catch((err) => {
-            console.log(`Error: ${err}`);
-            res.json({
-                success: false,
-                err: err
-            });
-        });
-}
+    // find(itemName, region, quantity)
+    //     .then((sum) => {
+    //         console.log(`\nTotal Emissions: ${sum}`);
+    //         res.status(200).json({
+    //             success: true,
+    //             emissions: parseFloat(sum.toFixed(10))
+    //         });
+    //     })
+    //     .catch((err) => {
+    //         console.log(`Error: ${err}`);
+    //         res.json({
+    //             success: false,
+    //             err: err
+    //         });
+    //     });
+// }

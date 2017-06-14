@@ -58,7 +58,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //routes for api v1
 v1 = express.Router();
-v1.use('/emissions', emissions);
+v1.use('/', emissions);
 
 // Use v1 router for all the API requests adhering to version 1
 app.use('/v1', v1);
