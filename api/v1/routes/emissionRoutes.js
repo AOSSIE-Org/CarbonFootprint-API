@@ -40,12 +40,14 @@ router.post('/flight', (req, res) => {
 		let dest = airports[destination];
 		let distance = Helper.getDistanceFromLatLon(orig.lat, orig.lon, dest.lat, dest.lon);
 		distance *= 0.539957; // convert distance in km to nautical miles
-		if(!model && type == 'international'){
-			model = 'A380';
-		}
-		if(!model && type == 'domestic'){
-			model = 'A320'
-		}
+		if(!model){
+		  	if(type == 'international') {
+		  		model = 'A380';
+	          }
+	        if(type == 'domestic'){
+	        	model = 'A320';
+	        }
+	    }
 
 		Emission.calculate(`airplane model ${model}`, 'Default', distance)
 	        .then((sum) => {
@@ -76,11 +78,10 @@ router.post('/vehicle', (req, res) => {
 	let type = req.body.type || 'Diesel';
 	let distance = req.body.distance;
 	let unit = req.body.unit || 'km';
-	let mileage = req.body.mileage || 20;
+	let mileage = parseFloat(req.body.mileage) || 20;
 	let mileage_unit = req.body.mileage_unit || 'km/L';
 
-	if (distance>=0 && mileage>=0){
-		if (mileage==0){mileage=1}//to prevent divide by zero case
+	if (distance){
 		let fuelConsumed = distance/mileage;
 		Emission.calculate(`fuel${type}`, 'Default', fuelConsumed)
 	        .then((sum) => {
@@ -105,6 +106,7 @@ router.post('/vehicle', (req, res) => {
         });
 	}
 });
+
 module.exports = router;
 //curl test- curl -H "Content-Type: application/json" -X POST -d '{"item":"electricity","region":"Africa","unit":"kWh","quantity":1}' http://localhost:3080/v1/emissions
 //curl test- curl -H "Content-Type: application/json" -X POST -d '{"item":"airplane model A380","region":"Default","unit":"nm","quantity":125}' http://localhost:3080/v1/emissions
