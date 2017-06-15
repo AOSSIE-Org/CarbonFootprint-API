@@ -1,20 +1,24 @@
 // create electricity JSON using electricity emissions provided.
+
+// Use command `node createElectricityJSON.js | cat > electricity.json` 
+// to get a JSON file
+
 const data = require('./electricty_emission.json');
  
-console.log(`[`);
-for (let i in data) {
-    let obj = `{
+console.log(`[
+    {
         "item": "electricity",
-        "region": "${data[i]["Country"]}",
+        "region": "Default", 
         "quantity": 1,
-        "units": "kg/kWh",
+        "units": "kWh",
         "categories": ["electricity"],
         "components": [
             { "name": "generation", "quantity": 1, "units": "kWh" },
             { "name": "td", "quantity": 1, "units": "kWh" }
         ]
-    },
-	{
+    },`);
+for (let i in data) {
+    let obj = ` {
         "item": "generation",
         "region": "${data[i]["Country"]}",
         "quantity": 1,
