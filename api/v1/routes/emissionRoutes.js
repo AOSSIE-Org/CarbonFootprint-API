@@ -38,7 +38,7 @@ router.post('/flight', (req, res) => {
 	if(airports[origin] && airports[destination]){
 		let orig = airports[origin];
 		let dest = airports[destination];
-		let distance = Helper.getDistanceFromlatLon(orig.lat, orig.lon, dest.lat, dest.lon);
+		let distance = Helper.getDistanceFromLatLon(orig.lat, orig.lon, dest.lat, dest.lon);
 		distance *= 0.539957; // convert distance in km to nautical miles
 		if(!model && type == 'international'){
 			model = 'A380';
