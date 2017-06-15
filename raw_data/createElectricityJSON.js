@@ -18,7 +18,7 @@ console.log(`[
         ]
     },`);
 for (let i in data) {
-    let obj = ` {
+    let obj = `    {
         "item": "generation",
         "region": "${data[i]["Country"]}",
         "quantity": 1,
