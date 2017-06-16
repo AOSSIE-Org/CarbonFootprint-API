@@ -88,7 +88,11 @@ router.post('/vehicle', (req, res) => {
 	            console.log(`\nCO2 Emissions: ${sum}`);
 	            res.status(200).json({
 	                success: true,
-	                emissions: parseFloat(sum.toFixed(10))
+	                emissions: {						
+						"CO2": parseFloat(sum.toFixed(10)),
+						"unit": "kg"
+					}
+
 	            });
 	        })
 	        .catch((err) => {
