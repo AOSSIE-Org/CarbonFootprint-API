@@ -5,7 +5,7 @@ This route enables you to find GHG emissions for a number of fuels. The fuels th
 
 ### Sample Request JSON
 Method - __POST__
-```
+```JSON
 {
     type:"Petrol",
     distance: 100,
@@ -16,7 +16,7 @@ Method - __POST__
 ```
 ### Response Code
 1. 200 - Valid Request
-    ```
+    ```JSON
     {
         "sucess": True,
         "emissions": {
@@ -25,7 +25,7 @@ Method - __POST__
     }
     ```
 2. 400 - Error 
-    ```
+    ```JSON
     {
         "success": False,
         "error": 'Distance or Mileage cannot be less than zero'

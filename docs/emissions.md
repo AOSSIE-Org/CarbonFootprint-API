@@ -11,7 +11,7 @@ Sample Request JSON
 
 
 Method - __POST__
-```
+```JSON
 {
     "item": "electricity",
     "region": "india",
@@ -21,7 +21,7 @@ Method - __POST__
 ```
 Response Code
 1. 200 - Valid Request
-    ```
+    ```JSON
     {
         "sucess": True,
         "emissions": {
@@ -30,7 +30,7 @@ Response Code
     }
     ```
 2. 400 - Error 
-    ```
+    ```JSON
     {
         "success": False,
         "error": 'Unable to find component alpha for Default'
@@ -46,17 +46,17 @@ Sample Request JSON
 
 
 Method - __POST__
-```
+```JSON
 {
-    item:"Petrol",
-    region: 'Default',
-    quantity: 2,
-    unit: "L"
+    "item":"Petrol",
+    "region": 'Default',
+    "quantity": 2,
+    "unit": "L"
 }
 ```
 Response Code
 1. 200 - Valid Request
-    ```
+    ```JSON
     {
         "sucess": True,
         "emissions": {
@@ -65,7 +65,7 @@ Response Code
     }
     ```
 2. 400 - Error 
-    ```
+    ```JSON
     {
         "success": False,
         "error": 'Unable to find component alpha for Default'
