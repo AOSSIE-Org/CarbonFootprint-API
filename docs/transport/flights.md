@@ -38,7 +38,7 @@ POST /v1/flight
 	}
 }
 ```
-**Response** - `400`
+**Error** - `400`
 ```JSON
 {
 	"success": false,
