@@ -1,8 +1,9 @@
 # Vehicle Endpoint
+
+{% method %}
 This route enables you to find GHG emissions for a number of fuels.  
 
-`/v1/vehicle`
-
+## Sample Request JSON
 Method - __POST__
 ```
 {
@@ -28,6 +29,19 @@ Method - __POST__
         error: 'Distance or Mileage cannot be less than zero'
     }
     ```
+{% sample lang="http" %}
+```
+POST /v1/vehicle
+```
+**Parameters**
+
+| Name        | Type           | Description  |
+| ------------- |-------------| -----|
+| type<br><span style="color:red">_required_ </span>   | string | The fuel type used by the vehicle.|
+| distance<br><span style="color:red">_required_ </span>     | number | Distance travelled by the vehicle. |
+| unit     | string | Distance in SI unit. The default sets to 'km'. |
+| mileage    | string | The fuel efficiency of the vehicle i.e. distance travelled per unit of fuel. The default value is 20. |
+| Mileage unit     | string | The unit of mileage. The default sets to be 'km/L' |
 
 
-
+{% endmethod %}
