@@ -1,0 +1,9 @@
+{
+    "plugins": ["theme-api"],
+    "pluginsConfig": {
+        "theme-api": {
+            "theme": "dark",
+            "split": true
+        }
+    }
+}
