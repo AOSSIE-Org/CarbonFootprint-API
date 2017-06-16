@@ -18,5 +18,25 @@ POST /v1/flight
 | model     | string | Flight model (e.g A310). If no model is specified, flight model would default to A380 for international flights and A320 for domestic flights. |
 | passengers     | number | Pass the number of passengers to get the emissions relative to per person on the flight. |
 
+**Example**
+```
+{
+	"origin": "DEL",
+	"destination": "JFK",
+	"type": "international",
+	"model": "A380",
+	"passengers": 840
+}
+```
+**Response**
+```
+{
+	"success": true,
+	"emissions": {
+		"CO2": 122.192782162
+		"unit": "kg CO2/L"
+	}
+}
+```
 
 {% endmethod %}
