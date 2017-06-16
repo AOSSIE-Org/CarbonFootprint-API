@@ -9,6 +9,15 @@ let interpolate = (l1, l2, d) => {
             l2Ceil = l2[x+1];
             return l2Floor + ((l2Ceil - l2Floor)/(l1Ceil - l1Floor))*(d - l1Floor)
         }
+        if(d >= l1[l1.length-1]){
+            let slope=Math.abs((l2[l2.length-1]-l2[l2.length-2])/(l1[l1.length-1]-l1[l1.length-2]));
+            return l2[l2.length-1]+(slope*(d-l1[l1.length-1]))
+        }
+        if(d <= l1[0]){
+            let slope=Math.abs((l2[1]-l2[0])/(l1[1]-l1[0]));
+            console.log(slope*d)
+            return slope*d
+        }
     }
 }
 
@@ -49,8 +58,8 @@ let find = (component, region, quantity) => {
                         for (let i = 0; i < numOfComponents; i++) {
                             if(item.components[i].quantity.length > 1){
                                 let getInterpolatedQuantity = await interpolate(item.quantity, item.components[i].quantity, quantity);
-                                console.log(`calQuantity = ${calQuantity}`)
-                                await find(item.components[i].name, region, calQuantity)
+                                console.log(`Interpolated value= ${getInterpolatedQuantity}`)
+                                await find(item.components[i].name, region, getInterpolatedQuantity)
                                         .then((emis) => {
                                             sum += emis;
                                         })
