@@ -34,23 +34,22 @@ var json = require('../../../raw_data/electricty_emission.json');
 for(js in json){
   var obj = new Emission();
   obj.item="generation";
-  obj.itemType="atomic";
   obj.region=json[js]['Country'];
-  obj.quantity=1;
+  obj.quantity=[1];
   obj.unit="kg/kWh";
   obj.categories=["electricity"];
   obj.components=[
     {
     	name: "CO2",
-    	quantity: json[js]['Generation-CO2'],
+    	quantity: [json[js]['Generation-CO2']],
     	unit: "kg CO2/kWh"
     },{
     	name: "CH4",
-    	quantity: json[js]['Generation-CH4'],
+    	quantity: [json[js]['Generation-CH4']],
     	unit: "kg CH4/kWh"
     },{
     	name: "N20",
-    	quantity: json[js]['Generation-N20'],
+    	quantity: [json[js]['Generation-N2O']],
     	unit: "kg N20/kWh"
     }]
   obj.save(function(err){
