@@ -85,7 +85,7 @@ Response Code
 1. 200 - Valid Request
     ```JSON
     {
-        "sucess": True,
+        "success": True,
         "emissions": {
             "CO2": 4.65600
             "unit": "kg"
