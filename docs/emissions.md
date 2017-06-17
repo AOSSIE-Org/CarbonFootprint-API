@@ -67,6 +67,7 @@ Response Code
         "error": 'Unable to find component alpha for Default'
     }
     ```
+
 ### 3. Vehicle Fuel - 
 Emission route can be requested with fuel quantity and type and unit , to return the GHG emission generated on the consumption of the same.The fuels that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint/blob/master/Source/Core/core/resources/fuels.json). 
 
