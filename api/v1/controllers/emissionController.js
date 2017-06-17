@@ -15,8 +15,7 @@ let interpolate = (l1, l2, d) => {
         }
         if(d <= l1[0]){
             let slope=Math.abs((l2[1]-l2[0])/(l1[1]-l1[0]));
-            console.log(slope*d)
-            return slope*d
+            return slope*d;
         }
     }
 }
@@ -26,7 +25,11 @@ let interpolate = (l1, l2, d) => {
  * Refer to the Emission schema for more information on the components.
  */
 let find = (component, region, quantity) => {
-    var sum = 0; // emissions accumulator
+    var emissions = {
+        'CO2': 0,
+        'CH4': 0,
+        'N2O': 0
+    }; // emissions accumulator
     return new Promise((resolve, reject) => {
         // find the component in the database
         Emission.findOne({ 
@@ -43,13 +46,17 @@ let find = (component, region, quantity) => {
             // if component is found
             if (!err && item) {
                 console.log(`\nItem name: ${item.item} :: Region: ${item.region}`);
-                // if component type is atomic return its CO2 emissions
+                // if component type is atomic return it's emissions
                 if (item.components[0].name == 'CO2' ||
                     item.components[0].name == 'CH4' ||
                     item.components[0].name == 'N2O') {
-                    sum += (quantity * item.components[0].quantity[0]);
-                    console.log(`Emissions: ${sum} ${item.components[0].unit}`);
-                    resolve(sum);
+                    for(let i in item.components){
+                        if (emissions.hasOwnProperty(item.components[i].name)) {
+                            emissions[item.components[i].name] += (quantity * item.components[i].quantity[0]);
+                            console.log(`Emissions ${item.components[i].name}: ${emissions[item.components[i].name]} kg`);
+                        }
+                    }
+                    resolve(emissions);
                 }
                 // if component type is complex, recurse to find its atomic components
                 else {
@@ -58,26 +65,35 @@ let find = (component, region, quantity) => {
                         for (let i = 0; i < numOfComponents; i++) {
                             if(item.components[i].quantity.length > 1){
                                 let getInterpolatedQuantity = await interpolate(item.quantity, item.components[i].quantity, quantity);
-                                console.log(`Interpolated value= ${getInterpolatedQuantity}`)
+                                console.log(`Interpolated value = ${getInterpolatedQuantity}`)
                                 await find(item.components[i].name, region, getInterpolatedQuantity)
                                         .then((emis) => {
-                                            sum += emis;
+                                            for(let i in emis){
+                                                emissions[i] += emis[i];
+                                            }
                                         })
                                         .catch((err) => console.log(err));
                             }
                             else {
                                 await find(item.components[i].name, region, item.components[i].quantity[0])
                                         .then((emis) => {
-                                            sum += emis;
+                                            for(let i in emis){
+                                                emissions[i] += emis[i];
+                                            }
                                         })
                                         .catch((err) => console.log(err));
                             }
                         }
                     })().then(() => {
                         if(item.calculationMethod == 'interpolation'){
-                            resolve(sum);
+                            resolve(emissions);
                         }
-                        else resolve(quantity * sum);
+                        else {
+                            for(let i in emissions){
+                                emissions[i] *= quantity;
+                            }
+                            resolve(emissions);
+                        }
                     })
                     .catch((err) => console.log(err));
                 }
@@ -88,25 +104,16 @@ let find = (component, region, quantity) => {
     });
 }
 
-exports.calculate = (a, b, c) => find(a, b, c);
-    // console.log(req.body);
-    // let itemName = req.body["item"];
-    // let region = req.body["region"] || "Default";
-    // let quantity = req.body["quantity"] || 1;
+exports.calculate = async function(a, b, c){
+    let emissions = await find(a, b, c);
+    // round up the emission value upto 10 decimal points
+    for(let i in emissions){
+        emissions[i] = parseFloat(emissions[i].toFixed(10));
+        // remove CH4 or N2O key if emissions are zero
+        if(!emissions[i] && i != "CO2"){
+            delete emissions[i];
+        }
+    }
+    return emissions;
+}
 
-    // find(itemName, region, quantity)
-    //     .then((sum) => {
-    //         console.log(`\nTotal Emissions: ${sum}`);
-    //         res.status(200).json({
-    //             success: true,
-    //             emissions: parseFloat(sum.toFixed(10))
-    //         });
-    //     })
-    //     .catch((err) => {
-    //         console.log(`Error: ${err}`);
-    //         res.json({
-    //             success: false,
-    //             err: err
-    //         });
-    //     });
-// }
