@@ -23,7 +23,7 @@ Response Code
 1. 200 - Valid Request
     ```JSON
     {
-        "sucess": True,
+        "success": True,
         "emissions": {
             "CO2": 2.8164596816
             "unit": "kg"
@@ -38,12 +38,39 @@ Response Code
     ```
 
 ### 2. Airplane fuel -
-Airplane fuel converts the distance flown by a air plane to corresponing emission. 
+Airplane fuel converts the distance flown by a particular air plane to corresponing CO2 emission.
+Sample request JSON
+
+Method-__POST__
+```JSON
+{
+    "item":"airplane model A380",
+    "region":"Default",
+    "unit":"nm",
+    "quantity":125
+}
+```
+Response Code
+1. 200 - Valid Request
+    ```JSON
+    {
+        "success": True,
+        "emissions": {
+            "CO2": 18.39436
+            "unit": "kg"
+    }
+    ```
+2. 400 - Error 
+    ```JSON
+    {
+        "success": False,
+        "error": 'Unable to find component alpha for Default'
+    }
+    ```
 ### 3. Vehicle Fuel - 
 Emission route can be requested with fuel quantity and type and unit , to return the GHG emission generated on the consumption of the same.The fuels that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint/blob/master/Source/Core/core/resources/fuels.json). 
 
 Sample Request JSON
-
 
 Method - __POST__
 ```JSON
