@@ -21,7 +21,7 @@ describe("API endpoint testing", () => {
       .end((err, res) => {
         res.status.should.equal(200);
         res.body.success.should.equal(true);
-        res.body.emissions.should.equal(0.840987821);
+        res.body.emissions["CO2"].should.equal(0.840987821);
         done();
       });
   });
@@ -35,7 +35,7 @@ describe("API endpoint testing", () => {
       .end((err, res) => {
         res.status.should.equal(200);
         res.body.success.should.equal(true);
-        res.body.emissions.should.equal(0.752534108);
+        res.body.emissions["CO2"].should.equal(0.752534108);
         done();
       });
   });
@@ -49,7 +49,7 @@ describe("API endpoint testing", () => {
       .end((err, res) => {
         res.status.should.equal(200);
         res.body.success.should.equal(true);
-        res.body.emissions.should.equal(2.8164596816);
+        res.body.emissions["CO2"].should.equal(2.8164596816);
         done();
       });
   });
@@ -63,7 +63,7 @@ describe("API endpoint testing", () => {
       .end((err, res) => {
         res.status.should.equal(200);
         res.body.success.should.equal(true);
-        res.body.emissions.should.equal(0.013695132);
+        res.body.emissions["CO2"].should.equal(0.013695132);
         done();
       });
   });
@@ -77,7 +77,7 @@ describe("API endpoint testing", () => {
       .end((err, res) => {
         res.status.should.equal(200);
         res.body.success.should.equal(true);
-        res.body.emissions.should.equal(18.39436);
+        res.body.emissions["CO2"].should.equal(18.39436);
         done();
       });
   });
@@ -91,7 +91,7 @@ describe("API endpoint testing", () => {
         .end((err, res) => {
           res.status.should.equal(200);
           res.body.success.should.equal(true);
-          res.body.emissions.should.equal(220.715888);
+          res.body.emissions["CO2"].should.equal(220.715888);
           done();
         });
     });
@@ -105,7 +105,7 @@ describe("API endpoint testing", () => {
         .end((err, res) => {
           res.status.should.equal(200);
           res.body.success.should.equal(true);
-          res.body.emissions.should.equal(0.00316);
+          res.body.emissions["CO2"].should.equal(0.00316);
           done();
         });
     });
