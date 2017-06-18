@@ -40,6 +40,9 @@ mongoose.connection.on('disconnected', () => {
 var emissions = require('./api/v1/routes/emissionRoutes');
 var dashboard = require('./routes/dashboard');
 
+//Footprint Conversion Function
+var vehicleEmission = require('./footprintModels/vehicle');
+
 var app = express();
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
@@ -71,7 +74,6 @@ v1.use('/', emissions);
 app.use('/v1', v1);
 // show the API dashboard
 app.use('/dashboard', dashboard);
-
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
   var err = new Error('Not Found');
@@ -89,5 +91,7 @@ app.use((err, req, res, next) => {
   res.status(err.status || 500);
   res.render('error');
 });
+
+app.listen('8080');
 
 module.exports = app;
