@@ -48,9 +48,9 @@ for(js in json){
     	quantity: [json[js]['Generation-CH4']],
     	unit: "kg CH4/kWh"
     },{
-    	name: "N20",
+    	name: "N2O",
     	quantity: [json[js]['Generation-N2O']],
-    	unit: "kg N20/kWh"
+    	unit: "kg N2O/kWh"
     }]
   obj.save(function(err){
     if ( err ) throw err;
