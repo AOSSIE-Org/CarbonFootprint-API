@@ -20,9 +20,9 @@ Only [ICAO Airport Codes](https://en.wikipedia.org/wiki/International_Civil_Avia
 {
 	"success": true,
 	"emissions": {
-		"CO2": 122.192782162,
-		"unit": "kg CO2/L"
-	}
+		"CO2": 122.192782162
+	},
+	"unit": "kg"
 }
 ```
 `400` - **Error** 

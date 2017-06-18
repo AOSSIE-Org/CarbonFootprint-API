@@ -16,26 +16,30 @@ Method - __POST__
     "item": "electricity",
     "region": "india",
     "unit": "kWh",
-    "quantity": 1.564 }
+    "quantity": 1.564
 }
 ```
-Response Code
-1. 200 - Valid Request
-    ```JSON
-    {
-        "success": True,
-        "emissions": {
-            "CO2": 2.8164596816
-            "unit": "kg"
-    }
-    ```
-2. 400 - Error 
-    ```JSON
-    {
-        "success": False,
-        "error": 'Unable to find component alpha for Default'
-    }
-    ```
+**Response Code**
+
+`200` - Valid Request
+```JSON
+{
+    "success": true,
+    "emissions": {
+        "CO2": 2.8164596816,
+        "CH4": 0.000032794,
+        "N2O": 0.0000424829
+    },
+    "unit": "kg"
+}
+```
+`400` - Error 
+```JSON
+{
+    "success": false,
+    "error": "Unable to find component alpha for Default"
+}
+```    
 
 ### 2. Airplane fuel -
 Airplane fuel converts the distance flown by a particular air plane to corresponing CO2 emission.
@@ -44,29 +48,30 @@ Sample request JSON
 Method-__POST__
 ```JSON
 {
-    "item":"airplane model A380",
-    "region":"Default",
-    "unit":"nm",
-    "quantity":125
+    "item": "airplane model A380",
+    "unit": "nm",
+    "quantity": 125
 }
 ```
-Response Code
-1. 200 - Valid Request
-    ```JSON
-    {
-        "success": True,
-        "emissions": {
-            "CO2": 18.39436
-            "unit": "kg"
-    }
-    ```
-2. 400 - Error 
-    ```JSON
-    {
-        "success": False,
-        "error": 'Unable to find component alpha for Default'
-    }
-    ```
+**Response Code**
+
+`200` - Valid Request
+```JSON
+{
+    "success": true,
+    "emissions": {
+        "CO2": 18.39436
+    },
+    "unit": "kg"
+}
+```
+`400` - Error 
+```JSON
+{
+    "success": false,
+    "error": "Unable to find component alpha for Default"
+}
+```
 
 ### 3. Vehicle Fuel - 
 Emission route can be requested with fuel quantity and type and unit , to return the GHG emission generated on the consumption of the same.The fuels that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint/blob/master/Source/Core/core/resources/fuels.json). 
@@ -76,29 +81,32 @@ Sample Request JSON
 Method - __POST__
 ```JSON
 {
-    "item":"Petrol",
-    "region": 'Default',
+    "item":"fuelPetrol",
     "quantity": 2,
     "unit": "L"
 }
 ```
-Response Code
-1. 200 - Valid Request
-    ```JSON
-    {
-        "success": True,
-        "emissions": {
-            "CO2": 4.65600
-            "unit": "kg"
-    }
-    ```
-2. 400 - Error 
-    ```JSON
-    {
-        "success": False,
-        "error": 'Unable to find component alpha for Default'
-    }
-    ```
+**Response Code**
+
+`200` - Valid Request
+```JSON
+{
+    "success": true,
+    "emissions": {
+        "CO2": 4.656,
+        "CH4": 0.005015,
+        "N2O": 0.0125756
+    },
+    "unit": "kg"
+}
+```
+`400` - Error 
+```JSON
+{
+    "success": false,
+    "error": "Unable to find component alpha for Default"
+}
+```
 
 
 {% sample lang="http" %}
