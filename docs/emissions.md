@@ -86,10 +86,9 @@ Response Code
 1. 200 - Valid Request
     ```JSON
     {
-        "success": True,
-        "emissions": {
-            "CO2": 4.65600
-            "unit": "kg"
+        "success":true,
+        "emissions":{"CO2":4.656,"CH4":0.005015,"N2O":0.0125756},
+        "unit":"kg"
     }
     ```
 2. 400 - Error 
