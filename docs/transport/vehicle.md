@@ -6,29 +6,32 @@ This route enables you to find GHG emissions for a number of fuels. The fuels th
 **Example**
 ```JSON
 {
-    type:"Petrol",
-    distance: 100,
-    unit: "km",
-    mileage: 50,
-    mileage_unit: "km/L"
+    "type": "Petrol",
+    "distance": 100,
+    "unit": "km",
+    "mileage": 50,
+    "mileage_unit": "km/L"
 }
 ```
 `200` - **Response**
-    ```JSON
-    {
-        "sucess": True,
-        "emissions": {
-            "CO2": 4.65600
-            "unit": "kg"
-    }
-    ```
+```JSON
+{
+    "success": true,
+    "emissions": {
+        "CO2": 4.656,
+        "CH4": 0.005015,
+        "N2O": 0.0125756
+    },
+    "unit": "kg"
+}
+```
 `400` - **Error** 
-    ```JSON
-    {
-        "success": False,
-        "error": 'Distance or Mileage cannot be less than zero'
-    }
-    ```
+```JSON
+{
+    "success": false,
+    "error": "Distance or Mileage cannot be less than zero"
+}
+```
 {% sample lang="http" %}
 ```
 POST /v1/vehicle
