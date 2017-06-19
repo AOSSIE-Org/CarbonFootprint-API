@@ -35,7 +35,7 @@ for(js in json.treeData){
   obj.item=js;
   obj.region="Default";
   obj.quantity=[1];
-  obj.unit="kg";
+  obj.unit="year";
   obj.categories=["trees"];
   obj.components=[
     {
@@ -43,9 +43,9 @@ for(js in json.treeData){
     	quantity: [json.treeData[js]],
     	unit: "kg"
     }]
-//   obj.save(function(err){
-//     if ( err ) throw err;
-//     console.log("Object Saved Successfully");
-//   });
+  obj.save(function(err){
+    if ( err ) throw err;
+    console.log("Object Saved Successfully");
+  });
   console.log(obj);
 }
