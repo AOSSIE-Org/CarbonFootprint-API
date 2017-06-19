@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Carbon Emission Per Capita</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<style> /* set the CSS */
+
+.bar { fill: steelblue; }
+
+</style>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Per Capita Carbon Emissions Data By Country</a>
+            </div>
+
+
+            <div style="overflow-y:auto;height:100vh;" class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul  class="nav" id="myUL">
+                        <li class="sidebar-search">
+                            <div class="input-group custom-search-form">
+                                <input type="text" id="myInput" onkeyup="myFunction()" class="form-control" placeholder="Search...">
+                                <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                            </div>
+                            <!-- /input-group -->
+                        </li>
+                       
+
+
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+
+        <div id="page-wrapper">
+            <div class="row">
+                                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+
+            <!-- /.row -->
+            <div class="row">
+                <div class="col">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" >
+                            <i class="fa fa-bar-chart-o fa-fw"></i>
+                            Carbon dioxide emissions (CO2), metric tons of CO2 per capita (CDIAC)
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body" id="container1"></div>
+
+  
+                            
+                        </div>    
+                        <!-- /.panel-body -->
+                    </div>
+                    
+                  </div>
+                  <div class="center-block"><a href="https://mdgs.un.org/unsd/mdg/SeriesDetail.aspx?srid=751" class="btn btn-success pull-right">Data Source</a>
+                  </div>
+
+                <!-- /.col-lg-8 -->
+
+
+                        <!-- /.panel-heading -->
+
+                        <!-- /.panel-body -->
+
+                        <!-- /.panel-footer -->
+                    </div>
+                    <!-- /.panel .chat-panel -->
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="//d3js.org/d3.v4.min.js"></script>
+ 
+    <script src="../vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+
+
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/datamaps/0.5.8/datamaps.all.js"></script>
+  
+<script>
+    // example data from server
+    var series = [
+        ["BLR",75],["BLZ",43],["RUS",50],["RWA",88],["SRB",21],["TLS",43],
+        ["REU",21],["TKM",19],["TJK",60],["ROU",4],["TKL",44],["GNB",38],
+        ["GUM",67],["GTM",2],["SGS",95],["GRC",60],["GNQ",57],["GLP",53],
+        ["JPN",190],["GUY",24],["GGY",4],["GUF",21],["GEO",42],["GRD",65],
+        ["GBR",14],["GAB",47],["SLV",15],["GIN",19],["GMB",63],["GRL",56],
+        ["ERI",57],["MNE",93],["MDA",39],["MDG",71],["MAF",16],["MAR",8],
+        ["MCO",25],["UZB",81],["MMR",21],["MLI",95],["MAC",33],["MNG",93],
+        ["MHL",15],["MKD",52],["MUS",19],["MLT",69],["MWI",37],["MDV",44],
+        ["MTQ",13],["MNP",21],["MSR",89],["MRT",20],["IMN",72],["UGA",59],
+        ["TZA",62],["MYS",75],["MEX",80],["ISR",77],["FRA",54],["IOT",56],
+        ["SHN",91],["FIN",51],["FJI",22],["FLK",4],["FSM",69],["FRO",70],
+        ["NIC",66],["NLD",53],["NOR",7],["NAM",63],["VUT",15],["NCL",66],
+        ["NER",34],["NFK",33],["NGA",45],["NZL",96],["NPL",21],["NRU",13],
+        ["NIU",6],["COK",19],["XKX",32],["CIV",27],["CHE",65],["COL",64],
+        ["CHN",16],["CMR",70],["CHL",15],["CCK",85],["CAN",76],["COG",20],
+        ["CAF",93],["COD",36],["CZE",77],["CYP",65],["CXR",14],["CRI",31],
+        ["CUW",67],["CPV",63],["CUB",40],["SWZ",58],["SYR",96],["SXM",31]];
+
+
+    // Datamaps expect data in format:
+    // { "USA": { "fillColor": "#42a844", numberOfWhatever: 75},
+    //   "FRA": { "fillColor": "#8dc386", numberOfWhatever: 43 } }
+    var dataset = {};
+
+    // We need to colorize every country based on "numberOfWhatever"
+    // colors should be uniq for every value.
+    // For this purpose we create palette(using min/max series-value)
+    var onlyValues = series.map(function(obj){ return obj[1]; });
+    var minValue = Math.min.apply(null, onlyValues),
+            maxValue = Math.max.apply(null, onlyValues);
+
+    // create color palette function
+    // color can be whatever you wish
+    var paletteScale = d3.scale.linear()
+            .domain([minValue,maxValue])
+            .range(["#EFEFFF","#02386F"]); // blue color
+
+    // fill dataset in appropriate format
+    series.forEach(function(item){ //
+        // item example value ["USA", 70]
+        var iso = item[0],
+                value = item[1];
+        dataset[iso] = { numberOfThings: value, fillColor: paletteScale(value) };
+    });
+
+    // render map
+    new Datamap({
+        element: document.getElementById('container1'),
+        projection: 'mercator', // big world map
+        // countries don't listed in dataset will be painted with this color
+        fills: { defaultFill: '#F5F5F5' },
+        data: dataset,
+        geographyConfig: {
+            borderColor: '#DEDEDE',
+            highlightBorderWidth: 2,
+            // don't change color on mouse hover
+            highlightFillColor: function(geo) {
+                return geo['fillColor'] || '#F5F5F5';
+            },
+            // only change border
+            highlightBorderColor: '#B7B7B7',
+            // show desired information in tooltip
+            popupTemplate: function(geo, data) {
+                // don't show tooltip if country don't present in dataset
+                if (!data) { return ; }
+                // tooltip content
+                return ['<div class="hoverinfo">',
+                    '<strong>', geo.properties.name, '</strong>',
+                    '<br>Count: <strong>', data.numberOfThings, '</strong>',
+                    '</div>'].join('');
+            }
+        }
+    });
+</script>
+
+</body>
+
+</html>
+
+
