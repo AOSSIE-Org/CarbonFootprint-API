@@ -1,0 +1,200 @@
+{
+    "railcars" : {
+      "C02" : 0.0412,
+      "NO2" : -1,
+      "CH4" : -1,
+      "region" : "Default",
+      "category" : "Transport",
+      "method" : "simple",
+      "quantity" : [1],
+      "unit" : "kg/km",
+      "M.F.(multiply factor)" : 443
+    },
+    "frieght" : {
+      "C02" : 0.0191,
+      "NO2" : -1,
+      "CH4" : -1,
+      "region" : "Default",
+      "category" : "Transport",
+      "method" : "simple",
+      "quantity" : [1],
+      "unit" : "kg/km",
+      "M.F.(multiply factor)" : 1225
+    },
+    "intercités" : {
+      "C02" : 0.0108,
+      "NO2" : -1,
+      "CH4" : -1,
+      "region" : "France",
+      "category" : "Transport",
+      "method" : "simple",
+      "quantity" : [1],
+      "unit" : "kg/km",
+      "M.F.(multiply factor)" : 992
+    },
+    "tgv" : {
+      "C02" : 0.0032,
+      "NO2" : -1,
+      "CH4" : -1,
+      "region" : "France",
+      "category" : "Transport",
+      "method" : "simple",
+      "quantity" : [1],
+      "unit" : "kg/km",
+      "M.F.(multiply factor)" : 516
+    },
+    "tgv lyria" : {
+      "C02" : 0.0032,
+      "NO2" : -1,
+      "CH4" : -1,
+      "region" : "France",
+      "category" : "Transport",
+      "method" : "simple",
+      "quantity" : [1],
+      "unit" : "kg/km",
+      "M.F.(multiply factor)" : 516
+    },
+    "lyria" : {
+      "C02" : 0.0032,
+      "NO2" : -1,
+      "CH4" : -1,
+      "region" : "France",
+      "category" : "Transport",
+      "method" : "simple",
+        "quantity" : [1],
+      "unit" : "kg/km",
+      "M.F.(multiply factor)" : 426
+    },
+    "idtgv" : {
+      "C02" : 0.0032,
+      "NO2" : -1,
+      "CH4" : -1,
+      "region" : "France",
+      "category" : "Transport",
+      "method" : "simple",
+      "quantity" : [1],
+      "unit" : "kg/km",
+      "M.F.(multiply factor)" : 556
+    },
+    "ouigo" : {
+      "C02" : 0.0032,
+      "NO2" : -1,
+      "CH4" : -1,
+      "region" : "France",
+      "category" : "Transport",
+      "method" : "simple",
+      "quantity" : [1],
+      "unit" : "kg/km",
+      "M.F.(multiply factor)" : 556
+    },
+    "transilien" : {
+      "C02" : 0.0058,
+      "NO2" : -1,
+      "CH4" : -1,
+      "region" : "France",
+      "category" : "Transport",
+      "method" : "simple",
+      "quantity" : [1],
+      "unit" : "kg/km",
+      "M.F.(multiply factor)" : 556
+    },
+    "rer" : {
+      "C02" : 0.0058,
+      "NO2" : -1,
+      "CH4" : -1,
+      "region" : "France",
+      "category" : "Transport",
+      "method" : "simple",
+      "quantity" : [1],
+      "unit" : "kg/km",
+      "M.F.(multiply factor)" : 516
+    },
+    "ter" : {
+      "C02" : 0.0297,
+      "NO2" : -1,
+      "CH4" : -1,
+      "region" : "France",
+      "category" : "Transport",
+      "method" : "simple",
+      "quantity" : [1],
+      "unit" : "kg/km",
+      "M.F.(multiply factor)" : 124
+    },
+    "thalys" : {
+      "C02" : 0.0116,
+      "NO2" : -1,
+      "CH4" : -1,
+      "region" : "France",
+      "category" : "Transport",
+      "method" : "simple",
+      "quantity" : [1],
+      "unit" : "kg/km",
+      "M.F.(multiply factor)" : 351
+    },
+    "eurostar" : {
+      "C02" : 0.0082,
+      "NO2" : -1,
+      "CH4" : -1,
+      "region" : "France",
+      "category" : "Transport",
+      "method" : "simple",
+      "quantity" : [1],
+      "unit" : "kg/km",
+      "M.F.(multiply factor)" : 694
+    },
+    "elipsos" : {
+      "C02" : 0.027,
+      "NO2" : -1,
+      "CH4" : -1,
+      "region" : "France",
+      "category" : "Transport",
+      "method" : "simple",
+      "quantity" : [1],
+      "unit" : "kg/km",
+      "M.F.(multiply factor)" : 88
+    },
+    "gala" : {
+      "C02" : 0.012,
+      "NO2" : -1,
+      "CH4" : -1,
+      "region" : "France",
+      "category" : "Transport",
+      "method" : "simple",
+      "quantity" : [1],
+      "unit" : "kg/km",
+      "M.F.(multiply factor)" : 465
+    },
+    "alleo" : {
+      "C02" : 0.0113,
+      "NO2" : -1,
+      "CH4" : -1,
+      "region" : "France",
+      "category" : "Transport",
+      "method" : "simple",
+      "quantity" : [1],
+      "unit" : "kg/km",
+      "M.F.(multiply factor)" : 425
+    },
+    "railcars india" : {
+      "C02" : 0.0412,
+      "NO2" : -1,
+      "CH4" : -1,
+      "region" : "India",
+      "category" : "Transport",
+      "method" : "simple",
+      "quantity" : [1],
+      "unit" : "kg/km",
+      "M.F.(multiply factor)" : 1240
+    },
+    "freight india" : {
+      "C02" : 0.0191,
+      "NO2" : -1,
+      "CH4" : -1,
+      "region" : "India",
+      "category" : "Transport",
+      "method" : "simple",
+      "quantity" : [1],
+      "unit" : "kg/km",
+      "M.F.(multiply factor)" : 1225
+    }
+}
