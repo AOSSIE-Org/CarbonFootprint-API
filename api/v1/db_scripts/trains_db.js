@@ -1,3 +1,4 @@
+//run node trains_db.js to add data to db.
 var mongoose = require('mongoose');
 
 try{
@@ -32,7 +33,7 @@ for(items in trainsData){
     var obj = new Emission();
     obj.item = items;
     obj.region = trainsData[items]['region'];
-    obj.quantity = [trainsData[items]['quantity']];
+    obj.quantity = trainsData[items]['quantity'];
     obj.unit = 'km';
     obj.categories = ["trains",trainsData[items]['category']];
     obj.components = [
@@ -56,12 +57,11 @@ for(items in trainsData){
 }
 
 async function save(obj,items){
-    // await obj.save((err)=>{
-    //     if(err) console.error(err);
-    //     else console.log("Object for item "+items + " saved successfully");
+    await obj.save((err)=>{
+        if(err) console.error(err);
+        else console.log("Object for item "+items + " saved successfully");
         
-    // });
-    console.log(obj);
-    console.log("Object for item "+items + " saved successfully");
+    });
+    // console.log(obj);
 }
 mongoose.connection.close();
