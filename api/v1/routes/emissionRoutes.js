@@ -9,10 +9,10 @@ router.post('/emissions', (req, res) => {
 	let itemName = req.body["item"];
     let region = req.body["region"] || "Default";
     let quantity = req.body["quantity"] || 1;
-	let mf = req.body["multiply"] || 1;
-	Emission.calculate(itemName, region, quantity)
+	let multiply = req.body["multiply"] || 1;
+	Emission.calculate(itemName, region, quantity, multiply)
 		.then((emissions) => {
-            console.log(`\nTotal Emissions: ${emissions*mf}`);
+            console.log(`\nTotal Emissions: ${emissions}`);
             res.status(200).json({
                 success: true,
                 emissions: emissions,
