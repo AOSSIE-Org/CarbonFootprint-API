@@ -32,12 +32,12 @@ for(items in trainsData){
     var obj = new Emission();
     obj.item = items;
     obj.region = trainsData[items]['region'];
-    obj.quantity = trainsData[items]['quantity'];
+    obj.quantity = [trainsData[items]['quantity']];
     obj.unit = 'km';
-    obj.categories = trainsData[items]['categories'];
+    obj.categories = ["trains",trainsData[items]['category']];
     obj.components = [
         {
-            name:'C02',
+            name:'CO2',
             quantity :trainsData[items]['C02'],
             unit : trainsData[items]['unit']
         },
@@ -56,10 +56,12 @@ for(items in trainsData){
 }
 
 async function save(obj,items){
-    await obj.save((err)=>{
-        if(err) console.error(err);
-        else console.log("Object for item "+items + " saved successfully");
+    // await obj.save((err)=>{
+    //     if(err) console.error(err);
+    //     else console.log("Object for item "+items + " saved successfully");
         
-    });
+    // });
+    console.log(obj);
+    console.log("Object for item "+items + " saved successfully");
 }
 mongoose.connection.close();
