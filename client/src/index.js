@@ -1,8 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import './index.css';
+import Header from './components/Header/Header';
+import Body from "./components/Body/Body";
+
+class App extends React.Component {
+    render() {
+        return (
+            <div style={styles.app}>
+                <Header />
+                <Body />
+            </div>
+        );
+    }
+}
+
+const styles = {
+    app: {
+        width: "100%",
+        height: "100%",
+        display: "flex",
+        justifyContent: "stretch",
+        alignItems: "stretch",
+        flexDirection: "column",
+
+    }
+};
 
 ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+// registerServiceWorker();
