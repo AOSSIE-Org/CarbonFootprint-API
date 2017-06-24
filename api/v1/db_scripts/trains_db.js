@@ -39,17 +39,17 @@ for(items in trainsData){
     obj.components = [
         {
             name:'CO2',
-            quantity :trainsData[items]['C02'],
+            quantity :[trainsData[items]['CO2']],
             unit : trainsData[items]['unit']
         },
         {
             name:'NO2',
-            quantity:trainsData[items]['NO2'],
+            quantity:[trainsData[items]['NO2']],
             unit:trainsData[items]['unit']
         },
         {
             name:'CH4',
-            quantity:trainsData[items]['CH4'],
+            quantity:[trainsData[items]['CH4']],
             unit:trainsData[items]['unit']
         }
     ];
