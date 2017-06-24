@@ -107,7 +107,41 @@ Method - __POST__
     "error": "Unable to find component alpha for Default"
 }
 ```
-### 4. Trees - 
+### 4. Trains -
+Emission route can provide you with the emission generated from a train journey, provided with the distance of the journey.Here the item is the the train type and multiply signifies the number of passengers.
+
+Sample request JSON
+
+Method-__POST__
+```JSON
+{
+    "item":"railcars",
+    "region":"Default",
+    "quantity": 1000,
+    "unit": "kg/km",
+    "multiply": 3
+}
+```
+**Response Code**
+
+`200` - Valid Request
+```JSON
+{
+    "success": true,
+    "emissions": {
+        "CO2": 123.6
+    },
+    "unit": "kg"
+}
+```
+`400` - Error 
+```JSON
+{
+    "success": false,
+    "error": "Unable to find component alpha for Default"
+}
+```
+### 5. Trees - 
 Emission route can be requested with tree name and the number of years to find out the CO2 emisson from it per year.The trees that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint/blob/master/Source/Core/core/resources/trees.json). 
 
 Sample Request JSON
