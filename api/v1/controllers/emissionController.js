@@ -108,7 +108,7 @@ exports.calculate = async function(a, b, c ,d){
     let emissions = await find(a, b, c);
     // round up the emission value upto 10 decimal points
     for(let i in emissions){
-        emissions[i] = parseFloat(emissions[i].toFixed(10))*d;
+        emissions[i] = parseFloat((emissions[i]*d).toFixed(10));
         // remove CH4 or N2O key if emissions are zero
         if(!emissions[i] && i != "CO2"){
             delete emissions[i];
