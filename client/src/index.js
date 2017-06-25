@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
 import Header from './components/Header/Header';
 import Body from "./components/Body/Body";
-
-class App extends React.Component {
+export default class App extends React.Component {
     render() {
         return (
             <div style={styles.app}>
                 <Header />
                 <Body />
+                <mapBody />
             </div>
         );
     }
@@ -27,5 +27,5 @@ const styles = {
     }
 };
 
-ReactDOM.render(<App />, document.getElementById('root'));
+//ReactDOM.render(<App />, document.getElementById('root'));
 // registerServiceWorker();

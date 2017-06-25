@@ -11,7 +11,7 @@ export default class Header extends React.Component {
         );
     }
 }
-
+console.log('header.js is transpiled');
 const styles = {
     header: {
         width: '100%',
