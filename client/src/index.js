@@ -9,7 +9,6 @@ export default class App extends React.Component {
             <div style={styles.app}>
                 <Header />
                 <Body />
-                <mapBody />
             </div>
         );
     }
