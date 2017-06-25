@@ -37,11 +37,11 @@ mongoose.connection.on('disconnected', () => {
 });
 
 // get different routes required
-var index = require('./routes/index')
+var index = require('./routes/index');
+var main = require('./routes/main');
 var emissions = require('./api/v1/routes/emissionRoutes');
 var dashboard = require('./routes/dashboard');
 var electricity = require('./routes/electricity');
-
 var app = express();
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
@@ -66,13 +66,14 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 //routes for api v1
-v1 = express.Router();
+var v1 = express.Router();
 v1.use('/', emissions);
 
 // Use v1 router for all the API requests adhering to version 1
 app.use('/v1', v1);
 // show the API dashboard
 app.use('/', index);
+app.use('/',main);
 app.use('/dashboard', dashboard);
 app.use('/electricity',electricity);
 
