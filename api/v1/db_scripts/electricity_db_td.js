@@ -47,7 +47,7 @@ for(js in json){
     	quantity: [json[js]['Td-CH4']],
     	unit: "kg CH4/kWh"
     },{
-    	name: "N20",
+    	name: "N2O",
     	quantity: [json[js]['Td-N2O']],
     	unit: "kg N20/kWh"
     }]

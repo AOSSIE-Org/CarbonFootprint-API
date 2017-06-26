@@ -47,9 +47,9 @@ for(js in json){
     	quantity: [json[js]['CH4Emission']],
     	unit: "kg CH4/L"
     },{
-    	name: "N20",
+    	name: "N2O",
     	quantity: [json[js]['N2OEmission']],
-    	unit: "kg N20/L"
+    	unit: "kg N2O/L"
     },{
     	name: "GHG",
     	quantity: [json[js]['GHGEmission']],

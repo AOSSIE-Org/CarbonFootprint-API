@@ -19,6 +19,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-http": "^2.0.1",
+    "gitbook-cli": "^2.3.0",
     "mocha": "^2.4.5",
     "nodemon": "^1.11.0",
     "should": "^11.2.1",

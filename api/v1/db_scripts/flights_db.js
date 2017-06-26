@@ -29,7 +29,35 @@ mongoose.connection.on('disconnected', () => {
   console.log('Database disconnected'); 
 });
 var Emission = require('../models/emissionModel.js')
-
+let dist = [125, 250, 500, 750, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 8500];
+var json = require('../../../raw_data/flights.json');
+for(js in json){
+  var obj = new Emission();
+  obj.item=`airplane model ${json[js]["airplane model"]}`;
+  obj.region="Default";
+  
+  obj.quantity=[];
+  obj.unit="nm";
+  obj.categories=["flights"];
+  obj.calculationMethod="interpolation"
+  obj.components=[
+  {
+      name: "airplane fuel",
+      quantity: [],
+      unit: "kg"
+  }]
+  for(ds in dist){
+    if (json[js][dist[ds]]){
+      obj.quantity.push(dist[ds]);
+      obj.components[0].quantity.push(json[js][dist[ds]]);
+    }
+  }
+  obj.save(function(err){
+  if ( err ) throw err;
+  console.log("Object Saved Successfully");
+  });
+  console.log(obj);
+}
 
 var obj = new Emission();
 obj.item="airplane model A380";
@@ -48,7 +76,7 @@ obj.save(function(err){
 if ( err ) throw err;
 console.log("Object Saved Successfully");
 });
-console.log(obj);
+// console.log(obj);
 
 var obj = new Emission();
 obj.item="airplane model A320";

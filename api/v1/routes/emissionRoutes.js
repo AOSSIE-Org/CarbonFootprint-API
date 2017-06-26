@@ -10,11 +10,12 @@ router.post('/emissions', (req, res) => {
     let region = req.body["region"] || "Default";
     let quantity = req.body["quantity"] || 1;
 	Emission.calculate(itemName, region, quantity)
-		.then((sum) => {
-            console.log(`\nTotal Emissions: ${sum}`);
+		.then((emissions) => {
+            console.log(`\nTotal Emissions: ${emissions}`);
             res.status(200).json({
                 success: true,
-                emissions: parseFloat(sum.toFixed(10))
+                emissions: emissions,
+                unit: 'kg'
             });
         })
         .catch((err) => {
@@ -33,7 +34,7 @@ router.post('/flight', (req, res) => {
 	let origin = req.body.origin;
 	let destination = req.body.destination;
 	let passengers = req.body.passengers || 1;
-	let class = req.body.class || 'economy';
+	let seatType = req.body.seatType || 'economy';
 
 	if(airports[origin] && airports[destination]){
 		let orig = airports[origin];
@@ -50,11 +51,12 @@ router.post('/flight', (req, res) => {
 	    }
 
 		Emission.calculate(`airplane model ${model}`, 'Default', distance)
-	        .then((sum) => {
-	            console.log(`\nTotal Emissions: ${sum}`);
+	        .then((emissions) => {
+	            console.log(`\nTotal Emissions: ${emissions}`);
 	            res.status(200).json({
 	                success: true,
-	                emissions: parseFloat(sum.toFixed(10))
+	                emissions: emissions,
+                	unit: 'kg'
 	            });
 	        })
 	        .catch((err) => {
@@ -84,11 +86,12 @@ router.post('/vehicle', (req, res) => {
 	if (distance){
 		let fuelConsumed = distance/mileage;
 		Emission.calculate(`fuel${type}`, 'Default', fuelConsumed)
-	        .then((sum) => {
-	            console.log(`\nCO2 Emissions: ${sum}`);
+	        .then((emissions) => {
+	            console.log(`Emissions: ${emissions}`);
 	            res.status(200).json({
 	                success: true,
-	                emissions: parseFloat(sum.toFixed(10))
+	                emissions: emissions,
+                	unit: 'kg'
 	            });
 	        })
 	        .catch((err) => {
