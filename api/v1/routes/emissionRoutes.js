@@ -79,12 +79,15 @@ router.post('/flight', (req, res) => {
 
 router.post('/vehicle', (req, res) => {
 	let type = req.body.type || 'Diesel';
-	let distance = req.body.distance;
+	let origin = req.body.origin;
+	let destination = req.body.destination;
 	let unit = req.body.unit || 'km';
 	let mileage = parseFloat(req.body.mileage) || 20;
 	let mileage_unit = req.body.mileage_unit || 'km/L';
 
-	if (distance){
+	if (origin && destination){
+		let distance = Helper.distance(origin,destination,'driving');
+		console.log("CalculatedDistance="+distance);
 		let fuelConsumed = distance/mileage;
 		Emission.calculate(`fuel${type}`, 'Default', fuelConsumed)
 	        .then((emissions) => {
