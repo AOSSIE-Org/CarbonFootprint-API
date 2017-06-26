@@ -33,7 +33,6 @@ return new Promise((resolve, reject) => {
         transit_mode: ['rail'],
         transit_routing_preference: 'fewer_transfers'
     }, function (response, status) {
-        console.log("working");
         //  if (status == 'OK') {
         //   console.log("I am here");
         //   var origins = response.originAddresses;
@@ -49,7 +48,7 @@ return new Promise((resolve, reject) => {
         //     }
         //   }
         // }
-        resolve(200);
+        resolve(status.json.rows[0].elements[0].distance.value/100);
         // });
     });
 });}

@@ -90,6 +90,7 @@ router.post('/vehicle', async (req, res) => {
 		distance.then((val) => {
             console.log("CalculatedDistance= " + val);
             let fuelConsumed = val/mileage;
+			console.log(fuelConsumed);
             Emission.calculate(`fuel${type}`, 'Default', fuelConsumed)
                 .then((emissions) => {
                     console.log(`Emissions: ${emissions}`);
