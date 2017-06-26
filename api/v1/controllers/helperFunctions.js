@@ -32,28 +32,12 @@ exports.distance = (ori, dest, mod) => {
             transit_mode: ['rail'],
             transit_routing_preference: 'fewer_transfers'
         }, function (status, response) {
-            //  if (status == 'OK') {
-            //   console.log("I am here");
-            //   var origins = response.originAddresses;
-            //   var destinations = response.destinationAddresses;
-            //   for (var i = 0; i < origins.length; i++) {
-            //     var results = response.rows[i].elements;
-            //     for (var j = 0; j < results.length; j++) {
-            //       var element = results[j];
-            //       var distance = element.distance.text;
-            //       var duration = element.duration.text;
-            //       var from = origins[i];
-            //       var to = destinations[j];
-            //     }
-            //   }
-            // }
             if(response.json.status === 'OK'){
                 resolve(response.json.rows[0].elements[0].distance.value/1000);
             }
             else {
                 reject("Unable to find the distance between the origin and destination points.")
             }
-            // });
         });
     });
 };
