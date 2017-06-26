@@ -1,7 +1,16 @@
-const googleMapsClient = require('@google/maps').createClient({
-    key: 'AIzaSyD9rp-oHZvEBe2P-MJc7t56wTZwnwENIg8'
-});
 
+try {
+	var config = require('../../../config.json');
+}
+catch(e){
+	console.log(`File "config.json" is missing.`);
+	process.exit(1);
+}
+var api = config.apikeys;
+//google map api client defined
+var googleMapsClient = require('@google/maps').createClient({
+  key: `${api.googlemap}` 
+});
 exports.getDistanceFromLatLon = (lat1, lon1, lat2, lon2) => {
   let p = 0.017453292519943295;    // Math.PI / 180
   let c = Math.cos;

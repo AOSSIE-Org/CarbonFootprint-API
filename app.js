@@ -41,7 +41,6 @@ var index = require('./routes/index')
 var emissions = require('./api/v1/routes/emissionRoutes');
 var dashboard = require('./routes/dashboard');
 var electricity = require('./routes/electricity');
-
 var app = express();
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
