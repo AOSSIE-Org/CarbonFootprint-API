@@ -47,8 +47,8 @@ exports.distance = (ori, dest, mod) => {
             //     }
             //   }
             // }
-            if(status === 'OK'){
-                resolve(response.json.rows[0].elements[0].distance.value/100);
+            if(response.json.status === 'OK'){
+                resolve(response.json.rows[0].elements[0].distance.value/1000);
             }
             else {
                 reject("Unable to find the distance between the origin and destination points.")
