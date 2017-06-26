@@ -1,3 +1,7 @@
+const googleMapsClient = require('@google/maps').createClient({
+    key: 'AIzaSyD9rp-oHZvEBe2P-MJc7t56wTZwnwENIg8'
+});
+
 exports.getDistanceFromLatLon = (lat1, lon1, lat2, lon2) => {
   let p = 0.017453292519943295;    // Math.PI / 180
   let c = Math.cos;
