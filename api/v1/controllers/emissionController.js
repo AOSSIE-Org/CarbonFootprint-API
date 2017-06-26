@@ -65,7 +65,7 @@ let find = (component, region, quantity) => {
                         for (let i = 0; i < numOfComponents; i++) {
                             if(item.components[i].quantity.length > 1){
                                 let getInterpolatedQuantity = await interpolate(item.quantity, item.components[i].quantity, quantity);
-                                console.log(`Interpolated value = ${getInterpolatedQuantity}`)
+                                console.log(`Interpolated value = ${getInterpolatedQuantity}`);
                                 await find(item.components[i].name, region, getInterpolatedQuantity)
                                         .then((emis) => {
                                             for(let i in emis){
@@ -85,7 +85,7 @@ let find = (component, region, quantity) => {
                             }
                         }
                     })().then(() => {
-                        if(item.calculationMethod == 'interpolation'){
+                        if(item.calculationMethod === 'interpolation'){
                             resolve(emissions);
                         }
                         else {
@@ -104,13 +104,13 @@ let find = (component, region, quantity) => {
     });
 }
 
-exports.calculate = async function(a, b, c ,d){
+exports.calculate = async function(a, b, c, d = 1){
     let emissions = await find(a, b, c);
     // round up the emission value upto 10 decimal points
     for(let i in emissions){
         emissions[i] = parseFloat((emissions[i]*d).toFixed(10));
         // remove CH4 or N2O key if emissions are zero
-        if(!emissions[i] && i != "CO2"){
+        if(!emissions[i] && i !== "CO2"){
             delete emissions[i];
         }
     }

@@ -93,7 +93,7 @@ router.post('/vehicle', async (req, res) => {
 			console.log(fuelConsumed);
             Emission.calculate(`fuel${type}`, 'Default', fuelConsumed)
                 .then((emissions) => {
-                    console.log(`Emissions: ${emissions}`);
+                    console.log(`Emissions: ${JSON.stringify(emissions, null ,4)}`);
                     res.status(200).json({
                         success: true,
                         emissions: emissions,
