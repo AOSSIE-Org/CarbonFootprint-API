@@ -31,7 +31,7 @@ exports.distance = (ori, dest, mod) => {
             mode: mod,
             transit_mode: ['rail'],
             transit_routing_preference: 'fewer_transfers'
-        }, function (response, status) {
+        }, function (status, response) {
             //  if (status == 'OK') {
             //   console.log("I am here");
             //   var origins = response.originAddresses;
@@ -47,7 +47,12 @@ exports.distance = (ori, dest, mod) => {
             //     }
             //   }
             // }
-            resolve(status.json.rows[0].elements[0].distance.value/100);
+            if(status === 'OK'){
+                resolve(response.json.rows[0].elements[0].distance.value/100);
+            }
+            else {
+                reject("Unable to find the distance between the origin and destination points.")
+            }
             // });
         });
     });

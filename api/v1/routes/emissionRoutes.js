@@ -87,7 +87,8 @@ router.post('/vehicle', async (req, res) => {
 
 	if (origin && destination){
 		let distance = Helper.distance(origin,destination,'driving');
-		distance.then((val) => {
+		distance
+			.then((val) => {
             console.log("CalculatedDistance= " + val);
             let fuelConsumed = val/mileage;
 			console.log(fuelConsumed);
@@ -107,7 +108,14 @@ router.post('/vehicle', async (req, res) => {
                         err: `Unable to find emissions for fuel type ${type}`
                     });
                 });
-		});
+		})
+            .catch((err) => {
+                console.log(`Error: ${err}`);
+                res.json({
+                    success: false,
+                    err: err
+                });
+            });
 
 	}
 	else {
