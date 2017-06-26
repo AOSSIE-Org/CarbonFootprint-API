@@ -21,32 +21,35 @@ exports.getDistanceFromLatLon = (lat1, lon1, lat2, lon2) => {
 }; 
 //Using google map api to find distance.
 exports.distance = (ori,dest,mod) => {
-let dist = googleMapsClient.distanceMatrix({
-      origins: [
-        ori
-      ],
-      destinations: [
-        dest
-      ],
-      mode: mod,
-      transit_mode: ['rail'],
-      transit_routing_preference: 'fewer_transfers'
-    },function(response,status) {
-       console.log(response);
-       if (status == 'OK') {
-        console.log("I am here");
-        var origins = response.originAddresses;
-        var destinations = response.destinationAddresses;
-        for (var i = 0; i < origins.length; i++) {
-          var results = response.rows[i].elements;
-          for (var j = 0; j < results.length; j++) {
-            var element = results[j];
-            var distance = element.distance.text;
-            var duration = element.duration.text;
-            var from = origins[i];
-            var to = destinations[j];
-          }
-        }
-      }
-  });
-}
+return new Promise((resolve, reject) => {
+    googleMapsClient.distanceMatrix({
+        origins: [
+            ori
+        ],
+        destinations: [
+            dest
+        ],
+        mode: mod,
+        transit_mode: ['rail'],
+        transit_routing_preference: 'fewer_transfers'
+    }, function (response, status) {
+        console.log("working");
+        //  if (status == 'OK') {
+        //   console.log("I am here");
+        //   var origins = response.originAddresses;
+        //   var destinations = response.destinationAddresses;
+        //   for (var i = 0; i < origins.length; i++) {
+        //     var results = response.rows[i].elements;
+        //     for (var j = 0; j < results.length; j++) {
+        //       var element = results[j];
+        //       var distance = element.distance.text;
+        //       var duration = element.duration.text;
+        //       var from = origins[i];
+        //       var to = destinations[j];
+        //     }
+        //   }
+        // }
+        resolve(200);
+        // });
+    });
+});}

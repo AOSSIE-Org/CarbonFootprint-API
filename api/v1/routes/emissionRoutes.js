@@ -77,7 +77,7 @@ router.post('/flight', (req, res) => {
 
 });
 
-router.post('/vehicle', (req, res) => {
+router.post('/vehicle', async (req, res) => {
 	let type = req.body.type || 'Diesel';
 	let origin = req.body.origin;
 	let destination = req.body.destination;
@@ -87,24 +87,27 @@ router.post('/vehicle', (req, res) => {
 
 	if (origin && destination){
 		let distance = Helper.distance(origin,destination,'driving');
-		console.log("CalculatedDistance="+distance);
-		let fuelConsumed = distance/mileage;
-		Emission.calculate(`fuel${type}`, 'Default', fuelConsumed)
-	        .then((emissions) => {
-	            console.log(`Emissions: ${emissions}`);
-	            res.status(200).json({
-	                success: true,
-	                emissions: emissions,
-                	unit: 'kg'
-	            });
-	        })
-	        .catch((err) => {
-	            console.log(`Error: ${err}`);
-	            res.json({
-	                success: false,
-	                err: `Unable to find emissions for fuel type ${type}`
-	            });
-	        });
+		distance.then((val) => {
+            console.log("CalculatedDistance= " + val);
+            let fuelConsumed = val/mileage;
+            Emission.calculate(`fuel${type}`, 'Default', fuelConsumed)
+                .then((emissions) => {
+                    console.log(`Emissions: ${emissions}`);
+                    res.status(200).json({
+                        success: true,
+                        emissions: emissions,
+                        unit: 'kg'
+                    });
+                })
+                .catch((err) => {
+                    console.log(`Error: ${err}`);
+                    res.json({
+                        success: false,
+                        err: `Unable to find emissions for fuel type ${type}`
+                    });
+                });
+		});
+
 	}
 	else {
 		res.status(400).json({
