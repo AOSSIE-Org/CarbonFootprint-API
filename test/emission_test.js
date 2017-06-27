@@ -109,4 +109,32 @@ describe("API endpoint testing", () => {
           done();
         });
     });
+
+    it("should return correct values for vehicle emissions for a two location points , testing map api", (done) => {
+      server
+        .post('/v1/vehicle')
+        .send({"type": "Petrol","origin": "Bhubaneswar","destination": "Cuttack","mileage": 50,"mileage_unit": "km/L"})
+        .expect("Content-type", /json/)
+        .expect(200)
+        .end((err, res) => {
+          res.status.should.equal(200);
+          res.body.success.should.equal(true);
+          res.body.emissions["CO2"].should.equal(1.20362256);
+          done();
+        });
+    });
+
+    it("should return correct values for train emissions for a two location points , testing map api", (done) => {
+      server
+        .post('/v1/trains')
+        .send({"type":"railcars","origin":"Bhubaneswar","destination":"Delhi","passengers":10})
+        .expect("Content-type", /json/)
+        .expect(200)
+        .end((err, res) => {
+          res.status.should.equal(200);
+          res.body.success.should.equal(true);
+          res.body.emissions["CO2"].should.equal(750.104916);
+          done();
+        });
+    });
 });
