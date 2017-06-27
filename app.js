@@ -73,7 +73,7 @@ v1.use('/', emissions);
 app.use('/v1', v1);
 // show the API dashboard
 app.use('/', index);
-app.use('/',main);
+app.use('/main',main);
 app.use('/dashboard', dashboard);
 app.use('/electricity',electricity);
 
