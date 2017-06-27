@@ -189,5 +189,6 @@ POST /v1/vehicle
 | region<br><span style="color:red">_required_ </span>     | string | Distance travelled by the vehicle. |
 | quantity  <br><span style="color:red">_required_ </span>   | number | The number of units of the item for which emissions are to be calculated. |
 | unit  | string | The unit of the element for which emissions are to be calculated.  |
+| multiply  | number | If emissions are to be found for multiple elements.  |
 
 {% endmethod %}
