@@ -126,6 +126,53 @@ router.post('/vehicle', async (req, res) => {
 	}
 });
 
+router.post('/trains', async (req, res) => {
+	let type = req.body.type || 'railcars';
+	let region = req.body.region || 'Default';
+	let origin = req.body.origin;
+	let destination = req.body.destination;
+	let passengers = req.body.passengers || 1;
+
+	if (origin && destination){
+		let distance = Helper.distance(origin,destination,'transit');
+		distance
+			.then((val) => {
+            console.log("CalculatedDistance= " + val);
+			console.log("CalculatedPassengers= " + passengers);
+            Emission.calculate(type ,'Default', val ,passengers)
+                .then((emissions) => {
+                    console.log(`Emissions: ${JSON.stringify(emissions, null ,4)}`);
+                    res.status(200).json({
+                        success: true,
+                        emissions: emissions,
+                        unit: 'kg'
+                    });
+                })
+                .catch((err) => {
+                    console.log(`Error: ${err}`);
+                    res.json({
+                        success: false,
+                        err: `Unable to find emissions for fuel type ${type}`
+                    });
+                });
+		})
+            .catch((err) => {
+                console.log(`Error: ${err}`);
+                res.json({
+                    success: false,
+                    err: err
+                });
+            });
+
+	}
+	else {
+		res.status(400).json({
+            success: false,
+            error: 'Distance cannot be less than zero'
+        });
+	}
+});
+
 module.exports = router;
 //curl test- curl -H "Content-Type: application/json" -X POST -d '{"item":"electricity","region":"Africa","unit":"kWh","quantity":1}' http://localhost:3080/v1/emissions
 //curl test- curl -H "Content-Type: application/json" -X POST -d '{"item":"airplane model A380","region":"Default","unit":"nm","quantity":125}' http://localhost:3080/v1/emissions
