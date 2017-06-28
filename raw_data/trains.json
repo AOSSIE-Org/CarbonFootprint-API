@@ -21,7 +21,7 @@
       "unit" : "kg/km",
       "M.F.(multiply factor)" : 1225
     },
-    "intercités" : {
+    "intercites" : {
       "C02" : 0.0108,
       "NO2" : 0,
       "CH4" : 0,
@@ -43,7 +43,7 @@
       "unit" : "kg/km",
       "M.F.(multiply factor)" : 516
     },
-    "tgv lyria" : {
+    "tgv-lyria" : {
       "C02" : 0.0032,
       "NO2" : 0,
       "CH4" : 0,
