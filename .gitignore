@@ -45,4 +45,4 @@ _book/
 config.json
 
 #bundle file for react
-public/assets/js/bundle.js
+bundle.js

@@ -20,7 +20,7 @@ export default class WorldMap extends Component {
         console.log("Clicked on country: ", this.state.worlddata[countryIndex])
     }
     componentDidMount() {
-        fetch("./world-110m.json")
+        fetch("./data/world-110m.json")
             .then(response => {
                 if (response.status !== 200) {
                     console.log(`There was a problem: ${response.status}`)

@@ -2,9 +2,9 @@ const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
-    entry: path.join(__dirname, 'client','src', 'routes.js'),
+    entry: path.join(__dirname, '/client/src/routes.js'),
     output: {
-        path:path.join(__dirname, 'public', 'assets', 'js'),
+        path:path.join(__dirname, '/client/public/js'),
         filename:'bundle.js'
     },
     resolve: {
@@ -15,7 +15,7 @@ module.exports = {
             test: /\.jsx?/,
             loader: 'babel-loader',
             exclude : '/node_modules/',
-            include: path.join(__dirname,'client','src')
+            include: path.join(__dirname,'/client/src')
         }]
     }
 };
