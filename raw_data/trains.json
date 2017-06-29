@@ -175,7 +175,7 @@
       "unit" : "kg/km",
       "M.F.(multiply factor)" : 425
     },
-    "railcars india" : {
+    "railcars-india" : {
       "C02" : 0.0412,
       "NO2" : 0,
       "CH4" : 0,
@@ -186,7 +186,7 @@
       "unit" : "kg/km",
       "M.F.(multiply factor)" : 1240
     },
-    "freight india" : {
+    "freight-india" : {
       "C02" : 0.0191,
       "NO2" : 0,
       "CH4" : 0,
