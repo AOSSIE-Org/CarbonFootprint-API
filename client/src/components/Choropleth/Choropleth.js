@@ -16,8 +16,15 @@ export default class WorldMap extends Component {
             .scale(100)
             .translate([ 800 / 2, 450 / 2 ])
     }
-    handleCountryClick(countryIndex) {
-        console.log("Clicked on country: ", this.state.worlddata[countryIndex])
+    handleCountryClick(countryIndex, e) {
+        // console.log("Clicked on country: ", this.state.worlddata[countryIndex])
+        this.props.showTooltip(countryIndex, e.clientX, e.clientY);
+    }
+    handleMouseEnter(e) {
+        this.props.showTooltip(e.clientX, e.clientY);
+    }
+    handleMouseLeave() {
+        this.props.hideTooltip();
     }
     componentDidMount() {
         fetch("./data/world-110m.json")
@@ -46,7 +53,9 @@ export default class WorldMap extends Component {
                                 fill={ `rgba(200,190,14,${1 / this.state.worlddata.length * i}` }
                                 stroke="#e8bb47"
                                 strokeWidth={ 0.5 }
-                                onClick={ () => this.handleCountryClick(i) }
+                                onClick={ (e) => this.handleCountryClick(i, e) }
+                                onMouseMove={(e) => this.handleMouseEnter(e)}
+                                onMouseLeave={() => this.handleMouseLeave()}
                             />
                         ))
                     }
