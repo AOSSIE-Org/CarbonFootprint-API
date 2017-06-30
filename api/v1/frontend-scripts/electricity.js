@@ -10,15 +10,16 @@ let findcode = (country) => {
     }    
   }  
 }
-var obj = [];
+var obj={};
 for (js in electricity){
   if (findcode(electricity[js]['Country'])){
-    obj.push({"name":electricity[js]['Country'],
-              "code":findcode(electricity[js]['Country']),
+    obj[findcode(electricity[js]['Country'])]=
+              {"name":electricity[js]['Country'],
               "CO2":electricity[js]['Consum-CO2'],
               "CH4":electricity[js]['Consum-CH4'],
               "N2O":electricity[js]['Consum-N2O'],
-            })
+              "unit":"kg/kWh"
+            };
   }
 }
 jsonStr = JSON.stringify(obj);
