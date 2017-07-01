@@ -9,8 +9,11 @@ class Tooltip extends React.Component {
 
     render(){
         return (
-            <div style={{width: "100px", height: "100px", background: "#fff", position: "absolute", top: this.props.top, left: this.props.left}}>
-                ToolTip
+            <div style={{minWidth: "250px", padding: "30px", background: "#efefef", position: "absolute", bottom: "15px", left: "15px"}}>
+                <div><strong>Country</strong>: {this.props.data.name}</div>
+                <div><strong>CO<sub>2</sub></strong>: {this.props.data.CO2} {this.props.data.unit}</div>
+                <div><strong>CH<sub>4</sub></strong>: {this.props.data.CH4} {this.props.data.unit}</div>
+                <div><strong>N<sub>2</sub>O</strong>: {this.props.data.N2O} {this.props.data.unit}</div>
             </div>
         )
     }
@@ -26,13 +29,13 @@ export default class Body extends React.Component {
         this.hideTooltip = this.hideTooltip.bind(this);
     }
 
-    showTooltip(x, y) {
-        console.log(x, y);
-        this.setState({
-            showTooltip: true,
-            left: x,
-            top: y
-        })
+    showTooltip(data){
+        if(data){
+            this.setState({
+                showTooltip: true,
+                tooltipData: data
+            })
+        }
     };
 
     hideTooltip() {
@@ -46,7 +49,7 @@ export default class Body extends React.Component {
             <div style={styles.body}>
                 <div style={styles.card}>
                     <Choropleth showTooltip={this.showTooltip} hideTooltip={this.hideTooltip} />
-                    {this.state.showTooltip && <Tooltip top={this.state.top} left={this.state.left} /> }
+                    {this.state.showTooltip && <Tooltip data={this.state.tooltipData} />}
                 </div>
             </div>
         );
@@ -70,5 +73,6 @@ const styles = {
         backgroundRepeat: "repeat",
         backgroundSize: "7px",
         boxShadow: "1px 1px 5px #bbb",
+        position: "relative"
     }
 };

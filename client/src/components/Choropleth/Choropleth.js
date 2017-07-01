@@ -7,21 +7,18 @@ export default class WorldMap extends Component {
         super()
         this.state = {
             worlddata: [],
+            emissions: {}
         }
-
-        this.handleCountryClick = this.handleCountryClick.bind(this)
     }
+
     projection() {
         return geoMercator()
             .scale(100)
             .translate([ 800 / 2, 450 / 2 ])
     }
-    handleCountryClick(countryIndex, e) {
-        // console.log("Clicked on country: ", this.state.worlddata[countryIndex])
-        this.props.showTooltip(countryIndex, e.clientX, e.clientY);
-    }
-    handleMouseEnter(e) {
-        this.props.showTooltip(e.clientX, e.clientY);
+
+    handleMouseEnter(data) {
+        this.props.showTooltip(data);
     }
     handleMouseLeave() {
         this.props.hideTooltip();
@@ -31,14 +28,26 @@ export default class WorldMap extends Component {
             .then(response => {
                 if (response.status !== 200) {
                     console.log(`There was a problem: ${response.status}`)
-                    return
+                    return;
                 }
                 response.json().then(worlddata => {
                     this.setState({
                         worlddata: feature(worlddata, worlddata.objects.countries).features,
                     })
                 })
-            })
+            });
+        fetch("./data/electricity.json")
+            .then(response => {
+                if (response.status !== 200) {
+                    console.log(`There was a problem: ${response.status}`)
+                    return;
+                }
+                response.json().then(emissions => {
+                    this.setState({
+                        emissions
+                    })
+                })
+            });
     }
     render() {
         return (
@@ -49,12 +58,11 @@ export default class WorldMap extends Component {
                             <path
                                 key={ `path-${ i }` }
                                 d={ geoPath().projection(this.projection())(d) }
-                                className="country"
-                                fill={ `rgba(200,190,14,${1 / this.state.worlddata.length * i}` }
-                                stroke="#e8bb47"
-                                strokeWidth={ 0.5 }
-                                onClick={ (e) => this.handleCountryClick(i, e) }
-                                onMouseMove={(e) => this.handleMouseEnter(e)}
+                                className={(this.state.emissions[d.id])?"country": ""}
+                                fill={ (this.state.emissions[d.id])?`rgba(200,190,14,${this.state.emissions[d.id]["CO2"]}`:"#efefef" }
+                                stroke={(this.state.emissions[d.id])?"#e89f46": "#ddd"}
+                                strokeWidth={ 0.6 }
+                                onMouseOver={() => this.handleMouseEnter(this.state.emissions[d.id])}
                                 onMouseLeave={() => this.handleMouseLeave()}
                             />
                         ))
