@@ -1,13 +1,9 @@
 var Emission = require('../models/emissionModel');
-
+var spline = require('cubic-spline');
 let interpolate = (l1, l2, d) => {
     for(var x = 0; x < l1.length; x++){
         if(d >= l1[x] && d < l1[x+1] && x < l1.length - 1){
-            l1Floor = l1[x]
-            l1Ceil = l1[x+1];
-            l2Floor = l2[x]
-            l2Ceil = l2[x+1];
-            return l2Floor + ((l2Ceil - l2Floor)/(l1Ceil - l1Floor))*(d - l1Floor)
+            return spline(d,l1,l2)
         }
         if(d >= l1[l1.length-1]){
             let slope=Math.abs((l2[l2.length-1]-l2[l2.length-2])/(l1[l1.length-1]-l1[l1.length-2]));
