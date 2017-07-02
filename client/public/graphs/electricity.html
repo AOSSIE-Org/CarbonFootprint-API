@@ -89,7 +89,7 @@
         .attr('class', 'd3-tip')
         .offset([-10, 0])
         .html(function(d) {
-            return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>Population: </strong><span class='details'>" + format(d.population) +"</span>";
+            return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>CO2: </strong><span class='details'>" + format(d.CO2)+ "<br></span>" + "<strong>CH4: </strong><span class='details'>" + format(d.CH4)+ "<br></span>" + "<strong>N2O: </strong><span class='details'>" + format(d.N2O) +"</span>";
         })
 
     var margin = {top: 0, right: 0, bottom: 0, left: 0},
@@ -127,7 +127,17 @@
         for (js in population){
             populationById[js]=population[js].CO2;
         }
-        data.features.forEach(function(d) { d.population = populationById[d.id] });
+        data.features.forEach(function(d) { 
+            if(populationById[d.id])
+            {
+                d.CO2 = populationById[d.id];
+                d.CH4 = population[d.id].CH4;
+                d.N2O = population[d.id].N2O;
+            }
+            else{
+                d.CO2 = 0;
+            }
+         });
 
         svg.append("g")
             .attr("class", "countries")
@@ -135,7 +145,15 @@
             .data(data.features)
             .enter().append("path")
             .attr("d", path)
-            .style("fill", function(d) { return color(populationById[d.id]); })
+            .style("fill", function(d) { 
+                if(populationById[d.id])
+                    {
+                        return color(populationById[d.id]);
+                    }
+                else{
+                        return "rgb(204, 255, 51)";
+                    }
+                })
             .style('stroke', 'white')
             .style('stroke-width', 1.5)
             .style("opacity",0.8)
