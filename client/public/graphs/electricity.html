@@ -123,8 +123,7 @@
         .defer(d3.json, "../data/electricity.json")
         .await(ready);
 
-    function ready(error, data, population) {
-        // var populationById = {};
+    function ready(error, data, emission) {
 
         // population.forEach(function(d) { populationById[d.id] = +d.CO2; });
         data.features.forEach(function(d) { 
@@ -140,8 +139,6 @@
             }
         });
 
-        console.log(data, population)
-
         svg.append("g")
             .attr("class", "countries")
             .selectAll("path")
@@ -156,12 +153,14 @@
             .style("stroke","#555")
             .style('stroke-width', 0.3)
             .on('mouseover',function(d){
-                tip.show(d);
+                 if(emission[d.id]){   
+                    tip.show(d);
 
-                d3.select(this)
-                    .style("opacity", 1)
-                    .style("stroke","white")
-                    .style("stroke-width",3);
+                    d3.select(this)
+                        .style("opacity", 1)
+                        .style("stroke","white")
+                        .style("stroke-width",3);
+                 }
             })
             .on('mouseout', function(d){
                 tip.hide(d);
