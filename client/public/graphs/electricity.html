@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <style>
-
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGElEQVQYV2NkYGCQYmBgeMYABYwwBvECAD1WAQVZi1QaAAAAAElFTkSuQmCC)";
+        background-repeat: "repeat";
+        background-size: "7px";
+    }
     .names {
         fill: none;
         stroke: #fff;
@@ -94,12 +100,12 @@
         })
 
     var margin = {top: 0, right: 0, bottom: 0, left: 0},
-        width = 960 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+        width = window.innerWidth - margin.left - margin.right,
+        height = window.innerHeight - margin.top - margin.bottom;
 
     var color = d3.scaleThreshold()
-        .domain([0, 0.2, 0.4, 0.6, 0.8, 1.2, 1.6, 2.0, 2.6])
-        .range(["rgb(0,0,0)", "rgb(235,235,235)", "rgb(158,202,225)", "rgb(107,174,214)", "rgb(66,146,198)","rgb(33,113,181)","rgb(8,81,156)","rgb(8,48,107)","rgb(3,19,43)"]);
+        .domain([0, 0.4, 0.8, 1.2, 1.6, 2.0, 2.4, 2.8])
+        .range(['#acd7ef','#99c1da','#85abc5','#7396b1','#61809d','#4f6d8a','#3d5976','#2c4664']);
 
     var path = d3.geoPath();
 
@@ -124,14 +130,12 @@
         .await(ready);
 
     function ready(error, data, emission) {
-
-        // population.forEach(function(d) { populationById[d.id] = +d.CO2; });
         data.features.forEach(function(d) { 
-            if(population.hasOwnProperty(d.id)){
-                d["CO2"] = +population[d.id]["CO2"];
-                d["CH4"] = +population[d.id]["CH4"];
-                d["N2O"] = +population[d.id]["N2O"];
-                d["unit"] = population[d.id]["unit"];
+            if(emission.hasOwnProperty(d.id)){
+                d["CO2"] = +emission[d.id]["CO2"];
+                d["CH4"] = +emission[d.id]["CH4"];
+                d["N2O"] = +emission[d.id]["N2O"];
+                d["unit"] = emission[d.id]["unit"];
             }
             else {
                 d["CO2"] = d["CH4"] = d["N2O"] = 0;
@@ -145,17 +149,16 @@
             .data(data.features)
             .enter().append("path")
             .attr("d", path)
-            .style("fill", function(d) { return color(d["CO2"]); })
-            .style('stroke', '#555')
-            .style('stroke-width', 1.5)
+            .style("fill", function(d) { return (emission[d.id])?color(d["CO2"]):"#eee"; })
+            // .style('stroke', '#555')
+            // .style('stroke-width', 1.5)
             .style("opacity",0.8)
             // tooltips
-            .style("stroke","#555")
-            .style('stroke-width', 0.3)
+            .style("stroke","#777")
+            .style('stroke-width', 0.5)
             .on('mouseover',function(d){
                  if(emission[d.id]){   
                     tip.show(d);
-
                     d3.select(this)
                         .style("opacity", 1)
                         .style("stroke","white")
@@ -164,16 +167,14 @@
             })
             .on('mouseout', function(d){
                 tip.hide(d);
-
                 d3.select(this)
                     .style("opacity", 0.8)
-                    .style("stroke","#555")
+                    .style("stroke","#777")
                     .style("stroke-width",0.3);
             });
 
         svg.append("path")
             .datum(topojson.mesh(data.features, function(a, b) { return a.id !== b.id; }))
-            // .datum(topojson.mesh(data.features, function(a, b) { return a !== b; }))
             .attr("class", "names")
             .attr("d", path);
     }
