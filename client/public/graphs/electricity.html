@@ -91,7 +91,7 @@
         .offset([-10, 0])
         .html(function(d) {
             return `<strong>Country: </strong><span class='details'>${d.properties.name}<br></span>
-            <strong>CO<sub>2</sub>: </strong><span class='details'>${d["CO2"].toString()} ${d.unit}</span><br>
+            <strong>CO<sub>2</sub>: </strong><span class='details'>${d["CO2"]} ${d.unit}</span><br>
             <strong>CH<sub>4</sub>: </strong><span class='details'>${d["CH4"]} ${d.unit}</span><br>
             <strong>N<sub>2</sub>O: </strong><span class='details'>${d["N2O"]} ${d.unit}</span>`;
         })
@@ -114,8 +114,8 @@
         .attr('class', 'map');
 
     var projection = d3.geoMercator()
-        .scale(130)
-        .translate( [width / 2, height / 1.5]);
+        .scale(125)
+        .translate( [width / 2, height / 1.45]);
 
     var path = d3.geoPath().projection(projection);
 
