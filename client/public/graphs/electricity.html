@@ -32,6 +32,7 @@
 <script src="http://d3js.org/d3.v4.min.js"></script>
 <script src="http://d3js.org/queue.v1.min.js"></script>
 <script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.min.js"></script>
 <script src="../js/d3-tip.js"></script>
 <script>
     // Set tooltips
@@ -50,6 +51,16 @@
         width = window.innerWidth - margin.left - margin.right,
         height = window.innerHeight - margin.top - margin.bottom;
 
+    var thresholdScale = d3.scaleThreshold()
+        .domain([0, 0.4, 0.8, 1.2, 1.6, 2.0, 2.4, 2.8])
+        .range(['#c6dbef','#a1c8e4','#7ab4da','#5692c5','#316aac','#08488a','#062c58','#03132b']);
+    
+    var legend = d3.legendColor()
+        .labelFormat(d3.format(".2f"))
+        .labels(d3.legendHelpers.thresholdLabels)
+        .useClass(true)
+        .scale(thresholdScale)
+    
     var color = d3.scaleThreshold()
         .domain([0, 0.4, 0.8, 1.2, 1.6, 2.0, 2.4, 2.8])
         .range(['#c6dbef','#a1c8e4','#7ab4da','#5692c5','#316aac','#08488a','#062c58','#03132b']);
@@ -61,16 +72,19 @@
         .attr("width", width)
         .attr("height", height)
         .append('g')
-        .attr('class', 'map');
-
+        .attr('class', 'map')
+             
+    // svg.select(".legendThreshold")
+    //    .call(legend);     
+    svg.call(tip);
+       
     var projection = d3.geoMercator()
         .scale(125)
         .translate( [width / 2, height / 1.45]);
 
     var path = d3.geoPath().projection(projection);
 
-    svg.call(tip);
-
+  
     queue()
         .defer(d3.json, "../data/world.json")
         .defer(d3.json, "../data/electricity.json")
@@ -89,7 +103,7 @@
                 d["unit"] = ''
             }
         });
-
+          
         svg.append("g")
             .attr("class", "countries")
             .selectAll("path")
@@ -124,6 +138,7 @@
             .datum(topojson.mesh(data.features, function(a, b) { return a.id !== b.id; }))
             .attr("class", "names")
             .attr("d", path);
+       
     }
 
 </script>
