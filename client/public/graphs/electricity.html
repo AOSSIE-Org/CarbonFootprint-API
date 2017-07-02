@@ -157,12 +157,14 @@
             .style("stroke","white")
             .style('stroke-width', 0.3)
             .on('mouseover',function(d){
-                tip.show(d);
+                 if(emission[d.id]){   
+                    tip.show(d);
 
-                d3.select(this)
-                    .style("opacity", 1)
-                    .style("stroke","white")
-                    .style("stroke-width",3);
+                    d3.select(this)
+                        .style("opacity", 1)
+                        .style("stroke","white")
+                        .style("stroke-width",3);
+                 }
             })
             .on('mouseout', function(d){
                 tip.hide(d);
