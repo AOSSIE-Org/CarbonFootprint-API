@@ -1,4 +1,4 @@
-"id" "name" "population" "CH4" "N2O" "unit"
+"id" "name" "CO2" "CH4" "N2O" "unit"
 "AL" "Albania" "0.010098826" "0.000000409" "0.000000082" "kg/kWh"
 "DZ" "Algeria" "0.734684458" "0.000013549" "0.000001436" "kg/kWh"
 "AO" "Angola" "0.041976768" "0.000001662" "0.000000332" "kg/kWh"
