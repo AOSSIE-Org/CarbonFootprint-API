@@ -122,17 +122,13 @@
         .defer(d3.json, "../data/electricity.json")
         .await(ready);
 
-    function ready(error, data, population) {
-        var populationById = {};
-        for (js in population){
-            populationById[js]=population[js].CO2;
-        }
+    function ready(error, data, emission) {
         data.features.forEach(function(d) { 
-            if(populationById[d.id])
+            if(emission[d.id])
             {
-                d.CO2 = populationById[d.id];
-                d.CH4 = population[d.id].CH4;
-                d.N2O = population[d.id].N2O;
+                d.CO2 = emission[d.id].CO2;
+                d.CH4 = emission[d.id].CH4;
+                d.N2O = emission[d.id].N2O;
             }
             else{
                 d.CO2 = 0;
@@ -146,9 +142,9 @@
             .enter().append("path")
             .attr("d", path)
             .style("fill", function(d) { 
-                if(populationById[d.id])
+                if(emission[d.id])
                     {
-                        return color(populationById[d.id]);
+                        return color(emission[d.id].CO2);
                     }
                 else{
                         return "rgb(204, 255, 51)";
