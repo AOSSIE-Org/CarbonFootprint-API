@@ -119,13 +119,14 @@
 
     queue()
         .defer(d3.json, "../data/world.json")
-        .defer(d3.tsv, "../data/electricity.tsv")
+        .defer(d3.json, "../data/electricity.json")
         .await(ready);
 
     function ready(error, data, population) {
         var populationById = {};
-
-        population.forEach(function(d) { populationById[d.id] = +d.CO2; });
+        for (js in population){
+            populationById[js]=population[js].CO2;
+        }
         data.features.forEach(function(d) { d.population = populationById[d.id] });
 
         svg.append("g")
