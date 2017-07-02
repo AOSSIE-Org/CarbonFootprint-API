@@ -48,8 +48,7 @@ export default class Body extends React.Component {
         return (
             <div style={styles.body}>
                 <div style={styles.card}>
-                    <Choropleth showTooltip={this.showTooltip} hideTooltip={this.hideTooltip} />
-                    {this.state.showTooltip && <Tooltip data={this.state.tooltipData} />}
+                    <iframe src="./graphs/electricity.html" width="100%" height="100%" style={{"border": "none"}}></iframe>
                 </div>
             </div>
         );
