@@ -118,14 +118,13 @@
     svg.call(tip);
 
     queue()
-        .defer(d3.json, "world_countries.json")
-        .defer(d3.json, "../data/electricity.json")
+        .defer(d3.json, "../data/world.json")
+        .defer(d3.tsv, "../data/electricity.tsv")
         .await(ready);
 
     function ready(error, data, population) {
         var populationById = {};
-
-        population.forEach(function(d) { populationById[d.id] = +d.population; });
+        population.forEach(function(d) { populationById[d.id] = +d.population });
         data.features.forEach(function(d) { d.population = populationById[d.id] });
 
         svg.append("g")
