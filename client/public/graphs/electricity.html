@@ -4,9 +4,6 @@
     body {
         margin: 0;
         padding: 0;
-        background-image: "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGElEQVQYV2NkYGCQYmBgeMYABYwwBvECAD1WAQVZi1QaAAAAAElFTkSuQmCC)";
-        background-repeat: "repeat";
-        background-size: "7px";
     }
     .names {
         fill: none;
@@ -93,10 +90,10 @@
         .attr('class', 'd3-tip')
         .offset([-10, 0])
         .html(function(d) {
-            return `<strong>Country: </strong><span class='details'> ${d.properties.name}<br></span>
-            <strong>CO<sub>2</sub>: </strong><span class='details'>${(d["CO2"])?d["CO2"]:"N/A"} ${d.unit}</span><br>
-            <strong>CH<sub>4</sub>: </strong><span class='details'>${(d["CH4"])?d["CH4"]:"N/A"} ${d.unit}</span><br>
-            <strong>N<sub>2</sub>O: </strong><span class='details'>${(d["N2O"])?d["N2O"]:"N/A"} ${d.unit}</span>`;
+            return `<strong>Country: </strong><span class='details'>${d.properties.name}<br></span>
+            <strong>CO<sub>2</sub>: </strong><span class='details'>${d["CO2"].toString()} ${d.unit}</span><br>
+            <strong>CH<sub>4</sub>: </strong><span class='details'>${d["CH4"]} ${d.unit}</span><br>
+            <strong>N<sub>2</sub>O: </strong><span class='details'>${d["N2O"]} ${d.unit}</span>`;
         })
 
     var margin = {top: 0, right: 0, bottom: 0, left: 0},
@@ -105,7 +102,7 @@
 
     var color = d3.scaleThreshold()
         .domain([0, 0.4, 0.8, 1.2, 1.6, 2.0, 2.4, 2.8])
-        .range(['#acd7ef','#99c1da','#85abc5','#7396b1','#61809d','#4f6d8a','#3d5976','#2c4664']);
+        .range(['#c6dbef','#a1c8e4','#7ab4da','#5692c5','#316aac','#08488a','#062c58','#03132b']);
 
     var path = d3.geoPath();
 
@@ -132,9 +129,9 @@
     function ready(error, data, emission) {
         data.features.forEach(function(d) { 
             if(emission.hasOwnProperty(d.id)){
-                d["CO2"] = +emission[d.id]["CO2"];
-                d["CH4"] = +emission[d.id]["CH4"];
-                d["N2O"] = +emission[d.id]["N2O"];
+                d["CO2"] = emission[d.id]["CO2"];
+                d["CH4"] = emission[d.id]["CH4"];
+                d["N2O"] = emission[d.id]["N2O"];
                 d["unit"] = emission[d.id]["unit"];
             }
             else {
@@ -149,7 +146,7 @@
             .data(data.features)
             .enter().append("path")
             .attr("d", path)
-            .style("fill", function(d) { return (emission[d.id])?color(d["CO2"]):"#eee"; })
+            .style("fill", function(d) { return (emission[d.id])?color(+d["CO2"]):"#eee"; })
             // .style('stroke', '#555')
             // .style('stroke-width', 1.5)
             .style("opacity",0.8)
