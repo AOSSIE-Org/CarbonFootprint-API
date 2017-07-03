@@ -51,11 +51,6 @@
         width = window.innerWidth - margin.left - margin.right,
         height = window.innerHeight - margin.top - margin.bottom;
 
-    var thresholdScale = d3.scaleThreshold()
-        .domain([0, 0.4, 0.8, 1.2, 1.6, 2.0, 2.4, 2.8])
-        .range(d3.range(8)
-        .map(function(i) { return "q" + i + "-9"}));
-    
     var color = d3.scaleThreshold()
         .domain([0, 0.4, 0.8, 1.2, 1.6, 2.0, 2.4, 2.8])
         .range(['#c6dbef','#a1c8e4','#7ab4da','#5692c5','#316aac','#08488a','#062c58','#03132b']);
