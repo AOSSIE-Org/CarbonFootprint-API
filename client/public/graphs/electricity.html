@@ -52,15 +52,17 @@
         height = window.innerHeight - margin.top - margin.bottom;
 
     var color = d3.scaleThreshold()
-        .domain([0, 0.4, 0.8, 1.2, 1.6, 2.0, 2.4, 2.8])
-        .range(['#c6dbef','#a1c8e4','#7ab4da','#5692c5','#316aac','#08488a','#062c58','#03132b']);
-
+        .domain(d3.range(0,3,0.1))
+        .range(["#d7f171 ", "#b8e876 ", "#9ade7c ", "#7ed382 ", "#63c887 ", "#4abc8b ", "#30af8e ", "#15a28f ", "#00958e ", "#00888a ", "#007b84 ", "#106e7c ", "#1e6171 ", "#265465 ", "#2a4858 "]);
+    var quantize = d3.scaleQuantize()
+        .domain([ 0,3 ])
+        .range(["#d7f171 ", "#b8e876 ", "#9ade7c ", "#7ed382 ", "#63c887 ", "#4abc8b ", "#30af8e ", "#15a28f ", "#00958e ", "#00888a ", "#007b84 ", "#106e7c ", "#1e6171 ", "#265465 ", "#2a4858 "]);
     var legend = d3.legendColor()
         .labelFormat(d3.format(".2f"))
-        .labels(d3.legendHelpers.thresholdLabels)
+        // .labels(d3.legendHelpers.thresholdLabels)
         .title("Color Legend")
         .useClass(false)
-        .scale(color)
+        .scale(quantize)
 
     var path = d3.geoPath();
 
@@ -72,7 +74,7 @@
         .attr('class', 'map')
     svg.append("g")
         .attr("class", "legendQuant")
-        .attr("transform", "translate(20,400)");
+        .attr("transform", "translate(20,200)");
     svg.select(".legendQuant")
         .call(legend);      
 
