@@ -103,17 +103,19 @@
 
     var thresholdScale = d3.scaleThreshold()
         .domain([0, 0.4, 0.8, 1.2, 1.6, 2.0, 2.4, 2.8])
-        .range(['#c6dbef','#a1c8e4','#7ab4da','#5692c5','#316aac','#08488a','#062c58','#03132b']);
-    
-    var legend = d3.legendColor()
-        .labelFormat(d3.format(".2f"))
-        .labels(d3.legendHelpers.thresholdLabels)
-        .useClass(true)
-        .scale(thresholdScale)
+        .range(d3.range(8)
+        .map(function(i) { return "q" + i + "-9"}));
     
     var color = d3.scaleThreshold()
         .domain([0, 0.4, 0.8, 1.2, 1.6, 2.0, 2.4, 2.8])
         .range(['#c6dbef','#a1c8e4','#7ab4da','#5692c5','#316aac','#08488a','#062c58','#03132b']);
+
+    var legend = d3.legendColor()
+        .labelFormat(d3.format(".2f"))
+        .labels(d3.legendHelpers.thresholdLabels)
+        .title("Color Legend")
+        .useClass(true)
+        .scale(color)
 
     var path = d3.geoPath();
 
@@ -123,9 +125,12 @@
         .attr("height", height)
         .append('g')
         .attr('class', 'map')
-             
-    // svg.select(".legendThreshold")
-    //    .call(legend);     
+    svg.append("g")
+        .attr("class", "legendQuant")
+        .attr("transform", "translate(20,400)");
+    svg.select(".legendQuant")
+        .call(legend);      
+
     svg.call(tip);
        
     var projection = d3.geoMercator()
