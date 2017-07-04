@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .names {
+        fill: none;
+        stroke: #fff;
+        stroke-linejoin: round;
+    }
+
+    /* Tooltip CSS */
+    .d3-tip {
+        line-height: 1.5;
+        font-weight: 400;
+        font-family:"avenir next", Arial, sans-serif;
+        padding: 6px;
+        background: rgba(0, 0, 0, 0.6);
+        color: #FFA500;
+        border-radius: 1px;
+        pointer-events: none;
+    }
+
+    .details{
+        color:white;
+    }
+
+</style>
+<body>
+<script src="http://d3js.org/d3.v4.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.min.js"></script>
+<script src="../js/d3-tip.js"></script>
+<script>
+    // Set tooltips
+    var tip = d3.tip()
+        .attr('class', 'd3-tip')
+        .offset([0, 0])
+        .direction('e')
+        .html(function(d) {
+            return `<strong>Country: </strong><span class='details'>${d.properties.name}<br></span>
+            <strong>CO<sub>2</sub>: </strong><span class='details'>${d["CO2"]} ${d.unit}</span><br>
+            <strong>CH<sub>4</sub>: </strong><span class='details'>${d["CH4"]} ${d.unit}</span><br>
+            <strong>N<sub>2</sub>O: </strong><span class='details'>${d["N2O"]} ${d.unit}</span>`;
+        })
+
+    var margin = {top: 0, right: 0, bottom: 0, left: 0},
+        width = window.innerWidth - margin.left - margin.right,
+        height = window.innerHeight - margin.top - margin.bottom;
+
+    var color = d3.scaleThreshold()
+        .domain(d3.range(0,3,0.1))
+        .range(["#d7f171 ", "#b8e876 ", "#9ade7c ", "#7ed382 ", "#63c887 ", "#4abc8b ", "#30af8e ", "#15a28f ", "#00958e ", "#00888a ", "#007b84 ", "#106e7c ", "#1e6171 ", "#265465 ", "#2a4858 "]);
+    
+    var quantize = d3.scaleQuantize()
+        .domain([ 0,3 ])
+        .range(["#d7f171 ", "#b8e876 ", "#9ade7c ", "#7ed382 ", "#63c887 ", "#4abc8b ", "#30af8e ", "#15a28f ", "#00958e ", "#00888a ", "#007b84 ", "#106e7c ", "#1e6171 ", "#265465 ", "#2a4858 "]);
+    
+    var legend = d3.legendColor()
+        .labelFormat(d3.format(".2f"))
+        .title("CO2 Emissions (kg/kWh)")
+        .useClass(false)
+        .scale(quantize)
+
+    var path = d3.geoPath();
+
+    var svg = d3.select("body")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .append('g')
+        .attr('class', 'map')
+    svg.append("g")
+        .attr("class", "legendQuant")
+        .attr("transform", "translate(20,200)");
+    svg.select(".legendQuant")
+        .call(legend);      
+
+    svg.call(tip);
+       
+    var projection = d3.geoMercator()
+        .scale(125)
+        .translate( [width / 2, height / 1.45]);
+
+    var path = d3.geoPath().projection(projection);
+
+  
+    queue()
+        .defer(d3.json, "../data/world.json")
+        .defer(d3.json, "../data/electricity.json")
+        .await(ready);
+
+    function ready(error, data, emission) {
+        data.features.forEach(function(d) { 
+            if(emission.hasOwnProperty(d.id)){
+                d["CO2"] = emission[d.id]["CO2"];
+                d["CH4"] = emission[d.id]["CH4"];
+                d["N2O"] = emission[d.id]["N2O"];
+                d["unit"] = emission[d.id]["unit"];
+            }
+            else {
+                d["CO2"] = d["CH4"] = d["N2O"] = 0;
+                d["unit"] = ''
+            }
+        });
+          
+        svg.append("g")
+            .attr("class", "countries")
+            .selectAll("path")
+            .data(data.features)
+            .enter().append("path")
+            .attr("d", path)
+            .style("fill", function(d) { return (emission[d.id])?color(+d["CO2"]):"#eee"; })
+            .style("opacity",0.8)
+            // tooltips
+            .style("stroke","#777")
+            .style('stroke-width', 0.5)
+            .on('mouseover',function(d){
+                 if(emission[d.id]){   
+                    tip.show(d);
+                    d3.select(this)
+                        .style("opacity", 1)
+                        .style("stroke","white")
+                        .style("stroke-width",3);
+                 }
+            })
+            .on('mouseout', function(d){
+                tip.hide(d);
+                d3.select(this)
+                    .style("opacity", 0.8)
+                    .style("stroke","#777")
+                    .style("stroke-width",0.3);
+            });
+
+        svg.append("path")
+            .datum(topojson.mesh(data.features, function(a, b) { return a.id !== b.id; }))
+            .attr("class", "names")
+            .attr("d", path);
+       
+    }
+
+</script>
+</body>
+</html>
