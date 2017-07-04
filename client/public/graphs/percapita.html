@@ -43,8 +43,10 @@
 
     d3.json("../data/percap.json", function(d) {
         d.frequency = +d.frequency;
+        console.log(d[0]);
         return d;
     }, function(error, data) {
+        console.log(data);
         if (error) throw error;
 
         x.domain(data.map(function(d) {
