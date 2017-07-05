@@ -26,7 +26,7 @@ d3.json("../data/percap.json", function(d) {
     // console.log(d["Afghanistan"]);
     data=d["Afghanistan"];
     console.log(data); 
-    var margin = {top: 20, right: 20, bottom: 30, left: 40},
+    var margin = {top: 20, right: 20, bottom: 100, left: 100},
                     width = 960 - margin.left - margin.right,
                     height = 500 - margin.top - margin.bottom;
 
@@ -64,11 +64,18 @@ d3.json("../data/percap.json", function(d) {
                       svg.append("g")
                           .attr("transform", "translate(0," + height + ")")
                           .call(d3.axisBottom(x));
-
                       // add the y Axis
                       svg.append("g")
                           .call(d3.axisLeft(y));
                     //   $('#country_name').html(country)
-                 
+                    svg.append("text")
+                        .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+                        .attr("transform", "translate("+ (-40) +","+(height/2)+")rotate(-90)")  // text is drawn off the screen top left, move down and out and rotate
+                        .text("Value");
+                    svg.append("text")
+                        .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+                        .attr("transform", "translate("+ (width/2) +","+(height-(-40))+")")  // centre below axis
+                        .text("Year");
+
 });
 </script>
