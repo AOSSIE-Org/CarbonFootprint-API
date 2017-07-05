@@ -1,5 +1,6 @@
 
 <!DOCTYPE html>
+<head>
 <meta charset="utf-8">
 <style>
 
@@ -15,15 +16,32 @@
   display: none;
 }
 
+select {
+  position: absolute;
+  top: 10px;
+  left: 450px;
+}
+
 </style>
+</head>
+<body>
+
 <div id="bar">
 
 </div>
-<svg width="960" height="500"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 d3.json("../data/percap.json", function(d) {
-    // console.log(d["Afghanistan"]);
+
+    // create dropdown with countries
+    var select = document.createElement("select");
+    for(var x in d){
+      var option = document.createElement("option");
+      option.text = option.value = x;
+      select.append(option);
+    }
+    document.body.prepend(select);
+
     data=d["Afghanistan"];
     console.log(data); 
     var margin = {top: 20, right: 20, bottom: 100, left: 100},
@@ -79,3 +97,5 @@ d3.json("../data/percap.json", function(d) {
 
 });
 </script>
+</body>
+</html>
