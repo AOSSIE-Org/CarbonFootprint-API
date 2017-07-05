@@ -68,6 +68,20 @@ describe("API endpoint testing", () => {
       });
   });
 
+  it("Testing for trees - should return correct values for Cherry tree for 2 years annd 10 trees", (done) => {
+      server
+        .post('/v1/emissions')
+        .send({"item":"Cherry","region":"Default","unit":"years","quantity":2,"multiply":10})
+        .expect("Content-type", /json/)
+        .expect(200)
+        .end((err, res) => {
+          res.status.should.equal(200);
+          res.body.success.should.equal(true);
+          res.body.emissions["CO2"].should.equal(538);
+          done();
+        });
+  });
+
   it("should return correct values for flight emissions", (done) => {
     server
       .post('/v1/emissions')
@@ -91,7 +105,7 @@ describe("API endpoint testing", () => {
         .end((err, res) => {
           res.status.should.equal(200);
           res.body.success.should.equal(true);
-          res.body.emissions["CO2"].should.equal(220.715888);
+          res.body.emissions["CO2"].should.equal(220.6954654213);
           done();
         });
     });
@@ -106,6 +120,34 @@ describe("API endpoint testing", () => {
           res.status.should.equal(200);
           res.body.success.should.equal(true);
           res.body.emissions["CO2"].should.equal(0.00316);
+          done();
+        });
+    });
+
+    it("Testing for vhicles - should return correct values for vehicle emissions for a two location points , testing map api", (done) => {
+      server
+        .post('/v1/vehicle')
+        .send({"type": "Petrol","origin": "Bhubaneswar","destination": "Cuttack","mileage": 50,"mileage_unit": "km/L"})
+        .expect("Content-type", /json/)
+        .expect(200)
+        .end((err, res) => {
+          res.status.should.equal(200);
+          res.body.success.should.equal(true);
+          res.body.emissions["CO2"].should.equal(1.20362256);
+          done();
+        });
+    });
+
+    it("Testing for trains - should return correct values for train emissions for a two location points , testing map api", (done) => {
+      server
+        .post('/v1/trains')
+        .send({"type":"railcars","origin":"Bhubaneswar","destination":"Delhi","passengers":10})
+        .expect("Content-type", /json/)
+        .expect(200)
+        .end((err, res) => {
+          res.status.should.equal(200);
+          res.body.success.should.equal(true);
+          res.body.emissions["CO2"].should.equal(718.86584);
           done();
         });
     });

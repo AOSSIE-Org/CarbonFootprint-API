@@ -1,13 +1,9 @@
-const Emission = require('../models/emissionModel');
-
-const interpolate = (l1, l2, d) => {
-    for(let x = 0; x < l1.length; x++){
+var Emission = require('../models/emissionModel');
+var spline = require('cubic-spline');
+let interpolate = (l1, l2, d) => {
+    for(var x = 0; x < l1.length; x++){
         if(d >= l1[x] && d < l1[x+1] && x < l1.length - 1){
-            let l1Floor = l1[x];
-            let l1Ceil = l1[x+1];
-            let l2Floor = l2[x];
-            let l2Ceil = l2[x+1];
-            return l2Floor + ((l2Ceil - l2Floor)/(l1Ceil - l1Floor))*(d - l1Floor)
+            return spline(d,l1,l2)
         }
         if(d >= l1[l1.length-1]){
             let slope=Math.abs((l2[l2.length-1]-l2[l2.length-2])/(l1[l1.length-1]-l1[l1.length-2]));
@@ -65,7 +61,7 @@ let find = (component, region, quantity) => {
                         for (let i = 0; i < numOfComponents; i++) {
                             if(item.components[i].quantity.length > 1){
                                 let getInterpolatedQuantity = await interpolate(item.quantity, item.components[i].quantity, quantity);
-                                console.log(`Interpolated value = ${getInterpolatedQuantity}`)
+                                console.log(`Interpolated value = ${getInterpolatedQuantity}`);
                                 await find(item.components[i].name, region, getInterpolatedQuantity)
                                         .then((emis) => {
                                             for(let i in emis){
@@ -104,11 +100,11 @@ let find = (component, region, quantity) => {
     });
 }
 
-exports.calculate = async function(a, b, c){
-    let emissions = await find(a, b, c);
-    // round up the emission value up to 10 decimal points
+exports.calculate = async function(itemName, region, quantity, multiply = 1){
+    let emissions = await find(itemName, region, quantity);
+    // round up the emission value upto 10 decimal points
     for(let i in emissions){
-        emissions[i] = parseFloat(emissions[i].toFixed(10));
+        emissions[i] = parseFloat((emissions[i]*multiply).toFixed(10));
         // remove CH4 or N2O key if emissions are zero
         if(!emissions[i] && i !== "CO2"){
             delete emissions[i];

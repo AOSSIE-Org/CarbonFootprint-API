@@ -1,4 +1,4 @@
-//To run this script use "node vehicle_db.js"
+//To run this script use "node tree_db.js"
 // database setup
 var mongoose = require('mongoose');
 // get the database configuration file
@@ -29,31 +29,19 @@ mongoose.connection.on('disconnected', () => {
   console.log('Database disconnected'); 
 });
 var Emission = require('../models/emissionModel.js')
-var json = require('../../../raw_data/fuels.json');
-for(js in json){
+var json = require('../../../raw_data/trees.json');
+for(js in json.treeData){
   var obj = new Emission();
-  obj.item=json[js]['langKey'];
+  obj.item=js;
   obj.region="Default";
   obj.quantity=[1];
-  obj.unit="L";
-  obj.categories=["vehicle","transport"];
+  obj.unit="year";
+  obj.categories=["trees"];
   obj.components=[
     {
     	name: "CO2",
-    	quantity: [json[js]['CO2Emission']],
-    	unit: "kg CO2/L"
-    },{
-    	name: "CH4",
-    	quantity: [json[js]['CH4Emission']],
-    	unit: "kg CH4/L"
-    },{
-    	name: "N2O",
-    	quantity: [json[js]['N2OEmission']],
-    	unit: "kg N2O/L"
-    },{
-    	name: "GHG",
-    	quantity: [json[js]['GHGEmission']],
-    	unit: "kg GHG/L"
+    	quantity: [json.treeData[js]],
+    	unit: "kg"
     }]
   obj.save(function(err){
     if ( err ) throw err;

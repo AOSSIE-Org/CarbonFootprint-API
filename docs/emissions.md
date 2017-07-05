@@ -43,6 +43,7 @@ Method - __POST__
 
 ### 2. Airplane fuel -
 Airplane fuel converts the distance flown by a particular air plane to corresponing CO2 emission.
+
 Sample request JSON
 
 Method-__POST__
@@ -72,7 +73,6 @@ Method-__POST__
     "error": "Unable to find component alpha for Default"
 }
 ```
-
 ### 3. Vehicle Fuel - 
 Emission route can be requested with fuel quantity and type and unit , to return the GHG emission generated on the consumption of the same.The fuels that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint/blob/master/Source/Core/core/resources/fuels.json). 
 
@@ -107,6 +107,74 @@ Method - __POST__
     "error": "Unable to find component alpha for Default"
 }
 ```
+### 4. Trains -
+Emission route can provide you with the emission generated from a train journey, provided with the distance of the journey.Here the item is the the train type and multiply signifies the number of passengers.
+
+Sample request JSON
+
+Method-__POST__
+```JSON
+{
+    "item":"railcars",
+    "region":"Default",
+    "quantity": 1000,
+    "unit": "kg/km",
+    "multiply": 3
+}
+```
+**Response Code**
+
+`200` - Valid Request
+```JSON
+{
+    "success": true,
+    "emissions": {
+        "CO2": 123.6
+    },
+    "unit": "kg"
+}
+```
+`400` - Error 
+```JSON
+{
+    "success": false,
+    "error": "Unable to find component alpha for Default"
+}
+```
+### 5. Trees - 
+Emission route can be requested with tree name and the number of years to find out the CO2 emisson from it per year.The trees that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint/blob/master/Source/Core/core/resources/trees.json). 
+
+Sample Request JSON
+
+Method - __POST__
+```JSON
+{
+    "item":"Cherry",
+    "region":"Default",
+    "quantity": 1,
+    "unit": "year"
+}
+```
+**Response Code**
+
+`200` - Valid Request
+```JSON
+{
+    "success": true,
+    "emissions": {
+        "CO2": 26.9
+    },
+    "unit": "kg"
+}
+```
+`400` - Error 
+```JSON
+{
+    "success": false,
+    "error": "Unable to find component alpha for Default"
+}
+```
+
 
 
 {% sample lang="http" %}
@@ -121,5 +189,6 @@ POST /v1/vehicle
 | region<br><span style="color:red">_required_ </span>     | string | Distance travelled by the vehicle. |
 | quantity  <br><span style="color:red">_required_ </span>   | number | The number of units of the item for which emissions are to be calculated. |
 | unit  | string | The unit of the element for which emissions are to be calculated.  |
+| multiply  | number | If emissions are to be found for multiple elements.  |
 
 {% endmethod %}

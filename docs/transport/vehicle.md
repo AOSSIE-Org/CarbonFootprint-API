@@ -1,14 +1,14 @@
 # Vehicle Endpoint
 
 {% method %}
-This route enables you to find GHG emissions for a number of fuels. The fuels that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint/blob/master/Source/Core/core/resources/fuels.json). 
+This route enables you to find GHG emissions for a number of fuels.The distance is calculated using [Google Map Distant Matrix API](https://developers.google.com/maps/documentation/javascript/distancematrix). The fuels that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint/blob/master/Source/Core/core/resources/fuels.json). 
 
 **Example**
 ```JSON
 {
     "type": "Petrol",
-    "distance": 100,
-    "unit": "km",
+    "origin": "Bhubaneswar",
+    "destination": "Cuttack",
     "mileage": 50,
     "mileage_unit": "km/L"
 }
@@ -18,9 +18,9 @@ This route enables you to find GHG emissions for a number of fuels. The fuels th
 {
     "success": true,
     "emissions": {
-        "CO2": 4.656,
-        "CH4": 0.005015,
-        "N2O": 0.0125756
+        "CO2": 1.20362256,
+        "CH4": 0.0012964277,
+        "N2O": 0.0032509184
     },
     "unit": "kg"
 }
@@ -41,8 +41,8 @@ POST /v1/vehicle
 | Name        | Type           | Description  |
 | ------------- |-------------| -----|
 | type | string | **Required:** The fuel type used by the vehicle.|
-| distance    | number | **Required:** Distance travelled by the vehicle. |
-| unit     | string | Distance in SI unit. The default sets to 'km'. |
+| origin    | string | **Required:** Origin of the journey. |
+| destination   | string | **Required:** Destination of the journey. |
 | mileage    | string | The fuel efficiency of the vehicle i.e. distance travelled per unit of fuel. The default value is 20. |
 | mileage_unit     | string | The unit of mileage. The default sets to be 'km/L' |
 
