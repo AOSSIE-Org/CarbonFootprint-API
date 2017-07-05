@@ -10,7 +10,7 @@
       "unit" : "kg/km",
       "M.F.(multiply factor)" : 443
     },
-    "frieght" : {
+    "freight" : {
       "C02" : 0.0191,
       "NO2" : 0,
       "CH4" : 0,
