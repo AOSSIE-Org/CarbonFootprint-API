@@ -14,14 +14,14 @@ let interpolate = (l1, l2, d) => {
             return slope*d;
         }
     }
-}
+};
 
 /*
  * A function to calculate the emissions of a component.
  * Refer to the Emission schema for more information on the components.
  */
 let find = (component, region, quantity) => {
-    var emissions = {
+    let emissions = {
         'CO2': 0,
         'CH4': 0,
         'N2O': 0
@@ -41,15 +41,15 @@ let find = (component, region, quantity) => {
         }, (err, item) => {
             // if component is found
             if (!err && item) {
-                console.log(`\nItem name: ${item.item} :: Region: ${item.region}`);
+                console.log(`Item name: ${item.item} :: Region: ${item.region}`);
                 // if component type is atomic return it's emissions
-                if (item.components[0].name == 'CO2' ||
-                    item.components[0].name == 'CH4' ||
-                    item.components[0].name == 'N2O') {
-                    for(let i in item.components){
-                        if (emissions.hasOwnProperty(item.components[i].name)) {
-                            emissions[item.components[i].name] += (quantity * item.components[i].quantity[0]);
-                            console.log(`Emissions ${item.components[i].name}: ${emissions[item.components[i].name]} kg`);
+                if (item.components[0].name === 'CO2' ||
+                    item.components[0].name === 'CH4' ||
+                    item.components[0].name === 'N2O') {
+                    for(let component of item.components){
+                        if (emissions.hasOwnProperty(component.name)) {
+                            emissions[component.name] += (quantity * component.quantity[0]);
+                            console.log(`Emissions ${component.name}: ${emissions[component.name]} kg`);
                         }
                     }
                     resolve(emissions);
