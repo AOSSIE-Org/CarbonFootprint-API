@@ -1,8 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import registerServiceWorker from './registerServiceWorker';
+
 import Header from './components/Header/Header';
 import Body from "./components/Body/Body";
+
 export default class App extends React.Component {
     render() {
         return (
@@ -25,6 +25,3 @@ const styles = {
 
     }
 };
-
-//ReactDOM.render(<App />, document.getElementById('root'));
-// registerServiceWorker();
