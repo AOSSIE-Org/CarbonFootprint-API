@@ -36,7 +36,7 @@ for(js in json){
   obj.region="Default";
   obj.quantity=[1];
   obj.unit="L";
-  obj.categories=["vehicle"];
+  obj.categories=["vehicle","transport"];
   obj.components=[
     {
     	name: "CO2",

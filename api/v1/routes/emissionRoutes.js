@@ -9,7 +9,8 @@ router.post('/emissions', (req, res) => {
 	let itemName = req.body["item"];
     let region = req.body["region"] || "Default";
     let quantity = req.body["quantity"] || 1;
-	Emission.calculate(itemName, region, quantity)
+	let multiply = req.body["multiply"] || 1;
+	Emission.calculate(itemName, region, quantity, multiply)
 		.then((emissions) => {
             console.log(`\nTotal Emissions: ${emissions}`);
             res.status(200).json({
@@ -76,36 +77,98 @@ router.post('/flight', (req, res) => {
 
 });
 
-router.post('/vehicle', (req, res) => {
+router.post('/vehicle', async (req, res) => {
 	let type = req.body.type || 'Diesel';
-	let distance = req.body.distance;
+	let origin = req.body.origin;
+	let destination = req.body.destination;
 	let unit = req.body.unit || 'km';
 	let mileage = parseFloat(req.body.mileage) || 20;
 	let mileage_unit = req.body.mileage_unit || 'km/L';
 
-	if (distance){
-		let fuelConsumed = distance/mileage;
-		Emission.calculate(`fuel${type}`, 'Default', fuelConsumed)
-	        .then((emissions) => {
-	            console.log(`Emissions: ${emissions}`);
-	            res.status(200).json({
-	                success: true,
-	                emissions: emissions,
-                	unit: 'kg'
-	            });
-	        })
-	        .catch((err) => {
-	            console.log(`Error: ${err}`);
-	            res.json({
-	                success: false,
-	                err: `Unable to find emissions for fuel type ${type}`
-	            });
-	        });
+	if (origin && destination){
+		let distance = Helper.distance(origin,destination,'driving');
+		distance
+			.then((val) => {
+            console.log("CalculatedDistance= " + val);
+            let fuelConsumed = val/mileage;
+			console.log(fuelConsumed);
+            Emission.calculate(`fuel${type}`, 'Default', fuelConsumed)
+                .then((emissions) => {
+                    console.log(`Emissions: ${JSON.stringify(emissions, null ,4)}`);
+                    res.status(200).json({
+                        success: true,
+                        emissions: emissions,
+                        unit: 'kg'
+                    });
+                })
+                .catch((err) => {
+                    console.log(`Error: ${err}`);
+                    res.json({
+                        success: false,
+                        err: `Unable to find emissions for fuel type ${type}`
+                    });
+                });
+		})
+            .catch((err) => {
+                console.log(`Error: ${err}`);
+                res.json({
+                    success: false,
+                    err: err
+                });
+            });
+
 	}
 	else {
 		res.status(400).json({
             success: false,
             error: 'Distance or Mileage cannot be less than zero'
+        });
+	}
+});
+
+router.post('/trains', async (req, res) => {
+	let type = req.body.type || 'railcars';
+	let region = req.body.region || 'Default';
+	let origin = req.body.origin;
+	let destination = req.body.destination;
+	let passengers = req.body.passengers || 1;
+
+	if (origin && destination){
+		let distance = Helper.distance(origin,destination,'transit');
+		distance
+			.then((val) => {
+            console.log("CalculatedDistance= " + val);
+			console.log("CalculatedPassengers= " + passengers);
+            Emission.calculate(type ,'Default', val ,passengers)
+                .then((emissions) => {
+                    console.log(`Emissions: ${JSON.stringify(emissions, null ,4)}`);
+                    res.status(200).json({
+                        success: true,
+                        emissions: emissions,
+                        unit: 'kg'
+                    });
+                })
+                .catch((err) => {
+                    console.log(`Error: ${err}`);
+                    res.json({
+                        success: false,
+                        err: `Unable to find emissions for fuel type ${type}`
+                    });
+                });
+		})
+            .catch((err) => {
+                console.log(`Error: ${err}`);
+                res.json({
+                    success: false,
+                    err: err
+                });
+            });
+
+	}
+	else {
+		res.status(400).json({
+            success: false,
+            error: 'Distance cannot be less than zero'
         });
 	}
 });
