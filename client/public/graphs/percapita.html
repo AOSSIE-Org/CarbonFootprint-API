@@ -31,20 +31,17 @@ select {
 </div>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
-d3.json("../data/percap.json", function(d) {
-
-    // create dropdown with countries
-    var select = document.createElement("select");
-    for(var x in d){
-      var option = document.createElement("option");
-      option.text = option.value = x;
-      select.append(option);
-    }
-    document.body.prepend(select);
-
-    data=d["Afghanistan"];
-    console.log(data); 
-    var margin = {top: 20, right: 20, bottom: 100, left: 100},
+var electricityData;
+function updateGraph(country){
+  country = country.value;
+  console.log(country);
+  var bar = document.getElementById("bar");
+  bar.innerHTML = '';
+  showGraph(country);
+}
+function showGraph(country){
+  var data = electricityData[country];
+  var margin = {top: 20, right: 20, bottom: 100, left: 100},
                     width = 960 - margin.left - margin.right,
                     height = 500 - margin.top - margin.bottom;
 
@@ -94,6 +91,20 @@ d3.json("../data/percap.json", function(d) {
                         .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
                         .attr("transform", "translate("+ (width/2) +","+(height-(-40))+")")  // centre below axis
                         .text("Year");
+}
+d3.json("../data/percap.json", function(data) {
+
+    // create dropdown with countries
+    var select = document.createElement("select");
+    select.setAttribute('onChange', 'updateGraph(this)')
+    for(var x in data){
+      var option = document.createElement("option");
+      option.text = option.value = x;
+      select.append(option);
+    }
+    document.body.prepend(select);
+    electricityData = data;
+    showGraph("Afghanistan");
 
 });
 </script>
