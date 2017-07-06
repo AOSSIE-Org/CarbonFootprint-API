@@ -15,6 +15,12 @@
   stroke: steelblue;
   stroke-width: 2px;
 }
+select {
+    float : right;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
 </style>
 <div id="bar">
 
@@ -22,9 +28,19 @@
 <svg width="960" height="500"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
-d3.json("../data/flights.json", function(d) {
-    // console.log(d["Afghanistan"]);
-    data=d["100"];
+var flightsData;
+function updateGraph(flight){
+  flight = flight.value;
+  console.log(flight);
+  var bar = document.getElementById("bar");
+  //Clear the div
+  bar.innerHTML = '';
+  //Repopulation of the div
+  showGraph(flight);
+}
+//Renders the whole visualization
+function showGraph(flight){
+  var data = flightsData[flight];
     var margin = {top: 100, right: 100, bottom: 100, left: 100},
                     width = window.innerWidth - margin.left - margin.right,
                     height = window.innerHeight - margin.top - margin.bottom;
@@ -61,30 +77,36 @@ d3.json("../data/flights.json", function(d) {
                     .data([data])
                     .attr("class", "line")
                     .attr("d", valueline);
-                // append the rectangles for the bar chart
-                //   svg.selectAll(".bar")
-                //       .data(data)
-                //     .enter().append("rect")
-                //       .attr("class", "bar")
-                //       .attr("x", function(d) { return x(d.key); })
-                //       .attr("width", x.bandwidth())
-                //       .attr("y", function(d) { return y(d.value); })
-                //       .attr("height", function(d) { return height - y(d.value); });
-                      // add the x Axis
-                      svg.append("g")
-                          .attr("transform", "translate(0," + height + ")")
-                          .call(d3.axisBottom(x));
-                      // add the y Axis
-                      svg.append("g")
-                          .call(d3.axisLeft(y));
-                    //   $('#country_name').html(country)
-                    svg.append("text")
-                        .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
-                        .attr("transform", "translate("+ (-40) +","+(height/2)+")rotate(-90)")  // text is drawn off the screen top left, move down and out and rotate
-                        .text("Emission");
-                    svg.append("text")
-                        .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
-                        .attr("transform", "translate("+ (width/2) +","+(height-(-40))+")")  // centre below axis
-                        .text("Distance");
+                svg.append("g")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(d3.axisBottom(x));
+                // add the y Axis
+                svg.append("g")
+                    .call(d3.axisLeft(y));
+                svg.append("text")
+                    .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+                    .attr("transform", "translate("+ (-60) +","+(height/2)+")rotate(-90)")  // text is drawn off the screen top left, move down and out and rotate
+                    .text("Emission");
+                svg.append("text")
+                    .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+                    .attr("transform", "translate("+ (width/2) +","+(height-(-40))+")")  // centre below axis
+                    .text("Distance");
+};
+d3.json("../data/flights.json", function(data) {
+
+    // create dropdown with countries
+    var select = document.createElement("select");
+    select.setAttribute('onChange', 'updateGraph(this)')
+    for(var x in data){
+      var option = document.createElement("option");
+      option.text = "Airplane Model "+x;
+      option.value = x;
+      select.append(option);
+    }
+    document.body.prepend(select);
+    flightsData = data;
+    //Default flight set
+    showGraph("380");
+
 });
 </script>
