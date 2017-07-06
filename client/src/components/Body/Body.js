@@ -48,7 +48,7 @@ export default class Body extends React.Component {
         return (
             <div style={styles.body}>
                 <div style={styles.card}>
-                    <iframe src="./graphs/electricity.html" width="100%" height="100%" style={{"border": "none"}}></iframe>
+                    <iframe src="./graphs/percapita.html" width="100%" height="100%" style={{"border": "none"}}></iframe>
                 </div>
             </div>
         );
