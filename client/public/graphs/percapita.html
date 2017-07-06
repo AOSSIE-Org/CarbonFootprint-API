@@ -34,9 +34,12 @@ function updateGraph(country){
   country = country.value;
   console.log(country);
   var bar = document.getElementById("bar");
+  //Clear the div
   bar.innerHTML = '';
+  //Repopulation of the div
   showGraph(country);
 }
+//Renders the whole visualization
 function showGraph(country){
   var data = electricityData[country];
   var margin = {top: 80, right: 80, bottom: 100, left: 100},
@@ -102,6 +105,7 @@ d3.json("../data/percap.json", function(data) {
     }
     document.body.prepend(select);
     electricityData = data;
+    //Default country set
     showGraph("Afghanistan");
 
 });
