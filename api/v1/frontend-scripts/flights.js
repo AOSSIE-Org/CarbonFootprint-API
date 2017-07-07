@@ -7,7 +7,8 @@ for (js in flights){
   }
 for (i in distance) {
     currDist=distance[i];
-    obj[flights[js]["airplane model"]][currDist]=flights[js][currDist];
+    if(flights[js][currDist]){
+    obj[flights[js]["airplane model"]][currDist]=flights[js][currDist];}
 }
 }
 jsonStr = JSON.stringify(obj);
