@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon } from 'semantic-ui-react'
+import { Card, Icon } from 'semantic-ui-react'
 import Choropleth from "../Choropleth/Choropleth";
 
 class Tooltip extends React.Component {
@@ -47,9 +47,15 @@ export default class Body extends React.Component {
     render() {
         return (
             <div style={styles.body}>
-                <div style={styles.card}>
+                <Card>
+    <Card.Content header='Electricity &#x26A1; ' />
+    <Card.Content description="Get to see all the emissions due to electricity generation all over the world." />
+
+  </Card>
+
+                {/*<div style={styles.card}>
                     <iframe src="./graphs/percapita.html" width="100%" height="100%" style={{"border": "none"}}></iframe>
-                </div>
+                </div>*/}
             </div>
         );
     }
