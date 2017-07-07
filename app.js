@@ -72,10 +72,7 @@ v1.use('/', emissions);
 // Use v1 router for all the API requests adhering to version 1
 app.use('/v1', v1);
 // show the API dashboard
-app.use('/', index);
-app.use('/main',main);
-app.use('/dashboard', dashboard);
-app.use('/electricity',electricity);
+app.use('/',main);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
