@@ -11,6 +11,7 @@ import Header from './components/Header/Header';
 import Body from "./components/Body/Body";
 import Visuals from "./components/Visuals/Visuals";
 import Graph from "./components/Graph/Graph";
+import NotFound from "./components/NotFound/NotFound";
 
 export default class App extends React.Component {
     render() {
@@ -22,6 +23,7 @@ export default class App extends React.Component {
                 <Switch>
                 <Route exact path="/" component={Visuals} />
                 <Route path="/:type" component={Graph} />
+                <Route component={NotFound} />
                 </Switch>
                 </Body>
             </div>
