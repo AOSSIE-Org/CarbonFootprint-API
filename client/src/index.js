@@ -22,7 +22,7 @@ export default class App extends React.Component {
                 <Body>
                 <Switch>
                 <Route exact path="/" component={Visuals} />
-                <Route path="/:type" component={Graph} />
+                <Route path="/v/:type" component={Graph} />
                 <Route component={NotFound} />
                 </Switch>
                 </Body>
