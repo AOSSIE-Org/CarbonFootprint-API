@@ -9,6 +9,7 @@
     "build": "webpack"
   },
   "dependencies": {
+    "auth0-js": "^8.8.0",
     "body-parser": "~1.16.0",
     "cookie-parser": "~1.4.3",
     "d3-geo": "^1.6.4",
