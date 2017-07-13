@@ -1,9 +1,14 @@
 import React from 'react';
+import { Header } from 'semantic-ui-react';
 
 const Graph = ({match}) => (
+            <div style={{width: "100%"}}>
                 <div style={styles.card}>
                     <iframe src={`./graphs/${match.params.type}.html`} width="100%" height="100%" style={{"border": "none"}}></iframe>
                 </div>
+                <Header as='h2' dividing>Electricity Emissions</Header>
+                <p>Helle </p>
+            </div>
     ) 
 
 export default Graph;

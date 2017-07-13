@@ -22,7 +22,7 @@ export default class App extends React.Component {
                 <Body>
                 <Switch>
                 <Route exact path="/" component={Visuals} />
-                <Route path="/v/:type" component={Graph} />
+                <Route path="/:type" component={Graph} />
                 <Route component={NotFound} />
                 </Switch>
                 </Body>
@@ -40,7 +40,7 @@ const styles = {
         justifyContent: "stretch",
         alignItems: "stretch",
         flexDirection: "column",
-
+        overflow: "hidden"
     }
 };
 

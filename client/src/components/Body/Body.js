@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Card, Icon } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
-
+import Footer from '../Footer/Footer';
 
 export default class Body extends React.Component {
     constructor(props){
@@ -10,8 +10,11 @@ export default class Body extends React.Component {
 
     render() {
         return (
-            <div style={styles.body}>
-            {this.props.children}
+                <div style={styles.body}>
+            <div style={{padding: "30px", minHeight: "100%"}}>
+                {this.props.children}
+                </div>
+                <Footer />
             </div>
         );
     }
@@ -19,9 +22,10 @@ export default class Body extends React.Component {
 
 const styles = {
     body: {
-        height: "100%",
-        padding: "40px",
+        height: "auto",
         display: "flex",
         justifyContent: "center",
+        overflow: "scroll",
+        flexDirection: "column"
     }
 };
