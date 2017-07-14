@@ -5,6 +5,8 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+const jwt = require('express-jwt');
+const jwks = require('jwks-rsa');
 
 // database setup
 var mongoose = require('mongoose');
@@ -65,8 +67,24 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'client/public')));
 
+// Authentication middleware provided by express-jwt.
+// This middleware will check incoming requests for a valid
+// JWT on any routes that it is applied to.
+var jwtCheck = jwt({
+    secret: jwks.expressJwtSecret({
+        cache: true,
+        rateLimit: true,
+        jwksRequestsPerMinute: 5,
+        jwksUri: "https://carbonfootprint.auth0.com/.well-known/jwks.json"
+    }),
+    audience: 'localhost:3080',
+    issuer: "https://carbonfootprint.auth0.com/",
+    algorithms: ['RS256']
+});
+
 //routes for api v1
 var v1 = express.Router();
+v1.use(jwtCheck);
 v1.use('/', emissions);
 
 // Use v1 router for all the API requests adhering to version 1
