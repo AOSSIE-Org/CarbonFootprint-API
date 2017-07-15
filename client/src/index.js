@@ -41,6 +41,3 @@ const styles = {
         overflow: "hidden"
     }
 };
-
-//ReactDOM.render(<App />, document.getElementById('root'));
-// registerServiceWorker();

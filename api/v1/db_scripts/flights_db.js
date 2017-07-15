@@ -101,7 +101,7 @@ obj.item="airplane fuel";
 obj.region="Default";
 obj.quantity=[1];
 obj.unit="kg";
-obj.categories=["flights"];
+obj.categories=["flights","transport"];
 obj.components=[
 {
     name: "CO2",
