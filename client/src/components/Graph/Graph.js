@@ -9,13 +9,13 @@ const Graph = ({match}) => (
                 <Header as='h2' dividing>Electricity Emissions</Header>
                 <p>Helle </p>
             </div>
-    ) 
+    )
 
 export default Graph;
 const styles = {
     card: {
         width: "100%",
-        height: "100%",
+        height: "80vh",
         background: '#fff',
         backgroundImage: "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGElEQVQYV2NkYGCQYmBgeMYABYwwBvECAD1WAQVZi1QaAAAAAElFTkSuQmCC)",
         backgroundRepeat: "repeat",

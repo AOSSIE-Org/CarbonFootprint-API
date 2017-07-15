@@ -9,12 +9,14 @@ const Footer = () => (
 const styles = {
     footer: {
         width: "100%",
-        height: "80px",
+        height: "50px",
         marginTop: "50px",
         background: "#ddd",
-        padding: "10px 30px"
+        padding: "10px 30px",
+        color: "#999",
+        display: "flex",
+        alignItems: "center"
     }
 }
 
 export default Footer;
-
