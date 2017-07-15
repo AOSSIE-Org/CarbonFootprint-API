@@ -38,24 +38,24 @@ To check your current versions :
 
  For 500 Mb Free services on MongoDB databases, signup [here](https://www.mlab.com/signup) (or you can use any other service of your choice).
 
-* You need to now run all scripts at [this directory](https://github.com/r0hit-gupta/CarbonFootprint-API/tree/master/api/v1/db_scripts) as instructed below:  
+* You need to now run all scripts at [this directory](https://gitlab.com/aossie/CarbonFootprint-API/tree/master/api/v1/db_scripts) as instructed below:  
 
 ```
-npm install/yarn install
+yarn install
 cd api/v1/db_scripts
-nodemon electricity_db.js
-nodemon  electricity_db_generation.js
-nodemon electricity_db_td.js
-nodemon flights_db.js
-nodemon vehicle_db.js
-cd ../../.. && npm run build
+node electricity_db.js
+node electricity_db_generation.js
+node electricity_db_td.js
+node flights_db.js
+node vehicle_db.js
+cd ../../.. && yarn run build
 ```
 
 Note : We prefer [yarn](https://yarnpkg.com) over [npm](https://www.npmjs.com), for details on yarn installation and usage [click here](https://yarnpkg.com/en/docs/usage)
 
-* To start the server, run `npm start`.
+* To start the server, run `yarn start`.
 
-* To run the unit tests, use `npm test`.
+* To run the unit tests, use `yarn test`.
 
 
 Documentation

@@ -37,17 +37,15 @@ mongoose.connection.on('disconnected', () => {
 });
 
 // get different routes required
-var index = require('./routes/index')
+var index = require('./routes/index');
 var emissions = require('./api/v1/routes/emissionRoutes');
-var dashboard = require('./routes/dashboard');
-var electricity = require('./routes/electricity');
 var app = express();
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
+// app.set('views', path.join(__dirname, 'views'));
+// app.set('view engine', 'ejs');
 
 // CORS Support
 app.use((req, res, next) => {
@@ -56,24 +54,21 @@ app.use((req, res, next) => {
   next();
 });
 
-// uncomment after placing your favicon in /public
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(favicon(path.join(__dirname, 'client/public/img', 'favicon.png')));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'client/public')));
 
 //routes for api v1
-v1 = express.Router();
+var v1 = express.Router();
 v1.use('/', emissions);
 
 // Use v1 router for all the API requests adhering to version 1
 app.use('/v1', v1);
 // show the API dashboard
 app.use('/', index);
-app.use('/dashboard', dashboard);
-app.use('/electricity',electricity);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {

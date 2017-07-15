@@ -43,3 +43,6 @@ _book/
 
 # Configuration Files containing sensitive info
 config.json
+
+#bundle file for react
+bundle.js
