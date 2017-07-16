@@ -8,8 +8,8 @@ const data = [
   },
   {
     "name": "Per Capita 👤",
-    "shortDescription": "Average CO2 emitted by each person in various countries over the past years.",
-    "longDescription": "Average CO2 emitted by each person in various countries over the past years.",
+    "shortDescription": "Average CO2 emissions per person per year for various countries over the past years.",
+    "longDescription": "Average CO2 emissions per person per year for various countries over the past years.",
     "link": "percapita",
     "title": "Per Capita Emissions"
   },
