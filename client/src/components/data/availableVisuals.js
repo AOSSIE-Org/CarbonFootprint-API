@@ -1,8 +1,8 @@
 const data = [
   {
     "name": "Electricity ⚡",
-    "shortDescription": "Get to see all the emissions due to electricity generation all over the world.",
-    "longDescription": "Get to see all the emissions due to electricity generation all over the world.",
+    "shortDescription": "CO2 emissions due to electricity generation all over the world.",
+    "longDescription": "CO2 emissions due to electricity generation all over the world.",
     "link": "electricity",
     "title": "Electricity Emissions"
   },
@@ -15,8 +15,8 @@ const data = [
   },
   {
     "name": "Airplanes ✈️",
-    "shortDescription": "Get to see the emissions of an airplane model of all kinds.",
-    "longDescription": "Get to see the emissions of an airplane model of all kinds.",
+    "shortDescription": "CO2 emissions of flights for airplanes of various kinds.",
+    "longDescription": "CO2 emissions of flights for airplanes of various kinds.",
     "link": "flights",
     "title": "Airplane Emissions"
   }
