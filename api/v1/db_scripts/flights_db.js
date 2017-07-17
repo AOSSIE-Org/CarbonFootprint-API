@@ -16,7 +16,8 @@ mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.po
 
 // When successfully connected
 mongoose.connection.on('connected', () => {  
-  console.log('Connection to database established successfully');
+    console.log('Connection to database established successfully');
+    console.log("flights_db.js running");
 }); 
 
 // If the connection throws an error
@@ -56,7 +57,7 @@ for(js in json){
   if ( err ) throw err;
   console.log("Object Saved Successfully");
   });
-  console.log(obj);
+  //console.log(obj);
 }
 
 var obj = new Emission();
@@ -112,3 +113,5 @@ obj.save(function(err){
 if ( err ) throw err;
 console.log("Object Saved Successfully");
 });
+
+mongoose.connection.close();
