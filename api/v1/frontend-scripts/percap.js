@@ -1,3 +1,4 @@
+//This file logs the json required for percap frontend.
 var percap = require('../../../raw_data/percap.json');
 var obj={};
 for (js in percap){
@@ -9,5 +10,4 @@ for (i = 0; i < 22; i++) {
     obj[percap[js]["Country"]][currYear]=percap[js][currYear];
 }
 }
-jsonStr = JSON.stringify(obj);
-console.log(jsonStr);
+console.log(JSON.stringify(obj));
