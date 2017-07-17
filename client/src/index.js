@@ -1,11 +1,12 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 import Header from './components/Header/Header';
 import Body from "./components/Body/Body";
 import Visuals from "./components/Visuals/Visuals";
 import Graph from "./components/Graph/Graph";
 import NotFound from "./components/NotFound/NotFound";
-import Account from "./components/Account/Account";
+import Profile from "./components/Profile/Profile";
+import Loading from "./components/Loading/Loading";
 import Auth from './Auth/Auth';
 import history from './history';
 
@@ -27,9 +28,16 @@ export default class App extends React.Component {
                 <Switch>
                 <Route exact path="/" component={Visuals} />
                 <Route path="/visuals/:type" component={Graph} />
+                <Route path="/profile" render={(props) => (
+            !auth.isAuthenticated() ? (
+              <Redirect to="/"/>
+            ) : (
+              <Profile />
+            )
+          )} />
                 <Route path="/callback" render={(props) => {
             handleAuthentication(props);
-            return <Account {...props} />
+            return <Loading {...props} />
           }}/>
                 <Route component={NotFound} />
                 </Switch>
