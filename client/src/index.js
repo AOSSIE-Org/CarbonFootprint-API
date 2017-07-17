@@ -43,11 +43,9 @@ export default class App extends React.Component {
 const styles = {
     app: {
         width: "100%",
-        height: "100%",
+        minHeight: "100%",
         display: "flex",
-        justifyContent: "stretch",
-        alignItems: "stretch",
         flexDirection: "column",
-
+        overflow: "hidden"
     }
 };

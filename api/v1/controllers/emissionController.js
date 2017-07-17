@@ -1,13 +1,9 @@
 var Emission = require('../models/emissionModel');
-
+var spline = require('cubic-spline');
 let interpolate = (l1, l2, d) => {
     for(var x = 0; x < l1.length; x++){
         if(d >= l1[x] && d < l1[x+1] && x < l1.length - 1){
-            l1Floor = l1[x]
-            l1Ceil = l1[x+1];
-            l2Floor = l2[x]
-            l2Ceil = l2[x+1];
-            return l2Floor + ((l2Ceil - l2Floor)/(l1Ceil - l1Floor))*(d - l1Floor)
+            return spline(d,l1,l2)
         }
         if(d >= l1[l1.length-1]){
             let slope=Math.abs((l2[l2.length-1]-l2[l2.length-2])/(l1[l1.length-1]-l1[l1.length-2]));
@@ -18,14 +14,14 @@ let interpolate = (l1, l2, d) => {
             return slope*d;
         }
     }
-}
+};
 
 /*
  * A function to calculate the emissions of a component.
  * Refer to the Emission schema for more information on the components.
  */
 let find = (component, region, quantity) => {
-    var emissions = {
+    let emissions = {
         'CO2': 0,
         'CH4': 0,
         'N2O': 0
@@ -45,15 +41,15 @@ let find = (component, region, quantity) => {
         }, (err, item) => {
             // if component is found
             if (!err && item) {
-                console.log(`\nItem name: ${item.item} :: Region: ${item.region}`);
+                console.log(`Item name: ${item.item} :: Region: ${item.region}`);
                 // if component type is atomic return it's emissions
-                if (item.components[0].name == 'CO2' ||
-                    item.components[0].name == 'CH4' ||
-                    item.components[0].name == 'N2O') {
-                    for(let i in item.components){
-                        if (emissions.hasOwnProperty(item.components[i].name)) {
-                            emissions[item.components[i].name] += (quantity * item.components[i].quantity[0]);
-                            console.log(`Emissions ${item.components[i].name}: ${emissions[item.components[i].name]} kg`);
+                if (item.components[0].name === 'CO2' ||
+                    item.components[0].name === 'CH4' ||
+                    item.components[0].name === 'N2O') {
+                    for(let component of item.components){
+                        if (emissions.hasOwnProperty(component.name)) {
+                            emissions[component.name] += (quantity * component.quantity[0]);
+                            console.log(`Emissions ${component.name}: ${emissions[component.name]} kg`);
                         }
                     }
                     resolve(emissions);
@@ -65,7 +61,7 @@ let find = (component, region, quantity) => {
                         for (let i = 0; i < numOfComponents; i++) {
                             if(item.components[i].quantity.length > 1){
                                 let getInterpolatedQuantity = await interpolate(item.quantity, item.components[i].quantity, quantity);
-                                console.log(`Interpolated value = ${getInterpolatedQuantity}`)
+                                console.log(`Interpolated value = ${getInterpolatedQuantity}`);
                                 await find(item.components[i].name, region, getInterpolatedQuantity)
                                         .then((emis) => {
                                             for(let i in emis){
@@ -85,7 +81,7 @@ let find = (component, region, quantity) => {
                             }
                         }
                     })().then(() => {
-                        if(item.calculationMethod == 'interpolation'){
+                        if(item.calculationMethod === 'interpolation'){
                             resolve(emissions);
                         }
                         else {
@@ -104,13 +100,13 @@ let find = (component, region, quantity) => {
     });
 }
 
-exports.calculate = async function(a, b, c){
-    let emissions = await find(a, b, c);
+exports.calculate = async function(itemName, region, quantity, multiply = 1){
+    let emissions = await find(itemName, region, quantity);
     // round up the emission value upto 10 decimal points
     for(let i in emissions){
-        emissions[i] = parseFloat(emissions[i].toFixed(10));
+        emissions[i] = parseFloat((emissions[i]*multiply).toFixed(10));
         // remove CH4 or N2O key if emissions are zero
-        if(!emissions[i] && i != "CO2"){
+        if(!emissions[i] && i !== "CO2"){
             delete emissions[i];
         }
     }

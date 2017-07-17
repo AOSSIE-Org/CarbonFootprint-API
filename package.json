@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "auth0-js": "^8.8.0",
+    "@google/maps": "^0.4.1",
+    "asynckit": "^0.4.0",
     "body-parser": "~1.16.0",
     "cookie-parser": "~1.4.3",
-    "d3-geo": "^1.6.4",
+    "cubic-spline": "^1.0.4",
     "debug": "~2.6.0",
     "ejs": "^2.5.6",
     "express": "^4.14.1",
