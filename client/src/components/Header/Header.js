@@ -13,6 +13,7 @@ export default class Header extends React.Component {
                 <Icon name='world' size="large" style={{marginRight: "10px"}}/>
                 <strong>Carbon Footprint</strong>
                 <span onClick={() => this.login()}> Login </span>
+                </Link>
             </div>
         );
     }
