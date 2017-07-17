@@ -6,7 +6,13 @@
     "start": "./bin/www",
     "test": "mocha --timeout 10000",
     "watch": "webpack -d --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "all": "cd api/v1/db_scripts && yarn run all && cd ../../..",
+    "flights": "cd api/v1/db_scripts && yarn run flights && cd ../../..",
+    "electricity":"cd api/v1/db_scripts && yarn run electricity && cd ../../..",
+    "vehicle": "cd api/v1/db_scripts && yarn run vehicle && cd ../../..",
+    "trains": "cd api/v1/db_scripts && yarn run trains && cd ../../..",
+    "trees": "cd api/v1/db_scripts && yarn run trees && cd ../../.."
   },
   "dependencies": {
     "@google/maps": "^0.4.1",
@@ -50,7 +56,7 @@
     "chai": "^3.5.0",
     "chai-http": "^2.0.1",
     "css-loader": "^0.25.0",
-    "gitbook-cli": "^2.3.0",
+    "gitbook-cli": "^2.3.1",
     "mocha": "^2.4.5",
     "nodemon": "^1.11.0",
     "react-hot-loader": "^1.3.1",
