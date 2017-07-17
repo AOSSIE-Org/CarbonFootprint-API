@@ -70,7 +70,7 @@ yarn run build
       yarn run trees
       ```
       
-Note : We prefer [yarn](https://yarnpkg.com) over [npm](https://www.npmjs.com), for details on yarn installation and usage [click here](https://yarnpkg.com/en/docs/usage)
+Note : For details on [yarn](https://yarnpkg.com) installation and usage [click here](https://yarnpkg.com/en/docs/usage)
 
 * To start the server, run `yarn start`.
 
