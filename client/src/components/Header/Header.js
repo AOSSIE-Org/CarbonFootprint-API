@@ -6,13 +6,18 @@ export default class Header extends React.Component {
   login() {
     this.props.auth.login();
   }
+  logout() {
+    this.props.auth.logout();
+  }
     render() {
+        const { isAuthenticated } = this.props.auth;
         return  (
             <div style={styles.header}>
               <Link to="/">
                 <Icon name='world' size="large" style={{marginRight: "10px"}}/>
                 <strong>Carbon Footprint</strong>
-                <span onClick={() => this.login()}> Login </span>
+                {!isAuthenticated() && <span onClick={() => this.login()}> Login </span>}
+                {isAuthenticated() && <span onClick={() => this.logout()}> Logout </span>}
                 </Link>
             </div>
         );
