@@ -1,12 +1,15 @@
 import React from 'react';
 import { Icon } from 'semantic-ui-react'
+import { Link } from 'react-router-dom'
 
 export default class Header extends React.Component {
     render() {
         return  (
             <div style={styles.header}>
+              <Link to="/">
                 <Icon name='world' size="large" style={{marginRight: "10px"}}/>
                 <strong>Carbon Footprint</strong>
+              </Link>
             </div>
         );
     }

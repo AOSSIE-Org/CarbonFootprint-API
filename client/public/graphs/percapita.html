@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<style>
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis--x path {
+  display: none;
+}
+
+select {
+    float : right;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+</style>
+</head>
+<body>
+
+<div id="bar">
+
+</div>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+var electricityData;
+function updateGraph(country){
+  country = country.value;
+  console.log(country);
+  var bar = document.getElementById("bar");
+  //Clear the div
+  bar.innerHTML = '';
+  //Repopulation of the div
+  showGraph(country);
+}
+//Renders the whole visualization
+function showGraph(country){
+  var data = electricityData[country];
+  var margin = {top: 80, right: 80, bottom: 100, left: 100},
+                    width = window.innerWidth - margin.left - margin.right,
+                    height = window.innerHeight - margin.top - margin.bottom;
+
+                // set the ranges
+                var x = d3.scaleBand()
+                          .range([0, width])
+                          .padding(0.1);
+                var y = d3.scaleLinear()
+                          .range([height, 0]);
+                var svg = d3.select("#bar").append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform",
+                          "translate(" + margin.left + "," + margin.top + ")");
+
+                  // get the data
+                  data = d3.entries(data);
+                  // format the data
+
+                  // Scale the range of the data in the domains
+                  x.domain(data.map(function(d) { return d.key; }));
+                  y.domain([0, d3.max(data, function(d) { return d.value; })]);
+                  // append the rectangles for the bar chart
+                  svg.selectAll(".bar")
+                      .data(data)
+                    .enter().append("rect")
+                      .attr("class", "bar")
+                      .attr("x", function(d) { return x(d.key); })
+                      .attr("width", x.bandwidth())
+                      .attr("y", function(d) { return y(d.value); })
+                      .attr("height", function(d) { return height - y(d.value); });
+
+                      // add the x Axis
+                      svg.append("g")
+                          .attr("transform", "translate(0," + height + ")")
+                          .call(d3.axisBottom(x));
+                      // add the y Axis
+                      svg.append("g")
+                          .call(d3.axisLeft(y));
+                    //   $('#country_name').html(country)
+                    svg.append("text")
+                        .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+                        .attr("transform", "translate("+ (-40) +","+(height/2)+")rotate(-90)")  // text is drawn off the screen top left, move down and out and rotate
+                        .text("Metric tons of CO2 per Capita");
+                    svg.append("text")
+                        .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+                        .attr("transform", "translate("+ (width/2) +","+(height-(-40))+")")  // centre below axis
+                        .text("Year");
+}
+d3.json("../data/percap.json", function(data) {
+
+    // create dropdown with countries
+    var select = document.createElement("select");
+    select.setAttribute('onChange', 'updateGraph(this)')
+    for(var x in data){
+      var option = document.createElement("option");
+      option.text = option.value = x;
+      select.append(option);
+    }
+    document.body.prepend(select);
+    electricityData = data;
+    //Default country set
+    showGraph("Afghanistan");
+
+});
+</script>
+</body>
+</html>

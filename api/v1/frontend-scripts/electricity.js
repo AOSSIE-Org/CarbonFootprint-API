@@ -1,3 +1,4 @@
+//This file logs the json required for electricity frontend.
 var country_code = require('../../../raw_data/countrycode.json');
 var electricity = require('../../../raw_data/electricty_emission.json')
 // console.log(country_code);
@@ -22,5 +23,4 @@ for (js in electricity){
             };
   }
 }
-jsonStr = JSON.stringify(obj);
-console.log(jsonStr);
+console.log(JSON.stringify(obj));

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+.bar {
+  fill: steelblue;
+}
+.bar:hover {
+  fill: brown;
+}
+.axis--x path {
+  display: none;
+}
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+.dot {
+  fill: white;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+select {
+    float : right;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+</style>
+<div id="bar">
+</div>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+var flightsData;
+function updateGraph(flight){
+  flight = flight.value;
+  console.log(flight);
+  var bar = document.getElementById("bar");
+  //Clear the div
+  bar.innerHTML = '';
+  //Repopulation of the div
+  showGraph(flight);
+}
+//Renders the whole visualization
+function showGraph(flight){
+  var data = flightsData[flight];
+    var margin = {top: 100, right: 100, bottom: 100, left: 100},
+                    width = window.innerWidth - margin.left - margin.right,
+                    height = window.innerHeight - margin.top - margin.bottom;
+                // set the ranges
+                var x = d3.scaleBand()
+                          .range([0, width])
+                          .padding(1);
+                var y = d3.scaleLinear()
+                          .range([height, 0]);
+                
+                // define the line
+                var valueline = d3.line()
+                    .x(function(d) { return x(d.key); })
+                    .y(function(d) { return y(d.value); })
+                    .curve(d3.curveNatural);
+
+                var svg = d3.select("#bar").append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform",
+                          "translate(" + margin.left + "," + margin.top + ")");
+                  // get the data
+                  data = d3.entries(data);
+                  console.log(data); 
+                  // format the data
+                  // Scale the range of the data in the domains
+                  x.domain(data.map(function(d) { return d.key; }));
+                  y.domain([0, d3.max(data, function(d) { return d.value; })]);
+                  
+
+                // Add the valueline path.
+                svg.append("path")
+                    .data([data])
+                    .attr("class", "line")
+                    .attr("d", valueline);
+                svg.selectAll(".dot")
+                    .data(data)
+                    .enter().append("circle")
+                    .attr("class", "dot")
+                    .attr("cx", valueline.x())
+                    .attr("cy", valueline.y())
+                    .attr("r", 3.5);
+                svg.append("g")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(d3.axisBottom(x));
+                // add the y Axis
+                svg.append("g")
+                    .call(d3.axisLeft(y));
+                svg.append("text")
+                    .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+                    .attr("transform", "translate("+ (-60) +","+(height/2)+")rotate(-90)")  // text is drawn off the screen top left, move down and out and rotate
+                    .text("CO2 Emissions (ton)");
+                svg.append("text")
+                    .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+                    .attr("transform", "translate("+ (width/2) +","+(height-(-40))+")")  // centre below axis
+                    .text("Flight Distance (nm)");
+};
+d3.json("../data/flights.json", function(data) {
+
+    // create dropdown with countries
+    var select = document.createElement("select");
+    select.setAttribute('onChange', 'updateGraph(this)')
+    for(var x in data){
+      var option = document.createElement("option");
+      option.text = "Airplane Model "+x;
+      option.value = x;
+      select.append(option);
+    }
+    document.body.prepend(select);
+    flightsData = data;
+    //Default flight set
+    showGraph("380");
+
+});
+</script>
