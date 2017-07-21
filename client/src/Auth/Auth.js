@@ -14,7 +14,7 @@ export default class Auth {
       redirectUri: AUTH_CONFIG.callbackUrl,
       audience: `https://${AUTH_CONFIG.domain}/userinfo`,
       responseType: 'token id_token',
-      scope: 'openid'
+      scope: 'openid email'
     });
   }
 
@@ -51,7 +51,7 @@ export default class Auth {
     localStorage.removeItem('id_token');
     localStorage.removeItem('expires_at');
     // navigate to the home route
-    history.replace('/profile');
+    history.replace('/');
   }
 
   isAuthenticated() {

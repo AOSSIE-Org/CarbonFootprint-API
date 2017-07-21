@@ -68,7 +68,6 @@ app.use(express.static(path.join(__dirname, 'client/public')));
 // Authentication middleware provided by express-jwt.
 // This middleware will check incoming requests for a valid
 // JWT on any routes that it is applied to.
-
 const jwtCheck = jwt({
     secret: jwks.expressJwtSecret({
         cache: false,
@@ -76,7 +75,6 @@ const jwtCheck = jwt({
         jwksRequestsPerMinute: 500,
         jwksUri: "https://carbonfootprint.auth0.com/.well-known/jwks.json"
     }),
-    audience: 'http://localhost:3080/auth',
     issuer: "https://carbonfootprint.auth0.com/",
     algorithms: ['RS256'],
 });
@@ -87,17 +85,15 @@ v1.use('/', emissions);
 
 //routes for authorization key generation
 var authroute = express.Router();
-authroute.use('/',auth);
+authroute.use(jwtCheck);
+authroute.use('/', auth);
 
-// Use auth router for all the requests adhering to auth route
-app.use('/auth', authroute);
 // Use v1 router for all the API requests adhering to version 1
 app.use('/v1', v1);
 
-// auth endpoint for testing
-app.use('/auth', jwtCheck, (req, res) => {
-	res.send("Auth is working");
-});
+// Use authroute for the requests regarding user authentication
+app.use('/auth', authroute);
+
 // show the API dashboard
 app.use('/', index);
 
