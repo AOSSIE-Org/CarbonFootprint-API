@@ -68,14 +68,15 @@ app.use(express.static(path.join(__dirname, 'client/public')));
 // Authentication middleware provided by express-jwt.
 // This middleware will check incoming requests for a valid
 // JWT on any routes that it is applied to.
+const auth0 = config.auth0;
 const jwtCheck = jwt({
     secret: jwks.expressJwtSecret({
-        cache: false,
+        cache: true,
         rateLimit: false,
         jwksRequestsPerMinute: 500,
-        jwksUri: "https://carbonfootprint.auth0.com/.well-known/jwks.json"
+        jwksUri: auth0.jwksUri
     }),
-    issuer: "https://carbonfootprint.auth0.com/",
+    issuer: auth0.issuer,
     algorithms: ['RS256'],
 });
 
