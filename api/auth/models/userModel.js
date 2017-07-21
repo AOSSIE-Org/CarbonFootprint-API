@@ -2,7 +2,7 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 // create a schema for for generation of user api keys and rate limiting.
-var emissionSchema = new Schema({
+var userSchema = new Schema({
     email: {
     	type: String,
     	required: true
@@ -19,4 +19,4 @@ var emissionSchema = new Schema({
     }
 })                        
 
-module.exports =  mongoose.model('Emission', emissionSchema);
+module.exports =  mongoose.model('User', userSchema);
