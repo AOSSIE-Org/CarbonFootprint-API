@@ -1,12 +1,12 @@
-// get required dependencies 
+// get required dependencies
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-const jwt = require('express-jwt');
-const jwks = require('jwks-rsa');
+var jwt = require('express-jwt');
+var jwks = require('jwks-rsa');
 
 // database setup
 var mongoose = require('mongoose');
@@ -24,18 +24,18 @@ var db = config.database;
 mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`);
 
 // When successfully connected
-mongoose.connection.on('connected', () => {  
+mongoose.connection.on('connected', () => {
   console.log('Connection to database established successfully');
-}); 
+});
 
 // If the connection throws an error
-mongoose.connection.on('error', (err) => {  
+mongoose.connection.on('error', (err) => {
   console.log('Error connecting to database: ' + err);
-}); 
+});
 
 // When the connection is disconnected
-mongoose.connection.on('disconnected', () => {  
-  console.log('Database disconnected'); 
+mongoose.connection.on('disconnected', () => {
+  console.log('Database disconnected');
 });
 
 // get different routes required
@@ -47,7 +47,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 // view engine setup
 // app.set('views', path.join(__dirname, 'views'));
-// app.set('view engine', 'ejs');
+app.set('view engine', 'ejs');
 
 // CORS Support
 app.use((req, res, next) => {
@@ -66,25 +66,30 @@ app.use(express.static(path.join(__dirname, 'client/public')));
 // Authentication middleware provided by express-jwt.
 // This middleware will check incoming requests for a valid
 // JWT on any routes that it is applied to.
-var jwtCheck = jwt({
+
+const jwtCheck = jwt({
     secret: jwks.expressJwtSecret({
-        cache: true,
-        rateLimit: true,
-        jwksRequestsPerMinute: 5,
+        cache: false,
+        rateLimit: false,
+        jwksRequestsPerMinute: 500,
         jwksUri: "https://carbonfootprint.auth0.com/.well-known/jwks.json"
     }),
-    audience: 'localhost:3080',
+    audience: 'http://localhost:3080/auth',
     issuer: "https://carbonfootprint.auth0.com/",
-    algorithms: ['RS256']
+    algorithms: ['RS256'],
 });
 
 //routes for api v1
 var v1 = express.Router();
-v1.use(jwtCheck);
 v1.use('/', emissions);
 
 // Use v1 router for all the API requests adhering to version 1
 app.use('/v1', v1);
+
+// auth endpoint for testing
+app.use('/auth', jwtCheck, (req, res) => {
+	res.send("Auth is working");
+});
 // show the API dashboard
 app.use('/', index);
 
@@ -103,7 +108,7 @@ app.use((err, req, res, next) => {
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  res.send('error');
 });
 
 module.exports = app;
