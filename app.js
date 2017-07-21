@@ -41,6 +41,8 @@ mongoose.connection.on('disconnected', () => {
 // get different routes required
 var index = require('./routes/index');
 var emissions = require('./api/v1/routes/emissionRoutes');
+var auth = require('./api/auth/routes/apikeyRoute');
+
 var app = express();
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
@@ -83,6 +85,12 @@ var v1 = express.Router();
 v1.use(jwtCheck);
 v1.use('/', emissions);
 
+//routes for authorization key generation
+var authroute = express.Router();
+authroute.use('/',auth);
+
+// Use auth router for all the requests adhering to auth route
+app.use('/auth', authroute);
 // Use v1 router for all the API requests adhering to version 1
 app.use('/v1', v1);
 // show the API dashboard

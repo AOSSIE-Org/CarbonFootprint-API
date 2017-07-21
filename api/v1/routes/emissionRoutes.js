@@ -4,6 +4,11 @@ var router = express.Router();
 const Emission = require('../controllers/emissionController');
 // get the helper functions
 const Helper = require('../controllers/helperFunctions');
+router.get('/apple', (req, res) => {
+    res.status(200).json({
+                success: true
+            });
+});
 
 router.post('/emissions', (req, res) => {
 	let itemName = req.body["item"];
