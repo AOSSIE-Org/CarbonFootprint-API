@@ -13,12 +13,12 @@ export default class Header extends React.Component {
         const { isAuthenticated } = this.props.auth;
         return  (
             <div style={styles.header}>
-              <Link to="/">
+              <Link to="/" style={{flex: 1}}>
                 <Icon name='world' size="large" style={{marginRight: "10px"}}/>
                 <strong>Carbon Footprint</strong>
-                {!isAuthenticated() && <span onClick={() => this.login()}> Login </span>}
-                {isAuthenticated() && <span onClick={() => this.logout()}> Logout </span>}
                 </Link>
+                {!isAuthenticated() && <span style={styles.menuItem} onClick={() => this.login()}> Login </span>}
+                {isAuthenticated() && <span style={styles.menuItem} onClick={() => this.logout()}> Logout </span>}
             </div>
         );
     }
@@ -32,8 +32,12 @@ const styles = {
         alignItems: 'center',
         background: '#2980b9',
         boxShadow: "1px 1px 5px #bbb",
-        padding: "15px",
+        padding: "15px 25px",
         color: "#fff",
         fontSize: "22px"
+    },
+    menuItem: {
+      fontSize: "18px",
+      cursor: "pointer"
     }
 }
