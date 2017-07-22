@@ -10,7 +10,7 @@ let generateApiKey = (email) => {
 }
 
 //Retreive API Key
-let retreiveApiKey = (email) => {
+let retrieveApiKey = (email) => {
     return new Promise((resolve, reject) => {
         // find the user in the database
         User.findOne({
@@ -28,7 +28,7 @@ let retreiveApiKey = (email) => {
 
 // Create and store apikey
 let createApiKey = (email) => {
-    let userexist = retreiveApiKey(email)
+    let userexist = retrieveApiKey(email)
     userexist.then(function () {
         console.log("API key already exists");
     }).catch(function (reject) {
@@ -69,8 +69,8 @@ let apiKey = (mail, action) => {
         createApiKey(mail);
         return true;
     }
-    if (action == "retreive") {
-        let apiToken = retreiveApiKey(mail);
+    if (action == "retrieve") {
+        let apiToken = retrieveApiKey(mail);
         apiToken.then(function (result) {
             console.log(result)
         })
@@ -80,7 +80,9 @@ let apiKey = (mail, action) => {
         let apiToken = revokeApiKey(mail);
         apiToken.then(function (result) {
             console.log(result)
-        })
+        }).catch(function(reject){
+            console.log("user not found");
+        });
         return true;
     }
 }
