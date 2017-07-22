@@ -89,3 +89,36 @@ exports.auth = async function(email, action) {
   let auth = await apiKey(email, action);
   return true;
 };
+
+//Verify API Key
+let verifyApiKey = (apikey) => {
+    return new Promise((resolve, reject) => {
+        // find the apikey in the database
+        User.findOne({
+            $or: [{
+                'apikey': new RegExp(`^${apikey}$`, "i"),
+            }]
+        }, (err, user) => {
+            // if user is found
+            if (!err && user) {
+                if (user.ratelimit != 0) {
+                    User.update({
+                        email: user.email
+                    }, {
+                        email: user.email,
+                        apikey: user.apikey,
+                        ratelimit: user.ratelimit-1
+                    }, function (err) {
+                        console.log("Cannot save new rate limit");
+                    })
+                   resolve(user.ratelimit); 
+                }
+            } else reject(`Unable to find user`);
+        });
+    });
+}
+
+exports.verifyapikey = async function (req, res) {
+    let verifykey = await verifyApiKey(req);
+    return verifykey;
+}
