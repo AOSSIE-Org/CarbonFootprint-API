@@ -73,7 +73,9 @@ let apiKey = (mail, action) => {
         let apiToken = retrieveApiKey(mail);
         apiToken.then(function (result) {
             console.log(result)
-        })
+        }).catch(function(reject){
+            console.log("user not found");
+        });
         return true;
     }
     if (action == "revoke") {
