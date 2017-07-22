@@ -25,35 +25,22 @@ let retreiveApiKey = (email) => {
         });
     });
 }
-let checkuserexist = (email) => {
-    return new Promise((resolve, reject) => {
-        let apiToken = retreiveApiKey(email);
-        apiToken.then(function (resolve) {
-            resolve();
-        }).catch(function (reject) {
-            console.log("hey i m here");
-            reject();
-        })
-    });
-}
+
 // Create and store apikey
 let createApiKey = (email) => {
-    checkuserexist(email).then(function (resolve) {
-        console.log("hello i am here");
+    let userexist = retreiveApiKey(email)
+    userexist.then(function () {
+        console.log("API key already exists");
     }).catch(function (reject) {
-        if (!userexist) {
-            let apiKey = generateApiKey(email);
-            var user = new User();
-            user.email = email;
-            user.apikey = apiKey;
-            user.ratelimit = [1000];
-            user.save(function (err) {
-                if (err) throw err;
-                console.log("User API Key Saved");
-            });
-        } else {
-            return "API key already exists";
-        }
+        let apiKey = generateApiKey(email);
+        var user = new User();
+        user.email = email;
+        user.apikey = apiKey;
+        user.ratelimit = [1000];
+        user.save(function (err) {
+            if (err) throw err;
+            console.log("User API Key Saved");
+        });
     });
 }
 
