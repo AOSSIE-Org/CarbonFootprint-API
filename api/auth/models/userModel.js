@@ -10,13 +10,12 @@ var userSchema = new Schema({
     apikey: {
     	type: String,
     	required: true,
-        default: 'Default'
     },
     ratelimit: {
-    	type: [Number],
+    	type: Number,
     	required: true,
-    	default: [100]
+    	default: 1000
     }
-})                        
+})
 
 module.exports =  mongoose.model('User', userSchema);
