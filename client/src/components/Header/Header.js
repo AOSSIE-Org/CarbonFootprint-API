@@ -13,7 +13,7 @@ export default class Header extends React.Component {
         const { isAuthenticated } = this.props.auth;
         return  (
             <div style={styles.header}>
-              <Link to="/" style={{flex: 1}}>
+              <Link to="/">
                 <Icon name='world' size="large" style={{marginRight: "10px"}}/>
                 <strong>Carbon Footprint</strong>
                 </Link>
@@ -30,6 +30,7 @@ const styles = {
         height: '60px',
         display: 'flex',
         alignItems: 'center',
+        justifyContent: "space-between",
         background: '#2980b9',
         boxShadow: "1px 1px 5px #bbb",
         padding: "15px 25px",
@@ -38,6 +39,6 @@ const styles = {
     },
     menuItem: {
       fontSize: "18px",
-      cursor: "pointer"
+      cursor: "pointer",
     }
 }
