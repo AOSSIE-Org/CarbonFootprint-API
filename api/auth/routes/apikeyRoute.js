@@ -1,9 +1,11 @@
 var express = require('express');
 var router = express.Router();
-
-router.get('/', (req, res) => {
+// get the auth controller
+const Auth = require('../controllers/emissionController');
+router.post('/', (req, res) => {
     res.status(200).json({
-                success: true
+                success: true,
+                action: req.body.action
             });
 });
 
