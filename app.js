@@ -43,6 +43,8 @@ var index = require('./routes/index');
 var emissions = require('./api/v1/routes/emissionRoutes');
 var auth = require('./api/auth/routes/apikeyRoute');
 
+const Auth = require('./api/auth/controllers/authController');
+
 var app = express();
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
@@ -82,6 +84,7 @@ const jwtCheck = jwt({
 
 //routes for api v1
 var v1 = express.Router();
+v1.use(Auth.verifyApiKey);
 v1.use('/', emissions);
 
 //routes for authorization key generation

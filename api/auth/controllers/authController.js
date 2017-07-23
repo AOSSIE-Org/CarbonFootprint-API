@@ -97,13 +97,10 @@ exports.auth = async function(email, action) {
 };
 
 //Verify API Key
-let verifyApiKey = (apikey) => {
-    return new Promise((resolve, reject) => {
-        // find the apikey in the database
+exports.verifyApiKey = (req, res, next) => {
+  const apikey = req.headers['access-key'];
         User.findOne({
-            $or: [{
-                'apikey': new RegExp(`^${apikey}$`, "i"),
-            }]
+            apikey: apikey
         }, (err, user) => {
             // if user is found
             if (!err && user) {
@@ -114,20 +111,16 @@ let verifyApiKey = (apikey) => {
                         email: user.email,
                         apikey: user.apikey,
                         ratelimit: user.ratelimit-1
-                    }, function (err) {
-                        console.log(err);
+                    }, (err) => {
+                      if(!err){
+                        next();
+                      }
                     })
-                   resolve(user.ratelimit); 
                 }
-                else{
-                  reject("Your API call limits are deplenished");
+                else {
+                  res.send("Your API call limits are deplenished");
                 }
-            } else reject(`Unable to find user`);
+            }
+            else res.send('Unauthorised call');
         });
-    });
-}
-
-//Checkts if the API exists and decreases the ratelimit by 1 and executes the API call.
-exports.verifyapikey = async function (req, res) {
-    let verifykey = await verifyApiKey(req);
 }
