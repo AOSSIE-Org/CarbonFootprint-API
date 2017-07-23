@@ -109,15 +109,19 @@ let verifyApiKey = (apikey) => {
                         apikey: user.apikey,
                         ratelimit: user.ratelimit-1
                     }, function (err) {
-                        console.log("Cannot save new rate limit");
+                        console.log(err);
                     })
                    resolve(user.ratelimit); 
+                }
+                else{
+                  console.log("Your API call limits are deplenished");
                 }
             } else reject(`Unable to find user`);
         });
     });
 }
 
+//Checkts if the API exists and decreases the ratelimit by 1 and executes the API call.
 exports.verifyapikey = async function (req, res) {
     let verifykey = await verifyApiKey(req);
     return verifykey;
