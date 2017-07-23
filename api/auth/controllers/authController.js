@@ -27,7 +27,7 @@ const createApiKey = email => {
   return new Promise((resolve, reject) => {
     retrieveApiKey(email)
       .then(() => {
-        reject('API key already exists'); // throw an error if user already exists
+        resolve('API key already exists'); // throw an error if user already exists
       })
       .catch(() => {
         const apiKey = generateApiKey(email);
