@@ -16,8 +16,8 @@ const retrieveApiKey = email => {
     // find the user in the database
     User.findOne({ email: email }, (err, user) => {
       if (!err && user) {
-        resolve(user.apikey)}
-      else reject('Unable to find the user');
+        resolve(user.apikey);
+      } else reject('Unable to find the user');
     });
   });
 };
@@ -59,35 +59,36 @@ const deleteApiKey = email => {
 //Supported actions - create , retreive , revoke
 let apiKey = (mail, action) => {
   return new Promise((resolve, reject) => {
-  if (action == 'create') {
-    let create = createApiKey(mail)
-    create.then(function(result) {
-        resolve(result)
-      })
-      .catch(function(reject) {
-        reject("User not found")
-      });
-  }
-  if (action == 'retrieve') {
-    let apiToken = retrieveApiKey(mail);
-    apiToken
-      .then(function(result) {
-        resolve(result)
-      })
-      .catch(function(err) {
-        reject(err)
-      });
-  }
-  if (action == 'revoke') {
-    let apiToken = deleteApiKey(mail);
-    apiToken
-      .then(function(result) {
-        resolve(result)
-      })
-      .catch(function(err) {
-        reject(err)
-      });
-  }
+    if (action == 'create') {
+      let create = createApiKey(mail);
+      create
+        .then(function(result) {
+          resolve(result);
+        })
+        .catch(function(reject) {
+          reject('User not found');
+        });
+    }
+    if (action == 'retrieve') {
+      let apiToken = retrieveApiKey(mail);
+      apiToken
+        .then(function(result) {
+          resolve(result);
+        })
+        .catch(function(err) {
+          reject(err);
+        });
+    }
+    if (action == 'revoke') {
+      let apiToken = deleteApiKey(mail);
+      apiToken
+        .then(function(result) {
+          resolve(result);
+        })
+        .catch(function(err) {
+          reject(err);
+        });
+    }
   });
 };
 
@@ -99,28 +100,36 @@ exports.auth = async function(email, action) {
 //Verify API Key
 exports.verifyApiKey = (req, res, next) => {
   const apikey = req.headers['access-key'];
-        User.findOne({
-            apikey: apikey
-        }, (err, user) => {
-            // if user is found
-            if (!err && user) {
-                if (user.ratelimit != 0) {
-                    User.update({
-                        email: user.email
-                    }, {
-                        email: user.email,
-                        apikey: user.apikey,
-                        ratelimit: user.ratelimit-1
-                    }, (err) => {
-                      if(!err){
-                        next();
-                      }
-                    })
-                }
-                else {
-                  res.send("Your API call limits are deplenished");
-                }
+  User.findOne({ apikey: apikey }, (err, user) => {
+    // if user is found
+    if (!err && user) {
+      if (user.ratelimit != 0) {
+        User.update(
+          { email: user.email },
+          {
+            email: user.email,
+            apikey: user.apikey,
+            ratelimit: user.ratelimit - 1
+          },
+          err => {
+            if (!err) {
+              res.set('X-RateLimit-Limit', 1000);
+              res.set('X-RateLimit-Remaining', user.ratelimit - 1);
+              // res.headers['X-RateLimit-Reset'] = 1372700873
+              next();
             }
-            else res.send('Unauthorised call');
+          }
+        );
+      } else {
+        res.status(401).json({
+          success: false,
+          err: 'Your API call limits are deplenished'
         });
-}
+      }
+    } else
+      res.status(401).json({
+        success: false,
+        err: 'Unauthorised or missing access token'
+      });
+  });
+};
