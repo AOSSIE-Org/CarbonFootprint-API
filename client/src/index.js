@@ -29,7 +29,7 @@ export default class App extends React.Component {
                 <Route exact path="/" component={Visuals} />
                 <Route path="/visuals/:type" component={Graph} />
                 <Route path="/profile" render={(props) => (
-            !auth.isAuthenticated() ? (
+            auth.isAuthenticated() ? (
               <Redirect to="/"/>
             ) : (
               <Profile />
