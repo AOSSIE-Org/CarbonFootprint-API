@@ -48,8 +48,10 @@ const deleteApiKey = email => {
   return new Promise((resolve, reject) => {
     User.findOne({ email: email }, (err, user) => {
       if (!err && user) {
-        user.remove();
-        resolve('Key deleted successfully');
+        user.remove((err) => {
+          if(err) reject('Unable to delete the key');
+          else resolve('Key deleted successfully');
+        });
       } else reject('Unable to delete the key');
     });
   });

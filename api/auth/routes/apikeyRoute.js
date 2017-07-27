@@ -11,12 +11,12 @@ router.post('/key', (req, res) => {
             console.log(result);
             res.status(200).json({
                 success: true,
-                create: result
+                apikey: result.apikey
             });
         })
         .catch(function (reject) {
             res.status(200).json({
-                success: true,
+                success: false,
                 err: reject
             });
         });
@@ -35,7 +35,7 @@ router.get('/key', (req, res) => {
         })
         .catch(function (reject) {
             res.status(200).json({
-                success: true,
+                success: false,
                 err: reject
             });
         });
@@ -52,7 +52,7 @@ router.delete('/key', (req, res) => {
         })
         .catch(function (reject) {
             res.status(200).json({
-                success: true,
+                success: false,
                 err: "User not found"
             });
         });
