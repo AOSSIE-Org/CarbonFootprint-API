@@ -4,22 +4,31 @@ var router = express.Router();
 const Auth = require('../controllers/authController');
 
 router.post('/key', (req, res) => {
+    let email_verified = req.user.email_verified;
     let email = req.user.email;
     let action = "create";
-    let create = Auth.auth(email,action)
-    create.then(function (result) {
-            console.log(result);
-            res.status(200).json({
-                success: true,
-                apikey: result.apikey
+    if (email_verified) {
+        let create = Auth.auth(email, action)
+        create.then(function (result) {
+                console.log(result);
+                res.status(200).json({
+                    success: true,
+                    apikey: result.apikey
+                });
+            })
+            .catch(function (reject) {
+                res.status(200).json({
+                    success: false,
+                    err: reject
+                });
             });
-        })
-        .catch(function (reject) {
-            res.status(200).json({
-                success: false,
-                err: reject
-            });
-        });
+    }
+    else {
+        res.status(200).json({
+                    success: false,
+                    err: "Email not verified"
+                });
+    }
 });
 
 router.get('/key', (req, res) => {
