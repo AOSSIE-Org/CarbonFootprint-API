@@ -1,8 +1,10 @@
 # Summary
 
 * [Introduction](README.md)
-* [GHG Emissions](emissions.md)
-* [Transport](transport/README.md)
-	* [Flights](transport/flights.md)
-	* [Vehicles](transport/vehicle.md)
-	* [Trains](transport/trains.md)
+* [Getting Started](Getting-Started.md)
+* [API Reference](API-Reference/README.md)
+    * [GHG Emissions](API-Reference/emissions.md)
+    * [Transport]()
+	    * [Flights](API-Reference/transport/flights.md)
+	    * [Vehicles](API-Reference/transport/vehicle.md)
+	    * [Trains](API-Reference/transport/trains.md)
