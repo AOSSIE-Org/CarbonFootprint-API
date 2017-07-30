@@ -26,6 +26,10 @@ To check your current versions :
     },
     "apikeys":{
         "googlemap": "Google Maps API key"
+    },
+    "auth0": {
+      "jwksUri": "<get from auth0>",
+      "issuer": "<get from auth0>"
     }
 }
 ```
