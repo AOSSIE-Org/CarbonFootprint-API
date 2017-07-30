@@ -1,0 +1,16 @@
+{
+	"database": {
+		"username": "",
+		"password": "",
+		"hostname": "",
+		"port": "",
+		"dbname": ""
+	},
+	"apikeys": {
+		"googlemap": "<Google Map Distance matrix api key>"
+	},
+	"auth0": {
+		"jwksUri": "<get from auth0>",
+		"issuer": "<get from auth0>"
+	}
+}
