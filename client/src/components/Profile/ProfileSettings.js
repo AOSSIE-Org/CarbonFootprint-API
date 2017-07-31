@@ -113,22 +113,26 @@ export default class Sidebar extends Component {
           </Grid.Row>
         </Grid>
         <Divider />
-        <Input
-          disabled
-          fluid
-          action={
-            !this.state.key
-              ? <Button primary onClick={this.createAccessKey}>
-                  CREATE API KEY
-                </Button>
-              : <Button onClick={this.deleteAccessKey} color="red">
-                  DELETE KEY
-                </Button>
-          }
-          placeholder="Generate an API access key here"
-          value={this.state.key || ''}
-          style={{ opacity: 1 }}
-        />
+        <div
+          style={{
+            display: 'flex',
+            border: '1px solid #eee',
+            alignItems: 'center',
+            paddingLeft: 10,
+            borderRadius: 3
+          }}
+        >
+          <span style={{ flex: 1 }}>
+            {this.state.key ? this.state.key : 'Generate an API access key'}
+          </span>
+          {!this.state.key
+            ? <Button primary onClick={this.createAccessKey}>
+                CREATE API KEY
+              </Button>
+            : <Button onClick={this.deleteAccessKey} color="red">
+                DELETE KEY
+              </Button>}
+        </div>
       </Segment>
     );
   }
