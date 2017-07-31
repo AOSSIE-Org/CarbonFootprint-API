@@ -4,6 +4,7 @@ var router = express.Router();
 const Auth = require('../controllers/authController');
 
 router.post('/key', (req, res) => {
+  console.log(req.user);
     let email_verified = req.user.email_verified;
     let email = req.user.email;
     let action = "create";
@@ -13,7 +14,8 @@ router.post('/key', (req, res) => {
                 console.log(result);
                 res.status(200).json({
                     success: true,
-                    apikey: result.apikey
+                    apikey: result.apikey,
+                    requests: result.requests
                 });
             })
             .catch(function (reject) {
@@ -39,7 +41,8 @@ router.get('/key', (req, res) => {
             console.log(result);
             res.status(200).json({
                 success: true,
-                apikey: result
+                apikey: result.apikey,
+                requests: result.requests
             });
         })
         .catch(function (reject) {

@@ -15,17 +15,32 @@ import { getKey, createKey, deleteKey } from './profileController';
 export default class Sidebar extends Component {
   constructor() {
     super();
-    this.state = { key: false };
+    this.state = {
+      key: false,
+      requestsAllowed: '-',
+      requestsLeft: '-',
+      timeLeft: '-'
+    };
     this.createAccessKey = this.createAccessKey.bind(this);
     this.deleteAccessKey = this.deleteAccessKey.bind(this);
   }
 
+  timeLeftToReset(time) {
+    console.log(time);
+    const timeLeft = (new Date(time) - new Date()) / 1000; // convert to seconds
+    return timeLeft >= 3600
+      ? `${Math.floor(timeLeft / 3600)} H`
+      : `${Math.ceil(timeLeft / 60)} M`;
+  }
   componentDidMount() {
     getKey().then(data => {
       console.log(data);
       if (data.success) {
         this.setState({
-          key: data.apikey
+          key: data.apikey,
+          requestsAllowed: data.requests.allowed,
+          requestsLeft: data.requests.left,
+          timeLeft: this.timeLeftToReset(data.requests.resetTime)
         });
       }
     });
@@ -37,7 +52,10 @@ export default class Sidebar extends Component {
       console.log(data);
       if (data.success) {
         this.setState({
-          key: data.apikey
+          key: data.apikey,
+          requestsAllowed: data.requests.allowed,
+          requestsLeft: data.requests.left,
+          timeLeft: this.timeLeftToReset(data.requests.resetTime)
         });
       }
     });
@@ -49,7 +67,10 @@ export default class Sidebar extends Component {
       console.log(data);
       if (data.success) {
         this.setState({
-          key: false
+          key: false,
+          requestsAllowed: '-',
+          requestsLeft: '-',
+          timeLeft: '-'
         });
       }
     });
@@ -69,13 +90,25 @@ export default class Sidebar extends Component {
         <Grid divided textAlign="center" columns="equal">
           <Grid.Row>
             <Grid.Column>
-              <Statistic size="mini" value="1000" label="Requests Allowed" />
+              <Statistic
+                size="mini"
+                value={this.state.requestsAllowed}
+                label="Requests Allowed"
+              />
             </Grid.Column>
             <Grid.Column>
-              <Statistic size="mini" value="670" label="Requests Left" />
+              <Statistic
+                size="mini"
+                value={this.state.requestsLeft}
+                label="Requests Left"
+              />
             </Grid.Column>
             <Grid.Column>
-              <Statistic size="mini" value="5H" label="Time to reset" />
+              <Statistic
+                size="mini"
+                value={this.state.timeLeft}
+                label="Time to reset"
+              />
             </Grid.Column>
           </Grid.Row>
         </Grid>

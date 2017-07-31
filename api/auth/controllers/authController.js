@@ -6,7 +6,7 @@ const User = require('../models/userModel');
 
 // Generate a api key using random and the provided email.
 const generateApiKey = email => {
-  const random = uuidv4(); //
+  const random = uuidv4();
   return uuidv5(email, random);
 };
 
@@ -16,7 +16,7 @@ const retrieveApiKey = email => {
     // find the user in the database
     User.findOne({ email: email }, (err, user) => {
       if (!err && user) {
-        resolve(user.apikey);
+        resolve(user);
       } else reject('Unable to find the user');
     });
   });
@@ -34,7 +34,9 @@ const createApiKey = email => {
         const user = new User();
         user.email = email;
         user.apikey = apiKey;
-        user.ratelimit = 1000;
+        user.requests.allowed = 1000;
+        user.requests.left = 1000;
+        user.requests.resetTime = +new Date() + 24 * 3600 * 1000;
         user.save(err => {
           if (err) reject('Error while creating the key');
           else resolve(user);
@@ -48,8 +50,8 @@ const deleteApiKey = email => {
   return new Promise((resolve, reject) => {
     User.findOne({ email: email }, (err, user) => {
       if (!err && user) {
-        user.remove((err) => {
-          if(err) reject('Unable to delete the key');
+        user.remove(err => {
+          if (err) reject('Unable to delete the key');
           else resolve('Key deleted successfully');
         });
       } else reject('Unable to delete the key');
@@ -105,18 +107,20 @@ exports.verifyApiKey = (req, res, next) => {
   User.findOne({ apikey: apikey }, (err, user) => {
     // if user is found
     if (!err && user) {
-      if (user.ratelimit != 0) {
+      if (user.requests.left != 0) {
         User.update(
           { email: user.email },
           {
             email: user.email,
             apikey: user.apikey,
-            ratelimit: user.ratelimit - 1
+            requests: {
+              left: user.requests.left - 1
+            }
           },
           err => {
             if (!err) {
-              res.set('X-RateLimit-Limit', 1000);
-              res.set('X-RateLimit-Remaining', user.ratelimit - 1);
+              res.set('X-RateLimit-Limit', user.requests.allowed);
+              res.set('X-RateLimit-Remaining', user.requests.left - 1);
               // res.headers['X-RateLimit-Reset'] = 1372700873
               next();
             }
