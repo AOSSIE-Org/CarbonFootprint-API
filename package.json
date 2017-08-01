@@ -17,12 +17,16 @@
   "dependencies": {
     "@google/maps": "^0.4.1",
     "asynckit": "^0.4.0",
+    "auth0-js": "^8.8.0",
     "body-parser": "~1.16.0",
     "cookie-parser": "~1.4.3",
     "cubic-spline": "^1.0.4",
     "debug": "~2.6.0",
-    "ejs": "~2.5.5",
-    "express": "~4.14.1",
+    "ejs": "^2.5.6",
+    "express": "^4.14.1",
+    "express-jwt": "^5.3.0",
+    "formidable": "^1.1.1",
+    "jwks-rsa": "^1.2.0",
     "lodash": "^4.17.4",
     "mongoose": "^4.10.4",
     "morgan": "^1.7.0",
@@ -32,7 +36,8 @@
     "react-router-dom": "^4.1.1",
     "semantic-ui-react": "^0.70.0",
     "serve-favicon": "~2.3.2",
-    "topojson-client": "^3.0.0"
+    "topojson-client": "^3.0.0",
+    "uuid": "^3.1.0"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
