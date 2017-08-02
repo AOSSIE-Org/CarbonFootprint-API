@@ -40,7 +40,7 @@ export default class Sidebar extends Component {
         <Menu.Item
           name="updates"
           active={activeItem === 'updates'}
-          onClick={this.handleItemClick}
+          onClick={() => window.location = 'http://docs.carbonhub.xyz'}
         >
           <span>
             <Icon name="newspaper" /> Documentation

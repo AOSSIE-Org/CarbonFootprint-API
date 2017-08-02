@@ -6,7 +6,7 @@ export default class ProfilePicture extends Component {
     super(props);
   }
   render() {
-    const shortName = this.props.name.split(' ').map(x => x[0]);
+    const shortName = this.props.name.split(' ').map(x => x[0].toUpperCase());
     return (
       <Card>
         <div style={styles.imageText}>

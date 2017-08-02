@@ -2,7 +2,7 @@ import Auth from '../../Auth/Auth';
 
 const options = {
   headers: {
-    authorization: `Bearer ${new Auth().getAccessToken()}`
+    authorization: `Bearer ${localStorage.getItem('id_token')}`
   }
 };
 

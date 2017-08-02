@@ -16,8 +16,8 @@ export default class Profile extends Component {
 
           <Grid.Column width={3}>
             <ProfilePicture
-              name="Rohit Gupta"
-              email="carbonfootprint@gmail.com"
+              name={localStorage.getItem('email').match((/([\w.]+)@/))[1]}
+              email={localStorage.getItem('email')}
             />
             <Sidebar />
           </Grid.Column>
