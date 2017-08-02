@@ -27,7 +27,7 @@ export default class Sidebar extends Component {
 
   timeLeftToReset(time) {
     const timeLeft = (new Date()-new Date(time)) / 1000; // convert to seconds
-    console.log(86400-timeLeft);
+    console.log(time);
     if (timeLeft >= 86400){
       return `0 H`
     }
