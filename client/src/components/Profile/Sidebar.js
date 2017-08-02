@@ -27,7 +27,7 @@ export default class Sidebar extends Component {
           </span>
         </Menu.Item>
 
-        <Menu.Item
+        {/*<Menu.Item
           name="spam"
           active={activeItem === 'spam'}
           onClick={this.handleItemClick}
@@ -35,7 +35,7 @@ export default class Sidebar extends Component {
           <span>
             <Icon name="user" /> Edit Profile
           </span>
-        </Menu.Item>
+        </Menu.Item>*/}
 
         <Menu.Item
           name="updates"

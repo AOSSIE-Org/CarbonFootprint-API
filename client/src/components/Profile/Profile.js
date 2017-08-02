@@ -5,8 +5,23 @@ import ProfileSettings from './ProfileSettings';
 import Sidebar from './Sidebar';
 
 export default class Profile extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
+    this.state = {
+      profilePicture: '',
+      name: '',
+      email: ''
+    }
+    this.props.auth.getProfile((err, profile) => {
+      console.log(profile)
+      if(!err){
+        this.setState({
+          profilePicture: profile.picture,
+          name: profile.email,
+          email: profile.email
+        })
+      }
+    })
   }
 
   render() {
@@ -16,8 +31,9 @@ export default class Profile extends Component {
 
           <Grid.Column width={3}>
             <ProfilePicture
-              name={localStorage.getItem('email').match((/([\w.]+)@/))[1]}
-              email={localStorage.getItem('email')}
+              url={'https://image.flaticon.com/icons/svg/149/149071.svg'}
+              name={this.state.name.match(/([\w.]*)@?/)[1]}
+              email={this.state.email}
             />
             <Sidebar />
           </Grid.Column>

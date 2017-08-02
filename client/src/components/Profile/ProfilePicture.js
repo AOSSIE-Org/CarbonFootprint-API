@@ -6,17 +6,18 @@ export default class ProfilePicture extends Component {
     super(props);
   }
   render() {
-    const shortName = this.props.name.split(' ').map(x => x[0].toUpperCase());
     return (
       <Card>
         <div style={styles.imageText}>
-          {shortName}
+          <img src={this.props.url} style={{ width: '40%' }} />
         </div>
         <Card.Content>
           <Card.Header>
             {this.props.name}
           </Card.Header>
-          <Card.Meta>{this.props.email}</Card.Meta>
+          <Card.Meta>
+            {this.props.email}
+          </Card.Meta>
         </Card.Content>
       </Card>
     );
@@ -31,8 +32,8 @@ const styles = {
     color: '#fff',
     fontWeight: 'bold',
     fontSize: '36px',
-    background: '#017d89',
-    height: '100px',
+    background: '#3498db',
+    height: '110px',
     lineHeight: '100px'
   }
 };

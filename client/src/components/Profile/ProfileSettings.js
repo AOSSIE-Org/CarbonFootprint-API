@@ -38,10 +38,6 @@ export default class Sidebar extends Component {
     } else {
       return `${Math.ceil(timeLeft / 60)} M`;
     }
-    // console.log(timeLeft);
-    // return (86400-timeLeft) >= 3600
-    //   ? `${Math.floor(timeLeft / 3600)} H`
-    //   : `${Math.ceil(timeLeft / 60)} M`;
   }
   componentDidMount() {
     getKey().then(data => {
