@@ -14,7 +14,9 @@ const generateApiKey = email => {
 const retrieveApiKey = email => {
   return new Promise((resolve, reject) => {
     // find the user in the database
-    User.findOne({ email: email }, (err, user) => {
+    User.findOne({
+      email: email
+    }, (err, user) => {
       if (!err && user) {
         resolve(user);
       } else reject('Unable to find the user');
@@ -36,7 +38,8 @@ const createApiKey = email => {
         user.apikey = apiKey;
         user.requests.allowed = 1000;
         user.requests.left = 1000;
-        user.requests.resetTime = +new Date() + 24 * 3600 * 1000;
+        user.requests.resetTime = +new Date() ;
+        // + 24 * 3600 * 1000;
         user.save(err => {
           if (err) reject('Error while creating the key');
           else resolve(user);
@@ -48,7 +51,9 @@ const createApiKey = email => {
 // delete API Key
 const deleteApiKey = email => {
   return new Promise((resolve, reject) => {
-    User.findOne({ email: email }, (err, user) => {
+    User.findOne({
+      email: email
+    }, (err, user) => {
       if (!err && user) {
         user.remove(err => {
           if (err) reject('Unable to delete the key');
@@ -66,37 +71,37 @@ let apiKey = (mail, action) => {
     if (action == 'create') {
       let create = createApiKey(mail);
       create
-        .then(function(result) {
+        .then(function (result) {
           resolve(result);
         })
-        .catch(function(reject) {
+        .catch(function (reject) {
           reject('User not found');
         });
     }
     if (action == 'retrieve') {
       let apiToken = retrieveApiKey(mail);
       apiToken
-        .then(function(result) {
+        .then(function (result) {
           resolve(result);
         })
-        .catch(function(err) {
+        .catch(function (err) {
           reject(err);
         });
     }
     if (action == 'revoke') {
       let apiToken = deleteApiKey(mail);
       apiToken
-        .then(function(result) {
+        .then(function (result) {
           resolve(result);
         })
-        .catch(function(err) {
+        .catch(function (err) {
           reject(err);
         });
     }
   });
 };
 
-exports.auth = async function(email, action) {
+exports.auth = async function (email, action) {
   let auth = await apiKey(email, action);
   return auth;
 };
@@ -104,17 +109,47 @@ exports.auth = async function(email, action) {
 //Verify API Key
 exports.verifyApiKey = (req, res, next) => {
   const apikey = req.headers['access-key'];
-  User.findOne({ apikey: apikey }, (err, user) => {
+  User.findOne({
+    apikey: apikey
+  }, (err, user) => {
     // if user is found
     if (!err && user) {
-      if (user.requests.left != 0) {
-        User.update(
-          { email: user.email },
-          {
+      let currDate = new Date();
+      let prevTime = new Date(String(user.requests.resetTime));
+      //find the difference in hours between current time and previous reset time.
+      let resetTimeCheck = Math.abs(currDate - prevTime) / 36e5;
+      if (resetTimeCheck >= 24) {
+        User.update({
+            email: user.email
+          }, {
             email: user.email,
             apikey: user.apikey,
             requests: {
-              left: user.requests.left - 1
+              allowed: user.requests.allowed,
+              left: user.requests.allowed - 1,
+              resetTime: currDate
+            }
+          },
+          err => {
+            if (!err) {
+              res.set('X-RateLimit-Limit', user.requests.allowed);
+              res.set('X-RateLimit-Remaining', user.requests.left - 1);
+              // res.headers['X-RateLimit-Reset'] = 1372700873
+              next();
+            }
+          }
+        );
+      }
+      else if (user.requests.left != 0) {
+        User.update({
+            email: user.email
+          }, {
+            email: user.email,
+            apikey: user.apikey,
+            requests: {
+              allowed: user.requests.allowed,
+              left: user.requests.left - 1,
+              resetTime: user.requests.resetTime
             }
           },
           err => {

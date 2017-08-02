@@ -26,15 +26,24 @@ export default class Sidebar extends Component {
   }
 
   timeLeftToReset(time) {
-    console.log(time);
-    const timeLeft = (new Date(time) - new Date()) / 1000; // convert to seconds
-    return timeLeft >= 3600
-      ? `${Math.floor(timeLeft / 3600)} H`
-      : `${Math.ceil(timeLeft / 60)} M`;
+    const timeLeft = (new Date()-new Date(time)) / 1000; // convert to seconds
+    console.log(86400-timeLeft);
+    if (timeLeft >= 86400){
+      return `0 H`
+    }
+    else if((86400-timeLeft) >= 3600){
+      return `${Math.floor((86400-timeLeft) / 3600)} H`;
+    }
+    else {
+      return `${Math.ceil(timeLeft / 60)} M`;
+    }
+    // console.log(timeLeft);
+    // return (86400-timeLeft) >= 3600
+    //   ? `${Math.floor(timeLeft / 3600)} H`
+    //   : `${Math.ceil(timeLeft / 60)} M`;
   }
   componentDidMount() {
     getKey().then(data => {
-      console.log(data);
       if (data.success) {
         this.setState({
           key: data.apikey,

@@ -25,7 +25,7 @@ var userSchema = new Schema(
       },
       resetTime: {
         type: Date,
-				required: true,
+				required: true
       }
     }
   },
