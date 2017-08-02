@@ -7,7 +7,8 @@ import {
   Button,
   Icon,
   Divider,
-  Statistic
+  Statistic,
+  Message
 } from 'semantic-ui-react';
 
 import { getKey, createKey, deleteKey } from './profileController';
@@ -19,22 +20,22 @@ export default class Sidebar extends Component {
       key: false,
       requestsAllowed: '-',
       requestsLeft: '-',
-      timeLeft: '-'
+      timeLeft: '-',
+      error: false,
+      errorMessage: ''
     };
     this.createAccessKey = this.createAccessKey.bind(this);
     this.deleteAccessKey = this.deleteAccessKey.bind(this);
   }
 
   timeLeftToReset(time) {
-    const timeLeft = (new Date()-new Date(time)) / 1000; // convert to seconds
+    const timeLeft = (new Date() - new Date(time)) / 1000; // convert to seconds
     console.log(time);
-    if (timeLeft >= 86400){
-      return `0 H`
-    }
-    else if((86400-timeLeft) >= 3600){
-      return `${Math.floor((86400-timeLeft) / 3600)} H`;
-    }
-    else {
+    if (timeLeft >= 86400) {
+      return `0 H`;
+    } else if (86400 - timeLeft >= 3600) {
+      return `${Math.floor((86400 - timeLeft) / 3600)} H`;
+    } else {
       return `${Math.ceil(timeLeft / 60)} M`;
     }
     // console.log(timeLeft);
@@ -66,6 +67,11 @@ export default class Sidebar extends Component {
           requestsLeft: data.requests.left,
           timeLeft: this.timeLeftToReset(data.requests.resetTime)
         });
+      } else {
+        this.setState({
+          error: true,
+          errorMessage: data.err
+        });
       }
     });
   }
@@ -80,6 +86,11 @@ export default class Sidebar extends Component {
           requestsAllowed: '-',
           requestsLeft: '-',
           timeLeft: '-'
+        });
+      } else {
+        this.setState({
+          error: true,
+          errorMessage: data.err
         });
       }
     });
@@ -122,6 +133,13 @@ export default class Sidebar extends Component {
           </Grid.Row>
         </Grid>
         <Divider />
+        {this.state.error &&
+          <Message warning>
+            <Message.Header>
+              {this.state.errorMessage}
+            </Message.Header>
+            <p>Please contact us if you are feeling stuck.</p>
+          </Message>}
         <div
           style={{
             display: 'flex',
