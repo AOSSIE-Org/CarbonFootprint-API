@@ -31,7 +31,7 @@ export default class Header extends React.Component {
               </span>
             }
           >
-            <Dropdown.Menu style={{ right: 0, top: '120%', left: 50 }}>
+            <Dropdown.Menu style={{ right: 0, top: '120%', left: 'initial' }}>
               <Dropdown.Item>
                 <Link to="/profile">My Account</Link>
               </Dropdown.Item>

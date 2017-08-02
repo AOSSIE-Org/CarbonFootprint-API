@@ -8,8 +8,15 @@ export default class ProfilePicture extends Component {
   render() {
     return (
       <Card>
-        <div style={styles.imageText}>
-          <img src={this.props.url} style={{ width: '40%' }} />
+        <div style={styles.imageContainer}>
+          <div
+            style={{
+              width: '40%',
+              paddingTop: '40%',
+              borderRadius: '50%',
+              background: `url(${this.props.url}) center center / cover`
+            }}
+          />
         </div>
         <Card.Content>
           <Card.Header>
@@ -25,15 +32,12 @@ export default class ProfilePicture extends Component {
 }
 
 const styles = {
-  imageText: {
+  imageContainer: {
     display: 'flex',
-    placeContent: 'center',
+    justifyContent: 'center',
+    alignItems: 'center',
     width: '100%',
-    color: '#fff',
-    fontWeight: 'bold',
-    fontSize: '36px',
     background: '#3498db',
-    height: '110px',
-    lineHeight: '100px'
+    height: '110px'
   }
 };

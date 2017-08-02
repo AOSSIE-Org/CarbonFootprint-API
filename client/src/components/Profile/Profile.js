@@ -17,7 +17,7 @@ export default class Profile extends Component {
       if(!err){
         this.setState({
           profilePicture: profile.picture,
-          name: profile.email,
+          name: profile.nickname,
           email: profile.email
         })
       }
@@ -31,8 +31,8 @@ export default class Profile extends Component {
 
           <Grid.Column width={3}>
             <ProfilePicture
-              url={'https://image.flaticon.com/icons/svg/149/149071.svg'}
-              name={this.state.name.match(/([\w.]*)@?/)[1]}
+              url={this.state.profilePicture}
+              name={this.state.name}
               email={this.state.email}
             />
             <Sidebar />
