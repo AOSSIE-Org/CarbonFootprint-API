@@ -30,7 +30,15 @@ To check your current versions :
     },
     "apikeys":{
         "googlemap": <Google Maps API key>
+<<<<<<< HEAD
     }
+=======
+    },
+    "auth0": {
+  		"jwksUri": <jwksUri>,
+  		"issuer": <issuer>
+  		}    
+>>>>>>> profiledesign
 }
 ```
 

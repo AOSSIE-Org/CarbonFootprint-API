@@ -14,7 +14,7 @@ export default class Auth {
       redirectUri: AUTH_CONFIG.callbackUrl,
       audience: `https://${AUTH_CONFIG.domain}/userinfo`,
       responseType: 'token id_token',
-      scope: 'openid email'
+      scope: 'openid email profile'
     });
   }
 
@@ -37,10 +37,13 @@ export default class Auth {
 
   setSession(authResult) {
     // Set the time that the access token will expire at
-    let expiresAt = JSON.stringify((authResult.expiresIn * 1000) + new Date().getTime());
+    let expiresAt = JSON.stringify(
+      authResult.expiresIn * 1000 + new Date().getTime()
+    );
     localStorage.setItem('access_token', authResult.accessToken);
     localStorage.setItem('id_token', authResult.idToken);
     localStorage.setItem('expires_at', expiresAt);
+    localStorage.setItem('email', authResult.idTokenPayload.email);
     // navigate to the home route
     history.replace('/profile');
   }
@@ -50,6 +53,7 @@ export default class Auth {
     localStorage.removeItem('access_token');
     localStorage.removeItem('id_token');
     localStorage.removeItem('expires_at');
+    localStorage.removeItem('email');
     // navigate to the home route
     history.replace('/');
   }
@@ -59,5 +63,31 @@ export default class Auth {
     // access token's expiry time
     let expiresAt = JSON.parse(localStorage.getItem('expires_at'));
     return new Date().getTime() < expiresAt;
+  }
+
+  getAccessToken() {
+    const accessToken = localStorage.getItem('access_token');
+    if (!accessToken) {
+      console.log(new Error('No access token found'));
+    }
+    return accessToken;
+  }
+
+  getIdToken() {
+    const idToken = localStorage.getItem('id_token');
+    if (!idToken) {
+      console.log(new Error('No id token found'));
+    }
+    return idToken;
+  }
+
+  getProfile(cb) {
+    let accessToken = this.getAccessToken();
+    this.auth0.client.userInfo(accessToken, (err, profile) => {
+      if (profile) {
+        this.userProfile = profile;
+      }
+      cb(err, profile);
+    });
   }
 }
