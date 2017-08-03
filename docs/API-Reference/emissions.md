@@ -37,7 +37,7 @@ Method - __POST__
 ```JSON
 {
     "success": false,
-    "error": "Unable to find component alpha for Default"
+    "error": err
 }
 ```    
 
@@ -70,7 +70,7 @@ Method-__POST__
 ```JSON
 {
     "success": false,
-    "error": "Unable to find component alpha for Default"
+    "error": err
 }
 ```
 ### 3. Vehicle Fuel - 
@@ -104,7 +104,7 @@ Method - __POST__
 ```JSON
 {
     "success": false,
-    "error": "Unable to find component alpha for Default"
+    "error": err
 }
 ```
 ### 4. Trains -
@@ -138,11 +138,11 @@ Method-__POST__
 ```JSON
 {
     "success": false,
-    "error": "Unable to find component alpha for Default"
+    "error": err
 }
 ```
 ### 5. Trees - 
-Emission route can be requested with tree name and the number of years to find out the CO2 emisson from it per year.The trees that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint/blob/master/Source/Core/core/resources/trees.json). 
+Emission route can be requested with tree name and the number of years to find out the CO2 absorption from it per year.The trees that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint/blob/master/Source/Core/core/resources/trees.json). 
 
 Sample Request JSON
 
@@ -171,7 +171,7 @@ Method - __POST__
 ```JSON
 {
     "success": false,
-    "error": "Unable to find component alpha for Default"
+    "error": err
 }
 ```
 
@@ -179,7 +179,7 @@ Method - __POST__
 
 {% sample lang="http" %}
 ```
-POST /v1/vehicle
+POST /v1/emissions
 ```
 **Parameters**
 

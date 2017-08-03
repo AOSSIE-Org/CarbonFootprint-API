@@ -83,7 +83,7 @@ router.post('/vehicle', async (req, res) => {
 	let destination = req.body.destination;
 	let unit = req.body.unit || 'km';
 	let mileage = parseFloat(req.body.mileage) || 20;
-	let mileage_unit = req.body.mileage_unit || 'km/L';
+	let mileage_unit = req.body.mileage_unit || 'km/l';
 
 	if (origin && destination){
 		let distance = Helper.distance(origin,destination,'driving');

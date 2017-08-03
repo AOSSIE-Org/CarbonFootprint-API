@@ -10,7 +10,7 @@ This route enables you to find GHG emissions for a number of fuels.The distance 
     "origin": "Bhubaneswar",
     "destination": "Cuttack",
     "mileage": 50,
-    "mileage_unit": "km/L"
+    "mileage_unit": "km/l"
 }
 ```
 `200` - **Response**
