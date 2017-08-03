@@ -16,7 +16,8 @@ mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.po
 
 // When successfully connected
 mongoose.connection.on('connected', () => {  
-  console.log('Connection to database established successfully');
+    console.log('Connection to database established successfully');
+    console.log('electricity_db_td.js is running');
 }); 
 
 // If the connection throws an error
@@ -57,3 +58,4 @@ for(js in json){
   });
     //console.log(obj);
 }
+mongoose.connection.close();

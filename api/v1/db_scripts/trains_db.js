@@ -14,6 +14,7 @@ mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.po
 
 mongoose.connection.on('connected',() => {
     console.log('Connection to database established successfully');
+    console.log("trains_db.js running");
 });
 
 mongoose.connection.on('error',(err) => {

@@ -30,30 +30,55 @@ To check your current versions :
     },
     "apikeys":{
         "googlemap": <Google Maps API key>
+<<<<<<< HEAD
+    }
+=======
     },
     "auth0": {
   		"jwksUri": <jwksUri>,
   		"issuer": <issuer>
   		}    
+>>>>>>> profiledesign
 }
 ```
 
  For 500 Mb Free services on MongoDB databases, signup [here](https://www.mlab.com/signup) (or you can use any other service of your choice).
 
-* You need to now run all scripts at [this directory](https://gitlab.com/aossie/CarbonFootprint-API/tree/master/api/v1/db_scripts) as instructed below:  
+* To install all the require modules and build file:
 
 ```
 yarn install
-cd api/v1/db_scripts
-node electricity_db.js
-node electricity_db_generation.js
-node electricity_db_td.js
-node flights_db.js
-node vehicle_db.js
-cd ../../.. && yarn run build
+yarn run build
 ```
 
-Note : We prefer [yarn](https://yarnpkg.com) over [npm](https://www.npmjs.com), for details on yarn installation and usage [click here](https://yarnpkg.com/en/docs/usage)
+* Before testing APIs on your local node server, please follow any of the following instructions according to requirement(s) (this might take some time)
+
+    * To add all the data 
+       ```
+       yarn run all
+       ```
+    * To add electricity data
+      ```
+      yarn run electricity
+      ``` 
+    * To add flights data
+      ```
+      yarn run flights
+      ```
+    * To add vehicles data
+      ```
+      yarn run vehicle
+      ```
+    * To add trains data
+      ```
+      yarn run trains
+      ```
+    * To add trees data
+      ```
+      yarn run trees
+      ```
+      
+Note : For details on [yarn](https://yarnpkg.com) installation and usage [click here](https://yarnpkg.com/en/docs/usage)
 
 * To start the server, run `yarn start`.
 
@@ -62,9 +87,9 @@ Note : We prefer [yarn](https://yarnpkg.com) over [npm](https://www.npmjs.com), 
 
 Documentation
 -------------
-*`npm install -g gitbook-cli`
+* `yarn global add gitbook-cli`
 
-*`cd docs && gitbook serve`  to view the documentation.
+* `cd docs && gitbook serve`  to view the documentation.
 
 Licenses
 ---------
