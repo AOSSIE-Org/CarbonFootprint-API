@@ -52,7 +52,7 @@ curl -POST -H 'access-key: 2804cbd0-5b69-519b-afbc-609e981f92b0' -H "Content-typ
 import requests
 import json
 
-def findFlightEmissions(url,data,headers):
+def getFlightEmissions(url,data,headers):
 	r = requests.post(url,data = json.dumps(data),headers=headers)
 	return r.content
 url = 'http://www.carbonhub.xyz/v1/flight'
@@ -68,7 +68,43 @@ headers = {
 	"access-key":"2804cbd0-5b69-519b-afbc-609e981f92b0",
 	"Content-Type":"application/json"
 }
-print findFlightEmissions(url,data,headers)
+print getFlightEmissions(url,data,headers)
+```
+
+{% sample lang="nodejs" %}
+```javascript
+var request = require('request');
+
+function getFlightEmissions(url,data,headers){
+    var options = {
+        url: url,
+        method: 'POST',
+        headers: headers,
+        form: data
+    }
+    request(options, function (error, response, body) {
+        if (!error && response.statusCode == 200) {
+            // Print out the response body
+            console.log(body)
+        }
+    });
+}
+    
+let url = "https://www.carbonhub.xyz/v1/flight",
+    data = {
+    "origin": "DEL",
+    "destination": "JFK",
+    "type": "international",
+    "model": "A380",
+    "passengers": 840
+    },
+    //use your api key here
+    headers = {
+    "access-key":"2804cbd0-5b69-519b-afbc-609e981f92b0",
+    "Content-Type":"application/json"
+    };
+
+getFlightEmissions(url,data,headers); 
 ```
 
 {% common %}

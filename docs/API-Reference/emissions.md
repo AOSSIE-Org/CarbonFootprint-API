@@ -193,11 +193,11 @@ curl -POST -H 'access-key: 2804cbd0-5b69-519b-afbc-609e981f92b0' -H "Content-typ
 ```
 
 {% sample lang="python"%}
-```Python
+```python
 import requests
 import json
 
-def findEmissions(url,data,headers):
+def getEmissions(url,data,headers):
     r = requests.post(url,data = json.dumps(data),headers=headers)
     return r.content
 url = 'http://www.carbonhub.xyz/v1/emissions'
@@ -212,7 +212,41 @@ headers = {
     "access-key":"2804cbd0-5b69-519b-afbc-609e981f92b0",
     "Content-Type":"application/json"
 }
-print findEmissions(url,data,headers)
+print getEmissions(url,data,headers)
+```
+{% sample lang="nodejs" %}
+```javascript
+var request = require('request');
+
+function getEmissions(url,data,headers){
+    var options = {
+        url: url,
+        method: 'POST',
+        headers: headers,
+        form: data
+    }
+    request(options, function (error, response, body) {
+        if (!error && response.statusCode == 200) {
+            // Print out the response body
+            console.log(body)
+        }
+    });
+}
+    
+let url = "https://www.carbonhub.xyz/v1/emissions",
+    data = {
+    "item": "electricity",
+    "region": "india",
+    "unit": "kWh",
+    "quantity": 1.564
+    },
+    //use your api key here
+    headers = {
+    "access-key":"2804cbd0-5b69-519b-afbc-609e981f92b0",
+    "Content-Type":"application/json"
+    };
+
+getEmissions(url,data,headers); 
 ```
 
 {% common %}

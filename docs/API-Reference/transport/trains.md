@@ -48,7 +48,7 @@ curl -POST -H 'access-key: 2804cbd0-5b69-519b-afbc-609e981f92b0' -H "Content-typ
 import requests
 import json
 
-def findTrainEmissions(url,data,headers):
+def getTrainEmissions(url,data,headers):
     r = requests.post(url,data = json.dumps(data),headers=headers)
     return r.content
 url = 'http://www.carbonhub.xyz/v1/trains'
@@ -63,7 +63,41 @@ headers = {
     "access-key":"2804cbd0-5b69-519b-afbc-609e981f92b0",
     "Content-Type":"application/json"
 }
-print findTrainEmissions(url,data,headers)
+print getTrainEmissions(url,data,headers)
+```
+{% sample lang="nodejs" %}
+```javascript
+var request = require('request');
+
+function getTrainEmissions(url,data,headers){
+    var options = {
+        url: url,
+        method: 'POST',
+        headers: headers,
+        form: data
+    }
+    request(options, function (error, response, body) {
+        if (!error && response.statusCode == 200) {
+            // Print out the response body
+            console.log(body)
+        }
+    });
+}
+    
+let url = "https://www.carbonhub.xyz/v1/trains",
+    data = {
+    "type":"railcars",
+    "origin":"Bhubaneswar",
+    "destination":"Delhi",
+    "passengers":10
+    },
+    //use your api key here
+    headers = {
+    "access-key":"2804cbd0-5b69-519b-afbc-609e981f92b0",
+    "Content-Type":"application/json"
+    };
+
+getTrainEmissions(url,data,headers); 
 ```
 
 {% common %}
