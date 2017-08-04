@@ -11,3 +11,4 @@
 	    * [Flights](API-Reference/transport/flights.md)
 	    * [Vehicles](API-Reference/transport/vehicle.md)
 	    * [Trains](API-Reference/transport/trains.md)
+* [Error Codes](Errors.md)
