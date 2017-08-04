@@ -36,6 +36,17 @@ This route enables you to find GHG emissions for a number of fuels.The distance 
 ```
 POST /v1/vehicle
 ```
+{% sample lang="BASH" %}
+```Bash
+#use your API key here
+curl -POST -H 'access-key: 2804cbd0-5b69-519b-afbc-609e981f92b0' -H "Content-type: application/json" -d '{
+    "type": "Petrol",
+    "origin": "Bhubaneswar",
+    "destination": "Cuttack",
+    "mileage": 50,
+    "mileage_unit": "km/l"
+}' 'http://www.carbonhub.xyz/v1/vehicle'
+```
 {% sample lang="python" %}
 ```Python
 import requests

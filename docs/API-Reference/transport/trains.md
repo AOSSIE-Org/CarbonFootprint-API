@@ -33,6 +33,16 @@ This route enables you to find GHG emissions for a number of train types for a c
 ```
 POST /v1/trains
 ```
+{% sample lang="Bash" %}
+```Bash
+#use your API key here
+curl -POST -H 'access-key: 2804cbd0-5b69-519b-afbc-609e981f92b0' -H "Content-type: application/json" -d '{
+    "type":"railcars",
+    "origin":"Bhubaneswar",
+    "destination":"Delhi",
+    "passengers":10
+}' 'http://www.carbonhub.xyz/v1/trains'
+```
 {% sample lang="python" %}
 ```Python
 import requests

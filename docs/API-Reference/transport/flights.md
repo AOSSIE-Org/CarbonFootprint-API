@@ -36,6 +36,17 @@ Only [ICAO Airport Codes](https://en.wikipedia.org/wiki/International_Civil_Avia
 ```
 POST /v1/flight
 ```
+{% sample lang="Bash" %}
+```Bash
+#use your API key here
+curl -POST -H 'access-key: 2804cbd0-5b69-519b-afbc-609e981f92b0' -H "Content-type: application/json" -d '{
+    "origin": "DEL",
+    "destination": "JFK",
+    "type": "international",
+    "model": "A380",
+    "passengers": 840
+}' 'http://www.carbonhub.xyz/v1/flight'
+```
 {% sample lang="python" %}
 ```Python
 import requests

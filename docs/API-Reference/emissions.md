@@ -181,6 +181,16 @@ Method - __POST__
 ```
 POST /v1/emissions
 ```
+{% sample lang="Bash" %}
+```Bash
+#use your API key here
+curl -POST -H 'access-key: 2804cbd0-5b69-519b-afbc-609e981f92b0' -H "Content-type: application/json" -d '{
+    "item": "electricity",
+    "region": "india",
+    "unit": "kWh",
+    "quantity": 1.564
+}' 'http://www.carbonhub.xyz/v1/emissions'
+```
 
 {% sample lang="python"%}
 ```Python
@@ -192,10 +202,10 @@ def findEmissions(url,data,headers):
     return r.content
 url = 'http://www.carbonhub.xyz/v1/emissions'
 data = {
-     "item":"electricity",
-     "region":"Africa",
-     "unit":"kWh",
-     "quantity":2
+    "item": "electricity",
+    "region": "india",
+    "unit": "kWh",
+    "quantity": 1.564
 }
 #use your api key here
 headers = {
