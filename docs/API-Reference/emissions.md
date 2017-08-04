@@ -181,6 +181,31 @@ Method - __POST__
 ```
 POST /v1/emissions
 ```
+
+{% sample lang="python"%}
+```Python
+import requests
+import json
+
+def findEmissions(url,data,headers):
+    r = requests.post(url,data = json.dumps(data),headers=headers)
+    return r.content
+url = 'http://www.carbonhub.xyz/v1/emissions'
+data = {
+     "item":"electricity",
+     "region":"Africa",
+     "unit":"kWh",
+     "quantity":2
+}
+#use your api key here
+headers = {
+    "access-key":"2804cbd0-5b69-519b-afbc-609e981f92b0",
+    "Content-Type":"application/json"
+}
+print findEmissions(url,data,headers)
+```
+
+{% common %}
 **Parameters**
 
 | Name        | Type           | Description  |

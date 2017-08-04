@@ -33,6 +33,30 @@ This route enables you to find GHG emissions for a number of train types for a c
 ```
 POST /v1/trains
 ```
+{% sample lang="python" %}
+```Python
+import requests
+import json
+
+def findTrainEmissions(url,data,headers):
+    r = requests.post(url,data = json.dumps(data),headers=headers)
+    return r.content
+url = 'http://www.carbonhub.xyz/v1/trains'
+data = {
+    "type":"railcars",
+    "origin":"Bhubaneswar",
+    "destination":"Delhi",
+    "passengers":10
+}
+#use your api key here
+headers = {
+    "access-key":"2804cbd0-5b69-519b-afbc-609e981f92b0",
+    "Content-Type":"application/json"
+}
+print findTrainEmissions(url,data,headers)
+```
+
+{% common %}
 **Parameters**
 
 | Name        | Type           | Description  |
