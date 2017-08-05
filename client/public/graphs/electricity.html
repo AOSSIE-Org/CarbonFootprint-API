@@ -55,6 +55,10 @@
         .domain(d3.range(0.2, 3, 0.2))
         .range(["#d7f171 ", "#b8e876 ", "#9ade7c ", "#7ed382 ", "#63c887 ", "#4abc8b ", "#30af8e ", "#15a28f ", "#00958e ", "#00888a ", "#007b84 ", "#106e7c ", "#1e6171 ", "#265465 ", "#2a4858 "]);
 
+    var quantize = d3.scaleQuantize()
+        .domain([ 0,3 ])
+        .range(["#d7f171 ", "#b8e876 ", "#9ade7c ", "#7ed382 ", "#63c887 ", "#4abc8b ", "#30af8e ", "#15a28f ", "#00958e ", "#00888a ", "#007b84 ", "#106e7c ", "#1e6171 ", "#265465 ", "#2a4858 "]);
+
     var legend = d3.legendColor()
         .labelFormat(d3.format(".2f"))
         .labels(d3.legendHelpers.thresholdLabels)
@@ -117,9 +121,10 @@
             .on('mouseover',function(d){
                  if(emission[d.id]){
                     tip.show(d);
-                    d3.select(this)
-                        .style("stroke", "white")
-                        .style("stroke-width", 3);
+                    d3.select(this.parentNode.appendChild(this))
+                        .style("opacity", 1)
+                        .style("stroke","white")
+                        .style("stroke-width",2);
                  }
             })
             .on('mouseout', function(d){
