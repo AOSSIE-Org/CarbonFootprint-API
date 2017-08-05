@@ -52,18 +52,19 @@
         height = window.innerHeight - margin.top - margin.bottom;
 
     var color = d3.scaleThreshold()
-        .domain(d3.range(0,3,0.1))
+        .domain(d3.range(0.2, 3, 0.2))
         .range(["#d7f171 ", "#b8e876 ", "#9ade7c ", "#7ed382 ", "#63c887 ", "#4abc8b ", "#30af8e ", "#15a28f ", "#00958e ", "#00888a ", "#007b84 ", "#106e7c ", "#1e6171 ", "#265465 ", "#2a4858 "]);
-    
+
     var quantize = d3.scaleQuantize()
         .domain([ 0,3 ])
         .range(["#d7f171 ", "#b8e876 ", "#9ade7c ", "#7ed382 ", "#63c887 ", "#4abc8b ", "#30af8e ", "#15a28f ", "#00958e ", "#00888a ", "#007b84 ", "#106e7c ", "#1e6171 ", "#265465 ", "#2a4858 "]);
-    
+
     var legend = d3.legendColor()
         .labelFormat(d3.format(".2f"))
+        .labels(d3.legendHelpers.thresholdLabels)
         .title("CO2 Emissions (kg/kWh)")
         .useClass(false)
-        .scale(quantize)
+        .scale(color)
 
     var path = d3.geoPath();
 
@@ -77,24 +78,23 @@
         .attr("class", "legendQuant")
         .attr("transform", "translate(20,200)");
     svg.select(".legendQuant")
-        .call(legend);      
+        .call(legend);
 
     svg.call(tip);
-       
+
     var projection = d3.geoMercator()
         .scale(125)
         .translate( [width / 2, height / 1.45]);
 
     var path = d3.geoPath().projection(projection);
 
-  
     queue()
         .defer(d3.json, "../data/world.json")
         .defer(d3.json, "../data/electricity.json")
         .await(ready);
 
     function ready(error, data, emission) {
-        data.features.forEach(function(d) { 
+        data.features.forEach(function(d) {
             if(emission.hasOwnProperty(d.id)){
                 d["CO2"] = emission[d.id]["CO2"];
                 d["CH4"] = emission[d.id]["CH4"];
@@ -106,7 +106,7 @@
                 d["unit"] = ''
             }
         });
-          
+
         svg.append("g")
             .attr("class", "countries")
             .selectAll("path")
@@ -114,32 +114,31 @@
             .enter().append("path")
             .attr("d", path)
             .style("fill", function(d) { return (emission[d.id])?color(+d["CO2"]):"#eee"; })
-            .style("opacity",0.8)
+            .style("opacity",1)
             // tooltips
             .style("stroke","#777")
             .style('stroke-width', 0.5)
             .on('mouseover',function(d){
-                 if(emission[d.id]){   
+                 if(emission[d.id]){
                     tip.show(d);
-                    d3.select(this)
+                    d3.select(this.parentNode.appendChild(this))
                         .style("opacity", 1)
                         .style("stroke","white")
-                        .style("stroke-width",3);
+                        .style("stroke-width",2);
                  }
             })
             .on('mouseout', function(d){
                 tip.hide(d);
                 d3.select(this)
-                    .style("opacity", 0.8)
-                    .style("stroke","#777")
-                    .style("stroke-width",0.3);
+                    .style("stroke", "#777")
+                    .style("stroke-width", 0.3);
             });
 
         svg.append("path")
             .datum(topojson.mesh(data.features, function(a, b) { return a.id !== b.id; }))
             .attr("class", "names")
             .attr("d", path);
-       
+
     }
 
 </script>
