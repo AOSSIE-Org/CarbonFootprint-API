@@ -32,7 +32,7 @@ export default class App extends React.Component {
             !auth.isAuthenticated() ? (
               <Redirect to="/"/>
             ) : (
-              <Profile />
+              <Profile auth={auth}/>
             )
           )} />
                 <Route path="/callback" render={(props) => {
