@@ -1,14 +1,6 @@
-
-try {
-	var config = require('../../../config.json');
-}
-catch(e){
-	console.log(`File "config.json" is missing.`);
-}
-let api = config.apikeys;
 //google map api client defined
 let googleMapsClient = require('@google/maps').createClient({
-  key: `${api.googlemap}` 
+  key: process.env.GOOGLE_MAPS_KEY 
 });
 exports.getDistanceFromLatLon = (lat1, lon1, lat2, lon2) => {
   let p = 0.017453292519943295;    // Math.PI / 180
