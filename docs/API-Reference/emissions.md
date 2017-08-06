@@ -1,6 +1,16 @@
 # GHG Emissions
 
 {% method %}
+###**Parameters**
+
+| Name        | Type           | Description  |
+| ------------- |-------------| -----|
+| item | string |**Required:** The name of the item for which emission is to be found.|
+| region | string | **Required:** Distance travelled by the vehicle. |
+| quantity | number | **Required:** The number of units of the item for which emissions are to be calculated. |
+| unit  | string | The unit of the element for which emissions are to be calculated.  |
+| multiply  | number | If emissions are to be found for multiple elements.  |
+
 This route enables you to find GHG emissions for things that can be directly related to emissions.
 Currently supported items-
 
@@ -175,21 +185,19 @@ Method - __POST__
 }
 ```
 
-
-
-{% sample lang="http" %}
+{% common %}
 ```
 POST /v1/emissions
 ```
 {% sample lang="Bash" %}
 ```Bash
 #use your API key here
-curl -POST -H 'api-key: 2804cbd0-5b69-519b-afbc-609e981f92b0' -H "Content-type: application/json" -d '{
+curl -POST -H 'access-key: <your-apikey>' -H "Content-type: application/json" -d '{
     "item": "electricity",
     "region": "india",
     "unit": "kWh",
     "quantity": 1.564
-}' 'http://www.carbonhub.xyz/v1/emissions'
+}' 'https://www.carbonhub.xyz/v1/emissions'
 ```
 
 {% sample lang="python"%}
@@ -200,7 +208,7 @@ import json
 def getEmissions(url,data,headers):
     r = requests.post(url,data = json.dumps(data),headers=headers)
     return r.content
-url = 'http://www.carbonhub.xyz/v1/emissions'
+url = 'https://www.carbonhub.xyz/v1/emissions'
 data = {
     "item": "electricity",
     "region": "india",
@@ -209,7 +217,7 @@ data = {
 }
 #use your api key here
 headers = {
-    "api-key":"2804cbd0-5b69-519b-afbc-609e981f92b0",
+    "access-key":"<your-apikey>",
     "Content-Type":"application/json"
 }
 print getEmissions(url,data,headers)
@@ -242,7 +250,7 @@ let url = "https://www.carbonhub.xyz/v1/emissions",
     },
     //use your api key here
     headers = {
-    "api-key":"2804cbd0-5b69-519b-afbc-609e981f92b0",
+    "access-key":"<your-apikey>",
     "Content-Type":"application/json"
     };
 
@@ -250,14 +258,5 @@ getEmissions(url,data,headers);
 ```
 
 {% common %}
-**Parameters**
-
-| Name        | Type           | Description  |
-| ------------- |-------------| -----|
-| item | string |**Required:** The name of the item for which emission is to be found.|
-| region | string | **Required:** Distance travelled by the vehicle. |
-| quantity | number | **Required:** The number of units of the item for which emissions are to be calculated. |
-| unit  | string | The unit of the element for which emissions are to be calculated.  |
-| multiply  | number | If emissions are to be found for multiple elements.  |
 
 {% endmethod %}

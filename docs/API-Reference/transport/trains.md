@@ -2,7 +2,15 @@
 
 {% method %}
 This route enables you to find GHG emissions for a number of train types for a certain route.The distance is calculated using [Google Map Distant Matrix API](https://developers.google.com/maps/documentation/javascript/distancematrix). The trains that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/raw_data/trains.json). 
+###**Parameters**
 
+| Name        | Type           | Description  |
+| ------------- |-------------| -----|
+| type | string | **Required:** The fuel type used by the vehicle.|
+| origin    | string | **Required:** Origin of the journey. |
+| destination   | string | **Required:** Destination of the journey. |
+| region    | string |  Origin of the journey. The default sets to 'Default'. |
+| passengers    | number | The number of passengers travelling in the journey.The default sets to 1. |
 **Example**
 ```JSON
 {
@@ -29,19 +37,20 @@ This route enables you to find GHG emissions for a number of train types for a c
     "error": "Distance cannot be less than zero"
 }
 ```
-{% sample lang="http" %}
+{% common %}
 ```
 POST /v1/trains
 ```
 {% sample lang="Bash" %}
 ```Bash
 #use your API key here
-curl -POST -H 'api-key: 2804cbd0-5b69-519b-afbc-609e981f92b0' -H "Content-type: application/json" -d '{
+
+curl -POST -H 'access-key: <apikey>' -H "Content-type: application/json" -d '{
     "type":"railcars",
     "origin":"Bhubaneswar",
     "destination":"Delhi",
     "passengers":10
-}' 'http://www.carbonhub.xyz/v1/trains'
+}' 'https://www.carbonhub.xyz/v1/trains'
 ```
 {% sample lang="python" %}
 ```Python
@@ -51,7 +60,7 @@ import json
 def getTrainEmissions(url,data,headers):
     r = requests.post(url,data = json.dumps(data),headers=headers)
     return r.content
-url = 'http://www.carbonhub.xyz/v1/trains'
+url = 'https://www.carbonhub.xyz/v1/trains'
 data = {
     "type":"railcars",
     "origin":"Bhubaneswar",
@@ -60,7 +69,7 @@ data = {
 }
 #use your api key here
 headers = {
-    "api-key":"2804cbd0-5b69-519b-afbc-609e981f92b0",
+    "access-key":"<apikey>",
     "Content-Type":"application/json"
 }
 print getTrainEmissions(url,data,headers)
@@ -93,22 +102,11 @@ let url = "https://www.carbonhub.xyz/v1/trains",
     },
     //use your api key here
     headers = {
-    "api-key":"2804cbd0-5b69-519b-afbc-609e981f92b0",
+    "access-key":"<apikey>",
     "Content-Type":"application/json"
     };
 
 getTrainEmissions(url,data,headers); 
 ```
-
 {% common %}
-**Parameters**
-
-| Name        | Type           | Description  |
-| ------------- |-------------| -----|
-| type | string | **Required:** The fuel type used by the vehicle.|
-| origin    | string | **Required:** Origin of the journey. |
-| destination   | string | **Required:** Destination of the journey. |
-| region    | string |  Origin of the journey. The default sets to 'Default'. |
-| passengers    | number | The number of passengers travelling in the journey.The default sets to 1. |
-
 {% endmethod %}
