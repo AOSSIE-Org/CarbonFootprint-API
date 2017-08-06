@@ -21,7 +21,7 @@ router.post('/emissions', (req, res) => {
         })
         .catch((err) => {
             console.log(`Error: ${err}`);
-            res.json({
+            res.status(400).json({
                 success: false,
                 err: err
             });
@@ -62,7 +62,7 @@ router.post('/flight', (req, res) => {
 	        })
 	        .catch((err) => {
 	            console.log(`Error: ${err}`);
-	            res.json({
+	            res.status(404).json({
 	                success: false,
 	                err: `Unable to find emissions for airplane model ${model}`
 	            });
@@ -103,7 +103,7 @@ router.post('/vehicle', async (req, res) => {
                 })
                 .catch((err) => {
                     console.log(`Error: ${err}`);
-                    res.json({
+                    res.status(404).json({
                         success: false,
                         err: `Unable to find emissions for fuel type ${type}`
                     });
@@ -111,7 +111,7 @@ router.post('/vehicle', async (req, res) => {
 		})
             .catch((err) => {
                 console.log(`Error: ${err}`);
-                res.json({
+                res.status(400).json({
                     success: false,
                     err: err
                 });
@@ -150,7 +150,7 @@ router.post('/trains', async (req, res) => {
                 })
                 .catch((err) => {
                     console.log(`Error: ${err}`);
-                    res.json({
+                    res.status(404).json({
                         success: false,
                         err: `Unable to find emissions for fuel type ${type}`
                     });
@@ -158,7 +158,7 @@ router.post('/trains', async (req, res) => {
 		})
             .catch((err) => {
                 console.log(`Error: ${err}`);
-                res.json({
+                res.status(400).json({
                     success: false,
                     err: err
                 });
