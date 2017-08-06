@@ -36,7 +36,7 @@ POST /v1/trains
 {% sample lang="Bash" %}
 ```Bash
 #use your API key here
-curl -POST -H 'access-key: 2804cbd0-5b69-519b-afbc-609e981f92b0' -H "Content-type: application/json" -d '{
+curl -POST -H 'api-key: 2804cbd0-5b69-519b-afbc-609e981f92b0' -H "Content-type: application/json" -d '{
     "type":"railcars",
     "origin":"Bhubaneswar",
     "destination":"Delhi",
@@ -60,7 +60,7 @@ data = {
 }
 #use your api key here
 headers = {
-    "access-key":"2804cbd0-5b69-519b-afbc-609e981f92b0",
+    "api-key":"2804cbd0-5b69-519b-afbc-609e981f92b0",
     "Content-Type":"application/json"
 }
 print getTrainEmissions(url,data,headers)
@@ -93,7 +93,7 @@ let url = "https://www.carbonhub.xyz/v1/trains",
     },
     //use your api key here
     headers = {
-    "access-key":"2804cbd0-5b69-519b-afbc-609e981f92b0",
+    "api-key":"2804cbd0-5b69-519b-afbc-609e981f92b0",
     "Content-Type":"application/json"
     };
 

@@ -108,7 +108,7 @@ exports.auth = async function (email, action) {
 
 //Verify API Key
 exports.verifyApiKey = (req, res, next) => {
-  const apikey = req.headers['access-key'];
+  const apikey = req.headers['api-key'];
   User.findOne({
     apikey: apikey
   }, (err, user) => {
