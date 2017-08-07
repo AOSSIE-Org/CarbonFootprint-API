@@ -12,3 +12,4 @@
 	    * [Vehicles](API-Reference/transport/vehicle.md)
 	    * [Trains](API-Reference/transport/trains.md)
 * [Error Codes](Errors.md)
+* [Contribute Guide](Contribute.md)

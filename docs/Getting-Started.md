@@ -78,7 +78,7 @@ Note : For details on [yarn](https://yarnpkg.com) installation and usage [click 
 
 # Get API key
 
-![api key](./api.gif)
+![api key](./gif/api.gif)
 
 # Licenses
 
