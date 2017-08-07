@@ -13,25 +13,21 @@ To check your current versions :
 
 # Building and Development Versions (v1)
 
-* In the root of repository add config.json file.
+* In the root of repository add the .env file.
 
 ```JSON
-{
-    "database":{
-        "username": "username",
-        "password": "password",
-        "port": "serving port"
-        "dbname": "database name",
-        "hostname": "host name"
-    },
-    "apikeys":{
-        "googlemap": "Google Maps API key"
-    },
-    "auth0": {
-      "jwksUri": "<get from auth0>",
-      "issuer": "<get from auth0>"
-    }
-}
+# DATABASE CONFIG
+DB_HOST=
+DB_USER=
+DB_PASS=
+DB_PORT=
+DB_NAME=
+# API KEYS
+GOOGLE_MAPS_KEY=
+API_TEST_KEY=
+# AUTH0 SERVER CONFIG
+AUTH0_JWKS_URI=
+AUTH0_ISSUER=
 ```
 
  For 500 Mb Free services on MongoDB databases, signup [here](https://www.mlab.com/signup) (or you can use any other service of your choice).

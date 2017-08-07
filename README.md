@@ -17,7 +17,7 @@ To check your current versions :
 
 # Building and Development Versions (v1)
 
-* In the root of repository add config.json file.
+* In the root of repository add .env file.
 
 ```
 {

@@ -9,9 +9,9 @@ After creating account on Auth0, click on [Clients](https://manage.auth0.com/#/c
 
 # You are almost there
 
-Find config.json.example [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/config.json.example) and auth0-config.js.example [here](https://gitlab.com/aossie/CarbonFootprint-API/tree/master/client/src/Auth/auth0-config.js.example)
+Find .env.example [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/.env.example) and auth0-config.js.example [here](https://gitlab.com/aossie/CarbonFootprint-API/tree/master/client/src/Auth/auth0-config.js.example) , fill these with your credentials.
 
-* Add [config.json]() [here](https://gitlab.com/aossie/CarbonFootprint-API) with the same format as [config.json.example](). In `database` fill the database configuration. If you don't have one signup [here](https://mlab.com/signup/) .
+* Add ___.env___ [here](https://gitlab.com/aossie/CarbonFootprint-API) with the same format as [.env.example](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/.env.example). In `database` fill the database configuration. If you don't have one signup [here](https://mlab.com/signup/) .
      * Add Google distance matrix API key. Find one [here](https://developers.google.com/maps/documentation/distance-matrix/get-api-key) .
      * Add the `issuer` with `https://<userName>.auth0.com/.well-known/jwks.json`
      * Add the `jwksUri` with `https://<userName>.auth0.com/`
