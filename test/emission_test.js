@@ -144,7 +144,7 @@ describe("API endpoint testing", () => {
         .end((err, res) => {
           res.status.should.equal(200);
           res.body.success.should.equal(true);
-          res.body.emissions["CO2"].should.equal(1.203576);
+          res.body.emissions["CO2"].should.approximately(1.203576, .1);
           done();
         });
     });
@@ -159,7 +159,7 @@ describe("API endpoint testing", () => {
         .end((err, res) => {
           res.status.should.equal(200);
           res.body.success.should.equal(true);
-          res.body.emissions["CO2"].should.equal(783.865432);
+          res.body.emissions["CO2"].should.approximately(783.865432, 5);
           done();
         });
     });
