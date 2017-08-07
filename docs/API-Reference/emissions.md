@@ -192,7 +192,7 @@ POST /v1/emissions
 {% sample lang="Bash" %}
 ```Bash
 #use your API key here
-curl -POST -H 'access-key: <your-apikey>' -H "Content-type: application/json" -d '{
+curl -POST -H 'access-key: <apikey>' -H "Content-type: application/json" -d '{
     "item": "electricity",
     "region": "india",
     "unit": "kWh",
@@ -217,7 +217,7 @@ data = {
 }
 #use your api key here
 headers = {
-    "access-key":"<your-apikey>",
+    "access-key":"<apikey>",
     "Content-Type":"application/json"
 }
 print getEmissions(url,data,headers)
@@ -250,7 +250,7 @@ let url = "https://www.carbonhub.xyz/v1/emissions",
     },
     //use your api key here
     headers = {
-    "access-key":"<your-apikey>",
+    "access-key":"<apikey>",
     "Content-Type":"application/json"
     };
 
