@@ -257,6 +257,50 @@ let url = "https://www.carbonhub.xyz/v1/emissions",
 getEmissions(url,data,headers); 
 ```
 
+{% sample lang="java" %}
+```Java
+package org.kodejava.example.httpclient;
+
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.HttpClientBuilder;
+import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.util.EntityUtils;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class getEmissions {
+    public static void main(String[] args) {
+        HttpClient client = HttpClientBuilder.create().build();
+        HttpPost post = new HttpPost("https://www.carbonhub.xyz/v1/emissions");
+
+        List<NameValuePair> data = new ArrayList<>(4); 
+        data.add(new BasicNameValuePair("item", "electricity"));
+        data.add(new BasicNameValuePair("region", "india"));
+        data.add(new BasicNameValuePair("unit", "kWh"));
+        data.add(new BasicNameValuePair("quantity", 1.564));
+
+        try {
+            post.setEntity(new UrlEncodedFormEntity(data));
+            post.setHeader("Content-Type","application/json");
+            // use your api key
+            post.setHeader("access-key","<apikey>");
+            HttpResponse response = client.execute(post);
+
+            // Print out the response message
+            System.out.println(EntityUtils.toString(response.getEntity()));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
 {% common %}
 
 {% endmethod %}
