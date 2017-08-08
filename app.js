@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 // get required dependencies
 var express = require('express');
 var path = require('path');
@@ -10,18 +12,9 @@ var jwks = require('jwks-rsa');
 
 // database setup
 var mongoose = require('mongoose');
-// get the database configuration file
-try {
-	var config = require('./config.json');
-}
-catch(e){
-	console.log(`Database configuration file "config.json" is missing.`);
-	process.exit(1);
-}
-var db = config.database;
 
 // connect to the database
-mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`);
+mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`);
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
@@ -70,15 +63,14 @@ app.use(express.static(path.join(__dirname, 'client/public')));
 // Authentication middleware provided by express-jwt.
 // This middleware will check incoming requests for a valid
 // JWT on any routes that it is applied to.
-const auth0 = config.auth0;
 const jwtCheck = jwt({
     secret: jwks.expressJwtSecret({
         cache: true,
         rateLimit: false,
         jwksRequestsPerMinute: 500,
-        jwksUri: auth0.jwksUri
+        jwksUri: process.env.AUTH0_JWKS_URI
     }),
-    issuer: auth0.issuer,
+    issuer: process.env.AUTH0_ISSUER,
     algorithms: ['RS256'],
 });
 
