@@ -19,14 +19,14 @@ router.post('/key', (req, res) => {
                 });
             })
             .catch(function (reject) {
-                res.status(200).json({
+                res.status(400).json({
                     success: false,
                     err: reject
                 });
             });
     }
     else {
-        res.status(200).json({
+        res.status(403).json({
                     success: false,
                     err: "Email not verified"
                 });
@@ -46,7 +46,7 @@ router.get('/key', (req, res) => {
             });
         })
         .catch(function (reject) {
-            res.status(200).json({
+            res.status(404).json({
                 success: false,
                 err: reject
             });
@@ -63,7 +63,7 @@ router.delete('/key', (req, res) => {
             });
         })
         .catch(function (reject) {
-            res.status(200).json({
+            res.status(404).json({
                 success: false,
                 err: "User not found"
             });

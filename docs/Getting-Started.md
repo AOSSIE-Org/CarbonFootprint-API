@@ -1,41 +1,33 @@
-# Carbon Footprint API
-
-This project aims to have a universal API to find carbon footprint of almost anything.
-
 # Prerequisites
 
 At the time of development we were using :
-`npm : 5.0.3` or higher
+`yarn : 0.27.5` or higher
 `node : v8.1.2` or higher
 
 To check your current versions :
 
 ```
-  npm --version
+  yarn --version
   node --version
 ```
 
 # Building and Development Versions (v1)
 
-* In the root of repository add .env file.
+* In the root of repository add the .env file.
 
-```
-{
-    "database":{
-        "username": <username>,
-        "password": <password>,
-        "port": <serving port>
-        "dbname": <database name>,
-        "hostname": <host name>
-    },
-    "apikeys":{
-        "googlemap": <Google Maps API key>
-    },
-    "auth0": {
-  		"jwksUri": <jwksUri>,
-  		"issuer": <issuer>
-  		}    
-}
+```JSON
+# DATABASE CONFIG
+DB_HOST=
+DB_USER=
+DB_PASS=
+DB_PORT=
+DB_NAME=
+# API KEYS
+GOOGLE_MAPS_KEY=
+API_TEST_KEY=
+# AUTH0 SERVER CONFIG
+AUTH0_JWKS_URI=
+AUTH0_ISSUER=
 ```
 
  For 500 Mb Free services on MongoDB databases, signup [here](https://www.mlab.com/signup) (or you can use any other service of your choice).
@@ -80,21 +72,12 @@ Note : For details on [yarn](https://yarnpkg.com) installation and usage [click 
 
 * To run the unit tests, use `yarn test`.
 
+# Get API key
 
-Documentation
--------------
-* `yarn global add gitbook-cli`
+![api key](./gif/api.gif)
 
-* `cd docs && gitbook serve`  to view the documentation.
+# Licenses
 
-Licenses
----------
 * GNU-GPL-3.0
 
 * CC-By-NC-ND [![License](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
-
-
-Contributions
--------------
-
-If you would like to contribute to the development of this project, please [contact the developers](mailto:bruno.wp@gmail.com).
