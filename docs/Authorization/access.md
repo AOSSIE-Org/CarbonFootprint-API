@@ -2,10 +2,10 @@
 
 {% method %}
 
-This route enables you to authorize a user and create a access key for the API. This access key is passed along with every request to the Emission API.
+This route enables you to authorize a user and create an access key for the API. This access key is passed along with every request to the Emission API.
 
 ### 1. Create API Key - 
-This route enables takes in the ID token from auth0 recovered from local storage and is passed on as the header to acknowledge the user and create a user , assign a access key and the default rate limit.
+This route enables takes in the ID token from auth0 recovered from local storage and is passed on as the header to acknowledge the user and create a user , assign an access key and the default rate limit.
 
 Sample Request JSON
 
@@ -38,9 +38,9 @@ Header
     err: <error>
 }
 ```
-This route throws a error if a __api key already exists for the user__ , or the __connection to the datbase fails__ , or if the user trying to create a API key has not __verified the primary email__ used to signup and create the token.    
+This route throws an error if a __api key already exists for the user__ , or the __connection to the database fails__ , or if the user trying to create an API key has not __verified the primary email__ used to signup and create the token.    
 
-### 2. Retreive API Key -
+### 2. Retrieve API Key -
 This route is used to retrieve the API access key for a specific user if it has been already created.
 
 Sample request JSON

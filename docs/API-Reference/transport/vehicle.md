@@ -9,7 +9,7 @@ This route enables you to find GHG emissions for a number of fuels.The distance 
 | type | string | **Required:** The fuel type used by the vehicle.|
 | origin    | string | **Required:** Origin of the journey. |
 | destination   | string | **Required:** Destination of the journey. |
-| mileage    | string | The fuel efficiency of the vehicle i.e. distance travelled per unit of fuel. The default value is 20. |
+| mileage    | string | The fuel efficiency of the vehicle i.e. distance traveled per unit of fuel. The default value is 20. |
 | mileage_unit     | string | The unit of mileage. The default sets to be 'km/L' |
 
 **Example**

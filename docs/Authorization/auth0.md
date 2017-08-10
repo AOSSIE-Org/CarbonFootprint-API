@@ -3,7 +3,7 @@
 Auth0 is an open source project but is not free for organization creating revenue, we as an open source organization really enjoy services of Auth0 to secure our APIs and user Authentication. To create an account on Auth0 signup [here](https://auth0.com/signup).
 
 # Create a Client
-After creating account on Auth0, click on [Clients](https://manage.auth0.com/#/clients) from the side options. Configure your client as below:
+After creating an account on Auth0, click on [Clients](https://manage.auth0.com/#/clients) from the side options. Configure your client as below:
 
 ![client](./../gif/client.gif)
 
