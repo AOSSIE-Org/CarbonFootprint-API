@@ -32,7 +32,7 @@ AUTH0_ISSUER=
 
  For 500 Mb Free services on MongoDB databases, signup [here](https://www.mlab.com/signup) (or you can use any other service of your choice).
 
-* To install all the require modules and build file:
+* To install all the required modules and build file:
 
 ```
 yarn install
@@ -66,7 +66,7 @@ yarn run build
       yarn run trees
       ```
       
-Note : For details on [yarn](https://yarnpkg.com) installation and usage [click here](https://yarnpkg.com/en/docs/usage)
+Note: For details on [yarn](https://yarnpkg.com) installation and usage [click here](https://yarnpkg.com/en/docs/usage)
 
 * To start the server, run `yarn start`.
 

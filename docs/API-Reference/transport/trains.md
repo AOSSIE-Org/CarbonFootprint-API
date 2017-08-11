@@ -10,7 +10,7 @@ This route enables you to find GHG emissions for a number of train types for a c
 | origin    | string | **Required:** Origin of the journey. |
 | destination   | string | **Required:** Destination of the journey. |
 | region    | string |  Origin of the journey. The default sets to 'Default'. |
-| passengers    | number | The number of passengers travelling in the journey.The default sets to 1. |
+| passengers    | number | The number of passengers traveling in the journey.The default sets to 1. |
 **Example**
 ```JSON
 {
