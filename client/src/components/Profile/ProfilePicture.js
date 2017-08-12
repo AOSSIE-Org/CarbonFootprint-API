@@ -1,11 +1,29 @@
 import React, { Component } from 'react';
 import { Card, Icon } from 'semantic-ui-react';
+import ProfileEdit from './ProfileEdit'
 
 export default class ProfilePicture extends Component {
-  constructor(props) {
+  constructor(props){
     super(props);
+    this.state = {
+      nickname:""
+    }
   }
+  componentDidMount(){
+    this.props.auth.getProfile((err, profile) => {
+      if(!err){
+        this.props.auth.getMetaProfile(profile.sub,(err,metaProfile)=>{
+          if(!err){
+            metaProfile = JSON.parse(metaProfile);
+            this.setState({nickname:metaProfile["user_metadata"].nickname});
+          }
+        });
+      }
+    });
+  }
+
   render() {
+     const { auth } = this.props;
     return (
       <Card>
         <div style={styles.imageContainer}>
@@ -18,9 +36,9 @@ export default class ProfilePicture extends Component {
             }}
           />
         </div>
-        <Card.Content>
+        <Card.Content style={{fontSize:'15px'}}>
           <Card.Header>
-            {this.props.name}
+            {this.state.nickname || this.props.name} <ProfileEdit auth={auth} />
           </Card.Header>
           <Card.Meta>
             {this.props.email}
