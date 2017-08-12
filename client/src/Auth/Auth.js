@@ -3,7 +3,15 @@ import auth0 from 'auth0-js';
 import { AUTH_CONFIG } from './auth0-config';
 import $ from 'jquery'
 
+/* Auth Class */
+
 export default class Auth {
+
+  /**
+   * Constructor for the Auth class
+   * @constructor {Auth}
+   */
+
   constructor() {
     this.login = this.login.bind(this);
     this.logout = this.logout.bind(this);
@@ -22,9 +30,15 @@ export default class Auth {
     });
   }
 
+  // Function to handle login event
+
   login() {
     this.auth0.authorize();
   }
+
+  /**
+   * Function to handle authentication
+   */
 
   handleAuthentication() {
     this.auth0.parseHash((err, authResult) => {
@@ -51,6 +65,10 @@ export default class Auth {
     history.replace('/profile');
   }
 
+  /**
+   * Function to logout and remove user session details
+   */
+
   logout() {
     // Clear access token and ID token from local storage
     localStorage.removeItem('access_token');
@@ -60,12 +78,18 @@ export default class Auth {
     history.replace('/');
   }
 
+  /**
+   * Function to check if any user is authenticated
+   */
+
   isAuthenticated() {
     // Check whether the current time is past the
     // access token's expiry time
     let expiresAt = JSON.parse(localStorage.getItem('expires_at'));
     return new Date().getTime() < expiresAt;
   }
+
+   /* Function to get accessToken */
 
   getAccessToken() {
     const accessToken = localStorage.getItem('access_token');
@@ -75,6 +99,8 @@ export default class Auth {
     return accessToken;
   }
 
+   /* Function to get idtoken */
+
   getIdToken() {
     const idToken = localStorage.getItem('id_token');
     if (!idToken) {
@@ -83,6 +109,13 @@ export default class Auth {
     }
     return idToken;
   }
+
+  /**
+   * Function to get user profile details
+   * @callback cb
+   * @param {new Error} err
+   * @param {object} profile
+   */
 
   getProfile(cb) {
     let accessToken = this.getAccessToken();
@@ -99,6 +132,12 @@ export default class Auth {
       cb(true,{});
     }
   }
+
+  /**
+   * Function to get user_metadata from auth0
+   * @param {string} userId
+   * @callback cb
+   */
 
   getMetaProfile(userId,cb){
     let accessToken = this.getIdToken(),
@@ -126,28 +165,12 @@ export default class Auth {
     else cb(true,{});
   }
 
-  handleAPIKey(type,cb) {
-    let idtoken = this.getIdToken();
-        console.log(idtoken);
-          let response = $.ajax({
-                url:"/auth/key",
-                type: type,
-                headers :{
-                    "Content-Type":"application/json",
-                    "authorization":"Bearer "+idtoken
-                },
-                dataType: "text",
-                success: function(resultData) {
-                    resultData = JSON.parse(resultData);
-                    cb(false,resultData);
-                },
-                error: function(err){
-                    throw new Error(err);
-                    cb(err);
-                }
-            });
-        //console.log("the response",response);
-  }
+  /**
+   * Function to update edited data to user_metadata
+   * @param {string} clientId
+   * @param {object} data
+   * @callback cb
+   */
 
   updateData(clientId,data,cb) {
     let accessToken = this.getIdToken(),

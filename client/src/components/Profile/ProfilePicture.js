@@ -2,13 +2,28 @@ import React, { Component } from 'react';
 import { Card, Icon } from 'semantic-ui-react';
 import ProfileEdit from './ProfileEdit'
 
+
+/* Extended react.Component class as ProfilePicture */
+
 export default class ProfilePicture extends Component {
+
+  /**
+   * Constructor for the ProfilePicture class
+   * @constructor extends react.Component
+   */
+
   constructor(props){
     super(props);
     this.state = {
       nickname:""
     }
   }
+
+  /** 
+   * Enherit function from react.Component to handle after mounting
+   *   react component
+   */
+
   componentDidMount(){
     this.props.auth.getProfile((err, profile) => {
       if(!err){
@@ -21,6 +36,10 @@ export default class ProfilePicture extends Component {
       }
     });
   }
+
+  /** 
+   * Enherited function from react.Component to render to DOM object into html
+   */
 
   render() {
      const { auth } = this.props;

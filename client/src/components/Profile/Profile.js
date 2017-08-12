@@ -4,7 +4,15 @@ import ProfilePicture from './ProfilePicture';
 import ProfileSettings from './ProfileSettings';
 import Sidebar from './Sidebar';
 
+/* Extended react.Component class as Profile */
+
 export default class Profile extends Component {
+
+  /**
+   * Constructor for the Profile class
+   * @constructor extends react.Component
+   */
+
   constructor(props) {
     super(props);
     this.state = {
@@ -16,6 +24,11 @@ export default class Profile extends Component {
       family_name: ''
     }
   }
+
+  /** 
+   * Enherit function from react.Component to handle after mounting
+   *   react component
+   */
 
   componentDidMount(){
     this.props.auth.getProfile((err, profile) => {
@@ -32,6 +45,10 @@ export default class Profile extends Component {
       }
     }); 
   }
+
+  /** 
+   * Enherited function from react.Component to render to DOM object into html
+   */
 
   render() {
     return (

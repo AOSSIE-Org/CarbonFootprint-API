@@ -9,12 +9,23 @@ import {
 	Button 
 } from 'semantic-ui-react'
 
+/* Options provided for the gender in edit modal */
+
 const options = [
     { key: 'm', text: 'Male', value: 'male' },
     { key: 'f', text: 'Female', value: 'female' },
 ];
 
+/* Extended react.Component class as ProfileEdit */
+
 export default class ProfileEdit extends Component{
+
+
+  /**
+   * Constructor for the ProfileEdit class
+   * @constructor extends react.Component
+   */
+
 	constructor(props){
 		super(props);
 		this.state = {
@@ -29,21 +40,34 @@ export default class ProfileEdit extends Component{
 		this.onEdit = this.onEdit.bind(this);
 	}
 
+	/**
+     * Function to handle on change event for edit
+     * @enum {string} MetaData
+     */
+
 	handleChange(MetaData){
 		console.log(MetaData);
 		this.setState({MetaProfile:MetaData});
 	}
+
+	/** 
+     * Function to save the edited data on click save button
+     */
 
 	onEdit(){
 		let p = this.state.MetaProfile;
 		p.name = (this.state.MetaProfile.given_name || this.state.profile.given_name ) + " " + (this.state.MetaProfile.family_name || this.state.profile.family_name );
 		p.nickname = (this.state.MetaProfile.nickname || this.state.profile.nickname);
 		this.setState({metaProfile:p});
-		console.log("is updated data",p);
-		console.log("userId",this.state.profile.sub);
+		//console.log("updated data",p);
+		//console.log("userId",this.state.profile.sub);
 		this.props.auth.updateData(this.state.profile.sub,{"user_metadata":p},(err,data)=>{if(err)console.log(err);else {console.log(data);location.href = "/profile";}});
 		this.hideModal();
 	}
+
+	/**
+     * Function to handle Modal (opening event)
+     */
 
 	openModal(){
 		this.setState({
@@ -51,9 +75,9 @@ export default class ProfileEdit extends Component{
 		});
 	}
 
-  /*
+  /**
    * Function to handle Modal (closing event)
-   * */
+   */
 
   hideModal(){
     this.setState({
@@ -61,10 +85,10 @@ export default class ProfileEdit extends Component{
     });
   }
 
-  /* 
+  /** 
    * Function to set user_metadata from auth to state object
    * @param {string} userid
-   * */
+   */
 
    setMetaData(userid){
     let { metaUserProfile, getMetaProfile } = this.props.auth;
@@ -76,12 +100,12 @@ export default class ProfileEdit extends Component{
           if(!data) data = {};
           this.setState({metaProfile:data});
           this.setState({MetaProfile:data});
-          console.log("this",data);
+          //console.log("this",data);
         }
       });
     }
     else if(!this.state.metaProfile){
-      console.log("this",metaUserProfile)
+      //console.log("this",metaUserProfile)
       this.setState({metaProfile:metaUserProfile});
       this.setState({MetaProfile:metaUserProfile});
     }
@@ -89,6 +113,11 @@ export default class ProfileEdit extends Component{
       console.log(this.state.metaProfile);
     }
   }
+
+  /** 
+   * Enherit function from react.Component to handle after mounting
+   *   react component
+   */
 
   componentDidMount(){
   	this.props.auth.getProfile((err, profile) => {
@@ -98,6 +127,10 @@ export default class ProfileEdit extends Component{
       }
     });
   }
+
+  /** 
+   * Enherited function from react.Component to render to DOM object into html
+   */
 
   render(){
   	let { dimmer, profile, metaProfile, isOpen } = this.state;

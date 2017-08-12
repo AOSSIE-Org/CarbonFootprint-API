@@ -13,7 +13,16 @@ import {
 } from 'semantic-ui-react';
 import { getKey, createKey, deleteKey } from './profileController';
 
-export default class Sidebar extends Component {
+
+/* Extended react.Component class as ProfileSettings */
+
+export default class ProfileSettings extends Component {
+
+  /**
+   * Constructor for the ProfileSettings class
+   * @constructor extends react.Component
+   */
+
   constructor(props) {
     super(props);
     this.state = {
@@ -31,6 +40,12 @@ export default class Sidebar extends Component {
     this.deleteAccessKey = this.deleteAccessKey.bind(this);
   }
 
+  /**
+   * Function to calculate remaining time to reset API key
+   * @param {string} time
+   * @return {string}
+   */
+
   timeLeftToReset(time) {
     const timeLeft = (new Date() - new Date(time)) / 1000; // convert to seconds
     console.log(time);
@@ -43,29 +58,14 @@ export default class Sidebar extends Component {
     }
   }
 
-  componentDidMount(){
-    this.props.auth.getProfile((err, profile) => {
-      if(!err){
-        this.setState({profile:profile});
-      }
-    })
-    
-    getKey().then(data => {
-      if (data.success) {
-        this.setState({
-          key: data.apikey,
-          requestsAllowed: data.requests.allowed,
-          requestsLeft: data.requests.left,
-          timeLeft: this.timeLeftToReset(data.requests.resetTime)
-        });
-      }
-    });
-  }
+  /**
+   * Function to create API key
+   */
 
   createAccessKey() {
     // const self = this;
     createKey().then(data => {
-      console.log(data);
+      //console.log(data);
       if (data.success) {
         this.setState({
           key: data.apikey,
@@ -81,6 +81,10 @@ export default class Sidebar extends Component {
       }
     });
   }
+
+  /**
+   * Function to delete API key
+   */
 
   deleteAccessKey() {
     const self = this;
@@ -101,6 +105,34 @@ export default class Sidebar extends Component {
       }
     });
   }
+
+  /** 
+   * Enherit function from react.Component to handle after mounting
+   *   react component
+   */
+
+  componentDidMount(){
+    this.props.auth.getProfile((err, profile) => {
+      if(!err){
+        this.setState({profile:profile});
+      }
+    })
+    
+    getKey().then(data => {
+      if (data.success) {
+        this.setState({
+          key: data.apikey,
+          requestsAllowed: data.requests.allowed,
+          requestsLeft: data.requests.left,
+          timeLeft: this.timeLeftToReset(data.requests.resetTime)
+        });
+      }
+    });
+  }
+
+  /** 
+   * Enherited function from react.Component to render to DOM object into html
+   */
 
   render(){
     return (
