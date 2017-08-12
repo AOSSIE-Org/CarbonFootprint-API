@@ -8,21 +8,24 @@ import {
   Icon,
   Divider,
   Statistic,
-  Message
+  Message,
+  Form
 } from 'semantic-ui-react';
-
 import { getKey, createKey, deleteKey } from './profileController';
 
 export default class Sidebar extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       key: false,
       requestsAllowed: '-',
       requestsLeft: '-',
       timeLeft: '-',
       error: false,
-      errorMessage: ''
+      errorMessage: '',
+      profile:{
+
+      }
     };
     this.createAccessKey = this.createAccessKey.bind(this);
     this.deleteAccessKey = this.deleteAccessKey.bind(this);
@@ -39,7 +42,14 @@ export default class Sidebar extends Component {
       return `${Math.ceil(timeLeft / 60)} M`;
     }
   }
-  componentDidMount() {
+
+  componentDidMount(){
+    this.props.auth.getProfile((err, profile) => {
+      if(!err){
+        this.setState({profile:profile});
+      }
+    })
+    
     getKey().then(data => {
       if (data.success) {
         this.setState({
@@ -92,7 +102,7 @@ export default class Sidebar extends Component {
     });
   }
 
-  render() {
+  render(){
     return (
       <Segment>
         <Header as="h3">
@@ -136,26 +146,19 @@ export default class Sidebar extends Component {
             </Message.Header>
             <p>Please contact us if you are feeling stuck.</p>
           </Message>}
-        <div
-          style={{
-            display: 'flex',
-            border: '1px solid #eee',
-            alignItems: 'center',
-            paddingLeft: 10,
-            borderRadius: 3
-          }}
-        >
-          <span style={{ flex: 1 }}>
-            {this.state.key ? this.state.key : 'Generate an API access key'}
-          </span>
+
+        <Form>
+          <Form.Group>
+           <Form.Input width={12} value={this.state.key ? this.state.key : 'Generate an API access key'} readOnly />
           {!this.state.key
-            ? <Button primary onClick={this.createAccessKey}>
+            ? <Button primary onClick={this.createAccessKey} style={{marginLeft:'10px'}}>
                 CREATE API KEY
               </Button>
-            : <Button onClick={this.deleteAccessKey} color="red">
+            : <Button onClick={this.deleteAccessKey} color="red" style={{marginLeft:'10px'}}>
                 DELETE KEY
               </Button>}
-        </div>
+        </Form.Group>
+        </Form>
       </Segment>
     );
   }
