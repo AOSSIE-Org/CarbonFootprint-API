@@ -33,8 +33,7 @@ export default class ProfileEdit extends Component{
 			MetaProfile:{},
 			metaProfile:{},
 			profile:{
-			},
-			dimmer:'dimmer'
+			}
 		};
 		this.setMetaData = this.setMetaData.bind(this);
 		this.onEdit = this.onEdit.bind(this);
@@ -63,6 +62,7 @@ export default class ProfileEdit extends Component{
 		//console.log("userId",this.state.profile.sub);
 		this.props.auth.updateData(this.state.profile.sub,{"user_metadata":p},(err,data)=>{if(err)console.log(err);else {console.log(data);location.href = "/profile";}});
 		this.hideModal();
+    location.href = "/profile";
 	}
 
 	/**
@@ -133,11 +133,11 @@ export default class ProfileEdit extends Component{
    */
 
   render(){
-  	let { dimmer, profile, metaProfile, isOpen } = this.state;
+  	let { profile, metaProfile, isOpen } = this.state;
   	return(
   		<div style={{display:'inline'}}>
   		<Icon name="write" style={{float:'right',fontSize:'15px'}} onClick={()=>this.openModal()} />
-  		<Modal dimmer="dimmer" open={isOpen} onClose={()=>this.hideModal()}>
+  		<Modal dimmer="blurring" open={isOpen} onClose={()=>this.hideModal()}>
           <Modal.Header>Profile</Modal.Header>
           <Modal.Content image>
             <Image wrapped size='small' src={profile.picture} />

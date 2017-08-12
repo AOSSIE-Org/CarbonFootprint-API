@@ -18,7 +18,6 @@ export default class Auth {
     this.handleAuthentication = this.handleAuthentication.bind(this);
     this.isAuthenticated = this.isAuthenticated.bind(this);
     this.getMetaProfile = this.getMetaProfile.bind(this);
-    this.handleAPIKey = this.handleAPIKey.bind(this);
     this.updateData = this.updateData.bind(this);
     this.auth0 = new auth0.WebAuth({
       domain: AUTH_CONFIG.domain,
