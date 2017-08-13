@@ -39,7 +39,7 @@ export default class ProfileEdit extends Component{
 		this.onEdit = this.onEdit.bind(this);
 	}
 
-	/**
+  /**
    * Function to handle on change event for edit
    * @enum {string} MetaData
    */
@@ -49,7 +49,7 @@ export default class ProfileEdit extends Component{
 		this.setState({MetaProfile:MetaData});
 	}
 
-	/** 
+  /** 
    * Function to save the edited data on click save button
    */
 
@@ -62,7 +62,7 @@ export default class ProfileEdit extends Component{
 		this.props.auth.updateData(this.state.profile.sub,{"user_metadata":changedData},(err,data)=>{if(err)console.log(err);else {console.log(data);this.setMetaData(this.state.profile.sub);this.hideModal();}});
 	}
 
-	/**
+  /**
    * Function to handle Modal (opening event)
    */
 
