@@ -57,12 +57,9 @@ export default class ProfileEdit extends Component{
 		let p = this.state.MetaProfile;
 		p.name = (this.state.MetaProfile.given_name || this.state.profile.given_name ) + " " + (this.state.MetaProfile.family_name || this.state.profile.family_name );
 		p.nickname = (this.state.MetaProfile.nickname || this.state.profile.nickname);
-		this.setState({metaProfile:p});
 		//console.log("updated data",p);
 		//console.log("userId",this.state.profile.sub);
-		this.props.auth.updateData(this.state.profile.sub,{"user_metadata":p},(err,data)=>{if(err)console.log(err);else {console.log(data);location.href = "/profile";}});
-		this.hideModal();
-    location.href = "/profile";
+		this.props.auth.updateData(this.state.profile.sub,{"user_metadata":p},(err,data)=>{if(err)console.log(err);else {console.log(data);this.setMetaData(this.state.profile.sub);this.hideModal();}});
 	}
 
 	/**
@@ -83,6 +80,7 @@ export default class ProfileEdit extends Component{
     this.setState({
       isOpen: false
     });
+    this.setMetaData(this.state.profile.sub);
   }
 
   /** 
