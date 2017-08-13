@@ -1,4 +1,4 @@
-//To run this script use "node tree_db.js"
+//To run this script use "node appliances_db.js"
 // database setup
 var mongoose = require('mongoose');
 // get the database configuration file
@@ -7,7 +7,7 @@ try {
 }
 catch(e){
 	console.log(`Database configuration file "config.json" is missing.`);
-	process.exit(0);
+	process.exit(1);
 }
 var db = config.database;
 
@@ -17,7 +17,7 @@ mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.po
 // When successfully connected
 mongoose.connection.on('connected', () => {  
     console.log('Connection to database established successfully');
-    console.log("tree_db.js running");
+    console.log("electricity_db.js running");
 }); 
 
 // If the connection throws an error
@@ -29,25 +29,24 @@ mongoose.connection.on('error', (err) => {
 mongoose.connection.on('disconnected', () => {  
   console.log('Database disconnected'); 
 });
+var json = require('../../../raw_data/appliances_db.json');
+
 var Emission = require('../models/emissionModel.js')
-var json = require('../../../raw_data/trees.json');
-for(js in json.treeData){
   var obj = new Emission();
-  obj.item=js;
-  obj.region="Default";
+  obj.item="Air_conditioner_large";
+  obj.region="India";
   obj.quantity=[1];
-  obj.unit="year";
-  obj.categories=["trees"];
+  obj.unit="kWh";
+  obj.categories=["appliances"];
   obj.components=[
     {
-    	name: "CO2",
-    	quantity: [-json.treeData[js]],
-    	unit: "kg"
+    	name: "electricity",
+    	quantity: [3.2],
+    	unit: "kWh"
     }]
   obj.save(function(err){
     if ( err ) throw err;
     console.log("Object Saved Successfully");
   });
-  //console.log(obj);
-}
+  // console.log(obj);
 mongoose.connection.close();
