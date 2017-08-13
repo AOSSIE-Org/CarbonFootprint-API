@@ -2,9 +2,6 @@
 
 * [Introduction](README.md)
 * [Getting Started](Getting-Started.md)
-* [Authorization](Authorization/README.md)
-	* [Auth0 Setup](Authorization/auth0.md)
-	* [API Access Handling](Authorization/access.md)
 * [API Reference](API-Reference/README.md)
     * [GHG Emissions](API-Reference/emissions.md)
     * [Transport]()
