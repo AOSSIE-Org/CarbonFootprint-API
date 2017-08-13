@@ -40,9 +40,9 @@ export default class ProfileEdit extends Component{
 	}
 
 	/**
-     * Function to handle on change event for edit
-     * @enum {string} MetaData
-     */
+   * Function to handle on change event for edit
+   * @enum {string} MetaData
+   */
 
 	handleChange(MetaData){
 		console.log(MetaData);
@@ -50,21 +50,21 @@ export default class ProfileEdit extends Component{
 	}
 
 	/** 
-     * Function to save the edited data on click save button
-     */
+   * Function to save the edited data on click save button
+   */
 
 	onEdit(){
-		let p = this.state.MetaProfile;
-		p.name = (this.state.MetaProfile.given_name || this.state.profile.given_name ) + " " + (this.state.MetaProfile.family_name || this.state.profile.family_name );
-		p.nickname = (this.state.MetaProfile.nickname || this.state.profile.nickname);
-		//console.log("updated data",p);
+		let changedData = this.state.MetaProfile;
+		changedData.name = (this.state.MetaProfile.given_name || this.state.profile.given_name ) + " " + (this.state.MetaProfile.family_name || this.state.profile.family_name );
+		changedData.nickname = (this.state.MetaProfile.nickname || this.state.profile.nickname);
+		//console.log("updated data",changedData);
 		//console.log("userId",this.state.profile.sub);
-		this.props.auth.updateData(this.state.profile.sub,{"user_metadata":p},(err,data)=>{if(err)console.log(err);else {console.log(data);this.setMetaData(this.state.profile.sub);this.hideModal();}});
+		this.props.auth.updateData(this.state.profile.sub,{"user_metadata":changedData},(err,data)=>{if(err)console.log(err);else {console.log(data);this.setMetaData(this.state.profile.sub);this.hideModal();}});
 	}
 
 	/**
-     * Function to handle Modal (opening event)
-     */
+   * Function to handle Modal (opening event)
+   */
 
 	openModal(){
 		this.setState({
