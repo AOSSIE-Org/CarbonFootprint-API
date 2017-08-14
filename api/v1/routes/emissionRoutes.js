@@ -173,6 +173,36 @@ router.post('/trains', async (req, res) => {
 	}
 });
 
+router.post('/poultry', async (req,res) => {
+    console.log("okkay I am called")
+    let type = req.body.type;
+    let region = req.body.region || 'Default';
+    let mass = req.body.mass || 1;
+    console.log(`${type} in ${region} of mass ${mass} kg`);
+    if(type){
+         Emission.calculate(type ,region, mass)
+            .then((emissions) => {
+                console.log(emissions);
+                res.status(200).json({
+                    success: true,
+                    emissions: emissions,
+                    unit: 'kg'  
+                });
+            }).catch((err) => {
+                res.json({
+                    success: false,
+                    err: `We cannot provide carbon footprints for this combination of ${type} in ${region} of mass ${mass} kg`
+                })
+            });
+    }
+    else{
+        res.status(400).json({
+            success:false,
+            error: `Unable to find carbon footprint for type ${type}` 
+        });
+    }
+});
+
 module.exports = router;
 //curl test- curl -H "Content-Type: application/json" -X POST -d '{"item":"electricity","region":"Africa","unit":"kWh","quantity":1}' http://localhost:3080/v1/emissions
 //curl test- curl -H "Content-Type: application/json" -X POST -d '{"item":"airplane model A380","region":"Default","unit":"nm","quantity":125}' http://localhost:3080/v1/emissions
