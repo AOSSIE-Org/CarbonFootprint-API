@@ -174,13 +174,12 @@ router.post('/trains', async (req, res) => {
 });
 
 router.post('/poultry', async (req,res) => {
-    console.log("okkay I am called")
     let type = req.body.type;
     let region = req.body.region || 'Default';
-    let mass = req.body.mass || 1;
-    console.log(`${type} in ${region} of mass ${mass} kg`);
+    let quantity = req.body.quantity || 1;
+    console.log(`${type} in ${region} of mass ${quantity} kg`);
     if(type){
-         Emission.calculate(type ,region, mass)
+         Emission.calculate(type ,region, quantity)
             .then((emissions) => {
                 console.log(emissions);
                 res.status(200).json({
@@ -191,7 +190,7 @@ router.post('/poultry', async (req,res) => {
             }).catch((err) => {
                 res.json({
                     success: false,
-                    err: `We cannot provide carbon footprints for this combination of ${type} in ${region} of mass ${mass} kg`
+                    err: `We cannot provide carbon footprints for this combination of ${type} in ${region} of mass ${quantity} kg`
                 })
             });
     }
