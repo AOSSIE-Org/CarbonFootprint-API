@@ -29,19 +29,19 @@ mongoose.connection.on('error', (err) => {
 mongoose.connection.on('disconnected', () => {  
   console.log('Database disconnected'); 
 });
-var json = require('../../../raw_data/appliances_db.json');
-
+var json = require('../../../raw_data/appliances.json');
+for(js in json){
 var Emission = require('../models/emissionModel.js')
   var obj = new Emission();
-  obj.item="Air_conditioner_large";
-  obj.region="India";
+  obj.item=json[js]['Appliance'];
+  obj.region="Default";
   obj.quantity=[1];
   obj.unit="kWh";
   obj.categories=["appliances"];
   obj.components=[
     {
     	name: "electricity",
-    	quantity: [3.2],
+    	quantity: json[js]['Average_watts (in Wh)']/1000,
     	unit: "kWh"
     }]
   obj.save(function(err){
@@ -49,4 +49,5 @@ var Emission = require('../models/emissionModel.js')
     console.log("Object Saved Successfully");
   });
   // console.log(obj);
+}
 mongoose.connection.close();

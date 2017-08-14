@@ -73,6 +73,10 @@ yarn run build
       ```
       yarn run trees
       ```
+    * To add appliance data
+      ```
+      yarn run appliance
+      ```
       
 Note : For details on [yarn](https://yarnpkg.com) installation and usage [click here](https://yarnpkg.com/en/docs/usage)
 

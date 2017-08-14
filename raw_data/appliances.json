@@ -1,458 +1,458 @@
 [
   {
-    "Applicance": "Air conditioner small",
+    "Appliance": "Air conditioner small",
     "Average_watts (in Wh)": 1000
   },
   {
-    "Applicance": "Air conditioner medium",
+    "Appliance": "Air conditioner medium",
     "Average_watts (in Wh)": 2300
   },
   {
-    "Applicance": "Air conditioner large",
+    "Appliance": "Air conditioner large",
     "Average_watts (in Wh)": 3200
   },
   {
-    "Applicance": "Air conditioner ducted",
+    "Appliance": "Air conditioner ducted",
     "Average_watts (in Wh)": 5000
   },
   {
-    "Applicance": "Air cooler portable",
+    "Appliance": "Air cooler portable",
     "Average_watts (in Wh)": 150
   },
   {
-    "Applicance": "Air cooler fixed",
+    "Appliance": "Air cooler fixed",
     "Average_watts (in Wh)": 600
   },
   {
-    "Applicance": "Air cooler ducted",
+    "Appliance": "Air cooler ducted",
     "Average_watts (in Wh)": 1000
   },
   {
-    "Applicance": "Bio septic system",
+    "Appliance": "Bio septic system",
     "Average_watts (in Wh)": 180
   },
   {
-    "Applicance": "Blanket single",
+    "Appliance": "Blanket single",
     "Average_watts (in Wh)": 70
   },
   {
-    "Applicance": "Blanket double",
+    "Appliance": "Blanket double",
     "Average_watts (in Wh)": 120
   },
   {
-    "Applicance": "Clothes dryer small rotary",
+    "Appliance": "Clothes dryer small rotary",
     "Average_watts (in Wh)": 2400
   },
   {
-    "Applicance": "Clothes dryer cabinet",
+    "Appliance": "Clothes dryer cabinet",
     "Average_watts (in Wh)": 2400
   },
   {
-    "Applicance": "Clothes dryer large rotary",
+    "Appliance": "Clothes dryer large rotary",
     "Average_watts (in Wh)": 4000
   },
   {
-    "Applicance": "Clothes dryer wired in",
+    "Appliance": "Clothes dryer wired in",
     "Average_watts (in Wh)": 4000
   },
   {
-    "Applicance": "Coffee percolator",
+    "Appliance": "Coffee percolator",
     "Average_watts (in Wh)": 600
   },
   {
-    "Applicance": "Computer with monitor",
+    "Appliance": "Computer with monitor",
     "Average_watts (in Wh)": 300
   },
   {
-    "Applicance": "Computer monitor and printer",
+    "Appliance": "Computer monitor and printer",
     "Average_watts (in Wh)": 450
   },
   {
-    "Applicance": "Laptop",
+    "Appliance": "Laptop",
     "Average_watts (in Wh)": 50
   },
   {
-    "Applicance": "Deep fryer",
+    "Appliance": "Deep fryer",
     "Average_watts (in Wh)": 1800
   },
   {
-    "Applicance": "Dishwasher",
+    "Appliance": "Dishwasher",
     "Average_watts (in Wh)": 2400
   },
   {
-    "Applicance": "Domestic water pressure pump small",
+    "Appliance": "Domestic water pressure pump small",
     "Average_watts (in Wh)": 750
   },
   {
-    "Applicance": "Domestic water pressure pump medium",
+    "Appliance": "Domestic water pressure pump medium",
     "Average_watts (in Wh)": 1125
   },
   {
-    "Applicance": "Drill portable",
+    "Appliance": "Drill portable",
     "Average_watts (in Wh)": 500
   },
   {
-    "Applicance": "Fan Exhaust",
+    "Appliance": "Fan Exhaust",
     "Average_watts (in Wh)": 40
   },
   {
-    "Applicance": "Fan Ceiling",
+    "Appliance": "Fan Ceiling",
     "Average_watts (in Wh)": 100
   },
   {
-    "Applicance": "Food mixer",
+    "Appliance": "Food mixer",
     "Average_watts (in Wh)": 135
   },
   {
-    "Applicance": "Freezer 200L",
+    "Appliance": "Freezer 200L",
     "Average_watts (in Wh)": 100
   },
   {
-    "Applicance": "Freezer 300L",
+    "Appliance": "Freezer 300L",
     "Average_watts (in Wh)": 150
   },
   {
-    "Applicance": "Freezer 450L",
+    "Appliance": "Freezer 450L",
     "Average_watts (in Wh)": 230
   },
   {
-    "Applicance": "Fry Pan",
+    "Appliance": "Fry Pan",
     "Average_watts (in Wh)": 800
   },
   {
-    "Applicance": "Garbage disposal unit",
+    "Appliance": "Garbage disposal unit",
     "Average_watts (in Wh)": 650
   },
   {
-    "Applicance": "Griddle",
+    "Appliance": "Griddle",
     "Average_watts (in Wh)": 1000
   },
   {
-    "Applicance": "Griller small",
+    "Appliance": "Griller small",
     "Average_watts (in Wh)": 660
   },
   {
-    "Applicance": "Griller large",
+    "Appliance": "Griller large",
     "Average_watts (in Wh)": 2400
   },
   {
-    "Applicance": "Griller vertical",
+    "Appliance": "Griller vertical",
     "Average_watts (in Wh)": 1200
   },
   {
-    "Applicance": "Hair dryer",
+    "Appliance": "Hair dryer",
     "Average_watts (in Wh)": 1000
   },
   {
-    "Applicance": "Hair curler",
+    "Appliance": "Hair curler",
     "Average_watts (in Wh)": 20
   },
   {
-    "Applicance": "Hair styler",
+    "Appliance": "Hair styler",
     "Average_watts (in Wh)": 750
   },
   {
-    "Applicance": "Hotplate small portable",
+    "Appliance": "Hotplate small portable",
     "Average_watts (in Wh)": 600
   },
   {
-    "Applicance": "Hotplate large portable",
+    "Appliance": "Hotplate large portable",
     "Average_watts (in Wh)": 1000
   },
   {
-    "Applicance": "Ceramic halogen small",
+    "Appliance": "Ceramic halogen small",
     "Average_watts (in Wh)": 1200
   },
   {
-    "Applicance": "Ceramic halogen large",
+    "Appliance": "Ceramic halogen large",
     "Average_watts (in Wh)": 1700
   },
   {
-    "Applicance": "Hotplate  wired in/range small",
+    "Appliance": "Hotplate  wired in/range small",
     "Average_watts (in Wh)": 1000
   },
   {
-    "Applicance": "Hotplate  wired in/range large",
+    "Appliance": "Hotplate  wired in/range large",
     "Average_watts (in Wh)": 2000
   },
   {
-    "Applicance": "Heater Oil filled column small",
+    "Appliance": "Heater Oil filled column small",
     "Average_watts (in Wh)": 1000
   },
   {
-    "Applicance": "Heater Oil filled column medium",
+    "Appliance": "Heater Oil filled column medium",
     "Average_watts (in Wh)": 1500
   },
   {
-    "Applicance": "Heater Oil filled column large",
+    "Appliance": "Heater Oil filled column large",
     "Average_watts (in Wh)": 2400
   },
   {
-    "Applicance": "Heater Oil radiators/portable fan small",
+    "Appliance": "Heater Oil radiators/portable fan small",
     "Average_watts (in Wh)": 600
   },
   {
-    "Applicance": "Heater Oil radiators/portable fan medium",
+    "Appliance": "Heater Oil radiators/portable fan medium",
     "Average_watts (in Wh)": 1200
   },
   {
-    "Applicance": "Heater Oil radiators/portable fan large",
+    "Appliance": "Heater Oil radiators/portable fan large",
     "Average_watts (in Wh)": 2400
   },
   {
-    "Applicance": "Heater Oil space small",
+    "Appliance": "Heater Oil space small",
     "Average_watts (in Wh)": 3500
   },
   {
-    "Applicance": "Heater Oil space medium",
+    "Appliance": "Heater Oil space medium",
     "Average_watts (in Wh)": 4500
   },
   {
-    "Applicance": "Heater Oil space large",
+    "Appliance": "Heater Oil space large",
     "Average_watts (in Wh)": 6000
   },
   {
-    "Applicance": "Iron",
+    "Appliance": "Iron",
     "Average_watts (in Wh)": 600
   },
   {
-    "Applicance": "Ironing machine",
+    "Appliance": "Ironing machine",
     "Average_watts (in Wh)": 1000
   },
   {
-    "Applicance": "Juice extractor",
+    "Appliance": "Juice extractor",
     "Average_watts (in Wh)": 300
   },
   {
-    "Applicance": "Kettle",
+    "Appliance": "Kettle",
     "Average_watts (in Wh)": 1800
   },
   {
-    "Applicance": "Kiln pottery",
+    "Appliance": "Kiln pottery",
     "Average_watts (in Wh)": 4800
   },
   {
-    "Applicance": "Lighting fluroscent",
+    "Appliance": "Lighting fluroscent",
     "Average_watts (in Wh)": 40
   },
   {
-    "Applicance": "Lighting CFL small",
+    "Appliance": "Lighting CFL small",
     "Average_watts (in Wh)": 7
   },
   {
-    "Applicance": "Lighting CFL medium",
+    "Appliance": "Lighting CFL medium",
     "Average_watts (in Wh)": 11
   },
   {
-    "Applicance": "Lighting CFL large",
+    "Appliance": "Lighting CFL large",
     "Average_watts (in Wh)": 20
   },
   {
-    "Applicance": "Lighting incandescent small",
+    "Appliance": "Lighting incandescent small",
     "Average_watts (in Wh)": 25
   },
   {
-    "Applicance": "Lighting incandescent medium",
+    "Appliance": "Lighting incandescent medium",
     "Average_watts (in Wh)": 60
   },
   {
-    "Applicance": "Lighting incandescent large",
+    "Appliance": "Lighting incandescent large",
     "Average_watts (in Wh)": 100
   },
   {
-    "Applicance": "Lighting LED small",
+    "Appliance": "Lighting LED small",
     "Average_watts (in Wh)": 6
   },
   {
-    "Applicance": "Lighting LED medium",
+    "Appliance": "Lighting LED medium",
     "Average_watts (in Wh)": 15
   },
   {
-    "Applicance": "Lighting lighting heater",
+    "Appliance": "Lighting lighting heater",
     "Average_watts (in Wh)": 1100
   },
   {
-    "Applicance": "Microoven Conventional",
+    "Appliance": "Microoven Conventional",
     "Average_watts (in Wh)": 1300
   },
   {
-    "Applicance": "Microoven Convection",
+    "Appliance": "Microoven Convection",
     "Average_watts (in Wh)": 1600
   },
   {
-    "Applicance": "Mini Oven",
+    "Appliance": "Mini Oven",
     "Average_watts (in Wh)": 600
   },
   {
-    "Applicance": "Oven small",
+    "Appliance": "Oven small",
     "Average_watts (in Wh)": 1800
   },
   {
-    "Applicance": "Oven large",
+    "Appliance": "Oven large",
     "Average_watts (in Wh)": 2400
   },
   {
-    "Applicance": "Nebuliser",
+    "Appliance": "Nebuliser",
     "Average_watts (in Wh)": 85
   },
   {
-    "Applicance": "Radio",
+    "Appliance": "Radio",
     "Average_watts (in Wh)": 60
   },
   {
-    "Applicance": "Range Hood",
+    "Appliance": "Range Hood",
     "Average_watts (in Wh)": 140
   },
   {
-    "Applicance": "Refrigerator 250L",
+    "Appliance": "Refrigerator 250L",
     "Average_watts (in Wh)": 210
   },
   {
-    "Applicance": "Refrigerator 500L",
+    "Appliance": "Refrigerator 500L",
     "Average_watts (in Wh)": 260
   },
   {
-    "Applicance": "Refrigerator 600L",
+    "Appliance": "Refrigerator 600L",
     "Average_watts (in Wh)": 400
   },
   {
-    "Applicance": "Saw portable",
+    "Appliance": "Saw portable",
     "Average_watts (in Wh)": 75
   },
   {
-    "Applicance": "Sewing Machine",
+    "Appliance": "Sewing Machine",
     "Average_watts (in Wh)": 75
   },
   {
-    "Applicance": "Shaver",
+    "Appliance": "Shaver",
     "Average_watts (in Wh)": 15
   },
   {
-    "Applicance": "Slow cooker",
+    "Appliance": "Slow cooker",
     "Average_watts (in Wh)": 150
   },
   {
-    "Applicance": "Stereo",
+    "Appliance": "Stereo",
     "Average_watts (in Wh)": 100
   },
   {
-    "Applicance": "Radio",
+    "Appliance": "Radio",
     "Average_watts (in Wh)": 100
   },
   {
-    "Applicance": "Record Player",
+    "Appliance": "Record Player",
     "Average_watts (in Wh)": 100
   },
   {
-    "Applicance": "Swimming Pool Pump small",
+    "Appliance": "Swimming Pool Pump small",
     "Average_watts (in Wh)": 1000
   },
   {
-    "Applicance": "Swimming Pool Pump large",
+    "Appliance": "Swimming Pool Pump large",
     "Average_watts (in Wh)": 1600
   },
   {
-    "Applicance": "Salt water chlorinator",
+    "Appliance": "Salt water chlorinator",
     "Average_watts (in Wh)": 300
   },
   {
-    "Applicance": "Television CRT",
+    "Appliance": "Television CRT",
     "Average_watts (in Wh)": 150
   },
   {
-    "Applicance": "Television LCD",
+    "Appliance": "Television LCD",
     "Average_watts (in Wh)": 200
   },
   {
-    "Applicance": "Television Plasma",
+    "Appliance": "Television Plasma",
     "Average_watts (in Wh)": 330
   },
   {
-    "Applicance": "Toaster standard",
+    "Appliance": "Toaster standard",
     "Average_watts (in Wh)": 600
   },
   {
-    "Applicance": "Toaster automatic",
+    "Appliance": "Toaster automatic",
     "Average_watts (in Wh)": 1200
   },
   {
-    "Applicance": "Towel rail",
+    "Appliance": "Towel rail",
     "Average_watts (in Wh)": 150
   },
   {
-    "Applicance": "Vacuum cleaner portable",
+    "Appliance": "Vacuum cleaner portable",
     "Average_watts (in Wh)": 1100
   },
   {
-    "Applicance": "Vacuum cleaner ducted",
+    "Appliance": "Vacuum cleaner ducted",
     "Average_watts (in Wh)": 1500
   },
   {
-    "Applicance": "DVD player",
+    "Appliance": "DVD player",
     "Average_watts (in Wh)": 100
   },
   {
-    "Applicance": "Washing machine small",
+    "Appliance": "Washing machine small",
     "Average_watts (in Wh)": 500
   },
   {
-    "Applicance": "Washing machine automatic",
+    "Appliance": "Washing machine automatic",
     "Average_watts (in Wh)": 900
   },
   {
-    "Applicance": "Washing machine with element",
+    "Appliance": "Washing machine with element",
     "Average_watts (in Wh)": 2400
   },
   {
-    "Applicance": "Water bed single",
+    "Appliance": "Water bed single",
     "Average_watts (in Wh)": 350
   },
   {
-    "Applicance": "Water bed queen",
+    "Appliance": "Water bed queen",
     "Average_watts (in Wh)": 400
   },
   {
-    "Applicance": "Water bed king",
+    "Appliance": "Water bed king",
     "Average_watts (in Wh)": 425
   },
   {
-    "Applicance": "Welder",
+    "Appliance": "Welder",
     "Average_watts (in Wh)": 2400
   },
   {
-    "Applicance": "Water heater instantaneous",
+    "Appliance": "Water heater instantaneous",
     "Average_watts (in Wh)": 1300
   },
   {
-    "Applicance": "Water heater quick recovery",
+    "Appliance": "Water heater quick recovery",
     "Average_watts (in Wh)": 2400
   },
   {
-    "Applicance": "Heat pump",
+    "Appliance": "Heat pump",
     "Average_watts (in Wh)": 1300
   },
   {
-    "Applicance": "Storage Heater small",
+    "Appliance": "Storage Heater small",
     "Average_watts (in Wh)": 3600
   },
   {
-    "Applicance": "Storage Heater medium",
+    "Appliance": "Storage Heater medium",
     "Average_watts (in Wh)": 4500
   },
   {
-    "Applicance": "Storage Heater large",
+    "Appliance": "Storage Heater large",
     "Average_watts (in Wh)": 6000
   },
   {
-    "Applicance": "Spa heater small",
+    "Appliance": "Spa heater small",
     "Average_watts (in Wh)": 2400
   },
   {
-    "Applicance": "Spa heater medium",
+    "Appliance": "Spa heater medium",
     "Average_watts (in Wh)": 5000
   },
   {
-    "Applicance": "Spa heater large",
+    "Appliance": "Spa heater large",
     "Average_watts (in Wh)": 15000
   }
 ]
