@@ -3,16 +3,15 @@
 var mongoose = require('mongoose');
 // get the database configuration file
 try {
-	var config = require('../../../config.json');
+	require('dotenv').config()
 }
 catch(e){
 	console.log(`Database configuration file "config.json" is missing.`);
 	process.exit(0);
 }
-var db = config.database;
 
 // connect to the database
-mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`);
+mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`);
 
 // When successfully connected
 mongoose.connection.on('connected', () => {  

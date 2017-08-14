@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "scripts":{
         "all":"node electricity_db.js && node electricity_db_generation.js && node electricity_db_td.js && node flights_db.js && node vehicle_db.js && node tree_db.js && node trains_db.js",
-        "electricity":"node electricity_db.js && node electricity_db_generation.js && node electricyt_db_td.js",
+        "electricity":"node electricity_db.js && node electricity_db_generation.js && node electricity_db_td.js",
         "flights":"node flights_db.js",
         "vehicle":"node vehicle_db.js",
         "trains":"node trains_db.js",
