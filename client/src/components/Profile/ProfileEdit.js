@@ -14,6 +14,9 @@ import {
 const options = [
     { key: 'm', text: 'Male', value: 'male' },
     { key: 'f', text: 'Female', value: 'female' },
+    {key: 'o', text: 'Other', value: 'other'},
+    {key: 'n', text: 'Prefer not to disclose', value: 'prefer not to disclose'}
+
 ];
 
 /* Extended react.Component class as ProfileEdit */
