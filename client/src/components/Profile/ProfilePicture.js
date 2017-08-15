@@ -51,13 +51,13 @@ export default class ProfilePicture extends Component {
               width: '40%',
               paddingTop: '40%',
               borderRadius: '50%',
-              background: `url(${this.props.url}) center center / cover`
+              background: `url(${this.props.profilePicture}) center center / cover`
             }}
           />
         </div>
         <Card.Content style={{fontSize:'15px'}}>
           <Card.Header>
-            {this.state.nickname || this.props.name} <ProfileEdit auth={auth} />
+            {this.state.nickname || this.props.nickname} <ProfileEdit auth={auth} />
           </Card.Header>
           <Card.Meta>
             {this.props.email}

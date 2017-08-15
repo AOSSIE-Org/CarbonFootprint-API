@@ -57,8 +57,8 @@ export default class Profile extends Component {
 
           <Grid.Column width={3}>
             <ProfilePicture
-              url={this.state.profilePicture}
-              name={this.state.nickname }
+              profilePicture={this.state.profilePicture}
+              nickname={this.state.nickname }
               email={this.state.email}
               auth={this.props.auth}
             />
