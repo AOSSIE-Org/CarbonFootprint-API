@@ -180,7 +180,33 @@ router.post('/trains', async(req, res) => {
 	}
 });
 
+router.post('/appliances', (req, res) => {
+	let appliance = req.body["appliance"];
+	let type = req.body["type"];
+	let region = req.body["region"] || "Default";
+	let unit = req.body["unit"] || "kWh";
+	let quantity = req.body["quantity"] || 1;
+	let runnning_time = req.body["runnning_time"] || 1;
+	Emission.calculate(`${appliance} ${type}`, region, quantity, runnning_time)
+		.then((emissions) => {
+			// console.log(`\nTotal Emissions: ${emissions.CO2}`);
+			res.status(200).json({
+				success: true,
+				emissions: emissions,
+				unit: 'kg'
+			});
+		})
+		.catch((err) => {
+			console.log(`Error: ${err}`);
+			res.status(400).json({
+				success: false,
+				err: err
+			});
+		});
+});
+
 module.exports = router;
+
 //curl test- curl -H "Content-Type: application/json" -X POST -d '{"item":"electricity","region":"Africa","unit":"kWh","quantity":1}' http://localhost:3080/v1/emissions
 //curl test- curl -H "Content-Type: application/json" -X POST -d '{"item":"airplane model A380","region":"Default","unit":"nm","quantity":125}' http://localhost:3080/v1/emissions
 //curl test- curl -H "Content-Type: application/json" -X POST -d '{"type":"Petrol","distance":100,"unit":"km","mileage":50,"mileage_unit":"km/L"}' http://localhost:3080/v1/vehicle
