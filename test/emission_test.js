@@ -163,4 +163,34 @@ describe("API endpoint testing", () => {
           done();
         });
     });
+
+    it("should return correct value for appliance large air conditioner", (done) => {
+      server
+        .post('/v1/emissions')
+        .set('access-key', ACCESS_KEY)
+        .send({"item":"Air conditioner large","region":"Africa","unit":"kWh","quantity":1})
+        .expect("Content-type", /json/)
+        .expect(200)
+        .end((err, res) => {
+          res.status.should.equal(200);
+          res.body.success.should.equal(true);
+          res.body.emissions["CO2"].should.approximately(2.6911610272,0.2);
+          done();
+        });
+    });
+    
+    it("should return correct value for appliance large air conditioner", (done) => {
+      server
+        .post('/v1/appliances')
+        .set('access-key', ACCESS_KEY)
+        .send({"appliance":"Water heater","type":"instantaneous","region":"India","unit":"kWh","quantity":1,"runnning_time":3})
+        .expect("Content-type", /json/)
+        .expect(200)
+        .end((err, res) => {
+          res.status.should.equal(200);
+          res.body.success.should.equal(true);
+          res.body.emissions["CO2"].should.approximately(7.0231411497,0.2);
+          done();
+        });
+    });
 });
