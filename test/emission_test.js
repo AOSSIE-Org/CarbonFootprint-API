@@ -163,4 +163,102 @@ describe("API endpoint testing", () => {
           done();
         });
     });
+
+    /* Test Cases for Poultry Emissions */
+
+    it("should check result for emissions produced after the production of 2 eggs in British Columbia",(done) => {
+      server
+        .post('/v1/poultry')
+        .set('access-key',ACCESS_KEY)
+        .set('Content-type','application/json')
+        .send({"type":"egg","quantity":2,"region":"british columbia"})
+        .expect(200)
+        .end((err,res) => {
+          if(err) console.log(err);
+          res.status.should.equal(200);
+          res.body.success.should.equal(true);
+          res.body.emissions["CO2"].should.approximately(8.747984,0.1);
+          done();
+        });
+    });
+
+    it("should check result for emissions produced after the production of 7 eggs in India",(done) => {
+      server
+        .post('/v1/poultry')
+        .set('access-key',ACCESS_KEY)
+        .set('Content-type','application/json')
+        .send({"type":"egg","quantity":7,"region":"india"})
+        .expect(200)
+        .end((err,res) => {
+          if(err) console.log(err);
+          res.status.should.equal(200);
+          res.body.success.should.equal(true);
+          res.body.emissions["CO2"].should.approximately(33.743248,0.1);
+          done();
+        });
+    });
+
+     it("should check result for emissions produced after the production of 4 kg of turkey in Pennsylvania",(done) => {
+      server
+        .post('/v1/poultry')
+        .set('access-key',ACCESS_KEY)
+        .set('Content-type','application/json')
+        .send({"type":"turkey","quantity":4,"region":"pennsylvania"})
+        .expect(200)
+        .end((err,res) => {
+          if(err) console.log(err);
+          res.status.should.equal(200);
+          res.body.success.should.equal(true);
+          res.body.emissions["CO2"].should.approximately(43.583252,0.1);
+          done();
+        });
+    });
+
+     it("should check result for emissions produced after the production of 9 kg of Pork in michigan",(done) => {
+      server
+        .post('/v1/poultry')
+        .set('access-key',ACCESS_KEY)
+        .set('Content-type','application/json')
+        .send({"type":"pork","quantity":9,"region":"michigan"})
+        .expect(200)
+        .end((err,res) => {
+          if(err) console.log(err);
+          res.status.should.equal(200);
+          res.body.success.should.equal(true);
+          res.body.emissions["CO2"].should.approximately(101.596302,0.1);
+          done();
+        });
+    });
+
+     it("should check result for emissions produced after the production of 6 kg of Pork in Austria",(done) => {
+      server
+        .post('/v1/poultry')
+        .set('access-key',ACCESS_KEY)
+        .set('Content-type','application/json')
+        .send({"type":"pork","quantity":6,"region":"Austria"})
+        .expect(200)
+        .end((err,res) => {
+          if(err) console.log(err);
+          res.status.should.equal(200);
+          res.body.success.should.equal(true);
+          res.body.emissions["CO2"].should.approximately(72.573048,0.1);
+          done();
+        });
+    });
+
+     it("should check result for emissions produced after the production of 1 kg of Broiler Chicken in British Columbia",(done) => {
+      server
+        .post('/v1/poultry')
+        .set('access-key',ACCESS_KEY)
+        .set('Content-type','application/json')
+        .send({"type":"Broiler Chicken","quantity":1,"region":"British Columbia"})
+        .expect(200)
+        .end((err,res) => {
+          if(err) console.log(err);
+          res.status.should.equal(200);
+          res.body.success.should.equal(true);
+          res.body.emissions["CO2"].should.approximately(6.882375,0.1);
+          done();
+        });
+    });
 });
