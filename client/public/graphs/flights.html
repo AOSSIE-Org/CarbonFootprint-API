@@ -53,7 +53,6 @@ function showGraph(flight){
                           .padding(1);
                 var y = d3.scaleLinear()
                           .range([height, 0]);
-                
                 // define the line
                 var valueline = d3.line()
                     .x(function(d) { return x(d.key); })
@@ -68,12 +67,11 @@ function showGraph(flight){
                           "translate(" + margin.left + "," + margin.top + ")");
                   // get the data
                   data = d3.entries(data);
-                  console.log(data); 
+
                   // format the data
                   // Scale the range of the data in the domains
                   x.domain(data.map(function(d) { return d.key; }));
-                  y.domain([0, d3.max(data, function(d) { return d.value; })]);
-                  
+                  y.domain([0, d3.max(data, function(d) { return parseFloat(d.value); })]);
 
                 // Add the valueline path.
                 svg.append("path")
@@ -103,7 +101,6 @@ function showGraph(flight){
                     .text("Flight Distance (nm)");
 };
 d3.json("../data/flights.json", function(data) {
-
     // create dropdown with countries
     var select = document.createElement("select");
     select.setAttribute('onChange', 'updateGraph(this)')
