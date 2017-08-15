@@ -1,4 +1,4 @@
-//To run this script use "node flights_db.js"
+ //To run this script use "node Poultry_script.js"
 // database setup
 var mongoose = require('mongoose');
 // get the database configuration file
@@ -15,7 +15,7 @@ mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${proc
 // When successfully connected
 mongoose.connection.on('connected', () => {  
     console.log('Connection to database established successfully');
-    console.log("flights_db.js running");
+    console.log("poultry_db.js running");
 }); 
 
 // If the connection throws an error

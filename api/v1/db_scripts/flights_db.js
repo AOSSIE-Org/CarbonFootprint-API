@@ -3,7 +3,7 @@
 var mongoose = require('mongoose');
 // get the database configuration file
 try {
-  //require('dotenv').config()
+  require('dotenv').config()
 }
 catch(e){
 	console.log(`Database configuration file "config.json" is missing.`);
