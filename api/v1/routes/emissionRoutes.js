@@ -177,7 +177,7 @@ router.post('/poultry', async (req,res) => {
     let type = req.body.type;
     let region = req.body.region || 'Default';
     let quantity = req.body.quantity || 1;
-    console.log(`${type} in ${region} of mass ${quantity} kg`);
+    //console.log(`${type} in ${region} of mass ${quantity} kg`);
     if(type){
          Emission.calculate(type ,region, quantity)
             .then((emissions) => {

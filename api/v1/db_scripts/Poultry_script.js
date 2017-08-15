@@ -40,6 +40,14 @@ for(var x=0;x<data.length;x++){
   obj.quantity=[1];
   obj.unit=data[x]["unit"];
   obj.categories=["poultry"];
+
+  /**
+   * pf_emission : Post farmgate emission
+   * p_emissions : Production emission
+   * wl_factor : Waste loss factor
+   * ml_factor : Moisture loss factor
+   */
+
   obj.components=[
     {
     	name: "CO2",
