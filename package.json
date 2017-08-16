@@ -13,7 +13,8 @@
     "vehicle": "cd api/v1/db_scripts && yarn run vehicle && cd ../../..",
     "trains": "cd api/v1/db_scripts && yarn run trains && cd ../../..",
     "trees": "cd api/v1/db_scripts && yarn run trees && cd ../../..",
-    "poultry": "cd api/v1/db_scripts && yarn run poultry && cd ../../.."
+    "poultry": "cd api/v1/db_scripts && yarn run poultry && cd ../../..",
+    "appliance": "cd api/v1/db_scripts && yarn run appliance && cd ../../.."
   },
   "dependencies": {
     "@google/maps": "^0.4.1",
@@ -28,6 +29,7 @@
     "express": "^4.14.1",
     "express-jwt": "^5.3.0",
     "formidable": "^1.1.1",
+    "jquery": "^3.2.1",
     "jwks-rsa": "^1.2.0",
     "lodash": "^4.17.4",
     "mongoose": "^4.10.4",

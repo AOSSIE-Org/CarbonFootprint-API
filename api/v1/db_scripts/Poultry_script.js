@@ -9,6 +9,7 @@ catch(e){
 	console.log(`Database configuration file "config.json" is missing.`);
 	process.exit(0);
 }
+//console.log(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`);
 // connect to the database
 mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`);
 
@@ -33,12 +34,11 @@ var json = require('../../../raw_data/poultry.json');
 // console.log(json['data'].length)
 var data = json['data'];
 for(var x=0;x<data.length;x++){
-	//console.log(data[x]['type']);
   var obj = new Emission();
   obj.item= data[x]['type'];
   obj.region=data[x]['region'];
   obj.quantity=[1];
-  obj.unit=data[x]["unit"];
+  obj.unit=data[x]['unit'];
   obj.categories=["poultry"];
 
   /**
@@ -66,7 +66,7 @@ for(var x=0;x<data.length;x++){
     if ( err ) throw err;
     console.log(`Object Saved Successfully for ${data}`);
   });
-    //console.log(obj);
+  // console.log(obj);
 }
 
 mongoose.connection.close();
