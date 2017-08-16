@@ -175,7 +175,7 @@ describe("API endpoint testing", () => {
       });
   });
 
-  it("Testing for vhicles - should return correct values for vehicle emissions for a two location points , testing map api", (done) => {
+  it("Testing for vehicles - should return correct values for vehicle emissions for a two location points , testing map api", (done) => {
     server
       .post('/v1/vehicle')
       .set('access-key', ACCESS_KEY)
@@ -247,9 +247,9 @@ describe("API endpoint testing", () => {
         "quantity": -9,
         "region": "michigan"
       })
-      .expect(200)
+      .expect(400)
       .end((err, res) => {
-        res.status.should.equal(200);
+        res.status.should.equal(400);
         res.body.success.should.equal(false);
         done();
       });
@@ -265,10 +265,11 @@ describe("API endpoint testing", () => {
         "quantity": 1,
         "region": "British Columbia"
       })
-      .expect(200)
+      .expect(400)
       .end((err, res) => {
-        res.status.should.equal(200);
+        res.status.should.equal(400);
         res.body.success.should.equal(false);
+        done();
       });
   });
 

@@ -195,7 +195,7 @@ router.post('/poultry', async(req, res) => {
 					unit: 'kg'
 				});
 			}).catch((err) => {
-				res.json({
+				res.status(400).json({
 					success: false,
 					err: `We cannot provide carbon footprints for this combination of ${type} in ${region} of mass ${quantity} kg`
 				})
