@@ -3,30 +3,30 @@
 var mongoose = require('mongoose');
 // get the database configuration file
 try {
-  require('dotenv').config()
+  var config = require('../../../config.json');
+} catch (e) {
+  console.log(`Database configuration file "config.json" is missing.`);
+  process.exit(1);
 }
-catch(e){
-	console.log(`Database configuration file "config.json" is missing.`);
-	process.exit(0);
-}
+var db = config.database;
 
 // connect to the database
-mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`);
+mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`);
 
 // When successfully connected
-mongoose.connection.on('connected', () => {  
-    console.log('Connection to database established successfully');
-    console.log("flights_db.js running");
-}); 
+mongoose.connection.on('connected', () => {
+  console.log('Connection to database established successfully');
+  console.log("electricity_db.js running");
+});
 
 // If the connection throws an error
-mongoose.connection.on('error', (err) => {  
+mongoose.connection.on('error', (err) => {
   console.log('Error connecting to database: ' + err);
-}); 
+});
 
 // When the connection is disconnected
-mongoose.connection.on('disconnected', () => {  
-  console.log('Database disconnected'); 
+mongoose.connection.on('disconnected', () => {
+  console.log('Database disconnected');
 });
 var Emission = require('../models/emissionModel.js')
 let dist = [125, 250, 500, 750, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 8500];

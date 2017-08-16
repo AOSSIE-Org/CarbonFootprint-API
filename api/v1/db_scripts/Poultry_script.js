@@ -1,33 +1,35 @@
- //To run this script use "node Poultry_script.js"
+//To run this script use "node Poultry_script.js"
+//To run this script use "node appliances_db.js"
 // database setup
 var mongoose = require('mongoose');
 // get the database configuration file
 try {
-	require('dotenv').config()
+  var config = require('../../../config.json');
+} catch (e) {
+  console.log(`Database configuration file "config.json" is missing.`);
+  process.exit(1);
 }
-catch(e){
-	console.log(`Database configuration file "config.json" is missing.`);
-	process.exit(0);
-}
-//console.log(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`);
+var db = config.database;
+
 // connect to the database
-mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`);
+mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`);
 
 // When successfully connected
-mongoose.connection.on('connected', () => {  
-    console.log('Connection to database established successfully');
-    console.log("poultry_db.js running");
-}); 
+mongoose.connection.on('connected', () => {
+  console.log('Connection to database established successfully');
+  console.log("electricity_db.js running");
+});
 
 // If the connection throws an error
-mongoose.connection.on('error', (err) => {  
+mongoose.connection.on('error', (err) => {
   console.log('Error connecting to database: ' + err);
-}); 
+});
 
 // When the connection is disconnected
-mongoose.connection.on('disconnected', () => {  
-  console.log('Database disconnected'); 
+mongoose.connection.on('disconnected', () => {
+  console.log('Database disconnected');
 });
+
 var Emission = require('../models/emissionModel.js');
 
 var json = require('../../../raw_data/poultry.json');
