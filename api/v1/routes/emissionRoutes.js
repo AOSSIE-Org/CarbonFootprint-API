@@ -205,6 +205,31 @@ router.post('/appliances', (req, res) => {
 		});
 });
 
+router.post('/quantity', (req, res) => {
+	let itemName = req.body["item"];
+	let region = req.body["region"] || "Default";
+	let emission = req.body["emission"] || 1;
+	Emission.calculate(itemName, region, 1, 1)
+		.then((emissions) => {
+			// console.log(`\nTotal Emissions: ${emissions.CO2}`);
+			if(emissions.CO2){
+				let quantity = Math.abs(emission/emissions.CO2);
+				res.status(200).json({
+					success: true,
+					quantity: quantity,
+					note: `This is a estimate for the quantity of ${itemName} that could be the cause of the emission provided.`
+				});
+			}
+		})
+		.catch((err) => {
+			console.log(`Error: ${err}`);
+			res.status(400).json({
+				success: false,
+				err: `Unable to find quantity for item type ${itemName}`
+			});
+		});
+});
+
 module.exports = router;
 
 //curl test- curl -H "Content-Type: application/json" -X POST -d '{"item":"electricity","region":"Africa","unit":"kWh","quantity":1}' http://localhost:3080/v1/emissions
