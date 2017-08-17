@@ -13,6 +13,7 @@
     "vehicle": "cd api/v1/db_scripts && yarn run vehicle && cd ../../..",
     "trains": "cd api/v1/db_scripts && yarn run trains && cd ../../..",
     "trees": "cd api/v1/db_scripts && yarn run trees && cd ../../..",
+    "poultry": "cd api/v1/db_scripts && yarn run poultry && cd ../../..",
     "appliance": "cd api/v1/db_scripts && yarn run appliance && cd ../../.."
   },
   "dependencies": {

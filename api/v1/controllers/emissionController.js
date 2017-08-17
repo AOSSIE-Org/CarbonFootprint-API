@@ -28,6 +28,7 @@ let find = (component, region, quantity) => {
     }; // emissions accumulator
     return new Promise((resolve, reject) => {
         // find the component in the database
+        if(quantity<0) reject('quantity cannot be negative');
         Emission.findOne({ 
             $or: [{ 
                 'item': new RegExp(`^${component}$`, "i"), 
