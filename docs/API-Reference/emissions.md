@@ -17,7 +17,7 @@ Currently supported items-
 ### 1. Electricity - 
 The emission route can be requested to find emission for any country for per kilowatt of electricity consumed. It can also deliver components of emission like generation and transmission & dissipation when queried with item names `generation` and `td` respectively.The data source for this is [here](https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwihzNKT6MLUAhVLs48KHdzqCbMQFggsMAA&url=https%3A%2F%2Fecometrica.com%2Fassets%2FElectricity-specific-emission-factors-for-grid-electricity.pdf&usg=AFQjCNEJ8JPRvugX-uXAJwZEXi890P5XgA&sig2=9Q_msg2FZeRTGmzXduSXsg). The region that is unavailable results in returning the emission for the `Default` region which is calculated as a average of the whole data.
 
-Sample Request JSON
+__Sample Request JSON__
 
 
 Method - __POST__
@@ -54,7 +54,7 @@ Method - __POST__
 ### 2. Airplane fuel -
 Airplane fuel converts the distance flown by a particular air plane to corresponing CO2 emission.
 
-Sample request JSON
+__Sample request JSON__
 
 Method-__POST__
 ```JSON
@@ -86,7 +86,7 @@ Method-__POST__
 ### 3. Vehicle Fuel - 
 Emission route can be requested with fuel quantity and type and unit , to return the GHG emission generated on the consumption of the same.The fuels that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint/blob/master/Source/Core/core/resources/fuels.json). 
 
-Sample Request JSON
+__Sample Request JSON__
 
 Method - __POST__
 ```JSON
@@ -120,7 +120,7 @@ Method - __POST__
 ### 4. Trains -
 Emission route can provide you with the emission generated from a train journey, provided with the distance of the journey.Here the item is the the train type and multiply signifies the number of passengers.
 
-Sample request JSON
+__Sample request JSON__
 
 Method-__POST__
 ```JSON
@@ -154,7 +154,7 @@ Method-__POST__
 ### 5. Trees - 
 Emission route can be requested with tree name and the number of years to find out the CO2 absorption from it per year.The trees that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint/blob/master/Source/Core/core/resources/trees.json). 
 
-Sample Request JSON
+__Sample Request JSON__
 
 Method - __POST__
 ```JSON
@@ -172,7 +172,46 @@ Method - __POST__
 {
     "success": true,
     "emissions": {
-        "CO2": 26.9
+        "CO2": -26.9
+    },
+    "unit": "kg",
+    "note": "A negative number for emissions signifies that the item absorbs CO2."
+}
+```
+`400` - Error 
+```JSON
+{
+    "success": false,
+    "error": err
+}
+```
+### 6. Appliances - 
+Emission route can be requested with a appliance name and the number of units and no of hours to find out the CO2 emission for the running time.The appliances that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/raw_data/appliances.json). 
+
+__Sample Request JSON__
+
+Method - __POST__
+
+This request is querying for the emission from a single Air conditioner running for 8 hours.
+```JSON
+{
+    "item":"Air conditioner large",
+    "region":"Africa",
+    "unit":"kWh",
+    "quantity":1,
+    "multiply":8
+}
+```
+**Response Code**
+
+`200` - Valid Request
+```JSON
+{
+    "success": true,
+    "emissions": {
+        "CO2": 21.5292882176,
+        "CH4": 0.0003433984,
+        "N2O": 0.0002508032
     },
     "unit": "kg"
 }

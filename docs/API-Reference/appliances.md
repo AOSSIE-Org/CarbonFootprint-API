@@ -1,25 +1,24 @@
-# Vehicles
-
+# Appliances
 {% method %}
-This route enables you to find GHG emissions for a number of fuels.The distance is calculated using [Google Map Distant Matrix API](https://developers.google.com/maps/documentation/javascript/distancematrix). The fuels that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint/blob/master/Source/Core/core/resources/fuels.json). 
+This route enables you to find GHG emissions for a number of appliance types for a specific quantity and running time. The emissions are calculated from the electricity based emissions on a particular region. The different appliance types can be found in this [excel sheet](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/raw_data/Applicances.xlsx) or in the json form [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/raw_data/appliances.json). 
 ###**Parameters**
 
 | Name        | Type           | Description  |
 | ------------- |-------------| -----|
-| type | string | **Required:** The fuel type used by the vehicle.|
-| origin    | string | **Required:** Origin of the journey. |
-| destination   | string | **Required:** Destination of the journey. |
-| mileage    | string | The fuel efficiency of the vehicle i.e. distance traveled per unit of fuel. The default value is 20. |
-| mileage_unit     | string | The unit of mileage. The default sets to be 'km/L' |
+| appliance | string | **Required:** The appliance name. |
+| type   | string | **Required:** The type of the appliance. Its necessary if it exists. |
+| region   | string | **Required:** Region in which the appliance is used. |
+| quantity   | number | The number of appliances being used. |
+| running_time   | number | The number of hours the appliances are being used. |
 
 **Example**
 ```JSON
 {
-    "type": "Petrol",
-    "origin": "Bhubaneswar",
-    "destination": "Cuttack",
-    "mileage": 50,
-    "mileage_unit": "km/l"
+  "appliance":"Water heater",
+  "type":"instantaneous",
+  "region":"India",
+  "quantity":1,
+  "runnning_time":3
 }
 ```
 `200` - **Response**
@@ -27,9 +26,9 @@ This route enables you to find GHG emissions for a number of fuels.The distance 
 {
     "success": true,
     "emissions": {
-        "CO2": 1.20362256,
-        "CH4": 0.0012964277,
-        "N2O": 0.0032509184
+        "CO2": 7.0231411497,
+        "CH4": 0.0000817752,
+        "N2O": 0.0001059357
     },
     "unit": "kg"
 }
@@ -38,53 +37,53 @@ This route enables you to find GHG emissions for a number of fuels.The distance 
 ```JSON
 {
     "success": false,
-    "error": "Distance or Mileage cannot be less than zero"
+    "error": err
 }
 ```
 {% common %}
 ```
-POST /v1/vehicle
+POST /v1/appliances
 ```
-{% sample lang="BASH" %}
+{% sample lang="Bash" %}
 ```Bash
 #use your API key here
+
 curl -POST -H 'access-key: <apikey>' -H "Content-type: application/json" -d '{
-    "type": "Petrol",
-    "origin": "Bhubaneswar",
-    "destination": "Cuttack",
-    "mileage": 50,
-    "mileage_unit": "km/l"
-}' 'https://www.carbonhub.xyz/v1/vehicle'
+    "appliance":"Water heater",
+    "type":"instantaneous",
+    "region":"India",
+    "quantity":1,
+    "runnning_time":3
+}' 'https://www.carbonhub.xyz/v1/appliances'
 ```
 {% sample lang="python" %}
 ```Python
 import requests
 import json
 
-def getVehicleEmissions(url,data,headers):
+def getTrainEmissions(url,data,headers):
     r = requests.post(url,data = json.dumps(data),headers=headers)
     return r.content
-url = 'https://www.carbonhub.xyz/v1/vehicle'
+url = 'https://www.carbonhub.xyz/v1/appliances'
 data = {
-    "type": "Petrol",
-    "origin": "Bhubaneswar",
-    "destination": "Cuttack",
-    "mileage": 50,
-    "mileage_unit": "km/l"
+    "appliance":"Water heater",
+    "type":"instantaneous",
+    "region":"India",
+    "quantity":1,
+    "runnning_time":3
 }
 #use your api key here
 headers = {
     "access-key":"<apikey>",
     "Content-Type":"application/json"
 }
-print getVehicleEmissions(url,data,headers)
+print getTrainEmissions(url,data,headers)
 ```
-
 {% sample lang="nodejs" %}
 ```javascript
 var request = require('request');
 
-function getVehicleEmissions(url,data,headers){
+function getTrainEmissions(url,data,headers){
     var options = {
         url: url,
         method: 'POST',
@@ -99,13 +98,13 @@ function getVehicleEmissions(url,data,headers){
     });
 }
     
-let url = "https://www.carbonhub.xyz/v1/vehicle",
+let url = "https://www.carbonhub.xyz/v1/appliances",
     data = {
-    "type": "Petrol",
-    "origin": "Bhubaneswar",
-    "destination": "Cuttack",
-    "mileage": 50,
-    "mileage_unit": "km/l"
+    "appliance":"Water heater",
+    "type":"instantaneous",
+    "region":"India",
+    "quantity":1,
+    "runnning_time":3
     },
     //use your api key here
     headers = {
@@ -113,9 +112,8 @@ let url = "https://www.carbonhub.xyz/v1/vehicle",
     "Content-Type":"application/json"
     };
 
-getVehicleEmissions(url,data,headers); 
+getTrainEmissions(url,data,headers); 
 ```
-
 {% sample lang="java" %}
 ```Java
 package org.kodejava.example.httpclient;
@@ -133,17 +131,18 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class getVehicleEmissions {
+public class getTrainEmissions {
     public static void main(String[] args) {
         HttpClient client = HttpClientBuilder.create().build();
-        HttpPost post = new HttpPost("https://www.carbonhub.xyz/v1/vehicle");
+        HttpPost post = new HttpPost("https://www.carbonhub.xyz/v1/appliances");
 
-        List<NameValuePair> data = new ArrayList<>(5); 
-        data.add(new BasicNameValuePair("type", "Petrol"));
-        data.add(new BasicNameValuePair("origin", "Bhubaneswar"));
-        data.add(new BasicNameValuePair("destination", "Cuttack"));
-        data.add(new BasicNameValuePair("mileage", 50));
-        data.add(new BasicNameValuePair("mileage_unit", "km/l"));
+        List<NameValuePair> data = new ArrayList<>(5);
+        data.add(new BasicNameValuePair("appliance", "Water heater"));
+        data.add(new BasicNameValuePair("type", "instantaneous"));
+        data.add(new BasicNameValuePair("region", "India"));
+        data.add(new BasicNameValuePair("quantity", 1));
+        data.add(new BasicNameValuePair("runnning_time", 3));
+
 
         try {
             post.setEntity(new UrlEncodedFormEntity(data));

@@ -41,7 +41,7 @@ for(js in json.treeData){
   obj.components=[
     {
     	name: "CO2",
-    	quantity: [json.treeData[js]],
+    	quantity: [-json.treeData[js]],
     	unit: "kg"
     }]
   obj.save(function(err){

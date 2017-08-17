@@ -12,7 +12,8 @@
     "electricity": "cd api/v1/db_scripts && yarn run electricity && cd ../../..",
     "vehicle": "cd api/v1/db_scripts && yarn run vehicle && cd ../../..",
     "trains": "cd api/v1/db_scripts && yarn run trains && cd ../../..",
-    "trees": "cd api/v1/db_scripts && yarn run trees && cd ../../.."
+    "trees": "cd api/v1/db_scripts && yarn run trees && cd ../../..",
+    "appliance": "cd api/v1/db_scripts && yarn run appliance && cd ../../.."
   },
   "dependencies": {
     "@google/maps": "^0.4.1",
