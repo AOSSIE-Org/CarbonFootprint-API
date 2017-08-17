@@ -8,25 +8,43 @@ import {
   Icon,
   Divider,
   Statistic,
-  Message
+  Message,
+  Form
 } from 'semantic-ui-react';
-
 import { getKey, createKey, deleteKey } from './profileController';
 
-export default class Sidebar extends Component {
-  constructor() {
-    super();
+
+/* Extended react.Component class as ProfileSettings */
+
+export default class ProfileSettings extends Component {
+
+  /**
+   * Constructor for the ProfileSettings class
+   * @constructor extends react.Component
+   */
+
+  constructor(props) {
+    super(props);
     this.state = {
       key: false,
       requestsAllowed: '-',
       requestsLeft: '-',
       timeLeft: '-',
       error: false,
-      errorMessage: ''
+      errorMessage: '',
+      profile:{
+
+      }
     };
     this.createAccessKey = this.createAccessKey.bind(this);
     this.deleteAccessKey = this.deleteAccessKey.bind(this);
   }
+
+  /**
+   * Function to calculate remaining time to reset API key
+   * @param {string} time
+   * @return {string}
+   */
 
   timeLeftToReset(time) {
     const timeLeft = (new Date() - new Date(time)) / 1000; // convert to seconds
@@ -39,23 +57,15 @@ export default class Sidebar extends Component {
       return `${Math.ceil(timeLeft / 60)} M`;
     }
   }
-  componentDidMount() {
-    getKey().then(data => {
-      if (data.success) {
-        this.setState({
-          key: data.apikey,
-          requestsAllowed: data.requests.allowed,
-          requestsLeft: data.requests.left,
-          timeLeft: this.timeLeftToReset(data.requests.resetTime)
-        });
-      }
-    });
-  }
+
+  /**
+   * Function to create API key
+   */
 
   createAccessKey() {
     // const self = this;
     createKey().then(data => {
-      console.log(data);
+      //console.log(data);
       if (data.success) {
         this.setState({
           key: data.apikey,
@@ -71,6 +81,10 @@ export default class Sidebar extends Component {
       }
     });
   }
+
+  /**
+   * Function to delete API key
+   */
 
   deleteAccessKey() {
     const self = this;
@@ -92,7 +106,35 @@ export default class Sidebar extends Component {
     });
   }
 
-  render() {
+  /** 
+   * Enherit function from react.Component to handle after mounting
+   *   react component
+   */
+
+  componentDidMount(){
+    this.props.auth.getProfile((err, profile) => {
+      if(!err){
+        this.setState({profile:profile});
+      }
+    })
+    
+    getKey().then(data => {
+      if (data.success) {
+        this.setState({
+          key: data.apikey,
+          requestsAllowed: data.requests.allowed,
+          requestsLeft: data.requests.left,
+          timeLeft: this.timeLeftToReset(data.requests.resetTime)
+        });
+      }
+    });
+  }
+
+  /** 
+   * Enherited function from react.Component to render to DOM object into html
+   */
+
+  render(){
     return (
       <Segment>
         <Header as="h3">
@@ -136,26 +178,19 @@ export default class Sidebar extends Component {
             </Message.Header>
             <p>Please contact us if you are feeling stuck.</p>
           </Message>}
-        <div
-          style={{
-            display: 'flex',
-            border: '1px solid #eee',
-            alignItems: 'center',
-            paddingLeft: 10,
-            borderRadius: 3
-          }}
-        >
-          <span style={{ flex: 1 }}>
-            {this.state.key ? this.state.key : 'Generate an API access key'}
-          </span>
+
+        <Form>
+          <Form.Group>
+           <Form.Input width={12} value={this.state.key ? this.state.key : 'Generate an API access key'} readOnly />
           {!this.state.key
-            ? <Button primary onClick={this.createAccessKey}>
+            ? <Button primary onClick={this.createAccessKey} style={{marginLeft:'10px'}}>
                 CREATE API KEY
               </Button>
-            : <Button onClick={this.deleteAccessKey} color="red">
+            : <Button onClick={this.deleteAccessKey} color="red" style={{marginLeft:'10px'}}>
                 DELETE KEY
               </Button>}
-        </div>
+        </Form.Group>
+        </Form>
       </Segment>
     );
   }
