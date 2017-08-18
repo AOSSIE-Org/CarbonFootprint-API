@@ -1,4 +1,5 @@
-//To run this script use "node electricty_db_td.js"
+//To run this script use "node Poultry_script.js"
+//To run this script use "node appliances_db.js"
 // database setup
 var mongoose = require('mongoose');
 // get the database configuration file
@@ -28,33 +29,46 @@ mongoose.connection.on('error', (err) => {
 mongoose.connection.on('disconnected', () => {
   console.log('Database disconnected');
 });
-var Emission = require('../models/emissionModel.js')
-var json = require('../../../raw_data/electricty_emission.json');
-for(js in json){
+
+var Emission = require('../models/emissionModel.js');
+
+var json = require('../../../raw_data/poultry.json');
+// console.log(json['data'].length)
+var data = json['data'];
+for(var x=0;x<data.length;x++){
   var obj = new Emission();
-  obj.item="td";
-  obj.region=json[js]['Country'];
+  obj.item= data[x]['type'];
+  obj.region=data[x]['region'];
   obj.quantity=[1];
-  obj.unit="kg/kWh";
-  obj.categories=["electricity"];
+  obj.unit=data[x]['unit'];
+  obj.categories=["poultry"];
+
+  /**
+   * pf_emission : Post farmgate emission
+   * p_emissions : Production emission
+   * wl_factor : Waste loss factor
+   * ml_factor : Moisture loss factor
+   */
+
   obj.components=[
     {
     	name: "CO2",
-    	quantity: [json[js]['Td-CO2']],
-    	unit: "kg CO2/kWh"
+    	quantity: data[x]['p_emissions']*data[x]['wl_factor']*data[x]['ml_factor'] + data[x]['pf_emissions'],
+    	unit: (data[x]['unit'].length>1)? `kg CO2/${data[x]['unit']}`:'kg CO2'
     },{
     	name: "CH4",
-    	quantity: [json[js]['Td-CH4']],
-    	unit: "kg CH4/kWh"
+    	quantity: 0,
+    	unit: (data[x]['unit'].length>1)? `kg CH4/${data[x]['unit']}`:'kg CH4'
     },{
     	name: "N2O",
-    	quantity: [json[js]['Td-N2O']],
-    	unit: "kg N20/kWh"
+    	quantity: 0,
+    	unit: (data[x]['unit'].length>1)? `kg N2O/${data[x]['unit']}`: 'kg N2O'
     }]
-  obj.save(function(err){
+  obj.save(function(err,data){
     if ( err ) throw err;
-    console.log("Object Saved Successfully");
+    console.log(`Object Saved Successfully for ${data}`);
   });
-    //console.log(obj);
+  // console.log(obj);
 }
+
 mongoose.connection.close();

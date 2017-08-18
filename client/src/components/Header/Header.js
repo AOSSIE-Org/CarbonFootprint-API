@@ -3,12 +3,26 @@ import { Dropdown, Icon } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 
 export default class Header extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {profile:{}};
+    this.props.auth.getProfile((err,profile) => {
+      if(!err){
+        this.setState({
+          profile:profile
+        });
+      }
+    });
+  }
+
   login() {
     this.props.auth.login();
   }
+
   logout() {
     this.props.auth.logout();
   }
+
   render() {
     const { isAuthenticated } = this.props.auth;
     return (
@@ -26,8 +40,8 @@ export default class Header extends React.Component {
             style={styles.menuItem}
             trigger={
               <span>
-                <Icon name="user" />
-                {localStorage.getItem('email')}
+                <img src={this.state.profile.picture} style={{borderRadius:'50%',height:'20px',marginBottom:'-5px',marginRight:'5px'}} />
+                {this.state.profile.nickname}
               </span>
             }
           >
@@ -59,10 +73,13 @@ const styles = {
     fontSize: '22px'
   },
   menuItem: {
-    fontSize: '18px',
+    fontSize: '15px',
     cursor: 'pointer'
   },
   logo: {
     color: 'white'
+  },
+  user: {
+    fontSize : '22px'
   }
 };
