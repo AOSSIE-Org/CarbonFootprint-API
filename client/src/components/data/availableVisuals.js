@@ -19,6 +19,13 @@ const data = [
     "longDescription": "CO2 emissions of flights for airplanes of various kinds.",
     "link": "flights",
     "title": "Airplane Emissions"
+  },
+  {
+    "name": "Appliances 🔌",
+    "shortDescription": "CO2 emissions from commonly used electric appliances",
+    "longDescription": "CO2 emissions from commonly used electric appliances",
+    "link": "appliances",
+    "title": "Electric Appliance(s) Emissions"
   }
 ]
 
