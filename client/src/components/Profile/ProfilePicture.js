@@ -55,7 +55,7 @@ export default class ProfilePicture extends Component {
             }}
           />
         </div>
-        <Card.Content style={{fontSize:'15px'}}>
+        <Card.Content style={{fontSize:'15px', wordWrap:'break-word'}}>
           <Card.Header>
             {this.state.nickname || this.props.nickname} <ProfileEdit auth={auth} />
           </Card.Header>
