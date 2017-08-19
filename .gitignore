@@ -48,3 +48,4 @@ auth0-config.js
 
 #bundle file for react
 bundle.js
+bundle.js.map
