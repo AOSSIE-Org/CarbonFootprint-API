@@ -1,0 +1,22 @@
+{
+    "room": [
+        {
+            "item": "air_conditioner",
+            "val": "1200" 
+        },
+        {
+            "item": "heater",
+            "val": "100" 
+        }
+    ],
+    "kitchen": [
+        {
+            "item": "sink_conditioner",
+            "val": "900" 
+        },
+        {
+            "item": "ehaus",
+            "val": "100" 
+        }
+    ]
+}
