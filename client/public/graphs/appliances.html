@@ -3,13 +3,14 @@
 
 <body>
     <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.min.js"></script>
     <script>
         var width = window.innerWidth,
             height = window.innerHeight,
             padding = 1.5, // separation between same-color nodes
             clusterPadding = 6, // separation between different-color nodes
             maxRadius = 12;
-            maxPower = 0;
+        maxPower = 0;
 
         d3.json("../data/appliances.json", function (data) {
             console.log(data);
@@ -18,7 +19,7 @@
             //find max power for scale
             for (var room in data) {
                 var temp = data[room].map(function (el) {
-                    if(parseInt(el.val) > parseInt(maxPower)){
+                    if (parseInt(el.val) > parseInt(maxPower)) {
                         maxPower = el.val;
                     }
                 })
@@ -39,7 +40,7 @@
                 var temp = data[room].map(function (el) {
                     console.log(radiusScale(el.val))
                     i = i;
-                    var item = `Item: ${el.item}\nPower usage: ${el.val/1000}kW`
+                    var item = `Item: ${el.item}\nPower usage: ${el.val / 1000}kW`
                     var r = radiusScale(el.val),
                         d = {
                             cluster: i,
@@ -123,6 +124,19 @@
                 .text(function (d) {
                     return d.item;
                 });
+            
+            // add legends to the chart
+            svg.append("g")
+                .attr("class", "legendOrdinal")
+                .attr("transform", "translate(20, 200)");
+
+            var legendOrdinal = d3.legendColor()
+                .shape("circle")
+                .labels(["room", "kitchen", "bathroom", "office"])
+                .scale(color);
+
+            svg.select(".legendOrdinal")
+                .call(legendOrdinal);
 
             // Resolves collisions between d and all other circles.
             function collide(alpha) {
