@@ -28,7 +28,7 @@
                     console.log(el.item)
                     i = i;
                     var item = `Item: ${el.item}\nPower usage: ${el.val/1000}kW`
-                    var r = el.val / 30,
+                    var r = el.val < 200 ? 4 : el.val / 50,
                         d = {
                             cluster: i,
                             item: item,
