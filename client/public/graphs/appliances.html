@@ -25,11 +25,12 @@
             var nodes = [];
             for (var room in data) {
                 var temp = data[room].map(function (el) {
-                    console.log(el)
+                    console.log(el.item)
                     i = i;
                     var r = el.val / 30,
                         d = {
                             cluster: i,
+                            item: el.item,
                             radius: r,
                             x: Math.cos(i / m * 2 * Math.PI) * 200 + width / 2 + Math.random(),
                             y: Math.sin(i / m * 2 * Math.PI) * 200 + height / 2 + Math.random()
@@ -56,23 +57,34 @@
             var node = svg.selectAll("circle")
                 .data(nodes)
                 .enter().append("circle")
-                .style("fill", function (d) { return color(d.cluster); })
+                .style("fill", function (d) {
+                    return color(d.cluster);
+                })
                 .call(force.drag);
+            
 
             node.transition()
                 .duration(750)
-                .delay(function (d, i) { return i * 5; })
+                .delay(function (d, i) {
+                    return i * 5;
+                })
                 .attrTween("r", function (d) {
                     var i = d3.interpolate(0, d.radius);
-                    return function (t) { return d.radius = i(t); };
+                    return function (t) {
+                        return d.radius = i(t);
+                    };
                 });
 
             function tick(e) {
                 node
                     .each(cluster(10 * e.alpha * e.alpha))
                     .each(collide(.5))
-                    .attr("cx", function (d) { return d.x; })
-                    .attr("cy", function (d) { return d.y; });
+                    .attr("cx", function (d) {
+                        return d.x;
+                    })
+                    .attr("cy", function (d) {
+                        return d.y;
+                    });
             }
 
             // Move d to be adjacent to the cluster node.
@@ -93,6 +105,9 @@
                     }
                 };
             }
+            //Adding tooltip
+            node.append('svg:title')
+            .text(function(d) { return d.item; });
 
             // Resolves collisions between d and all other circles.
             function collide(alpha) {
@@ -108,7 +123,8 @@
                             var x = d.x - quad.point.x,
                                 y = d.y - quad.point.y,
                                 l = Math.sqrt(x * x + y * y),
-                                r = d.radius + quad.point.radius + (d.cluster === quad.point.cluster ? padding : clusterPadding);
+                                r = d.radius + quad.point.radius + (d.cluster === quad.point.cluster ?
+                                    padding : clusterPadding);
                             if (l < r) {
                                 l = (l - r) / l * alpha;
                                 d.x -= x *= l;
@@ -122,5 +138,4 @@
                 };
             }
         });
-
     </script>
