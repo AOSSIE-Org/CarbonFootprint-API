@@ -27,10 +27,11 @@
                 var temp = data[room].map(function (el) {
                     console.log(el.item)
                     i = i;
+                    var item = `Item: ${el.item}\nPower usage: ${el.val/1000}kW`
                     var r = el.val / 30,
                         d = {
                             cluster: i,
-                            item: el.item,
+                            item: item,
                             radius: r,
                             x: Math.cos(i / m * 2 * Math.PI) * 200 + width / 2 + Math.random(),
                             y: Math.sin(i / m * 2 * Math.PI) * 200 + height / 2 + Math.random()
