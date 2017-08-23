@@ -20,15 +20,18 @@
 
             // The largest node for each cluster.
             var clusters = new Array(m);
-
+            //Radius scale to make it look even
+            var radiusScale = d3.scale.linear()
+                .domain([0, 6000])
+                .range([10, 100]);
             let i = 0;
             var nodes = [];
             for (var room in data) {
                 var temp = data[room].map(function (el) {
-                    console.log(el.item)
+                    console.log(radiusScale(el.val))
                     i = i;
                     var item = `Item: ${el.item}\nPower usage: ${el.val/1000}kW`
-                    var r = el.val < 200 ? 4 : el.val / 50,
+                    var r = radiusScale(el.val),
                         d = {
                             cluster: i,
                             item: item,
@@ -62,7 +65,7 @@
                     return color(d.cluster);
                 })
                 .call(force.drag);
-            
+
 
             node.transition()
                 .duration(750)
@@ -108,7 +111,9 @@
             }
             //Adding tooltip
             node.append('svg:title')
-            .text(function(d) { return d.item; });
+                .text(function (d) {
+                    return d.item;
+                });
 
             // Resolves collisions between d and all other circles.
             function collide(alpha) {
