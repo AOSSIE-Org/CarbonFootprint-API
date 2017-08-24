@@ -3,7 +3,7 @@
 
 <body>
     <script src="https://d3js.org/d3.v3.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/1.13.0/d3-legend.js"></script>
     <script>
         var width = window.innerWidth,
             height = window.innerHeight,
@@ -13,7 +13,7 @@
         maxPower = 0;
 
         d3.json("../data/appliances.json", function (data) {
-            console.log(data);
+            console.log(Object.keys(data)[0]);
 
             var m = data.length; // number of distinct clusters
             //find max power for scale
@@ -27,7 +27,6 @@
 
             var color = d3.scale.category10()
                 .domain(d3.range(m));
-
             // The largest node for each cluster.
             var clusters = new Array(m);
             //Radius scale to make it look even
@@ -38,7 +37,6 @@
             var nodes = [];
             for (var room in data) {
                 var temp = data[room].map(function (el) {
-                    console.log(radiusScale(el.val))
                     i = i;
                     var item = `Item: ${el.item}\nPower usage: ${el.val / 1000}kW`
                     var r = radiusScale(el.val),
@@ -124,19 +122,19 @@
                 .text(function (d) {
                     return d.item;
                 });
-            
+
             // add legends to the chart
             svg.append("g")
-                .attr("class", "legendOrdinal")
-                .attr("transform", "translate(20, 200)");
+                .attr("class", "legendLog")
+                .attr("transform", "translate(100,400)");
 
-            var legendOrdinal = d3.legendColor()
-                .shape("circle")
-                .labels(["room", "kitchen", "bathroom", "office"])
+            var logLegend = d3.legend.color()
+                .cells(["room", "kitchen", "bathroom", "office"])
                 .scale(color);
 
-            svg.select(".legendOrdinal")
-                .call(legendOrdinal);
+            svg.select(".legendLog")
+                .call(logLegend);
+
 
             // Resolves collisions between d and all other circles.
             function collide(alpha) {
