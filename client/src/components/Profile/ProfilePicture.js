@@ -30,6 +30,10 @@ export default class ProfilePicture extends Component {
         this.props.auth.getMetaProfile(profile.sub,(err,metaProfile)=>{
           if(!err){
             metaProfile = JSON.parse(metaProfile);
+            if(!metaProfile['user_metadata']){
+              metaProfile = {};
+              metaProfile['user_metadata']={};
+            }
             this.setState({nickname:metaProfile["user_metadata"].nickname});
           }
         });
