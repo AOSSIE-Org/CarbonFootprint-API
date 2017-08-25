@@ -22,8 +22,8 @@ const data = [
   },
   {
     "name": "Appliances 🔌",
-    "shortDescription": "CO2 emissions from commonly used electric appliances",
-    "longDescription": "CO2 emissions from commonly used electric appliances",
+    "shortDescription": "CO2 emissions from commonly used electric appliances.",
+    "longDescription": "CO2 emissions from commonly used electric appliances categorized into rooms in which they are commonly found in.",
     "link": "appliances",
     "title": "Electric Appliance(s) Emissions"
   }
