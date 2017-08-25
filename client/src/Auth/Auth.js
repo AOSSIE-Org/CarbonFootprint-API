@@ -141,7 +141,7 @@ export default class Auth {
   getMetaProfile(userId,cb){
     let accessToken = this.getIdToken(),
     url = AUTH_CONFIG.apiEndpoint + userId;
-    console.log("userId",userId);
+    //console.log("userId",userId);
     if(accessToken){
       let response = $.ajax({
             type: 'GET',
@@ -159,7 +159,7 @@ export default class Auth {
                 cb(err);
             }
         });
-        console.log("hey",response);
+        //console.log("hey",response);
     }
     else cb(true,{});
   }
@@ -174,8 +174,8 @@ export default class Auth {
   updateData(clientId,data,cb) {
     let accessToken = this.getIdToken(),
             url = AUTH_CONFIG.apiEndpoint+clientId;
-        console.log(data);
-        console.log(clientId);
+        //console.log(data);
+        //console.log(clientId);
         let response = $.ajax({
             type: 'PATCH',
             url: url,

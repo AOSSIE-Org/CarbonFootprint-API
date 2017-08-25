@@ -32,7 +32,7 @@ export default class Profile extends Component {
 
   componentDidMount(){
     this.props.auth.getProfile((err, profile) => {
-      console.log("profile",profile)
+      //console.log("profile",profile)
       if(!err){
         this.setState({
           profilePicture: profile.picture,
