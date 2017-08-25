@@ -48,7 +48,7 @@ export default class ProfileEdit extends Component{
    */
 
 	handleChange(MetaData){
-		console.log(MetaData);
+		// console.log(MetaData);
 		this.setState({MetaProfile:MetaData});
 	}
 
@@ -111,7 +111,7 @@ export default class ProfileEdit extends Component{
       this.setState({MetaProfile:metaUserProfile});
     }
     else{
-      console.log(this.state.metaProfile);
+      // console.log(this.state.metaProfile);
     }
   }
 
