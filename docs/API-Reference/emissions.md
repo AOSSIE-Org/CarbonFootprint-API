@@ -6,7 +6,7 @@
 | Name        | Type           | Description  |
 | ------------- |-------------| -----|
 | item | string |**Required:** The name of the item for which emission is to be found.|
-| region | string | **Required:** Distance traveled by the vehicle. |
+| region | string | **Required:** Region in which the item exists. |
 | quantity | number | **Required:** The number of units of the item for which emissions are to be calculated. |
 | unit  | string | The unit of the element for which emissions are to be calculated.  |
 | multiply  | number | If emissions are to be found for multiple elements.  |

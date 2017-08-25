@@ -9,5 +9,6 @@
 	    * [Vehicles](API-Reference/transport/vehicle.md)
 	    * [Trains](API-Reference/transport/trains.md)
 	* [Appliances](API-Reference/appliances.md)
+	* [Quantity](API-Reference/quantity.md)
 * [Error Codes](Errors.md)
 * [Contribute Guide](Contribute.md)
