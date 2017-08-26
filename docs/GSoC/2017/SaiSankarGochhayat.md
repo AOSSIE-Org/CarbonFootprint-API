@@ -99,6 +99,6 @@
 17. [ Merge request !32](https://gitlab.com/aossie/CarbonFootprint-API/merge_requests/32) - Deploy script - Status: *Merged* 
     * Deployment script to make hassle free integration.
 18. [ Merge request !33](https://gitlab.com/aossie/CarbonFootprint-API/merge_requests/33) - Appliances Visualisation and Google Analytics tracking code added. - Status: *To be Merged* - *Along with Rohit Gupta*
-    * Applianced Visualization 
+    * Appliance's Visualization 
     * Google Analytics tracking code added.
     * Minor fix
