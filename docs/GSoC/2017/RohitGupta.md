@@ -9,10 +9,7 @@
 ### CarbonFootrprint API : 
 *This project aims to build a RESTful API, that is the one place to go to for any information that you require on Carbon Emissions. The aim is to create a universal converter to CO2. The project contains a number of visualizations to help understand the generic emission patterns.*
 
-### Technical Details https://docs.carbonhub.xyz
-### Starting and Ending GSoC tag - 
-### CarbonFootrprint API - *This project aims to build a RESTful API, that is the one place to go to for any information that you require on Carbon Emissions. The aim is to create a universal converter to CO2. The project contains a number of visualizations to help understand the generic emission patterns.*
-### More about Carbon Footprint API -
+### Technical Details
  The [CarbonFootprint API](https://carbonhub.xyz) provides a REST API service serving information related to carbon emission. The project was started from scratch in the GSoC 2017 summer period. This is a MERN stack based Web Application. 
  Technology stack we are using - 
 
@@ -33,9 +30,9 @@
  
  We have added to implement a reverse route for finding quantity if the emission value is provided. And more visualizations based on appliances.
 
- The app is hosted on AWS, using [nginx](https://www.nginx.com/resources/wiki/) and a MongoDB server. We are using [PM2](http://pm2.keymetrics.io/) as process manager for node js. Deploy script is implemented to allow one click update. We are using CloudFlare for DNS management and SSL certificates.
+ The app is hosted on AWS , using [nginx](https://www.nginx.com/resources/wiki/) and a MongoDB server. We are using [PM2](http://pm2.keymetrics.io/) as process manager for node js. Deploy script is implemented to allow one click update. We are using CloudFlare for DNS management and SSL certificates.
 
-### Merge Requests  
+### Merge Requests 
 1. [ Merge request !4](https://gitlab.com/aossie/CarbonFootprint-API/merge_requests/4) - Restructured the API and configured mongoose - Status: *Merged*
     * Basic API structure.
     * Mongoose integration with exception handling.
