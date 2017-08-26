@@ -2,9 +2,9 @@
 ### Student - Rohit Gupta
 ### Links  
 * **Project Repository:** https://gitlab.com/aossie/CarbonFootprint-API
-<!-- * **Project's Tag at the end of GSoC:** -->
 * **Live Project:** https://carbonhub.xyz
 * **Documentation:** https://docs.carbonhub.xyz
+<!-- * **Project's Tag at the end of GSoC:** -->
 
 ### CarbonFootrprint API : 
 *This project aims to build a RESTful API, that is the one place to go to for any information that you require on Carbon Emissions. The aim is to create a universal converter to CO2. The project contains a number of visualizations to help understand the generic emission patterns.*
