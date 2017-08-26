@@ -1,8 +1,15 @@
 # CO2 EMISSIONS API
 ### Student - Rohit Gupta
-### Project Link - https://gitlab.com/aossie/CarbonFootprint-API
-### Live Project - https://carbonhub.xyz
-### Documentation - https://docs.carbonhub.xyz
+### Links  
+* **Project Repository:** https://gitlab.com/aossie/CarbonFootprint-API
+<!-- * **Project's Tag at the end of GSoC:** -->
+* **Live Project:** https://carbonhub.xyz
+* **Documentation:** https://docs.carbonhub.xyz
+
+### CarbonFootrprint API : 
+*This project aims to build a RESTful API, that is the one place to go to for any information that you require on Carbon Emissions. The aim is to create a universal converter to CO2. The project contains a number of visualizations to help understand the generic emission patterns.*
+
+### Technical Details https://docs.carbonhub.xyz
 ### Starting and Ending GSoC tag - 
 ### CarbonFootrprint API - *This project aims to build a RESTful API, that is the one place to go to for any information that you require on Carbon Emissions. The aim is to create a universal converter to CO2. The project contains a number of visualizations to help understand the generic emission patterns.*
 ### More about Carbon Footprint API -
@@ -28,7 +35,7 @@
 
  The app is hosted on AWS, using [nginx](https://www.nginx.com/resources/wiki/) and a MongoDB server. We are using [PM2](http://pm2.keymetrics.io/) as process manager for node js. Deploy script is implemented to allow one click update. We are using CloudFlare for DNS management and SSL certificates.
 
-### Merge Requests - 
+### Merge Requests  
 1. [ Merge request !4](https://gitlab.com/aossie/CarbonFootprint-API/merge_requests/4) - Restructured the API and configured mongoose - Status: *Merged*
     * Basic API structure.
     * Mongoose integration with exception handling.

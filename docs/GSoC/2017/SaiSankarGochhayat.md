@@ -1,11 +1,15 @@
 # CO2 EMISSIONS API
 ### Student - Sai Sankar Gochhayat
-### Project Link - https://gitlab.com/aossie/CarbonFootprint-API
-### Live Project - https://carbonhub.xyz
-### Documentation - https://docs.carbonhub.xyz
-### Starting and Ending GSoC tag - 
-### CarbonFootrprint API - *This project aims to build a RESTful API, that is the one place to go to for any information that you require on Carbon Emissions. The aim is to create a universal converter to CO2. The project contains a number of visualizations to help understand the generic emission patterns.*
-### More about Carbon Footprint API -
+### Links  
+* **Project Repository:** https://gitlab.com/aossie/CarbonFootprint-API
+<!-- * **Project's Tag at the end of GSoC:** -->
+* **Live Project:** https://carbonhub.xyz
+* **Documentation:** https://docs.carbonhub.xyz
+
+### CarbonFootrprint API : 
+*This project aims to build a RESTful API, that is the one place to go to for any information that you require on Carbon Emissions. The aim is to create a universal converter to CO2. The project contains a number of visualizations to help understand the generic emission patterns.*
+
+### Technical Details
  The [CarbonFootprint API](https://carbonhub.xyz) provides a REST API service serving information related to carbon emission. The project was started from scratch in the GSoC 2017 summer period. This is a MERN stack based Web Application. 
  Technology stack we are using - 
 
@@ -28,7 +32,7 @@
 
  The app is hosted on AWS , using [nginx](https://www.nginx.com/resources/wiki/) and a MongoDB server. We are using [PM2](http://pm2.keymetrics.io/) as process manager for node js. Deploy script is implemented to allow one click update. We are using CloudFlare for DNS management and SSL certificates.
 
-### Merge Requests - 
+### Merge Requests 
 1. [ Merge request !1](https://gitlab.com/aossie/CarbonFootprint-API/merge_requests/1) - Initial Prototype - Status: *Merged*
     * Basic Express App structure along with Per Capita Emission Visualisation.
 2. [ Merge request !2](https://gitlab.com/aossie/CarbonFootprint-API/merge_requests/2) - Adding Yarn as a package manager. - Status: *Merged* 
