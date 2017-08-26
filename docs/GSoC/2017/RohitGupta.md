@@ -1,5 +1,5 @@
 # CO2 EMISSIONS API
-### Student - Sai Sankar Gochhayat
+### Student - Rohit Gupta
 ### Project Link - https://gitlab.com/aossie/CarbonFootprint-API
 ### Live Project - https://carbonhub.xyz
 ### Documentation - https://docs.carbonhub.xyz
