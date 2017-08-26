@@ -69,7 +69,7 @@
     * Fixed bugs for Safari browser
 10. [ Merge request !27](https://gitlab.com/aossie/CarbonFootprint-API/merge_requests/27) - test: Update value for tree absorption - Status: *Merged* 
     * Update unit tests.
-11. 18. [ Merge request !33](https://gitlab.com/aossie/CarbonFootprint-API/merge_requests/33) - Appliances Visualisation and Google Analytics tracking code added. - Status: *To be Merged* - *Along with Saisankar Gochhayat*
+11. [ Merge request !33](https://gitlab.com/aossie/CarbonFootprint-API/merge_requests/33) - Appliances Visualisation and Google Analytics tracking code added. - Status: *To be Merged* - *Along with Saisankar Gochhayat*
     * Appliance's Visualization 
     * Google Analytics tracking code added.
     * Minor fix
