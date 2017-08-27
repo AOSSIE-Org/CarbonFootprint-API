@@ -61,7 +61,7 @@ curl -POST -H 'access-key: <apikey>' -H "Content-type: application/json" -d '{
 import requests
 import json
 
-def getTrainEmissions(url,data,headers):
+def getApplianceEmissions(url,data,headers):
     r = requests.post(url,data = json.dumps(data),headers=headers)
     return r.content
 url = 'https://www.carbonhub.xyz/v1/appliances'
@@ -77,13 +77,13 @@ headers = {
     "access-key":"<apikey>",
     "Content-Type":"application/json"
 }
-print getTrainEmissions(url,data,headers)
+print getApplianceEmissions(url,data,headers)
 ```
 {% sample lang="nodejs" %}
 ```javascript
 var request = require('request');
 
-function getTrainEmissions(url,data,headers){
+function getApplianceEmissions(url,data,headers){
     var options = {
         url: url,
         method: 'POST',
@@ -112,12 +112,10 @@ let url = "https://www.carbonhub.xyz/v1/appliances",
     "Content-Type":"application/json"
     };
 
-getTrainEmissions(url,data,headers); 
+getApplianceEmissions(url,data,headers); 
 ```
 {% sample lang="java" %}
 ```Java
-package org.kodejava.example.httpclient;
-
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
@@ -131,23 +129,23 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class getTrainEmissions {
+public class getApplianceEmissions {
     public static void main(String[] args) {
         HttpClient client = HttpClientBuilder.create().build();
         HttpPost post = new HttpPost("https://www.carbonhub.xyz/v1/appliances");
 
+        // Create some NameValuePair for HttpPost parameters
         List<NameValuePair> data = new ArrayList<>(5);
         data.add(new BasicNameValuePair("appliance", "Water heater"));
         data.add(new BasicNameValuePair("type", "instantaneous"));
         data.add(new BasicNameValuePair("region", "India"));
-        data.add(new BasicNameValuePair("quantity", 1));
-        data.add(new BasicNameValuePair("runnning_time", 3));
+        data.add(new BasicNameValuePair("quantity", Integer.toString(1)));
+        data.add(new BasicNameValuePair("runnning_time", Integer.toString(3)));
 
 
         try {
             post.setEntity(new UrlEncodedFormEntity(data));
-            post.setHeader("Content-Type","application/json");
-            // use your api key
+            //use your apikey here
             post.setHeader("access-key","<apikey>");
             HttpResponse response = client.execute(post);
 
@@ -159,6 +157,5 @@ public class getTrainEmissions {
     }
 }
 ```
-
 {% common %}
 {% endmethod %}

@@ -34,7 +34,7 @@ This route is can be used to retrieve the quantity of a certain element provided
 ```
 {% common %}
 ```
-POST /v1/appliances
+POST /v1/quantity
 ```
 {% sample lang="Bash" %}
 ```Bash
@@ -51,7 +51,7 @@ curl -POST -H 'access-key: <apikey>' -H "Content-type: application/json" -d '{
 import requests
 import json
 
-def getTrainEmissions(url,data,headers):
+def getQuantity(url,data,headers):
     r = requests.post(url,data = json.dumps(data),headers=headers)
     return r.content
 url = 'https://www.carbonhub.xyz/v1/quantity'
@@ -65,13 +65,13 @@ headers = {
     "access-key":"<apikey>",
     "Content-Type":"application/json"
 }
-print getTrainEmissions(url,data,headers)
+print getQuantity(url,data,headers)
 ```
 {% sample lang="nodejs" %}
 ```javascript
 var request = require('request');
 
-function getTrainEmissions(url,data,headers){
+function getQuantity(url,data,headers){
     var options = {
         url: url,
         method: 'POST',
@@ -98,12 +98,10 @@ let url = "https://www.carbonhub.xyz/v1/quantity",
     "Content-Type":"application/json"
     };
 
-getTrainEmissions(url,data,headers); 
+getQuantity(url,data,headers); 
 ```
 {% sample lang="java" %}
 ```Java
-package org.kodejava.example.httpclient;
-
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
@@ -117,21 +115,19 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class getTrainEmissions {
+public class getQuantity {
     public static void main(String[] args) {
         HttpClient client = HttpClientBuilder.create().build();
         HttpPost post = new HttpPost("https://www.carbonhub.xyz/v1/quantity");
 
+        // Create some NameValuePair for HttpPost parameters
         List<NameValuePair> data = new ArrayList<>(3);
         data.add(new BasicNameValuePair("item", "lamp"));
         data.add(new BasicNameValuePair("region", "ohio"));
-        data.add(new BasicNameValuePair("emission", 91));
-
-
+        data.add(new BasicNameValuePair("emission", Integer.toString(91)));
         try {
             post.setEntity(new UrlEncodedFormEntity(data));
-            post.setHeader("Content-Type","application/json");
-            // use your api key
+            //use your apikey here
             post.setHeader("access-key","<apikey>");
             HttpResponse response = client.execute(post);
 
@@ -143,6 +139,5 @@ public class getTrainEmissions {
     }
 }
 ```
-
 {% common %}
 {% endmethod %}
