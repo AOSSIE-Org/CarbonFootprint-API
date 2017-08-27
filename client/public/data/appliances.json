@@ -1,6 +1,5 @@
 {
-    "room": [
-        {
+    "living room": [{
             "item": "Air conditioner small",
             "val": "1000"
         },
@@ -89,8 +88,7 @@
             "val": "100"
         }
     ],
-    "kitchen": [
-        {
+    "kitchen": [{
             "item": "Coffee percolator",
             "val": "600"
         },
@@ -179,8 +177,7 @@
             "val": "1200"
         }
     ],
-    "bathroom": [
-        {
+    "bathroom": [{
             "item": "Hair dryer",
             "val": "1000"
         },
@@ -193,8 +190,7 @@
             "val": "750"
         }
     ],
-    "office": [
-        {
+    "office": [{
             "item": "Computer with monitor",
             "val": "300"
         },
@@ -206,5 +202,34 @@
             "item": "Laptop",
             "val": "50"
         }
+    ],
+    "laundry": [{
+            "item": "Washing machine small",
+            "val": 500
+        },
+        {
+            "item": "Washing machine automatic",
+            "val": 900
+        },
+        {
+            "item": "Washing machine with element",
+            "val": 2400
+        },
+        {
+            "item": "Clothes dryer small rotary",
+            "val": 2400
+          },
+          {
+            "item": "Clothes dryer cabinet",
+            "val": 2400
+          },
+          {
+            "item": "Clothes dryer large rotary",
+            "val": 4000
+          },
+          {
+            "item": "Clothes dryer wired in",
+            "val": 4000
+          }
     ]
 }
