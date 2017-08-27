@@ -48,7 +48,7 @@ export default class ProfileSettings extends Component {
 
   timeLeftToReset(time) {
     const timeLeft = (new Date() - new Date(time)) / 1000; // convert to seconds
-    console.log(time);
+    // console.log(time);
     if (timeLeft >= 86400) {
       return `0 H`;
     } else if (86400 - timeLeft >= 3600) {
@@ -89,7 +89,7 @@ export default class ProfileSettings extends Component {
   deleteAccessKey() {
     const self = this;
     deleteKey().then(data => {
-      console.log(data);
+      // console.log(data);
       if (data.success) {
         this.setState({
           key: false,
