@@ -1,0 +1,17 @@
+{
+	"_comment": "This file is only required to add raw data to the DB via the db_scripts",
+	"database": {
+		"username": "",
+		"password": "",
+		"hostname": "",
+		"port": "",
+		"dbname": ""
+	},
+	"apikeys": {
+		"googlemap": ""
+	},
+	"auth0": {
+		"jwksUri": "",
+		"issuer": ""
+	}
+}
