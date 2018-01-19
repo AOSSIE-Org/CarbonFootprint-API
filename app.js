@@ -12,7 +12,6 @@ var jwks = require('jwks-rsa');
 
 // database setup
 var mongoose = require('mongoose');
-
 // connect to the database
 mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`);
 
