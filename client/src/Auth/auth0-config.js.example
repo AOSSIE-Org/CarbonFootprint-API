@@ -1,7 +1,7 @@
 export const AUTH_CONFIG = {
-  domain: '<Get from auth0>',
-  clientId: '<Get from auht0>',
+  domain: '<username>.auth0.com',
+  clientId: '<Get from auth0>',
   callbackUrl: 'http://localhost:3080/callback',
-  tokenEndpoint: "<Get from auht0>",
-  apiEndpoint: "<Get from auht0>"
+  tokenEndpoint: "https://<username>.auth0.com/oauth/token",
+  apiEndpoint: "https://<username>.auth0.com/api/v2/users"
 }
