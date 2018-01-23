@@ -11,7 +11,7 @@ try {
 var db = config.database;
 
 // connect to the database
-mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`);
+mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, { useMongoClient: true });
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
@@ -65,7 +65,7 @@ async function save(obj,items){
     await obj.save((err)=>{
         if(err) console.error(err);
         else console.log("Object for item "+items + " saved successfully");
-        
+
     });
     // console.log(obj);
 }
