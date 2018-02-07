@@ -16,7 +16,7 @@ mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.po
 // When successfully connected
 mongoose.connection.on('connected', () => {
   console.log('Connection to database established successfully');
-  console.log("electricity_db.js running");
+  console.log("tree_db.js running");
 });
 
 // If the connection throws an error
