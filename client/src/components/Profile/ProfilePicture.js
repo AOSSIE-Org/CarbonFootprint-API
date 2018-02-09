@@ -24,7 +24,11 @@ export default class ProfilePicture extends Component {
    *   react component
    */
 
-  componentDidMount(){
+  shouldComponentUpdate(nextProps, nextState){
+    return nextProps.nickname != this.state.nickname
+  }
+
+  componentDidUpdate(){
     this.props.auth.getProfile((err, profile) => {
       if(!err){
         this.props.auth.getMetaProfile(profile.sub,(err,metaProfile)=>{
