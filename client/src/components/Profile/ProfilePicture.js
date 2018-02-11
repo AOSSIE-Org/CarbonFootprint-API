@@ -24,25 +24,10 @@ export default class ProfilePicture extends Component {
    *   react component
    */
 
-  shouldComponentUpdate(nextProps, nextState){
-    return nextProps.nickname != this.state.nickname
-  }
-
-  componentDidUpdate(){
-    this.props.auth.getProfile((err, profile) => {
-      if(!err){
-        this.props.auth.getMetaProfile(profile.sub,(err,metaProfile)=>{
-          if(!err){
-            metaProfile = JSON.parse(metaProfile);
-            if(!metaProfile['user_metadata']){
-              metaProfile = {};
-              metaProfile['user_metadata']={};
-            }
-            this.setState({nickname:metaProfile["user_metadata"].nickname});
-          }
-        });
-      }
-    });
+  componentWillReceiveProps(nextProps){
+		if(nextProps.nickname != this.state.nickname){
+    	this.setState({nickname:nextProps.nickname);
+		}
   }
 
   /** 
@@ -65,7 +50,7 @@ export default class ProfilePicture extends Component {
         </div>
         <Card.Content style={{fontSize:'15px', wordWrap:'break-word'}}>
           <Card.Header>
-            {this.state.nickname || this.props.nickname} <ProfileEdit auth={auth} />
+            {this.state.nickname || this.props.nickname} <ProfileEdit auth={auth} profile={this.props.profile} />
           </Card.Header>
           <Card.Meta>
             {this.props.email}

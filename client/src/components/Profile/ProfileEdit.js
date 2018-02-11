@@ -120,13 +120,11 @@ export default class ProfileEdit extends Component{
    *   react component
    */
 
-  componentDidMount(){
-  	this.props.auth.getProfile((err, profile) => {
-      if(!err){
-        this.setState({profile:profile});
-        this.setMetaData(profile.sub);
-      }
-    });
+  componentWillReceiveProps(nextProps){
+		if(nextProps.profile != this.state.profile){
+			this.setState({profile:nextProps.profile});
+			this.setMetaData(nextProps.profile.sub);
+		}
   }
 
   /** 
