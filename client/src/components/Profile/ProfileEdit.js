@@ -121,10 +121,10 @@ export default class ProfileEdit extends Component{
    */
 
   componentWillReceiveProps(nextProps){
-		if(nextProps.profile != this.state.profile){
-			this.setState({profile:nextProps.profile});
-			this.setMetaData(nextProps.profile.sub);
-		}
+    if(nextProps.profile != this.state.profile){
+      this.setState({profile:nextProps.profile});
+      this.setMetaData(nextProps.profile.sub);
+    }
   }
 
   /** 

@@ -25,9 +25,9 @@ export default class ProfilePicture extends Component {
    */
 
   componentWillReceiveProps(nextProps){
-		if(nextProps.nickname != this.state.nickname){
-    	this.setState({nickname:nextProps.nickname);
-		}
+    if(nextProps.nickname != this.state.nickname){
+      this.setState({nickname:nextProps.nickname);
+    }
   }
 
   /** 
