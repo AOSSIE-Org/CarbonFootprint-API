@@ -9,7 +9,7 @@
         "trains": "node trains_db.js",
         "trees": "node tree_db.js",
         "poultry": "node Poultry_script.js",
-        "appliance": "node appliance_db.js"
+        "appliance": "node appliances_db.js"
     },
     "repository": "git@gitlab.com:aossie/CarbonFootprint-API.git",
     "author": "carbonfootprint",
