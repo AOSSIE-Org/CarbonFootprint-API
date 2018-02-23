@@ -93,4 +93,9 @@ Licenses
 Contributions
 -------------
 
-If you would like to contribute to the development of this project, please [contact the developers](mailto:bruno.wp@gmail.com).
+- If you would like to contribute to the development of this project, please [contact the developers](mailto:bruno.wp@gmail.com).
+- While requesting a Merge Request , please submit it to the 'develop' branch (not to the master branch).
+- The commits on the develop branch will be periodically merged to the master branch and pushed into production. 
+- For further contribution guidelines, follow the [contributions](./CONTRIBUTING.md) page
+
+
