@@ -116,6 +116,9 @@ export default class ProfileSettings extends Component {
     document.execCommand('copy');
     textField.remove();
     this.setState({ textCopied: true});
+    setTimeout(() => {
+        this.setState({ textCopied: false});
+    }, 5000);
   }
 
   /** 
