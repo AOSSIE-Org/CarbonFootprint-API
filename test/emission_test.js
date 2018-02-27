@@ -305,7 +305,7 @@ describe("API endpoint testing", () => {
         "region": "India",
         "unit": "kWh",
         "quantity": 1,
-        "runnning_time": 3
+        "running_time": 3
       })
       .expect("Content-type", /json/)
       .expect(200)

@@ -214,8 +214,8 @@ router.post('/appliances', (req, res) => {
 	let region = req.body["region"] || "Default";
 	let unit = req.body["unit"] || "kWh";
 	let quantity = req.body["quantity"] || 1;
-	let runnning_time = req.body["runnning_time"] || 1;
-	Emission.calculate(`${appliance} ${type}`, region, quantity, runnning_time)
+	let running_time = req.body["running_time"] || 1;
+	Emission.calculate(`${appliance} ${type}`, region, quantity, running_time)
 		.then((emissions) => {
 			// console.log(`\nTotal Emissions: ${emissions.CO2}`);
 			res.status(200).json({

@@ -1,4 +1,4 @@
-//To run this script use "node electricty_db_generation.js"
+//To run this script use "node electricity_db_generation.js"
 // database setup
 var mongoose = require('mongoose');
 // get the database configuration file

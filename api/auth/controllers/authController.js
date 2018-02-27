@@ -65,7 +65,7 @@ const deleteApiKey = email => {
 };
 
 //Function to create , store , revoke apikey.
-//Supported actions - create , retreive , revoke
+//Supported actions - create , retrieve , revoke
 let apiKey = (mail, action) => {
   return new Promise((resolve, reject) => {
     if (action == 'create') {
