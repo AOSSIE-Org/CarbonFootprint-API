@@ -35,6 +35,26 @@ router.post('/emissions', (req, res) => {
 		});
 });
 
+router.post('/comparer', (req, res) => {
+    let emissions = req.body["emissions"];
+    let section = req.body["section"];
+    let relativeLocation = req.body["relativeLocation"] || null;
+    Emission.reverseFind(emissions, section, relativeLocation)
+        .then((match) => {
+                res.status(200).json({
+                    success: true,
+                    match: match
+                });
+        })
+        .catch((err) => {
+            console.log(`Error: ${err}`);
+            res.status(404).json({
+                    success: false,
+                    err: err
+                });
+        });
+});
+
 router.post('/flight', (req, res) => {
 	let airports = require('../../../raw_data/airports.json');
 	let type = req.body.type || 'international';

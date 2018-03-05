@@ -1,6 +1,6 @@
 const Emission = require('../models/emissionModel');
 const spline = require('cubic-spline');
-
+const Helper = require('./helperFunctions');
 let interpolate = (l1, l2, d) => {
     for(let x = 0; x < l1.length; x++){
         if(d >= l1[x] && d < l1[x+1] && x < l1.length - 1){
@@ -16,6 +16,107 @@ let interpolate = (l1, l2, d) => {
         }
     }
 };
+
+let findMatch = (emissions, section, relativeLocation) => {
+    console.log(`Given emissions: $(emissions)`);
+    let supportedSections = { "section1": "trees", "section2":"trains"};
+    return new Promise((resolve, reject) => {
+        // We are only concerned with CO2 emission for now
+        if(Object.values(supportedSections).includes(section) && emissions.CO2) {
+            if(section === "trains") {
+                let trainMatch = {
+                    source: "",
+                    destination: "",
+                    passengers: 0,
+                    distance: 0
+                }
+                console.log(`Relative location: $(JSON.stringify(relativeLocation))`);
+                let results = Helper.nearbyTrainStations(relativeLocation);
+                results
+                  .then((val) => {
+                    //console.log(`results obtained`);
+                    //console.log(`results : $(JSON.stringify(val))`);
+                    let sourceName = val[0].name;
+                    let sourceLocation = val[0].location;
+                    // We currently use the railcar type by default since it's the type that is most
+                    // relatable. Hardcoding this for now since obtaining this from the DB is pretty
+                    // expensive for this already expensive operation.
+                    let railcarDefault = 0.0412;
+                    var matches = [];
+                    for(let i = 1; i < val.length; i++) {
+                        let destinationLocation = val[i].location;
+                        let destinationName = val[i].name;
+                        let interDistance = Helper.getDistanceFromLatLon(sourceLocation.lat, sourceLocation.lng,
+                                destinationLocation.lat, destinationLocation.lng);
+                        let noOfPassengers = Math.round((emissions.CO2) / (railcarDefault * interDistance));
+                        let singleMatch = {
+                            source: sourceName,
+                            destination: destinationName,
+                            distance: interDistance,
+                            passengers: noOfPassengers,
+                            location: destinationLocation
+                        }
+                        matches.push(singleMatch);
+                    }
+
+                    if(matches.length > 1) {
+                        let chosenOne = Helper.getRandomNumber(1, matches.length-1);
+
+                        let trainSourceLocation = sourceLocation;
+                        let trainDestLocation = matches[chosenOne].location;
+                        console.log(`trainSourceLocation: $(JSON.stringify(trainSourceLocation))`);
+                        console.log(`trainDestLocation: $(JSON.stringify(trainDestLocation))`);
+                        let railDistance = Helper.distanceInCoordinates(trainSourceLocation, trainDestLocation, 'rail');
+                        railDistance
+                            .then((val) => {
+                                let newPassengerCount = Math.round((emissions.CO2) / (railcarDefault * val));
+                                trainMatch.source = sourceName;
+                                trainMatch.destination = matches[chosenOne].destination;
+                                trainMatch.passengers = newPassengerCount;
+                                trainMatch.distance = val;
+                                resolve(trainMatch);
+                            }).catch((err) => {
+                                reject(`Failed to get rail distance: $(err)`);
+                            });
+                    }
+                    else {
+                        reject(`Not many stations around the given location`);
+                    }
+                }).catch((err) => {
+                    reject(err);
+                });
+            }
+            else {
+                let treeMatch = {
+                    "item": "",
+                    "quantity": 0,
+                    "unit": ""
+                }
+                Emission.aggregate([
+                    { $match: {"categories.0": section} }, { $sample: {size:1}}
+                ], (err, match) => {
+                    if(!err && match) {
+                        console.log(`Match Item: $(match[0].item)`);
+                        console.log(`Target : $(emissions.CO2)`);
+                        let matchedQuantity = match[0].components[0].quantity;
+                        let targetQuantity;
+                        if(matchedQuantity < 0)
+                            matchedQuantity = -1 * matchedQuantity;
+                        targetQuantity = emissions.CO2 / matchedQuantity;
+                        treeMatch.item = match[0].item;
+                        treeMatch.unit = match[0].unit;
+                        treeMatch.quantity = targetQuantity;
+                        if(match[0].region && match[0].region !== 'Default')
+                            treeMatch.region = match[0].region;
+                        resolve(treeMatch);
+                    }
+                    else reject(err);
+                });
+            }
+        }
+        else reject(`invalid category`);
+    });
+}
 
 /*
  * A function to calculate the emissions of a component.
@@ -115,3 +216,7 @@ exports.calculate = async function(itemName, region, quantity, multiply = 1){
     return emissions;
 }
 
+exports.reverseFind = async function(emissions, section, relativeLocation) {
+	let matches = await findMatch(emissions, section, relativeLocation);
+	return matches;
+}
