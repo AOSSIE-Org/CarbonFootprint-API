@@ -112,11 +112,13 @@ export default class ProfileSettings extends Component {
    */
 
   componentDidMount(){
-    this.props.auth.getProfile((err, profile) => {
-      if(!err){
-        this.setState({profile:profile});
-      }
-    })
+      this.props.auth.getProfile()
+          .then((profile) => {
+              this.setState({profile:profile});
+          })
+          .catch((err) => {
+              console.log(err);
+          });
     
     getKey().then(data => {
       if (data.success) {

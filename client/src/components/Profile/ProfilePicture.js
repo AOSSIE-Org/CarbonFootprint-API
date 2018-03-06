@@ -25,16 +25,20 @@ export default class ProfilePicture extends Component {
    */
 
   componentDidMount(){
-    this.props.auth.getProfile((err, profile) => {
-      if(!err){
-        this.props.auth.getMetaProfile(profile.sub,(err,metaProfile)=>{
-          if(!err){
-            metaProfile = JSON.parse(metaProfile);
-            this.setState({nickname:metaProfile["user_metadata"].nickname});
-          }
-        });
-      }
-    });
+      this.props.auth.getProfile()
+          .then((profile) => {
+              this.props.auth.getMetaProfile(profile.sub)
+                  .then((metaProfile) => {
+                      metaProfile = JSON.parse(metaProfile);
+                      this.setState({nickname:metaProfile["user_metadata"].nickname});
+                  })
+                  .catch((err) => {
+                      console.log(err);
+                  });
+          })
+          .catch((err) => {
+              console.log(err);
+          });
   }
 
   /** 

@@ -31,19 +31,20 @@ export default class Profile extends Component {
    */
 
   componentDidMount(){
-    this.props.auth.getProfile((err, profile) => {
-      console.log("profile",profile)
-      if(!err){
-        this.setState({
-          profilePicture: profile.picture,
-          nickname: profile.nickname,
-          email: profile.email,
-          userid: profile.sub,
-          given_name:profile.given_name,
-          family_name:profile.family_name
-        });
-      }
-    }); 
+      this.props.auth.getProfile()
+          .then((profile) => {
+              this.setState({
+                  profilePicture: profile.picture,
+                  nickname: profile.nickname,
+                  email: profile.email,
+                  userid: profile.sub,
+                  given_name:profile.given_name,
+                  family_name:profile.family_name
+              });
+          })
+          .catch((err) => {
+              console.log(err);
+          });
   }
 
   /** 
