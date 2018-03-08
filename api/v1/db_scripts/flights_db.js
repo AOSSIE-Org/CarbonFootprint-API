@@ -11,7 +11,7 @@ try {
 var db = config.database;
 
 // connect to the database
-mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`);
+mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, { useMongoClient: true });
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
@@ -35,7 +35,7 @@ for(js in json){
   var obj = new Emission();
   obj.item=`airplane model ${json[js]["airplane model"]}`;
   obj.region="Default";
-  
+
   obj.quantity=[];
   obj.unit="nm";
   obj.categories=["flights"];
