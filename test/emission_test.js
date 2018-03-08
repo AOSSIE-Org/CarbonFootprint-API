@@ -203,7 +203,7 @@ describe("API endpoint testing", () => {
       .send({
         "type": "railcars",
         "origin": "Bhubaneswar",
-        "destination": "Delhi",
+        "destination": "Cuttack",
         "passengers": 10
       })
       .expect("Content-type", /json/)
@@ -211,7 +211,7 @@ describe("API endpoint testing", () => {
       .end((err, res) => {
         res.status.should.equal(200);
         res.body.success.should.equal(true);
-        res.body.emissions["CO2"].should.approximately(783.865432, 100);
+        res.body.emissions["CO2"].should.approximately(11.444124, 3);
         done();
       });
   });
@@ -274,7 +274,7 @@ describe("API endpoint testing", () => {
   });
 
   /* Test Cases for Appliances Emissions */
-  
+
   it("should return correct value for appliance large air conditioner", (done) => {
     server
       .post('/v1/emissions')
@@ -313,6 +313,27 @@ describe("API endpoint testing", () => {
         res.status.should.equal(200);
         res.body.success.should.equal(true);
         res.body.emissions["CO2"].should.approximately(7.0231411497, 0.2);
+        done();
+      });
+  })
+
+  /* Test Cases for Quanitity route */
+
+  it("should return correct value for quantity route", (done) => {
+    server
+      .post('/v1/quantity')
+      .set('access-key', API_TEST_KEY)
+      .send({
+        "item": "lamp",
+        "region": "ohio",
+        "emission": 91
+      })
+      .expect("Content-type", /json/)
+      .expect(200)
+      .end((err, res) => {
+        res.status.should.equal(200);
+        res.body.success.should.equal(true);
+        res.body.quantity.should.approximately(2.015314173084483, 0.2);
         done();
       });
   })

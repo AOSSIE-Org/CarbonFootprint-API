@@ -118,8 +118,6 @@ getVehicleEmissions(url,data,headers);
 
 {% sample lang="java" %}
 ```Java
-package org.kodejava.example.httpclient;
-
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
@@ -133,22 +131,21 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class getVehicleEmissions {
+public class getVehicleEmission {
     public static void main(String[] args) {
         HttpClient client = HttpClientBuilder.create().build();
         HttpPost post = new HttpPost("https://www.carbonhub.xyz/v1/vehicle");
 
+        // Create some NameValuePair for HttpPost parameters
         List<NameValuePair> data = new ArrayList<>(5); 
         data.add(new BasicNameValuePair("type", "Petrol"));
         data.add(new BasicNameValuePair("origin", "Bhubaneswar"));
         data.add(new BasicNameValuePair("destination", "Cuttack"));
-        data.add(new BasicNameValuePair("mileage", 50));
+        data.add(new BasicNameValuePair("mileage", Integer.toString(50)));
         data.add(new BasicNameValuePair("mileage_unit", "km/l"));
-
         try {
             post.setEntity(new UrlEncodedFormEntity(data));
-            post.setHeader("Content-Type","application/json");
-            // use your api key
+            //use your apikey here
             post.setHeader("access-key","<apikey>");
             HttpResponse response = client.execute(post);
 

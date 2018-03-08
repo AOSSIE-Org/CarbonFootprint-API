@@ -1,84 +1,77 @@
-# Trains Endpoint
-
+# Quantity
 {% method %}
-This route enables you to find GHG emissions for a number of train types for a certain route.The distance is calculated using [Google Map Distant Matrix API](https://developers.google.com/maps/documentation/javascript/distancematrix). The trains that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/raw_data/trains.json). 
+This route is can be used to retrieve the quantity of a certain element provided the CO2 emission for the specific item is already known. Refer to the [GHG Emission](https://docs.carbonhub.xyz/API-Reference/emissions.html) doc for more details on items available.
 ###**Parameters**
 
 | Name        | Type           | Description  |
 | ------------- |-------------| -----|
-| type | string | **Required:** The fuel type used by the vehicle.|
-| origin    | string | **Required:** Origin of the journey. |
-| destination   | string | **Required:** Destination of the journey. |
-| region    | string |  Origin of the journey. The default sets to 'Default'. |
-| passengers    | number | The number of passengers traveling in the journey.The default sets to 1. |
+| item | string | **Required:** The item name. |
+| region   | string | **Required:** Region in which the item is used. |
+| emission   | number | **Required:** The quantity of emission recorded. |
+
 **Example**
 ```JSON
 {
-    "type":"railcars",
-    "origin":"Bhubaneswar",
-    "destination":"Delhi",
-    "passengers":10
+        "item": "lamp",
+        "region": "ohio",
+        "emission": 91
 }
 ```
 `200` - **Response**
 ```JSON
 {
     "success": true,
-    "emissions": {
-        "CO2": 750.104916
-    },
-    "unit": "kg"
+    "quantity": 2.015314173084483,
+    "note": "This is a estimate for the quantity of lamp that could be the cause of the emission provided."
 }
 ```
 `400` - **Error** 
 ```JSON
 {
     "success": false,
-    "error": "Distance cannot be less than zero"
+    "err": err
 }
 ```
 {% common %}
 ```
-POST /v1/trains
+POST /v1/quantity
 ```
 {% sample lang="Bash" %}
 ```Bash
 #use your API key here
 
 curl -POST -H 'access-key: <apikey>' -H "Content-type: application/json" -d '{
-    "type":"railcars",
-    "origin":"Bhubaneswar",
-    "destination":"Delhi",
-    "passengers":10
-}' 'https://www.carbonhub.xyz/v1/trains'
+        "item": "lamp",
+        "region": "ohio",
+        "emission": 91
+}' 'https://www.carbonhub.xyz/v1/quantity'
 ```
 {% sample lang="python" %}
 ```Python
 import requests
 import json
 
-def getTrainEmissions(url,data,headers):
+def getQuantity(url,data,headers):
     r = requests.post(url,data = json.dumps(data),headers=headers)
     return r.content
-url = 'https://www.carbonhub.xyz/v1/trains'
+url = 'https://www.carbonhub.xyz/v1/quantity'
 data = {
-    "type":"railcars",
-    "origin":"Bhubaneswar",
-    "destination":"Delhi",
-    "passengers":10
+        "item": "lamp",
+        "region": "ohio",
+        "emission": 91
 }
 #use your api key here
 headers = {
     "access-key":"<apikey>",
     "Content-Type":"application/json"
 }
-print getTrainEmissions(url,data,headers)
+print getQuantity(url,data,headers)
 ```
 {% sample lang="nodejs" %}
 ```javascript
 var request = require('request');
 
-function getTrainEmissions(url,data,headers){
+function getQuantity(url,data,headers){
     var options = {
         url: url,
         method: 'POST',
@@ -93,20 +86,19 @@ function getTrainEmissions(url,data,headers){
     });
 }
     
-let url = "https://www.carbonhub.xyz/v1/trains",
+let url = "https://www.carbonhub.xyz/v1/quantity",
     data = {
-    "type":"railcars",
-    "origin":"Bhubaneswar",
-    "destination":"Delhi",
-    "passengers":10
-    },
+        "item": "lamp",
+        "region": "ohio",
+        "emission": 91
+},
     //use your api key here
     headers = {
     "access-key":"<apikey>",
     "Content-Type":"application/json"
     };
 
-getTrainEmissions(url,data,headers); 
+getQuantity(url,data,headers); 
 ```
 {% sample lang="java" %}
 ```Java
@@ -123,17 +115,16 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class getTrainEmission {
+public class getQuantity {
     public static void main(String[] args) {
         HttpClient client = HttpClientBuilder.create().build();
-        HttpPost post = new HttpPost("https://www.carbonhub.xyz/v1/trains");
+        HttpPost post = new HttpPost("https://www.carbonhub.xyz/v1/quantity");
 
         // Create some NameValuePair for HttpPost parameters
-        List<NameValuePair> data = new ArrayList<>(4);
-        data.add(new BasicNameValuePair("type", "railcars"));
-        data.add(new BasicNameValuePair("origin", "Bhubaneswar"));
-        data.add(new BasicNameValuePair("destination", "Delhi"));
-        data.add(new BasicNameValuePair("passengers", Integer.toString(10)));
+        List<NameValuePair> data = new ArrayList<>(3);
+        data.add(new BasicNameValuePair("item", "lamp"));
+        data.add(new BasicNameValuePair("region", "ohio"));
+        data.add(new BasicNameValuePair("emission", Integer.toString(91)));
         try {
             post.setEntity(new UrlEncodedFormEntity(data));
             //use your apikey here
@@ -148,6 +139,5 @@ public class getTrainEmission {
     }
 }
 ```
-
 {% common %}
 {% endmethod %}

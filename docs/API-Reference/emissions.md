@@ -6,7 +6,7 @@
 | Name        | Type           | Description  |
 | ------------- |-------------| -----|
 | item | string |**Required:** The name of the item for which emission is to be found.|
-| region | string | **Required:** Distance traveled by the vehicle. |
+| region | string | **Required:** Region in which the item exists. |
 | quantity | number | **Required:** The number of units of the item for which emissions are to be calculated. |
 | unit  | string | The unit of the element for which emissions are to be calculated.  |
 | multiply  | number | If emissions are to be found for multiple elements.  |
@@ -298,8 +298,6 @@ getEmissions(url,data,headers);
 
 {% sample lang="java" %}
 ```Java
-package org.kodejava.example.httpclient;
-
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
@@ -318,16 +316,15 @@ public class getEmissions {
         HttpClient client = HttpClientBuilder.create().build();
         HttpPost post = new HttpPost("https://www.carbonhub.xyz/v1/emissions");
 
+        // Create some NameValuePair for HttpPost parameters
         List<NameValuePair> data = new ArrayList<>(4); 
         data.add(new BasicNameValuePair("item", "electricity"));
         data.add(new BasicNameValuePair("region", "india"));
         data.add(new BasicNameValuePair("unit", "kWh"));
-        data.add(new BasicNameValuePair("quantity", 1.564));
-
+        data.add(new BasicNameValuePair("quantity", Double.toString(1.564)));
         try {
             post.setEntity(new UrlEncodedFormEntity(data));
-            post.setHeader("Content-Type","application/json");
-            // use your api key
+            //use your apikey here
             post.setHeader("access-key","<apikey>");
             HttpResponse response = client.execute(post);
 

@@ -48,7 +48,7 @@ export default class ProfileEdit extends Component{
    */
 
 	handleChange(MetaData){
-		console.log(MetaData);
+		// console.log(MetaData);
 		this.setState({MetaProfile:MetaData});
 	}
 
@@ -99,7 +99,6 @@ export default class ProfileEdit extends Component{
    */
 
    setMetaData(userid){
-
     let { metaUserProfile, getMetaProfile } = this.props.auth;
     if(!metaUserProfile){
       getMetaProfile(userid)
@@ -120,7 +119,7 @@ export default class ProfileEdit extends Component{
       this.setState({MetaProfile:metaUserProfile});
     }
     else{
-      console.log(this.state.metaProfile);
+      // console.log(this.state.metaProfile);
     }
   }
 
@@ -129,15 +128,11 @@ export default class ProfileEdit extends Component{
    *   react component
    */
 
-  componentDidMount(){
-      this.props.auth.getProfile()
-          .then((profile) => {
-              this.setState({profile:profile});
-              this.setMetaData(profile.sub);
-          })
-          .catch((err) => {
-              console.log(err);
-          });
+  componentWillReceiveProps(nextProps){
+    if(nextProps.profile != this.state.profile){
+      this.setState({profile:nextProps.profile});
+      this.setMetaData(nextProps.profile.sub);
+    }
   }
 
   /** 

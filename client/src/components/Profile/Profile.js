@@ -16,6 +16,7 @@ export default class Profile extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      profile: {},
       profilePicture: '',
       nickname: '',
       email: '',
@@ -34,6 +35,7 @@ export default class Profile extends Component {
       this.props.auth.getProfile()
           .then((profile) => {
               this.setState({
+                  profile: profile,
                   profilePicture: profile.picture,
                   nickname: profile.nickname,
                   email: profile.email,
@@ -62,6 +64,7 @@ export default class Profile extends Component {
               nickname={this.state.nickname }
               email={this.state.email}
               auth={this.props.auth}
+              profile={this.state.profile}
             />
             <Sidebar />
           </Grid.Column>
