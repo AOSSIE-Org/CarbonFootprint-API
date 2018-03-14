@@ -23,7 +23,7 @@ export default class Sidebar extends Component {
   }
 
   /** 
-   * Enherited function from react.Component to render to DOM object into html
+   * Inherited function from react.Component to render to DOM object into html
    */
 
   render() {
