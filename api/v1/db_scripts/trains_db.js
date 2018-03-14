@@ -11,12 +11,12 @@ try {
 var db = config.database;
 
 // connect to the database
-mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`);
+mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, { useMongoClient: true });
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
   console.log('Connection to database established successfully');
-  console.log("electricity_db.js running");
+  console.log("trains_db.js running");
 });
 
 // If the connection throws an error
@@ -65,7 +65,7 @@ async function save(obj,items){
     await obj.save((err)=>{
         if(err) console.error(err);
         else console.log("Object for item "+items + " saved successfully");
-        
+
     });
     // console.log(obj);
 }

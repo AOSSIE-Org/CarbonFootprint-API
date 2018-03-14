@@ -34,6 +34,7 @@ _book/
 
 # Optional npm cache directory
 .npm
+package-lock.json
 
 # Optional REPL history
 .node_repl_history
@@ -48,3 +49,4 @@ auth0-config.js
 
 #bundle file for react
 bundle.js
+bundle.js.map

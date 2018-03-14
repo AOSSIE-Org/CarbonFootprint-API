@@ -26,6 +26,16 @@ select {
     border: 1px solid #ddd;
     padding: 10px;
 }
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: none;
+  stroke: steelblue;
+}
+
 </style>
 <div id="bar">
 </div>
@@ -58,6 +68,9 @@ function showGraph(flight){
                     .x(function(d) { return x(d.key); })
                     .y(function(d) { return y(d.value); })
                     .curve(d3.curveNatural);
+                
+                var formatValue = d3.format(",.2f"),
+                     formatEmission = function(d) { return formatValue(d) + " tons" ; };
 
                 var svg = d3.select("#bar").append("svg")
                     .attr("width", width + margin.left + margin.right)
@@ -85,6 +98,42 @@ function showGraph(flight){
                     .attr("cx", valueline.x())
                     .attr("cy", valueline.y())
                     .attr("r", 3.5);
+                
+                var focus = svg.append("g")
+                    .attr("class", "focus")
+                    .style("display", "none");
+
+                focus.append("circle")
+                    .attr("r", 4.5);
+
+                focus.append("text")
+                    .attr("x", 10)
+                    .attr("dy", ".50em");
+
+                svg.append("rect")
+                    .attr("class", "overlay")
+                    .attr("width", width)
+                    .attr("height", height)
+                    .on("mouseover", function() { focus.style("display", null); })
+                    .on("mouseout", function() { focus.style("display", "none"); })
+                    .on("mousemove", mousemove);
+                
+                x.invert = (function(){
+                    var domain = x.domain();
+                    var range = x.range();
+                    var scale = d3.scaleQuantize().domain(range).range(domain);
+
+                    return function(x){ return scale(x) };
+                })()
+                
+                function mousemove() {
+                    var x0 = x.invert(d3.mouse(this)[0]),
+                            i = data.map(function(d){ return d.key }).indexOf(x0);
+                            console.log(i);
+                    d = data[i]
+                    focus.attr("transform", "translate(" + x(d.key) + "," + y(d.value) + ")");
+                    focus.select("text").text(formatEmission(d.value));
+                  }
                 svg.append("g")
                     .attr("transform", "translate(0," + height + ")")
                     .call(d3.axisBottom(x));
@@ -113,7 +162,7 @@ d3.json("../data/flights.json", function(data) {
     document.body.prepend(select);
     flightsData = data;
     //Default flight set
-    showGraph("380");
+    showGraph("100");
 
 });
 </script>

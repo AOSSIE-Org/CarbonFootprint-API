@@ -1,24 +1,20 @@
-# Appliances
+# Poultry
 {% method %}
-This route enables you to find GHG emissions for a number of appliance types for a specific quantity and running time. The emissions are calculated from the electricity based emissions on a particular region. The different appliance types can be found in this [excel sheet](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/raw_data/Applicances.xlsx) or in the json form [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/raw_data/appliances.json). 
+This route enables you to find GHG emissions for different type of Poutry meat production. In this we consider the factors like Production emission, Water loss factor, Moisture loss factor, Post-farmgate emissions in different conditions according to region in which they are found. The different poultry type can be found [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/raw_data/poultry.json).
 ###**Parameters**
 
 | Name        | Type           | Description  |
 | ------------- |-------------| -----|
-| appliance | string | **Required:** The appliance name. |
-| type   | string | **Required:** The type of the appliance. Its necessary if it exists. |
-| region   | string | **Required:** Region in which the appliance is used. |
-| quantity   | number | The number of appliances being used. |
-| running_time   | number | The number of hours the appliances are being used. |
+| type   | string | **Required:** The type of the poultry meat(and egg). Type which are currently supported [are](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/raw_data/poultry.json)|
+| region   | string | Region in which the poultry meat(and egg) is produced. By default we use average of all regions. |
+| quantity   | number | The weight(number in case of egg) of poultry meat in production. By default we use 1 kg(1 quantity for egg)|
 
 **Example**
 ```JSON
 {
-  "appliance":"Water heater",
-  "type":"instantaneous",
-  "region":"India",
-  "quantity":1,
-  "running_time":3
+  "type":"Broiler chicken",
+  "region":"British columbia",
+  "quantity":3
 }
 ```
 `200` - **Response**
@@ -26,9 +22,7 @@ This route enables you to find GHG emissions for a number of appliance types for
 {
     "success": true,
     "emissions": {
-        "CO2": 7.0231411497,
-        "CH4": 0.0000817752,
-        "N2O": 0.0001059357
+        "CO2": 20.647125
     },
     "unit": "kg"
 }
@@ -42,48 +36,44 @@ This route enables you to find GHG emissions for a number of appliance types for
 ```
 {% common %}
 ```
-POST /v1/appliances
+POST /v1/poultry
 ```
 {% sample lang="Bash" %}
 ```Bash
 #use your API key here
 
 curl -POST -H 'access-key: <apikey>' -H "Content-type: application/json" -d '{
-    "appliance":"Water heater",
-    "type":"instantaneous",
-    "region":"India",
-    "quantity":1,
-    "running_time":3
-}' 'https://www.carbonhub.xyz/v1/appliances'
+    "type":"Broiler chicken",
+    "region":"British columbia",
+    "quantity":3
+}' 'https://www.carbonhub.xyz/v1/poultry'
 ```
 {% sample lang="python" %}
 ```Python
 import requests
 import json
 
-def getApplianceEmissions(url,data,headers):
+def getPoultryEmissions(url,data,headers):
     r = requests.post(url,data = json.dumps(data),headers=headers)
     return r.content
-url = 'https://www.carbonhub.xyz/v1/appliances'
+url = 'https://www.carbonhub.xyz/v1/poultry'
 data = {
-    "appliance":"Water heater",
-    "type":"instantaneous",
-    "region":"India",
-    "quantity":1,
-    "running_time":3
+    "type":"Broiler chicken",
+    "region":"British columbia",
+    "quantity":3
 }
 #use your api key here
 headers = {
     "access-key":"<apikey>",
     "Content-Type":"application/json"
 }
-print getApplianceEmissions(url,data,headers)
+print getPoultryEmissions(url,data,headers)
 ```
 {% sample lang="nodejs" %}
 ```javascript
 var request = require('request');
 
-function getApplianceEmissions(url,data,headers){
+function getPoutryEmissions(url,data,headers){
     var options = {
         url: url,
         method: 'POST',
@@ -98,13 +88,11 @@ function getApplianceEmissions(url,data,headers){
     });
 }
     
-let url = "https://www.carbonhub.xyz/v1/appliances",
+let url = "https://www.carbonhub.xyz/v1/poultry",
     data = {
-    "appliance":"Water heater",
-    "type":"instantaneous",
-    "region":"India",
-    "quantity":1,
-    "running_time":3
+    "type":"Broiler chicken",
+    "region":"British columbia",
+    "quantity":3
     },
     //use your api key here
     headers = {
@@ -112,7 +100,7 @@ let url = "https://www.carbonhub.xyz/v1/appliances",
     "Content-Type":"application/json"
     };
 
-getApplianceEmissions(url,data,headers);
+getPoultryEmissions(url,data,headers); 
 ```
 {% sample lang="java" %}
 ```Java
@@ -129,19 +117,16 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class getApplianceEmissions {
+public class getPoultryEmissions {
     public static void main(String[] args) {
         HttpClient client = HttpClientBuilder.create().build();
-        HttpPost post = new HttpPost("https://www.carbonhub.xyz/v1/appliances");
+        HttpPost post = new HttpPost("https://www.carbonhub.xyz/v1/poultry");
 
         // Create some NameValuePair for HttpPost parameters
-        List<NameValuePair> data = new ArrayList<>(5);
-        data.add(new BasicNameValuePair("appliance", "Water heater"));
-        data.add(new BasicNameValuePair("type", "instantaneous"));
-        data.add(new BasicNameValuePair("region", "India"));
-        data.add(new BasicNameValuePair("quantity", Integer.toString(1)));
-        data.add(new BasicNameValuePair("running_time", Integer.toString(3)));
-
+        List<NameValuePair> data = new ArrayList<>(3);  
+        data.add(new BasicNameValuePair("type", "Broiler chicken"));
+        data.add(new BasicNameValuePair("region", "British columbia"));
+        data.add(new BasicNameValuePair("quantity", Integer.toString(3)));
 
         try {
             post.setEntity(new UrlEncodedFormEntity(data));
@@ -155,7 +140,7 @@ public class getApplianceEmissions {
             e.printStackTrace();
         }
     }
-}
 ```
+
 {% common %}
 {% endmethod %}

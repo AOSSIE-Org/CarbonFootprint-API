@@ -1,0 +1,235 @@
+{
+    "living room": [{
+            "item": "Air conditioner small",
+            "val": "1000"
+        },
+        {
+            "item": "Air conditioner medium",
+            "val": "2300"
+        },
+        {
+            "item": "Air conditioner large",
+            "val": "3200"
+        },
+        {
+            "item": "Air conditioner ducted",
+            "val": "5000"
+        },
+        {
+            "item": "Air cooler portable",
+            "val": "150"
+        },
+        {
+            "item": "Air cooler fixed",
+            "val": "600"
+        },
+        {
+            "item": "Air cooler ducted",
+            "val": "1000"
+        },
+        {
+            "item": "Blanket single",
+            "val": "70"
+        },
+        {
+            "item": "Blanket double",
+            "val": "120"
+        },
+        {
+            "item": "Fan Ceiling",
+            "val": "100"
+        },
+        {
+            "item": "Lighting CFL small",
+            "val": "7"
+        },
+        {
+            "item": "Lighting CFL medium",
+            "val": "11"
+        },
+        {
+            "item": "Lighting CFL large",
+            "val": "20"
+        },
+        {
+            "item": "Lighting incandescent small",
+            "val": "25"
+        },
+        {
+            "item": "Lighting incandescent medium",
+            "val": "60"
+        },
+        {
+            "item": "Lighting incandescent large",
+            "val": "100"
+        },
+        {
+            "item": "Lighting LED small",
+            "val": "6"
+        },
+        {
+            "item": "Lighting LED medium",
+            "val": "15"
+        },
+        {
+            "item": "Television CRT",
+            "val": "150"
+        },
+        {
+            "item": "Television LCD",
+            "val": "200"
+        },
+        {
+            "item": "Television Plasma",
+            "val": "330"
+        },
+        {
+            "item": "DVD player",
+            "val": "100"
+        }
+    ],
+    "kitchen": [{
+            "item": "Coffee percolator",
+            "val": "600"
+        },
+        {
+            "item": "Deep fryer",
+            "val": "1800"
+        },
+        {
+            "item": "Dishwasher",
+            "val": "2400"
+        },
+        {
+            "item": "Food mixer",
+            "val": "135"
+        },
+        {
+            "item": "Freezer 200L",
+            "val": "100"
+        },
+        {
+            "item": "Freezer 300L",
+            "val": "150"
+        },
+        {
+            "item": "Freezer 450L",
+            "val": "230"
+        },
+        {
+            "item": "Fry Pan ",
+            "val": "800"
+        },
+        {
+            "item": "Garbage disposal unit",
+            "val": "650"
+        },
+        {
+            "item": "Juice extractor",
+            "val": "300"
+        },
+        {
+            "item": "Kettle",
+            "val": "1800"
+        },
+        {
+            "item": "Microoven Conventional",
+            "val": "1300"
+        },
+        {
+            "item": "Microoven Convection",
+            "val": "1600"
+        },
+        {
+            "item": "Mini Oven",
+            "val": "600"
+        },
+        {
+            "item": "Oven small",
+            "val": "1800"
+        },
+        {
+            "item": "Oven large",
+            "val": "2400"
+        },
+        {
+            "item": "Refrigerator 250L",
+            "val": "210"
+        },
+        {
+            "item": "Refrigerator 500L",
+            "val": "260"
+        },
+        {
+            "item": "Refrigerator 600L",
+            "val": "400"
+        },
+        {
+            "item": "Slow cooker ",
+            "val": "150"
+        },
+        {
+            "item": "Toaster standard",
+            "val": "600"
+        },
+        {
+            "item": "Toaster automatic",
+            "val": "1200"
+        }
+    ],
+    "bathroom": [{
+            "item": "Hair dryer",
+            "val": "1000"
+        },
+        {
+            "item": "Hair curler",
+            "val": "20"
+        },
+        {
+            "item": "Hair styler",
+            "val": "750"
+        }
+    ],
+    "office": [{
+            "item": "Computer with monitor",
+            "val": "300"
+        },
+        {
+            "item": "Computer monitor and printer",
+            "val": "450"
+        },
+        {
+            "item": "Laptop",
+            "val": "50"
+        }
+    ],
+    "laundry": [{
+            "item": "Washing machine small",
+            "val": 500
+        },
+        {
+            "item": "Washing machine automatic",
+            "val": 900
+        },
+        {
+            "item": "Washing machine with element",
+            "val": 2400
+        },
+        {
+            "item": "Clothes dryer small rotary",
+            "val": 2400
+          },
+          {
+            "item": "Clothes dryer cabinet",
+            "val": 2400
+          },
+          {
+            "item": "Clothes dryer large rotary",
+            "val": 4000
+          },
+          {
+            "item": "Clothes dryer wired in",
+            "val": 4000
+          }
+    ]
+}

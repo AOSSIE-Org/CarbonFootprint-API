@@ -119,8 +119,6 @@ getFlightEmissions(url,data,headers);
 ```
 {% sample lang="java" %}
 ```Java
-package org.kodejava.example.httpclient;
-
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
@@ -139,17 +137,17 @@ public class getFlightEmissions {
         HttpClient client = HttpClientBuilder.create().build();
         HttpPost post = new HttpPost("https://www.carbonhub.xyz/v1/flight");
 
+        // Create some NameValuePair for HttpPost parameters
         List<NameValuePair> data = new ArrayList<>(5);  
         data.add(new BasicNameValuePair("origin", "DEL"));
         data.add(new BasicNameValuePair("destination", "JFK"));
         data.add(new BasicNameValuePair("type", "international"));
         data.add(new BasicNameValuePair("model", "A380"));
-        data.add(new BasicNameValuePair("passengers", 840));
+        data.add(new BasicNameValuePair("passengers", Integer.toString(840)));
 
         try {
             post.setEntity(new UrlEncodedFormEntity(data));
-            post.setHeader("Content-Type","application/json");
-            // use your api key
+            //use your apikey here
             post.setHeader("access-key","<apikey>");
             HttpResponse response = client.execute(post);
 

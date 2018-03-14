@@ -11,12 +11,12 @@ try {
 var db = config.database;
 
 // connect to the database
-mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`);
+mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, { useMongoClient: true });
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
   console.log('Connection to database established successfully');
-  console.log("electricity_db.js running");
+  console.log("flights_db.js running");
 });
 
 // If the connection throws an error
@@ -35,7 +35,7 @@ for(js in json){
   var obj = new Emission();
   obj.item=`airplane model ${json[js]["airplane model"]}`;
   obj.region="Default";
-  
+
   obj.quantity=[];
   obj.unit="nm";
   obj.categories=["flights"];
