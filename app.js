@@ -9,6 +9,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var jwt = require('express-jwt');
 var jwks = require('jwks-rsa');
+var helmet = require('helmet')
 
 // database setup
 var mongoose = require('mongoose');
@@ -58,6 +59,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'client/public')));
+app.use(helmet());
 
 // Authentication middleware provided by express-jwt.
 // This middleware will check incoming requests for a valid
