@@ -26,11 +26,11 @@ export default class Explorer extends Component {
     }
 
     getCode(){
-        alert('getCode');
+
     }
 
     runInPostman(){
-        alert('run in postman')
+
     }
 
     render() {
