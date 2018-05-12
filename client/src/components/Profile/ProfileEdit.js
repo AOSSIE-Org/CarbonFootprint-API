@@ -116,7 +116,7 @@ export default class ProfileEdit extends Component{
   }
 
   /** 
-   * Enherit function from react.Component to handle after mounting
+   * Inherit function from react.Component to handle after mounting
    *   react component
    */
 
@@ -128,7 +128,7 @@ export default class ProfileEdit extends Component{
   }
 
   /** 
-   * Enherited function from react.Component to render to DOM object into html
+   * Inherited function from react.Component to render to DOM object into html
    */
 
   render(){
