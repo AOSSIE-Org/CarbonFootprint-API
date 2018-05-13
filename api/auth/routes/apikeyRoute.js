@@ -25,12 +25,7 @@ router.post('/key', (req, res) => {
                 });
             });
     }
-    else {
-        res.status(403).json({
-                    success: false,
-                    err: "Email not verified"
-                });
-    }
+    else res.sendJsonError("Email not verified", 403);
 });
 
 router.get('/key', (req, res) => {
@@ -46,10 +41,7 @@ router.get('/key', (req, res) => {
             });
         })
         .catch(function (reject) {
-            res.status(404).json({
-                success: false,
-                err: reject
-            });
+            res.returnNotFoundError('User');
         });
 });
 
@@ -63,10 +55,7 @@ router.delete('/key', (req, res) => {
             });
         })
         .catch(function (reject) {
-            res.status(404).json({
-                success: false,
-                err: "User not found"
-            });
+            res.returnNotFoundError('User');
         });
 });
 
