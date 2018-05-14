@@ -9,6 +9,7 @@ import {
     Message,
     Dropdown
 } from 'semantic-ui-react';
+import { getKey } from '../Profile/profileController';
 
 export default class ExplorerRequest extends Component {
 
@@ -22,21 +23,19 @@ export default class ExplorerRequest extends Component {
             method: 'GET',
             url: ''
         };
-
-        this.getAPIKey = this.getAPIKey.bind(this);
         this.executeQuery = this.executeQuery.bind(this);
     }
-
-    getAPIKey() {
-        // Method to retrieve the API Key or generate a new one
-    };
 
     executeQuery() {
 
     };
 
     componentDidMount() {
-
+        getKey().then(data => {
+            if (data.success) {
+              this.setState({key: data.apikey});
+            }
+          });
     }
 
     render() {
@@ -65,15 +64,9 @@ export default class ExplorerRequest extends Component {
                             <Input label={{basic: true, content: 'API Key: '}}
                                    labelPosition='left'
                                    style={styles.inputKey}
+                                   value= {this.state.key ? this.state.key : "Go to the profile page and generate one API Key"}
                             />
                         </Form.Group>
-
-                        <Button
-                            content='Get API Key'
-                            onClick={this.getAPIKey}
-                            style={styles.button}
-                            size='small'
-                        />
 
                     </div>
 
