@@ -162,15 +162,8 @@ exports.verifyApiKey = (req, res, next) => {
           }
         );
       } else {
-        res.status(401).json({
-          success: false,
-          err: 'Your API call limits are deplenished'
-        });
+        res.sendJsonError('Your API call limits are deplenished', 401);
       }
-    } else
-      res.status(401).json({
-        success: false,
-        err: 'Unauthorised or missing access token'
-      });
+    } else res.sendJsonError('Unauthorised or missing access token', 401);
   });
 };
