@@ -1,14 +1,14 @@
 //run node trains_db.js to add data to db.
 // database setup
-var mongoose = require('mongoose');
+const mongoose = require('mongoose');
 // get the database configuration file
 try {
-  var config = require('../../../config.json');
+  const config = require('../../../config.json');
 } catch (e) {
   console.log(`Database configuration file "config.json" is missing.`);
   process.exit(1);
 }
-var db = config.database;
+let db = config.database;
 
 // connect to the database
 mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, { useMongoClient: true });
@@ -29,13 +29,13 @@ mongoose.connection.on('disconnected', () => {
   console.log('Database disconnected');
 });
 
-var Emission = require('../models/emissionModel.js');
+let Emission = require('../models/emissionModel.js');
 
-var obj = new Emission();
-var trainsData = require("../../../raw_data/trains.json");
+let obj = new Emission();
+let trainsData = require("../../../raw_data/trains.json");
 
 for(items in trainsData){
-    var obj = new Emission();
+    let obj = new Emission();
     obj.item = items;
     obj.region = trainsData[items]['region'];
     obj.quantity = trainsData[items]['quantity'];

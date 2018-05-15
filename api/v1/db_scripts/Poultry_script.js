@@ -1,15 +1,15 @@
 //To run this script use "node Poultry_script.js"
 //To run this script use "node appliances_db.js"
 // database setup
-var mongoose = require('mongoose');
+const mongoose = require('mongoose');
 // get the database configuration file
 try {
-  var config = require('../../../config.json');
+  const config = require('../../../config.json');
 } catch (e) {
   console.log(`Database configuration file "config.json" is missing.`);
   process.exit(1);
 }
-var db = config.database;
+let db = config.database;
 
 // connect to the database
 mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, { useMongoClient: true });
@@ -30,13 +30,13 @@ mongoose.connection.on('disconnected', () => {
   console.log('Database disconnected');
 });
 
-var Emission = require('../models/emissionModel.js');
+let Emission = require('../models/emissionModel.js');
 
-var json = require('../../../raw_data/poultry.json');
+let json = require('../../../raw_data/poultry.json');
 // console.log(json['data'].length)
-var data = json['data'];
-for(var x=0;x<data.length;x++){
-  var obj = new Emission();
+let data = json['data'];
+for(let x=0;x<data.length;x++){
+  let obj = new Emission();
   obj.item= data[x]['type'];
   obj.region=data[x]['region'];
   obj.quantity=[1];
@@ -64,7 +64,7 @@ for(var x=0;x<data.length;x++){
     	quantity: 0,
     	unit: (data[x]['unit'].length>1)? `kg N2O/${data[x]['unit']}`: 'kg N2O'
     }]
-  obj.save(function(err,data){
+  obj.save((err,data) => {
     if ( err ) throw err;
     console.log(`Object Saved Successfully for ${data}`);
   });
