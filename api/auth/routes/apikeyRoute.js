@@ -1,7 +1,8 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
 // get the auth controller
-const Auth = require('../controllers/authController');
+const { auth } = require('../controllers/authController');
+
+const router = express.Router();
 
 router.post('/key', (req, res) => {
   console.log(req.user);
@@ -9,8 +10,8 @@ router.post('/key', (req, res) => {
     let email = req.user.email;
     let action = "create";
     if (email_verified) {
-        let create = Auth.auth(email, action)
-        create.then(function (result) {
+        let create = auth(email, action)
+        create.then(result => {
                 console.log(result);
                 res.status(200).json({
                     success: true,
@@ -18,7 +19,7 @@ router.post('/key', (req, res) => {
                     requests: result.requests
                 });
             })
-            .catch(function (reject) {
+            .catch(reject => {
                 res.status(400).json({
                     success: false,
                     err: reject
@@ -36,8 +37,8 @@ router.post('/key', (req, res) => {
 router.get('/key', (req, res) => {
     let email = req.user.email;
     let action = "retrieve";
-    let retrieve = Auth.auth(email, action)
-    retrieve.then(function (result) {
+    let retrieve = auth(email, action)
+    retrieve.then(result => {
             console.log(result);
             res.status(200).json({
                 success: true,
@@ -45,7 +46,7 @@ router.get('/key', (req, res) => {
                 requests: result.requests
             });
         })
-        .catch(function (reject) {
+        .catch(reject => {
             res.status(404).json({
                 success: false,
                 err: reject
@@ -56,13 +57,13 @@ router.get('/key', (req, res) => {
 router.delete('/key', (req, res) => {
     let email = req.user.email;
     let action = "revoke";
-    Auth.auth(email, action).then(function (result) {
+    auth(email, action).then(result => {
             res.status(200).json({
                 success: true,
                 deleted: req.user.email
             });
         })
-        .catch(function (reject) {
+        .catch(reject => {
             res.status(404).json({
                 success: false,
                 err: "User not found"
