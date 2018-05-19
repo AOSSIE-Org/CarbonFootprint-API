@@ -10,6 +10,9 @@ import {
     Dropdown
 } from 'semantic-ui-react';
 import { getKey } from '../Profile/profileController';
+import axios from 'axios';
+
+const URL = "http://localhost:3080/v1/";
 
 export default class ExplorerRequest extends Component {
 
@@ -20,14 +23,30 @@ export default class ExplorerRequest extends Component {
             key: false,
             error: false,
             errorMessage: '',
-            method: 'GET',
+            method: 'POST',
             url: ''
         };
         this.executeQuery = this.executeQuery.bind(this);
+        this.handleChange = this.handleChange.bind(this);
+    }
+
+    handleChange(event){
+        this.setState({url: event.target.value});
     }
 
     executeQuery() {
-
+        axios({
+            method: this.state.method,
+            url: URL +this.state.url,
+            data: this.props.query ,
+           headers: {
+                    'access-key':this.state.key,
+                    'Content-type': 'application/json'
+                    }
+        }).then(response => {
+            console.log(response.data);
+            this.props.handleResponse(response.data);
+        })
     };
 
     componentDidMount() {
@@ -79,7 +98,7 @@ export default class ExplorerRequest extends Component {
                                       style={styles.dropdown}
                             />
 
-                            <Input label={<label style={styles.label}>http://carbonhub.xyz/v1/</label>} style={styles.inputUrl}/>
+                            <Input label={<label style={styles.label}>http://carbonhub.xyz/v1/</label>} style={styles.inputUrl} onChange={this.handleChange} />
 
                         </Form.Group>
 
