@@ -18,8 +18,8 @@ let interpolate = (l1, l2, d) => {
 };
 
 let findMatch = (emissions, section, relativeLocation) => {
-    console.log(`Given emissions: $(emissions)`);
-    let supportedSections = { "section1": "trees", "section2":"trains"};
+    console.log(`Given emissions: ${emissions}`);
+    let supportedSections = { "section1": "trees", "section2":"trains", "section3":"vehicles"};
     return new Promise((resolve, reject) => {
         // We are only concerned with CO2 emission for now
         if(Object.values(supportedSections).includes(section) && emissions.CO2) {
@@ -30,12 +30,12 @@ let findMatch = (emissions, section, relativeLocation) => {
                     passengers: 0,
                     distance: 0
                 }
-                console.log(`Relative location: $(JSON.stringify(relativeLocation))`);
+                console.log(`Relative location: ${JSON.stringify(relativeLocation)}`);
                 let results = Helper.nearbyTrainStations(relativeLocation);
                 results
                   .then((val) => {
                     //console.log(`results obtained`);
-                    //console.log(`results : $(JSON.stringify(val))`);
+                    //console.log(`results : ${JSON.stringify(val)}`);
                     let sourceName = val[0].name;
                     let sourceLocation = val[0].location;
                     // We currently use the railcar type by default since it's the type that is most
@@ -64,8 +64,8 @@ let findMatch = (emissions, section, relativeLocation) => {
 
                         let trainSourceLocation = sourceLocation;
                         let trainDestLocation = matches[chosenOne].location;
-                        console.log(`trainSourceLocation: $(JSON.stringify(trainSourceLocation))`);
-                        console.log(`trainDestLocation: $(JSON.stringify(trainDestLocation))`);
+                        console.log(`trainSourceLocation: ${JSON.stringify(trainSourceLocation)}`);
+                        console.log(`trainDestLocation: ${JSON.stringify(trainDestLocation)}`);
                         let railDistance = Helper.distanceInCoordinates(trainSourceLocation, trainDestLocation, 'rail');
                         railDistance
                             .then((val) => {
@@ -76,7 +76,67 @@ let findMatch = (emissions, section, relativeLocation) => {
                                 trainMatch.distance = val;
                                 resolve(trainMatch);
                             }).catch((err) => {
-                                reject(`Failed to get rail distance: $(err)`);
+                                reject(`Failed to get rail distance: ${err}`);
+                            });
+                    }
+                    else {
+                        reject(`Not many stations around the given location`);
+                    }
+                }).catch((err) => {
+                    reject(err);
+                });
+            }
+            else if(section === "vehicles") {
+                let vehicleMatch = {
+                    source: "",
+                    destination: "",
+                    mileage: 0,
+                    distance: 0
+                }
+                let vehicleDefault = 2.328; // petrol default.
+                let trainStationsNearby = Helper.nearbyTrainStations(relativeLocation);
+                trainStationsNearby
+                    .then((val) => {
+                    //console.log(`results obtained`);
+                    //console.log(`results : ${JSON.stringify(val)}`);
+                    let sourceName = val[0].name;
+                    let sourceLocation = val[0].location;
+                    var matches = [];
+                    for(let i = 1; i < val.length; i++) {
+                        let destinationLocation = val[i].location;
+                        let destinationName = val[i].name;
+                        let singleMatch = {
+                            source: sourceName,
+                            destination: destinationName,
+                            location: destinationLocation
+                        }
+                        matches.push(singleMatch);
+                        //console.log(`Matched: ${JSON.stringify(matches)}`);
+                    }
+
+                    if(matches.length > 1) {
+                        let chosenOne = Helper.getRandomNumber(1, matches.length-1);
+                        let trainSourceLocation = sourceLocation;
+                        let trainDestLocation = matches[chosenOne].location;
+                        console.log(`trainSourceLocation: ${JSON.stringify(trainSourceLocation)}`);
+                        console.log(`trainDestLocation: ${JSON.stringify(trainDestLocation)}`);
+                        let drivingDistance = Helper.distanceInCoordinates(trainSourceLocation, trainDestLocation, 'driving');
+                        drivingDistance
+                            .then((val) => {
+                                let noOfLitres = emissions.CO2 / vehicleDefault;
+                                let newMileage = val / noOfLitres;
+                                if(newMileage > 4) {
+                                    vehicleMatch.source = sourceName;
+                                    vehicleMatch.destination = matches[chosenOne].destination;
+                                    vehicleMatch.mileage = newMileage;
+                                    vehicleMatch.distance = val;
+                                    resolve(vehicleMatch);
+                                }
+                                else {
+                                    reject(`Emissions too high. Any local vehicle travel cannot produce these much emissions`);
+                                }
+                            }).catch((err) => {
+                                reject(`Failed to get rail distance: ${err}`);
                             });
                     }
                     else {
@@ -96,8 +156,8 @@ let findMatch = (emissions, section, relativeLocation) => {
                     { $match: {"categories.0": section} }, { $sample: {size:1}}
                 ], (err, match) => {
                     if(!err && match) {
-                        console.log(`Match Item: $(match[0].item)`);
-                        console.log(`Target : $(emissions.CO2)`);
+                        console.log(`Match Item: ${match[0].item}`);
+                        console.log(`Target : ${emissions.CO2}`);
                         let matchedQuantity = match[0].components[0].quantity;
                         let targetQuantity;
                         if(matchedQuantity < 0)

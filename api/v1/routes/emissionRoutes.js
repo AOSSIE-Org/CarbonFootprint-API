@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 // get the emission controller
-const { calculate } = require('../controllers/emissionController');
+const { calculate, reverseFind } = require('../controllers/emissionController');
 // get the helper functions
 const { getDistanceFromLatLon, distance } = require('../controllers/helperFunctions');
 
@@ -39,7 +39,7 @@ router.post('/comparer', (req, res) => {
     let emissions = req.body["emissions"];
     let section = req.body["section"];
     let relativeLocation = req.body["relativeLocation"] || null;
-    Emission.reverseFind(emissions, section, relativeLocation)
+    reverseFind(emissions, section, relativeLocation)
         .then((match) => {
                 res.status(200).json({
                     success: true,
