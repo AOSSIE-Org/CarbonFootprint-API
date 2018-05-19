@@ -23,7 +23,7 @@ exports.distance = (ori, dest, mod) => {
             mode: mod,
             transit_mode: ['rail'],
             transit_routing_preference: 'fewer_transfers'
-        }, function (status, response) {
+        }, (status, response) => {
             if(response.json.status === 'OK' && response.json.rows[0].elements[0].status === 'OK'){
                 resolve(response.json.rows[0].elements[0].distance.value/1000);
             }

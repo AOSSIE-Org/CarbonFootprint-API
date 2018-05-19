@@ -2,55 +2,9 @@
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8">
-<style>
 
-.bar {
-  fill: steelblue;
-}
+<link rel="stylesheet" type="text/css" href="../css/style.css">
 
-.bar:hover {
-  fill: brown;
-}
-
-.axis--x path {
-  display: none;
-}
-
-select {
-    float : right;
-    background: #fff;
-    border: 1px solid #ddd;
-    padding: 10px;
-}
-.d3-tip {
-  line-height: 1;
-  font-weight: bold;
-  padding: 12px;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  border-radius: 2px;
-}
-
-/* Creates a small triangle extender for the tooltip */
-.d3-tip:after {
-  box-sizing: border-box;
-  display: inline;
-  font-size: 10px;
-  width: 100%;
-  line-height: 1;
-  color: rgba(0, 0, 0, 0.8);
-  content: "\25BC";
-  position: absolute;
-  text-align: center;
-}
-
-/* Style northward tooltips differently */
-.d3-tip.n:after {
-  margin: -1px 0 0 0;
-  top: 100%;
-  left: 0;
-}
-</style>
 </head>
 <body>
 
@@ -97,7 +51,9 @@ function showGraph(country){
                     })
 
                   svg.call(tip);
-                                    // get the data
+
+                  // get the data
+
                   data = d3.entries(data);
                   // format the data
 

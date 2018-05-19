@@ -150,12 +150,12 @@ export default class Auth {
                 'Authorization':'Bearer '+accessToken
             },
             dataType: "text",
-            success: function(result) {
+            success: result => {
                 //console.log("metaprofile",result);
                 this.metaUserProfile = JSON.parse(result)["user_metadata"];
                 cb(false,result);
             },
-            error:function(err){
+            error: err => {
                 cb(err);
             }
         });
@@ -184,11 +184,11 @@ export default class Auth {
                 'Authorization':'Bearer '+accessToken
             },
             dataType: "text",
-            success: function(result) {
+            success: result => {
                 console.log("data saved successfully");
                 cb(false,result);
             },
-            error:function(err){
+            error: err => {
                 cb(err);
             }
         });
