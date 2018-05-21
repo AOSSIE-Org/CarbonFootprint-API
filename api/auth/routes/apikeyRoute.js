@@ -4,13 +4,18 @@ const { auth } = require('../controllers/authController');
 
 const router = express.Router();
 
+/**
+ * Route Responsible for API key creation
+ * and verification
+ * @type POST
+ */
 router.post('/key', (req, res) => {
   console.log(req.user);
     let email_verified = req.user.email_verified;
     let email = req.user.email;
     let action = "create";
     if (email_verified) {
-        let create = auth(email, action)
+        let create = auth(email, action);
         create.then(result => {
                 console.log(result);
                 res.status(200).json({
@@ -29,10 +34,14 @@ router.post('/key', (req, res) => {
     else res.sendJsonError("Email not verified", 403);
 });
 
+/**
+ * Route responsible for API key retrieval
+ * @type GET
+ */
 router.get('/key', (req, res) => {
     let email = req.user.email;
     let action = "retrieve";
-    let retrieve = auth(email, action)
+    let retrieve = auth(email, action);
     retrieve.then(result => {
             console.log(result);
             res.status(200).json({
@@ -46,6 +55,10 @@ router.get('/key', (req, res) => {
         });
 });
 
+/**
+ * Route responsible for deletion of API key
+ * @type DELETE
+ */
 router.delete('/key', (req, res) => {
     let email = req.user.email;
     let action = "revoke";
