@@ -31,10 +31,7 @@ router.post('/emissions', (req, res) => {
 		})
 		.catch((err) => {
 			console.log(`Error: ${err}`);
-			res.status(400).json({
-				success: false,
-				err: err
-			});
+			res.sendJsonError(err, 400);
 		});
 });
 
@@ -72,17 +69,9 @@ router.post('/flight', (req, res) => {
 			})
 			.catch((err) => {
 				console.log(`Error: ${err}`);
-				res.status(404).json({
-					success: false,
-					err: `Unable to find emissions for airplane model ${model}`
-				});
+                res.sendJsonError(`Unable to find emissions for airplane model ${model}`, 404);
 			});
-	} else {
-		res.status(400).json({
-			success: false,
-			error: 'Unable to find the airports. Please use ICAO airport codes only'
-		});
-	}
+	} else res.sendJsonError('Unable to find the airports. Please use ICAO airport codes only', 400);
 
 });
 
@@ -111,26 +100,15 @@ router.post('/vehicle', async(req, res) => {
 					})
 					.catch((err) => {
 						console.log(`Error: ${err}`);
-						res.status(404).json({
-							success: false,
-							err: `Unable to find emissions for fuel type ${type}`
-						});
+                        res.sendJsonError(`Unable to find emissions for fuel type ${type}`, 404);
 					});
 			})
 			.catch((err) => {
 				console.log(`Error: ${err}`);
-				res.status(400).json({
-					success: false,
-					err: err
-				});
+                res.sendJsonError(err, 400);
 			});
 
-	} else {
-		res.status(400).json({
-			success: false,
-			error: 'Distance or Mileage cannot be less than zero'
-		});
-	}
+	} else res.sendJsonError('Distance or Mileage cannot be less than zero', 400);
 });
 
 router.post('/trains', async(req, res) => {
@@ -156,26 +134,15 @@ router.post('/trains', async(req, res) => {
 					})
 					.catch((err) => {
 						console.log(`Error: ${err}`);
-						res.status(404).json({
-							success: false,
-							err: `Unable to find emissions for fuel type ${type}`
-						});
-					});
+                        res.sendJsonError(`Unable to find emissions for fuel type ${type}`, 404);
+                    });
 			})
 			.catch((err) => {
 				console.log(`Error: ${err}`);
-				res.status(400).json({
-					success: false,
-					err: err
-				});
-			});
+                res.sendJsonError(err, 400);
+            });
 
-	} else {
-		res.status(400).json({
-			success: false,
-			error: 'Distance cannot be less than zero'
-		});
-	}
+	} else res.sendJsonError('Distance cannot be less than zero', 400);
 });
 
 router.post('/poultry', async(req, res) => {
@@ -193,17 +160,10 @@ router.post('/poultry', async(req, res) => {
 					unit: 'kg'
 				});
 			}).catch((err) => {
-				res.status(400).json({
-					success: false,
-					err: `We cannot provide carbon footprints for this combination of ${type} in ${region} of mass ${quantity} kg`
-				})
+				res.sendJsonError(`We cannot provide carbon footprints for this combination of ${type} in ${region} of mass ${quantity} kg`, 400);
 			});
-	} else {
-		res.status(400).json({
-			success: false,
-			error: `Unable to find carbon footprint for type ${type}`
-		});
-	}
+	} else res.sendJsonError(`Unable to find carbon footprint for type ${type}`, 400);
+
 });
 
 router.post('/appliances', (req, res) => {
@@ -224,10 +184,7 @@ router.post('/appliances', (req, res) => {
 		})
 		.catch((err) => {
 			console.log(`Error: ${err}`);
-			res.status(400).json({
-				success: false,
-				err: err
-			});
+            res.sendJsonError(err, 400);
 		});
 });
 
@@ -249,11 +206,8 @@ router.post('/quantity', (req, res) => {
 		})
 		.catch((err) => {
 			console.log(`Error: ${err}`);
-			res.status(400).json({
-				success: false,
-				err: `Unable to find quantity for item type ${itemName}`
-			});
-		});
+            res.sendJsonError(`Unable to find quantity for item type ${itemName}`, 400);
+        });
 });
 
 module.exports = router;
