@@ -23,10 +23,15 @@ export default class Explorer extends Component {
         this.runInPostman = this.runInPostman.bind(this);
         this.updateParams = this.updateParams.bind(this);
         this.handleResponse = this.handleResponse.bind(this);
+        this.handleURL = this.handleURL.bind(this);
     }
 
     componentDidMount() {
 
+    }
+
+    handleURL(URL){
+        this.setState({url: URL});
     }
 
     handleResponse(receivedRes){
@@ -57,7 +62,7 @@ export default class Explorer extends Component {
                         <Grid.Row columns={1}>
                             <ExplorerRequest
                                 key={this.state.key}
-                                url={this.state.url}
+                                handleURL={this.handleURL}
                                 method={this.state.method}
                                 handleResponse = {this.handleResponse}
                                 query = {this.state.query}
@@ -70,6 +75,8 @@ export default class Explorer extends Component {
                                 <ExplorerParams
                                     key={this.state.key}
                                     params={this.updateParams}
+                                    query = {this.state.query}
+                                    queryUpdate = {this.queryUpdate}
                                 />
                             </Grid.Column>
 
@@ -78,6 +85,7 @@ export default class Explorer extends Component {
                                     key={this.state.key}
                                     params = {this.state.params}
                                     queryUpdate ={this.queryUpdate}
+                                    url = {this.state.url}
                                 />
                             </Grid.Column>                            
                             <Grid.Column width={5}>

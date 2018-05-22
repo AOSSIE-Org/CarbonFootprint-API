@@ -34,11 +34,12 @@ export default class ExplorerRequest extends Component {
         this.setState({url: event.target.value});
     }
 
-    executeQuery() {
+    executeQuery() {        
+        this.props.handleURL(this.state.url);     
         axios({
             method: this.state.method,
             url: URL +this.state.url,
-            data: this.props.query ,
+            data: (this.props.query[this.state.url])?this.props.query[this.state.url]:example[this.state.url],
            headers: {
                     'access-key':this.state.key,
                     'Content-type': 'application/json'
@@ -159,5 +160,62 @@ const styles = {
         marginLeft: '5px',
         marginRight: '5px',
         fontSize: '16px'
+    }
+};
+const details = {
+    flight: {
+        "origin": "DEL",
+        "destination": "JFK",
+        "type": "international",
+        "model": "A380",
+        "passengers": 840
+    }
+};
+
+//Example data which is default if data is not provided
+
+const example = {
+    "appliances": {
+        "appliance":"Water heater",
+        "type":"instantaneous",
+        "region":"India",
+        "quantity":1,
+        "runnning_time":3
+    },
+    "emissions": {
+        "item": "electricity",
+        "region": "india",
+        "unit": "kWh",
+        "quantity": 1.564
+    },
+    "poultry": {
+        "type":"Broiler chicken",
+        "region":"British columbia",
+        "quantity":3
+    },
+    "quantity": {
+        "item": "lamp",
+        "region": "ohio",
+        "emission": 91
+    },
+    "flight": {
+        "origin": "DEL",
+        "destination": "JFK",
+        "type": "international",
+        "model": "A380",
+        "passengers": 840
+    },
+    "vehicle": {
+        "type": "Petrol",
+        "origin": "Bhubaneswar",
+        "destination": "Cuttack",
+        "mileage": 50,
+        "mileage_unit": "km/l"
+    },
+    "trains": {
+        "type":"railcars",
+        "origin":"Bhubaneswar",
+        "destination":"Delhi",
+        "passengers":10
     }
 };

@@ -11,8 +11,18 @@ export default class ExplorerParams extends Component {
             errorMessage: '',
             response:'',
             params:['item', 'region', 'unit', 'quantity'],
-            checkedParams:[]
+            checkedParams: {}
         };
+        this.handleChange = this.handleChange.bind(this);
+    }
+
+    handleChange(e, {value}){
+        if(!this.state.checkedParams){   
+        this.setState({checkedParams: value});
+        }else{
+            this.state.checkedParams[value] = '';
+        }
+        this.props.queryUpdate(this.state.checkedParams);
     }
 
     render() {
@@ -22,7 +32,7 @@ export default class ExplorerParams extends Component {
 
                 {this.state.params.map(param => (
                     <div>
-                        <Checkbox label={param} />
+                        <Checkbox label={param} value={param} checked={this.state.checkedParams==={param}} onChange={this.handleChange} />
                         <br/>
                     </div>
                 ))}
