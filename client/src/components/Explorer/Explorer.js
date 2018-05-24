@@ -76,6 +76,7 @@ export default class Explorer extends Component {
                                     key={this.state.key}
                                     params={this.updateParams}
                                     query = {this.state.query}
+                                    url = {this.state.url}
                                     queryUpdate = {this.queryUpdate}
                                 />
                             </Grid.Column>
@@ -86,6 +87,7 @@ export default class Explorer extends Component {
                                     params = {this.state.params}
                                     queryUpdate ={this.queryUpdate}
                                     url = {this.state.url}
+                                    query={this.state.query}
                                 />
                             </Grid.Column>                            
                             <Grid.Column width={5}>

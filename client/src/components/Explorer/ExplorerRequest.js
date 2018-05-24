@@ -36,10 +36,11 @@ export default class ExplorerRequest extends Component {
 
     executeQuery() {        
         this.props.handleURL(this.state.url);     
+        console.log(this.props.query);        
         axios({
             method: this.state.method,
             url: URL +this.state.url,
-            data: (this.props.query[this.state.url])?this.props.query[this.state.url]:example[this.state.url],
+            data: this.props.query,
            headers: {
                     'access-key':this.state.key,
                     'Content-type': 'application/json'

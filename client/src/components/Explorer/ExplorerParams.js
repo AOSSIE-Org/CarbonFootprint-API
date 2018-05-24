@@ -17,26 +17,26 @@ export default class ExplorerParams extends Component {
     }
 
     handleChange(e, {value}){
-        if(!this.state.checkedParams){   
-        this.setState({checkedParams: value});
-        }else{
-            this.state.checkedParams[value] = '';
-        }
-        this.props.queryUpdate(this.state.checkedParams);
+        const newQuery = this.props.query;
+        console.log(newQuery);
+        const key = Object.keys(newQuery);
+        newQuery[value] ='';
+        this.props.queryUpdate(newQuery);
     }
 
     render() {
-
+        const query = this.props.query;        
+        const keys = Object.keys(query);
+        var check;
         return (
             <Segment style={styles.body}>
-
-                {this.state.params.map(param => (
+                {keys.map(key =>
                     <div>
-                        <Checkbox label={param} value={param} checked={this.state.checkedParams==={param}} onChange={this.handleChange} />
+                        {check = query[key]?true:false}
+                        <Checkbox label={key} value={key} checked={check} onClick={this.handleChange} />
                         <br/>
                     </div>
-                ))}
-
+                )}
             </Segment>
         );
     }

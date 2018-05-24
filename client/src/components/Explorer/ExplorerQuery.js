@@ -11,16 +11,14 @@ export default class ExplorerQuery extends Component {
             key: false,
             error: false,
             errorMessage: '',
-            change: ''
+            quer: {}
         };
         this.handleInput = this.handleInput.bind(this);
     }
 
-    handleInput(event){
-        this.setState({change: event.target.value})
-        query[this.props.url] = this.state.change;
-        event.target.value =JSON.stringify(query[this.props.url]);
-        this.props.queryUpdate(query);
+    handleInput(e, {value}){
+        this.setState({quer: JSON.parse(value)});
+        this.props.queryUpdate(this.state.quer);
     }
 
     render() {
@@ -29,7 +27,7 @@ export default class ExplorerQuery extends Component {
             <Segment style={styles.body}>
 
                 <Form>
-                    <TextArea autoHeight style={styles.textArea} onInput={this.handleInput} value={JSON.stringify(query[this.props.url])} />
+                    <TextArea autoHeight style={styles.textArea} onChange={this.handleInput} value={JSON.stringify(this.props.query)} />
                 </Form>
 
             </Segment>
@@ -52,7 +50,7 @@ const styles = {
     }
 };
 
-//default values which can be changed
+default values which can be changed
 
 const query = {
     "appliances": {
