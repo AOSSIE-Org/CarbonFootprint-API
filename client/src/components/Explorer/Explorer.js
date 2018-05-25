@@ -13,15 +13,13 @@ export default class Explorer extends Component {
             key: false,
             url: '',
             method: 'GET',
-            query: {},
-            params: [],
+            query: '',
             response: ''
         };
 
         this.queryUpdate = this.queryUpdate.bind(this);
         this.getCode = this.getCode.bind(this);
         this.runInPostman = this.runInPostman.bind(this);
-        this.updateParams = this.updateParams.bind(this);
         this.handleResponse = this.handleResponse.bind(this);
         this.handleURL = this.handleURL.bind(this);
     }
@@ -40,10 +38,6 @@ export default class Explorer extends Component {
 
     queryUpdate(updatedQuery) {
         this.setState({query: updatedQuery});
-    }
-
-    updateParams(updatedParams){
-        this.setState({params: updatedParams});
     }
 
     getCode() {
@@ -74,7 +68,6 @@ export default class Explorer extends Component {
                             <Grid.Column width={4}>
                                 <ExplorerParams
                                     key={this.state.key}
-                                    params={this.updateParams}
                                     query = {this.state.query}
                                     url = {this.state.url}
                                     queryUpdate = {this.queryUpdate}
@@ -87,7 +80,7 @@ export default class Explorer extends Component {
                                     params = {this.state.params}
                                     queryUpdate ={this.queryUpdate}
                                     url = {this.state.url}
-                                    query={this.state.query}
+                                    query={JSON.stringify(this.state.query)}
                                 />
                             </Grid.Column>                            
                             <Grid.Column width={5}>

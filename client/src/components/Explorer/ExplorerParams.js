@@ -8,10 +8,7 @@ export default class ExplorerParams extends Component {
 
         this.state = {
             error: false,
-            errorMessage: '',
-            response:'',
-            params:['item', 'region', 'unit', 'quantity'],
-            checkedParams: {}
+            errorMessage: ''
         };
         this.handleChange = this.handleChange.bind(this);
     }
@@ -26,14 +23,24 @@ export default class ExplorerParams extends Component {
 
     render() {
         const query = this.props.query;        
-        const keys = Object.keys(query);
+        //const keys = Object.keys(query);
         var check;
+        var keys = defaultParam["poultry"];
+        const url = this.props.url;
+        console.log(url);        
+        for(var key in defaultParam)
+        {
+            if(key === url){
+                keys = defaultParam[key]
+            }
+        }
+
         return (
             <Segment style={styles.body}>
-                {keys.map(key =>
+                {Object.values(keys).map(key =>
                     <div>
                         {check = query[key]?true:false}
-                        <Checkbox label={key} value={key} checked={check} onClick={this.handleChange} />
+                        <Checkbox label={key} value={key} checked={check} onChange={this.handleChange} />
                         <br/>
                     </div>
                 )}
@@ -48,3 +55,48 @@ const styles = {
         minHeight: "100%",
     }
 };
+const defaultParam = {
+    "appliances": [
+        "appliance",
+        "type",
+        "region",
+        "quantity",
+        "runnning_time"
+    ],
+    "emissions": [
+        "item",
+        "region",
+        "unit",
+        "quantity"
+    ],
+    "poultry": [
+        "type",
+        "region",
+        "quantity"
+    ],
+    "quantity": [
+        "item",
+        "region",
+        "emission"
+    ],
+    "flight": [
+        "origin",
+        "destination",
+        "type",
+        "model",
+        "passengers"
+    ],
+    "vehicle": [
+        "type",
+        "origin",
+        "destination",
+        "mileage",
+        "mileage_unit"
+    ],
+    "trains": [
+        "type",
+        "origin",
+        "destination",
+        "passengers"
+    ]
+}
