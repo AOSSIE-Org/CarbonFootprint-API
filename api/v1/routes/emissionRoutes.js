@@ -71,7 +71,7 @@ router.post('/flight', (req, res) => {
 				console.log(`Error: ${err}`);
                 res.sendJsonError(`Unable to find emissions for airplane model ${model}`, 404);
 			});
-	} else res.sendJsonError('Unable to find the airports. Please use ICAO airport codes only', 400);
+	} else res.sendJsonError('Unable to find the airports. Please use IATA airport codes only', 400);
 
 });
 

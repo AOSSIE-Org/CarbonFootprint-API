@@ -40,7 +40,7 @@
 								"flight"
 							]
 						},
-						"description": "Find Emissions for a flight between two airports. Only ICAO (https://en.wikipedia.org/wiki/International_Civil_Aviation_Organization_airport_code) Airport Codes are supported.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.xyz/) variable in the header."
+						"description": "Find Emissions for a flight between two airports. Only IATA (https://en.wikipedia.org/wiki/IATA_airport_code) Airport Codes are supported.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.xyz/) variable in the header."
 					},
 					"response": []
 				},
