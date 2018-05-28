@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Button } from 'semantic-ui-react';
+import { Link } from 'react-router-dom'
 import ExplorerRequest from './ExplorerRequest';
 import ExplorerQuery from './ExplorerQuery';
 import ExplorerResponse from './ExplorerResponse';
@@ -16,21 +17,6 @@ export default class Explorer extends Component {
             query: {},
             params: []
         };
-
-        this.getCode = this.getCode.bind(this);
-        this.runInPostman = this.runInPostman.bind(this);
-    }
-
-    componentDidMount() {
-
-    }
-
-    getCode(){
-
-    }
-
-    runInPostman(){
-
     }
 
     render() {
@@ -82,11 +68,12 @@ export default class Explorer extends Component {
                         onClick={this.getCode}
                     />
 
-                    <Button
-                        content='Run in Postman'
-                        style={styles.button}
-                        onClick={this.runInPostman}
-                    />
+                    <Link to='https://app.getpostman.com/run-collection/9f30a9efdc0b87ca59af' target="_blank">
+                        <Button
+                            content='Run in Postman'
+                            style={styles.button}
+                        />
+                    </Link>
                 </div>
             </div>
         );

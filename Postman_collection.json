@@ -1,293 +1,2642 @@
 {
-	"id": "4e8d6a97-575f-63b7-2abc-2227a88da41f",
-	"name": "Carbonfootprint API",
-	"description": "Collections of all the carbonfootprint API endpoints and its documentation.",
-	"order": [
-		"9ab3a6f1-4bbc-6d72-60c1-bb9f150f6fd1",
-		"558e672b-2ca8-44c9-dc4c-95be795bc9c3",
-		"434ea1c3-3b5f-8b0b-e83b-dc4f10601114",
-		"d52bb9b3-ce6a-8927-d9bb-7bdca385491c"
-	],
-	"folders": [
-		{
-			"name": "Transport",
-			"description": "",
-			"collectionId": "4e8d6a97-575f-63b7-2abc-2227a88da41f",
-			"order": [
-				"f0849ddd-83ad-b611-a6f3-e0082df3d676",
-				"8e42f933-fd4d-3485-e8d9-7208169bc1d0",
-				"46514bdd-9c54-d936-11f1-5e45b19e45b6"
-			],
-			"owner": "3424749",
-			"folders_order": [],
-			"id": "1f4877cd-06ee-b3df-d714-91840df752f4"
-		}
-	],
-	"folders_order": [
-		"1f4877cd-06ee-b3df-d714-91840df752f4"
-	],
-	"timestamp": 1520687284087,
-	"owner": "3424749",
-	"public": false,
-	"requests": [
-		{
-			"id": "434ea1c3-3b5f-8b0b-e83b-dc4f10601114",
-			"headers": "Content-Type: application/json\naccess-key: \n",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"value": "application/json",
-					"description": "",
-					"enabled": true
-				},
-				{
-					"key": "access-key",
-					"value": "",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"url": "https://carbonhub.xyz/v1/emissions",
-			"queryParams": [],
-			"preRequestScript": "",
-			"pathVariables": {},
-			"pathVariableData": [],
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1520709053775,
-			"name": "https://carbonhub.xyz/v1/emissions",
-			"description": "GHG EMISSIONS\n\n1. Electricity\n\t- The emission route can be requested to find emission for any \t  country for per kilowatt of electricity consumed. It can        also  deliver components of emission like generation and        transmission  & dissipation when queried with item names        generation and td     respectively.The data source for this is   here. The region that   is unavailable results in returning     the emission for the Default  region which is calculated as a   average of the whole data.\n\n2. Airplane Fuel\n\t- Airplane fuel converts the distance flown by a particular air    plane to corresponing CO2 emission.\n\n3. Vehicle Fuel\n\t- Emission route can be requested with fuel quantity and type     and   unit , to return the GHG emission generated on the        consumption   of the same.The fuels that we currently support   are listed in Source/Core/core/resources/fuels.json\n\t\n4. Trains\n\t- Emission route can provide you with the emission generated      from a train journey, provided with the distance of the         journey.Here the item is the the train type and multiply        signifies the number of passengers.\n\t\n5. Trees\n\t- Emission route can be requested with tree name and the number   of years to find out the CO2 absorption from it per year.The    trees that we currently support are listed                      /Source/Core/core/resources/trees.json.\n\t\n6. Appliances\n\t- Emission route can be requested with a appliance name and the   number of units and no of hours to find out the CO2 emission    for the running time.The appliances that we currently support   are listed /raw_data/appliances.json.\n\nUSE ONLY ONE EXAMPLE GIVEN IN THE BODY AT A TIME.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.xyz/) variable in the header.",
-			"collectionId": "4e8d6a97-575f-63b7-2abc-2227a88da41f",
-			"responses": [],
-			"rawModeData": "[{\n    \"item\": \"electricity\",\n    \"region\": \"india\",\n    \"unit\": \"kWh\",\n    \"quantity\": 1.9999\n},\n{\n    \"item\": \"airplane model A380\",\n    \"unit\": \"nm\",\n    \"quantity\": 125\n},\n{\n    \"item\":\"fuelPetrol\",\n    \"quantity\": 2,\n    \"unit\": \"L\"\n},\n{\n    \"item\":\"railcars\",\n    \"region\":\"Default\",\n    \"quantity\": 1000,\n    \"unit\": \"kg/km\",\n    \"multiply\": 3\n},\n{\n    \"item\":\"Cherry\",\n    \"region\":\"Default\",\n    \"quantity\": 1,\n    \"unit\": \"year\"\n},\n{\n    \"item\":\"Air conditioner large\",\n    \"region\":\"Africa\",\n    \"unit\":\"kWh\",\n    \"quantity\":1,\n    \"multiply\":8\n}\n]\n"
-		},
-		{
-			"id": "46514bdd-9c54-d936-11f1-5e45b19e45b6",
-			"headers": "Content-Type: application/json\naccess-key: \n",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"value": "application/json",
-					"description": "",
-					"enabled": true
-				},
-				{
-					"key": "access-key",
-					"value": "",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"url": "https://carbonhub.xyz/v1/trains",
-			"queryParams": [],
-			"pathVariables": {},
-			"pathVariableData": [],
-			"preRequestScript": "",
-			"method": "POST",
-			"collectionId": "4e8d6a97-575f-63b7-2abc-2227a88da41f",
-			"data": [],
-			"dataMode": "raw",
-			"name": "https://carbonhub.xyz/v1/trains",
-			"description": "This route enables you to find GHG emissions for a number of train types for a certain route.The distance is calculated using Google Map Distant Matrix API (https://developers.google.com/maps/documentation/javascript/distancematrix). The trains that we currently support are listed in /raw_data/trains.json.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.xyz/) variable in the header.",
-			"descriptionFormat": "html",
-			"time": 1520709816288,
-			"version": 2,
-			"responses": [],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"folder": "1f4877cd-06ee-b3df-d714-91840df752f4",
-			"rawModeData": "{\n    \"type\":\"railcars\",\n    \"origin\":\"Bhubaneswar\",\n    \"destination\":\"Delhi\",\n    \"passengers\":10\n}"
-		},
-		{
-			"id": "558e672b-2ca8-44c9-dc4c-95be795bc9c3",
-			"headers": "Content-Type: application/json\naccess-key: \n",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"value": "application/json",
-					"description": "",
-					"enabled": true
-				},
-				{
-					"key": "access-key",
-					"value": "",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"url": "https://carbonhub.xyz/v1/poultry",
-			"queryParams": [],
-			"preRequestScript": "",
-			"pathVariables": {},
-			"pathVariableData": [],
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1520709089189,
-			"name": "https://carbonhub.xyz/v1/poultry",
-			"description": "- This route enables you to find GHG emissions for different type of   Poutry meat production. In this we consider the factors like   \t    Production emission, Water loss factor, Moisture loss factor,        Post-farmgate emissions in different conditions according to         region in which they are found.\n- Types of poultry is in /raw_data/poultry.json\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.xyz/) variable in the header.",
-			"collectionId": "4e8d6a97-575f-63b7-2abc-2227a88da41f",
-			"responses": [],
-			"rawModeData": "{\n  \"type\":\"Broiler chicken\",\n  \"region\":\"British columbia\",\n  \"quantity\":3\n}"
-		},
-		{
-			"id": "8e42f933-fd4d-3485-e8d9-7208169bc1d0",
-			"headers": "Content-Type: application/json\naccess-key: \n",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"value": "application/json",
-					"description": "",
-					"enabled": true
-				},
-				{
-					"key": "access-key",
-					"value": "",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"url": "https://carbonhub.xyz/v1/vehicle",
-			"queryParams": [],
-			"pathVariables": {},
-			"pathVariableData": [],
-			"preRequestScript": "",
-			"method": "POST",
-			"collectionId": "4e8d6a97-575f-63b7-2abc-2227a88da41f",
-			"data": [],
-			"dataMode": "raw",
-			"name": "https://carbonhub.xyz/v1/vehicle",
-			"description": "This route enables you to find GHG emissions for a number of fuels.The distance is calculated using Google Map Distant Matrix API (https://developers.google.com/maps/documentation/javascript/distancematrix). The fuels that we currently support are listed in /Source/Core/core/resources/fuels.json.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.xyz/) variable in the header.",
-			"descriptionFormat": "html",
-			"time": 1520709659346,
-			"version": 2,
-			"responses": [],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"folder": "1f4877cd-06ee-b3df-d714-91840df752f4",
-			"rawModeData": "{\n    \"type\": \"Petrol\",\n    \"origin\": \"Bhubaneswar\",\n    \"destination\": \"Cuttack\",\n    \"mileage\": 50,\n    \"mileage_unit\": \"km/l\"\n}\n"
-		},
-		{
-			"id": "9ab3a6f1-4bbc-6d72-60c1-bb9f150f6fd1",
-			"headers": "Content-Type: application/json\naccess-key: \n",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"value": "application/json",
-					"description": "",
-					"enabled": true
-				},
-				{
-					"key": "access-key",
-					"value": "",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"url": "https://carbonhub.xyz/v1/appliances",
-			"queryParams": [],
-			"preRequestScript": "",
-			"pathVariables": {},
-			"pathVariableData": [],
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1520708144948,
-			"name": "https://carbonhub.xyz/v1/appliances",
-			"description": "This route enables you to find GHG emissions for a number of appliance types for a specific quantity and running time. The emissions are calculated from the electricity based emissions on a particular region.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.xyz/) variable in the header.",
-			"collectionId": "4e8d6a97-575f-63b7-2abc-2227a88da41f",
-			"responses": [],
-			"rawModeData": "{\n    \"appliance\":\"Water heater\",\n    \"type\":\"instantaneous\",\n    \"region\":\"India\",\n    \"quantity\":1,\n    \"runnning_time\":3\n}"
-		},
-		{
-			"id": "d52bb9b3-ce6a-8927-d9bb-7bdca385491c",
-			"headers": "Content-Type: application/json\naccess-key: \n",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"value": "application/json",
-					"description": "",
-					"enabled": true
-				},
-				{
-					"key": "access-key",
-					"value": "",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"url": "https://carbonhub.xyz/v1/quantity",
-			"queryParams": [],
-			"pathVariables": {},
-			"pathVariableData": [],
-			"preRequestScript": "",
-			"method": "POST",
-			"collectionId": "4e8d6a97-575f-63b7-2abc-2227a88da41f",
-			"data": [],
-			"dataMode": "raw",
-			"name": "https://carbonhub.xyz/v1/quantity",
-			"description": "This route is can be used to retrieve the quantity of a certain element provided the CO2 emission for the specific item is already known.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.xyz/) variable in the header.",
-			"descriptionFormat": "html",
-			"time": 1520709385210,
-			"version": 2,
-			"responses": [],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"rawModeData": "{\n        \"item\": \"lamp\",\n        \"region\": \"ohio\",\n        \"emission\": 91\n}"
-		},
-		{
-			"id": "f0849ddd-83ad-b611-a6f3-e0082df3d676",
-			"headers": "Content-Type: application/json\naccess-key: \n",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"value": "application/json",
-					"description": "",
-					"enabled": true
-				},
-				{
-					"key": "access-key",
-					"value": "",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"url": "https://carbonhub.xyz/v1/flight",
-			"queryParams": [],
-			"pathVariables": {},
-			"pathVariableData": [],
-			"preRequestScript": "",
-			"method": "POST",
-			"collectionId": "4e8d6a97-575f-63b7-2abc-2227a88da41f",
-			"data": [],
-			"dataMode": "raw",
-			"name": "https://carbonhub.xyz/v1/flight",
-			"description": "Find Emissions for a flight between two airports. Only IATA (https://en.wikipedia.org/wiki/IATA_airport_code) Airport Codes are supported.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.xyz/) variable in the header.",
-			"descriptionFormat": "html",
-			"time": 1520709508152,
-			"version": 2,
-			"responses": [],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"folder": "1f4877cd-06ee-b3df-d714-91840df752f4",
-			"rawModeData": "{\n    \"origin\": \"DEL\",\n    \"destination\": \"JFK\",\n    \"type\": \"international\",\n    \"model\": \"A380\",\n    \"passengers\": 840\n}"
-		}
-	]
+  "owner": "4464093",
+  "lastUpdatedBy": "4464093",
+  "lastRevision": 3948026486,
+  "team": null,
+  "id": "beae6f70-31b3-35a0-d056-abc9ac595989",
+  "name": "Carbon Footprint API",
+  "description": "A universal API to find carbon footprint of almost anything.",
+  "variables": null,
+  "auth": null,
+  "events": null,
+  "folders_order": [
+    "440fde61-95d1-aac6-08c2-48b070a1c182",
+    "c56452fa-c041-e8a3-df28-85c13cf0469c"
+  ],
+  "order": [
+    "9bfa317c-2c84-19b7-fd61-f08ab782e912",
+    "dfd7c95f-d2b4-eeef-f6c6-370ecdc630c4",
+    "9ad31bc8-73be-0405-9b34-5e6e8b1d7b95"
+  ],
+  "folders": [
+    {
+      "owner": "4464093",
+      "lastUpdatedBy": "4464093",
+      "lastRevision": 3948020966,
+      "folder": null,
+      "id": "440fde61-95d1-aac6-08c2-48b070a1c182",
+      "name": "Emissions",
+      "description": "This route enables you to find GHG emissions for things that can be directly related to emissions",
+      "variables": null,
+      "auth": null,
+      "events": null,
+      "order": [
+        "d9a80bad-dd1c-c751-98aa-960fade2cf7d",
+        "dab5919a-98c9-7689-e321-df133f17ef42",
+        "7f26e7fc-9b04-ec93-61cf-bdb4dd2e6024",
+        "7b4d11ee-f7e3-2103-a19b-b32c264e6729",
+        "4a1f55da-49e9-8810-9d16-a8a3f76c605b",
+        "e6618839-cd7c-65bb-c6a2-c3cc67f96fdd"
+      ],
+      "folders_order": []
+    },
+    {
+      "owner": "4464093",
+      "lastUpdatedBy": "4464093",
+      "lastRevision": 3948020968,
+      "folder": null,
+      "id": "c56452fa-c041-e8a3-df28-85c13cf0469c",
+      "name": "Transport",
+      "description": "These routes enables you to find GHG emissions for different modes of transports.",
+      "variables": null,
+      "auth": null,
+      "events": null,
+      "order": [
+        "3418f7e6-15f6-354c-76c6-d63c90897655",
+        "22086880-2e17-71c8-6f9e-d17c565c36af",
+        "3aecd786-f986-1602-1882-4a70f45ffc6f"
+      ],
+      "folders_order": []
+    }
+  ],
+  "hasRequests": true,
+  "requests": [
+    {
+      "id": "22086880-2e17-71c8-6f9e-d17c565c36af",
+      "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: {{key}}\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/x-www-form-urlencoded",
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "access-key",
+          "value": "{{key}}",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "https:\/\/www.carbonhub.xyz\/v1\/trains",
+      "folder": "c56452fa-c041-e8a3-df28-85c13cf0469c",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [
+        {
+          "key": "type",
+          "value": "railcars",
+          "description": "Required: The type of the vehicle.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "origin",
+          "value": "",
+          "description": "Required: Origin of the journey.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "destination",
+          "value": "",
+          "description": "Required: Destination of the journey.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "passengers",
+          "value": "",
+          "description": "The number of passengers traveling in the journey. The default sets to 1.\n\n\n\n\n ",
+          "type": "text"
+        }
+      ],
+      "dataMode": "urlencoded",
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1527486911691,
+      "name": "Trains",
+      "description": "This route enables you to find GHG emissions for a number of train types for a certain route.",
+      "collectionId": "beae6f70-31b3-35a0-d056-abc9ac595989",
+      "responses": [
+        {
+          "status": "OK",
+          "responseCode": {
+            "code": 200,
+            "name": "OK"
+          },
+          "time": "2011",
+          "headers": [
+            {
+              "name": "access-control-allow-headers",
+              "key": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept",
+              "description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+            },
+            {
+              "name": "access-control-allow-origin",
+              "key": "access-control-allow-origin",
+              "value": "*",
+              "description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+            },
+            {
+              "name": "cf-ray",
+              "key": "cf-ray",
+              "value": "421dfed5bc026a67-LHR",
+              "description": "Custom header"
+            },
+            {
+              "name": "content-encoding",
+              "key": "content-encoding",
+              "value": "br",
+              "description": "The type of encoding used on the data."
+            },
+            {
+              "name": "content-type",
+              "key": "content-type",
+              "value": "application\/json; charset=utf-8",
+              "description": "The mime type of this content"
+            },
+            {
+              "name": "date",
+              "key": "date",
+              "value": "Mon, 28 May 2018 04:32:07 GMT",
+              "description": "The date and time that the message was sent"
+            },
+            {
+              "name": "etag",
+              "key": "etag",
+              "value": "W\/\"3b-6Eq6nV6amNKDSwv7WGsBs\/D0YdQ\"",
+              "description": "An identifier for a specific version of a resource, often a message digest"
+            },
+            {
+              "name": "expect-ct",
+              "key": "expect-ct",
+              "value": "max-age=604800, report-uri=\"https:\/\/report-uri.cloudflare.com\/cdn-cgi\/beacon\/expect-ct\"",
+              "description": "Custom header"
+            },
+            {
+              "name": "server",
+              "key": "server",
+              "value": "cloudflare",
+              "description": "A name for the server"
+            },
+            {
+              "name": "status",
+              "key": "status",
+              "value": "200",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-powered-by",
+              "key": "x-powered-by",
+              "value": "Express",
+              "description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+            },
+            {
+              "name": "x-ratelimit-limit",
+              "key": "x-ratelimit-limit",
+              "value": "1000",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-ratelimit-remaining",
+              "key": "x-ratelimit-remaining",
+              "value": "984",
+              "description": "Custom header"
+            }
+          ],
+          "cookies": [],
+          "mime": null,
+          "text": "{\"success\":true,\"emissions\":{\"CO2\":794.041832},\"unit\":\"kg\"}",
+          "language": "json",
+          "rawDataType": "text",
+          "searchResultScrolledTo": -1,
+          "forceNoPretty": false,
+          "write": true,
+          "id": "4f4dfdcc-ca24-a90f-f56c-d919077721b4",
+          "name": "Trains example",
+          "isSample": true,
+          "scrollToResult": false,
+          "runTests": false,
+          "request": {
+            "url": "https:\/\/www.carbonhub.xyz\/v1\/trains",
+            "pathVariableData": [],
+            "queryParams": [],
+            "headerData": [
+              {
+                "key": "Content-Type",
+                "value": "application\/x-www-form-urlencoded",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              },
+              {
+                "key": "access-key",
+                "value": "<access-key>",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              }
+            ],
+            "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: <access-key>\n",
+            "data": [
+              {
+                "key": "type",
+                "value": "railcars",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "origin",
+                "value": "Bhubneshwar",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "destination",
+                "value": "Delhi",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "passengers",
+                "value": "10",
+                "description": "",
+                "type": "text"
+              }
+            ],
+            "method": "POST",
+            "dataMode": "urlencoded"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3418f7e6-15f6-354c-76c6-d63c90897655",
+      "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: {{key}}\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/x-www-form-urlencoded",
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "access-key",
+          "value": "{{key}}",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "https:\/\/www.carbonhub.xyz\/v1\/flight",
+      "folder": "c56452fa-c041-e8a3-df28-85c13cf0469c",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [
+        {
+          "key": "origin",
+          "value": "",
+          "description": "Required: Flight origin airport IATA code.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "destination",
+          "value": "",
+          "description": "Required: Flight destination airport IATA code.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "type",
+          "value": "",
+          "description": "Flight type (international or domestic). Default is international.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "model",
+          "value": "",
+          "description": "Flight model",
+          "type": "text"
+        },
+        {
+          "key": "passengers",
+          "value": "",
+          "description": "Pass the number of passengers to get the emissions relative to per person on the flight.\n\n\n\n\n",
+          "type": "text"
+        }
+      ],
+      "dataMode": "urlencoded",
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1527486892015,
+      "name": "Flights",
+      "description": "Emissions for a flight between two airports.\nOnly IATA Airport Codes are supported.\n\n",
+      "collectionId": "beae6f70-31b3-35a0-d056-abc9ac595989",
+      "responses": [
+        {
+          "status": "OK",
+          "responseCode": {
+            "code": 200,
+            "name": "OK"
+          },
+          "time": "1321",
+          "headers": [
+            {
+              "name": "access-control-allow-headers",
+              "key": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept",
+              "description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+            },
+            {
+              "name": "access-control-allow-origin",
+              "key": "access-control-allow-origin",
+              "value": "*",
+              "description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+            },
+            {
+              "name": "cf-ray",
+              "key": "cf-ray",
+              "value": "421dfb5bcbcb6a67-LHR",
+              "description": "Custom header"
+            },
+            {
+              "name": "content-encoding",
+              "key": "content-encoding",
+              "value": "br",
+              "description": "The type of encoding used on the data."
+            },
+            {
+              "name": "content-type",
+              "key": "content-type",
+              "value": "application\/json; charset=utf-8",
+              "description": "The mime type of this content"
+            },
+            {
+              "name": "date",
+              "key": "date",
+              "value": "Mon, 28 May 2018 04:29:44 GMT",
+              "description": "The date and time that the message was sent"
+            },
+            {
+              "name": "etag",
+              "key": "etag",
+              "value": "W\/\"3f-DnWYJvkrg4pMiH\/9x6OJ\/GM5mzs\"",
+              "description": "An identifier for a specific version of a resource, often a message digest"
+            },
+            {
+              "name": "expect-ct",
+              "key": "expect-ct",
+              "value": "max-age=604800, report-uri=\"https:\/\/report-uri.cloudflare.com\/cdn-cgi\/beacon\/expect-ct\"",
+              "description": "Custom header"
+            },
+            {
+              "name": "server",
+              "key": "server",
+              "value": "cloudflare",
+              "description": "A name for the server"
+            },
+            {
+              "name": "status",
+              "key": "status",
+              "value": "200",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-powered-by",
+              "key": "x-powered-by",
+              "value": "Express",
+              "description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+            },
+            {
+              "name": "x-ratelimit-limit",
+              "key": "x-ratelimit-limit",
+              "value": "1000",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-ratelimit-remaining",
+              "key": "x-ratelimit-remaining",
+              "value": "985",
+              "description": "Custom header"
+            }
+          ],
+          "cookies": [],
+          "mime": null,
+          "text": "{\"success\":true,\"emissions\":{\"CO2\":595.1912047876},\"unit\":\"kg\"}",
+          "language": "json",
+          "rawDataType": "text",
+          "searchResultScrolledTo": -1,
+          "forceNoPretty": false,
+          "write": true,
+          "id": "a726641d-5d2d-5e5d-2d22-f23c5d96213a",
+          "name": "Flights example",
+          "isSample": true,
+          "scrollToResult": false,
+          "runTests": false,
+          "request": {
+            "url": "https:\/\/www.carbonhub.xyz\/v1\/flight",
+            "pathVariableData": [],
+            "queryParams": [],
+            "headerData": [
+              {
+                "key": "Content-Type",
+                "value": "application\/x-www-form-urlencoded",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              },
+              {
+                "key": "access-key",
+                "value": "<access-key>",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              }
+            ],
+            "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: <access-key>\n",
+            "data": [
+              {
+                "key": "origin",
+                "value": "DEL",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "destination",
+                "value": "JFK",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "type",
+                "value": "international",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "model",
+                "value": "A380",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "passengers",
+                "value": "840",
+                "description": "",
+                "type": "text"
+              }
+            ],
+            "method": "POST",
+            "dataMode": "urlencoded"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3aecd786-f986-1602-1882-4a70f45ffc6f",
+      "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: {{key}}\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/x-www-form-urlencoded",
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "access-key",
+          "value": "{{key}}",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "https:\/\/www.carbonhub.xyz\/v1\/vehicle",
+      "folder": "c56452fa-c041-e8a3-df28-85c13cf0469c",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [
+        {
+          "key": "type",
+          "value": "",
+          "description": "Required: The fuel type used by the vehicle.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "origin",
+          "value": "",
+          "description": "Required: Origin of the journey.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "destination",
+          "value": "",
+          "description": "Required: Destination of the journey.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "mileage",
+          "value": "",
+          "description": "The fuel efficiency of the vehicle i.e. distance traveled per unit of fuel. The default value is 20.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "mileage_unit",
+          "value": "",
+          "description": "The unit of mileage. The default sets to be 'km\/L'\n\n\n\n\n",
+          "type": "text"
+        }
+      ],
+      "dataMode": "urlencoded",
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1527486929784,
+      "name": "Vehicles",
+      "description": "This route enables you to find GHG emissions for a number of fuels.",
+      "collectionId": "beae6f70-31b3-35a0-d056-abc9ac595989",
+      "responses": [
+        {
+          "status": "OK",
+          "responseCode": {
+            "code": 200,
+            "name": "OK"
+          },
+          "time": "1780",
+          "headers": [
+            {
+              "name": "access-control-allow-headers",
+              "key": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept",
+              "description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+            },
+            {
+              "name": "access-control-allow-origin",
+              "key": "access-control-allow-origin",
+              "value": "*",
+              "description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+            },
+            {
+              "name": "cf-ray",
+              "key": "cf-ray",
+              "value": "421e023b1ec86a67-LHR",
+              "description": "Custom header"
+            },
+            {
+              "name": "content-encoding",
+              "key": "content-encoding",
+              "value": "br",
+              "description": "The type of encoding used on the data."
+            },
+            {
+              "name": "content-type",
+              "key": "content-type",
+              "value": "application\/json; charset=utf-8",
+              "description": "The mime type of this content"
+            },
+            {
+              "name": "date",
+              "key": "date",
+              "value": "Mon, 28 May 2018 04:34:26 GMT",
+              "description": "The date and time that the message was sent"
+            },
+            {
+              "name": "etag",
+              "key": "etag",
+              "value": "W\/\"61-3feEQt6eaQriP4MRHqwaycfqoPg\"",
+              "description": "An identifier for a specific version of a resource, often a message digest"
+            },
+            {
+              "name": "expect-ct",
+              "key": "expect-ct",
+              "value": "max-age=604800, report-uri=\"https:\/\/report-uri.cloudflare.com\/cdn-cgi\/beacon\/expect-ct\"",
+              "description": "Custom header"
+            },
+            {
+              "name": "server",
+              "key": "server",
+              "value": "cloudflare",
+              "description": "A name for the server"
+            },
+            {
+              "name": "status",
+              "key": "status",
+              "value": "200",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-powered-by",
+              "key": "x-powered-by",
+              "value": "Express",
+              "description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+            },
+            {
+              "name": "x-ratelimit-limit",
+              "key": "x-ratelimit-limit",
+              "value": "1000",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-ratelimit-remaining",
+              "key": "x-ratelimit-remaining",
+              "value": "982",
+              "description": "Custom header"
+            }
+          ],
+          "cookies": [],
+          "mime": null,
+          "text": "{\"success\":true,\"emissions\":{\"CO2\":1.25795808,\"CH4\":0.0013549527,\"N2O\":0.0033976756},\"unit\":\"kg\"}",
+          "language": "json",
+          "rawDataType": "text",
+          "searchResultScrolledTo": -1,
+          "forceNoPretty": false,
+          "write": true,
+          "id": "87ffacf0-202c-dc48-93ed-aaa43754a3b2",
+          "name": "Vehicles example",
+          "isSample": true,
+          "scrollToResult": false,
+          "runTests": false,
+          "request": {
+            "url": "https:\/\/www.carbonhub.xyz\/v1\/vehicle",
+            "pathVariableData": [],
+            "queryParams": [],
+            "headerData": [
+              {
+                "key": "Content-Type",
+                "value": "application\/x-www-form-urlencoded",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              },
+              {
+                "key": "access-key",
+                "value": "<access-key>",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              }
+            ],
+            "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: <access-key>\n",
+            "data": [
+              {
+                "key": "type",
+                "value": "Petrol",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "origin",
+                "value": "Bhubneshwar",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "destination",
+                "value": "Cuttack",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "mileage",
+                "value": "50",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "mileage_unit",
+                "value": "km\/l",
+                "description": "",
+                "type": "text"
+              }
+            ],
+            "method": "POST",
+            "dataMode": "urlencoded"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4a1f55da-49e9-8810-9d16-a8a3f76c605b",
+      "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: {{key}}\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/x-www-form-urlencoded",
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "access-key",
+          "value": "{{key}}",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+      "folder": "440fde61-95d1-aac6-08c2-48b070a1c182",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [
+        {
+          "key": "item",
+          "value": "",
+          "description": "Required: The name of the item for which emission is to be found.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "region",
+          "value": "",
+          "description": "Required: Region in which the item exists.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "quantity",
+          "value": "",
+          "description": "Required: The number of units of the item for which emissions are to be calculated.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "unit",
+          "value": "",
+          "description": "The unit of the element for which emissions are to be calculated.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "multiply",
+          "value": "",
+          "description": "If emissions are to be found for multiple elements.\n\n\n\n\n",
+          "type": "text"
+        }
+      ],
+      "dataMode": "urlencoded",
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1527486832719,
+      "name": "Trees",
+      "description": "Emission route can be requested with tree name and the number of years to find out the CO2 absorption from it per year.",
+      "collectionId": "beae6f70-31b3-35a0-d056-abc9ac595989",
+      "responses": [
+        {
+          "status": "OK",
+          "responseCode": {
+            "code": 200,
+            "name": "OK"
+          },
+          "time": "1381",
+          "headers": [
+            {
+              "name": "access-control-allow-headers",
+              "key": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept",
+              "description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+            },
+            {
+              "name": "access-control-allow-origin",
+              "key": "access-control-allow-origin",
+              "value": "*",
+              "description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+            },
+            {
+              "name": "cf-ray",
+              "key": "cf-ray",
+              "value": "421de53d2f636a67-LHR",
+              "description": "Custom header"
+            },
+            {
+              "name": "content-encoding",
+              "key": "content-encoding",
+              "value": "br",
+              "description": "The type of encoding used on the data."
+            },
+            {
+              "name": "content-type",
+              "key": "content-type",
+              "value": "application\/json; charset=utf-8",
+              "description": "The mime type of this content"
+            },
+            {
+              "name": "date",
+              "key": "date",
+              "value": "Mon, 28 May 2018 04:14:38 GMT",
+              "description": "The date and time that the message was sent"
+            },
+            {
+              "name": "etag",
+              "key": "etag",
+              "value": "W\/\"84-zpsbg\/kNofKup8xaF6A\/U7eKHTw\"",
+              "description": "An identifier for a specific version of a resource, often a message digest"
+            },
+            {
+              "name": "expect-ct",
+              "key": "expect-ct",
+              "value": "max-age=604800, report-uri=\"https:\/\/report-uri.cloudflare.com\/cdn-cgi\/beacon\/expect-ct\"",
+              "description": "Custom header"
+            },
+            {
+              "name": "server",
+              "key": "server",
+              "value": "cloudflare",
+              "description": "A name for the server"
+            },
+            {
+              "name": "status",
+              "key": "status",
+              "value": "200",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-powered-by",
+              "key": "x-powered-by",
+              "value": "Express",
+              "description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+            },
+            {
+              "name": "x-ratelimit-limit",
+              "key": "x-ratelimit-limit",
+              "value": "1000",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-ratelimit-remaining",
+              "key": "x-ratelimit-remaining",
+              "value": "994",
+              "description": "Custom header"
+            }
+          ],
+          "cookies": [],
+          "mime": null,
+          "text": "{\"success\":true,\"emissions\":{\"CO2\":-26.9},\"unit\":\"kg\",\"note\":\"A negative number for emissions signifies that the item absorbs CO2.\"}",
+          "language": "json",
+          "rawDataType": "text",
+          "searchResultScrolledTo": -1,
+          "forceNoPretty": false,
+          "write": true,
+          "id": "9f0aa59b-205d-f40f-b5b1-6f9c46883e52",
+          "name": "Trees example",
+          "isSample": true,
+          "scrollToResult": false,
+          "runTests": false,
+          "request": {
+            "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+            "pathVariableData": [],
+            "queryParams": [],
+            "headerData": [
+              {
+                "key": "Content-Type",
+                "value": "application\/x-www-form-urlencoded",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              },
+              {
+                "key": "access-key",
+                "value": "<access-key>",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              }
+            ],
+            "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: <access-key>\n",
+            "data": [
+              {
+                "key": "item",
+                "value": "Cherry",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "region",
+                "value": "Default",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "quantity",
+                "value": "1",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "unit",
+                "value": "year",
+                "description": "",
+                "type": "text"
+              }
+            ],
+            "method": "POST",
+            "dataMode": "urlencoded"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7b4d11ee-f7e3-2103-a19b-b32c264e6729",
+      "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: {{key}}\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/x-www-form-urlencoded",
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "access-key",
+          "value": "{{key}}",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+      "folder": "440fde61-95d1-aac6-08c2-48b070a1c182",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [
+        {
+          "key": "item",
+          "value": "railcars",
+          "description": "Required: The name of the item for which emission is to be found.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "region",
+          "value": "",
+          "description": "Required: Region in which the item exists.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "quantity",
+          "value": "",
+          "description": "Required: The number of units of the item for which emissions are to be calculated.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "unit",
+          "value": "",
+          "description": "The unit of the element for which emissions are to be calculated.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "multiply",
+          "value": "",
+          "description": "If emissions are to be found for multiple elements.\n\n\n\n\n",
+          "type": "text"
+        }
+      ],
+      "dataMode": "urlencoded",
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1527486809516,
+      "name": "Trains",
+      "description": "Emission route can provide you with the emission generated from a train journey, provided with the distance of the journey.Here the item is the the train type and multiply signifies the number of passengers.",
+      "collectionId": "beae6f70-31b3-35a0-d056-abc9ac595989",
+      "responses": [
+        {
+          "status": "OK",
+          "responseCode": {
+            "code": 200,
+            "name": "OK"
+          },
+          "time": "1388",
+          "headers": [
+            {
+              "name": "access-control-allow-headers",
+              "key": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept",
+              "description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+            },
+            {
+              "name": "access-control-allow-origin",
+              "key": "access-control-allow-origin",
+              "value": "*",
+              "description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+            },
+            {
+              "name": "cf-ray",
+              "key": "cf-ray",
+              "value": "421de292f8c86a67-LHR",
+              "description": "Custom header"
+            },
+            {
+              "name": "content-encoding",
+              "key": "content-encoding",
+              "value": "br",
+              "description": "The type of encoding used on the data."
+            },
+            {
+              "name": "content-type",
+              "key": "content-type",
+              "value": "application\/json; charset=utf-8",
+              "description": "The mime type of this content"
+            },
+            {
+              "name": "date",
+              "key": "date",
+              "value": "Mon, 28 May 2018 04:12:49 GMT",
+              "description": "The date and time that the message was sent"
+            },
+            {
+              "name": "etag",
+              "key": "etag",
+              "value": "W\/\"36-k4bEG48Se7pAu5cTDGX4PwdK9i8\"",
+              "description": "An identifier for a specific version of a resource, often a message digest"
+            },
+            {
+              "name": "expect-ct",
+              "key": "expect-ct",
+              "value": "max-age=604800, report-uri=\"https:\/\/report-uri.cloudflare.com\/cdn-cgi\/beacon\/expect-ct\"",
+              "description": "Custom header"
+            },
+            {
+              "name": "server",
+              "key": "server",
+              "value": "cloudflare",
+              "description": "A name for the server"
+            },
+            {
+              "name": "status",
+              "key": "status",
+              "value": "200",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-powered-by",
+              "key": "x-powered-by",
+              "value": "Express",
+              "description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+            },
+            {
+              "name": "x-ratelimit-limit",
+              "key": "x-ratelimit-limit",
+              "value": "1000",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-ratelimit-remaining",
+              "key": "x-ratelimit-remaining",
+              "value": "995",
+              "description": "Custom header"
+            }
+          ],
+          "cookies": [],
+          "mime": null,
+          "text": "{\"success\":true,\"emissions\":{\"CO2\":123.6},\"unit\":\"kg\"}",
+          "language": "json",
+          "rawDataType": "text",
+          "searchResultScrolledTo": -1,
+          "forceNoPretty": false,
+          "write": true,
+          "id": "2ef21cc8-baba-90fe-295f-e4126e2b6daf",
+          "name": "Trains example",
+          "isSample": true,
+          "scrollToResult": false,
+          "runTests": false,
+          "request": {
+            "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+            "pathVariableData": [],
+            "queryParams": [],
+            "headerData": [
+              {
+                "key": "Content-Type",
+                "value": "application\/x-www-form-urlencoded",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              },
+              {
+                "key": "access-key",
+                "value": "<access-key>",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              }
+            ],
+            "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: <access-key>\n",
+            "data": [
+              {
+                "key": "item",
+                "value": "railcars",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "region",
+                "value": "Default",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "quantity",
+                "value": "1000",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "unit",
+                "value": "kg\/km",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "multiply",
+                "value": "3",
+                "description": "",
+                "type": "text"
+              }
+            ],
+            "method": "POST",
+            "dataMode": "urlencoded"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7f26e7fc-9b04-ec93-61cf-bdb4dd2e6024",
+      "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: {{key}}\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/x-www-form-urlencoded",
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "access-key",
+          "value": "{{key}}",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+      "folder": "440fde61-95d1-aac6-08c2-48b070a1c182",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [
+        {
+          "key": "item",
+          "value": "",
+          "description": "Required: The name of the item for which emission is to be found.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "quantity",
+          "value": "",
+          "description": "Required: The number of units of the item for which emissions are to be calculated.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "unit",
+          "value": "",
+          "description": "The unit of the element for which emissions are to be calculated.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "multiply",
+          "value": "",
+          "description": "If emissions are to be found for multiple elements.\n\n\n\n\n",
+          "type": "text"
+        }
+      ],
+      "dataMode": "urlencoded",
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1527486781350,
+      "name": "Vehicle Fuel",
+      "description": "Emission route can be requested with fuel quantity and type and unit, to return the GHG emission generated on the consumption of the same.",
+      "collectionId": "beae6f70-31b3-35a0-d056-abc9ac595989",
+      "responses": [
+        {
+          "status": "OK",
+          "responseCode": {
+            "code": 200,
+            "name": "OK"
+          },
+          "time": "1380",
+          "headers": [
+            {
+              "name": "access-control-allow-headers",
+              "key": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept",
+              "description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+            },
+            {
+              "name": "access-control-allow-origin",
+              "key": "access-control-allow-origin",
+              "value": "*",
+              "description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+            },
+            {
+              "name": "cf-ray",
+              "key": "cf-ray",
+              "value": "421ddeb2592b6a67-LHR",
+              "description": "Custom header"
+            },
+            {
+              "name": "content-encoding",
+              "key": "content-encoding",
+              "value": "br",
+              "description": "The type of encoding used on the data."
+            },
+            {
+              "name": "content-type",
+              "key": "content-type",
+              "value": "application\/json; charset=utf-8",
+              "description": "The mime type of this content"
+            },
+            {
+              "name": "date",
+              "key": "date",
+              "value": "Mon, 28 May 2018 04:10:10 GMT",
+              "description": "The date and time that the message was sent"
+            },
+            {
+              "name": "etag",
+              "key": "etag",
+              "value": "W\/\"55-DYSKp1J8\/IpSHyrG8yC+ON90AQA\"",
+              "description": "An identifier for a specific version of a resource, often a message digest"
+            },
+            {
+              "name": "expect-ct",
+              "key": "expect-ct",
+              "value": "max-age=604800, report-uri=\"https:\/\/report-uri.cloudflare.com\/cdn-cgi\/beacon\/expect-ct\"",
+              "description": "Custom header"
+            },
+            {
+              "name": "server",
+              "key": "server",
+              "value": "cloudflare",
+              "description": "A name for the server"
+            },
+            {
+              "name": "status",
+              "key": "status",
+              "value": "200",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-powered-by",
+              "key": "x-powered-by",
+              "value": "Express",
+              "description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+            },
+            {
+              "name": "x-ratelimit-limit",
+              "key": "x-ratelimit-limit",
+              "value": "1000",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-ratelimit-remaining",
+              "key": "x-ratelimit-remaining",
+              "value": "996",
+              "description": "Custom header"
+            }
+          ],
+          "cookies": [],
+          "mime": null,
+          "text": "{\"success\":true,\"emissions\":{\"CO2\":4.656,\"CH4\":0.005015,\"N2O\":0.0125756},\"unit\":\"kg\"}",
+          "language": "json",
+          "rawDataType": "text",
+          "searchResultScrolledTo": -1,
+          "forceNoPretty": false,
+          "write": true,
+          "id": "8e7edc5b-3627-0272-6b57-1b4df14f9f8f",
+          "name": "Vehicle Fuel example",
+          "isSample": true,
+          "scrollToResult": false,
+          "runTests": false,
+          "request": {
+            "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+            "pathVariableData": [],
+            "queryParams": [],
+            "headerData": [
+              {
+                "key": "Content-Type",
+                "value": "application\/x-www-form-urlencoded",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              },
+              {
+                "key": "access-key",
+                "value": "<access-key>",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              }
+            ],
+            "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: <access-key>\n",
+            "data": [
+              {
+                "key": "item",
+                "value": "fuelPetrol",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "quantity",
+                "value": "2",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "unit",
+                "value": "L",
+                "description": "",
+                "type": "text"
+              }
+            ],
+            "method": "POST",
+            "dataMode": "urlencoded"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9ad31bc8-73be-0405-9b34-5e6e8b1d7b95",
+      "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: {{key}}\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/x-www-form-urlencoded",
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "access-key",
+          "value": "{{key}}",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "https:\/\/www.carbonhub.xyz\/v1\/appliances",
+      "folder": null,
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [
+        {
+          "key": "appliance",
+          "value": "",
+          "description": "Required: The appliance name.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "type",
+          "value": "",
+          "description": "Required: The type of the appliance. Its necessary if it exists.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "region",
+          "value": "",
+          "description": "Required: Region in which the appliance is used.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "quantity",
+          "value": "",
+          "description": "The number of appliances being used.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "running_time",
+          "value": "",
+          "description": "The number of hours the appliances are being used.\n\n\n\n\n",
+          "type": "text"
+        }
+      ],
+      "dataMode": "urlencoded",
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1527487008948,
+      "name": "Appliances",
+      "description": "This route enables you to find GHG emissions for a number of appliance types for a specific quantity and running time. The emissions are calculated from the electricity based emissions on a particular region.",
+      "collectionId": "beae6f70-31b3-35a0-d056-abc9ac595989",
+      "responses": [
+        {
+          "status": "OK",
+          "responseCode": {
+            "code": 200,
+            "name": "OK"
+          },
+          "time": "1305",
+          "headers": [
+            {
+              "name": "access-control-allow-headers",
+              "key": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept",
+              "description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+            },
+            {
+              "name": "access-control-allow-origin",
+              "key": "access-control-allow-origin",
+              "value": "*",
+              "description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+            },
+            {
+              "name": "cf-ray",
+              "key": "cf-ray",
+              "value": "421df3d18f726a67-LHR",
+              "description": "Custom header"
+            },
+            {
+              "name": "content-encoding",
+              "key": "content-encoding",
+              "value": "br",
+              "description": "The type of encoding used on the data."
+            },
+            {
+              "name": "content-type",
+              "key": "content-type",
+              "value": "application\/json; charset=utf-8",
+              "description": "The mime type of this content"
+            },
+            {
+              "name": "date",
+              "key": "date",
+              "value": "Mon, 28 May 2018 04:24:35 GMT",
+              "description": "The date and time that the message was sent"
+            },
+            {
+              "name": "etag",
+              "key": "etag",
+              "value": "W\/\"63-cIxnUDwRpLBBtzSwGDOY0F8assA\"",
+              "description": "An identifier for a specific version of a resource, often a message digest"
+            },
+            {
+              "name": "expect-ct",
+              "key": "expect-ct",
+              "value": "max-age=604800, report-uri=\"https:\/\/report-uri.cloudflare.com\/cdn-cgi\/beacon\/expect-ct\"",
+              "description": "Custom header"
+            },
+            {
+              "name": "server",
+              "key": "server",
+              "value": "cloudflare",
+              "description": "A name for the server"
+            },
+            {
+              "name": "status",
+              "key": "status",
+              "value": "200",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-powered-by",
+              "key": "x-powered-by",
+              "value": "Express",
+              "description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+            },
+            {
+              "name": "x-ratelimit-limit",
+              "key": "x-ratelimit-limit",
+              "value": "1000",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-ratelimit-remaining",
+              "key": "x-ratelimit-remaining",
+              "value": "989",
+              "description": "Custom header"
+            }
+          ],
+          "cookies": [],
+          "mime": null,
+          "text": "{\"success\":true,\"emissions\":{\"CO2\":2.3410470499,\"CH4\":0.0000272584,\"N2O\":0.0000353119},\"unit\":\"kg\"}",
+          "language": "json",
+          "rawDataType": "text",
+          "searchResultScrolledTo": -1,
+          "forceNoPretty": false,
+          "write": true,
+          "id": "f92d86a6-3d4e-a4fd-52d8-9805f81eb227",
+          "name": "Appliances example",
+          "isSample": true,
+          "scrollToResult": false,
+          "runTests": false,
+          "request": {
+            "url": "https:\/\/www.carbonhub.xyz\/v1\/appliances",
+            "pathVariableData": [],
+            "queryParams": [],
+            "headerData": [
+              {
+                "key": "Content-Type",
+                "value": "application\/x-www-form-urlencoded",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              },
+              {
+                "key": "access-key",
+                "value": "<access-key>",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              }
+            ],
+            "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: <access-key>\n",
+            "data": [
+              {
+                "key": "appliance",
+                "value": "Water heater",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "type",
+                "value": "instantaneous",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "region",
+                "value": "India",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "quantity",
+                "value": "1",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "running_time",
+                "value": "3",
+                "description": "",
+                "type": "text"
+              }
+            ],
+            "method": "POST",
+            "dataMode": "urlencoded"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9bfa317c-2c84-19b7-fd61-f08ab782e912",
+      "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: {{key}}\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/x-www-form-urlencoded",
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "access-key",
+          "value": "{{key}}",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "https:\/\/www.carbonhub.xyz\/v1\/poultry",
+      "folder": null,
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [
+        {
+          "key": "type",
+          "value": "",
+          "description": "Required: The type of the poultry meat(and egg)",
+          "type": "text"
+        },
+        {
+          "key": "region",
+          "value": "",
+          "description": "Region in which the poultry meat(and egg) is produced. By default we use average of all regions.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "quantity",
+          "value": "",
+          "description": "The weight(number in case of egg) of poultry meat in production. ",
+          "type": "text"
+        }
+      ],
+      "dataMode": "urlencoded",
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1527486948584,
+      "name": "Poultry",
+      "description": "This route enables you to find GHG emissions for different type of Poutry meat production. In this we consider the factors like Production emission, Water loss factor, Moisture loss factor, Post-farmgate emissions in different conditions according to region in which they are found. ",
+      "collectionId": "beae6f70-31b3-35a0-d056-abc9ac595989",
+      "responses": [
+        {
+          "status": "OK",
+          "responseCode": {
+            "code": 200,
+            "name": "OK"
+          },
+          "time": "1316",
+          "headers": [
+            {
+              "name": "access-control-allow-headers",
+              "key": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept",
+              "description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+            },
+            {
+              "name": "access-control-allow-origin",
+              "key": "access-control-allow-origin",
+              "value": "*",
+              "description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+            },
+            {
+              "name": "cf-ray",
+              "key": "cf-ray",
+              "value": "421debf65c3c6a67-LHR",
+              "description": "Custom header"
+            },
+            {
+              "name": "content-encoding",
+              "key": "content-encoding",
+              "value": "br",
+              "description": "The type of encoding used on the data."
+            },
+            {
+              "name": "content-type",
+              "key": "content-type",
+              "value": "application\/json; charset=utf-8",
+              "description": "The mime type of this content"
+            },
+            {
+              "name": "date",
+              "key": "date",
+              "value": "Mon, 28 May 2018 04:19:14 GMT",
+              "description": "The date and time that the message was sent"
+            },
+            {
+              "name": "etag",
+              "key": "etag",
+              "value": "W\/\"3a-qUrXUopKTQkN9tIpM\/LzvyqOem4\"",
+              "description": "An identifier for a specific version of a resource, often a message digest"
+            },
+            {
+              "name": "expect-ct",
+              "key": "expect-ct",
+              "value": "max-age=604800, report-uri=\"https:\/\/report-uri.cloudflare.com\/cdn-cgi\/beacon\/expect-ct\"",
+              "description": "Custom header"
+            },
+            {
+              "name": "server",
+              "key": "server",
+              "value": "cloudflare",
+              "description": "A name for the server"
+            },
+            {
+              "name": "status",
+              "key": "status",
+              "value": "200",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-powered-by",
+              "key": "x-powered-by",
+              "value": "Express",
+              "description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+            },
+            {
+              "name": "x-ratelimit-limit",
+              "key": "x-ratelimit-limit",
+              "value": "1000",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-ratelimit-remaining",
+              "key": "x-ratelimit-remaining",
+              "value": "992",
+              "description": "Custom header"
+            }
+          ],
+          "cookies": [],
+          "mime": null,
+          "text": "{\"success\":true,\"emissions\":{\"CO2\":20.647125},\"unit\":\"kg\"}",
+          "language": "json",
+          "rawDataType": "text",
+          "searchResultScrolledTo": -1,
+          "forceNoPretty": false,
+          "write": true,
+          "id": "b838874d-2c9f-7ca0-7b9d-8701067dcc24",
+          "name": "Poultry example",
+          "isSample": true,
+          "scrollToResult": false,
+          "runTests": false,
+          "request": {
+            "url": "https:\/\/www.carbonhub.xyz\/v1\/poultry",
+            "pathVariableData": [],
+            "queryParams": [],
+            "headerData": [
+              {
+                "key": "Content-Type",
+                "value": "application\/x-www-form-urlencoded",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              },
+              {
+                "key": "access-key",
+                "value": "<access-key>",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              }
+            ],
+            "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: <access-key>\n",
+            "data": [
+              {
+                "key": "type",
+                "value": "Broiler chicken",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "region",
+                "value": "British columbia",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "quantity",
+                "value": "3",
+                "description": "",
+                "type": "text"
+              }
+            ],
+            "method": "POST",
+            "dataMode": "urlencoded"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d9a80bad-dd1c-c751-98aa-960fade2cf7d",
+      "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: {{key}}\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/x-www-form-urlencoded",
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "access-key",
+          "value": "{{key}}",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+      "folder": "440fde61-95d1-aac6-08c2-48b070a1c182",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [
+        {
+          "key": "item",
+          "value": "electricity",
+          "type": "text",
+          "description": "Required: The name of the item for which emission is to be found.\n\n\n"
+        },
+        {
+          "key": "region",
+          "value": "",
+          "type": "text",
+          "description": "Required: Region in which the item exists.\n\n\n"
+        },
+        {
+          "key": "unit",
+          "value": "",
+          "type": "text",
+          "description": "The unit of the element for which emissions are to be calculated.\n\n\n"
+        },
+        {
+          "key": "quantity",
+          "value": "",
+          "description": "Required: The number of units of the item for which emissions are to be calculated.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "multiply",
+          "value": "",
+          "description": "If emissions are to be found for multiple elements.\n\n\n\n\n",
+          "type": "text"
+        }
+      ],
+      "dataMode": "urlencoded",
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1527486741265,
+      "name": "Electricity",
+      "description": "The emission route can be requested to find emission for any country for per kilowatt of electricity consumed. It can also deliver components of emission like generation and transmission & dissipation when queried with item names generation and td respectively. The region that is unavailable results in returning the emission for the Default region which is calculated as a average of the whole data.",
+      "collectionId": "beae6f70-31b3-35a0-d056-abc9ac595989",
+      "responses": [
+        {
+          "status": "OK",
+          "responseCode": {
+            "code": 200,
+            "name": "OK"
+          },
+          "time": "1327",
+          "headers": [
+            {
+              "name": "access-control-allow-headers",
+              "key": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept",
+              "description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+            },
+            {
+              "name": "access-control-allow-origin",
+              "key": "access-control-allow-origin",
+              "value": "*",
+              "description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+            },
+            {
+              "name": "cf-ray",
+              "key": "cf-ray",
+              "value": "421dcdcc9ce06a67-LHR",
+              "description": "Custom header"
+            },
+            {
+              "name": "content-encoding",
+              "key": "content-encoding",
+              "value": "br",
+              "description": "The type of encoding used on the data."
+            },
+            {
+              "name": "content-type",
+              "key": "content-type",
+              "value": "application\/json; charset=utf-8",
+              "description": "The mime type of this content"
+            },
+            {
+              "name": "date",
+              "key": "date",
+              "value": "Mon, 28 May 2018 03:58:38 GMT",
+              "description": "The date and time that the message was sent"
+            },
+            {
+              "name": "etag",
+              "key": "etag",
+              "value": "W\/\"62-o4vrHYKKdkwXhUemZyixVvV+RFs\"",
+              "description": "An identifier for a specific version of a resource, often a message digest"
+            },
+            {
+              "name": "expect-ct",
+              "key": "expect-ct",
+              "value": "max-age=604800, report-uri=\"https:\/\/report-uri.cloudflare.com\/cdn-cgi\/beacon\/expect-ct\"",
+              "description": "Custom header"
+            },
+            {
+              "name": "server",
+              "key": "server",
+              "value": "cloudflare",
+              "description": "A name for the server"
+            },
+            {
+              "name": "status",
+              "key": "status",
+              "value": "200",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-powered-by",
+              "key": "x-powered-by",
+              "value": "Express",
+              "description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+            },
+            {
+              "name": "x-ratelimit-limit",
+              "key": "x-ratelimit-limit",
+              "value": "1000",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-ratelimit-remaining",
+              "key": "x-ratelimit-remaining",
+              "value": "998",
+              "description": "Custom header"
+            }
+          ],
+          "cookies": [],
+          "mime": null,
+          "text": "{\"success\":true,\"emissions\":{\"CO2\":2.8164596816,\"CH4\":0.000032794,\"N2O\":0.0000424829},\"unit\":\"kg\"}",
+          "language": "json",
+          "rawDataType": "text",
+          "searchResultScrolledTo": -1,
+          "forceNoPretty": false,
+          "write": true,
+          "id": "aadac881-3c9d-229e-d4b8-d7fc4170ff8c",
+          "name": "Electricity example",
+          "isSample": true,
+          "scrollToResult": false,
+          "runTests": false,
+          "request": {
+            "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+            "pathVariableData": [],
+            "queryParams": [],
+            "headerData": [
+              {
+                "key": "Content-Type",
+                "value": "application\/x-www-form-urlencoded",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              },
+              {
+                "key": "access-key",
+                "value": "<access-key>",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              }
+            ],
+            "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: <access-key>\n",
+            "data": [
+              {
+                "key": "item",
+                "value": "electricity",
+                "type": "text"
+              },
+              {
+                "key": "region",
+                "value": "india",
+                "type": "text"
+              },
+              {
+                "key": "unit",
+                "value": "kWh",
+                "type": "text"
+              },
+              {
+                "key": "quantity",
+                "value": "1.564",
+                "description": "",
+                "type": "text"
+              }
+            ],
+            "method": "POST",
+            "dataMode": "urlencoded"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dab5919a-98c9-7689-e321-df133f17ef42",
+      "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: {{key}}\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/x-www-form-urlencoded",
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "access-key",
+          "value": "{{key}}",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+      "folder": "440fde61-95d1-aac6-08c2-48b070a1c182",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [
+        {
+          "key": "item",
+          "value": "",
+          "description": "Required: The name of the item for which emission is to be found.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "unit",
+          "value": "",
+          "description": "The unit of the element for which emissions are to be calculated.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "quantity",
+          "value": "",
+          "description": "Required: The number of units of the item for which emissions are to be calculated.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "multiply",
+          "value": "",
+          "description": "If emissions are to be found for multiple elements.\n\n\n\n\n",
+          "type": "text"
+        }
+      ],
+      "dataMode": "urlencoded",
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1527486759141,
+      "name": "Airplane fuel",
+      "description": "Airplane fuel converts the distance flown by a particular air plane to corresponing CO2 emission.",
+      "collectionId": "beae6f70-31b3-35a0-d056-abc9ac595989",
+      "responses": [
+        {
+          "status": "OK",
+          "responseCode": {
+            "code": 200,
+            "name": "OK"
+          },
+          "time": "1434",
+          "headers": [
+            {
+              "name": "access-control-allow-headers",
+              "key": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept",
+              "description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+            },
+            {
+              "name": "access-control-allow-origin",
+              "key": "access-control-allow-origin",
+              "value": "*",
+              "description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+            },
+            {
+              "name": "cf-ray",
+              "key": "cf-ray",
+              "value": "421dd764bb5d6a67-LHR",
+              "description": "Custom header"
+            },
+            {
+              "name": "content-encoding",
+              "key": "content-encoding",
+              "value": "br",
+              "description": "The type of encoding used on the data."
+            },
+            {
+              "name": "content-type",
+              "key": "content-type",
+              "value": "application\/json; charset=utf-8",
+              "description": "The mime type of this content"
+            },
+            {
+              "name": "date",
+              "key": "date",
+              "value": "Mon, 28 May 2018 04:05:11 GMT",
+              "description": "The date and time that the message was sent"
+            },
+            {
+              "name": "etag",
+              "key": "etag",
+              "value": "W\/\"39-vEUs+4WreP7HgGcWpk4mKV9Xnuw\"",
+              "description": "An identifier for a specific version of a resource, often a message digest"
+            },
+            {
+              "name": "expect-ct",
+              "key": "expect-ct",
+              "value": "max-age=604800, report-uri=\"https:\/\/report-uri.cloudflare.com\/cdn-cgi\/beacon\/expect-ct\"",
+              "description": "Custom header"
+            },
+            {
+              "name": "server",
+              "key": "server",
+              "value": "cloudflare",
+              "description": "A name for the server"
+            },
+            {
+              "name": "status",
+              "key": "status",
+              "value": "200",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-powered-by",
+              "key": "x-powered-by",
+              "value": "Express",
+              "description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+            },
+            {
+              "name": "x-ratelimit-limit",
+              "key": "x-ratelimit-limit",
+              "value": "1000",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-ratelimit-remaining",
+              "key": "x-ratelimit-remaining",
+              "value": "997",
+              "description": "Custom header"
+            }
+          ],
+          "cookies": [],
+          "mime": null,
+          "text": "{\"success\":true,\"emissions\":{\"CO2\":18.39436},\"unit\":\"kg\"}",
+          "language": "json",
+          "rawDataType": "text",
+          "searchResultScrolledTo": -1,
+          "forceNoPretty": false,
+          "write": true,
+          "id": "3ccbdacd-102d-974e-da73-b145843b0384",
+          "name": "Airplane fuel example",
+          "isSample": true,
+          "scrollToResult": false,
+          "runTests": false,
+          "request": {
+            "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+            "pathVariableData": [],
+            "queryParams": [],
+            "headerData": [
+              {
+                "key": "Content-Type",
+                "value": "application\/x-www-form-urlencoded",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              },
+              {
+                "key": "access-key",
+                "value": "<access-key>",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              }
+            ],
+            "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: <access-key>\n",
+            "data": [
+              {
+                "key": "item",
+                "value": "airplane model A380",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "unit",
+                "value": "nm",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "quantity",
+                "value": "125",
+                "description": "",
+                "type": "text"
+              }
+            ],
+            "method": "POST",
+            "dataMode": "urlencoded"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dfd7c95f-d2b4-eeef-f6c6-370ecdc630c4",
+      "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: {{key}}\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/x-www-form-urlencoded",
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "access-key",
+          "value": "{{key}}",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "https:\/\/www.carbonhub.xyz\/v1\/quantity",
+      "folder": null,
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [
+        {
+          "key": "item",
+          "value": "",
+          "description": "Required: The item name.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "region",
+          "value": "",
+          "description": "Required: Region in which the item is used.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "emission",
+          "value": "",
+          "description": "Required: The quantity of emission recorded.\n\n\n\n\n",
+          "type": "text"
+        }
+      ],
+      "dataMode": "urlencoded",
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1527486994792,
+      "name": "Quantity",
+      "description": "This route is can be used to retrieve the quantity of a certain element provided the CO2 emission for the specific item is already known. ",
+      "collectionId": "beae6f70-31b3-35a0-d056-abc9ac595989",
+      "responses": [
+        {
+          "status": "OK",
+          "responseCode": {
+            "code": 200,
+            "name": "OK"
+          },
+          "time": "1317",
+          "headers": [
+            {
+              "name": "access-control-allow-headers",
+              "key": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept",
+              "description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+            },
+            {
+              "name": "access-control-allow-origin",
+              "key": "access-control-allow-origin",
+              "value": "*",
+              "description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+            },
+            {
+              "name": "cf-ray",
+              "key": "cf-ray",
+              "value": "421def6f9f596a67-LHR",
+              "description": "Custom header"
+            },
+            {
+              "name": "content-encoding",
+              "key": "content-encoding",
+              "value": "br",
+              "description": "The type of encoding used on the data."
+            },
+            {
+              "name": "content-type",
+              "key": "content-type",
+              "value": "application\/json; charset=utf-8",
+              "description": "The mime type of this content"
+            },
+            {
+              "name": "date",
+              "key": "date",
+              "value": "Mon, 28 May 2018 04:21:36 GMT",
+              "description": "The date and time that the message was sent"
+            },
+            {
+              "name": "etag",
+              "key": "etag",
+              "value": "W\/\"94-s\/NHLhO\/D6YhjIv2S+2GTpsjlDE\"",
+              "description": "An identifier for a specific version of a resource, often a message digest"
+            },
+            {
+              "name": "expect-ct",
+              "key": "expect-ct",
+              "value": "max-age=604800, report-uri=\"https:\/\/report-uri.cloudflare.com\/cdn-cgi\/beacon\/expect-ct\"",
+              "description": "Custom header"
+            },
+            {
+              "name": "server",
+              "key": "server",
+              "value": "cloudflare",
+              "description": "A name for the server"
+            },
+            {
+              "name": "status",
+              "key": "status",
+              "value": "200",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-powered-by",
+              "key": "x-powered-by",
+              "value": "Express",
+              "description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+            },
+            {
+              "name": "x-ratelimit-limit",
+              "key": "x-ratelimit-limit",
+              "value": "1000",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-ratelimit-remaining",
+              "key": "x-ratelimit-remaining",
+              "value": "991",
+              "description": "Custom header"
+            }
+          ],
+          "cookies": [],
+          "mime": null,
+          "text": "{\"success\":true,\"quantity\":2.015314173084483,\"note\":\"This is a estimate for the quantity of lamp that could be the cause of the emission provided.\"}",
+          "language": "json",
+          "rawDataType": "text",
+          "searchResultScrolledTo": -1,
+          "forceNoPretty": false,
+          "write": true,
+          "id": "00382d9d-9983-26d6-eabf-d2b652f2b93b",
+          "name": "Quantity example",
+          "isSample": true,
+          "scrollToResult": false,
+          "runTests": false,
+          "request": {
+            "url": "https:\/\/www.carbonhub.xyz\/v1\/quantity",
+            "pathVariableData": [],
+            "queryParams": [],
+            "headerData": [
+              {
+                "key": "Content-Type",
+                "value": "application\/x-www-form-urlencoded",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              },
+              {
+                "key": "access-key",
+                "value": "<access-key>",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              }
+            ],
+            "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: <access-key>\n",
+            "data": [
+              {
+                "key": "item",
+                "value": "lamp",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "region",
+                "value": "ohio",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "emission",
+                "value": "91",
+                "description": "",
+                "type": "text"
+              }
+            ],
+            "method": "POST",
+            "dataMode": "urlencoded"
+          }
+        }
+      ]
+    },
+    {
+      "id": "e6618839-cd7c-65bb-c6a2-c3cc67f96fdd",
+      "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: {{key}}\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/x-www-form-urlencoded",
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "access-key",
+          "value": "{{key}}",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+      "folder": "440fde61-95d1-aac6-08c2-48b070a1c182",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [
+        {
+          "key": "item",
+          "value": "",
+          "description": "Required: The name of the item for which emission is to be found.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "region",
+          "value": "",
+          "description": "Required: Region in which the item exists.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "unit",
+          "value": "",
+          "description": "The unit of the element for which emissions are to be calculated.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "quantity",
+          "value": "",
+          "description": "Required: The number of units of the item for which emissions are to be calculated.\n\n\n",
+          "type": "text"
+        },
+        {
+          "key": "multiply",
+          "value": "",
+          "description": "If emissions are to be found for multiple elements.\n\n\n\n\n",
+          "type": "text"
+        }
+      ],
+      "dataMode": "urlencoded",
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1527486894127,
+      "name": "Appliances",
+      "description": "Emission route can be requested with a appliance name and the number of units and no of hours to find out the CO2 emission for the running time.",
+      "collectionId": "beae6f70-31b3-35a0-d056-abc9ac595989",
+      "responses": [
+        {
+          "status": "OK",
+          "responseCode": {
+            "code": 200,
+            "name": "OK"
+          },
+          "time": "1243",
+          "headers": [
+            {
+              "name": "access-control-allow-headers",
+              "key": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept",
+              "description": "Used in response to a preflight request to indicate which HTTP headers can be used when making the actual request."
+            },
+            {
+              "name": "access-control-allow-origin",
+              "key": "access-control-allow-origin",
+              "value": "*",
+              "description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+            },
+            {
+              "name": "cf-ray",
+              "key": "cf-ray",
+              "value": "421de8a9c9f06a67-LHR",
+              "description": "Custom header"
+            },
+            {
+              "name": "content-encoding",
+              "key": "content-encoding",
+              "value": "br",
+              "description": "The type of encoding used on the data."
+            },
+            {
+              "name": "content-type",
+              "key": "content-type",
+              "value": "application\/json; charset=utf-8",
+              "description": "The mime type of this content"
+            },
+            {
+              "name": "date",
+              "key": "date",
+              "value": "Mon, 28 May 2018 04:16:58 GMT",
+              "description": "The date and time that the message was sent"
+            },
+            {
+              "name": "etag",
+              "key": "etag",
+              "value": "W\/\"64-qveQ5HxG8ddDLVULbX61GFN21D8\"",
+              "description": "An identifier for a specific version of a resource, often a message digest"
+            },
+            {
+              "name": "expect-ct",
+              "key": "expect-ct",
+              "value": "max-age=604800, report-uri=\"https:\/\/report-uri.cloudflare.com\/cdn-cgi\/beacon\/expect-ct\"",
+              "description": "Custom header"
+            },
+            {
+              "name": "server",
+              "key": "server",
+              "value": "cloudflare",
+              "description": "A name for the server"
+            },
+            {
+              "name": "status",
+              "key": "status",
+              "value": "200",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-powered-by",
+              "key": "x-powered-by",
+              "value": "Express",
+              "description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+            },
+            {
+              "name": "x-ratelimit-limit",
+              "key": "x-ratelimit-limit",
+              "value": "1000",
+              "description": "Custom header"
+            },
+            {
+              "name": "x-ratelimit-remaining",
+              "key": "x-ratelimit-remaining",
+              "value": "993",
+              "description": "Custom header"
+            }
+          ],
+          "cookies": [],
+          "mime": null,
+          "text": "{\"success\":true,\"emissions\":{\"CO2\":21.5292882176,\"CH4\":0.0003433984,\"N2O\":0.0002508032},\"unit\":\"kg\"}",
+          "language": "json",
+          "rawDataType": "text",
+          "searchResultScrolledTo": -1,
+          "forceNoPretty": false,
+          "write": true,
+          "id": "62c8969c-6c62-6783-e028-78a747e65506",
+          "name": "Appliances example",
+          "isSample": true,
+          "scrollToResult": false,
+          "runTests": false,
+          "request": {
+            "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+            "pathVariableData": [],
+            "queryParams": [],
+            "headerData": [
+              {
+                "key": "Content-Type",
+                "value": "application\/x-www-form-urlencoded",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              },
+              {
+                "key": "access-key",
+                "value": "<access-key>",
+                "description": "",
+                "enabled": true,
+                "warning": ""
+              }
+            ],
+            "headers": "Content-Type: application\/x-www-form-urlencoded\naccess-key: <access-key>\n",
+            "data": [
+              {
+                "key": "item",
+                "value": "Air conditioner large",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "region",
+                "value": "Africa",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "unit",
+                "value": "kWh",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "quantity",
+                "value": "1",
+                "description": "",
+                "type": "text"
+              },
+              {
+                "key": "multiply",
+                "value": "8",
+                "description": "",
+                "type": "text"
+              }
+            ],
+            "method": "POST",
+            "dataMode": "urlencoded"
+          }
+        }
+      ]
+    }
+  ]
 }
