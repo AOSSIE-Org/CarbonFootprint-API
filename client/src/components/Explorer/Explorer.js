@@ -4,6 +4,7 @@ import ExplorerRequest from './ExplorerRequest';
 import ExplorerQuery from './ExplorerQuery';
 import ExplorerResponse from './ExplorerResponse';
 import ExplorerParams from './ExplorerParams';
+import { Link } from 'react-router-dom';
 
 export default class Explorer extends Component {
 
@@ -45,7 +46,7 @@ export default class Explorer extends Component {
     }
 
     runInPostman() {
-
+        window.open("https://www.getpostman.com/run-collection/34bc40fe53b3112dc95e", '_blank');
     }
 
     render() {
@@ -101,7 +102,6 @@ export default class Explorer extends Component {
                             style={styles.button}
                             onClick={this.getCode}
                         />
-
                         <Button
                             content='Run in Postman'
                             style={styles.button}
