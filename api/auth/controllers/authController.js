@@ -71,30 +71,30 @@ let apiKey = (mail, action) => {
     if (action == 'create') {
       let create = createApiKey(mail);
       create
-        .then(function (result) {
+        .then(result => {
           resolve(result);
         })
-        .catch(function (reject) {
+        .catch(reject => {
           reject('User not found');
         });
     }
     if (action == 'retrieve') {
       let apiToken = retrieveApiKey(mail);
       apiToken
-        .then(function (result) {
+        .then(result => {
           resolve(result);
         })
-        .catch(function (err) {
+        .catch(err => {
           reject(err);
         });
     }
     if (action == 'revoke') {
       let apiToken = deleteApiKey(mail);
       apiToken
-        .then(function (result) {
+        .then(result => {
           resolve(result);
         })
-        .catch(function (err) {
+        .catch(err => {
           reject(err);
         });
     }
@@ -102,8 +102,7 @@ let apiKey = (mail, action) => {
 };
 
 exports.auth = async function (email, action) {
-  let auth = await apiKey(email, action);
-  return auth;
+    return await apiKey(email, action);
 };
 
 //Verify API Key
@@ -162,15 +161,8 @@ exports.verifyApiKey = (req, res, next) => {
           }
         );
       } else {
-        res.status(401).json({
-          success: false,
-          err: 'Your API call limits are deplenished'
-        });
+        res.sendJsonError('Your API call limits are deplenished', 401);
       }
-    } else
-      res.status(401).json({
-        success: false,
-        err: 'Unauthorised or missing access token'
-      });
+    } else res.sendJsonError('Unauthorised or missing access token', 401);
   });
 };

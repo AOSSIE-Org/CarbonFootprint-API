@@ -295,7 +295,7 @@ describe("API endpoint testing", () => {
       });
   });
 
-  it("should return correct value for appliance large air conditioner", (done) => {
+  it("should return correct value for appliance instantaneous Water heater", (done) => {
     server
       .post('/v1/appliances')
       .set('access-key', API_TEST_KEY)

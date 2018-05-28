@@ -70,6 +70,7 @@ yarn run build
       ```
       yarn run appliance
       ```
+* For details about using API, checkout [postman](./Postman-guidelines) folder for futher instructions to get an example of all the APIs.
 
 Note : For details on [yarn](https://yarnpkg.com) installation and usage [click here](https://yarnpkg.com/en/docs/usage)
 

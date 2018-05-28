@@ -1,14 +1,14 @@
 //To run this script use "node vehicle_db.js"
 // database setup
-var mongoose = require('mongoose');
+const mongoose = require('mongoose');
 // get the database configuration file
 try {
-  var config = require('../../../config.json');
+  const config = require('../../../config.json');
 } catch (e) {
   console.log(`Database configuration file "config.json" is missing.`);
   process.exit(1);
 }
-var db = config.database;
+let db = config.database;
 
 // connect to the database
 mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, { useMongoClient: true });
@@ -28,10 +28,10 @@ mongoose.connection.on('error', (err) => {
 mongoose.connection.on('disconnected', () => {
   console.log('Database disconnected');
 });
-var Emission = require('../models/emissionModel.js')
-var json = require('../../../raw_data/fuels.json');
+let Emission = require('../models/emissionModel.js')
+let json = require('../../../raw_data/fuels.json');
 for(js in json){
-  var obj = new Emission();
+  let obj = new Emission();
   obj.item=json[js]['langKey'];
   obj.region="Default";
   obj.quantity=[1];
@@ -55,7 +55,7 @@ for(js in json){
     	quantity: [json[js]['GHGEmission']],
     	unit: "kg GHG/L"
     }]
-  obj.save(function(err){
+  obj.save(err => {
     if ( err ) throw err;
     console.log("Object Saved Successfully");
   });
