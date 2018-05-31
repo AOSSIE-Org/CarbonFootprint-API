@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Grid, Button } from 'semantic-ui-react';
+import { Grid, Button, Modal } from 'semantic-ui-react';
 import { Link } from 'react-router-dom'
 import ExplorerRequest from './ExplorerRequest';
 import ExplorerQuery from './ExplorerQuery';
 import ExplorerResponse from './ExplorerResponse';
 import ExplorerParams from './ExplorerParams';
+import SnippetModal from './SnippetModal';
 
 /* Extended react.Component class as Explorer */
 export default class Explorer extends Component {
@@ -67,10 +68,17 @@ export default class Explorer extends Component {
           </Grid>
           <br/>
           <div style={styles.div}>
-            <Button
-                content='</> Get Code'
-                style={styles.button}
-            />
+            <Modal trigger={<Button style={styles.button}> Get Code </Button>} closeIcon>
+              <Modal.Header>Generate Code</Modal.Header>
+              <Modal.Content>
+                <SnippetModal
+                    accessKey={this.state.key}
+                    url={this.state.url}
+                    method={this.state.method}
+                    params={this.state.params}
+                />
+              </Modal.Content>
+            </Modal>
             <Link to='https://app.getpostman.com/run-collection/9f30a9efdc0b87ca59af' target="_blank">
               <Button
                   content='Run in Postman'
