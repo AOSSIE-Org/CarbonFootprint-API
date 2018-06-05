@@ -16,6 +16,16 @@ export default class ExplorerQuery extends Component {
       errorMessage: '',
       query: {}
     };
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+  /**
+   * Function to handle the change in textboxes.
+   * @param {object} event Event Object
+   */
+  handleChange (event) {
+    this.setState({ [event.target.name]: event.target.value });
+    this.props.passData(event.target.name, event.target.value);
   }
 
   /**
@@ -25,7 +35,7 @@ export default class ExplorerQuery extends Component {
     return (
         <Segment style={styles.body}>
           <Form>
-            <TextArea autoHeight style={styles.textArea}/>
+            <TextArea name='query' autoHeight style={styles.textArea} onChange={this.handleChange}/>
           </Form>
         </Segment>
     );

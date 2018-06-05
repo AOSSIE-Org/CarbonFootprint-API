@@ -12,7 +12,7 @@ export default class SnippetModal extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      params: this.props.params,
+      query: this.props.query,
       method: this.props.method,
       url: this.props.url,
       key: this.props.accessKey,
@@ -34,11 +34,23 @@ export default class SnippetModal extends Component {
   }
 
   /**
+   * Inherit function from react.Component handle props from parent
+   * react component
+   */
+  componentWillReceiveProps(nextProps){
+    this.setState({
+      query: nextProps.query,
+      method: nextProps.method,
+      url: nextProps.url
+    });
+  }
+
+  /**
    * Function to handle the change in dropdown.
-   * @param {object} e Event Object
+   * @param {object} event Event Object
    * @param {string} value Value of the selected language
    */
-  handleChange(e, {value}) {
+  handleChange(event, {value}) {
     this.setState({language: value});
     this.getSnippet(value);
   }
@@ -50,8 +62,8 @@ export default class SnippetModal extends Component {
   getSnippet(value) {
     if (this.state.method && this.state.url && this.state.key) {
       let snippet = new HTTPSnippet({
-        method: this.state.method,
-        url: this.state.url,
+        method: this.state.method.toUpperCase(),
+        url: 'https://carbonhub.xyz/v1/'+this.state.url,
         httpVersion: 'HTTP/1.1',
         headers: [
           {name: 'Content-Type', value: 'application/json'},
@@ -60,7 +72,7 @@ export default class SnippetModal extends Component {
         ],
         postData: {
           mimeType: 'text/json',
-          text: `${JSON.stringify(this.state.params)}`
+          text: this.state.query.replace(/\n/g, '')
         }
       });
       this.setState({

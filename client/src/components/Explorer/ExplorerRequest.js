@@ -20,20 +20,23 @@ export default class ExplorerRequest extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      key: false,
+      key: this.props.accessKey,
       error: false,
       errorMessage: '',
-      method: 'GET',
-      url: ''
+      method: this.props.method,
+      url: this.props.url
     };
-    this.getAPIKey = this.getAPIKey.bind(this);
     this.executeQuery = this.executeQuery.bind(this);
+    this.handleChange = this.handleChange.bind(this);
   }
 
   /**
-   * Method to retrieve the API Key or generate a new one
+   * Inherit function from react.Component handle props from parent
+   * react component
    */
-  getAPIKey() {};
+  componentWillReceiveProps(nextProps){
+    this.setState({key: nextProps.accessKey});
+  }
 
   /**
    * Method to execute the current query
@@ -45,6 +48,18 @@ export default class ExplorerRequest extends Component {
    * react component
    */
   componentDidMount() {}
+
+  /**
+   * Function to handle the change in textboxes.
+   * @param {object} event Event Object
+   * @param {object} data Data Object
+   */
+  handleChange (event, data) {
+    let value = event.target.value || data.value;
+    let key = event.target.name || data.name;
+    this.setState({[key]: value});
+    this.props.passData(key, value);
+  }
 
   /**
    * Inherited function from react.Component to render to DOM object into html
@@ -67,28 +82,29 @@ export default class ExplorerRequest extends Component {
           <Form>
             <div style={styles.div}>
               <Form.Group inline style={styles.form}>
-                <Input label={{basic: true, content: 'API Key: '}}
+                <Input name='key'
+                       value={this.state.key}
+                       label={{basic: true, content: 'API Key: '}}
                        labelPosition='left'
                        style={styles.inputKey}
+                       onChange={this.handleChange}
                 />
               </Form.Group>
-              <Button
-                  content='Get API Key'
-                  onClick={this.getAPIKey}
-                  style={styles.button}
-                  size='small'
-              />
             </div>
             <div style={styles.div}>
               <Form.Group style={styles.form}>
-                <Dropdown placeholder='Method'
+                <Dropdown name='method'
+                          placeholder='Method'
                           options={options}
-                          defaultValue={options[0].value}
+                          defaultValue={options[1].value}
                           style={styles.dropdown}
+                          onChange={this.handleChange}
                 />
-                <Input
-                    label={<label style={styles.label}>http://carbonhub.xyz/v1/</label>}
-                    style={styles.inputUrl}
+                <Input name='url'
+                       value={this.state.url}
+                       label={<label style={styles.label}>http://carbonhub.xyz/v1/</label>}
+                       style={styles.inputUrl}
+                       onChange={this.handleChange}
                 />
               </Form.Group>
               <Button

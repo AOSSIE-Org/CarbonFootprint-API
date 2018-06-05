@@ -6,6 +6,7 @@ import ExplorerQuery from './ExplorerQuery';
 import ExplorerResponse from './ExplorerResponse';
 import ExplorerParams from './ExplorerParams';
 import SnippetModal from './SnippetModal';
+import { getKey } from '../Profile/profileController';
 
 /* Extended react.Component class as Explorer */
 export default class Explorer extends Component {
@@ -17,19 +18,35 @@ export default class Explorer extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      key: false,
+      key: '',
       url: '',
-      method: 'GET',
+      method: 'POST',
       query: {},
       params: {}
     };
+    this.getDataFromChild = this.getDataFromChild.bind(this);
   }
 
   /**
    * Inherit function from react.Component to handle after mounting
    * react component
    */
-  componentDidMount() {}
+  componentDidMount() {
+    getKey().then(data => {
+      if (data.success) {
+        this.setState({key: data.apikey});
+      }
+    })
+  }
+
+  /**
+   * Function to get the data from child components
+   * @param name the name of the state
+   * @param value the value of the state
+   */
+  getDataFromChild(name, value){
+    this.setState({[name]: value});
+  }
 
   /**
    * Inherited function from react.Component to render to DOM object into html
@@ -40,27 +57,29 @@ export default class Explorer extends Component {
           <Grid centered textAlign='left'>
             <Grid.Row columns={1}>
               <ExplorerRequest
-                  key={this.state.key}
+                  accessKey={this.state.key}
                   url={this.state.url}
                   method={this.state.method}
+                  passData={this.getDataFromChild}
               />
             </Grid.Row>
             <Grid.Row columns={3}>
               <Grid.Column width={4}>
                 <ExplorerParams
-                    key={this.state.key}
+                    accessKey={this.state.key}
                     params={this.state.params}
                 />
               </Grid.Column>
               <Grid.Column width={7}>
                 <ExplorerQuery
-                    key={this.state.key}
+                    accessKey={this.state.key}
                     query={this.state.query}
+                    passData={this.getDataFromChild}
                 />
               </Grid.Column>
               <Grid.Column width={5}>
                 <ExplorerResponse
-                    key={this.state.key}
+                    accessKey={this.state.key}
                     query={this.state.query}
                 />
               </Grid.Column>
@@ -75,7 +94,7 @@ export default class Explorer extends Component {
                     accessKey={this.state.key}
                     url={this.state.url}
                     method={this.state.method}
-                    params={this.state.params}
+                    query={this.state.query}
                 />
               </Modal.Content>
             </Modal>
