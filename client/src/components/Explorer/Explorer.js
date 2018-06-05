@@ -46,7 +46,8 @@ export default class Explorer extends Component {
     }
 
     runInPostman() {
-        window.open("https://www.getpostman.com/run-collection/34bc40fe53b3112dc95e", '_blank');
+        var runInPostmanLink = "https://www.getpostman.com/run-collection/34bc40fe53b3112dc95e";
+        window.open(runInPostmanLink, '_blank');
     }
 
     render() {
