@@ -1,8 +1,8 @@
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
 // create a schema for general schema to deal with emissions.
-var emissionSchema = new Schema({
+const emissionSchema = new Schema({
     item: {
     	type: String,
     	required: true
@@ -28,6 +28,6 @@ var emissionSchema = new Schema({
     	quantity: [Number],
     	unit: String
     }]
-})                        
+})
 
 module.exports =  mongoose.model('Emission', emissionSchema);
