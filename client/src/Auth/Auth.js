@@ -151,17 +151,16 @@ export default class Auth {
                           'Authorization':'Bearer '+idToken
                       },
                       dataType: "text",
-                      success: function(result) {
+                      success: result => {
                           this.metaUserProfile = JSON.parse(result)["user_metadata"];
                           return resolve(result);
                       },
-                      error:function(err){
+                      error: err => {
                           return reject(err);
                       }
                   });
-                  console.log("hey",response);
               })
-              .catch((err) => {
+              .catch(err => {
                   reject(err);
               });
       });
@@ -186,19 +185,18 @@ export default class Auth {
                           'Authorization':'Bearer '+idToken
                       },
                       dataType: "text",
-                      success: function(result) {
+                      success: result => {
                           console.log("data saved successfully");
                           resolve(result);
                       },
-                      error:function(err){
+                      error: err => {
                           reject(err);
                       }
                   });
               })
-              .catch((err) => {
+              .catch(err => {
                   reject(err);
               });
       });
   }
-
 }

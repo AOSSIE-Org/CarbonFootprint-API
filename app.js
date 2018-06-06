@@ -9,11 +9,12 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var jwt = require('express-jwt');
 var jwks = require('jwks-rsa');
+var customErrorFunctions = require('./framework/CustomRouterFunctions');
 
 // database setup
 var mongoose = require('mongoose');
 // connect to the database
-mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`);
+mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`, { useMongoClient: true });
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
@@ -73,6 +74,9 @@ const jwtCheck = jwt({
     algorithms: ['RS256'],
 });
 
+// Add custom router functions
+app.use(customErrorFunctions);
+
 //routes for api v1
 var v1 = express.Router();
 v1.use(Auth.verifyApiKey);
@@ -91,13 +95,6 @@ app.use('/auth', authroute);
 
 // show the API dashboard
 app.use('/', index);
-
-// catch 404 and forward to error handler
-app.use((req, res, next) => {
-  var err = new Error('Not Found');
-  err.status = 404;
-  next(err);
-});
 
 // error handler
 app.use((err, req, res, next) => {

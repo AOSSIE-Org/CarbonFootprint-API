@@ -1,17 +1,17 @@
-//To run this script use "node electricty_db_td.js"
+//To run this script use "node electricity_db_td.js"
 // database setup
-var mongoose = require('mongoose');
+const mongoose = require('mongoose');
 // get the database configuration file
 try {
-  var config = require('../../../config.json');
+  const config = require('../../../config.json');
 } catch (e) {
   console.log(`Database configuration file "config.json" is missing.`);
   process.exit(1);
 }
-var db = config.database;
+let db = config.database;
 
 // connect to the database
-mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`);
+mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, { useMongoClient: true });
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
@@ -28,10 +28,10 @@ mongoose.connection.on('error', (err) => {
 mongoose.connection.on('disconnected', () => {
   console.log('Database disconnected');
 });
-var Emission = require('../models/emissionModel.js')
-var json = require('../../../raw_data/electricty_emission.json');
+let Emission = require('../models/emissionModel.js')
+let json = require('../../../raw_data/electricty_emission.json');
 for(js in json){
-  var obj = new Emission();
+  let obj = new Emission();
   obj.item="electricity";
   obj.region=json[js]['Country'];
   obj.quantity=[1];
@@ -47,7 +47,7 @@ for(js in json){
     	quantity: [1],
     	unit: "kWh"
     }]
-  obj.save(function(err){
+  obj.save(err => {
     if ( err ) throw err;
     console.log("Object Saved Successfully");
   });

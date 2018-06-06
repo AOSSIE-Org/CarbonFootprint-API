@@ -18,7 +18,7 @@ This route enables you to find GHG emissions for a number of appliance types for
   "type":"instantaneous",
   "region":"India",
   "quantity":1,
-  "runnning_time":3
+  "running_time":3
 }
 ```
 `200` - **Response**
@@ -53,7 +53,7 @@ curl -POST -H 'access-key: <apikey>' -H "Content-type: application/json" -d '{
     "type":"instantaneous",
     "region":"India",
     "quantity":1,
-    "runnning_time":3
+    "running_time":3
 }' 'https://www.carbonhub.xyz/v1/appliances'
 ```
 {% sample lang="python" %}
@@ -70,7 +70,7 @@ data = {
     "type":"instantaneous",
     "region":"India",
     "quantity":1,
-    "runnning_time":3
+    "running_time":3
 }
 #use your api key here
 headers = {
@@ -104,7 +104,7 @@ let url = "https://www.carbonhub.xyz/v1/appliances",
     "type":"instantaneous",
     "region":"India",
     "quantity":1,
-    "runnning_time":3
+    "running_time":3
     },
     //use your api key here
     headers = {
@@ -112,7 +112,7 @@ let url = "https://www.carbonhub.xyz/v1/appliances",
     "Content-Type":"application/json"
     };
 
-getApplianceEmissions(url,data,headers); 
+getApplianceEmissions(url,data,headers);
 ```
 {% sample lang="java" %}
 ```Java
@@ -140,7 +140,7 @@ public class getApplianceEmissions {
         data.add(new BasicNameValuePair("type", "instantaneous"));
         data.add(new BasicNameValuePair("region", "India"));
         data.add(new BasicNameValuePair("quantity", Integer.toString(1)));
-        data.add(new BasicNameValuePair("runnning_time", Integer.toString(3)));
+        data.add(new BasicNameValuePair("running_time", Integer.toString(3)));
 
 
         try {

@@ -1,6 +1,6 @@
 //This file logs the json required for percap frontend.
-var percap = require('../../../raw_data/percap.json');
-var obj={};
+const percap = require('../../../raw_data/percap.json');
+let obj={};
 for (js in percap){
   obj[percap[js]["Country"]]={
       
