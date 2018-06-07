@@ -24,10 +24,11 @@ export default class ExplorerQuery extends Component {
     render() {
 
         return (
+            
             <Segment style={styles.body}>
 
                 <Form>
-                    <TextArea autoHeight style={styles.textArea} onChange={this.handleInput} value={this.props.query} />
+                    <TextArea autoHeight style={styles.textArea} value={this.props.query} onChange={this.handleInput} />
                 </Form>
 
             </Segment>
