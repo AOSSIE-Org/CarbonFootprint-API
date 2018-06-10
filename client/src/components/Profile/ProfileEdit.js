@@ -60,9 +60,16 @@ export default class ProfileEdit extends Component{
 		let changedData = this.state.MetaProfile;
 		changedData.name = (this.state.MetaProfile.given_name || this.state.profile.given_name ) + " " + (this.state.MetaProfile.family_name || this.state.profile.family_name );
 		changedData.nickname = (this.state.MetaProfile.nickname || this.state.profile.nickname);
-		//console.log("updated data",changedData);
-		//console.log("userId",this.state.profile.sub);
-		this.props.auth.updateData(this.state.profile.sub,{"user_metadata":changedData},(err,data)=>{if(err)console.log(err);else {console.log(data);this.setMetaData(this.state.profile.sub);this.hideModal();}});
+
+		this.props.auth.updateData(this.state.profile.sub, {"user_metadata":changedData})
+            .then((data) => {
+                console.log(data);
+                this.setMetaData(this.state.profile.sub);
+                this.hideModal();
+            })
+            .reject((err) => {
+                console.log(err);
+            })
 	}
 
   /**
@@ -94,16 +101,17 @@ export default class ProfileEdit extends Component{
    setMetaData(userid){
     let { metaUserProfile, getMetaProfile } = this.props.auth;
     if(!metaUserProfile){
-      getMetaProfile(userid,(err,data)=>{
-        if(!err){
-          this.setState({check:true});
-          data = JSON.parse(data)["user_metadata"];
-          if(!data) data = {};
-          this.setState({metaProfile:data});
-          this.setState({MetaProfile:data});
-          //console.log("this",data);
-        }
-      });
+      getMetaProfile(userid)
+          .then((data) => {
+              this.setState({check:true});
+              data = JSON.parse(data)["user_metadata"];
+              if(!data) data = {};
+              this.setState({metaProfile:data});
+              this.setState({MetaProfile:data});
+          })
+          .catch((err) => {
+              console.log(err);
+          });
     }
     else if(!this.state.metaProfile){
       //console.log("this",metaUserProfile)
@@ -116,21 +124,19 @@ export default class ProfileEdit extends Component{
   }
 
   /** 
-   * Enherit function from react.Component to handle after mounting
+   * Inherit function from react.Component to handle after mounting
    *   react component
    */
 
-  componentDidMount(){
-  	this.props.auth.getProfile((err, profile) => {
-      if(!err){
-        this.setState({profile:profile});
-        this.setMetaData(profile.sub);
-      }
-    });
+  componentWillReceiveProps(nextProps){
+    if(nextProps.profile != this.state.profile){
+      this.setState({profile:nextProps.profile});
+      this.setMetaData(nextProps.profile.sub);
+    }
   }
 
   /** 
-   * Enherited function from react.Component to render to DOM object into html
+   * Inherited function from react.Component to render to DOM object into html
    */
 
   render(){

@@ -32,12 +32,14 @@ export default class ProfileSettings extends Component {
       timeLeft: '-',
       error: false,
       errorMessage: '',
+      textCopied: false,
       profile:{
 
       }
     };
     this.createAccessKey = this.createAccessKey.bind(this);
     this.deleteAccessKey = this.deleteAccessKey.bind(this);
+    this.copyToClipboard = this.copyToClipboard.bind(this);
   }
 
   /**
@@ -106,17 +108,32 @@ export default class ProfileSettings extends Component {
     });
   }
 
+  copyToClipboard(){
+    let textField = document.createElement('textarea');
+    textField.innerText = this.state.key;
+    document.body.appendChild(textField);
+    textField.select();
+    document.execCommand('copy');
+    textField.remove();
+    this.setState({ textCopied: true});
+    setTimeout(() => {
+        this.setState({ textCopied: false});
+    }, 5000);
+  }
+
   /** 
-   * Enherit function from react.Component to handle after mounting
+   * Inherit function from react.Component to handle after mounting
    *   react component
    */
 
   componentDidMount(){
-    this.props.auth.getProfile((err, profile) => {
-      if(!err){
-        this.setState({profile:profile});
-      }
-    })
+      this.props.auth.getProfile()
+          .then((profile) => {
+              this.setState({profile:profile});
+          })
+          .catch((err) => {
+              console.log(err);
+          });
     
     getKey().then(data => {
       if (data.success) {
@@ -131,7 +148,7 @@ export default class ProfileSettings extends Component {
   }
 
   /** 
-   * Enherited function from react.Component to render to DOM object into html
+   * Inherited function from react.Component to render to DOM object into html
    */
 
   render(){
@@ -178,6 +195,10 @@ export default class ProfileSettings extends Component {
             </Message.Header>
             <p>Please contact us if you are feeling stuck.</p>
           </Message>}
+          {this.state.textCopied &&
+          <Message success>
+            <p>Copied to clipboard!</p>
+          </Message>}
 
         <Form>
           <Form.Group>
@@ -189,6 +210,13 @@ export default class ProfileSettings extends Component {
             : <Button onClick={this.deleteAccessKey} color="red" style={{marginLeft:'10px'}}>
                 DELETE KEY
               </Button>}
+
+              {this.state.key && document.queryCommandSupported('copy') &&
+              <div>
+              <Button onClick={this.copyToClipboard} color="green" style={{marginLeft:'10px'}}>
+                  COPY TO CLIPBOARD
+                  </Button>
+              </div>}
         </Form.Group>
         </Form>
       </Segment>

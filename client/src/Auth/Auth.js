@@ -91,107 +91,112 @@ export default class Auth {
    /* Function to get accessToken */
 
   getAccessToken() {
-    const accessToken = localStorage.getItem('access_token');
-    if (!accessToken) {
-      //console.log(new Error('No access token found'));
-    }
-    return accessToken;
+      return new Promise((resolve, reject) => {
+          const accessToken = localStorage.getItem('access_token');
+          if (!accessToken) {
+              reject(new Error('No access token found'));
+          }
+          resolve(accessToken);
+      });
   }
 
    /* Function to get idtoken */
 
   getIdToken() {
-    const idToken = localStorage.getItem('id_token');
-    if (!idToken) {
-      console.log(new Error('No id token found'));
-      return;
-    }
-    return idToken;
+      return new Promise((resolve, reject) => {
+          const idToken = localStorage.getItem('id_token');
+          if (!idToken) {
+              reject(new Error('No id token found'));
+          }
+          resolve(idToken);
+      });
   }
 
   /**
-   * Function to get user profile details
-   * @callback cb
-   * @param {new Error} err
-   * @param {object} profile
+   * Function that returns promise to get user profile details
    */
 
-  getProfile(cb) {
-    let accessToken = this.getAccessToken();
-    if(accessToken){
-      this.auth0.client.userInfo(accessToken, (err, profile) => {
-      if (profile) {
-        this.userProfile = profile;
-      }
-      cb(err, profile);
-    });
-    }
-    else {
-      console.log("accessToken not found");
-      cb(true,{});
-    }
-  }
+   getProfile() {
+      return new Promise((resolve, reject) => {
+          this.getAccessToken()
+              .then((accessToken) => {
+                  this.auth0.client.userInfo(accessToken, (err, profile) => {
+                      if (profile) {
+                          this.userProfile = profile;
+                      }
+                      return resolve(profile);
+                  });
+              })
+              .catch((err) => {
+                  return reject(err);
+              });
+      });
+  };
 
   /**
-   * Function to get user_metadata from auth0
+   * Function that returns promise to get user_metadata from auth0
    * @param {string} userId
-   * @callback cb
    */
 
-  getMetaProfile(userId,cb){
-    let accessToken = this.getIdToken(),
-    url = AUTH_CONFIG.apiEndpoint + userId;
-    //console.log("userId",userId);
-    if(accessToken){
-      let response = $.ajax({
-            type: 'GET',
-            url: url,
-            headers:{
-                'Authorization':'Bearer '+accessToken
-            },
-            dataType: "text",
-            success: function(result) {
-                //console.log("metaprofile",result);
-                this.metaUserProfile = JSON.parse(result)["user_metadata"];
-                cb(false,result);
-            },
-            error:function(err){
-                cb(err);
-            }
-        });
-        //console.log("hey",response);
-    }
-    else cb(true,{});
+  getMetaProfile(userId){
+      return new Promise((resolve, reject) => {
+          this.getIdToken()
+              .then((idToken) => {
+                  let url = AUTH_CONFIG.apiEndpoint + userId;
+
+                  let response = $.ajax({
+                      type: 'GET',
+                      url: url,
+                      headers:{
+                          'Authorization':'Bearer '+idToken
+                      },
+                      dataType: "text",
+                      success: result => {
+                          this.metaUserProfile = JSON.parse(result)["user_metadata"];
+                          return resolve(result);
+                      },
+                      error: err => {
+                          return reject(err);
+                      }
+                  });
+              })
+              .catch(err => {
+                  reject(err);
+              });
+      });
   }
 
   /**
-   * Function to update edited data to user_metadata
+   * Function that returns promise to update edited data to user_metadata
    * @param {string} clientId
    * @param {object} data
-   * @callback cb
    */
 
-  updateData(clientId,data,cb) {
-    let accessToken = this.getIdToken(),
-            url = AUTH_CONFIG.apiEndpoint+clientId;
-        //console.log(data);
-        //console.log(clientId);
-        let response = $.ajax({
-            type: 'PATCH',
-            url: url,
-            data:data,
-            headers:{
-                'Authorization':'Bearer '+accessToken
-            },
-            dataType: "text",
-            success: function(result) {
-                console.log("data saved successfully");
-                cb(false,result);
-            },
-            error:function(err){
-                cb(err);
-            }
-        });
+  updateData(clientId,data) {
+      return new Promise((resolve, reject) => {
+          this.getIdToken()
+              .then((idToken) => {
+                  let url = AUTH_CONFIG.apiEndpoint+clientId;
+                  let response = $.ajax({
+                      type: 'PATCH',
+                      url: url,
+                      data:data,
+                      headers:{
+                          'Authorization':'Bearer '+idToken
+                      },
+                      dataType: "text",
+                      success: result => {
+                          console.log("data saved successfully");
+                          resolve(result);
+                      },
+                      error: err => {
+                          reject(err);
+                      }
+                  });
+              })
+              .catch(err => {
+                  reject(err);
+              });
+      });
   }
-
 }

@@ -295,7 +295,7 @@ describe("API endpoint testing", () => {
       });
   });
 
-  it("should return correct value for appliance large air conditioner", (done) => {
+  it("should return correct value for appliance instantaneous Water heater", (done) => {
     server
       .post('/v1/appliances')
       .set('access-key', API_TEST_KEY)
@@ -305,7 +305,7 @@ describe("API endpoint testing", () => {
         "region": "India",
         "unit": "kWh",
         "quantity": 1,
-        "runnning_time": 3
+        "running_time": 3
       })
       .expect("Content-type", /json/)
       .expect(200)

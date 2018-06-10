@@ -52,7 +52,7 @@ Method - __POST__
 ```    
 
 ### 2. Airplane fuel -
-Airplane fuel converts the distance flown by a particular air plane to corresponing CO2 emission.
+Airplane fuel converts the distance flown by a particular air plane to corresponding CO2 emission.
 
 __Sample request JSON__
 

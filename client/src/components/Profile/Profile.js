@@ -16,6 +16,7 @@ export default class Profile extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      profile: {},
       profilePicture: '',
       nickname: '',
       email: '',
@@ -26,28 +27,30 @@ export default class Profile extends Component {
   }
 
   /** 
-   * Enherit function from react.Component to handle after mounting
+   * Inherit function from react.Component to handle after mounting
    *   react component
    */
 
   componentDidMount(){
-    this.props.auth.getProfile((err, profile) => {
-      //console.log("profile",profile)
-      if(!err){
-        this.setState({
-          profilePicture: profile.picture,
-          nickname: profile.nickname,
-          email: profile.email,
-          userid: profile.sub,
-          given_name:profile.given_name,
-          family_name:profile.family_name
-        });
-      }
-    }); 
+      this.props.auth.getProfile()
+          .then((profile) => {
+              this.setState({
+                  profile: profile,
+                  profilePicture: profile.picture,
+                  nickname: profile.nickname,
+                  email: profile.email,
+                  userid: profile.sub,
+                  given_name:profile.given_name,
+                  family_name:profile.family_name
+              });
+          })
+          .catch((err) => {
+              console.log(err);
+          });
   }
 
   /** 
-   * Enherited function from react.Component to render to DOM object into html
+   * Inherited function from react.Component to render to DOM object into html
    */
 
   render() {
@@ -61,6 +64,7 @@ export default class Profile extends Component {
               nickname={this.state.nickname }
               email={this.state.email}
               auth={this.props.auth}
+              profile={this.state.profile}
             />
             <Sidebar />
           </Grid.Column>

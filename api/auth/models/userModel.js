@@ -1,8 +1,8 @@
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
 // create a schema for for generation of user api keys and rate limiting.
-var userSchema = new Schema(
+const userSchema = new Schema(
   {
     email: {
       type: String,

@@ -1,7 +1,8 @@
-var Emission = require('../models/emissionModel');
-var spline = require('cubic-spline');
+const Emission = require('../models/emissionModel');
+const spline = require('cubic-spline');
+
 let interpolate = (l1, l2, d) => {
-    for(var x = 0; x < l1.length; x++){
+    for(let x = 0; x < l1.length; x++){
         if(d >= l1[x] && d < l1[x+1] && x < l1.length - 1){
             return spline(d,l1,l2)
         }

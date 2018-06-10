@@ -21,8 +21,8 @@ Find .env.example [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/mast
 
 * Add ___.env___ [here](https://gitlab.com/aossie/CarbonFootprint-API) with the same format as [.env.example](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/.env.example). In `database` fill the database configuration. If you don't have one signup [here](https://mlab.com/signup/).
      * Add Google distance matrix API key. Find one [here](https://developers.google.com/maps/documentation/distance-matrix/get-api-key) .
-     * Add the `issuer` with `https://<userName>.auth0.com/.well-known/jwks.json` for example `https://footprintcarbon.auth0.com/.well-known/jwks.json`. 
-     * Add the `jwksUri` with `https://<userName>.auth0.com/`
+     * Add the `jwksUri` with `https://<userName>.auth0.com/.well-known/jwks.json` for example `https://footprintcarbon.auth0.com/.well-known/jwks.json`.
+     * Add the `issuer` with `https://<userName>.auth0.com/`
 * Add [auth0-config.js]() [here](https://gitlab.com/aossie/CarbonFootprint-API/tree/master/client/src/Auth) with the same format as [auth0-config.js.example](https://gitlab.com/aossie/CarbonFootprint-API/tree/master/client/src/Auth/auth0-config.js.example)
      * Add `clientId` from the client you created above.
      * `domain` is `<userName>.auth0.com`.
@@ -32,7 +32,7 @@ Find .env.example [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/mast
 
  For 500 Mb Free services on MongoDB databases, signup [here](https://www.mlab.com/signup) (or you can use any other service of your choice).
  Note : For Auth0 credentials refer to [README.md](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/client/src/Auth/README.md)
- 
+
 * To install all the require modules and build file:
 
 ```
@@ -42,14 +42,14 @@ yarn run build
 
 * Before testing APIs on your local node server, please follow any of the following instructions according to requirement(s) (this might take some time)
 
-    * To add all the data 
+    * To add all the data
        ```
        yarn run all
        ```
     * To add electricity data
       ```
       yarn run electricity
-      ``` 
+      ```
     * To add flights data
       ```
       yarn run flights
@@ -70,7 +70,8 @@ yarn run build
       ```
       yarn run appliance
       ```
-      
+* For details about using API, checkout [postman](./Postman-guidelines) folder for futher instructions to get an example of all the APIs.
+
 Note : For details on [yarn](https://yarnpkg.com) installation and usage [click here](https://yarnpkg.com/en/docs/usage)
 
 * To start the server, run `yarn start`.

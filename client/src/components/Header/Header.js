@@ -6,13 +6,15 @@ export default class Header extends React.Component {
   constructor(props){
     super(props);
     this.state = {profile:{}};
-    this.props.auth.getProfile((err,profile) => {
-      if(!err){
-        this.setState({
-          profile:profile
+    this.props.auth.getProfile()
+        .then((profile) => {
+            this.setState({
+                profile:profile
+            });
+        })
+        .catch((err) => {
+            console.log(err);
         });
-      }
-    });
   }
 
   login() {

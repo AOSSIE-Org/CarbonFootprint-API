@@ -1,16 +1,16 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 // get the emission controller
-const Emission = require('../controllers/emissionController');
+const { calculate } = require('../controllers/emissionController');
 // get the helper functions
-const Helper = require('../controllers/helperFunctions');
+const { getDistanceFromLatLon, distance } = require('../controllers/helperFunctions');
 
 router.post('/emissions', (req, res) => {
 	let itemName = req.body["item"];
 	let region = req.body["region"] || "Default";
 	let quantity = req.body["quantity"] || 1;
 	let multiply = req.body["multiply"] || 1;
-	Emission.calculate(itemName, region, quantity, multiply)
+	calculate(itemName, region, quantity, multiply)
 		.then((emissions) => {
 			// console.log(`\nTotal Emissions: ${emissions.CO2}`);
 			if (emissions.CO2 < 0) {
@@ -31,10 +31,7 @@ router.post('/emissions', (req, res) => {
 		})
 		.catch((err) => {
 			console.log(`Error: ${err}`);
-			res.status(400).json({
-				success: false,
-				err: err
-			});
+			res.sendJsonError(err, 400);
 		});
 });
 
@@ -50,7 +47,7 @@ router.post('/flight', (req, res) => {
 	if (airports[origin] && airports[destination]) {
 		let orig = airports[origin];
 		let dest = airports[destination];
-		let distance = Helper.getDistanceFromLatLon(orig.lat, orig.lon, dest.lat, dest.lon);
+		let distance = getDistanceFromLatLon(orig.lat, orig.lon, dest.lat, dest.lon);
 		distance *= 0.539957; // convert distance in km to nautical miles
 		if (!model) {
 			if (type == 'international') {
@@ -61,7 +58,7 @@ router.post('/flight', (req, res) => {
 			}
 		}
 
-		Emission.calculate(`airplane model ${model}`, 'Default', distance)
+		calculate(`airplane model ${model}`, 'Default', distance)
 			.then((emissions) => {
 				console.log(`\nTotal Emissions: ${emissions}`);
 				res.status(200).json({
@@ -72,17 +69,9 @@ router.post('/flight', (req, res) => {
 			})
 			.catch((err) => {
 				console.log(`Error: ${err}`);
-				res.status(404).json({
-					success: false,
-					err: `Unable to find emissions for airplane model ${model}`
-				});
+                res.sendJsonError(`Unable to find emissions for airplane model ${model}`, 404);
 			});
-	} else {
-		res.status(400).json({
-			success: false,
-			error: 'Unable to find the airports. Please use ICAO airport codes only'
-		});
-	}
+	} else res.sendJsonError('Unable to find the airports. Please use IATA airport codes only', 400);
 
 });
 
@@ -95,13 +84,12 @@ router.post('/vehicle', async(req, res) => {
 	let mileage_unit = req.body.mileage_unit || 'km/l';
 
 	if (origin && destination) {
-		let distance = Helper.distance(origin, destination, 'driving');
-		distance
+        distance(origin, destination, 'driving')
 			.then((val) => {
 				console.log("CalculatedDistance= " + val);
 				let fuelConsumed = val / mileage;
 				console.log(fuelConsumed);
-				Emission.calculate(`fuel${type}`, 'Default', fuelConsumed)
+				calculate(`fuel${type}`, 'Default', fuelConsumed)
 					.then((emissions) => {
 						console.log(`Emissions: ${JSON.stringify(emissions, null ,4)}`);
 						res.status(200).json({
@@ -112,26 +100,15 @@ router.post('/vehicle', async(req, res) => {
 					})
 					.catch((err) => {
 						console.log(`Error: ${err}`);
-						res.status(404).json({
-							success: false,
-							err: `Unable to find emissions for fuel type ${type}`
-						});
+                        res.sendJsonError(`Unable to find emissions for fuel type ${type}`, 404);
 					});
 			})
 			.catch((err) => {
 				console.log(`Error: ${err}`);
-				res.status(400).json({
-					success: false,
-					err: err
-				});
+                res.sendJsonError(err, 400);
 			});
 
-	} else {
-		res.status(400).json({
-			success: false,
-			error: 'Distance or Mileage cannot be less than zero'
-		});
-	}
+	} else res.sendJsonError('Distance or Mileage cannot be less than zero', 400);
 });
 
 router.post('/trains', async(req, res) => {
@@ -142,12 +119,11 @@ router.post('/trains', async(req, res) => {
 	let passengers = req.body.passengers || 1;
 
 	if (origin && destination) {
-		let distance = Helper.distance(origin, destination, 'transit');
-		distance
+        distance(origin, destination, 'transit')
 			.then((val) => {
 				console.log("CalculatedDistance= " + val);
 				console.log("CalculatedPassengers= " + passengers);
-				Emission.calculate(type, 'Default', val, passengers)
+				calculate(type, 'Default', val, passengers)
 					.then((emissions) => {
 						console.log(`Emissions: ${JSON.stringify(emissions, null ,4)}`);
 						res.status(200).json({
@@ -158,26 +134,15 @@ router.post('/trains', async(req, res) => {
 					})
 					.catch((err) => {
 						console.log(`Error: ${err}`);
-						res.status(404).json({
-							success: false,
-							err: `Unable to find emissions for fuel type ${type}`
-						});
-					});
+                        res.sendJsonError(`Unable to find emissions for fuel type ${type}`, 404);
+                    });
 			})
 			.catch((err) => {
 				console.log(`Error: ${err}`);
-				res.status(400).json({
-					success: false,
-					err: err
-				});
-			});
+                res.sendJsonError(err, 400);
+            });
 
-	} else {
-		res.status(400).json({
-			success: false,
-			error: 'Distance cannot be less than zero'
-		});
-	}
+	} else res.sendJsonError('Distance cannot be less than zero', 400);
 });
 
 router.post('/poultry', async(req, res) => {
@@ -186,7 +151,7 @@ router.post('/poultry', async(req, res) => {
 	let quantity = req.body.quantity || 1;
 	//console.log(`${type} in ${region} of mass ${quantity} kg`);
 	if (type) {
-		Emission.calculate(type, region, quantity)
+		calculate(type, region, quantity)
 			.then((emissions) => {
 				console.log(emissions);
 				res.status(200).json({
@@ -195,17 +160,10 @@ router.post('/poultry', async(req, res) => {
 					unit: 'kg'
 				});
 			}).catch((err) => {
-				res.status(400).json({
-					success: false,
-					err: `We cannot provide carbon footprints for this combination of ${type} in ${region} of mass ${quantity} kg`
-				})
+				res.sendJsonError(`We cannot provide carbon footprints for this combination of ${type} in ${region} of mass ${quantity} kg`, 400);
 			});
-	} else {
-		res.status(400).json({
-			success: false,
-			error: `Unable to find carbon footprint for type ${type}`
-		});
-	}
+	} else res.sendJsonError(`Unable to find carbon footprint for type ${type}`, 400);
+
 });
 
 router.post('/appliances', (req, res) => {
@@ -214,8 +172,8 @@ router.post('/appliances', (req, res) => {
 	let region = req.body["region"] || "Default";
 	let unit = req.body["unit"] || "kWh";
 	let quantity = req.body["quantity"] || 1;
-	let runnning_time = req.body["runnning_time"] || 1;
-	Emission.calculate(`${appliance} ${type}`, region, quantity, runnning_time)
+	let running_time = req.body["running_time"] || 1;
+	calculate(`${appliance} ${type}`, region, quantity, running_time)
 		.then((emissions) => {
 			// console.log(`\nTotal Emissions: ${emissions.CO2}`);
 			res.status(200).json({
@@ -226,10 +184,7 @@ router.post('/appliances', (req, res) => {
 		})
 		.catch((err) => {
 			console.log(`Error: ${err}`);
-			res.status(400).json({
-				success: false,
-				err: err
-			});
+            res.sendJsonError(err, 400);
 		});
 });
 
@@ -237,7 +192,7 @@ router.post('/quantity', (req, res) => {
 	let itemName = req.body["item"];
 	let region = req.body["region"] || "Default";
 	let emission = req.body["emission"] || 1;
-	Emission.calculate(itemName, region, 1, 1)
+	calculate(itemName, region, 1, 1)
 		.then((emissions) => {
 			// console.log(`\nTotal Emissions: ${emissions.CO2}`);
 			if(emissions.CO2){
@@ -251,11 +206,8 @@ router.post('/quantity', (req, res) => {
 		})
 		.catch((err) => {
 			console.log(`Error: ${err}`);
-			res.status(400).json({
-				success: false,
-				err: `Unable to find quantity for item type ${itemName}`
-			});
-		});
+            res.sendJsonError(`Unable to find quantity for item type ${itemName}`, 400);
+        });
 });
 
 module.exports = router;

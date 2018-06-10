@@ -3,14 +3,14 @@
 {% method %}
 ### Get Emissions
 Find Emissions for a flight between two airports.
-Only [ICAO Airport Codes](https://en.wikipedia.org/wiki/International_Civil_Aviation_Organization_airport_code) are supported.
+Only [IATA Airport Codes](https://en.wikipedia.org/wiki/IATA_airport_code) are supported.
 
 ###**Parameters**
 
 | Name        | Type           | Description  |
 | ------------- |-------------| -----|
-| origin | string |**Required:** Flight origin airport _ICAO_ code. |
-| destination  | string |**Required:** Flight destination airport _ICAO_ code. |
+| origin | string |**Required:** Flight origin airport _IATA_ code. |
+| destination  | string |**Required:** Flight destination airport _IATA_ code. |
 | type     | string | Flight type (`international` or `domestic`). Default is `international`. |
 | model     | string | Flight model (e.g A310). Default is `A380` for international flights and `A320` for domestic flights. |
 | passengers     | number | Pass the number of passengers to get the emissions relative to per person on the flight. |
@@ -39,7 +39,7 @@ Only [ICAO Airport Codes](https://en.wikipedia.org/wiki/International_Civil_Avia
 ```JSON
 {
 	"success": false,
-	"error": "Unable to find a given airport. Please use ICAO airport code."
+	"error": "Unable to find a given airport. Please use IATA airport code."
 }
 ```
 {% common %}
