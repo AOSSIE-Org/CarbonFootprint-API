@@ -1,0 +1,698 @@
+[
+    {
+        "country": "BD",
+        "name": "Thakurgaon",
+        "lat": "26.03097",
+        "lng": "88.46989"
+    },
+    {
+        "country": "BD",
+        "name": "Teknaf",
+        "lat": "20.85829",
+        "lng": "92.29773"
+    },
+    {
+        "country": "BD",
+        "name": "Tungi",
+        "lat": "23.89154",
+        "lng": "90.40232"
+    },
+    {
+        "country": "BD",
+        "name": "Sylhet",
+        "lat": "24.89904",
+        "lng": "91.87198"
+    },
+    {
+        "country": "BD",
+        "name": "Dohar",
+        "lat": "23.59311",
+        "lng": "90.14251"
+    },
+    {
+        "country": "BD",
+        "name": "Jamalpur",
+        "lat": "24.91965",
+        "lng": "89.94812"
+    },
+    {
+        "country": "BD",
+        "name": "Shibganj",
+        "lat": "25.00146",
+        "lng": "89.32266"
+    },
+    {
+        "country": "BD",
+        "name": "Shibganj",
+        "lat": "24.68501",
+        "lng": "88.15638"
+    },
+    {
+        "country": "BD",
+        "name": "Satkhira",
+        "lat": "22.70817",
+        "lng": "89.07185"
+    },
+    {
+        "country": "BD",
+        "name": "Sirajganj",
+        "lat": "24.45771",
+        "lng": "89.70802"
+    },
+    {
+        "country": "BD",
+        "name": "Netrakona",
+        "lat": "24.88352",
+        "lng": "90.72898"
+    },
+    {
+        "country": "BD",
+        "name": "Narsingdi",
+        "lat": "23.92298",
+        "lng": "90.71768"
+    },
+    {
+        "country": "BD",
+        "name": "Sandwip",
+        "lat": "22.51409",
+        "lng": "91.45491"
+    },
+    {
+        "country": "BD",
+        "name": "Shahzadpur",
+        "lat": "24.17687",
+        "lng": "89.5988"
+    },
+    {
+        "country": "BD",
+        "name": "Ramganj",
+        "lat": "23.1006",
+        "lng": "90.84989"
+    },
+    {
+        "country": "BD",
+        "name": "Rajshahi",
+        "lat": "24.374",
+        "lng": "88.60114"
+    },
+    {
+        "country": "BD",
+        "name": "Purbadhala",
+        "lat": "24.94077",
+        "lng": "90.60025"
+    },
+    {
+        "country": "BD",
+        "name": "Pirojpur",
+        "lat": "22.57965",
+        "lng": "89.97521"
+    },
+    {
+        "country": "BD",
+        "name": "Panchagarh",
+        "lat": "26.33338",
+        "lng": "88.55777"
+    },
+    {
+        "country": "BD",
+        "name": "Patiya",
+        "lat": "22.29543",
+        "lng": "91.979"
+    },
+    {
+        "country": "BD",
+        "name": "Parbatipur",
+        "lat": "25.66369",
+        "lng": "88.93093"
+    },
+    {
+        "country": "BD",
+        "name": "Narayanganj",
+        "lat": "23.61352",
+        "lng": "90.50298"
+    },
+    {
+        "country": "BD",
+        "name": "Nalchiti",
+        "lat": "22.63696",
+        "lng": "90.27195"
+    },
+    {
+        "country": "BD",
+        "name": "Nagarpur",
+        "lat": "24.05783",
+        "lng": "89.87696"
+    },
+    {
+        "country": "BD",
+        "name": "Nageswari",
+        "lat": "25.96817",
+        "lng": "89.69153"
+    },
+    {
+        "country": "BD",
+        "name": "Mymensingh",
+        "lat": "24.75636",
+        "lng": "90.40646"
+    },
+    {
+        "country": "BD",
+        "name": "Muktagacha",
+        "lat": "24.76484",
+        "lng": "90.25698"
+    },
+    {
+        "country": "BD",
+        "name": "Mirzapur",
+        "lat": "24.10287",
+        "lng": "90.09841"
+    },
+    {
+        "country": "BD",
+        "name": "Maulavi Bazar",
+        "lat": "24.48888",
+        "lng": "91.77075"
+    },
+    {
+        "country": "BD",
+        "name": "Morrelgonj",
+        "lat": "22.45566",
+        "lng": "89.85584"
+    },
+    {
+        "country": "BD",
+        "name": "Mehendiganj",
+        "lat": "22.82257",
+        "lng": "90.52859"
+    },
+    {
+        "country": "BD",
+        "name": "Mathba",
+        "lat": "22.28616",
+        "lng": "89.95883"
+    },
+    {
+        "country": "BD",
+        "name": "Lalmonirhat",
+        "lat": "25.91719",
+        "lng": "89.44595"
+    },
+    {
+        "country": "BD",
+        "name": "Laksham",
+        "lat": "23.24018",
+        "lng": "91.12143"
+    },
+    {
+        "country": "BD",
+        "name": "Comilla",
+        "lat": "23.46186",
+        "lng": "91.18503"
+    },
+    {
+        "country": "BD",
+        "name": "Rangpur",
+        "lat": "25.74664",
+        "lng": "89.25166"
+    },
+    {
+        "country": "BD",
+        "name": "Kushtia",
+        "lat": "23.9028",
+        "lng": "89.11943"
+    },
+    {
+        "country": "BD",
+        "name": "Kaliganj",
+        "lat": "23.40964",
+        "lng": "89.13801"
+    },
+    {
+        "country": "BD",
+        "name": "Jhingergacha",
+        "lat": "23.11134",
+        "lng": "89.09061"
+    },
+    {
+        "country": "BD",
+        "name": "Joypur Hat",
+        "lat": "25.10147",
+        "lng": "89.02734"
+    },
+    {
+        "country": "BD",
+        "name": "Ishurdi",
+        "lat": "24.12858",
+        "lng": "89.06573"
+    },
+    {
+        "country": "BD",
+        "name": "Habiganj",
+        "lat": "24.38044",
+        "lng": "91.41299"
+    },
+    {
+        "country": "BD",
+        "name": "Gaurnadi",
+        "lat": "22.97372",
+        "lng": "90.22376"
+    },
+    {
+        "country": "BD",
+        "name": "Gafargaon",
+        "lat": "24.432",
+        "lng": "90.5585"
+    },
+    {
+        "country": "BD",
+        "name": "Feni",
+        "lat": "23.0144",
+        "lng": "91.3966"
+    },
+    {
+        "country": "BD",
+        "name": "Raipur",
+        "lat": "23.0391",
+        "lng": "90.76808"
+    },
+    {
+        "country": "BD",
+        "name": "Sarankhola",
+        "lat": "22.31006",
+        "lng": "89.79113"
+    },
+    {
+        "country": "BD",
+        "name": "Dhaka",
+        "lat": "23.7104",
+        "lng": "90.40744"
+    },
+    {
+        "country": "BD",
+        "name": "Chilmari",
+        "lat": "25.55613",
+        "lng": "89.67097"
+    },
+    {
+        "country": "BD",
+        "name": "Chhagalnaiya",
+        "lat": "23.02475",
+        "lng": "91.51091"
+    },
+    {
+        "country": "BD",
+        "name": "Lalmohan",
+        "lat": "22.33774",
+        "lng": "90.73708"
+    },
+    {
+        "country": "BD",
+        "name": "Khagrachhari",
+        "lat": "23.10787",
+        "lng": "91.97007"
+    },
+    {
+        "country": "BD",
+        "name": "Chhatak",
+        "lat": "25.03852",
+        "lng": "91.66958"
+    },
+    {
+        "country": "BD",
+        "name": "Bhatpara Abhaynagar",
+        "lat": "23.01472",
+        "lng": "89.43936"
+    },
+    {
+        "country": "BD",
+        "name": "Bheramara",
+        "lat": "24.02452",
+        "lng": "88.99234"
+    },
+    {
+        "country": "BD",
+        "name": "Bhairab Bazar",
+        "lat": "24.0524",
+        "lng": "90.9764"
+    },
+    {
+        "country": "BD",
+        "name": "Bandarban",
+        "lat": "22.19534",
+        "lng": "92.21946"
+    },
+    {
+        "country": "BD",
+        "name": "Kalia",
+        "lat": "23.043",
+        "lng": "89.63094"
+    },
+    {
+        "country": "BD",
+        "name": "Baniachang",
+        "lat": "24.51863",
+        "lng": "91.35787"
+    },
+    {
+        "country": "BD",
+        "name": "Bajitpur",
+        "lat": "24.21623",
+        "lng": "90.95002"
+    },
+    {
+        "country": "BD",
+        "name": "Bagerhat",
+        "lat": "22.65657",
+        "lng": "89.79123"
+    },
+    {
+        "country": "BD",
+        "name": "Badarganj",
+        "lat": "25.67419",
+        "lng": "89.05377"
+    },
+    {
+        "country": "BD",
+        "name": "Narail",
+        "lat": "23.15509",
+        "lng": "89.49515"
+    },
+    {
+        "country": "BD",
+        "name": "Tungipara",
+        "lat": "22.89983",
+        "lng": "89.90326"
+    },
+    {
+        "country": "BD",
+        "name": "Sonargaon",
+        "lat": "23.65",
+        "lng": "90.61667"
+    },
+    {
+        "country": "BD",
+        "name": "Sarishabari",
+        "lat": "24.75127",
+        "lng": "89.83126"
+    },
+    {
+        "country": "BD",
+        "name": "Sakhipur",
+        "lat": "24.31988",
+        "lng": "90.16943"
+    },
+    {
+        "country": "BD",
+        "name": "Raojan",
+        "lat": "22.53511",
+        "lng": "91.91919"
+    },
+    {
+        "country": "BD",
+        "name": "Phultala",
+        "lat": "22.71673",
+        "lng": "89.51194"
+    },
+    {
+        "country": "BD",
+        "name": "Palang",
+        "lat": "23.21824",
+        "lng": "90.35076"
+    },
+    {
+        "country": "BD",
+        "name": "Par Naogaon",
+        "lat": "24.80418",
+        "lng": "88.94875"
+    },
+    {
+        "country": "BD",
+        "name": "Nabinagar",
+        "lat": "23.88791",
+        "lng": "90.96792"
+    },
+    {
+        "country": "BD",
+        "name": "Ramnagar",
+        "lat": "23.7772",
+        "lng": "90.17604"
+    },
+    {
+        "country": "BD",
+        "name": "Lakshmipur",
+        "lat": "22.9443",
+        "lng": "90.83005"
+    },
+    {
+        "country": "BD",
+        "name": "Kesabpur",
+        "lat": "22.90725",
+        "lng": "89.21954"
+    },
+    {
+        "country": "BD",
+        "name": "Jahedpur",
+        "lat": "24.83333",
+        "lng": "91.65"
+    },
+    {
+        "country": "BD",
+        "name": "Hajiganj",
+        "lat": "23.25191",
+        "lng": "90.85508"
+    },
+    {
+        "country": "BD",
+        "name": "Faridpur",
+        "lat": "23.60612",
+        "lng": "89.84064"
+    },
+    {
+        "country": "BD",
+        "name": "Dinajpur",
+        "lat": "25.62745",
+        "lng": "88.63779"
+    },
+    {
+        "country": "BD",
+        "name": "Uttar Char Fasson",
+        "lat": "22.22647",
+        "lng": "90.71275"
+    },
+    {
+        "country": "BD",
+        "name": "Chittagong",
+        "lat": "22.3384",
+        "lng": "91.83168"
+    },
+    {
+        "country": "BD",
+        "name": "Char Bhadrasan",
+        "lat": "23.30916",
+        "lng": "90.22698"
+    },
+    {
+        "country": "BD",
+        "name": "Bera",
+        "lat": "24.07821",
+        "lng": "89.63262"
+    },
+    {
+        "country": "BD",
+        "name": "Burhanuddin",
+        "lat": "22.49518",
+        "lng": "90.72391"
+    },
+    {
+        "country": "BD",
+        "name": "Satkania",
+        "lat": "22.07639",
+        "lng": "92.04955"
+    },
+    {
+        "country": "BD",
+        "name": "Cox\u2019s Bazar",
+        "lat": "21.43973",
+        "lng": "92.00955"
+    },
+    {
+        "country": "BD",
+        "name": "Khulna",
+        "lat": "22.80979",
+        "lng": "89.56439"
+    },
+    {
+        "country": "BD",
+        "name": "Bhola",
+        "lat": "22.68759",
+        "lng": "90.64403"
+    },
+    {
+        "country": "BD",
+        "name": "Barisal",
+        "lat": "22.70497",
+        "lng": "90.37013"
+    },
+    {
+        "country": "BD",
+        "name": "Jessore",
+        "lat": "23.16971",
+        "lng": "89.21371"
+    },
+    {
+        "country": "BD",
+        "name": "Pabna",
+        "lat": "24.00644",
+        "lng": "89.2372"
+    },
+    {
+        "country": "BD",
+        "name": "Tangail",
+        "lat": "24.24984",
+        "lng": "89.91655"
+    },
+    {
+        "country": "BD",
+        "name": "Bogra",
+        "lat": "24.85098",
+        "lng": "89.37108"
+    },
+    {
+        "country": "BD",
+        "name": "Pirgaaj",
+        "lat": "25.85587",
+        "lng": "88.35943"
+    },
+    {
+        "country": "BD",
+        "name": "Nawabganj",
+        "lat": "24.59025",
+        "lng": "88.27444"
+    },
+    {
+        "country": "BD",
+        "name": "Madaripur",
+        "lat": "23.17097",
+        "lng": "90.20935"
+    },
+    {
+        "country": "BD",
+        "name": "Sherpur",
+        "lat": "25.01881",
+        "lng": "90.01751"
+    },
+    {
+        "country": "BD",
+        "name": "Kishorganj",
+        "lat": "24.43944",
+        "lng": "90.78291"
+    },
+    {
+        "country": "BD",
+        "name": "Manikchari",
+        "lat": "22.83957",
+        "lng": "91.84128"
+    },
+    {
+        "country": "BD",
+        "name": "Bhandaria",
+        "lat": "22.48898",
+        "lng": "90.06273"
+    },
+    {
+        "country": "BD",
+        "name": "Bibir Hat",
+        "lat": "22.68347",
+        "lng": "91.79058"
+    },
+    {
+        "country": "BD",
+        "name": "Saidpur",
+        "lat": "25.77769",
+        "lng": "88.89169"
+    },
+    {
+        "country": "BD",
+        "name": "Puthia",
+        "lat": "24.36537",
+        "lng": "88.83431"
+    },
+    {
+        "country": "BD",
+        "name": "Natore",
+        "lat": "24.41112",
+        "lng": "88.98673"
+    },
+    {
+        "country": "BD",
+        "name": "Nowlamary",
+        "lat": "23.67346",
+        "lng": "88.98885"
+    },
+    {
+        "country": "BD",
+        "name": "Magura",
+        "lat": "23.48702",
+        "lng": "89.41592"
+    },
+    {
+        "country": "BD",
+        "name": "Azimpur",
+        "lat": "23.7298",
+        "lng": "90.3854"
+    },
+    {
+        "country": "BD",
+        "name": "Gaibandha",
+        "lat": "25.3293",
+        "lng": "89.5438"
+    },
+    {
+        "country": "BD",
+        "name": "Mahasthangarh",
+        "lat": "24.96111",
+        "lng": "89.34278"
+    },
+    {
+        "country": "BD",
+        "name": "Paltan",
+        "lat": "23.73625",
+        "lng": "90.41426"
+    },
+    {
+        "country": "BD",
+        "name": "Parvez Ali Hossain",
+        "lat": "23.78758",
+        "lng": "90.16487"
+    },
+    {
+        "country": "BD",
+        "name": "Khanbaniara",
+        "lat": "23.78225",
+        "lng": "90.18382"
+    },
+    {
+        "country": "BD",
+        "name": "Char Golora",
+        "lat": "23.82037",
+        "lng": "90.12175"
+    },
+    {
+        "country": "BD",
+        "name": "Parvez Ali Family",
+        "lat": "23.81741",
+        "lng": "90.11921"
+    },
+    {
+        "country": "BD",
+        "name": "Joymontop",
+        "lat": "23.78789",
+        "lng": "90.16472"
+    },
+    {
+        "country": "BD",
+        "name": "Sayani",
+        "lat": "23.79119",
+        "lng": "90.16972"
+    }
+]

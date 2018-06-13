@@ -1,0 +1,74 @@
+[
+    {
+        "country": "LS",
+        "name": "Teyateyaneng",
+        "lat": "-29.14719",
+        "lng": "27.74895"
+    },
+    {
+        "country": "LS",
+        "name": "Quthing",
+        "lat": "-30.40001",
+        "lng": "27.70027"
+    },
+    {
+        "country": "LS",
+        "name": "Qacha\u2019s Nek",
+        "lat": "-30.11537",
+        "lng": "28.68936"
+    },
+    {
+        "country": "LS",
+        "name": "Nako",
+        "lat": "-29.61667",
+        "lng": "27.76667"
+    },
+    {
+        "country": "LS",
+        "name": "Mokhotlong",
+        "lat": "-29.28939",
+        "lng": "29.06751"
+    },
+    {
+        "country": "LS",
+        "name": "Mohale\u2019s Hoek",
+        "lat": "-30.15137",
+        "lng": "27.47691"
+    },
+    {
+        "country": "LS",
+        "name": "Maseru",
+        "lat": "-29.31667",
+        "lng": "27.48333"
+    },
+    {
+        "country": "LS",
+        "name": "Maputsoe",
+        "lat": "-28.8866",
+        "lng": "27.89915"
+    },
+    {
+        "country": "LS",
+        "name": "Mafeteng",
+        "lat": "-29.82299",
+        "lng": "27.23744"
+    },
+    {
+        "country": "LS",
+        "name": "Leribe",
+        "lat": "-28.87185",
+        "lng": "28.04501"
+    },
+    {
+        "country": "LS",
+        "name": "Butha-Buthe",
+        "lat": "-28.76659",
+        "lng": "28.24937"
+    },
+    {
+        "country": "LS",
+        "name": "Thaba-Tseka",
+        "lat": "-29.52204",
+        "lng": "28.6084"
+    }
+]

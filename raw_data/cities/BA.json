@@ -1,0 +1,1574 @@
+[
+    {
+        "country": "BA",
+        "name": "Zvornik",
+        "lat": "44.38605",
+        "lng": "19.10247"
+    },
+    {
+        "country": "BA",
+        "name": "\u017divinice",
+        "lat": "44.54765",
+        "lng": "17.37357"
+    },
+    {
+        "country": "BA",
+        "name": "\u017divinice",
+        "lat": "44.44929",
+        "lng": "18.64978"
+    },
+    {
+        "country": "BA",
+        "name": "\u017depce",
+        "lat": "44.42667",
+        "lng": "18.03778"
+    },
+    {
+        "country": "BA",
+        "name": "Zenica",
+        "lat": "44.20169",
+        "lng": "17.90397"
+    },
+    {
+        "country": "BA",
+        "name": "\u017deljezno Polje",
+        "lat": "44.39875",
+        "lng": "17.94103"
+    },
+    {
+        "country": "BA",
+        "name": "Zbori\u0161te",
+        "lat": "45.14593",
+        "lng": "16.01728"
+    },
+    {
+        "country": "BA",
+        "name": "Zavidovici",
+        "lat": "44.44583",
+        "lng": "18.14972"
+    },
+    {
+        "country": "BA",
+        "name": "Zabri\u0161ce",
+        "lat": "43.79224",
+        "lng": "16.94224"
+    },
+    {
+        "country": "BA",
+        "name": "Vukovije Donje",
+        "lat": "44.46209",
+        "lng": "18.74941"
+    },
+    {
+        "country": "BA",
+        "name": "Vrnograc",
+        "lat": "45.16369",
+        "lng": "15.95444"
+    },
+    {
+        "country": "BA",
+        "name": "Vozuca",
+        "lat": "44.35878",
+        "lng": "18.35397"
+    },
+    {
+        "country": "BA",
+        "name": "Voljevac",
+        "lat": "43.87873",
+        "lng": "17.65861"
+    },
+    {
+        "country": "BA",
+        "name": "Vogo\u0161ca",
+        "lat": "43.90225",
+        "lng": "18.34438"
+    },
+    {
+        "country": "BA",
+        "name": "Vlasenica",
+        "lat": "44.18183",
+        "lng": "18.94096"
+    },
+    {
+        "country": "BA",
+        "name": "Vitina",
+        "lat": "43.2375",
+        "lng": "17.48389"
+    },
+    {
+        "country": "BA",
+        "name": "Vitez",
+        "lat": "44.15424",
+        "lng": "17.79009"
+    },
+    {
+        "country": "BA",
+        "name": "Visoko",
+        "lat": "43.98889",
+        "lng": "18.17806"
+    },
+    {
+        "country": "BA",
+        "name": "Vi\u0161egrad",
+        "lat": "43.7826",
+        "lng": "19.29256"
+    },
+    {
+        "country": "BA",
+        "name": "Vido\u0161i",
+        "lat": "43.77139",
+        "lng": "17.02833"
+    },
+    {
+        "country": "BA",
+        "name": "Velika Obarska",
+        "lat": "44.80461",
+        "lng": "19.16183"
+    },
+    {
+        "country": "BA",
+        "name": "Velika Kladu\u0161a",
+        "lat": "45.18497",
+        "lng": "15.80579"
+    },
+    {
+        "country": "BA",
+        "name": "Velagici",
+        "lat": "44.55618",
+        "lng": "16.73349"
+    },
+    {
+        "country": "BA",
+        "name": "Varo\u0161ka Rijeka",
+        "lat": "45.08936",
+        "lng": "16.01906"
+    },
+    {
+        "country": "BA",
+        "name": "Vare\u0161",
+        "lat": "44.16444",
+        "lng": "18.32833"
+    },
+    {
+        "country": "BA",
+        "name": "Ustikolina",
+        "lat": "43.58338",
+        "lng": "18.79106"
+    },
+    {
+        "country": "BA",
+        "name": "Ugljevik",
+        "lat": "44.66361",
+        "lng": "19.02028"
+    },
+    {
+        "country": "BA",
+        "name": "Tuzla",
+        "lat": "44.53842",
+        "lng": "18.66709"
+    },
+    {
+        "country": "BA",
+        "name": "Turbe",
+        "lat": "44.24352",
+        "lng": "17.57499"
+    },
+    {
+        "country": "BA",
+        "name": "Tr\u017eacka Ra\u0161tela",
+        "lat": "44.97597",
+        "lng": "15.78489"
+    },
+    {
+        "country": "BA",
+        "name": "Trnovo",
+        "lat": "43.6658",
+        "lng": "18.44593"
+    },
+    {
+        "country": "BA",
+        "name": "Trn",
+        "lat": "44.85829",
+        "lng": "17.23583"
+    },
+    {
+        "country": "BA",
+        "name": "Trebinje",
+        "lat": "42.71197",
+        "lng": "18.34362"
+    },
+    {
+        "country": "BA",
+        "name": "Travnik",
+        "lat": "44.22637",
+        "lng": "17.66583"
+    },
+    {
+        "country": "BA",
+        "name": "Toj\u0161ici",
+        "lat": "44.50133",
+        "lng": "18.78523"
+    },
+    {
+        "country": "BA",
+        "name": "Teslic",
+        "lat": "44.60639",
+        "lng": "17.85972"
+    },
+    {
+        "country": "BA",
+        "name": "Te\u0161anj",
+        "lat": "44.61191",
+        "lng": "17.98552"
+    },
+    {
+        "country": "BA",
+        "name": "Tasovcici",
+        "lat": "43.11333",
+        "lng": "17.72"
+    },
+    {
+        "country": "BA",
+        "name": "Svodna",
+        "lat": "45.0377",
+        "lng": "16.54019"
+    },
+    {
+        "country": "BA",
+        "name": "\u0160umatac",
+        "lat": "45.09743",
+        "lng": "15.85818"
+    },
+    {
+        "country": "BA",
+        "name": "\u0160turlic",
+        "lat": "45.06389",
+        "lng": "15.77806"
+    },
+    {
+        "country": "BA",
+        "name": "Stupari",
+        "lat": "44.31382",
+        "lng": "18.68416"
+    },
+    {
+        "country": "BA",
+        "name": "Stolac",
+        "lat": "43.084",
+        "lng": "17.95995"
+    },
+    {
+        "country": "BA",
+        "name": "Stjepan-Polje",
+        "lat": "44.71634",
+        "lng": "18.25783"
+    },
+    {
+        "country": "BA",
+        "name": "Stijena",
+        "lat": "44.9363",
+        "lng": "16.02224"
+    },
+    {
+        "country": "BA",
+        "name": "Srebrenik",
+        "lat": "44.70819",
+        "lng": "18.48834"
+    },
+    {
+        "country": "BA",
+        "name": "Srebrenica",
+        "lat": "44.10748",
+        "lng": "19.29669"
+    },
+    {
+        "country": "BA",
+        "name": "Srbac",
+        "lat": "45.0973",
+        "lng": "17.52331"
+    },
+    {
+        "country": "BA",
+        "name": "Solina",
+        "lat": "44.56226",
+        "lng": "18.69322"
+    },
+    {
+        "country": "BA",
+        "name": "Sokolac",
+        "lat": "43.93817",
+        "lng": "18.80079"
+    },
+    {
+        "country": "BA",
+        "name": "Sladna",
+        "lat": "44.72897",
+        "lng": "18.42575"
+    },
+    {
+        "country": "BA",
+        "name": "Kne\u017eevo",
+        "lat": "44.49071",
+        "lng": "17.38161"
+    },
+    {
+        "country": "BA",
+        "name": "\u0160ipovo",
+        "lat": "44.28237",
+        "lng": "17.08597"
+    },
+    {
+        "country": "BA",
+        "name": "\u0160erici",
+        "lat": "44.46674",
+        "lng": "18.5637"
+    },
+    {
+        "country": "BA",
+        "name": "\u0160ekovici",
+        "lat": "44.29896",
+        "lng": "18.85532"
+    },
+    {
+        "country": "BA",
+        "name": "Sarajevo",
+        "lat": "43.84864",
+        "lng": "18.35644"
+    },
+    {
+        "country": "BA",
+        "name": "Sapna",
+        "lat": "44.5038",
+        "lng": "18.99818"
+    },
+    {
+        "country": "BA",
+        "name": "Sanski Most",
+        "lat": "44.7667",
+        "lng": "16.667"
+    },
+    {
+        "country": "BA",
+        "name": "Sanica",
+        "lat": "44.61354",
+        "lng": "16.64062"
+    },
+    {
+        "country": "BA",
+        "name": "Rumboci",
+        "lat": "43.83154",
+        "lng": "17.50273"
+    },
+    {
+        "country": "BA",
+        "name": "Rudo",
+        "lat": "43.61781",
+        "lng": "19.36719"
+    },
+    {
+        "country": "BA",
+        "name": "Rogatica",
+        "lat": "43.79894",
+        "lng": "19.00363"
+    },
+    {
+        "country": "BA",
+        "name": "Rodoc",
+        "lat": "43.31453",
+        "lng": "17.8029"
+    },
+    {
+        "country": "BA",
+        "name": "Ravno",
+        "lat": "42.88741",
+        "lng": "17.96555"
+    },
+    {
+        "country": "BA",
+        "name": "Radi\u0161ici",
+        "lat": "43.22302",
+        "lng": "17.54056"
+    },
+    {
+        "country": "BA",
+        "name": "Puracic",
+        "lat": "44.54562",
+        "lng": "18.47865"
+    },
+    {
+        "country": "BA",
+        "name": "Novi Travnik",
+        "lat": "44.17133",
+        "lng": "17.65816"
+    },
+    {
+        "country": "BA",
+        "name": "Prozor",
+        "lat": "43.82222",
+        "lng": "17.60917"
+    },
+    {
+        "country": "BA",
+        "name": "Prnjavor",
+        "lat": "44.87021",
+        "lng": "17.66256"
+    },
+    {
+        "country": "BA",
+        "name": "Prijedor",
+        "lat": "44.97991",
+        "lng": "16.71401"
+    },
+    {
+        "country": "BA",
+        "name": "Priboj",
+        "lat": "44.60233",
+        "lng": "18.93165"
+    },
+    {
+        "country": "BA",
+        "name": "Pribinic",
+        "lat": "44.6101",
+        "lng": "17.68981"
+    },
+    {
+        "country": "BA",
+        "name": "Praca",
+        "lat": "43.76367",
+        "lng": "18.76512"
+    },
+    {
+        "country": "BA",
+        "name": "Potoci",
+        "lat": "44.39261",
+        "lng": "16.62001"
+    },
+    {
+        "country": "BA",
+        "name": "Potoci",
+        "lat": "43.40953",
+        "lng": "17.87855"
+    },
+    {
+        "country": "BA",
+        "name": "Posu\u0161je",
+        "lat": "43.47281",
+        "lng": "17.32621"
+    },
+    {
+        "country": "BA",
+        "name": "Popovi",
+        "lat": "44.76547",
+        "lng": "19.28667"
+    },
+    {
+        "country": "BA",
+        "name": "Polje-Bijela",
+        "lat": "43.63299",
+        "lng": "17.97216"
+    },
+    {
+        "country": "BA",
+        "name": "Podzvizd",
+        "lat": "45.17417",
+        "lng": "15.87361"
+    },
+    {
+        "country": "BA",
+        "name": "Podhum",
+        "lat": "43.72295",
+        "lng": "16.99887"
+    },
+    {
+        "country": "BA",
+        "name": "Petkovci",
+        "lat": "44.46849",
+        "lng": "19.07466"
+    },
+    {
+        "country": "BA",
+        "name": "Pelagicevo",
+        "lat": "44.90105",
+        "lng": "18.59185"
+    },
+    {
+        "country": "BA",
+        "name": "Pecigrad",
+        "lat": "45.05444",
+        "lng": "15.89694"
+    },
+    {
+        "country": "BA",
+        "name": "Peci",
+        "lat": "44.63139",
+        "lng": "16.7825"
+    },
+    {
+        "country": "BA",
+        "name": "Pazaric",
+        "lat": "43.78882",
+        "lng": "18.16049"
+    },
+    {
+        "country": "BA",
+        "name": "Pale",
+        "lat": "43.81664",
+        "lng": "18.56949"
+    },
+    {
+        "country": "BA",
+        "name": "Otoka",
+        "lat": "44.96",
+        "lng": "16.17917"
+    },
+    {
+        "country": "BA",
+        "name": "Ostro\u017eac",
+        "lat": "44.90866",
+        "lng": "15.94045"
+    },
+    {
+        "country": "BA",
+        "name": "O\u0161tra Luka",
+        "lat": "44.99724",
+        "lng": "18.58464"
+    },
+    {
+        "country": "BA",
+        "name": "O\u0161tra Luka",
+        "lat": "44.86027",
+        "lng": "16.66069"
+    },
+    {
+        "country": "BA",
+        "name": "Osmaci",
+        "lat": "44.40159",
+        "lng": "18.91638"
+    },
+    {
+        "country": "BA",
+        "name": "Orguz",
+        "lat": "43.77414",
+        "lng": "16.86329"
+    },
+    {
+        "country": "BA",
+        "name": "Ora\u0161je",
+        "lat": "45.03366",
+        "lng": "18.69334"
+    },
+    {
+        "country": "BA",
+        "name": "Ora\u0161ac",
+        "lat": "44.63039",
+        "lng": "16.07443"
+    },
+    {
+        "country": "BA",
+        "name": "Orahovica Donja",
+        "lat": "44.65345",
+        "lng": "18.36951"
+    },
+    {
+        "country": "BA",
+        "name": "Omarska",
+        "lat": "44.8917",
+        "lng": "16.89814"
+    },
+    {
+        "country": "BA",
+        "name": "Omanjska",
+        "lat": "44.69831",
+        "lng": "17.95757"
+    },
+    {
+        "country": "BA",
+        "name": "Olovo",
+        "lat": "44.1277",
+        "lng": "18.58065"
+    },
+    {
+        "country": "BA",
+        "name": "Od\u017eak",
+        "lat": "45.02461",
+        "lng": "18.32107"
+    },
+    {
+        "country": "BA",
+        "name": "Obudovac",
+        "lat": "44.95215",
+        "lng": "18.59869"
+    },
+    {
+        "country": "BA",
+        "name": "Novo Selo",
+        "lat": "44.08007",
+        "lng": "17.15556"
+    },
+    {
+        "country": "BA",
+        "name": "Novi \u0160eher",
+        "lat": "44.51031",
+        "lng": "18.02624"
+    },
+    {
+        "country": "BA",
+        "name": "Nevesinje",
+        "lat": "43.25861",
+        "lng": "18.11333"
+    },
+    {
+        "country": "BA",
+        "name": "Neum",
+        "lat": "42.92333",
+        "lng": "17.61556"
+    },
+    {
+        "country": "BA",
+        "name": "Mrkonjic Grad",
+        "lat": "44.41729",
+        "lng": "17.08288"
+    },
+    {
+        "country": "BA",
+        "name": "Mramor",
+        "lat": "44.59234",
+        "lng": "18.56458"
+    },
+    {
+        "country": "BA",
+        "name": "Mostar",
+        "lat": "43.34333",
+        "lng": "17.80806"
+    },
+    {
+        "country": "BA",
+        "name": "Mionica",
+        "lat": "44.86646",
+        "lng": "18.46603"
+    },
+    {
+        "country": "BA",
+        "name": "Milici",
+        "lat": "44.17016",
+        "lng": "19.09195"
+    },
+    {
+        "country": "BA",
+        "name": "Matuzici",
+        "lat": "44.68776",
+        "lng": "18.04885"
+    },
+    {
+        "country": "BA",
+        "name": "Maslovare",
+        "lat": "44.56594",
+        "lng": "17.53216"
+    },
+    {
+        "country": "BA",
+        "name": "Maricka",
+        "lat": "44.86801",
+        "lng": "16.8551"
+    },
+    {
+        "country": "BA",
+        "name": "Mala Kladu\u0161a",
+        "lat": "45.13443",
+        "lng": "15.85217"
+    },
+    {
+        "country": "BA",
+        "name": "Mahala",
+        "lat": "44.01194",
+        "lng": "18.25528"
+    },
+    {
+        "country": "BA",
+        "name": "Maglajani",
+        "lat": "44.94975",
+        "lng": "17.35014"
+    },
+    {
+        "country": "BA",
+        "name": "Maglaj",
+        "lat": "44.54771",
+        "lng": "18.10003"
+    },
+    {
+        "country": "BA",
+        "name": "Lukavica",
+        "lat": "44.76452",
+        "lng": "18.16887"
+    },
+    {
+        "country": "BA",
+        "name": "Lukavica",
+        "lat": "43.82693",
+        "lng": "18.38318"
+    },
+    {
+        "country": "BA",
+        "name": "Lukavac",
+        "lat": "44.54245",
+        "lng": "18.52618"
+    },
+    {
+        "country": "BA",
+        "name": "Lopare",
+        "lat": "44.63498",
+        "lng": "18.8434"
+    },
+    {
+        "country": "BA",
+        "name": "Lokvine",
+        "lat": "44.20466",
+        "lng": "17.85665"
+    },
+    {
+        "country": "BA",
+        "name": "Ljubu\u0161ki",
+        "lat": "43.19694",
+        "lng": "17.545"
+    },
+    {
+        "country": "BA",
+        "name": "Ljubinje",
+        "lat": "42.9512",
+        "lng": "18.08702"
+    },
+    {
+        "country": "BA",
+        "name": "Livno",
+        "lat": "43.82695",
+        "lng": "17.00746"
+    },
+    {
+        "country": "BA",
+        "name": "\u0160iroki Brijeg",
+        "lat": "43.3829",
+        "lng": "17.59416"
+    },
+    {
+        "country": "BA",
+        "name": "Lakta\u0161i",
+        "lat": "44.90857",
+        "lng": "17.30135"
+    },
+    {
+        "country": "BA",
+        "name": "Kupres",
+        "lat": "43.99273",
+        "lng": "17.27639"
+    },
+    {
+        "country": "BA",
+        "name": "Krupa na Vrbasu",
+        "lat": "44.61875",
+        "lng": "17.14351"
+    },
+    {
+        "country": "BA",
+        "name": "Teocak",
+        "lat": "44.60321",
+        "lng": "18.97967"
+    },
+    {
+        "country": "BA",
+        "name": "Kre\u0161evo",
+        "lat": "43.86556",
+        "lng": "18.04333"
+    },
+    {
+        "country": "BA",
+        "name": "Kotor Varo\u0161",
+        "lat": "44.61831",
+        "lng": "17.37204"
+    },
+    {
+        "country": "BA",
+        "name": "Kopaci",
+        "lat": "43.67833",
+        "lng": "19.02845"
+    },
+    {
+        "country": "BA",
+        "name": "Kocerin",
+        "lat": "43.39005",
+        "lng": "17.48552"
+    },
+    {
+        "country": "BA",
+        "name": "Kobilja Glava",
+        "lat": "43.88188",
+        "lng": "18.38864"
+    },
+    {
+        "country": "BA",
+        "name": "Klokotnica",
+        "lat": "44.7329",
+        "lng": "18.18884"
+    },
+    {
+        "country": "BA",
+        "name": "Kljuc",
+        "lat": "44.53251",
+        "lng": "16.77682"
+    },
+    {
+        "country": "BA",
+        "name": "Kladanj",
+        "lat": "44.22669",
+        "lng": "18.69274"
+    },
+    {
+        "country": "BA",
+        "name": "Kiseljak",
+        "lat": "44.48904",
+        "lng": "18.56982"
+    },
+    {
+        "country": "BA",
+        "name": "Kiseljak",
+        "lat": "43.94295",
+        "lng": "18.08132"
+    },
+    {
+        "country": "BA",
+        "name": "Karadaglije",
+        "lat": "44.57065",
+        "lng": "18.01775"
+    },
+    {
+        "country": "BA",
+        "name": "Kalinovik",
+        "lat": "43.50464",
+        "lng": "18.44649"
+    },
+    {
+        "country": "BA",
+        "name": "Kalesija",
+        "lat": "44.43765",
+        "lng": "18.90713"
+    },
+    {
+        "country": "BA",
+        "name": "Kalenderovci Donji",
+        "lat": "44.94673",
+        "lng": "17.83785"
+    },
+    {
+        "country": "BA",
+        "name": "Kakanj",
+        "lat": "44.13311",
+        "lng": "18.12292"
+    },
+    {
+        "country": "BA",
+        "name": "Jezerski",
+        "lat": "44.98172",
+        "lng": "16.09447"
+    },
+    {
+        "country": "BA",
+        "name": "Jezero",
+        "lat": "44.34954",
+        "lng": "17.1688"
+    },
+    {
+        "country": "BA",
+        "name": "Janja",
+        "lat": "44.66554",
+        "lng": "19.24691"
+    },
+    {
+        "country": "BA",
+        "name": "Jajce",
+        "lat": "44.34203",
+        "lng": "17.27059"
+    },
+    {
+        "country": "BA",
+        "name": "Izacic",
+        "lat": "44.87485",
+        "lng": "15.78256"
+    },
+    {
+        "country": "BA",
+        "name": "Ilija\u0161",
+        "lat": "43.95128",
+        "lng": "18.27128"
+    },
+    {
+        "country": "BA",
+        "name": "Ilid\u017ea",
+        "lat": "43.82939",
+        "lng": "18.30003"
+    },
+    {
+        "country": "BA",
+        "name": "Hre\u0161a",
+        "lat": "43.878",
+        "lng": "18.49699"
+    },
+    {
+        "country": "BA",
+        "name": "Han Pijesak",
+        "lat": "44.08161",
+        "lng": "18.95258"
+    },
+    {
+        "country": "BA",
+        "name": "Had\u017eici",
+        "lat": "43.82222",
+        "lng": "18.20667"
+    },
+    {
+        "country": "BA",
+        "name": "Grude",
+        "lat": "43.37208",
+        "lng": "17.41449"
+    },
+    {
+        "country": "BA",
+        "name": "Gromiljak",
+        "lat": "43.96668",
+        "lng": "18.05504"
+    },
+    {
+        "country": "BA",
+        "name": "Gradacac",
+        "lat": "44.87851",
+        "lng": "18.42764"
+    },
+    {
+        "country": "BA",
+        "name": "Gracanica",
+        "lat": "44.70307",
+        "lng": "18.3101"
+    },
+    {
+        "country": "BA",
+        "name": "Gracanica",
+        "lat": "43.73333",
+        "lng": "18.28333"
+    },
+    {
+        "country": "BA",
+        "name": "Gostovici",
+        "lat": "44.41124",
+        "lng": "18.17029"
+    },
+    {
+        "country": "BA",
+        "name": "Gornji Vakuf",
+        "lat": "43.93806",
+        "lng": "17.58833"
+    },
+    {
+        "country": "BA",
+        "name": "Gornji Ribnik",
+        "lat": "44.41752",
+        "lng": "16.8169"
+    },
+    {
+        "country": "BA",
+        "name": "Gornje \u017divinice",
+        "lat": "44.42921",
+        "lng": "18.61667"
+    },
+    {
+        "country": "BA",
+        "name": "Gornje Mo\u0161tre",
+        "lat": "44.01911",
+        "lng": "18.15477"
+    },
+    {
+        "country": "BA",
+        "name": "Gornja Tuzla",
+        "lat": "44.55659",
+        "lng": "18.76159"
+    },
+    {
+        "country": "BA",
+        "name": "Gornja Koprivna",
+        "lat": "45.01091",
+        "lng": "15.95487"
+    },
+    {
+        "country": "BA",
+        "name": "Gora\u017ede",
+        "lat": "43.66795",
+        "lng": "18.97564"
+    },
+    {
+        "country": "BA",
+        "name": "Gnojnica",
+        "lat": "44.62058",
+        "lng": "18.44684"
+    },
+    {
+        "country": "BA",
+        "name": "Glamoc",
+        "lat": "44.04583",
+        "lng": "16.84861"
+    },
+    {
+        "country": "BA",
+        "name": "Gacko",
+        "lat": "43.16722",
+        "lng": "18.53528"
+    },
+    {
+        "country": "BA",
+        "name": "Fojnica",
+        "lat": "43.95952",
+        "lng": "17.90288"
+    },
+    {
+        "country": "BA",
+        "name": "Foca",
+        "lat": "43.50646",
+        "lng": "18.77854"
+    },
+    {
+        "country": "BA",
+        "name": "Tomislavgrad",
+        "lat": "43.71849",
+        "lng": "17.22515"
+    },
+    {
+        "country": "BA",
+        "name": "Dubravica",
+        "lat": "44.44131",
+        "lng": "18.11883"
+    },
+    {
+        "country": "BA",
+        "name": "Dubrave Gornje",
+        "lat": "44.47229",
+        "lng": "18.72685"
+    },
+    {
+        "country": "BA",
+        "name": "Dubrave Donje",
+        "lat": "44.4806",
+        "lng": "18.69709"
+    },
+    {
+        "country": "BA",
+        "name": "Drvar",
+        "lat": "44.37389",
+        "lng": "16.38083"
+    },
+    {
+        "country": "BA",
+        "name": "Drinovci",
+        "lat": "43.35454",
+        "lng": "17.32536"
+    },
+    {
+        "country": "BA",
+        "name": "Drinic",
+        "lat": "44.50671",
+        "lng": "16.46699"
+    },
+    {
+        "country": "BA",
+        "name": "Donji \u017dabar",
+        "lat": "44.94317",
+        "lng": "18.64673"
+    },
+    {
+        "country": "BA",
+        "name": "Donji Vakuf",
+        "lat": "44.14361",
+        "lng": "17.4"
+    },
+    {
+        "country": "BA",
+        "name": "Donji Dubovik",
+        "lat": "44.89021",
+        "lng": "16.3251"
+    },
+    {
+        "country": "BA",
+        "name": "Donja Medida",
+        "lat": "44.80235",
+        "lng": "18.40477"
+    },
+    {
+        "country": "BA",
+        "name": "Donja Mahala",
+        "lat": "45.04327",
+        "lng": "18.66996"
+    },
+    {
+        "country": "BA",
+        "name": "Donja Dubica",
+        "lat": "45.07559",
+        "lng": "18.41023"
+    },
+    {
+        "country": "BA",
+        "name": "Domaljevac",
+        "lat": "45.0611",
+        "lng": "18.58612"
+    },
+    {
+        "country": "BA",
+        "name": "Dobrljin",
+        "lat": "45.15106",
+        "lng": "16.47869"
+    },
+    {
+        "country": "BA",
+        "name": "Dobrinje",
+        "lat": "44.05008",
+        "lng": "18.11958"
+    },
+    {
+        "country": "BA",
+        "name": "Doboj",
+        "lat": "44.73179",
+        "lng": "18.08698"
+    },
+    {
+        "country": "BA",
+        "name": "Divicani",
+        "lat": "44.36682",
+        "lng": "17.32678"
+    },
+    {
+        "country": "BA",
+        "name": "Derventa",
+        "lat": "44.97839",
+        "lng": "17.90779"
+    },
+    {
+        "country": "BA",
+        "name": "Citluk",
+        "lat": "43.22861",
+        "lng": "17.70083"
+    },
+    {
+        "country": "BA",
+        "name": "Cim",
+        "lat": "43.35401",
+        "lng": "17.78045"
+    },
+    {
+        "country": "BA",
+        "name": "Celinac",
+        "lat": "44.73998",
+        "lng": "17.31881"
+    },
+    {
+        "country": "BA",
+        "name": "Celic",
+        "lat": "44.72524",
+        "lng": "18.81474"
+    },
+    {
+        "country": "BA",
+        "name": "Cecava",
+        "lat": "44.67961",
+        "lng": "17.7578"
+    },
+    {
+        "country": "BA",
+        "name": "Cazin",
+        "lat": "44.96694",
+        "lng": "15.94306"
+    },
+    {
+        "country": "BA",
+        "name": "Capljina",
+        "lat": "43.12139",
+        "lng": "17.68444"
+    },
+    {
+        "country": "BA",
+        "name": "Cajnice",
+        "lat": "43.55712",
+        "lng": "19.07186"
+    },
+    {
+        "country": "BA",
+        "name": "Bu\u017eim",
+        "lat": "45.05361",
+        "lng": "16.03254"
+    },
+    {
+        "country": "BA",
+        "name": "Busovaca",
+        "lat": "44.09769",
+        "lng": "17.8783"
+    },
+    {
+        "country": "BA",
+        "name": "Bugojno",
+        "lat": "44.05722",
+        "lng": "17.45083"
+    },
+    {
+        "country": "BA",
+        "name": "Bronzani Majdan",
+        "lat": "44.79237",
+        "lng": "16.94039"
+    },
+    {
+        "country": "BA",
+        "name": "Brka",
+        "lat": "44.82837",
+        "lng": "18.7242"
+    },
+    {
+        "country": "BA",
+        "name": "Breza",
+        "lat": "44.01862",
+        "lng": "18.26063"
+    },
+    {
+        "country": "BA",
+        "name": "Brcko",
+        "lat": "44.86995",
+        "lng": "18.81012"
+    },
+    {
+        "country": "BA",
+        "name": "Bratunac",
+        "lat": "44.18455",
+        "lng": "19.33085"
+    },
+    {
+        "country": "BA",
+        "name": "Petrovo",
+        "lat": "44.62804",
+        "lng": "18.35323"
+    },
+    {
+        "country": "BA",
+        "name": "Bosansko Grahovo",
+        "lat": "44.17944",
+        "lng": "16.36389"
+    },
+    {
+        "country": "BA",
+        "name": "\u0160amac",
+        "lat": "45.05987",
+        "lng": "18.46756"
+    },
+    {
+        "country": "BA",
+        "name": "Bosanski Petrovac",
+        "lat": "44.55537",
+        "lng": "16.36897"
+    },
+    {
+        "country": "BA",
+        "name": "Novi Grad",
+        "lat": "45.04643",
+        "lng": "16.37782"
+    },
+    {
+        "country": "BA",
+        "name": "Brod",
+        "lat": "45.13747",
+        "lng": "17.98722"
+    },
+    {
+        "country": "BA",
+        "name": "Bosanska Krupa",
+        "lat": "44.8825",
+        "lng": "16.15139"
+    },
+    {
+        "country": "BA",
+        "name": "Kostajnica",
+        "lat": "45.21956",
+        "lng": "16.53929"
+    },
+    {
+        "country": "BA",
+        "name": "Gradi\u0161ka",
+        "lat": "45.14484",
+        "lng": "17.25453"
+    },
+    {
+        "country": "BA",
+        "name": "Kozarska Dubica",
+        "lat": "45.17667",
+        "lng": "16.80944"
+    },
+    {
+        "country": "BA",
+        "name": "Blatnica",
+        "lat": "44.48677",
+        "lng": "17.82278"
+    },
+    {
+        "country": "BA",
+        "name": "Blagaj",
+        "lat": "43.25892",
+        "lng": "17.88815"
+    },
+    {
+        "country": "BA",
+        "name": "Bileca",
+        "lat": "42.87645",
+        "lng": "18.42967"
+    },
+    {
+        "country": "BA",
+        "name": "Bila",
+        "lat": "43.78265",
+        "lng": "16.92676"
+    },
+    {
+        "country": "BA",
+        "name": "Bijeljina",
+        "lat": "44.75874",
+        "lng": "19.21437"
+    },
+    {
+        "country": "BA",
+        "name": "Bihac",
+        "lat": "44.81694",
+        "lng": "15.87083"
+    },
+    {
+        "country": "BA",
+        "name": "Berkovici",
+        "lat": "43.09472",
+        "lng": "18.17028"
+    },
+    {
+        "country": "BA",
+        "name": "Banovici",
+        "lat": "44.40596",
+        "lng": "18.52648"
+    },
+    {
+        "country": "BA",
+        "name": "Banja Luka",
+        "lat": "44.77842",
+        "lng": "17.19386"
+    },
+    {
+        "country": "BA",
+        "name": "Balatun",
+        "lat": "44.86332",
+        "lng": "19.33931"
+    },
+    {
+        "country": "BA",
+        "name": "Koran",
+        "lat": "43.81038",
+        "lng": "18.56999"
+    },
+    {
+        "country": "BA",
+        "name": "Jelah",
+        "lat": "44.654",
+        "lng": "17.95897"
+    },
+    {
+        "country": "BA",
+        "name": "Stanari",
+        "lat": "44.74475",
+        "lng": "17.82714"
+    },
+    {
+        "country": "BA",
+        "name": "Dobratici",
+        "lat": "44.37792",
+        "lng": "17.41426"
+    },
+    {
+        "country": "BA",
+        "name": "Podbrdo",
+        "lat": "44.44189",
+        "lng": "17.01495"
+    },
+    {
+        "country": "BA",
+        "name": "Male\u0161ici",
+        "lat": "44.73824",
+        "lng": "18.27335"
+    },
+    {
+        "country": "BA",
+        "name": "Svojat",
+        "lat": "44.39548",
+        "lng": "18.73849"
+    },
+    {
+        "country": "BA",
+        "name": "Dvorovi",
+        "lat": "44.80753",
+        "lng": "19.25999"
+    },
+    {
+        "country": "BA",
+        "name": "Kne\u017eica",
+        "lat": "45.10548",
+        "lng": "16.67668"
+    },
+    {
+        "country": "BA",
+        "name": "Pjanici",
+        "lat": "44.98568",
+        "lng": "15.82304"
+    },
+    {
+        "country": "BA",
+        "name": "Polje",
+        "lat": "43.88014",
+        "lng": "18.07452"
+    },
+    {
+        "country": "BA",
+        "name": "Ilici",
+        "lat": "43.34765",
+        "lng": "17.76848"
+    },
+    {
+        "country": "BA",
+        "name": "Careva Cuprija",
+        "lat": "44.2663",
+        "lng": "18.42961"
+    },
+    {
+        "country": "BA",
+        "name": "Starcevica",
+        "lat": "44.75708",
+        "lng": "17.21178"
+    },
+    {
+        "country": "BA",
+        "name": "Celinac",
+        "lat": "44.72453",
+        "lng": "17.32431"
+    },
+    {
+        "country": "BA",
+        "name": "Hiseti",
+        "lat": "44.76111",
+        "lng": "17.17944"
+    },
+    {
+        "country": "BA",
+        "name": "Piskavica",
+        "lat": "44.86717",
+        "lng": "16.97464"
+    },
+    {
+        "country": "BA",
+        "name": "Lamovita",
+        "lat": "44.92018",
+        "lng": "16.89933"
+    },
+    {
+        "country": "BA",
+        "name": "Te\u0161anjka",
+        "lat": "44.67228",
+        "lng": "18.01109"
+    },
+    {
+        "country": "BA",
+        "name": "Kovaci",
+        "lat": "44.44874",
+        "lng": "18.20521"
+    },
+    {
+        "country": "BA",
+        "name": "Lije\u0161nica",
+        "lat": "44.49497",
+        "lng": "18.07644"
+    },
+    {
+        "country": "BA",
+        "name": "Coralici",
+        "lat": "45.00694",
+        "lng": "15.87194"
+    },
+    {
+        "country": "BA",
+        "name": "Crnici",
+        "lat": "43.13156",
+        "lng": "17.86452"
+    },
+    {
+        "country": "BA",
+        "name": "Barice",
+        "lat": "44.54065",
+        "lng": "18.48069"
+    },
+    {
+        "country": "BA",
+        "name": "Hotonj",
+        "lat": "43.89341",
+        "lng": "18.37751"
+    },
+    {
+        "country": "BA",
+        "name": "Skokovi",
+        "lat": "45.03139",
+        "lng": "15.91444"
+    },
+    {
+        "country": "BA",
+        "name": "Dre\u017enica",
+        "lat": "43.52891",
+        "lng": "17.2812"
+    },
+    {
+        "country": "BA",
+        "name": "Kacuni",
+        "lat": "44.06433",
+        "lng": "17.93894"
+    },
+    {
+        "country": "BA",
+        "name": "Pajic Polje",
+        "lat": "43.97583",
+        "lng": "17.5275"
+    },
+    {
+        "country": "BA",
+        "name": "Gornja Breza",
+        "lat": "44.03758",
+        "lng": "18.24564"
+    },
+    {
+        "country": "BA",
+        "name": "Todorovo",
+        "lat": "45.08833",
+        "lng": "15.93083"
+    },
+    {
+        "country": "BA",
+        "name": "Konjic",
+        "lat": "43.65126",
+        "lng": "17.96082"
+    },
+    {
+        "country": "BA",
+        "name": "Jablanica",
+        "lat": "43.66028",
+        "lng": "17.76167"
+    },
+    {
+        "country": "BA",
+        "name": "Bijela",
+        "lat": "43.60871",
+        "lng": "17.95078"
+    },
+    {
+        "country": "BA",
+        "name": "Mejdan - Obilicevo",
+        "lat": "44.76324",
+        "lng": "17.19012"
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "country": "TO",
+        "name": "Vaini",
+        "lat": "-21.19292",
+        "lng": "-175.17678"
+    },
+    {
+        "country": "TO",
+        "name": "Pangai",
+        "lat": "-19.81468",
+        "lng": "-174.35423"
+    },
+    {
+        "country": "TO",
+        "name": "\u2018Ohonua",
+        "lat": "-21.33333",
+        "lng": "-174.95"
+    },
+    {
+        "country": "TO",
+        "name": "Nuku\u2018alofa",
+        "lat": "-21.13938",
+        "lng": "-175.2018"
+    },
+    {
+        "country": "TO",
+        "name": "Neiafu",
+        "lat": "-18.6506",
+        "lng": "-173.98404"
+    },
+    {
+        "country": "TO",
+        "name": "Hihifo",
+        "lat": "-15.9544",
+        "lng": "-173.79616"
+    },
+    {
+        "country": "TO",
+        "name": "Haveluloto",
+        "lat": "-21.15216",
+        "lng": "-175.21333"
+    }
+]

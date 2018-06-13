@@ -1,0 +1,464 @@
+[
+    {
+        "country": "LK",
+        "name": "Welisara",
+        "lat": "7.0281",
+        "lng": "79.9014"
+    },
+    {
+        "country": "LK",
+        "name": "Weligama",
+        "lat": "5.97501",
+        "lng": "80.42968"
+    },
+    {
+        "country": "LK",
+        "name": "Wattegama",
+        "lat": "6.7989",
+        "lng": "81.4808"
+    },
+    {
+        "country": "LK",
+        "name": "Wattala",
+        "lat": "6.9779",
+        "lng": "79.8898"
+    },
+    {
+        "country": "LK",
+        "name": "Vavuniya",
+        "lat": "8.7514",
+        "lng": "80.4971"
+    },
+    {
+        "country": "LK",
+        "name": "Valvedditturai",
+        "lat": "9.81667",
+        "lng": "80.16667"
+    },
+    {
+        "country": "LK",
+        "name": "Vakarai",
+        "lat": "8.13333",
+        "lng": "81.43333"
+    },
+    {
+        "country": "LK",
+        "name": "Unawatuna",
+        "lat": "6.0212",
+        "lng": "80.2503"
+    },
+    {
+        "country": "LK",
+        "name": "Trincomalee",
+        "lat": "8.5711",
+        "lng": "81.2335"
+    },
+    {
+        "country": "LK",
+        "name": "Tangalla",
+        "lat": "6.02338",
+        "lng": "80.79738"
+    },
+    {
+        "country": "LK",
+        "name": "Talpe",
+        "lat": "5.9999",
+        "lng": "80.2787"
+    },
+    {
+        "country": "LK",
+        "name": "Talawakele",
+        "lat": "6.9371",
+        "lng": "80.6581"
+    },
+    {
+        "country": "LK",
+        "name": "Sigiriya",
+        "lat": "7.94946",
+        "lng": "80.75037"
+    },
+    {
+        "country": "LK",
+        "name": "Ratnapura",
+        "lat": "6.68278",
+        "lng": "80.39917"
+    },
+    {
+        "country": "LK",
+        "name": "Puttalam",
+        "lat": "8.0362",
+        "lng": "79.8283"
+    },
+    {
+        "country": "LK",
+        "name": "Polonnaruwa",
+        "lat": "7.93965",
+        "lng": "81.00274"
+    },
+    {
+        "country": "LK",
+        "name": "Point Pedro",
+        "lat": "9.81667",
+        "lng": "80.23333"
+    },
+    {
+        "country": "LK",
+        "name": "Pita Kotte",
+        "lat": "6.8905",
+        "lng": "79.9015"
+    },
+    {
+        "country": "LK",
+        "name": "Peliyagoda",
+        "lat": "6.9685",
+        "lng": "79.8836"
+    },
+    {
+        "country": "LK",
+        "name": "Panadura",
+        "lat": "6.7132",
+        "lng": "79.9026"
+    },
+    {
+        "country": "LK",
+        "name": "Nuwara Eliya",
+        "lat": "6.97078",
+        "lng": "80.78286"
+    },
+    {
+        "country": "LK",
+        "name": "Negombo",
+        "lat": "7.2083",
+        "lng": "79.8358"
+    },
+    {
+        "country": "LK",
+        "name": "Mulleriyawa",
+        "lat": "6.933",
+        "lng": "79.9297"
+    },
+    {
+        "country": "LK",
+        "name": "Dehiwala-Mount Lavinia",
+        "lat": "6.84019",
+        "lng": "79.87116"
+    },
+    {
+        "country": "LK",
+        "name": "Moratuwa",
+        "lat": "6.773",
+        "lng": "79.8816"
+    },
+    {
+        "country": "LK",
+        "name": "Monaragala",
+        "lat": "6.8714",
+        "lng": "81.3487"
+    },
+    {
+        "country": "LK",
+        "name": "Minuwangoda",
+        "lat": "7.1663",
+        "lng": "79.9533"
+    },
+    {
+        "country": "LK",
+        "name": "Mihintale",
+        "lat": "8.3593",
+        "lng": "80.5103"
+    },
+    {
+        "country": "LK",
+        "name": "Matara",
+        "lat": "5.94851",
+        "lng": "80.53528"
+    },
+    {
+        "country": "LK",
+        "name": "Matale",
+        "lat": "7.4698",
+        "lng": "80.6217"
+    },
+    {
+        "country": "LK",
+        "name": "Maharagama",
+        "lat": "6.848",
+        "lng": "79.9265"
+    },
+    {
+        "country": "LK",
+        "name": "Kurunegala",
+        "lat": "7.4863",
+        "lng": "80.3623"
+    },
+    {
+        "country": "LK",
+        "name": "Kuliyapitiya",
+        "lat": "7.4688",
+        "lng": "80.0401"
+    },
+    {
+        "country": "LK",
+        "name": "Sri Jayewardenepura Kotte",
+        "lat": "6.88297",
+        "lng": "79.90708"
+    },
+    {
+        "country": "LK",
+        "name": "Kotikawatta",
+        "lat": "6.9269",
+        "lng": "79.9095"
+    },
+    {
+        "country": "LK",
+        "name": "Kolonnawa",
+        "lat": "6.9329",
+        "lng": "79.8848"
+    },
+    {
+        "country": "LK",
+        "name": "Koggala",
+        "lat": "5.9886",
+        "lng": "80.3286"
+    },
+    {
+        "country": "LK",
+        "name": "Kilinochchi",
+        "lat": "9.3961",
+        "lng": "80.3982"
+    },
+    {
+        "country": "LK",
+        "name": "Kelaniya",
+        "lat": "6.9553",
+        "lng": "79.922"
+    },
+    {
+        "country": "LK",
+        "name": "Kegalle",
+        "lat": "7.2523",
+        "lng": "80.3436"
+    },
+    {
+        "country": "LK",
+        "name": "Katunayaka",
+        "lat": "7.16992",
+        "lng": "79.88837"
+    },
+    {
+        "country": "LK",
+        "name": "Kataragama",
+        "lat": "6.4134",
+        "lng": "81.3346"
+    },
+    {
+        "country": "LK",
+        "name": "Kandy",
+        "lat": "7.2955",
+        "lng": "80.6356"
+    },
+    {
+        "country": "LK",
+        "name": "Kandana",
+        "lat": "7.048",
+        "lng": "79.8937"
+    },
+    {
+        "country": "LK",
+        "name": "Kalutara",
+        "lat": "6.5831",
+        "lng": "79.9593"
+    },
+    {
+        "country": "LK",
+        "name": "Kalmunai",
+        "lat": "7.40902",
+        "lng": "81.83472"
+    },
+    {
+        "country": "LK",
+        "name": "Kadugannawa",
+        "lat": "7.2547",
+        "lng": "80.5242"
+    },
+    {
+        "country": "LK",
+        "name": "Jaffna",
+        "lat": "9.66845",
+        "lng": "80.00742"
+    },
+    {
+        "country": "LK",
+        "name": "Ja Ela",
+        "lat": "7.0744",
+        "lng": "79.8919"
+    },
+    {
+        "country": "LK",
+        "name": "Horana South",
+        "lat": "6.7159",
+        "lng": "80.0626"
+    },
+    {
+        "country": "LK",
+        "name": "Homagama",
+        "lat": "6.844",
+        "lng": "80.0024"
+    },
+    {
+        "country": "LK",
+        "name": "Hikkaduwa",
+        "lat": "6.1407",
+        "lng": "80.1012"
+    },
+    {
+        "country": "LK",
+        "name": "Hendala",
+        "lat": "6.9909",
+        "lng": "79.883"
+    },
+    {
+        "country": "LK",
+        "name": "Hatton",
+        "lat": "6.8916",
+        "lng": "80.5955"
+    },
+    {
+        "country": "LK",
+        "name": "Haputale",
+        "lat": "6.76566",
+        "lng": "80.95104"
+    },
+    {
+        "country": "LK",
+        "name": "Hanwella Ihala",
+        "lat": "6.9012",
+        "lng": "80.0852"
+    },
+    {
+        "country": "LK",
+        "name": "Gampola",
+        "lat": "7.1643",
+        "lng": "80.5696"
+    },
+    {
+        "country": "LK",
+        "name": "Gampaha",
+        "lat": "7.0897",
+        "lng": "79.9925"
+    },
+    {
+        "country": "LK",
+        "name": "Galle",
+        "lat": "6.0367",
+        "lng": "80.217"
+    },
+    {
+        "country": "LK",
+        "name": "Galkissa",
+        "lat": "6.8293",
+        "lng": "79.863"
+    },
+    {
+        "country": "LK",
+        "name": "Eravur Town",
+        "lat": "7.7782",
+        "lng": "81.6038"
+    },
+    {
+        "country": "LK",
+        "name": "Ella Town",
+        "lat": "6.8756",
+        "lng": "81.0463"
+    },
+    {
+        "country": "LK",
+        "name": "Dambulla",
+        "lat": "7.86",
+        "lng": "80.65167"
+    },
+    {
+        "country": "LK",
+        "name": "Colombo",
+        "lat": "6.93194",
+        "lng": "79.84778"
+    },
+    {
+        "country": "LK",
+        "name": "Chilaw",
+        "lat": "7.57583",
+        "lng": "79.79528"
+    },
+    {
+        "country": "LK",
+        "name": "Beruwala",
+        "lat": "6.4788",
+        "lng": "79.9828"
+    },
+    {
+        "country": "LK",
+        "name": "Bentota",
+        "lat": "6.42598",
+        "lng": "79.99575"
+    },
+    {
+        "country": "LK",
+        "name": "Batticaloa",
+        "lat": "7.7102",
+        "lng": "81.6924"
+    },
+    {
+        "country": "LK",
+        "name": "Battaramulla South",
+        "lat": "6.8964",
+        "lng": "79.9181"
+    },
+    {
+        "country": "LK",
+        "name": "Badulla",
+        "lat": "6.9895",
+        "lng": "81.0557"
+    },
+    {
+        "country": "LK",
+        "name": "Anuradhapura",
+        "lat": "8.31223",
+        "lng": "80.41306"
+    },
+    {
+        "country": "LK",
+        "name": "Ampara",
+        "lat": "7.29754",
+        "lng": "81.68202"
+    },
+    {
+        "country": "LK",
+        "name": "Ambalangoda",
+        "lat": "6.2355",
+        "lng": "80.0538"
+    },
+    {
+        "country": "LK",
+        "name": "Horawala Junction",
+        "lat": "6.48088",
+        "lng": "80.12708"
+    },
+    {
+        "country": "LK",
+        "name": "Shanjeev Home",
+        "lat": "7.38216",
+        "lng": "81.84198"
+    },
+    {
+        "country": "LK",
+        "name": "Padaviya Divisional Secretariat",
+        "lat": "8.845",
+        "lng": "80.7625"
+    },
+    {
+        "country": "LK",
+        "name": "Mount Lavinia",
+        "lat": "6.83947",
+        "lng": "79.86451"
+    }
+]

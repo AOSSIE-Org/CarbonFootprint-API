@@ -1,0 +1,446 @@
+[
+    {
+        "country": "MM",
+        "name": "Yenangyaung",
+        "lat": "20.46504",
+        "lng": "94.8712"
+    },
+    {
+        "country": "MM",
+        "name": "Nyaungdon",
+        "lat": "17.04459",
+        "lng": "95.63957"
+    },
+    {
+        "country": "MM",
+        "name": "Yamethin",
+        "lat": "20.43189",
+        "lng": "96.13875"
+    },
+    {
+        "country": "MM",
+        "name": "Wakema",
+        "lat": "16.60333",
+        "lng": "95.18278"
+    },
+    {
+        "country": "MM",
+        "name": "Twante",
+        "lat": "16.71047",
+        "lng": "95.92866"
+    },
+    {
+        "country": "MM",
+        "name": "Taungoo",
+        "lat": "18.94291",
+        "lng": "96.43408"
+    },
+    {
+        "country": "MM",
+        "name": "Thongwa",
+        "lat": "16.75998",
+        "lng": "96.52498"
+    },
+    {
+        "country": "MM",
+        "name": "Thayetmyo",
+        "lat": "19.32076",
+        "lng": "95.18272"
+    },
+    {
+        "country": "MM",
+        "name": "Thaton",
+        "lat": "16.91867",
+        "lng": "97.37001"
+    },
+    {
+        "country": "MM",
+        "name": "Tharyarwady",
+        "lat": "17.65399",
+        "lng": "95.78813"
+    },
+    {
+        "country": "MM",
+        "name": "Thanatpin",
+        "lat": "17.29136",
+        "lng": "96.57523"
+    },
+    {
+        "country": "MM",
+        "name": "Thanatpin",
+        "lat": "17.21194",
+        "lng": "96.30333"
+    },
+    {
+        "country": "MM",
+        "name": "Dawei",
+        "lat": "14.0823",
+        "lng": "98.19151"
+    },
+    {
+        "country": "MM",
+        "name": "Taunggyi",
+        "lat": "20.78919",
+        "lng": "97.03776"
+    },
+    {
+        "country": "MM",
+        "name": "Taungdwingyi",
+        "lat": "20.0065",
+        "lng": "95.54531"
+    },
+    {
+        "country": "MM",
+        "name": "Tachilek",
+        "lat": "20.4475",
+        "lng": "99.88083"
+    },
+    {
+        "country": "MM",
+        "name": "Syriam",
+        "lat": "16.76887",
+        "lng": "96.24503"
+    },
+    {
+        "country": "MM",
+        "name": "Sittwe",
+        "lat": "20.14624",
+        "lng": "92.89835"
+    },
+    {
+        "country": "MM",
+        "name": "Shwebo",
+        "lat": "22.56925",
+        "lng": "95.69818"
+    },
+    {
+        "country": "MM",
+        "name": "Sagaing",
+        "lat": "21.8787",
+        "lng": "95.97965"
+    },
+    {
+        "country": "MM",
+        "name": "Yangon",
+        "lat": "16.80528",
+        "lng": "96.15611"
+    },
+    {
+        "country": "MM",
+        "name": "Pyu",
+        "lat": "18.4813",
+        "lng": "96.43742"
+    },
+    {
+        "country": "MM",
+        "name": "Pyinmana",
+        "lat": "19.7381",
+        "lng": "96.20742"
+    },
+    {
+        "country": "MM",
+        "name": "Pyay",
+        "lat": "18.82464",
+        "lng": "95.22216"
+    },
+    {
+        "country": "MM",
+        "name": "Pyapon",
+        "lat": "16.28543",
+        "lng": "95.67882"
+    },
+    {
+        "country": "MM",
+        "name": "Bago",
+        "lat": "17.33521",
+        "lng": "96.48135"
+    },
+    {
+        "country": "MM",
+        "name": "Paungde",
+        "lat": "18.49167",
+        "lng": "95.50591"
+    },
+    {
+        "country": "MM",
+        "name": "Pakokku",
+        "lat": "21.33489",
+        "lng": "95.08438"
+    },
+    {
+        "country": "MM",
+        "name": "Hpa-an",
+        "lat": "16.88953",
+        "lng": "97.63482"
+    },
+    {
+        "country": "MM",
+        "name": "Nyaungshwe",
+        "lat": "20.66084",
+        "lng": "96.93405"
+    },
+    {
+        "country": "MM",
+        "name": "Nyaunglebin",
+        "lat": "17.95363",
+        "lng": "96.72247"
+    },
+    {
+        "country": "MM",
+        "name": "Myitkyina",
+        "lat": "25.38327",
+        "lng": "97.39637"
+    },
+    {
+        "country": "MM",
+        "name": "Myingyan",
+        "lat": "21.46002",
+        "lng": "95.3884"
+    },
+    {
+        "country": "MM",
+        "name": "Myawadi",
+        "lat": "16.68911",
+        "lng": "98.50893"
+    },
+    {
+        "country": "MM",
+        "name": "Myanaung",
+        "lat": "18.28651",
+        "lng": "95.32014"
+    },
+    {
+        "country": "MM",
+        "name": "Mudon",
+        "lat": "16.25624",
+        "lng": "97.7246"
+    },
+    {
+        "country": "MM",
+        "name": "Mawlamyinegyunn",
+        "lat": "16.3772",
+        "lng": "95.26488"
+    },
+    {
+        "country": "MM",
+        "name": "Mawlamyine",
+        "lat": "16.49051",
+        "lng": "97.62825"
+    },
+    {
+        "country": "MM",
+        "name": "Monywa",
+        "lat": "22.10856",
+        "lng": "95.13583"
+    },
+    {
+        "country": "MM",
+        "name": "Mogok",
+        "lat": "22.91766",
+        "lng": "96.50982"
+    },
+    {
+        "country": "MM",
+        "name": "Minbu",
+        "lat": "20.18059",
+        "lng": "94.87595"
+    },
+    {
+        "country": "MM",
+        "name": "Mikenaungea",
+        "lat": "15.95846",
+        "lng": "98.42721"
+    },
+    {
+        "country": "MM",
+        "name": "Myeik",
+        "lat": "12.43954",
+        "lng": "98.60028"
+    },
+    {
+        "country": "MM",
+        "name": "Meiktila",
+        "lat": "20.87776",
+        "lng": "95.85844"
+    },
+    {
+        "country": "MM",
+        "name": "Pyin Oo Lwin",
+        "lat": "22.03501",
+        "lng": "96.45683"
+    },
+    {
+        "country": "MM",
+        "name": "Mawlaik",
+        "lat": "23.64254",
+        "lng": "94.40478"
+    },
+    {
+        "country": "MM",
+        "name": "Maubin",
+        "lat": "16.73148",
+        "lng": "95.65441"
+    },
+    {
+        "country": "MM",
+        "name": "Martaban",
+        "lat": "16.52834",
+        "lng": "97.6157"
+    },
+    {
+        "country": "MM",
+        "name": "Mandalay",
+        "lat": "21.97473",
+        "lng": "96.08359"
+    },
+    {
+        "country": "MM",
+        "name": "Magway",
+        "lat": "20.14956",
+        "lng": "94.93246"
+    },
+    {
+        "country": "MM",
+        "name": "Loikaw",
+        "lat": "19.67798",
+        "lng": "97.20975"
+    },
+    {
+        "country": "MM",
+        "name": "Letpandan",
+        "lat": "17.78664",
+        "lng": "95.75076"
+    },
+    {
+        "country": "MM",
+        "name": "Lashio",
+        "lat": "22.9359",
+        "lng": "97.7498"
+    },
+    {
+        "country": "MM",
+        "name": "Kyaukse",
+        "lat": "21.6056",
+        "lng": "96.13508"
+    },
+    {
+        "country": "MM",
+        "name": "Kyaikto",
+        "lat": "17.30858",
+        "lng": "97.01124"
+    },
+    {
+        "country": "MM",
+        "name": "Kyaiklat",
+        "lat": "16.44502",
+        "lng": "95.72373"
+    },
+    {
+        "country": "MM",
+        "name": "Kyaikkami",
+        "lat": "16.07686",
+        "lng": "97.56388"
+    },
+    {
+        "country": "MM",
+        "name": "Kayan",
+        "lat": "16.90802",
+        "lng": "96.56037"
+    },
+    {
+        "country": "MM",
+        "name": "Kanbe",
+        "lat": "16.70728",
+        "lng": "96.00168"
+    },
+    {
+        "country": "MM",
+        "name": "Hinthada",
+        "lat": "17.64944",
+        "lng": "95.45705"
+    },
+    {
+        "country": "MM",
+        "name": "Hakha",
+        "lat": "22.65",
+        "lng": "93.61667"
+    },
+    {
+        "country": "MM",
+        "name": "Falam",
+        "lat": "22.91335",
+        "lng": "93.67779"
+    },
+    {
+        "country": "MM",
+        "name": "Chauk",
+        "lat": "20.89921",
+        "lng": "94.81784"
+    },
+    {
+        "country": "MM",
+        "name": "Bogale",
+        "lat": "16.29415",
+        "lng": "95.39742"
+    },
+    {
+        "country": "MM",
+        "name": "Bhamo",
+        "lat": "24.25256",
+        "lng": "97.23357"
+    },
+    {
+        "country": "MM",
+        "name": "Pathein",
+        "lat": "16.77919",
+        "lng": "94.73212"
+    },
+    {
+        "country": "MM",
+        "name": "Myaydo",
+        "lat": "19.36838",
+        "lng": "95.21512"
+    },
+    {
+        "country": "MM",
+        "name": "Nay Pyi Taw",
+        "lat": "19.745",
+        "lng": "96.12972"
+    },
+    {
+        "country": "MM",
+        "name": "Tagondaing",
+        "lat": "16.0675",
+        "lng": "97.90694"
+    },
+    {
+        "country": "MM",
+        "name": "Tamoowoug",
+        "lat": "16.03447",
+        "lng": "97.91458"
+    },
+    {
+        "country": "MM",
+        "name": "Dellok",
+        "lat": "16.04072",
+        "lng": "97.91773"
+    },
+    {
+        "country": "MM",
+        "name": "Pulei",
+        "lat": "16.06243",
+        "lng": "97.8828"
+    },
+    {
+        "country": "MM",
+        "name": "Klonhtoug",
+        "lat": "15.95411",
+        "lng": "98.4325"
+    },
+    {
+        "country": "MM",
+        "name": "Kyain Seikgyi Township",
+        "lat": "15.82288",
+        "lng": "98.25257"
+    }
+]

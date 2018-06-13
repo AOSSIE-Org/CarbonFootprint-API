@@ -1,0 +1,578 @@
+[
+    {
+        "country": "SA",
+        "name": "Yanbu",
+        "lat": "24.08954",
+        "lng": "38.0618"
+    },
+    {
+        "country": "SA",
+        "name": "Unayzah",
+        "lat": "26.08793",
+        "lng": "43.96368"
+    },
+    {
+        "country": "SA",
+        "name": "Umm Lajj",
+        "lat": "25.02126",
+        "lng": "37.2685"
+    },
+    {
+        "country": "SA",
+        "name": "Umm as Sahik",
+        "lat": "26.65361",
+        "lng": "49.91639"
+    },
+    {
+        "country": "SA",
+        "name": "Turaif",
+        "lat": "31.67252",
+        "lng": "38.66374"
+    },
+    {
+        "country": "SA",
+        "name": "Turabah",
+        "lat": "21.21406",
+        "lng": "41.6331"
+    },
+    {
+        "country": "SA",
+        "name": "At Tubi",
+        "lat": "26.55778",
+        "lng": "49.99167"
+    },
+    {
+        "country": "SA",
+        "name": "Tarut",
+        "lat": "26.5733",
+        "lng": "50.04028"
+    },
+    {
+        "country": "SA",
+        "name": "Tanumah",
+        "lat": "27.1",
+        "lng": "44.13333"
+    },
+    {
+        "country": "SA",
+        "name": "Tabuk",
+        "lat": "28.3998",
+        "lng": "36.57151"
+    },
+    {
+        "country": "SA",
+        "name": "Tubarjal",
+        "lat": "30.49987",
+        "lng": "38.21603"
+    },
+    {
+        "country": "SA",
+        "name": "Tabalah",
+        "lat": "19.95",
+        "lng": "42.4"
+    },
+    {
+        "country": "SA",
+        "name": "Sultanah",
+        "lat": "24.49258",
+        "lng": "39.58572"
+    },
+    {
+        "country": "SA",
+        "name": "Sayhat",
+        "lat": "26.48345",
+        "lng": "50.04849"
+    },
+    {
+        "country": "SA",
+        "name": "Samitah",
+        "lat": "16.59601",
+        "lng": "42.94435"
+    },
+    {
+        "country": "SA",
+        "name": "Sakakah",
+        "lat": "29.96974",
+        "lng": "40.20641"
+    },
+    {
+        "country": "SA",
+        "name": "Safw\u00e1",
+        "lat": "26.6497",
+        "lng": "49.95522"
+    },
+    {
+        "country": "SA",
+        "name": "Sabya",
+        "lat": "17.1495",
+        "lng": "42.62537"
+    },
+    {
+        "country": "SA",
+        "name": "Ra?imah",
+        "lat": "26.70791",
+        "lng": "50.06194"
+    },
+    {
+        "country": "SA",
+        "name": "Rabigh",
+        "lat": "22.79856",
+        "lng": "39.03493"
+    },
+    {
+        "country": "SA",
+        "name": "Qal\u2018at Bishah",
+        "lat": "20.00054",
+        "lng": "42.6052"
+    },
+    {
+        "country": "SA",
+        "name": "Najran",
+        "lat": "17.49326",
+        "lng": "44.12766"
+    },
+    {
+        "country": "SA",
+        "name": "Mulayjah",
+        "lat": "27.27103",
+        "lng": "48.42419"
+    },
+    {
+        "country": "SA",
+        "name": "Misliyah",
+        "lat": "17.45988",
+        "lng": "42.5572"
+    },
+    {
+        "country": "SA",
+        "name": "Marat",
+        "lat": "25.07007",
+        "lng": "45.46147"
+    },
+    {
+        "country": "SA",
+        "name": "Mecca",
+        "lat": "21.42664",
+        "lng": "39.82563"
+    },
+    {
+        "country": "SA",
+        "name": "Khamis Mushait",
+        "lat": "18.3",
+        "lng": "42.73333"
+    },
+    {
+        "country": "SA",
+        "name": "Julayjilah",
+        "lat": "25.5",
+        "lng": "49.6"
+    },
+    {
+        "country": "SA",
+        "name": "Jizan",
+        "lat": "16.88917",
+        "lng": "42.55111"
+    },
+    {
+        "country": "SA",
+        "name": "Jeddah",
+        "lat": "21.54238",
+        "lng": "39.19797"
+    },
+    {
+        "country": "SA",
+        "name": "Ha'il",
+        "lat": "27.52188",
+        "lng": "41.69073"
+    },
+    {
+        "country": "SA",
+        "name": "Hafar Al-Batin",
+        "lat": "28.43279",
+        "lng": "45.97077"
+    },
+    {
+        "country": "SA",
+        "name": "Farasan",
+        "lat": "16.70222",
+        "lng": "42.11833"
+    },
+    {
+        "country": "SA",
+        "name": "Duba",
+        "lat": "27.35134",
+        "lng": "35.69014"
+    },
+    {
+        "country": "SA",
+        "name": "Buraydah",
+        "lat": "26.32599",
+        "lng": "43.97497"
+    },
+    {
+        "country": "SA",
+        "name": "Abqaiq",
+        "lat": "25.93402",
+        "lng": "49.6688"
+    },
+    {
+        "country": "SA",
+        "name": "Badr ?unayn",
+        "lat": "23.78292",
+        "lng": "38.79047"
+    },
+    {
+        "country": "SA",
+        "name": "Az Zulfi",
+        "lat": "26.29945",
+        "lng": "44.81542"
+    },
+    {
+        "country": "SA",
+        "name": "Dhahran",
+        "lat": "26.28864",
+        "lng": "50.11396"
+    },
+    {
+        "country": "SA",
+        "name": "At Taraf",
+        "lat": "25.36232",
+        "lng": "49.72757"
+    },
+    {
+        "country": "SA",
+        "name": "Ta\u2019if",
+        "lat": "21.27028",
+        "lng": "40.41583"
+    },
+    {
+        "country": "SA",
+        "name": "As Sulayyil",
+        "lat": "20.46067",
+        "lng": "45.57792"
+    },
+    {
+        "country": "SA",
+        "name": "Sajir",
+        "lat": "25.18251",
+        "lng": "44.59964"
+    },
+    {
+        "country": "SA",
+        "name": "As Saffaniyah",
+        "lat": "27.97083",
+        "lng": "48.73"
+    },
+    {
+        "country": "SA",
+        "name": "Riyadh",
+        "lat": "24.68773",
+        "lng": "46.72185"
+    },
+    {
+        "country": "SA",
+        "name": "Ar Rass",
+        "lat": "25.86944",
+        "lng": "43.4973"
+    },
+    {
+        "country": "SA",
+        "name": "Arar",
+        "lat": "30.97531",
+        "lng": "41.03808"
+    },
+    {
+        "country": "SA",
+        "name": "An Nimas",
+        "lat": "19.14547",
+        "lng": "42.12009"
+    },
+    {
+        "country": "SA",
+        "name": "Qurayyat",
+        "lat": "31.33176",
+        "lng": "37.34282"
+    },
+    {
+        "country": "SA",
+        "name": "Al Wajh",
+        "lat": "26.24551",
+        "lng": "36.45249"
+    },
+    {
+        "country": "SA",
+        "name": "Al-`Ula",
+        "lat": "26.60853",
+        "lng": "37.92316"
+    },
+    {
+        "country": "SA",
+        "name": "Al Qurayn",
+        "lat": "25.48333",
+        "lng": "49.6"
+    },
+    {
+        "country": "SA",
+        "name": "Qaisumah",
+        "lat": "28.31117",
+        "lng": "46.12729"
+    },
+    {
+        "country": "SA",
+        "name": "Al Qatif",
+        "lat": "26.56542",
+        "lng": "50.0089"
+    },
+    {
+        "country": "SA",
+        "name": "Al Qarah",
+        "lat": "25.41667",
+        "lng": "49.66667"
+    },
+    {
+        "country": "SA",
+        "name": "Al Mutayrifi",
+        "lat": "25.47878",
+        "lng": "49.55824"
+    },
+    {
+        "country": "SA",
+        "name": "Al Munayzilah",
+        "lat": "25.38333",
+        "lng": "49.66667"
+    },
+    {
+        "country": "SA",
+        "name": "Al Mubarraz",
+        "lat": "25.40768",
+        "lng": "49.59028"
+    },
+    {
+        "country": "SA",
+        "name": "Al Mindak",
+        "lat": "20.1588",
+        "lng": "41.28337"
+    },
+    {
+        "country": "SA",
+        "name": "Al Mithnab",
+        "lat": "25.86012",
+        "lng": "44.22228"
+    },
+    {
+        "country": "SA",
+        "name": "Al Markaz",
+        "lat": "25.4",
+        "lng": "49.73333"
+    },
+    {
+        "country": "SA",
+        "name": "Al Majma\u2018ah",
+        "lat": "25.91097",
+        "lng": "45.35665"
+    },
+    {
+        "country": "SA",
+        "name": "Medina",
+        "lat": "24.46861",
+        "lng": "39.61417"
+    },
+    {
+        "country": "SA",
+        "name": "Khobar",
+        "lat": "26.27944",
+        "lng": "50.20833"
+    },
+    {
+        "country": "SA",
+        "name": "Al Kharj",
+        "lat": "24.15541",
+        "lng": "47.33457"
+    },
+    {
+        "country": "SA",
+        "name": "Al Khafji",
+        "lat": "28.43905",
+        "lng": "48.49132"
+    },
+    {
+        "country": "SA",
+        "name": "Al Jumum",
+        "lat": "21.61694",
+        "lng": "39.69806"
+    },
+    {
+        "country": "SA",
+        "name": "Al Jubayl",
+        "lat": "27.0174",
+        "lng": "49.62251"
+    },
+    {
+        "country": "SA",
+        "name": "Al Jubayl",
+        "lat": "25.4",
+        "lng": "49.65"
+    },
+    {
+        "country": "SA",
+        "name": "Al Jaradiyah",
+        "lat": "16.57946",
+        "lng": "42.9124"
+    },
+    {
+        "country": "SA",
+        "name": "Al Jafr",
+        "lat": "25.37736",
+        "lng": "49.72154"
+    },
+    {
+        "country": "SA",
+        "name": "Al Hufuf",
+        "lat": "25.36467",
+        "lng": "49.58764"
+    },
+    {
+        "country": "SA",
+        "name": "Al Bukayriyah",
+        "lat": "26.14422",
+        "lng": "43.65933"
+    },
+    {
+        "country": "SA",
+        "name": "Al Battaliyah",
+        "lat": "25.43333",
+        "lng": "49.63333"
+    },
+    {
+        "country": "SA",
+        "name": "Al Bahah",
+        "lat": "20.01288",
+        "lng": "41.46767"
+    },
+    {
+        "country": "SA",
+        "name": "Al Artawiyah",
+        "lat": "26.50387",
+        "lng": "45.34813"
+    },
+    {
+        "country": "SA",
+        "name": "Al Awjam",
+        "lat": "26.56324",
+        "lng": "49.94331"
+    },
+    {
+        "country": "SA",
+        "name": "\u2018Afif",
+        "lat": "23.9065",
+        "lng": "42.91724"
+    },
+    {
+        "country": "SA",
+        "name": "Ad Dilam",
+        "lat": "23.99104",
+        "lng": "47.16181"
+    },
+    {
+        "country": "SA",
+        "name": "Ad Dawadimi",
+        "lat": "24.50772",
+        "lng": "44.39237"
+    },
+    {
+        "country": "SA",
+        "name": "Ad Darb",
+        "lat": "17.72285",
+        "lng": "42.25261"
+    },
+    {
+        "country": "SA",
+        "name": "Dammam",
+        "lat": "26.43442",
+        "lng": "50.10326"
+    },
+    {
+        "country": "SA",
+        "name": "Abu \u2018Arish",
+        "lat": "16.96887",
+        "lng": "42.83251"
+    },
+    {
+        "country": "SA",
+        "name": "Abha",
+        "lat": "18.21639",
+        "lng": "42.50528"
+    },
+    {
+        "country": "SA",
+        "name": "Suwayr",
+        "lat": "30.11713",
+        "lng": "40.38925"
+    },
+    {
+        "country": "SA",
+        "name": "Wed Alnkil",
+        "lat": "25.4267",
+        "lng": "42.8343"
+    },
+    {
+        "country": "SA",
+        "name": "Tumayr",
+        "lat": "25.70393",
+        "lng": "45.86796"
+    },
+    {
+        "country": "SA",
+        "name": "Al Fuwayliq",
+        "lat": "26.4436",
+        "lng": "43.25164"
+    },
+    {
+        "country": "SA",
+        "name": "Al Majaridah",
+        "lat": "19.12361",
+        "lng": "41.91111"
+    },
+    {
+        "country": "SA",
+        "name": "Ain AlBaraha",
+        "lat": "24.75806",
+        "lng": "43.77389"
+    },
+    {
+        "country": "SA",
+        "name": "Al Muwayh",
+        "lat": "22.43333",
+        "lng": "41.75829"
+    },
+    {
+        "country": "SA",
+        "name": "Al Hada",
+        "lat": "21.36753",
+        "lng": "40.28694"
+    },
+    {
+        "country": "SA",
+        "name": "Ash Shafa",
+        "lat": "21.0721",
+        "lng": "40.31185"
+    },
+    {
+        "country": "SA",
+        "name": "Mizhirah",
+        "lat": "16.82611",
+        "lng": "42.73333"
+    },
+    {
+        "country": "SA",
+        "name": "shokhaib?",
+        "lat": "24.49023",
+        "lng": "46.26871"
+    },
+    {
+        "country": "SA",
+        "name": "Unaizah",
+        "lat": "26.08427",
+        "lng": "43.99355"
+    }
+]

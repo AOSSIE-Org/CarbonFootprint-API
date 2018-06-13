@@ -1,0 +1,50 @@
+[
+    {
+        "country": "GG",
+        "name": "Torteval",
+        "lat": "49.43333",
+        "lng": "-2.65"
+    },
+    {
+        "country": "GG",
+        "name": "Saint Sampson",
+        "lat": "49.48389",
+        "lng": "-2.52333"
+    },
+    {
+        "country": "GG",
+        "name": "Saint Peter Port",
+        "lat": "49.45981",
+        "lng": "-2.53527"
+    },
+    {
+        "country": "GG",
+        "name": "St Anne",
+        "lat": "49.71549",
+        "lng": "-2.20757"
+    },
+    {
+        "country": "GG",
+        "name": "Saint Saviour",
+        "lat": "49.45694",
+        "lng": "-2.63583"
+    },
+    {
+        "country": "GG",
+        "name": "Castel",
+        "lat": "49.46757",
+        "lng": "-2.60015"
+    },
+    {
+        "country": "GG",
+        "name": "St. Andrew`s",
+        "lat": "49.45195",
+        "lng": "-2.57286"
+    },
+    {
+        "country": "GG",
+        "name": "St Martin",
+        "lat": "49.43713",
+        "lng": "-2.55479"
+    }
+]

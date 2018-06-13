@@ -1,0 +1,86 @@
+[
+    {
+        "country": "AI",
+        "name": "West End Village",
+        "lat": "18.17191",
+        "lng": "-63.14941"
+    },
+    {
+        "country": "AI",
+        "name": "The Valley",
+        "lat": "18.21704",
+        "lng": "-63.05783"
+    },
+    {
+        "country": "AI",
+        "name": "The Quarter",
+        "lat": "18.20799",
+        "lng": "-63.04178"
+    },
+    {
+        "country": "AI",
+        "name": "Farrington",
+        "lat": "18.215",
+        "lng": "-63.02238"
+    },
+    {
+        "country": "AI",
+        "name": "Stoney Ground",
+        "lat": "18.22026",
+        "lng": "-63.04607"
+    },
+    {
+        "country": "AI",
+        "name": "South Hill Village",
+        "lat": "18.19201",
+        "lng": "-63.08779"
+    },
+    {
+        "country": "AI",
+        "name": "Sandy Ground Village",
+        "lat": "18.20118",
+        "lng": "-63.08998"
+    },
+    {
+        "country": "AI",
+        "name": "North Side",
+        "lat": "18.22919",
+        "lng": "-63.04401"
+    },
+    {
+        "country": "AI",
+        "name": "North Hill Village",
+        "lat": "18.20542",
+        "lng": "-63.07847"
+    },
+    {
+        "country": "AI",
+        "name": "Island Harbour",
+        "lat": "18.25601",
+        "lng": "-63.0102"
+    },
+    {
+        "country": "AI",
+        "name": "George Hill",
+        "lat": "18.19939",
+        "lng": "-63.0665"
+    },
+    {
+        "country": "AI",
+        "name": "East End Village",
+        "lat": "18.23333",
+        "lng": "-63"
+    },
+    {
+        "country": "AI",
+        "name": "Blowing Point Village",
+        "lat": "18.17648",
+        "lng": "-63.09375"
+    },
+    {
+        "country": "AI",
+        "name": "Sandy Hill",
+        "lat": "18.22104",
+        "lng": "-63.01329"
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "country": "AG",
+        "name": "Saint John\u2019s",
+        "lat": "17.12096",
+        "lng": "-61.84329"
+    },
+    {
+        "country": "AG",
+        "name": "Potters Village",
+        "lat": "17.08333",
+        "lng": "-61.81667"
+    },
+    {
+        "country": "AG",
+        "name": "Piggotts",
+        "lat": "17.11667",
+        "lng": "-61.8"
+    },
+    {
+        "country": "AG",
+        "name": "Parham",
+        "lat": "17.09682",
+        "lng": "-61.77046"
+    },
+    {
+        "country": "AG",
+        "name": "Liberta",
+        "lat": "17.03333",
+        "lng": "-61.78333"
+    },
+    {
+        "country": "AG",
+        "name": "Falmouth",
+        "lat": "17.02741",
+        "lng": "-61.78136"
+    },
+    {
+        "country": "AG",
+        "name": "Codrington",
+        "lat": "17.63333",
+        "lng": "-61.83333"
+    },
+    {
+        "country": "AG",
+        "name": "Bolands",
+        "lat": "17.06565",
+        "lng": "-61.87466"
+    },
+    {
+        "country": "AG",
+        "name": "All Saints",
+        "lat": "17.06671",
+        "lng": "-61.79303"
+    }
+]

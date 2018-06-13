@@ -1,0 +1,680 @@
+[
+    {
+        "country": "KE",
+        "name": "Yala",
+        "lat": "0.09906",
+        "lng": "34.53757"
+    },
+    {
+        "country": "KE",
+        "name": "Wundanyi",
+        "lat": "-3.40193",
+        "lng": "38.36402"
+    },
+    {
+        "country": "KE",
+        "name": "Wote",
+        "lat": "-1.78079",
+        "lng": "37.62882"
+    },
+    {
+        "country": "KE",
+        "name": "Witu",
+        "lat": "-2.38892",
+        "lng": "40.43827"
+    },
+    {
+        "country": "KE",
+        "name": "Webuye",
+        "lat": "0.60751",
+        "lng": "34.76966"
+    },
+    {
+        "country": "KE",
+        "name": "Wajir",
+        "lat": "1.7471",
+        "lng": "40.05732"
+    },
+    {
+        "country": "KE",
+        "name": "Voi",
+        "lat": "-3.39605",
+        "lng": "38.55609"
+    },
+    {
+        "country": "KE",
+        "name": "Thika",
+        "lat": "-1.03326",
+        "lng": "37.06933"
+    },
+    {
+        "country": "KE",
+        "name": "Taveta",
+        "lat": "-3.39879",
+        "lng": "37.68336"
+    },
+    {
+        "country": "KE",
+        "name": "Takaungu",
+        "lat": "-3.68367",
+        "lng": "39.85661"
+    },
+    {
+        "country": "KE",
+        "name": "Sotik",
+        "lat": "-0.68333",
+        "lng": "35.11871"
+    },
+    {
+        "country": "KE",
+        "name": "Shimoni",
+        "lat": "-4.64756",
+        "lng": "39.38175"
+    },
+    {
+        "country": "KE",
+        "name": "Sawa Sawa",
+        "lat": "-4.47166",
+        "lng": "39.48463"
+    },
+    {
+        "country": "KE",
+        "name": "Sagana",
+        "lat": "-0.66667",
+        "lng": "37.2"
+    },
+    {
+        "country": "KE",
+        "name": "Rumuruti",
+        "lat": "0.2725",
+        "lng": "36.53806"
+    },
+    {
+        "country": "KE",
+        "name": "Rongai",
+        "lat": "-0.17333",
+        "lng": "35.86382"
+    },
+    {
+        "country": "KE",
+        "name": "Pumwani",
+        "lat": "-1.28333",
+        "lng": "36.85"
+    },
+    {
+        "country": "KE",
+        "name": "Oyugis",
+        "lat": "-0.50898",
+        "lng": "34.73583"
+    },
+    {
+        "country": "KE",
+        "name": "Othaya",
+        "lat": "-0.56515",
+        "lng": "36.96091"
+    },
+    {
+        "country": "KE",
+        "name": "Ogembo",
+        "lat": "-0.79839",
+        "lng": "34.72531"
+    },
+    {
+        "country": "KE",
+        "name": "Nyeri",
+        "lat": "-0.42013",
+        "lng": "36.94759"
+    },
+    {
+        "country": "KE",
+        "name": "Nyamira",
+        "lat": "-0.56333",
+        "lng": "34.93583"
+    },
+    {
+        "country": "KE",
+        "name": "Nyahururu",
+        "lat": "0.0421",
+        "lng": "36.36734"
+    },
+    {
+        "country": "KE",
+        "name": "Ngong",
+        "lat": "-1.36175",
+        "lng": "36.6566"
+    },
+    {
+        "country": "KE",
+        "name": "Naro Moru",
+        "lat": "-0.16756",
+        "lng": "37.02129"
+    },
+    {
+        "country": "KE",
+        "name": "Narok",
+        "lat": "-1.08083",
+        "lng": "35.87111"
+    },
+    {
+        "country": "KE",
+        "name": "Nanyuki",
+        "lat": "0.01667",
+        "lng": "37.07283"
+    },
+    {
+        "country": "KE",
+        "name": "Nandi Hills",
+        "lat": "0.1066",
+        "lng": "35.18378"
+    },
+    {
+        "country": "KE",
+        "name": "Nambale",
+        "lat": "0.44594",
+        "lng": "34.25194"
+    },
+    {
+        "country": "KE",
+        "name": "Nakuru",
+        "lat": "-0.28333",
+        "lng": "36.06667"
+    },
+    {
+        "country": "KE",
+        "name": "Naivasha",
+        "lat": "-0.71667",
+        "lng": "36.43591"
+    },
+    {
+        "country": "KE",
+        "name": "Nairobi",
+        "lat": "-1.28333",
+        "lng": "36.81667"
+    },
+    {
+        "country": "KE",
+        "name": "Mwingi",
+        "lat": "-0.93435",
+        "lng": "38.06005"
+    },
+    {
+        "country": "KE",
+        "name": "Mwatate",
+        "lat": "-3.505",
+        "lng": "38.37722"
+    },
+    {
+        "country": "KE",
+        "name": "Murang\u2019a",
+        "lat": "-0.72104",
+        "lng": "37.15259"
+    },
+    {
+        "country": "KE",
+        "name": "Mumias",
+        "lat": "0.33511",
+        "lng": "34.4864"
+    },
+    {
+        "country": "KE",
+        "name": "Muhoroni",
+        "lat": "-0.15406",
+        "lng": "35.19878"
+    },
+    {
+        "country": "KE",
+        "name": "Mtito Andei",
+        "lat": "-2.69009",
+        "lng": "38.16631"
+    },
+    {
+        "country": "KE",
+        "name": "Moyale",
+        "lat": "3.5216",
+        "lng": "39.05472"
+    },
+    {
+        "country": "KE",
+        "name": "Mombasa",
+        "lat": "-4.05466",
+        "lng": "39.66359"
+    },
+    {
+        "country": "KE",
+        "name": "Molo",
+        "lat": "-0.2479",
+        "lng": "35.73743"
+    },
+    {
+        "country": "KE",
+        "name": "Migori",
+        "lat": "-1.06343",
+        "lng": "34.47313"
+    },
+    {
+        "country": "KE",
+        "name": "Meru",
+        "lat": "0.04626",
+        "lng": "37.65587"
+    },
+    {
+        "country": "KE",
+        "name": "Mbale",
+        "lat": "0.08213",
+        "lng": "34.72139"
+    },
+    {
+        "country": "KE",
+        "name": "Maua",
+        "lat": "0.23206",
+        "lng": "37.94052"
+    },
+    {
+        "country": "KE",
+        "name": "Marsabit",
+        "lat": "2.33468",
+        "lng": "37.99086"
+    },
+    {
+        "country": "KE",
+        "name": "Mariakani",
+        "lat": "-3.86332",
+        "lng": "39.47362"
+    },
+    {
+        "country": "KE",
+        "name": "Maralal",
+        "lat": "1.09667",
+        "lng": "36.69806"
+    },
+    {
+        "country": "KE",
+        "name": "Maragua",
+        "lat": "-0.78333",
+        "lng": "37.13333"
+    },
+    {
+        "country": "KE",
+        "name": "Mandera",
+        "lat": "3.93726",
+        "lng": "41.85688"
+    },
+    {
+        "country": "KE",
+        "name": "Malindi",
+        "lat": "-3.21799",
+        "lng": "40.11692"
+    },
+    {
+        "country": "KE",
+        "name": "Malikisi",
+        "lat": "0.67694",
+        "lng": "34.42167"
+    },
+    {
+        "country": "KE",
+        "name": "Malaba",
+        "lat": "0.63457",
+        "lng": "34.2756"
+    },
+    {
+        "country": "KE",
+        "name": "Makueni",
+        "lat": "-1.80409",
+        "lng": "37.62034"
+    },
+    {
+        "country": "KE",
+        "name": "Magadi",
+        "lat": "-1.90122",
+        "lng": "36.287"
+    },
+    {
+        "country": "KE",
+        "name": "Machakos",
+        "lat": "-1.52233",
+        "lng": "37.26521"
+    },
+    {
+        "country": "KE",
+        "name": "Kipkelion",
+        "lat": "-0.19675",
+        "lng": "35.46847"
+    },
+    {
+        "country": "KE",
+        "name": "Lugulu",
+        "lat": "0.39361",
+        "lng": "34.30528"
+    },
+    {
+        "country": "KE",
+        "name": "Luanda",
+        "lat": "0.29668",
+        "lng": "34.06459"
+    },
+    {
+        "country": "KE",
+        "name": "Londiani",
+        "lat": "-0.16496",
+        "lng": "35.59087"
+    },
+    {
+        "country": "KE",
+        "name": "Lodwar",
+        "lat": "3.11988",
+        "lng": "35.59642"
+    },
+    {
+        "country": "KE",
+        "name": "Litein",
+        "lat": "-0.58226",
+        "lng": "35.19029"
+    },
+    {
+        "country": "KE",
+        "name": "Limuru",
+        "lat": "-1.1",
+        "lng": "36.65"
+    },
+    {
+        "country": "KE",
+        "name": "Lamu",
+        "lat": "-2.27169",
+        "lng": "40.90201"
+    },
+    {
+        "country": "KE",
+        "name": "Kwale",
+        "lat": "-4.17375",
+        "lng": "39.45206"
+    },
+    {
+        "country": "KE",
+        "name": "Konza",
+        "lat": "-1.7426",
+        "lng": "37.12941"
+    },
+    {
+        "country": "KE",
+        "name": "Kitui",
+        "lat": "-1.36696",
+        "lng": "38.01055"
+    },
+    {
+        "country": "KE",
+        "name": "Kitale",
+        "lat": "1.01572",
+        "lng": "35.00622"
+    },
+    {
+        "country": "KE",
+        "name": "Kisumu",
+        "lat": "-0.10221",
+        "lng": "34.76171"
+    },
+    {
+        "country": "KE",
+        "name": "Kisii",
+        "lat": "-0.68174",
+        "lng": "34.76666"
+    },
+    {
+        "country": "KE",
+        "name": "Kipini",
+        "lat": "-2.52565",
+        "lng": "40.5262"
+    },
+    {
+        "country": "KE",
+        "name": "Kinango",
+        "lat": "-4.13723",
+        "lng": "39.31528"
+    },
+    {
+        "country": "KE",
+        "name": "Kihancha",
+        "lat": "-1.18376",
+        "lng": "34.62616"
+    },
+    {
+        "country": "KE",
+        "name": "Kilifi",
+        "lat": "-3.63045",
+        "lng": "39.84992"
+    },
+    {
+        "country": "KE",
+        "name": "Kikuyu",
+        "lat": "-1.24576",
+        "lng": "36.66328"
+    },
+    {
+        "country": "KE",
+        "name": "Kijabe",
+        "lat": "-0.93304",
+        "lng": "36.57581"
+    },
+    {
+        "country": "KE",
+        "name": "Kiambu",
+        "lat": "-1.17139",
+        "lng": "36.83556"
+    },
+    {
+        "country": "KE",
+        "name": "Kerugoya",
+        "lat": "-0.49887",
+        "lng": "37.28031"
+    },
+    {
+        "country": "KE",
+        "name": "Keroka",
+        "lat": "-0.77584",
+        "lng": "34.94531"
+    },
+    {
+        "country": "KE",
+        "name": "Kericho",
+        "lat": "-0.36774",
+        "lng": "35.28314"
+    },
+    {
+        "country": "KE",
+        "name": "Karuri",
+        "lat": "-0.7",
+        "lng": "37.18333"
+    },
+    {
+        "country": "KE",
+        "name": "Kapsowar",
+        "lat": "0.98119",
+        "lng": "35.56145"
+    },
+    {
+        "country": "KE",
+        "name": "Kapsabet",
+        "lat": "0.20387",
+        "lng": "35.105"
+    },
+    {
+        "country": "KE",
+        "name": "Kapenguria",
+        "lat": "1.23889",
+        "lng": "35.11194"
+    },
+    {
+        "country": "KE",
+        "name": "Kangundo",
+        "lat": "-1.29792",
+        "lng": "37.34705"
+    },
+    {
+        "country": "KE",
+        "name": "Kangema",
+        "lat": "-0.68333",
+        "lng": "36.96667"
+    },
+    {
+        "country": "KE",
+        "name": "Kakamega",
+        "lat": "0.28422",
+        "lng": "34.75229"
+    },
+    {
+        "country": "KE",
+        "name": "Kajiado",
+        "lat": "-1.85238",
+        "lng": "36.77683"
+    },
+    {
+        "country": "KE",
+        "name": "Kabarnet",
+        "lat": "0.49194",
+        "lng": "35.74303"
+    },
+    {
+        "country": "KE",
+        "name": "Iten",
+        "lat": "0.67028",
+        "lng": "35.50806"
+    },
+    {
+        "country": "KE",
+        "name": "Isiolo",
+        "lat": "0.35462",
+        "lng": "37.58218"
+    },
+    {
+        "country": "KE",
+        "name": "Homa Bay",
+        "lat": "-0.52731",
+        "lng": "34.45714"
+    },
+    {
+        "country": "KE",
+        "name": "Hola",
+        "lat": "-1.48256",
+        "lng": "40.03341"
+    },
+    {
+        "country": "KE",
+        "name": "Gazi",
+        "lat": "-4.42402",
+        "lng": "39.50588"
+    },
+    {
+        "country": "KE",
+        "name": "Garissa",
+        "lat": "-0.45275",
+        "lng": "39.64601"
+    },
+    {
+        "country": "KE",
+        "name": "Embu",
+        "lat": "-0.53112",
+        "lng": "37.45061"
+    },
+    {
+        "country": "KE",
+        "name": "Eldoret",
+        "lat": "0.52036",
+        "lng": "35.26993"
+    },
+    {
+        "country": "KE",
+        "name": "Eldama Ravine",
+        "lat": "0.05158",
+        "lng": "35.73078"
+    },
+    {
+        "country": "KE",
+        "name": "Chuka",
+        "lat": "-0.33316",
+        "lng": "37.64587"
+    },
+    {
+        "country": "KE",
+        "name": "Chepareria",
+        "lat": "1.30774",
+        "lng": "35.2039"
+    },
+    {
+        "country": "KE",
+        "name": "Butere",
+        "lat": "0.20636",
+        "lng": "34.49348"
+    },
+    {
+        "country": "KE",
+        "name": "Busia",
+        "lat": "0.46005",
+        "lng": "34.11169"
+    },
+    {
+        "country": "KE",
+        "name": "Port Bunyala",
+        "lat": "0.09388",
+        "lng": "33.97559"
+    },
+    {
+        "country": "KE",
+        "name": "Bungoma",
+        "lat": "0.5635",
+        "lng": "34.56055"
+    },
+    {
+        "country": "KE",
+        "name": "Bondo",
+        "lat": "0.23861",
+        "lng": "34.26944"
+    },
+    {
+        "country": "KE",
+        "name": "Bomet",
+        "lat": "-0.78129",
+        "lng": "35.34156"
+    },
+    {
+        "country": "KE",
+        "name": "Baringo",
+        "lat": "0.46667",
+        "lng": "35.96667"
+    },
+    {
+        "country": "KE",
+        "name": "Athi River",
+        "lat": "-1.4563",
+        "lng": "36.97826"
+    },
+    {
+        "country": "KE",
+        "name": "Ahero",
+        "lat": "-0.17462",
+        "lng": "34.9163"
+    },
+    {
+        "country": "KE",
+        "name": "Siaya",
+        "lat": "0.06116",
+        "lng": "34.28823"
+    },
+    {
+        "country": "KE",
+        "name": "Ol Kalou",
+        "lat": "-0.27088",
+        "lng": "36.37917"
+    },
+    {
+        "country": "KE",
+        "name": "Bungoma",
+        "lat": "0.58333",
+        "lng": "34.58333"
+    },
+    {
+        "country": "KE",
+        "name": "Kathwana",
+        "lat": "-0.33139",
+        "lng": "37.86861"
+    }
+]

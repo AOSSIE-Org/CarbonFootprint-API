@@ -1,0 +1,218 @@
+[
+    {
+        "country": "MW",
+        "name": "Karonga",
+        "lat": "-9.93333",
+        "lng": "33.93333"
+    },
+    {
+        "country": "MW",
+        "name": "Chitipa",
+        "lat": "-9.70237",
+        "lng": "33.26969"
+    },
+    {
+        "country": "MW",
+        "name": "Zomba",
+        "lat": "-15.38596",
+        "lng": "35.3188"
+    },
+    {
+        "country": "MW",
+        "name": "Thyolo",
+        "lat": "-16.06775",
+        "lng": "35.14046"
+    },
+    {
+        "country": "MW",
+        "name": "Salima",
+        "lat": "-13.7804",
+        "lng": "34.4587"
+    },
+    {
+        "country": "MW",
+        "name": "Rumphi",
+        "lat": "-11.01863",
+        "lng": "33.85746"
+    },
+    {
+        "country": "MW",
+        "name": "Phalombe",
+        "lat": "-15.80635",
+        "lng": "35.65067"
+    },
+    {
+        "country": "MW",
+        "name": "Ntchisi",
+        "lat": "-13.52775",
+        "lng": "33.9149"
+    },
+    {
+        "country": "MW",
+        "name": "Ntcheu",
+        "lat": "-14.82027",
+        "lng": "34.63586"
+    },
+    {
+        "country": "MW",
+        "name": "Nsanje",
+        "lat": "-16.91995",
+        "lng": "35.26199"
+    },
+    {
+        "country": "MW",
+        "name": "Nkhotakota",
+        "lat": "-12.92744",
+        "lng": "34.29614"
+    },
+    {
+        "country": "MW",
+        "name": "Nkhata Bay",
+        "lat": "-11.60659",
+        "lng": "34.29073"
+    },
+    {
+        "country": "MW",
+        "name": "Neno",
+        "lat": "-15.39805",
+        "lng": "34.65343"
+    },
+    {
+        "country": "MW",
+        "name": "Mzuzu",
+        "lat": "-11.46556",
+        "lng": "34.02071"
+    },
+    {
+        "country": "MW",
+        "name": "Mzimba",
+        "lat": "-11.9",
+        "lng": "33.6"
+    },
+    {
+        "country": "MW",
+        "name": "Mwanza",
+        "lat": "-15.60262",
+        "lng": "34.52479"
+    },
+    {
+        "country": "MW",
+        "name": "Mulanje",
+        "lat": "-16.03163",
+        "lng": "35.5"
+    },
+    {
+        "country": "MW",
+        "name": "Mponela",
+        "lat": "-13.53194",
+        "lng": "33.74008"
+    },
+    {
+        "country": "MW",
+        "name": "Monkey Bay",
+        "lat": "-14.08239",
+        "lng": "34.91652"
+    },
+    {
+        "country": "MW",
+        "name": "Mchinji",
+        "lat": "-13.79841",
+        "lng": "32.88019"
+    },
+    {
+        "country": "MW",
+        "name": "Mangochi",
+        "lat": "-14.47815",
+        "lng": "35.26448"
+    },
+    {
+        "country": "MW",
+        "name": "Machinga",
+        "lat": "-15.16849",
+        "lng": "35.30002"
+    },
+    {
+        "country": "MW",
+        "name": "Luchenza",
+        "lat": "-16.00693",
+        "lng": "35.30947"
+    },
+    {
+        "country": "MW",
+        "name": "Liwonde",
+        "lat": "-15.06665",
+        "lng": "35.22543"
+    },
+    {
+        "country": "MW",
+        "name": "Livingstonia",
+        "lat": "-10.60602",
+        "lng": "34.10628"
+    },
+    {
+        "country": "MW",
+        "name": "Lilongwe",
+        "lat": "-13.96692",
+        "lng": "33.78725"
+    },
+    {
+        "country": "MW",
+        "name": "Kasungu",
+        "lat": "-13.03333",
+        "lng": "33.48333"
+    },
+    {
+        "country": "MW",
+        "name": "Dowa",
+        "lat": "-13.65399",
+        "lng": "33.93754"
+    },
+    {
+        "country": "MW",
+        "name": "Dedza",
+        "lat": "-14.3779",
+        "lng": "34.33322"
+    },
+    {
+        "country": "MW",
+        "name": "Chiradzulu",
+        "lat": "-15.67461",
+        "lng": "35.14071"
+    },
+    {
+        "country": "MW",
+        "name": "Chipyela",
+        "lat": "-12.06618",
+        "lng": "34.74092"
+    },
+    {
+        "country": "MW",
+        "name": "Chipoka",
+        "lat": "-13.99329",
+        "lng": "34.51566"
+    },
+    {
+        "country": "MW",
+        "name": "Chikwawa",
+        "lat": "-16.03352",
+        "lng": "34.80091"
+    },
+    {
+        "country": "MW",
+        "name": "Blantyre",
+        "lat": "-15.78499",
+        "lng": "35.00854"
+    },
+    {
+        "country": "MW",
+        "name": "Balaka",
+        "lat": "-14.97928",
+        "lng": "34.95575"
+    },
+    {
+        "country": "MW",
+        "name": "Makata",
+        "lat": "-15.78721",
+        "lng": "35.03046"
+    }
+]

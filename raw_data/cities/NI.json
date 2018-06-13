@@ -1,0 +1,770 @@
+[
+    {
+        "country": "NI",
+        "name": "Yalag\u00fcina",
+        "lat": "13.48375",
+        "lng": "-86.49297"
+    },
+    {
+        "country": "NI",
+        "name": "Wiwil\u00ed",
+        "lat": "13.62679",
+        "lng": "-85.8254"
+    },
+    {
+        "country": "NI",
+        "name": "Waspam",
+        "lat": "14.74189",
+        "lng": "-83.9717"
+    },
+    {
+        "country": "NI",
+        "name": "Waslala",
+        "lat": "13.23333",
+        "lng": "-85.38333"
+    },
+    {
+        "country": "NI",
+        "name": "Villa Sandino",
+        "lat": "12.0483",
+        "lng": "-84.99362"
+    },
+    {
+        "country": "NI",
+        "name": "Valle San Francisco",
+        "lat": "12.51667",
+        "lng": "-86.28333"
+    },
+    {
+        "country": "NI",
+        "name": "LLano de La Cruz",
+        "lat": "13.12449",
+        "lng": "-86.00833"
+    },
+    {
+        "country": "NI",
+        "name": "Totogalpa",
+        "lat": "13.56269",
+        "lng": "-86.49239"
+    },
+    {
+        "country": "NI",
+        "name": "Tola",
+        "lat": "11.43927",
+        "lng": "-85.93891"
+    },
+    {
+        "country": "NI",
+        "name": "Tisma",
+        "lat": "12.08194",
+        "lng": "-86.01739"
+    },
+    {
+        "country": "NI",
+        "name": "Tipitapa",
+        "lat": "12.19732",
+        "lng": "-86.09706"
+    },
+    {
+        "country": "NI",
+        "name": "Ticuantepe",
+        "lat": "12.02263",
+        "lng": "-86.20493"
+    },
+    {
+        "country": "NI",
+        "name": "Teustepe",
+        "lat": "12.42002",
+        "lng": "-85.79966"
+    },
+    {
+        "country": "NI",
+        "name": "Terrabona",
+        "lat": "12.73028",
+        "lng": "-85.96474"
+    },
+    {
+        "country": "NI",
+        "name": "Telpaneca",
+        "lat": "13.53166",
+        "lng": "-86.2871"
+    },
+    {
+        "country": "NI",
+        "name": "Telica",
+        "lat": "12.522",
+        "lng": "-86.85938"
+    },
+    {
+        "country": "NI",
+        "name": "Somoto",
+        "lat": "13.48082",
+        "lng": "-86.58208"
+    },
+    {
+        "country": "NI",
+        "name": "Somotillo",
+        "lat": "13.04328",
+        "lng": "-86.90645"
+    },
+    {
+        "country": "NI",
+        "name": "Siuna",
+        "lat": "13.73321",
+        "lng": "-84.77725"
+    },
+    {
+        "country": "NI",
+        "name": "Santo Tom\u00e1s",
+        "lat": "12.06938",
+        "lng": "-85.09059"
+    },
+    {
+        "country": "NI",
+        "name": "Santo Domingo",
+        "lat": "12.26356",
+        "lng": "-85.08078"
+    },
+    {
+        "country": "NI",
+        "name": "Santa Teresa",
+        "lat": "11.74321",
+        "lng": "-86.21413"
+    },
+    {
+        "country": "NI",
+        "name": "Santa Rosa del Pe\u00f1\u00f3n",
+        "lat": "12.80116",
+        "lng": "-86.36994"
+    },
+    {
+        "country": "NI",
+        "name": "Santa Luc\u00eda",
+        "lat": "12.53267",
+        "lng": "-85.71099"
+    },
+    {
+        "country": "NI",
+        "name": "San Sebasti\u00e1n de Yal\u00ed",
+        "lat": "13.3051",
+        "lng": "-86.18641"
+    },
+    {
+        "country": "NI",
+        "name": "San Ram\u00f3n",
+        "lat": "12.92344",
+        "lng": "-85.83898"
+    },
+    {
+        "country": "NI",
+        "name": "San Rafael del Sur",
+        "lat": "11.84854",
+        "lng": "-86.43839"
+    },
+    {
+        "country": "NI",
+        "name": "San Rafael del Norte",
+        "lat": "13.21248",
+        "lng": "-86.11059"
+    },
+    {
+        "country": "NI",
+        "name": "San Miguelito",
+        "lat": "11.40255",
+        "lng": "-84.89991"
+    },
+    {
+        "country": "NI",
+        "name": "San Marcos",
+        "lat": "11.90949",
+        "lng": "-86.20351"
+    },
+    {
+        "country": "NI",
+        "name": "San Lorenzo",
+        "lat": "12.37781",
+        "lng": "-85.66741"
+    },
+    {
+        "country": "NI",
+        "name": "San Juan de R\u00edo Coco",
+        "lat": "13.54483",
+        "lng": "-86.16506"
+    },
+    {
+        "country": "NI",
+        "name": "San Juan de Oriente",
+        "lat": "11.90624",
+        "lng": "-86.07343"
+    },
+    {
+        "country": "NI",
+        "name": "San Juan del Sur",
+        "lat": "11.25292",
+        "lng": "-85.87049"
+    },
+    {
+        "country": "NI",
+        "name": "San Juan de Limay",
+        "lat": "13.17603",
+        "lng": "-86.61234"
+    },
+    {
+        "country": "NI",
+        "name": "San Jos\u00e9 de los Remates",
+        "lat": "12.59725",
+        "lng": "-85.7617"
+    },
+    {
+        "country": "NI",
+        "name": "San Jos\u00e9 de Cusmapa",
+        "lat": "13.28841",
+        "lng": "-86.65539"
+    },
+    {
+        "country": "NI",
+        "name": "San Jos\u00e9 de Bocay",
+        "lat": "13.54204",
+        "lng": "-85.53942"
+    },
+    {
+        "country": "NI",
+        "name": "San Jorge",
+        "lat": "11.45584",
+        "lng": "-85.80308"
+    },
+    {
+        "country": "NI",
+        "name": "San Fernando",
+        "lat": "13.6772",
+        "lng": "-86.3153"
+    },
+    {
+        "country": "NI",
+        "name": "San Dionisio",
+        "lat": "12.76023",
+        "lng": "-85.85018"
+    },
+    {
+        "country": "NI",
+        "name": "San Carlos",
+        "lat": "11.1236",
+        "lng": "-84.77795"
+    },
+    {
+        "country": "NI",
+        "name": "Rivas",
+        "lat": "11.43716",
+        "lng": "-85.82632"
+    },
+    {
+        "country": "NI",
+        "name": "R\u00edo Blanco",
+        "lat": "12.93435",
+        "lng": "-85.22354"
+    },
+    {
+        "country": "NI",
+        "name": "Rama",
+        "lat": "12.15965",
+        "lng": "-84.21952"
+    },
+    {
+        "country": "NI",
+        "name": "Quilal\u00ed",
+        "lat": "13.56695",
+        "lng": "-86.026"
+    },
+    {
+        "country": "NI",
+        "name": "Quezalguaque",
+        "lat": "12.50683",
+        "lng": "-86.90292"
+    },
+    {
+        "country": "NI",
+        "name": "Puerto Moraz\u00e1n",
+        "lat": "12.85042",
+        "lng": "-87.17167"
+    },
+    {
+        "country": "NI",
+        "name": "Puerto Cabezas",
+        "lat": "14.03507",
+        "lng": "-83.38882"
+    },
+    {
+        "country": "NI",
+        "name": "Pueblo Nuevo",
+        "lat": "13.37984",
+        "lng": "-86.48075"
+    },
+    {
+        "country": "NI",
+        "name": "Potos\u00ed",
+        "lat": "11.49416",
+        "lng": "-85.8568"
+    },
+    {
+        "country": "NI",
+        "name": "Posoltega",
+        "lat": "12.54481",
+        "lng": "-86.97992"
+    },
+    {
+        "country": "NI",
+        "name": "Paso Real de Cu\u00e1",
+        "lat": "13.36844",
+        "lng": "-85.67335"
+    },
+    {
+        "country": "NI",
+        "name": "Palacag\u00fcina",
+        "lat": "13.45566",
+        "lng": "-86.40622"
+    },
+    {
+        "country": "NI",
+        "name": "Ocotal",
+        "lat": "13.63208",
+        "lng": "-86.47516"
+    },
+    {
+        "country": "NI",
+        "name": "Nuevo Amanecer",
+        "lat": "12.82247",
+        "lng": "-84.19629"
+    },
+    {
+        "country": "NI",
+        "name": "Nueva Guinea",
+        "lat": "11.68758",
+        "lng": "-84.45616"
+    },
+    {
+        "country": "NI",
+        "name": "Niquinohomo",
+        "lat": "11.90518",
+        "lng": "-86.09446"
+    },
+    {
+        "country": "NI",
+        "name": "Nindir\u00ed",
+        "lat": "12.00386",
+        "lng": "-86.12128"
+    },
+    {
+        "country": "NI",
+        "name": "Nandasmo",
+        "lat": "11.92411",
+        "lng": "-86.12072"
+    },
+    {
+        "country": "NI",
+        "name": "Nandaime",
+        "lat": "11.75696",
+        "lng": "-86.05286"
+    },
+    {
+        "country": "NI",
+        "name": "Nagarote",
+        "lat": "12.26593",
+        "lng": "-86.56474"
+    },
+    {
+        "country": "NI",
+        "name": "Muy Muy",
+        "lat": "12.76224",
+        "lng": "-85.62915"
+    },
+    {
+        "country": "NI",
+        "name": "Murra",
+        "lat": "13.7585",
+        "lng": "-86.01843"
+    },
+    {
+        "country": "NI",
+        "name": "Muelle de los Bueyes",
+        "lat": "12.06999",
+        "lng": "-84.53503"
+    },
+    {
+        "country": "NI",
+        "name": "Mozonte",
+        "lat": "13.66034",
+        "lng": "-86.43841"
+    },
+    {
+        "country": "NI",
+        "name": "Moyogalpa",
+        "lat": "11.54006",
+        "lng": "-85.69795"
+    },
+    {
+        "country": "NI",
+        "name": "Morrito",
+        "lat": "11.62118",
+        "lng": "-85.08052"
+    },
+    {
+        "country": "NI",
+        "name": "Matigu\u00e1s",
+        "lat": "12.83734",
+        "lng": "-85.46218"
+    },
+    {
+        "country": "NI",
+        "name": "Matagalpa",
+        "lat": "12.92559",
+        "lng": "-85.91747"
+    },
+    {
+        "country": "NI",
+        "name": "Masaya",
+        "lat": "11.97444",
+        "lng": "-86.09417"
+    },
+    {
+        "country": "NI",
+        "name": "Masatepe",
+        "lat": "11.9184",
+        "lng": "-86.14467"
+    },
+    {
+        "country": "NI",
+        "name": "Masachapa",
+        "lat": "11.78687",
+        "lng": "-86.51416"
+    },
+    {
+        "country": "NI",
+        "name": "Managua",
+        "lat": "12.13282",
+        "lng": "-86.2504"
+    },
+    {
+        "country": "NI",
+        "name": "Le\u00f3n",
+        "lat": "12.43787",
+        "lng": "-86.87804"
+    },
+    {
+        "country": "NI",
+        "name": "Las Sabanas",
+        "lat": "13.34302",
+        "lng": "-86.62184"
+    },
+    {
+        "country": "NI",
+        "name": "Larreynaga",
+        "lat": "12.67692",
+        "lng": "-86.57193"
+    },
+    {
+        "country": "NI",
+        "name": "La Paz de Oriente",
+        "lat": "11.82331",
+        "lng": "-86.12756"
+    },
+    {
+        "country": "NI",
+        "name": "La Paz Centro",
+        "lat": "12.34",
+        "lng": "-86.67528"
+    },
+    {
+        "country": "NI",
+        "name": "La Libertad",
+        "lat": "12.21635",
+        "lng": "-85.16595"
+    },
+    {
+        "country": "NI",
+        "name": "Laguna de Perlas",
+        "lat": "12.34294",
+        "lng": "-83.67123"
+    },
+    {
+        "country": "NI",
+        "name": "La Cruz de R\u00edo Grande",
+        "lat": "13.1129",
+        "lng": "-84.18588"
+    },
+    {
+        "country": "NI",
+        "name": "La Concordia",
+        "lat": "13.19528",
+        "lng": "-86.16674"
+    },
+    {
+        "country": "NI",
+        "name": "La Concepci\u00f3n",
+        "lat": "11.93711",
+        "lng": "-86.18976"
+    },
+    {
+        "country": "NI",
+        "name": "Juigalpa",
+        "lat": "12.10629",
+        "lng": "-85.36452"
+    },
+    {
+        "country": "NI",
+        "name": "Jiquilillo",
+        "lat": "12.74593",
+        "lng": "-87.4516"
+    },
+    {
+        "country": "NI",
+        "name": "Jinotepe",
+        "lat": "11.84962",
+        "lng": "-86.19903"
+    },
+    {
+        "country": "NI",
+        "name": "Jinotega",
+        "lat": "13.08881",
+        "lng": "-86.00105"
+    },
+    {
+        "country": "NI",
+        "name": "Jalapa",
+        "lat": "13.92221",
+        "lng": "-86.12346"
+    },
+    {
+        "country": "NI",
+        "name": "Granada",
+        "lat": "11.92988",
+        "lng": "-85.95602"
+    },
+    {
+        "country": "NI",
+        "name": "Estel\u00ed",
+        "lat": "13.09185",
+        "lng": "-86.35384"
+    },
+    {
+        "country": "NI",
+        "name": "El Viejo",
+        "lat": "12.6633",
+        "lng": "-87.16722"
+    },
+    {
+        "country": "NI",
+        "name": "El Sauce",
+        "lat": "12.88687",
+        "lng": "-86.53903"
+    },
+    {
+        "country": "NI",
+        "name": "El Rosario",
+        "lat": "11.77756",
+        "lng": "-86.37374"
+    },
+    {
+        "country": "NI",
+        "name": "El Realejo",
+        "lat": "12.54307",
+        "lng": "-87.16466"
+    },
+    {
+        "country": "NI",
+        "name": "La Jicaral",
+        "lat": "12.72676",
+        "lng": "-86.38057"
+    },
+    {
+        "country": "NI",
+        "name": "El Crucero",
+        "lat": "11.99008",
+        "lng": "-86.30954"
+    },
+    {
+        "country": "NI",
+        "name": "El Ayote",
+        "lat": "12.19046",
+        "lng": "-85.28737"
+    },
+    {
+        "country": "NI",
+        "name": "El Almendro",
+        "lat": "11.67859",
+        "lng": "-84.70269"
+    },
+    {
+        "country": "NI",
+        "name": "Dolores",
+        "lat": "11.85621",
+        "lng": "-86.21575"
+    },
+    {
+        "country": "NI",
+        "name": "Diriomo",
+        "lat": "11.87612",
+        "lng": "-86.05184"
+    },
+    {
+        "country": "NI",
+        "name": "Diriamba",
+        "lat": "11.85842",
+        "lng": "-86.23878"
+    },
+    {
+        "country": "NI",
+        "name": "Diri\u00e1",
+        "lat": "11.8842",
+        "lng": "-86.05508"
+    },
+    {
+        "country": "NI",
+        "name": "Cuapa",
+        "lat": "12.26756",
+        "lng": "-85.38196"
+    },
+    {
+        "country": "NI",
+        "name": "Corn Island",
+        "lat": "12.16943",
+        "lng": "-83.04175"
+    },
+    {
+        "country": "NI",
+        "name": "Corinto",
+        "lat": "12.48199",
+        "lng": "-87.17336"
+    },
+    {
+        "country": "NI",
+        "name": "Condega",
+        "lat": "13.36502",
+        "lng": "-86.39846"
+    },
+    {
+        "country": "NI",
+        "name": "Comalapa",
+        "lat": "12.28345",
+        "lng": "-85.51081"
+    },
+    {
+        "country": "NI",
+        "name": "Ciudad Dar\u00edo",
+        "lat": "12.73143",
+        "lng": "-86.12402"
+    },
+    {
+        "country": "NI",
+        "name": "Ciudad Antigua",
+        "lat": "13.6406",
+        "lng": "-86.30815"
+    },
+    {
+        "country": "NI",
+        "name": "Chinandega",
+        "lat": "12.62937",
+        "lng": "-87.13105"
+    },
+    {
+        "country": "NI",
+        "name": "Chichigalpa",
+        "lat": "12.57758",
+        "lng": "-87.02705"
+    },
+    {
+        "country": "NI",
+        "name": "Catarina",
+        "lat": "11.91197",
+        "lng": "-86.07383"
+    },
+    {
+        "country": "NI",
+        "name": "Carlos Fonseca Amador",
+        "lat": "11.98009",
+        "lng": "-86.50571"
+    },
+    {
+        "country": "NI",
+        "name": "C\u00e1rdenas",
+        "lat": "11.19639",
+        "lng": "-85.5089"
+    },
+    {
+        "country": "NI",
+        "name": "Camoapa",
+        "lat": "12.38386",
+        "lng": "-85.51157"
+    },
+    {
+        "country": "NI",
+        "name": "Buenos Aires",
+        "lat": "11.46916",
+        "lng": "-85.81661"
+    },
+    {
+        "country": "NI",
+        "name": "Bonanza",
+        "lat": "14.02885",
+        "lng": "-84.59103"
+    },
+    {
+        "country": "NI",
+        "name": "Bocana de Paiwas",
+        "lat": "12.78571",
+        "lng": "-85.12269"
+    },
+    {
+        "country": "NI",
+        "name": "Boaco",
+        "lat": "12.47224",
+        "lng": "-85.6586"
+    },
+    {
+        "country": "NI",
+        "name": "Bluefields",
+        "lat": "12.01366",
+        "lng": "-83.76353"
+    },
+    {
+        "country": "NI",
+        "name": "Bel\u00e9n",
+        "lat": "11.50299",
+        "lng": "-85.88935"
+    },
+    {
+        "country": "NI",
+        "name": "Altagracia",
+        "lat": "11.56615",
+        "lng": "-85.5784"
+    },
+    {
+        "country": "NI",
+        "name": "Acoyapa",
+        "lat": "11.97028",
+        "lng": "-85.17113"
+    },
+    {
+        "country": "NI",
+        "name": "Achuapa",
+        "lat": "13.0537",
+        "lng": "-86.59004"
+    },
+    {
+        "country": "NI",
+        "name": "Ciudad Sandino",
+        "lat": "12.15889",
+        "lng": "-86.34417"
+    },
+    {
+        "country": "NI",
+        "name": "Santa Ma\u00eda de Pantasma",
+        "lat": "13.34809",
+        "lng": "-85.94451"
+    },
+    {
+        "country": "NI",
+        "name": "Wiwil\u00ed de Jinotega",
+        "lat": "13.61494",
+        "lng": "-85.81676"
+    }
+]

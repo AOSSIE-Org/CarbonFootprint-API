@@ -1,0 +1,104 @@
+[
+    {
+        "country": "HK",
+        "name": "Tsuen Wan",
+        "lat": "22.37066",
+        "lng": "114.10479"
+    },
+    {
+        "country": "HK",
+        "name": "Yung Shue Wan",
+        "lat": "22.22623",
+        "lng": "114.11241"
+    },
+    {
+        "country": "HK",
+        "name": "Yuen Long Kau Hui",
+        "lat": "22.45",
+        "lng": "114.03333"
+    },
+    {
+        "country": "HK",
+        "name": "Wong Tai Sin",
+        "lat": "22.35",
+        "lng": "114.18333"
+    },
+    {
+        "country": "HK",
+        "name": "Wan Chai",
+        "lat": "22.28142",
+        "lng": "114.17258"
+    },
+    {
+        "country": "HK",
+        "name": "Tuen Mun",
+        "lat": "22.39175",
+        "lng": "113.97157"
+    },
+    {
+        "country": "HK",
+        "name": "Tai Po",
+        "lat": "22.45007",
+        "lng": "114.16877"
+    },
+    {
+        "country": "HK",
+        "name": "Tai O",
+        "lat": "22.25515",
+        "lng": "113.86309"
+    },
+    {
+        "country": "HK",
+        "name": "Sok Kwu Wan",
+        "lat": "22.20453",
+        "lng": "114.13159"
+    },
+    {
+        "country": "HK",
+        "name": "Sha Tin",
+        "lat": "22.38333",
+        "lng": "114.18333"
+    },
+    {
+        "country": "HK",
+        "name": "Sham Shui Po",
+        "lat": "22.33023",
+        "lng": "114.15945"
+    },
+    {
+        "country": "HK",
+        "name": "Sai Kung",
+        "lat": "22.38333",
+        "lng": "114.26667"
+    },
+    {
+        "country": "HK",
+        "name": "Ngong Ping",
+        "lat": "22.25556",
+        "lng": "113.90391"
+    },
+    {
+        "country": "HK",
+        "name": "Kowloon",
+        "lat": "22.31667",
+        "lng": "114.18333"
+    },
+    {
+        "country": "HK",
+        "name": "Hong Kong",
+        "lat": "22.27832",
+        "lng": "114.17469"
+    },
+    {
+        "country": "HK",
+        "name": "Central",
+        "lat": "22.28299",
+        "lng": "114.15846"
+    },
+    {
+        "country": "HK",
+        "name": "Tung Chung",
+        "lat": "22.28783",
+        "lng": "113.94243"
+    }
+]

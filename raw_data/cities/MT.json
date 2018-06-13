@@ -1,0 +1,416 @@
+[
+    {
+        "country": "MT",
+        "name": "Marsaxlokk",
+        "lat": "35.84194",
+        "lng": "14.54306"
+    },
+    {
+        "country": "MT",
+        "name": "Zurrieq",
+        "lat": "35.83111",
+        "lng": "14.47417"
+    },
+    {
+        "country": "MT",
+        "name": "Zejtun",
+        "lat": "35.85583",
+        "lng": "14.53306"
+    },
+    {
+        "country": "MT",
+        "name": "Zebbug",
+        "lat": "36.07222",
+        "lng": "14.23583"
+    },
+    {
+        "country": "MT",
+        "name": "Haz-Zebbug",
+        "lat": "35.87194",
+        "lng": "14.44111"
+    },
+    {
+        "country": "MT",
+        "name": "Zabbar",
+        "lat": "35.87611",
+        "lng": "14.535"
+    },
+    {
+        "country": "MT",
+        "name": "Xghajra",
+        "lat": "35.88556",
+        "lng": "14.5475"
+    },
+    {
+        "country": "MT",
+        "name": "Xewkija",
+        "lat": "36.03278",
+        "lng": "14.25806"
+    },
+    {
+        "country": "MT",
+        "name": "Xaghra",
+        "lat": "36.05",
+        "lng": "14.26444"
+    },
+    {
+        "country": "MT",
+        "name": "Valletta",
+        "lat": "35.89972",
+        "lng": "14.51472"
+    },
+    {
+        "country": "MT",
+        "name": "Ta\u2019 Xbiex",
+        "lat": "35.89917",
+        "lng": "14.49444"
+    },
+    {
+        "country": "MT",
+        "name": "Tarxien",
+        "lat": "35.86583",
+        "lng": "14.515"
+    },
+    {
+        "country": "MT",
+        "name": "Sliema",
+        "lat": "35.9125",
+        "lng": "14.50194"
+    },
+    {
+        "country": "MT",
+        "name": "Siggiewi",
+        "lat": "35.85556",
+        "lng": "14.43639"
+    },
+    {
+        "country": "MT",
+        "name": "Santa Venera",
+        "lat": "35.89083",
+        "lng": "14.47417"
+    },
+    {
+        "country": "MT",
+        "name": "Saint Lucia",
+        "lat": "36.04306",
+        "lng": "14.21722"
+    },
+    {
+        "country": "MT",
+        "name": "Santa Lucija",
+        "lat": "35.86278",
+        "lng": "14.5075"
+    },
+    {
+        "country": "MT",
+        "name": "San Pawl il-Bahar",
+        "lat": "35.95064",
+        "lng": "14.41561"
+    },
+    {
+        "country": "MT",
+        "name": "Sannat",
+        "lat": "36.02444",
+        "lng": "14.24278"
+    },
+    {
+        "country": "MT",
+        "name": "San Lawrenz",
+        "lat": "36.05556",
+        "lng": "14.20361"
+    },
+    {
+        "country": "MT",
+        "name": "San Giljan",
+        "lat": "35.91839",
+        "lng": "14.48977"
+    },
+    {
+        "country": "MT",
+        "name": "Safi",
+        "lat": "35.83306",
+        "lng": "14.48472"
+    },
+    {
+        "country": "MT",
+        "name": "Paola",
+        "lat": "35.87306",
+        "lng": "14.49889"
+    },
+    {
+        "country": "MT",
+        "name": "Victoria",
+        "lat": "36.04444",
+        "lng": "14.23972"
+    },
+    {
+        "country": "MT",
+        "name": "Rabat",
+        "lat": "35.88152",
+        "lng": "14.39872"
+    },
+    {
+        "country": "MT",
+        "name": "Qrendi",
+        "lat": "35.83472",
+        "lng": "14.45833"
+    },
+    {
+        "country": "MT",
+        "name": "Qormi",
+        "lat": "35.87601",
+        "lng": "14.472"
+    },
+    {
+        "country": "MT",
+        "name": "Qala",
+        "lat": "36.03611",
+        "lng": "14.30944"
+    },
+    {
+        "country": "MT",
+        "name": "Piet\u00e0",
+        "lat": "35.89472",
+        "lng": "14.495"
+    },
+    {
+        "country": "MT",
+        "name": "Naxxar",
+        "lat": "35.91361",
+        "lng": "14.44361"
+    },
+    {
+        "country": "MT",
+        "name": "Nadur",
+        "lat": "36.03778",
+        "lng": "14.29417"
+    },
+    {
+        "country": "MT",
+        "name": "Munxar",
+        "lat": "36.03",
+        "lng": "14.23333"
+    },
+    {
+        "country": "MT",
+        "name": "Imtarfa",
+        "lat": "35.89333",
+        "lng": "14.39889"
+    },
+    {
+        "country": "MT",
+        "name": "Imsida",
+        "lat": "35.8925",
+        "lng": "14.48278"
+    },
+    {
+        "country": "MT",
+        "name": "Mqabba",
+        "lat": "35.84763",
+        "lng": "14.46824"
+    },
+    {
+        "country": "MT",
+        "name": "Mosta",
+        "lat": "35.90917",
+        "lng": "14.42556"
+    },
+    {
+        "country": "MT",
+        "name": "Mgarr",
+        "lat": "36.02528",
+        "lng": "14.295"
+    },
+    {
+        "country": "MT",
+        "name": "Imgarr",
+        "lat": "35.92056",
+        "lng": "14.36639"
+    },
+    {
+        "country": "MT",
+        "name": "Mellieha",
+        "lat": "35.95639",
+        "lng": "14.36222"
+    },
+    {
+        "country": "MT",
+        "name": "Imdina",
+        "lat": "35.88694",
+        "lng": "14.4025"
+    },
+    {
+        "country": "MT",
+        "name": "Marsaskala",
+        "lat": "35.8622",
+        "lng": "14.56701"
+    },
+    {
+        "country": "MT",
+        "name": "Marsa",
+        "lat": "35.87917",
+        "lng": "14.49528"
+    },
+    {
+        "country": "MT",
+        "name": "Luqa",
+        "lat": "35.85889",
+        "lng": "14.48861"
+    },
+    {
+        "country": "MT",
+        "name": "Senglea",
+        "lat": "35.8875",
+        "lng": "14.51694"
+    },
+    {
+        "country": "MT",
+        "name": "L-Iklin",
+        "lat": "35.90414",
+        "lng": "14.45415"
+    },
+    {
+        "country": "MT",
+        "name": "Lija",
+        "lat": "35.90056",
+        "lng": "14.44639"
+    },
+    {
+        "country": "MT",
+        "name": "Kirkop",
+        "lat": "35.84222",
+        "lng": "14.48528"
+    },
+    {
+        "country": "MT",
+        "name": "Kercem",
+        "lat": "36.04194",
+        "lng": "14.22667"
+    },
+    {
+        "country": "MT",
+        "name": "Kalkara",
+        "lat": "35.88917",
+        "lng": "14.53278"
+    },
+    {
+        "country": "MT",
+        "name": "Swieqi",
+        "lat": "35.9225",
+        "lng": "14.48"
+    },
+    {
+        "country": "MT",
+        "name": "Gzira",
+        "lat": "35.90583",
+        "lng": "14.48806"
+    },
+    {
+        "country": "MT",
+        "name": "Floriana",
+        "lat": "35.89583",
+        "lng": "14.50833"
+    },
+    {
+        "country": "MT",
+        "name": "Vittoriosa",
+        "lat": "35.89222",
+        "lng": "14.51833"
+    },
+    {
+        "country": "MT",
+        "name": "Hamrun",
+        "lat": "35.88472",
+        "lng": "14.48444"
+    },
+    {
+        "country": "MT",
+        "name": "Gudja",
+        "lat": "35.84917",
+        "lng": "14.50306"
+    },
+    {
+        "country": "MT",
+        "name": "Ghaxaq",
+        "lat": "35.84889",
+        "lng": "14.51667"
+    },
+    {
+        "country": "MT",
+        "name": "Hal Gharghur",
+        "lat": "35.92409",
+        "lng": "14.45118"
+    },
+    {
+        "country": "MT",
+        "name": "Gharb",
+        "lat": "36.06",
+        "lng": "14.20889"
+    },
+    {
+        "country": "MT",
+        "name": "Ghajnsielem",
+        "lat": "36.02639",
+        "lng": "14.285"
+    },
+    {
+        "country": "MT",
+        "name": "Fgura",
+        "lat": "35.87028",
+        "lng": "14.51333"
+    },
+    {
+        "country": "MT",
+        "name": "Dingli",
+        "lat": "35.86139",
+        "lng": "14.38222"
+    },
+    {
+        "country": "MT",
+        "name": "Cospicua",
+        "lat": "35.88556",
+        "lng": "14.5275"
+    },
+    {
+        "country": "MT",
+        "name": "Birzebbuga",
+        "lat": "35.82583",
+        "lng": "14.52694"
+    },
+    {
+        "country": "MT",
+        "name": "Birkirkara",
+        "lat": "35.89722",
+        "lng": "14.46111"
+    },
+    {
+        "country": "MT",
+        "name": "Balzan",
+        "lat": "35.90028",
+        "lng": "14.455"
+    },
+    {
+        "country": "MT",
+        "name": "Attard",
+        "lat": "35.88972",
+        "lng": "14.4425"
+    },
+    {
+        "country": "MT",
+        "name": "Saint John",
+        "lat": "35.90556",
+        "lng": "14.47611"
+    },
+    {
+        "country": "MT",
+        "name": "Fontana",
+        "lat": "36.0375",
+        "lng": "14.23611"
+    },
+    {
+        "country": "MT",
+        "name": "Pembroke",
+        "lat": "35.93056",
+        "lng": "14.47639"
+    }
+]

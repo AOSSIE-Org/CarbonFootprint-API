@@ -1,0 +1,404 @@
+[
+    {
+        "country": "ZM",
+        "name": "Nchelenge",
+        "lat": "-9.34506",
+        "lng": "28.73396"
+    },
+    {
+        "country": "ZM",
+        "name": "Nakonde",
+        "lat": "-9.34213",
+        "lng": "32.745"
+    },
+    {
+        "country": "ZM",
+        "name": "Mpulungu",
+        "lat": "-8.76234",
+        "lng": "31.11405"
+    },
+    {
+        "country": "ZM",
+        "name": "Mporokoso",
+        "lat": "-9.37273",
+        "lng": "30.12501"
+    },
+    {
+        "country": "ZM",
+        "name": "Mbala",
+        "lat": "-8.84024",
+        "lng": "31.36587"
+    },
+    {
+        "country": "ZM",
+        "name": "Kawambwa",
+        "lat": "-9.7915",
+        "lng": "29.07913"
+    },
+    {
+        "country": "ZM",
+        "name": "Kaputa",
+        "lat": "-8.46887",
+        "lng": "29.66193"
+    },
+    {
+        "country": "ZM",
+        "name": "Zambezi",
+        "lat": "-13.54323",
+        "lng": "23.10467"
+    },
+    {
+        "country": "ZM",
+        "name": "Solwezi",
+        "lat": "-12.1688",
+        "lng": "26.38938"
+    },
+    {
+        "country": "ZM",
+        "name": "Sinazongwe",
+        "lat": "-17.2614",
+        "lng": "27.46179"
+    },
+    {
+        "country": "ZM",
+        "name": "Siavonga",
+        "lat": "-16.53818",
+        "lng": "28.70876"
+    },
+    {
+        "country": "ZM",
+        "name": "Sesheke",
+        "lat": "-17.47593",
+        "lng": "24.29684"
+    },
+    {
+        "country": "ZM",
+        "name": "Serenje",
+        "lat": "-13.23251",
+        "lng": "30.23522"
+    },
+    {
+        "country": "ZM",
+        "name": "Senanga",
+        "lat": "-16.11667",
+        "lng": "23.26667"
+    },
+    {
+        "country": "ZM",
+        "name": "Samfya",
+        "lat": "-11.36491",
+        "lng": "29.55652"
+    },
+    {
+        "country": "ZM",
+        "name": "Petauke",
+        "lat": "-14.24117",
+        "lng": "31.31975"
+    },
+    {
+        "country": "ZM",
+        "name": "Nyimba",
+        "lat": "-14.55656",
+        "lng": "30.8149"
+    },
+    {
+        "country": "ZM",
+        "name": "Ndola",
+        "lat": "-12.95867",
+        "lng": "28.63659"
+    },
+    {
+        "country": "ZM",
+        "name": "Namwala",
+        "lat": "-15.75042",
+        "lng": "26.43839"
+    },
+    {
+        "country": "ZM",
+        "name": "Nakambala",
+        "lat": "-15.83244",
+        "lng": "27.77994"
+    },
+    {
+        "country": "ZM",
+        "name": "Mwinilunga",
+        "lat": "-11.73584",
+        "lng": "24.42926"
+    },
+    {
+        "country": "ZM",
+        "name": "Mwense",
+        "lat": "-10.38447",
+        "lng": "28.698"
+    },
+    {
+        "country": "ZM",
+        "name": "Mungwi",
+        "lat": "-10.1732",
+        "lng": "31.36942"
+    },
+    {
+        "country": "ZM",
+        "name": "Mumbwa",
+        "lat": "-14.98293",
+        "lng": "27.0619"
+    },
+    {
+        "country": "ZM",
+        "name": "Mufumbwe",
+        "lat": "-13.68333",
+        "lng": "24.8"
+    },
+    {
+        "country": "ZM",
+        "name": "Mufulira",
+        "lat": "-12.54982",
+        "lng": "28.24071"
+    },
+    {
+        "country": "ZM",
+        "name": "Mpongwe",
+        "lat": "-13.50914",
+        "lng": "28.15504"
+    },
+    {
+        "country": "ZM",
+        "name": "Mpika",
+        "lat": "-11.83431",
+        "lng": "31.45287"
+    },
+    {
+        "country": "ZM",
+        "name": "Monze",
+        "lat": "-16.28333",
+        "lng": "27.48333"
+    },
+    {
+        "country": "ZM",
+        "name": "Mongu",
+        "lat": "-15.24835",
+        "lng": "23.12741"
+    },
+    {
+        "country": "ZM",
+        "name": "Mkushi",
+        "lat": "-13.62015",
+        "lng": "29.3939"
+    },
+    {
+        "country": "ZM",
+        "name": "Mazabuka",
+        "lat": "-15.85601",
+        "lng": "27.748"
+    },
+    {
+        "country": "ZM",
+        "name": "Mansa",
+        "lat": "-11.19976",
+        "lng": "28.89431"
+    },
+    {
+        "country": "ZM",
+        "name": "Maamba",
+        "lat": "-17.36667",
+        "lng": "27.15"
+    },
+    {
+        "country": "ZM",
+        "name": "Luwingu",
+        "lat": "-10.2621",
+        "lng": "29.92712"
+    },
+    {
+        "country": "ZM",
+        "name": "Lusaka",
+        "lat": "-15.40669",
+        "lng": "28.28713"
+    },
+    {
+        "country": "ZM",
+        "name": "Lundazi",
+        "lat": "-12.29292",
+        "lng": "33.1782"
+    },
+    {
+        "country": "ZM",
+        "name": "Lukulu",
+        "lat": "-14.37067",
+        "lng": "23.24196"
+    },
+    {
+        "country": "ZM",
+        "name": "Luanshya",
+        "lat": "-13.13667",
+        "lng": "28.41661"
+    },
+    {
+        "country": "ZM",
+        "name": "Luangwa",
+        "lat": "-15.61667",
+        "lng": "30.41667"
+    },
+    {
+        "country": "ZM",
+        "name": "Livingstone",
+        "lat": "-17.84194",
+        "lng": "25.85425"
+    },
+    {
+        "country": "ZM",
+        "name": "Limulunga",
+        "lat": "-15.09691",
+        "lng": "23.13757"
+    },
+    {
+        "country": "ZM",
+        "name": "Kitwe",
+        "lat": "-12.80243",
+        "lng": "28.21323"
+    },
+    {
+        "country": "ZM",
+        "name": "Kataba",
+        "lat": "-11.88333",
+        "lng": "29.78333"
+    },
+    {
+        "country": "ZM",
+        "name": "Kasempa",
+        "lat": "-13.45836",
+        "lng": "25.8338"
+    },
+    {
+        "country": "ZM",
+        "name": "Kasama",
+        "lat": "-10.21289",
+        "lng": "31.18084"
+    },
+    {
+        "country": "ZM",
+        "name": "Kapiri Mposhi",
+        "lat": "-13.97147",
+        "lng": "28.66985"
+    },
+    {
+        "country": "ZM",
+        "name": "Kaoma",
+        "lat": "-14.78333",
+        "lng": "24.8"
+    },
+    {
+        "country": "ZM",
+        "name": "Kansanshi",
+        "lat": "-12.09514",
+        "lng": "26.42727"
+    },
+    {
+        "country": "ZM",
+        "name": "Kalulushi",
+        "lat": "-12.84151",
+        "lng": "28.09479"
+    },
+    {
+        "country": "ZM",
+        "name": "Kalengwa",
+        "lat": "-13.46586",
+        "lng": "25.00271"
+    },
+    {
+        "country": "ZM",
+        "name": "Kalabo",
+        "lat": "-14.99307",
+        "lng": "22.67926"
+    },
+    {
+        "country": "ZM",
+        "name": "Kafue",
+        "lat": "-15.76911",
+        "lng": "28.18136"
+    },
+    {
+        "country": "ZM",
+        "name": "Kabwe",
+        "lat": "-14.4469",
+        "lng": "28.44644"
+    },
+    {
+        "country": "ZM",
+        "name": "Kabompo",
+        "lat": "-13.59268",
+        "lng": "24.20081"
+    },
+    {
+        "country": "ZM",
+        "name": "Isoka",
+        "lat": "-10.16062",
+        "lng": "32.63353"
+    },
+    {
+        "country": "ZM",
+        "name": "Gwembe",
+        "lat": "-16.49755",
+        "lng": "27.60691"
+    },
+    {
+        "country": "ZM",
+        "name": "Chongwe",
+        "lat": "-15.32916",
+        "lng": "28.68204"
+    },
+    {
+        "country": "ZM",
+        "name": "Choma",
+        "lat": "-16.80889",
+        "lng": "26.9875"
+    },
+    {
+        "country": "ZM",
+        "name": "Chipata",
+        "lat": "-13.63333",
+        "lng": "32.65"
+    },
+    {
+        "country": "ZM",
+        "name": "Chinsali",
+        "lat": "-10.54142",
+        "lng": "32.08162"
+    },
+    {
+        "country": "ZM",
+        "name": "Chingola",
+        "lat": "-12.52897",
+        "lng": "27.88382"
+    },
+    {
+        "country": "ZM",
+        "name": "Chililabombwe",
+        "lat": "-12.36475",
+        "lng": "27.82286"
+    },
+    {
+        "country": "ZM",
+        "name": "Chibombo",
+        "lat": "-14.65685",
+        "lng": "28.07057"
+    },
+    {
+        "country": "ZM",
+        "name": "Chambishi",
+        "lat": "-12.63247",
+        "lng": "28.05367"
+    },
+    {
+        "country": "ZM",
+        "name": "Chama",
+        "lat": "-11.21303",
+        "lng": "33.1521"
+    },
+    {
+        "country": "ZM",
+        "name": "Chadiza",
+        "lat": "-14.06779",
+        "lng": "32.43917"
+    }
+]

@@ -1,0 +1,4904 @@
+[
+    {
+        "country": "SE",
+        "name": "Viken",
+        "lat": "64.72587",
+        "lng": "20.91548"
+    },
+    {
+        "country": "SE",
+        "name": "Ursviken",
+        "lat": "64.71261",
+        "lng": "21.1658"
+    },
+    {
+        "country": "SE",
+        "name": "Ume\u00e5",
+        "lat": "63.82842",
+        "lng": "20.25972"
+    },
+    {
+        "country": "SE",
+        "name": "T\u00f6re",
+        "lat": "65.91243",
+        "lng": "22.65128"
+    },
+    {
+        "country": "SE",
+        "name": "T\u00e4fte\u00e5",
+        "lat": "63.8397",
+        "lng": "20.47857"
+    },
+    {
+        "country": "SE",
+        "name": "Storvik",
+        "lat": "65.15",
+        "lng": "20.73333"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00f6dra Sunderbyn",
+        "lat": "65.65983",
+        "lng": "21.94004"
+    },
+    {
+        "country": "SE",
+        "name": "Skelleftehamn",
+        "lat": "64.68333",
+        "lng": "21.23333"
+    },
+    {
+        "country": "SE",
+        "name": "Skellefte\u00e5",
+        "lat": "64.75067",
+        "lng": "20.95279"
+    },
+    {
+        "country": "SE",
+        "name": "R\u00e5ne\u00e5",
+        "lat": "65.85482",
+        "lng": "22.29126"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00e4var",
+        "lat": "63.90383",
+        "lng": "20.55014"
+    },
+    {
+        "country": "SE",
+        "name": "Rosvik",
+        "lat": "65.43333",
+        "lng": "21.7"
+    },
+    {
+        "country": "SE",
+        "name": "Rolfs",
+        "lat": "65.85",
+        "lng": "23.11667"
+    },
+    {
+        "country": "SE",
+        "name": "Rokn\u00e4s",
+        "lat": "65.35",
+        "lng": "21.2"
+    },
+    {
+        "country": "SE",
+        "name": "Robertsfors",
+        "lat": "64.19324",
+        "lng": "20.84806"
+    },
+    {
+        "country": "SE",
+        "name": "R\u00f6b\u00e4ck",
+        "lat": "63.80879",
+        "lng": "20.18901"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00e4vast",
+        "lat": "65.77002",
+        "lng": "21.73113"
+    },
+    {
+        "country": "SE",
+        "name": "Pite\u00e5",
+        "lat": "65.31717",
+        "lng": "21.47944"
+    },
+    {
+        "country": "SE",
+        "name": "Pajala",
+        "lat": "67.21284",
+        "lng": "23.36607"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6vertorne\u00e5",
+        "lat": "66.38778",
+        "lng": "23.65425"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6verkalix",
+        "lat": "66.32754",
+        "lng": "22.84414"
+    },
+    {
+        "country": "SE",
+        "name": "Obbola",
+        "lat": "63.7",
+        "lng": "20.31667"
+    },
+    {
+        "country": "SE",
+        "name": "Norrfj\u00e4rden",
+        "lat": "65.41805",
+        "lng": "21.50151"
+    },
+    {
+        "country": "SE",
+        "name": "Malmberget",
+        "lat": "67.17529",
+        "lng": "20.65495"
+    },
+    {
+        "country": "SE",
+        "name": "Lule\u00e5",
+        "lat": "65.58415",
+        "lng": "22.15465"
+    },
+    {
+        "country": "SE",
+        "name": "L\u00e5ngsele",
+        "lat": "64.81667",
+        "lng": "20.25"
+    },
+    {
+        "country": "SE",
+        "name": "Kiruna",
+        "lat": "67.85572",
+        "lng": "20.22513"
+    },
+    {
+        "country": "SE",
+        "name": "Kalix",
+        "lat": "65.85298",
+        "lng": "23.15645"
+    },
+    {
+        "country": "SE",
+        "name": "K\u00e5ge",
+        "lat": "64.83571",
+        "lng": "20.98453"
+    },
+    {
+        "country": "SE",
+        "name": "Hortlax",
+        "lat": "65.28188",
+        "lng": "21.40544"
+    },
+    {
+        "country": "SE",
+        "name": "Holmsund",
+        "lat": "63.70602",
+        "lng": "20.36409"
+    },
+    {
+        "country": "SE",
+        "name": "Haparanda",
+        "lat": "65.83549",
+        "lng": "24.13676"
+    },
+    {
+        "country": "SE",
+        "name": "Gammelstad",
+        "lat": "65.63931",
+        "lng": "22.01145"
+    },
+    {
+        "country": "SE",
+        "name": "G\u00e4llivare",
+        "lat": "67.13387",
+        "lng": "20.65278"
+    },
+    {
+        "country": "SE",
+        "name": "Forsbacka",
+        "lat": "64.76667",
+        "lng": "20.5"
+    },
+    {
+        "country": "SE",
+        "name": "Ersmark",
+        "lat": "63.88333",
+        "lng": "20.31667"
+    },
+    {
+        "country": "SE",
+        "name": "Byske",
+        "lat": "64.95258",
+        "lng": "21.2058"
+    },
+    {
+        "country": "SE",
+        "name": "Burtr\u00e4sk",
+        "lat": "64.51667",
+        "lng": "20.65"
+    },
+    {
+        "country": "SE",
+        "name": "Bure\u00e5",
+        "lat": "64.61667",
+        "lng": "21.2"
+    },
+    {
+        "country": "SE",
+        "name": "Boliden",
+        "lat": "64.86667",
+        "lng": "20.38333"
+    },
+    {
+        "country": "SE",
+        "name": "Boden",
+        "lat": "65.82518",
+        "lng": "21.68864"
+    },
+    {
+        "country": "SE",
+        "name": "Bergsviken",
+        "lat": "65.3",
+        "lng": "21.38333"
+    },
+    {
+        "country": "SE",
+        "name": "Bergn\u00e4set",
+        "lat": "65.57791",
+        "lng": "22.10844"
+    },
+    {
+        "country": "SE",
+        "name": "Backa",
+        "lat": "64.98333",
+        "lng": "21.06667"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c4lvsbyn",
+        "lat": "65.67624",
+        "lng": "21.00162"
+    },
+    {
+        "country": "SE",
+        "name": "Alunda",
+        "lat": "60.26667",
+        "lng": "18.4"
+    },
+    {
+        "country": "SE",
+        "name": "Anneberg",
+        "lat": "60.24167",
+        "lng": "18.41667"
+    },
+    {
+        "country": "SE",
+        "name": "Bj\u00f6rklinge",
+        "lat": "60.03004",
+        "lng": "17.55203"
+    },
+    {
+        "country": "SE",
+        "name": "Marieberg",
+        "lat": "60.23333",
+        "lng": "18.5"
+    },
+    {
+        "country": "SE",
+        "name": "Ystad",
+        "lat": "55.42966",
+        "lng": "13.82041"
+    },
+    {
+        "country": "SE",
+        "name": "Vrigstad",
+        "lat": "57.35",
+        "lng": "14.46667"
+    },
+    {
+        "country": "SE",
+        "name": "Vittsj\u00f6",
+        "lat": "56.34366",
+        "lng": "13.66081"
+    },
+    {
+        "country": "SE",
+        "name": "Vislanda",
+        "lat": "56.78333",
+        "lng": "14.45"
+    },
+    {
+        "country": "SE",
+        "name": "Viskafors",
+        "lat": "57.62941",
+        "lng": "12.8489"
+    },
+    {
+        "country": "SE",
+        "name": "Visby",
+        "lat": "57.64089",
+        "lng": "18.29602"
+    },
+    {
+        "country": "SE",
+        "name": "Virserum",
+        "lat": "57.31667",
+        "lng": "15.58333"
+    },
+    {
+        "country": "SE",
+        "name": "Vintrosa",
+        "lat": "59.25",
+        "lng": "14.95"
+    },
+    {
+        "country": "SE",
+        "name": "Vinsl\u00f6v",
+        "lat": "56.1",
+        "lng": "13.91667"
+    },
+    {
+        "country": "SE",
+        "name": "Vinninga",
+        "lat": "58.45",
+        "lng": "13.26667"
+    },
+    {
+        "country": "SE",
+        "name": "Ving\u00e5ker",
+        "lat": "59.0433",
+        "lng": "15.87374"
+    },
+    {
+        "country": "SE",
+        "name": "Vindeln",
+        "lat": "64.20175",
+        "lng": "19.71945"
+    },
+    {
+        "country": "SE",
+        "name": "Vimmerby",
+        "lat": "57.66588",
+        "lng": "15.85515"
+    },
+    {
+        "country": "SE",
+        "name": "Vilhelmina",
+        "lat": "64.62417",
+        "lng": "16.65596"
+    },
+    {
+        "country": "SE",
+        "name": "Vikingstad",
+        "lat": "58.38304",
+        "lng": "15.43201"
+    },
+    {
+        "country": "SE",
+        "name": "Viken",
+        "lat": "56.15",
+        "lng": "12.56667"
+    },
+    {
+        "country": "SE",
+        "name": "Vikarbyn",
+        "lat": "60.91667",
+        "lng": "15.01667"
+    },
+    {
+        "country": "SE",
+        "name": "Vi",
+        "lat": "62.3",
+        "lng": "17.16667"
+    },
+    {
+        "country": "SE",
+        "name": "Vibble",
+        "lat": "57.60452",
+        "lng": "18.25601"
+    },
+    {
+        "country": "SE",
+        "name": "Vetlanda",
+        "lat": "57.42887",
+        "lng": "15.07762"
+    },
+    {
+        "country": "SE",
+        "name": "Vellinge",
+        "lat": "55.47124",
+        "lng": "13.01971"
+    },
+    {
+        "country": "SE",
+        "name": "Vejbystrand",
+        "lat": "56.31778",
+        "lng": "12.76722"
+    },
+    {
+        "country": "SE",
+        "name": "Veinge",
+        "lat": "56.55",
+        "lng": "13.06667"
+    },
+    {
+        "country": "SE",
+        "name": "Veddige",
+        "lat": "57.26591",
+        "lng": "12.3322"
+    },
+    {
+        "country": "SE",
+        "name": "Veber\u00f6d",
+        "lat": "55.63333",
+        "lng": "13.48333"
+    },
+    {
+        "country": "SE",
+        "name": "V\u00e4xj\u00f6",
+        "lat": "56.87767",
+        "lng": "14.80906"
+    },
+    {
+        "country": "SE",
+        "name": "Vaxholm",
+        "lat": "59.40225",
+        "lng": "18.35317"
+    },
+    {
+        "country": "SE",
+        "name": "Vattholma",
+        "lat": "60.01667",
+        "lng": "17.73333"
+    },
+    {
+        "country": "SE",
+        "name": "V\u00e4stervik",
+        "lat": "57.7584",
+        "lng": "16.63733"
+    },
+    {
+        "country": "SE",
+        "name": "V\u00e4ster\u00e5s",
+        "lat": "59.61617",
+        "lng": "16.55276"
+    },
+    {
+        "country": "SE",
+        "name": "Vasastan",
+        "lat": "59.34571",
+        "lng": "18.04985"
+    },
+    {
+        "country": "SE",
+        "name": "V\u00e5rsta",
+        "lat": "59.16528",
+        "lng": "17.79722"
+    },
+    {
+        "country": "SE",
+        "name": "V\u00e4rnamo",
+        "lat": "57.18604",
+        "lng": "14.04001"
+    },
+    {
+        "country": "SE",
+        "name": "Varg\u00f6n",
+        "lat": "58.35599",
+        "lng": "12.3906"
+    },
+    {
+        "country": "SE",
+        "name": "V\u00e5rg\u00e5rda",
+        "lat": "58.03706",
+        "lng": "12.80907"
+    },
+    {
+        "country": "SE",
+        "name": "Varberg",
+        "lat": "57.10557",
+        "lng": "12.25078"
+    },
+    {
+        "country": "SE",
+        "name": "Vara",
+        "lat": "58.26234",
+        "lng": "12.95413"
+    },
+    {
+        "country": "SE",
+        "name": "Vansbro",
+        "lat": "60.50893",
+        "lng": "14.22458"
+    },
+    {
+        "country": "SE",
+        "name": "V\u00e4nn\u00e4sby",
+        "lat": "63.91564",
+        "lng": "19.82438"
+    },
+    {
+        "country": "SE",
+        "name": "V\u00e4nn\u00e4s",
+        "lat": "63.90676",
+        "lng": "19.75712"
+    },
+    {
+        "country": "SE",
+        "name": "V\u00e4nersborg",
+        "lat": "58.38075",
+        "lng": "12.3234"
+    },
+    {
+        "country": "SE",
+        "name": "Vallentuna",
+        "lat": "59.53436",
+        "lng": "18.07758"
+    },
+    {
+        "country": "SE",
+        "name": "Vallda",
+        "lat": "57.4775",
+        "lng": "12.00139"
+    },
+    {
+        "country": "SE",
+        "name": "Valla",
+        "lat": "63.55",
+        "lng": "13.8"
+    },
+    {
+        "country": "SE",
+        "name": "Valla",
+        "lat": "59.01667",
+        "lng": "16.38333"
+    },
+    {
+        "country": "SE",
+        "name": "Valje",
+        "lat": "56.06279",
+        "lng": "14.54388"
+    },
+    {
+        "country": "SE",
+        "name": "Valdemarsvik",
+        "lat": "58.2031",
+        "lng": "16.60225"
+    },
+    {
+        "country": "SE",
+        "name": "Valbo",
+        "lat": "60.65",
+        "lng": "17.03333"
+    },
+    {
+        "country": "SE",
+        "name": "V\u00e5lberg",
+        "lat": "59.39145",
+        "lng": "13.18633"
+    },
+    {
+        "country": "SE",
+        "name": "Vagnh\u00e4rad",
+        "lat": "58.94587",
+        "lng": "17.48757"
+    },
+    {
+        "country": "SE",
+        "name": "Vaggeryd",
+        "lat": "57.49807",
+        "lng": "14.14842"
+    },
+    {
+        "country": "SE",
+        "name": "Vadstena",
+        "lat": "58.44863",
+        "lng": "14.88969"
+    },
+    {
+        "country": "SE",
+        "name": "Uppsala",
+        "lat": "59.85882",
+        "lng": "17.63889"
+    },
+    {
+        "country": "SE",
+        "name": "Upplands V\u00e4sby",
+        "lat": "59.51839",
+        "lng": "17.91128"
+    },
+    {
+        "country": "SE",
+        "name": "Hj\u00e4rup",
+        "lat": "55.6688",
+        "lng": "13.13931"
+    },
+    {
+        "country": "SE",
+        "name": "Ulricehamn",
+        "lat": "57.79159",
+        "lng": "13.41422"
+    },
+    {
+        "country": "SE",
+        "name": "Uddevalla",
+        "lat": "58.34784",
+        "lng": "11.9424"
+    },
+    {
+        "country": "SE",
+        "name": "Tyringe",
+        "lat": "56.16037",
+        "lng": "13.59811"
+    },
+    {
+        "country": "SE",
+        "name": "Tygelsj\u00f6",
+        "lat": "55.51667",
+        "lng": "13"
+    },
+    {
+        "country": "SE",
+        "name": "Tv\u00e5\u00e5ker",
+        "lat": "57.04147",
+        "lng": "12.3995"
+    },
+    {
+        "country": "SE",
+        "name": "Tumba",
+        "lat": "59.19858",
+        "lng": "17.83317"
+    },
+    {
+        "country": "SE",
+        "name": "Tullinge",
+        "lat": "59.2",
+        "lng": "17.9"
+    },
+    {
+        "country": "SE",
+        "name": "Trosa",
+        "lat": "58.89621",
+        "lng": "17.54812"
+    },
+    {
+        "country": "SE",
+        "name": "Tr\u00f6nninge",
+        "lat": "56.61667",
+        "lng": "12.93333"
+    },
+    {
+        "country": "SE",
+        "name": "Trollh\u00e4ttan",
+        "lat": "58.28365",
+        "lng": "12.28864"
+    },
+    {
+        "country": "SE",
+        "name": "Gimo",
+        "lat": "60.17304",
+        "lng": "18.18507"
+    },
+    {
+        "country": "SE",
+        "name": "Trelleborg",
+        "lat": "55.37514",
+        "lng": "13.15691"
+    },
+    {
+        "country": "SE",
+        "name": "Trekanten",
+        "lat": "56.7",
+        "lng": "16.11667"
+    },
+    {
+        "country": "SE",
+        "name": "Tr\u00e4sl\u00f6vsl\u00e4ge",
+        "lat": "57.05417",
+        "lng": "12.27899"
+    },
+    {
+        "country": "SE",
+        "name": "Tranemo",
+        "lat": "57.48333",
+        "lng": "13.35"
+    },
+    {
+        "country": "SE",
+        "name": "Tran\u00e5s",
+        "lat": "58.03717",
+        "lng": "14.9782"
+    },
+    {
+        "country": "SE",
+        "name": "Torup",
+        "lat": "56.95663",
+        "lng": "13.07725"
+    },
+    {
+        "country": "SE",
+        "name": "Torslanda",
+        "lat": "57.72432",
+        "lng": "11.77013"
+    },
+    {
+        "country": "SE",
+        "name": "Torsh\u00e4lla",
+        "lat": "59.41667",
+        "lng": "16.46667"
+    },
+    {
+        "country": "SE",
+        "name": "Torsby",
+        "lat": "60.13527",
+        "lng": "13.0082"
+    },
+    {
+        "country": "SE",
+        "name": "Tors\u00e5s",
+        "lat": "56.41251",
+        "lng": "15.99844"
+    },
+    {
+        "country": "SE",
+        "name": "Tormestorp",
+        "lat": "56.1135",
+        "lng": "13.74516"
+    },
+    {
+        "country": "SE",
+        "name": "Torekov",
+        "lat": "56.425",
+        "lng": "12.63333"
+    },
+    {
+        "country": "SE",
+        "name": "T\u00f6reboda",
+        "lat": "58.70739",
+        "lng": "14.12597"
+    },
+    {
+        "country": "SE",
+        "name": "Tomelilla",
+        "lat": "55.54293",
+        "lng": "13.9546"
+    },
+    {
+        "country": "SE",
+        "name": "Tollarp",
+        "lat": "56.16667",
+        "lng": "14.28333"
+    },
+    {
+        "country": "SE",
+        "name": "Tollarp",
+        "lat": "55.93333",
+        "lng": "13.98333"
+    },
+    {
+        "country": "SE",
+        "name": "T\u00f6cksfors",
+        "lat": "59.50816",
+        "lng": "11.84431"
+    },
+    {
+        "country": "SE",
+        "name": "Tjuvkil",
+        "lat": "57.9",
+        "lng": "11.73333"
+    },
+    {
+        "country": "SE",
+        "name": "Tingsryd",
+        "lat": "56.5247",
+        "lng": "14.97902"
+    },
+    {
+        "country": "SE",
+        "name": "Timr\u00e5",
+        "lat": "62.48654",
+        "lng": "17.32613"
+    },
+    {
+        "country": "SE",
+        "name": "Timmernabben",
+        "lat": "56.96667",
+        "lng": "16.43333"
+    },
+    {
+        "country": "SE",
+        "name": "Tillberga",
+        "lat": "59.68333",
+        "lng": "16.61667"
+    },
+    {
+        "country": "SE",
+        "name": "Tierp",
+        "lat": "60.34269",
+        "lng": "17.51812"
+    },
+    {
+        "country": "SE",
+        "name": "Tidaholm",
+        "lat": "58.18035",
+        "lng": "13.95824"
+    },
+    {
+        "country": "SE",
+        "name": "Tibro",
+        "lat": "58.42453",
+        "lng": "14.16162"
+    },
+    {
+        "country": "SE",
+        "name": "Tenhult",
+        "lat": "57.70761",
+        "lng": "14.32205"
+    },
+    {
+        "country": "SE",
+        "name": "Teckomatorp",
+        "lat": "55.86667",
+        "lng": "13.08333"
+    },
+    {
+        "country": "SE",
+        "name": "T\u00e4rnsj\u00f6",
+        "lat": "60.15",
+        "lng": "16.93333"
+    },
+    {
+        "country": "SE",
+        "name": "Tanumshede",
+        "lat": "58.72385",
+        "lng": "11.32587"
+    },
+    {
+        "country": "SE",
+        "name": "Tallboda",
+        "lat": "58.42521",
+        "lng": "15.68154"
+    },
+    {
+        "country": "SE",
+        "name": "T\u00e4by",
+        "lat": "59.4439",
+        "lng": "18.06872"
+    },
+    {
+        "country": "SE",
+        "name": "Taberg",
+        "lat": "57.67722",
+        "lng": "14.08876"
+    },
+    {
+        "country": "SE",
+        "name": "Svenljunga",
+        "lat": "57.49551",
+        "lng": "13.11078"
+    },
+    {
+        "country": "SE",
+        "name": "Sveg",
+        "lat": "62.03407",
+        "lng": "14.36577"
+    },
+    {
+        "country": "SE",
+        "name": "Svedala",
+        "lat": "55.50788",
+        "lng": "13.23515"
+    },
+    {
+        "country": "SE",
+        "name": "Sv\u00e4rtinge",
+        "lat": "58.65507",
+        "lng": "16.02823"
+    },
+    {
+        "country": "SE",
+        "name": "Sv\u00e4rdsj\u00f6",
+        "lat": "60.74022",
+        "lng": "15.90173"
+    },
+    {
+        "country": "SE",
+        "name": "Sv\u00e4ngsta",
+        "lat": "56.26667",
+        "lng": "14.76667"
+    },
+    {
+        "country": "SE",
+        "name": "Svanesund",
+        "lat": "58.14292",
+        "lng": "11.81821"
+    },
+    {
+        "country": "SE",
+        "name": "Svalsta",
+        "lat": "58.74273",
+        "lng": "16.86978"
+    },
+    {
+        "country": "SE",
+        "name": "Sval\u00f6v",
+        "lat": "55.9134",
+        "lng": "13.10762"
+    },
+    {
+        "country": "SE",
+        "name": "Surte",
+        "lat": "57.82533",
+        "lng": "12.01604"
+    },
+    {
+        "country": "SE",
+        "name": "Surahammar",
+        "lat": "59.70725",
+        "lng": "16.22188"
+    },
+    {
+        "country": "SE",
+        "name": "Sunne",
+        "lat": "59.83764",
+        "lng": "13.14302"
+    },
+    {
+        "country": "SE",
+        "name": "Sundsvall",
+        "lat": "62.39129",
+        "lng": "17.3063"
+    },
+    {
+        "country": "SE",
+        "name": "Sundsbruk",
+        "lat": "62.45806",
+        "lng": "17.34889"
+    },
+    {
+        "country": "SE",
+        "name": "Sundbyberg",
+        "lat": "59.36128",
+        "lng": "17.97114"
+    },
+    {
+        "country": "SE",
+        "name": "Styrs\u00f6",
+        "lat": "57.61639",
+        "lng": "11.78556"
+    },
+    {
+        "country": "SE",
+        "name": "Sturk\u00f6",
+        "lat": "56.08333",
+        "lng": "15.7"
+    },
+    {
+        "country": "SE",
+        "name": "Sturefors",
+        "lat": "58.33333",
+        "lng": "15.73333"
+    },
+    {
+        "country": "SE",
+        "name": "Str\u00f6velstorp",
+        "lat": "56.16979",
+        "lng": "12.83925"
+    },
+    {
+        "country": "SE",
+        "name": "Str\u00f6msund",
+        "lat": "63.85206",
+        "lng": "15.55583"
+    },
+    {
+        "country": "SE",
+        "name": "Str\u00f6mstad",
+        "lat": "58.93945",
+        "lng": "11.1712"
+    },
+    {
+        "country": "SE",
+        "name": "Str\u00f6msn\u00e4sbruk",
+        "lat": "56.55",
+        "lng": "13.71667"
+    },
+    {
+        "country": "SE",
+        "name": "Str\u00f6mma",
+        "lat": "59.28333",
+        "lng": "18.53333"
+    },
+    {
+        "country": "SE",
+        "name": "Str\u00e4ngn\u00e4s",
+        "lat": "59.37741",
+        "lng": "17.03119"
+    },
+    {
+        "country": "SE",
+        "name": "Storvreta",
+        "lat": "59.95933",
+        "lng": "17.70588"
+    },
+    {
+        "country": "SE",
+        "name": "Storvik",
+        "lat": "60.58333",
+        "lng": "16.53333"
+    },
+    {
+        "country": "SE",
+        "name": "Storuman",
+        "lat": "65.0959",
+        "lng": "17.11731"
+    },
+    {
+        "country": "SE",
+        "name": "Storfors",
+        "lat": "59.53183",
+        "lng": "14.27201"
+    },
+    {
+        "country": "SE",
+        "name": "Storebro",
+        "lat": "57.58333",
+        "lng": "15.85"
+    },
+    {
+        "country": "SE",
+        "name": "Stora H\u00f6ga",
+        "lat": "58.01667",
+        "lng": "11.83333"
+    },
+    {
+        "country": "SE",
+        "name": "Stor\u00e5",
+        "lat": "59.71409",
+        "lng": "15.13169"
+    },
+    {
+        "country": "SE",
+        "name": "St\u00f6pen",
+        "lat": "58.47802",
+        "lng": "13.86611"
+    },
+    {
+        "country": "SE",
+        "name": "Stockvik",
+        "lat": "62.33667",
+        "lng": "17.36583"
+    },
+    {
+        "country": "SE",
+        "name": "Stockholm",
+        "lat": "59.33258",
+        "lng": "18.0649"
+    },
+    {
+        "country": "SE",
+        "name": "Stockaryd",
+        "lat": "57.31737",
+        "lng": "14.59341"
+    },
+    {
+        "country": "SE",
+        "name": "Stigtomta",
+        "lat": "58.8",
+        "lng": "16.78333"
+    },
+    {
+        "country": "SE",
+        "name": "Stenungsund",
+        "lat": "58.07046",
+        "lng": "11.8181"
+    },
+    {
+        "country": "SE",
+        "name": "Stenstorp",
+        "lat": "58.48333",
+        "lng": "15.06667"
+    },
+    {
+        "country": "SE",
+        "name": "Stenstorp",
+        "lat": "58.27254",
+        "lng": "13.71454"
+    },
+    {
+        "country": "SE",
+        "name": "Stenkullen",
+        "lat": "57.79476",
+        "lng": "12.31688"
+    },
+    {
+        "country": "SE",
+        "name": "Steninge",
+        "lat": "56.769",
+        "lng": "12.63034"
+    },
+    {
+        "country": "SE",
+        "name": "Stenhamra",
+        "lat": "59.3344",
+        "lng": "17.68842"
+    },
+    {
+        "country": "SE",
+        "name": "Stehag",
+        "lat": "55.90188",
+        "lng": "13.39577"
+    },
+    {
+        "country": "SE",
+        "name": "Stavsn\u00e4s",
+        "lat": "59.28333",
+        "lng": "18.68333"
+    },
+    {
+        "country": "SE",
+        "name": "St\u00e5ngby",
+        "lat": "55.7503",
+        "lng": "13.19797"
+    },
+    {
+        "country": "SE",
+        "name": "Stallarholmen",
+        "lat": "59.36667",
+        "lng": "17.2"
+    },
+    {
+        "country": "SE",
+        "name": "Staffanstorp",
+        "lat": "55.64277",
+        "lng": "13.20638"
+    },
+    {
+        "country": "SE",
+        "name": "Gamla Stan",
+        "lat": "59.32627",
+        "lng": "18.07251"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00f6sdala",
+        "lat": "56.03992",
+        "lng": "13.67811"
+    },
+    {
+        "country": "SE",
+        "name": "Sorsele",
+        "lat": "65.53484",
+        "lng": "17.53702"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00f6rforsa",
+        "lat": "61.73333",
+        "lng": "16.98333"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00f6r\u00e5ker",
+        "lat": "62.50561",
+        "lng": "17.51032"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00f6lvesborg",
+        "lat": "56.05205",
+        "lng": "14.57525"
+    },
+    {
+        "country": "SE",
+        "name": "Solna",
+        "lat": "59.36004",
+        "lng": "18.00086"
+    },
+    {
+        "country": "SE",
+        "name": "Sollentuna",
+        "lat": "59.42804",
+        "lng": "17.95093"
+    },
+    {
+        "country": "SE",
+        "name": "Sollefte\u00e5",
+        "lat": "63.16667",
+        "lng": "17.26667"
+    },
+    {
+        "country": "SE",
+        "name": "Sollebrunn",
+        "lat": "58.11667",
+        "lng": "12.53333"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00f6dra Vi",
+        "lat": "57.73993",
+        "lng": "15.79391"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00f6dra Sandby",
+        "lat": "56.56667",
+        "lng": "16.61667"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00f6dra Sandby",
+        "lat": "55.71677",
+        "lng": "13.34659"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00f6dert\u00e4lje",
+        "lat": "59.19554",
+        "lng": "17.62525"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00f6dermalm",
+        "lat": "59.31278",
+        "lng": "18.07577"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00f6derk\u00f6ping",
+        "lat": "58.48057",
+        "lng": "16.32221"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00f6derhamn",
+        "lat": "61.30373",
+        "lng": "17.05921"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00f6derfors",
+        "lat": "64.81667",
+        "lng": "18.05"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00f6derfors",
+        "lat": "60.38333",
+        "lng": "17.23333"
+    },
+    {
+        "country": "SE",
+        "name": "Smygehamn",
+        "lat": "55.34337",
+        "lng": "13.36989"
+    },
+    {
+        "country": "SE",
+        "name": "Sm\u00f6gen",
+        "lat": "58.35593",
+        "lng": "11.22411"
+    },
+    {
+        "country": "SE",
+        "name": "Smedjebacken",
+        "lat": "60.14181",
+        "lng": "15.41416"
+    },
+    {
+        "country": "SE",
+        "name": "Smedby",
+        "lat": "60.7",
+        "lng": "15.05"
+    },
+    {
+        "country": "SE",
+        "name": "Smedby",
+        "lat": "56.67413",
+        "lng": "16.2432"
+    },
+    {
+        "country": "SE",
+        "name": "Sm\u00e5landsstenar",
+        "lat": "57.16241",
+        "lng": "13.41212"
+    },
+    {
+        "country": "SE",
+        "name": "Slottsbron",
+        "lat": "59.3227",
+        "lng": "13.10268"
+    },
+    {
+        "country": "SE",
+        "name": "Skutsk\u00e4r",
+        "lat": "60.62507",
+        "lng": "17.41552"
+    },
+    {
+        "country": "SE",
+        "name": "Skurup",
+        "lat": "55.47839",
+        "lng": "13.50186"
+    },
+    {
+        "country": "SE",
+        "name": "Skultuna",
+        "lat": "59.71667",
+        "lng": "16.41667"
+    },
+    {
+        "country": "SE",
+        "name": "Skultorp",
+        "lat": "58.35",
+        "lng": "13.83333"
+    },
+    {
+        "country": "SE",
+        "name": "Skrea",
+        "lat": "56.88333",
+        "lng": "12.56667"
+    },
+    {
+        "country": "SE",
+        "name": "Sk\u00f6vde",
+        "lat": "58.39118",
+        "lng": "13.84506"
+    },
+    {
+        "country": "SE",
+        "name": "Skottsund",
+        "lat": "62.29056",
+        "lng": "17.38694"
+    },
+    {
+        "country": "SE",
+        "name": "Sk\u00f6llersta",
+        "lat": "59.13738",
+        "lng": "15.3394"
+    },
+    {
+        "country": "SE",
+        "name": "Skogstorp",
+        "lat": "59.32472",
+        "lng": "16.48284"
+    },
+    {
+        "country": "SE",
+        "name": "Skoghall",
+        "lat": "59.32324",
+        "lng": "13.46552"
+    },
+    {
+        "country": "SE",
+        "name": "Skivarp",
+        "lat": "55.41667",
+        "lng": "13.56667"
+    },
+    {
+        "country": "SE",
+        "name": "Skinnskatteberg",
+        "lat": "59.83028",
+        "lng": "15.69337"
+    },
+    {
+        "country": "SE",
+        "name": "Skillingaryd",
+        "lat": "57.43044",
+        "lng": "14.09383"
+    },
+    {
+        "country": "SE",
+        "name": "Skepplanda",
+        "lat": "57.98333",
+        "lng": "12.2"
+    },
+    {
+        "country": "SE",
+        "name": "Skegrie",
+        "lat": "55.40633",
+        "lng": "13.07693"
+    },
+    {
+        "country": "SE",
+        "name": "Skattk\u00e4rr",
+        "lat": "59.41208",
+        "lng": "13.67078"
+    },
+    {
+        "country": "SE",
+        "name": "Sk\u00e4rhamn",
+        "lat": "57.98665",
+        "lng": "11.55742"
+    },
+    {
+        "country": "SE",
+        "name": "Sk\u00e5re",
+        "lat": "55.38333",
+        "lng": "13.05"
+    },
+    {
+        "country": "SE",
+        "name": "Sk\u00e5re",
+        "lat": "59.43333",
+        "lng": "13.43333"
+    },
+    {
+        "country": "SE",
+        "name": "Sk\u00e4rblacka",
+        "lat": "58.56667",
+        "lng": "15.9"
+    },
+    {
+        "country": "SE",
+        "name": "Skara",
+        "lat": "58.38659",
+        "lng": "13.43836"
+    },
+    {
+        "country": "SE",
+        "name": "Sk\u00e4nninge",
+        "lat": "59.93333",
+        "lng": "18.48333"
+    },
+    {
+        "country": "SE",
+        "name": "Sk\u00e4nninge",
+        "lat": "58.39427",
+        "lng": "15.08659"
+    },
+    {
+        "country": "SE",
+        "name": "Sjuntorp",
+        "lat": "58.2",
+        "lng": "12.21667"
+    },
+    {
+        "country": "SE",
+        "name": "Sj\u00f6marken",
+        "lat": "57.71533",
+        "lng": "12.83495"
+    },
+    {
+        "country": "SE",
+        "name": "Sj\u00f6bo",
+        "lat": "55.63135",
+        "lng": "13.70622"
+    },
+    {
+        "country": "SE",
+        "name": "Simrishamn",
+        "lat": "55.55653",
+        "lng": "14.35037"
+    },
+    {
+        "country": "SE",
+        "name": "Siljansn\u00e4s",
+        "lat": "60.78333",
+        "lng": "14.85"
+    },
+    {
+        "country": "SE",
+        "name": "Sigtuna",
+        "lat": "59.61731",
+        "lng": "17.72361"
+    },
+    {
+        "country": "SE",
+        "name": "Sibbhult",
+        "lat": "56.26667",
+        "lng": "14.2"
+    },
+    {
+        "country": "SE",
+        "name": "Segeltorp",
+        "lat": "59.27597",
+        "lng": "17.93072"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00e4vsj\u00f6",
+        "lat": "57.40327",
+        "lng": "14.66244"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00e4vja",
+        "lat": "59.81872",
+        "lng": "17.69958"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00e4tofta",
+        "lat": "55.91667",
+        "lng": "13.55"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00e4tila",
+        "lat": "57.54172",
+        "lng": "12.43429"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00e4ter",
+        "lat": "60.34778",
+        "lng": "15.75051"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00e4r\u00f6",
+        "lat": "57.50577",
+        "lng": "11.9321"
+    },
+    {
+        "country": "SE",
+        "name": "Sandviken",
+        "lat": "60.61667",
+        "lng": "16.76667"
+    },
+    {
+        "country": "SE",
+        "name": "Sandarne",
+        "lat": "61.25893",
+        "lng": "17.15284"
+    },
+    {
+        "country": "SE",
+        "name": "Sandared",
+        "lat": "57.70992",
+        "lng": "12.79238"
+    },
+    {
+        "country": "SE",
+        "name": "Saltsj\u00f6baden",
+        "lat": "59.28333",
+        "lng": "18.3"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00e5landa",
+        "lat": "57.98333",
+        "lng": "12.21667"
+    },
+    {
+        "country": "SE",
+        "name": "Sala",
+        "lat": "59.91993",
+        "lng": "16.60655"
+    },
+    {
+        "country": "SE",
+        "name": "S\u00e4ffle",
+        "lat": "59.13229",
+        "lng": "12.92888"
+    },
+    {
+        "country": "SE",
+        "name": "Rydsg\u00e5rd",
+        "lat": "55.47285",
+        "lng": "13.58829"
+    },
+    {
+        "country": "SE",
+        "name": "Rydeb\u00e4ck",
+        "lat": "55.96667",
+        "lng": "12.76667"
+    },
+    {
+        "country": "SE",
+        "name": "Rydaholm",
+        "lat": "56.98388",
+        "lng": "14.30849"
+    },
+    {
+        "country": "SE",
+        "name": "Ryd",
+        "lat": "58.66667",
+        "lng": "15.08333"
+    },
+    {
+        "country": "SE",
+        "name": "Ryd",
+        "lat": "56.46667",
+        "lng": "14.68333"
+    },
+    {
+        "country": "SE",
+        "name": "Rottne",
+        "lat": "57.01667",
+        "lng": "14.9"
+    },
+    {
+        "country": "SE",
+        "name": "Rosersberg",
+        "lat": "59.58333",
+        "lng": "17.88333"
+    },
+    {
+        "country": "SE",
+        "name": "R\u00f6nninge",
+        "lat": "59.2",
+        "lng": "17.73333"
+    },
+    {
+        "country": "SE",
+        "name": "Ronneby",
+        "lat": "56.20999",
+        "lng": "15.27602"
+    },
+    {
+        "country": "SE",
+        "name": "R\u00f6nn\u00e4ng",
+        "lat": "57.93333",
+        "lng": "11.58333"
+    },
+    {
+        "country": "SE",
+        "name": "Romme",
+        "lat": "60.43333",
+        "lng": "15.5"
+    },
+    {
+        "country": "SE",
+        "name": "R\u00f6deby",
+        "lat": "56.26078",
+        "lng": "15.62143"
+    },
+    {
+        "country": "SE",
+        "name": "Rinkabyholm",
+        "lat": "56.64972",
+        "lng": "16.26667"
+    },
+    {
+        "country": "SE",
+        "name": "Rind\u00f6",
+        "lat": "59.39688",
+        "lng": "18.39434"
+    },
+    {
+        "country": "SE",
+        "name": "Rimforsa",
+        "lat": "58.13624",
+        "lng": "15.6865"
+    },
+    {
+        "country": "SE",
+        "name": "Rimbo",
+        "lat": "59.75",
+        "lng": "18.36667"
+    },
+    {
+        "country": "SE",
+        "name": "Resar\u00f6",
+        "lat": "59.4291",
+        "lng": "18.33386"
+    },
+    {
+        "country": "SE",
+        "name": "Reftele",
+        "lat": "57.17467",
+        "lng": "13.59498"
+    },
+    {
+        "country": "SE",
+        "name": "R\u00e4vlanda",
+        "lat": "57.65338",
+        "lng": "12.49791"
+    },
+    {
+        "country": "SE",
+        "name": "R\u00e4ttvik",
+        "lat": "60.88632",
+        "lng": "15.11787"
+    },
+    {
+        "country": "SE",
+        "name": "R\u00e5torp",
+        "lat": "59.40197",
+        "lng": "13.49144"
+    },
+    {
+        "country": "SE",
+        "name": "R\u00e5sunda",
+        "lat": "59.36588",
+        "lng": "17.99569"
+    },
+    {
+        "country": "SE",
+        "name": "Ramn\u00e4s",
+        "lat": "59.76667",
+        "lng": "16.2"
+    },
+    {
+        "country": "SE",
+        "name": "Perstorp",
+        "lat": "56.13829",
+        "lng": "13.39476"
+    },
+    {
+        "country": "SE",
+        "name": "Pershagen",
+        "lat": "59.15494",
+        "lng": "17.6534"
+    },
+    {
+        "country": "SE",
+        "name": "P\u00e5skallavik",
+        "lat": "57.16667",
+        "lng": "16.45"
+    },
+    {
+        "country": "SE",
+        "name": "Partille",
+        "lat": "57.7395",
+        "lng": "12.10642"
+    },
+    {
+        "country": "SE",
+        "name": "P\u00e5lsboda",
+        "lat": "59.06565",
+        "lng": "15.33747"
+    },
+    {
+        "country": "SE",
+        "name": "P\u00e5arp",
+        "lat": "56.03333",
+        "lng": "12.81667"
+    },
+    {
+        "country": "SE",
+        "name": "Oxie",
+        "lat": "55.54014",
+        "lng": "13.09605"
+    },
+    {
+        "country": "SE",
+        "name": "Oxel\u00f6sund",
+        "lat": "58.67057",
+        "lng": "17.10152"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6verum",
+        "lat": "57.98856",
+        "lng": "16.3139"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6stra Ljungby",
+        "lat": "56.19601",
+        "lng": "13.09199"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6sthammar",
+        "lat": "60.25909",
+        "lng": "18.37408"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6sterv\u00e5la",
+        "lat": "60.18333",
+        "lng": "17.18333"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6stersund",
+        "lat": "63.1792",
+        "lng": "14.63566"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6stermalm",
+        "lat": "59.33879",
+        "lng": "18.08487"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6sterbymo",
+        "lat": "57.82465",
+        "lng": "15.27357"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6sterbybruk",
+        "lat": "60.2",
+        "lng": "17.9"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6smo",
+        "lat": "58.98333",
+        "lng": "17.9"
+    },
+    {
+        "country": "SE",
+        "name": "Oskarstr\u00f6m",
+        "lat": "56.8",
+        "lng": "12.96667"
+    },
+    {
+        "country": "SE",
+        "name": "Oskarshamn",
+        "lat": "57.26455",
+        "lng": "16.44837"
+    },
+    {
+        "country": "SE",
+        "name": "Osby",
+        "lat": "56.38165",
+        "lng": "13.99364"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6rsundsbro",
+        "lat": "59.73333",
+        "lng": "17.3"
+    },
+    {
+        "country": "SE",
+        "name": "Orsa",
+        "lat": "61.12034",
+        "lng": "14.6155"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6rnsk\u00f6ldsvik",
+        "lat": "63.29091",
+        "lng": "18.71525"
+    },
+    {
+        "country": "SE",
+        "name": "Orn\u00e4s",
+        "lat": "60.50944",
+        "lng": "15.54128"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6rkelljunga",
+        "lat": "56.28338",
+        "lng": "13.27773"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6regrund",
+        "lat": "60.33333",
+        "lng": "18.43333"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6rebro",
+        "lat": "59.27412",
+        "lng": "15.2066"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6rbyhus",
+        "lat": "60.22407",
+        "lng": "17.70138"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6nnestad",
+        "lat": "56.05747",
+        "lng": "14.02233"
+    },
+    {
+        "country": "SE",
+        "name": "Olstorp",
+        "lat": "58.81667",
+        "lng": "16.63333"
+    },
+    {
+        "country": "SE",
+        "name": "Olofstr\u00f6m",
+        "lat": "56.2773",
+        "lng": "14.53402"
+    },
+    {
+        "country": "SE",
+        "name": "Olofstorp",
+        "lat": "58.25",
+        "lng": "14"
+    },
+    {
+        "country": "SE",
+        "name": "Olofstorp",
+        "lat": "57.80444",
+        "lng": "12.17131"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6jersj\u00f6",
+        "lat": "57.69882",
+        "lng": "12.13448"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6dsm\u00e5l",
+        "lat": "58.1",
+        "lng": "11.85"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6desh\u00f6g",
+        "lat": "58.22949",
+        "lng": "14.65294"
+    },
+    {
+        "country": "SE",
+        "name": "Odensj\u00f6",
+        "lat": "57.71667",
+        "lng": "14.16667"
+    },
+    {
+        "country": "SE",
+        "name": "Odensbacken",
+        "lat": "59.16667",
+        "lng": "15.53333"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6d\u00e5kra",
+        "lat": "56.10412",
+        "lng": "12.7477"
+    },
+    {
+        "country": "SE",
+        "name": "\u00d6cker\u00f6",
+        "lat": "57.70814",
+        "lng": "11.65585"
+    },
+    {
+        "country": "SE",
+        "name": "Ockelbo",
+        "lat": "60.8912",
+        "lng": "16.71846"
+    },
+    {
+        "country": "SE",
+        "name": "Nyn\u00e4shamn",
+        "lat": "58.90337",
+        "lng": "17.94793"
+    },
+    {
+        "country": "SE",
+        "name": "Nykvarn",
+        "lat": "59.8",
+        "lng": "18.3"
+    },
+    {
+        "country": "SE",
+        "name": "Nykvarn",
+        "lat": "59.17718",
+        "lng": "17.4323"
+    },
+    {
+        "country": "SE",
+        "name": "Nyk\u00f6ping",
+        "lat": "58.753",
+        "lng": "17.00788"
+    },
+    {
+        "country": "SE",
+        "name": "Nyhammar",
+        "lat": "60.28333",
+        "lng": "14.96667"
+    },
+    {
+        "country": "SE",
+        "name": "Nybro",
+        "lat": "56.74461",
+        "lng": "15.90714"
+    },
+    {
+        "country": "SE",
+        "name": "Nossebro",
+        "lat": "58.18808",
+        "lng": "12.71599"
+    },
+    {
+        "country": "SE",
+        "name": "Norsj\u00f6",
+        "lat": "64.91206",
+        "lng": "19.48153"
+    },
+    {
+        "country": "SE",
+        "name": "Norrt\u00e4lje",
+        "lat": "59.75799",
+        "lng": "18.70496"
+    },
+    {
+        "country": "SE",
+        "name": "Norrk\u00f6ping",
+        "lat": "58.59419",
+        "lng": "16.1826"
+    },
+    {
+        "country": "SE",
+        "name": "Norra \u00c5sum",
+        "lat": "55.98333",
+        "lng": "14.15"
+    },
+    {
+        "country": "SE",
+        "name": "Nordmaling",
+        "lat": "63.56852",
+        "lng": "19.50244"
+    },
+    {
+        "country": "SE",
+        "name": "Norberg",
+        "lat": "60.06505",
+        "lng": "15.92366"
+    },
+    {
+        "country": "SE",
+        "name": "Nora",
+        "lat": "59.51926",
+        "lng": "15.03979"
+    },
+    {
+        "country": "SE",
+        "name": "Nolby",
+        "lat": "62.2875",
+        "lng": "17.36917"
+    },
+    {
+        "country": "SE",
+        "name": "Njurundabommen",
+        "lat": "62.26339",
+        "lng": "17.38354"
+    },
+    {
+        "country": "SE",
+        "name": "N\u00e4ttraby",
+        "lat": "56.2",
+        "lng": "15.51667"
+    },
+    {
+        "country": "SE",
+        "name": "N\u00e4sum",
+        "lat": "56.17693",
+        "lng": "14.49706"
+    },
+    {
+        "country": "SE",
+        "name": "N\u00e4ssj\u00f6",
+        "lat": "57.65307",
+        "lng": "14.69676"
+    },
+    {
+        "country": "SE",
+        "name": "Nacka",
+        "lat": "59.31053",
+        "lng": "18.16372"
+    },
+    {
+        "country": "SE",
+        "name": "Myggen\u00e4s",
+        "lat": "58.06176",
+        "lng": "11.74936"
+    },
+    {
+        "country": "SE",
+        "name": "Munkfors",
+        "lat": "59.83856",
+        "lng": "13.54361"
+    },
+    {
+        "country": "SE",
+        "name": "Munkedal",
+        "lat": "58.46634",
+        "lng": "11.67345"
+    },
+    {
+        "country": "SE",
+        "name": "Munka-Ljungby",
+        "lat": "56.25",
+        "lng": "12.96667"
+    },
+    {
+        "country": "SE",
+        "name": "Mullsj\u00f6",
+        "lat": "57.9171",
+        "lng": "13.87831"
+    },
+    {
+        "country": "SE",
+        "name": "Motala",
+        "lat": "58.53706",
+        "lng": "15.03649"
+    },
+    {
+        "country": "SE",
+        "name": "M\u00f6rtn\u00e4s",
+        "lat": "59.31667",
+        "lng": "18.45"
+    },
+    {
+        "country": "SE",
+        "name": "M\u00f6rrum",
+        "lat": "56.19281",
+        "lng": "14.74739"
+    },
+    {
+        "country": "SE",
+        "name": "Morgong\u00e5va",
+        "lat": "59.93395",
+        "lng": "16.96353"
+    },
+    {
+        "country": "SE",
+        "name": "M\u00f6rbyl\u00e5nga",
+        "lat": "56.5248",
+        "lng": "16.37877"
+    },
+    {
+        "country": "SE",
+        "name": "M\u00f6rarp",
+        "lat": "56.05749",
+        "lng": "12.88018"
+    },
+    {
+        "country": "SE",
+        "name": "Mora",
+        "lat": "61.00704",
+        "lng": "14.54316"
+    },
+    {
+        "country": "SE",
+        "name": "M\u00f6nster\u00e5s",
+        "lat": "57.04134",
+        "lng": "16.44463"
+    },
+    {
+        "country": "SE",
+        "name": "M\u00f6lnlycke",
+        "lat": "57.65893",
+        "lng": "12.11792"
+    },
+    {
+        "country": "SE",
+        "name": "M\u00f6lndal",
+        "lat": "57.6554",
+        "lng": "12.01378"
+    },
+    {
+        "country": "SE",
+        "name": "M\u00f6lnbo",
+        "lat": "59.05",
+        "lng": "17.41667"
+    },
+    {
+        "country": "SE",
+        "name": "M\u00f6lltorp",
+        "lat": "58.5",
+        "lng": "14.4"
+    },
+    {
+        "country": "SE",
+        "name": "Molkom",
+        "lat": "59.60057",
+        "lng": "13.72115"
+    },
+    {
+        "country": "SE",
+        "name": "Moheda",
+        "lat": "57",
+        "lng": "14.56667"
+    },
+    {
+        "country": "SE",
+        "name": "Mockfj\u00e4rd",
+        "lat": "60.5",
+        "lng": "14.96667"
+    },
+    {
+        "country": "SE",
+        "name": "Mj\u00f6lby",
+        "lat": "58.32595",
+        "lng": "15.12365"
+    },
+    {
+        "country": "SE",
+        "name": "Mj\u00e4llby",
+        "lat": "56.68333",
+        "lng": "12.76667"
+    },
+    {
+        "country": "SE",
+        "name": "Mj\u00e4llby",
+        "lat": "56.05",
+        "lng": "14.68333"
+    },
+    {
+        "country": "SE",
+        "name": "Mellerud",
+        "lat": "58.69979",
+        "lng": "12.45312"
+    },
+    {
+        "country": "SE",
+        "name": "Mellbystrand",
+        "lat": "56.48561",
+        "lng": "12.93958"
+    },
+    {
+        "country": "SE",
+        "name": "Matfors",
+        "lat": "62.34864",
+        "lng": "17.03173"
+    },
+    {
+        "country": "SE",
+        "name": "M\u00e4rsta",
+        "lat": "59.62157",
+        "lng": "17.85476"
+    },
+    {
+        "country": "SE",
+        "name": "Markaryd",
+        "lat": "56.46135",
+        "lng": "13.59644"
+    },
+    {
+        "country": "SE",
+        "name": "Mariestad",
+        "lat": "58.70971",
+        "lng": "13.82367"
+    },
+    {
+        "country": "SE",
+        "name": "Marieholm",
+        "lat": "57.38333",
+        "lng": "13.85"
+    },
+    {
+        "country": "SE",
+        "name": "Marieholm",
+        "lat": "55.86667",
+        "lng": "13.15"
+    },
+    {
+        "country": "SE",
+        "name": "Mariefred",
+        "lat": "59.25963",
+        "lng": "17.223"
+    },
+    {
+        "country": "SE",
+        "name": "Mariannelund",
+        "lat": "57.61667",
+        "lng": "15.56667"
+    },
+    {
+        "country": "SE",
+        "name": "Mantorp",
+        "lat": "58.35",
+        "lng": "15.28333"
+    },
+    {
+        "country": "SE",
+        "name": "Malung",
+        "lat": "60.68329",
+        "lng": "13.71542"
+    },
+    {
+        "country": "SE",
+        "name": "Malmsl\u00e4tt",
+        "lat": "58.41102",
+        "lng": "15.51647"
+    },
+    {
+        "country": "SE",
+        "name": "Malm\u00f6",
+        "lat": "55.60587",
+        "lng": "13.00073"
+    },
+    {
+        "country": "SE",
+        "name": "Malmk\u00f6ping",
+        "lat": "59.13333",
+        "lng": "16.73333"
+    },
+    {
+        "country": "SE",
+        "name": "Malmb\u00e4ck",
+        "lat": "57.57667",
+        "lng": "14.4617"
+    },
+    {
+        "country": "SE",
+        "name": "M\u00e5lilla",
+        "lat": "57.38773",
+        "lng": "15.80675"
+    },
+    {
+        "country": "SE",
+        "name": "Mal\u00e5",
+        "lat": "65.18501",
+        "lng": "18.74243"
+    },
+    {
+        "country": "SE",
+        "name": "Lysekil",
+        "lat": "58.27429",
+        "lng": "11.43576"
+    },
+    {
+        "country": "SE",
+        "name": "Lycksele",
+        "lat": "64.59537",
+        "lng": "18.67351"
+    },
+    {
+        "country": "SE",
+        "name": "Lund",
+        "lat": "55.70584",
+        "lng": "13.19321"
+    },
+    {
+        "country": "SE",
+        "name": "Ludvika",
+        "lat": "60.14959",
+        "lng": "15.18776"
+    },
+    {
+        "country": "SE",
+        "name": "L\u00f6vstal\u00f6t",
+        "lat": "59.9574",
+        "lng": "17.57826"
+    },
+    {
+        "country": "SE",
+        "name": "L\u00f6nsboda",
+        "lat": "56.4",
+        "lng": "14.31667"
+    },
+    {
+        "country": "SE",
+        "name": "Lomma",
+        "lat": "55.67244",
+        "lng": "13.06849"
+    },
+    {
+        "country": "SE",
+        "name": "L\u00f6d\u00f6se",
+        "lat": "58.02994",
+        "lng": "12.15934"
+    },
+    {
+        "country": "SE",
+        "name": "L\u00f6ddek\u00f6pinge",
+        "lat": "55.76667",
+        "lng": "13.01667"
+    },
+    {
+        "country": "SE",
+        "name": "L\u00f6ber\u00f6d",
+        "lat": "55.7761",
+        "lng": "13.52414"
+    },
+    {
+        "country": "SE",
+        "name": "Ljusne",
+        "lat": "61.2117",
+        "lng": "17.1279"
+    },
+    {
+        "country": "SE",
+        "name": "Ljusdal",
+        "lat": "61.82883",
+        "lng": "16.09126"
+    },
+    {
+        "country": "SE",
+        "name": "Ljungskile",
+        "lat": "58.22452",
+        "lng": "11.92014"
+    },
+    {
+        "country": "SE",
+        "name": "Ljungsbro",
+        "lat": "58.51667",
+        "lng": "15.5"
+    },
+    {
+        "country": "SE",
+        "name": "Ljunghusen",
+        "lat": "55.39793",
+        "lng": "12.92486"
+    },
+    {
+        "country": "SE",
+        "name": "Ljungbyholm",
+        "lat": "56.63333",
+        "lng": "16.16667"
+    },
+    {
+        "country": "SE",
+        "name": "Ljungbyhed",
+        "lat": "56.07437",
+        "lng": "13.2401"
+    },
+    {
+        "country": "SE",
+        "name": "Ljungby",
+        "lat": "56.83324",
+        "lng": "13.94082"
+    },
+    {
+        "country": "SE",
+        "name": "Lit",
+        "lat": "63.32029",
+        "lng": "14.84594"
+    },
+    {
+        "country": "SE",
+        "name": "Link\u00f6ping",
+        "lat": "58.41086",
+        "lng": "15.62157"
+    },
+    {
+        "country": "SE",
+        "name": "Linghem",
+        "lat": "58.43333",
+        "lng": "15.78333"
+    },
+    {
+        "country": "SE",
+        "name": "Lindsdal",
+        "lat": "56.73333",
+        "lng": "16.3"
+    },
+    {
+        "country": "SE",
+        "name": "Lindome",
+        "lat": "57.56667",
+        "lng": "12.08333"
+    },
+    {
+        "country": "SE",
+        "name": "Lind\u00f6",
+        "lat": "58.61667",
+        "lng": "16.25"
+    },
+    {
+        "country": "SE",
+        "name": "Lindholmen",
+        "lat": "59.58333",
+        "lng": "18.1"
+    },
+    {
+        "country": "SE",
+        "name": "Lindesberg",
+        "lat": "59.59202",
+        "lng": "15.2304"
+    },
+    {
+        "country": "SE",
+        "name": "Limmared",
+        "lat": "57.53592",
+        "lng": "13.35566"
+    },
+    {
+        "country": "SE",
+        "name": "Lilla Edet",
+        "lat": "58.13333",
+        "lng": "12.13333"
+    },
+    {
+        "country": "SE",
+        "name": "Lidk\u00f6ping",
+        "lat": "58.50517",
+        "lng": "13.15765"
+    },
+    {
+        "country": "SE",
+        "name": "Liding\u00f6",
+        "lat": "59.36667",
+        "lng": "18.13333"
+    },
+    {
+        "country": "SE",
+        "name": "Lessebo",
+        "lat": "56.75185",
+        "lng": "15.26969"
+    },
+    {
+        "country": "SE",
+        "name": "Lerum",
+        "lat": "57.77051",
+        "lng": "12.26904"
+    },
+    {
+        "country": "SE",
+        "name": "Lenhovda",
+        "lat": "57",
+        "lng": "15.28333"
+    },
+    {
+        "country": "SE",
+        "name": "Leksand",
+        "lat": "60.7303",
+        "lng": "14.99994"
+    },
+    {
+        "country": "SE",
+        "name": "Lax\u00e5",
+        "lat": "58.9863",
+        "lng": "14.61904"
+    },
+    {
+        "country": "SE",
+        "name": "L\u00e5ngvik",
+        "lat": "59.24583",
+        "lng": "18.51667"
+    },
+    {
+        "country": "SE",
+        "name": "L\u00e5ngshyttan",
+        "lat": "60.45238",
+        "lng": "16.03831"
+    },
+    {
+        "country": "SE",
+        "name": "L\u00e5ngsele",
+        "lat": "63.18333",
+        "lng": "17.06667"
+    },
+    {
+        "country": "SE",
+        "name": "L\u00e4nghem",
+        "lat": "57.6",
+        "lng": "13.23333"
+    },
+    {
+        "country": "SE",
+        "name": "Landvetter",
+        "lat": "57.68665",
+        "lng": "12.21169"
+    },
+    {
+        "country": "SE",
+        "name": "Landskrona",
+        "lat": "55.8708",
+        "lng": "12.83016"
+    },
+    {
+        "country": "SE",
+        "name": "Landsbro",
+        "lat": "57.36667",
+        "lng": "14.9"
+    },
+    {
+        "country": "SE",
+        "name": "Lammhult",
+        "lat": "57.16667",
+        "lng": "14.58333"
+    },
+    {
+        "country": "SE",
+        "name": "Laholm",
+        "lat": "56.51207",
+        "lng": "13.04371"
+    },
+    {
+        "country": "SE",
+        "name": "Lagan",
+        "lat": "56.91667",
+        "lng": "13.98333"
+    },
+    {
+        "country": "SE",
+        "name": "Kvissleby",
+        "lat": "62.29361",
+        "lng": "17.375"
+    },
+    {
+        "country": "SE",
+        "name": "Kvidinge",
+        "lat": "56.13386",
+        "lng": "13.04678"
+    },
+    {
+        "country": "SE",
+        "name": "Kvicksund",
+        "lat": "59.45099",
+        "lng": "16.32131"
+    },
+    {
+        "country": "SE",
+        "name": "Kv\u00e4num",
+        "lat": "58.3",
+        "lng": "13.18333"
+    },
+    {
+        "country": "SE",
+        "name": "Kungs\u00f6r",
+        "lat": "59.42245",
+        "lng": "16.09656"
+    },
+    {
+        "country": "SE",
+        "name": "Kungsholmen",
+        "lat": "59.33183",
+        "lng": "18.04118"
+    },
+    {
+        "country": "SE",
+        "name": "Kungshamn",
+        "lat": "58.36305",
+        "lng": "11.25938"
+    },
+    {
+        "country": "SE",
+        "name": "Kungsbacka",
+        "lat": "57.48719",
+        "lng": "12.07612"
+    },
+    {
+        "country": "SE",
+        "name": "Kungs\u00e4ngen",
+        "lat": "59.47857",
+        "lng": "17.74834"
+    },
+    {
+        "country": "SE",
+        "name": "Kung\u00e4lv",
+        "lat": "57.87096",
+        "lng": "11.98054"
+    },
+    {
+        "country": "SE",
+        "name": "Kummeln\u00e4s",
+        "lat": "59.35",
+        "lng": "18.28333"
+    },
+    {
+        "country": "SE",
+        "name": "Kumla",
+        "lat": "59.1277",
+        "lng": "15.14341"
+    },
+    {
+        "country": "SE",
+        "name": "Krylbo",
+        "lat": "60.13333",
+        "lng": "16.21667"
+    },
+    {
+        "country": "SE",
+        "name": "Krokom",
+        "lat": "63.32589",
+        "lng": "14.44883"
+    },
+    {
+        "country": "SE",
+        "name": "Krokek",
+        "lat": "58.67231",
+        "lng": "16.36741"
+    },
+    {
+        "country": "SE",
+        "name": "Kristinehamn",
+        "lat": "59.30978",
+        "lng": "14.10808"
+    },
+    {
+        "country": "SE",
+        "name": "Kristianstad",
+        "lat": "56.03129",
+        "lng": "14.15242"
+    },
+    {
+        "country": "SE",
+        "name": "Kristdala",
+        "lat": "57.4007",
+        "lng": "16.20496"
+    },
+    {
+        "country": "SE",
+        "name": "Kramfors",
+        "lat": "62.93161",
+        "lng": "17.77646"
+    },
+    {
+        "country": "SE",
+        "name": "Kopparmora",
+        "lat": "59.33306",
+        "lng": "18.58306"
+    },
+    {
+        "country": "SE",
+        "name": "Kopparberg",
+        "lat": "59.87597",
+        "lng": "14.99436"
+    },
+    {
+        "country": "SE",
+        "name": "K\u00f6pmanholmen",
+        "lat": "63.16667",
+        "lng": "18.56667"
+    },
+    {
+        "country": "SE",
+        "name": "K\u00f6pingebro",
+        "lat": "55.45526",
+        "lng": "13.93453"
+    },
+    {
+        "country": "SE",
+        "name": "K\u00f6ping",
+        "lat": "59.51404",
+        "lng": "15.99255"
+    },
+    {
+        "country": "SE",
+        "name": "Kolsva",
+        "lat": "59.6",
+        "lng": "15.83333"
+    },
+    {
+        "country": "SE",
+        "name": "Kolb\u00e4ck",
+        "lat": "59.56516",
+        "lng": "16.23037"
+    },
+    {
+        "country": "SE",
+        "name": "Kode",
+        "lat": "57.94263",
+        "lng": "11.85051"
+    },
+    {
+        "country": "SE",
+        "name": "Knivsta",
+        "lat": "59.72564",
+        "lng": "17.78753"
+    },
+    {
+        "country": "SE",
+        "name": "Knislinge",
+        "lat": "56.18333",
+        "lng": "14.08333"
+    },
+    {
+        "country": "SE",
+        "name": "Kn\u00e4red",
+        "lat": "56.51861",
+        "lng": "13.32423"
+    },
+    {
+        "country": "SE",
+        "name": "Klippan",
+        "lat": "56.13559",
+        "lng": "13.13086"
+    },
+    {
+        "country": "SE",
+        "name": "Klintehamn",
+        "lat": "57.38667",
+        "lng": "18.20371"
+    },
+    {
+        "country": "SE",
+        "name": "Kl\u00e5gerup",
+        "lat": "55.59416",
+        "lng": "13.24574"
+    },
+    {
+        "country": "SE",
+        "name": "Kista",
+        "lat": "59.40316",
+        "lng": "17.94479"
+    },
+    {
+        "country": "SE",
+        "name": "Kisa",
+        "lat": "57.98781",
+        "lng": "15.63303"
+    },
+    {
+        "country": "SE",
+        "name": "Kinna",
+        "lat": "57.50728",
+        "lng": "12.69463"
+    },
+    {
+        "country": "SE",
+        "name": "Kimstad",
+        "lat": "58.54967",
+        "lng": "15.96296"
+    },
+    {
+        "country": "SE",
+        "name": "Kilafors",
+        "lat": "61.23333",
+        "lng": "16.56667"
+    },
+    {
+        "country": "SE",
+        "name": "Kil",
+        "lat": "59.50234",
+        "lng": "13.31277"
+    },
+    {
+        "country": "SE",
+        "name": "Kaxholmen",
+        "lat": "57.85345",
+        "lng": "14.30457"
+    },
+    {
+        "country": "SE",
+        "name": "K\u00e4vlinge",
+        "lat": "55.79188",
+        "lng": "13.11021"
+    },
+    {
+        "country": "SE",
+        "name": "Katrineholm",
+        "lat": "58.99587",
+        "lng": "16.20721"
+    },
+    {
+        "country": "SE",
+        "name": "Karlstad",
+        "lat": "59.3793",
+        "lng": "13.50357"
+    },
+    {
+        "country": "SE",
+        "name": "Karlskrona",
+        "lat": "56.16156",
+        "lng": "15.58661"
+    },
+    {
+        "country": "SE",
+        "name": "Karlskoga",
+        "lat": "59.32667",
+        "lng": "14.52386"
+    },
+    {
+        "country": "SE",
+        "name": "Karlshamn",
+        "lat": "56.1706",
+        "lng": "14.86188"
+    },
+    {
+        "country": "SE",
+        "name": "Karlsborg",
+        "lat": "58.53724",
+        "lng": "14.5047"
+    },
+    {
+        "country": "SE",
+        "name": "Karlholmsbruk",
+        "lat": "60.52091",
+        "lng": "17.63152"
+    },
+    {
+        "country": "SE",
+        "name": "Kalmar",
+        "lat": "56.66157",
+        "lng": "16.36163"
+    },
+    {
+        "country": "SE",
+        "name": "Kallinge",
+        "lat": "56.24841",
+        "lng": "15.28721"
+    },
+    {
+        "country": "SE",
+        "name": "K\u00e5llered",
+        "lat": "57.60992",
+        "lng": "12.05106"
+    },
+    {
+        "country": "SE",
+        "name": "K\u00e4llby",
+        "lat": "58.50999",
+        "lng": "13.30582"
+    },
+    {
+        "country": "SE",
+        "name": "K\u00e5ger\u00f6d",
+        "lat": "55.99976",
+        "lng": "13.08795"
+    },
+    {
+        "country": "SE",
+        "name": "Jursla",
+        "lat": "58.66667",
+        "lng": "16.18333"
+    },
+    {
+        "country": "SE",
+        "name": "J\u00f6rlanda",
+        "lat": "57.9863",
+        "lng": "11.82943"
+    },
+    {
+        "country": "SE",
+        "name": "Jordbro",
+        "lat": "59.14972",
+        "lng": "18.11667"
+    },
+    {
+        "country": "SE",
+        "name": "Jonstorp",
+        "lat": "58",
+        "lng": "12.71667"
+    },
+    {
+        "country": "SE",
+        "name": "Jonstorp",
+        "lat": "56.2338",
+        "lng": "12.67184"
+    },
+    {
+        "country": "SE",
+        "name": "J\u00f6nk\u00f6ping",
+        "lat": "57.78145",
+        "lng": "14.15618"
+    },
+    {
+        "country": "SE",
+        "name": "Jokkmokk",
+        "lat": "66.60665",
+        "lng": "19.82324"
+    },
+    {
+        "country": "SE",
+        "name": "Johannedal",
+        "lat": "62.43424",
+        "lng": "17.37273"
+    },
+    {
+        "country": "SE",
+        "name": "J\u00e4rvs\u00f6",
+        "lat": "61.71667",
+        "lng": "16.16667"
+    },
+    {
+        "country": "SE",
+        "name": "J\u00e4rpen",
+        "lat": "63.3462",
+        "lng": "13.46572"
+    },
+    {
+        "country": "SE",
+        "name": "J\u00e4rna",
+        "lat": "60.53333",
+        "lng": "14.36667"
+    },
+    {
+        "country": "SE",
+        "name": "J\u00e4rna",
+        "lat": "59.09165",
+        "lng": "17.56615"
+    },
+    {
+        "country": "SE",
+        "name": "J\u00e4rbo",
+        "lat": "60.71667",
+        "lng": "16.6"
+    },
+    {
+        "country": "SE",
+        "name": "J\u00e4msh\u00f6g",
+        "lat": "56.23333",
+        "lng": "14.51667"
+    },
+    {
+        "country": "SE",
+        "name": "J\u00e4mj\u00f6",
+        "lat": "56.19187",
+        "lng": "15.84115"
+    },
+    {
+        "country": "SE",
+        "name": "Jakobsberg",
+        "lat": "59.42268",
+        "lng": "17.83508"
+    },
+    {
+        "country": "SE",
+        "name": "Irsta",
+        "lat": "59.7",
+        "lng": "16.93333"
+    },
+    {
+        "country": "SE",
+        "name": "Irsta",
+        "lat": "59.6",
+        "lng": "16.7"
+    },
+    {
+        "country": "SE",
+        "name": "Insj\u00f6n",
+        "lat": "64.4",
+        "lng": "17.48333"
+    },
+    {
+        "country": "SE",
+        "name": "Insj\u00f6n",
+        "lat": "60.67688",
+        "lng": "15.09487"
+    },
+    {
+        "country": "SE",
+        "name": "Ingelstad",
+        "lat": "56.75",
+        "lng": "14.91667"
+    },
+    {
+        "country": "SE",
+        "name": "Iggesund",
+        "lat": "61.64219",
+        "lng": "17.07477"
+    },
+    {
+        "country": "SE",
+        "name": "Hyltebruk",
+        "lat": "56.99892",
+        "lng": "13.23958"
+    },
+    {
+        "country": "SE",
+        "name": "Hyllinge",
+        "lat": "56.1",
+        "lng": "12.85"
+    },
+    {
+        "country": "SE",
+        "name": "Husum",
+        "lat": "63.33333",
+        "lng": "19.16667"
+    },
+    {
+        "country": "SE",
+        "name": "Huskvarna",
+        "lat": "57.78596",
+        "lng": "14.30214"
+    },
+    {
+        "country": "SE",
+        "name": "Hunnebostrand",
+        "lat": "58.44127",
+        "lng": "11.3032"
+    },
+    {
+        "country": "SE",
+        "name": "Hultsfred",
+        "lat": "57.48815",
+        "lng": "15.84357"
+    },
+    {
+        "country": "SE",
+        "name": "Hudiksvall",
+        "lat": "61.72744",
+        "lng": "17.10558"
+    },
+    {
+        "country": "SE",
+        "name": "Huddinge",
+        "lat": "59.23705",
+        "lng": "17.98192"
+    },
+    {
+        "country": "SE",
+        "name": "Hovsta",
+        "lat": "59.35",
+        "lng": "15.21667"
+    },
+    {
+        "country": "SE",
+        "name": "Hovmantorp",
+        "lat": "56.78685",
+        "lng": "15.14023"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00f6viksn\u00e4s",
+        "lat": "58.03333",
+        "lng": "11.76667"
+    },
+    {
+        "country": "SE",
+        "name": "Hova",
+        "lat": "58.85363",
+        "lng": "14.21914"
+    },
+    {
+        "country": "SE",
+        "name": "Horred",
+        "lat": "57.35475",
+        "lng": "12.47777"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00f6rnefors",
+        "lat": "63.62312",
+        "lng": "19.90856"
+    },
+    {
+        "country": "SE",
+        "name": "Horndal",
+        "lat": "60.3",
+        "lng": "16.41667"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00f6rby",
+        "lat": "55.85238",
+        "lng": "13.66094"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00f6\u00f6r",
+        "lat": "55.93444",
+        "lng": "13.5385"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00f6n\u00f6",
+        "lat": "57.68972",
+        "lng": "11.64972"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00f6l\u00f6",
+        "lat": "59.28333",
+        "lng": "18.66667"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00f6l\u00f6",
+        "lat": "59.01667",
+        "lng": "17.53333"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00f6llviken",
+        "lat": "55.40982",
+        "lng": "12.9558"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00f6k\u00f6pinge",
+        "lat": "55.49411",
+        "lng": "13.00782"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00f6k\u00e5sen",
+        "lat": "59.66667",
+        "lng": "16.58333"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00f6gsby",
+        "lat": "57.16597",
+        "lng": "16.02562"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00f6gan\u00e4s",
+        "lat": "56.19971",
+        "lng": "12.55795"
+    },
+    {
+        "country": "SE",
+        "name": "Hofterup",
+        "lat": "55.80485",
+        "lng": "12.9797"
+    },
+    {
+        "country": "SE",
+        "name": "Hofors",
+        "lat": "60.54573",
+        "lng": "16.28668"
+    },
+    {
+        "country": "SE",
+        "name": "Hjuvik",
+        "lat": "57.70167",
+        "lng": "11.71639"
+    },
+    {
+        "country": "SE",
+        "name": "Hjo",
+        "lat": "58.30133",
+        "lng": "14.28784"
+    },
+    {
+        "country": "SE",
+        "name": "Hj\u00e4rnarp",
+        "lat": "56.31667",
+        "lng": "12.91667"
+    },
+    {
+        "country": "SE",
+        "name": "Hittarp",
+        "lat": "56.28333",
+        "lng": "14.11667"
+    },
+    {
+        "country": "SE",
+        "name": "Hittarp",
+        "lat": "56.1",
+        "lng": "12.63333"
+    },
+    {
+        "country": "SE",
+        "name": "Hind\u00e5s",
+        "lat": "57.70338",
+        "lng": "12.44657"
+    },
+    {
+        "country": "SE",
+        "name": "Hillerstorp",
+        "lat": "57.31293",
+        "lng": "13.88437"
+    },
+    {
+        "country": "SE",
+        "name": "Hestra",
+        "lat": "57.91667",
+        "lng": "14.58333"
+    },
+    {
+        "country": "SE",
+        "name": "Hestra",
+        "lat": "57.44232",
+        "lng": "13.59575"
+    },
+    {
+        "country": "SE",
+        "name": "Herrljunga",
+        "lat": "58.07739",
+        "lng": "13.02662"
+    },
+    {
+        "country": "SE",
+        "name": "Herrestad",
+        "lat": "58.38333",
+        "lng": "14.8"
+    },
+    {
+        "country": "SE",
+        "name": "Hen\u00e5n",
+        "lat": "58.23848",
+        "lng": "11.67598"
+    },
+    {
+        "country": "SE",
+        "name": "Hemse",
+        "lat": "57.23788",
+        "lng": "18.37443"
+    },
+    {
+        "country": "SE",
+        "name": "Hemmesta",
+        "lat": "59.31667",
+        "lng": "18.5"
+    },
+    {
+        "country": "SE",
+        "name": "Helsingborg",
+        "lat": "56.04673",
+        "lng": "12.69437"
+    },
+    {
+        "country": "SE",
+        "name": "Hedesunda",
+        "lat": "60.4",
+        "lng": "17"
+    },
+    {
+        "country": "SE",
+        "name": "Hedemora",
+        "lat": "60.27973",
+        "lng": "15.98855"
+    },
+    {
+        "country": "SE",
+        "name": "Heby",
+        "lat": "59.93815",
+        "lng": "16.86217"
+    },
+    {
+        "country": "SE",
+        "name": "Haverdal",
+        "lat": "56.72222",
+        "lng": "12.67194"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00e4stveda",
+        "lat": "56.28468",
+        "lng": "13.93547"
+    },
+    {
+        "country": "SE",
+        "name": "Hassl\u00f6",
+        "lat": "56.11667",
+        "lng": "15.48333"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00e4ssleholm",
+        "lat": "56.15905",
+        "lng": "13.76638"
+    },
+    {
+        "country": "SE",
+        "name": "Harplinge",
+        "lat": "56.74491",
+        "lng": "12.72758"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00e4rn\u00f6sand",
+        "lat": "62.63228",
+        "lng": "17.93794"
+    },
+    {
+        "country": "SE",
+        "name": "Haninge",
+        "lat": "59.16775",
+        "lng": "18.14478"
+    },
+    {
+        "country": "SE",
+        "name": "Handen",
+        "lat": "59.16809",
+        "lng": "18.13796"
+    },
+    {
+        "country": "SE",
+        "name": "Hanaskog",
+        "lat": "56.16061",
+        "lng": "14.09307"
+    },
+    {
+        "country": "SE",
+        "name": "Hammerdal",
+        "lat": "63.57615",
+        "lng": "15.36516"
+    },
+    {
+        "country": "SE",
+        "name": "Hammarstrand",
+        "lat": "63.11041",
+        "lng": "16.35377"
+    },
+    {
+        "country": "SE",
+        "name": "Hammar",
+        "lat": "56.01667",
+        "lng": "14.21667"
+    },
+    {
+        "country": "SE",
+        "name": "Halmstad",
+        "lat": "56.67446",
+        "lng": "12.85676"
+    },
+    {
+        "country": "SE",
+        "name": "Hallstavik",
+        "lat": "60.05",
+        "lng": "18.6"
+    },
+    {
+        "country": "SE",
+        "name": "Hallstahammar",
+        "lat": "59.61395",
+        "lng": "16.22846"
+    },
+    {
+        "country": "SE",
+        "name": "Hallsberg",
+        "lat": "59.06463",
+        "lng": "15.10993"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00e4llevik",
+        "lat": "56.01667",
+        "lng": "14.7"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00e4lleforsn\u00e4s",
+        "lat": "59.15208",
+        "lng": "16.497"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00e4llefors",
+        "lat": "59.78388",
+        "lng": "14.52197"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00e4llbybrunn",
+        "lat": "59.39152",
+        "lng": "16.42229"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00e4llabrottet",
+        "lat": "59.11667",
+        "lng": "15.2"
+    },
+    {
+        "country": "SE",
+        "name": "H\u00e4ljarp",
+        "lat": "55.85",
+        "lng": "12.91667"
+    },
+    {
+        "country": "SE",
+        "name": "Hagfors",
+        "lat": "60.02378",
+        "lng": "13.67214"
+    },
+    {
+        "country": "SE",
+        "name": "Habo",
+        "lat": "57.91185",
+        "lng": "14.07444"
+    },
+    {
+        "country": "SE",
+        "name": "Gusum",
+        "lat": "58.2688",
+        "lng": "16.49894"
+    },
+    {
+        "country": "SE",
+        "name": "Gustavsberg",
+        "lat": "59.32684",
+        "lng": "18.38975"
+    },
+    {
+        "country": "SE",
+        "name": "Gunnebo",
+        "lat": "57.71667",
+        "lng": "16.53333"
+    },
+    {
+        "country": "SE",
+        "name": "Gullsp\u00e5ng",
+        "lat": "58.98615",
+        "lng": "14.09644"
+    },
+    {
+        "country": "SE",
+        "name": "Gullbrandstorp",
+        "lat": "56.7",
+        "lng": "12.73333"
+    },
+    {
+        "country": "SE",
+        "name": "Grycksbo",
+        "lat": "60.68751",
+        "lng": "15.48507"
+    },
+    {
+        "country": "SE",
+        "name": "Grums",
+        "lat": "59.35141",
+        "lng": "13.11105"
+    },
+    {
+        "country": "SE",
+        "name": "Grillby",
+        "lat": "59.62603",
+        "lng": "17.25787"
+    },
+    {
+        "country": "SE",
+        "name": "Grebo",
+        "lat": "58.30145",
+        "lng": "15.87085"
+    },
+    {
+        "country": "SE",
+        "name": "Grebbestad",
+        "lat": "58.70248",
+        "lng": "11.25738"
+    },
+    {
+        "country": "SE",
+        "name": "Gr\u00e4storp",
+        "lat": "58.33219",
+        "lng": "12.68122"
+    },
+    {
+        "country": "SE",
+        "name": "Gr\u00e4nna",
+        "lat": "58.01667",
+        "lng": "14.46667"
+    },
+    {
+        "country": "SE",
+        "name": "Gr\u00e4ngesberg",
+        "lat": "60.07465",
+        "lng": "15.00784"
+    },
+    {
+        "country": "SE",
+        "name": "Gr\u00e5bo",
+        "lat": "57.83625",
+        "lng": "12.29954"
+    },
+    {
+        "country": "SE",
+        "name": "G\u00f6tene",
+        "lat": "58.52824",
+        "lng": "13.49458"
+    },
+    {
+        "country": "SE",
+        "name": "G\u00f6teborg",
+        "lat": "57.70716",
+        "lng": "11.96679"
+    },
+    {
+        "country": "SE",
+        "name": "G\u00f6ta",
+        "lat": "58.10617",
+        "lng": "12.15254"
+    },
+    {
+        "country": "SE",
+        "name": "Gnosj\u00f6",
+        "lat": "57.3585",
+        "lng": "13.73686"
+    },
+    {
+        "country": "SE",
+        "name": "Gnesta",
+        "lat": "59.04751",
+        "lng": "17.31191"
+    },
+    {
+        "country": "SE",
+        "name": "Gnarp",
+        "lat": "62.04874",
+        "lng": "17.25858"
+    },
+    {
+        "country": "SE",
+        "name": "Glumsl\u00f6v",
+        "lat": "55.94091",
+        "lng": "12.80929"
+    },
+    {
+        "country": "SE",
+        "name": "Glommen",
+        "lat": "56.93333",
+        "lng": "12.35"
+    },
+    {
+        "country": "SE",
+        "name": "Glim\u00e5kra",
+        "lat": "56.3",
+        "lng": "14.13333"
+    },
+    {
+        "country": "SE",
+        "name": "Gislaved",
+        "lat": "57.3044",
+        "lng": "13.54078"
+    },
+    {
+        "country": "SE",
+        "name": "Getinge",
+        "lat": "56.81667",
+        "lng": "12.73333"
+    },
+    {
+        "country": "SE",
+        "name": "Genarp",
+        "lat": "55.59907",
+        "lng": "13.3982"
+    },
+    {
+        "country": "SE",
+        "name": "Gemla",
+        "lat": "56.86753",
+        "lng": "14.64379"
+    },
+    {
+        "country": "SE",
+        "name": "G\u00e4vle",
+        "lat": "60.67452",
+        "lng": "17.14174"
+    },
+    {
+        "country": "SE",
+        "name": "G\u00e4rsn\u00e4s",
+        "lat": "55.54949",
+        "lng": "14.17923"
+    },
+    {
+        "country": "SE",
+        "name": "Garphyttan",
+        "lat": "59.30429",
+        "lng": "14.94623"
+    },
+    {
+        "country": "SE",
+        "name": "Gantofta",
+        "lat": "55.98729",
+        "lng": "12.80482"
+    },
+    {
+        "country": "SE",
+        "name": "G\u00e5nghester",
+        "lat": "57.7",
+        "lng": "13.01667"
+    },
+    {
+        "country": "SE",
+        "name": "Gamleby",
+        "lat": "57.89485",
+        "lng": "16.40508"
+    },
+    {
+        "country": "SE",
+        "name": "Gamla Uppsala",
+        "lat": "59.89817",
+        "lng": "17.63386"
+    },
+    {
+        "country": "SE",
+        "name": "Gagnef",
+        "lat": "60.59856",
+        "lng": "15.07745"
+    },
+    {
+        "country": "SE",
+        "name": "Fyllinge",
+        "lat": "56.65",
+        "lng": "12.91667"
+    },
+    {
+        "country": "SE",
+        "name": "Furulund",
+        "lat": "57.71667",
+        "lng": "12.13333"
+    },
+    {
+        "country": "SE",
+        "name": "Furulund",
+        "lat": "55.7738",
+        "lng": "13.09022"
+    },
+    {
+        "country": "SE",
+        "name": "Fr\u00f6vi",
+        "lat": "59.46667",
+        "lng": "15.36667"
+    },
+    {
+        "country": "SE",
+        "name": "Fr\u00f6sakull",
+        "lat": "56.68333",
+        "lng": "12.73333"
+    },
+    {
+        "country": "SE",
+        "name": "Fritsla",
+        "lat": "57.55655",
+        "lng": "12.78457"
+    },
+    {
+        "country": "SE",
+        "name": "Fristad",
+        "lat": "57.82483",
+        "lng": "13.01064"
+    },
+    {
+        "country": "SE",
+        "name": "Frilles\u00e5s",
+        "lat": "57.31667",
+        "lng": "12.16667"
+    },
+    {
+        "country": "SE",
+        "name": "Fr\u00e4nsta",
+        "lat": "62.49855",
+        "lng": "16.17016"
+    },
+    {
+        "country": "SE",
+        "name": "F\u00f6rsl\u00f6v",
+        "lat": "56.35",
+        "lng": "12.81667"
+    },
+    {
+        "country": "SE",
+        "name": "Forsheda",
+        "lat": "57.16415",
+        "lng": "13.83016"
+    },
+    {
+        "country": "SE",
+        "name": "Forshaga",
+        "lat": "59.52541",
+        "lng": "13.48127"
+    },
+    {
+        "country": "SE",
+        "name": "Forserum",
+        "lat": "57.7",
+        "lng": "14.46667"
+    },
+    {
+        "country": "SE",
+        "name": "Forsbacka",
+        "lat": "60.61667",
+        "lng": "16.88333"
+    },
+    {
+        "country": "SE",
+        "name": "Floby",
+        "lat": "58.13333",
+        "lng": "13.33333"
+    },
+    {
+        "country": "SE",
+        "name": "Flen",
+        "lat": "59.05834",
+        "lng": "16.58781"
+    },
+    {
+        "country": "SE",
+        "name": "Fjugesta",
+        "lat": "59.17375",
+        "lng": "14.87227"
+    },
+    {
+        "country": "SE",
+        "name": "Fj\u00e4r\u00e5s kyrkby",
+        "lat": "57.45913",
+        "lng": "12.17508"
+    },
+    {
+        "country": "SE",
+        "name": "Fj\u00e4lkinge",
+        "lat": "56.04364",
+        "lng": "14.27562"
+    },
+    {
+        "country": "SE",
+        "name": "Fittja",
+        "lat": "59.24868",
+        "lng": "17.85991"
+    },
+    {
+        "country": "SE",
+        "name": "Finsp\u00e5ng",
+        "lat": "58.70578",
+        "lng": "15.76739"
+    },
+    {
+        "country": "SE",
+        "name": "Filipstad",
+        "lat": "59.71236",
+        "lng": "14.16831"
+    },
+    {
+        "country": "SE",
+        "name": "Fellingsbro",
+        "lat": "59.43333",
+        "lng": "15.58333"
+    },
+    {
+        "country": "SE",
+        "name": "F\u00e4rl\u00f6v",
+        "lat": "56.06667",
+        "lng": "14.08333"
+    },
+    {
+        "country": "SE",
+        "name": "F\u00e4rjestaden",
+        "lat": "56.6499",
+        "lng": "16.46859"
+    },
+    {
+        "country": "SE",
+        "name": "F\u00e4rila",
+        "lat": "61.80011",
+        "lng": "15.84422"
+    },
+    {
+        "country": "SE",
+        "name": "F\u00e4rgelanda",
+        "lat": "58.56816",
+        "lng": "11.99235"
+    },
+    {
+        "country": "SE",
+        "name": "Falun",
+        "lat": "60.60357",
+        "lng": "15.62597"
+    },
+    {
+        "country": "SE",
+        "name": "Falk\u00f6ping",
+        "lat": "58.17347",
+        "lng": "13.55068"
+    },
+    {
+        "country": "SE",
+        "name": "Falkenberg",
+        "lat": "56.90552",
+        "lng": "12.49118"
+    },
+    {
+        "country": "SE",
+        "name": "Fagersta",
+        "lat": "60.00418",
+        "lng": "15.79316"
+    },
+    {
+        "country": "SE",
+        "name": "Esl\u00f6v",
+        "lat": "55.83928",
+        "lng": "13.30393"
+    },
+    {
+        "country": "SE",
+        "name": "Eskilstuna",
+        "lat": "59.36661",
+        "lng": "16.5077"
+    },
+    {
+        "country": "SE",
+        "name": "Eriksberg",
+        "lat": "59.24241",
+        "lng": "17.81631"
+    },
+    {
+        "country": "SE",
+        "name": "Enk\u00f6ping",
+        "lat": "59.63607",
+        "lng": "17.07768"
+    },
+    {
+        "country": "SE",
+        "name": "Enebyberg",
+        "lat": "59.43333",
+        "lng": "18.05"
+    },
+    {
+        "country": "SE",
+        "name": "Enbacka",
+        "lat": "60.40993",
+        "lng": "15.59575"
+    },
+    {
+        "country": "SE",
+        "name": "Emmaboda",
+        "lat": "56.63268",
+        "lng": "15.53648"
+    },
+    {
+        "country": "SE",
+        "name": "Ell\u00f6s",
+        "lat": "58.18333",
+        "lng": "11.46667"
+    },
+    {
+        "country": "SE",
+        "name": "Eksj\u00f6",
+        "lat": "57.66643",
+        "lng": "14.97205"
+    },
+    {
+        "country": "SE",
+        "name": "Eksh\u00e4rad",
+        "lat": "60.17275",
+        "lng": "13.49647"
+    },
+    {
+        "country": "SE",
+        "name": "Eker\u00f6",
+        "lat": "59.291",
+        "lng": "17.81212"
+    },
+    {
+        "country": "SE",
+        "name": "Eken\u00e4ssj\u00f6n",
+        "lat": "57.49175",
+        "lng": "15.02226"
+    },
+    {
+        "country": "SE",
+        "name": "Ekeby-Almby",
+        "lat": "59.26",
+        "lng": "15.33"
+    },
+    {
+        "country": "SE",
+        "name": "Ek\u00e4ngen",
+        "lat": "58.46667",
+        "lng": "15.63333"
+    },
+    {
+        "country": "SE",
+        "name": "Edsbyn",
+        "lat": "61.37692",
+        "lng": "15.81747"
+    },
+    {
+        "country": "SE",
+        "name": "Ed",
+        "lat": "58.91247",
+        "lng": "11.93308"
+    },
+    {
+        "country": "SE",
+        "name": "Dorotea",
+        "lat": "64.26185",
+        "lng": "16.41306"
+    },
+    {
+        "country": "SE",
+        "name": "Dons\u00f6",
+        "lat": "57.6",
+        "lng": "11.79917"
+    },
+    {
+        "country": "SE",
+        "name": "Djursholm",
+        "lat": "59.39926",
+        "lng": "18.05619"
+    },
+    {
+        "country": "SE",
+        "name": "Djur\u00f6",
+        "lat": "59.32653",
+        "lng": "18.71152"
+    },
+    {
+        "country": "SE",
+        "name": "Djur\u00e5s",
+        "lat": "60.56061",
+        "lng": "15.13281"
+    },
+    {
+        "country": "SE",
+        "name": "Diser\u00f6d",
+        "lat": "57.92636",
+        "lng": "12.02598"
+    },
+    {
+        "country": "SE",
+        "name": "Dingtuna",
+        "lat": "59.57279",
+        "lng": "16.38722"
+    },
+    {
+        "country": "SE",
+        "name": "Delsbo",
+        "lat": "61.80104",
+        "lng": "16.55571"
+    },
+    {
+        "country": "SE",
+        "name": "Deje",
+        "lat": "59.603",
+        "lng": "13.472"
+    },
+    {
+        "country": "SE",
+        "name": "Degerfors",
+        "lat": "59.23797",
+        "lng": "14.43077"
+    },
+    {
+        "country": "SE",
+        "name": "Degeberga",
+        "lat": "55.83333",
+        "lng": "14.08333"
+    },
+    {
+        "country": "SE",
+        "name": "Dals L\u00e5nged",
+        "lat": "58.92555",
+        "lng": "12.30865"
+    },
+    {
+        "country": "SE",
+        "name": "Dalsj\u00f6fors",
+        "lat": "57.71667",
+        "lng": "13.08333"
+    },
+    {
+        "country": "SE",
+        "name": "Dalby",
+        "lat": "55.66655",
+        "lng": "13.34976"
+    },
+    {
+        "country": "SE",
+        "name": "Dalar\u00f6",
+        "lat": "59.13306",
+        "lng": "18.40639"
+    },
+    {
+        "country": "SE",
+        "name": "Charlottenberg",
+        "lat": "59.88422",
+        "lng": "12.30398"
+    },
+    {
+        "country": "SE",
+        "name": "Bunkeflostrand",
+        "lat": "55.54478",
+        "lng": "12.92375"
+    },
+    {
+        "country": "SE",
+        "name": "Bua",
+        "lat": "57.2378",
+        "lng": "12.12187"
+    },
+    {
+        "country": "SE",
+        "name": "Brunna",
+        "lat": "60.26255",
+        "lng": "16.01034"
+    },
+    {
+        "country": "SE",
+        "name": "Brunna",
+        "lat": "59.51667",
+        "lng": "17.75"
+    },
+    {
+        "country": "SE",
+        "name": "Brunn",
+        "lat": "59.28",
+        "lng": "18.43"
+    },
+    {
+        "country": "SE",
+        "name": "Brunflo",
+        "lat": "63.07586",
+        "lng": "14.83203"
+    },
+    {
+        "country": "SE",
+        "name": "Brom\u00f6lla",
+        "lat": "56.07551",
+        "lng": "14.46958"
+    },
+    {
+        "country": "SE",
+        "name": "Bromma",
+        "lat": "59.34",
+        "lng": "17.94"
+    },
+    {
+        "country": "SE",
+        "name": "Broby",
+        "lat": "56.25521",
+        "lng": "14.07797"
+    },
+    {
+        "country": "SE",
+        "name": "Bro",
+        "lat": "59.51667",
+        "lng": "17.63333"
+    },
+    {
+        "country": "SE",
+        "name": "Brevik",
+        "lat": "59.35",
+        "lng": "18.2"
+    },
+    {
+        "country": "SE",
+        "name": "Brevik",
+        "lat": "59.21667",
+        "lng": "18.38333"
+    },
+    {
+        "country": "SE",
+        "name": "Bredbyn",
+        "lat": "63.44655",
+        "lng": "18.11019"
+    },
+    {
+        "country": "SE",
+        "name": "Bredaryd",
+        "lat": "57.17343",
+        "lng": "13.73789"
+    },
+    {
+        "country": "SE",
+        "name": "Brastad",
+        "lat": "58.38333",
+        "lng": "11.48333"
+    },
+    {
+        "country": "SE",
+        "name": "Br\u00e5landa",
+        "lat": "58.56344",
+        "lng": "12.34923"
+    },
+    {
+        "country": "SE",
+        "name": "Br\u00e4kne-Hoby",
+        "lat": "56.23333",
+        "lng": "15.11667"
+    },
+    {
+        "country": "SE",
+        "name": "Br\u00e4cke",
+        "lat": "62.75067",
+        "lng": "15.42193"
+    },
+    {
+        "country": "SE",
+        "name": "Bra\u00e5s",
+        "lat": "57.06667",
+        "lng": "15.05"
+    },
+    {
+        "country": "SE",
+        "name": "Boxholm",
+        "lat": "58.19719",
+        "lng": "15.05376"
+    },
+    {
+        "country": "SE",
+        "name": "Borl\u00e4nge",
+        "lat": "60.4858",
+        "lng": "15.43714"
+    },
+    {
+        "country": "SE",
+        "name": "Borgholm",
+        "lat": "56.8793",
+        "lng": "16.65634"
+    },
+    {
+        "country": "SE",
+        "name": "Borensberg",
+        "lat": "58.56667",
+        "lng": "15.28333"
+    },
+    {
+        "country": "SE",
+        "name": "Bor\u00e5s",
+        "lat": "57.72101",
+        "lng": "12.9401"
+    },
+    {
+        "country": "SE",
+        "name": "Bor",
+        "lat": "57.11667",
+        "lng": "14.16667"
+    },
+    {
+        "country": "SE",
+        "name": "Bollstabruk",
+        "lat": "62.99777",
+        "lng": "17.67348"
+    },
+    {
+        "country": "SE",
+        "name": "Bolln\u00e4s",
+        "lat": "61.34817",
+        "lng": "16.39464"
+    },
+    {
+        "country": "SE",
+        "name": "Bollmora",
+        "lat": "59.24196",
+        "lng": "18.22762"
+    },
+    {
+        "country": "SE",
+        "name": "Bollebygd",
+        "lat": "57.66866",
+        "lng": "12.57272"
+    },
+    {
+        "country": "SE",
+        "name": "Bodafors",
+        "lat": "57.5",
+        "lng": "14.7"
+    },
+    {
+        "country": "SE",
+        "name": "Boo",
+        "lat": "59.33333",
+        "lng": "18.28333"
+    },
+    {
+        "country": "SE",
+        "name": "Blomsterm\u00e5la",
+        "lat": "56.98333",
+        "lng": "16.33333"
+    },
+    {
+        "country": "SE",
+        "name": "Blentarp",
+        "lat": "55.58333",
+        "lng": "13.6"
+    },
+    {
+        "country": "SE",
+        "name": "Bjuv",
+        "lat": "56.08372",
+        "lng": "12.91914"
+    },
+    {
+        "country": "SE",
+        "name": "Bjurs\u00e5s",
+        "lat": "60.73726",
+        "lng": "15.45291"
+    },
+    {
+        "country": "SE",
+        "name": "Bjurholm",
+        "lat": "63.93027",
+        "lng": "19.21369"
+    },
+    {
+        "country": "SE",
+        "name": "Bj\u00f6rneborg",
+        "lat": "59.24122",
+        "lng": "14.24942"
+    },
+    {
+        "country": "SE",
+        "name": "Bj\u00f6rlanda",
+        "lat": "57.76667",
+        "lng": "11.83333"
+    },
+    {
+        "country": "SE",
+        "name": "Bj\u00f6rk\u00f6",
+        "lat": "57.73221",
+        "lng": "11.67916"
+    },
+    {
+        "country": "SE",
+        "name": "Bj\u00f6rboholm",
+        "lat": "57.87096",
+        "lng": "12.32546"
+    },
+    {
+        "country": "SE",
+        "name": "Bj\u00e4sta",
+        "lat": "63.2",
+        "lng": "18.5"
+    },
+    {
+        "country": "SE",
+        "name": "Bj\u00e4rred",
+        "lat": "55.71667",
+        "lng": "13.01667"
+    },
+    {
+        "country": "SE",
+        "name": "Bj\u00e4rnum",
+        "lat": "56.29032",
+        "lng": "13.71128"
+    },
+    {
+        "country": "SE",
+        "name": "Billingsfors",
+        "lat": "58.98333",
+        "lng": "12.25"
+    },
+    {
+        "country": "SE",
+        "name": "Billesholm",
+        "lat": "56.05",
+        "lng": "13"
+    },
+    {
+        "country": "SE",
+        "name": "Billeberga",
+        "lat": "55.88333",
+        "lng": "13"
+    },
+    {
+        "country": "SE",
+        "name": "Billdal",
+        "lat": "57.56667",
+        "lng": "11.93333"
+    },
+    {
+        "country": "SE",
+        "name": "Bergsj\u00f6",
+        "lat": "61.98253",
+        "lng": "17.06368"
+    },
+    {
+        "country": "SE",
+        "name": "Bergshamra",
+        "lat": "59.38083",
+        "lng": "18.03427"
+    },
+    {
+        "country": "SE",
+        "name": "Hoverberg",
+        "lat": "62.81381",
+        "lng": "14.44735"
+    },
+    {
+        "country": "SE",
+        "name": "Bergkvara",
+        "lat": "56.39063",
+        "lng": "16.07274"
+    },
+    {
+        "country": "SE",
+        "name": "Bergeforsen",
+        "lat": "62.53074",
+        "lng": "17.38123"
+    },
+    {
+        "country": "SE",
+        "name": "Bergby",
+        "lat": "60.92931",
+        "lng": "17.04194"
+    },
+    {
+        "country": "SE",
+        "name": "Berg",
+        "lat": "58.48831",
+        "lng": "15.52969"
+    },
+    {
+        "country": "SE",
+        "name": "Bengtsfors",
+        "lat": "59.02912",
+        "lng": "12.23207"
+    },
+    {
+        "country": "SE",
+        "name": "B\u00e5stad",
+        "lat": "56.42689",
+        "lng": "12.85339"
+    },
+    {
+        "country": "SE",
+        "name": "B\u00e5rsl\u00f6v",
+        "lat": "56.0091",
+        "lng": "12.8058"
+    },
+    {
+        "country": "SE",
+        "name": "Barkar\u00f6",
+        "lat": "59.54935",
+        "lng": "16.5074"
+    },
+    {
+        "country": "SE",
+        "name": "Bara",
+        "lat": "58.68333",
+        "lng": "17.06667"
+    },
+    {
+        "country": "SE",
+        "name": "Bara",
+        "lat": "55.58155",
+        "lng": "13.17862"
+    },
+    {
+        "country": "SE",
+        "name": "Bankeryd",
+        "lat": "57.86021",
+        "lng": "14.124"
+    },
+    {
+        "country": "SE",
+        "name": "B\u00e5lsta",
+        "lat": "59.5671",
+        "lng": "17.52781"
+    },
+    {
+        "country": "SE",
+        "name": "B\u00e4linge",
+        "lat": "59.95",
+        "lng": "17.53333"
+    },
+    {
+        "country": "SE",
+        "name": "Axvall",
+        "lat": "58.38333",
+        "lng": "13.56667"
+    },
+    {
+        "country": "SE",
+        "name": "Avesta",
+        "lat": "60.14274",
+        "lng": "16.16295"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5tvidaberg",
+        "lat": "58.20152",
+        "lng": "15.9977"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5storp",
+        "lat": "56.13566",
+        "lng": "12.9443"
+    },
+    {
+        "country": "SE",
+        "name": "Asmundtorp",
+        "lat": "55.88333",
+        "lng": "12.93333"
+    },
+    {
+        "country": "SE",
+        "name": "Askersund",
+        "lat": "58.87988",
+        "lng": "14.9023"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5sele",
+        "lat": "64.16026",
+        "lng": "17.34762"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5seda",
+        "lat": "57.1701",
+        "lng": "15.3443"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5sbro",
+        "lat": "59",
+        "lng": "15.05"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5sa",
+        "lat": "57.35",
+        "lng": "12.11667"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5s",
+        "lat": "63.36667",
+        "lng": "16.58333"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5s",
+        "lat": "63.25",
+        "lng": "14.56667"
+    },
+    {
+        "country": "SE",
+        "name": "Arvika",
+        "lat": "59.65528",
+        "lng": "12.58518"
+    },
+    {
+        "country": "SE",
+        "name": "Arvidsjaur",
+        "lat": "65.59033",
+        "lng": "19.16682"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5rsunda",
+        "lat": "60.51644",
+        "lng": "16.73436"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5rsta",
+        "lat": "59.2978",
+        "lng": "18.0514"
+    },
+    {
+        "country": "SE",
+        "name": "Arn\u00f6",
+        "lat": "60.11667",
+        "lng": "18.63333"
+    },
+    {
+        "country": "SE",
+        "name": "Arn\u00f6",
+        "lat": "58.72675",
+        "lng": "17.02322"
+    },
+    {
+        "country": "SE",
+        "name": "Arl\u00f6v",
+        "lat": "55.63248",
+        "lng": "13.07141"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c4rla",
+        "lat": "59.27983",
+        "lng": "16.67896"
+    },
+    {
+        "country": "SE",
+        "name": "Arjeplog",
+        "lat": "66.05173",
+        "lng": "17.88606"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5rj\u00e4ng",
+        "lat": "59.39217",
+        "lng": "12.13336"
+    },
+    {
+        "country": "SE",
+        "name": "Arbr\u00e5",
+        "lat": "61.46667",
+        "lng": "16.38333"
+    },
+    {
+        "country": "SE",
+        "name": "Arboga",
+        "lat": "59.39387",
+        "lng": "15.83882"
+    },
+    {
+        "country": "SE",
+        "name": "Annelund",
+        "lat": "57.98843",
+        "lng": "13.07483"
+    },
+    {
+        "country": "SE",
+        "name": "Ankarsrum",
+        "lat": "57.69896",
+        "lng": "16.33407"
+    },
+    {
+        "country": "SE",
+        "name": "Angered",
+        "lat": "57.78628",
+        "lng": "12.09852"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c4ngelholm",
+        "lat": "56.2428",
+        "lng": "12.86219"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5nge",
+        "lat": "62.52495",
+        "lng": "15.65904"
+    },
+    {
+        "country": "SE",
+        "name": "Aneby",
+        "lat": "57.83895",
+        "lng": "14.81016"
+    },
+    {
+        "country": "SE",
+        "name": "Anderstorp",
+        "lat": "58.88333",
+        "lng": "14.28333"
+    },
+    {
+        "country": "SE",
+        "name": "Anderstorp",
+        "lat": "57.28333",
+        "lng": "13.63333"
+    },
+    {
+        "country": "SE",
+        "name": "Andersl\u00f6v",
+        "lat": "55.43836",
+        "lng": "13.31966"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5motfors",
+        "lat": "59.76191",
+        "lng": "12.36211"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5m\u00e5l",
+        "lat": "59.051",
+        "lng": "12.70492"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c4lvkarleby",
+        "lat": "60.57081",
+        "lng": "17.44895"
+    },
+    {
+        "country": "SE",
+        "name": "Alvesta",
+        "lat": "56.89935",
+        "lng": "14.55559"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c4lvdalen",
+        "lat": "61.22774",
+        "lng": "14.03935"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c4lv\u00e4ngen",
+        "lat": "57.95872",
+        "lng": "12.1235"
+    },
+    {
+        "country": "SE",
+        "name": "Alunda",
+        "lat": "60.06667",
+        "lng": "18.08333"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c4lta",
+        "lat": "59.26667",
+        "lng": "18.18333"
+    },
+    {
+        "country": "SE",
+        "name": "Alsike",
+        "lat": "59.75324",
+        "lng": "17.77331"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c4lmsta",
+        "lat": "59.96667",
+        "lng": "18.8"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c4lmhult",
+        "lat": "56.55146",
+        "lng": "14.13827"
+    },
+    {
+        "country": "SE",
+        "name": "Alings\u00e5s",
+        "lat": "57.93033",
+        "lng": "12.53345"
+    },
+    {
+        "country": "SE",
+        "name": "Alfta",
+        "lat": "61.34675",
+        "lng": "16.07499"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5led",
+        "lat": "56.75",
+        "lng": "12.93333"
+    },
+    {
+        "country": "SE",
+        "name": "Alafors",
+        "lat": "57.92579",
+        "lng": "12.07835"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5kers Styckebruk",
+        "lat": "59.25",
+        "lng": "17.08333"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5kersberga",
+        "lat": "59.47944",
+        "lng": "18.29967"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5karp",
+        "lat": "58.23333",
+        "lng": "13.65"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5karp",
+        "lat": "55.65396",
+        "lng": "13.11107"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5hus",
+        "lat": "55.91667",
+        "lng": "14.28333"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5by",
+        "lat": "58.66667",
+        "lng": "16.18333"
+    },
+    {
+        "country": "SE",
+        "name": "Abborrberget",
+        "lat": "60.15",
+        "lng": "14.8"
+    },
+    {
+        "country": "SE",
+        "name": "V\u00e4stra Hagen",
+        "lat": "57.42444",
+        "lng": "11.93583"
+    },
+    {
+        "country": "SE",
+        "name": "Enhagen-Ekbacken",
+        "lat": "59.56543",
+        "lng": "16.53045"
+    },
+    {
+        "country": "SE",
+        "name": "Saxtorpsskogen",
+        "lat": "55.83208",
+        "lng": "12.94429"
+    },
+    {
+        "country": "SE",
+        "name": "Andalen",
+        "lat": "57.70039",
+        "lng": "11.76136"
+    },
+    {
+        "country": "SE",
+        "name": "Nolvik",
+        "lat": "57.775",
+        "lng": "11.83333"
+    },
+    {
+        "country": "SE",
+        "name": "Vi",
+        "lat": "62.43333",
+        "lng": "17.41667"
+    },
+    {
+        "country": "SE",
+        "name": "Fisks\u00e4tra",
+        "lat": "59.29153",
+        "lng": "18.2549"
+    },
+    {
+        "country": "SE",
+        "name": "Ekeby",
+        "lat": "56",
+        "lng": "12.96667"
+    },
+    {
+        "country": "SE",
+        "name": "Skan\u00f6r med Falsterbo",
+        "lat": "55.4",
+        "lng": "12.85"
+    },
+    {
+        "country": "SE",
+        "name": "N\u00f6dinge-Nol",
+        "lat": "57.91259",
+        "lng": "12.05591"
+    },
+    {
+        "country": "SE",
+        "name": "Ingared",
+        "lat": "57.85989",
+        "lng": "12.45161"
+    },
+    {
+        "country": "SE",
+        "name": "Majorna",
+        "lat": "57.69195",
+        "lng": "11.91605"
+    },
+    {
+        "country": "SE",
+        "name": "Onsala",
+        "lat": "57.42531",
+        "lng": "12.02903"
+    },
+    {
+        "country": "SE",
+        "name": "Olstorp",
+        "lat": "57.82277",
+        "lng": "12.27696"
+    },
+    {
+        "country": "SE",
+        "name": "Bj\u00f6rkskatan",
+        "lat": "65.61373",
+        "lng": "22.17702"
+    },
+    {
+        "country": "SE",
+        "name": "Alby",
+        "lat": "59.2335",
+        "lng": "17.8538"
+    },
+    {
+        "country": "SE",
+        "name": "Hammarkullen",
+        "lat": "57.78049",
+        "lng": "12.03604"
+    },
+    {
+        "country": "SE",
+        "name": "Rannebergen",
+        "lat": "57.80236",
+        "lng": "12.07131"
+    },
+    {
+        "country": "SE",
+        "name": "Eriksbo",
+        "lat": "57.77141",
+        "lng": "12.04183"
+    },
+    {
+        "country": "SE",
+        "name": "G\u00e5rdsten",
+        "lat": "57.8048",
+        "lng": "12.02883"
+    },
+    {
+        "country": "SE",
+        "name": "L\u00f6vg\u00e4rdet",
+        "lat": "57.81555",
+        "lng": "12.03861"
+    },
+    {
+        "country": "SE",
+        "name": "\u00c5re",
+        "lat": "63.39911",
+        "lng": "13.07995"
+    },
+    {
+        "country": "SE",
+        "name": "Marielund",
+        "lat": "65.85307",
+        "lng": "24.10486"
+    }
+]

@@ -1,0 +1,740 @@
+[
+    {
+        "country": "UY",
+        "name": "Young",
+        "lat": "-32.69844",
+        "lng": "-57.62693"
+    },
+    {
+        "country": "UY",
+        "name": "Villa Sara",
+        "lat": "-33.2534",
+        "lng": "-54.41947"
+    },
+    {
+        "country": "UY",
+        "name": "Villa del Carmen",
+        "lat": "-33.25",
+        "lng": "-56.01667"
+    },
+    {
+        "country": "UY",
+        "name": "Vichadero",
+        "lat": "-31.77794",
+        "lng": "-54.69183"
+    },
+    {
+        "country": "UY",
+        "name": "Vergara",
+        "lat": "-32.93333",
+        "lng": "-53.95"
+    },
+    {
+        "country": "UY",
+        "name": "Vel\u00e1zquez",
+        "lat": "-34.03631",
+        "lng": "-54.28054"
+    },
+    {
+        "country": "UY",
+        "name": "25 de Mayo",
+        "lat": "-34.18917",
+        "lng": "-56.33944"
+    },
+    {
+        "country": "UY",
+        "name": "25 de Agosto",
+        "lat": "-34.41167",
+        "lng": "-56.40222"
+    },
+    {
+        "country": "UY",
+        "name": "Tupamba\u00e9",
+        "lat": "-32.83333",
+        "lng": "-54.76667"
+    },
+    {
+        "country": "UY",
+        "name": "Trinidad",
+        "lat": "-33.5165",
+        "lng": "-56.89957"
+    },
+    {
+        "country": "UY",
+        "name": "Treinta y Tres",
+        "lat": "-33.23333",
+        "lng": "-54.38333"
+    },
+    {
+        "country": "UY",
+        "name": "Tranqueras",
+        "lat": "-31.2",
+        "lng": "-55.75"
+    },
+    {
+        "country": "UY",
+        "name": "Tom\u00e1s Gomensoro",
+        "lat": "-30.4287",
+        "lng": "-57.43609"
+    },
+    {
+        "country": "UY",
+        "name": "Toledo",
+        "lat": "-34.73807",
+        "lng": "-56.09469"
+    },
+    {
+        "country": "UY",
+        "name": "Tarariras",
+        "lat": "-34.26555",
+        "lng": "-57.61866"
+    },
+    {
+        "country": "UY",
+        "name": "Tala",
+        "lat": "-34.34349",
+        "lng": "-55.76375"
+    },
+    {
+        "country": "UY",
+        "name": "Tacuaremb\u00f3",
+        "lat": "-31.71694",
+        "lng": "-55.98111"
+    },
+    {
+        "country": "UY",
+        "name": "Villa Soriano",
+        "lat": "-33.39811",
+        "lng": "-58.32177"
+    },
+    {
+        "country": "UY",
+        "name": "Sol\u00eds de Mataojo",
+        "lat": "-34.59951",
+        "lng": "-55.46808"
+    },
+    {
+        "country": "UY",
+        "name": "Soca",
+        "lat": "-34.68432",
+        "lng": "-55.702"
+    },
+    {
+        "country": "UY",
+        "name": "Sauce",
+        "lat": "-34.5709",
+        "lng": "-56.0816"
+    },
+    {
+        "country": "UY",
+        "name": "Sarand\u00ed Grande",
+        "lat": "-33.73333",
+        "lng": "-56.33333"
+    },
+    {
+        "country": "UY",
+        "name": "Sarand\u00ed del Yi",
+        "lat": "-33.35",
+        "lng": "-55.63333"
+    },
+    {
+        "country": "UY",
+        "name": "Santiago V\u00e1zquez",
+        "lat": "-34.79028",
+        "lng": "-56.35"
+    },
+    {
+        "country": "UY",
+        "name": "Santa Rosa",
+        "lat": "-34.49819",
+        "lng": "-56.03795"
+    },
+    {
+        "country": "UY",
+        "name": "Santa Luc\u00eda",
+        "lat": "-34.45333",
+        "lng": "-56.39056"
+    },
+    {
+        "country": "UY",
+        "name": "Santa Clara de Olimar",
+        "lat": "-32.92254",
+        "lng": "-54.94447"
+    },
+    {
+        "country": "UY",
+        "name": "Santa Catalina",
+        "lat": "-33.791",
+        "lng": "-57.48824"
+    },
+    {
+        "country": "UY",
+        "name": "Santa Bernardina",
+        "lat": "-33.36667",
+        "lng": "-56.48333"
+    },
+    {
+        "country": "UY",
+        "name": "San Ram\u00f3n",
+        "lat": "-34.29155",
+        "lng": "-55.95571"
+    },
+    {
+        "country": "UY",
+        "name": "San Jos\u00e9 de Mayo",
+        "lat": "-34.3375",
+        "lng": "-56.71361"
+    },
+    {
+        "country": "UY",
+        "name": "San Javier",
+        "lat": "-32.66523",
+        "lng": "-58.1332"
+    },
+    {
+        "country": "UY",
+        "name": "San Jacinto",
+        "lat": "-34.54465",
+        "lng": "-55.87151"
+    },
+    {
+        "country": "UY",
+        "name": "San F\u00e9lix",
+        "lat": "-32.33333",
+        "lng": "-58.13333"
+    },
+    {
+        "country": "UY",
+        "name": "San Carlos",
+        "lat": "-34.79123",
+        "lng": "-54.91824"
+    },
+    {
+        "country": "UY",
+        "name": "San Bautista",
+        "lat": "-34.44016",
+        "lng": "-55.95861"
+    },
+    {
+        "country": "UY",
+        "name": "San Antonio",
+        "lat": "-34.4513",
+        "lng": "-56.08036"
+    },
+    {
+        "country": "UY",
+        "name": "Salto",
+        "lat": "-31.38333",
+        "lng": "-57.96667"
+    },
+    {
+        "country": "UY",
+        "name": "Rosario",
+        "lat": "-34.31667",
+        "lng": "-57.35"
+    },
+    {
+        "country": "UY",
+        "name": "Rodr\u00edguez",
+        "lat": "-34.381",
+        "lng": "-56.53797"
+    },
+    {
+        "country": "UY",
+        "name": "Rocha",
+        "lat": "-34.48333",
+        "lng": "-54.33333"
+    },
+    {
+        "country": "UY",
+        "name": "Rivera",
+        "lat": "-30.90534",
+        "lng": "-55.55076"
+    },
+    {
+        "country": "UY",
+        "name": "R\u00edo Branco",
+        "lat": "-32.59802",
+        "lng": "-53.38583"
+    },
+    {
+        "country": "UY",
+        "name": "Rafael Perazza",
+        "lat": "-34.52335",
+        "lng": "-56.7971"
+    },
+    {
+        "country": "UY",
+        "name": "Quebracho",
+        "lat": "-31.93526",
+        "lng": "-57.9014"
+    },
+    {
+        "country": "UY",
+        "name": "Punta del Este",
+        "lat": "-34.94747",
+        "lng": "-54.93382"
+    },
+    {
+        "country": "UY",
+        "name": "Progreso",
+        "lat": "-34.66737",
+        "lng": "-56.21758"
+    },
+    {
+        "country": "UY",
+        "name": "Estaci\u00f3n Porvenir",
+        "lat": "-32.36653",
+        "lng": "-57.85915"
+    },
+    {
+        "country": "UY",
+        "name": "Piri\u00e1polis",
+        "lat": "-34.86287",
+        "lng": "-55.27471"
+    },
+    {
+        "country": "UY",
+        "name": "Piedras Coloradas",
+        "lat": "-32.37183",
+        "lng": "-57.60901"
+    },
+    {
+        "country": "UY",
+        "name": "Paysand\u00fa",
+        "lat": "-32.32139",
+        "lng": "-58.07556"
+    },
+    {
+        "country": "UY",
+        "name": "Paso de los Toros",
+        "lat": "-32.81667",
+        "lng": "-56.51667"
+    },
+    {
+        "country": "UY",
+        "name": "Paso de Carrasco",
+        "lat": "-34.86028",
+        "lng": "-56.05222"
+    },
+    {
+        "country": "UY",
+        "name": "Pando",
+        "lat": "-34.71716",
+        "lng": "-55.9584"
+    },
+    {
+        "country": "UY",
+        "name": "Pan de Az\u00facar",
+        "lat": "-34.7787",
+        "lng": "-55.23582"
+    },
+    {
+        "country": "UY",
+        "name": "Palmitas",
+        "lat": "-33.50719",
+        "lng": "-57.80079"
+    },
+    {
+        "country": "UY",
+        "name": "Omb\u00faes de Lavalle",
+        "lat": "-33.93783",
+        "lng": "-57.80959"
+    },
+    {
+        "country": "UY",
+        "name": "Nuevo Berl\u00edn",
+        "lat": "-32.97974",
+        "lng": "-58.05858"
+    },
+    {
+        "country": "UY",
+        "name": "Nueva Palmira",
+        "lat": "-33.87031",
+        "lng": "-58.41176"
+    },
+    {
+        "country": "UY",
+        "name": "Nueva Helvecia",
+        "lat": "-34.3",
+        "lng": "-57.23333"
+    },
+    {
+        "country": "UY",
+        "name": "Montevideo",
+        "lat": "-34.90328",
+        "lng": "-56.18816"
+    },
+    {
+        "country": "UY",
+        "name": "Montes",
+        "lat": "-34.49339",
+        "lng": "-55.56219"
+    },
+    {
+        "country": "UY",
+        "name": "Minas de Corrales",
+        "lat": "-31.58333",
+        "lng": "-55.46667"
+    },
+    {
+        "country": "UY",
+        "name": "Minas",
+        "lat": "-34.37589",
+        "lng": "-55.23771"
+    },
+    {
+        "country": "UY",
+        "name": "Migues",
+        "lat": "-34.48759",
+        "lng": "-55.62793"
+    },
+    {
+        "country": "UY",
+        "name": "Mercedes",
+        "lat": "-33.2524",
+        "lng": "-58.03047"
+    },
+    {
+        "country": "UY",
+        "name": "Melo",
+        "lat": "-32.37028",
+        "lng": "-54.1675"
+    },
+    {
+        "country": "UY",
+        "name": "Mariscala",
+        "lat": "-34.04085",
+        "lng": "-54.77732"
+    },
+    {
+        "country": "UY",
+        "name": "Maldonado",
+        "lat": "-34.9",
+        "lng": "-54.95"
+    },
+    {
+        "country": "UY",
+        "name": "Los Cerrillos",
+        "lat": "-34.605",
+        "lng": "-56.35639"
+    },
+    {
+        "country": "UY",
+        "name": "Libertad",
+        "lat": "-34.63459",
+        "lng": "-56.61739"
+    },
+    {
+        "country": "UY",
+        "name": "Las Toscas",
+        "lat": "-34.73333",
+        "lng": "-55.71667"
+    },
+    {
+        "country": "UY",
+        "name": "Las Piedras",
+        "lat": "-34.7302",
+        "lng": "-56.21915"
+    },
+    {
+        "country": "UY",
+        "name": "Las Piedras",
+        "lat": "-30.26204",
+        "lng": "-57.58174"
+    },
+    {
+        "country": "UY",
+        "name": "Lascano",
+        "lat": "-33.67235",
+        "lng": "-54.2065"
+    },
+    {
+        "country": "UY",
+        "name": "La Paz",
+        "lat": "-34.76031",
+        "lng": "-56.2259"
+    },
+    {
+        "country": "UY",
+        "name": "La Paloma",
+        "lat": "-34.66268",
+        "lng": "-54.16452"
+    },
+    {
+        "country": "UY",
+        "name": "La Paloma",
+        "lat": "-32.71667",
+        "lng": "-55.6"
+    },
+    {
+        "country": "UY",
+        "name": "La Floresta",
+        "lat": "-34.75572",
+        "lng": "-55.68141"
+    },
+    {
+        "country": "UY",
+        "name": "Juan L. Lacaze",
+        "lat": "-34.41888",
+        "lng": "-57.45285"
+    },
+    {
+        "country": "UY",
+        "name": "Jos\u00e9 Pedro Varela",
+        "lat": "-33.45451",
+        "lng": "-54.53586"
+    },
+    {
+        "country": "UY",
+        "name": "Jos\u00e9 Enrique Rod\u00f3",
+        "lat": "-33.69618",
+        "lng": "-57.53153"
+    },
+    {
+        "country": "UY",
+        "name": "Jos\u00e9 Batlle y Ord\u00f3\u00f1ez",
+        "lat": "-33.46667",
+        "lng": "-55.11667"
+    },
+    {
+        "country": "UY",
+        "name": "Joaqu\u00edn Su\u00e1rez",
+        "lat": "-34.73501",
+        "lng": "-56.0347"
+    },
+    {
+        "country": "UY",
+        "name": "Juanic\u00f3",
+        "lat": "-34.59454",
+        "lng": "-56.25334"
+    },
+    {
+        "country": "UY",
+        "name": "Isidoro Nobl\u00eda",
+        "lat": "-31.96218",
+        "lng": "-54.12309"
+    },
+    {
+        "country": "UY",
+        "name": "Guich\u00f3n",
+        "lat": "-32.35846",
+        "lng": "-57.19778"
+    },
+    {
+        "country": "UY",
+        "name": "Fray Bentos",
+        "lat": "-33.11651",
+        "lng": "-58.31067"
+    },
+    {
+        "country": "UY",
+        "name": "Florida",
+        "lat": "-34.09556",
+        "lng": "-56.21417"
+    },
+    {
+        "country": "UY",
+        "name": "Florencio S\u00e1nchez",
+        "lat": "-33.87785",
+        "lng": "-57.37166"
+    },
+    {
+        "country": "UY",
+        "name": "Empalme Olmos",
+        "lat": "-34.69753",
+        "lng": "-55.89268"
+    },
+    {
+        "country": "UY",
+        "name": "Ecilda Paullier",
+        "lat": "-34.35778",
+        "lng": "-57.04883"
+    },
+    {
+        "country": "UY",
+        "name": "Durazno",
+        "lat": "-33.38056",
+        "lng": "-56.52361"
+    },
+    {
+        "country": "UY",
+        "name": "Dolores",
+        "lat": "-33.53009",
+        "lng": "-58.21701"
+    },
+    {
+        "country": "UY",
+        "name": "Dieciocho de Julio",
+        "lat": "-33.68216",
+        "lng": "-53.55325"
+    },
+    {
+        "country": "UY",
+        "name": "Delta del Tigre",
+        "lat": "-34.76488",
+        "lng": "-56.3645"
+    },
+    {
+        "country": "UY",
+        "name": "Curtina",
+        "lat": "-32.15",
+        "lng": "-56.11667"
+    },
+    {
+        "country": "UY",
+        "name": "Villa Constituci\u00f3n",
+        "lat": "-31.06913",
+        "lng": "-57.84946"
+    },
+    {
+        "country": "UY",
+        "name": "Colonia del Sacramento",
+        "lat": "-34.46262",
+        "lng": "-57.83976"
+    },
+    {
+        "country": "UY",
+        "name": "Chui",
+        "lat": "-33.69792",
+        "lng": "-53.45926"
+    },
+    {
+        "country": "UY",
+        "name": "Alejandro Gallinal",
+        "lat": "-33.86252",
+        "lng": "-55.54264"
+    },
+    {
+        "country": "UY",
+        "name": "Cebollat\u00ed",
+        "lat": "-33.26703",
+        "lng": "-53.79425"
+    },
+    {
+        "country": "UY",
+        "name": "Casup\u00e1",
+        "lat": "-34.09994",
+        "lng": "-55.64811"
+    },
+    {
+        "country": "UY",
+        "name": "Castillos",
+        "lat": "-34.19871",
+        "lng": "-53.85919"
+    },
+    {
+        "country": "UY",
+        "name": "Carmelo",
+        "lat": "-34.00023",
+        "lng": "-58.28402"
+    },
+    {
+        "country": "UY",
+        "name": "Carlos Reyles",
+        "lat": "-33.01667",
+        "lng": "-56.48333"
+    },
+    {
+        "country": "UY",
+        "name": "Cardona",
+        "lat": "-33.87049",
+        "lng": "-57.36954"
+    },
+    {
+        "country": "UY",
+        "name": "Cardal",
+        "lat": "-34.29056",
+        "lng": "-56.38889"
+    },
+    {
+        "country": "UY",
+        "name": "Canelones",
+        "lat": "-34.52278",
+        "lng": "-56.27778"
+    },
+    {
+        "country": "UY",
+        "name": "Blanquillo",
+        "lat": "-32.76667",
+        "lng": "-55.63333"
+    },
+    {
+        "country": "UY",
+        "name": "Bella Uni\u00f3n",
+        "lat": "-30.25966",
+        "lng": "-57.59919"
+    },
+    {
+        "country": "UY",
+        "name": "Bel\u00e9n",
+        "lat": "-30.78716",
+        "lng": "-57.77577"
+    },
+    {
+        "country": "UY",
+        "name": "Baltasar Brum",
+        "lat": "-30.71905",
+        "lng": "-57.32596"
+    },
+    {
+        "country": "UY",
+        "name": "Atl\u00e1ntida",
+        "lat": "-34.7719",
+        "lng": "-55.7584"
+    },
+    {
+        "country": "UY",
+        "name": "Artigas",
+        "lat": "-30.4",
+        "lng": "-56.46667"
+    },
+    {
+        "country": "UY",
+        "name": "Aigu\u00e1",
+        "lat": "-34.20498",
+        "lng": "-54.75665"
+    },
+    {
+        "country": "UY",
+        "name": "Aguas Corrientes",
+        "lat": "-34.52194",
+        "lng": "-56.39361"
+    },
+    {
+        "country": "UY",
+        "name": "Acegu\u00e1",
+        "lat": "-31.86667",
+        "lng": "-54.2"
+    },
+    {
+        "country": "UY",
+        "name": "Puntas de Vald\u00e9z",
+        "lat": "-34.5855",
+        "lng": "-56.70097"
+    },
+    {
+        "country": "UY",
+        "name": "Colonia Nicolich",
+        "lat": "-34.81516",
+        "lng": "-56.02435"
+    },
+    {
+        "country": "UY",
+        "name": "Barra de Carrasco",
+        "lat": "-34.87722",
+        "lng": "-56.02972"
+    },
+    {
+        "country": "UY",
+        "name": "Pajas Blancas",
+        "lat": "-34.80167",
+        "lng": "-56.33417"
+    },
+    {
+        "country": "UY",
+        "name": "Barros Blancos",
+        "lat": "-34.7524",
+        "lng": "-56.00259"
+    }
+]

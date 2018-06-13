@@ -1,0 +1,1736 @@
+[
+    {
+        "country": "BG",
+        "name": "Beloslav",
+        "lat": "43.1896",
+        "lng": "27.70429"
+    },
+    {
+        "country": "BG",
+        "name": "Zlatograd",
+        "lat": "41.3795",
+        "lng": "25.09605"
+    },
+    {
+        "country": "BG",
+        "name": "Zlatitsa",
+        "lat": "42.71667",
+        "lng": "24.13333"
+    },
+    {
+        "country": "BG",
+        "name": "Zlataritsa",
+        "lat": "43.05",
+        "lng": "25.9"
+    },
+    {
+        "country": "BG",
+        "name": "Zemen",
+        "lat": "42.47889",
+        "lng": "22.74917"
+    },
+    {
+        "country": "BG",
+        "name": "Zelenikovo",
+        "lat": "42.4",
+        "lng": "25.08333"
+    },
+    {
+        "country": "BG",
+        "name": "Zavet",
+        "lat": "43.76036",
+        "lng": "26.68063"
+    },
+    {
+        "country": "BG",
+        "name": "Yambol",
+        "lat": "42.48333",
+        "lng": "26.5"
+    },
+    {
+        "country": "BG",
+        "name": "Yakoruda",
+        "lat": "42.02528",
+        "lng": "23.68417"
+    },
+    {
+        "country": "BG",
+        "name": "Yakimovo",
+        "lat": "43.63472",
+        "lng": "23.3535"
+    },
+    {
+        "country": "BG",
+        "name": "Yablanitsa",
+        "lat": "43.03139",
+        "lng": "24.11278"
+    },
+    {
+        "country": "BG",
+        "name": "Varshets",
+        "lat": "43.19528",
+        "lng": "23.28611"
+    },
+    {
+        "country": "BG",
+        "name": "Varbitsa",
+        "lat": "43",
+        "lng": "26.63333"
+    },
+    {
+        "country": "BG",
+        "name": "Valchidol",
+        "lat": "43.4",
+        "lng": "27.55"
+    },
+    {
+        "country": "BG",
+        "name": "Valchedram",
+        "lat": "43.69639",
+        "lng": "23.44472"
+    },
+    {
+        "country": "BG",
+        "name": "Vratsa",
+        "lat": "43.21",
+        "lng": "23.5625"
+    },
+    {
+        "country": "BG",
+        "name": "Sveti Vlas",
+        "lat": "42.7136",
+        "lng": "27.75867"
+    },
+    {
+        "country": "BG",
+        "name": "Vidin",
+        "lat": "43.99",
+        "lng": "22.8725"
+    },
+    {
+        "country": "BG",
+        "name": "Vetrino",
+        "lat": "43.31667",
+        "lng": "27.43333"
+    },
+    {
+        "country": "BG",
+        "name": "Vetovo",
+        "lat": "43.7",
+        "lng": "26.26667"
+    },
+    {
+        "country": "BG",
+        "name": "Venets",
+        "lat": "43.55",
+        "lng": "26.93333"
+    },
+    {
+        "country": "BG",
+        "name": "Velingrad",
+        "lat": "42.02754",
+        "lng": "23.99155"
+    },
+    {
+        "country": "BG",
+        "name": "Veliko Turnovo",
+        "lat": "43.08124",
+        "lng": "25.62904"
+    },
+    {
+        "country": "BG",
+        "name": "Varna",
+        "lat": "43.21667",
+        "lng": "27.91667"
+    },
+    {
+        "country": "BG",
+        "name": "Ugarchin",
+        "lat": "43.1",
+        "lng": "24.41667"
+    },
+    {
+        "country": "BG",
+        "name": "Tvarditsa",
+        "lat": "42.7",
+        "lng": "25.9"
+    },
+    {
+        "country": "BG",
+        "name": "Tutrakan",
+        "lat": "44.05",
+        "lng": "26.61667"
+    },
+    {
+        "country": "BG",
+        "name": "Targovishte",
+        "lat": "43.2512",
+        "lng": "26.57215"
+    },
+    {
+        "country": "BG",
+        "name": "Tsenovo",
+        "lat": "43.53588",
+        "lng": "25.65764"
+    },
+    {
+        "country": "BG",
+        "name": "Tryavna",
+        "lat": "42.86667",
+        "lng": "25.5"
+    },
+    {
+        "country": "BG",
+        "name": "Tran",
+        "lat": "42.83528",
+        "lng": "22.65167"
+    },
+    {
+        "country": "BG",
+        "name": "Troyan",
+        "lat": "42.89427",
+        "lng": "24.71589"
+    },
+    {
+        "country": "BG",
+        "name": "Topolovo",
+        "lat": "41.9",
+        "lng": "25"
+    },
+    {
+        "country": "BG",
+        "name": "Topolovgrad",
+        "lat": "42.08333",
+        "lng": "26.33333"
+    },
+    {
+        "country": "BG",
+        "name": "Dobrich",
+        "lat": "43.56667",
+        "lng": "27.83333"
+    },
+    {
+        "country": "BG",
+        "name": "Tochilari",
+        "lat": "43.85",
+        "lng": "26.46667"
+    },
+    {
+        "country": "BG",
+        "name": "Teteven",
+        "lat": "42.91667",
+        "lng": "24.26667"
+    },
+    {
+        "country": "BG",
+        "name": "Tervel",
+        "lat": "43.75",
+        "lng": "27.4"
+    },
+    {
+        "country": "BG",
+        "name": "Batanovtsi",
+        "lat": "42.59692",
+        "lng": "22.95634"
+    },
+    {
+        "country": "BG",
+        "name": "Svoge",
+        "lat": "42.96667",
+        "lng": "23.35"
+    },
+    {
+        "country": "BG",
+        "name": "Svishtov",
+        "lat": "43.61959",
+        "lng": "25.35044"
+    },
+    {
+        "country": "BG",
+        "name": "Svilengrad",
+        "lat": "41.76667",
+        "lng": "26.2"
+    },
+    {
+        "country": "BG",
+        "name": "Suvorovo",
+        "lat": "43.33058",
+        "lng": "27.59908"
+    },
+    {
+        "country": "BG",
+        "name": "Sarnitsa",
+        "lat": "41.73835",
+        "lng": "24.02435"
+    },
+    {
+        "country": "BG",
+        "name": "Sungurlare",
+        "lat": "42.76667",
+        "lng": "26.78333"
+    },
+    {
+        "country": "BG",
+        "name": "Suhindol",
+        "lat": "43.19167",
+        "lng": "25.18111"
+    },
+    {
+        "country": "BG",
+        "name": "Saedinenie",
+        "lat": "42.26667",
+        "lng": "24.55"
+    },
+    {
+        "country": "BG",
+        "name": "Strumyani",
+        "lat": "41.63333",
+        "lng": "23.2"
+    },
+    {
+        "country": "BG",
+        "name": "Strelcha",
+        "lat": "42.5",
+        "lng": "24.31667"
+    },
+    {
+        "country": "BG",
+        "name": "Strazhitsa",
+        "lat": "43.23333",
+        "lng": "25.96667"
+    },
+    {
+        "country": "BG",
+        "name": "Straldzha",
+        "lat": "42.6",
+        "lng": "26.68333"
+    },
+    {
+        "country": "BG",
+        "name": "Stara Zagora",
+        "lat": "42.43278",
+        "lng": "25.64194"
+    },
+    {
+        "country": "BG",
+        "name": "Stara Kresna",
+        "lat": "41.8",
+        "lng": "23.18333"
+    },
+    {
+        "country": "BG",
+        "name": "Dupnitsa",
+        "lat": "42.26667",
+        "lng": "23.11667"
+    },
+    {
+        "country": "BG",
+        "name": "Stamboliyski",
+        "lat": "42.13333",
+        "lng": "24.53333"
+    },
+    {
+        "country": "BG",
+        "name": "Spasovo",
+        "lat": "43.70168",
+        "lng": "28.30399"
+    },
+    {
+        "country": "BG",
+        "name": "Sozopol",
+        "lat": "42.41801",
+        "lng": "27.6956"
+    },
+    {
+        "country": "BG",
+        "name": "Sofia",
+        "lat": "42.69751",
+        "lng": "23.32415"
+    },
+    {
+        "country": "BG",
+        "name": "Smyadovo",
+        "lat": "43.06667",
+        "lng": "27.01667"
+    },
+    {
+        "country": "BG",
+        "name": "Smolyan",
+        "lat": "41.57439",
+        "lng": "24.71204"
+    },
+    {
+        "country": "BG",
+        "name": "Slivo Pole",
+        "lat": "43.94248",
+        "lng": "26.20464"
+    },
+    {
+        "country": "BG",
+        "name": "Slivnitsa",
+        "lat": "42.85182",
+        "lng": "23.03792"
+    },
+    {
+        "country": "BG",
+        "name": "Sliven",
+        "lat": "42.68583",
+        "lng": "26.32917"
+    },
+    {
+        "country": "BG",
+        "name": "Slavyanovo",
+        "lat": "43.46667",
+        "lng": "24.86667"
+    },
+    {
+        "country": "BG",
+        "name": "Sitovo",
+        "lat": "44.0273",
+        "lng": "27.01982"
+    },
+    {
+        "country": "BG",
+        "name": "Simitli",
+        "lat": "41.88333",
+        "lng": "23.11667"
+    },
+    {
+        "country": "BG",
+        "name": "Simeonovgrad",
+        "lat": "42.03333",
+        "lng": "25.83333"
+    },
+    {
+        "country": "BG",
+        "name": "Silistra",
+        "lat": "44.11667",
+        "lng": "27.26667"
+    },
+    {
+        "country": "BG",
+        "name": "Shumen",
+        "lat": "43.27064",
+        "lng": "26.92286"
+    },
+    {
+        "country": "BG",
+        "name": "Shipka",
+        "lat": "42.71667",
+        "lng": "25.33333"
+    },
+    {
+        "country": "BG",
+        "name": "Shabla",
+        "lat": "43.53983",
+        "lng": "28.53429"
+    },
+    {
+        "country": "BG",
+        "name": "Sevlievo",
+        "lat": "43.02583",
+        "lng": "25.11361"
+    },
+    {
+        "country": "BG",
+        "name": "Septemvri",
+        "lat": "42.21138",
+        "lng": "24.12946"
+    },
+    {
+        "country": "BG",
+        "name": "Senovo",
+        "lat": "43.65",
+        "lng": "26.36667"
+    },
+    {
+        "country": "BG",
+        "name": "Satovcha",
+        "lat": "41.61667",
+        "lng": "23.98333"
+    },
+    {
+        "country": "BG",
+        "name": "Sarafovo",
+        "lat": "42.56079",
+        "lng": "27.52195"
+    },
+    {
+        "country": "BG",
+        "name": "Sapareva Banya",
+        "lat": "42.28333",
+        "lng": "23.26667"
+    },
+    {
+        "country": "BG",
+        "name": "Sandanski",
+        "lat": "41.56667",
+        "lng": "23.28333"
+    },
+    {
+        "country": "BG",
+        "name": "Samuil",
+        "lat": "43.51667",
+        "lng": "26.75"
+    },
+    {
+        "country": "BG",
+        "name": "Samokov",
+        "lat": "42.337",
+        "lng": "23.5528"
+    },
+    {
+        "country": "BG",
+        "name": "Sadovo",
+        "lat": "42.13178",
+        "lng": "24.93999"
+    },
+    {
+        "country": "BG",
+        "name": "Ruzhintsi",
+        "lat": "43.62179",
+        "lng": "22.83286"
+    },
+    {
+        "country": "BG",
+        "name": "Ruse",
+        "lat": "43.85639",
+        "lng": "25.97083"
+    },
+    {
+        "country": "BG",
+        "name": "Ruen",
+        "lat": "42.8",
+        "lng": "27.28333"
+    },
+    {
+        "country": "BG",
+        "name": "Rudozem",
+        "lat": "41.48751",
+        "lng": "24.84945"
+    },
+    {
+        "country": "BG",
+        "name": "Roman",
+        "lat": "43.15",
+        "lng": "23.91667"
+    },
+    {
+        "country": "BG",
+        "name": "Rila",
+        "lat": "42.13333",
+        "lng": "23.13333"
+    },
+    {
+        "country": "BG",
+        "name": "Razlog",
+        "lat": "41.8863",
+        "lng": "23.46714"
+    },
+    {
+        "country": "BG",
+        "name": "Razgrad",
+        "lat": "43.53333",
+        "lng": "26.51667"
+    },
+    {
+        "country": "BG",
+        "name": "Ravda",
+        "lat": "42.64185",
+        "lng": "27.67713"
+    },
+    {
+        "country": "BG",
+        "name": "Rakovski",
+        "lat": "42.3",
+        "lng": "24.96667"
+    },
+    {
+        "country": "BG",
+        "name": "Rakitovo",
+        "lat": "41.99012",
+        "lng": "24.0873"
+    },
+    {
+        "country": "BG",
+        "name": "Radomir",
+        "lat": "42.54565",
+        "lng": "22.96553"
+    },
+    {
+        "country": "BG",
+        "name": "Radnevo",
+        "lat": "42.3",
+        "lng": "25.93333"
+    },
+    {
+        "country": "BG",
+        "name": "Parvomaytsi",
+        "lat": "43.15",
+        "lng": "25.65"
+    },
+    {
+        "country": "BG",
+        "name": "Parvomay",
+        "lat": "42.1",
+        "lng": "25.21667"
+    },
+    {
+        "country": "BG",
+        "name": "Provadia",
+        "lat": "43.18333",
+        "lng": "27.43333"
+    },
+    {
+        "country": "BG",
+        "name": "Primorsko",
+        "lat": "42.26791",
+        "lng": "27.75611"
+    },
+    {
+        "country": "BG",
+        "name": "Veliki Preslav",
+        "lat": "43.16667",
+        "lng": "26.81667"
+    },
+    {
+        "country": "BG",
+        "name": "Pravets",
+        "lat": "42.88333",
+        "lng": "23.91667"
+    },
+    {
+        "country": "BG",
+        "name": "Pordim",
+        "lat": "43.38333",
+        "lng": "24.85"
+    },
+    {
+        "country": "BG",
+        "name": "Popovo",
+        "lat": "43.35",
+        "lng": "26.23333"
+    },
+    {
+        "country": "BG",
+        "name": "Pomorie",
+        "lat": "42.56326",
+        "lng": "27.62986"
+    },
+    {
+        "country": "BG",
+        "name": "Polski Trambesh",
+        "lat": "43.38361",
+        "lng": "25.64972"
+    },
+    {
+        "country": "BG",
+        "name": "Plovdiv",
+        "lat": "42.15",
+        "lng": "24.75"
+    },
+    {
+        "country": "BG",
+        "name": "Pliska",
+        "lat": "43.36667",
+        "lng": "27.11667"
+    },
+    {
+        "country": "BG",
+        "name": "Pleven",
+        "lat": "43.41667",
+        "lng": "24.61667"
+    },
+    {
+        "country": "BG",
+        "name": "Pirdop",
+        "lat": "42.7",
+        "lng": "24.18333"
+    },
+    {
+        "country": "BG",
+        "name": "Petrich",
+        "lat": "41.39846",
+        "lng": "23.20702"
+    },
+    {
+        "country": "BG",
+        "name": "Peshtera",
+        "lat": "42.03372",
+        "lng": "24.29995"
+    },
+    {
+        "country": "BG",
+        "name": "Perushtitsa",
+        "lat": "42.05",
+        "lng": "24.55"
+    },
+    {
+        "country": "BG",
+        "name": "Pernik",
+        "lat": "42.6",
+        "lng": "23.03333"
+    },
+    {
+        "country": "BG",
+        "name": "Iskar",
+        "lat": "43.45",
+        "lng": "24.26667"
+    },
+    {
+        "country": "BG",
+        "name": "Pazardzhik",
+        "lat": "42.2",
+        "lng": "24.33333"
+    },
+    {
+        "country": "BG",
+        "name": "Pavlikeni",
+        "lat": "43.24278",
+        "lng": "25.32194"
+    },
+    {
+        "country": "BG",
+        "name": "Pavel Banya",
+        "lat": "42.6",
+        "lng": "25.2"
+    },
+    {
+        "country": "BG",
+        "name": "Panagyurishte",
+        "lat": "42.49518",
+        "lng": "24.19021"
+    },
+    {
+        "country": "BG",
+        "name": "Oryahovo",
+        "lat": "43.73504",
+        "lng": "23.95792"
+    },
+    {
+        "country": "BG",
+        "name": "Opaka",
+        "lat": "43.45",
+        "lng": "26.16667"
+    },
+    {
+        "country": "BG",
+        "name": "Omurtag",
+        "lat": "43.1",
+        "lng": "26.41667"
+    },
+    {
+        "country": "BG",
+        "name": "Obzor",
+        "lat": "42.81998",
+        "lng": "27.88007"
+    },
+    {
+        "country": "BG",
+        "name": "Novo Selo",
+        "lat": "44.15861",
+        "lng": "22.78667"
+    },
+    {
+        "country": "BG",
+        "name": "Novi Pazar",
+        "lat": "43.35",
+        "lng": "27.2"
+    },
+    {
+        "country": "BG",
+        "name": "Nova Zagora",
+        "lat": "42.48333",
+        "lng": "26.01667"
+    },
+    {
+        "country": "BG",
+        "name": "Nikopol",
+        "lat": "43.70255",
+        "lng": "24.89645"
+    },
+    {
+        "country": "BG",
+        "name": "Nikolaevo",
+        "lat": "42.63333",
+        "lng": "25.8"
+    },
+    {
+        "country": "BG",
+        "name": "Nevestino",
+        "lat": "42.25551",
+        "lng": "22.85175"
+    },
+    {
+        "country": "BG",
+        "name": "Nesebar",
+        "lat": "42.65921",
+        "lng": "27.73602"
+    },
+    {
+        "country": "BG",
+        "name": "Nedelino",
+        "lat": "41.45602",
+        "lng": "25.08008"
+    },
+    {
+        "country": "BG",
+        "name": "Maglizh",
+        "lat": "42.6",
+        "lng": "25.55"
+    },
+    {
+        "country": "BG",
+        "name": "Mizia",
+        "lat": "43.68623",
+        "lng": "23.85371"
+    },
+    {
+        "country": "BG",
+        "name": "Mirkovo",
+        "lat": "42.7",
+        "lng": "23.98333"
+    },
+    {
+        "country": "BG",
+        "name": "Mineralni Bani",
+        "lat": "41.91667",
+        "lng": "25.35"
+    },
+    {
+        "country": "BG",
+        "name": "Montana",
+        "lat": "43.4125",
+        "lng": "23.225"
+    },
+    {
+        "country": "BG",
+        "name": "Tsarevo",
+        "lat": "42.16955",
+        "lng": "27.84541"
+    },
+    {
+        "country": "BG",
+        "name": "Mezdra",
+        "lat": "43.15",
+        "lng": "23.7"
+    },
+    {
+        "country": "BG",
+        "name": "Medovene",
+        "lat": "43.76667",
+        "lng": "26.51667"
+    },
+    {
+        "country": "BG",
+        "name": "Medkovets",
+        "lat": "43.62403",
+        "lng": "23.16876"
+    },
+    {
+        "country": "BG",
+        "name": "Malko Tarnovo",
+        "lat": "41.97958",
+        "lng": "27.52477"
+    },
+    {
+        "country": "BG",
+        "name": "Makresh",
+        "lat": "43.76794",
+        "lng": "22.66406"
+    },
+    {
+        "country": "BG",
+        "name": "Madzharovo",
+        "lat": "41.63461",
+        "lng": "25.86439"
+    },
+    {
+        "country": "BG",
+        "name": "Madan",
+        "lat": "41.49869",
+        "lng": "24.93973"
+    },
+    {
+        "country": "BG",
+        "name": "Lyubimets",
+        "lat": "41.83333",
+        "lng": "26.08333"
+    },
+    {
+        "country": "BG",
+        "name": "Lyaskovets",
+        "lat": "43.11111",
+        "lng": "25.72833"
+    },
+    {
+        "country": "BG",
+        "name": "Lukovit",
+        "lat": "43.2",
+        "lng": "24.16667"
+    },
+    {
+        "country": "BG",
+        "name": "Laki",
+        "lat": "41.85",
+        "lng": "24.81667"
+    },
+    {
+        "country": "BG",
+        "name": "Loznitsa",
+        "lat": "43.36667",
+        "lng": "26.6"
+    },
+    {
+        "country": "BG",
+        "name": "Lovech",
+        "lat": "43.13333",
+        "lng": "24.71667"
+    },
+    {
+        "country": "BG",
+        "name": "Lom",
+        "lat": "43.81389",
+        "lng": "23.23611"
+    },
+    {
+        "country": "BG",
+        "name": "Levski",
+        "lat": "43.36667",
+        "lng": "25.13333"
+    },
+    {
+        "country": "BG",
+        "name": "Letnitsa",
+        "lat": "43.31167",
+        "lng": "25.07333"
+    },
+    {
+        "country": "BG",
+        "name": "Lesichovo",
+        "lat": "42.35626",
+        "lng": "24.1119"
+    },
+    {
+        "country": "BG",
+        "name": "Lakatnik",
+        "lat": "43.05",
+        "lng": "23.4"
+    },
+    {
+        "country": "BG",
+        "name": "Kyustendil",
+        "lat": "42.28389",
+        "lng": "22.69111"
+    },
+    {
+        "country": "BG",
+        "name": "Kardzhali",
+        "lat": "41.65",
+        "lng": "25.36667"
+    },
+    {
+        "country": "BG",
+        "name": "Kula",
+        "lat": "43.88833",
+        "lng": "22.52139"
+    },
+    {
+        "country": "BG",
+        "name": "Kubrat",
+        "lat": "43.79658",
+        "lng": "26.50063"
+    },
+    {
+        "country": "BG",
+        "name": "Krushari",
+        "lat": "43.81675",
+        "lng": "27.75552"
+    },
+    {
+        "country": "BG",
+        "name": "Krumovgrad",
+        "lat": "41.47127",
+        "lng": "25.65485"
+    },
+    {
+        "country": "BG",
+        "name": "Krivodol",
+        "lat": "43.37444",
+        "lng": "23.48444"
+    },
+    {
+        "country": "BG",
+        "name": "Krichim",
+        "lat": "42.05",
+        "lng": "24.46667"
+    },
+    {
+        "country": "BG",
+        "name": "Kresna",
+        "lat": "41.73333",
+        "lng": "23.15"
+    },
+    {
+        "country": "BG",
+        "name": "Kozloduy",
+        "lat": "43.77864",
+        "lng": "23.72058"
+    },
+    {
+        "country": "BG",
+        "name": "Koynare",
+        "lat": "43.35",
+        "lng": "24.13333"
+    },
+    {
+        "country": "BG",
+        "name": "Kotel",
+        "lat": "42.88333",
+        "lng": "26.45"
+    },
+    {
+        "country": "BG",
+        "name": "Kostinbrod",
+        "lat": "42.81667",
+        "lng": "23.21667"
+    },
+    {
+        "country": "BG",
+        "name": "Koprivshtitsa",
+        "lat": "42.63333",
+        "lng": "24.35"
+    },
+    {
+        "country": "BG",
+        "name": "Kocherinovo",
+        "lat": "42.08439",
+        "lng": "23.0571"
+    },
+    {
+        "country": "BG",
+        "name": "Knezha",
+        "lat": "43.5",
+        "lng": "24.08333"
+    },
+    {
+        "country": "BG",
+        "name": "Klisura",
+        "lat": "42.7",
+        "lng": "24.45"
+    },
+    {
+        "country": "BG",
+        "name": "Kiten",
+        "lat": "43.08333",
+        "lng": "27.31667"
+    },
+    {
+        "country": "BG",
+        "name": "Kiten",
+        "lat": "42.23424",
+        "lng": "27.7749"
+    },
+    {
+        "country": "BG",
+        "name": "Kirkovo",
+        "lat": "41.32715",
+        "lng": "25.36379"
+    },
+    {
+        "country": "BG",
+        "name": "Kilifarevo",
+        "lat": "42.98333",
+        "lng": "25.63333"
+    },
+    {
+        "country": "BG",
+        "name": "Tsar Kaloyan",
+        "lat": "43.61667",
+        "lng": "26.25"
+    },
+    {
+        "country": "BG",
+        "name": "Hisarya",
+        "lat": "42.5",
+        "lng": "24.7"
+    },
+    {
+        "country": "BG",
+        "name": "Hayredin",
+        "lat": "43.6",
+        "lng": "23.66667"
+    },
+    {
+        "country": "BG",
+        "name": "Haskovo",
+        "lat": "41.93415",
+        "lng": "25.55557"
+    },
+    {
+        "country": "BG",
+        "name": "Harmanli",
+        "lat": "41.93333",
+        "lng": "25.9"
+    },
+    {
+        "country": "BG",
+        "name": "Hadzhidimovo",
+        "lat": "41.52222",
+        "lng": "23.86861"
+    },
+    {
+        "country": "BG",
+        "name": "Kermen",
+        "lat": "42.5",
+        "lng": "26.25"
+    },
+    {
+        "country": "BG",
+        "name": "Kazanlak",
+        "lat": "42.61667",
+        "lng": "25.4"
+    },
+    {
+        "country": "BG",
+        "name": "Kaynardzha",
+        "lat": "43.98333",
+        "lng": "27.5"
+    },
+    {
+        "country": "BG",
+        "name": "Kavarna",
+        "lat": "43.43601",
+        "lng": "28.33953"
+    },
+    {
+        "country": "BG",
+        "name": "Kaspichan",
+        "lat": "43.31667",
+        "lng": "27.16667"
+    },
+    {
+        "country": "BG",
+        "name": "Karnobat",
+        "lat": "42.65",
+        "lng": "26.98333"
+    },
+    {
+        "country": "BG",
+        "name": "Karlovo",
+        "lat": "42.63333",
+        "lng": "24.8"
+    },
+    {
+        "country": "BG",
+        "name": "Kaolinovo",
+        "lat": "43.61667",
+        "lng": "27.11667"
+    },
+    {
+        "country": "BG",
+        "name": "Kameno",
+        "lat": "42.57084",
+        "lng": "27.29875"
+    },
+    {
+        "country": "BG",
+        "name": "Kaloyanovo",
+        "lat": "42.35",
+        "lng": "24.73333"
+    },
+    {
+        "country": "BG",
+        "name": "Kalofer",
+        "lat": "42.61667",
+        "lng": "24.98333"
+    },
+    {
+        "country": "BG",
+        "name": "Ivaylovgrad",
+        "lat": "41.52672",
+        "lng": "26.1249"
+    },
+    {
+        "country": "BG",
+        "name": "Ivanovo",
+        "lat": "43.68568",
+        "lng": "25.95565"
+    },
+    {
+        "country": "BG",
+        "name": "Isperih",
+        "lat": "43.71667",
+        "lng": "26.83333"
+    },
+    {
+        "country": "BG",
+        "name": "Iskar",
+        "lat": "43.6708",
+        "lng": "24.45233"
+    },
+    {
+        "country": "BG",
+        "name": "Ihtiman",
+        "lat": "42.43333",
+        "lng": "23.81667"
+    },
+    {
+        "country": "BG",
+        "name": "Garmen",
+        "lat": "41.6",
+        "lng": "23.81667"
+    },
+    {
+        "country": "BG",
+        "name": "Gurkovo",
+        "lat": "42.66667",
+        "lng": "25.8"
+    },
+    {
+        "country": "BG",
+        "name": "Gulyantsi",
+        "lat": "43.64109",
+        "lng": "24.69368"
+    },
+    {
+        "country": "BG",
+        "name": "Gulubovo",
+        "lat": "42.13333",
+        "lng": "25.85"
+    },
+    {
+        "country": "BG",
+        "name": "Sredets",
+        "lat": "42.34747",
+        "lng": "27.17898"
+    },
+    {
+        "country": "BG",
+        "name": "Gramada",
+        "lat": "43.83738",
+        "lng": "22.65279"
+    },
+    {
+        "country": "BG",
+        "name": "Gyovren",
+        "lat": "41.66326",
+        "lng": "24.37557"
+    },
+    {
+        "country": "BG",
+        "name": "Gotse Delchev",
+        "lat": "41.56667",
+        "lng": "23.73333"
+    },
+    {
+        "country": "BG",
+        "name": "Gorna Oryahovitsa",
+        "lat": "43.12778",
+        "lng": "25.70167"
+    },
+    {
+        "country": "BG",
+        "name": "Gorna Malina",
+        "lat": "42.68333",
+        "lng": "23.7"
+    },
+    {
+        "country": "BG",
+        "name": "Gorichevo",
+        "lat": "43.85",
+        "lng": "26.45"
+    },
+    {
+        "country": "BG",
+        "name": "Godech",
+        "lat": "43.01682",
+        "lng": "23.04852"
+    },
+    {
+        "country": "BG",
+        "name": "Glavinitsa",
+        "lat": "43.91667",
+        "lng": "26.83333"
+    },
+    {
+        "country": "BG",
+        "name": "Dolni Chiflik",
+        "lat": "42.99296",
+        "lng": "27.71596"
+    },
+    {
+        "country": "BG",
+        "name": "General Toshevo",
+        "lat": "43.70123",
+        "lng": "28.03787"
+    },
+    {
+        "country": "BG",
+        "name": "Gara Hitrino",
+        "lat": "43.43333",
+        "lng": "26.91667"
+    },
+    {
+        "country": "BG",
+        "name": "Gabrovo",
+        "lat": "42.87472",
+        "lng": "25.33417"
+    },
+    {
+        "country": "BG",
+        "name": "Gabrovo",
+        "lat": "41.8",
+        "lng": "25.26667"
+    },
+    {
+        "country": "BG",
+        "name": "Etropole",
+        "lat": "42.83333",
+        "lng": "24"
+    },
+    {
+        "country": "BG",
+        "name": "Elkhovo",
+        "lat": "42.38333",
+        "lng": "25.43333"
+    },
+    {
+        "country": "BG",
+        "name": "Elhovo",
+        "lat": "42.16667",
+        "lng": "26.56667"
+    },
+    {
+        "country": "BG",
+        "name": "Elin Pelin",
+        "lat": "42.66667",
+        "lng": "23.6"
+    },
+    {
+        "country": "BG",
+        "name": "Elena",
+        "lat": "42.93333",
+        "lng": "25.88333"
+    },
+    {
+        "country": "BG",
+        "name": "Dzhebel",
+        "lat": "41.49566",
+        "lng": "25.30363"
+    },
+    {
+        "country": "BG",
+        "name": "Dve Mogili",
+        "lat": "43.59258",
+        "lng": "25.87486"
+    },
+    {
+        "country": "BG",
+        "name": "Dunavtsi",
+        "lat": "43.92111",
+        "lng": "22.82111"
+    },
+    {
+        "country": "BG",
+        "name": "Dulovo",
+        "lat": "43.81667",
+        "lng": "27.15"
+    },
+    {
+        "country": "BG",
+        "name": "Dalgopol",
+        "lat": "43.05",
+        "lng": "27.35"
+    },
+    {
+        "country": "BG",
+        "name": "Dryanovo",
+        "lat": "42.97897",
+        "lng": "25.4785"
+    },
+    {
+        "country": "BG",
+        "name": "Drenovets",
+        "lat": "43.69134",
+        "lng": "22.97365"
+    },
+    {
+        "country": "BG",
+        "name": "Dragoman",
+        "lat": "42.92191",
+        "lng": "22.93109"
+    },
+    {
+        "country": "BG",
+        "name": "Dospat",
+        "lat": "41.64462",
+        "lng": "24.15857"
+    },
+    {
+        "country": "BG",
+        "name": "Dolni Dabnik",
+        "lat": "43.4",
+        "lng": "24.43333"
+    },
+    {
+        "country": "BG",
+        "name": "Dolna Mitropolia",
+        "lat": "43.46667",
+        "lng": "24.53333"
+    },
+    {
+        "country": "BG",
+        "name": "Dolna Banya",
+        "lat": "42.3",
+        "lng": "23.76667"
+    },
+    {
+        "country": "BG",
+        "name": "Dimovo",
+        "lat": "43.74167",
+        "lng": "22.72694"
+    },
+    {
+        "country": "BG",
+        "name": "Dimitrovgrad",
+        "lat": "42.05",
+        "lng": "25.6"
+    },
+    {
+        "country": "BG",
+        "name": "Devnya",
+        "lat": "43.22222",
+        "lng": "27.56944"
+    },
+    {
+        "country": "BG",
+        "name": "Devin",
+        "lat": "41.74327",
+        "lng": "24.40003"
+    },
+    {
+        "country": "BG",
+        "name": "Debelets",
+        "lat": "43.03333",
+        "lng": "25.61667"
+    },
+    {
+        "country": "BG",
+        "name": "Chuprene",
+        "lat": "43.51806",
+        "lng": "22.66611"
+    },
+    {
+        "country": "BG",
+        "name": "Chirpan",
+        "lat": "42.2",
+        "lng": "25.33333"
+    },
+    {
+        "country": "BG",
+        "name": "Chiprovtsi",
+        "lat": "43.38417",
+        "lng": "22.88083"
+    },
+    {
+        "country": "BG",
+        "name": "Cherven Bryag",
+        "lat": "43.26667",
+        "lng": "24.1"
+    },
+    {
+        "country": "BG",
+        "name": "Chernomorets",
+        "lat": "42.44408",
+        "lng": "27.63902"
+    },
+    {
+        "country": "BG",
+        "name": "Chepelare",
+        "lat": "41.73333",
+        "lng": "24.68333"
+    },
+    {
+        "country": "BG",
+        "name": "Chelopech",
+        "lat": "42.7",
+        "lng": "24.08333"
+    },
+    {
+        "country": "BG",
+        "name": "Chavdar",
+        "lat": "42.65",
+        "lng": "24.05"
+    },
+    {
+        "country": "BG",
+        "name": "Byala Slatina",
+        "lat": "43.46667",
+        "lng": "23.93333"
+    },
+    {
+        "country": "BG",
+        "name": "Byala Cherkva",
+        "lat": "43.2",
+        "lng": "25.3"
+    },
+    {
+        "country": "BG",
+        "name": "Byala",
+        "lat": "42.87426",
+        "lng": "27.88865"
+    },
+    {
+        "country": "BG",
+        "name": "Burgas",
+        "lat": "42.50606",
+        "lng": "27.46781"
+    },
+    {
+        "country": "BG",
+        "name": "Buhovo",
+        "lat": "42.76667",
+        "lng": "23.56667"
+    },
+    {
+        "country": "BG",
+        "name": "Brusartsi",
+        "lat": "43.66075",
+        "lng": "23.06732"
+    },
+    {
+        "country": "BG",
+        "name": "Brezovo",
+        "lat": "42.35",
+        "lng": "25.08333"
+    },
+    {
+        "country": "BG",
+        "name": "Breznik",
+        "lat": "42.74085",
+        "lng": "22.90723"
+    },
+    {
+        "country": "BG",
+        "name": "Bregovo",
+        "lat": "44.15167",
+        "lng": "22.6425"
+    },
+    {
+        "country": "BG",
+        "name": "Bratsigovo",
+        "lat": "42.01667",
+        "lng": "24.36667"
+    },
+    {
+        "country": "BG",
+        "name": "Bozhurishte",
+        "lat": "42.75",
+        "lng": "23.2"
+    },
+    {
+        "country": "BG",
+        "name": "Boynitsa",
+        "lat": "43.9565",
+        "lng": "22.53255"
+    },
+    {
+        "country": "BG",
+        "name": "Boychinovtsi",
+        "lat": "43.47222",
+        "lng": "23.33583"
+    },
+    {
+        "country": "BG",
+        "name": "Bov",
+        "lat": "43.0325",
+        "lng": "23.37806"
+    },
+    {
+        "country": "BG",
+        "name": "Botevgrad",
+        "lat": "42.9",
+        "lng": "23.78333"
+    },
+    {
+        "country": "BG",
+        "name": "Borovo",
+        "lat": "43.50086",
+        "lng": "25.80992"
+    },
+    {
+        "country": "BG",
+        "name": "Borovan",
+        "lat": "43.43333",
+        "lng": "23.75"
+    },
+    {
+        "country": "BG",
+        "name": "Borino",
+        "lat": "41.68408",
+        "lng": "24.293"
+    },
+    {
+        "country": "BG",
+        "name": "Bolyarovo",
+        "lat": "42.14962",
+        "lng": "26.81116"
+    },
+    {
+        "country": "BG",
+        "name": "Bobov Dol",
+        "lat": "42.36256",
+        "lng": "23.00324"
+    },
+    {
+        "country": "BG",
+        "name": "Boboshevo",
+        "lat": "42.15296",
+        "lng": "23.00146"
+    },
+    {
+        "country": "BG",
+        "name": "Blagoevgrad",
+        "lat": "42.01667",
+        "lng": "23.1"
+    },
+    {
+        "country": "BG",
+        "name": "Berkovitsa",
+        "lat": "43.23611",
+        "lng": "23.12583"
+    },
+    {
+        "country": "BG",
+        "name": "Belovo",
+        "lat": "42.21239",
+        "lng": "24.02081"
+    },
+    {
+        "country": "BG",
+        "name": "Belogradchik",
+        "lat": "43.62722",
+        "lng": "22.68361"
+    },
+    {
+        "country": "BG",
+        "name": "Belitsa",
+        "lat": "41.95694",
+        "lng": "23.5725"
+    },
+    {
+        "country": "BG",
+        "name": "Belene",
+        "lat": "43.64594",
+        "lng": "25.12627"
+    },
+    {
+        "country": "BG",
+        "name": "Batak",
+        "lat": "41.94225",
+        "lng": "24.21843"
+    },
+    {
+        "country": "BG",
+        "name": "Bata",
+        "lat": "42.73802",
+        "lng": "27.49643"
+    },
+    {
+        "country": "BG",
+        "name": "Bansko",
+        "lat": "41.8383",
+        "lng": "23.48851"
+    },
+    {
+        "country": "BG",
+        "name": "Banite",
+        "lat": "41.61667",
+        "lng": "25.01667"
+    },
+    {
+        "country": "BG",
+        "name": "Balchik",
+        "lat": "43.42166",
+        "lng": "28.15848"
+    },
+    {
+        "country": "BG",
+        "name": "Aytos",
+        "lat": "42.7",
+        "lng": "27.25"
+    },
+    {
+        "country": "BG",
+        "name": "Asenovgrad",
+        "lat": "42.01667",
+        "lng": "24.86667"
+    },
+    {
+        "country": "BG",
+        "name": "Asen",
+        "lat": "42.65",
+        "lng": "25.2"
+    },
+    {
+        "country": "BG",
+        "name": "Ardino",
+        "lat": "41.58333",
+        "lng": "25.13333"
+    },
+    {
+        "country": "BG",
+        "name": "Apriltsi",
+        "lat": "42.84142",
+        "lng": "24.91759"
+    },
+    {
+        "country": "BG",
+        "name": "Antonovo",
+        "lat": "43.15",
+        "lng": "26.16667"
+    },
+    {
+        "country": "BG",
+        "name": "Anton",
+        "lat": "42.75",
+        "lng": "24.28333"
+    },
+    {
+        "country": "BG",
+        "name": "Alfatar",
+        "lat": "43.95",
+        "lng": "27.28333"
+    },
+    {
+        "country": "BG",
+        "name": "Aksakovo",
+        "lat": "43.25615",
+        "lng": "27.82105"
+    },
+    {
+        "country": "BG",
+        "name": "Ahtopol",
+        "lat": "42.09768",
+        "lng": "27.93961"
+    },
+    {
+        "country": "BG",
+        "name": "Zlatni Pyasatsi",
+        "lat": "43.285",
+        "lng": "28.0418"
+    },
+    {
+        "country": "BG",
+        "name": "Aheloy",
+        "lat": "42.64987",
+        "lng": "27.64838"
+    },
+    {
+        "country": "BG",
+        "name": "Balgarevo",
+        "lat": "43.40296",
+        "lng": "28.41189"
+    }
+]

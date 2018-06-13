@@ -1,0 +1,1274 @@
+[
+    {
+        "country": "EE",
+        "name": "V\u00e4ndra",
+        "lat": "58.64806",
+        "lng": "25.03611"
+    },
+    {
+        "country": "EE",
+        "name": "V\u00f5su",
+        "lat": "59.5725",
+        "lng": "25.97528"
+    },
+    {
+        "country": "EE",
+        "name": "V\u00f5ru",
+        "lat": "57.83389",
+        "lng": "27.01944"
+    },
+    {
+        "country": "EE",
+        "name": "V\u00f5nnu",
+        "lat": "58.27833",
+        "lng": "27.04806"
+    },
+    {
+        "country": "EE",
+        "name": "Tabivere",
+        "lat": "58.55418",
+        "lng": "26.58404"
+    },
+    {
+        "country": "EE",
+        "name": "Voka",
+        "lat": "59.40776",
+        "lng": "27.58263"
+    },
+    {
+        "country": "EE",
+        "name": "V\u00f5hma",
+        "lat": "58.62833",
+        "lng": "25.54833"
+    },
+    {
+        "country": "EE",
+        "name": "Viru-Nigula",
+        "lat": "59.44417",
+        "lng": "26.6875"
+    },
+    {
+        "country": "EE",
+        "name": "Vinni",
+        "lat": "59.29583",
+        "lng": "26.43222"
+    },
+    {
+        "country": "EE",
+        "name": "Viljandi",
+        "lat": "58.36389",
+        "lng": "25.59"
+    },
+    {
+        "country": "EE",
+        "name": "Viiratsi",
+        "lat": "58.36",
+        "lng": "25.63722"
+    },
+    {
+        "country": "EE",
+        "name": "Viimsi",
+        "lat": "59.50502",
+        "lng": "24.84807"
+    },
+    {
+        "country": "EE",
+        "name": "Kivi-Vigala",
+        "lat": "58.71528",
+        "lng": "24.37694"
+    },
+    {
+        "country": "EE",
+        "name": "Veriora",
+        "lat": "58.00417",
+        "lng": "27.35194"
+    },
+    {
+        "country": "EE",
+        "name": "Vasalemma",
+        "lat": "59.24417",
+        "lng": "24.29"
+    },
+    {
+        "country": "EE",
+        "name": "Vastseliina",
+        "lat": "57.72972",
+        "lng": "27.29361"
+    },
+    {
+        "country": "EE",
+        "name": "Vastse-Kuuste",
+        "lat": "58.16778",
+        "lng": "26.92861"
+    },
+    {
+        "country": "EE",
+        "name": "Varstu",
+        "lat": "57.63917",
+        "lng": "26.65972"
+    },
+    {
+        "country": "EE",
+        "name": "V\u00e4rska",
+        "lat": "57.95806",
+        "lng": "27.63806"
+    },
+    {
+        "country": "EE",
+        "name": "Varbla",
+        "lat": "58.43194",
+        "lng": "23.76111"
+    },
+    {
+        "country": "EE",
+        "name": "Vara",
+        "lat": "58.52083",
+        "lng": "26.88167"
+    },
+    {
+        "country": "EE",
+        "name": "Vana-Antsla",
+        "lat": "57.86611",
+        "lng": "26.53222"
+    },
+    {
+        "country": "EE",
+        "name": "Valjala",
+        "lat": "58.40611",
+        "lng": "22.80111"
+    },
+    {
+        "country": "EE",
+        "name": "Vallapalu",
+        "lat": "58.25139",
+        "lng": "26.18306"
+    },
+    {
+        "country": "EE",
+        "name": "Valga",
+        "lat": "57.77781",
+        "lng": "26.0473"
+    },
+    {
+        "country": "EE",
+        "name": "V\u00e4ike-Maarja",
+        "lat": "59.12639",
+        "lng": "26.25"
+    },
+    {
+        "country": "EE",
+        "name": "Vaida",
+        "lat": "59.28546",
+        "lng": "24.97897"
+    },
+    {
+        "country": "EE",
+        "name": "Vyatsa",
+        "lat": "58.88556",
+        "lng": "25.44639"
+    },
+    {
+        "country": "EE",
+        "name": "Uulu",
+        "lat": "58.28361",
+        "lng": "24.58722"
+    },
+    {
+        "country": "EE",
+        "name": "Uuem\u00f5isa",
+        "lat": "58.93944",
+        "lng": "23.58944"
+    },
+    {
+        "country": "EE",
+        "name": "Ulvi",
+        "lat": "59.32417",
+        "lng": "26.63611"
+    },
+    {
+        "country": "EE",
+        "name": "\u00dclenurme",
+        "lat": "58.3162",
+        "lng": "26.72517"
+    },
+    {
+        "country": "EE",
+        "name": "T\u00fcri",
+        "lat": "58.80861",
+        "lng": "25.4325"
+    },
+    {
+        "country": "EE",
+        "name": "Turba",
+        "lat": "59.08306",
+        "lng": "24.225"
+    },
+    {
+        "country": "EE",
+        "name": "Tudulinna",
+        "lat": "59.03722",
+        "lng": "27.08528"
+    },
+    {
+        "country": "EE",
+        "name": "T\u00f5stamaa",
+        "lat": "58.3325",
+        "lng": "23.99972"
+    },
+    {
+        "country": "EE",
+        "name": "T\u00f5rva",
+        "lat": "58.00278",
+        "lng": "25.935"
+    },
+    {
+        "country": "EE",
+        "name": "Torma",
+        "lat": "58.81278",
+        "lng": "26.73833"
+    },
+    {
+        "country": "EE",
+        "name": "Tori",
+        "lat": "58.47889",
+        "lng": "24.82417"
+    },
+    {
+        "country": "EE",
+        "name": "Tootsi",
+        "lat": "58.57806",
+        "lng": "24.7925"
+    },
+    {
+        "country": "EE",
+        "name": "Tooni",
+        "lat": "58.37306",
+        "lng": "27.52333"
+    },
+    {
+        "country": "EE",
+        "name": "Toila",
+        "lat": "59.42127",
+        "lng": "27.50807"
+    },
+    {
+        "country": "EE",
+        "name": "Tilsi",
+        "lat": "57.975",
+        "lng": "27.01222"
+    },
+    {
+        "country": "EE",
+        "name": "Tempa",
+        "lat": "58.93299",
+        "lng": "22.92258"
+    },
+    {
+        "country": "EE",
+        "name": "Tartu",
+        "lat": "58.38062",
+        "lng": "26.72509"
+    },
+    {
+        "country": "EE",
+        "name": "Tapa",
+        "lat": "59.26056",
+        "lng": "25.95861"
+    },
+    {
+        "country": "EE",
+        "name": "Tamsalu",
+        "lat": "59.15861",
+        "lng": "26.11528"
+    },
+    {
+        "country": "EE",
+        "name": "Tamme",
+        "lat": "58.92833",
+        "lng": "24.64389"
+    },
+    {
+        "country": "EE",
+        "name": "Tallinn",
+        "lat": "59.43696",
+        "lng": "24.75353"
+    },
+    {
+        "country": "EE",
+        "name": "Taebla",
+        "lat": "58.95389",
+        "lng": "23.75222"
+    },
+    {
+        "country": "EE",
+        "name": "Tabasalu",
+        "lat": "59.42607",
+        "lng": "24.5533"
+    },
+    {
+        "country": "EE",
+        "name": "K\u00f5pu",
+        "lat": "58.32694",
+        "lng": "25.31167"
+    },
+    {
+        "country": "EE",
+        "name": "Suure-Jaani",
+        "lat": "58.53611",
+        "lng": "25.47056"
+    },
+    {
+        "country": "EE",
+        "name": "Surju",
+        "lat": "58.235",
+        "lng": "24.7175"
+    },
+    {
+        "country": "EE",
+        "name": "Sonda",
+        "lat": "59.34361",
+        "lng": "26.83639"
+    },
+    {
+        "country": "EE",
+        "name": "S\u00f5merpalu",
+        "lat": "57.85",
+        "lng": "26.82528"
+    },
+    {
+        "country": "EE",
+        "name": "Sindi",
+        "lat": "58.40056",
+        "lng": "24.6675"
+    },
+    {
+        "country": "EE",
+        "name": "Sillam\u00e4e",
+        "lat": "59.39697",
+        "lng": "27.76331"
+    },
+    {
+        "country": "EE",
+        "name": "Saverna",
+        "lat": "58.06889",
+        "lng": "26.72472"
+    },
+    {
+        "country": "EE",
+        "name": "Sauga",
+        "lat": "58.4272",
+        "lng": "24.49496"
+    },
+    {
+        "country": "EE",
+        "name": "Saue",
+        "lat": "59.32258",
+        "lng": "24.54967"
+    },
+    {
+        "country": "EE",
+        "name": "S\u00e4revere",
+        "lat": "58.79",
+        "lng": "25.42806"
+    },
+    {
+        "country": "EE",
+        "name": "Sangaste",
+        "lat": "57.92528",
+        "lng": "26.315"
+    },
+    {
+        "country": "EE",
+        "name": "Salme",
+        "lat": "58.16139",
+        "lng": "22.26222"
+    },
+    {
+        "country": "EE",
+        "name": "Saku",
+        "lat": "59.30354",
+        "lng": "24.66382"
+    },
+    {
+        "country": "EE",
+        "name": "Syare",
+        "lat": "58.14833",
+        "lng": "24.0175"
+    },
+    {
+        "country": "EE",
+        "name": "Rummu",
+        "lat": "59.53528",
+        "lng": "24.79972"
+    },
+    {
+        "country": "EE",
+        "name": "R\u00f5uge",
+        "lat": "57.72778",
+        "lng": "26.90972"
+    },
+    {
+        "country": "EE",
+        "name": "Roosna-Alliku",
+        "lat": "59.02722",
+        "lng": "25.70833"
+    },
+    {
+        "country": "EE",
+        "name": "R\u00f5ngu",
+        "lat": "58.14528",
+        "lng": "26.24806"
+    },
+    {
+        "country": "EE",
+        "name": "Riisipere",
+        "lat": "59.11417",
+        "lng": "24.31056"
+    },
+    {
+        "country": "EE",
+        "name": "Riidaja",
+        "lat": "58.09667",
+        "lng": "25.8975"
+    },
+    {
+        "country": "EE",
+        "name": "Rapla",
+        "lat": "59.00722",
+        "lng": "24.79278"
+    },
+    {
+        "country": "EE",
+        "name": "R\u00e4pina",
+        "lat": "58.09806",
+        "lng": "27.46361"
+    },
+    {
+        "country": "EE",
+        "name": "Rakvere",
+        "lat": "59.34639",
+        "lng": "26.35583"
+    },
+    {
+        "country": "EE",
+        "name": "Rakke",
+        "lat": "58.98167",
+        "lng": "26.25444"
+    },
+    {
+        "country": "EE",
+        "name": "Raja",
+        "lat": "58.82194",
+        "lng": "26.94306"
+    },
+    {
+        "country": "EE",
+        "name": "Raasiku",
+        "lat": "59.36639",
+        "lng": "25.18306"
+    },
+    {
+        "country": "EE",
+        "name": "Puurmani",
+        "lat": "58.57833",
+        "lng": "26.27528"
+    },
+    {
+        "country": "EE",
+        "name": "P\u00fcssi",
+        "lat": "59.36",
+        "lng": "27.04972"
+    },
+    {
+        "country": "EE",
+        "name": "P\u00fcrksi",
+        "lat": "59.01111",
+        "lng": "23.5275"
+    },
+    {
+        "country": "EE",
+        "name": "Puka",
+        "lat": "58.04972",
+        "lng": "26.22639"
+    },
+    {
+        "country": "EE",
+        "name": "Puhja",
+        "lat": "58.34194",
+        "lng": "26.31472"
+    },
+    {
+        "country": "EE",
+        "name": "P\u00f5lva",
+        "lat": "58.06028",
+        "lng": "27.06944"
+    },
+    {
+        "country": "EE",
+        "name": "P\u00f5ltsamaa",
+        "lat": "58.6525",
+        "lng": "25.97056"
+    },
+    {
+        "country": "EE",
+        "name": "Pihtla",
+        "lat": "58.30417",
+        "lng": "22.69917"
+    },
+    {
+        "country": "EE",
+        "name": "Peetri",
+        "lat": "58.95",
+        "lng": "25.83333"
+    },
+    {
+        "country": "EE",
+        "name": "P\u00e4rnu-Jaagupi",
+        "lat": "58.61052",
+        "lng": "24.50689"
+    },
+    {
+        "country": "EE",
+        "name": "P\u00e4rnu",
+        "lat": "58.38588",
+        "lng": "24.49711"
+    },
+    {
+        "country": "EE",
+        "name": "Paldiski",
+        "lat": "59.35667",
+        "lng": "24.05306"
+    },
+    {
+        "country": "EE",
+        "name": "Palamuse",
+        "lat": "58.685",
+        "lng": "26.57889"
+    },
+    {
+        "country": "EE",
+        "name": "Pala",
+        "lat": "58.66667",
+        "lng": "27.02194"
+    },
+    {
+        "country": "EE",
+        "name": "Pajusti",
+        "lat": "59.27444",
+        "lng": "26.42333"
+    },
+    {
+        "country": "EE",
+        "name": "Paikuse",
+        "lat": "58.37917",
+        "lng": "24.63444"
+    },
+    {
+        "country": "EE",
+        "name": "Paide",
+        "lat": "58.88556",
+        "lng": "25.55722"
+    },
+    {
+        "country": "EE",
+        "name": "Padise",
+        "lat": "59.23111",
+        "lng": "24.14056"
+    },
+    {
+        "country": "EE",
+        "name": "\u00d5ru",
+        "lat": "57.92583",
+        "lng": "26.17889"
+    },
+    {
+        "country": "EE",
+        "name": "Orissaare",
+        "lat": "58.55917",
+        "lng": "23.08262"
+    },
+    {
+        "country": "EE",
+        "name": "Orava",
+        "lat": "57.89667",
+        "lng": "27.45917"
+    },
+    {
+        "country": "EE",
+        "name": "Karksi-Nuia",
+        "lat": "58.10333",
+        "lng": "25.56278"
+    },
+    {
+        "country": "EE",
+        "name": "N\u00f5va",
+        "lat": "59.21639",
+        "lng": "23.6725"
+    },
+    {
+        "country": "EE",
+        "name": "N\u00f5o",
+        "lat": "58.27556",
+        "lng": "26.5375"
+    },
+    {
+        "country": "EE",
+        "name": "Narva-J\u00f5esuu",
+        "lat": "59.45889",
+        "lng": "28.04083"
+    },
+    {
+        "country": "EE",
+        "name": "Narva",
+        "lat": "59.37722",
+        "lng": "28.19028"
+    },
+    {
+        "country": "EE",
+        "name": "Mustvee",
+        "lat": "58.84861",
+        "lng": "26.93972"
+    },
+    {
+        "country": "EE",
+        "name": "Mustla",
+        "lat": "58.23333",
+        "lng": "25.86667"
+    },
+    {
+        "country": "EE",
+        "name": "Mustjala",
+        "lat": "58.46139",
+        "lng": "22.24167"
+    },
+    {
+        "country": "EE",
+        "name": "Mooste",
+        "lat": "58.15611",
+        "lng": "27.19278"
+    },
+    {
+        "country": "EE",
+        "name": "M\u00f5niste",
+        "lat": "57.60917",
+        "lng": "26.61361"
+    },
+    {
+        "country": "EE",
+        "name": "M\u00f5isak\u00fcla",
+        "lat": "58.09222",
+        "lng": "25.18639"
+    },
+    {
+        "country": "EE",
+        "name": "Misso",
+        "lat": "57.60222",
+        "lng": "27.23778"
+    },
+    {
+        "country": "EE",
+        "name": "Mikitam\u00e4e",
+        "lat": "58.00083",
+        "lng": "27.54806"
+    },
+    {
+        "country": "EE",
+        "name": "Merem\u00e4e",
+        "lat": "57.74472",
+        "lng": "27.46083"
+    },
+    {
+        "country": "EE",
+        "name": "Melliste",
+        "lat": "58.32889",
+        "lng": "26.98139"
+    },
+    {
+        "country": "EE",
+        "name": "Meeksi",
+        "lat": "58.22778",
+        "lng": "27.43222"
+    },
+    {
+        "country": "EE",
+        "name": "Martna",
+        "lat": "58.85583",
+        "lng": "23.80389"
+    },
+    {
+        "country": "EE",
+        "name": "M\u00e4rjamaa",
+        "lat": "58.90389",
+        "lng": "24.43056"
+    },
+    {
+        "country": "EE",
+        "name": "M\u00e4etaguse",
+        "lat": "59.22972",
+        "lng": "27.27222"
+    },
+    {
+        "country": "EE",
+        "name": "Maardu",
+        "lat": "59.46529",
+        "lng": "24.98215"
+    },
+    {
+        "country": "EE",
+        "name": "Luunja",
+        "lat": "58.35583",
+        "lng": "26.88083"
+    },
+    {
+        "country": "EE",
+        "name": "L\u00fcganuse",
+        "lat": "59.38056",
+        "lng": "27.03028"
+    },
+    {
+        "country": "EE",
+        "name": "Loo",
+        "lat": "59.43123",
+        "lng": "24.94949"
+    },
+    {
+        "country": "EE",
+        "name": "Loksa",
+        "lat": "59.57639",
+        "lng": "25.72139"
+    },
+    {
+        "country": "EE",
+        "name": "Lohusuu",
+        "lat": "58.94361",
+        "lng": "27.045"
+    },
+    {
+        "country": "EE",
+        "name": "Liiva",
+        "lat": "58.60194",
+        "lng": "23.24694"
+    },
+    {
+        "country": "EE",
+        "name": "Lihula",
+        "lat": "58.68139",
+        "lng": "23.84528"
+    },
+    {
+        "country": "EE",
+        "name": "Leisi",
+        "lat": "58.57056",
+        "lng": "22.69694"
+    },
+    {
+        "country": "EE",
+        "name": "Lasva",
+        "lat": "57.86278",
+        "lng": "27.18417"
+    },
+    {
+        "country": "EE",
+        "name": "Laimjala",
+        "lat": "58.42056",
+        "lng": "23.01556"
+    },
+    {
+        "country": "EE",
+        "name": "Laeva",
+        "lat": "58.49194",
+        "lng": "26.36167"
+    },
+    {
+        "country": "EE",
+        "name": "Laekvere",
+        "lat": "59.06556",
+        "lng": "26.56556"
+    },
+    {
+        "country": "EE",
+        "name": "Laatre",
+        "lat": "57.86889",
+        "lng": "26.25361"
+    },
+    {
+        "country": "EE",
+        "name": "Laanemetsa",
+        "lat": "57.65",
+        "lng": "26.31667"
+    },
+    {
+        "country": "EE",
+        "name": "Kuusalu",
+        "lat": "59.44389",
+        "lng": "25.44139"
+    },
+    {
+        "country": "EE",
+        "name": "Kuressaare",
+        "lat": "58.24806",
+        "lng": "22.50389"
+    },
+    {
+        "country": "EE",
+        "name": "Kurepalu",
+        "lat": "58.31861",
+        "lng": "26.84083"
+    },
+    {
+        "country": "EE",
+        "name": "Kunda",
+        "lat": "59.49861",
+        "lng": "26.52611"
+    },
+    {
+        "country": "EE",
+        "name": "Kunda",
+        "lat": "59.48333",
+        "lng": "26.53333"
+    },
+    {
+        "country": "EE",
+        "name": "Kullamaa",
+        "lat": "58.87889",
+        "lng": "24.08167"
+    },
+    {
+        "country": "EE",
+        "name": "Kuldre",
+        "lat": "57.89417",
+        "lng": "26.47889"
+    },
+    {
+        "country": "EE",
+        "name": "Krootuse",
+        "lat": "58.07111",
+        "lng": "26.835"
+    },
+    {
+        "country": "EE",
+        "name": "Kose",
+        "lat": "59.46001",
+        "lng": "24.87824"
+    },
+    {
+        "country": "EE",
+        "name": "Kose",
+        "lat": "59.17889",
+        "lng": "25.17306"
+    },
+    {
+        "country": "EE",
+        "name": "K\u00f5rvek\u00fcla",
+        "lat": "58.42417",
+        "lng": "26.78222"
+    },
+    {
+        "country": "EE",
+        "name": "Koonga",
+        "lat": "58.5825",
+        "lng": "24.15417"
+    },
+    {
+        "country": "EE",
+        "name": "K\u00f5o",
+        "lat": "58.62917",
+        "lng": "25.72111"
+    },
+    {
+        "country": "EE",
+        "name": "Konguta",
+        "lat": "58.22528",
+        "lng": "26.29361"
+    },
+    {
+        "country": "EE",
+        "name": "K\u00f5msi",
+        "lat": "58.62556",
+        "lng": "23.66167"
+    },
+    {
+        "country": "EE",
+        "name": "Kolkja",
+        "lat": "58.54556",
+        "lng": "27.215"
+    },
+    {
+        "country": "EE",
+        "name": "Kolga-Jaani",
+        "lat": "58.53306",
+        "lng": "25.94583"
+    },
+    {
+        "country": "EE",
+        "name": "Koigi",
+        "lat": "58.82889",
+        "lng": "25.75444"
+    },
+    {
+        "country": "EE",
+        "name": "Kohtla-J\u00e4rve",
+        "lat": "59.39861",
+        "lng": "27.27306"
+    },
+    {
+        "country": "EE",
+        "name": "Kohtla-N\u00f5mme",
+        "lat": "59.35167",
+        "lng": "27.175"
+    },
+    {
+        "country": "EE",
+        "name": "Kohila",
+        "lat": "59.16806",
+        "lng": "24.7575"
+    },
+    {
+        "country": "EE",
+        "name": "Koeru",
+        "lat": "58.96306",
+        "lng": "26.03083"
+    },
+    {
+        "country": "EE",
+        "name": "Kivi\u00f5li",
+        "lat": "59.35306",
+        "lng": "26.97111"
+    },
+    {
+        "country": "EE",
+        "name": "Kilingi-N\u00f5mme",
+        "lat": "58.15028",
+        "lng": "24.96417"
+    },
+    {
+        "country": "EE",
+        "name": "Kiiu",
+        "lat": "59.44778",
+        "lng": "25.37944"
+    },
+    {
+        "country": "EE",
+        "name": "Kiili",
+        "lat": "59.30775",
+        "lng": "24.83776"
+    },
+    {
+        "country": "EE",
+        "name": "Kihelkonna",
+        "lat": "58.35222",
+        "lng": "22.04694"
+    },
+    {
+        "country": "EE",
+        "name": "Keila",
+        "lat": "59.30361",
+        "lng": "24.41306"
+    },
+    {
+        "country": "EE",
+        "name": "Kehtna",
+        "lat": "58.93028",
+        "lng": "24.87806"
+    },
+    {
+        "country": "EE",
+        "name": "Kehra",
+        "lat": "59.33611",
+        "lng": "25.32111"
+    },
+    {
+        "country": "EE",
+        "name": "Karula",
+        "lat": "57.75111",
+        "lng": "26.38389"
+    },
+    {
+        "country": "EE",
+        "name": "Kyaru",
+        "lat": "58.83389",
+        "lng": "25.14806"
+    },
+    {
+        "country": "EE",
+        "name": "Tornim\u00e4e",
+        "lat": "58.50167",
+        "lng": "23.13139"
+    },
+    {
+        "country": "EE",
+        "name": "K\u00e4rdla",
+        "lat": "58.99778",
+        "lng": "22.74917"
+    },
+    {
+        "country": "EE",
+        "name": "Kanepi",
+        "lat": "57.98306",
+        "lng": "26.75639"
+    },
+    {
+        "country": "EE",
+        "name": "Kambja",
+        "lat": "58.23056",
+        "lng": "26.70056"
+    },
+    {
+        "country": "EE",
+        "name": "Kallaste",
+        "lat": "58.66312",
+        "lng": "27.16164"
+    },
+    {
+        "country": "EE",
+        "name": "Kalana",
+        "lat": "58.71778",
+        "lng": "26.03972"
+    },
+    {
+        "country": "EE",
+        "name": "Kaiu",
+        "lat": "59.01056",
+        "lng": "25.05972"
+    },
+    {
+        "country": "EE",
+        "name": "K\u00e4ina",
+        "lat": "58.82848",
+        "lng": "22.77711"
+    },
+    {
+        "country": "EE",
+        "name": "Kadrina",
+        "lat": "59.33472",
+        "lng": "26.145"
+    },
+    {
+        "country": "EE",
+        "name": "Juuru",
+        "lat": "59.06472",
+        "lng": "24.95028"
+    },
+    {
+        "country": "EE",
+        "name": "J\u00fcri",
+        "lat": "59.35417",
+        "lng": "24.89417"
+    },
+    {
+        "country": "EE",
+        "name": "J\u00f5hvi",
+        "lat": "59.35917",
+        "lng": "27.42111"
+    },
+    {
+        "country": "EE",
+        "name": "J\u00f5geva",
+        "lat": "58.74667",
+        "lng": "26.39389"
+    },
+    {
+        "country": "EE",
+        "name": "J\u00e4rve",
+        "lat": "59.40583",
+        "lng": "27.31111"
+    },
+    {
+        "country": "EE",
+        "name": "J\u00e4rva-Madise",
+        "lat": "59.11639",
+        "lng": "25.65861"
+    },
+    {
+        "country": "EE",
+        "name": "J\u00e4rvakandi",
+        "lat": "58.77889",
+        "lng": "24.82583"
+    },
+    {
+        "country": "EE",
+        "name": "J\u00e4rva-Jaani",
+        "lat": "59.03861",
+        "lng": "25.88639"
+    },
+    {
+        "country": "EE",
+        "name": "Imavere",
+        "lat": "58.73306",
+        "lng": "25.7725"
+    },
+    {
+        "country": "EE",
+        "name": "Ilmatsalu",
+        "lat": "58.38639",
+        "lng": "26.54667"
+    },
+    {
+        "country": "EE",
+        "name": "Illuka",
+        "lat": "59.23778",
+        "lng": "27.48472"
+    },
+    {
+        "country": "EE",
+        "name": "Iisaku",
+        "lat": "59.10139",
+        "lng": "27.30806"
+    },
+    {
+        "country": "EE",
+        "name": "Hummuli",
+        "lat": "57.90361",
+        "lng": "26.05833"
+    },
+    {
+        "country": "EE",
+        "name": "Hullo",
+        "lat": "58.99004",
+        "lng": "23.24441"
+    },
+    {
+        "country": "EE",
+        "name": "Hellenurme",
+        "lat": "58.13611",
+        "lng": "26.39"
+    },
+    {
+        "country": "EE",
+        "name": "Halliste",
+        "lat": "58.15",
+        "lng": "25.43333"
+    },
+    {
+        "country": "EE",
+        "name": "Haljala",
+        "lat": "59.43361",
+        "lng": "26.26139"
+    },
+    {
+        "country": "EE",
+        "name": "Haapsalu",
+        "lat": "58.94306",
+        "lng": "23.54139"
+    },
+    {
+        "country": "EE",
+        "name": "Haanja",
+        "lat": "57.72167",
+        "lng": "27.04889"
+    },
+    {
+        "country": "EE",
+        "name": "Haabneeme",
+        "lat": "59.51358",
+        "lng": "24.82225"
+    },
+    {
+        "country": "EE",
+        "name": "Emmaste",
+        "lat": "58.70361",
+        "lng": "22.61694"
+    },
+    {
+        "country": "EE",
+        "name": "Elva",
+        "lat": "58.2225",
+        "lng": "26.42111"
+    },
+    {
+        "country": "EE",
+        "name": "Avinurme",
+        "lat": "58.98222",
+        "lng": "26.86417"
+    },
+    {
+        "country": "EE",
+        "name": "Audru",
+        "lat": "58.40861",
+        "lng": "24.37389"
+    },
+    {
+        "country": "EE",
+        "name": "Aseri",
+        "lat": "59.45056",
+        "lng": "26.8675"
+    },
+    {
+        "country": "EE",
+        "name": "Aruk\u00fcla",
+        "lat": "59.36686",
+        "lng": "25.07618"
+    },
+    {
+        "country": "EE",
+        "name": "Antsla",
+        "lat": "57.82556",
+        "lng": "26.54056"
+    },
+    {
+        "country": "EE",
+        "name": "Ambla",
+        "lat": "59.19111",
+        "lng": "25.84556"
+    },
+    {
+        "country": "EE",
+        "name": "Alatskivi",
+        "lat": "58.59806",
+        "lng": "27.13361"
+    },
+    {
+        "country": "EE",
+        "name": "Alaj\u00f5e",
+        "lat": "59.0125",
+        "lng": "27.42917"
+    },
+    {
+        "country": "EE",
+        "name": "Ahja",
+        "lat": "58.20389",
+        "lng": "27.07333"
+    },
+    {
+        "country": "EE",
+        "name": "Aegviidu",
+        "lat": "59.28583",
+        "lng": "25.61417"
+    },
+    {
+        "country": "EE",
+        "name": "Abja-Paluoja",
+        "lat": "58.12528",
+        "lng": "25.34972"
+    },
+    {
+        "country": "EE",
+        "name": "S\u00f5meru",
+        "lat": "59.36111",
+        "lng": "26.4375"
+    },
+    {
+        "country": "EE",
+        "name": "Laagri",
+        "lat": "59.35083",
+        "lng": "24.61418"
+    },
+    {
+        "country": "EE",
+        "name": "Viimsi",
+        "lat": "59.50086",
+        "lng": "24.86254"
+    },
+    {
+        "country": "EE",
+        "name": "Iide",
+        "lat": "57.97611",
+        "lng": "22.06528"
+    },
+    {
+        "country": "EE",
+        "name": "K\u00e4\u00e4pa",
+        "lat": "58.69413",
+        "lng": "26.88395"
+    }
+]

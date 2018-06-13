@@ -1,0 +1,644 @@
+[
+    {
+        "country": "GE",
+        "name": "Abastumani",
+        "lat": "41.7075",
+        "lng": "42.84571"
+    },
+    {
+        "country": "GE",
+        "name": "Zugdidi",
+        "lat": "42.5088",
+        "lng": "41.87088"
+    },
+    {
+        "country": "GE",
+        "name": "Zhinvali",
+        "lat": "42.13181",
+        "lng": "44.77264"
+    },
+    {
+        "country": "GE",
+        "name": "Zestap\u2019oni",
+        "lat": "42.11",
+        "lng": "43.0525"
+    },
+    {
+        "country": "GE",
+        "name": "Zahesi",
+        "lat": "41.82458",
+        "lng": "44.75361"
+    },
+    {
+        "country": "GE",
+        "name": "Vani",
+        "lat": "42.0832",
+        "lng": "42.52163"
+    },
+    {
+        "country": "GE",
+        "name": "Vale",
+        "lat": "41.61558",
+        "lng": "42.87224"
+    },
+    {
+        "country": "GE",
+        "name": "Urek\u2019i",
+        "lat": "41.99556",
+        "lng": "41.77861"
+    },
+    {
+        "country": "GE",
+        "name": "Tsnori",
+        "lat": "41.62088",
+        "lng": "45.96943"
+    },
+    {
+        "country": "GE",
+        "name": "Tsqnet\u2019i",
+        "lat": "41.69472",
+        "lng": "44.69861"
+    },
+    {
+        "country": "GE",
+        "name": "Ts\u2019khinvali",
+        "lat": "42.22764",
+        "lng": "43.96861"
+    },
+    {
+        "country": "GE",
+        "name": "Tsinandali",
+        "lat": "41.89315",
+        "lng": "45.57129"
+    },
+    {
+        "country": "GE",
+        "name": "Tsikhisdziri",
+        "lat": "41.76659",
+        "lng": "41.75517"
+    },
+    {
+        "country": "GE",
+        "name": "Tsalka",
+        "lat": "41.5946",
+        "lng": "44.08909"
+    },
+    {
+        "country": "GE",
+        "name": "Tsalenjikha",
+        "lat": "42.60444",
+        "lng": "42.06825"
+    },
+    {
+        "country": "GE",
+        "name": "Tsaghveri",
+        "lat": "41.80365",
+        "lng": "43.48194"
+    },
+    {
+        "country": "GE",
+        "name": "Tqvarch'eli",
+        "lat": "42.84035",
+        "lng": "41.68007"
+    },
+    {
+        "country": "GE",
+        "name": "Tqibuli",
+        "lat": "42.35121",
+        "lng": "42.99874"
+    },
+    {
+        "country": "GE",
+        "name": "T\u2019ianet\u2019i",
+        "lat": "42.10833",
+        "lng": "44.96389"
+    },
+    {
+        "country": "GE",
+        "name": "T\u2019et\u2019ri Tsqaro",
+        "lat": "41.54448",
+        "lng": "44.46153"
+    },
+    {
+        "country": "GE",
+        "name": "Telavi",
+        "lat": "41.91978",
+        "lng": "45.47315"
+    },
+    {
+        "country": "GE",
+        "name": "Tbilisi",
+        "lat": "41.69411",
+        "lng": "44.83368"
+    },
+    {
+        "country": "GE",
+        "name": "Surami",
+        "lat": "42.02431",
+        "lng": "43.55556"
+    },
+    {
+        "country": "GE",
+        "name": "Sokhumi",
+        "lat": "43.00697",
+        "lng": "40.9893"
+    },
+    {
+        "country": "GE",
+        "name": "Sighnaghi",
+        "lat": "41.62046",
+        "lng": "45.92198"
+    },
+    {
+        "country": "GE",
+        "name": "Shuakhevi",
+        "lat": "41.63",
+        "lng": "42.19083"
+    },
+    {
+        "country": "GE",
+        "name": "Shorapani",
+        "lat": "42.0898",
+        "lng": "43.08662"
+    },
+    {
+        "country": "GE",
+        "name": "Naghvarevi",
+        "lat": "41.35272",
+        "lng": "44.76178"
+    },
+    {
+        "country": "GE",
+        "name": "Senak\u2019i",
+        "lat": "42.27042",
+        "lng": "42.0675"
+    },
+    {
+        "country": "GE",
+        "name": "Samtredia",
+        "lat": "42.1537",
+        "lng": "42.33517"
+    },
+    {
+        "country": "GE",
+        "name": "Sagarejo",
+        "lat": "41.73397",
+        "lng": "45.33149"
+    },
+    {
+        "country": "GE",
+        "name": "Sach\u2019khere",
+        "lat": "42.34528",
+        "lng": "43.41944"
+    },
+    {
+        "country": "GE",
+        "name": "Rust\u2019avi",
+        "lat": "41.54949",
+        "lng": "44.99323"
+    },
+    {
+        "country": "GE",
+        "name": "Qvareli",
+        "lat": "41.95493",
+        "lng": "45.81716"
+    },
+    {
+        "country": "GE",
+        "name": "P\u2019ot\u2019i",
+        "lat": "42.14616",
+        "lng": "41.67197"
+    },
+    {
+        "country": "GE",
+        "name": "P\u2019asanauri",
+        "lat": "42.3506",
+        "lng": "44.68912"
+    },
+    {
+        "country": "GE",
+        "name": "Ozurgeti",
+        "lat": "41.92442",
+        "lng": "42.00682"
+    },
+    {
+        "country": "GE",
+        "name": "Orsant\u2019ia",
+        "lat": "42.46777",
+        "lng": "41.67377"
+    },
+    {
+        "country": "GE",
+        "name": "Oni",
+        "lat": "42.57944",
+        "lng": "43.4425"
+    },
+    {
+        "country": "GE",
+        "name": "Ochkhamuri",
+        "lat": "41.85975",
+        "lng": "41.85309"
+    },
+    {
+        "country": "GE",
+        "name": "Och\u2019amch\u2019ire",
+        "lat": "42.71232",
+        "lng": "41.46863"
+    },
+    {
+        "country": "GE",
+        "name": "Ninotsminda",
+        "lat": "41.26458",
+        "lng": "43.59161"
+    },
+    {
+        "country": "GE",
+        "name": "Mtskheta",
+        "lat": "41.84514",
+        "lng": "44.71875"
+    },
+    {
+        "country": "GE",
+        "name": "Mest\u2019ia",
+        "lat": "43.04581",
+        "lng": "42.7278"
+    },
+    {
+        "country": "GE",
+        "name": "Mart\u2019vili",
+        "lat": "42.41436",
+        "lng": "42.37924"
+    },
+    {
+        "country": "GE",
+        "name": "Marneuli",
+        "lat": "41.47588",
+        "lng": "44.80895"
+    },
+    {
+        "country": "GE",
+        "name": "Manglisi",
+        "lat": "41.69698",
+        "lng": "44.38448"
+    },
+    {
+        "country": "GE",
+        "name": "Makhinjauri",
+        "lat": "41.67385",
+        "lng": "41.69401"
+    },
+    {
+        "country": "GE",
+        "name": "Lent\u2019ekhi",
+        "lat": "42.78893",
+        "lng": "42.72226"
+    },
+    {
+        "country": "GE",
+        "name": "Lanchkhuti",
+        "lat": "42.09027",
+        "lng": "42.03239"
+    },
+    {
+        "country": "GE",
+        "name": "Lagodekhi",
+        "lat": "41.82681",
+        "lng": "46.27667"
+    },
+    {
+        "country": "GE",
+        "name": "Kveda Chkhorots\u2019q\u2019u",
+        "lat": "42.48103",
+        "lng": "42.09661"
+    },
+    {
+        "country": "GE",
+        "name": "Kutaisi",
+        "lat": "42.26791",
+        "lng": "42.69459"
+    },
+    {
+        "country": "GE",
+        "name": "K\u2019ulashi",
+        "lat": "42.20405",
+        "lng": "42.34289"
+    },
+    {
+        "country": "GE",
+        "name": "Kobuleti",
+        "lat": "41.82143",
+        "lng": "41.77921"
+    },
+    {
+        "country": "GE",
+        "name": "Khulo",
+        "lat": "41.64353",
+        "lng": "42.30397"
+    },
+    {
+        "country": "GE",
+        "name": "Khoni",
+        "lat": "42.3226",
+        "lng": "42.42061"
+    },
+    {
+        "country": "GE",
+        "name": "Khobi",
+        "lat": "42.31558",
+        "lng": "41.89871"
+    },
+    {
+        "country": "GE",
+        "name": "Khelvachauri",
+        "lat": "41.58556",
+        "lng": "41.66889"
+    },
+    {
+        "country": "GE",
+        "name": "Khashuri",
+        "lat": "41.99414",
+        "lng": "43.59994"
+    },
+    {
+        "country": "GE",
+        "name": "Keda",
+        "lat": "41.60093",
+        "lng": "41.94008"
+    },
+    {
+        "country": "GE",
+        "name": "Step\u2019antsminda",
+        "lat": "42.65667",
+        "lng": "44.64333"
+    },
+    {
+        "country": "GE",
+        "name": "Kats\u2019khi",
+        "lat": "42.29236",
+        "lng": "43.20888"
+    },
+    {
+        "country": "GE",
+        "name": "Kaspi",
+        "lat": "41.9252",
+        "lng": "44.42568"
+    },
+    {
+        "country": "GE",
+        "name": "Java",
+        "lat": "42.39972",
+        "lng": "43.93667"
+    },
+    {
+        "country": "GE",
+        "name": "Gurjaani",
+        "lat": "41.74292",
+        "lng": "45.80111"
+    },
+    {
+        "country": "GE",
+        "name": "Gulrip\u2019shi",
+        "lat": "42.92694",
+        "lng": "41.09639"
+    },
+    {
+        "country": "GE",
+        "name": "Gudauta",
+        "lat": "43.10547",
+        "lng": "40.62067"
+    },
+    {
+        "country": "GE",
+        "name": "Gudauri",
+        "lat": "42.47797",
+        "lng": "44.47616"
+    },
+    {
+        "country": "GE",
+        "name": "Gori",
+        "lat": "42.51667",
+        "lng": "43.16667"
+    },
+    {
+        "country": "GE",
+        "name": "Gori",
+        "lat": "41.98422",
+        "lng": "44.11578"
+    },
+    {
+        "country": "GE",
+        "name": "Gardabani",
+        "lat": "41.46054",
+        "lng": "45.09283"
+    },
+    {
+        "country": "GE",
+        "name": "Gantiadi",
+        "lat": "43.38111",
+        "lng": "40.07944"
+    },
+    {
+        "country": "GE",
+        "name": "Gali",
+        "lat": "42.62655",
+        "lng": "41.73808"
+    },
+    {
+        "country": "GE",
+        "name": "Gagra",
+        "lat": "43.27858",
+        "lng": "40.27124"
+    },
+    {
+        "country": "GE",
+        "name": "Jvari",
+        "lat": "42.71693",
+        "lng": "42.052"
+    },
+    {
+        "country": "GE",
+        "name": "Dzegvi",
+        "lat": "41.84569",
+        "lng": "44.60097"
+    },
+    {
+        "country": "GE",
+        "name": "Dranda",
+        "lat": "42.87167",
+        "lng": "41.15333"
+    },
+    {
+        "country": "GE",
+        "name": "Dmanisi",
+        "lat": "41.52514",
+        "lng": "44.3472"
+    },
+    {
+        "country": "GE",
+        "name": "Dioknisi",
+        "lat": "41.62933",
+        "lng": "42.39171"
+    },
+    {
+        "country": "GE",
+        "name": "Didi Lilo",
+        "lat": "41.73611",
+        "lng": "44.96472"
+    },
+    {
+        "country": "GE",
+        "name": "Chiat\u2019ura",
+        "lat": "42.29806",
+        "lng": "43.29889"
+    },
+    {
+        "country": "GE",
+        "name": "Chakvi",
+        "lat": "41.72528",
+        "lng": "41.73278"
+    },
+    {
+        "country": "GE",
+        "name": "Borjomi",
+        "lat": "41.85272",
+        "lng": "43.41284"
+    },
+    {
+        "country": "GE",
+        "name": "Bolnisi",
+        "lat": "41.44794",
+        "lng": "44.53838"
+    },
+    {
+        "country": "GE",
+        "name": "Bich\u2019vinta",
+        "lat": "43.16197",
+        "lng": "40.34102"
+    },
+    {
+        "country": "GE",
+        "name": "Batumi",
+        "lat": "41.64228",
+        "lng": "41.63392"
+    },
+    {
+        "country": "GE",
+        "name": "Bakuriani",
+        "lat": "41.74972",
+        "lng": "43.5325"
+    },
+    {
+        "country": "GE",
+        "name": "Bagdadi",
+        "lat": "41.81667",
+        "lng": "46.03333"
+    },
+    {
+        "country": "GE",
+        "name": "Aspindza",
+        "lat": "41.57389",
+        "lng": "43.24826"
+    },
+    {
+        "country": "GE",
+        "name": "Ambrolauri",
+        "lat": "42.52111",
+        "lng": "43.16222"
+    },
+    {
+        "country": "GE",
+        "name": "Akhmet\u2019a",
+        "lat": "42.03111",
+        "lng": "45.2075"
+    },
+    {
+        "country": "GE",
+        "name": "Akhaltsikhe",
+        "lat": "41.63901",
+        "lng": "42.98262"
+    },
+    {
+        "country": "GE",
+        "name": "Akhalk\u2019alak\u2019i",
+        "lat": "41.40514",
+        "lng": "43.48629"
+    },
+    {
+        "country": "GE",
+        "name": "Stantsiya Novyy Afon",
+        "lat": "43.08056",
+        "lng": "40.83833"
+    },
+    {
+        "country": "GE",
+        "name": "Akhalgori",
+        "lat": "42.12597",
+        "lng": "44.48333"
+    },
+    {
+        "country": "GE",
+        "name": "Akhaldaba",
+        "lat": "41.92945",
+        "lng": "43.48762"
+    },
+    {
+        "country": "GE",
+        "name": "Akhaldaba",
+        "lat": "41.65395",
+        "lng": "42.15163"
+    },
+    {
+        "country": "GE",
+        "name": "Agara",
+        "lat": "42.03761",
+        "lng": "43.82382"
+    },
+    {
+        "country": "GE",
+        "name": "Adigeni",
+        "lat": "41.68191",
+        "lng": "42.69867"
+    },
+    {
+        "country": "GE",
+        "name": "Abasha",
+        "lat": "42.20959",
+        "lng": "42.22111"
+    },
+    {
+        "country": "GE",
+        "name": "P\u2019rimorsk\u2019oe",
+        "lat": "43.09236",
+        "lng": "40.6965"
+    },
+    {
+        "country": "GE",
+        "name": "Tsqaltubo",
+        "lat": "42.34129",
+        "lng": "42.5976"
+    },
+    {
+        "country": "GE",
+        "name": "Naruja",
+        "lat": "41.90694",
+        "lng": "41.95417"
+    },
+    {
+        "country": "GE",
+        "name": "Bakurianis Andeziti",
+        "lat": "41.73371",
+        "lng": "43.47242"
+    },
+    {
+        "country": "GE",
+        "name": "Kelasuri",
+        "lat": "42.97877",
+        "lng": "41.07067"
+    },
+    {
+        "country": "GE",
+        "name": "Kharagauli",
+        "lat": "42.02137",
+        "lng": "43.19773"
+    }
+]

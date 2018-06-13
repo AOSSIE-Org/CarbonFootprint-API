@@ -1,0 +1,530 @@
+[
+    {
+        "country": "TJ",
+        "name": "Yovon",
+        "lat": "38.31408",
+        "lng": "69.03784"
+    },
+    {
+        "country": "TJ",
+        "name": "Vose\u2019",
+        "lat": "37.80396",
+        "lng": "69.64417"
+    },
+    {
+        "country": "TJ",
+        "name": "Vorukh",
+        "lat": "39.85125",
+        "lng": "70.58012"
+    },
+    {
+        "country": "TJ",
+        "name": "Varzob",
+        "lat": "38.77369",
+        "lng": "68.81776"
+    },
+    {
+        "country": "TJ",
+        "name": "Vanj",
+        "lat": "38.37078",
+        "lng": "71.45474"
+    },
+    {
+        "country": "TJ",
+        "name": "Vakhsh",
+        "lat": "37.71485",
+        "lng": "68.83456"
+    },
+    {
+        "country": "TJ",
+        "name": "Istaravshan",
+        "lat": "39.9142",
+        "lng": "69.00328"
+    },
+    {
+        "country": "TJ",
+        "name": "Tavildara",
+        "lat": "38.69529",
+        "lng": "70.48422"
+    },
+    {
+        "country": "TJ",
+        "name": "Tartiki",
+        "lat": "37.58221",
+        "lng": "68.13347"
+    },
+    {
+        "country": "TJ",
+        "name": "Tagob",
+        "lat": "38.83827",
+        "lng": "68.89847"
+    },
+    {
+        "country": "TJ",
+        "name": "Tajikobod",
+        "lat": "39.12405",
+        "lng": "70.84009"
+    },
+    {
+        "country": "TJ",
+        "name": "Sovet",
+        "lat": "38.0467",
+        "lng": "69.58822"
+    },
+    {
+        "country": "TJ",
+        "name": "Shurobod",
+        "lat": "37.84137",
+        "lng": "70.04865"
+    },
+    {
+        "country": "TJ",
+        "name": "Shahrinav",
+        "lat": "38.57085",
+        "lng": "68.33498"
+    },
+    {
+        "country": "TJ",
+        "name": "Shahriston",
+        "lat": "39.77447",
+        "lng": "68.80929"
+    },
+    {
+        "country": "TJ",
+        "name": "Shahritus",
+        "lat": "37.26206",
+        "lng": "68.13849"
+    },
+    {
+        "country": "TJ",
+        "name": "Rushon",
+        "lat": "37.94487",
+        "lng": "71.55745"
+    },
+    {
+        "country": "TJ",
+        "name": "Roshtqal\u2019a",
+        "lat": "37.25827",
+        "lng": "71.82591"
+    },
+    {
+        "country": "TJ",
+        "name": "Roghun",
+        "lat": "38.78257",
+        "lng": "69.87081"
+    },
+    {
+        "country": "TJ",
+        "name": "Qurghonteppa",
+        "lat": "37.83399",
+        "lng": "68.78186"
+    },
+    {
+        "country": "TJ",
+        "name": "Panj",
+        "lat": "37.23634",
+        "lng": "69.09911"
+    },
+    {
+        "country": "TJ",
+        "name": "Panjakent",
+        "lat": "39.49524",
+        "lng": "67.60931"
+    },
+    {
+        "country": "TJ",
+        "name": "Farkhor",
+        "lat": "37.49219",
+        "lng": "69.40356"
+    },
+    {
+        "country": "TJ",
+        "name": "Orzu",
+        "lat": "37.5582",
+        "lng": "68.81952"
+    },
+    {
+        "country": "TJ",
+        "name": "Vahdat",
+        "lat": "38.55632",
+        "lng": "69.01354"
+    },
+    {
+        "country": "TJ",
+        "name": "Ismoili Somon\u00ed",
+        "lat": "37.76627",
+        "lng": "68.80126"
+    },
+    {
+        "country": "TJ",
+        "name": "Obikiik",
+        "lat": "38.16033",
+        "lng": "68.66605"
+    },
+    {
+        "country": "TJ",
+        "name": "Obigarm",
+        "lat": "38.71731",
+        "lng": "69.70885"
+    },
+    {
+        "country": "TJ",
+        "name": "Norak",
+        "lat": "38.38917",
+        "lng": "69.32272"
+    },
+    {
+        "country": "TJ",
+        "name": "Novobod",
+        "lat": "39.01084",
+        "lng": "70.15082"
+    },
+    {
+        "country": "TJ",
+        "name": "Murghob",
+        "lat": "38.17023",
+        "lng": "73.96674"
+    },
+    {
+        "country": "TJ",
+        "name": "Moskva",
+        "lat": "37.66101",
+        "lng": "69.62849"
+    },
+    {
+        "country": "TJ",
+        "name": "Somoniyon",
+        "lat": "38.44173",
+        "lng": "68.77458"
+    },
+    {
+        "country": "TJ",
+        "name": "Mu\u2019minobod",
+        "lat": "38.10714",
+        "lng": "70.03213"
+    },
+    {
+        "country": "TJ",
+        "name": "Abdurahmoni Jom\u00ed",
+        "lat": "37.94636",
+        "lng": "68.80878"
+    },
+    {
+        "country": "TJ",
+        "name": "Kulob",
+        "lat": "37.91459",
+        "lng": "69.78454"
+    },
+    {
+        "country": "TJ",
+        "name": "Darband",
+        "lat": "38.86776",
+        "lng": "69.96642"
+    },
+    {
+        "country": "TJ",
+        "name": "Kolkhozobod",
+        "lat": "37.58823",
+        "lng": "68.65886"
+    },
+    {
+        "country": "TJ",
+        "name": "Kirov",
+        "lat": "37.81908",
+        "lng": "68.85905"
+    },
+    {
+        "country": "TJ",
+        "name": "Khovaling",
+        "lat": "38.34194",
+        "lng": "69.97531"
+    },
+    {
+        "country": "TJ",
+        "name": "Khorugh",
+        "lat": "37.48974",
+        "lng": "71.55304"
+    },
+    {
+        "country": "TJ",
+        "name": "Khodzha-Maston",
+        "lat": "38.74457",
+        "lng": "68.62702"
+    },
+    {
+        "country": "TJ",
+        "name": "Karakenja",
+        "lat": "39.23585",
+        "lng": "71.52412"
+    },
+    {
+        "country": "TJ",
+        "name": "Sarband",
+        "lat": "37.87136",
+        "lng": "68.92233"
+    },
+    {
+        "country": "TJ",
+        "name": "Qalaikhumb",
+        "lat": "38.45373",
+        "lng": "70.78902"
+    },
+    {
+        "country": "TJ",
+        "name": "Qubodiyon",
+        "lat": "37.40973",
+        "lng": "68.18644"
+    },
+    {
+        "country": "TJ",
+        "name": "Ishqoshim",
+        "lat": "36.72484",
+        "lng": "71.61331"
+    },
+    {
+        "country": "TJ",
+        "name": "Hisor",
+        "lat": "38.52504",
+        "lng": "68.55124"
+    },
+    {
+        "country": "TJ",
+        "name": "Rasht",
+        "lat": "39.02871",
+        "lng": "70.37446"
+    },
+    {
+        "country": "TJ",
+        "name": "Gharavut\u00ed",
+        "lat": "37.56703",
+        "lng": "68.44668"
+    },
+    {
+        "country": "TJ",
+        "name": "Ghonch\u00ed",
+        "lat": "39.96238",
+        "lng": "69.12966"
+    },
+    {
+        "country": "TJ",
+        "name": "Fayzobod",
+        "lat": "38.54731",
+        "lng": "69.3198"
+    },
+    {
+        "country": "TJ",
+        "name": "Jirghatol",
+        "lat": "39.21966",
+        "lng": "71.19155"
+    },
+    {
+        "country": "TJ",
+        "name": "Jilikul",
+        "lat": "37.49167",
+        "lng": "68.53106"
+    },
+    {
+        "country": "TJ",
+        "name": "Dust\u00ed",
+        "lat": "37.34812",
+        "lng": "68.66398"
+    },
+    {
+        "country": "TJ",
+        "name": "Dushanbe",
+        "lat": "38.53575",
+        "lng": "68.77905"
+    },
+    {
+        "country": "TJ",
+        "name": "Danghara",
+        "lat": "38.09578",
+        "lng": "69.33998"
+    },
+    {
+        "country": "TJ",
+        "name": "Chubek",
+        "lat": "37.61453",
+        "lng": "69.70525"
+    },
+    {
+        "country": "TJ",
+        "name": "Boshchorbogh",
+        "lat": "37.52027",
+        "lng": "68.12825"
+    },
+    {
+        "country": "TJ",
+        "name": "Bustonqal\u2019a",
+        "lat": "37.84783",
+        "lng": "68.83125"
+    },
+    {
+        "country": "TJ",
+        "name": "Boshkengash",
+        "lat": "38.46613",
+        "lng": "68.80533"
+    },
+    {
+        "country": "TJ",
+        "name": "Baljuvon",
+        "lat": "38.30838",
+        "lng": "69.67672"
+    },
+    {
+        "country": "TJ",
+        "name": "Ayn\u00ed",
+        "lat": "39.39406",
+        "lng": "68.53766"
+    },
+    {
+        "country": "TJ",
+        "name": "Tursunzoda",
+        "lat": "38.51271",
+        "lng": "68.23163"
+    },
+    {
+        "country": "TJ",
+        "name": "Roghun",
+        "lat": "38.69331",
+        "lng": "69.73692"
+    },
+    {
+        "country": "TJ",
+        "name": "Bahor\u00ed",
+        "lat": "37.40195",
+        "lng": "67.99446"
+    },
+    {
+        "country": "TJ",
+        "name": "Zafarobod",
+        "lat": "40.17603",
+        "lng": "68.84679"
+    },
+    {
+        "country": "TJ",
+        "name": "Taboshar",
+        "lat": "40.57017",
+        "lng": "69.64175"
+    },
+    {
+        "country": "TJ",
+        "name": "Shurob",
+        "lat": "40.04605",
+        "lng": "70.54117"
+    },
+    {
+        "country": "TJ",
+        "name": "Proletar",
+        "lat": "40.16713",
+        "lng": "69.50163"
+    },
+    {
+        "country": "TJ",
+        "name": "Palos",
+        "lat": "40.31628",
+        "lng": "69.73743"
+    },
+    {
+        "country": "TJ",
+        "name": "Pakhtakoron",
+        "lat": "40.15709",
+        "lng": "68.74659"
+    },
+    {
+        "country": "TJ",
+        "name": "Neftobod",
+        "lat": "40.21524",
+        "lng": "70.57193"
+    },
+    {
+        "country": "TJ",
+        "name": "Nov",
+        "lat": "40.1522",
+        "lng": "69.37076"
+    },
+    {
+        "country": "TJ",
+        "name": "Quruqsoy",
+        "lat": "40.57648",
+        "lng": "69.37962"
+    },
+    {
+        "country": "TJ",
+        "name": "Kim",
+        "lat": "40.20798",
+        "lng": "70.46882"
+    },
+    {
+        "country": "TJ",
+        "name": "Khujand",
+        "lat": "40.28256",
+        "lng": "69.62216"
+    },
+    {
+        "country": "TJ",
+        "name": "Konsoy",
+        "lat": "40.49155",
+        "lng": "69.70245"
+    },
+    {
+        "country": "TJ",
+        "name": "Konibodom",
+        "lat": "40.29414",
+        "lng": "70.43122"
+    },
+    {
+        "country": "TJ",
+        "name": "Isfara",
+        "lat": "40.12649",
+        "lng": "70.62526"
+    },
+    {
+        "country": "TJ",
+        "name": "Ghafurov",
+        "lat": "40.21571",
+        "lng": "69.72867"
+    },
+    {
+        "country": "TJ",
+        "name": "Buston",
+        "lat": "40.52286",
+        "lng": "69.33307"
+    },
+    {
+        "country": "TJ",
+        "name": "Shaydon",
+        "lat": "40.66992",
+        "lng": "70.3502"
+    },
+    {
+        "country": "TJ",
+        "name": "Oltintopkan",
+        "lat": "40.65425",
+        "lng": "69.59811"
+    },
+    {
+        "country": "TJ",
+        "name": "Adrasmon",
+        "lat": "40.64928",
+        "lng": "69.98472"
+    },
+    {
+        "country": "TJ",
+        "name": "Chkalov",
+        "lat": "40.23417",
+        "lng": "69.69481"
+    },
+    {
+        "country": "TJ",
+        "name": "Mehron",
+        "lat": "39.41691",
+        "lng": "69.28677"
+    },
+    {
+        "country": "TJ",
+        "name": "Moskovskiy",
+        "lat": "37.60931",
+        "lng": "68.58094"
+    }
+]

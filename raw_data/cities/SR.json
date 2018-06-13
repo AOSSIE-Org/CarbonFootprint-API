@@ -1,0 +1,80 @@
+[
+    {
+        "country": "SR",
+        "name": "Wageningen",
+        "lat": "5.7601",
+        "lng": "-56.66523"
+    },
+    {
+        "country": "SR",
+        "name": "Totness",
+        "lat": "5.87618",
+        "lng": "-56.32572"
+    },
+    {
+        "country": "SR",
+        "name": "Paramaribo",
+        "lat": "5.86638",
+        "lng": "-55.16682"
+    },
+    {
+        "country": "SR",
+        "name": "Onverwacht",
+        "lat": "5.58983",
+        "lng": "-55.19462"
+    },
+    {
+        "country": "SR",
+        "name": "Nieuw Nickerie",
+        "lat": "5.92606",
+        "lng": "-56.97297"
+    },
+    {
+        "country": "SR",
+        "name": "Nieuw Amsterdam",
+        "lat": "5.88573",
+        "lng": "-55.08871"
+    },
+    {
+        "country": "SR",
+        "name": "Moengo",
+        "lat": "5.61411",
+        "lng": "-54.40121"
+    },
+    {
+        "country": "SR",
+        "name": "Mari\u00ebnburg",
+        "lat": "5.87722",
+        "lng": "-55.04322"
+    },
+    {
+        "country": "SR",
+        "name": "Lelydorp",
+        "lat": "5.7",
+        "lng": "-55.23333"
+    },
+    {
+        "country": "SR",
+        "name": "Groningen",
+        "lat": "5.8",
+        "lng": "-55.46667"
+    },
+    {
+        "country": "SR",
+        "name": "Brownsweg",
+        "lat": "5.00435",
+        "lng": "-55.15333"
+    },
+    {
+        "country": "SR",
+        "name": "Brokopondo",
+        "lat": "5.05594",
+        "lng": "-54.98043"
+    },
+    {
+        "country": "SR",
+        "name": "Albina",
+        "lat": "5.49788",
+        "lng": "-54.05522"
+    }
+]

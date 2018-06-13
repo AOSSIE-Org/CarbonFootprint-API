@@ -1,0 +1,56 @@
+[
+    {
+        "country": "VC",
+        "name": "Port Elizabeth",
+        "lat": "13.01102",
+        "lng": "-61.23548"
+    },
+    {
+        "country": "VC",
+        "name": "Layou",
+        "lat": "13.20175",
+        "lng": "-61.27014"
+    },
+    {
+        "country": "VC",
+        "name": "Kingstown",
+        "lat": "13.15527",
+        "lng": "-61.22742"
+    },
+    {
+        "country": "VC",
+        "name": "Georgetown",
+        "lat": "13.28054",
+        "lng": "-61.1185"
+    },
+    {
+        "country": "VC",
+        "name": "Chateaubelair",
+        "lat": "13.29069",
+        "lng": "-61.24043"
+    },
+    {
+        "country": "VC",
+        "name": "Byera Village",
+        "lat": "13.25636",
+        "lng": "-61.11954"
+    },
+    {
+        "country": "VC",
+        "name": "Biabou",
+        "lat": "13.1943",
+        "lng": "-61.13904"
+    },
+    {
+        "country": "VC",
+        "name": "Barrouallie",
+        "lat": "13.23676",
+        "lng": "-61.27275"
+    },
+    {
+        "country": "VC",
+        "name": "Kingstown Park",
+        "lat": "13.15924",
+        "lng": "-61.23161"
+    }
+]

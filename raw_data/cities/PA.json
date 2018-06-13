@@ -1,0 +1,3818 @@
+[
+    {
+        "country": "PA",
+        "name": "Zapotillo",
+        "lat": "8.00532",
+        "lng": "-81.50653"
+    },
+    {
+        "country": "PA",
+        "name": "Zang\u00fcengas",
+        "lat": "8.95609",
+        "lng": "-79.87037"
+    },
+    {
+        "country": "PA",
+        "name": "Yaviza",
+        "lat": "8.15835",
+        "lng": "-77.69276"
+    },
+    {
+        "country": "PA",
+        "name": "Yape",
+        "lat": "8.09839",
+        "lng": "-77.59817"
+    },
+    {
+        "country": "PA",
+        "name": "Volc\u00e1n",
+        "lat": "8.77291",
+        "lng": "-82.63823"
+    },
+    {
+        "country": "PA",
+        "name": "Vista Hermosa",
+        "lat": "8.52687",
+        "lng": "-80.37486"
+    },
+    {
+        "country": "PA",
+        "name": "Vista Alegre",
+        "lat": "8.92772",
+        "lng": "-79.7028"
+    },
+    {
+        "country": "PA",
+        "name": "Villa Rosario",
+        "lat": "8.77379",
+        "lng": "-79.87547"
+    },
+    {
+        "country": "PA",
+        "name": "Villa Carmen",
+        "lat": "8.79832",
+        "lng": "-79.86929"
+    },
+    {
+        "country": "PA",
+        "name": "Vigu\u00ed",
+        "lat": "8.33921",
+        "lng": "-81.49823"
+    },
+    {
+        "country": "PA",
+        "name": "Viento Fr\u00edo",
+        "lat": "9.58263",
+        "lng": "-79.4069"
+    },
+    {
+        "country": "PA",
+        "name": "Veracruz",
+        "lat": "8.88988",
+        "lng": "-79.62603"
+    },
+    {
+        "country": "PA",
+        "name": "Veladero",
+        "lat": "8.23136",
+        "lng": "-81.65417"
+    },
+    {
+        "country": "PA",
+        "name": "Vallerriquito",
+        "lat": "7.62163",
+        "lng": "-80.31975"
+    },
+    {
+        "country": "PA",
+        "name": "Valle Rico",
+        "lat": "7.62011",
+        "lng": "-80.35076"
+    },
+    {
+        "country": "PA",
+        "name": "Utir\u00e1",
+        "lat": "7.97208",
+        "lng": "-81.21777"
+    },
+    {
+        "country": "PA",
+        "name": "Ustupo",
+        "lat": "9.13112",
+        "lng": "-77.9262"
+    },
+    {
+        "country": "PA",
+        "name": "Tucut\u00ed",
+        "lat": "7.92794",
+        "lng": "-77.94562"
+    },
+    {
+        "country": "PA",
+        "name": "Tubual\u00e1",
+        "lat": "9.51667",
+        "lng": "-79.03333"
+    },
+    {
+        "country": "PA",
+        "name": "Tres Quebradas",
+        "lat": "7.84018",
+        "lng": "-80.4074"
+    },
+    {
+        "country": "PA",
+        "name": "Toza",
+        "lat": "8.34542",
+        "lng": "-80.64012"
+    },
+    {
+        "country": "PA",
+        "name": "Tonos\u00ed",
+        "lat": "7.40684",
+        "lng": "-80.44217"
+    },
+    {
+        "country": "PA",
+        "name": "Tol\u00e9",
+        "lat": "8.23989",
+        "lng": "-81.67168"
+    },
+    {
+        "country": "PA",
+        "name": "Tocumen",
+        "lat": "9.08939",
+        "lng": "-79.3831"
+    },
+    {
+        "country": "PA",
+        "name": "Tobobe",
+        "lat": "9.12111",
+        "lng": "-81.82471"
+    },
+    {
+        "country": "PA",
+        "name": "Toabr\u00e9",
+        "lat": "8.65131",
+        "lng": "-80.32017"
+    },
+    {
+        "country": "PA",
+        "name": "Tinajas",
+        "lat": "8.55281",
+        "lng": "-82.45963"
+    },
+    {
+        "country": "PA",
+        "name": "Tijeras",
+        "lat": "8.47514",
+        "lng": "-82.56058"
+    },
+    {
+        "country": "PA",
+        "name": "Tebario",
+        "lat": "7.71369",
+        "lng": "-80.97825"
+    },
+    {
+        "country": "PA",
+        "name": "Pueblo Nuevo",
+        "lat": "8.15036",
+        "lng": "-78.2503"
+    },
+    {
+        "country": "PA",
+        "name": "Sortova",
+        "lat": "8.54642",
+        "lng": "-82.6517"
+    },
+    {
+        "country": "PA",
+        "name": "Sor\u00e1",
+        "lat": "8.63191",
+        "lng": "-80.00888"
+    },
+    {
+        "country": "PA",
+        "name": "Son\u00e1",
+        "lat": "8.01223",
+        "lng": "-81.32163"
+    },
+    {
+        "country": "PA",
+        "name": "Sitio Prado",
+        "lat": "8.37233",
+        "lng": "-81.58141"
+    },
+    {
+        "country": "PA",
+        "name": "Siogu\u00ed Arriba",
+        "lat": "8.53865",
+        "lng": "-82.68619"
+    },
+    {
+        "country": "PA",
+        "name": "Siogu\u00ed Abajo",
+        "lat": "8.48678",
+        "lng": "-82.66539"
+    },
+    {
+        "country": "PA",
+        "name": "Sardinilla",
+        "lat": "9.29828",
+        "lng": "-79.63956"
+    },
+    {
+        "country": "PA",
+        "name": "San Vicente de Bique",
+        "lat": "8.91143",
+        "lng": "-79.6736"
+    },
+    {
+        "country": "PA",
+        "name": "San Vicente",
+        "lat": "9.11445",
+        "lng": "-79.59755"
+    },
+    {
+        "country": "PA",
+        "name": "Santo Tom\u00e1s",
+        "lat": "8.38959",
+        "lng": "-82.65058"
+    },
+    {
+        "country": "PA",
+        "name": "Santo Domingo",
+        "lat": "8.50803",
+        "lng": "-82.71295"
+    },
+    {
+        "country": "PA",
+        "name": "Santo Domingo",
+        "lat": "7.74614",
+        "lng": "-80.24173"
+    },
+    {
+        "country": "PA",
+        "name": "Santiago de Veraguas",
+        "lat": "8.1",
+        "lng": "-80.98333"
+    },
+    {
+        "country": "PA",
+        "name": "Santa Rosa N\u00famero Uno",
+        "lat": "8.86459",
+        "lng": "-80.09923"
+    },
+    {
+        "country": "PA",
+        "name": "Santa Rosa",
+        "lat": "8.59958",
+        "lng": "-82.68489"
+    },
+    {
+        "country": "PA",
+        "name": "Santa Rita",
+        "lat": "8.85681",
+        "lng": "-79.87954"
+    },
+    {
+        "country": "PA",
+        "name": "Santa Rita",
+        "lat": "8.49307",
+        "lng": "-80.18298"
+    },
+    {
+        "country": "PA",
+        "name": "Santa Marta",
+        "lat": "8.51406",
+        "lng": "-82.6987"
+    },
+    {
+        "country": "PA",
+        "name": "Santa Mar\u00eda",
+        "lat": "8.11143",
+        "lng": "-80.66582"
+    },
+    {
+        "country": "PA",
+        "name": "Santa Isabel",
+        "lat": "9.53922",
+        "lng": "-79.1957"
+    },
+    {
+        "country": "PA",
+        "name": "Santa F\u00e9",
+        "lat": "8.65525",
+        "lng": "-78.1614"
+    },
+    {
+        "country": "PA",
+        "name": "Santa F\u00e9",
+        "lat": "8.51063",
+        "lng": "-81.07802"
+    },
+    {
+        "country": "PA",
+        "name": "Santa Cruz",
+        "lat": "8.64269",
+        "lng": "-82.75939"
+    },
+    {
+        "country": "PA",
+        "name": "Santa Cruz",
+        "lat": "8.23219",
+        "lng": "-81.91323"
+    },
+    {
+        "country": "PA",
+        "name": "Santa Clara",
+        "lat": "9.02875",
+        "lng": "-79.75443"
+    },
+    {
+        "country": "PA",
+        "name": "Santa Clara",
+        "lat": "8.83376",
+        "lng": "-82.77945"
+    },
+    {
+        "country": "PA",
+        "name": "Santa Catalina",
+        "lat": "8.78193",
+        "lng": "-81.3279"
+    },
+    {
+        "country": "PA",
+        "name": "Santa Ana Arriba",
+        "lat": "7.933",
+        "lng": "-80.36369"
+    },
+    {
+        "country": "PA",
+        "name": "San Pedro del Espino",
+        "lat": "8.14011",
+        "lng": "-81.08663"
+    },
+    {
+        "country": "PA",
+        "name": "San Pablo Viejo Abajo",
+        "lat": "8.45339",
+        "lng": "-82.50179"
+    },
+    {
+        "country": "PA",
+        "name": "San Pablo Nuevo Abajo",
+        "lat": "8.42558",
+        "lng": "-82.50173"
+    },
+    {
+        "country": "PA",
+        "name": "San Miguelito",
+        "lat": "9.05032",
+        "lng": "-79.47068"
+    },
+    {
+        "country": "PA",
+        "name": "San Miguel",
+        "lat": "8.45685",
+        "lng": "-78.93695"
+    },
+    {
+        "country": "PA",
+        "name": "San Marcelo",
+        "lat": "8.27252",
+        "lng": "-81.15988"
+    },
+    {
+        "country": "PA",
+        "name": "San Lorenzo",
+        "lat": "8.30561",
+        "lng": "-82.10114"
+    },
+    {
+        "country": "PA",
+        "name": "San Juan",
+        "lat": "8.30311",
+        "lng": "-81.01575"
+    },
+    {
+        "country": "PA",
+        "name": "San Juan",
+        "lat": "8.27724",
+        "lng": "-81.99345"
+    },
+    {
+        "country": "PA",
+        "name": "San Jos\u00e9",
+        "lat": "8.93333",
+        "lng": "-79.73333"
+    },
+    {
+        "country": "PA",
+        "name": "San Jos\u00e9",
+        "lat": "8.5324",
+        "lng": "-79.93089"
+    },
+    {
+        "country": "PA",
+        "name": "San Jos\u00e9",
+        "lat": "8.46704",
+        "lng": "-80.80514"
+    },
+    {
+        "country": "PA",
+        "name": "San Jos\u00e9",
+        "lat": "8.37261",
+        "lng": "-81.40486"
+    },
+    {
+        "country": "PA",
+        "name": "San Jos\u00e9",
+        "lat": "7.67395",
+        "lng": "-80.24438"
+    },
+    {
+        "country": "PA",
+        "name": "San Ignacio de Tupile",
+        "lat": "9.28905",
+        "lng": "-78.15206"
+    },
+    {
+        "country": "PA",
+        "name": "San Francisco",
+        "lat": "8.24652",
+        "lng": "-80.97472"
+    },
+    {
+        "country": "PA",
+        "name": "San Francisco",
+        "lat": "8.06667",
+        "lng": "-81.36667"
+    },
+    {
+        "country": "PA",
+        "name": "San F\u00e9lix",
+        "lat": "8.29063",
+        "lng": "-81.86702"
+    },
+    {
+        "country": "PA",
+        "name": "San Felipe",
+        "lat": "8.95118",
+        "lng": "-79.53726"
+    },
+    {
+        "country": "PA",
+        "name": "San Carlos",
+        "lat": "8.51663",
+        "lng": "-82.50906"
+    },
+    {
+        "country": "PA",
+        "name": "San Carlos",
+        "lat": "8.47323",
+        "lng": "-79.96104"
+    },
+    {
+        "country": "PA",
+        "name": "San Bartolo",
+        "lat": "8.21063",
+        "lng": "-81.27572"
+    },
+    {
+        "country": "PA",
+        "name": "San Antonio",
+        "lat": "8.0729",
+        "lng": "-80.93187"
+    },
+    {
+        "country": "PA",
+        "name": "San Andr\u00e9s",
+        "lat": "8.6026",
+        "lng": "-82.72588"
+    },
+    {
+        "country": "PA",
+        "name": "Salud",
+        "lat": "9.19841",
+        "lng": "-80.13186"
+    },
+    {
+        "country": "PA",
+        "name": "Sabanitas",
+        "lat": "9.34269",
+        "lng": "-79.80961"
+    },
+    {
+        "country": "PA",
+        "name": "Sabana Grande",
+        "lat": "7.88002",
+        "lng": "-80.63818"
+    },
+    {
+        "country": "PA",
+        "name": "Sabana Grande",
+        "lat": "7.83543",
+        "lng": "-80.3649"
+    },
+    {
+        "country": "PA",
+        "name": "Rovira Arriba",
+        "lat": "8.63822",
+        "lng": "-82.49965"
+    },
+    {
+        "country": "PA",
+        "name": "Rodeo Viejo",
+        "lat": "8.11205",
+        "lng": "-81.31684"
+    },
+    {
+        "country": "PA",
+        "name": "Valle del Risco",
+        "lat": "9.23064",
+        "lng": "-82.42748"
+    },
+    {
+        "country": "PA",
+        "name": "R\u00edo Sereno",
+        "lat": "8.81741",
+        "lng": "-82.85731"
+    },
+    {
+        "country": "PA",
+        "name": "R\u00edo Rita",
+        "lat": "9.30296",
+        "lng": "-79.79234"
+    },
+    {
+        "country": "PA",
+        "name": "R\u00edo Hondo",
+        "lat": "7.71192",
+        "lng": "-80.35904"
+    },
+    {
+        "country": "PA",
+        "name": "R\u00edo Hato",
+        "lat": "8.3794",
+        "lng": "-80.16621"
+    },
+    {
+        "country": "PA",
+        "name": "R\u00edo Grande",
+        "lat": "8.61933",
+        "lng": "-81.2883"
+    },
+    {
+        "country": "PA",
+        "name": "R\u00edo Grande",
+        "lat": "8.42679",
+        "lng": "-80.48457"
+    },
+    {
+        "country": "PA",
+        "name": "R\u00edo Grande",
+        "lat": "7.71907",
+        "lng": "-81.33423"
+    },
+    {
+        "country": "PA",
+        "name": "Gat\u00fan",
+        "lat": "9.28922",
+        "lng": "-79.77204"
+    },
+    {
+        "country": "PA",
+        "name": "R\u00edo Duque",
+        "lat": "9.25688",
+        "lng": "-79.67937"
+    },
+    {
+        "country": "PA",
+        "name": "R\u00edo de Jes\u00fas",
+        "lat": "7.97882",
+        "lng": "-81.16162"
+    },
+    {
+        "country": "PA",
+        "name": "R\u00edo Congo",
+        "lat": "8.96666",
+        "lng": "-79.76105"
+    },
+    {
+        "country": "PA",
+        "name": "R\u00edo Alejandro",
+        "lat": "9.37149",
+        "lng": "-79.78809"
+    },
+    {
+        "country": "PA",
+        "name": "R\u00edo Abajo",
+        "lat": "9.01667",
+        "lng": "-79.5"
+    },
+    {
+        "country": "PA",
+        "name": "Rinc\u00f3n Hondo",
+        "lat": "7.84436",
+        "lng": "-80.60397"
+    },
+    {
+        "country": "PA",
+        "name": "Rinc\u00f3n",
+        "lat": "8.46374",
+        "lng": "-82.27951"
+    },
+    {
+        "country": "PA",
+        "name": "Remedios",
+        "lat": "8.22436",
+        "lng": "-81.82747"
+    },
+    {
+        "country": "PA",
+        "name": "Arco Iris",
+        "lat": "9.33404",
+        "lng": "-79.89172"
+    },
+    {
+        "country": "PA",
+        "name": "Quer\u00e9valo",
+        "lat": "8.37174",
+        "lng": "-82.5267"
+    },
+    {
+        "country": "PA",
+        "name": "Quebrada de Piedra",
+        "lat": "8.09418",
+        "lng": "-81.67915"
+    },
+    {
+        "country": "PA",
+        "name": "Quebrada de Oro",
+        "lat": "8.03548",
+        "lng": "-81.38692"
+    },
+    {
+        "country": "PA",
+        "name": "Quebrada de Loro",
+        "lat": "8.35924",
+        "lng": "-81.92724"
+    },
+    {
+        "country": "PA",
+        "name": "Quebrada Canoa",
+        "lat": "8.43333",
+        "lng": "-81.78333"
+    },
+    {
+        "country": "PA",
+        "name": "Quebrada Bonita Adentro",
+        "lat": "9.29662",
+        "lng": "-79.70606"
+    },
+    {
+        "country": "PA",
+        "name": "Punta R\u00f3balo",
+        "lat": "9.03631",
+        "lng": "-82.24952"
+    },
+    {
+        "country": "PA",
+        "name": "Punta Laurel",
+        "lat": "9.141",
+        "lng": "-82.12717"
+    },
+    {
+        "country": "PA",
+        "name": "Punta Pe\u00f1a",
+        "lat": "8.91659",
+        "lng": "-82.18488"
+    },
+    {
+        "country": "PA",
+        "name": "Punta de Burica",
+        "lat": "8.03333",
+        "lng": "-82.86667"
+    },
+    {
+        "country": "PA",
+        "name": "Puerto Vidal",
+        "lat": "8.04834",
+        "lng": "-81.60499"
+    },
+    {
+        "country": "PA",
+        "name": "Puerto Pil\u00f3n",
+        "lat": "9.36316",
+        "lng": "-79.79333"
+    },
+    {
+        "country": "PA",
+        "name": "Puerto Obald\u00eda",
+        "lat": "8.66632",
+        "lng": "-77.41922"
+    },
+    {
+        "country": "PA",
+        "name": "Puerto Escondido",
+        "lat": "9.19333",
+        "lng": "-80.08833"
+    },
+    {
+        "country": "PA",
+        "name": "Puerto Caimito",
+        "lat": "8.87022",
+        "lng": "-79.71423"
+    },
+    {
+        "country": "PA",
+        "name": "Puerto Armuelles",
+        "lat": "8.27775",
+        "lng": "-82.86206"
+    },
+    {
+        "country": "PA",
+        "name": "Pueblo Viejo",
+        "lat": "8.25081",
+        "lng": "-81.66259"
+    },
+    {
+        "country": "PA",
+        "name": "P\u00facuro",
+        "lat": "7.97876",
+        "lng": "-77.48758"
+    },
+    {
+        "country": "PA",
+        "name": "Progreso",
+        "lat": "8.44669",
+        "lng": "-82.83859"
+    },
+    {
+        "country": "PA",
+        "name": "Potuga",
+        "lat": "8.06317",
+        "lng": "-80.62271"
+    },
+    {
+        "country": "PA",
+        "name": "Potrero Grande",
+        "lat": "8.88051",
+        "lng": "-79.82795"
+    },
+    {
+        "country": "PA",
+        "name": "Potrero de Ca\u00f1a",
+        "lat": "8.29345",
+        "lng": "-81.69903"
+    },
+    {
+        "country": "PA",
+        "name": "Potrerillos Arriba",
+        "lat": "8.68547",
+        "lng": "-82.4909"
+    },
+    {
+        "country": "PA",
+        "name": "Potrerillos Abajo",
+        "lat": "8.63978",
+        "lng": "-82.4856"
+    },
+    {
+        "country": "PA",
+        "name": "Portobelo",
+        "lat": "9.55303",
+        "lng": "-79.65693"
+    },
+    {
+        "country": "PA",
+        "name": "Portobelillo",
+        "lat": "8.01738",
+        "lng": "-80.59538"
+    },
+    {
+        "country": "PA",
+        "name": "Ponuga",
+        "lat": "7.88245",
+        "lng": "-80.9788"
+    },
+    {
+        "country": "PA",
+        "name": "Pocr\u00ed",
+        "lat": "8.25814",
+        "lng": "-80.55"
+    },
+    {
+        "country": "PA",
+        "name": "Pocr\u00ed",
+        "lat": "7.65816",
+        "lng": "-80.12119"
+    },
+    {
+        "country": "PA",
+        "name": "Plaza de Cais\u00e1n",
+        "lat": "8.73672",
+        "lng": "-82.81968"
+    },
+    {
+        "country": "PA",
+        "name": "Play\u00f3n Chico",
+        "lat": "9.31128",
+        "lng": "-78.2327"
+    },
+    {
+        "country": "PA",
+        "name": "Playa Leona",
+        "lat": "8.78389",
+        "lng": "-79.77547"
+    },
+    {
+        "country": "PA",
+        "name": "Playa Chiquita",
+        "lat": "9.5662",
+        "lng": "-79.29185"
+    },
+    {
+        "country": "PA",
+        "name": "Plan de Chorcha",
+        "lat": "8.46168",
+        "lng": "-82.15924"
+    },
+    {
+        "country": "PA",
+        "name": "Pinogana",
+        "lat": "8.11301",
+        "lng": "-77.68851"
+    },
+    {
+        "country": "PA",
+        "name": "Piedras Gordas",
+        "lat": "8.63777",
+        "lng": "-80.51024"
+    },
+    {
+        "country": "PA",
+        "name": "Piedras Gordas",
+        "lat": "8.52419",
+        "lng": "-80.91152"
+    },
+    {
+        "country": "PA",
+        "name": "Piedra Roja",
+        "lat": "8.5703",
+        "lng": "-81.74661"
+    },
+    {
+        "country": "PA",
+        "name": "Pes\u00e9",
+        "lat": "7.90863",
+        "lng": "-80.61433"
+    },
+    {
+        "country": "PA",
+        "name": "Perales",
+        "lat": "7.77461",
+        "lng": "-80.32494"
+    },
+    {
+        "country": "PA",
+        "name": "Penonom\u00e9",
+        "lat": "8.51889",
+        "lng": "-80.35727"
+    },
+    {
+        "country": "PA",
+        "name": "Pe\u00f1as Chatas",
+        "lat": "8.01502",
+        "lng": "-80.80366"
+    },
+    {
+        "country": "PA",
+        "name": "Pe\u00f1a Blanca",
+        "lat": "8.46171",
+        "lng": "-81.6788"
+    },
+    {
+        "country": "PA",
+        "name": "Pe\u00f1a Blanca",
+        "lat": "7.71931",
+        "lng": "-80.28366"
+    },
+    {
+        "country": "PA",
+        "name": "Pedregal",
+        "lat": "9.06667",
+        "lng": "-79.43333"
+    },
+    {
+        "country": "PA",
+        "name": "Pedregal",
+        "lat": "8.36586",
+        "lng": "-82.43524"
+    },
+    {
+        "country": "PA",
+        "name": "Pedas\u00ed",
+        "lat": "7.53034",
+        "lng": "-80.02699"
+    },
+    {
+        "country": "PA",
+        "name": "Paya",
+        "lat": "7.90071",
+        "lng": "-77.38965"
+    },
+    {
+        "country": "PA",
+        "name": "Parque Lefevre",
+        "lat": "9.01667",
+        "lng": "-79.48333"
+    },
+    {
+        "country": "PA",
+        "name": "Paritilla",
+        "lat": "7.62848",
+        "lng": "-80.1724"
+    },
+    {
+        "country": "PA",
+        "name": "Parita",
+        "lat": "7.99393",
+        "lng": "-80.52097"
+    },
+    {
+        "country": "PA",
+        "name": "Par\u00eds",
+        "lat": "8.05053",
+        "lng": "-80.55409"
+    },
+    {
+        "country": "PA",
+        "name": "Para\u00edso",
+        "lat": "8.65842",
+        "lng": "-82.58625"
+    },
+    {
+        "country": "PA",
+        "name": "Para\u00edso",
+        "lat": "7.6851",
+        "lng": "-80.16082"
+    },
+    {
+        "country": "PA",
+        "name": "Panam\u00e1",
+        "lat": "8.9936",
+        "lng": "-79.51973"
+    },
+    {
+        "country": "PA",
+        "name": "Palo Grande",
+        "lat": "8.34654",
+        "lng": "-82.60589"
+    },
+    {
+        "country": "PA",
+        "name": "Palmira Centro",
+        "lat": "8.73956",
+        "lng": "-82.45228"
+    },
+    {
+        "country": "PA",
+        "name": "Palmira",
+        "lat": "9.54359",
+        "lng": "-79.21946"
+    },
+    {
+        "country": "PA",
+        "name": "Palmira",
+        "lat": "8.73401",
+        "lng": "-82.45887"
+    },
+    {
+        "country": "PA",
+        "name": "Palmira",
+        "lat": "7.66347",
+        "lng": "-80.35728"
+    },
+    {
+        "country": "PA",
+        "name": "Palmas Bellas",
+        "lat": "9.22838",
+        "lng": "-80.08503"
+    },
+    {
+        "country": "PA",
+        "name": "Palenque",
+        "lat": "9.5697",
+        "lng": "-79.36341"
+    },
+    {
+        "country": "PA",
+        "name": "Paja de Sombrero",
+        "lat": "8.68335",
+        "lng": "-82.31911"
+    },
+    {
+        "country": "PA",
+        "name": "Pacora",
+        "lat": "9.07937",
+        "lng": "-79.28997"
+    },
+    {
+        "country": "PA",
+        "name": "Ol\u00e1",
+        "lat": "8.41807",
+        "lng": "-80.65123"
+    },
+    {
+        "country": "PA",
+        "name": "Oc\u00fa",
+        "lat": "7.94052",
+        "lng": "-80.77936"
+    },
+    {
+        "country": "PA",
+        "name": "Nuevo Vig\u00eda",
+        "lat": "9.24263",
+        "lng": "-79.60756"
+    },
+    {
+        "country": "PA",
+        "name": "Nuevo San Juan",
+        "lat": "9.22205",
+        "lng": "-79.66602"
+    },
+    {
+        "country": "PA",
+        "name": "Nuevo Emperador",
+        "lat": "9.00273",
+        "lng": "-79.73141"
+    },
+    {
+        "country": "PA",
+        "name": "Nuevo Chagres",
+        "lat": "9.23979",
+        "lng": "-80.08267"
+    },
+    {
+        "country": "PA",
+        "name": "Nuevo Arraij\u00e1n",
+        "lat": "8.92453",
+        "lng": "-79.72004"
+    },
+    {
+        "country": "PA",
+        "name": "Nueva Providencia",
+        "lat": "9.26333",
+        "lng": "-79.81556"
+    },
+    {
+        "country": "PA",
+        "name": "Nueva Gorgona",
+        "lat": "8.55",
+        "lng": "-79.87547"
+    },
+    {
+        "country": "PA",
+        "name": "Nueva Arenosa",
+        "lat": "8.86944",
+        "lng": "-79.99472"
+    },
+    {
+        "country": "PA",
+        "name": "Nuestro Amo",
+        "lat": "8.44485",
+        "lng": "-80.58934"
+    },
+    {
+        "country": "PA",
+        "name": "Nuario",
+        "lat": "7.53047",
+        "lng": "-80.32692"
+    },
+    {
+        "country": "PA",
+        "name": "Nombre de Dios",
+        "lat": "9.57937",
+        "lng": "-79.47109"
+    },
+    {
+        "country": "PA",
+        "name": "Nat\u00e1",
+        "lat": "8.33209",
+        "lng": "-80.51969"
+    },
+    {
+        "country": "PA",
+        "name": "Nargan\u00e1",
+        "lat": "9.44394",
+        "lng": "-78.58666"
+    },
+    {
+        "country": "PA",
+        "name": "Mulatupo",
+        "lat": "8.94672",
+        "lng": "-77.7508"
+    },
+    {
+        "country": "PA",
+        "name": "Mort\u00ed",
+        "lat": "8.84246",
+        "lng": "-77.97539"
+    },
+    {
+        "country": "PA",
+        "name": "Montijo",
+        "lat": "7.98858",
+        "lng": "-81.05643"
+    },
+    {
+        "country": "PA",
+        "name": "Monte Lirio",
+        "lat": "8.78935",
+        "lng": "-82.82865"
+    },
+    {
+        "country": "PA",
+        "name": "La Monta\u00f1uela",
+        "lat": "8.02487",
+        "lng": "-80.86325"
+    },
+    {
+        "country": "PA",
+        "name": "Monjar\u00e1s",
+        "lat": "8.36942",
+        "lng": "-80.86667"
+    },
+    {
+        "country": "PA",
+        "name": "Monagrillo",
+        "lat": "7.98179",
+        "lng": "-80.43764"
+    },
+    {
+        "country": "PA",
+        "name": "Mogoll\u00f3n",
+        "lat": "7.64261",
+        "lng": "-80.4595"
+    },
+    {
+        "country": "PA",
+        "name": "Miramar",
+        "lat": "9.57544",
+        "lng": "-79.33573"
+    },
+    {
+        "country": "PA",
+        "name": "Miramar",
+        "lat": "8.99482",
+        "lng": "-82.24147"
+    },
+    {
+        "country": "PA",
+        "name": "Miguel de La Borda",
+        "lat": "9.14544",
+        "lng": "-80.30124"
+    },
+    {
+        "country": "PA",
+        "name": "Metet\u00ed",
+        "lat": "8.49909",
+        "lng": "-77.97897"
+    },
+    {
+        "country": "PA",
+        "name": "Mendoza",
+        "lat": "9.01471",
+        "lng": "-79.85073"
+    },
+    {
+        "country": "PA",
+        "name": "Mata del Nance",
+        "lat": "8.45056",
+        "lng": "-82.40057"
+    },
+    {
+        "country": "PA",
+        "name": "Mar\u00eda Chiquita",
+        "lat": "9.43991",
+        "lng": "-79.75455"
+    },
+    {
+        "country": "PA",
+        "name": "Mariab\u00e9",
+        "lat": "7.58265",
+        "lng": "-80.0661"
+    },
+    {
+        "country": "PA",
+        "name": "Las Margaritas",
+        "lat": "9.32603",
+        "lng": "-79.89028"
+    },
+    {
+        "country": "PA",
+        "name": "Maraca",
+        "lat": "8.37302",
+        "lng": "-81.72741"
+    },
+    {
+        "country": "PA",
+        "name": "Macaracas",
+        "lat": "7.73168",
+        "lng": "-80.55364"
+    },
+    {
+        "country": "PA",
+        "name": "Los Valles",
+        "lat": "8.44851",
+        "lng": "-81.19886"
+    },
+    {
+        "country": "PA",
+        "name": "Los Santos",
+        "lat": "7.93333",
+        "lng": "-80.41667"
+    },
+    {
+        "country": "PA",
+        "name": "Los Pozos",
+        "lat": "7.783",
+        "lng": "-80.64524"
+    },
+    {
+        "country": "PA",
+        "name": "Los Olivos",
+        "lat": "7.91589",
+        "lng": "-80.48884"
+    },
+    {
+        "country": "PA",
+        "name": "Los Naranjos",
+        "lat": "8.7921",
+        "lng": "-82.44665"
+    },
+    {
+        "country": "PA",
+        "name": "Los Lotes",
+        "lat": "9.12425",
+        "lng": "-79.28929"
+    },
+    {
+        "country": "PA",
+        "name": "Los Llanitos",
+        "lat": "8.59787",
+        "lng": "-80.09503"
+    },
+    {
+        "country": "PA",
+        "name": "Los Higos",
+        "lat": "8.20553",
+        "lng": "-80.86022"
+    },
+    {
+        "country": "PA",
+        "name": "Los Corot\u00faes",
+        "lat": "8.42014",
+        "lng": "-81.10421"
+    },
+    {
+        "country": "PA",
+        "name": "Los Cerros de Paja",
+        "lat": "7.71821",
+        "lng": "-80.67273"
+    },
+    {
+        "country": "PA",
+        "name": "Los Cerritos",
+        "lat": "7.79746",
+        "lng": "-80.61071"
+    },
+    {
+        "country": "PA",
+        "name": "Los Castillos",
+        "lat": "8.02326",
+        "lng": "-81.11941"
+    },
+    {
+        "country": "PA",
+        "name": "Los Castillos",
+        "lat": "7.98565",
+        "lng": "-80.61886"
+    },
+    {
+        "country": "PA",
+        "name": "Los Canelos",
+        "lat": "8.11722",
+        "lng": "-80.70769"
+    },
+    {
+        "country": "PA",
+        "name": "Los Asientos",
+        "lat": "7.51656",
+        "lng": "-80.13521"
+    },
+    {
+        "country": "PA",
+        "name": "Los \u00c1ngeles",
+        "lat": "8.52271",
+        "lng": "-82.19997"
+    },
+    {
+        "country": "PA",
+        "name": "Los \u00c1ngeles",
+        "lat": "7.88422",
+        "lng": "-80.35772"
+    },
+    {
+        "country": "PA",
+        "name": "Los Anastacios",
+        "lat": "8.53027",
+        "lng": "-82.42295"
+    },
+    {
+        "country": "PA",
+        "name": "Los Algarrobos",
+        "lat": "8.49601",
+        "lng": "-82.42417"
+    },
+    {
+        "country": "PA",
+        "name": "Los Algarrobos",
+        "lat": "8.10898",
+        "lng": "-81.01355"
+    },
+    {
+        "country": "PA",
+        "name": "Lol\u00e1",
+        "lat": "8.09326",
+        "lng": "-81.47163"
+    },
+    {
+        "country": "PA",
+        "name": "Buabidi",
+        "lat": "8.47457",
+        "lng": "-81.69827"
+    },
+    {
+        "country": "PA",
+        "name": "Llano \u00d1opo",
+        "lat": "8.41996",
+        "lng": "-81.61865"
+    },
+    {
+        "country": "PA",
+        "name": "Llano Mar\u00edn",
+        "lat": "8.47696",
+        "lng": "-80.32499"
+    },
+    {
+        "country": "PA",
+        "name": "Llano Largo",
+        "lat": "8.83463",
+        "lng": "-79.80765"
+    },
+    {
+        "country": "PA",
+        "name": "Llano Largo",
+        "lat": "7.90607",
+        "lng": "-80.42561"
+    },
+    {
+        "country": "PA",
+        "name": "Llano Grande",
+        "lat": "8.63817",
+        "lng": "-80.43848"
+    },
+    {
+        "country": "PA",
+        "name": "Llano Grande",
+        "lat": "8.45053",
+        "lng": "-80.22676"
+    },
+    {
+        "country": "PA",
+        "name": "Llano Grande",
+        "lat": "8.07473",
+        "lng": "-81.13626"
+    },
+    {
+        "country": "PA",
+        "name": "Llano Grande",
+        "lat": "7.97406",
+        "lng": "-80.71103"
+    },
+    {
+        "country": "PA",
+        "name": "Llano de Piedra",
+        "lat": "7.65972",
+        "lng": "-80.56347"
+    },
+    {
+        "country": "PA",
+        "name": "Llano de La Cruz",
+        "lat": "7.95178",
+        "lng": "-80.64239"
+    },
+    {
+        "country": "PA",
+        "name": "Llano Bonito",
+        "lat": "7.97637",
+        "lng": "-80.41646"
+    },
+    {
+        "country": "PA",
+        "name": "Llano Abajo",
+        "lat": "7.78598",
+        "lng": "-80.4106"
+    },
+    {
+        "country": "PA",
+        "name": "Limones",
+        "lat": "8.10007",
+        "lng": "-82.86679"
+    },
+    {
+        "country": "PA",
+        "name": "Lim\u00f3n de Tijeras",
+        "lat": "7.81756",
+        "lng": "-80.91335"
+    },
+    {
+        "country": "PA",
+        "name": "L\u00eddice",
+        "lat": "8.74869",
+        "lng": "-79.90974"
+    },
+    {
+        "country": "PA",
+        "name": "Leones Arriba",
+        "lat": "7.7659",
+        "lng": "-80.84515"
+    },
+    {
+        "country": "PA",
+        "name": "Leones Arriba",
+        "lat": "7.75415",
+        "lng": "-81.11556"
+    },
+    {
+        "country": "PA",
+        "name": "La Yeguada",
+        "lat": "8.4306",
+        "lng": "-80.85752"
+    },
+    {
+        "country": "PA",
+        "name": "La Tronosa",
+        "lat": "7.43609",
+        "lng": "-80.58698"
+    },
+    {
+        "country": "PA",
+        "name": "La Trinidad",
+        "lat": "7.91457",
+        "lng": "-80.70332"
+    },
+    {
+        "country": "PA",
+        "name": "La Tiza",
+        "lat": "7.7511",
+        "lng": "-80.29216"
+    },
+    {
+        "country": "PA",
+        "name": "Las Uvas",
+        "lat": "8.45937",
+        "lng": "-80.00075"
+    },
+    {
+        "country": "PA",
+        "name": "Las Trancas",
+        "lat": "7.734",
+        "lng": "-80.37384"
+    },
+    {
+        "country": "PA",
+        "name": "Las Tablas",
+        "lat": "7.76472",
+        "lng": "-80.27483"
+    },
+    {
+        "country": "PA",
+        "name": "Las Sabanas",
+        "lat": "8.58141",
+        "lng": "-80.67978"
+    },
+    {
+        "country": "PA",
+        "name": "Las Palmitas",
+        "lat": "7.76523",
+        "lng": "-80.2935"
+    },
+    {
+        "country": "PA",
+        "name": "Las Palmas",
+        "lat": "8.13564",
+        "lng": "-81.45674"
+    },
+    {
+        "country": "PA",
+        "name": "Las Palmas",
+        "lat": "7.68314",
+        "lng": "-80.49728"
+    },
+    {
+        "country": "PA",
+        "name": "Las Ollas Arriba",
+        "lat": "8.80675",
+        "lng": "-79.91311"
+    },
+    {
+        "country": "PA",
+        "name": "La Soledad",
+        "lat": "7.87899",
+        "lng": "-81.27611"
+    },
+    {
+        "country": "PA",
+        "name": "Las Minas",
+        "lat": "8.64118",
+        "lng": "-80.39432"
+    },
+    {
+        "country": "PA",
+        "name": "Las Minas",
+        "lat": "7.79581",
+        "lng": "-80.7457"
+    },
+    {
+        "country": "PA",
+        "name": "Las Marias",
+        "lat": "8.88809",
+        "lng": "-80.21893"
+    },
+    {
+        "country": "PA",
+        "name": "Las Margaritas",
+        "lat": "9.18426",
+        "lng": "-79.0873"
+    },
+    {
+        "country": "PA",
+        "name": "Las Lomas",
+        "lat": "8.42927",
+        "lng": "-82.38743"
+    },
+    {
+        "country": "PA",
+        "name": "Lajas de Tol\u00e9",
+        "lat": "8.16994",
+        "lng": "-81.69654"
+    },
+    {
+        "country": "PA",
+        "name": "Las Lajas",
+        "lat": "8.54963",
+        "lng": "-79.93521"
+    },
+    {
+        "country": "PA",
+        "name": "Las Lajas",
+        "lat": "8.24184",
+        "lng": "-81.86931"
+    },
+    {
+        "country": "PA",
+        "name": "Las Huacas del Quije",
+        "lat": "8.46702",
+        "lng": "-80.75089"
+    },
+    {
+        "country": "PA",
+        "name": "Las Huacas",
+        "lat": "7.90167",
+        "lng": "-81.14056"
+    },
+    {
+        "country": "PA",
+        "name": "Las Guabas",
+        "lat": "7.90949",
+        "lng": "-80.80706"
+    },
+    {
+        "country": "PA",
+        "name": "Las Guabas",
+        "lat": "7.81469",
+        "lng": "-80.50155"
+    },
+    {
+        "country": "PA",
+        "name": "Las Cumbres",
+        "lat": "9.08916",
+        "lng": "-79.52809"
+    },
+    {
+        "country": "PA",
+        "name": "Altos de San Francisco",
+        "lat": "8.86167",
+        "lng": "-79.79"
+    },
+    {
+        "country": "PA",
+        "name": "Las Cruces",
+        "lat": "7.82285",
+        "lng": "-80.43003"
+    },
+    {
+        "country": "PA",
+        "name": "Las Colinas",
+        "lat": "8.55",
+        "lng": "-80.08333"
+    },
+    {
+        "country": "PA",
+        "name": "Las Cabras",
+        "lat": "7.87561",
+        "lng": "-80.54912"
+    },
+    {
+        "country": "PA",
+        "name": "La Raya de Santa Mar\u00eda",
+        "lat": "8.16429",
+        "lng": "-80.82143"
+    },
+    {
+        "country": "PA",
+        "name": "La Raya de Calobre",
+        "lat": "8.2163",
+        "lng": "-80.82729"
+    },
+    {
+        "country": "PA",
+        "name": "La Punta",
+        "lat": "7.55702",
+        "lng": "-81.19109"
+    },
+    {
+        "country": "PA",
+        "name": "Pitaloza Arriba",
+        "lat": "7.64216",
+        "lng": "-80.66788"
+    },
+    {
+        "country": "PA",
+        "name": "La Pintada",
+        "lat": "8.59299",
+        "lng": "-80.44349"
+    },
+    {
+        "country": "PA",
+        "name": "La Pe\u00f1a",
+        "lat": "8.12784",
+        "lng": "-81.02693"
+    },
+    {
+        "country": "PA",
+        "name": "La Pasera",
+        "lat": "7.79757",
+        "lng": "-80.30342"
+    },
+    {
+        "country": "PA",
+        "name": "La Palma",
+        "lat": "8.40608",
+        "lng": "-78.13964"
+    },
+    {
+        "country": "PA",
+        "name": "La Palma",
+        "lat": "7.71667",
+        "lng": "-80.38333"
+    },
+    {
+        "country": "PA",
+        "name": "La Palma",
+        "lat": "7.68864",
+        "lng": "-80.19647"
+    },
+    {
+        "country": "PA",
+        "name": "La Mitra",
+        "lat": "8.84091",
+        "lng": "-79.78648"
+    },
+    {
+        "country": "PA",
+        "name": "La Miel",
+        "lat": "7.56022",
+        "lng": "-80.32736"
+    },
+    {
+        "country": "PA",
+        "name": "La Mesa",
+        "lat": "9.17308",
+        "lng": "-79.27401"
+    },
+    {
+        "country": "PA",
+        "name": "La Mesa",
+        "lat": "8.14707",
+        "lng": "-81.18114"
+    },
+    {
+        "country": "PA",
+        "name": "La Mesa",
+        "lat": "7.6567",
+        "lng": "-80.61794"
+    },
+    {
+        "country": "PA",
+        "name": "La Loma",
+        "lat": "8.16667",
+        "lng": "-80.63742"
+    },
+    {
+        "country": "PA",
+        "name": "La Loma",
+        "lat": "7.43708",
+        "lng": "-80.89118"
+    },
+    {
+        "country": "PA",
+        "name": "La Laja",
+        "lat": "7.73102",
+        "lng": "-80.25298"
+    },
+    {
+        "country": "PA",
+        "name": "La Laguna",
+        "lat": "9.04404",
+        "lng": "-79.84215"
+    },
+    {
+        "country": "PA",
+        "name": "La Laguna",
+        "lat": "8.60409",
+        "lng": "-80.04716"
+    },
+    {
+        "country": "PA",
+        "name": "La Laguna",
+        "lat": "8.33882",
+        "lng": "-80.72949"
+    },
+    {
+        "country": "PA",
+        "name": "Lajas Adentro",
+        "lat": "8.24981",
+        "lng": "-81.87779"
+    },
+    {
+        "country": "PA",
+        "name": "Lajamina",
+        "lat": "7.58587",
+        "lng": "-80.13212"
+    },
+    {
+        "country": "PA",
+        "name": "La Herradura",
+        "lat": "8.84848",
+        "lng": "-79.80404"
+    },
+    {
+        "country": "PA",
+        "name": "La Guinea",
+        "lat": "8.3425",
+        "lng": "-78.9343"
+    },
+    {
+        "country": "PA",
+        "name": "Lagarterita",
+        "lat": "9.07944",
+        "lng": "-79.91389"
+    },
+    {
+        "country": "PA",
+        "name": "La Garceana",
+        "lat": "7.93708",
+        "lng": "-81.01643"
+    },
+    {
+        "country": "PA",
+        "name": "La Estrella",
+        "lat": "8.51572",
+        "lng": "-82.67212"
+    },
+    {
+        "country": "PA",
+        "name": "La Espigadilla",
+        "lat": "7.88389",
+        "lng": "-80.39039"
+    },
+    {
+        "country": "PA",
+        "name": "La Esperanza",
+        "lat": "8.40344",
+        "lng": "-82.79197"
+    },
+    {
+        "country": "PA",
+        "name": "La Esmeralda",
+        "lat": "8.26817",
+        "lng": "-78.9246"
+    },
+    {
+        "country": "PA",
+        "name": "La Ermita",
+        "lat": "8.45622",
+        "lng": "-80.06835"
+    },
+    {
+        "country": "PA",
+        "name": "La Ensenada",
+        "lat": "8.36618",
+        "lng": "-78.84606"
+    },
+    {
+        "country": "PA",
+        "name": "La Enea",
+        "lat": "7.83333",
+        "lng": "-80.27417"
+    },
+    {
+        "country": "PA",
+        "name": "La Encantada",
+        "lat": "9.08703",
+        "lng": "-80.19158"
+    },
+    {
+        "country": "PA",
+        "name": "La Concepci\u00f3n",
+        "lat": "8.51212",
+        "lng": "-82.61858"
+    },
+    {
+        "country": "PA",
+        "name": "La Colorada",
+        "lat": "8.01319",
+        "lng": "-80.9859"
+    },
+    {
+        "country": "PA",
+        "name": "La Colorada",
+        "lat": "7.82362",
+        "lng": "-80.55552"
+    },
+    {
+        "country": "PA",
+        "name": "La Chorrera",
+        "lat": "8.88028",
+        "lng": "-79.78333"
+    },
+    {
+        "country": "PA",
+        "name": "La Carrillo",
+        "lat": "7.96953",
+        "lng": "-80.88377"
+    },
+    {
+        "country": "PA",
+        "name": "Cabuya",
+        "lat": "7.98267",
+        "lng": "-80.76435"
+    },
+    {
+        "country": "PA",
+        "name": "La Cabima",
+        "lat": "9.11865",
+        "lng": "-79.5366"
+    },
+    {
+        "country": "PA",
+        "name": "Boca del Gu\u00e1simo",
+        "lat": "9.05053",
+        "lng": "-80.32878"
+    },
+    {
+        "country": "PA",
+        "name": "La Arena",
+        "lat": "7.96766",
+        "lng": "-80.46523"
+    },
+    {
+        "country": "PA",
+        "name": "La Arena",
+        "lat": "7.75033",
+        "lng": "-80.59283"
+    },
+    {
+        "country": "PA",
+        "name": "Juay",
+        "lat": "8.28415",
+        "lng": "-81.94633"
+    },
+    {
+        "country": "PA",
+        "name": "Juan D\u00edaz",
+        "lat": "9.05",
+        "lng": "-79.45"
+    },
+    {
+        "country": "PA",
+        "name": "Juan D\u00edaz",
+        "lat": "8.4624",
+        "lng": "-80.2828"
+    },
+    {
+        "country": "PA",
+        "name": "Jaramillo Arriba",
+        "lat": "8.79771",
+        "lng": "-82.42431"
+    },
+    {
+        "country": "PA",
+        "name": "Jaqu\u00e9",
+        "lat": "7.51826",
+        "lng": "-78.16343"
+    },
+    {
+        "country": "PA",
+        "name": "Horconcitos",
+        "lat": "8.31142",
+        "lng": "-82.15102"
+    },
+    {
+        "country": "PA",
+        "name": "Hato Pil\u00f3n",
+        "lat": "8.39813",
+        "lng": "-81.86525"
+    },
+    {
+        "country": "PA",
+        "name": "Hato Monta\u00f1a",
+        "lat": "8.91938",
+        "lng": "-79.73915"
+    },
+    {
+        "country": "PA",
+        "name": "Hato Juli",
+        "lat": "8.34981",
+        "lng": "-81.84503"
+    },
+    {
+        "country": "PA",
+        "name": "Hato Jobo",
+        "lat": "8.39198",
+        "lng": "-81.8862"
+    },
+    {
+        "country": "PA",
+        "name": "Hato Culantro",
+        "lat": "8.46847",
+        "lng": "-81.85714"
+    },
+    {
+        "country": "PA",
+        "name": "Hato Corot\u00fa",
+        "lat": "8.33516",
+        "lng": "-81.9703"
+    },
+    {
+        "country": "PA",
+        "name": "Hato Chami",
+        "lat": "8.44281",
+        "lng": "-81.77196"
+    },
+    {
+        "country": "PA",
+        "name": "Guzman",
+        "lat": "8.51969",
+        "lng": "-80.58405"
+    },
+    {
+        "country": "PA",
+        "name": "Las Gu\u00edas Abajo",
+        "lat": "8.19451",
+        "lng": "-80.75494"
+    },
+    {
+        "country": "PA",
+        "name": "Guayabito",
+        "lat": "8.54828",
+        "lng": "-80.0135"
+    },
+    {
+        "country": "PA",
+        "name": "Guayabal",
+        "lat": "8.62193",
+        "lng": "-82.57935"
+    },
+    {
+        "country": "PA",
+        "name": "Guarumal",
+        "lat": "8.34523",
+        "lng": "-82.53205"
+    },
+    {
+        "country": "PA",
+        "name": "Guarumal",
+        "lat": "7.79404",
+        "lng": "-81.25904"
+    },
+    {
+        "country": "PA",
+        "name": "Guarar\u00e9 Arriba",
+        "lat": "7.80023",
+        "lng": "-80.35983"
+    },
+    {
+        "country": "PA",
+        "name": "Guarar\u00e9",
+        "lat": "7.81531",
+        "lng": "-80.28345"
+    },
+    {
+        "country": "PA",
+        "name": "Gualaca",
+        "lat": "8.53006",
+        "lng": "-82.29959"
+    },
+    {
+        "country": "PA",
+        "name": "Guadalupe",
+        "lat": "8.85452",
+        "lng": "-79.81408"
+    },
+    {
+        "country": "PA",
+        "name": "Guaca Arriba",
+        "lat": "8.53733",
+        "lng": "-82.49281"
+    },
+    {
+        "country": "PA",
+        "name": "Guabito",
+        "lat": "9.48968",
+        "lng": "-82.61279"
+    },
+    {
+        "country": "PA",
+        "name": "Guabal",
+        "lat": "8.57466",
+        "lng": "-82.5373"
+    },
+    {
+        "country": "PA",
+        "name": "Gonzalo V\u00e1squez",
+        "lat": "8.41466",
+        "lng": "-78.45612"
+    },
+    {
+        "country": "PA",
+        "name": "G\u00f3mez",
+        "lat": "8.56085",
+        "lng": "-82.74142"
+    },
+    {
+        "country": "PA",
+        "name": "Gobea",
+        "lat": "9.15914",
+        "lng": "-80.25064"
+    },
+    {
+        "country": "PA",
+        "name": "Gatuncillo",
+        "lat": "9.24346",
+        "lng": "-79.64856"
+    },
+    {
+        "country": "PA",
+        "name": "Gat\u00fa",
+        "lat": "8.53754",
+        "lng": "-80.95109"
+    },
+    {
+        "country": "PA",
+        "name": "Garachin\u00e9",
+        "lat": "8.06684",
+        "lng": "-78.36436"
+    },
+    {
+        "country": "PA",
+        "name": "Flores",
+        "lat": "7.48157",
+        "lng": "-80.40695"
+    },
+    {
+        "country": "PA",
+        "name": "Finca Blanco",
+        "lat": "8.37979",
+        "lng": "-82.87385"
+    },
+    {
+        "country": "PA",
+        "name": "El Espav\u00e9",
+        "lat": "8.66161",
+        "lng": "-79.87584"
+    },
+    {
+        "country": "PA",
+        "name": "Escobal",
+        "lat": "9.14373",
+        "lng": "-79.96439"
+    },
+    {
+        "country": "PA",
+        "name": "El Valle de la Uni\u00f3n",
+        "lat": "9.2363",
+        "lng": "-79.65986"
+    },
+    {
+        "country": "PA",
+        "name": "El Uvito",
+        "lat": "8.11648",
+        "lng": "-80.98461"
+    },
+    {
+        "country": "PA",
+        "name": "El Toro",
+        "lat": "7.7511",
+        "lng": "-80.86943"
+    },
+    {
+        "country": "PA",
+        "name": "El Tejar",
+        "lat": "8.42973",
+        "lng": "-82.57294"
+    },
+    {
+        "country": "PA",
+        "name": "El Silencio",
+        "lat": "9.37222",
+        "lng": "-82.52877"
+    },
+    {
+        "country": "PA",
+        "name": "Sesteadero",
+        "lat": "7.73885",
+        "lng": "-80.24854"
+    },
+    {
+        "country": "PA",
+        "name": "El Roble",
+        "lat": "8.1685",
+        "lng": "-80.65897"
+    },
+    {
+        "country": "PA",
+        "name": "El Rinc\u00f3n",
+        "lat": "8.18422",
+        "lng": "-81.43333"
+    },
+    {
+        "country": "PA",
+        "name": "El Rinc\u00f3n",
+        "lat": "8.11923",
+        "lng": "-80.61707"
+    },
+    {
+        "country": "PA",
+        "name": "El Retiro",
+        "lat": "8.48014",
+        "lng": "-80.15426"
+    },
+    {
+        "country": "PA",
+        "name": "Quinte\u00f1o",
+        "lat": "8.47102",
+        "lng": "-82.39352"
+    },
+    {
+        "country": "PA",
+        "name": "El Progreso",
+        "lat": "9.26667",
+        "lng": "-79.11667"
+    },
+    {
+        "country": "PA",
+        "name": "El Prado",
+        "lat": "8.23732",
+        "lng": "-81.50422"
+    },
+    {
+        "country": "PA",
+        "name": "El Potrero",
+        "lat": "8.52146",
+        "lng": "-80.51681"
+    },
+    {
+        "country": "PA",
+        "name": "El Potrero",
+        "lat": "8.37692",
+        "lng": "-80.79434"
+    },
+    {
+        "country": "PA",
+        "name": "El Porvenir",
+        "lat": "9.55276",
+        "lng": "-78.9523"
+    },
+    {
+        "country": "PA",
+        "name": "El Piro",
+        "lat": "8.20942",
+        "lng": "-81.52706"
+    },
+    {
+        "country": "PA",
+        "name": "El Pil\u00f3n",
+        "lat": "7.95413",
+        "lng": "-81.07637"
+    },
+    {
+        "country": "PA",
+        "name": "El Picador",
+        "lat": "8.37803",
+        "lng": "-81.25621"
+    },
+    {
+        "country": "PA",
+        "name": "El Pe\u00f1\u00f3n",
+        "lat": "8.35",
+        "lng": "-80.9762"
+    },
+    {
+        "country": "PA",
+        "name": "El Pedregoso",
+        "lat": "7.93642",
+        "lng": "-80.63807"
+    },
+    {
+        "country": "PA",
+        "name": "El Pedregoso",
+        "lat": "7.69173",
+        "lng": "-80.32793"
+    },
+    {
+        "country": "PA",
+        "name": "El Pantano",
+        "lat": "8.53755",
+        "lng": "-81.06941"
+    },
+    {
+        "country": "PA",
+        "name": "El P\u00e1jaro",
+        "lat": "7.95342",
+        "lng": "-81.12154"
+    },
+    {
+        "country": "PA",
+        "name": "El P\u00e1jaro",
+        "lat": "7.94338",
+        "lng": "-80.5701"
+    },
+    {
+        "country": "PA",
+        "name": "El Nancito",
+        "lat": "8.23811",
+        "lng": "-81.73218"
+    },
+    {
+        "country": "PA",
+        "name": "El Mu\u00f1oz",
+        "lat": "7.67582",
+        "lng": "-80.3213"
+    },
+    {
+        "country": "PA",
+        "name": "El Mar\u00eda",
+        "lat": "8.02905",
+        "lng": "-81.44384"
+    },
+    {
+        "country": "PA",
+        "name": "El Mara\u00f1\u00f3n",
+        "lat": "8.03582",
+        "lng": "-81.21489"
+    },
+    {
+        "country": "PA",
+        "name": "El Manantial",
+        "lat": "7.78245",
+        "lng": "-80.24713"
+    },
+    {
+        "country": "PA",
+        "name": "Salto Dup\u00ed",
+        "lat": "8.35146",
+        "lng": "-81.88659"
+    },
+    {
+        "country": "PA",
+        "name": "El Macano",
+        "lat": "7.68489",
+        "lng": "-80.40309"
+    },
+    {
+        "country": "PA",
+        "name": "El Lim\u00f3n",
+        "lat": "8.05805",
+        "lng": "-80.77289"
+    },
+    {
+        "country": "PA",
+        "name": "El L\u00edbano",
+        "lat": "8.61685",
+        "lng": "-79.83483"
+    },
+    {
+        "country": "PA",
+        "name": "El Higo",
+        "lat": "8.44731",
+        "lng": "-80.03603"
+    },
+    {
+        "country": "PA",
+        "name": "El Hato",
+        "lat": "7.79316",
+        "lng": "-80.38267"
+    },
+    {
+        "country": "PA",
+        "name": "El Gu\u00e1simo",
+        "lat": "7.8064",
+        "lng": "-80.52991"
+    },
+    {
+        "country": "PA",
+        "name": "El Guabo",
+        "lat": "9.07842",
+        "lng": "-80.08316"
+    },
+    {
+        "country": "PA",
+        "name": "El Giral",
+        "lat": "9.24509",
+        "lng": "-79.69266"
+    },
+    {
+        "country": "PA",
+        "name": "Farall\u00f3n",
+        "lat": "8.35658",
+        "lng": "-80.13723"
+    },
+    {
+        "country": "PA",
+        "name": "El Espino de Santa Rosa",
+        "lat": "8.09286",
+        "lng": "-80.8238"
+    },
+    {
+        "country": "PA",
+        "name": "El Espino Amarillo",
+        "lat": "7.67605",
+        "lng": "-80.43896"
+    },
+    {
+        "country": "PA",
+        "name": "El Espino",
+        "lat": "8.83795",
+        "lng": "-79.84925"
+    },
+    {
+        "country": "PA",
+        "name": "El Espino",
+        "lat": "8.47761",
+        "lng": "-80.0128"
+    },
+    {
+        "country": "PA",
+        "name": "El Espinal",
+        "lat": "7.86667",
+        "lng": "-80.31936"
+    },
+    {
+        "country": "PA",
+        "name": "Entradero",
+        "lat": "8.5688",
+        "lng": "-80.20743"
+    },
+    {
+        "country": "PA",
+        "name": "El Empalme",
+        "lat": "9.41667",
+        "lng": "-82.51667"
+    },
+    {
+        "country": "PA",
+        "name": "El Ejido",
+        "lat": "7.91634",
+        "lng": "-80.38686"
+    },
+    {
+        "country": "PA",
+        "name": "El Cristo",
+        "lat": "8.25071",
+        "lng": "-80.62093"
+    },
+    {
+        "country": "PA",
+        "name": "El Cortezo",
+        "lat": "8.34556",
+        "lng": "-80.58721"
+    },
+    {
+        "country": "PA",
+        "name": "El Cortezo",
+        "lat": "7.42661",
+        "lng": "-80.63311"
+    },
+    {
+        "country": "PA",
+        "name": "El Cop\u00e9",
+        "lat": "8.62036",
+        "lng": "-80.58433"
+    },
+    {
+        "country": "PA",
+        "name": "El Cop\u00e9",
+        "lat": "8.43773",
+        "lng": "-80.67929"
+    },
+    {
+        "country": "PA",
+        "name": "El Coco",
+        "lat": "8.87009",
+        "lng": "-79.80415"
+    },
+    {
+        "country": "PA",
+        "name": "El Coco",
+        "lat": "8.39716",
+        "lng": "-80.35"
+    },
+    {
+        "country": "PA",
+        "name": "El Cocl\u00e1",
+        "lat": "8.32143",
+        "lng": "-80.92069"
+    },
+    {
+        "country": "PA",
+        "name": "El Cocal",
+        "lat": "7.73697",
+        "lng": "-80.2798"
+    },
+    {
+        "country": "PA",
+        "name": "El Chorrillo",
+        "lat": "8.94964",
+        "lng": "-79.54715"
+    },
+    {
+        "country": "PA",
+        "name": "El Chir\u00fa",
+        "lat": "8.39876",
+        "lng": "-80.18721"
+    },
+    {
+        "country": "PA",
+        "name": "El Cedro",
+        "lat": "7.68565",
+        "lng": "-80.65927"
+    },
+    {
+        "country": "PA",
+        "name": "El Carate",
+        "lat": "7.73124",
+        "lng": "-80.29691"
+    },
+    {
+        "country": "PA",
+        "name": "El Capur\u00ed",
+        "lat": "7.72571",
+        "lng": "-80.64349"
+    },
+    {
+        "country": "PA",
+        "name": "El Ca\u00f1o",
+        "lat": "8.40195",
+        "lng": "-80.51791"
+    },
+    {
+        "country": "PA",
+        "name": "El Ca\u00f1af\u00edstulo",
+        "lat": "7.61768",
+        "lng": "-80.23322"
+    },
+    {
+        "country": "PA",
+        "name": "El Calabacito",
+        "lat": "7.71843",
+        "lng": "-80.59757"
+    },
+    {
+        "country": "PA",
+        "name": "El Cacao",
+        "lat": "8.76134",
+        "lng": "-80.01294"
+    },
+    {
+        "country": "PA",
+        "name": "El Cacao",
+        "lat": "7.4457",
+        "lng": "-80.40938"
+    },
+    {
+        "country": "PA",
+        "name": "Bongo Arriba",
+        "lat": "8.58881",
+        "lng": "-82.62253"
+    },
+    {
+        "country": "PA",
+        "name": "El Bebedero",
+        "lat": "7.40972",
+        "lng": "-80.45641"
+    },
+    {
+        "country": "PA",
+        "name": "El Barrito",
+        "lat": "7.96059",
+        "lng": "-80.94801"
+    },
+    {
+        "country": "PA",
+        "name": "El Barrero",
+        "lat": "7.93344",
+        "lng": "-80.51358"
+    },
+    {
+        "country": "PA",
+        "name": "Cerro Banco",
+        "lat": "8.45797",
+        "lng": "-82.03081"
+    },
+    {
+        "country": "PA",
+        "name": "El Bale",
+        "lat": "8.35745",
+        "lng": "-81.36099"
+    },
+    {
+        "country": "PA",
+        "name": "El Alto",
+        "lat": "8.51191",
+        "lng": "-81.03646"
+    },
+    {
+        "country": "PA",
+        "name": "Dos R\u00edos Abajo",
+        "lat": "8.52834",
+        "lng": "-82.38677"
+    },
+    {
+        "country": "PA",
+        "name": "Dolega District",
+        "lat": "8.56667",
+        "lng": "-82.41407"
+    },
+    {
+        "country": "PA",
+        "name": "Dival\u00e1",
+        "lat": "8.41066",
+        "lng": "-82.71332"
+    },
+    {
+        "country": "PA",
+        "name": "David",
+        "lat": "8.42729",
+        "lng": "-82.43085"
+    },
+    {
+        "country": "PA",
+        "name": "Kusap\u00edn",
+        "lat": "9.17823",
+        "lng": "-81.88484"
+    },
+    {
+        "country": "PA",
+        "name": "Curund\u00fa",
+        "lat": "8.97092",
+        "lng": "-79.54612"
+    },
+    {
+        "country": "PA",
+        "name": "Cuipo",
+        "lat": "9.06896",
+        "lng": "-80.04878"
+    },
+    {
+        "country": "PA",
+        "name": "Cucunat\u00ed",
+        "lat": "8.57508",
+        "lng": "-78.25671"
+    },
+    {
+        "country": "PA",
+        "name": "Cuango",
+        "lat": "9.56667",
+        "lng": "-79.31667"
+    },
+    {
+        "country": "PA",
+        "name": "Crist\u00f3bal",
+        "lat": "9.35222",
+        "lng": "-79.90444"
+    },
+    {
+        "country": "PA",
+        "name": "Corozal",
+        "lat": "8.07712",
+        "lng": "-81.4399"
+    },
+    {
+        "country": "PA",
+        "name": "Cordillera",
+        "lat": "8.70683",
+        "lng": "-82.60327"
+    },
+    {
+        "country": "PA",
+        "name": "Col\u00f3n",
+        "lat": "9.35451",
+        "lng": "-79.90011"
+    },
+    {
+        "country": "PA",
+        "name": "Cocl\u00e9 del Norte",
+        "lat": "9.0754",
+        "lng": "-80.57177"
+    },
+    {
+        "country": "PA",
+        "name": "Coclecito",
+        "lat": "8.80817",
+        "lng": "-80.55607"
+    },
+    {
+        "country": "PA",
+        "name": "Cocl\u00e9",
+        "lat": "8.45601",
+        "lng": "-80.42899"
+    },
+    {
+        "country": "PA",
+        "name": "Cochea Abajo",
+        "lat": "8.50512",
+        "lng": "-82.35878"
+    },
+    {
+        "country": "PA",
+        "name": "Cir\u00ed de Los Sotos",
+        "lat": "8.97206",
+        "lng": "-80.09209"
+    },
+    {
+        "country": "PA",
+        "name": "Churuquita Grande",
+        "lat": "8.59449",
+        "lng": "-80.27182"
+    },
+    {
+        "country": "PA",
+        "name": "Churuquita Chiquita",
+        "lat": "8.57555",
+        "lng": "-80.27161"
+    },
+    {
+        "country": "PA",
+        "name": "Chupampa",
+        "lat": "8.0762",
+        "lng": "-80.77656"
+    },
+    {
+        "country": "PA",
+        "name": "Chup\u00e1",
+        "lat": "7.8",
+        "lng": "-80.57451"
+    },
+    {
+        "country": "PA",
+        "name": "Chumical",
+        "lat": "7.84482",
+        "lng": "-80.72627"
+    },
+    {
+        "country": "PA",
+        "name": "Barrio Guadalupe",
+        "lat": "8.86482",
+        "lng": "-82.56523"
+    },
+    {
+        "country": "PA",
+        "name": "Chitr\u00e9",
+        "lat": "7.96082",
+        "lng": "-80.42944"
+    },
+    {
+        "country": "PA",
+        "name": "Chiriqu\u00ed Grande",
+        "lat": "8.94557",
+        "lng": "-82.11769"
+    },
+    {
+        "country": "PA",
+        "name": "Chiriqu\u00ed",
+        "lat": "8.39291",
+        "lng": "-82.31993"
+    },
+    {
+        "country": "PA",
+        "name": "Chim\u00e1n",
+        "lat": "8.69125",
+        "lng": "-78.6357"
+    },
+    {
+        "country": "PA",
+        "name": "Chilibre",
+        "lat": "9.15093",
+        "lng": "-79.62098"
+    },
+    {
+        "country": "PA",
+        "name": "Chiguir\u00ed Arriba",
+        "lat": "8.67187",
+        "lng": "-80.18975"
+    },
+    {
+        "country": "PA",
+        "name": "Chigor\u00e9",
+        "lat": "8.53035",
+        "lng": "-80.35117"
+    },
+    {
+        "country": "PA",
+        "name": "Chichica",
+        "lat": "8.35885",
+        "lng": "-81.66582"
+    },
+    {
+        "country": "PA",
+        "name": "Chepo",
+        "lat": "9.17019",
+        "lng": "-79.10083"
+    },
+    {
+        "country": "PA",
+        "name": "Chepillo",
+        "lat": "8.95396",
+        "lng": "-79.12856"
+    },
+    {
+        "country": "PA",
+        "name": "Chepigana",
+        "lat": "8.28628",
+        "lng": "-78.05185"
+    },
+    {
+        "country": "PA",
+        "name": "Changuinola",
+        "lat": "9.43",
+        "lng": "-82.52"
+    },
+    {
+        "country": "PA",
+        "name": "Chame",
+        "lat": "8.57753",
+        "lng": "-79.88595"
+    },
+    {
+        "country": "PA",
+        "name": "Chacarero",
+        "lat": "8.48899",
+        "lng": "-82.59834"
+    },
+    {
+        "country": "PA",
+        "name": "Cerro Viejo",
+        "lat": "8.25349",
+        "lng": "-81.57658"
+    },
+    {
+        "country": "PA",
+        "name": "Cerro Venado",
+        "lat": "8.22818",
+        "lng": "-81.57421"
+    },
+    {
+        "country": "PA",
+        "name": "Cerro Punta",
+        "lat": "8.84968",
+        "lng": "-82.57261"
+    },
+    {
+        "country": "PA",
+        "name": "Cerro Plata",
+        "lat": "8.47733",
+        "lng": "-81.54585"
+    },
+    {
+        "country": "PA",
+        "name": "Cerro de Plata",
+        "lat": "8.28777",
+        "lng": "-81.36844"
+    },
+    {
+        "country": "PA",
+        "name": "Cerro Largo",
+        "lat": "7.83377",
+        "lng": "-80.83168"
+    },
+    {
+        "country": "PA",
+        "name": "Cerro Iglesias",
+        "lat": "8.28523",
+        "lng": "-81.79804"
+    },
+    {
+        "country": "PA",
+        "name": "Cerro Iglesias",
+        "lat": "8.31892",
+        "lng": "-81.56427"
+    },
+    {
+        "country": "PA",
+        "name": "Cerro Ca\u00f1a",
+        "lat": "8.35174",
+        "lng": "-81.6105"
+    },
+    {
+        "country": "PA",
+        "name": "Cerro Cama",
+        "lat": "9.02802",
+        "lng": "-79.90744"
+    },
+    {
+        "country": "PA",
+        "name": "Cerro Azul",
+        "lat": "9.15735",
+        "lng": "-79.42097"
+    },
+    {
+        "country": "PA",
+        "name": "Cerme\u00f1o",
+        "lat": "8.74082",
+        "lng": "-79.85299"
+    },
+    {
+        "country": "PA",
+        "name": "Celmira",
+        "lat": "8.54026",
+        "lng": "-82.80022"
+    },
+    {
+        "country": "PA",
+        "name": "Cauchero",
+        "lat": "9.15226",
+        "lng": "-82.2645"
+    },
+    {
+        "country": "PA",
+        "name": "Cativ\u00e1",
+        "lat": "9.36218",
+        "lng": "-79.83232"
+    },
+    {
+        "country": "PA",
+        "name": "Cascabel",
+        "lat": "8.5268",
+        "lng": "-81.87403"
+    },
+    {
+        "country": "PA",
+        "name": "Cart\u00ed Sugdup",
+        "lat": "9.4646",
+        "lng": "-78.95931"
+    },
+    {
+        "country": "PA",
+        "name": "Capira",
+        "lat": "8.75636",
+        "lng": "-79.87996"
+    },
+    {
+        "country": "PA",
+        "name": "Capellan\u00eda",
+        "lat": "8.29858",
+        "lng": "-80.5548"
+    },
+    {
+        "country": "PA",
+        "name": "San Isidro",
+        "lat": "8.53032",
+        "lng": "-82.8272"
+    },
+    {
+        "country": "PA",
+        "name": "Canto del Llano",
+        "lat": "8.12472",
+        "lng": "-80.96374"
+    },
+    {
+        "country": "PA",
+        "name": "Kankint\u00fa",
+        "lat": "8.84339",
+        "lng": "-81.81496"
+    },
+    {
+        "country": "PA",
+        "name": "Ca\u00f1ita",
+        "lat": "9.22236",
+        "lng": "-78.89509"
+    },
+    {
+        "country": "PA",
+        "name": "Ca\u00f1azas",
+        "lat": "8.32004",
+        "lng": "-81.21152"
+    },
+    {
+        "country": "PA",
+        "name": "Ca\u00f1averal",
+        "lat": "8.517",
+        "lng": "-80.42916"
+    },
+    {
+        "country": "PA",
+        "name": "Ca\u00f1as Gordas",
+        "lat": "8.74309",
+        "lng": "-82.91275"
+    },
+    {
+        "country": "PA",
+        "name": "Ca\u00f1as",
+        "lat": "7.44713",
+        "lng": "-80.2648"
+    },
+    {
+        "country": "PA",
+        "name": "Cambutal",
+        "lat": "7.26534",
+        "lng": "-80.49105"
+    },
+    {
+        "country": "PA",
+        "name": "Camar\u00f3n Arriba",
+        "lat": "8.38324",
+        "lng": "-81.99345"
+    },
+    {
+        "country": "PA",
+        "name": "Calzada Larga",
+        "lat": "9.17272",
+        "lng": "-79.56212"
+    },
+    {
+        "country": "PA",
+        "name": "Calov\u00e9bora",
+        "lat": "8.78703",
+        "lng": "-81.21056"
+    },
+    {
+        "country": "PA",
+        "name": "Calobre",
+        "lat": "8.31886",
+        "lng": "-80.84067"
+    },
+    {
+        "country": "PA",
+        "name": "Calidonia",
+        "lat": "7.95756",
+        "lng": "-81.38633"
+    },
+    {
+        "country": "PA",
+        "name": "Caldera",
+        "lat": "8.64907",
+        "lng": "-82.38058"
+    },
+    {
+        "country": "PA",
+        "name": "Calabacito",
+        "lat": "8.24817",
+        "lng": "-81.08187"
+    },
+    {
+        "country": "PA",
+        "name": "Caimito",
+        "lat": "8.81143",
+        "lng": "-79.94738"
+    },
+    {
+        "country": "PA",
+        "name": "Caimito",
+        "lat": "8.62271",
+        "lng": "-80.23919"
+    },
+    {
+        "country": "PA",
+        "name": "Caimito",
+        "lat": "8.54162",
+        "lng": "-82.419"
+    },
+    {
+        "country": "PA",
+        "name": "Caimitillo",
+        "lat": "9.15559",
+        "lng": "-79.53974"
+    },
+    {
+        "country": "PA",
+        "name": "Cacique",
+        "lat": "9.60898",
+        "lng": "-79.61667"
+    },
+    {
+        "country": "PA",
+        "name": "Cabuya",
+        "lat": "8.57472",
+        "lng": "-79.92714"
+    },
+    {
+        "country": "PA",
+        "name": "Cabuya",
+        "lat": "8.54703",
+        "lng": "-80.16756"
+    },
+    {
+        "country": "PA",
+        "name": "Cabuya",
+        "lat": "8.03138",
+        "lng": "-80.63227"
+    },
+    {
+        "country": "PA",
+        "name": "Cabra N\u00famero Uno",
+        "lat": "9.10863",
+        "lng": "-79.33694"
+    },
+    {
+        "country": "PA",
+        "name": "Caballero",
+        "lat": "8.54343",
+        "lng": "-80.19769"
+    },
+    {
+        "country": "PA",
+        "name": "Bugabita Arriba",
+        "lat": "8.52143",
+        "lng": "-82.63638"
+    },
+    {
+        "country": "PA",
+        "name": "Bugaba",
+        "lat": "8.48255",
+        "lng": "-82.61991"
+    },
+    {
+        "country": "PA",
+        "name": "Buenos Aires",
+        "lat": "8.63146",
+        "lng": "-79.94775"
+    },
+    {
+        "country": "PA",
+        "name": "Buenos Aires",
+        "lat": "8.41384",
+        "lng": "-81.4844"
+    },
+    {
+        "country": "PA",
+        "name": "Buena Vista",
+        "lat": "9.27356",
+        "lng": "-79.69551"
+    },
+    {
+        "country": "PA",
+        "name": "Brujas",
+        "lat": "8.58536",
+        "lng": "-78.53008"
+    },
+    {
+        "country": "PA",
+        "name": "Bre\u00f1\u00f3n",
+        "lat": "8.62491",
+        "lng": "-82.81277"
+    },
+    {
+        "country": "PA",
+        "name": "Bor\u00f3",
+        "lat": "8.16933",
+        "lng": "-81.30071"
+    },
+    {
+        "country": "PA",
+        "name": "Boquete",
+        "lat": "8.78024",
+        "lng": "-82.44136"
+    },
+    {
+        "country": "PA",
+        "name": "Boquer\u00f3n",
+        "lat": "8.5051",
+        "lng": "-82.57025"
+    },
+    {
+        "country": "PA",
+        "name": "Boquer\u00f3n",
+        "lat": "8.24414",
+        "lng": "-80.85897"
+    },
+    {
+        "country": "PA",
+        "name": "Bocas del Toro",
+        "lat": "9.34031",
+        "lng": "-82.24204"
+    },
+    {
+        "country": "PA",
+        "name": "Soloy",
+        "lat": "8.48973",
+        "lng": "-82.07136"
+    },
+    {
+        "country": "PA",
+        "name": "Boca de Parita",
+        "lat": "8.00796",
+        "lng": "-80.4532"
+    },
+    {
+        "country": "PA",
+        "name": "Boca de R\u00edo Indio",
+        "lat": "9.18293",
+        "lng": "-80.19063"
+    },
+    {
+        "country": "PA",
+        "name": "Boca del R\u00edo Chiriqu\u00ed",
+        "lat": "8.84517",
+        "lng": "-81.57265"
+    },
+    {
+        "country": "PA",
+        "name": "Boca del Monte",
+        "lat": "8.35296",
+        "lng": "-82.11379"
+    },
+    {
+        "country": "PA",
+        "name": "Boca de Cup\u00e9",
+        "lat": "8.03003",
+        "lng": "-77.58978"
+    },
+    {
+        "country": "PA",
+        "name": "Boca Chica",
+        "lat": "8.21911",
+        "lng": "-82.21592"
+    },
+    {
+        "country": "PA",
+        "name": "Bisvalles",
+        "lat": "8.18298",
+        "lng": "-81.22092"
+    },
+    {
+        "country": "PA",
+        "name": "Bisira",
+        "lat": "8.89553",
+        "lng": "-81.85352"
+    },
+    {
+        "country": "PA",
+        "name": "Bijagual",
+        "lat": "8.51486",
+        "lng": "-82.33361"
+    },
+    {
+        "country": "PA",
+        "name": "Bella Vista",
+        "lat": "7.75",
+        "lng": "-80.23333"
+    },
+    {
+        "country": "PA",
+        "name": "Bejuco",
+        "lat": "8.60037",
+        "lng": "-79.88988"
+    },
+    {
+        "country": "PA",
+        "name": "Bayano",
+        "lat": "7.63014",
+        "lng": "-80.38201"
+    },
+    {
+        "country": "PA",
+        "name": "Isla Bastimentos",
+        "lat": "9.3",
+        "lng": "-82.13333"
+    },
+    {
+        "country": "PA",
+        "name": "Bastimentos",
+        "lat": "9.34707",
+        "lng": "-82.2088"
+    },
+    {
+        "country": "PA",
+        "name": "Barranco Colorado",
+        "lat": "8.38937",
+        "lng": "-80.63546"
+    },
+    {
+        "country": "PA",
+        "name": "Barranco",
+        "lat": "9.51984",
+        "lng": "-82.70424"
+    },
+    {
+        "country": "PA",
+        "name": "Barnizal",
+        "lat": "8.4046",
+        "lng": "-80.77765"
+    },
+    {
+        "country": "PA",
+        "name": "Bajos de G\u00fcera",
+        "lat": "7.5436",
+        "lng": "-80.62505"
+    },
+    {
+        "country": "PA",
+        "name": "Bajo Corral",
+        "lat": "7.60463",
+        "lng": "-80.26016"
+    },
+    {
+        "country": "PA",
+        "name": "Bajo Boquete",
+        "lat": "8.77058",
+        "lng": "-82.43306"
+    },
+    {
+        "country": "PA",
+        "name": "Bah\u00eda Honda",
+        "lat": "7.70517",
+        "lng": "-80.45342"
+    },
+    {
+        "country": "PA",
+        "name": "Bah\u00eda Azul",
+        "lat": "9.14176",
+        "lng": "-81.89425"
+    },
+    {
+        "country": "PA",
+        "name": "B\u00e1gala",
+        "lat": "8.46399",
+        "lng": "-82.52617"
+    },
+    {
+        "country": "PA",
+        "name": "Ave Mar\u00eda",
+        "lat": "7.32481",
+        "lng": "-80.45361"
+    },
+    {
+        "country": "PA",
+        "name": "Atalaya",
+        "lat": "8.04213",
+        "lng": "-80.92528"
+    },
+    {
+        "country": "PA",
+        "name": "Aserr\u00edo de Garich\u00e9",
+        "lat": "8.48257",
+        "lng": "-82.79086"
+    },
+    {
+        "country": "PA",
+        "name": "Arraij\u00e1n",
+        "lat": "8.95187",
+        "lng": "-79.66011"
+    },
+    {
+        "country": "PA",
+        "name": "Arosemena",
+        "lat": "8.97091",
+        "lng": "-79.96641"
+    },
+    {
+        "country": "PA",
+        "name": "Arenosa",
+        "lat": "9.03978",
+        "lng": "-79.95128"
+    },
+    {
+        "country": "PA",
+        "name": "Arenas",
+        "lat": "7.36865",
+        "lng": "-80.86268"
+    },
+    {
+        "country": "PA",
+        "name": "Ant\u00f3n",
+        "lat": "8.39733",
+        "lng": "-80.26063"
+    },
+    {
+        "country": "PA",
+        "name": "Anc\u00f3n",
+        "lat": "8.96015",
+        "lng": "-79.5514"
+    },
+    {
+        "country": "PA",
+        "name": "Altos de G\u00fcera",
+        "lat": "7.53002",
+        "lng": "-80.62109"
+    },
+    {
+        "country": "PA",
+        "name": "Alto del Espino",
+        "lat": "8.84213",
+        "lng": "-79.84551"
+    },
+    {
+        "country": "PA",
+        "name": "Alto de La Estancia",
+        "lat": "8.58792",
+        "lng": "-80.18443"
+    },
+    {
+        "country": "PA",
+        "name": "Alto Caballero",
+        "lat": "8.28989",
+        "lng": "-81.67349"
+    },
+    {
+        "country": "PA",
+        "name": "Alto Boquete",
+        "lat": "8.73458",
+        "lng": "-82.43213"
+    },
+    {
+        "country": "PA",
+        "name": "Almirante",
+        "lat": "9.30091",
+        "lng": "-82.4018"
+    },
+    {
+        "country": "PA",
+        "name": "Alcalde D\u00edaz",
+        "lat": "9.12016",
+        "lng": "-79.55641"
+    },
+    {
+        "country": "PA",
+        "name": "Alanje",
+        "lat": "8.39791",
+        "lng": "-82.55947"
+    },
+    {
+        "country": "PA",
+        "name": "Ailigand\u00ed",
+        "lat": "9.2281",
+        "lng": "-78.02778"
+    },
+    {
+        "country": "PA",
+        "name": "Aguas Blancas",
+        "lat": "8.50351",
+        "lng": "-80.31169"
+    },
+    {
+        "country": "PA",
+        "name": "Aguadulce",
+        "lat": "8.24183",
+        "lng": "-80.54609"
+    },
+    {
+        "country": "PA",
+        "name": "Agua de Salud",
+        "lat": "8.50486",
+        "lng": "-81.46397"
+    },
+    {
+        "country": "PA",
+        "name": "Agua Buena",
+        "lat": "7.83465",
+        "lng": "-80.39405"
+    },
+    {
+        "country": "PA",
+        "name": "Achutupo",
+        "lat": "9.19827",
+        "lng": "-77.98729"
+    },
+    {
+        "country": "PA",
+        "name": "Achiote",
+        "lat": "9.21121",
+        "lng": "-80.01338"
+    },
+    {
+        "country": "PA",
+        "name": "P\u00e1siga",
+        "lat": "8.93647",
+        "lng": "-78.90917"
+    },
+    {
+        "country": "PA",
+        "name": "Jingurud\u00f3",
+        "lat": "7.87962",
+        "lng": "-78.07689"
+    },
+    {
+        "country": "PA",
+        "name": "Santa Rita Arriba",
+        "lat": "9.33032",
+        "lng": "-79.79363"
+    },
+    {
+        "country": "PA",
+        "name": "Lajas Blancas",
+        "lat": "8.41482",
+        "lng": "-77.81161"
+    },
+    {
+        "country": "PA",
+        "name": "Uni\u00f3n Choc\u00f3",
+        "lat": "8.08404",
+        "lng": "-77.53507"
+    },
+    {
+        "country": "PA",
+        "name": "Howard",
+        "lat": "8.93942",
+        "lng": "-79.59097"
+    },
+    {
+        "country": "PA",
+        "name": "Villa Lourdes",
+        "lat": "7.81141",
+        "lng": "-80.47029"
+    },
+    {
+        "country": "PA",
+        "name": "Cedro Arriba",
+        "lat": "7.78097",
+        "lng": "-80.53057"
+    },
+    {
+        "country": "PA",
+        "name": "San Juan Bautista",
+        "lat": "7.96099",
+        "lng": "-80.41283"
+    },
+    {
+        "country": "PA",
+        "name": "Oria Arriba",
+        "lat": "7.50505",
+        "lng": "-80.20567"
+    },
+    {
+        "country": "PA",
+        "name": "Villa Unida",
+        "lat": "9.18908",
+        "lng": "-79.62452"
+    },
+    {
+        "country": "PA",
+        "name": "San Antonio",
+        "lat": "9.1729",
+        "lng": "-79.54743"
+    },
+    {
+        "country": "PA",
+        "name": "Gonzalillo",
+        "lat": "9.09183",
+        "lng": "-79.51928"
+    },
+    {
+        "country": "PA",
+        "name": "Nuevo Bel\u00e9n",
+        "lat": "9.07939",
+        "lng": "-79.39556"
+    },
+    {
+        "country": "PA",
+        "name": "La Colorada",
+        "lat": "9.10224",
+        "lng": "-79.416"
+    },
+    {
+        "country": "PA",
+        "name": "Vista Hermosa",
+        "lat": "9.11178",
+        "lng": "-79.36113"
+    },
+    {
+        "country": "PA",
+        "name": "Nueva Esperanza",
+        "lat": "9.1021",
+        "lng": "-79.33414"
+    },
+    {
+        "country": "PA",
+        "name": "Uni\u00f3n de Azuero",
+        "lat": "9.15256",
+        "lng": "-79.17005"
+    },
+    {
+        "country": "PA",
+        "name": "Tort\u00ed",
+        "lat": "8.92132",
+        "lng": "-78.40546"
+    },
+    {
+        "country": "PA",
+        "name": "Barriales",
+        "lat": "8.58402",
+        "lng": "-78.38822"
+    },
+    {
+        "country": "PA",
+        "name": "Platanilla",
+        "lat": "8.828",
+        "lng": "-78.38435"
+    },
+    {
+        "country": "PA",
+        "name": "Setegant\u00ed",
+        "lat": "8.29381",
+        "lng": "-78.10025"
+    },
+    {
+        "country": "PA",
+        "name": "Camogant\u00ed",
+        "lat": "8.04171",
+        "lng": "-77.88682"
+    },
+    {
+        "country": "PA",
+        "name": "Corozal",
+        "lat": "8.20108",
+        "lng": "-77.59637"
+    },
+    {
+        "country": "PA",
+        "name": "Agua Fr\u00eda N\u00famero Uno",
+        "lat": "8.85839",
+        "lng": "-78.1975"
+    },
+    {
+        "country": "PA",
+        "name": "Bayam\u00f3n",
+        "lat": "7.96817",
+        "lng": "-78.21648"
+    },
+    {
+        "country": "PA",
+        "name": "Uni\u00f3n Sante\u00f1a",
+        "lat": "8.83525",
+        "lng": "-78.65104"
+    },
+    {
+        "country": "PA",
+        "name": "Contadora",
+        "lat": "8.62483",
+        "lng": "-79.03748"
+    },
+    {
+        "country": "PA",
+        "name": "Norte\u00f1o",
+        "lat": "9.00308",
+        "lng": "-82.31476"
+    },
+    {
+        "country": "PA",
+        "name": "Sieyic",
+        "lat": "9.38323",
+        "lng": "-82.65206"
+    },
+    {
+        "country": "PA",
+        "name": "Barranco Adentro",
+        "lat": "9.52757",
+        "lng": "-82.73344"
+    },
+    {
+        "country": "PA",
+        "name": "La Mesa",
+        "lat": "9.49587",
+        "lng": "-82.67534"
+    },
+    {
+        "country": "PA",
+        "name": "Quebrada del Rosario",
+        "lat": "7.71238",
+        "lng": "-80.74222"
+    },
+    {
+        "country": "PA",
+        "name": "Paso Canoas Arriba",
+        "lat": "8.56516",
+        "lng": "-82.82214"
+    },
+    {
+        "country": "PA",
+        "name": "El Palmar",
+        "lat": "8.30098",
+        "lng": "-82.85344"
+    },
+    {
+        "country": "PA",
+        "name": "Manaca Norte",
+        "lat": "8.33419",
+        "lng": "-82.81003"
+    },
+    {
+        "country": "PA",
+        "name": "Manaca Civil",
+        "lat": "8.32458",
+        "lng": "-82.8157"
+    },
+    {
+        "country": "PA",
+        "name": "Algarrobos Arriba",
+        "lat": "8.5155",
+        "lng": "-82.42263"
+    },
+    {
+        "country": "PA",
+        "name": "Nuevo San Carlitos",
+        "lat": "8.45698",
+        "lng": "-82.43712"
+    },
+    {
+        "country": "PA",
+        "name": "R\u00e1mbala",
+        "lat": "8.92046",
+        "lng": "-82.1806"
+    },
+    {
+        "country": "PA",
+        "name": "Pueblo Nuevo",
+        "lat": "8.8807",
+        "lng": "-82.22411"
+    },
+    {
+        "country": "PA",
+        "name": "Valle de La Mina",
+        "lat": "8.66427",
+        "lng": "-82.23196"
+    },
+    {
+        "country": "PA",
+        "name": "Quebrada Tula",
+        "lat": "8.84037",
+        "lng": "-81.99645"
+    },
+    {
+        "country": "PA",
+        "name": "Boca de Balsa",
+        "lat": "8.52995",
+        "lng": "-82.03132"
+    },
+    {
+        "country": "PA",
+        "name": "Cuoronte",
+        "lat": "8.67457",
+        "lng": "-81.78586"
+    },
+    {
+        "country": "PA",
+        "name": "Oma",
+        "lat": "8.35019",
+        "lng": "-81.80177"
+    },
+    {
+        "country": "PA",
+        "name": "Cabecera de Cerro Puerco",
+        "lat": "8.31856",
+        "lng": "-81.75951"
+    },
+    {
+        "country": "PA",
+        "name": "El Porvenir",
+        "lat": "8.22919",
+        "lng": "-81.83278"
+    },
+    {
+        "country": "PA",
+        "name": "Santa Lucia",
+        "lat": "8.23123",
+        "lng": "-81.82613"
+    },
+    {
+        "country": "PA",
+        "name": "El Puerto",
+        "lat": "8.21238",
+        "lng": "-81.80797"
+    },
+    {
+        "country": "PA",
+        "name": "Mirones",
+        "lat": "8.55757",
+        "lng": "-81.72574"
+    },
+    {
+        "country": "PA",
+        "name": "Bajo Solis",
+        "lat": "8.34751",
+        "lng": "-81.52912"
+    },
+    {
+        "country": "PA",
+        "name": "Bella Vista",
+        "lat": "8.20617",
+        "lng": "-81.62123"
+    },
+    {
+        "country": "PA",
+        "name": "Cerro Pelado",
+        "lat": "8.16247",
+        "lng": "-81.53917"
+    },
+    {
+        "country": "PA",
+        "name": "Lajero Arriba",
+        "lat": "8.2906",
+        "lng": "-81.77047"
+    },
+    {
+        "country": "PA",
+        "name": "Loma Yuca",
+        "lat": "8.71817",
+        "lng": "-81.40492"
+    },
+    {
+        "country": "PA",
+        "name": "Los Pollos",
+        "lat": "8.39898",
+        "lng": "-80.15731"
+    },
+    {
+        "country": "PA",
+        "name": "San Juan de Dios",
+        "lat": "8.55119",
+        "lng": "-80.22623"
+    },
+    {
+        "country": "PA",
+        "name": "R\u00edo Lu\u00eds",
+        "lat": "8.68361",
+        "lng": "-81.21608"
+    },
+    {
+        "country": "PA",
+        "name": "G\u00fcibale",
+        "lat": "8.51225",
+        "lng": "-81.36257"
+    },
+    {
+        "country": "PA",
+        "name": "Pared\u00f3n Arriba",
+        "lat": "8.45977",
+        "lng": "-81.19592"
+    },
+    {
+        "country": "PA",
+        "name": "Guayabito",
+        "lat": "8.53949",
+        "lng": "-81.48225"
+    },
+    {
+        "country": "PA",
+        "name": "Alto de Jes\u00fas",
+        "lat": "8.26152",
+        "lng": "-81.48412"
+    },
+    {
+        "country": "PA",
+        "name": "La Pesa",
+        "lat": "8.85073",
+        "lng": "-79.82374"
+    },
+    {
+        "country": "PA",
+        "name": "Ciricito Abajo",
+        "lat": "8.7995",
+        "lng": "-80.07747"
+    }
+]

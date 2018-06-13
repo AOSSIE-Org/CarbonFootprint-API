@@ -1,0 +1,428 @@
+[
+    {
+        "country": "CD",
+        "name": "Yangambi",
+        "lat": "0.76755",
+        "lng": "24.43973"
+    },
+    {
+        "country": "CD",
+        "name": "Watsa",
+        "lat": "3.03716",
+        "lng": "29.53551"
+    },
+    {
+        "country": "CD",
+        "name": "Wamba",
+        "lat": "2.14838",
+        "lng": "27.99466"
+    },
+    {
+        "country": "CD",
+        "name": "Uvira",
+        "lat": "-3.39534",
+        "lng": "29.13779"
+    },
+    {
+        "country": "CD",
+        "name": "Tshikapa",
+        "lat": "-6.41621",
+        "lng": "20.79995"
+    },
+    {
+        "country": "CD",
+        "name": "Sake",
+        "lat": "-1.57386",
+        "lng": "29.04339"
+    },
+    {
+        "country": "CD",
+        "name": "Mwene-Ditu",
+        "lat": "-7.00906",
+        "lng": "23.45278"
+    },
+    {
+        "country": "CD",
+        "name": "Mweka",
+        "lat": "-4.85187",
+        "lng": "21.5595"
+    },
+    {
+        "country": "CD",
+        "name": "Mbuji-Mayi",
+        "lat": "-6.13603",
+        "lng": "23.58979"
+    },
+    {
+        "country": "CD",
+        "name": "Lusambo",
+        "lat": "-4.97503",
+        "lng": "23.44391"
+    },
+    {
+        "country": "CD",
+        "name": "Luebo",
+        "lat": "-5.35218",
+        "lng": "21.42192"
+    },
+    {
+        "country": "CD",
+        "name": "Lubao",
+        "lat": "-5.38771",
+        "lng": "25.74885"
+    },
+    {
+        "country": "CD",
+        "name": "Lodja",
+        "lat": "-3.52105",
+        "lng": "23.6005"
+    },
+    {
+        "country": "CD",
+        "name": "Lisala",
+        "lat": "2.15127",
+        "lng": "21.51672"
+    },
+    {
+        "country": "CD",
+        "name": "Kongolo",
+        "lat": "-5.38532",
+        "lng": "27.00029"
+    },
+    {
+        "country": "CD",
+        "name": "Kisangani",
+        "lat": "0.51528",
+        "lng": "25.19099"
+    },
+    {
+        "country": "CD",
+        "name": "Kindu",
+        "lat": "-2.94373",
+        "lng": "25.92237"
+    },
+    {
+        "country": "CD",
+        "name": "Kasongo",
+        "lat": "-4.42741",
+        "lng": "26.66656"
+    },
+    {
+        "country": "CD",
+        "name": "Kananga",
+        "lat": "-5.89624",
+        "lng": "22.41659"
+    },
+    {
+        "country": "CD",
+        "name": "Kampene",
+        "lat": "-3.59678",
+        "lng": "26.66715"
+    },
+    {
+        "country": "CD",
+        "name": "Kamina",
+        "lat": "-8.73508",
+        "lng": "24.99798"
+    },
+    {
+        "country": "CD",
+        "name": "Kalemie",
+        "lat": "-5.94749",
+        "lng": "29.19471"
+    },
+    {
+        "country": "CD",
+        "name": "Kabinda",
+        "lat": "-6.13791",
+        "lng": "24.48179"
+    },
+    {
+        "country": "CD",
+        "name": "Kabare",
+        "lat": "-2.49682",
+        "lng": "28.79081"
+    },
+    {
+        "country": "CD",
+        "name": "Kabalo",
+        "lat": "-6.05255",
+        "lng": "26.9143"
+    },
+    {
+        "country": "CD",
+        "name": "Isiro",
+        "lat": "2.77391",
+        "lng": "27.61603"
+    },
+    {
+        "country": "CD",
+        "name": "Ilebo",
+        "lat": "-4.33111",
+        "lng": "20.58638"
+    },
+    {
+        "country": "CD",
+        "name": "Goma",
+        "lat": "-1.67409",
+        "lng": "29.22845"
+    },
+    {
+        "country": "CD",
+        "name": "Gbadolite",
+        "lat": "4.279",
+        "lng": "21.00284"
+    },
+    {
+        "country": "CD",
+        "name": "Gandajika",
+        "lat": "-6.74504",
+        "lng": "23.95328"
+    },
+    {
+        "country": "CD",
+        "name": "Demba",
+        "lat": "-5.49573",
+        "lng": "22.26962"
+    },
+    {
+        "country": "CD",
+        "name": "Butembo",
+        "lat": "0.14164",
+        "lng": "29.29117"
+    },
+    {
+        "country": "CD",
+        "name": "Buta",
+        "lat": "2.78582",
+        "lng": "24.72997"
+    },
+    {
+        "country": "CD",
+        "name": "Businga",
+        "lat": "3.33863",
+        "lng": "20.88577"
+    },
+    {
+        "country": "CD",
+        "name": "Bunia",
+        "lat": "1.55941",
+        "lng": "30.25224"
+    },
+    {
+        "country": "CD",
+        "name": "Bumba",
+        "lat": "2.18771",
+        "lng": "22.46827"
+    },
+    {
+        "country": "CD",
+        "name": "Bukavu",
+        "lat": "-2.49077",
+        "lng": "28.84281"
+    },
+    {
+        "country": "CD",
+        "name": "Bukama",
+        "lat": "-9.20443",
+        "lng": "25.85475"
+    },
+    {
+        "country": "CD",
+        "name": "Bongandanga",
+        "lat": "1.50695",
+        "lng": "21.0726"
+    },
+    {
+        "country": "CD",
+        "name": "Bondo",
+        "lat": "3.81461",
+        "lng": "23.68665"
+    },
+    {
+        "country": "CD",
+        "name": "Boende",
+        "lat": "-0.28163",
+        "lng": "20.88053"
+    },
+    {
+        "country": "CD",
+        "name": "Beni",
+        "lat": "0.49113",
+        "lng": "29.47306"
+    },
+    {
+        "country": "CD",
+        "name": "Basoko",
+        "lat": "1.23909",
+        "lng": "23.61598"
+    },
+    {
+        "country": "CD",
+        "name": "Aketi",
+        "lat": "2.73877",
+        "lng": "23.78326"
+    },
+    {
+        "country": "CD",
+        "name": "Lubumbashi",
+        "lat": "-11.66089",
+        "lng": "27.47938"
+    },
+    {
+        "country": "CD",
+        "name": "Likasi",
+        "lat": "-10.98303",
+        "lng": "26.7384"
+    },
+    {
+        "country": "CD",
+        "name": "Kolwezi",
+        "lat": "-10.71484",
+        "lng": "25.46674"
+    },
+    {
+        "country": "CD",
+        "name": "Kipushi",
+        "lat": "-11.76097",
+        "lng": "27.25135"
+    },
+    {
+        "country": "CD",
+        "name": "Kambove",
+        "lat": "-10.87352",
+        "lng": "26.59746"
+    },
+    {
+        "country": "CD",
+        "name": "Tshela",
+        "lat": "-4.99707",
+        "lng": "12.9484"
+    },
+    {
+        "country": "CD",
+        "name": "Nioki",
+        "lat": "-2.72037",
+        "lng": "17.69001"
+    },
+    {
+        "country": "CD",
+        "name": "Mushie",
+        "lat": "-3.01728",
+        "lng": "16.92238"
+    },
+    {
+        "country": "CD",
+        "name": "Moanda",
+        "lat": "-5.92753",
+        "lng": "12.37148"
+    },
+    {
+        "country": "CD",
+        "name": "Mbanza-Ngungu",
+        "lat": "-5.25837",
+        "lng": "14.85838"
+    },
+    {
+        "country": "CD",
+        "name": "Mbandaka",
+        "lat": "0.04865",
+        "lng": "18.26034"
+    },
+    {
+        "country": "CD",
+        "name": "Matadi",
+        "lat": "-5.83861",
+        "lng": "13.46306"
+    },
+    {
+        "country": "CD",
+        "name": "Mangai",
+        "lat": "-4.02328",
+        "lng": "19.53385"
+    },
+    {
+        "country": "CD",
+        "name": "Lukolela",
+        "lat": "-1.06046",
+        "lng": "17.1821"
+    },
+    {
+        "country": "CD",
+        "name": "Libenge",
+        "lat": "3.65332",
+        "lng": "18.63566"
+    },
+    {
+        "country": "CD",
+        "name": "Kinshasa",
+        "lat": "-4.32758",
+        "lng": "15.31357"
+    },
+    {
+        "country": "CD",
+        "name": "Kikwit",
+        "lat": "-5.04098",
+        "lng": "18.81619"
+    },
+    {
+        "country": "CD",
+        "name": "Kasongo-Lunda",
+        "lat": "-6.47833",
+        "lng": "16.81735"
+    },
+    {
+        "country": "CD",
+        "name": "Kasangulu",
+        "lat": "-4.5833",
+        "lng": "15.16554"
+    },
+    {
+        "country": "CD",
+        "name": "Inongo",
+        "lat": "-1.9275",
+        "lng": "18.2881"
+    },
+    {
+        "country": "CD",
+        "name": "Gemena",
+        "lat": "3.25651",
+        "lng": "19.77234"
+    },
+    {
+        "country": "CD",
+        "name": "Bulungu",
+        "lat": "-4.54437",
+        "lng": "18.60364"
+    },
+    {
+        "country": "CD",
+        "name": "Bosobolo",
+        "lat": "4.1898",
+        "lng": "19.8833"
+    },
+    {
+        "country": "CD",
+        "name": "Boma",
+        "lat": "-5.85098",
+        "lng": "13.05364"
+    },
+    {
+        "country": "CD",
+        "name": "Bolobo",
+        "lat": "-2.158",
+        "lng": "16.23249"
+    },
+    {
+        "country": "CD",
+        "name": "Bandundu",
+        "lat": "-3.31687",
+        "lng": "17.38063"
+    },
+    {
+        "country": "CD",
+        "name": "Masina",
+        "lat": "-4.38361",
+        "lng": "15.39139"
+    }
+]

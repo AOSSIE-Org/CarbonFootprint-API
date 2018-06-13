@@ -1,0 +1,320 @@
+[
+    {
+        "country": "LY",
+        "name": "Bardiyah",
+        "lat": "31.75615",
+        "lng": "25.08653"
+    },
+    {
+        "country": "LY",
+        "name": "Tobruk",
+        "lat": "32.08361",
+        "lng": "23.97639"
+    },
+    {
+        "country": "LY",
+        "name": "Qaryat Suluq",
+        "lat": "31.66818",
+        "lng": "20.25205"
+    },
+    {
+        "country": "LY",
+        "name": "Gialo",
+        "lat": "29.03333",
+        "lng": "21.55"
+    },
+    {
+        "country": "LY",
+        "name": "Darnah",
+        "lat": "32.76704",
+        "lng": "22.63669"
+    },
+    {
+        "country": "LY",
+        "name": "Benghazi",
+        "lat": "32.11486",
+        "lng": "20.06859"
+    },
+    {
+        "country": "LY",
+        "name": "Az Zuwaytinah",
+        "lat": "30.9522",
+        "lng": "20.12022"
+    },
+    {
+        "country": "LY",
+        "name": "Awjilah",
+        "lat": "29.10806",
+        "lng": "21.28694"
+    },
+    {
+        "country": "LY",
+        "name": "At Taj",
+        "lat": "24.20487",
+        "lng": "23.2857"
+    },
+    {
+        "country": "LY",
+        "name": "Tukrah",
+        "lat": "32.53414",
+        "lng": "20.57911"
+    },
+    {
+        "country": "LY",
+        "name": "Al Qubbah",
+        "lat": "32.76163",
+        "lng": "22.24237"
+    },
+    {
+        "country": "LY",
+        "name": "Al Marj",
+        "lat": "32.48798",
+        "lng": "20.83174"
+    },
+    {
+        "country": "LY",
+        "name": "Al Jawf",
+        "lat": "24.1989",
+        "lng": "23.29093"
+    },
+    {
+        "country": "LY",
+        "name": "Al Jaghbub",
+        "lat": "29.74262",
+        "lng": "24.51676"
+    },
+    {
+        "country": "LY",
+        "name": "Al Bay?a\u2019",
+        "lat": "32.76272",
+        "lng": "21.75506"
+    },
+    {
+        "country": "LY",
+        "name": "Al Abyar",
+        "lat": "32.19",
+        "lng": "20.59653"
+    },
+    {
+        "country": "LY",
+        "name": "Ajdabiya",
+        "lat": "30.75545",
+        "lng": "20.22625"
+    },
+    {
+        "country": "LY",
+        "name": "Zuwarah",
+        "lat": "32.9312",
+        "lng": "12.08199"
+    },
+    {
+        "country": "LY",
+        "name": "Zliten",
+        "lat": "32.46739",
+        "lng": "14.56874"
+    },
+    {
+        "country": "LY",
+        "name": "Zaltan",
+        "lat": "32.94701",
+        "lng": "11.86647"
+    },
+    {
+        "country": "LY",
+        "name": "Yafran",
+        "lat": "32.06329",
+        "lng": "12.52859"
+    },
+    {
+        "country": "LY",
+        "name": "Waddan",
+        "lat": "29.1614",
+        "lng": "16.13904"
+    },
+    {
+        "country": "LY",
+        "name": "Tarhuna",
+        "lat": "32.43501",
+        "lng": "13.6332"
+    },
+    {
+        "country": "LY",
+        "name": "Tripoli",
+        "lat": "32.87519",
+        "lng": "13.18746"
+    },
+    {
+        "country": "LY",
+        "name": "Tagiura",
+        "lat": "32.88167",
+        "lng": "13.35056"
+    },
+    {
+        "country": "LY",
+        "name": "Sirte",
+        "lat": "31.20892",
+        "lng": "16.58866"
+    },
+    {
+        "country": "LY",
+        "name": "Surman",
+        "lat": "32.75668",
+        "lng": "12.57159"
+    },
+    {
+        "country": "LY",
+        "name": "Sabratah",
+        "lat": "32.79335",
+        "lng": "12.48845"
+    },
+    {
+        "country": "LY",
+        "name": "Sabha",
+        "lat": "27.03766",
+        "lng": "14.42832"
+    },
+    {
+        "country": "LY",
+        "name": "Nalut",
+        "lat": "31.86848",
+        "lng": "10.9812"
+    },
+    {
+        "country": "LY",
+        "name": "Murzuq",
+        "lat": "25.91552",
+        "lng": "13.91839"
+    },
+    {
+        "country": "LY",
+        "name": "Mizdah",
+        "lat": "31.44934",
+        "lng": "12.9853"
+    },
+    {
+        "country": "LY",
+        "name": "Misratah",
+        "lat": "32.37535",
+        "lng": "15.09254"
+    },
+    {
+        "country": "LY",
+        "name": "Masallatah",
+        "lat": "32.61667",
+        "lng": "14"
+    },
+    {
+        "country": "LY",
+        "name": "Al Burayqah",
+        "lat": "30.40624",
+        "lng": "19.57386"
+    },
+    {
+        "country": "LY",
+        "name": "Maradah",
+        "lat": "29.23333",
+        "lng": "19.21667"
+    },
+    {
+        "country": "LY",
+        "name": "Giado",
+        "lat": "31.95506",
+        "lng": "12.02901"
+    },
+    {
+        "country": "LY",
+        "name": "Hun",
+        "lat": "29.12684",
+        "lng": "15.94772"
+    },
+    {
+        "country": "LY",
+        "name": "Zawiya",
+        "lat": "32.75222",
+        "lng": "12.72778"
+    },
+    {
+        "country": "LY",
+        "name": "Ghat",
+        "lat": "24.96334",
+        "lng": "10.18003"
+    },
+    {
+        "country": "LY",
+        "name": "Gharyan",
+        "lat": "32.17222",
+        "lng": "13.02028"
+    },
+    {
+        "country": "LY",
+        "name": "Ghadamis",
+        "lat": "30.13366",
+        "lng": "9.50072"
+    },
+    {
+        "country": "LY",
+        "name": "Brak",
+        "lat": "27.54956",
+        "lng": "14.27139"
+    },
+    {
+        "country": "LY",
+        "name": "Bani Walid",
+        "lat": "31.74554",
+        "lng": "13.98354"
+    },
+    {
+        "country": "LY",
+        "name": "Zintan",
+        "lat": "31.93155",
+        "lng": "12.25291"
+    },
+    {
+        "country": "LY",
+        "name": "Az Zawiyah",
+        "lat": "32.7571",
+        "lng": "12.72764"
+    },
+    {
+        "country": "LY",
+        "name": "Awbari",
+        "lat": "26.59206",
+        "lng": "12.78049"
+    },
+    {
+        "country": "LY",
+        "name": "Al Qatrun",
+        "lat": "24.95139",
+        "lng": "14.64861"
+    },
+    {
+        "country": "LY",
+        "name": "Al Khums",
+        "lat": "32.64861",
+        "lng": "14.26191"
+    },
+    {
+        "country": "LY",
+        "name": "Al Jadid",
+        "lat": "27.05",
+        "lng": "14.4"
+    },
+    {
+        "country": "LY",
+        "name": "Al \u2018Aziziyah",
+        "lat": "32.53194",
+        "lng": "13.0175"
+    },
+    {
+        "country": "LY",
+        "name": "Idri",
+        "lat": "27.5",
+        "lng": "13.26667"
+    },
+    {
+        "country": "LY",
+        "name": "Qasr Abu Hadi",
+        "lat": "31.05926",
+        "lng": "16.65905"
+    }
+]

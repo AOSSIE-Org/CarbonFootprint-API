@@ -1,0 +1,488 @@
+[
+    {
+        "country": "KP",
+        "name": "Yonggang-up",
+        "lat": "38.85611",
+        "lng": "125.42444"
+    },
+    {
+        "country": "KP",
+        "name": "Yongbyon",
+        "lat": "39.81333",
+        "lng": "125.80417"
+    },
+    {
+        "country": "KP",
+        "name": "Yonan-up",
+        "lat": "37.90889",
+        "lng": "126.16111"
+    },
+    {
+        "country": "KP",
+        "name": "Yomju-up",
+        "lat": "39.89333",
+        "lng": "124.59806"
+    },
+    {
+        "country": "KP",
+        "name": "Wonsan",
+        "lat": "39.15278",
+        "lng": "127.44361"
+    },
+    {
+        "country": "KP",
+        "name": "T\u2019ongch\u2019on-up",
+        "lat": "38.95389",
+        "lng": "127.89167"
+    },
+    {
+        "country": "KP",
+        "name": "Sungho 1-tong",
+        "lat": "38.99139",
+        "lng": "125.97778"
+    },
+    {
+        "country": "KP",
+        "name": "Sunch\u2019on",
+        "lat": "39.43167",
+        "lng": "125.93278"
+    },
+    {
+        "country": "KP",
+        "name": "Sunan",
+        "lat": "39.19833",
+        "lng": "125.69"
+    },
+    {
+        "country": "KP",
+        "name": "Songnim",
+        "lat": "38.75417",
+        "lng": "125.645"
+    },
+    {
+        "country": "KP",
+        "name": "Sil-li",
+        "lat": "39.49472",
+        "lng": "125.47361"
+    },
+    {
+        "country": "KP",
+        "name": "Sinmak",
+        "lat": "38.41667",
+        "lng": "126.23333"
+    },
+    {
+        "country": "KP",
+        "name": "Sinanju",
+        "lat": "39.59806",
+        "lng": "125.60972"
+    },
+    {
+        "country": "KP",
+        "name": "Sariwon",
+        "lat": "38.50722",
+        "lng": "125.75583"
+    },
+    {
+        "country": "KP",
+        "name": "Sangsong-ni",
+        "lat": "39.16944",
+        "lng": "126.88556"
+    },
+    {
+        "country": "KP",
+        "name": "Samho-rodongjagu",
+        "lat": "39.9475",
+        "lng": "127.87111"
+    },
+    {
+        "country": "KP",
+        "name": "Pyongyang",
+        "lat": "39.03385",
+        "lng": "125.75432"
+    },
+    {
+        "country": "KP",
+        "name": "P\u2019yongsong",
+        "lat": "39.24639",
+        "lng": "125.87194"
+    },
+    {
+        "country": "KP",
+        "name": "Pyoksong-up",
+        "lat": "38.0475",
+        "lng": "125.55667"
+    },
+    {
+        "country": "KP",
+        "name": "Panghyon-dong",
+        "lat": "39.88722",
+        "lng": "125.24139"
+    },
+    {
+        "country": "KP",
+        "name": "Ongjin",
+        "lat": "37.93472",
+        "lng": "125.36194"
+    },
+    {
+        "country": "KP",
+        "name": "Namp\u2019o",
+        "lat": "38.7375",
+        "lng": "125.40778"
+    },
+    {
+        "country": "KP",
+        "name": "Kwaksan",
+        "lat": "39.6875",
+        "lng": "125.08278"
+    },
+    {
+        "country": "KP",
+        "name": "Kusong",
+        "lat": "39.98111",
+        "lng": "125.24472"
+    },
+    {
+        "country": "KP",
+        "name": "Kujang-up",
+        "lat": "39.86722",
+        "lng": "126.03028"
+    },
+    {
+        "country": "KP",
+        "name": "Kowon-up",
+        "lat": "39.43806",
+        "lng": "127.24306"
+    },
+    {
+        "country": "KP",
+        "name": "Kosan",
+        "lat": "38.85583",
+        "lng": "127.41806"
+    },
+    {
+        "country": "KP",
+        "name": "Koksan",
+        "lat": "38.78194",
+        "lng": "126.66639"
+    },
+    {
+        "country": "KP",
+        "name": "Kangdong-up",
+        "lat": "39.1425",
+        "lng": "126.09611"
+    },
+    {
+        "country": "KP",
+        "name": "Kaesong",
+        "lat": "37.97083",
+        "lng": "126.55444"
+    },
+    {
+        "country": "KP",
+        "name": "Hwangju-up",
+        "lat": "38.67028",
+        "lng": "125.77611"
+    },
+    {
+        "country": "KP",
+        "name": "Hungnam",
+        "lat": "39.83167",
+        "lng": "127.61861"
+    },
+    {
+        "country": "KP",
+        "name": "Hukkyo-ri",
+        "lat": "38.79861",
+        "lng": "125.79194"
+    },
+    {
+        "country": "KP",
+        "name": "Hoeyang",
+        "lat": "38.71028",
+        "lng": "127.59833"
+    },
+    {
+        "country": "KP",
+        "name": "Hamhung",
+        "lat": "39.91833",
+        "lng": "127.53639"
+    },
+    {
+        "country": "KP",
+        "name": "Haeju",
+        "lat": "38.04056",
+        "lng": "125.71472"
+    },
+    {
+        "country": "KP",
+        "name": "Chunghwa",
+        "lat": "38.86389",
+        "lng": "125.8"
+    },
+    {
+        "country": "KP",
+        "name": "Chongju",
+        "lat": "39.69333",
+        "lng": "125.21028"
+    },
+    {
+        "country": "KP",
+        "name": "Changyon",
+        "lat": "38.25083",
+        "lng": "125.09611"
+    },
+    {
+        "country": "KP",
+        "name": "Chaeryong-up",
+        "lat": "38.39917",
+        "lng": "125.61556"
+    },
+    {
+        "country": "KP",
+        "name": "Ayang-ni",
+        "lat": "38.24306",
+        "lng": "125.78"
+    },
+    {
+        "country": "KP",
+        "name": "Anju",
+        "lat": "39.61778",
+        "lng": "125.66472"
+    },
+    {
+        "country": "KP",
+        "name": "Anbyon-up",
+        "lat": "39.0425",
+        "lng": "127.52389"
+    },
+    {
+        "country": "KP",
+        "name": "Anak",
+        "lat": "38.51083",
+        "lng": "125.49417"
+    },
+    {
+        "country": "KP",
+        "name": "Sinsang-ni",
+        "lat": "39.65028",
+        "lng": "127.40583"
+    },
+    {
+        "country": "KP",
+        "name": "Yuktae-dong",
+        "lat": "40.02472",
+        "lng": "128.15972"
+    },
+    {
+        "country": "KP",
+        "name": "Ungsang-nodongjagu",
+        "lat": "42.35778",
+        "lng": "130.46222"
+    },
+    {
+        "country": "KP",
+        "name": "Uiju",
+        "lat": "40.19944",
+        "lng": "124.53167"
+    },
+    {
+        "country": "KP",
+        "name": "Uijin-dong",
+        "lat": "40.97518",
+        "lng": "126.49584"
+    },
+    {
+        "country": "KP",
+        "name": "Sungam-nodongjagu",
+        "lat": "41.66972",
+        "lng": "129.66889"
+    },
+    {
+        "country": "KP",
+        "name": "Sonbong",
+        "lat": "42.34161",
+        "lng": "130.39445"
+    },
+    {
+        "country": "KP",
+        "name": "Sinuiju",
+        "lat": "40.10056",
+        "lng": "124.39806"
+    },
+    {
+        "country": "KP",
+        "name": "Sakchu-up",
+        "lat": "40.38944",
+        "lng": "125.04667"
+    },
+    {
+        "country": "KP",
+        "name": "Puryong",
+        "lat": "42.06056",
+        "lng": "129.71167"
+    },
+    {
+        "country": "KP",
+        "name": "Pukchil-lodongjagu",
+        "lat": "40.20194",
+        "lng": "125.74833"
+    },
+    {
+        "country": "KP",
+        "name": "Yonggwang-up",
+        "lat": "40.01833",
+        "lng": "127.45472"
+    },
+    {
+        "country": "KP",
+        "name": "Onsong",
+        "lat": "42.95722",
+        "lng": "129.99333"
+    },
+    {
+        "country": "KP",
+        "name": "Nanam",
+        "lat": "41.71361",
+        "lng": "129.68444"
+    },
+    {
+        "country": "KP",
+        "name": "Namyang-dong",
+        "lat": "42.95",
+        "lng": "129.86667"
+    },
+    {
+        "country": "KP",
+        "name": "Rajin",
+        "lat": "42.24889",
+        "lng": "130.30028"
+    },
+    {
+        "country": "KP",
+        "name": "Musan-up",
+        "lat": "42.22609",
+        "lng": "129.20776"
+    },
+    {
+        "country": "KP",
+        "name": "Manp\u2019o",
+        "lat": "41.15472",
+        "lng": "126.28944"
+    },
+    {
+        "country": "KP",
+        "name": "Kyongwon",
+        "lat": "42.81361",
+        "lng": "130.15278"
+    },
+    {
+        "country": "KP",
+        "name": "Kyongsong",
+        "lat": "41.58778",
+        "lng": "129.60611"
+    },
+    {
+        "country": "KP",
+        "name": "Kimch\u2019aek-si",
+        "lat": "40.66889",
+        "lng": "129.18972"
+    },
+    {
+        "country": "KP",
+        "name": "Kilju",
+        "lat": "40.96417",
+        "lng": "129.32778"
+    },
+    {
+        "country": "KP",
+        "name": "Kapsan-up",
+        "lat": "41.09028",
+        "lng": "128.29333"
+    },
+    {
+        "country": "KP",
+        "name": "Kanggye",
+        "lat": "40.96946",
+        "lng": "126.58523"
+    },
+    {
+        "country": "KP",
+        "name": "Iwon-up",
+        "lat": "40.32306",
+        "lng": "128.65528"
+    },
+    {
+        "country": "KP",
+        "name": "Hyesan-dong",
+        "lat": "41.39756",
+        "lng": "128.17873"
+    },
+    {
+        "country": "KP",
+        "name": "Hyesan",
+        "lat": "41.40167",
+        "lng": "128.17778"
+    },
+    {
+        "country": "KP",
+        "name": "Hungju-dong",
+        "lat": "40.99629",
+        "lng": "126.54756"
+    },
+    {
+        "country": "KP",
+        "name": "Hongwon",
+        "lat": "40.02528",
+        "lng": "127.95583"
+    },
+    {
+        "country": "KP",
+        "name": "Hoeryong",
+        "lat": "42.44278",
+        "lng": "129.75083"
+    },
+    {
+        "country": "KP",
+        "name": "Hoemul-li",
+        "lat": "41.43389",
+        "lng": "129.67"
+    },
+    {
+        "country": "KP",
+        "name": "Hau-ri",
+        "lat": "41.20056",
+        "lng": "129.47028"
+    },
+    {
+        "country": "KP",
+        "name": "Chongjin",
+        "lat": "41.79556",
+        "lng": "129.77583"
+    },
+    {
+        "country": "KP",
+        "name": "Chasong",
+        "lat": "41.46083",
+        "lng": "126.64139"
+    },
+    {
+        "country": "KP",
+        "name": "Aoji-ri",
+        "lat": "42.52056",
+        "lng": "130.39528"
+    },
+    {
+        "country": "KP",
+        "name": "Sungjibaegam",
+        "lat": "41.24278",
+        "lng": "128.79889"
+    },
+    {
+        "country": "KP",
+        "name": "Komusan 1-tong",
+        "lat": "42.10917",
+        "lng": "129.7"
+    }
+]

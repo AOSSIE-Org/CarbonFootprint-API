@@ -1,0 +1,74 @@
+[
+    {
+        "country": "BZ",
+        "name": "Shipyard",
+        "lat": "17.89382",
+        "lng": "-88.65452"
+    },
+    {
+        "country": "BZ",
+        "name": "San Pedro",
+        "lat": "17.91598",
+        "lng": "-87.9659"
+    },
+    {
+        "country": "BZ",
+        "name": "San Ignacio",
+        "lat": "17.1588",
+        "lng": "-89.0696"
+    },
+    {
+        "country": "BZ",
+        "name": "Punta Gorda",
+        "lat": "16.09835",
+        "lng": "-88.8097"
+    },
+    {
+        "country": "BZ",
+        "name": "Placencia",
+        "lat": "16.51419",
+        "lng": "-88.36647"
+    },
+    {
+        "country": "BZ",
+        "name": "Orange Walk",
+        "lat": "18.08124",
+        "lng": "-88.56328"
+    },
+    {
+        "country": "BZ",
+        "name": "Dangriga",
+        "lat": "16.9697",
+        "lng": "-88.23313"
+    },
+    {
+        "country": "BZ",
+        "name": "Corozal",
+        "lat": "18.39375",
+        "lng": "-88.38849"
+    },
+    {
+        "country": "BZ",
+        "name": "Benque Viejo el Carmen",
+        "lat": "17.075",
+        "lng": "-89.13917"
+    },
+    {
+        "country": "BZ",
+        "name": "Belmopan",
+        "lat": "17.25",
+        "lng": "-88.76667"
+    },
+    {
+        "country": "BZ",
+        "name": "Belize City",
+        "lat": "17.49952",
+        "lng": "-88.19756"
+    },
+    {
+        "country": "BZ",
+        "name": "Valley of Peace",
+        "lat": "17.33472",
+        "lng": "-88.83472"
+    }
+]
