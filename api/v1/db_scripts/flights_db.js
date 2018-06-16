@@ -2,8 +2,9 @@
 // database setup
 const mongoose = require('mongoose');
 // get the database configuration file
+const config = require('../../../config.json');
 try {
-  const config = require('../../../config.json');
+  config
 } catch (e) {
   console.log(`Database configuration file "config.json" is missing.`);
   process.exit(1);
@@ -59,7 +60,7 @@ for(js in json){
   //console.log(obj);
 }
 
-let obj = new Emission();
+obj = new Emission();
 obj.item="airplane model A380";
 obj.region="Default";
 obj.quantity=[125, 250, 500, 750, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 8500, 9000, 9500, 10000, 10500, 11000, 11500, 12000];
@@ -78,7 +79,7 @@ console.log("Object Saved Successfully");
 });
 // console.log(obj);
 
-let obj = new Emission();
+obj = new Emission();
 obj.item="airplane model A320";
 obj.region="Default";
 obj.quantity=[125, 250, 500, 750, 1000, 1500, 2000, 2500];
@@ -96,7 +97,7 @@ if ( err ) throw err;
 console.log("Object Saved Successfully");
 });
 
-let obj = new Emission();
+obj = new Emission();
 obj.item="airplane fuel";
 obj.region="Default";
 obj.quantity=[1];

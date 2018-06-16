@@ -2,13 +2,15 @@
 // database setup
 const mongoose = require('mongoose');
 // get the database configuration file
+const config = require('../../../config.json');
 try {
-  const config = require('../../../config.json');
+  config
 } catch (e) {
   console.log(`Database configuration file "config.json" is missing.`);
   process.exit(1);
 }
-let db = config.database;
+const db = config.database;
+
 
 // connect to the database
 mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, { useMongoClient: true });
