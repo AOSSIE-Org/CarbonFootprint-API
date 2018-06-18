@@ -45,19 +45,19 @@ export default class Explorer extends Component {
               />
             </Grid.Row>
             <Grid.Row columns={3}>
-              <Grid.Column width={4}>
+              <Grid.Column width={4} mobile={16} tablet={8} computer={4}>
                 <ExplorerParams
                     key={this.state.key}
                     params={this.state.params}
                 />
               </Grid.Column>
-              <Grid.Column width={7}>
+              <Grid.Column width={7} mobile={16} tablet={8} computer={7}>
                 <ExplorerQuery
                     key={this.state.key}
                     query={this.state.query}
                 />
               </Grid.Column>
-              <Grid.Column width={5}>
+              <Grid.Column width={5} mobile={16} tablet={8} computer={5}>
                 <ExplorerResponse
                     key={this.state.key}
                     query={this.state.query}
@@ -70,11 +70,15 @@ export default class Explorer extends Component {
             <Button
                 content='</> Get Code'
                 style={styles.button}
+                size='small'
+                primary
             />
             <Link to='https://app.getpostman.com/run-collection/9f30a9efdc0b87ca59af' target="_blank">
               <Button
                   content='Run in Postman'
                   style={styles.button}
+                  size='small'
+                  primary
               />
             </Link>
           </div>
@@ -85,8 +89,7 @@ export default class Explorer extends Component {
 
 const styles = {
   button: {
-    backgroundColor: '#2980b9',
-    color: 'white',
+    height: '40px',
     fontWeight: 'bold',
     fontSize: '16px'
   },

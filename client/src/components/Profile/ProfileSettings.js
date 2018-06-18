@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import {
   Grid,
   Header,
-  Input,
   Segment,
   Button,
   Icon,
   Divider,
   Statistic,
   Message,
-  Form
+  Form,
+  Responsive
 } from 'semantic-ui-react';
 import { getKey, createKey, deleteKey } from './profileController';
 
@@ -153,7 +153,7 @@ export default class ProfileSettings extends Component {
 
   render(){
     return (
-      <Segment>
+      <Responsive as={Segment} raised>
         <Header as="h3">
           <Icon name="settings" />
           <Header.Content>
@@ -164,21 +164,21 @@ export default class ProfileSettings extends Component {
         <Divider />
         <Grid divided textAlign="center" columns="equal">
           <Grid.Row>
-            <Grid.Column>
+            <Grid.Column mobile={16} tablet={5} computer={5}>
               <Statistic
                 size="mini"
                 value={this.state.requestsAllowed}
                 label="Requests Allowed"
               />
             </Grid.Column>
-            <Grid.Column>
+            <Grid.Column mobile={16} tablet={5} computer={5}>
               <Statistic
                 size="mini"
                 value={this.state.requestsLeft}
                 label="Requests Left"
               />
             </Grid.Column>
-            <Grid.Column>
+            <Grid.Column mobile={16} tablet={5} computer={5}>
               <Statistic
                 size="mini"
                 value={this.state.timeLeft}
@@ -204,22 +204,22 @@ export default class ProfileSettings extends Component {
           <Form.Group>
            <Form.Input width={12} value={this.state.key ? this.state.key : 'Generate an API access key'} readOnly />
           {!this.state.key
-            ? <Button primary onClick={this.createAccessKey} style={{marginLeft:'10px'}}>
+            ? <Button primary size='small' onClick={this.createAccessKey} style={{marginLeft:'10px'}}>
                 CREATE API KEY
               </Button>
-            : <Button onClick={this.deleteAccessKey} color="red" style={{marginLeft:'10px'}}>
+            : <Button negative size='small' onClick={this.deleteAccessKey} style={{marginLeft:'10px'}}>
                 DELETE KEY
               </Button>}
 
               {this.state.key && document.queryCommandSupported('copy') &&
               <div>
-              <Button onClick={this.copyToClipboard} color="green" style={{marginLeft:'10px'}}>
+              <Button positive size='small' onClick={this.copyToClipboard} style={{marginLeft:'10px'}}>
                   COPY TO CLIPBOARD
                   </Button>
               </div>}
         </Form.Group>
         </Form>
-      </Segment>
+      </Responsive>
     );
   }
 }

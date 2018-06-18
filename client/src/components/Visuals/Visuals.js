@@ -13,12 +13,12 @@ export default class Visuals extends React.Component {
     return (
       <div>
         <Header as='h2' dividing>Data Visualisations</Header>
-        <Grid columns={4}>
+        <Grid centered textAlign="center" columns={4}>
           <Grid.Row>
             {data.map(graph => (
-              <Grid.Column key={graph.name}>
+              <Grid.Column key={graph.name} mobile={16} tablet={4} computer={4}>
               <Link to={`/visuals/${graph.link}`}>
-                <Card>
+                <Card fluid raised>
                   <Card.Content header={graph.name}/>
                   <Card.Content description={graph.shortDescription}/>
                 </Card>

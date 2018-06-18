@@ -22,7 +22,7 @@ export default class ExplorerResponse extends Component {
    */
   render() {
     return (
-        <Segment style={styles.body}>
+        <Segment style={styles.body} raised>
           <Form>
             <TextArea autoHeight style={styles.textArea} readOnly/>
           </Form>

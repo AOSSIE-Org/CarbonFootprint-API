@@ -24,7 +24,7 @@ export default class ExplorerParams extends Component {
    */
   render() {
     return (
-        <Segment style={styles.body}>
+        <Segment style={styles.body} raised>
           {this.state.params.map(param => ( // mapping the params into list of checkboxes
               <div>
                 <Checkbox label={param}/>

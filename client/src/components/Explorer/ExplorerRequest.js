@@ -7,7 +7,8 @@ import {
   Input,
   Divider,
   Message,
-  Dropdown
+  Responsive,
+  Grid
 } from 'semantic-ui-react';
 
 /* Extended react.Component class as ExplorerRequest */
@@ -51,7 +52,7 @@ export default class ExplorerRequest extends Component {
    */
   render() {
     return (
-        <Segment>
+        <Responsive as={Segment} raised>
           <Header style={styles.heading} as='h4'>
             <Header.Content>
               API Explorer
@@ -64,41 +65,58 @@ export default class ExplorerRequest extends Component {
               {this.state.errorMessage}
             </Message.Header>
           </Message>}
-          <Form>
-            <div style={styles.div}>
-              <Form.Group inline style={styles.form}>
-                <Input label={{basic: true, content: 'API Key: '}}
-                       labelPosition='left'
-                       style={styles.inputKey}
-                />
-              </Form.Group>
-              <Button
-                  content='Get API Key'
-                  onClick={this.getAPIKey}
-                  style={styles.button}
-                  size='small'
-              />
-            </div>
-            <div style={styles.div}>
-              <Form.Group style={styles.form}>
-                <Dropdown placeholder='Method'
-                          options={options}
-                          defaultValue={options[0].value}
-                          style={styles.dropdown}
-                />
+          <Grid textAlign='left'>
+            <Grid.Row>
+              <Grid.Column width={12} mobile={16} tablet={12} computer={12}>
                 <Input
-                    label={<label style={styles.label}>http://carbonhub.xyz/v1/</label>}
-                    style={styles.inputUrl}
+                    label={{basic: true, content: 'API Key: '}}
+                    labelPosition='left'
+                    style={styles.inputKey}
+                    fluid
                 />
-              </Form.Group>
-              <Button
-                  content='RUN'
-                  color='blue'
-                  onClick={this.executeQuery}
-              />
-            </div>
-          </Form>
-        </Segment>
+              </Grid.Column>
+              <Grid.Column width={4} mobile={16} tablet={4} computer={4}>
+                <Button
+                    content='Get API Key'
+                    onClick={this.getAPIKey}
+                    style={styles.buttonGetKey}
+                    size='small'
+                    fluid
+                />
+              </Grid.Column>
+            </Grid.Row>
+            <Grid.Row>
+              <Grid.Column width={3} mobile={16} tablet={3} computer={3}>
+                <Form.Dropdown
+                    placeholder='Method'
+                    options={options}
+                    defaultValue={options[0].value}
+                    style={styles.dropdown}
+                    selection
+                    className='label'
+                />
+              </Grid.Column>
+              <Grid.Column width={9} mobile={16} tablet={10} computer={9}>
+                <Input
+                    label={{basic: true, content: 'http://carbonhub.xyz/v1/'}}
+                    labelPosition='left'
+                    style={styles.inputUrl}
+                    fluid
+                />
+              </Grid.Column>
+              <Grid.Column width={4} mobile={16} tablet={3} computer={4}>
+                <Button
+                    content='RUN'
+                    onClick={this.executeQuery}
+                    size='small'
+                    primary
+                    style={styles.buttonRun}
+                    fluid
+                />
+              </Grid.Column>
+            </Grid.Row>
+          </Grid>
+        </Responsive>
     );
   }
 }
@@ -119,24 +137,15 @@ const styles = {
     marginLeft: '15px',
     color: '#626364'
   },
-  form: {
-    marginLeft: '10px'
+  buttonGetKey: {
+    backgroundColor: '#F6F7F9',
+    height: '38px'
   },
-  button: {
-    backgroundColor: '#F6F7F9'
+  buttonRun: {
+    height: '38px'
   },
   inputKey: {
-    width: '1000px',
     color: '#626364'
-  },
-  inputUrl: {
-    marginLeft: '15px',
-    width: '850px'
-  },
-  div: {
-    display: 'flex',
-    alignItems: 'flex-start',
-    justifyContent: 'space-between'
   },
   label: {
     backgroundColor: 'white',
