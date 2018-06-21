@@ -9,6 +9,9 @@ import Profile from "./components/Profile/Profile";
 import Loading from "./components/Loading/Loading";
 import Auth from './Auth/Auth';
 import Explorer from './components/Explorer/Explorer'
+import DataUpload from './components/DataUpload/DataUpload'
+import Structured from './components/DataUpload/Structured';
+import Unstructured from './components/DataUpload/Unstructured';
 import history from './history';
 
 const auth = new Auth();
@@ -42,6 +45,27 @@ export default class App extends React.Component {
                                 ) : (
                                     <Explorer />
                                 )
+                        )}/>
+                        <Route path="/DataUpload" render= {(props) =>(
+                            !auth.isAuthenticated()? (
+                                    <Redirect to="/" />
+                            ) : (
+                                    <DataUpload auth={auth} />
+                            )
+                        )}/>
+                        <Route path="/structured" render= {(props) =>(
+                            !auth.isAuthenticated()? (
+                                    <Redirect to="/" />
+                            ) : (
+                                    <Structured auth={auth} />
+                            )
+                        )}/>
+                         <Route path="/unstructured" render= {(props) =>(
+                            !auth.isAuthenticated()? (
+                                    <Redirect to="/" />
+                            ) : (
+                                    <Unstructured auth={auth} />
+                            )
                         )}/>
                         <Route path="/callback" render={(props) => {
                             handleAuthentication(props);
