@@ -7,12 +7,9 @@ import ProfileSettings from '../Profile/ProfileSettings';
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
 
-<<<<<<< HEAD
 const BASE_URL = (process.env.NODE_ENV == 'production') ? 'https://carbonhub.xyz/v1/' : 'http://localhost:3080/v1/';
 
-=======
 /* Extended react.Component class as Unstructured */
->>>>>>> 0c2825a... Added a readme file providing a detailed usage of Data Upload page and added inline comments
 export default class Unstructured extends Component {
 
     /**
