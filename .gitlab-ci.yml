@@ -10,6 +10,11 @@ cache:
 before_script:
   - yarn install
 
+connect:
+  image: redis
+  script:
+  - redis-cli -h redis PING
+
 test:
   script:
     - yarn test
