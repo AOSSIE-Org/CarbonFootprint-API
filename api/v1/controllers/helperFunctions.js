@@ -1,3 +1,14 @@
+var NodeGeocoder = require('node-geocoder');
+
+var options = {
+  provider: 'google',
+
+  // Optional depending on the providers
+  httpAdapter: 'https', // Default
+  apiKey: process.env.GOOGLE_MAPS_KEY, // for Mapquest, OpenCage, Google Premier
+  formatter: null         // 'gpx', 'string', ...
+};
+
 //google map api client defined
 let googleMapsClient = require('@google/maps').createClient({
   key: process.env.GOOGLE_MAPS_KEY 
@@ -100,6 +111,29 @@ exports.distanceInCoordinates = (sourceLocation, destinationLocation, mode) => {
             }
             else {
                 reject("Unable to find the distance between the origin and destination points.")
+            }
+        });
+    });
+}
+
+exports.geodecodeFromLatLon = (lat, lng) => {
+    return new Promise((resolve, reject) => {
+        var geocoder = NodeGeocoder(options);
+        let data = {};
+        geocoder.reverse({
+            lat: lat,
+            lon: lng
+        }, function(err, res) {
+            if (err)
+                reject(err);
+            else {
+                //console.log(res);
+                data.country = res[0].country;
+                data.countryCode = res[0].countryCode;
+                data.city = res[0].city;
+                data.state = res[0].administrativeLevels.level1long;
+                //console.log(data);
+                resolve(data);
             }
         });
     });

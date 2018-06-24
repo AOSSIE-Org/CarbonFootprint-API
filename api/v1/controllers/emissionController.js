@@ -85,68 +85,63 @@ let findMatch = (emissions, section, relativeLocation) => {
                 }).catch((err) => {
                     reject(err);
                 });
-            }
-            else if(section === "vehicles") {
+            } else if (section === "vehicles") {
+                var fs = require('fs');
                 let vehicleMatch = {
                     source: "",
+                    sourceState: "",
                     destination: "",
+                    destinationState: "",
                     mileage: 0,
                     distance: 0
                 }
                 let vehicleDefault = 2.328; // petrol default.
-                let trainStationsNearby = Helper.nearbyTrainStations(relativeLocation);
-                trainStationsNearby
+                let destinationCity, destinationState, distance, newMileage, noOfLitres;
+                let geoDetails = Helper.geodecodeFromLatLon(relativeLocation.lat, relativeLocation.lng);
+                geoDetails
                     .then((val) => {
-                    //console.log(`results obtained`);
-                    //console.log(`results : ${JSON.stringify(val)}`);
-                    let sourceName = val[0].name;
-                    let sourceLocation = val[0].location;
-                    var matches = [];
-                    for(let i = 1; i < val.length; i++) {
-                        let destinationLocation = val[i].location;
-                        let destinationName = val[i].name;
-                        let singleMatch = {
-                            source: sourceName,
-                            destination: destinationName,
-                            location: destinationLocation
+                        let countryCityDataPath = `../../../raw_data/cities/${val.countryCode}.json`
+                        var cityList = require(countryCityDataPath);
+                        let noOfCities = Object.keys(cityList).length;
+                        do {
+                            //console.log("Calculating..");
+                            destinationCity = cityList[Helper.getRandomNumber(0, noOfCities)];
+                            distance = Helper.getDistanceFromLatLon(relativeLocation.lat, relativeLocation.lng, destinationCity.lat, destinationCity.lng);
+                            noOfLitres = emissions.CO2 / vehicleDefault;
+                            newMileage = distance / noOfLitres;
+                            //console.log("noOfLitres = " + noOfLitres + ", newMileage = " + newMileage);
+                            if ((destinationCity.name !== val.city) && (newMileage > 10 && newMileage < 30)) {
+                                //console.log("Condition satisfied");
+                                let geoDetailsDest = Helper.geodecodeFromLatLon(destinationCity.lat, destinationCity.lng);
+                                geoDetailsDest
+                                    .then((details) => {
+                                        destinationState = details.state;
+                                        vehicleMatch.source = val.city;
+                                        vehicleMatch.sourceState = val.state;
+                                        vehicleMatch.destination = destinationCity.name;
+                                        vehicleMatch.destinationState = destinationState;
+                                        vehicleMatch.mileage = newMileage;
+                                        vehicleMatch.distance = distance;
+                                        resolve(vehicleMatch);
+                                    })
+                                    .catch((err) => {
+                                        vehicleMatch.source = val.city;
+                                        vehicleMatch.sourceState = val.state;
+                                        vehicleMatch.destination = destinationCity.name;
+                                        vehicleMatch.mileage = newMileage;
+                                        vehicleMatch.distance = distance;
+                                        resolve(vehicleMatch);
+                                    });
+                                break;
+                            }
                         }
-                        matches.push(singleMatch);
-                        //console.log(`Matched: ${JSON.stringify(matches)}`);
-                    }
+                        while (true);
+                    })
+                    .catch((err) => {
+                        reject(err);
+                    });
 
-                    if(matches.length > 1) {
-                        let chosenOne = Helper.getRandomNumber(1, matches.length-1);
-                        let trainSourceLocation = sourceLocation;
-                        let trainDestLocation = matches[chosenOne].location;
-                        console.log(`trainSourceLocation: ${JSON.stringify(trainSourceLocation)}`);
-                        console.log(`trainDestLocation: ${JSON.stringify(trainDestLocation)}`);
-                        let drivingDistance = Helper.distanceInCoordinates(trainSourceLocation, trainDestLocation, 'driving');
-                        drivingDistance
-                            .then((val) => {
-                                let noOfLitres = emissions.CO2 / vehicleDefault;
-                                let newMileage = val / noOfLitres;
-                                if(newMileage > 4) {
-                                    vehicleMatch.source = sourceName;
-                                    vehicleMatch.destination = matches[chosenOne].destination;
-                                    vehicleMatch.mileage = newMileage;
-                                    vehicleMatch.distance = val;
-                                    resolve(vehicleMatch);
-                                }
-                                else {
-                                    reject(`Emissions too high. Any local vehicle travel cannot produce these much emissions`);
-                                }
-                            }).catch((err) => {
-                                reject(`Failed to get rail distance: ${err}`);
-                            });
-                    }
-                    else {
-                        reject(`Not many stations around the given location`);
-                    }
-                }).catch((err) => {
-                    reject(err);
-                });
-            }
-            else {
+            } else {
                 let treeMatch = {
                     "item": "",
                     "quantity": 0,
