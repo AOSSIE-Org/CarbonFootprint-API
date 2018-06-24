@@ -86,7 +86,6 @@ let findMatch = (emissions, section, relativeLocation) => {
                     reject(err);
                 });
             } else if (section === "vehicles") {
-                var fs = require('fs');
                 let vehicleMatch = {
                     source: "",
                     sourceState: "",
