@@ -16,7 +16,7 @@ export default class Profile extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      profile: {}, 
+      profile: {},
       profilePicture: '',
       nickname: '',
       email: '',
@@ -32,20 +32,21 @@ export default class Profile extends Component {
    */
 
   componentDidMount(){
-    this.props.auth.getProfile((err, profile) => {
-      //console.log("profile",profile)
-      if(!err){
-        this.setState({
-          profile: profile,
-          profilePicture: profile.picture,
-          nickname: profile.nickname,
-          email: profile.email,
-          userid: profile.sub,
-          given_name:profile.given_name,
-          family_name:profile.family_name
-        });
-      }
-    }); 
+      this.props.auth.getProfile()
+          .then((profile) => {
+              this.setState({
+                  profile: profile,
+                  profilePicture: profile.picture,
+                  nickname: profile.nickname,
+                  email: profile.email,
+                  userid: profile.sub,
+                  given_name:profile.given_name,
+                  family_name:profile.family_name
+              });
+          })
+          .catch((err) => {
+              console.log(err);
+          });
   }
 
   /** 

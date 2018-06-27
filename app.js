@@ -10,6 +10,7 @@ var bodyParser = require('body-parser');
 var jwt = require('express-jwt');
 var jwks = require('jwks-rsa');
 var customErrorFunctions = require('./framework/CustomRouterFunctions');
+var helmet = require('helmet')
 
 // database setup
 var mongoose = require('mongoose');
@@ -31,6 +32,7 @@ mongoose.connection.on('disconnected', () => {
   console.log('Database disconnected');
 });
 
+
 // get different routes required
 var index = require('./routes/index');
 var emissions = require('./api/v1/routes/emissionRoutes');
@@ -49,7 +51,7 @@ app.set('view engine', 'ejs');
 // CORS Support
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, access-key");
   next();
 });
 
@@ -59,6 +61,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'client/public')));
+app.use(helmet());
 
 // Authentication middleware provided by express-jwt.
 // This middleware will check incoming requests for a valid

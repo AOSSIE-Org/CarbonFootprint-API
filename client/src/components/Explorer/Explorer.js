@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import { Grid, Button, Modal } from 'semantic-ui-react';
+import { Grid, Button, Modal, Card } from 'semantic-ui-react';
 import { Link } from 'react-router-dom'
 import ExplorerRequest from './ExplorerRequest';
 import ExplorerQuery from './ExplorerQuery';
 import ExplorerResponse from './ExplorerResponse';
 import ExplorerParams from './ExplorerParams';
 import SnippetModal from './SnippetModal';
-import { getKey } from '../Profile/profileController';
 
 /* Extended react.Component class as Explorer */
 export default class Explorer extends Component {
@@ -18,34 +17,38 @@ export default class Explorer extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      key: '',
+      key: false,
       url: '',
       method: 'POST',
       query: {},
-      params: {}
+      params: {},
+      response: ''
     };
-    this.getDataFromChild = this.getDataFromChild.bind(this);
+
+    // this.getDataFromChild = this.getDataFromChild.bind(this);
+
+    this.queryUpdate = this.queryUpdate.bind(this);
+    this.runInPostman = this.runInPostman.bind(this);
+    this.handleResponse = this.handleResponse.bind(this);
+    this.handleURL = this.handleURL.bind(this);
   }
 
   /**
    * Inherit function from react.Component to handle after mounting
    * react component
    */
-  componentDidMount() {
-    getKey().then(data => {
-      if (data.success) {
-        this.setState({key: data.apikey});
-      }
-    })
+  componentDidMount() {}
+
+  handleURL(URL){
+    this.setState({url: URL});
   }
 
-  /**
-   * Function to get the data from child components
-   * @param name the name of the state
-   * @param value the value of the state
-   */
-  getDataFromChild(name, value){
-    this.setState({[name]: value});
+  handleResponse(receivedRes){
+    this.setState({response: receivedRes});
+  }
+
+  queryUpdate(updatedQuery) {
+    this.setState({query: updatedQuery});
   }
 
   /**
@@ -57,29 +60,39 @@ export default class Explorer extends Component {
           <Grid centered textAlign='left'>
             <Grid.Row columns={1}>
               <ExplorerRequest
-                  accessKey={this.state.key}
-                  url={this.state.url}
+                  key={this.state.key}
+                  {/*url={this.state.url}*/}
                   method={this.state.method}
-                  passData={this.getDataFromChild}
+                  handleURL={this.handleURL}
+                  handleResponse = {this.handleResponse}
+                  query = {this.state.query}
+                  {/*passData={this.getDataFromChild}*/}
               />
             </Grid.Row>
             <Grid.Row columns={3}>
               <Grid.Column width={4}>
                 <ExplorerParams
-                    accessKey={this.state.key}
-                    params={this.state.params}
+                    key={this.state.key}
+                    {/*params={this.state.params}*/}
+                    query = {this.state.query}
+                    url = {this.state.url}
+                    queryUpdate = {this.queryUpdate}
                 />
               </Grid.Column>
               <Grid.Column width={7}>
                 <ExplorerQuery
-                    accessKey={this.state.key}
-                    query={this.state.query}
-                    passData={this.getDataFromChild}
+                    key={this.state.key}
+                    {/*query={this.state.query}*/}
+                    params = {this.state.params}
+                    queryUpdate ={this.queryUpdate}
+                    url = {this.state.url}
+                    query={JSON.stringify(this.state.query)}
+                    {/*passData={this.getDataFromChild}*/}
                 />
               </Grid.Column>
               <Grid.Column width={5}>
                 <ExplorerResponse
-                    accessKey={this.state.key}
+                    key={this.state.key}
                     query={this.state.query}
                 />
               </Grid.Column>

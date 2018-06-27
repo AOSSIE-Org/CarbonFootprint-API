@@ -14,18 +14,23 @@ export default class ExplorerQuery extends Component {
       key: false,
       error: false,
       errorMessage: '',
-      query: {}
+      quer: {}
     };
-    this.handleChange = this.handleChange.bind(this);
+    this.handleInput = this.handleInput.bind(this);
   }
 
-  /**
-   * Function to handle the change in textboxes.
-   * @param {object} event Event Object
-   */
-  handleChange (event) {
-    this.setState({ [event.target.name]: event.target.value });
-    this.props.passData(event.target.name, event.target.value);
+  // /**
+  //  * Function to handle the change in textboxes.
+  //  * @param {object} event Event Object
+  //  */
+  // handleChange (event) {
+  //   this.setState({ [event.target.name]: event.target.value });
+  //   this.props.passData(event.target.name, event.target.value);
+  // }
+
+  handleInput(e, {value}){
+    this.setState({quer: JSON.parse(value)});
+    this.props.queryUpdate(this.state.quer);
   }
 
   /**
@@ -35,7 +40,7 @@ export default class ExplorerQuery extends Component {
     return (
         <Segment style={styles.body}>
           <Form>
-            <TextArea name='query' autoHeight style={styles.textArea} onChange={this.handleChange}/>
+            <TextArea autoHeight style={styles.textArea} value={this.props.query} onChange={this.handleInput}/>
           </Form>
         </Segment>
     );

@@ -58,7 +58,7 @@ router.post('/flight', (req, res) => {
 			}
 		}
 
-		calculate(`airplane model ${model}`, 'Default', distance)
+		calculate(`airplane model ${model}`, 'Default', distance, passengers)
 			.then((emissions) => {
 				console.log(`\nTotal Emissions: ${emissions}`);
 				res.status(200).json({
