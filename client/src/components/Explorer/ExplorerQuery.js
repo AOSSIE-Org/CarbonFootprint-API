@@ -11,26 +11,21 @@ export default class ExplorerQuery extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      key: false,
       error: false,
       errorMessage: '',
-      quer: {}
+      query: {}
     };
     this.handleInput = this.handleInput.bind(this);
   }
 
-  // /**
-  //  * Function to handle the change in textboxes.
-  //  * @param {object} event Event Object
-  //  */
-  // handleChange (event) {
-  //   this.setState({ [event.target.name]: event.target.value });
-  //   this.props.passData(event.target.name, event.target.value);
-  // }
-
+  /**
+   * Function to handle the input.
+   * @param {object} e Event Object
+   * @param {object} value Value
+   */
   handleInput(e, {value}){
-    this.setState({quer: JSON.parse(value)});
-    this.props.queryUpdate(this.state.quer);
+    this.setState({query: JSON.parse(value)});
+    this.props.queryUpdate(this.state.query);
   }
 
   /**

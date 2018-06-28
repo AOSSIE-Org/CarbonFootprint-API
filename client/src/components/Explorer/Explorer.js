@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Button, Modal, Card } from 'semantic-ui-react';
+import { Grid, Button, Modal } from 'semantic-ui-react';
 import { Link } from 'react-router-dom'
 import ExplorerRequest from './ExplorerRequest';
 import ExplorerQuery from './ExplorerQuery';
@@ -21,14 +21,10 @@ export default class Explorer extends Component {
       url: '',
       method: 'POST',
       query: {},
-      params: {},
       response: ''
     };
 
-    // this.getDataFromChild = this.getDataFromChild.bind(this);
-
     this.queryUpdate = this.queryUpdate.bind(this);
-    this.runInPostman = this.runInPostman.bind(this);
     this.handleResponse = this.handleResponse.bind(this);
     this.handleURL = this.handleURL.bind(this);
   }
@@ -39,14 +35,23 @@ export default class Explorer extends Component {
    */
   componentDidMount() {}
 
-  handleURL(URL){
+  /**
+   * Function to handle the URL
+   */
+  handleURL(URL) {
     this.setState({url: URL});
   }
 
-  handleResponse(receivedRes){
+  /**
+   * Function to handle the Response
+   */
+  handleResponse(receivedRes) {
     this.setState({response: receivedRes});
   }
 
+  /**
+   * Function to update the query
+   */
   queryUpdate(updatedQuery) {
     this.setState({query: updatedQuery});
   }
@@ -61,39 +66,30 @@ export default class Explorer extends Component {
             <Grid.Row columns={1}>
               <ExplorerRequest
                   key={this.state.key}
-                  {/*url={this.state.url}*/}
                   method={this.state.method}
                   handleURL={this.handleURL}
-                  handleResponse = {this.handleResponse}
-                  query = {this.state.query}
-                  {/*passData={this.getDataFromChild}*/}
+                  handleResponse={this.handleResponse}
+                  query={this.state.query}
               />
             </Grid.Row>
             <Grid.Row columns={3}>
               <Grid.Column width={4}>
                 <ExplorerParams
-                    key={this.state.key}
-                    {/*params={this.state.params}*/}
-                    query = {this.state.query}
-                    url = {this.state.url}
-                    queryUpdate = {this.queryUpdate}
+                    query={this.state.query}
+                    url={this.state.url}
+                    queryUpdate={this.queryUpdate}
                 />
               </Grid.Column>
               <Grid.Column width={7}>
                 <ExplorerQuery
-                    key={this.state.key}
-                    {/*query={this.state.query}*/}
-                    params = {this.state.params}
-                    queryUpdate ={this.queryUpdate}
-                    url = {this.state.url}
+                    queryUpdate={this.queryUpdate}
+                    url={this.state.url}
                     query={JSON.stringify(this.state.query)}
-                    {/*passData={this.getDataFromChild}*/}
                 />
               </Grid.Column>
               <Grid.Column width={5}>
                 <ExplorerResponse
-                    key={this.state.key}
-                    query={this.state.query}
+                    response={this.state.response}
                 />
               </Grid.Column>
             </Grid.Row>
@@ -104,10 +100,9 @@ export default class Explorer extends Component {
               <Modal.Header>Generate Code</Modal.Header>
               <Modal.Content>
                 <SnippetModal
-                    accessKey={this.state.key}
                     url={this.state.url}
                     method={this.state.method}
-                    query={this.state.query}
+                    query={JSON.stringify(this.state.query)}
                 />
               </Modal.Content>
             </Modal>

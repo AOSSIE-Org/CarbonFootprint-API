@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Segment, Form, TextArea, Dropdown, Divider, Button } from 'semantic-ui-react';
 import HTTPSnippet from 'httpsnippet';
+import { getKey } from '../Profile/profileController';
 
 /* Extended react.Component class as SnippetModal */
 export default class SnippetModal extends Component {
@@ -15,7 +16,7 @@ export default class SnippetModal extends Component {
       query: this.props.query,
       method: this.props.method,
       url: this.props.url,
-      key: this.props.accessKey,
+      key: false,
       language: options[0].value,
       snippet: '',
       textCopied: false
@@ -30,7 +31,12 @@ export default class SnippetModal extends Component {
    * react component
    */
   componentDidMount() {
-    this.getSnippet(this.state.language);
+    getKey().then(data => {
+      if (data.success) {
+        this.setState({key: data.apikey});
+        this.getSnippet(this.state.language);
+      }
+    });
   }
 
   /**
@@ -60,7 +66,9 @@ export default class SnippetModal extends Component {
    * @param {string} value Value of the selected language
    */
   getSnippet(value) {
-    if (this.state.method && this.state.url && this.state.key) {
+    console.log(this.state.query);
+    if (this.state.method && this.state.url
+        && this.state.key && this.state.query) {
       let snippet = new HTTPSnippet({
         method: this.state.method.toUpperCase(),
         url: 'https://carbonhub.xyz/v1/'+this.state.url,
@@ -72,7 +80,7 @@ export default class SnippetModal extends Component {
         ],
         postData: {
           mimeType: 'text/json',
-          text: this.state.query.replace(/\n/g, '')
+          text: this.state.query
         }
       });
       this.setState({

@@ -24,35 +24,22 @@ export default class ExplorerRequest extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      key: this.props.accessKey,
+      key: false,
       error: false,
       errorMessage: '',
-      method: this.props.method,
+      method: 'POST',
       url: this.props.url
     };
     this.executeQuery = this.executeQuery.bind(this);
     this.handleChange = this.handleChange.bind(this);
   }
 
-  // /**
-  //  * Inherit function from react.Component handle props from parent
-  //  * react component
-  //  */
-  // componentWillReceiveProps(nextProps){
-  //   this.setState({key: nextProps.accessKey});
-  // }
-
   /**
    * Function to handle the change in textboxes.
    * @param {object} event Event Object
-   // * @param {object} data Data Object
    */
-  handleChange (event) {
+  handleChange(event) {
     this.setState({url: event.target.value});
-    // let value = event.target.value || data.value;
-    // let key = event.target.name || data.name;
-    // this.setState({[key]: value});
-    // this.props.passData(key, value);
   }
 
   /**
@@ -63,10 +50,10 @@ export default class ExplorerRequest extends Component {
     console.log(this.props.query);
     axios({
       method: this.state.method,
-      url: URL +this.state.url,
+      url: URL + this.state.url,
       data: this.props.query,
       headers: {
-        'access-key':this.state.key,
+        'access-key': this.state.key,
         'Content-type': 'application/json'
       }
     }).then(response => {
@@ -111,7 +98,7 @@ export default class ExplorerRequest extends Component {
                 <Input label={{basic: true, content: 'API Key: '}}
                        labelPosition='left'
                        style={styles.inputKey}
-                       value= {this.state.key ? this.state.key : "Go to the profile page and generate one API Key"}
+                       value={this.state.key ? this.state.key : "Go to the profile page and generate one API Key"}
                 />
               </Form.Group>
             </div>
@@ -119,7 +106,7 @@ export default class ExplorerRequest extends Component {
               <Form.Group style={styles.form}>
                 <Dropdown placeholder='Method'
                           options={options}
-                          defaultValue={options[0].value}
+                          defaultValue={options[1].value}
                           style={styles.dropdown}
                 />
                 <Input
@@ -184,59 +171,59 @@ const styles = {
   }
 };
 const details = {
-    flight: {
-        "origin": "DEL",
-        "destination": "JFK",
-        "type": "international",
-        "model": "A380",
-        "passengers": 840
-    }
+  flight: {
+    "origin": "DEL",
+    "destination": "JFK",
+    "type": "international",
+    "model": "A380",
+    "passengers": 840
+  }
 };
 
 //Example data which is default if data is not provided
 
 const example = {
-    "appliances": {
-        "appliance":"Water heater",
-        "type":"instantaneous",
-        "region":"India",
-        "quantity":1,
-        "runnning_time":3
-    },
-    "emissions": {
-        "item": "electricity",
-        "region": "india",
-        "unit": "kWh",
-        "quantity": 1.564
-    },
-    "poultry": {
-        "type":"Broiler chicken",
-        "region":"British columbia",
-        "quantity":3
-    },
-    "quantity": {
-        "item": "lamp",
-        "region": "ohio",
-        "emission": 91
-    },
-    "flight": {
-        "origin": "DEL",
-        "destination": "JFK",
-        "type": "international",
-        "model": "A380",
-        "passengers": 840
-    },
-    "vehicle": {
-        "type": "Petrol",
-        "origin": "Bhubaneswar",
-        "destination": "Cuttack",
-        "mileage": 50,
-        "mileage_unit": "km/l"
-    },
-    "trains": {
-        "type":"railcars",
-        "origin":"Bhubaneswar",
-        "destination":"Delhi",
-        "passengers":10
-    }
+  "appliances": {
+    "appliance": "Water heater",
+    "type": "instantaneous",
+    "region": "India",
+    "quantity": 1,
+    "runnning_time": 3
+  },
+  "emissions": {
+    "item": "electricity",
+    "region": "india",
+    "unit": "kWh",
+    "quantity": 1.564
+  },
+  "poultry": {
+    "type": "Broiler chicken",
+    "region": "British columbia",
+    "quantity": 3
+  },
+  "quantity": {
+    "item": "lamp",
+    "region": "ohio",
+    "emission": 91
+  },
+  "flight": {
+    "origin": "DEL",
+    "destination": "JFK",
+    "type": "international",
+    "model": "A380",
+    "passengers": 840
+  },
+  "vehicle": {
+    "type": "Petrol",
+    "origin": "Bhubaneswar",
+    "destination": "Cuttack",
+    "mileage": 50,
+    "mileage_unit": "km/l"
+  },
+  "trains": {
+    "type": "railcars",
+    "origin": "Bhubaneswar",
+    "destination": "Delhi",
+    "passengers": 10
+  }
 };
