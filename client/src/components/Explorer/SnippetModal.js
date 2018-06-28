@@ -66,7 +66,6 @@ export default class SnippetModal extends Component {
    * @param {string} value Value of the selected language
    */
   getSnippet(value) {
-    console.log(this.state.query);
     if (this.state.method && this.state.url
         && this.state.key && this.state.query) {
       let snippet = new HTTPSnippet({
