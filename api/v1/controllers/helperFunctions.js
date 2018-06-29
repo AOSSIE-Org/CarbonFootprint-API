@@ -99,17 +99,18 @@ exports.transitDistanceInCoordinates = (sourceLocation, destinationLocation, mod
 }
 
 // Different from distance(orig, dest, mod) since this accepts coordinates
-exports.distanceInCoordinates = (sourceLocation, destinationLocation, mode) => {
+exports.railDistanceInCoordinates = (sourceLocation, destinationLocation, mode) => {
     return new Promise((resolve, reject) => {
         googleMapsClient.distanceMatrix({
-            origins: sourceLocation.lat +","+ sourceLocation.lng,
-            destinations: destinationLocation.lat +","+ destinationLocation.lng,
-            mode: mode
-        }, function (status, response) {
-            if(response.json.status === 'OK' && response.json.rows[0].elements[0].status === 'OK'){
-                resolve(response.json.rows[0].elements[0].distance.value/1000);
-            }
-            else {
+            origins: sourceLocation.lat + "," + sourceLocation.lng,
+            destinations: destinationLocation.lat + "," + destinationLocation.lng,
+            mode: 'transit',
+            transit_mode: 'rail',
+            transit_routing_preference: 'fewer_transfers'
+        }, function(status, response) {
+            if (response.json.status === 'OK' && response.json.rows[0].elements[0].status === 'OK') {
+                resolve(response.json.rows[0].elements[0].distance.value / 1000);
+            } else {
                 reject("Unable to find the distance between the origin and destination points.")
             }
         });

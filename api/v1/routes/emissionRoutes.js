@@ -43,7 +43,7 @@ router.post('/comparer', (req, res) => {
         .then((match) => {
                 res.status(200).json({
                     success: true,
-                    match: match
+                    matches: [ match ]
                 });
         })
         .catch((err) => {
