@@ -10,7 +10,8 @@ var bodyParser = require('body-parser');
 var jwt = require('express-jwt');
 var jwks = require('jwks-rsa');
 var customErrorFunctions = require('./framework/CustomRouterFunctions');
-var helmet = require('helmet')
+var helmet = require('helmet');
+var Logger = require('./framework/Logger');
 
 // database setup
 var mongoose = require('mongoose');
@@ -19,17 +20,17 @@ mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${proc
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
-  console.log('Connection to database established successfully');
+  Logger.info('Connection to database established successfully');
 });
 
 // If the connection throws an error
 mongoose.connection.on('error', (err) => {
-  console.log('Error connecting to database: ' + err);
+  Logger.error('Error connecting to database: ' + err);
 });
 
 // When the connection is disconnected
 mongoose.connection.on('disconnected', () => {
-  console.log('Database disconnected');
+  Logger.info('Database disconnected');
 });
 
 
