@@ -18,7 +18,6 @@ let interpolate = (l1, l2, d) => {
 };
 
 let findMatch = (emissions, section, relativeLocation) => {
-    console.log(`Given emissions: ${emissions}`);
     let supportedSections = { "section1": "trees", "section2":"trains", "section3":"vehicles"};
     return new Promise((resolve, reject) => {
         // We are only concerned with CO2 emission for now
