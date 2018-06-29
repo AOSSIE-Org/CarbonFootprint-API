@@ -30,12 +30,9 @@ let findMatch = (emissions, section, relativeLocation) => {
                     passengers: 0,
                     distance: 0
                 }
-                console.log(`Relative location: ${JSON.stringify(relativeLocation)}`);
                 let results = Helper.nearbyTrainStations(relativeLocation);
                 results
                   .then((val) => {
-                    //console.log(`results obtained`);
-                    //console.log(`results : ${JSON.stringify(val)}`);
                     let sourceName = val[0].name;
                     let sourceLocation = val[0].location;
                     // We currently use the railcar type by default since it's the type that is most
@@ -60,12 +57,9 @@ let findMatch = (emissions, section, relativeLocation) => {
                     }
 
                     if(matches.length > 1) {
-                        let chosenOne = Helper.getRandomNumber(1, matches.length-1);
-
+                        let chosenOne = Helper.getRandomNumber(1, matches.length - 1);
                         let trainSourceLocation = sourceLocation;
                         let trainDestLocation = matches[chosenOne].location;
-                        console.log(`trainSourceLocation: ${JSON.stringify(trainSourceLocation)}`);
-                        console.log(`trainDestLocation: ${JSON.stringify(trainDestLocation)}`);
                         let railDistance = Helper.distanceInCoordinates(trainSourceLocation, trainDestLocation, 'rail');
                         railDistance
                             .then((val) => {
@@ -103,14 +97,11 @@ let findMatch = (emissions, section, relativeLocation) => {
                         var cityList = require(countryCityDataPath);
                         let noOfCities = Object.keys(cityList).length;
                         do {
-                            //console.log("Calculating..");
                             destinationCity = cityList[Helper.getRandomNumber(0, noOfCities)];
                             distance = Helper.getDistanceFromLatLon(relativeLocation.lat, relativeLocation.lng, destinationCity.lat, destinationCity.lng);
                             noOfLitres = emissions.CO2 / vehicleDefault;
                             newMileage = distance / noOfLitres;
-                            //console.log("noOfLitres = " + noOfLitres + ", newMileage = " + newMileage);
                             if ((destinationCity.name !== val.city) && (newMileage > 10 && newMileage < 30)) {
-                                //console.log("Condition satisfied");
                                 let geoDetailsDest = Helper.geodecodeFromLatLon(destinationCity.lat, destinationCity.lng);
                                 geoDetailsDest
                                     .then((details) => {
