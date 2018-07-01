@@ -4,31 +4,29 @@ import { Segment, Form, TextArea } from 'semantic-ui-react';
 /* Extended react.Component class as ExplorerResponse */
 export default class ExplorerResponse extends Component {
 
-  /**
-   * Constructor for the ExplorerResponse class
-   * @constructor extends react.Component
-   */
-  constructor(props) {
-    super(props);
-    this.state = {
-      error: false,
-      errorMessage: '',
-      response: ''
-    };
-  }
+    constructor(props) {
+        super(props);
 
-  /**
-   * Inherited function from react.Component to render to DOM object into html
-   */
-  render() {
-    return (
-        <Segment style={styles.body} raised>
-          <Form>
-            <TextArea autoHeight style={styles.textArea} readOnly/>
-          </Form>
-        </Segment>
-    );
-  }
+        this.state = {
+            error: false,
+            errorMessage: '',
+            response:''
+        };
+        //this.finalResponse = this.finalResponse.bind(this);
+    }
+
+    render() {
+
+        return (
+            <Segment style={styles.body} raised>
+
+                <Form>
+                    <TextArea autoHeight style={styles.textArea} value={JSON.stringify(this.props.response)} />
+                </Form>
+
+            </Segment>
+        );
+    }
 }
 
 const styles = {

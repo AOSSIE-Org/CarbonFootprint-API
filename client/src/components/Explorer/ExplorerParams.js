@@ -1,44 +1,102 @@
 import React, { Component } from 'react';
 import { Segment, Checkbox } from 'semantic-ui-react';
 
-/* Extended react.Component class as ExplorerParams */
 export default class ExplorerParams extends Component {
 
-  /**
-   * Constructor for the ExplorerParams class
-   * @constructor extends react.Component
-   */
-  constructor(props) {
-    super(props);
-    this.state = {
-      error: false,
-      errorMessage: '',
-      response: '',
-      params: ['item', 'region', 'unit', 'quantity'], // dummy data
-      checkedParams: []
-    };
-  }
+    constructor(props) {
+        super(props);
 
-  /**
-   * Inherited function from react.Component to render to DOM object into html
-   */
-  render() {
-    return (
-        <Segment style={styles.body} raised>
-          {this.state.params.map(param => ( // mapping the params into list of checkboxes
-              <div>
-                <Checkbox label={param}/>
-                <br/>
-              </div>
-          ))}
-        </Segment>
-    );
-  }
+        this.state = {
+            error: false,
+            errorMessage: ''
+        };
+        this.handleChange = this.handleChange.bind(this);
+    }
+
+    handleChange(e, {value}){
+        const newQuery = this.props.query;
+        console.log(newQuery);
+        const key = Object.keys(newQuery);
+        newQuery[value] ='';
+        this.props.queryUpdate(newQuery);
+    }
+
+    render() {
+        const query = this.props.query;
+        //const keys = Object.keys(query);
+        var check;
+        var keys = defaultParam["poultry"];
+        const url = this.props.url;
+        console.log(url);
+        for(var key in defaultParam)
+        {
+            if(key === url){
+                keys = defaultParam[key]
+            }
+        }
+
+        return (
+            <Segment style={styles.body} raised>
+                {Object.values(keys).map(key =>
+                    <div>
+                        {check = query[key]?true:false}
+                        <Checkbox label={key} value={key} checked={check} onChange={this.handleChange} />
+                        <br/>
+                    </div>
+                )}
+            </Segment>
+        );
+    }
 }
 
 const styles = {
-  body: {
-    backgroundColor: 'white',
-    minHeight: '100%',
-  }
+    body: {
+        backgroundColor: 'white',
+        minHeight: "100%",
+    }
 };
+const defaultParam = {
+    "appliances": [
+        "appliance",
+        "type",
+        "region",
+        "quantity",
+        "runnning_time"
+    ],
+    "emissions": [
+        "item",
+        "region",
+        "unit",
+        "quantity"
+    ],
+    "poultry": [
+        "type",
+        "region",
+        "quantity"
+    ],
+    "quantity": [
+        "item",
+        "region",
+        "emission"
+    ],
+    "flight": [
+        "origin",
+        "destination",
+        "type",
+        "model",
+        "passengers"
+    ],
+    "vehicle": [
+        "type",
+        "origin",
+        "destination",
+        "mileage",
+        "mileage_unit"
+    ],
+    "trains": [
+        "type",
+        "origin",
+        "destination",
+        "passengers"
+    ]
+}
