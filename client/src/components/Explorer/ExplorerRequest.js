@@ -80,7 +80,7 @@ export default class ExplorerRequest extends Component {
 
                 <Grid textAlign='left'>
                     <Grid.Row>
-                        <Grid.Column width={12} mobile={16} tablet={12} computer={12}>
+                        <Grid.Column width={16}>
                               <Input
                                     label={{basic: true, content: 'API Key: '}}
                                     labelPosition='left'
@@ -105,7 +105,6 @@ export default class ExplorerRequest extends Component {
                             <Input
                                   label={{basic: true, content: 'http://carbonhub.xyz/v1/'}}
                                   labelPosition='left'
-                                  style={styles.inputUrl}
                                   onChange={this.handleChange}
                                   fluid
                             />
