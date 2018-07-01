@@ -30,7 +30,6 @@ export default class DataUpload extends Component {
   }
 
   handleClick(compName, e) {
-    console.log(compName);
     this.setState({render: compName});
     
   }
@@ -44,7 +43,6 @@ export default class DataUpload extends Component {
 
   componentDidMount() {
     this.props.auth.getProfile((err, profile) => {
-      //console.log("profile",profile)
       if (!err) {
         this.setState({
           profile: profile,

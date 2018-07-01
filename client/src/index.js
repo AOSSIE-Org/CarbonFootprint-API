@@ -13,6 +13,7 @@ import DataUpload from './components/DataUpload/DataUpload'
 import Structured from './components/DataUpload/Structured';
 import Unstructured from './components/DataUpload/Unstructured';
 import history from './history';
+import DataVerify from './components/DataUpload/DataVerify';
 
 const auth = new Auth();
 
@@ -58,6 +59,13 @@ export default class App extends React.Component {
                                     <Redirect to="/" />
                             ) : (
                                     <Structured auth={auth} />
+                            )
+                        )}/>
+                        <Route path="/dataVerify" render= {(props) =>(
+                            !auth.isAuthenticated()? (
+                                    <Redirect to="/" />
+                            ) : (
+                                    <DataVerify auth={auth} />
                             )
                         )}/>
                          <Route path="/unstructured" render= {(props) =>(

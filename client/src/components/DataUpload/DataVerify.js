@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
-import { Button, Grid, Segment, Divider, Form } from 'semantic-ui-react';
+import { Button, Grid, Segment, Divider, List } from 'semantic-ui-react';
 import ProfileSettings from '../Profile/ProfileSettings';
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
-import axios from 'axios'
+import axios from 'axios';
+import ListItems from './ListItems';
 
-export default class Unstructured extends Component {
+/* Extended react.Component class as Profile */
+
+export default class DataVerify extends Component {
+
+    /**
+  * Constructor for the DataUpload class
+  * @constructor extends react.Component
+  */
+
     constructor(props) {
         super(props);
         this.state = {
@@ -17,26 +25,9 @@ export default class Unstructured extends Component {
             userid: '',
             given_name: '',
             family_name: '',
-            fileURL: ''
+            data: []
         }
-        this.handleFileUpload = this.handleFileUpload.bind(this);
     }
-
-    handleFileUpload(e) {
-        e.preventDefault();
-        let formData = new FormData();
-        formData.append('file', this.uploadInput.files[0]);
-        formData.append('filename', this.fileName.value);
-        axios({
-            method: 'POST',
-            url: 'http://localhost:3080/upload',
-            data: formData,
-        }).then((response) => {
-            response.json().then((body) => {
-                this.setState({ fileURL: `http://localhost:3080/${body.file}` })
-            })
-        })
-    };
 
     componentDidMount() {
         this.props.auth.getProfile((err, profile) => {
@@ -52,9 +43,13 @@ export default class Unstructured extends Component {
                 });
             }
         });
+        axios.get('/suggestedData/approveData').then(response => {
+            this.setState({ data: response.data });
+        })
     }
-
     render() {
+        const { data } = this.state;
+
         return (
             <Grid centered textAlign="left">
                 <Grid.Row>
@@ -72,23 +67,33 @@ export default class Unstructured extends Component {
 
                     <Grid.Column width={10}>
                         <Segment style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                            <Form onSubmit={this.handleFileUpload}>
-                                <Form.Field>
-                                    <input ref={(ref) => { this.uploadInput = ref; }} type="file" />
-                                </Form.Field>
-                                <Form.Field>
-                                    <input ref={(ref) => { this.fileName = ref; }} type="text" placeholder="Enter the desired name of file" />
-                                </Form.Field>
-                                <br />
-                                <Form.Field>
-                                    <Button type='submit'>Upload</Button>
-                                </Form.Field>
-                            </Form>
+                            <List>
+                                {console.log(data)}
+                                {data && data.map(d =>
+                                    <List.Item key={d._id}>
+                                        <List.Content floated='right'>
+                                            <Button>Approve</Button>
+                                            <Button>Reject</Button>
+                                        </List.Content>
+                                        <List.Content>
+                                            <List.Header>{d.title}</List.Header>
+                                            <table>
+                                                {Object.keys(d.data).map(key => (
+                                                    <tr key={key}>
+                                                        <td>{key}</td>
+                                                        <td>{d.data[key]}</td>
+                                                    </tr>
+                                                ))}
+                                            </table>
+                                        </List.Content>
+                                    </List.Item>
+                                )}
+                            </List>
                         </Segment>
                     </Grid.Column>
 
                 </Grid.Row>
             </Grid>
-        );
+        )
     }
 }

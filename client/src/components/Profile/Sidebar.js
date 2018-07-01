@@ -76,18 +76,6 @@ export default class Sidebar extends Component {
           </span>
         </Link>
         </Menu.Item>
-
-        <Menu.Item
-          name= "explorer"
-          active= {activeItem === 'explorer'}
-        >
-        <Link to = {"/explorer"}>
-          <span>
-            <Icon name="edit" /> API Explorer
-          </span>
-        </Link>
-        </Menu.Item>
-
       </Menu>
     );
   }

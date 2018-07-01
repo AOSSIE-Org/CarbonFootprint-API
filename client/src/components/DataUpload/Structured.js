@@ -7,6 +7,8 @@ import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
 import schemaArray from './StructuredSchema';
 import axios from 'axios';
+import { Redirect } from 'react-router-dom';
+import { json } from 'body-parser';
 
 export default class Structured extends Component {
     constructor(props) {
@@ -20,7 +22,8 @@ export default class Structured extends Component {
             given_name: '',
             family_name: '',
             step: 0,
-            formData: {}
+            formData: {},
+            redirect: false
         }
     }
 
@@ -34,9 +37,14 @@ export default class Structured extends Component {
             },
         })
         if(typeof submitted != 'number'){
-            axios({
-
-            }).then()
+            const element = schemaArray[this.state.step];
+            console.log(element.title);        
+            axios.post('/suggestedData', {
+                title: element.title,
+                data: formData,
+                useremail: this.state.email
+            });
+            this.setState({redirect: true});
         }
     }
 
@@ -73,10 +81,11 @@ export default class Structured extends Component {
                     </Grid.Column>
 
                     <Grid.Column width={10}>
-                        <Segment style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>                            
-                            <Form schema={schemaArray[this.state.step]}
+                        <Segment style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>      
+                        {this.state.redirect && <Redirect to='/DataUpload' />}                      
+                            <Form schema={schemaArray[this.state.step]}                               
                                 onSubmit={this.handleChange.bind(this)}
-                                formData={this.state.formData} />
+                                formData={this.state.formData} />                                
                         </Segment>
                     </Grid.Column>
 
