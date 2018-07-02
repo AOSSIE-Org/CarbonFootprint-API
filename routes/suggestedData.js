@@ -33,7 +33,7 @@ router.post('/', (req, res) => {
 
 router.get('/fetchData', (req, res) => {
     suggestedData.find({}, function (err, fetch) {
-        console.log(fetch)
+        res.send(fetch)
     });
 });
 
