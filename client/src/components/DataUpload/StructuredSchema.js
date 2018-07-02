@@ -8,6 +8,7 @@ const schemaArray = [
 {
     "title": "Appliances Data",
     "type": "object",
+    "required": ["appliance","type","region","quantity","running_time"],
     "properties": {
         "appliance": { type: "string" },
         "type": { type: "string" },
@@ -19,6 +20,7 @@ const schemaArray = [
 {
     "title": "Emissions Data",
     "type": "object",
+    "required":["item","region","quantity","unit"],
     "properties": {
         "item": { type: "string" },
         "region": { type: "string" },
@@ -29,6 +31,7 @@ const schemaArray = [
 {
     "title": "Poultry Data",
     "type": "object",
+    "required":["type","region","quantity"],
     "properties": {
         "type": { type: "string" },
         "region": { type: "string" },
@@ -38,6 +41,7 @@ const schemaArray = [
 {   
     "title":"Quantity",
     "type": "object",
+    "required": ["item","region","emission"],
     "properties": {
         "item": { type: "string" } ,
         "region": { type: "string" } ,
@@ -46,6 +50,7 @@ const schemaArray = [
 },
 {   "title":"Flight",
     "type": "object",
+    "required": ["origin","destination","type","model"],
     "properties": {
         "origin": { type: "string" } ,
         "destination": { type: "string" },
@@ -56,6 +61,7 @@ const schemaArray = [
 }   ,
 {   "title": "Vehicle",
     "type": "object",
+    "required": ["type","origin","destination"],
     "properties": {
             "type": { type:"string" },
             "origin": { type:"string" },
@@ -66,6 +72,7 @@ const schemaArray = [
 },
 {   "title":"Trains",
     "type": "object",
+    "required": ["type","origin","destination"],
     "properties": {
             "type": { type:"string" },
             "origin": { type:"string" },

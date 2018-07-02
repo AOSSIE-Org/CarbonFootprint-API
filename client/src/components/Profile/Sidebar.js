@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Icon, Menu, Card } from 'semantic-ui-react';
 import Explorer from '../Explorer/Explorer';
 import DataUpload from '../DataUpload/DataUpload';
+import DataVerify from '../DataUpload/DataVerify';
 import {Link} from 'react-router-dom';
 
 /* Extended react.Component class as Sidebar */
@@ -76,6 +77,18 @@ export default class Sidebar extends Component {
           </span>
         </Link>
         </Menu.Item>
+
+        <Menu.Item
+          name= "Verify Data"
+          active= {activeItem === 'Verify Data'}
+        >
+        <Link to= {"/dataVerify"}>
+          <span>
+            <Icon name= "file" /> Verify Data
+          </span>
+        </Link>
+        </Menu.Item>
+
       </Menu>
     );
   }

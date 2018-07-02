@@ -4,7 +4,7 @@ import ProfileSettings from '../Profile/ProfileSettings';
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
 import axios from 'axios';
-import ListItems from './ListItems';
+import { Redirect } from 'react-router-dom';
 
 /* Extended react.Component class as Profile */
 
@@ -25,8 +25,21 @@ export default class DataVerify extends Component {
             userid: '',
             given_name: '',
             family_name: '',
-            data: []
+            data: [],
+            redirect: false
         }
+        this.handleApprove = this.handleApprove.bind(this);
+        this.handleReject = this.handleReject.bind(this);
+    }
+
+    handleApprove(id) {
+        axios.post('/suggestedData/approveData', { data_id: id });
+        window.location.reload();
+    }
+
+    handleReject(id) {
+        axios.post('/suggestedData/rejectData', { data_id: id });
+        window.location.reload();
     }
 
     componentDidMount() {
@@ -43,7 +56,7 @@ export default class DataVerify extends Component {
                 });
             }
         });
-        axios.get('/suggestedData/approveData').then(response => {
+        axios.get('/suggestedData/fetchData').then(response => {
             this.setState({ data: response.data });
         })
     }
@@ -69,25 +82,29 @@ export default class DataVerify extends Component {
                         <Segment style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                             <List>
                                 {console.log(data)}
-                                {data && data.map(d =>
+                                {data.length ? data.map(d =>
                                     <List.Item key={d._id}>
-                                        <List.Content floated='right'>
-                                            <Button>Approve</Button>
-                                            <Button>Reject</Button>
-                                        </List.Content>
                                         <List.Content>
                                             <List.Header>{d.title}</List.Header>
-                                            <table>
+                                            <br />
+                                            <table style={styles.table} >
                                                 {Object.keys(d.data).map(key => (
                                                     <tr key={key}>
-                                                        <td>{key}</td>
-                                                        <td>{d.data[key]}</td>
+                                                        <td style={styles.td} >{key}</td>
+                                                        <td style={{ paddingLeft: 0 }} >{d.data[key]}</td>
                                                     </tr>
                                                 ))}
                                             </table>
                                         </List.Content>
+                                        <br />
+                                        <List.Content >
+                                            <Button style={{ backgroundColor: 'green' }} onClick={() => this.handleApprove(d._id)} >Approve</Button>
+                                            <Button style={{ backgroundColor: 'red' }} onClick={() => this.handleReject(d._id)} >Reject</Button>
+                                        </List.Content>
                                     </List.Item>
-                                )}
+                                ) :
+                                    <List.Header>No data available for approval</List.Header>
+                                }
                             </List>
                         </Segment>
                     </Grid.Column>
@@ -95,5 +112,11 @@ export default class DataVerify extends Component {
                 </Grid.Row>
             </Grid>
         )
+    }
+}
+const styles = {
+    td: { 
+        paddingLeft: '20px', 
+        paddingRight: '20px' 
     }
 }

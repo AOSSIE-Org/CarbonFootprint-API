@@ -36,15 +36,14 @@ export default class Structured extends Component {
                 ...formData
             },
         })
-        if(typeof submitted != 'number'){
+        if (typeof submitted != 'number') {
             const element = schemaArray[this.state.step];
-            console.log(element.title);        
             axios.post('/suggestedData', {
                 title: element.title,
                 data: formData,
                 useremail: this.state.email
             });
-            this.setState({redirect: true});
+            this.setState({ redirect: true });
         }
     }
 
@@ -81,11 +80,11 @@ export default class Structured extends Component {
                     </Grid.Column>
 
                     <Grid.Column width={10}>
-                        <Segment style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>      
-                        {this.state.redirect && <Redirect to='/DataUpload' />}                      
-                            <Form schema={schemaArray[this.state.step]}                               
+                        <Segment style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                            {this.state.redirect && <Redirect to='/DataUpload' />}
+                            <Form schema={schemaArray[this.state.step]}
                                 onSubmit={this.handleChange.bind(this)}
-                                formData={this.state.formData} />                                
+                                formData={this.state.formData} />
                         </Segment>
                     </Grid.Column>
 

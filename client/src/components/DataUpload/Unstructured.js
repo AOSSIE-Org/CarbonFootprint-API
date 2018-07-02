@@ -24,18 +24,17 @@ export default class Unstructured extends Component {
 
     handleFileUpload(e) {
         e.preventDefault();
-        let formData = new FormData();
-        formData.append('file', this.uploadInput.files[0]);
-        formData.append('filename', this.fileName.value);
-        axios({
-            method: 'POST',
-            url: 'http://localhost:3080/upload',
-            data: formData,
-        }).then((response) => {
+        const data = new FormData();
+        data.set('file', this.uploadInput.files[0]);
+        data.set('filename', this.fileName.value);
+        console.log(Array.from(data.keys()));        
+        axios.post('suggestedData/upload',  data)
+        .then((response) => {
             response.json().then((body) => {
                 this.setState({ fileURL: `http://localhost:3080/${body.file}` })
             })
         })
+        window.location.reload();
     };
 
     componentDidMount() {
