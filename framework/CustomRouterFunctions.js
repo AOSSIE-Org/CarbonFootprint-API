@@ -1,5 +1,5 @@
 // Get the logger
-const Logger  = require('./Logger');
+const Logger  = require('@framework/Logger');
 /**
  * Creating our custom functions
  */
@@ -14,7 +14,7 @@ module.exports = function CustomRouterFunctions(req, res, next) {
      * Return an error
      */
     res.sendJsonError = function (error, statusCode) {
-        Logger.error(error);
+        Logger.error(`Error: ${error}`);
         return res.status(statusCode).json({ error: error, success: false});
     };
     /**

@@ -24,7 +24,7 @@ mongoose.connection.on('connected', () => {
 
 // If the connection throws an error
 mongoose.connection.on('error', (err) => {
-  Logger.error('Error connecting to database: ' + err);
+  Logger.error(`Error connecting to database: ${err}`);
 });
 
 // When the connection is disconnected

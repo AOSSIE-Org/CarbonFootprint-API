@@ -5,7 +5,7 @@ const { calculate } = require('../controllers/emissionController');
 // get the helper functions
 const { getDistanceFromLatLon, distance } = require('../controllers/helperFunctions');
 // get the logger
-const Logger  = require('../../../framework/Logger');
+const Logger  = require('@framework/Logger');
 
 router.post('/emissions', (req, res) => {
 	let itemName = req.body["item"];
@@ -88,9 +88,9 @@ router.post('/vehicle', async(req, res) => {
 	if (origin && destination) {
         distance(origin, destination, 'driving')
 			.then((val) => {
-				Logger.debug("CalculatedDistance= " + val);
+				Logger.debug(`CalculatedDistance: ${val}`);
 				let fuelConsumed = val / mileage;
-			  	Logger.debug(fuelConsumed);
+			  	Logger.debug(`Fuel consumerd: ${fuelConsumed}`);
 				calculate(`fuel${type}`, 'Default', fuelConsumed)
 					.then((emissions) => {
                       	Logger.info(`Emissions: ${JSON.stringify(emissions, null ,4)}`);
@@ -123,8 +123,8 @@ router.post('/trains', async(req, res) => {
 	if (origin && destination) {
         distance(origin, destination, 'transit')
 			.then((val) => {
-              	Logger.debug("CalculatedDistance= " + val);
-              	Logger.debug("CalculatedPassengers= " + passengers);
+              	Logger.debug(`CalculatedDistance: ${val}`);
+              	Logger.debug(`CalculatedPassengers: ${passengers}`);
 				calculate(type, 'Default', val, passengers)
 					.then((emissions) => {
                       	Logger.info(`Emissions: ${JSON.stringify(emissions, null ,4)}`);
@@ -155,7 +155,7 @@ router.post('/poultry', async(req, res) => {
 	if (type) {
 		calculate(type, region, quantity)
 			.then((emissions) => {
-              	Logger.debug(emissions);
+              	Logger.debug(`Emissions: ${emissions}`);
 				res.status(200).json({
 					success: true,
 					emissions: emissions,

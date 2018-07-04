@@ -2,7 +2,7 @@
 const country_code = require('../../../raw_data/countrycode.json');
 const electricity = require('../../../raw_data/electricty_emission.json');
 // get the logger
-const Logger  = require('../../../framework/Logger');
+const Logger  = require('@framework/Logger');
 let findcode = (country) => {
   for(cs in country_code)
   {
@@ -24,4 +24,4 @@ for (js in electricity){
             };
   }
 }
-Logger.info(JSON.stringify(obj));
+Logger.info(`Payload: ${JSON.stringify(obj)}`);

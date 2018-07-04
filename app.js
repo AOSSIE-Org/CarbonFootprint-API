@@ -1,4 +1,5 @@
 require('dotenv').config();
+require('module-alias/register');
 
 // get required dependencies
 var express = require('express');
@@ -9,9 +10,9 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var jwt = require('express-jwt');
 var jwks = require('jwks-rsa');
-var customErrorFunctions = require('./framework/CustomRouterFunctions');
+var customErrorFunctions = require('@framework/CustomRouterFunctions');
 var helmet = require('helmet');
-var Logger = require('./framework/Logger');
+var Logger = require('@framework/Logger');
 
 // database setup
 var mongoose = require('mongoose');
@@ -25,7 +26,7 @@ mongoose.connection.on('connected', () => {
 
 // If the connection throws an error
 mongoose.connection.on('error', (err) => {
-  Logger.error('Error connecting to database: ' + err);
+  Logger.error(`Error connecting to database: ${err}`);
 });
 
 // When the connection is disconnected

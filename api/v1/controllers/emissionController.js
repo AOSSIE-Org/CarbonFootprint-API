@@ -1,6 +1,6 @@
 const Emission = require('../models/emissionModel');
 const spline = require('cubic-spline');
-const Logger  = require('../../../framework/Logger');
+const Logger  = require('@framework/Logger');
 
 let interpolate = (l1, l2, d) => {
     for(let x = 0; x < l1.length; x++){
@@ -71,7 +71,7 @@ let find = (component, region, quantity) => {
                                                 emissions[i] += emis[i];
                                             }
                                         })
-                                        .catch((err) => Logger.error(err));
+                                        .catch((err) => Logger.error(`Error: ${err}`));
                             }
                             else {
                                 await find(item.components[i].name, region, item.components[i].quantity[0])
@@ -80,7 +80,7 @@ let find = (component, region, quantity) => {
                                                 emissions[i] += emis[i];
                                             }
                                         })
-                                        .catch((err) => Logger.error(err));
+                                        .catch((err) => Logger.error(`Error: ${err}`));
                             }
                         }
                     })().then(() => {
@@ -94,7 +94,7 @@ let find = (component, region, quantity) => {
                             resolve(emissions);
                         }
                     })
-                    .catch((err) => Logger.error(err));
+                    .catch((err) => Logger.error(`Error: ${err}`));
                 }
             } 
             // return an error if component is not found

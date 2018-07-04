@@ -3,7 +3,7 @@
 // database setup
 const mongoose = require('mongoose');
 // get the logger
-const Logger  = require('../../../framework/Logger');
+const Logger  = require('@framework/Logger');
 // get the database configuration file
 const config = require('../../../config.json');
 try {
@@ -25,7 +25,7 @@ mongoose.connection.on('connected', () => {
 
 // If the connection throws an error
 mongoose.connection.on('error', (err) => {
-  Logger.error('Error connecting to database: ' + err);
+  Logger.error(`Error connecting to database: ${err}`);
 });
 
 // When the connection is disconnected
