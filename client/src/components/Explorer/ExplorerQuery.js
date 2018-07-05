@@ -4,25 +4,40 @@ import { Segment, Form, TextArea, Message } from 'semantic-ui-react';
 /* Extended react.Component class as ExplorerQuery */
 export default class ExplorerQuery extends Component {
 
+  /**
+   * Constructor for the ExplorerQuery class
+   * @constructor extends react.Component
+   */
   constructor(props) {
     super(props);
-
     this.state = {
-      key: false,
       error: false,
       errorMessage: '',
       query: '{}',
       data: {}
     };
-    this.handleInput = this.handleInput.bind(this);
     this.onQueryChange = this.onQueryChange.bind(this);
   }
 
-  handleInput(e, {value}) {
-    this.setState({query: JSON.parse(value)});
-    this.props.queryUpdate(this.state.query);
+  /**
+   * Inherited function from react.Component.
+   * This method is invoked when new props are being received.
+   *
+   * @param nextProps the next Props received from Parent
+   */
+  componentWillReceiveProps(nextProps){
+    if(nextProps.query && nextProps.query.length>0) {
+      this.setState({
+        query: nextProps.query,
+        data: JSON.parse(nextProps.query)
+      });
+    }
   }
 
+  /**
+   * Function to handle the change in query.
+   * @param {object} event Event Object
+   */
   onQueryChange(event){
     let val = event.target.value;
     this.setState({query: val});
@@ -34,6 +49,7 @@ export default class ExplorerQuery extends Component {
         errorMessage: '',
         data: parsedData
       });
+      this.props.queryUpdate(parsedData);
     } catch (err) {
       // JSON.parse threw an exception
       this.setState({
@@ -43,11 +59,15 @@ export default class ExplorerQuery extends Component {
     }
   }
 
+  /**
+   * Inherited function from react.Component to render to DOM object into html
+   */
   render() {
+    let updatedQuery = this.props.query || this.state.query;
     return (
         <Segment style={styles.body}>
           {this.state.error &&
-          <Message negative size='tiny'>
+          <Message negative size='mini'>
             <Message.Header>
               {this.state.errorMessage}
             </Message.Header>
@@ -58,7 +78,7 @@ export default class ExplorerQuery extends Component {
                       onChange={this.onQueryChange}
                       value={this.state.query}
                       placeholder='Enter the JSON here'
-                      autofocus='true'/>
+                      autoFocus='true'/>
           </Form>
         </Segment>
     );

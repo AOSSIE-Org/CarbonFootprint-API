@@ -8,39 +8,66 @@ import {Link} from 'react-router-dom';
 
 export default class Explorer extends Component {
 
+  /**
+   * Constructor for the Explorer class
+   * @constructor extends react.Component
+   */
   constructor(props) {
     super(props);
     this.state = {
       key: false,
       url: '',
-      method: 'GET',
+      method: 'POST',
       query: '',
-      response: ''
+      response: '',
+      params: []
     };
 
     this.queryUpdate = this.queryUpdate.bind(this);
     this.handleResponse = this.handleResponse.bind(this);
     this.handleURL = this.handleURL.bind(this);
+    this.paramsUpdate = this.paramsUpdate.bind(this);
   }
 
-  componentDidMount() {}
-
+  /**
+   * Function to handle the URL
+   * @param URL the updated URL
+   */
   handleURL(URL) {
     this.setState({url: URL});
   }
 
-  handleResponse(receivedRes) {
-    this.setState({response: receivedRes});
+  /**
+   * Function to handle the Response
+   * @param receivedResponse the response for the query
+   */
+  handleResponse(receivedResponse) {
+    this.setState({response: receivedResponse});
   }
 
+  /**
+   * Function to update the query
+   * @param updatedQuery the updated Query
+   */
   queryUpdate(updatedQuery) {
     this.setState({query: updatedQuery});
   }
 
+
+  /**
+   * Function to update the params
+   * @param updatedParams the updated Params
+   */
+  paramsUpdate(updatedParams) {
+    this.setState({params: updatedParams});
+  }
+
+  /**
+   * Inherited function from react.Component to render to DOM object into html
+   */
   render() {
     return (
         <div>
-
           <Grid centered textAlign="left">
             <Grid.Row columns={1}>
               <ExplorerRequest
@@ -49,41 +76,32 @@ export default class Explorer extends Component {
                   method={this.state.method}
                   handleResponse={this.handleResponse}
                   query={this.state.query}
+                  paramsUpdate={this.paramsUpdate}
               />
             </Grid.Row>
-
             <Grid.Row columns={3}>
-
               <Grid.Column width={4}>
                 <ExplorerParams
-                    key={this.state.key}
                     query={this.state.query}
                     url={this.state.url}
                     queryUpdate={this.queryUpdate}
+                    params={this.state.params}
                 />
               </Grid.Column>
-
               <Grid.Column width={7}>
                 <ExplorerQuery
-                    key={this.state.key}
-                    params={this.state.params}
                     queryUpdate={this.queryUpdate}
-                    url={this.state.url}
                     query={JSON.stringify(this.state.query)}
                 />
               </Grid.Column>
               <Grid.Column width={5}>
                 <ExplorerResponse
-                    key={this.state.key}
                     response={this.state.response}
                 />
               </Grid.Column>
-
             </Grid.Row>
           </Grid>
-
           <br />
-
           <div style={styles.div}>
             <Button
                 content='</> Get Code'
