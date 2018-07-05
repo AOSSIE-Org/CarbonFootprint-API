@@ -1,6 +1,6 @@
 //This file logs the json required for electricity frontend.
-const country_code = require('../../../raw_data/countrycode.json');
-const electricity = require('../../../raw_data/electricty_emission.json');
+const country_code = require('@raw_data/countrycode.json');
+const electricity = require('@raw_data/electricty_emission.json');
 // get the logger
 const Logger  = require('@framework/Logger');
 let findcode = (country) => {

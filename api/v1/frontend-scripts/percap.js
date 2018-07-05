@@ -1,5 +1,5 @@
 //This file logs the json required for percap frontend.
-const percap = require('../../../raw_data/percap.json');
+const percap = require('@raw_data/percap.json');
 // get the logger
 const Logger =  require('@framework/Logger');
 let obj={};

@@ -81,6 +81,7 @@
   },
   "_moduleAliases": {
     "@root": ".",
-    "@framework": "./framework"
+    "@framework": "./framework",
+    "@raw_data": "./raw_data"
   }
 }

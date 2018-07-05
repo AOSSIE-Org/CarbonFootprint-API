@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 // get the logger
 const Logger  = require('@framework/Logger');
 // get the database configuration file
-const config = require('../../../config.json');
+const config = require('@root/config.json');
 try {
   config
 } catch (e) {
@@ -33,7 +33,7 @@ mongoose.connection.on('disconnected', () => {
   Logger.info('Database disconnected');
 });
 let Emission = require('../models/emissionModel.js')
-let json = require('../../../raw_data/electricty_emission.json');
+let json = require('@raw_data/electricty_emission.json');
 for(js in json){
   let obj = new Emission();
   obj.item="td";
