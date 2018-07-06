@@ -65,7 +65,7 @@ export default class DataVerify extends Component {
 
     render() {
         const { data } = this.state;
-
+    
         return (
             <Grid centered textAlign="left">
                 <Grid.Row>

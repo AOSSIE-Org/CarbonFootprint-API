@@ -38,7 +38,14 @@ export default class Structured extends Component {
         })
         if (typeof submitted != 'number') {
             const element = schemaArray[this.state.step];
+<<<<<<< HEAD
             const { email } = this.state;            
+=======
+            console.log(this.state.email);
+            const { email } = this.state;
+            console.log(element, formData);
+            
+>>>>>>> 676c449... Restructured backend to save the approved suggested data directly into the respective raw_data files
             axios.post('/suggestedData', {
                 title: element.title,
                 data: formData,

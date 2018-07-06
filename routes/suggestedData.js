@@ -26,13 +26,14 @@ router.post('/', (req, res) => {
             console.log(err);
         } else {
             console.log("Successfully saved!");
+            console.log(data);
         }
     });
 });
 
 router.get('/fetchData', (req, res) => {
     suggestedData.find({}, function (err, fetch) {
-        res.send(fetch)
+        console.log(fetch)
     });
 });
 
