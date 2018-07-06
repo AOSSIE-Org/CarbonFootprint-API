@@ -1,5 +1,4 @@
-[
-  {
+[{
     "Country": "Africa",
     "Generation-CO2": "0.735766320",
     "Generation-CH4": "0.000011736",
@@ -10,8 +9,7 @@
     "Consum-CO2": "0.840987822",
     "Consum-CH4": "0.000013415",
     "Consum-N2O": "0.000009797"
-  },
-  {
+}, {
     "Country": "Albania",
     "Generation-CO2": "0.009130088",
     "Generation-CH4": "0.000000370",
@@ -22,8 +20,7 @@
     "Consum-CO2": "0.010098826",
     "Consum-CH4": "0.000000409",
     "Consum-N2O": "0.000000082"
-  },
-  {
+}, {
     "Country": "Algeria",
     "Generation-CO2": "0.664209260",
     "Generation-CH4": "0.000012249",
@@ -34,8 +31,7 @@
     "Consum-CO2": "0.734684458",
     "Consum-CH4": "0.000013549",
     "Consum-N2O": "0.000001436"
-  },
-  {
+}, {
     "Country": "Angola",
     "Generation-CO2": "0.037950113",
     "Generation-CH4": "0.000001503",
@@ -46,8 +42,7 @@
     "Consum-CO2": "0.041976768",
     "Consum-CH4": "0.000001662",
     "Consum-N2O": "0.000000332"
-  },
-  {
+}, {
     "Country": "Argentina",
     "Generation-CO2": "0.391932833",
     "Generation-CH4": "0.000008543",
@@ -58,8 +53,7 @@
     "Consum-CO2": "0.433518438",
     "Consum-CH4": "0.000009449",
     "Consum-N2O": "0.000001510"
-  },
-  {
+}, {
     "Country": "Armenia",
     "Generation-CO2": "0.128177031",
     "Generation-CH4": "0.000002285",
@@ -70,8 +64,7 @@
     "Consum-CO2": "0.141777115",
     "Consum-CH4": "0.000002527",
     "Consum-N2O": "0.000000253"
-  },
-  {
+}, {
     "Country": "Asia excluding China",
     "Generation-CO2": "0.928290633",
     "Generation-CH4": "0.000012714",
@@ -82,8 +75,7 @@
     "Consum-CO2": "1.026785897",
     "Consum-CH4": "0.000014064",
     "Consum-N2O": "0.000013505"
-  },
-  {
+}, {
     "Country": "Australia",
     "Generation-CO2": "0.991757127",
     "Generation-CH4": "0.000011004",
@@ -94,8 +86,7 @@
     "Consum-CO2": "1.075886822",
     "Consum-CH4": "0.000011937",
     "Consum-N2O": "0.000014953"
-  },
-  {
+}, {
     "Country": "Austria",
     "Generation-CO2": "0.176796609",
     "Generation-CH4": "0.000002215",
@@ -106,8 +97,7 @@
     "Consum-CO2": "0.188276354",
     "Consum-CH4": "0.000002359",
     "Consum-N2O": "0.000001211"
-  },
-  {
+}, {
     "Country": "Azerbaijan",
     "Generation-CO2": "0.391831037",
     "Generation-CH4": "0.000007795",
@@ -118,8 +108,7 @@
     "Consum-CO2": "0.433405841",
     "Consum-CH4": "0.000008622",
     "Consum-N2O": "0.000001028"
-  },
-  {
+}, {
     "Country": "Bahrain",
     "Generation-CO2": "0.726834092",
     "Generation-CH4": "0.000012967",
@@ -130,8 +119,7 @@
     "Consum-CO2": "0.803954029",
     "Consum-CH4": "0.000014343",
     "Consum-N2O": "0.000001437"
-  },
-  {
+}, {
     "Country": "Bangladesh",
     "Generation-CO2": "0.637143230",
     "Generation-CH4": "0.000012363",
@@ -142,8 +130,7 @@
     "Consum-CO2": "0.704746617",
     "Consum-CH4": "0.000013675",
     "Consum-N2O": "0.000002116"
-  },
-  {
+}, {
     "Country": "Belarus",
     "Generation-CO2": "0.610873739",
     "Generation-CH4": "0.000011298",
@@ -154,8 +141,7 @@
     "Consum-CO2": "0.675689830",
     "Consum-CH4": "0.000012497",
     "Consum-N2O": "0.000001361"
-  },
-  {
+}, {
     "Country": "Belgium",
     "Generation-CO2": "0.224767376",
     "Generation-CH4": "0.000002863",
@@ -166,8 +152,7 @@
     "Consum-CO2": "0.236253528",
     "Consum-CH4": "0.000003009",
     "Consum-N2O": "0.000001171"
-  },
-  {
+}, {
     "Country": "Benin",
     "Generation-CO2": "0.700678676",
     "Generation-CH4": "0.000028169",
@@ -178,8 +163,7 @@
     "Consum-CO2": "0.775023422",
     "Consum-CH4": "0.000031158",
     "Consum-N2O": "0.000006232"
-  },
-  {
+}, {
     "Country": "Bolivia",
     "Generation-CO2": "0.534996875",
     "Generation-CH4": "0.000013598",
@@ -190,8 +174,7 @@
     "Consum-CO2": "0.591762134",
     "Consum-CH4": "0.000015041",
     "Consum-N2O": "0.000002307"
-  },
-  {
+}, {
     "Country": "Bosnia and Herzegovina",
     "Generation-CO2": "1.326247340",
     "Generation-CH4": "0.000014048",
@@ -202,8 +185,7 @@
     "Consum-CO2": "1.466967365",
     "Consum-CH4": "0.000015539",
     "Consum-N2O": "0.000022359"
-  },
-  {
+}, {
     "Country": "Botswana",
     "Generation-CO2": "1.825675055",
     "Generation-CH4": "0.000019299",
@@ -214,8 +196,7 @@
     "Consum-CO2": "2.019386313",
     "Consum-CH4": "0.000021347",
     "Consum-N2O": "0.000032020"
-  },
-  {
+}, {
     "Country": "Brazil",
     "Generation-CO2": "0.092643638",
     "Generation-CH4": "0.000001784",
@@ -226,8 +207,7 @@
     "Consum-CO2": "0.109907407",
     "Consum-CH4": "0.000002116",
     "Consum-N2O": "0.000000641"
-  },
-  {
+}, {
     "Country": "Brunei Darussalam",
     "Generation-CO2": "0.819498808",
     "Generation-CH4": "0.000014777",
@@ -238,8 +218,7 @@
     "Consum-CO2": "0.906450834",
     "Consum-CH4": "0.000016344",
     "Consum-N2O": "0.000001668"
-  },
-  {
+}, {
     "Country": "Bulgaria",
     "Generation-CO2": "1.166008316",
     "Generation-CH4": "0.000012089",
@@ -250,8 +229,7 @@
     "Consum-CO2": "1.368599301",
     "Consum-CH4": "0.000014189",
     "Consum-N2O": "0.000020236"
-  },
-  {
+}, {
     "Country": "Cambodia",
     "Generation-CO2": "1.170839671",
     "Generation-CH4": "0.000046383",
@@ -262,8 +240,7 @@
     "Consum-CO2": "1.295070336",
     "Consum-CH4": "0.000051304",
     "Consum-N2O": "0.000010261"
-  },
-  {
+}, {
     "Country": "Cameroon",
     "Generation-CO2": "0.216568535",
     "Generation-CH4": "0.000006480",
@@ -274,8 +251,7 @@
     "Consum-CO2": "0.239547303",
     "Consum-CH4": "0.000007167",
     "Consum-N2O": "0.000001238"
-  },
-  {
+}, {
     "Country": "Canada",
     "Generation-CO2": "0.179763325",
     "Generation-CH4": "0.000002248",
@@ -286,8 +262,7 @@
     "Consum-CO2": "0.196459189",
     "Consum-CH4": "0.000002457",
     "Consum-N2O": "0.000002595"
-  },
-  {
+}, {
     "Country": "Caspian Region",
     "Generation-CO2": "0.588934769",
     "Generation-CH4": "0.000008343",
@@ -298,8 +273,7 @@
     "Consum-CO2": "0.651423050",
     "Consum-CH4": "0.000009228",
     "Consum-N2O": "0.000006701"
-  },
-  {
+}, {
     "Country": "Central/Eastern Europe",
     "Generation-CO2": "0.822497149",
     "Generation-CH4": "0.000009701",
@@ -310,8 +284,7 @@
     "Consum-CO2": "0.909767310",
     "Consum-CH4": "0.000010730",
     "Consum-N2O": "0.000011924"
-  },
-  {
+}, {
     "Country": "Chile",
     "Generation-CO2": "0.408614261",
     "Generation-CH4": "0.000008743",
@@ -322,8 +295,7 @@
     "Consum-CO2": "0.451969831",
     "Consum-CH4": "0.000009671",
     "Consum-N2O": "0.000005604"
-  },
-  {
+}, {
     "Country": "China (People's Republic of China and Hong Kong China)",
     "Generation-CO2": "0.972581723",
     "Generation-CH4": "0.000010459",
@@ -334,8 +306,7 @@
     "Consum-CO2": "1.075776444",
     "Consum-CH4": "0.000011569",
     "Consum-N2O": "0.000016762"
-  },
-  {
+}, {
     "Country": "China, People's Republic of",
     "Generation-CO2": "0.974624913",
     "Generation-CH4": "0.000010469",
@@ -346,8 +317,7 @@
     "Consum-CO2": "1.037486940",
     "Consum-CH4": "0.000011144",
     "Consum-N2O": "0.000016190"
-  },
-  {
+}, {
     "Country": "Chinese Taipei",
     "Generation-CO2": "0.578261935",
     "Generation-CH4": "0.000007838",
@@ -358,8 +328,7 @@
     "Consum-CO2": "0.603290085",
     "Consum-CH4": "0.000008177",
     "Consum-N2O": "0.000007696"
-  },
-  {
+}, {
     "Country": "Colombia",
     "Generation-CO2": "0.111425218",
     "Generation-CH4": "0.000001594",
@@ -370,8 +339,7 @@
     "Consum-CO2": "0.123247869",
     "Consum-CH4": "0.000001763",
     "Consum-N2O": "0.000001005"
-  },
-  {
+}, {
     "Country": "Congo",
     "Generation-CO2": "0.120109978",
     "Generation-CH4": "0.000002141",
@@ -382,8 +350,7 @@
     "Consum-CO2": "0.132854116",
     "Consum-CH4": "0.000002368",
     "Consum-N2O": "0.000000237"
-  },
-  {
+}, {
     "Country": "Congo, Democratic Republic of",
     "Generation-CO2": "0.004158606",
     "Generation-CH4": "0.000000112",
@@ -394,8 +361,7 @@
     "Consum-CO2": "0.004599850",
     "Consum-CH4": "0.000000124",
     "Consum-N2O": "0.000000020"
-  },
-  {
+}, {
     "Country": "Costa Rica",
     "Generation-CO2": "0.063756361",
     "Generation-CH4": "0.000002569",
@@ -406,8 +372,7 @@
     "Consum-CO2": "0.070521160",
     "Consum-CH4": "0.000002841",
     "Consum-N2O": "0.000000568"
-  },
-  {
+}, {
     "Country": "Cote d'Ivoire",
     "Generation-CO2": "0.501179338",
     "Generation-CH4": "0.000008970",
@@ -418,8 +383,7 @@
     "Consum-CO2": "0.554356424",
     "Consum-CH4": "0.000009922",
     "Consum-N2O": "0.000000999"
-  },
-  {
+}, {
     "Country": "Croatia",
     "Generation-CO2": "0.386458364",
     "Generation-CH4": "0.000007840",
@@ -430,8 +394,7 @@
     "Consum-CO2": "0.439914637",
     "Consum-CH4": "0.000008924",
     "Consum-N2O": "0.000004464"
-  },
-  {
+}, {
     "Country": "Cuba",
     "Generation-CO2": "0.938086187",
     "Generation-CH4": "0.000037446",
@@ -442,8 +405,7 @@
     "Consum-CO2": "1.037620796",
     "Consum-CH4": "0.000041419",
     "Consum-N2O": "0.000008284"
-  },
-  {
+}, {
     "Country": "Cyprus",
     "Generation-CO2": "0.771651255",
     "Generation-CH4": "0.000029934",
@@ -454,8 +416,7 @@
     "Consum-CO2": "0.807598117",
     "Consum-CH4": "0.000031328",
     "Consum-N2O": "0.000006266"
-  },
-  {
+}, {
     "Country": "Czech Republic",
     "Generation-CO2": "0.938462260",
     "Generation-CH4": "0.000009577",
@@ -466,8 +427,7 @@
     "Consum-CO2": "1.051814468",
     "Consum-CH4": "0.000010733",
     "Consum-N2O": "0.000015427"
-  },
-  {
+}, {
     "Country": "Denmark",
     "Generation-CO2": "0.374745583",
     "Generation-CH4": "0.000004900",
@@ -478,8 +438,7 @@
     "Consum-CO2": "0.425216250",
     "Consum-CH4": "0.000005559",
     "Consum-N2O": "0.000005432"
-  },
-  {
+}, {
     "Country": "Dominican Republic",
     "Generation-CO2": "0.641741728",
     "Generation-CH4": "0.000020066",
@@ -490,8 +449,7 @@
     "Consum-CO2": "0.709833033",
     "Consum-CH4": "0.000022196",
     "Consum-N2O": "0.000006197"
-  },
-  {
+}, {
     "Country": "Ecuador",
     "Generation-CO2": "0.269613843",
     "Generation-CH4": "0.000009589",
@@ -502,8 +460,7 @@
     "Consum-CO2": "0.298220926",
     "Consum-CH4": "0.000010607",
     "Consum-N2O": "0.000002022"
-  },
-  {
+}, {
     "Country": "Egypt",
     "Generation-CO2": "0.500886095",
     "Generation-CH4": "0.000011582",
@@ -514,8 +471,7 @@
     "Consum-CO2": "0.573425181",
     "Consum-CH4": "0.000013259",
     "Consum-N2O": "0.000001888"
-  },
-  {
+}, {
     "Country": "El Salvador",
     "Generation-CO2": "0.256072792",
     "Generation-CH4": "0.000009929",
@@ -526,8 +482,7 @@
     "Consum-CO2": "0.283243116",
     "Consum-CH4": "0.000010983",
     "Consum-N2O": "0.000002197"
-  },
-  {
+}, {
     "Country": "Eritrea",
     "Generation-CO2": "0.677991638",
     "Generation-CH4": "0.000026509",
@@ -538,8 +493,7 @@
     "Consum-CO2": "0.749929200",
     "Consum-CH4": "0.000029321",
     "Consum-N2O": "0.000005864"
-  },
-  {
+}, {
     "Country": "Estonia",
     "Generation-CO2": "1.906907035",
     "Generation-CH4": "0.000019588",
@@ -550,8 +504,7 @@
     "Consum-CO2": "2.247585776",
     "Consum-CH4": "0.000023088",
     "Consum-N2O": "0.000033493"
-  },
-  {
+}, {
     "Country": "Ethiopia",
     "Generation-CO2": "0.118948451",
     "Generation-CH4": "0.000004816",
@@ -562,8 +515,7 @@
     "Consum-CO2": "0.131569347",
     "Consum-CH4": "0.000005327",
     "Consum-N2O": "0.000001065"
-  },
-  {
+}, {
     "Country": "Finland",
     "Generation-CO2": "0.225457295",
     "Generation-CH4": "0.000002607",
@@ -574,8 +526,7 @@
     "Consum-CO2": "0.235897784",
     "Consum-CH4": "0.000002728",
     "Consum-N2O": "0.000002544"
-  },
-  {
+}, {
     "Country": "Former USSR",
     "Generation-CO2": "0.537643872",
     "Generation-CH4": "0.000007517",
@@ -586,8 +537,7 @@
     "Consum-CO2": "0.594689987",
     "Consum-CH4": "0.000008315",
     "Consum-N2O": "0.000005353"
-  },
-  {
+}, {
     "Country": "France",
     "Generation-CO2": "0.070927465",
     "Generation-CH4": "0.000001010",
@@ -598,8 +548,7 @@
     "Consum-CO2": "0.075693212",
     "Consum-CH4": "0.000001078",
     "Consum-N2O": "0.000000693"
-  },
-  {
+}, {
     "Country": "Gabon",
     "Generation-CO2": "0.425188882",
     "Generation-CH4": "0.000012197",
@@ -610,8 +559,7 @@
     "Consum-CO2": "0.470303084",
     "Consum-CH4": "0.000013491",
     "Consum-N2O": "0.000002268"
-  },
-  {
+}, {
     "Country": "Georgia",
     "Generation-CO2": "0.089456936",
     "Generation-CH4": "0.000001595",
@@ -622,8 +570,7 @@
     "Consum-CO2": "0.098948667",
     "Consum-CH4": "0.000001764",
     "Consum-N2O": "0.000000176"
-  },
-  {
+}, {
     "Country": "Germany",
     "Generation-CO2": "0.672220452",
     "Generation-CH4": "0.000007220",
@@ -634,8 +581,7 @@
     "Consum-CO2": "0.714637591",
     "Consum-CH4": "0.000007676",
     "Consum-N2O": "0.000009674"
-  },
-  {
+}, {
     "Country": "Ghana",
     "Generation-CO2": "0.214767509",
     "Generation-CH4": "0.000008790",
@@ -646,8 +592,7 @@
     "Consum-CO2": "0.237555181",
     "Consum-CH4": "0.000009723",
     "Consum-N2O": "0.000001945"
-  },
-  {
+}, {
     "Country": "Gibraltar",
     "Generation-CO2": "0.772321446",
     "Generation-CH4": "0.000029935",
@@ -658,8 +603,7 @@
     "Consum-CO2": "0.772321446",
     "Consum-CH4": "0.000029935",
     "Consum-N2O": "0.000005987"
-  },
-  {
+}, {
     "Country": "Greece",
     "Generation-CO2": "1.921092777",
     "Generation-CH4": "0.000023271",
@@ -670,8 +614,7 @@
     "Consum-CO2": "2.107096454",
     "Consum-CH4": "0.000025524",
     "Consum-N2O": "0.000029504"
-  },
-  {
+}, {
     "Country": "Guatemala",
     "Generation-CO2": "0.341534936",
     "Generation-CH4": "0.000009681",
@@ -682,8 +625,7 @@
     "Consum-CO2": "0.377773128",
     "Consum-CH4": "0.000010708",
     "Consum-N2O": "0.000004061"
-  },
-  {
+}, {
     "Country": "Haiti",
     "Generation-CO2": "0.483325309",
     "Generation-CH4": "0.000019401",
@@ -694,8 +636,7 @@
     "Consum-CO2": "0.534608012",
     "Consum-CH4": "0.000021460",
     "Consum-N2O": "0.000004292"
-  },
-  {
+}, {
     "Country": "Honduras",
     "Generation-CO2": "0.415487352",
     "Generation-CH4": "0.000016130",
@@ -706,8 +647,7 @@
     "Consum-CO2": "0.459572184",
     "Consum-CH4": "0.000017842",
     "Consum-N2O": "0.000003568"
-  },
-  {
+}, {
     "Country": "Hong Kong (China)",
     "Generation-CO2": "0.786680632",
     "Generation-CH4": "0.000009562",
@@ -718,8 +658,7 @@
     "Consum-CO2": "0.880590036",
     "Consum-CH4": "0.000010704",
     "Consum-N2O": "0.000011418"
-  },
-  {
+}, {
     "Country": "Hungary",
     "Generation-CO2": "0.589672564",
     "Generation-CH4": "0.000007400",
@@ -730,8 +669,7 @@
     "Consum-CO2": "0.637203481",
     "Consum-CH4": "0.000007996",
     "Consum-N2O": "0.000006810"
-  },
-  {
+}, {
     "Country": "Iceland",
     "Generation-CO2": "0.000193484",
     "Generation-CH4": "0.000000008",
@@ -742,8 +680,7 @@
     "Consum-CO2": "0.000206048",
     "Consum-CH4": "0.000000008",
     "Consum-N2O": "0.000000002"
-  },
-  {
+}, {
     "Country": "IEA Europe",
     "Generation-CO2": "0.453760609",
     "Generation-CH4": "0.000005695",
@@ -754,8 +691,7 @@
     "Consum-CO2": "0.501906383",
     "Consum-CH4": "0.000006300",
     "Consum-N2O": "0.000005872"
-  },
-  {
+}, {
     "Country": "IEA North America",
     "Generation-CO2": "0.499440779",
     "Generation-CH4": "0.000005995",
@@ -766,8 +702,7 @@
     "Consum-CO2": "0.552433397",
     "Consum-CH4": "0.000006631",
     "Consum-N2O": "0.000007311"
-  },
-  {
+}, {
     "Country": "IEA Total",
     "Generation-CO2": "0.488897248",
     "Generation-CH4": "0.000006129",
@@ -778,8 +713,7 @@
     "Consum-CO2": "0.540771157",
     "Consum-CH4": "0.000006779",
     "Consum-N2O": "0.000006660"
-  },
-  {
+}, {
     "Country": "India",
     "Generation-CO2": "1.333174843",
     "Generation-CH4": "0.000015523",
@@ -790,8 +724,7 @@
     "Consum-CO2": "1.800805423",
     "Consum-CH4": "0.000020968",
     "Consum-N2O": "0.000027163"
-  },
-  {
+}, {
     "Country": "Indonesia",
     "Generation-CO2": "0.684693977",
     "Generation-CH4": "0.000014097",
@@ -802,8 +735,7 @@
     "Consum-CO2": "0.774388897",
     "Consum-CH4": "0.000015943",
     "Consum-N2O": "0.000008768"
-  },
-  {
+}, {
     "Country": "Iran, Islamic Republic of",
     "Generation-CO2": "0.631113877",
     "Generation-CH4": "0.000014976",
@@ -814,8 +746,7 @@
     "Consum-CO2": "0.698077525",
     "Consum-CH4": "0.000016565",
     "Consum-N2O": "0.000002429"
-  },
-  {
+}, {
     "Country": "Iraq",
     "Generation-CO2": "0.820614626",
     "Generation-CH4": "0.000032284",
@@ -826,8 +757,7 @@
     "Consum-CO2": "0.907685045",
     "Consum-CH4": "0.000035709",
     "Consum-N2O": "0.000007142"
-  },
-  {
+}, {
     "Country": "Ireland",
     "Generation-CO2": "0.521193132",
     "Generation-CH4": "0.000008185",
@@ -838,8 +768,7 @@
     "Consum-CO2": "0.566071822",
     "Consum-CH4": "0.000008889",
     "Consum-N2O": "0.000004794"
-  },
-  {
+}, {
     "Country": "Israel",
     "Generation-CO2": "0.740303524",
     "Generation-CH4": "0.000010768",
@@ -850,8 +779,7 @@
     "Consum-CO2": "0.762954205",
     "Consum-CH4": "0.000011098",
     "Consum-N2O": "0.000009956"
-  },
-  {
+}, {
     "Country": "Italy",
     "Generation-CO2": "0.410898038",
     "Generation-CH4": "0.000007078",
@@ -862,8 +790,7 @@
     "Consum-CO2": "0.435265915",
     "Consum-CH4": "0.000007498",
     "Consum-N2O": "0.000002973"
-  },
-  {
+}, {
     "Country": "Jamaica",
     "Generation-CO2": "0.796106233",
     "Generation-CH4": "0.000030969",
@@ -874,8 +801,7 @@
     "Consum-CO2": "0.880576215",
     "Consum-CH4": "0.000034254",
     "Consum-N2O": "0.000006851"
-  },
-  {
+}, {
     "Country": "Japan",
     "Generation-CO2": "0.443356848",
     "Generation-CH4": "0.000007099",
@@ -886,8 +812,7 @@
     "Consum-CO2": "0.465951477",
     "Consum-CH4": "0.000007460",
     "Consum-N2O": "0.000004166"
-  },
-  {
+}, {
     "Country": "Jordan",
     "Generation-CO2": "0.643924449",
     "Generation-CH4": "0.000014205",
@@ -898,8 +823,7 @@
     "Consum-CO2": "0.712247349",
     "Consum-CH4": "0.000015712",
     "Consum-N2O": "0.000002129"
-  },
-  {
+}, {
     "Country": "Kazakhstan",
     "Generation-CO2": "0.923181405",
     "Generation-CH4": "0.000010747",
@@ -910,8 +834,7 @@
     "Consum-CO2": "1.021134560",
     "Consum-CH4": "0.000011888",
     "Consum-N2O": "0.000015287"
-  },
-  {
+}, {
     "Country": "Kenya",
     "Generation-CO2": "0.332297783",
     "Generation-CH4": "0.000013074",
@@ -922,8 +845,7 @@
     "Consum-CO2": "0.367555876",
     "Consum-CH4": "0.000014461",
     "Consum-N2O": "0.000002892"
-  },
-  {
+}, {
     "Country": "Korea, Democratic People's Republic of",
     "Generation-CO2": "0.494658925",
     "Generation-CH4": "0.000006550",
@@ -934,8 +856,7 @@
     "Consum-CO2": "0.547144170",
     "Consum-CH4": "0.000007245",
     "Consum-N2O": "0.000008238"
-  },
-  {
+}, {
     "Country": "Korea, Republic of",
     "Generation-CO2": "0.504377662",
     "Generation-CH4": "0.000006320",
@@ -946,8 +867,7 @@
     "Consum-CO2": "0.522875834",
     "Consum-CH4": "0.000006552",
     "Consum-N2O": "0.000006369"
-  },
-  {
+}, {
     "Country": "Kuwait",
     "Generation-CO2": "0.637316929",
     "Generation-CH4": "0.000021397",
@@ -958,8 +878,7 @@
     "Consum-CO2": "0.704938746",
     "Consum-CH4": "0.000023667",
     "Consum-N2O": "0.000004405"
-  },
-  {
+}, {
     "Country": "Kyrgyzstan",
     "Generation-CO2": "0.091404273",
     "Generation-CH4": "0.000001317",
@@ -970,8 +889,7 @@
     "Consum-CO2": "0.101102624",
     "Consum-CH4": "0.000001457",
     "Consum-N2O": "0.000000850"
-  },
-  {
+}, {
     "Country": "Latin America",
     "Generation-CO2": "0.209693364",
     "Generation-CH4": "0.000005428",
@@ -982,8 +900,7 @@
     "Consum-CO2": "0.251159867",
     "Consum-CH4": "0.000006501",
     "Consum-N2O": "0.000001610"
-  },
-  {
+}, {
     "Country": "Latvia",
     "Generation-CO2": "0.192071871",
     "Generation-CH4": "0.000003438",
@@ -994,8 +911,7 @@
     "Consum-CO2": "0.223842279",
     "Consum-CH4": "0.000004006",
     "Consum-N2O": "0.000000471"
-  },
-  {
+}, {
     "Country": "Lebanon",
     "Generation-CO2": "0.694755686",
     "Generation-CH4": "0.000027581",
@@ -1006,8 +922,7 @@
     "Consum-CO2": "0.768471979",
     "Consum-CH4": "0.000030507",
     "Consum-N2O": "0.000006101"
-  },
-  {
+}, {
     "Country": "Libyan Arab Jamahiriya",
     "Generation-CO2": "0.919629046",
     "Generation-CH4": "0.000030558",
@@ -1018,8 +933,7 @@
     "Consum-CO2": "1.017205281",
     "Consum-CH4": "0.000033800",
     "Consum-N2O": "0.000006223"
-  },
-  {
+}, {
     "Country": "Lithuania",
     "Generation-CO2": "0.115934959",
     "Generation-CH4": "0.000002403",
@@ -1030,8 +944,7 @@
     "Consum-CO2": "0.134922542",
     "Consum-CH4": "0.000002797",
     "Consum-N2O": "0.000000353"
-  },
-  {
+}, {
     "Country": "Luxembourg",
     "Generation-CO2": "0.276002537",
     "Generation-CH4": "0.000004920",
@@ -1042,8 +955,7 @@
     "Consum-CO2": "0.280226461",
     "Consum-CH4": "0.000004995",
     "Consum-N2O": "0.000000500"
-  },
-  {
+}, {
     "Country": "Macedonia, The Former Yugoslav Republic of",
     "Generation-CO2": "1.940643600",
     "Generation-CH4": "0.000020364",
@@ -1054,8 +966,7 @@
     "Consum-CO2": "2.146553469",
     "Consum-CH4": "0.000022525",
     "Consum-N2O": "0.000032208"
-  },
-  {
+}, {
     "Country": "Malaysia",
     "Generation-CO2": "0.748842440",
     "Generation-CH4": "0.000010999",
@@ -1066,8 +977,7 @@
     "Consum-CO2": "0.770701108",
     "Consum-CH4": "0.000011320",
     "Consum-N2O": "0.000006950"
-  },
-  {
+}, {
     "Country": "Malta",
     "Generation-CO2": "0.866166929",
     "Generation-CH4": "0.000033751",
@@ -1078,8 +988,7 @@
     "Consum-CO2": "1.003016387",
     "Consum-CH4": "0.000039083",
     "Consum-N2O": "0.000007817"
-  },
-  {
+}, {
     "Country": "Mexico",
     "Generation-CO2": "0.452483345",
     "Generation-CH4": "0.000010252",
@@ -1090,8 +999,7 @@
     "Consum-CO2": "0.548526273",
     "Consum-CH4": "0.000012428",
     "Consum-N2O": "0.000003216"
-  },
-  {
+}, {
     "Country": "Middle East",
     "Generation-CO2": "0.734833867",
     "Generation-CH4": "0.000019025",
@@ -1102,8 +1010,7 @@
     "Consum-CO2": "0.812802612",
     "Consum-CH4": "0.000021044",
     "Consum-N2O": "0.000004031"
-  },
-  {
+}, {
     "Country": "Moldova, Republic of",
     "Generation-CO2": "0.637194856",
     "Generation-CH4": "0.000011739",
@@ -1114,8 +1021,7 @@
     "Consum-CO2": "0.704803721",
     "Consum-CH4": "0.000012984",
     "Consum-N2O": "0.000001374"
-  },
-  {
+}, {
     "Country": "Mongolia",
     "Generation-CO2": "2.310868705",
     "Generation-CH4": "0.000024502",
@@ -1126,8 +1032,7 @@
     "Consum-CO2": "2.556060904",
     "Consum-CH4": "0.000027102",
     "Consum-N2O": "0.000038317"
-  },
-  {
+}, {
     "Country": "Morocco",
     "Generation-CO2": "0.731211458",
     "Generation-CH4": "0.000013019",
@@ -1138,8 +1043,7 @@
     "Consum-CO2": "0.808795850",
     "Consum-CH4": "0.000014400",
     "Consum-N2O": "0.000010455"
-  },
-  {
+}, {
     "Country": "Mozambique",
     "Generation-CO2": "0.000445032",
     "Generation-CH4": "0.000000008",
@@ -1150,8 +1054,7 @@
     "Consum-CO2": "0.000492252",
     "Consum-CH4": "0.000000009",
     "Consum-N2O": "0.000000001"
-  },
-  {
+}, {
     "Country": "Myanmar",
     "Generation-CO2": "0.315665174",
     "Generation-CH4": "0.000006224",
@@ -1162,8 +1065,7 @@
     "Consum-CO2": "0.349158482",
     "Consum-CH4": "0.000006885",
     "Consum-N2O": "0.000000807"
-  },
-  {
+}, {
     "Country": "Namibia",
     "Generation-CO2": "0.489803834",
     "Generation-CH4": "0.000005450",
@@ -1174,8 +1076,7 @@
     "Consum-CO2": "0.541773935",
     "Consum-CH4": "0.000006029",
     "Consum-N2O": "0.000008512"
-  },
-  {
+}, {
     "Country": "Nepal",
     "Generation-CO2": "0.003041790",
     "Generation-CH4": "0.000000118",
@@ -1186,8 +1087,7 @@
     "Consum-CO2": "0.003364536",
     "Consum-CH4": "0.000000130",
     "Consum-N2O": "0.000000026"
-  },
-  {
+}, {
     "Country": "Netherlands",
     "Generation-CO2": "0.413302564",
     "Generation-CH4": "0.000005536",
@@ -1198,8 +1098,7 @@
     "Consum-CO2": "0.444453808",
     "Consum-CH4": "0.000005954",
     "Consum-N2O": "0.000003086"
-  },
-  {
+}, {
     "Country": "Netherlands Antilles",
     "Generation-CO2": "0.717539130",
     "Generation-CH4": "0.000027812",
@@ -1210,8 +1109,7 @@
     "Consum-CO2": "0.793672836",
     "Consum-CH4": "0.000030763",
     "Consum-N2O": "0.000006153"
-  },
-  {
+}, {
     "Country": "New Zealand",
     "Generation-CO2": "0.197695588",
     "Generation-CH4": "0.000002763",
@@ -1222,8 +1120,7 @@
     "Consum-CO2": "0.213999900",
     "Consum-CH4": "0.000002991",
     "Consum-N2O": "0.000001605"
-  },
-  {
+}, {
     "Country": "Nicaragua",
     "Generation-CO2": "0.472119274",
     "Generation-CH4": "0.000018338",
@@ -1234,8 +1131,7 @@
     "Consum-CO2": "0.522212974",
     "Consum-CH4": "0.000020284",
     "Consum-N2O": "0.000004057"
-  },
-  {
+}, {
     "Country": "Nigeria",
     "Generation-CO2": "0.439631360",
     "Generation-CH4": "0.000010088",
@@ -1246,8 +1142,7 @@
     "Consum-CO2": "0.486277966",
     "Consum-CH4": "0.000011159",
     "Consum-N2O": "0.000001569"
-  },
-  {
+}, {
     "Country": "Non-OECD Europe",
     "Generation-CO2": "1.111009897",
     "Generation-CH4": "0.000012746",
@@ -1258,8 +1153,7 @@
     "Consum-CO2": "1.313761919",
     "Consum-CH4": "0.000015072",
     "Consum-N2O": "0.000018836"
-  },
-  {
+}, {
     "Country": "Non-OECD Total",
     "Generation-CO2": "0.777401484",
     "Generation-CH4": "0.000010689",
@@ -1270,8 +1164,7 @@
     "Consum-CO2": "0.859886819",
     "Consum-CH4": "0.000011824",
     "Consum-N2O": "0.000011113"
-  },
-  {
+}, {
     "Country": "Norway",
     "Generation-CO2": "0.002240278",
     "Generation-CH4": "0.000000027",
@@ -1282,8 +1175,7 @@
     "Consum-CO2": "0.002455289",
     "Consum-CH4": "0.000000029",
     "Consum-N2O": "0.000000007"
-  },
-  {
+}, {
     "Country": "OECD Europe",
     "Generation-CO2": "0.451706369",
     "Generation-CH4": "0.000005670",
@@ -1294,8 +1186,7 @@
     "Consum-CO2": "0.499634180",
     "Consum-CH4": "0.000006271",
     "Consum-N2O": "0.000005845"
-  },
-  {
+}, {
     "Country": "OECD North America",
     "Generation-CO2": "0.497137859",
     "Generation-CH4": "0.000006204",
@@ -1306,8 +1197,7 @@
     "Consum-CO2": "0.549886128",
     "Consum-CH4": "0.000006862",
     "Consum-N2O": "0.000007097"
-  },
-  {
+}, {
     "Country": "OECD Pacific",
     "Generation-CO2": "0.529481475",
     "Generation-CH4": "0.000007354",
@@ -1318,8 +1208,7 @@
     "Consum-CO2": "0.585661528",
     "Consum-CH4": "0.000008134",
     "Consum-N2O": "0.000006435"
-  },
-  {
+}, {
     "Country": "Oman",
     "Generation-CO2": "0.936492030",
     "Generation-CH4": "0.000021015",
@@ -1330,8 +1219,7 @@
     "Consum-CO2": "1.035857493",
     "Consum-CH4": "0.000023245",
     "Consum-N2O": "0.000003179"
-  },
-  {
+}, {
     "Country": "Pakistan",
     "Generation-CO2": "0.473378547",
     "Generation-CH4": "0.000013837",
@@ -1342,8 +1230,7 @@
     "Consum-CO2": "0.615374995",
     "Consum-CH4": "0.000017987",
     "Consum-N2O": "0.000003160"
-  },
-  {
+}, {
     "Country": "Panama",
     "Generation-CO2": "0.276797888",
     "Generation-CH4": "0.000010827",
@@ -1354,8 +1241,7 @@
     "Consum-CO2": "0.306167226",
     "Consum-CH4": "0.000011976",
     "Consum-N2O": "0.000002395"
-  },
-  {
+}, {
     "Country": "Paraguay",
     "Generation-CO2": "0.000000000",
     "Generation-CH4": "0.000000000",
@@ -1366,8 +1252,7 @@
     "Consum-CO2": "0.000000000",
     "Consum-CH4": "0.000000000",
     "Consum-N2O": "0.000000000"
-  },
-  {
+}, {
     "Country": "Peru",
     "Generation-CO2": "0.237721212",
     "Generation-CH4": "0.000005400",
@@ -1378,8 +1263,7 @@
     "Consum-CO2": "0.262944361",
     "Consum-CH4": "0.000005973",
     "Consum-N2O": "0.000001314"
-  },
-  {
+}, {
     "Country": "Philippines",
     "Generation-CO2": "0.526733850",
     "Generation-CH4": "0.000008096",
@@ -1390,8 +1274,7 @@
     "Consum-CO2": "0.608901610",
     "Consum-CH4": "0.000009359",
     "Consum-N2O": "0.000007125"
-  },
-  {
+}, {
     "Country": "Poland",
     "Generation-CO2": "1.196125502",
     "Generation-CH4": "0.000012521",
@@ -1402,8 +1285,7 @@
     "Consum-CO2": "1.279765701",
     "Consum-CH4": "0.000013397",
     "Consum-N2O": "0.000019265"
-  },
-  {
+}, {
     "Country": "Portugal",
     "Generation-CO2": "0.400151316",
     "Generation-CH4": "0.000006695",
@@ -1414,8 +1296,7 @@
     "Consum-CO2": "0.430704857",
     "Consum-CH4": "0.000007206",
     "Consum-N2O": "0.000004353"
-  },
-  {
+}, {
     "Country": "Qatar",
     "Generation-CO2": "0.596345388",
     "Generation-CH4": "0.000010630",
@@ -1426,8 +1307,7 @@
     "Consum-CO2": "0.659619964",
     "Consum-CH4": "0.000011758",
     "Consum-N2O": "0.000001176"
-  },
-  {
+}, {
     "Country": "Romania",
     "Generation-CO2": "1.069422796",
     "Generation-CH4": "0.000011711",
@@ -1438,8 +1318,7 @@
     "Consum-CO2": "1.285856628",
     "Consum-CH4": "0.000014081",
     "Consum-N2O": "0.000017805"
-  },
-  {
+}, {
     "Country": "Russian Federation",
     "Generation-CO2": "0.513180381",
     "Generation-CH4": "0.000007404",
@@ -1450,8 +1329,7 @@
     "Consum-CO2": "0.562633284",
     "Consum-CH4": "0.000008118",
     "Consum-N2O": "0.000004525"
-  },
-  {
+}, {
     "Country": "Saudi Arabia",
     "Generation-CO2": "0.795591395",
     "Generation-CH4": "0.000023755",
@@ -1462,8 +1340,7 @@
     "Consum-CO2": "0.877366485",
     "Consum-CH4": "0.000026196",
     "Consum-N2O": "0.000004517"
-  },
-  {
+}, {
     "Country": "Senegal",
     "Generation-CO2": "0.598259400",
     "Generation-CH4": "0.000023180",
@@ -1474,8 +1351,7 @@
     "Consum-CO2": "0.661737060",
     "Consum-CH4": "0.000025640",
     "Consum-N2O": "0.000005108"
-  },
-  {
+}, {
     "Country": "Serbia",
     "Generation-CO2": "1.548567819",
     "Generation-CH4": "0.000015744",
@@ -1486,8 +1362,7 @@
     "Consum-CO2": "1.712876916",
     "Consum-CH4": "0.000017414",
     "Consum-N2O": "0.000025776"
-  },
-  {
+}, {
     "Country": "Singapore",
     "Generation-CO2": "0.579045950",
     "Generation-CH4": "0.000013284",
@@ -1498,8 +1373,7 @@
     "Consum-CO2": "0.614543486",
     "Consum-CH4": "0.000014099",
     "Consum-N2O": "0.000001992"
-  },
-  {
+}, {
     "Country": "Slovak Republic",
     "Generation-CO2": "0.282995496",
     "Generation-CH4": "0.000003222",
@@ -1510,8 +1384,7 @@
     "Consum-CO2": "0.307807456",
     "Consum-CH4": "0.000003504",
     "Consum-N2O": "0.000004103"
-  },
-  {
+}, {
     "Country": "Slovenia",
     "Generation-CO2": "0.578399475",
     "Generation-CH4": "0.000005939",
@@ -1522,8 +1395,7 @@
     "Consum-CO2": "0.626100978",
     "Consum-CH4": "0.000006429",
     "Consum-N2O": "0.000009331"
-  },
-  {
+}, {
     "Country": "South Africa",
     "Generation-CO2": "1.069026617",
     "Generation-CH4": "0.000011313",
@@ -1534,8 +1406,7 @@
     "Consum-CO2": "1.182936289",
     "Consum-CH4": "0.000012519",
     "Consum-N2O": "0.000018753"
-  },
-  {
+}, {
     "Country": "South Asia",
     "Generation-CO2": "1.213800412",
     "Generation-CH4": "0.000015209",
@@ -1546,8 +1417,7 @@
     "Consum-CO2": "1.342589378",
     "Consum-CH4": "0.000016823",
     "Consum-N2O": "0.000019420"
-  },
-  {
+}, {
     "Country": "Southeast Asia/ASEAN",
     "Generation-CO2": "0.627076088",
     "Generation-CH4": "0.000010796",
@@ -1558,8 +1428,7 @@
     "Consum-CO2": "0.693611311",
     "Consum-CH4": "0.000011942",
     "Consum-N2O": "0.000006275"
-  },
-  {
+}, {
     "Country": "Spain",
     "Generation-CO2": "0.342875090",
     "Generation-CH4": "0.000005535",
@@ -1570,8 +1439,7 @@
     "Consum-CO2": "0.369240882",
     "Consum-CH4": "0.000005960",
     "Consum-N2O": "0.000003311"
-  },
-  {
+}, {
     "Country": "Sri Lanka",
     "Generation-CO2": "0.417247633",
     "Generation-CH4": "0.000016441",
@@ -1582,8 +1450,7 @@
     "Consum-CO2": "0.461519237",
     "Consum-CH4": "0.000018185",
     "Consum-N2O": "0.000003637"
-  },
-  {
+}, {
     "Country": "Sudan",
     "Generation-CO2": "0.614906086",
     "Generation-CH4": "0.000024361",
@@ -1594,8 +1461,7 @@
     "Consum-CO2": "0.680150024",
     "Consum-CH4": "0.000026946",
     "Consum-N2O": "0.000005389"
-  },
-  {
+}, {
     "Country": "Sweden",
     "Generation-CO2": "0.023033883",
     "Generation-CH4": "0.000000257",
@@ -1606,8 +1472,7 @@
     "Consum-CO2": "0.024681374",
     "Consum-CH4": "0.000000275",
     "Consum-N2O": "0.000000149"
-  },
-  {
+}, {
     "Country": "Switzerland",
     "Generation-CO2": "0.003177437",
     "Generation-CH4": "0.000000070",
@@ -1618,8 +1483,7 @@
     "Consum-CO2": "0.003415607",
     "Consum-CH4": "0.000000075",
     "Consum-N2O": "0.000000010"
-  },
-  {
+}, {
     "Country": "Syrian Arab Republic",
     "Generation-CO2": "0.639109712",
     "Generation-CH4": "0.000020840",
@@ -1630,8 +1494,7 @@
     "Consum-CO2": "0.706921750",
     "Consum-CH4": "0.000023052",
     "Consum-N2O": "0.000004236"
-  },
-  {
+}, {
     "Country": "Tajikistan",
     "Generation-CO2": "0.023245211",
     "Generation-CH4": "0.000000414",
@@ -1642,8 +1505,7 @@
     "Consum-CO2": "0.025711618",
     "Consum-CH4": "0.000000458",
     "Consum-N2O": "0.000000046"
-  },
-  {
+}, {
     "Country": "Tanzania, United Republic of",
     "Generation-CO2": "0.266757050",
     "Generation-CH4": "0.000004712",
@@ -1654,8 +1516,7 @@
     "Consum-CO2": "0.295061016",
     "Consum-CH4": "0.000005212",
     "Consum-N2O": "0.000001056"
-  },
-  {
+}, {
     "Country": "Thailand",
     "Generation-CO2": "0.626742612",
     "Generation-CH4": "0.000009342",
@@ -1666,8 +1527,7 @@
     "Consum-CO2": "0.676651164",
     "Consum-CH4": "0.000010086",
     "Consum-N2O": "0.000005111"
-  },
-  {
+}, {
     "Country": "Togo",
     "Generation-CO2": "0.207239024",
     "Generation-CH4": "0.000008390",
@@ -1678,8 +1538,7 @@
     "Consum-CO2": "0.229227895",
     "Consum-CH4": "0.000009280",
     "Consum-N2O": "0.000001856"
-  },
-  {
+}, {
     "Country": "Trinidad and Tobago",
     "Generation-CO2": "0.766677522",
     "Generation-CH4": "0.000013749",
@@ -1690,8 +1549,7 @@
     "Consum-CO2": "0.848025002",
     "Consum-CH4": "0.000015207",
     "Consum-N2O": "0.000001537"
-  },
-  {
+}, {
     "Country": "Tunisia",
     "Generation-CO2": "0.572169413",
     "Generation-CH4": "0.000012093",
@@ -1702,8 +1560,7 @@
     "Consum-CO2": "0.632878823",
     "Consum-CH4": "0.000013376",
     "Consum-N2O": "0.000001726"
-  },
-  {
+}, {
     "Country": "Turkey",
     "Generation-CO2": "0.865664547",
     "Generation-CH4": "0.000011073",
@@ -1714,8 +1571,7 @@
     "Consum-CO2": "1.009750241",
     "Consum-CH4": "0.000012916",
     "Consum-N2O": "0.000011560"
-  },
-  {
+}, {
     "Country": "Turkmenistan",
     "Generation-CO2": "0.644672553",
     "Generation-CH4": "0.000011491",
@@ -1726,8 +1582,7 @@
     "Consum-CO2": "0.713074830",
     "Consum-CH4": "0.000012711",
     "Consum-N2O": "0.000001271"
-  },
-  {
+}, {
     "Country": "Ukraine",
     "Generation-CO2": "0.563132930",
     "Generation-CH4": "0.000006273",
@@ -1738,8 +1593,7 @@
     "Consum-CO2": "0.707841420",
     "Consum-CH4": "0.000007885",
     "Consum-N2O": "0.000009089"
-  },
-  {
+}, {
     "Country": "United Arab Emirates",
     "Generation-CO2": "0.938297499",
     "Generation-CH4": "0.000017186",
@@ -1750,8 +1604,7 @@
     "Consum-CO2": "1.037854530",
     "Consum-CH4": "0.000019009",
     "Consum-N2O": "0.000001992"
-  },
-  {
+}, {
     "Country": "United Kingdom",
     "Generation-CO2": "0.508501975",
     "Generation-CH4": "0.000006754",
@@ -1762,8 +1615,7 @@
     "Consum-CO2": "0.548402315",
     "Consum-CH4": "0.000007284",
     "Consum-N2O": "0.000005523"
-  },
-  {
+}, {
     "Country": "United States",
     "Generation-CO2": "0.547096737",
     "Generation-CH4": "0.000006553",
@@ -1774,8 +1626,7 @@
     "Consum-CO2": "0.586666503",
     "Consum-CH4": "0.000007027",
     "Consum-N2O": "0.000007765"
-  },
-  {
+}, {
     "Country": "Uruguay",
     "Generation-CO2": "0.303713979",
     "Generation-CH4": "0.000012079",
@@ -1786,8 +1637,7 @@
     "Consum-CO2": "0.335939219",
     "Consum-CH4": "0.000013360",
     "Consum-N2O": "0.000002671"
-  },
-  {
+}, {
     "Country": "Uzbekistan",
     "Generation-CO2": "0.567432849",
     "Generation-CH4": "0.000009881",
@@ -1798,8 +1648,7 @@
     "Consum-CO2": "0.627639691",
     "Consum-CH4": "0.000010929",
     "Consum-N2O": "0.000002586"
-  },
-  {
+}, {
     "Country": "Venezuela",
     "Generation-CO2": "0.208069719",
     "Generation-CH4": "0.000006026",
@@ -1810,8 +1659,7 @@
     "Consum-CO2": "0.230146730",
     "Consum-CH4": "0.000006665",
     "Consum-N2O": "0.000001131"
-  },
-  {
+}, {
     "Country": "Vietnam",
     "Generation-CO2": "0.466848028",
     "Generation-CH4": "0.000007053",
@@ -1822,8 +1670,7 @@
     "Consum-CO2": "0.516382428",
     "Consum-CH4": "0.000007802",
     "Consum-N2O": "0.000004649"
-  },
-  {
+}, {
     "Country": "World",
     "Generation-CO2": "0.623537453",
     "Generation-CH4": "0.000008318",
@@ -1834,8 +1681,7 @@
     "Consum-CO2": "0.689697213",
     "Consum-CH4": "0.000009201",
     "Consum-N2O": "0.000008699"
-  },
-  {
+}, {
     "Country": "Yemen",
     "Generation-CO2": "0.644106104",
     "Generation-CH4": "0.000025248",
@@ -1846,8 +1692,7 @@
     "Consum-CO2": "0.712448279",
     "Consum-CH4": "0.000027927",
     "Consum-N2O": "0.000005585"
-  },
-  {
+}, {
     "Country": "Zambia",
     "Generation-CO2": "0.003197305",
     "Generation-CH4": "0.000000123",
@@ -1858,8 +1703,7 @@
     "Consum-CO2": "0.003536552",
     "Consum-CH4": "0.000000136",
     "Consum-N2O": "0.000000031"
-  },
-  {
+}, {
     "Country": "Zimbabwe",
     "Generation-CO2": "0.600377947",
     "Generation-CH4": "0.000006442",
@@ -1870,8 +1714,7 @@
     "Consum-CO2": "0.664080394",
     "Consum-CH4": "0.000007125",
     "Consum-N2O": "0.000010502"
-  },
-  {
+}, {
     "Country": "Default",
     "Generation-CO2": "0.668072134",
     "Generation-CH4": "0.000009089",
@@ -1882,5 +1725,4 @@
     "Consum-CO2": "0.752534108",
     "Consum-CH4": "0.00001027",
     "Consum-N2O": "0.00001015"
-  }
-]
+}]

@@ -38,10 +38,14 @@ export default class Structured extends Component {
         })
         if (typeof submitted != 'number') {
             const element = schemaArray[this.state.step];
+            console.log(this.state.email);
+            const { email } = this.state;
+            console.log(element, formData);
+            
             axios.post('/suggestedData', {
                 title: element.title,
                 data: formData,
-                useremail: this.state.email
+                useremail: email
             });
             this.setState({ redirect: true });
         }
@@ -68,7 +72,7 @@ export default class Structured extends Component {
             <Grid centered textAlign="left">
                 <Grid.Row>
 
-                    <Grid.Column width={3}>
+                    <Grid.Column width={3}>        
                         <ProfilePicture
                             profilePicture={this.state.profilePicture}
                             nickname={this.state.nickname}

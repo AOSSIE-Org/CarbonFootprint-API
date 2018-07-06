@@ -12,6 +12,7 @@ const suggestedDataModel = new Schema({
         required: true,
         enum: ['Accepted', 'Pending', 'Rejected']
     }
+
 })
 
 module.exports =  mongoose.model('suggestedData', suggestedDataModel);

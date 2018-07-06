@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { Button, Grid, Segment, Divider, List } from 'semantic-ui-react';
+import axios from 'axios';
 import ProfileSettings from '../Profile/ProfileSettings';
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
-import axios from 'axios';
 import { Redirect } from 'react-router-dom';
+import { Button, Grid, Segment, Divider, List } from 'semantic-ui-react';
 
 /* Extended react.Component class as Profile */
 
@@ -42,7 +42,7 @@ export default class DataVerify extends Component {
         window.location.reload();
     }
 
-    componentDidMount() {
+    componentWillMount() {
         this.props.auth.getProfile((err, profile) => {
             if (!err) {
                 this.setState({
@@ -62,7 +62,7 @@ export default class DataVerify extends Component {
     }
     render() {
         const { data } = this.state;
-
+    
         return (
             <Grid centered textAlign="left">
                 <Grid.Row>
