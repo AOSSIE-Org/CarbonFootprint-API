@@ -4,12 +4,17 @@ import ProfileSettings from '../Profile/ProfileSettings';
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Redirect } from 'react-router-dom';
 import { Button, Grid, Segment, Divider, List, Card } from 'semantic-ui-react';
 =======
 import axios from 'axios';
 import { Redirect } from 'react-router-dom';
 >>>>>>> 155bd2d... Updated Data Upload page (for suggesting data) and Data verify page (for verifying the suggested data)
+=======
+import { Redirect } from 'react-router-dom';
+import { Button, Grid, Segment, Divider, List } from 'semantic-ui-react';
+>>>>>>> 676c449... Restructured backend to save the approved suggested data directly into the respective raw_data files
 
 /* Extended react.Component class as DataVerify */
 
@@ -70,6 +75,7 @@ export default class DataVerify extends Component {
 >>>>>>> 155bd2d... Updated Data Upload page (for suggesting data) and Data verify page (for verifying the suggested data)
     }
 
+<<<<<<< HEAD
     /**
    * Inherited function from react.Component.
    * This method is invoked immediately after a component is mounted
@@ -77,6 +83,11 @@ export default class DataVerify extends Component {
     componentDidMount() {
         this.props.auth.getProfile()
             .then((profile) => {
+=======
+    componentWillMount() {
+        this.props.auth.getProfile((err, profile) => {
+            if (!err) {
+>>>>>>> 676c449... Restructured backend to save the approved suggested data directly into the respective raw_data files
                 this.setState({
                     profile: profile,
                     profilePicture: profile.picture,
