@@ -26,7 +26,7 @@ export default class ExplorerQuery extends Component {
    * @param nextProps the next Props received from Parent
    */
   componentWillReceiveProps(nextProps){
-    if(nextProps.query && nextProps.query.length>0) {
+    if(nextProps.query && nextProps.query!=`""`) {
       this.setState({
         query: nextProps.query,
         data: JSON.parse(nextProps.query)
@@ -63,7 +63,6 @@ export default class ExplorerQuery extends Component {
    * Inherited function from react.Component to render to DOM object into html
    */
   render() {
-    let updatedQuery = this.props.query || this.state.query;
     return (
         <Segment style={styles.body}>
           {this.state.error &&
@@ -98,4 +97,3 @@ const styles = {
     border: 'none'
   }
 };
-

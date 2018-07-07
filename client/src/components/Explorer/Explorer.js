@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { Grid, Button } from 'semantic-ui-react';
+import { Grid, Button, Modal } from 'semantic-ui-react';
 import ExplorerRequest from './ExplorerRequest';
 import ExplorerQuery from './ExplorerQuery';
 import ExplorerResponse from './ExplorerResponse';
 import ExplorerParams from './ExplorerParams';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import SnippetModal from './SnippetModal';
 
 /* Extended react.Component class as Explorer */

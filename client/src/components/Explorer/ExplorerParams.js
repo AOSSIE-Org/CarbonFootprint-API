@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Segment, Checkbox } from 'semantic-ui-react';
 
+/* Extended react.Component class as ExplorerParams */
 export default class ExplorerParams extends Component {
 
   /**
