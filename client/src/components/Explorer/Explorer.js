@@ -5,7 +5,9 @@ import ExplorerQuery from './ExplorerQuery';
 import ExplorerResponse from './ExplorerResponse';
 import ExplorerParams from './ExplorerParams';
 import {Link} from 'react-router-dom';
+import SnippetModal from './SnippetModal';
 
+/* Extended react.Component class as Explorer */
 export default class Explorer extends Component {
 
   /**
@@ -103,11 +105,16 @@ export default class Explorer extends Component {
           </Grid>
           <br />
           <div style={styles.div}>
-            <Button
-                content='</> Get Code'
-                style={styles.button}
-                onClick={this.getCode}
-            />
+            <Modal trigger={<Button style={styles.button}> Get Code </Button>} closeIcon>
+              <Modal.Header>Generate Code</Modal.Header>
+              <Modal.Content>
+                <SnippetModal
+                    url={this.state.url}
+                    method={this.state.method}
+                    query={JSON.stringify(this.state.query)}
+                />
+              </Modal.Content>
+            </Modal>
             <Link to='https://app.getpostman.com/run-collection/9f30a9efdc0b87ca59af' target="_blank">
               <Button
                   content='Run in Postman'

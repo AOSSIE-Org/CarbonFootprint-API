@@ -15,6 +15,7 @@ import _ from 'lodash';
 
 const BASE_URL = (process.env.NODE_ENV == 'production') ? 'https://carbonhub.xyz/v1/' : 'http://localhost:3080/v1/';
 
+/* Extended react.Component class as ExplorerRequest */
 export default class ExplorerRequest extends Component {
 
   /**
