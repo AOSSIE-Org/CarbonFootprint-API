@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
 // get the emission controller
-const { calculate, reverseFind } = require('../controllers/emissionController');
+const { calculate } = require('../controllers/emissionController');
+const { reverseFind } = require('../controllers/reverseLookupController');
 // get the helper functions
 const { getDistanceFromLatLon, distance } = require('../controllers/helperFunctions');
 
