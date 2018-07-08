@@ -53,6 +53,31 @@ export default class DataVerify extends Component {
             });
     }
 
+    componentWillMount() {
+        
+    }
+
+    componentDidMount() {
+        this.props.auth.getProfile()
+            .then((profile) => {
+                this.setState({
+                    profile: profile,
+                    profilePicture: profile.picture,
+                    nickname: profile.nickname,
+                    email: profile.email,
+                    userid: profile.sub,
+                    given_name: profile.given_name,
+                    family_name: profile.family_name
+                });
+            })
+            .catch((err) => {
+                console.log(err);
+            });
+            axios.get('/suggestedData/fetchData').then(response => {
+                this.setState({ data: response.data });
+            });
+    }
+
     handleApprove(id) {
         axios.post('/suggestedData/approveData', { data_id: id });
         window.location.reload();
