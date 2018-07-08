@@ -1,0 +1,6050 @@
+[
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Afghanistan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "61"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Afghanistan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "157.76"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Afghanistan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Albania",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "865.98"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Albania",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "534.51"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Albania",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2.46"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Algeria",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "57519"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Algeria",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "10070.82"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Algeria",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "American Samoa",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "American Samoa",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "16.3191"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "American Samoa",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Angola",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "9181"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Angola",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "655.18"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Angola",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Anguilla",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Anguilla",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Anguilla",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Antigua and Barbuda",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "146.7"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Antigua and Barbuda",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "64.349"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Antigua and Barbuda",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Argentina",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "88721"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Argentina",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "8889.97"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Argentina",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Armenia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1563"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Armenia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "549.3678"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Armenia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Aruba",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Aruba",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "56.5175"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Aruba",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Australia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "311062"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Australia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "17694.94"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Australia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "15.9"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Austria",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "36671"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Austria",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "6591.44"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Austria",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "4.18"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Azerbaijan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "15859"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Azerbaijan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1221.59"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Azerbaijan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bahamas",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1971.0003"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bahamas",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "434.476"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bahamas",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bahrain",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "21474.2"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bahrain",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2416.2774"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bahrain",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bangladesh",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "27803.247"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bangladesh",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3888.03"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bangladesh",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Barbados",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "559.7001"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Barbados",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "147.097"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Barbados",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Belarus",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "40726.12"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Belarus",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "4608.71"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Belarus",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Belgium",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "53679"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Belgium",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "9961.54"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Belgium",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "151"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Belize",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "238.0001"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Belize",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2.892"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Belize",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Benin",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "256.5"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Benin",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "741.757"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Benin",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bermuda",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "263"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bermuda",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "4.5028"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bermuda",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bhutan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "46.4"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bhutan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "204.1753"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bhutan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bolivia (Plurinational State of)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "6646.7"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bolivia (Plurinational State of)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "735.23"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bolivia (Plurinational State of)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bosnia and Herzegovina",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "20608.7"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bosnia and Herzegovina",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "921.03"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bosnia and Herzegovina",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3.5"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Botswana",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2760.0001"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Botswana",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "99.1838"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Botswana",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Brazil",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "180560"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Brazil",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "43037.3"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Brazil",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "237"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "British Virgin Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "29.84"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "British Virgin Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.212"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "British Virgin Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Brunei Darussalam",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "8132"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Brunei Darussalam",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "108.3942"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Brunei Darussalam",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1.57"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bulgaria",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "34905.0537"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bulgaria",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "4817.8"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Bulgaria",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Burkina Faso",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "210"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Burkina Faso",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "74.68"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Burkina Faso",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Burundi",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "70.3"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Burundi",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "125.408"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Burundi",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cabo Verde",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "24.47"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cabo Verde",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "4.508"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cabo Verde",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cambodia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "394"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cambodia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "15.535"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cambodia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "9.51"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cameroon",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2636"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cameroon",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1743.745"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cameroon",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Canada",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "263100"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Canada",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "27918.1"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Canada",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "175"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cayman Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "155.01"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cayman Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3.082"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cayman Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Central African Republic",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "43.2"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Central African Republic",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "187.001"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Central African Republic",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Chad",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "85.35"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Chad",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "27.86"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Chad",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Chile",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "47539.5"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Chile",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "5762.29"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Chile",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "China, Hong Kong SAR",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "39220"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "China, Hong Kong SAR",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "591.826"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "China, Hong Kong SAR",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "10.2"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "China, Macao SAR",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "834"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "China, Macao SAR",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2.3767"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "China, Macao SAR",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.753"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "China, mainland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "6455290"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "China, mainland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1132927.5"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "China, mainland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "897"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "China, Taiwan Province of",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "216100.0564"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "China, Taiwan Province of",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "13605.09"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "China, Taiwan Province of",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "24.9"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Colombia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "35512"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Colombia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "6348.678"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Colombia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Comoros",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "15.48"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Comoros",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "5.3423"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Comoros",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Congo",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2585.7"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Congo",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "12.601"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Congo",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cook Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "16.7"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cook Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cook Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Costa Rica",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1635.1012"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Costa Rica",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "640.208"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Costa Rica",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Côte d'Ivoire",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3028"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Côte d'Ivoire",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "424.19"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Côte d'Ivoire",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Croatia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "9446.28"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Croatia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3878.32"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Croatia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.0813"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cuba",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "35801"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cuba",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "989.26"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cuba",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cyprus",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "4525"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cyprus",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "892.65"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Cyprus",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Czechia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "86631.68"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Czechia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "5340.08"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Czechia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "492"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Democratic People's Republic of Korea",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "50209.9003"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Democratic People's Republic of Korea",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3913.81"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Democratic People's Republic of Korea",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "6.02"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Democratic Republic of the Congo",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1144.22"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Democratic Republic of the Congo",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "404.19"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Democratic Republic of the Congo",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Denmark",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "28138.8"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Denmark",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1904.948"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Denmark",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Djibouti",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1005"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Djibouti",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.6667"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Djibouti",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Dominica",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "36.94"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Dominica",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "7.1825"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Dominica",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Dominican Republic",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "11560.0031"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Dominican Republic",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1665.79"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Dominican Republic",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "10.9"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Ecuador",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "13619"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Ecuador",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1734.207"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Ecuador",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Egypt",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "109191.4"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Egypt",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "23631.86"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Egypt",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "El Salvador",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2500.901"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "El Salvador",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "550.011"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "El Salvador",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Equatorial Guinea",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2171.21"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Equatorial Guinea",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "576.7279"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Equatorial Guinea",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Eritrea",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "355.9"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Eritrea",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "39.1091"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Eritrea",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Estonia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "15759.6"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Estonia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "892.041"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Estonia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Ethiopia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1598.34"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Ethiopia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "909.1818"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Ethiopia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Falkland Islands (Malvinas)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "21.85"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Falkland Islands (Malvinas)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.2636"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Falkland Islands (Malvinas)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.0026"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Faroe Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Faroe Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Faroe Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1.88"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Fiji",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "288"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Fiji",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "89.8352"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Fiji",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Finland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "47225"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Finland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2174.57"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Finland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "France",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "132857"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "France",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "28266.2"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "France",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3240"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "French Guiana",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "492.0001"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "French Guiana",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "26.398"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "French Guiana",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.0825"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "French Polynesia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "275.6"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "French Polynesia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3.9993"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "French Polynesia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "French Southern and Antarctic Territories",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "French Southern and Antarctic Territories",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "French Southern and Antarctic Territories",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Gabon",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "4566.6"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Gabon",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "118.1322"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Gabon",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Gambia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "45.66"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Gambia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "5.9373"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Gambia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Georgia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1970.78"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Georgia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "621.18"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Georgia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Germany",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "470770"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Germany",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "40909.57"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Germany",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Ghana",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3978.1026"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Ghana",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "911.67"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Ghana",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Gibraltar",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "119"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Gibraltar",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.614"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Gibraltar",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.589"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Greece",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "52302.54"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Greece",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "8337.84"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Greece",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.918"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Greenland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Greenland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1.3886"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Greenland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.996"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Grenada",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "91.83"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Grenada",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1.1474"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Grenada",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Guadeloupe",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "636.6001"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Guadeloupe",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "106.6609"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Guadeloupe",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Guam",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Guam",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "11.567"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Guam",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Guatemala",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "4271.56"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Guatemala",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1299.85"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Guatemala",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Guinea",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "504"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Guinea",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "187.221"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Guinea",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Guinea-Bissau",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "107.2"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Guinea-Bissau",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "4.6984"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Guinea-Bissau",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Guyana",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "823.8001"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Guyana",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1.1445"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Guyana",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.119"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Haiti",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "764"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Haiti",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "222.241"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Haiti",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Honduras",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3690"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Honduras",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "767.514"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Honduras",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Hungary",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "23389.6"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Hungary",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "4131.9059"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Hungary",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "218"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Iceland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "521.54"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Iceland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2492.1776"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Iceland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "India",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1296650"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "India",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "135322.8"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "India",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Indonesia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "301580"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Indonesia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "28624.2"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Indonesia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "101"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Iran (Islamic Republic of)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "207888"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Iran (Islamic Republic of)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "37861.9"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Iran (Islamic Republic of)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Iraq",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "100520"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Iraq",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "13709.4"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Iraq",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Ireland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "17058.0042"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Ireland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2758.31"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Ireland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Israel",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "46083.7"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Israel",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2577"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Israel",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Italy",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "188101"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Italy",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "27915.8"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Italy",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "868"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Jamaica",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "5920.47"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Jamaica",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "439.6244"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Jamaica",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Japan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "761809"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Japan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "69267.7"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Japan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "24200"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Jordan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "11746.0086"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Jordan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1927.299"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Jordan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Kazakhstan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "142150"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Kazakhstan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "12322.39"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Kazakhstan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Kenya",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "4343.0017"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Kenya",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1732.28"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Kenya",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Kiribati",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2.361"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Kiribati",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.3675"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Kiribati",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Kuwait",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "70040"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Kuwait",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "4253.1135"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Kuwait",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Kyrgyzstan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3750.173"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Kyrgyzstan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "684.9577"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Kyrgyzstan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Lao People's Democratic Republic",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "204"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Lao People's Democratic Republic",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "199.78"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Lao People's Democratic Republic",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Latvia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3530"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Latvia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "412.664"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Latvia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.389"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Lebanon",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "9730"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Lebanon",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2231.307"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Lebanon",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Lesotho",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "42.8"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Lesotho",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "6.1064"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Lesotho",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Liberia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "187.8"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Liberia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "81.0624"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Liberia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Libya",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "37980"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Libya",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "5015.05"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Libya",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Lithuania",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "6140.66"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Lithuania",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3223.54"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Lithuania",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1.88"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Luxembourg",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3110"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Luxembourg",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "611.948"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Luxembourg",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Madagascar",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "506.0001"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Madagascar",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "157.04"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Madagascar",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Malawi",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "123.3"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Malawi",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "132.854"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Malawi",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Malaysia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "138090"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Malaysia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "16461.23"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Malaysia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "42.3"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Maldives",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "313"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Maldives",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1.0575"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Maldives",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mali",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "106.7"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mali",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "39.51"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mali",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Malta",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1090"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Malta",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "16.4518"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Malta",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Marshall Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Marshall Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Marshall Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Martinique",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1024.0001"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Martinique",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "102.4044"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Martinique",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mauritania",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1159.0001"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mauritania",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "149.751"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mauritania",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mauritius",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1324.0001"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mauritius",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "39.5888"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mauritius",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mayotte",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mayotte",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mayotte",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mexico",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "253610"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mexico",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "25266"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mexico",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Micronesia (Federated States of)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Micronesia (Federated States of)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Micronesia (Federated States of)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mongolia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "10049.232"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mongolia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "121.289"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mongolia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.789"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Montserrat",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "24.86"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Montserrat",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Montserrat",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Morocco",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "22337.0245"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Morocco",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "5041.77"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Morocco",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mozambique",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "468.8"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mozambique",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1213.24"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Mozambique",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Myanmar",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "5869"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Myanmar",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "468.08"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Myanmar",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Namibia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "274.28"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Namibia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "202.064"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Namibia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Nauru",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Nauru",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1.027"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Nauru",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Nepal",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1343.43"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Nepal",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "176.824"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Nepal",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Netherlands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "91005.5"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Netherlands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "12249.8"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Netherlands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Netherlands Antilles (former)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3286.0108"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Netherlands Antilles (former)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "90.2114"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Netherlands Antilles (former)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "New Caledonia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "656"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "New Caledonia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "83.1156"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "New Caledonia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "New Zealand",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "14153"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "New Zealand",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3051.07"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "New Zealand",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Nicaragua",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2414.1005"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Nicaragua",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "268.037"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Nicaragua",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Niger",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "321.6"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Niger",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "42.776"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Niger",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Nigeria",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "45210"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Nigeria",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2844.1"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Nigeria",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Niue",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Niue",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Niue",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Norfolk Island",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Norfolk Island",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Norfolk Island",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Northern Mariana Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Northern Mariana Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Northern Mariana Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Norway",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "19139"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Norway",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "6843.599"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Norway",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "485"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Oman",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "33630"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Oman",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1916.8631"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Oman",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Pakistan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "89171"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Pakistan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "14490.1"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Pakistan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Palau",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Palau",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Palau",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Panama",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "6540"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Panama",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "450.6469"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Panama",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Papua New Guinea",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2888"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Papua New Guinea",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "70.884"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Papua New Guinea",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.819"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Paraguay",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "150"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Paraguay",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "417.148"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Paraguay",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Peru",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "21855.6"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Peru",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3115.76"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Peru",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Philippines",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "46297.5"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Philippines",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "6785.29"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Philippines",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Pitcairn Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Pitcairn Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Pitcairn Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Poland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "206381.46"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Poland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "17015.1"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Poland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "157"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Portugal",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "21651.4"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Portugal",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "5251.11"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Portugal",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "235"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Puerto Rico",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3.97"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Puerto Rico",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "620.2612"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Puerto Rico",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Qatar",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "60100"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Qatar",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "4782.7637"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Qatar",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Republic of Korea",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "416260.0485"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Republic of Korea",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "26999.41"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Republic of Korea",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Republic of Moldova",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "4252.0502"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Republic of Moldova",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "460.431"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Republic of Moldova",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2.32"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Réunion",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "485.0001"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Réunion",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "182.5837"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Réunion",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Romania",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "48475"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Romania",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "10846.38"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Romania",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "59.9"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Russian Federation",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1188050"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Russian Federation",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "93559.3"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Russian Federation",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Rwanda",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "159.47"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Rwanda",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "57.014"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Rwanda",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Saint Helena, Ascension and Tristan da Cunha",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.0032"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Saint Helena, Ascension and Tristan da Cunha",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Saint Helena, Ascension and Tristan da Cunha",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Saint Kitts and Nevis",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "48.9"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Saint Kitts and Nevis",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.1833"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Saint Kitts and Nevis",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Saint Lucia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "175.8"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Saint Lucia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "28.9887"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Saint Lucia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Saint Pierre and Miquelon",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2.65"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Saint Pierre and Miquelon",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Saint Pierre and Miquelon",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.0349"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Saint Vincent and the Grenadines",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "89"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Saint Vincent and the Grenadines",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.4645"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Saint Vincent and the Grenadines",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Samoa",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "11.73"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Samoa",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.7155"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Samoa",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Sao Tome and Principe",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "20.54"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Sao Tome and Principe",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3.6943"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Sao Tome and Principe",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Saudi Arabia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "276620"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Saudi Arabia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "40437.806"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Saudi Arabia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Senegal",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3336.7002"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Senegal",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1474.22"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Senegal",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Seychelles",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "357.8"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Seychelles",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "24.8116"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Seychelles",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Sierra Leone",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "327"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Sierra Leone",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "122.116"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Sierra Leone",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Singapore",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "32391.068"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Singapore",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2903.662"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Singapore",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "160"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Slovakia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "22820.4"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Slovakia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "4193.999"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Slovakia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "66.2"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Slovenia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "8381.8"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Slovenia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2056.76"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Slovenia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Solomon Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "24.66"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Solomon Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "6.4357"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Solomon Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Somalia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "117.2"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Somalia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "16.524"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Somalia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "South Africa",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "262479.4"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "South Africa",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "16339.41"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "South Africa",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Spain",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "121254"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Spain",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "24292.3"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Spain",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "22"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Sri Lanka",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "5679.8009"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Sri Lanka",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "893.23"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Sri Lanka",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Sudan (former)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "4430.6"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Sudan (former)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "259.29"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Sudan (former)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Suriname",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "863.0005"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Suriname",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "31.6551"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Suriname",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.184"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Eswatini",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "336.7"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Eswatini",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3.2353"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Eswatini",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Sweden",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "22620.6"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Sweden",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "4337.947"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Sweden",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "35.2"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Switzerland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "8635.839"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Switzerland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2357.8"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Switzerland",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.0195"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Syrian Arab Republic",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "33870"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Syrian Arab Republic",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2639.41"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Syrian Arab Republic",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Tajikistan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "671.6317"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Tajikistan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "734.65"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Tajikistan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Thailand",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "146246"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Thailand",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "17957.73"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Thailand",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "72"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "The former Yugoslav Republic of Macedonia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "7570.0015"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "The former Yugoslav Republic of Macedonia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "611.97"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "The former Yugoslav Republic of Macedonia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "2.1"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Timor-Leste",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.003"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Timor-Leste",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1.5635"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Timor-Leste",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.121"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Togo",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "399.8"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Togo",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "367.019"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Togo",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Tokelau",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Tokelau",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Tokelau",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Tonga",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "14.2"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Tonga",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "6.0458"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Tonga",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Trinidad and Tobago",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "24188"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Trinidad and Tobago",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "15299.889"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Trinidad and Tobago",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Tunisia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "13569.2"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Tunisia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3630.95"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Tunisia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Turkey",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "157708.87"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Turkey",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "34237.86"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Turkey",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Turkmenistan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "25716.16"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Turkmenistan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1088.963"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Turkmenistan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Turks and Caicos Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Turks and Caicos Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Turks and Caicos Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Tuvalu",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Tuvalu",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.55"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Tuvalu",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Uganda",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "346.6001"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Uganda",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "349.824"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Uganda",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Ukraine",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "200938.4"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Ukraine",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "29735.3"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Ukraine",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "United Arab Emirates",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "146330"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "United Arab Emirates",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "9267.846"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "United Arab Emirates",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "United Kingdom",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "258720"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "United Kingdom",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "17186.9"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "United Kingdom",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "483"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "United Republic of Tanzania",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1079.6"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "United Republic of Tanzania",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "778.28"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "United Republic of Tanzania",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "United States of America",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "3106260"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "United States of America",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "148058.8"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "United States of America",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "United States Virgin Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "United States Virgin Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1.4863"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "United States Virgin Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Uruguay",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1464.0036"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Uruguay",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "285.753"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Uruguay",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Uzbekistan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "61530"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Uzbekistan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "5445.03"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Uzbekistan",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Vanuatu",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "12.82"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Vanuatu",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1.9542"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Vanuatu",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Venezuela (Bolivarian Republic of)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "116910"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Venezuela (Bolivarian Republic of)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "8807.32"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Venezuela (Bolivarian Republic of)",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Viet Nam",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "86026"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Viet Nam",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "22550.49"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Viet Nam",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Wallis and Futuna Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Wallis and Futuna Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Wallis and Futuna Islands",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Western Sahara",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "104.5"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Western Sahara",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0.4773"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Western Sahara",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Yemen",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "12265"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Yemen",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1474.8957"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Yemen",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Zambia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "745.6008"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Zambia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "422.151"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Zambia",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Zimbabwe",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "9019.3"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Zimbabwe",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "471.89"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "Zimbabwe",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "China",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Energy",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "6711444.0564"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "China",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Industry",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "1147126.7927"
+  },
+  {
+    "Domain": "Emissions by sector",
+    "Area": "China",
+    "Element": "Emissions (CO2eq) from CO2",
+    "Item": "Waste",
+    "Year": "2010",
+    "Unit": "gigagrams",
+    "Value": "932.853"
+  }
+]
