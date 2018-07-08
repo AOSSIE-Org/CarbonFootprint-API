@@ -6,12 +6,12 @@ import Sidebar from '../Profile/Sidebar';
 import { Redirect } from 'react-router-dom';
 import { Button, Grid, Segment, Divider, List, Card } from 'semantic-ui-react';
 
-/* Extended react.Component class as Profile */
+/* Extended react.Component class as DataVerify */
 
 export default class DataVerify extends Component {
 
     /**
-  * Constructor for the DataUpload class
+  * Constructor for the DataVerify class
   * @constructor extends react.Component
   */
 
@@ -53,10 +53,10 @@ export default class DataVerify extends Component {
             });
     }
 
-    componentWillMount() {
-        
-    }
-
+    /**
+   * Inherited function from react.Component.
+   * This method is invoked immediately after a component is mounted
+   */
     componentDidMount() {
         this.props.auth.getProfile()
             .then((profile) => {
@@ -78,16 +78,27 @@ export default class DataVerify extends Component {
             });
     }
 
+    /**
+   * Function to handle the approval of the data by calling /suggestedData/approveData route
+   * @param id database ID of the object for reference
+   */
     handleApprove(id) {
         axios.post('/suggestedData/approveData', { data_id: id });
         window.location.reload();
     }
 
+    /**
+   * Function to handle the rejection of the data 
+   * @param id database ID of the object for reference
+   */
     handleReject(id) {
         axios.post('/suggestedData/rejectData', { data_id: id });
         window.location.reload();
     }
 
+    /**
+   * Inherited function from react.Component to render to DOM object into html
+   */
     render() {
         const { data } = this.state;
     

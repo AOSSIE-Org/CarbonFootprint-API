@@ -7,9 +7,19 @@ import ProfileSettings from '../Profile/ProfileSettings';
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
 
+<<<<<<< HEAD
 const BASE_URL = (process.env.NODE_ENV == 'production') ? 'https://carbonhub.xyz/v1/' : 'http://localhost:3080/v1/';
 
+=======
+/* Extended react.Component class as Unstructured */
+>>>>>>> 0c2825a... Added a readme file providing a detailed usage of Data Upload page and added inline comments
 export default class Unstructured extends Component {
+
+    /**
+* Constructor for the Unstructured class
+* @constructor extends react.Component
+*/
+
     constructor(props) {
         super(props);
         this.state = {
@@ -26,6 +36,10 @@ export default class Unstructured extends Component {
         this.handleFileUpload = this.handleFileUpload.bind(this);
     }
 
+    /**
+   * Function to handle the upload of the file by calling /suggestedData/upload route
+   *  e is the synthetic event
+   */
     handleFileUpload(e) {
         e.preventDefault();
         const data = new FormData();
@@ -40,6 +54,10 @@ export default class Unstructured extends Component {
         this.setState({ redirect: true })
     };
 
+    /**
+   * Inherited function from react.Component.
+   * This method is invoked immediately after a component is mounted
+   */
     componentDidMount() {
         this.props.auth.getProfile()
         .then((profile) => {
@@ -58,6 +76,9 @@ export default class Unstructured extends Component {
         });
     }
 
+    /**
+   * Inherited function from react.Component to render to DOM object into html
+   */
     render() {
         return (
             <Grid centered textAlign="left">

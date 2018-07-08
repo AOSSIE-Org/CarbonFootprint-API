@@ -7,7 +7,7 @@ import Sidebar from '../Profile/Sidebar';
 import Structured from './Structured';
 import Unstructured from './Unstructured';
 
-/* Extended react.Component class as Profile */
+/* Extended react.Component class as DataUpload */
 
 export default class DataUpload extends Component {
 
@@ -29,18 +29,29 @@ export default class DataUpload extends Component {
     }
   }
 
+  /**
+   * Function to handle click of structured data or unstructured data
+   * @param compName name of the component
+   */
   handleClick(compName, e) {
     this.setState({ render: compName });
 
   }
 
-  _renderSubComp() {
-    switch (this.state.render) {
-      case 'structured': return <Redirect to="/structured" />
-      case 'unstructured': return <Redirect to="/unstructured" />
-    }
+  /**
+   * Function to render the respective component clicked
+   */
+  _renderSubComp(){
+      switch(this.state.render){
+        case 'structured' : return <Redirect to="/structured" />
+        case 'unstructured' : return <Redirect to="/unstructured" />
+      }
   }
 
+/**
+   * Inherited function from react.Component.
+   * This method is invoked immediately after a component is mounted
+   */
   componentDidMount() {
     this.props.auth.getProfile()
       .then((profile) => {
@@ -58,6 +69,10 @@ export default class DataUpload extends Component {
         console.log(err);
       });
   }
+
+  /**
+   * Inherited function from react.Component to render to DOM object into html
+   */
   render() {
     return (
       <Grid centered textAlign="left">

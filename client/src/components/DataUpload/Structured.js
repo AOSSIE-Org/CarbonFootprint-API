@@ -10,7 +10,15 @@ import schemaArray from './StructuredSchema';
 import { Redirect } from 'react-router-dom';
 import { json } from 'body-parser';
 
+/* Extended react.Component class as Structured */
+
 export default class Structured extends Component {
+
+      /**
+* Constructor for the DataUpload class
+* @constructor extends react.Component
+*/
+
     constructor(props) {
         super(props);
         this.state = {
@@ -27,6 +35,10 @@ export default class Structured extends Component {
         }
     }
 
+ /**
+   * Function to handle the submission of the form data
+   * @param formData form data submitted by users
+   */
     handleChange({ formData }) {
         const submitted = formData;
         this.setState({
@@ -55,6 +67,10 @@ export default class Structured extends Component {
         }
     }
 
+    /**
+   * Inherited function from react.Component.
+   * This method is invoked immediately after a component is mounted
+   */
     componentDidMount() {
         this.props.auth.getProfile()
         .then((profile) => {
@@ -73,6 +89,9 @@ export default class Structured extends Component {
         });
     }
 
+     /**
+   * Inherited function from react.Component to render to DOM object into html
+   */
     render() {
         return (
             <Grid centered textAlign="left">
