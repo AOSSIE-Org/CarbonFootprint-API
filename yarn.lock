@@ -5790,7 +5790,10 @@ readable-stream@^2.3.5:
     safe-buffer "~5.1.1"
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
+<<<<<<< HEAD
 >>>>>>> 6f8d70b... Added a readme file providing a detailed usage of Data Upload page and added inline comments
+=======
+>>>>>>> 0c2825a... Added a readme file providing a detailed usage of Data Upload page and added inline comments
 
 readable-stream@~2.0.5:
   version "2.0.6"

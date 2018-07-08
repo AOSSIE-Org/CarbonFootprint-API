@@ -69,6 +69,7 @@ export default class DataVerify extends Component {
         window.location.reload();
     }
 
+<<<<<<< HEAD
     handleReject(id) {
         axios.post('/suggestedData/rejectData', { data_id: id });
         window.location.reload();
@@ -76,6 +77,8 @@ export default class DataVerify extends Component {
     }
 
 <<<<<<< HEAD
+=======
+>>>>>>> 0c2825a... Added a readme file providing a detailed usage of Data Upload page and added inline comments
     /**
    * Inherited function from react.Component.
    * This method is invoked immediately after a component is mounted

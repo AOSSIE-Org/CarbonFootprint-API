@@ -85,6 +85,7 @@ export default class Structured extends Component {
      /**
    * Inherited function from react.Component to render to DOM object into html
    */
+<<<<<<< HEAD
     componentDidMount() {
         this.props.auth.getProfile((err, profile) => {
             if (!err) {
@@ -100,6 +101,8 @@ export default class Structured extends Component {
             }
         });
     }
+=======
+>>>>>>> 0c2825a... Added a readme file providing a detailed usage of Data Upload page and added inline comments
     render() {
         return (
             <Grid centered textAlign="left">
