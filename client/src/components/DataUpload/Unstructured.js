@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import { Redirect } from 'react-router-dom';
 import { Button, Grid, Segment, Divider, Form } from 'semantic-ui-react';
+import axios from 'axios'
 import ProfileSettings from '../Profile/ProfileSettings';
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
-import axios from 'axios'
 
 export default class Unstructured extends Component {
     constructor(props) {
@@ -17,7 +18,8 @@ export default class Unstructured extends Component {
             userid: '',
             given_name: '',
             family_name: '',
-            fileURL: ''
+            fileURL: '',
+            redirect: false
         }
         this.handleFileUpload = this.handleFileUpload.bind(this);
     }
@@ -27,29 +29,30 @@ export default class Unstructured extends Component {
         const data = new FormData();
         data.set('file', this.uploadInput.files[0]);
         data.set('filename', this.fileName.value);
-        console.log(Array.from(data.keys()));        
-        axios.post('suggestedData/upload',  data)
-        .then((response) => {
-            response.json().then((body) => {
-                this.setState({ fileURL: `http://localhost:3080/${body.file}` })
+        axios.post('suggestedData/upload', data)
+            .then((response) => {
+                response.json().then((body) => {
+                    this.setState({ fileURL: `http://localhost:3080/${body.file}` })
+                })
             })
-        })
-        window.location.reload();
+        this.setState({ redirect: true })
     };
 
     componentDidMount() {
-        this.props.auth.getProfile((err, profile) => {
-            if (!err) {
-                this.setState({
-                    profile: profile,
-                    profilePicture: profile.picture,
-                    nickname: profile.nickname,
-                    email: profile.email,
-                    userid: profile.sub,
-                    given_name: profile.given_name,
-                    family_name: profile.family_name
-                });
-            }
+        this.props.auth.getProfile()
+        .then((profile) => {
+            this.setState({
+                profile: profile,
+                profilePicture: profile.picture,
+                nickname: profile.nickname,
+                email: profile.email,
+                userid: profile.sub,
+                given_name:profile.given_name,
+                family_name:profile.family_name
+            });
+        })
+        .catch((err) => {
+            console.log(err);
         });
     }
 
@@ -71,6 +74,7 @@ export default class Unstructured extends Component {
 
                     <Grid.Column width={10}>
                         <Segment style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                            {this.state.redirect && <Redirect to='/DataUpload' />}
                             <Form onSubmit={this.handleFileUpload}>
                                 <Form.Field>
                                     <input ref={(ref) => { this.uploadInput = ref; }} type="file" />

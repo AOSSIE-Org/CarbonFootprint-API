@@ -3,9 +3,15 @@ const router = express.Router();
 const multer = require('multer');
 const suggestedData = require('../models/suggestedDataModel');
 const fs = require('fs');
-const path = require('path');
-const filePath = path.join(__dirname, '../raw_data')
-const upload = multer({ dest: 'suggested_data/' });
+const storage = multer.diskStorage({
+    destination: function (req, file, cb) {
+      cb(null, 'suggested_data/')
+    },
+    filename: function (req, file, cb) {
+      cb(null, file.fieldname + '-' + Date.now()+ '.' + file.originalname.split('.')[file.originalname.split('.').length -1]);
+    }
+  });
+  const upload = multer({ storage: storage });
 
 router.post('/', (req, res) => {
     console.log(req.body);
@@ -20,14 +26,13 @@ router.post('/', (req, res) => {
             console.log(err);
         } else {
             console.log("Successfully saved!");
-            console.log(data);
         }
     });
 });
 
 router.get('/fetchData', (req, res) => {
     suggestedData.find({}, function (err, fetch) {
-        console.log(fetch)
+        res.send(fetch)
     });
 });
 

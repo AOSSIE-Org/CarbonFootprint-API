@@ -30,20 +30,20 @@ export default class DataUpload extends Component {
   }
 
   handleClick(compName, e) {
-    this.setState({render: compName});
-    
+    this.setState({ render: compName });
+
   }
 
-  _renderSubComp(){
-      switch(this.state.render){
-        case 'structured' : return <Redirect to="/structured" />
-        case 'unstructured' : return <Redirect to="/unstructured" />
-      }
+  _renderSubComp() {
+    switch (this.state.render) {
+      case 'structured': return <Redirect to="/structured" />
+      case 'unstructured': return <Redirect to="/unstructured" />
+    }
   }
 
   componentDidMount() {
-    this.props.auth.getProfile((err, profile) => {
-      if (!err) {
+    this.props.auth.getProfile()
+      .then((profile) => {
         this.setState({
           profile: profile,
           profilePicture: profile.picture,
@@ -53,8 +53,10 @@ export default class DataUpload extends Component {
           given_name: profile.given_name,
           family_name: profile.family_name
         });
-      }
-    });
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   }
   render() {
     return (

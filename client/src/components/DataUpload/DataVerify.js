@@ -4,7 +4,7 @@ import ProfileSettings from '../Profile/ProfileSettings';
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
 import { Redirect } from 'react-router-dom';
-import { Button, Grid, Segment, Divider, List } from 'semantic-ui-react';
+import { Button, Grid, Segment, Divider, List, Card } from 'semantic-ui-react';
 
 /* Extended react.Component class as Profile */
 
@@ -31,6 +31,27 @@ export default class DataVerify extends Component {
         this.handleApprove = this.handleApprove.bind(this);
         this.handleReject = this.handleReject.bind(this);
     }
+    
+    componentDidMount() {
+        this.props.auth.getProfile()
+            .then((profile) => {
+                this.setState({
+                    profile: profile,
+                    profilePicture: profile.picture,
+                    nickname: profile.nickname,
+                    email: profile.email,
+                    userid: profile.sub,
+                    given_name: profile.given_name,
+                    family_name: profile.family_name
+                });
+            })
+            .catch((err) => {
+                console.log(err);
+            });
+            axios.get('/suggestedData/fetchData').then(response => {
+                this.setState({ data: response.data });
+            });
+    }
 
     handleApprove(id) {
         axios.post('/suggestedData/approveData', { data_id: id });
@@ -42,27 +63,9 @@ export default class DataVerify extends Component {
         window.location.reload();
     }
 
-    componentWillMount() {
-        this.props.auth.getProfile((err, profile) => {
-            if (!err) {
-                this.setState({
-                    profile: profile,
-                    profilePicture: profile.picture,
-                    nickname: profile.nickname,
-                    email: profile.email,
-                    userid: profile.sub,
-                    given_name: profile.given_name,
-                    family_name: profile.family_name
-                });
-            }
-        });
-        axios.get('/suggestedData/fetchData').then(response => {
-            this.setState({ data: response.data });
-        })
-    }
     render() {
         const { data } = this.state;
-    
+
         return (
             <Grid centered textAlign="left">
                 <Grid.Row>
@@ -81,11 +84,13 @@ export default class DataVerify extends Component {
                     <Grid.Column width={10}>
                         <Segment style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                             <List>
-                                {console.log(data)}
                                 {data.length ? data.map(d =>
                                     <List.Item key={d._id}>
                                         <List.Content>
-                                            <List.Header>{d.title}</List.Header>
+                                            {console.log(d)}
+                                            <List.Header>Suggestion from - {d.createdby}</List.Header>
+                                            <br />
+                                            <List.Header>Route - {d.title}</List.Header>
                                             <br />
                                             <table style={styles.table} >
                                                 {Object.keys(d.data).map(key => (
@@ -115,8 +120,8 @@ export default class DataVerify extends Component {
     }
 }
 const styles = {
-    td: { 
-        paddingLeft: '20px', 
-        paddingRight: '20px' 
+    td: {
+        paddingLeft: '20px',
+        paddingRight: '20px'
     }
 }

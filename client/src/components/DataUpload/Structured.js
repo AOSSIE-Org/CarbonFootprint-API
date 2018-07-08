@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Form from 'react-jsonschema-form';
 import { Button, Grid, Segment, Divider } from 'semantic-ui-react';
+import axios from 'axios';
 import ProfileSettings from '../Profile/ProfileSettings';
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
 import schemaArray from './StructuredSchema';
-import axios from 'axios';
 import { Redirect } from 'react-router-dom';
 import { json } from 'body-parser';
 
@@ -38,10 +38,7 @@ export default class Structured extends Component {
         })
         if (typeof submitted != 'number') {
             const element = schemaArray[this.state.step];
-            console.log(this.state.email);
-            const { email } = this.state;
-            console.log(element, formData);
-            
+            const { email } = this.state;            
             axios.post('/suggestedData', {
                 title: element.title,
                 data: formData,
@@ -52,18 +49,20 @@ export default class Structured extends Component {
     }
 
     componentDidMount() {
-        this.props.auth.getProfile((err, profile) => {
-            if (!err) {
-                this.setState({
-                    profile: profile,
-                    profilePicture: profile.picture,
-                    nickname: profile.nickname,
-                    email: profile.email,
-                    userid: profile.sub,
-                    given_name: profile.given_name,
-                    family_name: profile.family_name
-                });
-            }
+        this.props.auth.getProfile()
+        .then((profile) => {
+            this.setState({
+                profile: profile,
+                profilePicture: profile.picture,
+                nickname: profile.nickname,
+                email: profile.email,
+                userid: profile.sub,
+                given_name:profile.given_name,
+                family_name:profile.family_name
+            });
+        })
+        .catch((err) => {
+            console.log(err);
         });
     }
 

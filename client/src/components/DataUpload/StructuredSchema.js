@@ -66,39 +66,39 @@ const schemaArray = [
             },
             "Generation-CO2": {
                 "title": "Generation-CO2",
-                "type": "integer"
+                "type": "number"
             },
             "Generation-CH4": {
                 "title": "Generation-CH4",
-                "type": "integer"
+                "type": "number"
             },
             "Generation-N2O": {
                 "title": "Generation-N2O",
-                "type": "integer"
+                "type": "number"
             },
             "Td-CO2": {
                 "title": "Td-CO2",
-                "type": "integer"
+                "type": "number"
             },
             "Td-CH4": {
                 "title": "Td-CH4",
-                "type": "integer"
+                "type": "number"
             },
             "Td-N2O": {
                 "title": "Td-N2O",
-                "type": "integer"
+                "type": "number"
             },
             "Consum-CO2": {
                 "title": "Consum-CO2",
-                "type": "integer"
+                "type": "number"
             },
             "Consum-CH4": {
                 "title": "Consum-CH4",
-                "type": "integer"
+                "type": "number"
             },
             "Consum-N2O": {
                 "title": "Consum-CH4",
-                "type": "integer"
+                "type": "number"
             }
         }
     },
@@ -239,115 +239,115 @@ const schemaArray = [
         "properties": {
             "1990": {
                 "title": "Emission in 1990",
-                "type": "integer"
+                "type": "number"
             },
             "1991": {
                 "title": "Emission in 1991",
-                "type": "integer"
+                "type": "number"
             },
             "1992": {
                 "title": "Emission in 1992",
-                "type": "integer"
+                "type": "number"
             },
             "1993": {
                 "title": "Emission in 1993",
-                "type": "integer"
+                "type": "number"
             },
             "1994": {
                 "title": "Emission in 1994",
-                "type": "integer"
+                "type": "number"
             },
             "1995": {
                 "title": "Emission in 1995",
-                "type": "integer"
+                "type": "number"
             },
             "1996": {
                 "title": "Emission in 1996",
-                "type": "integer"
+                "type": "number"
             },
             "1997": {
                 "title": "Emission in 1997",
-                "type": "integer"
+                "type": "number"
             },
             "1998": {
                 "title": "Emission in 1998",
-                "type": "integer"
+                "type": "number"
             },
             "1999": {
                 "title": "Emission in 1999",
-                "type": "integer"
+                "type": "number"
             },
             "2000": {
                 "title": "Emission in 2000",
-                "type": "integer"
+                "type": "number"
             },
             "2001": {
                 "title": "Emission in 2001",
-                "type": "integer"
+                "type": "number"
             },
             "2002": {
                 "title": "Emission in 2002",
-                "type": "integer"
+                "type": "number"
             },
             "2003": {
                 "title": "Emission in 2003",
-                "type": "integer"
+                "type": "number"
             },
             "2004": {
                 "title": "Emission in 2004",
-                "type": "integer"
+                "type": "number"
             },
             "2005": {
                 "title": "Emission in 2005",
-                "type": "integer"
+                "type": "number"
             },
             "2006": {
                 "title": "Emission in 2006",
-                "type": "integer"
+                "type": "number"
             },
             "2007": {
                 "title": "Emission in 2007",
-                "type": "integer"
+                "type": "number"
             },
             "2008": {
                 "title": "Emission in 2008",
-                "type": "integer"
+                "type": "number"
             },
             "2009": {
                 "title": "Emission in 2009",
-                "type": "integer"
+                "type": "number"
             },
             "2010": {
                 "title": "Emission in 2010",
-                "type": "integer"
+                "type": "number"
             },
             "2011": {
                 "title": "Emission in 2011",
-                "type": "integer"
+                "type": "number"
             },
             "2012": {
                 "title": "Emission in 2012",
-                "type": "integer"
+                "type": "number"
             },
             "2013": {
                 "title": "Emission in 2013",
-                "type": "integer"
+                "type": "number"
             },
             "2014": {
                 "title": "Emission in 2014",
-                "type": "integer"
+                "type": "number"
             },
             "2015": {
                 "title": "Emission in 2015",
-                "type": "integer"
+                "type": "number"
             },
             "2016": {
                 "title": "Emission in 2016",
-                "type": "integer"
+                "type": "number"
             },
             "2017": {
                 "title": "Emission in 2017",
-                "type": "integer"
+                "type": "number"
             },
             "CountryCode": {
                 "title": "Country Code",
@@ -421,7 +421,7 @@ const schemaArray = [
             },
             "quantity": {
                 "title": "Quantity",
-                "type": "integer"
+                "type": "number"
             },
             "MF": {
                 "title": "Multiplying Factor",
