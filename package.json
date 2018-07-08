@@ -15,9 +15,9 @@
     "trees": "cd api/v1/db_scripts && yarn run trees && cd ../../..",
     "poultry": "cd api/v1/db_scripts && yarn run poultry && cd ../../..",
     "appliance": "cd api/v1/db_scripts && yarn run appliance && cd ../../..",
-    "agriculture": "cd api/v1/db_scripts && yarn run agriculture && cd ../../.."
-    "food": "cd api/v1/db_scripts && yarn run food && cd ../../.."
-    "land": "cd api/v1/db_scripts && yarn run land && cd ../../.."
+    "agriculture": "cd api/v1/db_scripts && yarn run agriculture && cd ../../..",
+    "food": "cd api/v1/db_scripts && yarn run food && cd ../../..",
+    "land": "cd api/v1/db_scripts && yarn run land && cd ../../..",
     "sector": "cd api/v1/db_scripts && yarn run sector && cd ../../.."
   },
   "dependencies": {
