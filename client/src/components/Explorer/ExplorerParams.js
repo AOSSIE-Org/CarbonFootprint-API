@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Segment, Checkbox } from 'semantic-ui-react';
 
+/* Extended react.Component class as ExplorerParams */
 export default class ExplorerParams extends Component {
 
   /**
@@ -9,11 +10,19 @@ export default class ExplorerParams extends Component {
    */
   constructor(props) {
     super(props);
-    this.state = {
-      error: false,
-      errorMessage: ''
-    };
     this.handleChange = this.handleChange.bind(this);
+  }
+
+  /**
+   * Inherited function from react.Component.
+   * This method is invoked before rendering when new props or state are being received.
+   *
+   * @param nextProps the next Props received from Parent
+   * @param nextState the next State
+   * @returns {boolean} whether should update or not
+   */
+  shouldComponentUpdate(nextProps, nextState){
+    return nextProps.params && nextProps.params.length > 0;
   }
 
   /**
@@ -22,10 +31,12 @@ export default class ExplorerParams extends Component {
    * @param {object} value Value
    */
   handleChange(e, {value}) {
-    const newQuery = this.props.query;
-    console.log(newQuery);
-    const key = Object.keys(newQuery);
-    newQuery[value] = '';
+    let newQuery = this.props.query || {};
+    if(newQuery.hasOwnProperty(value)){
+      delete newQuery[value];
+    }else {
+      newQuery[value] = '';
+    }
     this.props.queryUpdate(newQuery);
   }
 
@@ -33,24 +44,16 @@ export default class ExplorerParams extends Component {
    * Inherited function from react.Component to render to DOM object into html
    */
   render() {
-    const query = this.props.query;
-    //const keys = Object.keys(query);
-    let check;
-    let keys = defaultParam["poultry"];
-    const url = this.props.url;
-    console.log(url);
-    for (let key in defaultParam) {
-      if (key === url) {
-        keys = defaultParam[key]
-      }
-    }
+    let params = this.props.params || [];
+    let query = this.props.query || {};
+    let paramKeys = Object.keys(query);
     return (
         <Segment style={styles.body}>
-          {Object.values(keys).map(key =>
+          {params.map(key =>
               <div>
-                {check = query[key] ? true : false}
-                <Checkbox label={key} value={key} checked={check} onChange={this.handleChange}/>
-                <br/>
+                <Segment>
+                  <Checkbox label={key} checked={paramKeys.indexOf(key)>-1} value={key} onChange={this.handleChange}/>
+                </Segment>
               </div>
           )}
         </Segment>
@@ -64,48 +67,3 @@ const styles = {
     minHeight: "100%",
   }
 };
-const defaultParam = {
-  "appliances": [
-    "appliance",
-    "type",
-    "region",
-    "quantity",
-    "runnning_time"
-  ],
-  "emissions": [
-    "item",
-    "region",
-    "unit",
-    "quantity"
-  ],
-  "poultry": [
-    "type",
-    "region",
-    "quantity"
-  ],
-  "quantity": [
-    "item",
-    "region",
-    "emission"
-  ],
-  "flight": [
-    "origin",
-    "destination",
-    "type",
-    "model",
-    "passengers"
-  ],
-  "vehicle": [
-    "type",
-    "origin",
-    "destination",
-    "mileage",
-    "mileage_unit"
-  ],
-  "trains": [
-    "type",
-    "origin",
-    "destination",
-    "passengers"
-  ]
-}

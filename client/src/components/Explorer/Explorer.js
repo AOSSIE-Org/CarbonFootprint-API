@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Grid, Button, Modal } from 'semantic-ui-react';
-import { Link } from 'react-router-dom'
 import ExplorerRequest from './ExplorerRequest';
 import ExplorerQuery from './ExplorerQuery';
 import ExplorerResponse from './ExplorerResponse';
 import ExplorerParams from './ExplorerParams';
+import { Link } from 'react-router-dom';
 import SnippetModal from './SnippetModal';
 
 /* Extended react.Component class as Explorer */
@@ -20,23 +20,20 @@ export default class Explorer extends Component {
       key: false,
       url: '',
       method: 'POST',
-      query: {},
-      response: ''
+      query: '',
+      response: '',
+      params: []
     };
 
     this.queryUpdate = this.queryUpdate.bind(this);
     this.handleResponse = this.handleResponse.bind(this);
     this.handleURL = this.handleURL.bind(this);
+    this.paramsUpdate = this.paramsUpdate.bind(this);
   }
 
   /**
-   * Inherit function from react.Component to handle after mounting
-   * react component
-   */
-  componentDidMount() {}
-
-  /**
    * Function to handle the URL
+   * @param URL the updated URL
    */
   handleURL(URL) {
     this.setState({url: URL});
@@ -44,16 +41,27 @@ export default class Explorer extends Component {
 
   /**
    * Function to handle the Response
+   * @param receivedResponse the response for the query
    */
-  handleResponse(receivedRes) {
-    this.setState({response: receivedRes});
+  handleResponse(receivedResponse) {
+    this.setState({response: receivedResponse});
   }
 
   /**
    * Function to update the query
+   * @param updatedQuery the updated Query
    */
   queryUpdate(updatedQuery) {
     this.setState({query: updatedQuery});
+  }
+
+
+  /**
+   * Function to update the params
+   * @param updatedParams the updated Params
+   */
+  paramsUpdate(updatedParams) {
+    this.setState({params: updatedParams});
   }
 
   /**
@@ -62,14 +70,15 @@ export default class Explorer extends Component {
   render() {
     return (
         <div>
-          <Grid centered textAlign='left'>
+          <Grid centered textAlign="left">
             <Grid.Row columns={1}>
               <ExplorerRequest
                   key={this.state.key}
-                  method={this.state.method}
                   handleURL={this.handleURL}
+                  method={this.state.method}
                   handleResponse={this.handleResponse}
                   query={this.state.query}
+                  paramsUpdate={this.paramsUpdate}
               />
             </Grid.Row>
             <Grid.Row columns={3}>
@@ -78,12 +87,12 @@ export default class Explorer extends Component {
                     query={this.state.query}
                     url={this.state.url}
                     queryUpdate={this.queryUpdate}
+                    params={this.state.params}
                 />
               </Grid.Column>
               <Grid.Column width={7}>
                 <ExplorerQuery
                     queryUpdate={this.queryUpdate}
-                    url={this.state.url}
                     query={JSON.stringify(this.state.query)}
                 />
               </Grid.Column>
@@ -94,7 +103,7 @@ export default class Explorer extends Component {
               </Grid.Column>
             </Grid.Row>
           </Grid>
-          <br/>
+          <br />
           <div style={styles.div}>
             <Modal trigger={<Button style={styles.button}> Get Code </Button>} closeIcon>
               <Modal.Header>Generate Code</Modal.Header>
