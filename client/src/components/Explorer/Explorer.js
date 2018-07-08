@@ -104,7 +104,7 @@ export default class Explorer extends Component {
           </Grid>
           <br />
           <div style={styles.div}>
-            <Modal trigger={<Button size='small' primary> Get Code </Button>} closeIcon>
+            <Modal trigger={<Button size='small' primary style={styles.button}> Get Code </Button>} closeIcon>
               <Modal.Header>Generate Code</Modal.Header>
               <Modal.Content>
                 <SnippetModal
@@ -119,6 +119,7 @@ export default class Explorer extends Component {
                   content='Run in Postman'
                   size='small'
                   primary
+                  style={styles.button}
               />
             </Link>
           </div>

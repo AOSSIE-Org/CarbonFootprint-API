@@ -30,7 +30,7 @@ export default class ExplorerParams extends Component {
    * @param {object} e Event Object
    * @param {object} value Value
    */
-  handleChange(e, {value}) {
+  handleChange(e, { value }) {
     let newQuery = this.props.query || {};
     if(newQuery.hasOwnProperty(value)){
       delete newQuery[value];

@@ -55,9 +55,11 @@ export default class ExplorerRequest extends Component {
    * @param {object} event Event Object
    * @param {object} result Result Object
    */
-  handleResultSelect(event, result) {
-    this.setState({url: result.title, urlParams: result.params});
-    this.props.paramsUpdate(result.params);
+  handleResultSelect(event, { result }) {
+    if(result.title) {
+      this.setState({url: result.title, urlParams: result.params});
+      this.props.paramsUpdate(result.params);
+    }
   }
 
   /**
@@ -67,7 +69,6 @@ export default class ExplorerRequest extends Component {
   handleSearchChange(event) {
     let value = event.target.value;
     this.setState({isLoading: true, url: value});
-
     setTimeout(() => {
       if (this.state.url.length < 1) return this.resetComponent();
 
@@ -157,8 +158,10 @@ export default class ExplorerRequest extends Component {
                     onChange={this.handleChange}
                 />
               </Grid.Column>
-              <Grid.Column width={9} mobile={16} tablet={10} computer={9}>
-              <label style={styles.label}>{BASE_URL}</label>
+              <Grid.Column width={3} mobile={16} tablet={10} computer={3}>
+                <label style={styles.label}>{BASE_URL}</label>
+              </Grid.Column>
+              <Grid.Column width={5} mobile={16} tablet={10} computer={5}>
                 <Search
                     input={{ fluid: true }}
                     loading={isLoading}
@@ -166,11 +169,10 @@ export default class ExplorerRequest extends Component {
                     onSearchChange={_.debounce(this.handleSearchChange, 500, {leading: true})}
                     results={paramResults}
                     value={url}
-                    style={styles.inputUrl}
                     {...this.props}
                 />
               </Grid.Column>
-              <Grid.Column width={4} mobile={16} tablet={3} computer={4}>
+              <Grid.Column width={5} mobile={16} tablet={3} computer={5}>
                 <Button
                     content='RUN'
                     onClick={this.executeQuery}
@@ -216,8 +218,6 @@ const styles = {
   label: {
     backgroundColor: 'white',
     color: '#2980b9',
-    marginLeft: '5px',
-    marginRight: '5px',
     fontSize: '16px'
   }
 };
