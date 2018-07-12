@@ -38,6 +38,11 @@ const schemaArray = [
             "Average_watts (in Wh)": {
                 "title": "Average_watts (in Wh)",
                 "type": "number"
+            },
+            "place":{
+                "title": "Place where the appliance is used",
+                "type": "string",
+                "enum": ["living room", "kitchen", "bathroom", "office", "laundry"]
             }
         }
     },
@@ -63,6 +68,10 @@ const schemaArray = [
         "properties": {
             "Country": {
                 "title": "Country Name",
+                "type": "string"
+            },
+            "code": {
+                "title": "Country Code",
                 "type": "string"
             },
             "Generation-CO2": {
