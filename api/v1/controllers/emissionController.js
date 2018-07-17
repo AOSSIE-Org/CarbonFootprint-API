@@ -51,9 +51,10 @@ let find = (component, region, quantity) => {
                     for(let component of item.components){
                         if (emissions.hasOwnProperty(component.name)) {
                             emissions[component.name] += (quantity * component.quantity[0]);
-                            console.log(`Emissions ${component.name}: ${emissions[component.name]} kg`);
+                            // console.log(`Emissions ${component.name}: ${emissions[component.name]} kg`);
                         }
                     }
+                    emissions['type'] = item.categories[0];
                     resolve(emissions);
                 }
                 // if component type is complex, recurse to find its atomic components
@@ -100,11 +101,16 @@ let find = (component, region, quantity) => {
             else reject(`Unable to find component ${component} for ${region}`);
         });
     });
-}
+};
 
-exports.calculate = async function(itemName, region, quantity, multiply = 1){
+exports.calculate = async function(itemName, region, quantity, multiply = 1, type = ''){
     let emissions = await find(itemName, region, quantity);
     // round up the emission value upto 10 decimal points
+    if(type && emissions.type != type) {
+        return new Promise((resolve, reject) => {
+            reject(`Unable to find component ${itemName} for ${region}`);
+        });
+    }
     for(let i in emissions){
         emissions[i] = parseFloat((emissions[i]*multiply).toFixed(10));
         // remove CH4 or N2O key if emissions are zero
@@ -113,5 +119,4 @@ exports.calculate = async function(itemName, region, quantity, multiply = 1){
         }
     }
     return emissions;
-}
-
+};
