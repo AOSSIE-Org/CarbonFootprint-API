@@ -10,27 +10,52 @@ export default class ExplorerParams extends Component {
    */
   constructor(props) {
     super(props);
-    this.state = {
-      error: false,
-      errorMessage: '',
-      response: '',
-      params: ['item', 'region', 'unit', 'quantity'], // dummy data
-      checkedParams: []
-    };
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+  /**
+   * Inherited function from react.Component.
+   * This method is invoked before rendering when new props or state are being received.
+   *
+   * @param nextProps the next Props received from Parent
+   * @param nextState the next State
+   * @returns {boolean} whether should update or not
+   */
+  shouldComponentUpdate(nextProps, nextState){
+    return nextProps.params && nextProps.params.length > 0;
+  }
+
+  /**
+   * Function to handle the change in query.
+   * @param {object} e Event Object
+   * @param {object} value Value
+   */
+  handleChange(e, { value }) {
+    let newQuery = this.props.query || {};
+    if(newQuery.hasOwnProperty(value)){
+      delete newQuery[value];
+    }else {
+      newQuery[value] = '';
+    }
+    this.props.queryUpdate(newQuery);
   }
 
   /**
    * Inherited function from react.Component to render to DOM object into html
    */
   render() {
+    let params = this.props.params || [];
+    let query = this.props.query || {};
+    let paramKeys = Object.keys(query);
     return (
-        <Segment style={styles.body}>
-          {this.state.params.map(param => ( // mapping the params into list of checkboxes
+        <Segment style={styles.body} raised>
+          {params.map(key =>
               <div>
-                <Checkbox label={param}/>
-                <br/>
+                <Segment>
+                  <Checkbox label={key} checked={paramKeys.indexOf(key)>-1} value={key} onChange={this.handleChange}/>
+                </Segment>
               </div>
-          ))}
+          )}
         </Segment>
     );
   }
@@ -39,6 +64,6 @@ export default class ExplorerParams extends Component {
 const styles = {
   body: {
     backgroundColor: 'white',
-    minHeight: '100%',
+    minHeight: "100%",
   }
 };

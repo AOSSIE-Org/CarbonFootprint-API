@@ -37,7 +37,7 @@ export default class ProfilePicture extends Component {
   render() {
      const { auth } = this.props;
     return (
-      <Card>
+      <Card fluid raised>
         <div style={styles.imageContainer}>
           <div
             style={{

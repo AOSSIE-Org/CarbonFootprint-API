@@ -1,11 +1,14 @@
 //To run this script use "node flights_db.js"
 // database setup
 const mongoose = require('mongoose');
+// get the logger
+const Logger  = require('@framework/Logger');
 // get the database configuration file
+const config = require('@root/config.json');
 try {
-  const config = require('../../../config.json');
+  config
 } catch (e) {
-  console.log(`Database configuration file "config.json" is missing.`);
+  Logger.error(`Database configuration file "config.json" is missing.`);
   process.exit(1);
 }
 let db = config.database;
@@ -15,22 +18,22 @@ mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.po
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
-  console.log('Connection to database established successfully');
-  console.log("flights_db.js running");
+  Logger.info('Connection to database established successfully');
+  Logger.info("flights_db.js running");
 });
 
 // If the connection throws an error
 mongoose.connection.on('error', (err) => {
-  console.log('Error connecting to database: ' + err);
+  Logger.error(`Error connecting to database: ${err}`);
 });
 
 // When the connection is disconnected
 mongoose.connection.on('disconnected', () => {
-  console.log('Database disconnected');
+  Logger.info('Database disconnected');
 });
 let Emission = require('../models/emissionModel.js')
 let dist = [125, 250, 500, 750, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 8500];
-let json = require('../../../raw_data/flights.json');
+let json = require('@raw_data/flights.json');
 for(js in json){
   let obj = new Emission();
   obj.item=`airplane model ${json[js]["airplane model"]}`;
@@ -54,12 +57,11 @@ for(js in json){
   }
   obj.save(err => {
   if ( err ) throw err;
-  console.log("Object Saved Successfully");
+    Logger.info("Object Saved Successfully");
   });
-  //console.log(obj);
 }
 
-let obj = new Emission();
+obj = new Emission();
 obj.item="airplane model A380";
 obj.region="Default";
 obj.quantity=[125, 250, 500, 750, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 8500, 9000, 9500, 10000, 10500, 11000, 11500, 12000];
@@ -74,11 +76,10 @@ obj.components=[
 }]
 obj.save(err => {
 if ( err ) throw err;
-console.log("Object Saved Successfully");
+  Logger.info("Object Saved Successfully");
 });
-// console.log(obj);
 
-let obj = new Emission();
+obj = new Emission();
 obj.item="airplane model A320";
 obj.region="Default";
 obj.quantity=[125, 250, 500, 750, 1000, 1500, 2000, 2500];
@@ -93,10 +94,10 @@ obj.components=[
 }]
 obj.save(err => {
 if ( err ) throw err;
-console.log("Object Saved Successfully");
+  Logger.info("Object Saved Successfully");
 });
 
-let obj = new Emission();
+obj = new Emission();
 obj.item="airplane fuel";
 obj.region="Default";
 obj.quantity=[1];
@@ -110,7 +111,7 @@ obj.components=[
 }]
 obj.save(err => {
 if ( err ) throw err;
-console.log("Object Saved Successfully");
+  Logger.info("Object Saved Successfully");
 });
 
 mongoose.connection.close();

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Icon, Menu, Card } from 'semantic-ui-react';
+import Explorer from '../Explorer/Explorer';
+import {Link} from 'react-router-dom';
 
 /* Extended react.Component class as Sidebar */
 
@@ -29,7 +31,7 @@ export default class Sidebar extends Component {
   render() {
     const { activeItem } = this.state;
     return (
-      <Menu vertical>
+      <Menu fluid vertical>
         <Menu.Item
           name="inbox"
           active={activeItem === 'inbox'}
@@ -59,6 +61,18 @@ export default class Sidebar extends Component {
             <Icon name="newspaper" /> Documentation
           </span>
         </Menu.Item>
+
+        <Menu.Item
+          name= "explorer"
+          active= {activeItem === 'explorer'}
+        >
+        <Link to = {"/explorer"}>
+          <span>
+            <Icon name="edit" /> API Explorer
+          </span>
+        </Link>
+        </Menu.Item>
+
       </Menu>
     );
   }

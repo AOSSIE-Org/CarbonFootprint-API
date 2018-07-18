@@ -57,8 +57,7 @@ export default class Profile extends Component {
     return (
       <Grid centered textAlign="left">
         <Grid.Row>
-
-          <Grid.Column width={3}>
+          <Grid.Column width={3} mobile={12} tablet={4} computer={3}>
             <ProfilePicture
               profilePicture={this.state.profilePicture}
               nickname={this.state.nickname }
@@ -68,13 +67,11 @@ export default class Profile extends Component {
             />
             <Sidebar />
           </Grid.Column>
-
-          <Grid.Column width={10}>
+          <Grid.Column width={10} mobile={13} tablet={12} computer={10}>
             <ProfileSettings
               auth={this.props.auth}
               />
           </Grid.Column>
-
         </Grid.Row>
       </Grid>
     );

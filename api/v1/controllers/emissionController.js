@@ -1,6 +1,7 @@
 const Emission = require('../models/emissionModel');
 const spline = require('cubic-spline');
-const redis = require('../../../framework/redis');
+const Logger  = require('@framework/Logger');
+const redis = require('@framework/redis');
 // import Redis client
 const redisClient = redis.redisClient;
 
@@ -115,7 +116,7 @@ let find = (component, region, quantity) => {
                   resolve(result)
                 })
                 .catch(err => {
-                  console.log(err);
+                  Logger.error(`Error: ${err}`));
                 });
             redisClient.hset('emissions', `${component}[${region}]`, JSON.stringify(item.toObject()));
           }
@@ -128,7 +129,7 @@ let find = (component, region, quantity) => {
               resolve(result);
             })
             .catch(err => {
-              console.log(err);
+              Logger.error(`Error: ${err}`));
             });
       }
     });
