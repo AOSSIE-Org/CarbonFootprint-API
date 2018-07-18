@@ -25,7 +25,7 @@ let interpolate = (l1, l2, d) => {
  * A helper function to process the emissions of a component.
  */
 let processEmission = (emissions, component, region, quantity, item) => {
-  console.log(`Item name: ${item.item} :: Region: ${item.region}`);
+  Logger.info(`Item name: ${item.item} :: Region: ${item.region}`);
   return new Promise((resolve, reject) => {
     // if component type is atomic return it's emissions
     if (item.components[0].name === 'CO2' ||
@@ -34,7 +34,7 @@ let processEmission = (emissions, component, region, quantity, item) => {
       for (let component of item.components) {
         if (emissions.hasOwnProperty(component.name)) {
           emissions[component.name] += (quantity * component.quantity[0]);
-          console.log(`Emissions ${component.name}: ${emissions[component.name]} kg`);
+          Logger.info(`Emissions ${component.name}: ${emissions[component.name]} kg`);
         }
       }
       resolve(emissions);
@@ -46,7 +46,7 @@ let processEmission = (emissions, component, region, quantity, item) => {
         for (let i = 0; i < numOfComponents; i++) {
           if (item.components[i].quantity.length > 1) {
             let getInterpolatedQuantity = await interpolate(item.quantity, item.components[i].quantity, quantity);
-            console.log(`Interpolated value = ${getInterpolatedQuantity}`);
+            Logger.info(`Interpolated value = ${getInterpolatedQuantity}`);
             await find(item.components[i].name, region, getInterpolatedQuantity)
                 .then((emis) => {
                   for (let i in emis) {
@@ -116,7 +116,7 @@ let find = (component, region, quantity) => {
                   resolve(result)
                 })
                 .catch(err => {
-                  Logger.error(`Error: ${err}`));
+                  Logger.error(`Error: ${err}`);
                 });
             redisClient.hset('emissions', `${component}[${region}]`, JSON.stringify(item.toObject()));
           }
@@ -129,7 +129,7 @@ let find = (component, region, quantity) => {
               resolve(result);
             })
             .catch(err => {
-              Logger.error(`Error: ${err}`));
+              Logger.error(`Error: ${err}`);
             });
       }
     });
@@ -149,4 +149,3 @@ exports.calculate = async function (itemName, region, quantity, multiply = 1) {
   }
   return emissions;
 };
-
