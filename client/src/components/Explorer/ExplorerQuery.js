@@ -64,7 +64,7 @@ export default class ExplorerQuery extends Component {
    */
   render() {
     return (
-        <Segment style={styles.body}>
+        <Segment style={styles.body} raised>
           {this.state.error &&
           <Message negative size='mini'>
             <Message.Header>

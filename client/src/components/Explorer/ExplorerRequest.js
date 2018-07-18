@@ -6,8 +6,9 @@ import {
   Button,
   Input,
   Divider,
-  Dropdown,
-  Search
+  Search,
+  Responsive,
+  Grid
 } from 'semantic-ui-react';
 import { getKey } from '../Profile/profileController';
 import axios from 'axios';
@@ -54,9 +55,11 @@ export default class ExplorerRequest extends Component {
    * @param {object} event Event Object
    * @param {object} result Result Object
    */
-  handleResultSelect(event, result) {
-    this.setState({url: result.title, urlParams: result.params});
-    this.props.paramsUpdate(result.params);
+  handleResultSelect(event, { result }) {
+    if(result.title) {
+      this.setState({url: result.title, urlParams: result.params});
+      this.props.paramsUpdate(result.params);
+    }
   }
 
   /**
@@ -66,7 +69,6 @@ export default class ExplorerRequest extends Component {
   handleSearchChange(event) {
     let value = event.target.value;
     this.setState({isLoading: true, url: value});
-
     setTimeout(() => {
       if (this.state.url.length < 1) return this.resetComponent();
 
@@ -126,37 +128,40 @@ export default class ExplorerRequest extends Component {
   render() {
     const { isLoading, url, paramResults, key } = this.state;
     return (
-        <Segment>
+        <Responsive as={Segment} raised>
           <Header style={styles.heading} as="h4">
             <Header.Content>
               API Explorer
             </Header.Content>
           </Header>
           <Divider />
-          <Form>
-            <div style={styles.div}>
-              <Form.Group inline style={styles.form}>
-                <Input label={{basic: true, content: 'API Key: '}}
-                       labelPosition='left'
-                       style={styles.inputKey}
-                       value={key ? key : "Go to the profile page and generate one API Key"}
+          <Grid textAlign='left'>
+            <Grid.Row>
+              <Grid.Column width={16}>
+              <Input label={{basic: true, content: 'API Key: '}}
+                     labelPosition='left'
+                     style={styles.inputKey}
+                     value={key ? key : "Go to the profile page and generate one API Key"}
+                     fluid
                 />
-              </Form.Group>
-            </div>
-            <div style={styles.div}>
-              <Form.Group style={styles.form}>
-                <Dropdown name='method'
-                          options={options}
-                          defaultValue={options[1].value}
-                          style={styles.dropdown}
-                          onChange={this.handleChange}
+              </Grid.Column>
+            </Grid.Row>
+            <Grid.Row>
+              <Grid.Column width={3} mobile={16} tablet={3} computer={3}>
+                <Form.Dropdown
+                    name="method"
+                    options={options}
+                    defaultValue={options[1].value}
+                    style={styles.dropdown}
+                    selection
+                    className='label'
+                    onChange={this.handleChange}
                 />
-                {/*<Input label={<label style={styles.label}>http://carbonhub.xyz/v1/</label>}*/}
-                {/*name='url'*/}
-                {/*style={styles.inputUrl}*/}
-                {/*onChange={this.handleChange}/>*/}
-
+              </Grid.Column>
+              <Grid.Column width={3} mobile={16} tablet={10} computer={3}>
                 <label style={styles.label}>{BASE_URL}</label>
+              </Grid.Column>
+              <Grid.Column width={5} mobile={16} tablet={10} computer={5}>
                 <Search
                     input={{ fluid: true }}
                     loading={isLoading}
@@ -164,18 +169,22 @@ export default class ExplorerRequest extends Component {
                     onSearchChange={_.debounce(this.handleSearchChange, 500, {leading: true})}
                     results={paramResults}
                     value={url}
-                    style={styles.inputUrl}
                     {...this.props}
                 />
-              </Form.Group>
-              <Button
-                  content='RUN'
-                  color='blue'
-                  onClick={this.executeQuery}
-              />
-            </div>
-          </Form>
-        </Segment>
+              </Grid.Column>
+              <Grid.Column width={5} mobile={16} tablet={3} computer={5}>
+                <Button
+                    content='RUN'
+                    onClick={this.executeQuery}
+                    size='small'
+                    primary
+                    style={styles.buttonRun}
+                    fluid
+                />
+              </Grid.Column>
+            </Grid.Row>
+          </Grid>
+        </Responsive>
     );
   }
 }
@@ -194,32 +203,21 @@ const styles = {
   },
   heading: {
     marginLeft: '15px',
-    color: "#626364"
+    color: '#626364'
   },
-  form: {
-    marginLeft: '10px'
+  buttonGetKey: {
+    backgroundColor: '#F6F7F9',
+    height: '38px'
   },
-  button: {
-    backgroundColor: '#F6F7F9'
+  buttonRun: {
+    height: '38px'
   },
   inputKey: {
-    width: '1000px',
-    color: "#626364"
-  },
-  inputUrl: {
-    marginLeft: '15px',
-    width: '850px',
-  },
-  div: {
-    display: 'flex',
-    alignItems: 'flex-start',
-    justifyContent: 'space-between'
+    color: '#626364'
   },
   label: {
     backgroundColor: 'white',
     color: '#2980b9',
-    marginLeft: '5px',
-    marginRight: '5px',
     fontSize: '16px'
   }
 };

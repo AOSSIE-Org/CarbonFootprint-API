@@ -31,7 +31,7 @@ export default class Sidebar extends Component {
   render() {
     const { activeItem } = this.state;
     return (
-      <Menu vertical>
+      <Menu fluid vertical>
         <Menu.Item
           name="inbox"
           active={activeItem === 'inbox'}

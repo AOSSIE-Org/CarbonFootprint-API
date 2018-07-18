@@ -55,7 +55,6 @@ export default class Explorer extends Component {
     this.setState({query: updatedQuery});
   }
 
-
   /**
    * Function to update the params
    * @param updatedParams the updated Params
@@ -82,7 +81,7 @@ export default class Explorer extends Component {
               />
             </Grid.Row>
             <Grid.Row columns={3}>
-              <Grid.Column width={4}>
+              <Grid.Column width={4} mobile={16} tablet={8} computer={4}>
                 <ExplorerParams
                     query={this.state.query}
                     url={this.state.url}
@@ -90,13 +89,13 @@ export default class Explorer extends Component {
                     params={this.state.params}
                 />
               </Grid.Column>
-              <Grid.Column width={7}>
+              <Grid.Column width={7} mobile={16} tablet={8} computer={7}>
                 <ExplorerQuery
                     queryUpdate={this.queryUpdate}
                     query={JSON.stringify(this.state.query)}
                 />
               </Grid.Column>
-              <Grid.Column width={5}>
+              <Grid.Column width={5} mobile={16} tablet={8} computer={5}>
                 <ExplorerResponse
                     response={this.state.response}
                 />
@@ -105,7 +104,7 @@ export default class Explorer extends Component {
           </Grid>
           <br />
           <div style={styles.div}>
-            <Modal trigger={<Button style={styles.button}> Get Code </Button>} closeIcon>
+            <Modal trigger={<Button size='small' primary style={styles.button}> Get Code </Button>} closeIcon>
               <Modal.Header>Generate Code</Modal.Header>
               <Modal.Content>
                 <SnippetModal
@@ -118,6 +117,8 @@ export default class Explorer extends Component {
             <Link to='https://app.getpostman.com/run-collection/9f30a9efdc0b87ca59af' target="_blank">
               <Button
                   content='Run in Postman'
+                  size='small'
+                  primary
                   style={styles.button}
               />
             </Link>
@@ -129,8 +130,7 @@ export default class Explorer extends Component {
 
 const styles = {
   button: {
-    backgroundColor: '#2980b9',
-    color: 'white',
+    height: '40px',
     fontWeight: 'bold',
     fontSize: '16px'
   },
