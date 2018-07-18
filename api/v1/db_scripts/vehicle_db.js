@@ -31,8 +31,8 @@ mongoose.connection.on('error', (err) => {
 mongoose.connection.on('disconnected', () => {
   Logger.info('Database disconnected');
 });
-let Emission = require('../models/emissionModel.js')
-let json = require('@raw_data/fuels.json');
+const Emission = require('../models/emissionModel.js')
+const json = require('@raw_data/fuels.json');
 for(js in json){
   let obj = new Emission();
   obj.item=json[js]['langKey'];

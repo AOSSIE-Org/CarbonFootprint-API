@@ -31,8 +31,8 @@ mongoose.connection.on('error', (err) => {
 mongoose.connection.on('disconnected', () => {
   Logger.info('Database disconnected');
 });
-let Emission = require('../models/emissionModel.js')
-let json = require('@raw_data/trees.json');
+const Emission = require('../models/emissionModel.js')
+const json = require('@raw_data/trees.json');
 for(js in json.treeData){
   let obj = new Emission();
   obj.item=js;

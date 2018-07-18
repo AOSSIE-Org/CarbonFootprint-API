@@ -5,13 +5,13 @@ const { calculate } = require('../controllers/emissionController');
 // get the helper functions
 const { getDistanceFromLatLon, distance } = require('../controllers/helperFunctions');
 // get the logger
-const Logger  = require('@framework/Logger');
+const Logger = require('@framework/Logger');
 
 router.post('/emissions', (req, res) => {
-  let itemName = req.body["item"];
-  let region = req.body["region"] || "Default";
-  let quantity = req.body["quantity"] || 1;
-  let multiply = req.body["multiply"] || 1;
+  const itemName = req.body["item"];
+  const region = req.body["region"] || "Default";
+  const quantity = req.body["quantity"] || 1;
+  const multiply = req.body["multiply"] || 1;
   calculate(itemName, region, quantity, multiply)
       .then((emissions) => {
         Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
@@ -38,17 +38,17 @@ router.post('/emissions', (req, res) => {
 });
 
 router.post('/flight', (req, res) => {
-  let airports = require('../../../raw_data/airports.json');
-  let type = req.body.type || 'international';
+  const airports = require('@raw_data/airports.json');
+  const type = req.body.type || 'international';
   let model = req.body.model;
-  let origin = req.body.origin;
-  let destination = req.body.destination;
-  let passengers = req.body.passengers || 1;
-  let seatType = req.body.seatType || 'economy';
+  const origin = req.body.origin;
+  const destination = req.body.destination;
+  const passengers = req.body.passengers || 1;
+  const seatType = req.body.seatType || 'economy';
 
   if (airports[origin] && airports[destination]) {
-    let orig = airports[origin];
-    let dest = airports[destination];
+    const orig = airports[origin];
+    const dest = airports[destination];
     let distance = getDistanceFromLatLon(orig.lat, orig.lon, dest.lat, dest.lon);
     distance *= 0.539957; // convert distance in km to nautical miles
     if (!model) {
@@ -74,26 +74,25 @@ router.post('/flight', (req, res) => {
           res.sendJsonError(`Unable to find emissions for airplane model ${model}`, 404);
         });
   } else res.sendJsonError('Unable to find the airports. Please use IATA airport codes only', 400);
-
 });
 
 router.post('/vehicle', async(req, res) => {
-  let type = req.body.type || 'Diesel';
-  let origin = req.body.origin;
-  let destination = req.body.destination;
-  let unit = req.body.unit || 'km';
-  let mileage = parseFloat(req.body.mileage) || 20;
-  let mileage_unit = req.body.mileage_unit || 'km/l';
+  const type = req.body.type || 'Diesel';
+  const origin = req.body.origin;
+  const destination = req.body.destination;
+  const unit = req.body.unit || 'km';
+  const mileage = parseFloat(req.body.mileage) || 20;
+  const mileage_unit = req.body.mileage_unit || 'km/l';
 
   if (origin && destination) {
     distance(origin, destination, 'driving')
         .then((val) => {
           Logger.debug(`CalculatedDistance: ${val}`);
-          let fuelConsumed = val / mileage;
+          const fuelConsumed = val / mileage;
           Logger.debug(`Fuel consumerd: ${fuelConsumed}`);
           calculate(`fuel${type}`, 'Default', fuelConsumed)
               .then((emissions) => {
-                Logger.info(`Emissions: ${JSON.stringify(emissions, null ,4)}`);
+                Logger.info(`Emissions: ${JSON.stringify(emissions, null, 4)}`);
                 res.status(200).json({
                   success: true,
                   emissions: emissions,
@@ -109,16 +108,15 @@ router.post('/vehicle', async(req, res) => {
           Logger.error(`Error: ${err}`);
           res.sendJsonError(err, 400);
         });
-
   } else res.sendJsonError('Distance or Mileage cannot be less than zero', 400);
 });
 
 router.post('/trains', async(req, res) => {
-  let type = req.body.type || 'railcars';
-  let region = req.body.region || 'Default';
-  let origin = req.body.origin;
-  let destination = req.body.destination;
-  let passengers = req.body.passengers || 1;
+  const type = req.body.type || 'railcars';
+  const region = req.body.region || 'Default';
+  const origin = req.body.origin;
+  const destination = req.body.destination;
+  const passengers = req.body.passengers || 1;
 
   if (origin && destination) {
     distance(origin, destination, 'transit')
@@ -127,7 +125,7 @@ router.post('/trains', async(req, res) => {
           Logger.debug(`CalculatedPassengers: ${passengers}`);
           calculate(type, 'Default', val, passengers)
               .then((emissions) => {
-                Logger.info(`Emissions: ${JSON.stringify(emissions, null ,4)}`);
+                Logger.info(`Emissions: ${JSON.stringify(emissions, null, 4)}`);
                 res.status(200).json({
                   success: true,
                   emissions: emissions,
@@ -143,14 +141,13 @@ router.post('/trains', async(req, res) => {
           Logger.error(`Error: ${err}`);
           res.sendJsonError(err, 400);
         });
-
   } else res.sendJsonError('Distance cannot be less than zero', 400);
 });
 
 router.post('/poultry', async(req, res) => {
-  let type = req.body.type;
-  let region = req.body.region || 'Default';
-  let quantity = req.body.quantity || 1;
+  const type = req.body.type;
+  const region = req.body.region || 'Default';
+  const quantity = req.body.quantity || 1;
   if (type) {
     calculate(type, region, quantity)
         .then((emissions) => {
@@ -160,19 +157,21 @@ router.post('/poultry', async(req, res) => {
             emissions: emissions,
             unit: 'kg'
           });
-        }).catch((err) => {
-      res.sendJsonError(`We cannot provide carbon footprints for this combination of ${type} in ${region} of mass ${quantity} kg`, 400);
-    });
+        })
+        .catch((err) => {
+          Logger.error(`Error: ${err}`);
+          res.sendJsonError(`We cannot provide carbon footprints for this combination of ${type} in ${region} of mass ${quantity} kg`, 400);
+        });
   } else res.sendJsonError(`Unable to find carbon footprint for type ${type}`, 400);
 });
 
 router.post('/appliances', (req, res) => {
-  let appliance = req.body["appliance"];
-  let type = req.body["type"];
-  let region = req.body["region"] || "Default";
-  let unit = req.body["unit"] || "kWh";
-  let quantity = req.body["quantity"] || 1;
-  let running_time = req.body["running_time"] || 1;
+  const appliance = req.body["appliance"];
+  const type = req.body["type"];
+  const region = req.body["region"] || "Default";
+  const unit = req.body["unit"] || "kWh";
+  const quantity = req.body["quantity"] || 1;
+  const running_time = req.body["running_time"] || 1;
   calculate(`${appliance} ${type}`, region, quantity, running_time)
       .then((emissions) => {
         Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
@@ -189,14 +188,14 @@ router.post('/appliances', (req, res) => {
 });
 
 router.post('/quantity', (req, res) => {
-  let itemName = req.body["item"];
-  let region = req.body["region"] || "Default";
-  let emission = req.body["emission"] || 1;
+  const itemName = req.body["item"];
+  const region = req.body["region"] || "Default";
+  const emission = req.body["emission"] || 1;
   calculate(itemName, region, 1, 1)
       .then((emissions) => {
         Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
         if (emissions.CO2) {
-          let quantity = Math.abs(emission / emissions.CO2);
+          const quantity = Math.abs(emission / emissions.CO2);
           res.status(200).json({
             success: true,
             quantity: quantity,
@@ -213,13 +212,12 @@ router.post('/quantity', (req, res) => {
 });
 
 router.post('/agriculture', (req, res) => {
-  let itemName = req.body.item;
-  let region = req.body.region;
-  // console.log(`${itemName} in ${region}`);
-  if(itemName && region) {
+  const itemName = req.body.item;
+  const region = req.body.region;
+  if (itemName && region) {
     calculate(itemName, region, 1, 1, 'agriculture')
         .then((emissions) => {
-          console.log(`\nTotal Emissions: ${emissions.CO2}`);
+          Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
           if (emissions.CO2) {
             res.status(200).json({
               success: true,
@@ -232,19 +230,19 @@ router.post('/agriculture', (req, res) => {
           }
         })
         .catch((err) => {
+          Logger.error(`Error: ${err}`);
           res.sendJsonError(`Unable to find agriculture emissions for item type ${itemName} in ${region}`, 400);
         });
   } else res.sendJsonError(`Please provide valid item and region values`, 400);
 });
 
 router.post('/food', (req, res) => {
-  let itemName = req.body.item;
-  let region = req.body.region;
-  // console.log(`${itemName} in ${region}`);
-  if(itemName && region) {
+  const itemName = req.body.item;
+  const region = req.body.region;
+  if (itemName && region) {
     calculate(itemName, region, 1, 1, 'food')
         .then((emissions) => {
-          console.log(`\nTotal Emissions: ${emissions.CO2}`);
+          Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
           if (emissions.CO2) {
             res.status(200).json({
               success: true,
@@ -257,19 +255,19 @@ router.post('/food', (req, res) => {
           }
         })
         .catch((err) => {
+          Logger.error(`Error: ${err}`);
           res.sendJsonError(`Unable to find food emissions for item type ${itemName} in ${region}`, 400);
         });
   } else res.sendJsonError(`Please provide valid item and region values`, 400);
 });
 
 router.post('/land', (req, res) => {
-  let itemName = req.body.item;
-  let region = req.body.region;
-  // console.log(`${itemName} in ${region}`);
-  if(itemName && region) {
+  const itemName = req.body.item;
+  const region = req.body.region;
+  if (itemName && region) {
     calculate(itemName, region, 1, 1, 'land')
         .then((emissions) => {
-          console.log(`\nTotal Emissions: ${emissions.CO2}`);
+          Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
           if (emissions.CO2) {
             res.status(200).json({
               success: true,
@@ -282,19 +280,19 @@ router.post('/land', (req, res) => {
           }
         })
         .catch((err) => {
+          Logger.error(`Error: ${err}`);
           res.sendJsonError(`Unable to find land emissions for item type ${itemName} in ${region}`, 400);
         });
   } else res.sendJsonError(`Please provide valid item and region values`, 400);
 });
 
 router.post('/sector', (req, res) => {
-  let sector = req.body.sector;
-  let region = req.body.region;
-  // console.log(`${itemName} in ${region}`);
-  if(sector && region) {
+  const sector = req.body.sector;
+  const region = req.body.region;
+  if (sector && region) {
     calculate(sector, region, 1, 1, 'sector')
         .then((emissions) => {
-          console.log(`\nTotal Emissions: ${emissions.CO2}`);
+          Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
           if (emissions.CO2) {
             res.status(200).json({
               success: true,
@@ -307,6 +305,7 @@ router.post('/sector', (req, res) => {
           }
         })
         .catch((err) => {
+          Logger.error(`Error: ${err}`);
           res.sendJsonError(`Unable to find emissions for ${sector} in ${region}`, 400);
         });
   } else res.sendJsonError(`Please provide valid sector and region values`, 400);
