@@ -5,6 +5,8 @@ const { calculate } = require('../controllers/emissionController');
 const { reverseFind } = require('../controllers/reverseLookupController');
 // get the helper functions
 const { getDistanceFromLatLon, distance } = require('../controllers/helperFunctions');
+// get the logger
+const Logger  = require('@framework/Logger');
 
 router.post('/emissions', (req, res) => {
 	let itemName = req.body["item"];
@@ -13,7 +15,7 @@ router.post('/emissions', (req, res) => {
 	let multiply = req.body["multiply"] || 1;
 	calculate(itemName, region, quantity, multiply)
 		.then((emissions) => {
-			// console.log(`\nTotal Emissions: ${emissions.CO2}`);
+			Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
 			if (emissions.CO2 < 0) {
 				res.status(200).json({
 					success: true,
@@ -31,7 +33,7 @@ router.post('/emissions', (req, res) => {
 
 		})
 		.catch((err) => {
-			console.log(`Error: ${err}`);
+			Logger.error(`Error: ${err}`);
 			res.sendJsonError(err, 400);
 		});
 });
@@ -81,7 +83,7 @@ router.post('/flight', (req, res) => {
 
 		calculate(`airplane model ${model}`, 'Default', distance, passengers)
 			.then((emissions) => {
-				console.log(`\nTotal Emissions: ${emissions}`);
+				Logger.info(`\nTotal Emissions: ${emissions}`);
 				res.status(200).json({
 					success: true,
 					emissions: emissions,
@@ -89,7 +91,7 @@ router.post('/flight', (req, res) => {
 				});
 			})
 			.catch((err) => {
-				console.log(`Error: ${err}`);
+				Logger.error(`Error: ${err}`);
                 res.sendJsonError(`Unable to find emissions for airplane model ${model}`, 404);
 			});
 	} else res.sendJsonError('Unable to find the airports. Please use IATA airport codes only', 400);
@@ -107,12 +109,12 @@ router.post('/vehicle', async(req, res) => {
 	if (origin && destination) {
         distance(origin, destination, 'driving')
 			.then((val) => {
-				console.log("CalculatedDistance= " + val);
+				Logger.debug(`CalculatedDistance: ${val}`);
 				let fuelConsumed = val / mileage;
-				console.log(fuelConsumed);
+			  	Logger.debug(`Fuel consumerd: ${fuelConsumed}`);
 				calculate(`fuel${type}`, 'Default', fuelConsumed)
 					.then((emissions) => {
-						console.log(`Emissions: ${JSON.stringify(emissions, null ,4)}`);
+                      	Logger.info(`Emissions: ${JSON.stringify(emissions, null ,4)}`);
 						res.status(200).json({
 							success: true,
 							emissions: emissions,
@@ -120,12 +122,12 @@ router.post('/vehicle', async(req, res) => {
 						});
 					})
 					.catch((err) => {
-						console.log(`Error: ${err}`);
+                      	Logger.error(`Error: ${err}`);
                         res.sendJsonError(`Unable to find emissions for fuel type ${type}`, 404);
 					});
 			})
 			.catch((err) => {
-				console.log(`Error: ${err}`);
+              	Logger.error(`Error: ${err}`);
                 res.sendJsonError(err, 400);
 			});
 
@@ -142,11 +144,11 @@ router.post('/trains', async(req, res) => {
 	if (origin && destination) {
         distance(origin, destination, 'transit')
 			.then((val) => {
-				console.log("CalculatedDistance= " + val);
-				console.log("CalculatedPassengers= " + passengers);
+              	Logger.debug(`CalculatedDistance: ${val}`);
+              	Logger.debug(`CalculatedPassengers: ${passengers}`);
 				calculate(type, 'Default', val, passengers)
 					.then((emissions) => {
-						console.log(`Emissions: ${JSON.stringify(emissions, null ,4)}`);
+                      	Logger.info(`Emissions: ${JSON.stringify(emissions, null ,4)}`);
 						res.status(200).json({
 							success: true,
 							emissions: emissions,
@@ -154,12 +156,12 @@ router.post('/trains', async(req, res) => {
 						});
 					})
 					.catch((err) => {
-						console.log(`Error: ${err}`);
+                      	Logger.error(`Error: ${err}`);
                         res.sendJsonError(`Unable to find emissions for fuel type ${type}`, 404);
                     });
 			})
 			.catch((err) => {
-				console.log(`Error: ${err}`);
+              	Logger.error(`Error: ${err}`);
                 res.sendJsonError(err, 400);
             });
 
@@ -174,7 +176,7 @@ router.post('/poultry', async(req, res) => {
 	if (type) {
 		calculate(type, region, quantity)
 			.then((emissions) => {
-				console.log(emissions);
+              	Logger.debug(`Emissions: ${emissions}`);
 				res.status(200).json({
 					success: true,
 					emissions: emissions,
@@ -196,7 +198,7 @@ router.post('/appliances', (req, res) => {
 	let running_time = req.body["running_time"] || 1;
 	calculate(`${appliance} ${type}`, region, quantity, running_time)
 		.then((emissions) => {
-			// console.log(`\nTotal Emissions: ${emissions.CO2}`);
+          	Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
 			res.status(200).json({
 				success: true,
 				emissions: emissions,
@@ -204,7 +206,7 @@ router.post('/appliances', (req, res) => {
 			});
 		})
 		.catch((err) => {
-			console.log(`Error: ${err}`);
+          	Logger.error(`Error: ${err}`);
             res.sendJsonError(err, 400);
 		});
 });
@@ -215,7 +217,7 @@ router.post('/quantity', (req, res) => {
 	let emission = req.body["emission"] || 1;
 	calculate(itemName, region, 1, 1)
 		.then((emissions) => {
-			// console.log(`\nTotal Emissions: ${emissions.CO2}`);
+          	Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
 			if(emissions.CO2){
 				let quantity = Math.abs(emission/emissions.CO2);
 				res.status(200).json({
@@ -226,7 +228,7 @@ router.post('/quantity', (req, res) => {
 			}
 		})
 		.catch((err) => {
-			console.log(`Error: ${err}`);
+          	Logger.error(`Error: ${err}`);
             res.sendJsonError(`Unable to find quantity for item type ${itemName}`, 400);
         });
 });
