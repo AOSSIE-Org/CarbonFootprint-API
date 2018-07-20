@@ -1,4 +1,6 @@
 require('dotenv').config();
+// get the logger
+const Logger  = require('@framework/Logger');
 // redis setup
 const redis = require('redis');
 const REDIS_HOST = process.env.REDIS_HOST || '127.0.0.1';
@@ -10,9 +12,9 @@ const redisClient = redis.createClient(redisLink);
 
 redisClient
     // if the connection throws an error
-    .on('error', err => console.log(`Redis connection failed: ${err}`))
+    .on('error', err => Logger.error(`Redis connection failed: ${err}`))
     // if the connection is connected
-    .on('connect', () => console.log('Redis connected successfully'));
+    .on('connect', () => Logger.info('Redis connected successfully'));
 
 module.exports = {
   redis: redis,

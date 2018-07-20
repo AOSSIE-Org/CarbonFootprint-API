@@ -19,7 +19,7 @@
   "dependencies": {
     "@google/maps": "^0.4.1",
     "asynckit": "^0.4.0",
-    "auth0-js": "^8.8.0",
+    "auth0-js": "^9.3.2",
     "axios": "^0.18.0",
     "body-parser": "~1.16.0",
     "cookie-parser": "~1.4.3",
