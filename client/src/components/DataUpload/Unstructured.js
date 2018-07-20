@@ -7,6 +7,8 @@ import ProfileSettings from '../Profile/ProfileSettings';
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
 
+const BASE_URL = (process.env.NODE_ENV == 'production') ? 'https://carbonhub.xyz/v1/' : 'http://localhost:3080/v1/';
+
 export default class Unstructured extends Component {
     constructor(props) {
         super(props);
@@ -32,7 +34,7 @@ export default class Unstructured extends Component {
         axios.post('suggestedData/upload', data)
             .then((response) => {
                 response.json().then((body) => {
-                    this.setState({ fileURL: `http://localhost:3080/${body.file}` })
+                    this.setState({ fileURL: BASE_URL+body.file})
                 })
             })
         this.setState({ redirect: true })
