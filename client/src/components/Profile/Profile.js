@@ -3,6 +3,7 @@ import { Grid } from 'semantic-ui-react';
 import ProfilePicture from './ProfilePicture';
 import ProfileSettings from './ProfileSettings';
 import Sidebar from './Sidebar';
+import DataUpload from '../DataUpload/DataUpload';
 
 /* Extended react.Component class as Profile */
 

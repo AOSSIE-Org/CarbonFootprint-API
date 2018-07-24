@@ -1,5 +1,8 @@
 image: node:latest
 
+services:
+  - redis:4.0.0
+
 cache:
   paths:
     - node_modules/
