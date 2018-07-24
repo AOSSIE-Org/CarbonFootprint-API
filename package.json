@@ -19,7 +19,7 @@
   "dependencies": {
     "@google/maps": "^0.4.1",
     "asynckit": "^0.4.0",
-    "auth0-js": "^8.8.0",
+    "auth0-js": "^9.3.2",
     "axios": "^0.18.0",
     "babel-plugin-transform-remove-strict-mode": "0.0.2",
     "babel-preset-stage-2": "^6.24.1",
@@ -48,6 +48,7 @@
     "react-jsonschema-form": "^1.0.3",
     "react-router-dom": "^4.1.1",
     "semantic-ui-react": "^0.81.0",
+    "redis": "^2.8.0",
     "serve-favicon": "~2.3.2",
     "topojson-client": "^3.0.0",
     "uuid": "^3.1.0",
