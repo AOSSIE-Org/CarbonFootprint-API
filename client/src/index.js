@@ -9,7 +9,11 @@ import Profile from "./components/Profile/Profile";
 import Loading from "./components/Loading/Loading";
 import Auth from './Auth/Auth';
 import Explorer from './components/Explorer/Explorer'
+import DataUpload from './components/DataUpload/DataUpload'
+import Structured from './components/DataUpload/Structured';
+import Unstructured from './components/DataUpload/Unstructured';
 import history from './history';
+import DataVerify from './components/DataUpload/DataVerify';
 
 const auth = new Auth();
 
@@ -24,31 +28,59 @@ export default class App extends React.Component {
         return (
             <BrowserRouter>
                 <div style={styles.app}>
-                    <Header auth={auth}/>
+                    <Header auth={auth} />
                     <Body>
-                    <Switch>
-                        <Route exact path="/" component={Visuals}/>
-                        <Route path="/visuals/:type" component={Graph}/>
-                        <Route path="/profile" render={(props) => (
-                            !auth.isAuthenticated() ? (
-                                    <Redirect to="/"/>
+                        <Switch>
+                            <Route exact path="/" component={Visuals} />
+                            <Route path="/visuals/:type" component={Graph} />
+                            <Route path="/profile" render={(props) => (
+                                !auth.isAuthenticated() ? (
+                                    <Redirect to="/" />
                                 ) : (
-                                    <Profile auth={auth}/>
-                                )
-                        )}/>
-                        <Route path="/explorer" render={(props) => (
-                            !auth.isAuthenticated() ? (
-                                    <Redirect to="/"/>
+                                        <Profile auth={auth} />
+                                    )
+                            )} />
+                            <Route path="/explorer" render={(props) => (
+                                !auth.isAuthenticated() ? (
+                                    <Redirect to="/" />
                                 ) : (
-                                    <Explorer />
-                                )
-                        )}/>
-                        <Route path="/callback" render={(props) => {
-                            handleAuthentication(props);
-                            return <Loading {...props} />
-                        }}/>
-                        <Route component={NotFound}/>
-                    </Switch>
+                                        <Explorer />
+                                    )
+                            )} />
+                            <Route path="/DataUpload" render={(props) => (
+                                !auth.isAuthenticated() ? (
+                                    <Redirect to="/" />
+                                ) : (
+                                        <DataUpload auth={auth} />
+                                    )
+                            )} />
+                            <Route path="/structured" render={(props) => (
+                                !auth.isAuthenticated() ? (
+                                    <Redirect to="/" />
+                                ) : (
+                                        <Structured auth={auth} />
+                                    )
+                            )} />
+                            <Route path="/dataVerify" render={(props) => (
+                                !auth.isAuthenticated() ? (
+                                    <Redirect to="/" />
+                                ) : (
+                                        <DataVerify auth={auth} />
+                                    )
+                            )} />
+                            <Route path="/unstructured" render={(props) => (
+                                !auth.isAuthenticated() ? (
+                                    <Redirect to="/" />
+                                ) : (
+                                        <Unstructured auth={auth} />
+                                    )
+                            )} />
+                            <Route path="/callback" render={(props) => {
+                                handleAuthentication(props);
+                                return <Loading {...props} />
+                            }} />
+                            <Route component={NotFound} />
+                        </Switch>
                     </Body>
                 </div>
             </BrowserRouter>
@@ -57,11 +89,11 @@ export default class App extends React.Component {
 }
 
 const styles = {
-  app: {
-    width: "100%",
-    minHeight: "100%",
-    display: "flex",
-    flexDirection: "column",
-    overflow: "hidden"
-  }
+    app: {
+        width: "100%",
+        minHeight: "100%",
+        display: "flex",
+        flexDirection: "column",
+        overflow: "hidden"
+    }
 };

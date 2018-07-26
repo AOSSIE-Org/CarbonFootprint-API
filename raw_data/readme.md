@@ -1,5 +1,5 @@
 # Data Source
-Electricty specific data extracted from the "Electricity-specific-emission-factors-for-grid-electricity pdf".
+Electricity specific data extracted from the "Electricity-specific-emission-factors-for-grid-electricity pdf".
 ### electricity_emission.csv
 * Column 1 - Country Name
 * Colunm 2 - Emissions of CO2 in kilogram from per kilowatt of electricity generated.

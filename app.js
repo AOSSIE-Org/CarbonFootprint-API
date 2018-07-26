@@ -1,4 +1,5 @@
 require('dotenv').config();
+require('module-alias/register');
 
 // get required dependencies
 var express = require('express');
@@ -9,8 +10,9 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var jwt = require('express-jwt');
 var jwks = require('jwks-rsa');
-var customErrorFunctions = require('./framework/CustomRouterFunctions');
-var helmet = require('helmet')
+var customErrorFunctions = require('@framework/CustomRouterFunctions');
+var helmet = require('helmet');
+var Logger = require('@framework/Logger');
 
 // database setup
 var mongoose = require('mongoose');
@@ -19,23 +21,24 @@ mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${proc
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
-  console.log('Connection to database established successfully');
+  Logger.info('Connection to database established successfully');
 });
 
 // If the connection throws an error
 mongoose.connection.on('error', (err) => {
-  console.log('Error connecting to database: ' + err);
+  Logger.error(`Error connecting to database: ${err}`);
 });
 
 // When the connection is disconnected
 mongoose.connection.on('disconnected', () => {
-  console.log('Database disconnected');
+  Logger.info('Database disconnected');
 });
 
 
 // get different routes required
 var index = require('./routes/index');
 var emissions = require('./api/v1/routes/emissionRoutes');
+var suggestedData = require('./routes/suggestedData');
 var auth = require('./api/auth/routes/apikeyRoute');
 
 const Auth = require('./api/auth/controllers/authController');
@@ -89,6 +92,8 @@ v1.use('/', emissions);
 var authroute = express.Router();
 authroute.use(jwtCheck);
 authroute.use('/', auth);
+
+app.use('/suggestedData', suggestedData);
 
 // Use v1 router for all the API requests adhering to version 1
 app.use('/v1', v1);

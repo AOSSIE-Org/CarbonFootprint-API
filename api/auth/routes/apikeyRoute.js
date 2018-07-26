@@ -1,6 +1,8 @@
 const express = require('express');
 // get the auth controller
 const { auth } = require('../controllers/authController');
+// get the logger
+const Logger  = require('@framework/Logger');
 
 const router = express.Router();
 
@@ -10,14 +12,14 @@ const router = express.Router();
  * @type POST
  */
 router.post('/key', (req, res) => {
-  console.log(req.user);
+    Logger.debug(`User: ${JSON.stringify(req.user)}`);
     let email_verified = req.user.email_verified;
     let email = req.user.email;
     let action = "create";
     if (email_verified) {
         let create = auth(email, action);
         create.then(result => {
-                console.log(result);
+                Logger.debug(`Create key result: ${result}`);
                 res.status(200).json({
                     success: true,
                     apikey: result.apikey,
@@ -43,7 +45,7 @@ router.get('/key', (req, res) => {
     let action = "retrieve";
     let retrieve = auth(email, action);
     retrieve.then(result => {
-            console.log(result);
+            Logger.debug(`Retrieve key result: ${result}`);
             res.status(200).json({
                 success: true,
                 apikey: result.apikey,

@@ -41,7 +41,7 @@ export default class ExplorerResponse extends Component {
     // formatting the JSON
     let outputText = this.formatJSON(this.props.response, 4);
     return (
-        <Segment style={styles.body}>
+        <Segment style={styles.body} raised>
           <Form>
             <TextArea autoHeight style={styles.textArea} value={outputText} readOnly/>
           </Form>

@@ -3,7 +3,7 @@
 // Use command `node createElectricityJSON.js | cat > electricity.json` 
 // to get a JSON file
 
-const data = require('./electricty_emission.json');
+const data = require('./electricity_emission.json');
  
 console.log(`[
     {
