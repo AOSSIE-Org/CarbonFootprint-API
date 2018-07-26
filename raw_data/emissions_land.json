@@ -1,0 +1,8327 @@
+[
+  {
+    "Domain": "Land Use Total",
+    "Area": "Afghanistan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Afghanistan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Afghanistan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Afghanistan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Albania",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-513.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Albania",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "155.6306"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Albania",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Albania",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "2.9041"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Algeria",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-440"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Algeria",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Algeria",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Algeria",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "American Samoa",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "8.1253"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "American Samoa",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "American Samoa",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "American Samoa",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Andorra",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-21.7505"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Andorra",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Andorra",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Andorra",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Angola",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "34466.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Angola",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "111.0311"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Angola",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "96.5742"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Angola",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "49480.4415"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Anguilla",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "3.6989"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Anguilla",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Anguilla",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Anguilla",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Antigua and Barbuda",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "6.5908"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Antigua and Barbuda",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Antigua and Barbuda",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Antigua and Barbuda",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Argentina",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "88733.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Argentina",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "994.3238"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Argentina",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "755.9477"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Argentina",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "5080.5427"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Armenia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-146.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Armenia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Armenia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Armenia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Aruba",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.2825"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Aruba",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Aruba",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Aruba",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Australia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-72969.3182"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Australia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "3149.6216"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Australia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "28.5867"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Australia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "549.6435"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Austria",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-5133.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Austria",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "234.49"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Austria",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "7.0263"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Austria",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.0632"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Azerbaijan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-8474.4708"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Azerbaijan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Azerbaijan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Azerbaijan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bahamas",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "346.3514"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bahamas",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bahamas",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bahamas",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bahrain",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-4.8592"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bahrain",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bahrain",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bahrain",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bangladesh",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-2530"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bangladesh",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "31226.1666"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bangladesh",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "24.3173"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bangladesh",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "151.0107"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Barbados",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "4.2369"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Barbados",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Barbados",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Barbados",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Belarus",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-25520"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Belarus",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "24708.1041"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Belarus",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "107.1511"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Belarus",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "107.7821"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Belgium",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-2882"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Belgium",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "245.2608"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Belgium",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "8.0433"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Belgium",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.9652"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Belize",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1466.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Belize",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "542.4819"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Belize",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "42.4332"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Belize",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "506.5187"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Benin",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "10538"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Benin",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Benin",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Benin",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bermuda",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-0.2227"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bermuda",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bermuda",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bermuda",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bhutan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-3813.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bhutan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bhutan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bhutan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bolivia (Plurinational State of)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "83741.7377"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bolivia (Plurinational State of)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bolivia (Plurinational State of)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bolivia (Plurinational State of)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bosnia and Herzegovina",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bosnia and Herzegovina",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "135.1009"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bosnia and Herzegovina",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bosnia and Herzegovina",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "19.4448"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Botswana",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "7333.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Botswana",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Botswana",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "102.542"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Botswana",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "21154.2977"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Brazil",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "294030"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Brazil",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "35.1049"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Brazil",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "2.0104"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Brazil",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "63.9272"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "British Virgin Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "3.7445"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "British Virgin Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "British Virgin Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "British Virgin Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Brunei Darussalam",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Brunei Darussalam",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "379.8492"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Brunei Darussalam",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Brunei Darussalam",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "64.736"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bulgaria",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-11366.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bulgaria",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1440.5431"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bulgaria",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Bulgaria",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "30.7337"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Burkina Faso",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "8800"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Burkina Faso",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Burkina Faso",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Burkina Faso",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Burundi",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-1606"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Burundi",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "3067.6063"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Burundi",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "5.8"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Burundi",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "716.5752"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cabo Verde",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-168.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cabo Verde",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cabo Verde",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cabo Verde",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cambodia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "22733.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cambodia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cambodia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cambodia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cameroon",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "108533.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cameroon",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1078.2178"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cameroon",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cameroon",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1176.8368"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Canada",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "6883.8256"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Canada",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "12937.1755"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Canada",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1440.3149"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Canada",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "44209.3495"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cayman Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "8.5411"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cayman Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cayman Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cayman Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Central African Republic",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "13200"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Central African Republic",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Central African Republic",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Central African Republic",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "4.0887"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Chad",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "24933.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Chad",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Chad",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Chad",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Channel Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-0.7495"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Channel Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Channel Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Chile",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-105380"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Chile",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "115.1722"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Chile",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "19.3965"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Chile",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "6.5572"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "China, Hong Kong SAR",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "China, Hong Kong SAR",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "China, Hong Kong SAR",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "China, Macao SAR",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "China, Macao SAR",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "China, Macao SAR",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "China, mainland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-313720"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "China, mainland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1051.5414"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "China, mainland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "163.9303"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "China, mainland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "335.7682"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "China, Taiwan Province of",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "China, Taiwan Province of",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "China, Taiwan Province of",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Colombia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "14388"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Colombia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "3058.098"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Colombia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "504.2539"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Colombia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "70.4779"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Comoros",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "66"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Comoros",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Comoros",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Comoros",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Congo",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "8066.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Congo",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1135.0779"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Congo",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "28.9071"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Congo",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "2805.1378"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cook Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.0061"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cook Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cook Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cook Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Costa Rica",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-11440"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Costa Rica",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "69.981"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Costa Rica",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Costa Rica",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "13.6411"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Côte d'Ivoire",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "3666.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Côte d'Ivoire",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1697.2028"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Côte d'Ivoire",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "67.6466"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Côte d'Ivoire",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "33.0109"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Croatia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-3842.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Croatia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Croatia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Croatia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1.0362"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cuba",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-14006.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cuba",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cuba",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cuba",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cyprus",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-304.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cyprus",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cyprus",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Cyprus",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Czechia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-12686.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Czechia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "190.2392"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Czechia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.0049"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Czechia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.2052"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Democratic People's Republic of Korea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "13933.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Democratic People's Republic of Korea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "201.2234"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Democratic People's Republic of Korea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.5267"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Democratic People's Republic of Korea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "2.7323"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Democratic Republic of the Congo",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "145200"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Democratic Republic of the Congo",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "28.2438"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Democratic Republic of the Congo",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "4.707"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Democratic Republic of the Congo",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1111.5038"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Denmark",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-2200"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Denmark",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1700.0908"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Denmark",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "5.0992"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Denmark",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.5224"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Djibouti",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Djibouti",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Djibouti",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Djibouti",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Dominica",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "116.2538"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Dominica",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Dominica",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Dominica",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Dominican Republic",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-8726.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Dominican Republic",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Dominican Republic",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Dominican Republic",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Ecuador",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "33733.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Ecuador",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "149.5549"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Ecuador",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Ecuador",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Egypt",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-218.5333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Egypt",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Egypt",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Egypt",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "El Salvador",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "731.8309"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "El Salvador",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "El Salvador",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "El Salvador",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Equatorial Guinea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "5353.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Equatorial Guinea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "6.9399"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Equatorial Guinea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.0394"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Equatorial Guinea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.0371"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Eritrea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "660.0869"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Eritrea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Eritrea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Eritrea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.2391"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Estonia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-1422.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Estonia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "5741.498"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Estonia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "64.8805"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Estonia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "11.2288"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Ethiopia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-2651.4151"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Ethiopia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "12101.1247"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Ethiopia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "335.5601"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Ethiopia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "6030.3017"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Falkland Islands (Malvinas)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Falkland Islands (Malvinas)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Falkland Islands (Malvinas)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Falkland Islands (Malvinas)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "5.2673"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Faroe Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Faroe Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Faroe Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Faroe Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Fiji",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-3124.4881"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Fiji",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "127.0786"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Fiji",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Fiji",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Finland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Finland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "5619.3261"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Finland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "95.4891"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Finland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "13.5109"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "France",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-85800"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "France",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "6699.9281"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "France",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "257.2709"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "France",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "7.6426"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "French Guiana",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "733.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "French Guiana",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "165.2099"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "French Guiana",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.0786"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "French Guiana",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "48.0809"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "French Polynesia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "French Polynesia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "French Polynesia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "French Polynesia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Gabon",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-94600"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Gabon",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "392.0697"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Gabon",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "3.7859"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Gabon",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "13.946"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Gambia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-359.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Gambia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Gambia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Gambia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Georgia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Georgia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Georgia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Georgia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Germany",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-49866.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Germany",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "11979.0875"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Germany",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "520.5564"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Germany",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "10.4217"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Ghana",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "8103.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Ghana",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "145.661"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Ghana",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Ghana",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1.0853"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Gibraltar",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Gibraltar",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Gibraltar",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Gibraltar",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Greece",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-2200"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Greece",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1491.9223"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Greece",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.4907"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Greece",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "24.1184"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Greenland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Greenland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Greenland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Greenland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Grenada",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Grenada",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Grenada",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Grenada",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guadeloupe",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.7694"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guadeloupe",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guadeloupe",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guadeloupe",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guam",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guam",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guam",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guam",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guatemala",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "7480"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guatemala",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guatemala",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guatemala",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guinea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "12466.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guinea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "655.683"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guinea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "54.6407"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guinea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "590.8292"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guinea-Bissau",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1466.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guinea-Bissau",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guinea-Bissau",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guinea-Bissau",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guyana",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "11000"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guyana",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "3198.5397"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guyana",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "297.4658"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Guyana",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "2347.2645"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Haiti",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "137.8667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Haiti",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Haiti",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Haiti",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Holy See",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Holy See",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Honduras",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "27866.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Honduras",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Honduras",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Honduras",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Hungary",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-3593.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Hungary",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "7819.0713"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Hungary",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "10.8104"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Hungary",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "12.9473"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Iceland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-183.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Iceland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Iceland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Iceland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "2.6615"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "India",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "112200"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "India",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "8483.9433"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "India",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "25.6473"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "India",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "7.6357"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Indonesia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "998066.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Indonesia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "285366.73"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Indonesia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "8981.7785"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Indonesia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "132077.3667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Iran (Islamic Republic of)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "67075.58"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Iran (Islamic Republic of)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Iran (Islamic Republic of)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Iran (Islamic Republic of)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Iraq",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-2040.4279"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Iraq",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Iraq",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Iraq",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Ireland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-1392.8026"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Ireland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "477.1939"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Ireland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "476.3363"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Ireland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "44.9716"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Isle of Man",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-3.2418"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Isle of Man",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "4.5892"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Isle of Man",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.1837"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Isle of Man",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Israel",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-73.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Israel",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Israel",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Israel",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Italy",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-35200"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Italy",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "905.3891"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Italy",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "7.0261"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Italy",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1.23"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Jamaica",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "146.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Jamaica",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "630.5464"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Jamaica",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Jamaica",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "20.36"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Japan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "387.2573"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Japan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "7027.4702"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Japan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "24.5272"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Japan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "20.7609"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Jordan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Jordan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Jordan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Jordan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Kazakhstan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Kazakhstan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Kazakhstan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Kazakhstan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.9477"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Kenya",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-31533.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Kenya",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "262.4004"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Kenya",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1.1831"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Kenya",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "416.6056"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Kiribati",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-5.6644"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Kiribati",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Kiribati",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Kiribati",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Kuwait",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-15.4578"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Kuwait",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Kuwait",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Kuwait",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Kyrgyzstan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-836.1747"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Kyrgyzstan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Kyrgyzstan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Kyrgyzstan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Lao People's Democratic Republic",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "16199.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Lao People's Democratic Republic",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Lao People's Democratic Republic",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Lao People's Democratic Republic",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Latvia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-16060"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Latvia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "5182.6792"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Latvia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "31.8743"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Latvia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1.9793"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Lebanon",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-4.4"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Lebanon",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Lebanon",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Lebanon",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Lesotho",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-198"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Lesotho",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Lesotho",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Lesotho",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Liberia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1180.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Liberia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "115.7465"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Liberia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "14.4288"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Liberia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Libya",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Libya",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Libya",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Libya",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Liechtenstein",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Liechtenstein",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Liechtenstein",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Lithuania",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-5940"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Lithuania",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "6344.93"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Lithuania",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "29.9943"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Lithuania",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "5.6186"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Luxembourg",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Luxembourg",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "3.6237"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Luxembourg",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.0201"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Luxembourg",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Madagascar",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "14666.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Madagascar",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1320.9368"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Madagascar",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1360.0168"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Madagascar",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "2925.8332"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Malawi",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "2933.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Malawi",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "549.5241"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Malawi",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.9315"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Malawi",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "499.535"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Malaysia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-182600"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Malaysia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "36508.538"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Malaysia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "961.4822"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Malaysia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "5068.3453"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Maldives",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "2.3989"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Maldives",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Maldives",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Maldives",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mali",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "6541.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mali",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mali",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mali",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Malta",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Malta",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Malta",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Malta",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Marshall Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Marshall Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Marshall Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Marshall Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Martinique",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Martinique",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Martinique",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Martinique",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mauritania",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-1518"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mauritania",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mauritania",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mauritania",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mauritius",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-14.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mauritius",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mauritius",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mauritius",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mayotte",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "47.2519"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mayotte",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mayotte",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mayotte",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mexico",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "7333.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mexico",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mexico",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mexico",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Micronesia (Federated States of)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-29.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Micronesia (Federated States of)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Micronesia (Federated States of)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Micronesia (Federated States of)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Monaco",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Monaco",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mongolia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "15948.234"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mongolia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "7795.8057"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mongolia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "331.0624"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mongolia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1799.5366"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Montenegro",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Montenegro",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "61.897"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Montenegro",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Montenegro",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "6.0873"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Montserrat",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1.6813"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Montserrat",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Montserrat",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Montserrat",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Morocco",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-1466.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Morocco",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Morocco",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Morocco",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mozambique",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "37400"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mozambique",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mozambique",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Mozambique",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Myanmar",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "75335.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Myanmar",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "18258.4409"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Myanmar",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "50.9834"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Myanmar",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1355.2215"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Namibia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "7890.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Namibia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Namibia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Namibia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1002.782"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Nauru",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Nauru",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Nauru",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Nauru",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Nepal",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Nepal",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "5234.306"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Nepal",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "218.747"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Nepal",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "280.7116"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Netherlands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-2493.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Netherlands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "3505.0552"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Netherlands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "148.285"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Netherlands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.0085"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Netherlands Antilles (former)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.7936"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Netherlands Antilles (former)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Netherlands Antilles (former)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Netherlands Antilles (former)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "New Caledonia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "New Caledonia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "New Caledonia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "New Caledonia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "New Zealand",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-18333.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "New Zealand",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "2845.9635"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "New Zealand",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "84.7898"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "New Zealand",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1.7035"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Nicaragua",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "8.8"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Nicaragua",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "55.7201"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Nicaragua",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Nicaragua",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "5.217"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Niger",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1466.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Niger",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Niger",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Niger",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Nigeria",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "183333.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Nigeria",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Nigeria",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Nigeria",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Niue",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "48.3831"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Niue",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Niue",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Niue",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Norfolk Island",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-0.0419"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Norfolk Island",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Norfolk Island",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Norfolk Island",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Northern Mariana Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "60.9402"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Northern Mariana Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Northern Mariana Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Northern Mariana Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Norway",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-24200"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Norway",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "2135.3111"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Norway",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "113.6347"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Norway",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "4.9751"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Occupied Palestinian Territory",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-22.6797"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Occupied Palestinian Territory",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Occupied Palestinian Territory",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Occupied Palestinian Territory",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Oman",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-4.9465"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Oman",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Oman",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Oman",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Pakistan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "28600"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Pakistan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Pakistan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Pakistan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Palau",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Palau",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Palau",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Palau",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Panama",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "7333.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Panama",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1208.1421"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Panama",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Panama",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "9.8023"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Papua New Guinea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "2200"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Papua New Guinea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "42029.13"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Papua New Guinea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "2.1925"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Papua New Guinea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "8369.9063"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Paraguay",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "141641.5272"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Paraguay",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Paraguay",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Paraguay",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Peru",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "70315.9339"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Peru",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1357.5122"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Peru",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Peru",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "184.0377"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Philippines",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-60353.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Philippines",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Philippines",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Philippines",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Pitcairn Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.0014"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Pitcairn Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Pitcairn Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Pitcairn Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Poland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-40333.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Poland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "14867.0973"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Poland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "356.5576"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Poland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "18.7484"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Portugal",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1321.4943"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Portugal",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "427.3947"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Portugal",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "3.2631"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Portugal",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "7.7965"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Puerto Rico",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-2200"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Puerto Rico",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "279.6811"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Puerto Rico",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Puerto Rico",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.6377"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Qatar",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Qatar",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Qatar",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Qatar",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Republic of Korea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-39600"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Republic of Korea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Republic of Korea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Republic of Korea",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Republic of Moldova",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-1254"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Republic of Moldova",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "165.0825"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Republic of Moldova",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1.024"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Republic of Moldova",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Réunion",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Réunion",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Réunion",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Réunion",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Romania",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-165066"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Romania",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1155.005"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Romania",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Romania",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "416.0611"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Russian Federation",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-220000"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Russian Federation",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "29854.9179"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Russian Federation",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1562.6945"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Russian Federation",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "57205.2352"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Rwanda",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-2412.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Rwanda",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "2730.9495"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Rwanda",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "13.517"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Rwanda",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "307.9114"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saint Helena, Ascension and Tristan da Cunha",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1.149"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saint Helena, Ascension and Tristan da Cunha",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saint Helena, Ascension and Tristan da Cunha",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saint Helena, Ascension and Tristan da Cunha",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saint Kitts and Nevis",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "7.3978"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saint Kitts and Nevis",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saint Kitts and Nevis",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saint Kitts and Nevis",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saint Lucia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "33.3019"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saint Lucia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saint Lucia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saint Lucia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saint Pierre and Miquelon",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "2.8484"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saint Pierre and Miquelon",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.1821"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saint Pierre and Miquelon",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saint Pierre and Miquelon",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saint Vincent and the Grenadines",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "18.1582"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saint Vincent and the Grenadines",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saint Vincent and the Grenadines",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saint Vincent and the Grenadines",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Samoa",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.0686"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Samoa",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Samoa",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Samoa",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "San Marino",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "San Marino",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "San Marino",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Sao Tome and Principe",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Sao Tome and Principe",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Sao Tome and Principe",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Sao Tome and Principe",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saudi Arabia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saudi Arabia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saudi Arabia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Saudi Arabia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Senegal",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "4400"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Senegal",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Senegal",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Senegal",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Serbia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-1320"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Serbia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "3.1292"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Serbia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.022"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Serbia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.0663"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Seychelles",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Seychelles",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Seychelles",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Seychelles",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Sierra Leone",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "5683.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Sierra Leone",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Sierra Leone",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Sierra Leone",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Singapore",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "44.0969"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Singapore",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Singapore",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Singapore",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Slovakia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-5133.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Slovakia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "43.0457"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Slovakia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.0026"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Slovakia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.7586"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Slovenia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-6306.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Slovenia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "61.9472"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Slovenia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Slovenia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Solomon Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1980"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Solomon Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Solomon Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Solomon Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Somalia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "13200"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Somalia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Somalia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Somalia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "South Africa",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "South Africa",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "247.9442"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "South Africa",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "6.8902"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "South Africa",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "777.4202"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Spain",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-33586.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Spain",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "409.0497"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Spain",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1.4463"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Spain",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "22.995"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Sri Lanka",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1444.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Sri Lanka",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "2995.7008"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Sri Lanka",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Sri Lanka",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.3504"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Sudan (former)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "44062.2156"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Sudan (former)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "750.318"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Sudan (former)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "154.1435"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Sudan (former)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "122275.6442"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Suriname",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1788.6"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Suriname",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1961.0172"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Suriname",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "71.2869"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Suriname",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "544.1085"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Svalbard and Jan Mayen Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Svalbard and Jan Mayen Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Svalbard and Jan Mayen Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Eswatini",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "146.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Eswatini",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Eswatini",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Eswatini",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "41.6654"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Sweden",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-8433.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Sweden",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "4147.9207"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Sweden",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "29.2586"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Sweden",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "22.5533"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Switzerland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-1833.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Switzerland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "268.4803"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Switzerland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "12.5555"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Switzerland",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Syrian Arab Republic",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-1214.3637"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Syrian Arab Republic",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Syrian Arab Republic",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Syrian Arab Republic",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Tajikistan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Tajikistan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Tajikistan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Tajikistan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Thailand",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "12466.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Thailand",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1141.5254"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Thailand",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1.2544"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Thailand",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "16.2915"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "The former Yugoslav Republic of Macedonia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "The former Yugoslav Republic of Macedonia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "The former Yugoslav Republic of Macedonia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "The former Yugoslav Republic of Macedonia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.0024"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Timor-Leste",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "6098.7431"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Timor-Leste",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Timor-Leste",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Timor-Leste",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Togo",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "6556.4388"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Togo",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Togo",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Togo",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Tokelau",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Tokelau",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Tokelau",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Tokelau",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Tonga",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Tonga",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Tonga",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Tonga",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Trinidad and Tobago",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-501.4682"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Trinidad and Tobago",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Trinidad and Tobago",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Trinidad and Tobago",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Tunisia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-293.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Tunisia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Tunisia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Tunisia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Turkey",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-64870.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Turkey",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.5897"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Turkey",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Turkey",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.4463"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Turkmenistan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Turkmenistan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Turkmenistan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Turkmenistan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Turks and Caicos Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "23.1349"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Turks and Caicos Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Turks and Caicos Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Turks and Caicos Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Tuvalu",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.0004"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Tuvalu",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Tuvalu",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Tuvalu",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Uganda",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "17600"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Uganda",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "6404.479"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Uganda",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "68.3697"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Uganda",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1353.6437"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Ukraine",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-18333.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Ukraine",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "12399.96"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Ukraine",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "117.3968"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Ukraine",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "866.906"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "United Arab Emirates",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-212.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "United Arab Emirates",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "United Arab Emirates",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "United Arab Emirates",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "United Kingdom",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-15400"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "United Kingdom",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "2800.835"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "United Kingdom",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "383.3797"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "United Kingdom",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "30.7744"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "United Republic of Tanzania",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "161054.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "United Republic of Tanzania",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "6720.8926"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "United Republic of Tanzania",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "164.9479"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "United Republic of Tanzania",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "40145.8097"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "United States of America",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-192866.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "United States of America",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "72180.1516"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "United States of America",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1828.3139"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "United States of America",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "57810.0538"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "United States Virgin Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-80.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "United States Virgin Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "United States Virgin Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "United States Virgin Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Uruguay",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-10663.0866"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Uruguay",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "102.7357"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Uruguay",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "39.6088"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Uruguay",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "8.0696"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Uzbekistan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-16426.6667"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Uzbekistan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Uzbekistan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Uzbekistan",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Vanuatu",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-14.0072"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Vanuatu",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Vanuatu",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Vanuatu",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Venezuela (Bolivarian Republic of)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "61347.73"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Venezuela (Bolivarian Republic of)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1384.7702"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Venezuela (Bolivarian Republic of)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "15.5784"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Venezuela (Bolivarian Republic of)",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "3162.8778"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Viet Nam",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-28600"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Viet Nam",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "8906.4935"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Viet Nam",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0.9329"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Viet Nam",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "227.4119"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Wallis and Futuna Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "7.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Wallis and Futuna Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Wallis and Futuna Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Wallis and Futuna Islands",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Western Sahara",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Western Sahara",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Western Sahara",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Western Sahara",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Yemen",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Yemen",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Yemen",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Yemen",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Zambia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "5770.5853"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Zambia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "9619.61"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Zambia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "2950.6998"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Zambia",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "247087.7382"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Zimbabwe",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "36043.3333"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Zimbabwe",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Zimbabwe",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "Zimbabwe",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "0"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "China",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Forest land",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "-313720"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "China",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Cropland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "1051.5414"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "China",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Grassland",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "163.9303"
+  },
+  {
+    "Domain": "Land Use Total",
+    "Area": "China",
+    "Element": "Net emissions/removals (CO2)",
+    "Item": "Burning Biomass",
+    "Year": "2015",
+    "Unit": "gigagrams",
+    "Value": "335.7682"
+  }
+]
