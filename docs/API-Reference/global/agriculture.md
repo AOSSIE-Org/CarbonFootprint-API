@@ -3,9 +3,17 @@
 {% method %}
 This route enables you to find global emissions for a number of agricultural processes for a certain country. The agricultural processes included are:
 
-| | | | | | | | | |
-| - | - | - | - | - | - | - | - | - |
-| Enteric Fermentation | Manure Management | Rice Cultivation | Synthetic Fertilizers | Manure applied to Soils | Manure left on Pasture | Crop Residues | Cultivation of Organic Soils | Burning - Crop residues | Burning - Savanna |
+| | | | |
+| - | - | - | - |
+| Enteric Fermentation | Manure Management | Rice Cultivation | Synthetic Fertilizers |
+
+| | | | |
+| - | - | - | - |
+| Manure applied to Soils | Manure left on Pasture | Crop Residues | Cultivation of Organic Soils |
+
+| | |
+| - | - |
+| Burning - Crop residues | Burning - Savanna |
 
 ###**Parameters**
 

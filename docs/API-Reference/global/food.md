@@ -3,10 +3,17 @@
 {% method %}
 This route enables you to find global emissions for a number of food items for a certain country. The food items included are:
 
-| | | | | | | | | | |
-| - | - | - | - | - | - | - | - | - | - |
-| Cereals excluding rice | Rice, paddy | Meat, cattle | Milk, whole fresh cow | Meat, goat | Milk, whole fresh goat | Meat, sheep | Milk, whole fresh sheep | Milk, whole fresh camel | Meat, chicken | Eggs, hen, in shell |
+| | | | |
+| - | - | - | - |
+| Cereals excluding rice | Rice, paddy | Meat, cattle | Milk, whole fresh cow |
 
+| | | | |
+| - | - | - | - |
+| Meat, goat | Milk, whole fresh goat | Meat, sheep | Milk, whole fresh sheep |
+
+| | | |
+| - | - | - |
+| Milk, whole fresh camel | Meat, chicken | Eggs, hen, in shell |
 ###**Parameters**
 
 | Name        | Type           | Description  |
