@@ -1,0 +1,50 @@
+[
+    {
+        "country": "TV",
+        "name": "Toga Village",
+        "lat": "-6.28764",
+        "lng": "176.31472"
+    },
+    {
+        "country": "TV",
+        "name": "Tanrake Village",
+        "lat": "-7.24562",
+        "lng": "177.14511"
+    },
+    {
+        "country": "TV",
+        "name": "Kulia Village",
+        "lat": "-6.10819",
+        "lng": "177.33393"
+    },
+    {
+        "country": "TV",
+        "name": "Funafuti",
+        "lat": "-8.52425",
+        "lng": "179.19417"
+    },
+    {
+        "country": "TV",
+        "name": "Asau Village",
+        "lat": "-7.49026",
+        "lng": "178.68016"
+    },
+    {
+        "country": "TV",
+        "name": "Savave Village",
+        "lat": "-8.02731",
+        "lng": "178.31351"
+    },
+    {
+        "country": "TV",
+        "name": "Alapi Village",
+        "lat": "-8.52074",
+        "lng": "179.1968"
+    },
+    {
+        "country": "TV",
+        "name": "Fakaifou Village",
+        "lat": "-8.51758",
+        "lng": "179.20094"
+    }
+]

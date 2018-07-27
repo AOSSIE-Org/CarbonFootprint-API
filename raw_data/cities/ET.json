@@ -1,0 +1,656 @@
+[
+    {
+        "country": "ET",
+        "name": "Ziway",
+        "lat": "7.93333",
+        "lng": "38.71667"
+    },
+    {
+        "country": "ET",
+        "name": "Yirga \u2018Alem",
+        "lat": "6.75",
+        "lng": "38.41667"
+    },
+    {
+        "country": "ET",
+        "name": "Yabelo",
+        "lat": "4.88333",
+        "lng": "38.08333"
+    },
+    {
+        "country": "ET",
+        "name": "Werota",
+        "lat": "11.91667",
+        "lng": "37.7"
+    },
+    {
+        "country": "ET",
+        "name": "Were Ilu",
+        "lat": "10.58964",
+        "lng": "39.43767"
+    },
+    {
+        "country": "ET",
+        "name": "Wenji",
+        "lat": "8.45",
+        "lng": "39.28333"
+    },
+    {
+        "country": "ET",
+        "name": "Wendo",
+        "lat": "6.6",
+        "lng": "38.41667"
+    },
+    {
+        "country": "ET",
+        "name": "Turmi",
+        "lat": "4.96667",
+        "lng": "36.48333"
+    },
+    {
+        "country": "ET",
+        "name": "Tulu Bolo",
+        "lat": "8.66667",
+        "lng": "38.21667"
+    },
+    {
+        "country": "ET",
+        "name": "Tippi",
+        "lat": "7.2",
+        "lng": "35.45"
+    },
+    {
+        "country": "ET",
+        "name": "Sirre",
+        "lat": "8.31667",
+        "lng": "39.48333"
+    },
+    {
+        "country": "ET",
+        "name": "Shashemene",
+        "lat": "7.2",
+        "lng": "38.6"
+    },
+    {
+        "country": "ET",
+        "name": "Shambu",
+        "lat": "9.56667",
+        "lng": "37.1"
+    },
+    {
+        "country": "ET",
+        "name": "Shakiso",
+        "lat": "5.76494",
+        "lng": "38.91006"
+    },
+    {
+        "country": "ET",
+        "name": "Sendafa",
+        "lat": "9.15203",
+        "lng": "39.02335"
+    },
+    {
+        "country": "ET",
+        "name": "Sebeta",
+        "lat": "8.91667",
+        "lng": "38.61667"
+    },
+    {
+        "country": "ET",
+        "name": "Robit",
+        "lat": "12.01667",
+        "lng": "39.63333"
+    },
+    {
+        "country": "ET",
+        "name": "Nejo",
+        "lat": "9.5",
+        "lng": "35.5"
+    },
+    {
+        "country": "ET",
+        "name": "Nazret",
+        "lat": "8.55",
+        "lng": "39.26667"
+    },
+    {
+        "country": "ET",
+        "name": "Mojo",
+        "lat": "8.58679",
+        "lng": "39.12111"
+    },
+    {
+        "country": "ET",
+        "name": "Mizan Teferi",
+        "lat": "6.99865",
+        "lng": "35.58879"
+    },
+    {
+        "country": "ET",
+        "name": "Metu",
+        "lat": "8.3",
+        "lng": "35.58333"
+    },
+    {
+        "country": "ET",
+        "name": "Metahara",
+        "lat": "8.9",
+        "lng": "39.91667"
+    },
+    {
+        "country": "ET",
+        "name": "Mendi",
+        "lat": "9.8",
+        "lng": "35.1"
+    },
+    {
+        "country": "ET",
+        "name": "Mek'ele",
+        "lat": "13.49667",
+        "lng": "39.47528"
+    },
+    {
+        "country": "ET",
+        "name": "Mega",
+        "lat": "4.05",
+        "lng": "38.3"
+    },
+    {
+        "country": "ET",
+        "name": "Maych\u2019ew",
+        "lat": "12.7875",
+        "lng": "39.54222"
+    },
+    {
+        "country": "ET",
+        "name": "Lobuni",
+        "lat": "4.83333",
+        "lng": "36.1"
+    },
+    {
+        "country": "ET",
+        "name": "Leku",
+        "lat": "6.87309",
+        "lng": "38.44425"
+    },
+    {
+        "country": "ET",
+        "name": "Lalibela",
+        "lat": "12.03219",
+        "lng": "39.04756"
+    },
+    {
+        "country": "ET",
+        "name": "Korem",
+        "lat": "12.50583",
+        "lng": "39.52278"
+    },
+    {
+        "country": "ET",
+        "name": "Konso",
+        "lat": "5.25",
+        "lng": "37.48333"
+    },
+    {
+        "country": "ET",
+        "name": "K\u2019olito",
+        "lat": "7.31667",
+        "lng": "38.08333"
+    },
+    {
+        "country": "ET",
+        "name": "Kofele",
+        "lat": "7.06667",
+        "lng": "38.78333"
+    },
+    {
+        "country": "ET",
+        "name": "Kibre Mengist",
+        "lat": "5.88333",
+        "lng": "38.98333"
+    },
+    {
+        "country": "ET",
+        "name": "Kemise",
+        "lat": "10.71668",
+        "lng": "39.86997"
+    },
+    {
+        "country": "ET",
+        "name": "Kombolcha",
+        "lat": "11.08155",
+        "lng": "39.74339"
+    },
+    {
+        "country": "ET",
+        "name": "Jinka",
+        "lat": "5.65",
+        "lng": "36.65"
+    },
+    {
+        "country": "ET",
+        "name": "Jimma",
+        "lat": "7.67344",
+        "lng": "36.83441"
+    },
+    {
+        "country": "ET",
+        "name": "Jijiga",
+        "lat": "9.35",
+        "lng": "42.8"
+    },
+    {
+        "country": "ET",
+        "name": "Inda Silase",
+        "lat": "14.10307",
+        "lng": "38.28289"
+    },
+    {
+        "country": "ET",
+        "name": "Huruta",
+        "lat": "8.15",
+        "lng": "39.35"
+    },
+    {
+        "country": "ET",
+        "name": "Hosa\u2019ina",
+        "lat": "7.54978",
+        "lng": "37.85374"
+    },
+    {
+        "country": "ET",
+        "name": "Hirna",
+        "lat": "9.21667",
+        "lng": "41.1"
+    },
+    {
+        "country": "ET",
+        "name": "Harar",
+        "lat": "9.31387",
+        "lng": "42.11815"
+    },
+    {
+        "country": "ET",
+        "name": "Hagere Selam",
+        "lat": "6.48333",
+        "lng": "38.51667"
+    },
+    {
+        "country": "ET",
+        "name": "Hagere Hiywet",
+        "lat": "8.98333",
+        "lng": "37.85"
+    },
+    {
+        "country": "ET",
+        "name": "Guder",
+        "lat": "8.96667",
+        "lng": "37.76667"
+    },
+    {
+        "country": "ET",
+        "name": "Gore",
+        "lat": "8.15",
+        "lng": "35.53333"
+    },
+    {
+        "country": "ET",
+        "name": "Gondar",
+        "lat": "12.6",
+        "lng": "37.46667"
+    },
+    {
+        "country": "ET",
+        "name": "Goba",
+        "lat": "7.01667",
+        "lng": "39.98333"
+    },
+    {
+        "country": "ET",
+        "name": "Waliso",
+        "lat": "8.53417",
+        "lng": "37.96515"
+    },
+    {
+        "country": "ET",
+        "name": "Ginir",
+        "lat": "7.13952",
+        "lng": "40.71083"
+    },
+    {
+        "country": "ET",
+        "name": "Gimbi",
+        "lat": "9.17031",
+        "lng": "35.83491"
+    },
+    {
+        "country": "ET",
+        "name": "Gidole",
+        "lat": "5.65",
+        "lng": "37.36667"
+    },
+    {
+        "country": "ET",
+        "name": "Gewane",
+        "lat": "10.16658",
+        "lng": "40.64689"
+    },
+    {
+        "country": "ET",
+        "name": "Genet",
+        "lat": "9.06667",
+        "lng": "38.5"
+    },
+    {
+        "country": "ET",
+        "name": "Gelemso",
+        "lat": "8.81667",
+        "lng": "40.51667"
+    },
+    {
+        "country": "ET",
+        "name": "Gedo",
+        "lat": "9.01667",
+        "lng": "37.45"
+    },
+    {
+        "country": "ET",
+        "name": "Gebre Guracha",
+        "lat": "9.8",
+        "lng": "38.4"
+    },
+    {
+        "country": "ET",
+        "name": "Gambela",
+        "lat": "8.25",
+        "lng": "34.58333"
+    },
+    {
+        "country": "ET",
+        "name": "Finote Selam",
+        "lat": "10.7",
+        "lng": "37.26667"
+    },
+    {
+        "country": "ET",
+        "name": "Fiche",
+        "lat": "9.8",
+        "lng": "38.73333"
+    },
+    {
+        "country": "ET",
+        "name": "Felege Neway",
+        "lat": "6.3",
+        "lng": "36.88333"
+    },
+    {
+        "country": "ET",
+        "name": "Dubti",
+        "lat": "11.73292",
+        "lng": "41.082"
+    },
+    {
+        "country": "ET",
+        "name": "Dodola",
+        "lat": "6.98333",
+        "lng": "39.18333"
+    },
+    {
+        "country": "ET",
+        "name": "Dire Dawa",
+        "lat": "9.59306",
+        "lng": "41.86611"
+    },
+    {
+        "country": "ET",
+        "name": "Dila",
+        "lat": "6.41667",
+        "lng": "38.31667"
+    },
+    {
+        "country": "ET",
+        "name": "Dese",
+        "lat": "11.13333",
+        "lng": "39.63333"
+    },
+    {
+        "country": "ET",
+        "name": "Dembi Dolo",
+        "lat": "8.53333",
+        "lng": "34.8"
+    },
+    {
+        "country": "ET",
+        "name": "Dejen",
+        "lat": "10.16667",
+        "lng": "38.13333"
+    },
+    {
+        "country": "ET",
+        "name": "Deder",
+        "lat": "9.31168",
+        "lng": "41.44301"
+    },
+    {
+        "country": "ET",
+        "name": "Bishoftu",
+        "lat": "8.75225",
+        "lng": "38.97846"
+    },
+    {
+        "country": "ET",
+        "name": "Debre Werk\u2019",
+        "lat": "10.66667",
+        "lng": "38.16667"
+    },
+    {
+        "country": "ET",
+        "name": "Debre Tabor",
+        "lat": "11.85",
+        "lng": "38.01667"
+    },
+    {
+        "country": "ET",
+        "name": "Debre Sina",
+        "lat": "9.84752",
+        "lng": "39.76027"
+    },
+    {
+        "country": "ET",
+        "name": "Debre Mark\u2019os",
+        "lat": "10.35",
+        "lng": "37.73333"
+    },
+    {
+        "country": "ET",
+        "name": "Debre Birhan",
+        "lat": "9.67954",
+        "lng": "39.53262"
+    },
+    {
+        "country": "ET",
+        "name": "Debark\u2019",
+        "lat": "13.15611",
+        "lng": "37.89806"
+    },
+    {
+        "country": "ET",
+        "name": "Dabat",
+        "lat": "12.98417",
+        "lng": "37.765"
+    },
+    {
+        "country": "ET",
+        "name": "Butajira",
+        "lat": "8.11667",
+        "lng": "38.36667"
+    },
+    {
+        "country": "ET",
+        "name": "Bure",
+        "lat": "10.7",
+        "lng": "37.06667"
+    },
+    {
+        "country": "ET",
+        "name": "Bonga",
+        "lat": "7.28333",
+        "lng": "36.23333"
+    },
+    {
+        "country": "ET",
+        "name": "Boditi",
+        "lat": "6.96667",
+        "lng": "37.86667"
+    },
+    {
+        "country": "ET",
+        "name": "Bichena",
+        "lat": "10.45",
+        "lng": "38.2"
+    },
+    {
+        "country": "ET",
+        "name": "Bedesa",
+        "lat": "8.9",
+        "lng": "40.78333"
+    },
+    {
+        "country": "ET",
+        "name": "Bedele",
+        "lat": "8.456",
+        "lng": "36.35302"
+    },
+    {
+        "country": "ET",
+        "name": "Bati",
+        "lat": "11.19152",
+        "lng": "40.01675"
+    },
+    {
+        "country": "ET",
+        "name": "Bako",
+        "lat": "5.78333",
+        "lng": "36.56667"
+    },
+    {
+        "country": "ET",
+        "name": "Bahir Dar",
+        "lat": "11.59364",
+        "lng": "37.39077"
+    },
+    {
+        "country": "ET",
+        "name": "Awash",
+        "lat": "8.98333",
+        "lng": "40.16667"
+    },
+    {
+        "country": "ET",
+        "name": "Hawassa",
+        "lat": "7.06205",
+        "lng": "38.47635"
+    },
+    {
+        "country": "ET",
+        "name": "Asosa",
+        "lat": "10.06667",
+        "lng": "34.53333"
+    },
+    {
+        "country": "ET",
+        "name": "Asbe Teferi",
+        "lat": "9.08569",
+        "lng": "40.86708"
+    },
+    {
+        "country": "ET",
+        "name": "Asaita",
+        "lat": "11.56838",
+        "lng": "41.43869"
+    },
+    {
+        "country": "ET",
+        "name": "Asasa",
+        "lat": "7.1",
+        "lng": "39.2"
+    },
+    {
+        "country": "ET",
+        "name": "Areka",
+        "lat": "7.06667",
+        "lng": "37.7"
+    },
+    {
+        "country": "ET",
+        "name": "Arba Minch",
+        "lat": "6.03333",
+        "lng": "37.55"
+    },
+    {
+        "country": "ET",
+        "name": "Axum",
+        "lat": "14.12109",
+        "lng": "38.72337"
+    },
+    {
+        "country": "ET",
+        "name": "Hagere Maryam",
+        "lat": "5.63418",
+        "lng": "38.23603"
+    },
+    {
+        "country": "ET",
+        "name": "Agaro",
+        "lat": "7.85",
+        "lng": "36.65"
+    },
+    {
+        "country": "ET",
+        "name": "Adis Zemen",
+        "lat": "12.11667",
+        "lng": "37.78333"
+    },
+    {
+        "country": "ET",
+        "name": "Adis \u2018Alem",
+        "lat": "9.03333",
+        "lng": "38.4"
+    },
+    {
+        "country": "ET",
+        "name": "Addis Ababa",
+        "lat": "9.02497",
+        "lng": "38.74689"
+    },
+    {
+        "country": "ET",
+        "name": "Adigrat",
+        "lat": "14.277",
+        "lng": "39.462"
+    },
+    {
+        "country": "ET",
+        "name": "Addiet Canna",
+        "lat": "11.26667",
+        "lng": "37.48333"
+    },
+    {
+        "country": "ET",
+        "name": "Abomsa",
+        "lat": "9.98333",
+        "lng": "39.98333"
+    },
+    {
+        "country": "ET",
+        "name": "Semera",
+        "lat": "11.79342",
+        "lng": "41.00578"
+    },
+    {
+        "country": "ET",
+        "name": "Sodo",
+        "lat": "6.86",
+        "lng": "37.76159"
+    }
+]

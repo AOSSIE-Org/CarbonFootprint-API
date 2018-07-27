@@ -1,0 +1,92 @@
+[
+    {
+        "country": "FO",
+        "name": "Vestmanna",
+        "lat": "62.15354",
+        "lng": "-7.17291"
+    },
+    {
+        "country": "FO",
+        "name": "V\u00e1gur",
+        "lat": "61.47324",
+        "lng": "-6.81185"
+    },
+    {
+        "country": "FO",
+        "name": "Tv\u00f8royri",
+        "lat": "61.55557",
+        "lng": "-6.81109"
+    },
+    {
+        "country": "FO",
+        "name": "T\u00f3rshavn",
+        "lat": "62.00973",
+        "lng": "-6.77164"
+    },
+    {
+        "country": "FO",
+        "name": "S\u00f8rv\u00e1gur",
+        "lat": "62.09726",
+        "lng": "-7.3577"
+    },
+    {
+        "country": "FO",
+        "name": "Sandur",
+        "lat": "61.8425",
+        "lng": "-6.80778"
+    },
+    {
+        "country": "FO",
+        "name": "Mi\u00f0v\u00e1gur",
+        "lat": "62.05111",
+        "lng": "-7.19389"
+    },
+    {
+        "country": "FO",
+        "name": "Kunoy",
+        "lat": "62.30388",
+        "lng": "-6.64754"
+    },
+    {
+        "country": "FO",
+        "name": "Kollafj\u00f8r\u00f0ur",
+        "lat": "62.11167",
+        "lng": "-6.91067"
+    },
+    {
+        "country": "FO",
+        "name": "Klaksv\u00edk",
+        "lat": "62.22655",
+        "lng": "-6.58901"
+    },
+    {
+        "country": "FO",
+        "name": "Hoyv\u00edk",
+        "lat": "62.03407",
+        "lng": "-6.78127"
+    },
+    {
+        "country": "FO",
+        "name": "Fuglafj\u00f8r\u00f0ur",
+        "lat": "62.24398",
+        "lng": "-6.81395"
+    },
+    {
+        "country": "FO",
+        "name": "Ei\u00f0i",
+        "lat": "62.2993",
+        "lng": "-7.09245"
+    },
+    {
+        "country": "FO",
+        "name": "Argir",
+        "lat": "61.99595",
+        "lng": "-6.77154"
+    },
+    {
+        "country": "FO",
+        "name": "Eystur",
+        "lat": "62.20907",
+        "lng": "-6.75247"
+    }
+]

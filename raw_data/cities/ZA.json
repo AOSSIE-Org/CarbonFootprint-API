@@ -1,0 +1,2012 @@
+[
+    {
+        "country": "ZA",
+        "name": "Roodepoort",
+        "lat": "-26.1625",
+        "lng": "27.8725"
+    },
+    {
+        "country": "ZA",
+        "name": "Zoar",
+        "lat": "-33.4956",
+        "lng": "21.44373"
+    },
+    {
+        "country": "ZA",
+        "name": "Zeerust",
+        "lat": "-25.53695",
+        "lng": "26.07512"
+    },
+    {
+        "country": "ZA",
+        "name": "Zastron",
+        "lat": "-30.30225",
+        "lng": "27.08395"
+    },
+    {
+        "country": "ZA",
+        "name": "Wolmaransstad",
+        "lat": "-27.1974",
+        "lng": "25.98311"
+    },
+    {
+        "country": "ZA",
+        "name": "White River",
+        "lat": "-25.33177",
+        "lng": "31.01166"
+    },
+    {
+        "country": "ZA",
+        "name": "Witbank",
+        "lat": "-25.87133",
+        "lng": "29.23323"
+    },
+    {
+        "country": "ZA",
+        "name": "Winburg",
+        "lat": "-28.51805",
+        "lng": "27.00933"
+    },
+    {
+        "country": "ZA",
+        "name": "Willowmore",
+        "lat": "-33.29265",
+        "lng": "23.48954"
+    },
+    {
+        "country": "ZA",
+        "name": "Williston",
+        "lat": "-31.34048",
+        "lng": "20.91544"
+    },
+    {
+        "country": "ZA",
+        "name": "Whittlesea",
+        "lat": "-32.17588",
+        "lng": "26.82437"
+    },
+    {
+        "country": "ZA",
+        "name": "Westonaria",
+        "lat": "-26.31905",
+        "lng": "27.6486"
+    },
+    {
+        "country": "ZA",
+        "name": "Wesselsbron",
+        "lat": "-27.8549",
+        "lng": "26.36583"
+    },
+    {
+        "country": "ZA",
+        "name": "Welkom",
+        "lat": "-27.97742",
+        "lng": "26.73506"
+    },
+    {
+        "country": "ZA",
+        "name": "Wartburg",
+        "lat": "-29.43184",
+        "lng": "30.57567"
+    },
+    {
+        "country": "ZA",
+        "name": "Warrenton",
+        "lat": "-28.11396",
+        "lng": "24.84753"
+    },
+    {
+        "country": "ZA",
+        "name": "Warmbaths",
+        "lat": "-24.88333",
+        "lng": "28.28333"
+    },
+    {
+        "country": "ZA",
+        "name": "Arniston",
+        "lat": "-34.66739",
+        "lng": "20.23086"
+    },
+    {
+        "country": "ZA",
+        "name": "Vryheid",
+        "lat": "-27.76952",
+        "lng": "30.79165"
+    },
+    {
+        "country": "ZA",
+        "name": "Vryburg",
+        "lat": "-26.95659",
+        "lng": "24.7284"
+    },
+    {
+        "country": "ZA",
+        "name": "Vredefort",
+        "lat": "-27.00805",
+        "lng": "27.3646"
+    },
+    {
+        "country": "ZA",
+        "name": "Vrede",
+        "lat": "-27.42573",
+        "lng": "29.16585"
+    },
+    {
+        "country": "ZA",
+        "name": "Volksrust",
+        "lat": "-27.36541",
+        "lng": "29.88175"
+    },
+    {
+        "country": "ZA",
+        "name": "Virginia",
+        "lat": "-28.10391",
+        "lng": "26.86593"
+    },
+    {
+        "country": "ZA",
+        "name": "Villiers",
+        "lat": "-27.03026",
+        "lng": "28.60061"
+    },
+    {
+        "country": "ZA",
+        "name": "Viljoenskroon",
+        "lat": "-27.20841",
+        "lng": "26.94855"
+    },
+    {
+        "country": "ZA",
+        "name": "Victoria West",
+        "lat": "-31.40364",
+        "lng": "23.11461"
+    },
+    {
+        "country": "ZA",
+        "name": "Vereeniging",
+        "lat": "-26.67313",
+        "lng": "27.92615"
+    },
+    {
+        "country": "ZA",
+        "name": "Ventersdorp",
+        "lat": "-26.31401",
+        "lng": "26.82223"
+    },
+    {
+        "country": "ZA",
+        "name": "Ventersburg",
+        "lat": "-28.08561",
+        "lng": "27.13814"
+    },
+    {
+        "country": "ZA",
+        "name": "Vanderbijlpark",
+        "lat": "-26.71171",
+        "lng": "27.83795"
+    },
+    {
+        "country": "ZA",
+        "name": "Utrecht",
+        "lat": "-27.65862",
+        "lng": "30.32166"
+    },
+    {
+        "country": "ZA",
+        "name": "Upington",
+        "lat": "-28.44776",
+        "lng": "21.25612"
+    },
+    {
+        "country": "ZA",
+        "name": "Mthatha",
+        "lat": "-31.58893",
+        "lng": "28.78443"
+    },
+    {
+        "country": "ZA",
+        "name": "Umkomaas",
+        "lat": "-30.20674",
+        "lng": "30.79776"
+    },
+    {
+        "country": "ZA",
+        "name": "Ulundi",
+        "lat": "-28.33523",
+        "lng": "31.41617"
+    },
+    {
+        "country": "ZA",
+        "name": "Uitenhage",
+        "lat": "-33.75757",
+        "lng": "25.3971"
+    },
+    {
+        "country": "ZA",
+        "name": "Tzaneen",
+        "lat": "-23.83322",
+        "lng": "30.16351"
+    },
+    {
+        "country": "ZA",
+        "name": "Tugela Ferry",
+        "lat": "-28.74649",
+        "lng": "30.45126"
+    },
+    {
+        "country": "ZA",
+        "name": "Trompsburg",
+        "lat": "-30.03363",
+        "lng": "25.78041"
+    },
+    {
+        "country": "ZA",
+        "name": "Thulamahashi",
+        "lat": "-24.72459",
+        "lng": "31.19939"
+    },
+    {
+        "country": "ZA",
+        "name": "Thohoyandou",
+        "lat": "-22.94564",
+        "lng": "30.48497"
+    },
+    {
+        "country": "ZA",
+        "name": "Theunissen",
+        "lat": "-28.41098",
+        "lng": "26.70107"
+    },
+    {
+        "country": "ZA",
+        "name": "Thabazimbi",
+        "lat": "-24.59165",
+        "lng": "27.41155"
+    },
+    {
+        "country": "ZA",
+        "name": "Thaba Nchu",
+        "lat": "-29.20932",
+        "lng": "26.83898"
+    },
+    {
+        "country": "ZA",
+        "name": "Tembisa",
+        "lat": "-25.99636",
+        "lng": "28.2268"
+    },
+    {
+        "country": "ZA",
+        "name": "Taung",
+        "lat": "-27.53113",
+        "lng": "24.78659"
+    },
+    {
+        "country": "ZA",
+        "name": "Tarkastad",
+        "lat": "-32.00893",
+        "lng": "26.25935"
+    },
+    {
+        "country": "ZA",
+        "name": "Swellendam",
+        "lat": "-34.02262",
+        "lng": "20.44171"
+    },
+    {
+        "country": "ZA",
+        "name": "Sundumbili",
+        "lat": "-29.13371",
+        "lng": "31.39752"
+    },
+    {
+        "country": "ZA",
+        "name": "Stutterheim",
+        "lat": "-32.57076",
+        "lng": "27.42396"
+    },
+    {
+        "country": "ZA",
+        "name": "Stilfontein",
+        "lat": "-26.84493",
+        "lng": "26.76829"
+    },
+    {
+        "country": "ZA",
+        "name": "Stanger",
+        "lat": "-29.32816",
+        "lng": "31.28954"
+    },
+    {
+        "country": "ZA",
+        "name": "Standerton",
+        "lat": "-26.93366",
+        "lng": "29.24152"
+    },
+    {
+        "country": "ZA",
+        "name": "Springs",
+        "lat": "-26.25",
+        "lng": "28.4"
+    },
+    {
+        "country": "ZA",
+        "name": "Soweto",
+        "lat": "-26.26781",
+        "lng": "27.85849"
+    },
+    {
+        "country": "ZA",
+        "name": "Somerset East",
+        "lat": "-32.72173",
+        "lng": "25.58804"
+    },
+    {
+        "country": "ZA",
+        "name": "Siyabuswa",
+        "lat": "-25.11319",
+        "lng": "29.04454"
+    },
+    {
+        "country": "ZA",
+        "name": "Senekal",
+        "lat": "-28.31971",
+        "lng": "27.62082"
+    },
+    {
+        "country": "ZA",
+        "name": "Secunda",
+        "lat": "-26.55",
+        "lng": "29.16667"
+    },
+    {
+        "country": "ZA",
+        "name": "Scottburgh",
+        "lat": "-30.28666",
+        "lng": "30.75316"
+    },
+    {
+        "country": "ZA",
+        "name": "Schweizer-Reneke",
+        "lat": "-27.18871",
+        "lng": "25.32931"
+    },
+    {
+        "country": "ZA",
+        "name": "Sasolburg",
+        "lat": "-26.81358",
+        "lng": "27.81695"
+    },
+    {
+        "country": "ZA",
+        "name": "Rustenburg",
+        "lat": "-25.66756",
+        "lng": "27.24208"
+    },
+    {
+        "country": "ZA",
+        "name": "Riversdale",
+        "lat": "-34.09345",
+        "lng": "21.25725"
+    },
+    {
+        "country": "ZA",
+        "name": "Ritchie",
+        "lat": "-29.03801",
+        "lng": "24.60278"
+    },
+    {
+        "country": "ZA",
+        "name": "Richmond",
+        "lat": "-29.87196",
+        "lng": "30.27235"
+    },
+    {
+        "country": "ZA",
+        "name": "Richards Bay",
+        "lat": "-28.78301",
+        "lng": "32.03768"
+    },
+    {
+        "country": "ZA",
+        "name": "Reitz",
+        "lat": "-27.80138",
+        "lng": "28.42726"
+    },
+    {
+        "country": "ZA",
+        "name": "Randfontein",
+        "lat": "-26.1844",
+        "lng": "27.70203"
+    },
+    {
+        "country": "ZA",
+        "name": "Randburg",
+        "lat": "-26.0941",
+        "lng": "28.00123"
+    },
+    {
+        "country": "ZA",
+        "name": "Qumbu",
+        "lat": "-31.16304",
+        "lng": "28.87056"
+    },
+    {
+        "country": "ZA",
+        "name": "Queenstown",
+        "lat": "-31.89756",
+        "lng": "26.87533"
+    },
+    {
+        "country": "ZA",
+        "name": "Queensdale",
+        "lat": "-31.87101",
+        "lng": "26.97862"
+    },
+    {
+        "country": "ZA",
+        "name": "Prince Albert",
+        "lat": "-33.22476",
+        "lng": "22.02673"
+    },
+    {
+        "country": "ZA",
+        "name": "Prieska",
+        "lat": "-29.66803",
+        "lng": "22.74251"
+    },
+    {
+        "country": "ZA",
+        "name": "Pretoria",
+        "lat": "-25.74486",
+        "lng": "28.18783"
+    },
+    {
+        "country": "ZA",
+        "name": "Mokopane",
+        "lat": "-24.19436",
+        "lng": "29.00974"
+    },
+    {
+        "country": "ZA",
+        "name": "Potchefstroom",
+        "lat": "-26.71667",
+        "lng": "27.1"
+    },
+    {
+        "country": "ZA",
+        "name": "Postmasburg",
+        "lat": "-28.33392",
+        "lng": "23.06541"
+    },
+    {
+        "country": "ZA",
+        "name": "Port Shepstone",
+        "lat": "-30.74137",
+        "lng": "30.45499"
+    },
+    {
+        "country": "ZA",
+        "name": "Port Saint John\u2019s",
+        "lat": "-31.62291",
+        "lng": "29.54477"
+    },
+    {
+        "country": "ZA",
+        "name": "Port Elizabeth",
+        "lat": "-33.96109",
+        "lng": "25.61494"
+    },
+    {
+        "country": "ZA",
+        "name": "Port Alfred",
+        "lat": "-33.58601",
+        "lng": "26.88329"
+    },
+    {
+        "country": "ZA",
+        "name": "Pongola",
+        "lat": "-27.37808",
+        "lng": "31.61904"
+    },
+    {
+        "country": "ZA",
+        "name": "Plettenberg Bay",
+        "lat": "-34.05274",
+        "lng": "23.3716"
+    },
+    {
+        "country": "ZA",
+        "name": "Piet Retief",
+        "lat": "-27.00706",
+        "lng": "30.81323"
+    },
+    {
+        "country": "ZA",
+        "name": "Polokwane",
+        "lat": "-23.90449",
+        "lng": "29.46885"
+    },
+    {
+        "country": "ZA",
+        "name": "Pietermaritzburg",
+        "lat": "-29.61679",
+        "lng": "30.39278"
+    },
+    {
+        "country": "ZA",
+        "name": "Phuthaditjhaba",
+        "lat": "-28.52423",
+        "lng": "28.81582"
+    },
+    {
+        "country": "ZA",
+        "name": "Phalaborwa",
+        "lat": "-23.94299",
+        "lng": "31.14107"
+    },
+    {
+        "country": "ZA",
+        "name": "Petrusville",
+        "lat": "-30.08113",
+        "lng": "24.6593"
+    },
+    {
+        "country": "ZA",
+        "name": "Peddie",
+        "lat": "-33.20059",
+        "lng": "27.11385"
+    },
+    {
+        "country": "ZA",
+        "name": "Paulpietersburg",
+        "lat": "-27.42426",
+        "lng": "30.81689"
+    },
+    {
+        "country": "ZA",
+        "name": "Parys",
+        "lat": "-26.9033",
+        "lng": "27.45727"
+    },
+    {
+        "country": "ZA",
+        "name": "Pampierstad",
+        "lat": "-27.78324",
+        "lng": "24.68768"
+    },
+    {
+        "country": "ZA",
+        "name": "Oudtshoorn",
+        "lat": "-33.60047",
+        "lng": "22.19955"
+    },
+    {
+        "country": "ZA",
+        "name": "Orkney",
+        "lat": "-26.98023",
+        "lng": "26.67272"
+    },
+    {
+        "country": "ZA",
+        "name": "Orania",
+        "lat": "-29.81381",
+        "lng": "24.41205"
+    },
+    {
+        "country": "ZA",
+        "name": "Orange Farm",
+        "lat": "-26.48333",
+        "lng": "27.86667"
+    },
+    {
+        "country": "ZA",
+        "name": "Modimolle",
+        "lat": "-24.7",
+        "lng": "28.4"
+    },
+    {
+        "country": "ZA",
+        "name": "Noupoort",
+        "lat": "-31.18736",
+        "lng": "24.94991"
+    },
+    {
+        "country": "ZA",
+        "name": "Nongoma",
+        "lat": "-27.90968",
+        "lng": "31.64817"
+    },
+    {
+        "country": "ZA",
+        "name": "Nkowakowa",
+        "lat": "-23.88782",
+        "lng": "30.28708"
+    },
+    {
+        "country": "ZA",
+        "name": "Nkandla",
+        "lat": "-28.6207",
+        "lng": "31.09067"
+    },
+    {
+        "country": "ZA",
+        "name": "Nigel",
+        "lat": "-26.43138",
+        "lng": "28.47713"
+    },
+    {
+        "country": "ZA",
+        "name": "Newcastle",
+        "lat": "-27.75796",
+        "lng": "29.9318"
+    },
+    {
+        "country": "ZA",
+        "name": "Nelspruit",
+        "lat": "-25.47448",
+        "lng": "30.97033"
+    },
+    {
+        "country": "ZA",
+        "name": "Ndwedwe",
+        "lat": "-29.51686",
+        "lng": "30.92687"
+    },
+    {
+        "country": "ZA",
+        "name": "Mutale",
+        "lat": "-22.46972",
+        "lng": "30.87533"
+    },
+    {
+        "country": "ZA",
+        "name": "Muldersdriseloop",
+        "lat": "-26.03673",
+        "lng": "27.83798"
+    },
+    {
+        "country": "ZA",
+        "name": "Mtubatuba",
+        "lat": "-28.41789",
+        "lng": "32.18483"
+    },
+    {
+        "country": "ZA",
+        "name": "Mpumalanga",
+        "lat": "-29.81292",
+        "lng": "30.63646"
+    },
+    {
+        "country": "ZA",
+        "name": "Mpophomeni",
+        "lat": "-29.56822",
+        "lng": "30.18618"
+    },
+    {
+        "country": "ZA",
+        "name": "Mount Frere",
+        "lat": "-30.90173",
+        "lng": "28.99238"
+    },
+    {
+        "country": "ZA",
+        "name": "Mount Ayliff",
+        "lat": "-30.80821",
+        "lng": "29.36644"
+    },
+    {
+        "country": "ZA",
+        "name": "Mossel Bay",
+        "lat": "-34.18307",
+        "lng": "22.14605"
+    },
+    {
+        "country": "ZA",
+        "name": "Mooirivier",
+        "lat": "-29.20824",
+        "lng": "29.9946"
+    },
+    {
+        "country": "ZA",
+        "name": "Montagu",
+        "lat": "-33.78664",
+        "lng": "20.12106"
+    },
+    {
+        "country": "ZA",
+        "name": "Mondlo",
+        "lat": "-27.98299",
+        "lng": "30.71769"
+    },
+    {
+        "country": "ZA",
+        "name": "Molteno",
+        "lat": "-31.39675",
+        "lng": "26.36246"
+    },
+    {
+        "country": "ZA",
+        "name": "Mogwase",
+        "lat": "-25.27748",
+        "lng": "27.21605"
+    },
+    {
+        "country": "ZA",
+        "name": "Modderfontein",
+        "lat": "-26.08909",
+        "lng": "28.16534"
+    },
+    {
+        "country": "ZA",
+        "name": "Mmabatho",
+        "lat": "-25.85",
+        "lng": "25.63333"
+    },
+    {
+        "country": "ZA",
+        "name": "Mkuze",
+        "lat": "-27.61641",
+        "lng": "32.03861"
+    },
+    {
+        "country": "ZA",
+        "name": "Middelburg",
+        "lat": "-31.49285",
+        "lng": "25.00633"
+    },
+    {
+        "country": "ZA",
+        "name": "Middelburg",
+        "lat": "-25.77507",
+        "lng": "29.46482"
+    },
+    {
+        "country": "ZA",
+        "name": "Meyerton",
+        "lat": "-26.55987",
+        "lng": "28.0195"
+    },
+    {
+        "country": "ZA",
+        "name": "Melmoth",
+        "lat": "-28.58664",
+        "lng": "31.39783"
+    },
+    {
+        "country": "ZA",
+        "name": "Matatiele",
+        "lat": "-30.34357",
+        "lng": "28.81161"
+    },
+    {
+        "country": "ZA",
+        "name": "Marquard",
+        "lat": "-28.66449",
+        "lng": "27.43048"
+    },
+    {
+        "country": "ZA",
+        "name": "Margate",
+        "lat": "-30.8636",
+        "lng": "30.37052"
+    },
+    {
+        "country": "ZA",
+        "name": "Marble Hall",
+        "lat": "-24.96627",
+        "lng": "29.29068"
+    },
+    {
+        "country": "ZA",
+        "name": "Mankoeng",
+        "lat": "-23.9",
+        "lng": "29.81667"
+    },
+    {
+        "country": "ZA",
+        "name": "Makapanstad",
+        "lat": "-25.24373",
+        "lng": "28.1262"
+    },
+    {
+        "country": "ZA",
+        "name": "Mahikeng",
+        "lat": "-25.86522",
+        "lng": "25.64421"
+    },
+    {
+        "country": "ZA",
+        "name": "Maclear",
+        "lat": "-31.07104",
+        "lng": "28.35183"
+    },
+    {
+        "country": "ZA",
+        "name": "Mabopane",
+        "lat": "-25.49768",
+        "lng": "28.10065"
+    },
+    {
+        "country": "ZA",
+        "name": "Lydenburg",
+        "lat": "-25.09598",
+        "lng": "30.44393"
+    },
+    {
+        "country": "ZA",
+        "name": "Louis Trichardt",
+        "lat": "-23.04385",
+        "lng": "29.90319"
+    },
+    {
+        "country": "ZA",
+        "name": "Lindley",
+        "lat": "-27.8791",
+        "lng": "27.91348"
+    },
+    {
+        "country": "ZA",
+        "name": "Lichtenburg",
+        "lat": "-26.152",
+        "lng": "26.15968"
+    },
+    {
+        "country": "ZA",
+        "name": "Libode",
+        "lat": "-31.54331",
+        "lng": "29.0164"
+    },
+    {
+        "country": "ZA",
+        "name": "Lebowakgomo",
+        "lat": "-24.2",
+        "lng": "29.5"
+    },
+    {
+        "country": "ZA",
+        "name": "Laingsburg",
+        "lat": "-33.19495",
+        "lng": "20.85872"
+    },
+    {
+        "country": "ZA",
+        "name": "Ladysmith",
+        "lat": "-28.55874",
+        "lng": "29.77896"
+    },
+    {
+        "country": "ZA",
+        "name": "Lady Grey",
+        "lat": "-30.71084",
+        "lng": "27.21613"
+    },
+    {
+        "country": "ZA",
+        "name": "Lady Frere",
+        "lat": "-31.70312",
+        "lng": "27.2329"
+    },
+    {
+        "country": "ZA",
+        "name": "Ladybrand",
+        "lat": "-29.19448",
+        "lng": "27.45739"
+    },
+    {
+        "country": "ZA",
+        "name": "Ladismith",
+        "lat": "-33.49331",
+        "lng": "21.26755"
+    },
+    {
+        "country": "ZA",
+        "name": "KwaMbonambi",
+        "lat": "-28.59827",
+        "lng": "32.0894"
+    },
+    {
+        "country": "ZA",
+        "name": "Kutloanong",
+        "lat": "-27.83333",
+        "lng": "26.75"
+    },
+    {
+        "country": "ZA",
+        "name": "Kuruman",
+        "lat": "-27.4524",
+        "lng": "23.43246"
+    },
+    {
+        "country": "ZA",
+        "name": "Kruisfontein",
+        "lat": "-34.00333",
+        "lng": "24.73142"
+    },
+    {
+        "country": "ZA",
+        "name": "Krugersdorp",
+        "lat": "-26.08577",
+        "lng": "27.77515"
+    },
+    {
+        "country": "ZA",
+        "name": "Kroonstad",
+        "lat": "-27.65036",
+        "lng": "27.23488"
+    },
+    {
+        "country": "ZA",
+        "name": "Kriel",
+        "lat": "-26.27391",
+        "lng": "29.2253"
+    },
+    {
+        "country": "ZA",
+        "name": "Koster",
+        "lat": "-25.86301",
+        "lng": "26.89756"
+    },
+    {
+        "country": "ZA",
+        "name": "Koppies",
+        "lat": "-27.24179",
+        "lng": "27.57422"
+    },
+    {
+        "country": "ZA",
+        "name": "Komga",
+        "lat": "-32.57704",
+        "lng": "27.892"
+    },
+    {
+        "country": "ZA",
+        "name": "Komatipoort",
+        "lat": "-25.43321",
+        "lng": "31.95478"
+    },
+    {
+        "country": "ZA",
+        "name": "Kokstad",
+        "lat": "-30.54723",
+        "lng": "29.42412"
+    },
+    {
+        "country": "ZA",
+        "name": "Koffiefontein",
+        "lat": "-29.40661",
+        "lng": "25.00309"
+    },
+    {
+        "country": "ZA",
+        "name": "Knysna",
+        "lat": "-34.03627",
+        "lng": "23.04713"
+    },
+    {
+        "country": "ZA",
+        "name": "Klerksdorp",
+        "lat": "-26.85213",
+        "lng": "26.66672"
+    },
+    {
+        "country": "ZA",
+        "name": "Kirkwood",
+        "lat": "-33.39829",
+        "lng": "25.44279"
+    },
+    {
+        "country": "ZA",
+        "name": "Kimberley",
+        "lat": "-28.73226",
+        "lng": "24.76232"
+    },
+    {
+        "country": "ZA",
+        "name": "Kathu",
+        "lat": "-27.69569",
+        "lng": "23.04929"
+    },
+    {
+        "country": "ZA",
+        "name": "Kareedouw",
+        "lat": "-33.9528",
+        "lng": "24.29053"
+    },
+    {
+        "country": "ZA",
+        "name": "Kakamas",
+        "lat": "-28.77341",
+        "lng": "20.6147"
+    },
+    {
+        "country": "ZA",
+        "name": "Jozini",
+        "lat": "-27.4296",
+        "lng": "32.06658"
+    },
+    {
+        "country": "ZA",
+        "name": "Johannesburg",
+        "lat": "-26.20227",
+        "lng": "28.04363"
+    },
+    {
+        "country": "ZA",
+        "name": "Jeffrey\u2019s Bay",
+        "lat": "-34.05045",
+        "lng": "24.90768"
+    },
+    {
+        "country": "ZA",
+        "name": "Jansenville",
+        "lat": "-32.94306",
+        "lng": "24.67218"
+    },
+    {
+        "country": "ZA",
+        "name": "Jan Kempdorp",
+        "lat": "-27.92246",
+        "lng": "24.83051"
+    },
+    {
+        "country": "ZA",
+        "name": "Jane Furse",
+        "lat": "-24.76021",
+        "lng": "29.86993"
+    },
+    {
+        "country": "ZA",
+        "name": "Izingolweni",
+        "lat": "-30.78409",
+        "lng": "30.12294"
+    },
+    {
+        "country": "ZA",
+        "name": "Ixopo",
+        "lat": "-30.15",
+        "lng": "30.08333"
+    },
+    {
+        "country": "ZA",
+        "name": "Impendle",
+        "lat": "-29.60049",
+        "lng": "29.86561"
+    },
+    {
+        "country": "ZA",
+        "name": "Ilinge",
+        "lat": "-31.97676",
+        "lng": "27.04267"
+    },
+    {
+        "country": "ZA",
+        "name": "Howick",
+        "lat": "-29.47795",
+        "lng": "30.23057"
+    },
+    {
+        "country": "ZA",
+        "name": "Hopetown",
+        "lat": "-29.62464",
+        "lng": "24.08518"
+    },
+    {
+        "country": "ZA",
+        "name": "Hoopstad",
+        "lat": "-27.83273",
+        "lng": "25.90833"
+    },
+    {
+        "country": "ZA",
+        "name": "Hoedspruit",
+        "lat": "-24.35122",
+        "lng": "30.95332"
+    },
+    {
+        "country": "ZA",
+        "name": "Hluhluwe",
+        "lat": "-28.01895",
+        "lng": "32.26762"
+    },
+    {
+        "country": "ZA",
+        "name": "Hlabisa",
+        "lat": "-28.14519",
+        "lng": "31.87719"
+    },
+    {
+        "country": "ZA",
+        "name": "Himeville",
+        "lat": "-29.74675",
+        "lng": "29.51361"
+    },
+    {
+        "country": "ZA",
+        "name": "Hennenman",
+        "lat": "-27.97654",
+        "lng": "27.02423"
+    },
+    {
+        "country": "ZA",
+        "name": "Hendrina",
+        "lat": "-26.15881",
+        "lng": "29.71528"
+    },
+    {
+        "country": "ZA",
+        "name": "Heilbron",
+        "lat": "-27.28115",
+        "lng": "27.9709"
+    },
+    {
+        "country": "ZA",
+        "name": "Heidelberg",
+        "lat": "-26.50476",
+        "lng": "28.35921"
+    },
+    {
+        "country": "ZA",
+        "name": "Hartswater",
+        "lat": "-27.74964",
+        "lng": "24.79712"
+    },
+    {
+        "country": "ZA",
+        "name": "Harrismith",
+        "lat": "-28.27276",
+        "lng": "29.12946"
+    },
+    {
+        "country": "ZA",
+        "name": "Harding",
+        "lat": "-30.57643",
+        "lng": "29.88401"
+    },
+    {
+        "country": "ZA",
+        "name": "Groblershoop",
+        "lat": "-28.89531",
+        "lng": "21.98378"
+    },
+    {
+        "country": "ZA",
+        "name": "Groblersdal",
+        "lat": "-25.16843",
+        "lng": "29.39412"
+    },
+    {
+        "country": "ZA",
+        "name": "Greytown",
+        "lat": "-29.06415",
+        "lng": "30.59279"
+    },
+    {
+        "country": "ZA",
+        "name": "Grahamstown",
+        "lat": "-33.30422",
+        "lng": "26.53276"
+    },
+    {
+        "country": "ZA",
+        "name": "Graaff-Reinet",
+        "lat": "-32.25215",
+        "lng": "24.53075"
+    },
+    {
+        "country": "ZA",
+        "name": "Glencoe",
+        "lat": "-28.17827",
+        "lng": "30.14702"
+    },
+    {
+        "country": "ZA",
+        "name": "Giyani",
+        "lat": "-23.30246",
+        "lng": "30.71868"
+    },
+    {
+        "country": "ZA",
+        "name": "Germiston",
+        "lat": "-26.23481",
+        "lng": "28.17665"
+    },
+    {
+        "country": "ZA",
+        "name": "George",
+        "lat": "-33.963",
+        "lng": "22.46173"
+    },
+    {
+        "country": "ZA",
+        "name": "Ga-Rankuwa",
+        "lat": "-25.61692",
+        "lng": "27.99471"
+    },
+    {
+        "country": "ZA",
+        "name": "Ganyesa",
+        "lat": "-26.59613",
+        "lng": "24.17612"
+    },
+    {
+        "country": "ZA",
+        "name": "Ga-Kgapane",
+        "lat": "-23.64378",
+        "lng": "30.22324"
+    },
+    {
+        "country": "ZA",
+        "name": "Frankfort",
+        "lat": "-27.27888",
+        "lng": "28.49696"
+    },
+    {
+        "country": "ZA",
+        "name": "Fort Beaufort",
+        "lat": "-32.77477",
+        "lng": "26.63376"
+    },
+    {
+        "country": "ZA",
+        "name": "Fochville",
+        "lat": "-26.48862",
+        "lng": "27.49387"
+    },
+    {
+        "country": "ZA",
+        "name": "Flagstaff",
+        "lat": "-31.08042",
+        "lng": "29.49522"
+    },
+    {
+        "country": "ZA",
+        "name": "Ficksburg",
+        "lat": "-28.872",
+        "lng": "27.87506"
+    },
+    {
+        "country": "ZA",
+        "name": "Estcourt",
+        "lat": "-29.01269",
+        "lng": "29.86619"
+    },
+    {
+        "country": "ZA",
+        "name": "eSikhawini",
+        "lat": "-28.87097",
+        "lng": "31.89961"
+    },
+    {
+        "country": "ZA",
+        "name": "Eshowe",
+        "lat": "-28.88649",
+        "lng": "31.4699"
+    },
+    {
+        "country": "ZA",
+        "name": "Ermelo",
+        "lat": "-26.53333",
+        "lng": "29.98333"
+    },
+    {
+        "country": "ZA",
+        "name": "Empangeni",
+        "lat": "-28.76197",
+        "lng": "31.89329"
+    },
+    {
+        "country": "ZA",
+        "name": "eMbalenhle",
+        "lat": "-26.53333",
+        "lng": "29.06667"
+    },
+    {
+        "country": "ZA",
+        "name": "Elliot",
+        "lat": "-31.33333",
+        "lng": "27.85"
+    },
+    {
+        "country": "ZA",
+        "name": "Ekuvukeni",
+        "lat": "-28.46752",
+        "lng": "30.15513"
+    },
+    {
+        "country": "ZA",
+        "name": "Edenvale",
+        "lat": "-26.14095",
+        "lng": "28.15247"
+    },
+    {
+        "country": "ZA",
+        "name": "East London",
+        "lat": "-33.01529",
+        "lng": "27.91162"
+    },
+    {
+        "country": "ZA",
+        "name": "Durban",
+        "lat": "-29.8579",
+        "lng": "31.0292"
+    },
+    {
+        "country": "ZA",
+        "name": "Dundee",
+        "lat": "-28.16678",
+        "lng": "30.23371"
+    },
+    {
+        "country": "ZA",
+        "name": "Duiwelskloof",
+        "lat": "-23.69339",
+        "lng": "30.14002"
+    },
+    {
+        "country": "ZA",
+        "name": "Driefontein",
+        "lat": "-27.0177",
+        "lng": "30.44979"
+    },
+    {
+        "country": "ZA",
+        "name": "Douglas",
+        "lat": "-29.05531",
+        "lng": "23.7743"
+    },
+    {
+        "country": "ZA",
+        "name": "Dordrecht",
+        "lat": "-31.372",
+        "lng": "27.04878"
+    },
+    {
+        "country": "ZA",
+        "name": "Dewetsdorp",
+        "lat": "-29.58274",
+        "lng": "26.66511"
+    },
+    {
+        "country": "ZA",
+        "name": "De Rust",
+        "lat": "-33.49035",
+        "lng": "22.53523"
+    },
+    {
+        "country": "ZA",
+        "name": "Deneysville",
+        "lat": "-26.8908",
+        "lng": "28.09707"
+    },
+    {
+        "country": "ZA",
+        "name": "Dendron",
+        "lat": "-23.36669",
+        "lng": "29.32371"
+    },
+    {
+        "country": "ZA",
+        "name": "Delmas",
+        "lat": "-26.1466",
+        "lng": "28.68322"
+    },
+    {
+        "country": "ZA",
+        "name": "Delareyville",
+        "lat": "-26.68638",
+        "lng": "25.45907"
+    },
+    {
+        "country": "ZA",
+        "name": "De Aar",
+        "lat": "-30.64966",
+        "lng": "24.0123"
+    },
+    {
+        "country": "ZA",
+        "name": "Dannhauser",
+        "lat": "-28.0151",
+        "lng": "30.05658"
+    },
+    {
+        "country": "ZA",
+        "name": "Dani\u00eblskuil",
+        "lat": "-28.18873",
+        "lng": "23.53951"
+    },
+    {
+        "country": "ZA",
+        "name": "Cullinan",
+        "lat": "-25.67088",
+        "lng": "28.52364"
+    },
+    {
+        "country": "ZA",
+        "name": "Creighton",
+        "lat": "-30.0272",
+        "lng": "29.83955"
+    },
+    {
+        "country": "ZA",
+        "name": "Cradock",
+        "lat": "-32.16422",
+        "lng": "25.61918"
+    },
+    {
+        "country": "ZA",
+        "name": "Colesberg",
+        "lat": "-30.71999",
+        "lng": "25.09718"
+    },
+    {
+        "country": "ZA",
+        "name": "Cofimvaba",
+        "lat": "-32.00115",
+        "lng": "27.58045"
+    },
+    {
+        "country": "ZA",
+        "name": "Clocolan",
+        "lat": "-28.91367",
+        "lng": "27.56555"
+    },
+    {
+        "country": "ZA",
+        "name": "Christiana",
+        "lat": "-27.91402",
+        "lng": "25.16111"
+    },
+    {
+        "country": "ZA",
+        "name": "Carolina",
+        "lat": "-26.06927",
+        "lng": "30.11489"
+    },
+    {
+        "country": "ZA",
+        "name": "Carnarvon",
+        "lat": "-30.96827",
+        "lng": "22.13303"
+    },
+    {
+        "country": "ZA",
+        "name": "Carletonville",
+        "lat": "-26.36094",
+        "lng": "27.39767"
+    },
+    {
+        "country": "ZA",
+        "name": "Camperdown",
+        "lat": "-29.72868",
+        "lng": "30.54256"
+    },
+    {
+        "country": "ZA",
+        "name": "Calitzdorp",
+        "lat": "-33.52755",
+        "lng": "21.6762"
+    },
+    {
+        "country": "ZA",
+        "name": "Cala",
+        "lat": "-31.52356",
+        "lng": "27.6952"
+    },
+    {
+        "country": "ZA",
+        "name": "Butterworth",
+        "lat": "-32.33083",
+        "lng": "28.14981"
+    },
+    {
+        "country": "ZA",
+        "name": "Burgersfort",
+        "lat": "-24.67554",
+        "lng": "30.32877"
+    },
+    {
+        "country": "ZA",
+        "name": "Burgersdorp",
+        "lat": "-30.99766",
+        "lng": "26.32862"
+    },
+    {
+        "country": "ZA",
+        "name": "Bultfontein",
+        "lat": "-28.28756",
+        "lng": "26.14996"
+    },
+    {
+        "country": "ZA",
+        "name": "Bronkhorstspruit",
+        "lat": "-25.81015",
+        "lng": "28.74248"
+    },
+    {
+        "country": "ZA",
+        "name": "Brits",
+        "lat": "-25.63473",
+        "lng": "27.78022"
+    },
+    {
+        "country": "ZA",
+        "name": "Breyten",
+        "lat": "-26.30176",
+        "lng": "29.98696"
+    },
+    {
+        "country": "ZA",
+        "name": "Bredasdorp",
+        "lat": "-34.53215",
+        "lng": "20.04031"
+    },
+    {
+        "country": "ZA",
+        "name": "Brandfort",
+        "lat": "-28.70008",
+        "lng": "26.45968"
+    },
+    {
+        "country": "ZA",
+        "name": "Brakpan",
+        "lat": "-26.23656",
+        "lng": "28.36938"
+    },
+    {
+        "country": "ZA",
+        "name": "Botshabelo",
+        "lat": "-29.26737",
+        "lng": "26.72595"
+    },
+    {
+        "country": "ZA",
+        "name": "Bothaville",
+        "lat": "-27.3887",
+        "lng": "26.61701"
+    },
+    {
+        "country": "ZA",
+        "name": "Boshof",
+        "lat": "-28.53914",
+        "lng": "25.23965"
+    },
+    {
+        "country": "ZA",
+        "name": "Boksburg",
+        "lat": "-26.21197",
+        "lng": "28.25958"
+    },
+    {
+        "country": "ZA",
+        "name": "Bloemhof",
+        "lat": "-27.64685",
+        "lng": "25.60697"
+    },
+    {
+        "country": "ZA",
+        "name": "Bloemfontein",
+        "lat": "-29.12107",
+        "lng": "26.214"
+    },
+    {
+        "country": "ZA",
+        "name": "Bizana",
+        "lat": "-30.85907",
+        "lng": "29.85384"
+    },
+    {
+        "country": "ZA",
+        "name": "Bhisho",
+        "lat": "-32.84721",
+        "lng": "27.44218"
+    },
+    {
+        "country": "ZA",
+        "name": "Bethlehem",
+        "lat": "-28.23078",
+        "lng": "28.30707"
+    },
+    {
+        "country": "ZA",
+        "name": "Bethal",
+        "lat": "-26.45794",
+        "lng": "29.46553"
+    },
+    {
+        "country": "ZA",
+        "name": "Bergville",
+        "lat": "-28.73122",
+        "lng": "29.35187"
+    },
+    {
+        "country": "ZA",
+        "name": "Berea",
+        "lat": "-29.85185",
+        "lng": "30.99337"
+    },
+    {
+        "country": "ZA",
+        "name": "Benoni",
+        "lat": "-26.18848",
+        "lng": "28.32078"
+    },
+    {
+        "country": "ZA",
+        "name": "Belfast",
+        "lat": "-25.68991",
+        "lng": "30.03504"
+    },
+    {
+        "country": "ZA",
+        "name": "Beaufort West",
+        "lat": "-32.35671",
+        "lng": "22.58295"
+    },
+    {
+        "country": "ZA",
+        "name": "Barkly West",
+        "lat": "-28.53537",
+        "lng": "24.52151"
+    },
+    {
+        "country": "ZA",
+        "name": "Barkly East",
+        "lat": "-30.9683",
+        "lng": "27.59567"
+    },
+    {
+        "country": "ZA",
+        "name": "Barberton",
+        "lat": "-25.78842",
+        "lng": "31.05319"
+    },
+    {
+        "country": "ZA",
+        "name": "Ballito",
+        "lat": "-29.53897",
+        "lng": "31.21439"
+    },
+    {
+        "country": "ZA",
+        "name": "Balfour",
+        "lat": "-26.66331",
+        "lng": "28.59016"
+    },
+    {
+        "country": "ZA",
+        "name": "Ashton",
+        "lat": "-33.83136",
+        "lng": "20.05595"
+    },
+    {
+        "country": "ZA",
+        "name": "Apel",
+        "lat": "-24.41445",
+        "lng": "29.74991"
+    },
+    {
+        "country": "ZA",
+        "name": "Allanridge",
+        "lat": "-27.75431",
+        "lng": "26.64382"
+    },
+    {
+        "country": "ZA",
+        "name": "Aliwal North",
+        "lat": "-30.69366",
+        "lng": "26.71141"
+    },
+    {
+        "country": "ZA",
+        "name": "Alice",
+        "lat": "-32.78749",
+        "lng": "26.8344"
+    },
+    {
+        "country": "ZA",
+        "name": "Alberton",
+        "lat": "-26.26786",
+        "lng": "28.12225"
+    },
+    {
+        "country": "ZA",
+        "name": "Albertina",
+        "lat": "-34.20544",
+        "lng": "21.58001"
+    },
+    {
+        "country": "ZA",
+        "name": "Adelaide",
+        "lat": "-32.70747",
+        "lng": "26.29564"
+    },
+    {
+        "country": "ZA",
+        "name": "Ekangala",
+        "lat": "-25.69619",
+        "lng": "28.74918"
+    },
+    {
+        "country": "ZA",
+        "name": "Midrand",
+        "lat": "-25.98953",
+        "lng": "28.12843"
+    },
+    {
+        "country": "ZA",
+        "name": "Centurion",
+        "lat": "-25.85891",
+        "lng": "28.18577"
+    },
+    {
+        "country": "ZA",
+        "name": "Worcester",
+        "lat": "-33.64651",
+        "lng": "19.44852"
+    },
+    {
+        "country": "ZA",
+        "name": "Wellington",
+        "lat": "-33.63981",
+        "lng": "19.0112"
+    },
+    {
+        "country": "ZA",
+        "name": "Vredendal",
+        "lat": "-31.66833",
+        "lng": "18.50119"
+    },
+    {
+        "country": "ZA",
+        "name": "Vredenburg",
+        "lat": "-32.90719",
+        "lng": "17.98997"
+    },
+    {
+        "country": "ZA",
+        "name": "Stellenbosch",
+        "lat": "-33.93462",
+        "lng": "18.86676"
+    },
+    {
+        "country": "ZA",
+        "name": "Springbok",
+        "lat": "-29.66434",
+        "lng": "17.8865"
+    },
+    {
+        "country": "ZA",
+        "name": "Saldanha",
+        "lat": "-33.01167",
+        "lng": "17.9442"
+    },
+    {
+        "country": "ZA",
+        "name": "Rosebank",
+        "lat": "-33.95556",
+        "lng": "18.47417"
+    },
+    {
+        "country": "ZA",
+        "name": "Robertson",
+        "lat": "-33.80342",
+        "lng": "19.88537"
+    },
+    {
+        "country": "ZA",
+        "name": "Port Nolloth",
+        "lat": "-29.25188",
+        "lng": "16.8697"
+    },
+    {
+        "country": "ZA",
+        "name": "Pofadder",
+        "lat": "-29.1283",
+        "lng": "19.39492"
+    },
+    {
+        "country": "ZA",
+        "name": "Piketberg",
+        "lat": "-32.90323",
+        "lng": "18.75704"
+    },
+    {
+        "country": "ZA",
+        "name": "Paarl",
+        "lat": "-33.73378",
+        "lng": "18.97523"
+    },
+    {
+        "country": "ZA",
+        "name": "Moorreesburg",
+        "lat": "-33.15388",
+        "lng": "18.66031"
+    },
+    {
+        "country": "ZA",
+        "name": "Malmesbury",
+        "lat": "-33.4608",
+        "lng": "18.72714"
+    },
+    {
+        "country": "ZA",
+        "name": "Lansdowne",
+        "lat": "-33.98735",
+        "lng": "18.49746"
+    },
+    {
+        "country": "ZA",
+        "name": "Kraaifontein",
+        "lat": "-33.84808",
+        "lng": "18.71723"
+    },
+    {
+        "country": "ZA",
+        "name": "Hermanus",
+        "lat": "-34.4187",
+        "lng": "19.23446"
+    },
+    {
+        "country": "ZA",
+        "name": "Grabouw",
+        "lat": "-34.15152",
+        "lng": "19.01509"
+    },
+    {
+        "country": "ZA",
+        "name": "Garies",
+        "lat": "-30.56223",
+        "lng": "17.98905"
+    },
+    {
+        "country": "ZA",
+        "name": "Constantia",
+        "lat": "-34.03139",
+        "lng": "18.41833"
+    },
+    {
+        "country": "ZA",
+        "name": "Claremont",
+        "lat": "-33.98056",
+        "lng": "18.46528"
+    },
+    {
+        "country": "ZA",
+        "name": "Clanwilliam",
+        "lat": "-32.18173",
+        "lng": "18.89217"
+    },
+    {
+        "country": "ZA",
+        "name": "Ceres",
+        "lat": "-33.36889",
+        "lng": "19.31095"
+    },
+    {
+        "country": "ZA",
+        "name": "Cape Town",
+        "lat": "-33.92584",
+        "lng": "18.42322"
+    },
+    {
+        "country": "ZA",
+        "name": "Calvinia",
+        "lat": "-31.47069",
+        "lng": "19.77601"
+    },
+    {
+        "country": "ZA",
+        "name": "Caledon",
+        "lat": "-34.22997",
+        "lng": "19.4265"
+    },
+    {
+        "country": "ZA",
+        "name": "Bergvliet",
+        "lat": "-34.04746",
+        "lng": "18.4525"
+    },
+    {
+        "country": "ZA",
+        "name": "Atlantis",
+        "lat": "-33.56668",
+        "lng": "18.48335"
+    },
+    {
+        "country": "ZA",
+        "name": "Sunset Beach",
+        "lat": "-33.85395",
+        "lng": "18.49231"
+    },
+    {
+        "country": "ZA",
+        "name": "Eden Glen",
+        "lat": "-26.1323",
+        "lng": "28.16859"
+    },
+    {
+        "country": "ZA",
+        "name": "Rondebosch",
+        "lat": "-33.96333",
+        "lng": "18.47639"
+    },
+    {
+        "country": "ZA",
+        "name": "Newlands",
+        "lat": "-33.97846",
+        "lng": "18.4481"
+    },
+    {
+        "country": "ZA",
+        "name": "Bela-Bela",
+        "lat": "-24.885",
+        "lng": "28.29417"
+    },
+    {
+        "country": "ZA",
+        "name": "Lephalale",
+        "lat": "-23.66607",
+        "lng": "27.74477"
+    },
+    {
+        "country": "ZA",
+        "name": "Musina",
+        "lat": "-22.34881",
+        "lng": "30.04074"
+    },
+    {
+        "country": "ZA",
+        "name": "Midstream",
+        "lat": "-25.91849",
+        "lng": "28.19881"
+    },
+    {
+        "country": "ZA",
+        "name": "Mandeni",
+        "lat": "-29.14691",
+        "lng": "31.41403"
+    },
+    {
+        "country": "ZA",
+        "name": "Retreat",
+        "lat": "-34.05515",
+        "lng": "18.47617"
+    },
+    {
+        "country": "ZA",
+        "name": "Graskop",
+        "lat": "-24.93174",
+        "lng": "30.84008"
+    },
+    {
+        "country": "ZA",
+        "name": "Diepsloot",
+        "lat": "-25.93312",
+        "lng": "28.01213"
+    },
+    {
+        "country": "ZA",
+        "name": "Hardys Memories of Africa",
+        "lat": "-33.90539",
+        "lng": "20.7169"
+    },
+    {
+        "country": "ZA",
+        "name": "Eastleigh",
+        "lat": "-26.12965",
+        "lng": "28.15541"
+    },
+    {
+        "country": "ZA",
+        "name": "Riverlea",
+        "lat": "-26.2119",
+        "lng": "27.97322"
+    },
+    {
+        "country": "ZA",
+        "name": "Eden Glen Ext 60",
+        "lat": "-26.12593",
+        "lng": "28.165"
+    }
+]

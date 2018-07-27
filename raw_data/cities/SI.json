@@ -1,0 +1,1808 @@
+[
+    {
+        "country": "SI",
+        "name": "\u017du\u017eemberk",
+        "lat": "45.83389",
+        "lng": "14.92917"
+    },
+    {
+        "country": "SI",
+        "name": "\u017dirovnica",
+        "lat": "46.40472",
+        "lng": "14.14"
+    },
+    {
+        "country": "SI",
+        "name": "\u017diri",
+        "lat": "46.04222",
+        "lng": "14.10722"
+    },
+    {
+        "country": "SI",
+        "name": "Zgornji Duplek",
+        "lat": "46.51361",
+        "lng": "15.72083"
+    },
+    {
+        "country": "SI",
+        "name": "Zgornje Pirnice",
+        "lat": "46.14251",
+        "lng": "14.43158"
+    },
+    {
+        "country": "SI",
+        "name": "Zgornje Jezersko",
+        "lat": "46.3941",
+        "lng": "14.50659"
+    },
+    {
+        "country": "SI",
+        "name": "Zgornje Gorje",
+        "lat": "46.37962",
+        "lng": "14.06937"
+    },
+    {
+        "country": "SI",
+        "name": "Zgornje Bitnje",
+        "lat": "46.22",
+        "lng": "14.33667"
+    },
+    {
+        "country": "SI",
+        "name": "Zgornja Polskava",
+        "lat": "46.42556",
+        "lng": "15.61222"
+    },
+    {
+        "country": "SI",
+        "name": "Zgornja Kungota",
+        "lat": "46.63917",
+        "lng": "15.61556"
+    },
+    {
+        "country": "SI",
+        "name": "\u017detale",
+        "lat": "46.27356",
+        "lng": "15.82658"
+    },
+    {
+        "country": "SI",
+        "name": "\u017delezniki",
+        "lat": "46.21999",
+        "lng": "14.14159"
+    },
+    {
+        "country": "SI",
+        "name": "Zavrc",
+        "lat": "46.39167",
+        "lng": "16.04972"
+    },
+    {
+        "country": "SI",
+        "name": "\u017dalec",
+        "lat": "46.25151",
+        "lng": "15.16482"
+    },
+    {
+        "country": "SI",
+        "name": "Zagorje ob Savi",
+        "lat": "46.13179",
+        "lng": "14.99694"
+    },
+    {
+        "country": "SI",
+        "name": "Zabukovica",
+        "lat": "46.21408",
+        "lng": "15.15954"
+    },
+    {
+        "country": "SI",
+        "name": "Vuzenica",
+        "lat": "46.59639",
+        "lng": "15.16722"
+    },
+    {
+        "country": "SI",
+        "name": "Vrtojba",
+        "lat": "45.9125",
+        "lng": "13.63417"
+    },
+    {
+        "country": "SI",
+        "name": "Vrhnika",
+        "lat": "45.9635",
+        "lng": "14.29484"
+    },
+    {
+        "country": "SI",
+        "name": "Vransko",
+        "lat": "46.24389",
+        "lng": "14.95139"
+    },
+    {
+        "country": "SI",
+        "name": "Volcja Draga",
+        "lat": "45.90694",
+        "lng": "13.6775"
+    },
+    {
+        "country": "SI",
+        "name": "Vojnik",
+        "lat": "46.29333",
+        "lng": "15.30333"
+    },
+    {
+        "country": "SI",
+        "name": "Vodice",
+        "lat": "46.18987",
+        "lng": "14.49492"
+    },
+    {
+        "country": "SI",
+        "name": "Vnanje Gorice",
+        "lat": "46.00722",
+        "lng": "14.42194"
+    },
+    {
+        "country": "SI",
+        "name": "Vitomarci",
+        "lat": "46.5275",
+        "lng": "15.93944"
+    },
+    {
+        "country": "SI",
+        "name": "Vitanje",
+        "lat": "46.38167",
+        "lng": "15.29583"
+    },
+    {
+        "country": "SI",
+        "name": "Vipava",
+        "lat": "45.84667",
+        "lng": "13.96306"
+    },
+    {
+        "country": "SI",
+        "name": "Videm",
+        "lat": "45.85",
+        "lng": "14.69417"
+    },
+    {
+        "country": "SI",
+        "name": "Ver\u017eej",
+        "lat": "46.58361",
+        "lng": "16.16528"
+    },
+    {
+        "country": "SI",
+        "name": "Verd",
+        "lat": "45.95667",
+        "lng": "14.30583"
+    },
+    {
+        "country": "SI",
+        "name": "Velike La\u0161ce",
+        "lat": "45.83222",
+        "lng": "14.63639"
+    },
+    {
+        "country": "SI",
+        "name": "Velika Polana",
+        "lat": "46.57194",
+        "lng": "16.34694"
+    },
+    {
+        "country": "SI",
+        "name": "Turni\u0161ce",
+        "lat": "46.62778",
+        "lng": "16.32028"
+    },
+    {
+        "country": "SI",
+        "name": "Trzin",
+        "lat": "46.13333",
+        "lng": "14.56667"
+    },
+    {
+        "country": "SI",
+        "name": "Tr\u017eic",
+        "lat": "46.36357",
+        "lng": "14.31046"
+    },
+    {
+        "country": "SI",
+        "name": "Trnovska Vas",
+        "lat": "46.52019",
+        "lng": "15.88657"
+    },
+    {
+        "country": "SI",
+        "name": "Trnovlje pri Celju",
+        "lat": "46.25667",
+        "lng": "15.29528"
+    },
+    {
+        "country": "SI",
+        "name": "Trebnje",
+        "lat": "45.90417",
+        "lng": "15.02167"
+    },
+    {
+        "country": "SI",
+        "name": "Trbovlje",
+        "lat": "46.155",
+        "lng": "15.05333"
+    },
+    {
+        "country": "SI",
+        "name": "Topol\u0161ica",
+        "lat": "46.40028",
+        "lng": "15.02157"
+    },
+    {
+        "country": "SI",
+        "name": "Sveti Toma\u017e",
+        "lat": "46.48417",
+        "lng": "16.08361"
+    },
+    {
+        "country": "SI",
+        "name": "Tolmin",
+        "lat": "46.18304",
+        "lng": "13.73321"
+    },
+    {
+        "country": "SI",
+        "name": "Velenje",
+        "lat": "46.35917",
+        "lng": "15.11028"
+    },
+    {
+        "country": "SI",
+        "name": "Ti\u0161ina",
+        "lat": "46.65806",
+        "lng": "16.09167"
+    },
+    {
+        "country": "SI",
+        "name": "Tabor",
+        "lat": "46.23611",
+        "lng": "15.01833"
+    },
+    {
+        "country": "SI",
+        "name": "Sv. Duh",
+        "lat": "46.18333",
+        "lng": "14.33333"
+    },
+    {
+        "country": "SI",
+        "name": "Sv. Anton",
+        "lat": "45.52583",
+        "lng": "13.83194"
+    },
+    {
+        "country": "SI",
+        "name": "Sv. Ana v Slov. Goricah",
+        "lat": "46.64917",
+        "lng": "15.84417"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160tore",
+        "lat": "46.22083",
+        "lng": "15.31389"
+    },
+    {
+        "country": "SI",
+        "name": "Star\u0161e",
+        "lat": "46.46583",
+        "lng": "15.76722"
+    },
+    {
+        "country": "SI",
+        "name": "Sredi\u0161ce ob Dravi",
+        "lat": "46.39417",
+        "lng": "16.26806"
+    },
+    {
+        "country": "SI",
+        "name": "Spodnji Duplek",
+        "lat": "46.50306",
+        "lng": "15.74528"
+    },
+    {
+        "country": "SI",
+        "name": "Spodnje Hoce",
+        "lat": "46.5",
+        "lng": "15.65"
+    },
+    {
+        "country": "SI",
+        "name": "Spodnja Idrija",
+        "lat": "46.03194",
+        "lng": "14.02722"
+    },
+    {
+        "country": "SI",
+        "name": "Spodnja Hajdina",
+        "lat": "46.40889",
+        "lng": "15.84694"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160o\u0161tanj",
+        "lat": "46.38",
+        "lng": "15.04861"
+    },
+    {
+        "country": "SI",
+        "name": "Solcava",
+        "lat": "46.41944",
+        "lng": "14.69361"
+    },
+    {
+        "country": "SI",
+        "name": "Sodra\u017eica",
+        "lat": "45.76111",
+        "lng": "14.63556"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160martno pri Slovenj Gradcu",
+        "lat": "46.48944",
+        "lng": "15.10667"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160martno pri Litiji",
+        "lat": "46.04444",
+        "lng": "14.84417"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160martno ob Paki",
+        "lat": "46.33333",
+        "lng": "15.03333"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160marjeta",
+        "lat": "45.88333",
+        "lng": "15.25"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160marje pri Jel\u0161ah",
+        "lat": "46.22722",
+        "lng": "15.51917"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160marje-Sap",
+        "lat": "45.97618",
+        "lng": "14.61177"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160marca",
+        "lat": "46.19333",
+        "lng": "14.59667"
+    },
+    {
+        "country": "SI",
+        "name": "Slovenske Konjice",
+        "lat": "46.33667",
+        "lng": "15.42583"
+    },
+    {
+        "country": "SI",
+        "name": "Slovenska Bistrica",
+        "lat": "46.39278",
+        "lng": "15.57444"
+    },
+    {
+        "country": "SI",
+        "name": "Slovenj Gradec",
+        "lat": "46.51028",
+        "lng": "15.08056"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160kofljica",
+        "lat": "45.98333",
+        "lng": "14.57667"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160kofja Loka",
+        "lat": "46.16551",
+        "lng": "14.30626"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160kocjan",
+        "lat": "45.90667",
+        "lng": "15.29139"
+    },
+    {
+        "country": "SI",
+        "name": "Se\u017eana",
+        "lat": "45.70924",
+        "lng": "13.87333"
+    },
+    {
+        "country": "SI",
+        "name": "Sevnica",
+        "lat": "46.00778",
+        "lng": "15.31556"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160entvid pri Sticni",
+        "lat": "45.95004",
+        "lng": "14.84344"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160entrupert",
+        "lat": "45.97778",
+        "lng": "15.09556"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160entjur",
+        "lat": "46.21722",
+        "lng": "15.3975"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160entjernej",
+        "lat": "45.84",
+        "lng": "15.33611"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160entilj v Slov. Goricah",
+        "lat": "46.68167",
+        "lng": "15.64806"
+    },
+    {
+        "country": "SI",
+        "name": "Senovo",
+        "lat": "46.02361",
+        "lng": "15.47694"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160encur",
+        "lat": "46.24556",
+        "lng": "14.41972"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160empeter v Savinj. Dolini",
+        "lat": "46.25639",
+        "lng": "15.12194"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160empeter pri Gorici",
+        "lat": "45.9275",
+        "lng": "13.64111"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160empas",
+        "lat": "45.93028",
+        "lng": "13.74361"
+    },
+    {
+        "country": "SI",
+        "name": "Semic",
+        "lat": "45.64611",
+        "lng": "15.18222"
+    },
+    {
+        "country": "SI",
+        "name": "Selnica ob Muri",
+        "lat": "46.68333",
+        "lng": "15.7"
+    },
+    {
+        "country": "SI",
+        "name": "\u0160alovci",
+        "lat": "46.825",
+        "lng": "16.29806"
+    },
+    {
+        "country": "SI",
+        "name": "Ru\u0161e",
+        "lat": "46.53944",
+        "lng": "15.51583"
+    },
+    {
+        "country": "SI",
+        "name": "Rogoza",
+        "lat": "46.5",
+        "lng": "15.68333"
+    },
+    {
+        "country": "SI",
+        "name": "Rogatec",
+        "lat": "46.22944",
+        "lng": "15.70028"
+    },
+    {
+        "country": "SI",
+        "name": "Roga\u0161ovci",
+        "lat": "46.8",
+        "lng": "16.03333"
+    },
+    {
+        "country": "SI",
+        "name": "Roga\u0161ka Slatina",
+        "lat": "46.2375",
+        "lng": "15.63972"
+    },
+    {
+        "country": "SI",
+        "name": "Ribnica na Pohorju",
+        "lat": "46.535",
+        "lng": "15.27278"
+    },
+    {
+        "country": "SI",
+        "name": "Ribnica",
+        "lat": "45.73861",
+        "lng": "14.7275"
+    },
+    {
+        "country": "SI",
+        "name": "Rence",
+        "lat": "45.89",
+        "lng": "13.66861"
+    },
+    {
+        "country": "SI",
+        "name": "Recica ob Savinji",
+        "lat": "46.31667",
+        "lng": "14.91667"
+    },
+    {
+        "country": "SI",
+        "name": "Razvanje",
+        "lat": "46.51444",
+        "lng": "15.63611"
+    },
+    {
+        "country": "SI",
+        "name": "Ravne na Koro\u0161kem",
+        "lat": "46.54306",
+        "lng": "14.96917"
+    },
+    {
+        "country": "SI",
+        "name": "Ravne",
+        "lat": "46.41413",
+        "lng": "15.06087"
+    },
+    {
+        "country": "SI",
+        "name": "Rakican",
+        "lat": "46.65167",
+        "lng": "16.20417"
+    },
+    {
+        "country": "SI",
+        "name": "Rakek",
+        "lat": "45.81333",
+        "lng": "14.31111"
+    },
+    {
+        "country": "SI",
+        "name": "Radovljica",
+        "lat": "46.34444",
+        "lng": "14.17444"
+    },
+    {
+        "country": "SI",
+        "name": "Radomlje",
+        "lat": "46.17361",
+        "lng": "14.61222"
+    },
+    {
+        "country": "SI",
+        "name": "Radlje ob Dravi",
+        "lat": "46.61417",
+        "lng": "15.22639"
+    },
+    {
+        "country": "SI",
+        "name": "Radenci",
+        "lat": "46.64201",
+        "lng": "16.03781"
+    },
+    {
+        "country": "SI",
+        "name": "Radece",
+        "lat": "46.06806",
+        "lng": "15.18389"
+    },
+    {
+        "country": "SI",
+        "name": "Race",
+        "lat": "46.45194",
+        "lng": "15.68139"
+    },
+    {
+        "country": "SI",
+        "name": "Puconci",
+        "lat": "46.70667",
+        "lng": "16.15639"
+    },
+    {
+        "country": "SI",
+        "name": "Ptuj",
+        "lat": "46.42005",
+        "lng": "15.87018"
+    },
+    {
+        "country": "SI",
+        "name": "Prvacina",
+        "lat": "45.89",
+        "lng": "13.71806"
+    },
+    {
+        "country": "SI",
+        "name": "Prevalje",
+        "lat": "46.54694",
+        "lng": "14.92083"
+    },
+    {
+        "country": "SI",
+        "name": "Preserje pri Radomljah",
+        "lat": "46.16911",
+        "lng": "14.59698"
+    },
+    {
+        "country": "SI",
+        "name": "Preddvor",
+        "lat": "46.3025",
+        "lng": "14.42306"
+    },
+    {
+        "country": "SI",
+        "name": "Prebold",
+        "lat": "46.23694",
+        "lng": "15.0925"
+    },
+    {
+        "country": "SI",
+        "name": "Pragersko",
+        "lat": "46.39667",
+        "lng": "15.66"
+    },
+    {
+        "country": "SI",
+        "name": "Postojna",
+        "lat": "45.77435",
+        "lng": "14.21528"
+    },
+    {
+        "country": "SI",
+        "name": "Portoro\u017e",
+        "lat": "45.51429",
+        "lng": "13.59206"
+    },
+    {
+        "country": "SI",
+        "name": "Polzela",
+        "lat": "46.28333",
+        "lng": "15.06667"
+    },
+    {
+        "country": "SI",
+        "name": "Poljcane",
+        "lat": "46.31194",
+        "lng": "15.57917"
+    },
+    {
+        "country": "SI",
+        "name": "Podvelka",
+        "lat": "46.58694",
+        "lng": "15.33056"
+    },
+    {
+        "country": "SI",
+        "name": "Podlehnik",
+        "lat": "46.33528",
+        "lng": "15.88"
+    },
+    {
+        "country": "SI",
+        "name": "Podcetrtek",
+        "lat": "46.15694",
+        "lng": "15.59861"
+    },
+    {
+        "country": "SI",
+        "name": "Pivka",
+        "lat": "45.68292",
+        "lng": "14.19588"
+    },
+    {
+        "country": "SI",
+        "name": "Piran",
+        "lat": "45.52778",
+        "lng": "13.57056"
+    },
+    {
+        "country": "SI",
+        "name": "Pesnica pri Mariboru",
+        "lat": "46.60694",
+        "lng": "15.67667"
+    },
+    {
+        "country": "SI",
+        "name": "Pekre",
+        "lat": "46.54722",
+        "lng": "15.59556"
+    },
+    {
+        "country": "SI",
+        "name": "Pamece",
+        "lat": "46.53417",
+        "lng": "15.07917"
+    },
+    {
+        "country": "SI",
+        "name": "Osilnica",
+        "lat": "45.52914",
+        "lng": "14.69838"
+    },
+    {
+        "country": "SI",
+        "name": "Ormo\u017e",
+        "lat": "46.41139",
+        "lng": "16.15444"
+    },
+    {
+        "country": "SI",
+        "name": "Oplotnica",
+        "lat": "46.38778",
+        "lng": "15.44667"
+    },
+    {
+        "country": "SI",
+        "name": "Odranci",
+        "lat": "46.58667",
+        "lng": "16.28028"
+    },
+    {
+        "country": "SI",
+        "name": "Novo Mesto",
+        "lat": "45.80397",
+        "lng": "15.16886"
+    },
+    {
+        "country": "SI",
+        "name": "Nova Vas",
+        "lat": "45.77167",
+        "lng": "14.50583"
+    },
+    {
+        "country": "SI",
+        "name": "Nova Gorica",
+        "lat": "45.95604",
+        "lng": "13.64837"
+    },
+    {
+        "country": "SI",
+        "name": "Notranje Gorice",
+        "lat": "45.9875",
+        "lng": "14.39889"
+    },
+    {
+        "country": "SI",
+        "name": "Naklo",
+        "lat": "46.27278",
+        "lng": "14.31722"
+    },
+    {
+        "country": "SI",
+        "name": "Muta",
+        "lat": "46.61139",
+        "lng": "15.16611"
+    },
+    {
+        "country": "SI",
+        "name": "Murska Sobota",
+        "lat": "46.6625",
+        "lng": "16.16639"
+    },
+    {
+        "country": "SI",
+        "name": "Mozirje",
+        "lat": "46.33944",
+        "lng": "14.96333"
+    },
+    {
+        "country": "SI",
+        "name": "Moste",
+        "lat": "46.195",
+        "lng": "14.55139"
+    },
+    {
+        "country": "SI",
+        "name": "Morje",
+        "lat": "46.44444",
+        "lng": "15.62139"
+    },
+    {
+        "country": "SI",
+        "name": "Moravske Toplice",
+        "lat": "46.68313",
+        "lng": "16.2208"
+    },
+    {
+        "country": "SI",
+        "name": "Moravce",
+        "lat": "46.13694",
+        "lng": "14.745"
+    },
+    {
+        "country": "SI",
+        "name": "Mokronog",
+        "lat": "45.93417",
+        "lng": "15.14083"
+    },
+    {
+        "country": "SI",
+        "name": "Mojstrana",
+        "lat": "46.42383",
+        "lng": "13.8752"
+    },
+    {
+        "country": "SI",
+        "name": "Mlaka pri Kranju",
+        "lat": "46.28333",
+        "lng": "14.35"
+    },
+    {
+        "country": "SI",
+        "name": "Mislinja",
+        "lat": "46.44141",
+        "lng": "15.20027"
+    },
+    {
+        "country": "SI",
+        "name": "Mirna Pec",
+        "lat": "45.86028",
+        "lng": "15.08333"
+    },
+    {
+        "country": "SI",
+        "name": "Mirna",
+        "lat": "45.95528",
+        "lng": "15.06194"
+    },
+    {
+        "country": "SI",
+        "name": "Miren",
+        "lat": "45.89556",
+        "lng": "13.6075"
+    },
+    {
+        "country": "SI",
+        "name": "Miklav\u017e na Dravskem Polju",
+        "lat": "46.50583",
+        "lng": "15.69722"
+    },
+    {
+        "country": "SI",
+        "name": "Me\u017eica",
+        "lat": "46.52139",
+        "lng": "14.85444"
+    },
+    {
+        "country": "SI",
+        "name": "Metlika",
+        "lat": "45.64722",
+        "lng": "15.31417"
+    },
+    {
+        "country": "SI",
+        "name": "Menge\u0161",
+        "lat": "46.16694",
+        "lng": "14.575"
+    },
+    {
+        "country": "SI",
+        "name": "Mekinje",
+        "lat": "46.23333",
+        "lng": "14.61667"
+    },
+    {
+        "country": "SI",
+        "name": "Medvode",
+        "lat": "46.1422",
+        "lng": "14.41114"
+    },
+    {
+        "country": "SI",
+        "name": "Markovci",
+        "lat": "46.39557",
+        "lng": "15.92831"
+    },
+    {
+        "country": "SI",
+        "name": "Maribor",
+        "lat": "46.55472",
+        "lng": "15.64667"
+    },
+    {
+        "country": "SI",
+        "name": "Makole",
+        "lat": "46.31722",
+        "lng": "15.66722"
+    },
+    {
+        "country": "SI",
+        "name": "Maj\u0161perk",
+        "lat": "46.35167",
+        "lng": "15.73361"
+    },
+    {
+        "country": "SI",
+        "name": "Lukovica pri Dom\u017ealah",
+        "lat": "46.16988",
+        "lng": "14.69179"
+    },
+    {
+        "country": "SI",
+        "name": "Luce",
+        "lat": "46.35611",
+        "lng": "14.74667"
+    },
+    {
+        "country": "SI",
+        "name": "Lovrenc na Pohorju",
+        "lat": "46.54056",
+        "lng": "15.39306"
+    },
+    {
+        "country": "SI",
+        "name": "Lo\u0161ki Potok",
+        "lat": "45.70139",
+        "lng": "14.58028"
+    },
+    {
+        "country": "SI",
+        "name": "Lokavec",
+        "lat": "45.90167",
+        "lng": "13.87972"
+    },
+    {
+        "country": "SI",
+        "name": "Log pri Brezovici",
+        "lat": "46.01667",
+        "lng": "14.36667"
+    },
+    {
+        "country": "SI",
+        "name": "Ljutomer",
+        "lat": "46.52083",
+        "lng": "16.1975"
+    },
+    {
+        "country": "SI",
+        "name": "Ljubno ob Savinji",
+        "lat": "46.34358",
+        "lng": "14.83377"
+    },
+    {
+        "country": "SI",
+        "name": "Ljubljana",
+        "lat": "46.05108",
+        "lng": "14.50513"
+    },
+    {
+        "country": "SI",
+        "name": "Ljubecna",
+        "lat": "46.25567",
+        "lng": "15.3243"
+    },
+    {
+        "country": "SI",
+        "name": "Litija",
+        "lat": "46.05861",
+        "lng": "14.8225"
+    },
+    {
+        "country": "SI",
+        "name": "Lipovci",
+        "lat": "46.62833",
+        "lng": "16.22806"
+    },
+    {
+        "country": "SI",
+        "name": "Limbu\u0161",
+        "lat": "46.55361",
+        "lng": "15.58361"
+    },
+    {
+        "country": "SI",
+        "name": "Leskovec pri Kr\u0161kem",
+        "lat": "45.93566",
+        "lng": "15.47184"
+    },
+    {
+        "country": "SI",
+        "name": "Lesce",
+        "lat": "46.36111",
+        "lng": "14.15778"
+    },
+    {
+        "country": "SI",
+        "name": "Lendava",
+        "lat": "46.56494",
+        "lng": "16.45091"
+    },
+    {
+        "country": "SI",
+        "name": "Lenart v Slov. Goricah",
+        "lat": "46.57611",
+        "lng": "15.83139"
+    },
+    {
+        "country": "SI",
+        "name": "La\u0161ko",
+        "lat": "46.15463",
+        "lng": "15.23555"
+    },
+    {
+        "country": "SI",
+        "name": "Kuzma",
+        "lat": "46.83694",
+        "lng": "16.08333"
+    },
+    {
+        "country": "SI",
+        "name": "Kr\u0161ko",
+        "lat": "45.95915",
+        "lng": "15.49167"
+    },
+    {
+        "country": "SI",
+        "name": "Kromberk",
+        "lat": "45.96083",
+        "lng": "13.66556"
+    },
+    {
+        "country": "SI",
+        "name": "Krog",
+        "lat": "46.63806",
+        "lng": "16.14139"
+    },
+    {
+        "country": "SI",
+        "name": "Kri\u017eevci pri Ljutomeru",
+        "lat": "46.56833",
+        "lng": "16.13861"
+    },
+    {
+        "country": "SI",
+        "name": "Kranjska Gora",
+        "lat": "46.45689",
+        "lng": "13.77824"
+    },
+    {
+        "country": "SI",
+        "name": "Kranj",
+        "lat": "46.23887",
+        "lng": "14.35561"
+    },
+    {
+        "country": "SI",
+        "name": "Kozje",
+        "lat": "46.075",
+        "lng": "15.56028"
+    },
+    {
+        "country": "SI",
+        "name": "Kozina",
+        "lat": "45.61",
+        "lng": "13.93556"
+    },
+    {
+        "country": "SI",
+        "name": "Kotlje",
+        "lat": "46.52139",
+        "lng": "14.98694"
+    },
+    {
+        "country": "SI",
+        "name": "Kostanjevica na Krki",
+        "lat": "45.84611",
+        "lng": "15.42222"
+    },
+    {
+        "country": "SI",
+        "name": "Koper",
+        "lat": "45.54694",
+        "lng": "13.72944"
+    },
+    {
+        "country": "SI",
+        "name": "Komen",
+        "lat": "45.81528",
+        "lng": "13.74833"
+    },
+    {
+        "country": "SI",
+        "name": "Kokrica",
+        "lat": "46.27028",
+        "lng": "14.36111"
+    },
+    {
+        "country": "SI",
+        "name": "Kocevje",
+        "lat": "45.64333",
+        "lng": "14.86333"
+    },
+    {
+        "country": "SI",
+        "name": "Kobilje",
+        "lat": "46.68472",
+        "lng": "16.39778"
+    },
+    {
+        "country": "SI",
+        "name": "Kobarid",
+        "lat": "46.24761",
+        "lng": "13.57907"
+    },
+    {
+        "country": "SI",
+        "name": "Kidricevo",
+        "lat": "46.40361",
+        "lng": "15.79111"
+    },
+    {
+        "country": "SI",
+        "name": "Kanal",
+        "lat": "46.08861",
+        "lng": "13.63972"
+    },
+    {
+        "country": "SI",
+        "name": "Kamnik",
+        "lat": "46.22587",
+        "lng": "14.61207"
+    },
+    {
+        "country": "SI",
+        "name": "Kamnica",
+        "lat": "46.57444",
+        "lng": "15.61417"
+    },
+    {
+        "country": "SI",
+        "name": "Jur\u0161inci",
+        "lat": "46.48472",
+        "lng": "15.97139"
+    },
+    {
+        "country": "SI",
+        "name": "Jurovski Dol",
+        "lat": "46.60639",
+        "lng": "15.78472"
+    },
+    {
+        "country": "SI",
+        "name": "Sveti Jurij ob \u0160cavnici",
+        "lat": "46.5695",
+        "lng": "16.02347"
+    },
+    {
+        "country": "SI",
+        "name": "Jesenice",
+        "lat": "46.43056",
+        "lng": "14.06694"
+    },
+    {
+        "country": "SI",
+        "name": "Izola",
+        "lat": "45.53694",
+        "lng": "13.66194"
+    },
+    {
+        "country": "SI",
+        "name": "Izlake",
+        "lat": "46.15",
+        "lng": "14.95"
+    },
+    {
+        "country": "SI",
+        "name": "Ivancna Gorica",
+        "lat": "45.93833",
+        "lng": "14.80444"
+    },
+    {
+        "country": "SI",
+        "name": "Ilirska Bistrica",
+        "lat": "45.57878",
+        "lng": "14.30652"
+    },
+    {
+        "country": "SI",
+        "name": "Ig",
+        "lat": "45.96028",
+        "lng": "14.52889"
+    },
+    {
+        "country": "SI",
+        "name": "Idrija",
+        "lat": "46.00278",
+        "lng": "14.03056"
+    },
+    {
+        "country": "SI",
+        "name": "Hrvatini",
+        "lat": "45.58278",
+        "lng": "13.75667"
+    },
+    {
+        "country": "SI",
+        "name": "Hru\u0161ica",
+        "lat": "46.445",
+        "lng": "14.01778"
+    },
+    {
+        "country": "SI",
+        "name": "Hrib-Lo\u0161ki Potok",
+        "lat": "45.70688",
+        "lng": "14.61674"
+    },
+    {
+        "country": "SI",
+        "name": "Hrastnik",
+        "lat": "46.14611",
+        "lng": "15.08139"
+    },
+    {
+        "country": "SI",
+        "name": "Hrastje",
+        "lat": "46.21667",
+        "lng": "14.4"
+    },
+    {
+        "country": "SI",
+        "name": "Hotinja Vas",
+        "lat": "46.46667",
+        "lng": "15.66667"
+    },
+    {
+        "country": "SI",
+        "name": "Horjul",
+        "lat": "46.02361",
+        "lng": "14.29917"
+    },
+    {
+        "country": "SI",
+        "name": "Hodo\u0161",
+        "lat": "46.82333",
+        "lng": "16.33417"
+    },
+    {
+        "country": "SI",
+        "name": "Grosuplje",
+        "lat": "45.95556",
+        "lng": "14.65889"
+    },
+    {
+        "country": "SI",
+        "name": "Sv. Trojica v Slov. Goricah",
+        "lat": "46.57667",
+        "lng": "15.87694"
+    },
+    {
+        "country": "SI",
+        "name": "Grad",
+        "lat": "46.8",
+        "lng": "16.1"
+    },
+    {
+        "country": "SI",
+        "name": "Gotovlje",
+        "lat": "46.27418",
+        "lng": "15.15186"
+    },
+    {
+        "country": "SI",
+        "name": "Gornji Petrovci",
+        "lat": "46.80528",
+        "lng": "16.2225"
+    },
+    {
+        "country": "SI",
+        "name": "Gornji Grad",
+        "lat": "46.29528",
+        "lng": "14.80833"
+    },
+    {
+        "country": "SI",
+        "name": "Gornja Radgona",
+        "lat": "46.67333",
+        "lng": "15.99222"
+    },
+    {
+        "country": "SI",
+        "name": "Gori\u0161nica",
+        "lat": "46.41472",
+        "lng": "16.01389"
+    },
+    {
+        "country": "SI",
+        "name": "Gorenja Vas",
+        "lat": "46.10722",
+        "lng": "14.14806"
+    },
+    {
+        "country": "SI",
+        "name": "Stra\u017ea",
+        "lat": "45.78",
+        "lng": "15.07278"
+    },
+    {
+        "country": "SI",
+        "name": "Golnik",
+        "lat": "46.33333",
+        "lng": "14.33333"
+    },
+    {
+        "country": "SI",
+        "name": "Gancani",
+        "lat": "46.6325",
+        "lng": "16.25111"
+    },
+    {
+        "country": "SI",
+        "name": "Fram",
+        "lat": "46.456",
+        "lng": "15.63007"
+    },
+    {
+        "country": "SI",
+        "name": "Dravograd",
+        "lat": "46.58806",
+        "lng": "15.01917"
+    },
+    {
+        "country": "SI",
+        "name": "Dragomer",
+        "lat": "46.01667",
+        "lng": "14.38333"
+    },
+    {
+        "country": "SI",
+        "name": "Dornava",
+        "lat": "46.43667",
+        "lng": "15.95361"
+    },
+    {
+        "country": "SI",
+        "name": "Dom\u017eale",
+        "lat": "46.13774",
+        "lng": "14.59371"
+    },
+    {
+        "country": "SI",
+        "name": "Dol pri Ljubljani",
+        "lat": "46.08861",
+        "lng": "14.60083"
+    },
+    {
+        "country": "SI",
+        "name": "Dol pri Hrastniku",
+        "lat": "46.14194",
+        "lng": "15.11278"
+    },
+    {
+        "country": "SI",
+        "name": "Dolenjske Toplice",
+        "lat": "45.75657",
+        "lng": "15.05917"
+    },
+    {
+        "country": "SI",
+        "name": "Dobrovo",
+        "lat": "45.99639",
+        "lng": "13.52639"
+    },
+    {
+        "country": "SI",
+        "name": "Dobrovnik",
+        "lat": "46.65139",
+        "lng": "16.3525"
+    },
+    {
+        "country": "SI",
+        "name": "Dobrova",
+        "lat": "46.0458",
+        "lng": "14.39186"
+    },
+    {
+        "country": "SI",
+        "name": "Dobrna",
+        "lat": "46.3375",
+        "lng": "15.22639"
+    },
+    {
+        "country": "SI",
+        "name": "Dobje pri Planini",
+        "lat": "46.13747",
+        "lng": "15.39412"
+    },
+    {
+        "country": "SI",
+        "name": "Dob",
+        "lat": "46.15194",
+        "lng": "14.62861"
+    },
+    {
+        "country": "SI",
+        "name": "Divaca",
+        "lat": "45.68472",
+        "lng": "13.97028"
+    },
+    {
+        "country": "SI",
+        "name": "Destrnik",
+        "lat": "46.49254",
+        "lng": "15.87893"
+    },
+    {
+        "country": "SI",
+        "name": "Deskle",
+        "lat": "46.05307",
+        "lng": "13.61382"
+    },
+    {
+        "country": "SI",
+        "name": "Dekani",
+        "lat": "45.54972",
+        "lng": "13.81361"
+    },
+    {
+        "country": "SI",
+        "name": "Crnomelj",
+        "lat": "45.57111",
+        "lng": "15.18889"
+    },
+    {
+        "country": "SI",
+        "name": "Crna na Koro\u0161kem",
+        "lat": "46.47045",
+        "lng": "14.85009"
+    },
+    {
+        "country": "SI",
+        "name": "Cren\u0161ovci",
+        "lat": "46.55794",
+        "lng": "16.3041"
+    },
+    {
+        "country": "SI",
+        "name": "Cernelavci",
+        "lat": "46.66667",
+        "lng": "16.13333"
+    },
+    {
+        "country": "SI",
+        "name": "Cerkvenjak",
+        "lat": "46.57056",
+        "lng": "15.94361"
+    },
+    {
+        "country": "SI",
+        "name": "Cerknica",
+        "lat": "45.79306",
+        "lng": "14.3625"
+    },
+    {
+        "country": "SI",
+        "name": "Cerklje na Gorenjskem",
+        "lat": "46.25417",
+        "lng": "14.48861"
+    },
+    {
+        "country": "SI",
+        "name": "Celje",
+        "lat": "46.23092",
+        "lng": "15.26044"
+    },
+    {
+        "country": "SI",
+        "name": "Cankova",
+        "lat": "46.72083",
+        "lng": "16.0225"
+    },
+    {
+        "country": "SI",
+        "name": "Britof",
+        "lat": "46.26024",
+        "lng": "14.39037"
+    },
+    {
+        "country": "SI",
+        "name": "Brezovica pri Ljubljani",
+        "lat": "46.03333",
+        "lng": "14.4"
+    },
+    {
+        "country": "SI",
+        "name": "Bre\u017eice",
+        "lat": "45.90333",
+        "lng": "15.59111"
+    },
+    {
+        "country": "SI",
+        "name": "Bresternica",
+        "lat": "46.56972",
+        "lng": "15.575"
+    },
+    {
+        "country": "SI",
+        "name": "Braslovce",
+        "lat": "46.28972",
+        "lng": "15.03889"
+    },
+    {
+        "country": "SI",
+        "name": "Bovec",
+        "lat": "46.33808",
+        "lng": "13.55245"
+    },
+    {
+        "country": "SI",
+        "name": "Borovnica",
+        "lat": "45.91583",
+        "lng": "14.36306"
+    },
+    {
+        "country": "SI",
+        "name": "Bohinjska Bistrica",
+        "lat": "46.27216",
+        "lng": "13.9535"
+    },
+    {
+        "country": "SI",
+        "name": "Bled",
+        "lat": "46.36917",
+        "lng": "14.11361"
+    },
+    {
+        "country": "SI",
+        "name": "Bistrica pri Tr\u017eicu",
+        "lat": "46.35472",
+        "lng": "14.29167"
+    },
+    {
+        "country": "SI",
+        "name": "Bistrica ob Sotli",
+        "lat": "46.05889",
+        "lng": "15.66417"
+    },
+    {
+        "country": "SI",
+        "name": "Bilje",
+        "lat": "45.89444",
+        "lng": "13.63222"
+    },
+    {
+        "country": "SI",
+        "name": "Benedikt",
+        "lat": "46.60861",
+        "lng": "15.88833"
+    },
+    {
+        "country": "SI",
+        "name": "Beltinci",
+        "lat": "46.60528",
+        "lng": "16.24056"
+    },
+    {
+        "country": "SI",
+        "name": "Bakovci",
+        "lat": "46.61889",
+        "lng": "16.15028"
+    },
+    {
+        "country": "SI",
+        "name": "Apace",
+        "lat": "46.69722",
+        "lng": "15.91056"
+    },
+    {
+        "country": "SI",
+        "name": "Ajdov\u0161cina",
+        "lat": "45.88601",
+        "lng": "13.90946"
+    },
+    {
+        "country": "SI",
+        "name": "Razkri\u017eje",
+        "lat": "46.52167",
+        "lng": "16.28111"
+    },
+    {
+        "country": "SI",
+        "name": "Solkan",
+        "lat": "45.97139",
+        "lng": "13.64944"
+    },
+    {
+        "country": "SI",
+        "name": "Slovenski Javornik",
+        "lat": "46.42611",
+        "lng": "14.08722"
+    },
+    {
+        "country": "SI",
+        "name": "Koro\u0161ka Bela",
+        "lat": "46.44913",
+        "lng": "14.11135"
+    },
+    {
+        "country": "SI",
+        "name": "Cerkno",
+        "lat": "46.12556",
+        "lng": "13.98167"
+    },
+    {
+        "country": "SI",
+        "name": "Leskova Dolina",
+        "lat": "45.62139",
+        "lng": "14.46056"
+    },
+    {
+        "country": "SI",
+        "name": "Logatec",
+        "lat": "45.91444",
+        "lng": "14.22583"
+    },
+    {
+        "country": "SI",
+        "name": "Ankaran",
+        "lat": "45.57861",
+        "lng": "13.73611"
+    },
+    {
+        "country": "SI",
+        "name": "Videm pri Ptuju",
+        "lat": "46.36861",
+        "lng": "15.90639"
+    },
+    {
+        "country": "SI",
+        "name": "Legen",
+        "lat": "46.50651",
+        "lng": "15.14424"
+    },
+    {
+        "country": "SI",
+        "name": "Zrece",
+        "lat": "46.38222",
+        "lng": "15.37917"
+    },
+    {
+        "country": "SI",
+        "name": "Radizel",
+        "lat": "46.47444",
+        "lng": "15.65583"
+    },
+    {
+        "country": "SI",
+        "name": "Selnica ob Dravi",
+        "lat": "46.55",
+        "lng": "15.495"
+    },
+    {
+        "country": "SI",
+        "name": "Lucija",
+        "lat": "45.50526",
+        "lng": "13.6024"
+    },
+    {
+        "country": "SI",
+        "name": "Jagodje",
+        "lat": "45.52845",
+        "lng": "13.64721"
+    },
+    {
+        "country": "SI",
+        "name": "Pobegi",
+        "lat": "45.53944",
+        "lng": "13.79611"
+    },
+    {
+        "country": "SI",
+        "name": "Spodnje \u0160kofije",
+        "lat": "45.57167",
+        "lng": "13.7925"
+    },
+    {
+        "country": "SI",
+        "name": "Ro\u017ena Dolina",
+        "lat": "45.94194",
+        "lng": "13.66779"
+    },
+    {
+        "country": "SI",
+        "name": "Kisovec",
+        "lat": "46.13911",
+        "lng": "14.96295"
+    },
+    {
+        "country": "SI",
+        "name": "Cirkulane",
+        "lat": "46.34408",
+        "lng": "15.99472"
+    },
+    {
+        "country": "SI",
+        "name": "Komenda",
+        "lat": "46.20484",
+        "lng": "14.53839"
+    },
+    {
+        "country": "SI",
+        "name": "Nazarje",
+        "lat": "46.31757",
+        "lng": "14.94674"
+    },
+    {
+        "country": "SI",
+        "name": "Kostel",
+        "lat": "45.50842",
+        "lng": "14.91005"
+    },
+    {
+        "country": "SI",
+        "name": "Vir",
+        "lat": "46.15325",
+        "lng": "14.60741"
+    },
+    {
+        "country": "SI",
+        "name": "Lavrica",
+        "lat": "46.00002",
+        "lng": "14.5573"
+    },
+    {
+        "country": "SI",
+        "name": "Seca",
+        "lat": "45.49584",
+        "lng": "13.61466"
+    },
+    {
+        "country": "SI",
+        "name": "Prade",
+        "lat": "45.54003",
+        "lng": "13.77607"
+    },
+    {
+        "country": "SI",
+        "name": "Zasip",
+        "lat": "46.39284",
+        "lng": "14.10869"
+    },
+    {
+        "country": "SI",
+        "name": "Bistrica ob Dravi",
+        "lat": "46.55419",
+        "lng": "15.54855"
+    }
+]

@@ -1,0 +1,800 @@
+[
+    {
+        "country": "KH",
+        "name": "Phnom Penh",
+        "lat": "11.56245",
+        "lng": "104.91601"
+    },
+    {
+        "country": "KH",
+        "name": "Veun Sai",
+        "lat": "13.97598",
+        "lng": "106.81144"
+    },
+    {
+        "country": "KH",
+        "name": "Ta Khmau",
+        "lat": "11.48333",
+        "lng": "104.95"
+    },
+    {
+        "country": "KH",
+        "name": "Takeo",
+        "lat": "10.99081",
+        "lng": "104.78498"
+    },
+    {
+        "country": "KH",
+        "name": "Svay Rieng",
+        "lat": "11.08785",
+        "lng": "105.79935"
+    },
+    {
+        "country": "KH",
+        "name": "Svay Chek",
+        "lat": "13.80539",
+        "lng": "102.96184"
+    },
+    {
+        "country": "KH",
+        "name": "Suong",
+        "lat": "11.91178",
+        "lng": "105.65821"
+    },
+    {
+        "country": "KH",
+        "name": "Stung Treng",
+        "lat": "13.52586",
+        "lng": "105.9683"
+    },
+    {
+        "country": "KH",
+        "name": "Srae Ambel",
+        "lat": "11.12212",
+        "lng": "103.75383"
+    },
+    {
+        "country": "KH",
+        "name": "Sisophon",
+        "lat": "13.58588",
+        "lng": "102.97369"
+    },
+    {
+        "country": "KH",
+        "name": "Siem Reap",
+        "lat": "13.36179",
+        "lng": "103.86056"
+    },
+    {
+        "country": "KH",
+        "name": "Siem Pang",
+        "lat": "14.11728",
+        "lng": "106.38838"
+    },
+    {
+        "country": "KH",
+        "name": "S\u00eanm\u00f4nour\u00f4m",
+        "lat": "12.45583",
+        "lng": "107.18811"
+    },
+    {
+        "country": "KH",
+        "name": "Prey Veng",
+        "lat": "11.48682",
+        "lng": "105.32533"
+    },
+    {
+        "country": "KH",
+        "name": "S\u2019ang",
+        "lat": "11.36067",
+        "lng": "105.00776"
+    },
+    {
+        "country": "KH",
+        "name": "Koah Thum",
+        "lat": "11.12421",
+        "lng": "105.05722"
+    },
+    {
+        "country": "KH",
+        "name": "Pursat",
+        "lat": "12.53878",
+        "lng": "103.9192"
+    },
+    {
+        "country": "KH",
+        "name": "Phumi V\u00e9al Sr\u00ea",
+        "lat": "10.98081",
+        "lng": "104.77828"
+    },
+    {
+        "country": "KH",
+        "name": "Bak Khlang",
+        "lat": "11.56903",
+        "lng": "102.95542"
+    },
+    {
+        "country": "KH",
+        "name": "Thma Puok",
+        "lat": "13.93987",
+        "lng": "103.05307"
+    },
+    {
+        "country": "KH",
+        "name": "Ta Loas",
+        "lat": "12.8079",
+        "lng": "103.46023"
+    },
+    {
+        "country": "KH",
+        "name": "S\u00e2mra\u00f4ng",
+        "lat": "14.18175",
+        "lng": "103.51761"
+    },
+    {
+        "country": "KH",
+        "name": "Sala Krau",
+        "lat": "12.95612",
+        "lng": "102.60891"
+    },
+    {
+        "country": "KH",
+        "name": "Preaek Prasab",
+        "lat": "12.35367",
+        "lng": "106.03562"
+    },
+    {
+        "country": "KH",
+        "name": "Koas Krala",
+        "lat": "12.75588",
+        "lng": "103.25514"
+    },
+    {
+        "country": "KH",
+        "name": "Kampong Seila",
+        "lat": "11.09167",
+        "lng": "103.90078"
+    },
+    {
+        "country": "KH",
+        "name": "Chhuk",
+        "lat": "10.83644",
+        "lng": "104.45528"
+    },
+    {
+        "country": "KH",
+        "name": "Chhloung",
+        "lat": "12.2561",
+        "lng": "105.97004"
+    },
+    {
+        "country": "KH",
+        "name": "Bavel",
+        "lat": "13.25128",
+        "lng": "102.87795"
+    },
+    {
+        "country": "KH",
+        "name": "Banan",
+        "lat": "12.93964",
+        "lng": "103.14239"
+    },
+    {
+        "country": "KH",
+        "name": "Tb\u00eang M\u00e9anchey",
+        "lat": "13.80731",
+        "lng": "104.98046"
+    },
+    {
+        "country": "KH",
+        "name": "Paoy Paet",
+        "lat": "13.65805",
+        "lng": "102.56365"
+    },
+    {
+        "country": "KH",
+        "name": "Pailin",
+        "lat": "12.84895",
+        "lng": "102.60928"
+    },
+    {
+        "country": "KH",
+        "name": "Moung Ruessei",
+        "lat": "12.77452",
+        "lng": "103.44926"
+    },
+    {
+        "country": "KH",
+        "name": "Lumphat",
+        "lat": "13.49146",
+        "lng": "106.98022"
+    },
+    {
+        "country": "KH",
+        "name": "Kuleaen",
+        "lat": "13.82147",
+        "lng": "104.69824"
+    },
+    {
+        "country": "KH",
+        "name": "Krong Kep",
+        "lat": "10.48291",
+        "lng": "104.31672"
+    },
+    {
+        "country": "KH",
+        "name": "Koh Kong",
+        "lat": "11.61531",
+        "lng": "102.9838"
+    },
+    {
+        "country": "KH",
+        "name": "Krati\u00e9",
+        "lat": "12.48811",
+        "lng": "106.01879"
+    },
+    {
+        "country": "KH",
+        "name": "Batheay",
+        "lat": "11.98935",
+        "lng": "104.94208"
+    },
+    {
+        "country": "KH",
+        "name": "Kampot",
+        "lat": "10.61041",
+        "lng": "104.18145"
+    },
+    {
+        "country": "KH",
+        "name": "Kampong Trach",
+        "lat": "10.55847",
+        "lng": "104.46753"
+    },
+    {
+        "country": "KH",
+        "name": "Kampong Trabaek",
+        "lat": "11.14379",
+        "lng": "105.48275"
+    },
+    {
+        "country": "KH",
+        "name": "Kampong Thom",
+        "lat": "12.71112",
+        "lng": "104.88873"
+    },
+    {
+        "country": "KH",
+        "name": "Kampong Speu",
+        "lat": "11.45332",
+        "lng": "104.52085"
+    },
+    {
+        "country": "KH",
+        "name": "Sihanoukville",
+        "lat": "10.60932",
+        "lng": "103.52958"
+    },
+    {
+        "country": "KH",
+        "name": "Kampong Chhnang",
+        "lat": "12.25",
+        "lng": "104.66667"
+    },
+    {
+        "country": "KH",
+        "name": "Kampong Cham",
+        "lat": "11.99339",
+        "lng": "105.4635"
+    },
+    {
+        "country": "KH",
+        "name": "Sesan",
+        "lat": "13.55329",
+        "lng": "106.09224"
+    },
+    {
+        "country": "KH",
+        "name": "Ban Lung",
+        "lat": "13.73939",
+        "lng": "106.98727"
+    },
+    {
+        "country": "KH",
+        "name": "Odongk",
+        "lat": "11.68267",
+        "lng": "104.69945"
+    },
+    {
+        "country": "KH",
+        "name": "Battambang",
+        "lat": "13.10271",
+        "lng": "103.19822"
+    },
+    {
+        "country": "KH",
+        "name": "Baray",
+        "lat": "12.39429",
+        "lng": "105.07518"
+    },
+    {
+        "country": "KH",
+        "name": "Bar Kaev",
+        "lat": "13.6862",
+        "lng": "107.21417"
+    },
+    {
+        "country": "KH",
+        "name": "Pal Hal",
+        "lat": "13.79226",
+        "lng": "104.97859"
+    },
+    {
+        "country": "KH",
+        "name": "Anlong Veaeng",
+        "lat": "14.23223",
+        "lng": "104.08107"
+    },
+    {
+        "country": "KH",
+        "name": "Sampov Lun",
+        "lat": "13.4319",
+        "lng": "102.37574"
+    },
+    {
+        "country": "KH",
+        "name": "Smach Mean Chey",
+        "lat": "11.54665",
+        "lng": "103.03569"
+    },
+    {
+        "country": "KH",
+        "name": "Phnum Proek",
+        "lat": "13.2235",
+        "lng": "102.39546"
+    },
+    {
+        "country": "KH",
+        "name": "Kamrieng",
+        "lat": "13.08806",
+        "lng": "102.49074"
+    },
+    {
+        "country": "KH",
+        "name": "Samlout",
+        "lat": "12.61698",
+        "lng": "102.85862"
+    },
+    {
+        "country": "KH",
+        "name": "Ou Chrov",
+        "lat": "13.63885",
+        "lng": "102.58356"
+    },
+    {
+        "country": "KH",
+        "name": "Veal Veaeng",
+        "lat": "12.30491",
+        "lng": "103.1023"
+    },
+    {
+        "country": "KH",
+        "name": "Aek Phnum",
+        "lat": "13.15993",
+        "lng": "103.23134"
+    },
+    {
+        "country": "KH",
+        "name": "Bat Dambang",
+        "lat": "13.26298",
+        "lng": "103.09037"
+    },
+    {
+        "country": "KH",
+        "name": "Phnum Srok",
+        "lat": "13.74403",
+        "lng": "103.33892"
+    },
+    {
+        "country": "KH",
+        "name": "Kralanh",
+        "lat": "13.60535",
+        "lng": "103.41903"
+    },
+    {
+        "country": "KH",
+        "name": "Mongkol Borei",
+        "lat": "13.54057",
+        "lng": "103.02693"
+    },
+    {
+        "country": "KH",
+        "name": "Preah Netr Preah",
+        "lat": "13.62371",
+        "lng": "103.18212"
+    },
+    {
+        "country": "KH",
+        "name": "Mondul Seima",
+        "lat": "11.62411",
+        "lng": "102.95015"
+    },
+    {
+        "country": "KH",
+        "name": "Smach Meanchey",
+        "lat": "11.60412",
+        "lng": "102.98801"
+    },
+    {
+        "country": "KH",
+        "name": "Botum Sakor",
+        "lat": "11.1872",
+        "lng": "103.47117"
+    },
+    {
+        "country": "KH",
+        "name": "Sangkae",
+        "lat": "13.07943",
+        "lng": "103.24454"
+    },
+    {
+        "country": "KH",
+        "name": "Mittakpheap",
+        "lat": "10.62268",
+        "lng": "103.52473"
+    },
+    {
+        "country": "KH",
+        "name": "Thma Bang",
+        "lat": "11.62925",
+        "lng": "103.52958"
+    },
+    {
+        "country": "KH",
+        "name": "Phnum Kravanh",
+        "lat": "12.35121",
+        "lng": "103.7694"
+    },
+    {
+        "country": "KH",
+        "name": "Srei Snam",
+        "lat": "13.8342",
+        "lng": "103.51315"
+    },
+    {
+        "country": "KH",
+        "name": "Chum Kiri",
+        "lat": "10.92522",
+        "lng": "104.42185"
+    },
+    {
+        "country": "KH",
+        "name": "Kampot",
+        "lat": "10.60421",
+        "lng": "104.25611"
+    },
+    {
+        "country": "KH",
+        "name": "Damnak Chang\u2019aeur",
+        "lat": "10.53021",
+        "lng": "104.36881"
+    },
+    {
+        "country": "KH",
+        "name": "Phnum Sruoch",
+        "lat": "11.385",
+        "lng": "104.37165"
+    },
+    {
+        "country": "KH",
+        "name": "Thpong",
+        "lat": "11.75375",
+        "lng": "104.42743"
+    },
+    {
+        "country": "KH",
+        "name": "Soutr Nikom",
+        "lat": "13.23879",
+        "lng": "104.13784"
+    },
+    {
+        "country": "KH",
+        "name": "Trapeang Prasat",
+        "lat": "14.18689",
+        "lng": "104.35533"
+    },
+    {
+        "country": "KH",
+        "name": "Kiri Vongs",
+        "lat": "10.63781",
+        "lng": "104.87319"
+    },
+    {
+        "country": "KH",
+        "name": "Banteay Meas",
+        "lat": "10.66781",
+        "lng": "104.56026"
+    },
+    {
+        "country": "KH",
+        "name": "Kandal Stueng",
+        "lat": "11.4135",
+        "lng": "104.82648"
+    },
+    {
+        "country": "KH",
+        "name": "Ta Khmau",
+        "lat": "11.44641",
+        "lng": "104.94556"
+    },
+    {
+        "country": "KH",
+        "name": "Tram Kak",
+        "lat": "11.01173",
+        "lng": "104.67631"
+    },
+    {
+        "country": "KH",
+        "name": "Basedth",
+        "lat": "11.14918",
+        "lng": "104.53641"
+    },
+    {
+        "country": "KH",
+        "name": "Mukh Kampul",
+        "lat": "11.73577",
+        "lng": "104.97713"
+    },
+    {
+        "country": "KH",
+        "name": "Ponhea Lueu",
+        "lat": "11.65577",
+        "lng": "104.86684"
+    },
+    {
+        "country": "KH",
+        "name": "Ruessei Kaev",
+        "lat": "11.62439",
+        "lng": "104.90941"
+    },
+    {
+        "country": "KH",
+        "name": "Dangkao",
+        "lat": "11.56173",
+        "lng": "104.85553"
+    },
+    {
+        "country": "KH",
+        "name": "Mean Chey",
+        "lat": "11.53264",
+        "lng": "104.93662"
+    },
+    {
+        "country": "KH",
+        "name": "Kampong Leaeng",
+        "lat": "12.27446",
+        "lng": "104.72737"
+    },
+    {
+        "country": "KH",
+        "name": "Stueng Saen",
+        "lat": "12.71121",
+        "lng": "104.89108"
+    },
+    {
+        "country": "KH",
+        "name": "Stoung",
+        "lat": "12.9404",
+        "lng": "104.57072"
+    },
+    {
+        "country": "KH",
+        "name": "Bourei Cholsar",
+        "lat": "10.83431",
+        "lng": "105.01851"
+    },
+    {
+        "country": "KH",
+        "name": "Preah Sdach",
+        "lat": "11.09511",
+        "lng": "105.38447"
+    },
+    {
+        "country": "KH",
+        "name": "Kang Meas",
+        "lat": "11.94627",
+        "lng": "105.27491"
+    },
+    {
+        "country": "KH",
+        "name": "Kaoh Soutin",
+        "lat": "11.88548",
+        "lng": "105.42782"
+    },
+    {
+        "country": "KH",
+        "name": "Sithor Kandal",
+        "lat": "11.77264",
+        "lng": "105.38274"
+    },
+    {
+        "country": "KH",
+        "name": "Prey Veaeng",
+        "lat": "11.57101",
+        "lng": "105.42058"
+    },
+    {
+        "country": "KH",
+        "name": "Chamkar Leu",
+        "lat": "12.30851",
+        "lng": "105.28186"
+    },
+    {
+        "country": "KH",
+        "name": "Cheung Prey",
+        "lat": "12.05685",
+        "lng": "105.07475"
+    },
+    {
+        "country": "KH",
+        "name": "Prey Chhor",
+        "lat": "12.05804",
+        "lng": "105.25723"
+    },
+    {
+        "country": "KH",
+        "name": "Sandan",
+        "lat": "13.10459",
+        "lng": "105.25407"
+    },
+    {
+        "country": "KH",
+        "name": "Rumduol",
+        "lat": "11.15888",
+        "lng": "105.82261"
+    },
+    {
+        "country": "KH",
+        "name": "Svay Teab",
+        "lat": "11.05456",
+        "lng": "105.88531"
+    },
+    {
+        "country": "KH",
+        "name": "Me Sang",
+        "lat": "11.32761",
+        "lng": "105.54605"
+    },
+    {
+        "country": "KH",
+        "name": "Stueng Trang",
+        "lat": "12.25578",
+        "lng": "105.53522"
+    },
+    {
+        "country": "KH",
+        "name": "Chantrea",
+        "lat": "10.98431",
+        "lng": "106.12486"
+    },
+    {
+        "country": "KH",
+        "name": "Kaev Seima",
+        "lat": "12.18739",
+        "lng": "106.88061"
+    },
+    {
+        "country": "KH",
+        "name": "Ou Chum",
+        "lat": "13.7978",
+        "lng": "106.99378"
+    },
+    {
+        "country": "KH",
+        "name": "Andoung Meas",
+        "lat": "13.86724",
+        "lng": "107.29682"
+    },
+    {
+        "country": "KH",
+        "name": "Ou Ya Dav",
+        "lat": "13.67061",
+        "lng": "107.34701"
+    },
+    {
+        "country": "KH",
+        "name": "Sangkom Thmei",
+        "lat": "13.58147",
+        "lng": "104.91315"
+    },
+    {
+        "country": "KH",
+        "name": "Peam Ro",
+        "lat": "11.30852",
+        "lng": "105.28366"
+    },
+    {
+        "country": "KH",
+        "name": "Kampong Leav",
+        "lat": "11.49308",
+        "lng": "105.34318"
+    },
+    {
+        "country": "KH",
+        "name": "Leuk Daek",
+        "lat": "11.1751",
+        "lng": "105.2292"
+    },
+    {
+        "country": "KH",
+        "name": "Peam Chor",
+        "lat": "11.09877",
+        "lng": "105.22114"
+    },
+    {
+        "country": "KH",
+        "name": "Koun Mom",
+        "lat": "13.57767",
+        "lng": "106.77289"
+    },
+    {
+        "country": "KH",
+        "name": "Pechreada",
+        "lat": "12.55254",
+        "lng": "107.42393"
+    },
+    {
+        "country": "KH",
+        "name": "Prey Nob",
+        "lat": "10.70939",
+        "lng": "103.82091"
+    },
+    {
+        "country": "KH",
+        "name": "Bakan",
+        "lat": "12.60209",
+        "lng": "103.78579"
+    },
+    {
+        "country": "KH",
+        "name": "Angkor Thum",
+        "lat": "13.48339",
+        "lng": "103.87413"
+    },
+    {
+        "country": "KH",
+        "name": "Bakong",
+        "lat": "13.34741",
+        "lng": "103.98756"
+    },
+    {
+        "country": "KH",
+        "name": "Varin",
+        "lat": "13.79322",
+        "lng": "103.76085"
+    },
+    {
+        "country": "KH",
+        "name": "Angkor Chum",
+        "lat": "13.68385",
+        "lng": "103.6479"
+    },
+    {
+        "country": "KH",
+        "name": "Aoral",
+        "lat": "11.68778",
+        "lng": "104.12959"
+    },
+    {
+        "country": "KH",
+        "name": "Baribour",
+        "lat": "12.43758",
+        "lng": "104.46286"
+    },
+    {
+        "country": "KH",
+        "name": "Chi Kraeng",
+        "lat": "13.12234",
+        "lng": "104.34627"
+    }
+]

@@ -1,0 +1,824 @@
+[
+    {
+        "country": "LU",
+        "name": "Wormeldange",
+        "lat": "49.61114",
+        "lng": "6.40546"
+    },
+    {
+        "country": "LU",
+        "name": "Winseler",
+        "lat": "49.96778",
+        "lng": "5.89028"
+    },
+    {
+        "country": "LU",
+        "name": "Wincrange",
+        "lat": "50.05333",
+        "lng": "5.91917"
+    },
+    {
+        "country": "LU",
+        "name": "Wilwerwiltz",
+        "lat": "49.98889",
+        "lng": "5.99917"
+    },
+    {
+        "country": "LU",
+        "name": "Wiltz",
+        "lat": "49.96547",
+        "lng": "5.9339"
+    },
+    {
+        "country": "LU",
+        "name": "Weiswampach",
+        "lat": "50.13722",
+        "lng": "6.075"
+    },
+    {
+        "country": "LU",
+        "name": "Weiler-la-Tour",
+        "lat": "49.54083",
+        "lng": "6.20083"
+    },
+    {
+        "country": "LU",
+        "name": "Wasserbillig",
+        "lat": "49.71534",
+        "lng": "6.49861"
+    },
+    {
+        "country": "LU",
+        "name": "Warken",
+        "lat": "49.85918",
+        "lng": "6.08415"
+    },
+    {
+        "country": "LU",
+        "name": "Walferdange",
+        "lat": "49.66321",
+        "lng": "6.13224"
+    },
+    {
+        "country": "LU",
+        "name": "Waldbredimus",
+        "lat": "49.55676",
+        "lng": "6.28789"
+    },
+    {
+        "country": "LU",
+        "name": "Waldbillig",
+        "lat": "49.79636",
+        "lng": "6.28431"
+    },
+    {
+        "country": "LU",
+        "name": "Wahl",
+        "lat": "49.83667",
+        "lng": "5.90639"
+    },
+    {
+        "country": "LU",
+        "name": "Vichten",
+        "lat": "49.80306",
+        "lng": "6"
+    },
+    {
+        "country": "LU",
+        "name": "Vianden",
+        "lat": "49.935",
+        "lng": "6.20889"
+    },
+    {
+        "country": "LU",
+        "name": "Useldange",
+        "lat": "49.76972",
+        "lng": "5.98222"
+    },
+    {
+        "country": "LU",
+        "name": "Tuntange",
+        "lat": "49.71778",
+        "lng": "6.01028"
+    },
+    {
+        "country": "LU",
+        "name": "Troisvierges",
+        "lat": "50.12111",
+        "lng": "6.00028"
+    },
+    {
+        "country": "LU",
+        "name": "T\u00e9tange",
+        "lat": "49.47583",
+        "lng": "6.04222"
+    },
+    {
+        "country": "LU",
+        "name": "Tandel",
+        "lat": "49.8975",
+        "lng": "6.18333"
+    },
+    {
+        "country": "LU",
+        "name": "Strassen",
+        "lat": "49.62056",
+        "lng": "6.07333"
+    },
+    {
+        "country": "LU",
+        "name": "Steinsel",
+        "lat": "49.67694",
+        "lng": "6.12389"
+    },
+    {
+        "country": "LU",
+        "name": "Steinfort",
+        "lat": "49.66139",
+        "lng": "5.91917"
+    },
+    {
+        "country": "LU",
+        "name": "Stadtbredimus",
+        "lat": "49.56278",
+        "lng": "6.36444"
+    },
+    {
+        "country": "LU",
+        "name": "Soleuvre",
+        "lat": "49.52148",
+        "lng": "5.93781"
+    },
+    {
+        "country": "LU",
+        "name": "Septfontaines",
+        "lat": "49.70111",
+        "lng": "5.96722"
+    },
+    {
+        "country": "LU",
+        "name": "Schuttrange",
+        "lat": "49.62056",
+        "lng": "6.26861"
+    },
+    {
+        "country": "LU",
+        "name": "Schrassig",
+        "lat": "49.61014",
+        "lng": "6.25903"
+    },
+    {
+        "country": "LU",
+        "name": "Schouweiler",
+        "lat": "49.5825",
+        "lng": "5.95639"
+    },
+    {
+        "country": "LU",
+        "name": "Schifflange",
+        "lat": "49.50639",
+        "lng": "6.01278"
+    },
+    {
+        "country": "LU",
+        "name": "Schieren",
+        "lat": "49.83056",
+        "lng": "6.09861"
+    },
+    {
+        "country": "LU",
+        "name": "Schengen",
+        "lat": "49.47",
+        "lng": "6.362"
+    },
+    {
+        "country": "LU",
+        "name": "Sanem",
+        "lat": "49.54806",
+        "lng": "5.92889"
+    },
+    {
+        "country": "LU",
+        "name": "Sandweiler",
+        "lat": "49.61471",
+        "lng": "6.22221"
+    },
+    {
+        "country": "LU",
+        "name": "Saeul",
+        "lat": "49.72722",
+        "lng": "5.98639"
+    },
+    {
+        "country": "LU",
+        "name": "Rumelange",
+        "lat": "49.45964",
+        "lng": "6.03089"
+    },
+    {
+        "country": "LU",
+        "name": "Rosport",
+        "lat": "49.8047",
+        "lng": "6.50532"
+    },
+    {
+        "country": "LU",
+        "name": "Rollingen",
+        "lat": "49.74167",
+        "lng": "6.11444"
+    },
+    {
+        "country": "LU",
+        "name": "Roeser",
+        "lat": "49.53721",
+        "lng": "6.14629"
+    },
+    {
+        "country": "LU",
+        "name": "Rodange",
+        "lat": "49.54639",
+        "lng": "5.84083"
+    },
+    {
+        "country": "LU",
+        "name": "Remich",
+        "lat": "49.545",
+        "lng": "6.36694"
+    },
+    {
+        "country": "LU",
+        "name": "Reisdorf",
+        "lat": "49.86861",
+        "lng": "6.26778"
+    },
+    {
+        "country": "LU",
+        "name": "Redange-sur-Attert",
+        "lat": "49.76437",
+        "lng": "5.88997"
+    },
+    {
+        "country": "LU",
+        "name": "Reckange-sur-Mess",
+        "lat": "49.5625",
+        "lng": "6.00889"
+    },
+    {
+        "country": "LU",
+        "name": "Rambrouch",
+        "lat": "49.83083",
+        "lng": "5.845"
+    },
+    {
+        "country": "LU",
+        "name": "Putscheid",
+        "lat": "49.96083",
+        "lng": "6.14306"
+    },
+    {
+        "country": "LU",
+        "name": "Pontpierre",
+        "lat": "49.53639",
+        "lng": "6.02944"
+    },
+    {
+        "country": "LU",
+        "name": "P\u00e9tange",
+        "lat": "49.55833",
+        "lng": "5.88056"
+    },
+    {
+        "country": "LU",
+        "name": "Olm",
+        "lat": "49.65722",
+        "lng": "6.00028"
+    },
+    {
+        "country": "LU",
+        "name": "Obercorn",
+        "lat": "49.51361",
+        "lng": "5.89611"
+    },
+    {
+        "country": "LU",
+        "name": "Nommern",
+        "lat": "49.78694",
+        "lng": "6.17472"
+    },
+    {
+        "country": "LU",
+        "name": "Niedercorn",
+        "lat": "49.53611",
+        "lng": "5.89306"
+    },
+    {
+        "country": "LU",
+        "name": "Niederanven",
+        "lat": "49.65196",
+        "lng": "6.26199"
+    },
+    {
+        "country": "LU",
+        "name": "M\u00fcllendorf",
+        "lat": "49.68028",
+        "lng": "6.13"
+    },
+    {
+        "country": "LU",
+        "name": "Moutfort",
+        "lat": "49.58528",
+        "lng": "6.25556"
+    },
+    {
+        "country": "LU",
+        "name": "Mondorf-les-Bains",
+        "lat": "49.505",
+        "lng": "6.28111"
+    },
+    {
+        "country": "LU",
+        "name": "Mondercange",
+        "lat": "49.53306",
+        "lng": "5.98833"
+    },
+    {
+        "country": "LU",
+        "name": "Mompach",
+        "lat": "49.74611",
+        "lng": "6.465"
+    },
+    {
+        "country": "LU",
+        "name": "Mertzig",
+        "lat": "49.83389",
+        "lng": "6.0075"
+    },
+    {
+        "country": "LU",
+        "name": "Mertert",
+        "lat": "49.70261",
+        "lng": "6.47966"
+    },
+    {
+        "country": "LU",
+        "name": "Mersch",
+        "lat": "49.74889",
+        "lng": "6.10611"
+    },
+    {
+        "country": "LU",
+        "name": "Medernach",
+        "lat": "49.80955",
+        "lng": "6.21521"
+    },
+    {
+        "country": "LU",
+        "name": "Manternach",
+        "lat": "49.70278",
+        "lng": "6.42639"
+    },
+    {
+        "country": "LU",
+        "name": "Mamer",
+        "lat": "49.6275",
+        "lng": "6.02333"
+    },
+    {
+        "country": "LU",
+        "name": "Luxembourg",
+        "lat": "49.61167",
+        "lng": "6.13"
+    },
+    {
+        "country": "LU",
+        "name": "Lorentzweiler",
+        "lat": "49.70131",
+        "lng": "6.14234"
+    },
+    {
+        "country": "LU",
+        "name": "Lintgen",
+        "lat": "49.72243",
+        "lng": "6.13016"
+    },
+    {
+        "country": "LU",
+        "name": "Leudelange",
+        "lat": "49.56833",
+        "lng": "6.06528"
+    },
+    {
+        "country": "LU",
+        "name": "Lenningen",
+        "lat": "49.60045",
+        "lng": "6.36719"
+    },
+    {
+        "country": "LU",
+        "name": "Larochette",
+        "lat": "49.78362",
+        "lng": "6.21891"
+    },
+    {
+        "country": "LU",
+        "name": "Lamadelaine",
+        "lat": "49.54639",
+        "lng": "5.85639"
+    },
+    {
+        "country": "LU",
+        "name": "Kopstal",
+        "lat": "49.66444",
+        "lng": "6.07306"
+    },
+    {
+        "country": "LU",
+        "name": "Koerich",
+        "lat": "49.67",
+        "lng": "5.95"
+    },
+    {
+        "country": "LU",
+        "name": "Kirchberg",
+        "lat": "49.62389",
+        "lng": "6.14944"
+    },
+    {
+        "country": "LU",
+        "name": "Kehlen",
+        "lat": "49.66833",
+        "lng": "6.03583"
+    },
+    {
+        "country": "LU",
+        "name": "Kayl",
+        "lat": "49.48917",
+        "lng": "6.03972"
+    },
+    {
+        "country": "LU",
+        "name": "Junglinster",
+        "lat": "49.70722",
+        "lng": "6.25306"
+    },
+    {
+        "country": "LU",
+        "name": "Itzig",
+        "lat": "49.58769",
+        "lng": "6.17065"
+    },
+    {
+        "country": "LU",
+        "name": "Hosingen",
+        "lat": "50.01218",
+        "lng": "6.09089"
+    },
+    {
+        "country": "LU",
+        "name": "Hobscheid",
+        "lat": "49.68861",
+        "lng": "5.91472"
+    },
+    {
+        "country": "LU",
+        "name": "Hesperange",
+        "lat": "49.56806",
+        "lng": "6.15139"
+    },
+    {
+        "country": "LU",
+        "name": "Helmsange",
+        "lat": "49.65278",
+        "lng": "6.14139"
+    },
+    {
+        "country": "LU",
+        "name": "Heisdorf",
+        "lat": "49.67207",
+        "lng": "6.14202"
+    },
+    {
+        "country": "LU",
+        "name": "Heffingen",
+        "lat": "49.76907",
+        "lng": "6.24049"
+    },
+    {
+        "country": "LU",
+        "name": "Hautcharage",
+        "lat": "49.57499",
+        "lng": "5.9097"
+    },
+    {
+        "country": "LU",
+        "name": "Grosbous",
+        "lat": "49.82778",
+        "lng": "5.96722"
+    },
+    {
+        "country": "LU",
+        "name": "Grevenmacher",
+        "lat": "49.67751",
+        "lng": "6.44022"
+    },
+    {
+        "country": "LU",
+        "name": "Gonderange",
+        "lat": "49.69537",
+        "lng": "6.24577"
+    },
+    {
+        "country": "LU",
+        "name": "Goesdorf",
+        "lat": "49.92131",
+        "lng": "5.96601"
+    },
+    {
+        "country": "LU",
+        "name": "Garnich",
+        "lat": "49.61667",
+        "lng": "5.9525"
+    },
+    {
+        "country": "LU",
+        "name": "Frisange",
+        "lat": "49.51616",
+        "lng": "6.18858"
+    },
+    {
+        "country": "LU",
+        "name": "Flaxweiler",
+        "lat": "49.66602",
+        "lng": "6.34321"
+    },
+    {
+        "country": "LU",
+        "name": "Fischbach",
+        "lat": "49.746",
+        "lng": "6.18702"
+    },
+    {
+        "country": "LU",
+        "name": "Niederfeulen",
+        "lat": "49.85556",
+        "lng": "6.04722"
+    },
+    {
+        "country": "LU",
+        "name": "Fentange",
+        "lat": "49.56278",
+        "lng": "6.15389"
+    },
+    {
+        "country": "LU",
+        "name": "Ettelbruck",
+        "lat": "49.8475",
+        "lng": "6.10417"
+    },
+    {
+        "country": "LU",
+        "name": "Esch-sur-S\u00fbre",
+        "lat": "49.91139",
+        "lng": "5.93639"
+    },
+    {
+        "country": "LU",
+        "name": "Esch-sur-Alzette",
+        "lat": "49.49583",
+        "lng": "5.98056"
+    },
+    {
+        "country": "LU",
+        "name": "Erpeldange",
+        "lat": "49.86472",
+        "lng": "6.11472"
+    },
+    {
+        "country": "LU",
+        "name": "Ell",
+        "lat": "49.76389",
+        "lng": "5.85722"
+    },
+    {
+        "country": "LU",
+        "name": "Eischen",
+        "lat": "49.68556",
+        "lng": "5.87861"
+    },
+    {
+        "country": "LU",
+        "name": "Echternach",
+        "lat": "49.81212",
+        "lng": "6.41846"
+    },
+    {
+        "country": "LU",
+        "name": "Dudelange",
+        "lat": "49.48056",
+        "lng": "6.0875"
+    },
+    {
+        "country": "LU",
+        "name": "Dippach",
+        "lat": "49.58701",
+        "lng": "5.9833"
+    },
+    {
+        "country": "LU",
+        "name": "Differdange",
+        "lat": "49.52417",
+        "lng": "5.89139"
+    },
+    {
+        "country": "LU",
+        "name": "Diekirch",
+        "lat": "49.86778",
+        "lng": "6.15583"
+    },
+    {
+        "country": "LU",
+        "name": "Dalheim",
+        "lat": "49.54083",
+        "lng": "6.25972"
+    },
+    {
+        "country": "LU",
+        "name": "Crauthem",
+        "lat": "49.53556",
+        "lng": "6.14694"
+    },
+    {
+        "country": "LU",
+        "name": "Contern",
+        "lat": "49.58194",
+        "lng": "6.22667"
+    },
+    {
+        "country": "LU",
+        "name": "Consdorf",
+        "lat": "49.78018",
+        "lng": "6.3395"
+    },
+    {
+        "country": "LU",
+        "name": "Colmar",
+        "lat": "49.81028",
+        "lng": "6.09722"
+    },
+    {
+        "country": "LU",
+        "name": "Clervaux",
+        "lat": "50.05472",
+        "lng": "6.03139"
+    },
+    {
+        "country": "LU",
+        "name": "Clemency",
+        "lat": "49.59667",
+        "lng": "5.87583"
+    },
+    {
+        "country": "LU",
+        "name": "Capellen",
+        "lat": "49.645",
+        "lng": "5.99083"
+    },
+    {
+        "country": "LU",
+        "name": "Bridel",
+        "lat": "49.65579",
+        "lng": "6.07999"
+    },
+    {
+        "country": "LU",
+        "name": "Bous",
+        "lat": "49.55389",
+        "lng": "6.32917"
+    },
+    {
+        "country": "LU",
+        "name": "Bourscheid",
+        "lat": "49.90862",
+        "lng": "6.0675"
+    },
+    {
+        "country": "LU",
+        "name": "Boulaide",
+        "lat": "49.88778",
+        "lng": "5.81639"
+    },
+    {
+        "country": "LU",
+        "name": "Boevange-sur-Attert",
+        "lat": "49.77256",
+        "lng": "6.01532"
+    },
+    {
+        "country": "LU",
+        "name": "Biwer",
+        "lat": "49.70605",
+        "lng": "6.37201"
+    },
+    {
+        "country": "LU",
+        "name": "Bissen",
+        "lat": "49.78733",
+        "lng": "6.0654"
+    },
+    {
+        "country": "LU",
+        "name": "Betzdorf",
+        "lat": "49.68333",
+        "lng": "6.35"
+    },
+    {
+        "country": "LU",
+        "name": "Bettendorf",
+        "lat": "49.87667",
+        "lng": "6.21806"
+    },
+    {
+        "country": "LU",
+        "name": "Bettembourg",
+        "lat": "49.51861",
+        "lng": "6.10278"
+    },
+    {
+        "country": "LU",
+        "name": "Bettborn",
+        "lat": "49.79528",
+        "lng": "5.94111"
+    },
+    {
+        "country": "LU",
+        "name": "Bertrange",
+        "lat": "49.61111",
+        "lng": "6.05"
+    },
+    {
+        "country": "LU",
+        "name": "Bergem",
+        "lat": "49.525",
+        "lng": "6.04222"
+    },
+    {
+        "country": "LU",
+        "name": "B\u00e9reldange",
+        "lat": "49.65507",
+        "lng": "6.11874"
+    },
+    {
+        "country": "LU",
+        "name": "Berdorf",
+        "lat": "49.82051",
+        "lng": "6.34945"
+    },
+    {
+        "country": "LU",
+        "name": "Belvaux",
+        "lat": "49.51014",
+        "lng": "5.92414"
+    },
+    {
+        "country": "LU",
+        "name": "Beckerich",
+        "lat": "49.73114",
+        "lng": "5.88241"
+    },
+    {
+        "country": "LU",
+        "name": "Bech",
+        "lat": "49.7526",
+        "lng": "6.36379"
+    },
+    {
+        "country": "LU",
+        "name": "Beaufort",
+        "lat": "49.83583",
+        "lng": "6.29167"
+    },
+    {
+        "country": "LU",
+        "name": "Bavigne",
+        "lat": "49.92194",
+        "lng": "5.84944"
+    },
+    {
+        "country": "LU",
+        "name": "Bascharage",
+        "lat": "49.56727",
+        "lng": "5.9073"
+    },
+    {
+        "country": "LU",
+        "name": "Aspelt",
+        "lat": "49.52278",
+        "lng": "6.22472"
+    },
+    {
+        "country": "LU",
+        "name": "Alzingen",
+        "lat": "49.565",
+        "lng": "6.16361"
+    }
+]

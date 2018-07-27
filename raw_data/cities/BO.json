@@ -1,0 +1,770 @@
+[
+    {
+        "country": "BO",
+        "name": "San Pedro",
+        "lat": "-18.28333",
+        "lng": "-59.81667"
+    },
+    {
+        "country": "BO",
+        "name": "San Mat\u00edas",
+        "lat": "-16.36667",
+        "lng": "-58.4"
+    },
+    {
+        "country": "BO",
+        "name": "Robor\u00e9",
+        "lat": "-18.33473",
+        "lng": "-59.76142"
+    },
+    {
+        "country": "BO",
+        "name": "Puerto Quijarro",
+        "lat": "-17.78333",
+        "lng": "-57.76667"
+    },
+    {
+        "country": "BO",
+        "name": "Nueva Manoa",
+        "lat": "-9.71828",
+        "lng": "-65.39544"
+    },
+    {
+        "country": "BO",
+        "name": "Yampar\u00e1ez",
+        "lat": "-19.18929",
+        "lng": "-65.12329"
+    },
+    {
+        "country": "BO",
+        "name": "Yacuiba",
+        "lat": "-22.01643",
+        "lng": "-63.67753"
+    },
+    {
+        "country": "BO",
+        "name": "Warnes",
+        "lat": "-17.5163",
+        "lng": "-63.16778"
+    },
+    {
+        "country": "BO",
+        "name": "Viloco",
+        "lat": "-16.95",
+        "lng": "-67.55"
+    },
+    {
+        "country": "BO",
+        "name": "Villaz\u00f3n",
+        "lat": "-22.08659",
+        "lng": "-65.59422"
+    },
+    {
+        "country": "BO",
+        "name": "Villa Yapacan\u00ed",
+        "lat": "-17.4",
+        "lng": "-63.83333"
+    },
+    {
+        "country": "BO",
+        "name": "Villa Serrano",
+        "lat": "-19.12489",
+        "lng": "-64.32343"
+    },
+    {
+        "country": "BO",
+        "name": "Villamontes",
+        "lat": "-21.26235",
+        "lng": "-63.46903"
+    },
+    {
+        "country": "BO",
+        "name": "Villa Charcas",
+        "lat": "-20.72278",
+        "lng": "-64.88478"
+    },
+    {
+        "country": "BO",
+        "name": "Vallegrande",
+        "lat": "-18.48923",
+        "lng": "-64.10609"
+    },
+    {
+        "country": "BO",
+        "name": "Uyuni",
+        "lat": "-20.45967",
+        "lng": "-66.82503"
+    },
+    {
+        "country": "BO",
+        "name": "Urubich\u00e1",
+        "lat": "-15.39286",
+        "lng": "-62.94661"
+    },
+    {
+        "country": "BO",
+        "name": "Tupiza",
+        "lat": "-21.44345",
+        "lng": "-65.71875"
+    },
+    {
+        "country": "BO",
+        "name": "Trinidad",
+        "lat": "-14.83333",
+        "lng": "-64.9"
+    },
+    {
+        "country": "BO",
+        "name": "Totoral",
+        "lat": "-18.49587",
+        "lng": "-66.8738"
+    },
+    {
+        "country": "BO",
+        "name": "Totora",
+        "lat": "-17.72662",
+        "lng": "-65.1932"
+    },
+    {
+        "country": "BO",
+        "name": "Eucaliptus",
+        "lat": "-17.58333",
+        "lng": "-67.51667"
+    },
+    {
+        "country": "BO",
+        "name": "Tiquipaya",
+        "lat": "-17.33801",
+        "lng": "-66.21579"
+    },
+    {
+        "country": "BO",
+        "name": "Tiahuanaco",
+        "lat": "-16.55228",
+        "lng": "-68.67953"
+    },
+    {
+        "country": "BO",
+        "name": "Tarija",
+        "lat": "-21.53549",
+        "lng": "-64.72956"
+    },
+    {
+        "country": "BO",
+        "name": "Tarata",
+        "lat": "-17.60898",
+        "lng": "-66.02135"
+    },
+    {
+        "country": "BO",
+        "name": "Tarabuco",
+        "lat": "-19.18168",
+        "lng": "-64.91517"
+    },
+    {
+        "country": "BO",
+        "name": "Sucre",
+        "lat": "-19.03332",
+        "lng": "-65.26274"
+    },
+    {
+        "country": "BO",
+        "name": "Sorata",
+        "lat": "-15.77305",
+        "lng": "-68.64973"
+    },
+    {
+        "country": "BO",
+        "name": "Sipe Sipe",
+        "lat": "-17.45",
+        "lng": "-66.38333"
+    },
+    {
+        "country": "BO",
+        "name": "Santiago del Torno",
+        "lat": "-17.98674",
+        "lng": "-63.38118"
+    },
+    {
+        "country": "BO",
+        "name": "Santa Rosa del Sara",
+        "lat": "-17.10916",
+        "lng": "-63.59514"
+    },
+    {
+        "country": "BO",
+        "name": "Santa Rosa",
+        "lat": "-14.16667",
+        "lng": "-66.88333"
+    },
+    {
+        "country": "BO",
+        "name": "Santa Rita",
+        "lat": "-17.96667",
+        "lng": "-63.35"
+    },
+    {
+        "country": "BO",
+        "name": "Santa Cruz de la Sierra",
+        "lat": "-17.78629",
+        "lng": "-63.18117"
+    },
+    {
+        "country": "BO",
+        "name": "Santa B\u00e1rbara",
+        "lat": "-20.91667",
+        "lng": "-66.05"
+    },
+    {
+        "country": "BO",
+        "name": "Santa Ana de Yacuma",
+        "lat": "-13.74406",
+        "lng": "-65.42688"
+    },
+    {
+        "country": "BO",
+        "name": "San Ram\u00f3n",
+        "lat": "-13.28333",
+        "lng": "-64.71667"
+    },
+    {
+        "country": "BO",
+        "name": "San Pedro",
+        "lat": "-16.23717",
+        "lng": "-68.85063"
+    },
+    {
+        "country": "BO",
+        "name": "San Pablo",
+        "lat": "-16.21667",
+        "lng": "-68.83333"
+    },
+    {
+        "country": "BO",
+        "name": "San Julian",
+        "lat": "-17.78333",
+        "lng": "-62.86667"
+    },
+    {
+        "country": "BO",
+        "name": "San Juan del Surut\u00fa",
+        "lat": "-17.48333",
+        "lng": "-63.7"
+    },
+    {
+        "country": "BO",
+        "name": "San Ignacio de Velasco",
+        "lat": "-16.36667",
+        "lng": "-60.95"
+    },
+    {
+        "country": "BO",
+        "name": "San Carlos",
+        "lat": "-17.4",
+        "lng": "-63.75"
+    },
+    {
+        "country": "BO",
+        "name": "San Borja",
+        "lat": "-14.81667",
+        "lng": "-66.85"
+    },
+    {
+        "country": "BO",
+        "name": "Samaipata",
+        "lat": "-18.18005",
+        "lng": "-63.87552"
+    },
+    {
+        "country": "BO",
+        "name": "Sacaba",
+        "lat": "-17.39799",
+        "lng": "-66.03825"
+    },
+    {
+        "country": "BO",
+        "name": "Rurrenabaque",
+        "lat": "-14.44125",
+        "lng": "-67.52781"
+    },
+    {
+        "country": "BO",
+        "name": "Riberalta",
+        "lat": "-11.00654",
+        "lng": "-66.06312"
+    },
+    {
+        "country": "BO",
+        "name": "Reyes",
+        "lat": "-14.2952",
+        "lng": "-67.33624"
+    },
+    {
+        "country": "BO",
+        "name": "Quime",
+        "lat": "-16.98333",
+        "lng": "-67.21667"
+    },
+    {
+        "country": "BO",
+        "name": "Quillacollo",
+        "lat": "-17.39228",
+        "lng": "-66.27838"
+    },
+    {
+        "country": "BO",
+        "name": "Punata",
+        "lat": "-17.54234",
+        "lng": "-65.83472"
+    },
+    {
+        "country": "BO",
+        "name": "Puesto de Pailas",
+        "lat": "-17.65",
+        "lng": "-62.8"
+    },
+    {
+        "country": "BO",
+        "name": "Potos\u00ed",
+        "lat": "-19.58361",
+        "lng": "-65.75306"
+    },
+    {
+        "country": "BO",
+        "name": "Portachuelo",
+        "lat": "-17.35168",
+        "lng": "-63.39282"
+    },
+    {
+        "country": "BO",
+        "name": "Poop\u00f3",
+        "lat": "-18.38026",
+        "lng": "-66.96695"
+    },
+    {
+        "country": "BO",
+        "name": "Paurito",
+        "lat": "-17.88333",
+        "lng": "-62.96667"
+    },
+    {
+        "country": "BO",
+        "name": "Patacamaya",
+        "lat": "-17.2358",
+        "lng": "-67.92169"
+    },
+    {
+        "country": "BO",
+        "name": "Pail\u00f3n",
+        "lat": "-17.65",
+        "lng": "-62.75"
+    },
+    {
+        "country": "BO",
+        "name": "Padilla",
+        "lat": "-19.30878",
+        "lng": "-64.30273"
+    },
+    {
+        "country": "BO",
+        "name": "Oruro",
+        "lat": "-17.98333",
+        "lng": "-67.15"
+    },
+    {
+        "country": "BO",
+        "name": "Okinawa N\u00famero Uno",
+        "lat": "-17.23333",
+        "lng": "-62.81667"
+    },
+    {
+        "country": "BO",
+        "name": "Montero",
+        "lat": "-17.33866",
+        "lng": "-63.2505"
+    },
+    {
+        "country": "BO",
+        "name": "Monteagudo",
+        "lat": "-19.79989",
+        "lng": "-63.95461"
+    },
+    {
+        "country": "BO",
+        "name": "Mizque",
+        "lat": "-17.94101",
+        "lng": "-65.34016"
+    },
+    {
+        "country": "BO",
+        "name": "Mineros",
+        "lat": "-17.11876",
+        "lng": "-63.231"
+    },
+    {
+        "country": "BO",
+        "name": "Mapiri",
+        "lat": "-15.25",
+        "lng": "-68.16667"
+    },
+    {
+        "country": "BO",
+        "name": "Mairana",
+        "lat": "-18.11919",
+        "lng": "-63.95965"
+    },
+    {
+        "country": "BO",
+        "name": "Machacamarca",
+        "lat": "-18.17251",
+        "lng": "-67.02099"
+    },
+    {
+        "country": "BO",
+        "name": "Los Negros",
+        "lat": "-17.73333",
+        "lng": "-63.43333"
+    },
+    {
+        "country": "BO",
+        "name": "Llallagua",
+        "lat": "-18.42426",
+        "lng": "-66.58388"
+    },
+    {
+        "country": "BO",
+        "name": "Limoncito",
+        "lat": "-18.03104",
+        "lng": "-63.40523"
+    },
+    {
+        "country": "BO",
+        "name": "La Paz",
+        "lat": "-16.5",
+        "lng": "-68.15"
+    },
+    {
+        "country": "BO",
+        "name": "Lahuachaca",
+        "lat": "-17.37054",
+        "lng": "-67.67501"
+    },
+    {
+        "country": "BO",
+        "name": "La B\u00e9lgica",
+        "lat": "-17.55",
+        "lng": "-63.21667"
+    },
+    {
+        "country": "BO",
+        "name": "Jorochito",
+        "lat": "-18.05514",
+        "lng": "-63.42821"
+    },
+    {
+        "country": "BO",
+        "name": "Yumani",
+        "lat": "-16.03574",
+        "lng": "-69.14843"
+    },
+    {
+        "country": "BO",
+        "name": "Irpa Irpa",
+        "lat": "-17.71667",
+        "lng": "-66.26667"
+    },
+    {
+        "country": "BO",
+        "name": "Independencia",
+        "lat": "-17.08389",
+        "lng": "-66.81804"
+    },
+    {
+        "country": "BO",
+        "name": "Huatajata",
+        "lat": "-16.2",
+        "lng": "-68.68333"
+    },
+    {
+        "country": "BO",
+        "name": "Huarina",
+        "lat": "-16.2",
+        "lng": "-68.63333"
+    },
+    {
+        "country": "BO",
+        "name": "Huanuni",
+        "lat": "-18.289",
+        "lng": "-66.83583"
+    },
+    {
+        "country": "BO",
+        "name": "Huachacalla",
+        "lat": "-18.79298",
+        "lng": "-68.26157"
+    },
+    {
+        "country": "BO",
+        "name": "Guayaramer\u00edn",
+        "lat": "-10.8258",
+        "lng": "-65.3581"
+    },
+    {
+        "country": "BO",
+        "name": "Guanay",
+        "lat": "-15.49756",
+        "lng": "-67.88332"
+    },
+    {
+        "country": "BO",
+        "name": "Entre R\u00edos",
+        "lat": "-21.52661",
+        "lng": "-64.17299"
+    },
+    {
+        "country": "BO",
+        "name": "Curahuara de Carangas",
+        "lat": "-17.86667",
+        "lng": "-68.43333"
+    },
+    {
+        "country": "BO",
+        "name": "Cotoca",
+        "lat": "-17.81667",
+        "lng": "-63.05"
+    },
+    {
+        "country": "BO",
+        "name": "Cotoca",
+        "lat": "-17.74959",
+        "lng": "-62.83442"
+    },
+    {
+        "country": "BO",
+        "name": "Coroico",
+        "lat": "-16.19386",
+        "lng": "-67.72998"
+    },
+    {
+        "country": "BO",
+        "name": "Coripata",
+        "lat": "-16.3",
+        "lng": "-67.6"
+    },
+    {
+        "country": "BO",
+        "name": "Concepci\u00f3n",
+        "lat": "-16.43333",
+        "lng": "-60.9"
+    },
+    {
+        "country": "BO",
+        "name": "Comarapa",
+        "lat": "-17.91537",
+        "lng": "-64.53163"
+    },
+    {
+        "country": "BO",
+        "name": "Colquiri",
+        "lat": "-17.38918",
+        "lng": "-67.12671"
+    },
+    {
+        "country": "BO",
+        "name": "Colquechaca",
+        "lat": "-18.70031",
+        "lng": "-66.00397"
+    },
+    {
+        "country": "BO",
+        "name": "Colomi",
+        "lat": "-17.35",
+        "lng": "-65.86667"
+    },
+    {
+        "country": "BO",
+        "name": "Colchani",
+        "lat": "-20.3",
+        "lng": "-66.93333"
+    },
+    {
+        "country": "BO",
+        "name": "Colchani",
+        "lat": "-17.31667",
+        "lng": "-66.71667"
+    },
+    {
+        "country": "BO",
+        "name": "Cochabamba",
+        "lat": "-17.3895",
+        "lng": "-66.1568"
+    },
+    {
+        "country": "BO",
+        "name": "Cobija",
+        "lat": "-11.02671",
+        "lng": "-68.76918"
+    },
+    {
+        "country": "BO",
+        "name": "Cliza",
+        "lat": "-17.58777",
+        "lng": "-65.93253"
+    },
+    {
+        "country": "BO",
+        "name": "Chulumani",
+        "lat": "-16.40855",
+        "lng": "-67.5294"
+    },
+    {
+        "country": "BO",
+        "name": "Chimor\u00e9",
+        "lat": "-16.99417",
+        "lng": "-65.1533"
+    },
+    {
+        "country": "BO",
+        "name": "Charagua",
+        "lat": "-19.79151",
+        "lng": "-63.19864"
+    },
+    {
+        "country": "BO",
+        "name": "Challapata",
+        "lat": "-18.90208",
+        "lng": "-66.77048"
+    },
+    {
+        "country": "BO",
+        "name": "Capinota",
+        "lat": "-17.71113",
+        "lng": "-66.26082"
+    },
+    {
+        "country": "BO",
+        "name": "Camiri",
+        "lat": "-20.03849",
+        "lng": "-63.51833"
+    },
+    {
+        "country": "BO",
+        "name": "Camargo",
+        "lat": "-20.64064",
+        "lng": "-65.20893"
+    },
+    {
+        "country": "BO",
+        "name": "Buena Vista",
+        "lat": "-17.4583",
+        "lng": "-63.67126"
+    },
+    {
+        "country": "BO",
+        "name": "Boyuibe",
+        "lat": "-20.43227",
+        "lng": "-63.28147"
+    },
+    {
+        "country": "BO",
+        "name": "Betanzos",
+        "lat": "-19.55293",
+        "lng": "-65.45395"
+    },
+    {
+        "country": "BO",
+        "name": "Bermejo",
+        "lat": "-22.73206",
+        "lng": "-64.33724"
+    },
+    {
+        "country": "BO",
+        "name": "Batallas",
+        "lat": "-16.3",
+        "lng": "-68.53333"
+    },
+    {
+        "country": "BO",
+        "name": "Atocha",
+        "lat": "-20.93515",
+        "lng": "-66.22139"
+    },
+    {
+        "country": "BO",
+        "name": "Ascensi\u00f3n",
+        "lat": "-15.7",
+        "lng": "-63.08333"
+    },
+    {
+        "country": "BO",
+        "name": "Arani",
+        "lat": "-17.56854",
+        "lng": "-65.76883"
+    },
+    {
+        "country": "BO",
+        "name": "Andamarca",
+        "lat": "-18.77934",
+        "lng": "-67.50753"
+    },
+    {
+        "country": "BO",
+        "name": "Amarete",
+        "lat": "-15.23675",
+        "lng": "-68.98462"
+    },
+    {
+        "country": "BO",
+        "name": "Aiquile",
+        "lat": "-18.20408",
+        "lng": "-65.18068"
+    },
+    {
+        "country": "BO",
+        "name": "Achacachi",
+        "lat": "-16.05",
+        "lng": "-68.68333"
+    },
+    {
+        "country": "BO",
+        "name": "Abap\u00f3",
+        "lat": "-18.88279",
+        "lng": "-63.38026"
+    },
+    {
+        "country": "BO",
+        "name": "Cruz de Machacamarca",
+        "lat": "-18.88395",
+        "lng": "-68.41989"
+    },
+    {
+        "country": "BO",
+        "name": "Ascenci\u00f3n de Guarayos",
+        "lat": "-15.89299",
+        "lng": "-63.18855"
+    },
+    {
+        "country": "BO",
+        "name": "Santa Fe",
+        "lat": "-17.90818",
+        "lng": "-63.03955"
+    },
+    {
+        "country": "BO",
+        "name": "San Julian",
+        "lat": "-17.80623",
+        "lng": "-62.89536"
+    },
+    {
+        "country": "BO",
+        "name": "Puearto Pailas",
+        "lat": "-17.663",
+        "lng": "-62.81227"
+    },
+    {
+        "country": "BO",
+        "name": "San Borja",
+        "lat": "-14.85195",
+        "lng": "-66.74954"
+    }
+]

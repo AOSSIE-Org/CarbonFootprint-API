@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 // get the emission controller
 const { calculate } = require('../controllers/emissionController');
+const { reverseFind } = require('../controllers/reverseLookupController');
 // get the helper functions
 const { getDistanceFromLatLon, distance } = require('../controllers/helperFunctions');
 // get the logger
@@ -35,6 +36,26 @@ router.post('/emissions', (req, res) => {
 			Logger.error(`Error: ${err}`);
 			res.sendJsonError(err, 400);
 		});
+});
+
+router.post('/comparer', (req, res) => {
+    let emissions = req.body["emissions"];
+    let section = req.body["section"];
+    let relativeLocation = req.body["relativeLocation"] || null;
+    reverseFind(emissions, section, relativeLocation)
+        .then((match) => {
+                res.status(200).json({
+                    success: true,
+                    matches: match
+                });
+        })
+        .catch((err) => {
+            console.log(`Error: ${err}`);
+            res.status(404).json({
+                    success: false,
+                    err: err
+                });
+        });
 });
 
 router.post('/flight', (req, res) => {

@@ -1,0 +1,542 @@
+[
+    {
+        "country": "JM",
+        "name": "Yallahs",
+        "lat": "17.8748",
+        "lng": "-76.56245"
+    },
+    {
+        "country": "JM",
+        "name": "Williamsfield",
+        "lat": "18.06667",
+        "lng": "-77.46667"
+    },
+    {
+        "country": "JM",
+        "name": "Wakefield",
+        "lat": "18.41211",
+        "lng": "-77.72183"
+    },
+    {
+        "country": "JM",
+        "name": "Ulster Spring",
+        "lat": "18.31482",
+        "lng": "-77.52067"
+    },
+    {
+        "country": "JM",
+        "name": "Trinity Ville",
+        "lat": "17.96076",
+        "lng": "-76.51427"
+    },
+    {
+        "country": "JM",
+        "name": "Stony Hill",
+        "lat": "18.07916",
+        "lng": "-76.78473"
+    },
+    {
+        "country": "JM",
+        "name": "Spanish Town",
+        "lat": "17.99107",
+        "lng": "-76.95742"
+    },
+    {
+        "country": "JM",
+        "name": "Southfield",
+        "lat": "17.8878",
+        "lng": "-77.66713"
+    },
+    {
+        "country": "JM",
+        "name": "Siloah",
+        "lat": "18.16709",
+        "lng": "-77.70348"
+    },
+    {
+        "country": "JM",
+        "name": "Seaforth",
+        "lat": "17.93578",
+        "lng": "-76.4573"
+    },
+    {
+        "country": "JM",
+        "name": "Savanna-la-Mar",
+        "lat": "18.21895",
+        "lng": "-78.1332"
+    },
+    {
+        "country": "JM",
+        "name": "Santa Cruz",
+        "lat": "18.05336",
+        "lng": "-77.69836"
+    },
+    {
+        "country": "JM",
+        "name": "Sandy Bay",
+        "lat": "18.44854",
+        "lng": "-78.07321"
+    },
+    {
+        "country": "JM",
+        "name": "Saint Ann\u2019s Bay",
+        "lat": "18.43581",
+        "lng": "-77.20098"
+    },
+    {
+        "country": "JM",
+        "name": "Runaway Bay",
+        "lat": "18.45962",
+        "lng": "-77.3357"
+    },
+    {
+        "country": "JM",
+        "name": "Rocky Point",
+        "lat": "17.774",
+        "lng": "-77.26107"
+    },
+    {
+        "country": "JM",
+        "name": "Rock Spring",
+        "lat": "18.30123",
+        "lng": "-77.55259"
+    },
+    {
+        "country": "JM",
+        "name": "Riversdale",
+        "lat": "18.16586",
+        "lng": "-76.96417"
+    },
+    {
+        "country": "JM",
+        "name": "Richmond",
+        "lat": "18.25478",
+        "lng": "-76.88799"
+    },
+    {
+        "country": "JM",
+        "name": "Race Course",
+        "lat": "17.84019",
+        "lng": "-77.28223"
+    },
+    {
+        "country": "JM",
+        "name": "Porus",
+        "lat": "18.03535",
+        "lng": "-77.41166"
+    },
+    {
+        "country": "JM",
+        "name": "Port Royal",
+        "lat": "17.93712",
+        "lng": "-76.84081"
+    },
+    {
+        "country": "JM",
+        "name": "Portmore",
+        "lat": "17.95032",
+        "lng": "-76.88215"
+    },
+    {
+        "country": "JM",
+        "name": "Port Maria",
+        "lat": "18.36849",
+        "lng": "-76.88946"
+    },
+    {
+        "country": "JM",
+        "name": "Port Antonio",
+        "lat": "18.17615",
+        "lng": "-76.4509"
+    },
+    {
+        "country": "JM",
+        "name": "Point Hill",
+        "lat": "18.08988",
+        "lng": "-77.10759"
+    },
+    {
+        "country": "JM",
+        "name": "Petersfield",
+        "lat": "18.26158",
+        "lng": "-78.07117"
+    },
+    {
+        "country": "JM",
+        "name": "Oracabessa",
+        "lat": "18.40319",
+        "lng": "-76.94641"
+    },
+    {
+        "country": "JM",
+        "name": "Old Harbour Bay",
+        "lat": "17.90918",
+        "lng": "-77.09718"
+    },
+    {
+        "country": "JM",
+        "name": "Old Harbour",
+        "lat": "17.94144",
+        "lng": "-77.10898"
+    },
+    {
+        "country": "JM",
+        "name": "Ocho Rios",
+        "lat": "18.4025",
+        "lng": "-77.1048"
+    },
+    {
+        "country": "JM",
+        "name": "New Kingston",
+        "lat": "18.00747",
+        "lng": "-76.78319"
+    },
+    {
+        "country": "JM",
+        "name": "Negril",
+        "lat": "18.26844",
+        "lng": "-78.3481"
+    },
+    {
+        "country": "JM",
+        "name": "Nain",
+        "lat": "17.96526",
+        "lng": "-77.60528"
+    },
+    {
+        "country": "JM",
+        "name": "Morant Bay",
+        "lat": "17.88145",
+        "lng": "-76.40927"
+    },
+    {
+        "country": "JM",
+        "name": "Moore Town",
+        "lat": "18.07767",
+        "lng": "-76.42577"
+    },
+    {
+        "country": "JM",
+        "name": "Montego Bay",
+        "lat": "18.47116",
+        "lng": "-77.91883"
+    },
+    {
+        "country": "JM",
+        "name": "Moneague",
+        "lat": "18.27556",
+        "lng": "-77.11177"
+    },
+    {
+        "country": "JM",
+        "name": "Mona Heights",
+        "lat": "18.01375",
+        "lng": "-76.75186"
+    },
+    {
+        "country": "JM",
+        "name": "Mocho",
+        "lat": "18.04",
+        "lng": "-77.33"
+    },
+    {
+        "country": "JM",
+        "name": "May Pen",
+        "lat": "17.96454",
+        "lng": "-77.24515"
+    },
+    {
+        "country": "JM",
+        "name": "Mavis Bank",
+        "lat": "18.03333",
+        "lng": "-76.66667"
+    },
+    {
+        "country": "JM",
+        "name": "Maroon Town",
+        "lat": "18.34464",
+        "lng": "-77.79544"
+    },
+    {
+        "country": "JM",
+        "name": "Mandeville",
+        "lat": "18.04168",
+        "lng": "-77.50714"
+    },
+    {
+        "country": "JM",
+        "name": "Manchioneal",
+        "lat": "18.04444",
+        "lng": "-76.27735"
+    },
+    {
+        "country": "JM",
+        "name": "Malvern",
+        "lat": "17.96667",
+        "lng": "-77.7"
+    },
+    {
+        "country": "JM",
+        "name": "Maggotty",
+        "lat": "18.16069",
+        "lng": "-77.76349"
+    },
+    {
+        "country": "JM",
+        "name": "Lucea",
+        "lat": "18.45095",
+        "lng": "-78.17356"
+    },
+    {
+        "country": "JM",
+        "name": "Lluidas Vale",
+        "lat": "18.12587",
+        "lng": "-77.14823"
+    },
+    {
+        "country": "JM",
+        "name": "Lionel Town",
+        "lat": "17.81007",
+        "lng": "-77.24061"
+    },
+    {
+        "country": "JM",
+        "name": "Linstead",
+        "lat": "18.13683",
+        "lng": "-77.03171"
+    },
+    {
+        "country": "JM",
+        "name": "Lacovia",
+        "lat": "18.0721",
+        "lng": "-77.75059"
+    },
+    {
+        "country": "JM",
+        "name": "Kingston",
+        "lat": "17.99702",
+        "lng": "-76.79358"
+    },
+    {
+        "country": "JM",
+        "name": "Kellits",
+        "lat": "18.16184",
+        "lng": "-77.27049"
+    },
+    {
+        "country": "JM",
+        "name": "Islington",
+        "lat": "18.30922",
+        "lng": "-76.85482"
+    },
+    {
+        "country": "JM",
+        "name": "Hope Bay",
+        "lat": "18.19882",
+        "lng": "-76.56539"
+    },
+    {
+        "country": "JM",
+        "name": "Hayes",
+        "lat": "17.87569",
+        "lng": "-77.23711"
+    },
+    {
+        "country": "JM",
+        "name": "Half Way Tree",
+        "lat": "18.01248",
+        "lng": "-76.79928"
+    },
+    {
+        "country": "JM",
+        "name": "Gordon Town",
+        "lat": "18.03578",
+        "lng": "-76.71783"
+    },
+    {
+        "country": "JM",
+        "name": "Golden Grove",
+        "lat": "17.93361",
+        "lng": "-76.27254"
+    },
+    {
+        "country": "JM",
+        "name": "Gayle",
+        "lat": "18.32642",
+        "lng": "-77.00971"
+    },
+    {
+        "country": "JM",
+        "name": "Falmouth",
+        "lat": "18.49358",
+        "lng": "-77.65587"
+    },
+    {
+        "country": "JM",
+        "name": "Ewarton",
+        "lat": "18.18333",
+        "lng": "-77.08536"
+    },
+    {
+        "country": "JM",
+        "name": "Easington",
+        "lat": "17.92397",
+        "lng": "-76.58824"
+    },
+    {
+        "country": "JM",
+        "name": "Duncans",
+        "lat": "18.468",
+        "lng": "-77.53633"
+    },
+    {
+        "country": "JM",
+        "name": "Discovery Bay",
+        "lat": "18.45873",
+        "lng": "-77.39997"
+    },
+    {
+        "country": "JM",
+        "name": "Darliston",
+        "lat": "18.23731",
+        "lng": "-77.97626"
+    },
+    {
+        "country": "JM",
+        "name": "Dalvey",
+        "lat": "17.91184",
+        "lng": "-76.24864"
+    },
+    {
+        "country": "JM",
+        "name": "Constant Spring",
+        "lat": "18.05078",
+        "lng": "-76.79372"
+    },
+    {
+        "country": "JM",
+        "name": "Coleyville",
+        "lat": "18.20783",
+        "lng": "-77.50754"
+    },
+    {
+        "country": "JM",
+        "name": "Chapelton",
+        "lat": "18.08333",
+        "lng": "-77.26667"
+    },
+    {
+        "country": "JM",
+        "name": "Cascade",
+        "lat": "18.39747",
+        "lng": "-78.10337"
+    },
+    {
+        "country": "JM",
+        "name": "Cambridge",
+        "lat": "18.31326",
+        "lng": "-77.90252"
+    },
+    {
+        "country": "JM",
+        "name": "Bull Savanna",
+        "lat": "17.88678",
+        "lng": "-77.59022"
+    },
+    {
+        "country": "JM",
+        "name": "Buff Bay",
+        "lat": "18.23287",
+        "lng": "-76.66118"
+    },
+    {
+        "country": "JM",
+        "name": "Bog Walk",
+        "lat": "18.10205",
+        "lng": "-77.00541"
+    },
+    {
+        "country": "JM",
+        "name": "Bluefields",
+        "lat": "18.16602",
+        "lng": "-78.02702"
+    },
+    {
+        "country": "JM",
+        "name": "Black River",
+        "lat": "18.02636",
+        "lng": "-77.84873"
+    },
+    {
+        "country": "JM",
+        "name": "Bethel Town",
+        "lat": "18.29503",
+        "lng": "-77.95112"
+    },
+    {
+        "country": "JM",
+        "name": "Bath",
+        "lat": "17.9482",
+        "lng": "-76.34916"
+    },
+    {
+        "country": "JM",
+        "name": "Bamboo",
+        "lat": "18.39216",
+        "lng": "-77.26429"
+    },
+    {
+        "country": "JM",
+        "name": "Balaclava",
+        "lat": "18.17228",
+        "lng": "-77.64375"
+    },
+    {
+        "country": "JM",
+        "name": "Mt Peto",
+        "lat": "18.3637",
+        "lng": "-78.03736"
+    },
+    {
+        "country": "JM",
+        "name": "Annotto Bay",
+        "lat": "18.2717",
+        "lng": "-76.76523"
+    },
+    {
+        "country": "JM",
+        "name": "Anchovy",
+        "lat": "18.4103",
+        "lng": "-77.93166"
+    },
+    {
+        "country": "JM",
+        "name": "Alligator Pond",
+        "lat": "17.87002",
+        "lng": "-77.56667"
+    },
+    {
+        "country": "JM",
+        "name": "Alexandria",
+        "lat": "18.30768",
+        "lng": "-77.35335"
+    },
+    {
+        "country": "JM",
+        "name": "Albert Town",
+        "lat": "18.29434",
+        "lng": "-77.54239"
+    },
+    {
+        "country": "JM",
+        "name": "Limit",
+        "lat": "18.15287",
+        "lng": "-77.47121"
+    },
+    {
+        "country": "JM",
+        "name": "Quickstep",
+        "lat": "18.2624",
+        "lng": "-77.64586"
+    }
+]

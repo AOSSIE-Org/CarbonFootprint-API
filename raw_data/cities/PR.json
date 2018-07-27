@@ -1,0 +1,1316 @@
+[
+    {
+        "country": "PR",
+        "name": "Aceitunas",
+        "lat": "18.44328",
+        "lng": "-67.0649"
+    },
+    {
+        "country": "PR",
+        "name": "Adjuntas",
+        "lat": "18.16274",
+        "lng": "-66.72212"
+    },
+    {
+        "country": "PR",
+        "name": "Aguada",
+        "lat": "18.37939",
+        "lng": "-67.18824"
+    },
+    {
+        "country": "PR",
+        "name": "Aguadilla",
+        "lat": "18.42745",
+        "lng": "-67.15407"
+    },
+    {
+        "country": "PR",
+        "name": "Aguas Buenas",
+        "lat": "18.2569",
+        "lng": "-66.10294"
+    },
+    {
+        "country": "PR",
+        "name": "Aguas Claras",
+        "lat": "18.25273",
+        "lng": "-65.6535"
+    },
+    {
+        "country": "PR",
+        "name": "Aguilita",
+        "lat": "18.0233",
+        "lng": "-66.53462"
+    },
+    {
+        "country": "PR",
+        "name": "Aibonito",
+        "lat": "18.13996",
+        "lng": "-66.266"
+    },
+    {
+        "country": "PR",
+        "name": "A\u00f1asco",
+        "lat": "18.28273",
+        "lng": "-67.13962"
+    },
+    {
+        "country": "PR",
+        "name": "Animas",
+        "lat": "18.4455",
+        "lng": "-66.6349"
+    },
+    {
+        "country": "PR",
+        "name": "Ant\u00f3n Ruiz",
+        "lat": "18.18524",
+        "lng": "-65.8085"
+    },
+    {
+        "country": "PR",
+        "name": "Arecibo",
+        "lat": "18.47245",
+        "lng": "-66.71573"
+    },
+    {
+        "country": "PR",
+        "name": "Arroyo",
+        "lat": "17.9658",
+        "lng": "-66.06128"
+    },
+    {
+        "country": "PR",
+        "name": "Bairoa",
+        "lat": "18.25912",
+        "lng": "-66.04044"
+    },
+    {
+        "country": "PR",
+        "name": "Bajadero",
+        "lat": "18.42661",
+        "lng": "-66.68323"
+    },
+    {
+        "country": "PR",
+        "name": "Bajandas",
+        "lat": "18.15774",
+        "lng": "-65.78155"
+    },
+    {
+        "country": "PR",
+        "name": "Barahona",
+        "lat": "18.35134",
+        "lng": "-66.44545"
+    },
+    {
+        "country": "PR",
+        "name": "Barceloneta",
+        "lat": "18.4505",
+        "lng": "-66.53851"
+    },
+    {
+        "country": "PR",
+        "name": "Barranquitas",
+        "lat": "18.18662",
+        "lng": "-66.30628"
+    },
+    {
+        "country": "PR",
+        "name": "Bartolo",
+        "lat": "18.36134",
+        "lng": "-65.8385"
+    },
+    {
+        "country": "PR",
+        "name": "Bayam\u00f3n",
+        "lat": "18.39856",
+        "lng": "-66.15572"
+    },
+    {
+        "country": "PR",
+        "name": "Bayamon",
+        "lat": "18.17774",
+        "lng": "-66.11322"
+    },
+    {
+        "country": "PR",
+        "name": "Benitez",
+        "lat": "18.27357",
+        "lng": "-65.87905"
+    },
+    {
+        "country": "PR",
+        "name": "Boquer\u00f3n",
+        "lat": "18.02691",
+        "lng": "-67.16907"
+    },
+    {
+        "country": "PR",
+        "name": "Boqueron",
+        "lat": "18.20746",
+        "lng": "-65.8485"
+    },
+    {
+        "country": "PR",
+        "name": "Brenas",
+        "lat": "18.46717",
+        "lng": "-66.341"
+    },
+    {
+        "country": "PR",
+        "name": "Buena Vista",
+        "lat": "17.99635",
+        "lng": "-66.05183"
+    },
+    {
+        "country": "PR",
+        "name": "Bufalo",
+        "lat": "18.41828",
+        "lng": "-66.57323"
+    },
+    {
+        "country": "PR",
+        "name": "Caban",
+        "lat": "18.44328",
+        "lng": "-67.13601"
+    },
+    {
+        "country": "PR",
+        "name": "Cabo Rojo",
+        "lat": "18.08663",
+        "lng": "-67.14573"
+    },
+    {
+        "country": "PR",
+        "name": "Cacao",
+        "lat": "18.43661",
+        "lng": "-66.93712"
+    },
+    {
+        "country": "PR",
+        "name": "Caguas",
+        "lat": "18.23412",
+        "lng": "-66.0485"
+    },
+    {
+        "country": "PR",
+        "name": "Campanilla",
+        "lat": "18.42134",
+        "lng": "-66.23683"
+    },
+    {
+        "country": "PR",
+        "name": "Campo Rico",
+        "lat": "18.33717",
+        "lng": "-65.89794"
+    },
+    {
+        "country": "PR",
+        "name": "Camuy",
+        "lat": "18.48383",
+        "lng": "-66.8449"
+    },
+    {
+        "country": "PR",
+        "name": "Candelaria",
+        "lat": "18.40411",
+        "lng": "-66.20878"
+    },
+    {
+        "country": "PR",
+        "name": "Candelaria Arenas",
+        "lat": "18.41717",
+        "lng": "-66.21739"
+    },
+    {
+        "country": "PR",
+        "name": "Candelero Arriba",
+        "lat": "18.10191",
+        "lng": "-65.83683"
+    },
+    {
+        "country": "PR",
+        "name": "Canovanas",
+        "lat": "18.3751",
+        "lng": "-65.89934"
+    },
+    {
+        "country": "PR",
+        "name": "Capitanejo",
+        "lat": "18.01454",
+        "lng": "-66.53372"
+    },
+    {
+        "country": "PR",
+        "name": "Carolina",
+        "lat": "18.38078",
+        "lng": "-65.95739"
+    },
+    {
+        "country": "PR",
+        "name": "Carrizales",
+        "lat": "18.48189",
+        "lng": "-66.7899"
+    },
+    {
+        "country": "PR",
+        "name": "Cata\u00f1o",
+        "lat": "18.44134",
+        "lng": "-66.11822"
+    },
+    {
+        "country": "PR",
+        "name": "Cayey",
+        "lat": "18.11191",
+        "lng": "-66.166"
+    },
+    {
+        "country": "PR",
+        "name": "Cayuco",
+        "lat": "18.29106",
+        "lng": "-66.73934"
+    },
+    {
+        "country": "PR",
+        "name": "Ceiba",
+        "lat": "18.26412",
+        "lng": "-65.6485"
+    },
+    {
+        "country": "PR",
+        "name": "Ceiba",
+        "lat": "18.44634",
+        "lng": "-66.35073"
+    },
+    {
+        "country": "PR",
+        "name": "Celada",
+        "lat": "18.27162",
+        "lng": "-65.966"
+    },
+    {
+        "country": "PR",
+        "name": "Central Aguirre",
+        "lat": "17.95358",
+        "lng": "-66.22294"
+    },
+    {
+        "country": "PR",
+        "name": "Ciales",
+        "lat": "18.33606",
+        "lng": "-66.46878"
+    },
+    {
+        "country": "PR",
+        "name": "Cidra",
+        "lat": "18.17579",
+        "lng": "-66.16128"
+    },
+    {
+        "country": "PR",
+        "name": "Coamo",
+        "lat": "18.07996",
+        "lng": "-66.35795"
+    },
+    {
+        "country": "PR",
+        "name": "Coco",
+        "lat": "18.00719",
+        "lng": "-66.25933"
+    },
+    {
+        "country": "PR",
+        "name": "Comer\u00edo",
+        "lat": "18.21801",
+        "lng": "-66.226"
+    },
+    {
+        "country": "PR",
+        "name": "Comunas",
+        "lat": "18.08719",
+        "lng": "-65.84377"
+    },
+    {
+        "country": "PR",
+        "name": "Coqu\u00ed",
+        "lat": "17.97413",
+        "lng": "-66.22711"
+    },
+    {
+        "country": "PR",
+        "name": "Coraz\u00f3n",
+        "lat": "17.99274",
+        "lng": "-66.08489"
+    },
+    {
+        "country": "PR",
+        "name": "Corcovado",
+        "lat": "18.45856",
+        "lng": "-66.77629"
+    },
+    {
+        "country": "PR",
+        "name": "Corozal",
+        "lat": "18.34106",
+        "lng": "-66.31684"
+    },
+    {
+        "country": "PR",
+        "name": "Coto Laurel",
+        "lat": "18.04969",
+        "lng": "-66.55128"
+    },
+    {
+        "country": "PR",
+        "name": "Coto Norte",
+        "lat": "18.43078",
+        "lng": "-66.43989"
+    },
+    {
+        "country": "PR",
+        "name": "Culebra",
+        "lat": "18.30301",
+        "lng": "-65.30099"
+    },
+    {
+        "country": "PR",
+        "name": "Daguao",
+        "lat": "18.22635",
+        "lng": "-65.68322"
+    },
+    {
+        "country": "PR",
+        "name": "Dorado",
+        "lat": "18.45883",
+        "lng": "-66.26767"
+    },
+    {
+        "country": "PR",
+        "name": "Duque",
+        "lat": "18.23669",
+        "lng": "-65.74172"
+    },
+    {
+        "country": "PR",
+        "name": "El Mang\u00f3",
+        "lat": "18.23412",
+        "lng": "-65.87961"
+    },
+    {
+        "country": "PR",
+        "name": "El Negro",
+        "lat": "18.03747",
+        "lng": "-65.85127"
+    },
+    {
+        "country": "PR",
+        "name": "El Ojo",
+        "lat": "18.00385",
+        "lng": "-66.39156"
+    },
+    {
+        "country": "PR",
+        "name": "Emajagua",
+        "lat": "18.00052",
+        "lng": "-65.88266"
+    },
+    {
+        "country": "PR",
+        "name": "Esperanza",
+        "lat": "18.09719",
+        "lng": "-65.47071"
+    },
+    {
+        "country": "PR",
+        "name": "Espino",
+        "lat": "18.27634",
+        "lng": "-67.11935"
+    },
+    {
+        "country": "PR",
+        "name": "Estancias de Florida",
+        "lat": "18.36662",
+        "lng": "-66.56962"
+    },
+    {
+        "country": "PR",
+        "name": "Fajardo",
+        "lat": "18.32579",
+        "lng": "-65.65238"
+    },
+    {
+        "country": "PR",
+        "name": "Florida",
+        "lat": "18.36245",
+        "lng": "-66.56128"
+    },
+    {
+        "country": "PR",
+        "name": "Franquez",
+        "lat": "18.34023",
+        "lng": "-66.42767"
+    },
+    {
+        "country": "PR",
+        "name": "Fuig",
+        "lat": "17.98774",
+        "lng": "-66.91601"
+    },
+    {
+        "country": "PR",
+        "name": "G. L. Garcia",
+        "lat": "18.12746",
+        "lng": "-66.10405"
+    },
+    {
+        "country": "PR",
+        "name": "Galateo",
+        "lat": "18.36245",
+        "lng": "-66.25878"
+    },
+    {
+        "country": "PR",
+        "name": "Garrochales",
+        "lat": "18.45356",
+        "lng": "-66.56628"
+    },
+    {
+        "country": "PR",
+        "name": "Gu\u00e1nica",
+        "lat": "17.97163",
+        "lng": "-66.90795"
+    },
+    {
+        "country": "PR",
+        "name": "Guayabal",
+        "lat": "18.08135",
+        "lng": "-66.50128"
+    },
+    {
+        "country": "PR",
+        "name": "Guayama",
+        "lat": "17.98413",
+        "lng": "-66.11378"
+    },
+    {
+        "country": "PR",
+        "name": "Guayanilla",
+        "lat": "18.01913",
+        "lng": "-66.79184"
+    },
+    {
+        "country": "PR",
+        "name": "Guaynabo",
+        "lat": "18.35745",
+        "lng": "-66.111"
+    },
+    {
+        "country": "PR",
+        "name": "Gurabo",
+        "lat": "18.2544",
+        "lng": "-65.97294"
+    },
+    {
+        "country": "PR",
+        "name": "H. Rivera Colon",
+        "lat": "18.34773",
+        "lng": "-66.27378"
+    },
+    {
+        "country": "PR",
+        "name": "Hatillo",
+        "lat": "18.48633",
+        "lng": "-66.82545"
+    },
+    {
+        "country": "PR",
+        "name": "Hato Candal",
+        "lat": "18.37439",
+        "lng": "-65.78711"
+    },
+    {
+        "country": "PR",
+        "name": "Hormigueros",
+        "lat": "18.13968",
+        "lng": "-67.1274"
+    },
+    {
+        "country": "PR",
+        "name": "Imbery",
+        "lat": "18.43689",
+        "lng": "-66.55239"
+    },
+    {
+        "country": "PR",
+        "name": "Indios",
+        "lat": "17.99413",
+        "lng": "-66.81934"
+    },
+    {
+        "country": "PR",
+        "name": "Ingenio",
+        "lat": "18.44217",
+        "lng": "-66.226"
+    },
+    {
+        "country": "PR",
+        "name": "Humacao",
+        "lat": "18.14968",
+        "lng": "-65.82738"
+    },
+    {
+        "country": "PR",
+        "name": "Isabel Segunda",
+        "lat": "18.14913",
+        "lng": "-65.44266"
+    },
+    {
+        "country": "PR",
+        "name": "Isabela",
+        "lat": "18.50078",
+        "lng": "-67.02435"
+    },
+    {
+        "country": "PR",
+        "name": "Jagual",
+        "lat": "18.16163",
+        "lng": "-65.99544"
+    },
+    {
+        "country": "PR",
+        "name": "Jauca",
+        "lat": "17.96913",
+        "lng": "-66.36572"
+    },
+    {
+        "country": "PR",
+        "name": "Jayuya",
+        "lat": "18.21857",
+        "lng": "-66.59156"
+    },
+    {
+        "country": "PR",
+        "name": "Jobos",
+        "lat": "17.95524",
+        "lng": "-66.16544"
+    },
+    {
+        "country": "PR",
+        "name": "Juana D\u00edaz",
+        "lat": "18.05246",
+        "lng": "-66.50656"
+    },
+    {
+        "country": "PR",
+        "name": "Juncal",
+        "lat": "18.31384",
+        "lng": "-66.91907"
+    },
+    {
+        "country": "PR",
+        "name": "Juncos",
+        "lat": "18.22746",
+        "lng": "-65.921"
+    },
+    {
+        "country": "PR",
+        "name": "La Alianza",
+        "lat": "18.39745",
+        "lng": "-66.6024"
+    },
+    {
+        "country": "PR",
+        "name": "La Dolores",
+        "lat": "18.3755",
+        "lng": "-65.85572"
+    },
+    {
+        "country": "PR",
+        "name": "La Fermina",
+        "lat": "18.17551",
+        "lng": "-65.8535"
+    },
+    {
+        "country": "PR",
+        "name": "La Luisa",
+        "lat": "18.44884",
+        "lng": "-66.50989"
+    },
+    {
+        "country": "PR",
+        "name": "La Parguera",
+        "lat": "17.97497",
+        "lng": "-67.04657"
+    },
+    {
+        "country": "PR",
+        "name": "La Playa",
+        "lat": "18.28745",
+        "lng": "-67.18685"
+    },
+    {
+        "country": "PR",
+        "name": "La Plena",
+        "lat": "18.04663",
+        "lng": "-66.20461"
+    },
+    {
+        "country": "PR",
+        "name": "Lajas",
+        "lat": "18.04996",
+        "lng": "-67.05934"
+    },
+    {
+        "country": "PR",
+        "name": "Lamboglia",
+        "lat": "17.98136",
+        "lng": "-65.98572"
+    },
+    {
+        "country": "PR",
+        "name": "Lares",
+        "lat": "18.29467",
+        "lng": "-66.87712"
+    },
+    {
+        "country": "PR",
+        "name": "Las Marias",
+        "lat": "18.29328",
+        "lng": "-67.14629"
+    },
+    {
+        "country": "PR",
+        "name": "Las Mar\u00edas",
+        "lat": "18.2519",
+        "lng": "-66.99212"
+    },
+    {
+        "country": "PR",
+        "name": "Las Ochenta",
+        "lat": "17.98469",
+        "lng": "-66.31795"
+    },
+    {
+        "country": "PR",
+        "name": "Las Ollas",
+        "lat": "18.03302",
+        "lng": "-66.42434"
+    },
+    {
+        "country": "PR",
+        "name": "Las Piedras",
+        "lat": "18.18301",
+        "lng": "-65.86627"
+    },
+    {
+        "country": "PR",
+        "name": "Levittown",
+        "lat": "18.44995",
+        "lng": "-66.18156"
+    },
+    {
+        "country": "PR",
+        "name": "Liborio Negron Torres",
+        "lat": "18.04302",
+        "lng": "-66.9424"
+    },
+    {
+        "country": "PR",
+        "name": "Lluveras",
+        "lat": "18.0383",
+        "lng": "-66.90462"
+    },
+    {
+        "country": "PR",
+        "name": "Lo\u00edza",
+        "lat": "18.43134",
+        "lng": "-65.88016"
+    },
+    {
+        "country": "PR",
+        "name": "Los Llanos",
+        "lat": "18.05524",
+        "lng": "-66.40573"
+    },
+    {
+        "country": "PR",
+        "name": "Luis Llorens Torres",
+        "lat": "18.05691",
+        "lng": "-66.52684"
+    },
+    {
+        "country": "PR",
+        "name": "Luis M. Cintron",
+        "lat": "18.29968",
+        "lng": "-65.63849"
+    },
+    {
+        "country": "PR",
+        "name": "Luquillo",
+        "lat": "18.37245",
+        "lng": "-65.71655"
+    },
+    {
+        "country": "PR",
+        "name": "Luyando",
+        "lat": "18.36439",
+        "lng": "-67.1574"
+    },
+    {
+        "country": "PR",
+        "name": "Magas Arriba",
+        "lat": "18.01746",
+        "lng": "-66.76906"
+    },
+    {
+        "country": "PR",
+        "name": "Manat\u00ed",
+        "lat": "18.42745",
+        "lng": "-66.49212"
+    },
+    {
+        "country": "PR",
+        "name": "Maria Antonia",
+        "lat": "17.9783",
+        "lng": "-66.88934"
+    },
+    {
+        "country": "PR",
+        "name": "Mariano Col\u00f3n",
+        "lat": "18.0233",
+        "lng": "-66.33239"
+    },
+    {
+        "country": "PR",
+        "name": "Maricao",
+        "lat": "18.18079",
+        "lng": "-66.9799"
+    },
+    {
+        "country": "PR",
+        "name": "Martorell",
+        "lat": "18.07607",
+        "lng": "-65.89822"
+    },
+    {
+        "country": "PR",
+        "name": "Maunabo",
+        "lat": "18.00719",
+        "lng": "-65.89933"
+    },
+    {
+        "country": "PR",
+        "name": "Miranda",
+        "lat": "18.38662",
+        "lng": "-66.38378"
+    },
+    {
+        "country": "PR",
+        "name": "Moca",
+        "lat": "18.39467",
+        "lng": "-67.11324"
+    },
+    {
+        "country": "PR",
+        "name": "Monserrate",
+        "lat": "18.43661",
+        "lng": "-66.35961"
+    },
+    {
+        "country": "PR",
+        "name": "Monte Grande",
+        "lat": "18.08746",
+        "lng": "-67.1074"
+    },
+    {
+        "country": "PR",
+        "name": "Mora",
+        "lat": "18.463",
+        "lng": "-67.03268"
+    },
+    {
+        "country": "PR",
+        "name": "Morovis",
+        "lat": "18.32578",
+        "lng": "-66.40656"
+    },
+    {
+        "country": "PR",
+        "name": "Mucarabones",
+        "lat": "18.39078",
+        "lng": "-66.216"
+    },
+    {
+        "country": "PR",
+        "name": "Mayag\u00fcez",
+        "lat": "18.20107",
+        "lng": "-67.13962"
+    },
+    {
+        "country": "PR",
+        "name": "Naguabo",
+        "lat": "18.21162",
+        "lng": "-65.73488"
+    },
+    {
+        "country": "PR",
+        "name": "Naranjito",
+        "lat": "18.30079",
+        "lng": "-66.24489"
+    },
+    {
+        "country": "PR",
+        "name": "Olimpo",
+        "lat": "18.00191",
+        "lng": "-66.10822"
+    },
+    {
+        "country": "PR",
+        "name": "Orocovis",
+        "lat": "18.2269",
+        "lng": "-66.391"
+    },
+    {
+        "country": "PR",
+        "name": "P\u00e1jaros",
+        "lat": "18.36856",
+        "lng": "-66.21683"
+    },
+    {
+        "country": "PR",
+        "name": "Palmarejo",
+        "lat": "18.06802",
+        "lng": "-66.32545"
+    },
+    {
+        "country": "PR",
+        "name": "Palmarejo",
+        "lat": "18.04024",
+        "lng": "-67.07685"
+    },
+    {
+        "country": "PR",
+        "name": "Palmas",
+        "lat": "17.98719",
+        "lng": "-66.02544"
+    },
+    {
+        "country": "PR",
+        "name": "Palmer",
+        "lat": "18.37051",
+        "lng": "-65.77405"
+    },
+    {
+        "country": "PR",
+        "name": "Palo Seco",
+        "lat": "18.00747",
+        "lng": "-65.93683"
+    },
+    {
+        "country": "PR",
+        "name": "Palomas",
+        "lat": "18.23246",
+        "lng": "-66.25628"
+    },
+    {
+        "country": "PR",
+        "name": "Palomas",
+        "lat": "18.01358",
+        "lng": "-66.87323"
+    },
+    {
+        "country": "PR",
+        "name": "Parcelas La Milagrosa",
+        "lat": "18.17079",
+        "lng": "-66.18822"
+    },
+    {
+        "country": "PR",
+        "name": "Parcelas Nuevas",
+        "lat": "18.14024",
+        "lng": "-66.17239"
+    },
+    {
+        "country": "PR",
+        "name": "Parcelas Pe\u00f1uelas",
+        "lat": "17.99885",
+        "lng": "-66.34128"
+    },
+    {
+        "country": "PR",
+        "name": "Pastos",
+        "lat": "18.11774",
+        "lng": "-66.25878"
+    },
+    {
+        "country": "PR",
+        "name": "Patillas",
+        "lat": "18.00635",
+        "lng": "-66.01572"
+    },
+    {
+        "country": "PR",
+        "name": "Pe\u00f1a Pobre",
+        "lat": "18.21551",
+        "lng": "-65.82211"
+    },
+    {
+        "country": "PR",
+        "name": "Pe\u00f1uelas",
+        "lat": "18.05635",
+        "lng": "-66.72156"
+    },
+    {
+        "country": "PR",
+        "name": "Piedra Gorda",
+        "lat": "18.43411",
+        "lng": "-66.88768"
+    },
+    {
+        "country": "PR",
+        "name": "Playa Fortuna",
+        "lat": "18.37967",
+        "lng": "-65.74516"
+    },
+    {
+        "country": "PR",
+        "name": "Playita",
+        "lat": "18.04469",
+        "lng": "-65.90738"
+    },
+    {
+        "country": "PR",
+        "name": "Playita Cortada",
+        "lat": "17.98497",
+        "lng": "-66.43906"
+    },
+    {
+        "country": "PR",
+        "name": "Pole Ojea",
+        "lat": "17.97496",
+        "lng": "-67.18518"
+    },
+    {
+        "country": "PR",
+        "name": "Ponce",
+        "lat": "18.01108",
+        "lng": "-66.61406"
+    },
+    {
+        "country": "PR",
+        "name": "Potala Pastillo",
+        "lat": "17.99135",
+        "lng": "-66.49656"
+    },
+    {
+        "country": "PR",
+        "name": "Pueblito del Rio",
+        "lat": "18.22801",
+        "lng": "-65.86294"
+    },
+    {
+        "country": "PR",
+        "name": "Puerto Real",
+        "lat": "18.07496",
+        "lng": "-67.18712"
+    },
+    {
+        "country": "PR",
+        "name": "Punta Santiago",
+        "lat": "18.16635",
+        "lng": "-65.74822"
+    },
+    {
+        "country": "PR",
+        "name": "Quebrada",
+        "lat": "18.35662",
+        "lng": "-66.83212"
+    },
+    {
+        "country": "PR",
+        "name": "Quebradillas",
+        "lat": "18.47383",
+        "lng": "-66.93851"
+    },
+    {
+        "country": "PR",
+        "name": "Rafael Capo",
+        "lat": "18.40717",
+        "lng": "-66.78212"
+    },
+    {
+        "country": "PR",
+        "name": "Rafael Gonzalez",
+        "lat": "18.42745",
+        "lng": "-66.78684"
+    },
+    {
+        "country": "PR",
+        "name": "Rafael Hernandez",
+        "lat": "18.47133",
+        "lng": "-67.07907"
+    },
+    {
+        "country": "PR",
+        "name": "Ramos",
+        "lat": "18.33967",
+        "lng": "-65.71266"
+    },
+    {
+        "country": "PR",
+        "name": "Rinc\u00f3n",
+        "lat": "18.34023",
+        "lng": "-67.2499"
+    },
+    {
+        "country": "PR",
+        "name": "R\u00edo Blanco",
+        "lat": "18.21829",
+        "lng": "-65.7885"
+    },
+    {
+        "country": "PR",
+        "name": "R\u00edo Ca\u00f1as Abajo",
+        "lat": "18.0383",
+        "lng": "-66.46767"
+    },
+    {
+        "country": "PR",
+        "name": "R\u00edo Grande",
+        "lat": "18.38023",
+        "lng": "-65.83127"
+    },
+    {
+        "country": "PR",
+        "name": "R\u00edo Lajas",
+        "lat": "18.39467",
+        "lng": "-66.26767"
+    },
+    {
+        "country": "PR",
+        "name": "Rosa Sanchez",
+        "lat": "18.06163",
+        "lng": "-65.9135"
+    },
+    {
+        "country": "PR",
+        "name": "Sabana",
+        "lat": "18.46078",
+        "lng": "-66.3585"
+    },
+    {
+        "country": "PR",
+        "name": "Sabana Eneas",
+        "lat": "18.08607",
+        "lng": "-67.08101"
+    },
+    {
+        "country": "PR",
+        "name": "Sabana Grande",
+        "lat": "18.07774",
+        "lng": "-66.96045"
+    },
+    {
+        "country": "PR",
+        "name": "Sabana Hoyos",
+        "lat": "18.43384",
+        "lng": "-66.61378"
+    },
+    {
+        "country": "PR",
+        "name": "Sabana Seca",
+        "lat": "18.42689",
+        "lng": "-66.18461"
+    },
+    {
+        "country": "PR",
+        "name": "Salinas",
+        "lat": "17.97747",
+        "lng": "-66.29795"
+    },
+    {
+        "country": "PR",
+        "name": "San Antonio",
+        "lat": "18.49217",
+        "lng": "-67.09851"
+    },
+    {
+        "country": "PR",
+        "name": "San Antonio",
+        "lat": "18.44884",
+        "lng": "-66.30267"
+    },
+    {
+        "country": "PR",
+        "name": "San Antonio",
+        "lat": "18.45161",
+        "lng": "-66.94962"
+    },
+    {
+        "country": "PR",
+        "name": "San Germ\u00e1n",
+        "lat": "18.08163",
+        "lng": "-67.0449"
+    },
+    {
+        "country": "PR",
+        "name": "San Isidro",
+        "lat": "18.39217",
+        "lng": "-65.88544"
+    },
+    {
+        "country": "PR",
+        "name": "San Jos\u00e9",
+        "lat": "18.39828",
+        "lng": "-66.25572"
+    },
+    {
+        "country": "PR",
+        "name": "San Juan",
+        "lat": "18.46633",
+        "lng": "-66.10572"
+    },
+    {
+        "country": "PR",
+        "name": "San Lorenzo",
+        "lat": "18.1894",
+        "lng": "-65.961"
+    },
+    {
+        "country": "PR",
+        "name": "San Sebasti\u00e1n",
+        "lat": "18.33662",
+        "lng": "-66.99018"
+    },
+    {
+        "country": "PR",
+        "name": "Santa Barbara",
+        "lat": "18.39356",
+        "lng": "-65.91878"
+    },
+    {
+        "country": "PR",
+        "name": "Santa Clara",
+        "lat": "18.21857",
+        "lng": "-66.12878"
+    },
+    {
+        "country": "PR",
+        "name": "Santa Isabel",
+        "lat": "17.96608",
+        "lng": "-66.40489"
+    },
+    {
+        "country": "PR",
+        "name": "Santo Domingo",
+        "lat": "18.0633",
+        "lng": "-66.7524"
+    },
+    {
+        "country": "PR",
+        "name": "Stella",
+        "lat": "18.32189",
+        "lng": "-67.24685"
+    },
+    {
+        "country": "PR",
+        "name": "Su\u00e1rez",
+        "lat": "18.43022",
+        "lng": "-65.8535"
+    },
+    {
+        "country": "PR",
+        "name": "Sumidero",
+        "lat": "18.21857",
+        "lng": "-66.12878"
+    },
+    {
+        "country": "PR",
+        "name": "Tallaboa",
+        "lat": "17.99497",
+        "lng": "-66.71629"
+    },
+    {
+        "country": "PR",
+        "name": "Tallaboa Alta",
+        "lat": "18.05107",
+        "lng": "-66.70017"
+    },
+    {
+        "country": "PR",
+        "name": "Tierras Nuevas Poniente",
+        "lat": "18.46189",
+        "lng": "-66.4885"
+    },
+    {
+        "country": "PR",
+        "name": "Toa Alta",
+        "lat": "18.38828",
+        "lng": "-66.24822"
+    },
+    {
+        "country": "PR",
+        "name": "Toa Baja",
+        "lat": "18.44384",
+        "lng": "-66.25961"
+    },
+    {
+        "country": "PR",
+        "name": "Trujillo Alto",
+        "lat": "18.35467",
+        "lng": "-66.00739"
+    },
+    {
+        "country": "PR",
+        "name": "Utuado",
+        "lat": "18.26551",
+        "lng": "-66.70045"
+    },
+    {
+        "country": "PR",
+        "name": "V\u00e1zquez",
+        "lat": "18.0658",
+        "lng": "-66.2385"
+    },
+    {
+        "country": "PR",
+        "name": "Vega Alta",
+        "lat": "18.41217",
+        "lng": "-66.33128"
+    },
+    {
+        "country": "PR",
+        "name": "Vega Baja",
+        "lat": "18.44439",
+        "lng": "-66.38767"
+    },
+    {
+        "country": "PR",
+        "name": "Vieques",
+        "lat": "18.42495",
+        "lng": "-65.83294"
+    },
+    {
+        "country": "PR",
+        "name": "Villalba",
+        "lat": "18.12718",
+        "lng": "-66.49212"
+    },
+    {
+        "country": "PR",
+        "name": "Yabucoa",
+        "lat": "18.05052",
+        "lng": "-65.87933"
+    },
+    {
+        "country": "PR",
+        "name": "Yauco",
+        "lat": "18.03496",
+        "lng": "-66.8499"
+    },
+    {
+        "country": "PR",
+        "name": "Yaurel",
+        "lat": "18.02691",
+        "lng": "-66.05711"
+    }
+]

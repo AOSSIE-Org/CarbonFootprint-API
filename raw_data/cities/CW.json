@@ -1,0 +1,26 @@
+[
+    {
+        "country": "CW",
+        "name": "Willemstad",
+        "lat": "12.1084",
+        "lng": "-68.93354"
+    },
+    {
+        "country": "CW",
+        "name": "Sint Michiel Liber",
+        "lat": "12.15",
+        "lng": "-68.98333"
+    },
+    {
+        "country": "CW",
+        "name": "Dorp Soto",
+        "lat": "12.27749",
+        "lng": "-69.1125"
+    },
+    {
+        "country": "CW",
+        "name": "Barber",
+        "lat": "12.29014",
+        "lng": "-69.07389"
+    }
+]

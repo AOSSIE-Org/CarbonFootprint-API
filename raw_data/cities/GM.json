@@ -1,0 +1,428 @@
+[
+    {
+        "country": "GM",
+        "name": "Wellingara Ba",
+        "lat": "13.41667",
+        "lng": "-15.4"
+    },
+    {
+        "country": "GM",
+        "name": "Wassu",
+        "lat": "13.69094",
+        "lng": "-14.87884"
+    },
+    {
+        "country": "GM",
+        "name": "Toniataba",
+        "lat": "13.43333",
+        "lng": "-15.58333"
+    },
+    {
+        "country": "GM",
+        "name": "Sutukung",
+        "lat": "13.46667",
+        "lng": "-15.26667"
+    },
+    {
+        "country": "GM",
+        "name": "Sutukoba",
+        "lat": "13.5",
+        "lng": "-14.01667"
+    },
+    {
+        "country": "GM",
+        "name": "Sun Kunda",
+        "lat": "13.38333",
+        "lng": "-13.85"
+    },
+    {
+        "country": "GM",
+        "name": "Sukuta",
+        "lat": "13.61667",
+        "lng": "-14.91667"
+    },
+    {
+        "country": "GM",
+        "name": "Sukuta",
+        "lat": "13.41033",
+        "lng": "-16.70815"
+    },
+    {
+        "country": "GM",
+        "name": "Sudowol",
+        "lat": "13.36667",
+        "lng": "-13.96667"
+    },
+    {
+        "country": "GM",
+        "name": "Somita",
+        "lat": "13.20583",
+        "lng": "-16.30556"
+    },
+    {
+        "country": "GM",
+        "name": "Soma",
+        "lat": "13.43333",
+        "lng": "-15.53333"
+    },
+    {
+        "country": "GM",
+        "name": "Si Kunda",
+        "lat": "13.43333",
+        "lng": "-15.56667"
+    },
+    {
+        "country": "GM",
+        "name": "Serekunda",
+        "lat": "13.43833",
+        "lng": "-16.67806"
+    },
+    {
+        "country": "GM",
+        "name": "Saruja",
+        "lat": "13.55",
+        "lng": "-14.91667"
+    },
+    {
+        "country": "GM",
+        "name": "Sara Kunda",
+        "lat": "13.53333",
+        "lng": "-15.41667"
+    },
+    {
+        "country": "GM",
+        "name": "Sankwia",
+        "lat": "13.46667",
+        "lng": "-15.51667"
+    },
+    {
+        "country": "GM",
+        "name": "Sami",
+        "lat": "13.58333",
+        "lng": "-15.2"
+    },
+    {
+        "country": "GM",
+        "name": "Sabi",
+        "lat": "13.23333",
+        "lng": "-14.2"
+    },
+    {
+        "country": "GM",
+        "name": "Saba",
+        "lat": "13.51639",
+        "lng": "-16.04917"
+    },
+    {
+        "country": "GM",
+        "name": "Perai",
+        "lat": "13.38333",
+        "lng": "-14.03333"
+    },
+    {
+        "country": "GM",
+        "name": "Pateh Sam",
+        "lat": "13.61667",
+        "lng": "-15.06667"
+    },
+    {
+        "country": "GM",
+        "name": "Nyamanari",
+        "lat": "13.33333",
+        "lng": "-13.86667"
+    },
+    {
+        "country": "GM",
+        "name": "No Kunda",
+        "lat": "13.56667",
+        "lng": "-15.83333"
+    },
+    {
+        "country": "GM",
+        "name": "Nioro",
+        "lat": "13.35",
+        "lng": "-15.75"
+    },
+    {
+        "country": "GM",
+        "name": "Mansa Konko",
+        "lat": "13.44325",
+        "lng": "-15.5357"
+    },
+    {
+        "country": "GM",
+        "name": "Lamin",
+        "lat": "13.35222",
+        "lng": "-16.43389"
+    },
+    {
+        "country": "GM",
+        "name": "Kunting",
+        "lat": "13.53333",
+        "lng": "-14.66667"
+    },
+    {
+        "country": "GM",
+        "name": "Kuntaur",
+        "lat": "13.67085",
+        "lng": "-14.88977"
+    },
+    {
+        "country": "GM",
+        "name": "Kumbija",
+        "lat": "13.26667",
+        "lng": "-14.18333"
+    },
+    {
+        "country": "GM",
+        "name": "Koina",
+        "lat": "13.48333",
+        "lng": "-13.86667"
+    },
+    {
+        "country": "GM",
+        "name": "Kerewan",
+        "lat": "13.4898",
+        "lng": "-16.08879"
+    },
+    {
+        "country": "GM",
+        "name": "Keneba",
+        "lat": "13.32889",
+        "lng": "-16.015"
+    },
+    {
+        "country": "GM",
+        "name": "Katchang",
+        "lat": "13.5",
+        "lng": "-15.75"
+    },
+    {
+        "country": "GM",
+        "name": "Kass Wollof",
+        "lat": "13.78333",
+        "lng": "-14.93333"
+    },
+    {
+        "country": "GM",
+        "name": "Karantaba",
+        "lat": "13.66667",
+        "lng": "-15.03333"
+    },
+    {
+        "country": "GM",
+        "name": "Karantaba",
+        "lat": "13.43333",
+        "lng": "-15.51667"
+    },
+    {
+        "country": "GM",
+        "name": "Kaiaf",
+        "lat": "13.4",
+        "lng": "-15.61667"
+    },
+    {
+        "country": "GM",
+        "name": "Jifarong",
+        "lat": "13.3",
+        "lng": "-15.86667"
+    },
+    {
+        "country": "GM",
+        "name": "Jenoi",
+        "lat": "13.48333",
+        "lng": "-15.56667"
+    },
+    {
+        "country": "GM",
+        "name": "Jarreng",
+        "lat": "13.61667",
+        "lng": "-15.18333"
+    },
+    {
+        "country": "GM",
+        "name": "Jali",
+        "lat": "13.35",
+        "lng": "-15.96667"
+    },
+    {
+        "country": "GM",
+        "name": "Jakhaly",
+        "lat": "13.55",
+        "lng": "-14.96667"
+    },
+    {
+        "country": "GM",
+        "name": "Gunjur Kuta",
+        "lat": "13.53333",
+        "lng": "-14.11667"
+    },
+    {
+        "country": "GM",
+        "name": "Gunjur",
+        "lat": "13.52278",
+        "lng": "-16.02778"
+    },
+    {
+        "country": "GM",
+        "name": "Gunjur",
+        "lat": "13.20194",
+        "lng": "-16.73389"
+    },
+    {
+        "country": "GM",
+        "name": "Georgetown",
+        "lat": "13.54039",
+        "lng": "-14.76374"
+    },
+    {
+        "country": "GM",
+        "name": "Galleh Manda",
+        "lat": "13.43333",
+        "lng": "-14.78333"
+    },
+    {
+        "country": "GM",
+        "name": "Farafenni",
+        "lat": "13.56667",
+        "lng": "-15.6"
+    },
+    {
+        "country": "GM",
+        "name": "Essau",
+        "lat": "13.48389",
+        "lng": "-16.53472"
+    },
+    {
+        "country": "GM",
+        "name": "Diabugu Basilla",
+        "lat": "13.33333",
+        "lng": "-13.95"
+    },
+    {
+        "country": "GM",
+        "name": "Diabugu",
+        "lat": "13.38333",
+        "lng": "-14.4"
+    },
+    {
+        "country": "GM",
+        "name": "Denton",
+        "lat": "13.5",
+        "lng": "-14.93333"
+    },
+    {
+        "country": "GM",
+        "name": "Demba Kunda",
+        "lat": "13.25",
+        "lng": "-14.26667"
+    },
+    {
+        "country": "GM",
+        "name": "Daru Rilwan",
+        "lat": "13.55",
+        "lng": "-15.98333"
+    },
+    {
+        "country": "GM",
+        "name": "Dankunku",
+        "lat": "13.56667",
+        "lng": "-15.31667"
+    },
+    {
+        "country": "GM",
+        "name": "Daba Kunda",
+        "lat": "13.31667",
+        "lng": "-14.3"
+    },
+    {
+        "country": "GM",
+        "name": "Chilla",
+        "lat": "13.55",
+        "lng": "-16.28333"
+    },
+    {
+        "country": "GM",
+        "name": "Bureng",
+        "lat": "13.41667",
+        "lng": "-15.28333"
+    },
+    {
+        "country": "GM",
+        "name": "Brikama Nding",
+        "lat": "13.53333",
+        "lng": "-14.93333"
+    },
+    {
+        "country": "GM",
+        "name": "Brikama",
+        "lat": "13.27136",
+        "lng": "-16.64944"
+    },
+    {
+        "country": "GM",
+        "name": "Brifu",
+        "lat": "13.5",
+        "lng": "-13.93333"
+    },
+    {
+        "country": "GM",
+        "name": "Basse Santa Su",
+        "lat": "13.30995",
+        "lng": "-14.21373"
+    },
+    {
+        "country": "GM",
+        "name": "Barra",
+        "lat": "13.48278",
+        "lng": "-16.54556"
+    },
+    {
+        "country": "GM",
+        "name": "Baro Kunda",
+        "lat": "13.48333",
+        "lng": "-15.26667"
+    },
+    {
+        "country": "GM",
+        "name": "Bantanto",
+        "lat": "13.41667",
+        "lng": "-14.65"
+    },
+    {
+        "country": "GM",
+        "name": "Bansang",
+        "lat": "13.43333",
+        "lng": "-14.65"
+    },
+    {
+        "country": "GM",
+        "name": "Banjul",
+        "lat": "13.45274",
+        "lng": "-16.57803"
+    },
+    {
+        "country": "GM",
+        "name": "Bambali",
+        "lat": "13.48333",
+        "lng": "-15.33333"
+    },
+    {
+        "country": "GM",
+        "name": "Bakau",
+        "lat": "13.47806",
+        "lng": "-16.68194"
+    },
+    {
+        "country": "GM",
+        "name": "Bakadagy",
+        "lat": "13.3",
+        "lng": "-14.38333"
+    },
+    {
+        "country": "GM",
+        "name": "Abuko",
+        "lat": "13.40417",
+        "lng": "-16.65583"
+    }
+]

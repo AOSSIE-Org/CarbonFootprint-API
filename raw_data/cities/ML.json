@@ -1,0 +1,374 @@
+[
+    {
+        "country": "ML",
+        "name": "Youwarou",
+        "lat": "15.3684",
+        "lng": "-4.2628"
+    },
+    {
+        "country": "ML",
+        "name": "Yorosso",
+        "lat": "12.35811",
+        "lng": "-4.77688"
+    },
+    {
+        "country": "ML",
+        "name": "Y\u00e9liman\u00e9",
+        "lat": "15.11868",
+        "lng": "-10.57729"
+    },
+    {
+        "country": "ML",
+        "name": "Yanfolila",
+        "lat": "11.18333",
+        "lng": "-8.15"
+    },
+    {
+        "country": "ML",
+        "name": "Tominian",
+        "lat": "13.28737",
+        "lng": "-4.59317"
+    },
+    {
+        "country": "ML",
+        "name": "Timbuktu",
+        "lat": "16.77348",
+        "lng": "-3.00742"
+    },
+    {
+        "country": "ML",
+        "name": "Tessalit",
+        "lat": "20.20126",
+        "lng": "1.01186"
+    },
+    {
+        "country": "ML",
+        "name": "T\u00e9nenkou",
+        "lat": "14.45722",
+        "lng": "-4.9169"
+    },
+    {
+        "country": "ML",
+        "name": "Taoudenni",
+        "lat": "22.67443",
+        "lng": "-3.97891"
+    },
+    {
+        "country": "ML",
+        "name": "Sokolo",
+        "lat": "14.7328",
+        "lng": "-6.1219"
+    },
+    {
+        "country": "ML",
+        "name": "Sikasso",
+        "lat": "11.31755",
+        "lng": "-5.66654"
+    },
+    {
+        "country": "ML",
+        "name": "S\u00e9gu\u00e9la",
+        "lat": "14.11266",
+        "lng": "-6.72865"
+    },
+    {
+        "country": "ML",
+        "name": "S\u00e9gou",
+        "lat": "13.4317",
+        "lng": "-6.2157"
+    },
+    {
+        "country": "ML",
+        "name": "San",
+        "lat": "13.30335",
+        "lng": "-4.89562"
+    },
+    {
+        "country": "ML",
+        "name": "Sagalo",
+        "lat": "12.2",
+        "lng": "-10.7"
+    },
+    {
+        "country": "ML",
+        "name": "Ntossoni",
+        "lat": "12.5304",
+        "lng": "-5.77003"
+    },
+    {
+        "country": "ML",
+        "name": "Nioro",
+        "lat": "15.22932",
+        "lng": "-9.59277"
+    },
+    {
+        "country": "ML",
+        "name": "Niono",
+        "lat": "14.2526",
+        "lng": "-5.993"
+    },
+    {
+        "country": "ML",
+        "name": "Niafunk\u00e9",
+        "lat": "15.9322",
+        "lng": "-3.9906"
+    },
+    {
+        "country": "ML",
+        "name": "Nara",
+        "lat": "15.16875",
+        "lng": "-7.28466"
+    },
+    {
+        "country": "ML",
+        "name": "Mopti",
+        "lat": "14.4843",
+        "lng": "-4.18296"
+    },
+    {
+        "country": "ML",
+        "name": "M\u00e9naka",
+        "lat": "15.9182",
+        "lng": "2.4022"
+    },
+    {
+        "country": "ML",
+        "name": "Markala",
+        "lat": "13.7021",
+        "lng": "-6.0659"
+    },
+    {
+        "country": "ML",
+        "name": "Koutiala",
+        "lat": "12.39173",
+        "lng": "-5.46421"
+    },
+    {
+        "country": "ML",
+        "name": "Koulikoro",
+        "lat": "12.86273",
+        "lng": "-7.55985"
+    },
+    {
+        "country": "ML",
+        "name": "Koro",
+        "lat": "14.064",
+        "lng": "-3.07539"
+    },
+    {
+        "country": "ML",
+        "name": "Kolondi\u00e9ba",
+        "lat": "11.08943",
+        "lng": "-6.8929"
+    },
+    {
+        "country": "ML",
+        "name": "Kolokani",
+        "lat": "13.5728",
+        "lng": "-8.0339"
+    },
+    {
+        "country": "ML",
+        "name": "Kokofata",
+        "lat": "12.88333",
+        "lng": "-9.95"
+    },
+    {
+        "country": "ML",
+        "name": "Kita",
+        "lat": "13.0349",
+        "lng": "-9.4895"
+    },
+    {
+        "country": "ML",
+        "name": "Kidal",
+        "lat": "18.44111",
+        "lng": "1.40778"
+    },
+    {
+        "country": "ML",
+        "name": "Kinmparana",
+        "lat": "12.84217",
+        "lng": "-4.9245"
+    },
+    {
+        "country": "ML",
+        "name": "K\u00e9-Macina",
+        "lat": "13.9641",
+        "lng": "-5.35791"
+    },
+    {
+        "country": "ML",
+        "name": "Kayes",
+        "lat": "14.44693",
+        "lng": "-11.44448"
+    },
+    {
+        "country": "ML",
+        "name": "Kati",
+        "lat": "12.74409",
+        "lng": "-8.07257"
+    },
+    {
+        "country": "ML",
+        "name": "Kangaba",
+        "lat": "11.93333",
+        "lng": "-8.41667"
+    },
+    {
+        "country": "ML",
+        "name": "Kadiolo",
+        "lat": "10.55",
+        "lng": "-5.76667"
+    },
+    {
+        "country": "ML",
+        "name": "Gourma Rharous",
+        "lat": "16.87778",
+        "lng": "-1.92306"
+    },
+    {
+        "country": "ML",
+        "name": "Goundam",
+        "lat": "16.41453",
+        "lng": "-3.67075"
+    },
+    {
+        "country": "ML",
+        "name": "Gao",
+        "lat": "16.27167",
+        "lng": "-0.04472"
+    },
+    {
+        "country": "ML",
+        "name": "Douentza",
+        "lat": "15.00155",
+        "lng": "-2.94978"
+    },
+    {
+        "country": "ML",
+        "name": "Dj\u00e9nn\u00e9",
+        "lat": "13.90608",
+        "lng": "-4.55332"
+    },
+    {
+        "country": "ML",
+        "name": "Dir\u00e9",
+        "lat": "16.25705",
+        "lng": "-3.40126"
+    },
+    {
+        "country": "ML",
+        "name": "Dir\u00e9",
+        "lat": "12.28333",
+        "lng": "-10.96667"
+    },
+    {
+        "country": "ML",
+        "name": "Dioila",
+        "lat": "12.4822",
+        "lng": "-6.7911"
+    },
+    {
+        "country": "ML",
+        "name": "Di\u00e9ma",
+        "lat": "14.54",
+        "lng": "-9.1921"
+    },
+    {
+        "country": "ML",
+        "name": "Bourem",
+        "lat": "16.955",
+        "lng": "-0.34861"
+    },
+    {
+        "country": "ML",
+        "name": "Bougouni",
+        "lat": "11.41769",
+        "lng": "-7.48323"
+    },
+    {
+        "country": "ML",
+        "name": "Bla",
+        "lat": "12.95007",
+        "lng": "-5.76024"
+    },
+    {
+        "country": "ML",
+        "name": "Barou\u00e9li",
+        "lat": "13.077",
+        "lng": "-6.8312"
+    },
+    {
+        "country": "ML",
+        "name": "Bankass",
+        "lat": "14.0775",
+        "lng": "-3.51594"
+    },
+    {
+        "country": "ML",
+        "name": "Bandiagara",
+        "lat": "14.35005",
+        "lng": "-3.61038"
+    },
+    {
+        "country": "ML",
+        "name": "Banamba",
+        "lat": "13.54773",
+        "lng": "-7.44808"
+    },
+    {
+        "country": "ML",
+        "name": "Bamako",
+        "lat": "12.65",
+        "lng": "-8"
+    },
+    {
+        "country": "ML",
+        "name": "Bafoulab\u00e9",
+        "lat": "13.8065",
+        "lng": "-10.8321"
+    },
+    {
+        "country": "ML",
+        "name": "Araouane",
+        "lat": "18.90476",
+        "lng": "-3.52649"
+    },
+    {
+        "country": "ML",
+        "name": "Ansongo",
+        "lat": "15.6597",
+        "lng": "0.5022"
+    },
+    {
+        "country": "ML",
+        "name": "Abe\u00efbara",
+        "lat": "19.11667",
+        "lng": "1.75"
+    },
+    {
+        "country": "ML",
+        "name": "In\u00e9kar",
+        "lat": "15.95944",
+        "lng": "3.14111"
+    },
+    {
+        "country": "ML",
+        "name": "Ti-n-Essako",
+        "lat": "18.45059",
+        "lng": "2.48795"
+    },
+    {
+        "country": "ML",
+        "name": "Leleni",
+        "lat": "12.38944",
+        "lng": "-5.24528"
+    },
+    {
+        "country": "ML",
+        "name": "Figuira-Toma",
+        "lat": "11.91667",
+        "lng": "-8.36667"
+    }
+]

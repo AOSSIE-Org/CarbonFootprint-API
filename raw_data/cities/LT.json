@@ -1,0 +1,734 @@
+[
+    {
+        "country": "LT",
+        "name": "\u017die\u017emariai",
+        "lat": "54.80725",
+        "lng": "24.44073"
+    },
+    {
+        "country": "LT",
+        "name": "\u017demaiciu Naumiestis",
+        "lat": "55.35941",
+        "lng": "21.70364"
+    },
+    {
+        "country": "LT",
+        "name": "Zarasai",
+        "lat": "55.73225",
+        "lng": "26.25115"
+    },
+    {
+        "country": "LT",
+        "name": "\u017dagare",
+        "lat": "56.36149",
+        "lng": "23.25094"
+    },
+    {
+        "country": "LT",
+        "name": "Visaginas",
+        "lat": "55.59678",
+        "lng": "26.43984"
+    },
+    {
+        "country": "LT",
+        "name": "Virbalis",
+        "lat": "54.62858",
+        "lng": "22.82272"
+    },
+    {
+        "country": "LT",
+        "name": "Vilnius",
+        "lat": "54.68916",
+        "lng": "25.2798"
+    },
+    {
+        "country": "LT",
+        "name": "Vilkija",
+        "lat": "55.04609",
+        "lng": "23.58552"
+    },
+    {
+        "country": "LT",
+        "name": "Vilkaviskis",
+        "lat": "54.65167",
+        "lng": "23.03222"
+    },
+    {
+        "country": "LT",
+        "name": "Vievis",
+        "lat": "54.76667",
+        "lng": "24.8"
+    },
+    {
+        "country": "LT",
+        "name": "Viek\u0161niai",
+        "lat": "56.23598",
+        "lng": "22.51667"
+    },
+    {
+        "country": "LT",
+        "name": "Venta",
+        "lat": "56.19162",
+        "lng": "22.69528"
+    },
+    {
+        "country": "LT",
+        "name": "Veisiejai",
+        "lat": "54.1011",
+        "lng": "23.69614"
+    },
+    {
+        "country": "LT",
+        "name": "Varniai",
+        "lat": "55.74435",
+        "lng": "22.37251"
+    },
+    {
+        "country": "LT",
+        "name": "Varena",
+        "lat": "54.21546",
+        "lng": "24.57538"
+    },
+    {
+        "country": "LT",
+        "name": "Vabalninkas",
+        "lat": "55.98151",
+        "lng": "24.74828"
+    },
+    {
+        "country": "LT",
+        "name": "Utena",
+        "lat": "55.49764",
+        "lng": "25.59918"
+    },
+    {
+        "country": "LT",
+        "name": "Ukmerge",
+        "lat": "55.25",
+        "lng": "24.75"
+    },
+    {
+        "country": "LT",
+        "name": "Tytuveneliai",
+        "lat": "55.62345",
+        "lng": "23.17162"
+    },
+    {
+        "country": "LT",
+        "name": "Trakai",
+        "lat": "54.63783",
+        "lng": "24.93433"
+    },
+    {
+        "country": "LT",
+        "name": "Telsiai",
+        "lat": "55.98139",
+        "lng": "22.24722"
+    },
+    {
+        "country": "LT",
+        "name": "Taurage",
+        "lat": "55.25222",
+        "lng": "22.28972"
+    },
+    {
+        "country": "LT",
+        "name": "\u0160ventoji",
+        "lat": "56.0261",
+        "lng": "21.08411"
+    },
+    {
+        "country": "LT",
+        "name": "\u0160vencionys",
+        "lat": "55.135",
+        "lng": "26.159"
+    },
+    {
+        "country": "LT",
+        "name": "\u0160vencioneliai",
+        "lat": "55.16163",
+        "lng": "26.00177"
+    },
+    {
+        "country": "LT",
+        "name": "Skuodas",
+        "lat": "56.27057",
+        "lng": "21.53208"
+    },
+    {
+        "country": "LT",
+        "name": "Bugai",
+        "lat": "55.41387",
+        "lng": "22.60894"
+    },
+    {
+        "country": "LT",
+        "name": "Skaidi\u0161kes",
+        "lat": "54.61398",
+        "lng": "25.39573"
+    },
+    {
+        "country": "LT",
+        "name": "\u0160irvintos",
+        "lat": "55.044",
+        "lng": "24.95446"
+    },
+    {
+        "country": "LT",
+        "name": "Simnas",
+        "lat": "54.382",
+        "lng": "23.646"
+    },
+    {
+        "country": "LT",
+        "name": "Silute",
+        "lat": "55.34889",
+        "lng": "21.48306"
+    },
+    {
+        "country": "LT",
+        "name": "\u0160ilale",
+        "lat": "55.4898",
+        "lng": "22.18692"
+    },
+    {
+        "country": "LT",
+        "name": "\u0160iauliai",
+        "lat": "55.93333",
+        "lng": "23.31667"
+    },
+    {
+        "country": "LT",
+        "name": "Senieji Trakai",
+        "lat": "54.609",
+        "lng": "24.98"
+    },
+    {
+        "country": "LT",
+        "name": "\u0160eduva",
+        "lat": "55.7493",
+        "lng": "23.7561"
+    },
+    {
+        "country": "LT",
+        "name": "Seda",
+        "lat": "56.16854",
+        "lng": "22.09071"
+    },
+    {
+        "country": "LT",
+        "name": "Sargenai",
+        "lat": "54.94933",
+        "lng": "23.88316"
+    },
+    {
+        "country": "LT",
+        "name": "\u0160alcininkai",
+        "lat": "54.30864",
+        "lng": "25.38677"
+    },
+    {
+        "country": "LT",
+        "name": "Salantai",
+        "lat": "56.0565",
+        "lng": "21.5689"
+    },
+    {
+        "country": "LT",
+        "name": "\u0160akiai",
+        "lat": "54.95339",
+        "lng": "23.04779"
+    },
+    {
+        "country": "LT",
+        "name": "Rusne",
+        "lat": "55.2982",
+        "lng": "21.3712"
+    },
+    {
+        "country": "LT",
+        "name": "Rudi\u0161kes",
+        "lat": "54.51609",
+        "lng": "24.83084"
+    },
+    {
+        "country": "LT",
+        "name": "Roki\u0161kis",
+        "lat": "55.95867",
+        "lng": "25.59466"
+    },
+    {
+        "country": "LT",
+        "name": "Rietavas",
+        "lat": "55.72708",
+        "lng": "21.92343"
+    },
+    {
+        "country": "LT",
+        "name": "Raseiniai",
+        "lat": "55.37973",
+        "lng": "23.12386"
+    },
+    {
+        "country": "LT",
+        "name": "Ramygala",
+        "lat": "55.514",
+        "lng": "24.3"
+    },
+    {
+        "country": "LT",
+        "name": "Ramuciai",
+        "lat": "54.9483",
+        "lng": "24.0305"
+    },
+    {
+        "country": "LT",
+        "name": "Radviliskis",
+        "lat": "55.81667",
+        "lng": "23.53333"
+    },
+    {
+        "country": "LT",
+        "name": "Prienai",
+        "lat": "54.636",
+        "lng": "23.94585"
+    },
+    {
+        "country": "LT",
+        "name": "Priekule",
+        "lat": "55.55427",
+        "lng": "21.31903"
+    },
+    {
+        "country": "LT",
+        "name": "Plunge",
+        "lat": "55.91139",
+        "lng": "21.84417"
+    },
+    {
+        "country": "LT",
+        "name": "Plateliai",
+        "lat": "56.04657",
+        "lng": "21.81615"
+    },
+    {
+        "country": "LT",
+        "name": "Pasvalys",
+        "lat": "56.05944",
+        "lng": "24.40361"
+    },
+    {
+        "country": "LT",
+        "name": "Paneve\u017eys",
+        "lat": "55.73333",
+        "lng": "24.35"
+    },
+    {
+        "country": "LT",
+        "name": "Palanga",
+        "lat": "55.9175",
+        "lng": "21.06861"
+    },
+    {
+        "country": "LT",
+        "name": "Pakruojis",
+        "lat": "55.97889",
+        "lng": "23.85508"
+    },
+    {
+        "country": "LT",
+        "name": "Pagegiai",
+        "lat": "55.13793",
+        "lng": "21.91378"
+    },
+    {
+        "country": "LT",
+        "name": "Pabrade",
+        "lat": "54.981",
+        "lng": "25.761"
+    },
+    {
+        "country": "LT",
+        "name": "Fabijoni\u0161kes",
+        "lat": "54.73333",
+        "lng": "25.24167"
+    },
+    {
+        "country": "LT",
+        "name": "Obeliai",
+        "lat": "55.96895",
+        "lng": "25.15648"
+    },
+    {
+        "country": "LT",
+        "name": "Nida",
+        "lat": "55.3086",
+        "lng": "20.99651"
+    },
+    {
+        "country": "LT",
+        "name": "Neringa",
+        "lat": "55.37194",
+        "lng": "21.06472"
+    },
+    {
+        "country": "LT",
+        "name": "Nemencine",
+        "lat": "54.84776",
+        "lng": "25.46992"
+    },
+    {
+        "country": "LT",
+        "name": "Naujoji Akmene",
+        "lat": "56.31667",
+        "lng": "22.9"
+    },
+    {
+        "country": "LT",
+        "name": "Moletai",
+        "lat": "55.22469",
+        "lng": "25.41688"
+    },
+    {
+        "country": "LT",
+        "name": "Mazeikiai",
+        "lat": "56.31667",
+        "lng": "22.33333"
+    },
+    {
+        "country": "LT",
+        "name": "Marijampole",
+        "lat": "54.55991",
+        "lng": "23.35412"
+    },
+    {
+        "country": "LT",
+        "name": "Linkuva",
+        "lat": "56.08596",
+        "lng": "23.97061"
+    },
+    {
+        "country": "LT",
+        "name": "Lentvaris",
+        "lat": "54.64364",
+        "lng": "25.05162"
+    },
+    {
+        "country": "LT",
+        "name": "Lazdijai",
+        "lat": "54.23326",
+        "lng": "23.51466"
+    },
+    {
+        "country": "LT",
+        "name": "Kybartai",
+        "lat": "54.63858",
+        "lng": "22.76316"
+    },
+    {
+        "country": "LT",
+        "name": "Kur\u0161enai",
+        "lat": "56.00318",
+        "lng": "22.93662"
+    },
+    {
+        "country": "LT",
+        "name": "Kupiskis",
+        "lat": "55.83333",
+        "lng": "24.96667"
+    },
+    {
+        "country": "LT",
+        "name": "Kulautuva",
+        "lat": "54.94212",
+        "lng": "23.64218"
+    },
+    {
+        "country": "LT",
+        "name": "Kudirkos Naumiestis",
+        "lat": "54.77353",
+        "lng": "22.86138"
+    },
+    {
+        "country": "LT",
+        "name": "Kretinga",
+        "lat": "55.8888",
+        "lng": "21.24448"
+    },
+    {
+        "country": "LT",
+        "name": "Klaipeda",
+        "lat": "55.70888",
+        "lng": "21.14312"
+    },
+    {
+        "country": "LT",
+        "name": "Kelme",
+        "lat": "55.63009",
+        "lng": "22.9349"
+    },
+    {
+        "country": "LT",
+        "name": "Kedainiai",
+        "lat": "55.28782",
+        "lng": "23.97275"
+    },
+    {
+        "country": "LT",
+        "name": "Kazlu Ruda",
+        "lat": "54.749",
+        "lng": "23.49"
+    },
+    {
+        "country": "LT",
+        "name": "Kaunas",
+        "lat": "54.90272",
+        "lng": "23.90961"
+    },
+    {
+        "country": "LT",
+        "name": "Karmelava",
+        "lat": "54.97055",
+        "lng": "24.06182"
+    },
+    {
+        "country": "LT",
+        "name": "Kalvarija",
+        "lat": "54.417",
+        "lng": "23.223"
+    },
+    {
+        "country": "LT",
+        "name": "Kai\u0161iadorys",
+        "lat": "54.86528",
+        "lng": "24.46815"
+    },
+    {
+        "country": "LT",
+        "name": "Jurbarkas",
+        "lat": "55.07556",
+        "lng": "22.76416"
+    },
+    {
+        "country": "LT",
+        "name": "Juodupe",
+        "lat": "56.087",
+        "lng": "25.607"
+    },
+    {
+        "country": "LT",
+        "name": "Joni\u0161kis",
+        "lat": "56.23939",
+        "lng": "23.61541"
+    },
+    {
+        "country": "LT",
+        "name": "Jonava",
+        "lat": "55.08333",
+        "lng": "24.28333"
+    },
+    {
+        "country": "LT",
+        "name": "Jieznas",
+        "lat": "54.59937",
+        "lng": "24.17593"
+    },
+    {
+        "country": "LT",
+        "name": "Ignalina",
+        "lat": "55.34063",
+        "lng": "26.16049"
+    },
+    {
+        "country": "LT",
+        "name": "Grigi\u0161kes",
+        "lat": "54.68333",
+        "lng": "25.08333"
+    },
+    {
+        "country": "LT",
+        "name": "Gelgaudi\u0161kis",
+        "lat": "55.07688",
+        "lng": "22.97699"
+    },
+    {
+        "country": "LT",
+        "name": "Garliava",
+        "lat": "54.82139",
+        "lng": "23.8713"
+    },
+    {
+        "country": "LT",
+        "name": "Garg\u017edai",
+        "lat": "55.70951",
+        "lng": "21.39441"
+    },
+    {
+        "country": "LT",
+        "name": "E\u017eerelis",
+        "lat": "54.88315",
+        "lng": "23.60396"
+    },
+    {
+        "country": "LT",
+        "name": "Elektrenai",
+        "lat": "54.78544",
+        "lng": "24.66302"
+    },
+    {
+        "country": "LT",
+        "name": "Ei\u0161i\u0161kes",
+        "lat": "54.17414",
+        "lng": "24.99917"
+    },
+    {
+        "country": "LT",
+        "name": "Duk\u0161tas",
+        "lat": "55.522",
+        "lng": "26.321"
+    },
+    {
+        "country": "LT",
+        "name": "Druskininkai",
+        "lat": "54.01573",
+        "lng": "23.98703"
+    },
+    {
+        "country": "LT",
+        "name": "Daugai",
+        "lat": "54.36667",
+        "lng": "24.33333"
+    },
+    {
+        "country": "LT",
+        "name": "Birzai",
+        "lat": "56.2",
+        "lng": "24.75"
+    },
+    {
+        "country": "LT",
+        "name": "Bir\u0161tonas",
+        "lat": "54.608",
+        "lng": "24.034"
+    },
+    {
+        "country": "LT",
+        "name": "Baltoji Voke",
+        "lat": "54.60002",
+        "lng": "25.19318"
+    },
+    {
+        "country": "LT",
+        "name": "Aukstadvaris",
+        "lat": "54.57946",
+        "lng": "24.52683"
+    },
+    {
+        "country": "LT",
+        "name": "Ariogala",
+        "lat": "55.262",
+        "lng": "23.477"
+    },
+    {
+        "country": "LT",
+        "name": "Anyksciai",
+        "lat": "55.52557",
+        "lng": "25.10264"
+    },
+    {
+        "country": "LT",
+        "name": "Alytus",
+        "lat": "54.39635",
+        "lng": "24.04142"
+    },
+    {
+        "country": "LT",
+        "name": "Aleksotas",
+        "lat": "54.88037",
+        "lng": "23.90842"
+    },
+    {
+        "country": "LT",
+        "name": "Akmene",
+        "lat": "56.25",
+        "lng": "22.75"
+    },
+    {
+        "country": "LT",
+        "name": "Dainava (Kaunas)",
+        "lat": "54.91525",
+        "lng": "23.96831"
+    },
+    {
+        "country": "LT",
+        "name": "\u0160ilainiai",
+        "lat": "54.92911",
+        "lng": "23.88599"
+    },
+    {
+        "country": "LT",
+        "name": "Eiguliai",
+        "lat": "54.93133",
+        "lng": "23.93243"
+    },
+    {
+        "country": "LT",
+        "name": "Akademija (Kaunas)",
+        "lat": "54.8964",
+        "lng": "23.82411"
+    },
+    {
+        "country": "LT",
+        "name": "Mastaiciai",
+        "lat": "54.81998",
+        "lng": "23.84462"
+    },
+    {
+        "country": "LT",
+        "name": "Pa\u0161ilaiciai",
+        "lat": "54.73429",
+        "lng": "25.21912"
+    },
+    {
+        "country": "LT",
+        "name": "Pilaite",
+        "lat": "54.69981",
+        "lng": "25.18393"
+    },
+    {
+        "country": "LT",
+        "name": "Justini\u0161kes",
+        "lat": "54.71664",
+        "lng": "25.2174"
+    },
+    {
+        "country": "LT",
+        "name": "\u0160e\u0161kine",
+        "lat": "54.70972",
+        "lng": "25.25053"
+    },
+    {
+        "country": "LT",
+        "name": "Lazdynai",
+        "lat": "54.66815",
+        "lng": "25.20684"
+    },
+    {
+        "country": "LT",
+        "name": "Vilkpede",
+        "lat": "54.66969",
+        "lng": "25.2477"
+    },
+    {
+        "country": "LT",
+        "name": "Naujamiestis",
+        "lat": "54.67951",
+        "lng": "25.26855"
+    },
+    {
+        "country": "LT",
+        "name": "Rasos",
+        "lat": "54.67877",
+        "lng": "25.31173"
+    }
+]

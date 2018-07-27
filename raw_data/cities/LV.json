@@ -1,0 +1,800 @@
+[
+    {
+        "country": "LV",
+        "name": "Valmiera",
+        "lat": "57.54108",
+        "lng": "25.42751"
+    },
+    {
+        "country": "LV",
+        "name": "Zilupe",
+        "lat": "56.38616",
+        "lng": "28.12165"
+    },
+    {
+        "country": "LV",
+        "name": "Zelmeni",
+        "lat": "56.45167",
+        "lng": "23.35194"
+    },
+    {
+        "country": "LV",
+        "name": "Vilaka",
+        "lat": "57.18458",
+        "lng": "27.6722"
+    },
+    {
+        "country": "LV",
+        "name": "Vilani",
+        "lat": "56.55253",
+        "lng": "26.92449"
+    },
+    {
+        "country": "LV",
+        "name": "Viesite",
+        "lat": "56.34751",
+        "lng": "25.55514"
+    },
+    {
+        "country": "LV",
+        "name": "Vecumnieki",
+        "lat": "56.60608",
+        "lng": "24.52232"
+    },
+    {
+        "country": "LV",
+        "name": "Ventspils",
+        "lat": "57.38988",
+        "lng": "21.57288"
+    },
+    {
+        "country": "LV",
+        "name": "Vecvarkava",
+        "lat": "56.19838",
+        "lng": "26.50811"
+    },
+    {
+        "country": "LV",
+        "name": "Vecpiebalga",
+        "lat": "57.0609",
+        "lng": "25.81624"
+    },
+    {
+        "country": "LV",
+        "name": "Varaklani",
+        "lat": "56.60826",
+        "lng": "26.75377"
+    },
+    {
+        "country": "LV",
+        "name": "Vanga\u017ei",
+        "lat": "57.09361",
+        "lng": "24.54861"
+    },
+    {
+        "country": "LV",
+        "name": "Valka",
+        "lat": "57.7752",
+        "lng": "26.01013"
+    },
+    {
+        "country": "LV",
+        "name": "Valdemarpils",
+        "lat": "57.37068",
+        "lng": "22.59188"
+    },
+    {
+        "country": "LV",
+        "name": "Vainode",
+        "lat": "56.43333",
+        "lng": "21.86667"
+    },
+    {
+        "country": "LV",
+        "name": "Ulbroka",
+        "lat": "56.9363",
+        "lng": "24.30387"
+    },
+    {
+        "country": "LV",
+        "name": "Tukums",
+        "lat": "56.96694",
+        "lng": "23.15528"
+    },
+    {
+        "country": "LV",
+        "name": "Tireli",
+        "lat": "56.83991",
+        "lng": "23.58902"
+    },
+    {
+        "country": "LV",
+        "name": "Tervete",
+        "lat": "56.47989",
+        "lng": "23.38895"
+    },
+    {
+        "country": "LV",
+        "name": "Talsi",
+        "lat": "57.24562",
+        "lng": "22.58137"
+    },
+    {
+        "country": "LV",
+        "name": "Strenci",
+        "lat": "57.62574",
+        "lng": "25.68535"
+    },
+    {
+        "country": "LV",
+        "name": "Stende",
+        "lat": "57.14497",
+        "lng": "22.53482"
+    },
+    {
+        "country": "LV",
+        "name": "Stalbe",
+        "lat": "57.37065",
+        "lng": "25.03106"
+    },
+    {
+        "country": "LV",
+        "name": "Staicele",
+        "lat": "57.83639",
+        "lng": "24.75"
+    },
+    {
+        "country": "LV",
+        "name": "Smiltene",
+        "lat": "57.42444",
+        "lng": "25.90164"
+    },
+    {
+        "country": "LV",
+        "name": "Smarde",
+        "lat": "56.9542",
+        "lng": "23.33736"
+    },
+    {
+        "country": "LV",
+        "name": "Skrunda",
+        "lat": "56.68333",
+        "lng": "22.01667"
+    },
+    {
+        "country": "LV",
+        "name": "Skriveri",
+        "lat": "56.645",
+        "lng": "25.12058"
+    },
+    {
+        "country": "LV",
+        "name": "Sigulda",
+        "lat": "57.15194",
+        "lng": "24.86472"
+    },
+    {
+        "country": "LV",
+        "name": "Seda",
+        "lat": "57.65042",
+        "lng": "25.75089"
+    },
+    {
+        "country": "LV",
+        "name": "Saulkrasti",
+        "lat": "57.26224",
+        "lng": "24.41471"
+    },
+    {
+        "country": "LV",
+        "name": "Saldus",
+        "lat": "56.66363",
+        "lng": "22.48807"
+    },
+    {
+        "country": "LV",
+        "name": "Salaspils",
+        "lat": "56.86014",
+        "lng": "24.36544"
+    },
+    {
+        "country": "LV",
+        "name": "Salacgriva",
+        "lat": "57.75361",
+        "lng": "24.35806"
+    },
+    {
+        "country": "LV",
+        "name": "Sala",
+        "lat": "56.50675",
+        "lng": "25.76423"
+    },
+    {
+        "country": "LV",
+        "name": "Sabile",
+        "lat": "57.04577",
+        "lng": "22.57261"
+    },
+    {
+        "country": "LV",
+        "name": "Rujiena",
+        "lat": "57.89752",
+        "lng": "25.33155"
+    },
+    {
+        "country": "LV",
+        "name": "Rugaji",
+        "lat": "57.00325",
+        "lng": "27.13371"
+    },
+    {
+        "country": "LV",
+        "name": "Rucava",
+        "lat": "56.16314",
+        "lng": "21.16156"
+    },
+    {
+        "country": "LV",
+        "name": "Garkalne",
+        "lat": "57.04486",
+        "lng": "24.41951"
+    },
+    {
+        "country": "LV",
+        "name": "Ropa\u017ei",
+        "lat": "56.97389",
+        "lng": "24.63361"
+    },
+    {
+        "country": "LV",
+        "name": "Roja",
+        "lat": "57.50146",
+        "lng": "22.80881"
+    },
+    {
+        "country": "LV",
+        "name": "Riga",
+        "lat": "56.946",
+        "lng": "24.10589"
+    },
+    {
+        "country": "LV",
+        "name": "Riebini",
+        "lat": "56.3428",
+        "lng": "26.79995"
+    },
+    {
+        "country": "LV",
+        "name": "Rezekne",
+        "lat": "56.51028",
+        "lng": "27.34"
+    },
+    {
+        "country": "LV",
+        "name": "Rauna",
+        "lat": "57.33173",
+        "lng": "25.60947"
+    },
+    {
+        "country": "LV",
+        "name": "Ragana",
+        "lat": "57.18074",
+        "lng": "24.70731"
+    },
+    {
+        "country": "LV",
+        "name": "Priekuli",
+        "lat": "57.315",
+        "lng": "25.36147"
+    },
+    {
+        "country": "LV",
+        "name": "Priekule",
+        "lat": "56.44679",
+        "lng": "21.58968"
+    },
+    {
+        "country": "LV",
+        "name": "Preili",
+        "lat": "56.29444",
+        "lng": "26.72459"
+    },
+    {
+        "country": "LV",
+        "name": "Plavinas",
+        "lat": "56.6178",
+        "lng": "25.72552"
+    },
+    {
+        "country": "LV",
+        "name": "Pinki",
+        "lat": "56.94189",
+        "lng": "23.91365"
+    },
+    {
+        "country": "LV",
+        "name": "Piltene",
+        "lat": "57.22426",
+        "lng": "21.67439"
+    },
+    {
+        "country": "LV",
+        "name": "Pilsrundale",
+        "lat": "56.41667",
+        "lng": "24"
+    },
+    {
+        "country": "LV",
+        "name": "Pavilosta",
+        "lat": "56.88791",
+        "lng": "21.18593"
+    },
+    {
+        "country": "LV",
+        "name": "Ozolnieki",
+        "lat": "56.68639",
+        "lng": "23.78778"
+    },
+    {
+        "country": "LV",
+        "name": "Olaine",
+        "lat": "56.78528",
+        "lng": "23.93806"
+    },
+    {
+        "country": "LV",
+        "name": "Ogre",
+        "lat": "56.8162",
+        "lng": "24.61401"
+    },
+    {
+        "country": "LV",
+        "name": "Nica",
+        "lat": "56.34601",
+        "lng": "21.06401"
+    },
+    {
+        "country": "LV",
+        "name": "Nereta",
+        "lat": "56.20279",
+        "lng": "25.30752"
+    },
+    {
+        "country": "LV",
+        "name": "Nauk\u0161eni",
+        "lat": "57.88349",
+        "lng": "25.45609"
+    },
+    {
+        "country": "LV",
+        "name": "Murmui\u017ea",
+        "lat": "57.47312",
+        "lng": "25.49174"
+    },
+    {
+        "country": "LV",
+        "name": "Mersrags",
+        "lat": "57.33535",
+        "lng": "23.12455"
+    },
+    {
+        "country": "LV",
+        "name": "Mazsalaca",
+        "lat": "57.86329",
+        "lng": "25.05475"
+    },
+    {
+        "country": "LV",
+        "name": "Mati\u0161i",
+        "lat": "57.69892",
+        "lng": "25.15886"
+    },
+    {
+        "country": "LV",
+        "name": "Malpils",
+        "lat": "57.01111",
+        "lng": "24.96306"
+    },
+    {
+        "country": "LV",
+        "name": "Madona",
+        "lat": "56.85329",
+        "lng": "26.21698"
+    },
+    {
+        "country": "LV",
+        "name": "Ludza",
+        "lat": "56.53958",
+        "lng": "27.71891"
+    },
+    {
+        "country": "LV",
+        "name": "Lubana",
+        "lat": "56.90425",
+        "lng": "26.71606"
+    },
+    {
+        "country": "LV",
+        "name": "Loja",
+        "lat": "57.15444",
+        "lng": "24.64444"
+    },
+    {
+        "country": "LV",
+        "name": "Livani",
+        "lat": "56.35431",
+        "lng": "26.17579"
+    },
+    {
+        "country": "LV",
+        "name": "Limba\u017ei",
+        "lat": "57.51287",
+        "lng": "24.71941"
+    },
+    {
+        "country": "LV",
+        "name": "Ligatne",
+        "lat": "57.23429",
+        "lng": "25.04059"
+    },
+    {
+        "country": "LV",
+        "name": "Liepaja",
+        "lat": "56.52707",
+        "lng": "21.02357"
+    },
+    {
+        "country": "LV",
+        "name": "Lielvarde",
+        "lat": "56.72066",
+        "lng": "24.80743"
+    },
+    {
+        "country": "LV",
+        "name": "Liegi",
+        "lat": "56.58173",
+        "lng": "21.33399"
+    },
+    {
+        "country": "LV",
+        "name": "Kuldiga",
+        "lat": "56.97399",
+        "lng": "21.95721"
+    },
+    {
+        "country": "LV",
+        "name": "Krustpils",
+        "lat": "56.51068",
+        "lng": "25.86117"
+    },
+    {
+        "country": "LV",
+        "name": "Kraslava",
+        "lat": "55.89514",
+        "lng": "27.16799"
+    },
+    {
+        "country": "LV",
+        "name": "Koknese",
+        "lat": "56.65163",
+        "lng": "25.43637"
+    },
+    {
+        "country": "LV",
+        "name": "Koceni",
+        "lat": "57.52057",
+        "lng": "25.33821"
+    },
+    {
+        "country": "LV",
+        "name": "Kekava",
+        "lat": "56.82662",
+        "lng": "24.23"
+    },
+    {
+        "country": "LV",
+        "name": "Kegums",
+        "lat": "56.7451",
+        "lng": "24.72439"
+    },
+    {
+        "country": "LV",
+        "name": "Karsava",
+        "lat": "56.78405",
+        "lng": "27.68829"
+    },
+    {
+        "country": "LV",
+        "name": "Karosta",
+        "lat": "56.55128",
+        "lng": "21.01287"
+    },
+    {
+        "country": "LV",
+        "name": "Kandava",
+        "lat": "57.04087",
+        "lng": "22.77466"
+    },
+    {
+        "country": "LV",
+        "name": "Jurmala",
+        "lat": "56.968",
+        "lng": "23.77038"
+    },
+    {
+        "country": "LV",
+        "name": "Jumprava",
+        "lat": "56.67613",
+        "lng": "24.9721"
+    },
+    {
+        "country": "LV",
+        "name": "Jelgava",
+        "lat": "56.65",
+        "lng": "23.71278"
+    },
+    {
+        "country": "LV",
+        "name": "Jekabpils",
+        "lat": "56.49903",
+        "lng": "25.85735"
+    },
+    {
+        "country": "LV",
+        "name": "Jaunpils",
+        "lat": "56.7325",
+        "lng": "23.01361"
+    },
+    {
+        "country": "LV",
+        "name": "Jaunpiebalga",
+        "lat": "57.17745",
+        "lng": "26.0284"
+    },
+    {
+        "country": "LV",
+        "name": "Jaunjelgava",
+        "lat": "56.61319",
+        "lng": "25.08316"
+    },
+    {
+        "country": "LV",
+        "name": "Jaunciems",
+        "lat": "57.0391",
+        "lng": "24.17413"
+    },
+    {
+        "country": "LV",
+        "name": "Jaunaglona",
+        "lat": "56.16066",
+        "lng": "27.00714"
+    },
+    {
+        "country": "LV",
+        "name": "Incukalns",
+        "lat": "57.09806",
+        "lng": "24.68639"
+    },
+    {
+        "country": "LV",
+        "name": "Ilukste",
+        "lat": "55.97754",
+        "lng": "26.29655"
+    },
+    {
+        "country": "LV",
+        "name": "Ik\u0161kile",
+        "lat": "56.83333",
+        "lng": "24.5"
+    },
+    {
+        "country": "LV",
+        "name": "Iecava",
+        "lat": "56.59861",
+        "lng": "24.20222"
+    },
+    {
+        "country": "LV",
+        "name": "Gulbene",
+        "lat": "57.17767",
+        "lng": "26.75291"
+    },
+    {
+        "country": "LV",
+        "name": "Grobina",
+        "lat": "56.53521",
+        "lng": "21.16782"
+    },
+    {
+        "country": "LV",
+        "name": "Cibla",
+        "lat": "56.5498",
+        "lng": "27.8837"
+    },
+    {
+        "country": "LV",
+        "name": "Ergli",
+        "lat": "56.89752",
+        "lng": "25.63668"
+    },
+    {
+        "country": "LV",
+        "name": "Engure",
+        "lat": "57.16061",
+        "lng": "23.22527"
+    },
+    {
+        "country": "LV",
+        "name": "Dundaga",
+        "lat": "57.50498",
+        "lng": "22.35041"
+    },
+    {
+        "country": "LV",
+        "name": "Drabe\u0161i",
+        "lat": "57.24316",
+        "lng": "25.27748"
+    },
+    {
+        "country": "LV",
+        "name": "Dobele",
+        "lat": "56.625",
+        "lng": "23.27861"
+    },
+    {
+        "country": "LV",
+        "name": "Daugavpils",
+        "lat": "55.88333",
+        "lng": "26.53333"
+    },
+    {
+        "country": "LV",
+        "name": "Daugavgriva",
+        "lat": "57.04315",
+        "lng": "24.03613"
+    },
+    {
+        "country": "LV",
+        "name": "Dagda",
+        "lat": "56.09512",
+        "lng": "27.53723"
+    },
+    {
+        "country": "LV",
+        "name": "Cesvaine",
+        "lat": "56.96754",
+        "lng": "26.30764"
+    },
+    {
+        "country": "LV",
+        "name": "Cesis",
+        "lat": "57.31188",
+        "lng": "25.27456"
+    },
+    {
+        "country": "LV",
+        "name": "Carnikava",
+        "lat": "57.12935",
+        "lng": "24.28423"
+    },
+    {
+        "country": "LV",
+        "name": "Broceni",
+        "lat": "56.7",
+        "lng": "22.53333"
+    },
+    {
+        "country": "LV",
+        "name": "Bolderaja",
+        "lat": "57.03132",
+        "lng": "24.05571"
+    },
+    {
+        "country": "LV",
+        "name": "Bergi",
+        "lat": "56.98639",
+        "lng": "24.29917"
+    },
+    {
+        "country": "LV",
+        "name": "Bauska",
+        "lat": "56.40794",
+        "lng": "24.19443"
+    },
+    {
+        "country": "LV",
+        "name": "Balvi",
+        "lat": "57.1313",
+        "lng": "27.26583"
+    },
+    {
+        "country": "LV",
+        "name": "Baltinava",
+        "lat": "56.94394",
+        "lng": "27.64401"
+    },
+    {
+        "country": "LV",
+        "name": "Baldone",
+        "lat": "56.74451",
+        "lng": "24.40078"
+    },
+    {
+        "country": "LV",
+        "name": "Auce",
+        "lat": "56.45981",
+        "lng": "22.90169"
+    },
+    {
+        "country": "LV",
+        "name": "Ape",
+        "lat": "57.53928",
+        "lng": "26.69291"
+    },
+    {
+        "country": "LV",
+        "name": "Aluksne",
+        "lat": "57.42162",
+        "lng": "27.04662"
+    },
+    {
+        "country": "LV",
+        "name": "Alsunga",
+        "lat": "56.98194",
+        "lng": "21.55938"
+    },
+    {
+        "country": "LV",
+        "name": "Aloja",
+        "lat": "57.76723",
+        "lng": "24.87743"
+    },
+    {
+        "country": "LV",
+        "name": "Akniste",
+        "lat": "56.16152",
+        "lng": "25.74783"
+    },
+    {
+        "country": "LV",
+        "name": "Aizpute",
+        "lat": "56.72108",
+        "lng": "21.60156"
+    },
+    {
+        "country": "LV",
+        "name": "Aizkraukle",
+        "lat": "56.60477",
+        "lng": "25.25534"
+    },
+    {
+        "country": "LV",
+        "name": "Aina\u017ei",
+        "lat": "57.86361",
+        "lng": "24.35778"
+    },
+    {
+        "country": "LV",
+        "name": "Aglona",
+        "lat": "56.13333",
+        "lng": "27.01667"
+    },
+    {
+        "country": "LV",
+        "name": "Ada\u017ei",
+        "lat": "57.07045",
+        "lng": "24.33713"
+    },
+    {
+        "country": "LV",
+        "name": "Balo\u017ei",
+        "lat": "56.87611",
+        "lng": "24.11861"
+    },
+    {
+        "country": "LV",
+        "name": "Marupe",
+        "lat": "56.90544",
+        "lng": "24.05113"
+    }
+]

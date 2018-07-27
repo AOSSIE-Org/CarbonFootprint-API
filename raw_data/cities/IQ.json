@@ -1,0 +1,830 @@
+[
+    {
+        "country": "IQ",
+        "name": "Zawitah",
+        "lat": "36.90568",
+        "lng": "43.14324"
+    },
+    {
+        "country": "IQ",
+        "name": "Zaxo",
+        "lat": "37.14871",
+        "lng": "42.68591"
+    },
+    {
+        "country": "IQ",
+        "name": "Umm Qasr",
+        "lat": "30.0362",
+        "lng": "47.91951"
+    },
+    {
+        "country": "IQ",
+        "name": "Tozkhurmato",
+        "lat": "34.88808",
+        "lng": "44.63256"
+    },
+    {
+        "country": "IQ",
+        "name": "Tikrit",
+        "lat": "34.61581",
+        "lng": "43.67861"
+    },
+    {
+        "country": "IQ",
+        "name": "Daquq",
+        "lat": "35.13923",
+        "lng": "44.44907"
+    },
+    {
+        "country": "IQ",
+        "name": "Tallkayf",
+        "lat": "36.49118",
+        "lng": "43.12114"
+    },
+    {
+        "country": "IQ",
+        "name": "Tall \u2018Afar",
+        "lat": "36.37913",
+        "lng": "42.44806"
+    },
+    {
+        "country": "IQ",
+        "name": "Suq ash Shuyukh",
+        "lat": "30.89086",
+        "lng": "46.45425"
+    },
+    {
+        "country": "IQ",
+        "name": "Saymayl",
+        "lat": "36.85823",
+        "lng": "42.8482"
+    },
+    {
+        "country": "IQ",
+        "name": "Sinah",
+        "lat": "36.80752",
+        "lng": "43.03831"
+    },
+    {
+        "country": "IQ",
+        "name": "\u2018Ayn Tamr",
+        "lat": "32.56687",
+        "lng": "43.48815"
+    },
+    {
+        "country": "IQ",
+        "name": "Ash Sharqat",
+        "lat": "35.51722",
+        "lng": "43.22806"
+    },
+    {
+        "country": "IQ",
+        "name": "Shaqlawah",
+        "lat": "36.40422",
+        "lng": "44.32563"
+    },
+    {
+        "country": "IQ",
+        "name": "Seyid Sadiq",
+        "lat": "35.35278",
+        "lng": "45.86682"
+    },
+    {
+        "country": "IQ",
+        "name": "Samarra\u2019",
+        "lat": "34.1959",
+        "lng": "43.88568"
+    },
+    {
+        "country": "IQ",
+        "name": "Na?iyat Saddat al Hindiyah",
+        "lat": "32.71557",
+        "lng": "44.27857"
+    },
+    {
+        "country": "IQ",
+        "name": "Ruwandiz",
+        "lat": "36.61207",
+        "lng": "44.52372"
+    },
+    {
+        "country": "IQ",
+        "name": "Rawah",
+        "lat": "34.48229",
+        "lng": "41.91898"
+    },
+    {
+        "country": "IQ",
+        "name": "?aniye",
+        "lat": "36.25511",
+        "lng": "44.88239"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Qa\u2019im",
+        "lat": "34.39251",
+        "lng": "40.98945"
+    },
+    {
+        "country": "IQ",
+        "name": "Al-Hamdaniya",
+        "lat": "36.27093",
+        "lng": "43.37758"
+    },
+    {
+        "country": "IQ",
+        "name": "Qeredagh",
+        "lat": "35.3071",
+        "lng": "45.3906"
+    },
+    {
+        "country": "IQ",
+        "name": "Qal\u2018at Sali?",
+        "lat": "31.52802",
+        "lng": "47.29362"
+    },
+    {
+        "country": "IQ",
+        "name": "Qeladiz\u00ea",
+        "lat": "36.18536",
+        "lng": "45.12735"
+    },
+    {
+        "country": "IQ",
+        "name": "M\u00eargasur",
+        "lat": "36.84308",
+        "lng": "44.30094"
+    },
+    {
+        "country": "IQ",
+        "name": "Mawet",
+        "lat": "35.9012",
+        "lng": "45.41301"
+    },
+    {
+        "country": "IQ",
+        "name": "Mandali",
+        "lat": "33.7481",
+        "lng": "45.55503"
+    },
+    {
+        "country": "IQ",
+        "name": "Mexmur",
+        "lat": "35.77622",
+        "lng": "43.57974"
+    },
+    {
+        "country": "IQ",
+        "name": "Koysinceq",
+        "lat": "36.08289",
+        "lng": "44.62873"
+    },
+    {
+        "country": "IQ",
+        "name": "Kifri",
+        "lat": "34.68963",
+        "lng": "44.96057"
+    },
+    {
+        "country": "IQ",
+        "name": "Khanaqin",
+        "lat": "34.3482",
+        "lng": "45.39065"
+    },
+    {
+        "country": "IQ",
+        "name": "Kirkuk",
+        "lat": "35.46806",
+        "lng": "44.39222"
+    },
+    {
+        "country": "IQ",
+        "name": "Karbala",
+        "lat": "32.61603",
+        "lng": "44.02488"
+    },
+    {
+        "country": "IQ",
+        "name": "Kelar",
+        "lat": "34.62805",
+        "lng": "45.31852"
+    },
+    {
+        "country": "IQ",
+        "name": "Al \u2018Abbasi",
+        "lat": "35.27517",
+        "lng": "43.59593"
+    },
+    {
+        "country": "IQ",
+        "name": "Erbil",
+        "lat": "36.19257",
+        "lng": "44.01062"
+    },
+    {
+        "country": "IQ",
+        "name": "Hit",
+        "lat": "33.63664",
+        "lng": "42.82768"
+    },
+    {
+        "country": "IQ",
+        "name": "Al ?aqlaniyah",
+        "lat": "34.08599",
+        "lng": "42.36174"
+    },
+    {
+        "country": "IQ",
+        "name": "?alabjah",
+        "lat": "35.17778",
+        "lng": "45.98611"
+    },
+    {
+        "country": "IQ",
+        "name": "?adithah",
+        "lat": "34.13661",
+        "lng": "42.37727"
+    },
+    {
+        "country": "IQ",
+        "name": "Xebat",
+        "lat": "36.27798",
+        "lng": "43.67065"
+    },
+    {
+        "country": "IQ",
+        "name": "Dukan",
+        "lat": "35.92922",
+        "lng": "44.96282"
+    },
+    {
+        "country": "IQ",
+        "name": "Soran",
+        "lat": "36.6532",
+        "lng": "44.54407"
+    },
+    {
+        "country": "IQ",
+        "name": "Dihok",
+        "lat": "36.86709",
+        "lng": "42.98845"
+    },
+    {
+        "country": "IQ",
+        "name": "Dibis",
+        "lat": "35.67482",
+        "lng": "44.07067"
+    },
+    {
+        "country": "IQ",
+        "name": "Derkar",
+        "lat": "37.19989",
+        "lng": "42.82361"
+    },
+    {
+        "country": "IQ",
+        "name": "Chwarta",
+        "lat": "35.72659",
+        "lng": "45.57232"
+    },
+    {
+        "country": "IQ",
+        "name": "Jamjamal",
+        "lat": "35.53356",
+        "lng": "44.8343"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Jabayish",
+        "lat": "30.96588",
+        "lng": "47.00196"
+    },
+    {
+        "country": "IQ",
+        "name": "Bayji",
+        "lat": "34.92915",
+        "lng": "43.48878"
+    },
+    {
+        "country": "IQ",
+        "name": "Baqubah",
+        "lat": "33.75403",
+        "lng": "44.60518"
+    },
+    {
+        "country": "IQ",
+        "name": "Baynjiwayn",
+        "lat": "35.62329",
+        "lng": "45.94714"
+    },
+    {
+        "country": "IQ",
+        "name": "Bamarni",
+        "lat": "37.12163",
+        "lng": "43.2709"
+    },
+    {
+        "country": "IQ",
+        "name": "Baladruz",
+        "lat": "33.69631",
+        "lng": "45.07782"
+    },
+    {
+        "country": "IQ",
+        "name": "Balad",
+        "lat": "34.01485",
+        "lng": "44.14574"
+    },
+    {
+        "country": "IQ",
+        "name": "Ba?irkah",
+        "lat": "36.31556",
+        "lng": "44.03533"
+    },
+    {
+        "country": "IQ",
+        "name": "Baghdad",
+        "lat": "33.34058",
+        "lng": "44.40088"
+    },
+    {
+        "country": "IQ",
+        "name": "Badrah",
+        "lat": "33.11508",
+        "lng": "45.93344"
+    },
+    {
+        "country": "IQ",
+        "name": "Az Zubayr",
+        "lat": "30.39213",
+        "lng": "47.70175"
+    },
+    {
+        "country": "IQ",
+        "name": "Ash Shaykhan",
+        "lat": "36.69595",
+        "lng": "43.35202"
+    },
+    {
+        "country": "IQ",
+        "name": "\u2018Aynkawah",
+        "lat": "36.2306",
+        "lng": "43.99442"
+    },
+    {
+        "country": "IQ",
+        "name": "At Tarmiyah",
+        "lat": "33.67444",
+        "lng": "44.39583"
+    },
+    {
+        "country": "IQ",
+        "name": "As Suwayrah",
+        "lat": "32.92556",
+        "lng": "44.77583"
+    },
+    {
+        "country": "IQ",
+        "name": "As Sulaymaniyah",
+        "lat": "35.56496",
+        "lng": "45.4329"
+    },
+    {
+        "country": "IQ",
+        "name": "As Samawah",
+        "lat": "31.33198",
+        "lng": "45.2944"
+    },
+    {
+        "country": "IQ",
+        "name": "As Salman",
+        "lat": "30.50464",
+        "lng": "44.53943"
+    },
+    {
+        "country": "IQ",
+        "name": "Na?iyat ash Shinafiyah",
+        "lat": "31.58376",
+        "lng": "44.64675"
+    },
+    {
+        "country": "IQ",
+        "name": "Ash Shatrah",
+        "lat": "31.40906",
+        "lng": "46.1727"
+    },
+    {
+        "country": "IQ",
+        "name": "Ash Shamiyah",
+        "lat": "31.96257",
+        "lng": "44.60075"
+    },
+    {
+        "country": "IQ",
+        "name": "Ar Rutbah",
+        "lat": "33.03718",
+        "lng": "40.28586"
+    },
+    {
+        "country": "IQ",
+        "name": "Ar Rumaythah",
+        "lat": "31.52845",
+        "lng": "45.20377"
+    },
+    {
+        "country": "IQ",
+        "name": "Ar Riya?",
+        "lat": "35.26964",
+        "lng": "43.91067"
+    },
+    {
+        "country": "IQ",
+        "name": "Ar Rifa\u2018i",
+        "lat": "31.72079",
+        "lng": "46.10778"
+    },
+    {
+        "country": "IQ",
+        "name": "Ramadi",
+        "lat": "33.42056",
+        "lng": "43.30778"
+    },
+    {
+        "country": "IQ",
+        "name": "\u2018Aqrah",
+        "lat": "36.73322",
+        "lng": "43.87964"
+    },
+    {
+        "country": "IQ",
+        "name": "An Nu\u2018maniyah",
+        "lat": "32.55621",
+        "lng": "45.41293"
+    },
+    {
+        "country": "IQ",
+        "name": "Nasiriyah",
+        "lat": "31.05799",
+        "lng": "46.25726"
+    },
+    {
+        "country": "IQ",
+        "name": "Najaf",
+        "lat": "32.02594",
+        "lng": "44.34625"
+    },
+    {
+        "country": "IQ",
+        "name": "\u2018Anat al Qadimah",
+        "lat": "34.46934",
+        "lng": "41.94223"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Qurnah",
+        "lat": "31.01547",
+        "lng": "47.43362"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Qayyarah",
+        "lat": "35.79933",
+        "lng": "43.29447"
+    },
+    {
+        "country": "IQ",
+        "name": "Imam Qasim",
+        "lat": "32.29799",
+        "lng": "44.68282"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Musayyib",
+        "lat": "32.77872",
+        "lng": "44.29005"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Mishkhab",
+        "lat": "31.80437",
+        "lng": "44.4893"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Miqdadiyah",
+        "lat": "33.97861",
+        "lng": "44.93694"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Maymunah",
+        "lat": "31.679",
+        "lng": "46.96948"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Mawsil al Jadidah",
+        "lat": "36.33271",
+        "lng": "43.10555"
+    },
+    {
+        "country": "IQ",
+        "name": "Mosul",
+        "lat": "36.335",
+        "lng": "43.11889"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Ma?mudiyah",
+        "lat": "33.06221",
+        "lng": "44.36564"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Ma?awil",
+        "lat": "32.66138",
+        "lng": "44.40854"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Madinah",
+        "lat": "30.96324",
+        "lng": "47.26998"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Kut",
+        "lat": "32.5128",
+        "lng": "45.81817"
+    },
+    {
+        "country": "IQ",
+        "name": "Kufa",
+        "lat": "32.05114",
+        "lng": "44.44017"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Khalis",
+        "lat": "33.85118",
+        "lng": "44.52047"
+    },
+    {
+        "country": "IQ",
+        "name": "Khalis",
+        "lat": "33.80809",
+        "lng": "44.53343"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Ka?la\u2019",
+        "lat": "31.66789",
+        "lng": "47.2945"
+    },
+    {
+        "country": "IQ",
+        "name": "\u2018Ali al Gharbi",
+        "lat": "32.46186",
+        "lng": "46.68794"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Hindiyah",
+        "lat": "32.54671",
+        "lng": "44.22765"
+    },
+    {
+        "country": "IQ",
+        "name": "Al ?illah",
+        "lat": "32.46367",
+        "lng": "44.41963"
+    },
+    {
+        "country": "IQ",
+        "name": "Al ?ayy",
+        "lat": "32.17419",
+        "lng": "46.04345"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Hashimiyah",
+        "lat": "32.36351",
+        "lng": "44.66011"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Harithah",
+        "lat": "30.58481",
+        "lng": "47.76114"
+    },
+    {
+        "country": "IQ",
+        "name": "Al ?amzah",
+        "lat": "31.72444",
+        "lng": "44.97694"
+    },
+    {
+        "country": "IQ",
+        "name": "Al ?a?ar",
+        "lat": "35.5729",
+        "lng": "42.73395"
+    },
+    {
+        "country": "IQ",
+        "name": "Nahiyat Ghammas",
+        "lat": "31.74311",
+        "lng": "44.6196"
+    },
+    {
+        "country": "IQ",
+        "name": "Na?iyat al Fuhud",
+        "lat": "30.96972",
+        "lng": "46.72278"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Faw",
+        "lat": "29.97421",
+        "lng": "48.47309"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Fallujah",
+        "lat": "33.34913",
+        "lng": "43.78599"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Ba\u2018aj",
+        "lat": "36.0426",
+        "lng": "41.71632"
+    },
+    {
+        "country": "IQ",
+        "name": "Basrah",
+        "lat": "30.50852",
+        "lng": "47.7804"
+    },
+    {
+        "country": "IQ",
+        "name": "Al \u2018Aziziyah",
+        "lat": "32.90941",
+        "lng": "45.06359"
+    },
+    {
+        "country": "IQ",
+        "name": "Al \u2018Awjah",
+        "lat": "34.53333",
+        "lng": "43.73333"
+    },
+    {
+        "country": "IQ",
+        "name": "Al \u2018Amarah",
+        "lat": "31.83561",
+        "lng": "47.14483"
+    },
+    {
+        "country": "IQ",
+        "name": "Al \u2018Amadiyah",
+        "lat": "37.09214",
+        "lng": "43.48769"
+    },
+    {
+        "country": "IQ",
+        "name": "\u2018Afak",
+        "lat": "32.0643",
+        "lng": "45.24743"
+    },
+    {
+        "country": "IQ",
+        "name": "Ad Dujayl",
+        "lat": "33.84667",
+        "lng": "44.23444"
+    },
+    {
+        "country": "IQ",
+        "name": "Ad Diwaniyah",
+        "lat": "31.99289",
+        "lng": "44.92552"
+    },
+    {
+        "country": "IQ",
+        "name": "Ad Dawr",
+        "lat": "34.45597",
+        "lng": "43.79341"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Manadhirah",
+        "lat": "31.90692",
+        "lng": "44.48649"
+    },
+    {
+        "country": "IQ",
+        "name": "Abi al Khasib",
+        "lat": "30.44636",
+        "lng": "47.97813"
+    },
+    {
+        "country": "IQ",
+        "name": "Abu Ghurayb",
+        "lat": "33.30563",
+        "lng": "44.18477"
+    },
+    {
+        "country": "IQ",
+        "name": "Derbend\u00eexan",
+        "lat": "35.11207",
+        "lng": "45.68663"
+    },
+    {
+        "country": "IQ",
+        "name": "Al Basrah al Qadimah",
+        "lat": "30.50316",
+        "lng": "47.81507"
+    },
+    {
+        "country": "IQ",
+        "name": "Al ?awijah",
+        "lat": "35.32592",
+        "lng": "43.77267"
+    },
+    {
+        "country": "IQ",
+        "name": "Qushtabah",
+        "lat": "36.00193",
+        "lng": "44.03827"
+    },
+    {
+        "country": "IQ",
+        "name": "Daratu",
+        "lat": "36.12062",
+        "lng": "44.05972"
+    },
+    {
+        "country": "IQ",
+        "name": "Kasnazan",
+        "lat": "36.20067",
+        "lng": "44.13263"
+    },
+    {
+        "country": "IQ",
+        "name": "Choman",
+        "lat": "36.63665",
+        "lng": "44.8882"
+    },
+    {
+        "country": "IQ",
+        "name": "Sinjar",
+        "lat": "36.3209",
+        "lng": "41.87656"
+    },
+    {
+        "country": "IQ",
+        "name": "\u2018Anah",
+        "lat": "34.36857",
+        "lng": "41.98194"
+    },
+    {
+        "country": "IQ",
+        "name": "Ibrahim al Khalil",
+        "lat": "37.13963",
+        "lng": "42.56995"
+    },
+    {
+        "country": "IQ",
+        "name": "Na?iyat Hiran",
+        "lat": "36.27899",
+        "lng": "44.48815"
+    },
+    {
+        "country": "IQ",
+        "name": "Na?iyat Ba?ar",
+        "lat": "30.17649",
+        "lng": "48.39775"
+    },
+    {
+        "country": "IQ",
+        "name": "Na?iyat \u2018Atbah",
+        "lat": "30.48117",
+        "lng": "48.01424"
+    },
+    {
+        "country": "IQ",
+        "name": "Na?iyat Ali ash Sharqi",
+        "lat": "32.12287",
+        "lng": "46.74928"
+    },
+    {
+        "country": "IQ",
+        "name": "Zaxu",
+        "lat": "37.14246",
+        "lng": "42.68187"
+    },
+    {
+        "country": "IQ",
+        "name": "?alabjah al Jadidah",
+        "lat": "35.31975",
+        "lng": "45.68948"
+    }
+]

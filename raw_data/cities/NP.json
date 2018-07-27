@@ -1,0 +1,392 @@
+[
+    {
+        "country": "NP",
+        "name": "Wali?",
+        "lat": "27.9837",
+        "lng": "83.75925"
+    },
+    {
+        "country": "NP",
+        "name": "Tulsipur",
+        "lat": "28.13099",
+        "lng": "82.29726"
+    },
+    {
+        "country": "NP",
+        "name": "Tikapur",
+        "lat": "28.5",
+        "lng": "81.13333"
+    },
+    {
+        "country": "NP",
+        "name": "Tansen",
+        "lat": "27.86731",
+        "lng": "83.5467"
+    },
+    {
+        "country": "NP",
+        "name": "Siraha",
+        "lat": "26.65422",
+        "lng": "86.20795"
+    },
+    {
+        "country": "NP",
+        "name": "Salyan",
+        "lat": "28.37858",
+        "lng": "82.1703"
+    },
+    {
+        "country": "NP",
+        "name": "Ramechhap",
+        "lat": "27.3256",
+        "lng": "86.08768"
+    },
+    {
+        "country": "NP",
+        "name": "Rajbiraj",
+        "lat": "26.53968",
+        "lng": "86.74796"
+    },
+    {
+        "country": "NP",
+        "name": "Pyuthan",
+        "lat": "28.08867",
+        "lng": "82.88427"
+    },
+    {
+        "country": "NP",
+        "name": "Pokhara",
+        "lat": "28.26689",
+        "lng": "83.96851"
+    },
+    {
+        "country": "NP",
+        "name": "Patan",
+        "lat": "27.67658",
+        "lng": "85.31417"
+    },
+    {
+        "country": "NP",
+        "name": "Panauti?\u00af",
+        "lat": "27.58453",
+        "lng": "85.51484"
+    },
+    {
+        "country": "NP",
+        "name": "Namche Bazar",
+        "lat": "27.80528",
+        "lng": "86.71058"
+    },
+    {
+        "country": "NP",
+        "name": "Nagarkot",
+        "lat": "27.71522",
+        "lng": "85.52075"
+    },
+    {
+        "country": "NP",
+        "name": "Mala?gawa",
+        "lat": "26.85658",
+        "lng": "85.5594"
+    },
+    {
+        "country": "NP",
+        "name": "Mahendranagar",
+        "lat": "28.91667",
+        "lng": "80.33333"
+    },
+    {
+        "country": "NP",
+        "name": "Lobujya",
+        "lat": "27.95",
+        "lng": "86.81667"
+    },
+    {
+        "country": "NP",
+        "name": "Lamjung",
+        "lat": "28.20992",
+        "lng": "84.3638"
+    },
+    {
+        "country": "NP",
+        "name": "Lahan",
+        "lat": "26.72022",
+        "lng": "86.48258"
+    },
+    {
+        "country": "NP",
+        "name": "Kothari",
+        "lat": "27.96057",
+        "lng": "85.95667"
+    },
+    {
+        "country": "NP",
+        "name": "Kirtipur",
+        "lat": "27.67872",
+        "lng": "85.2775"
+    },
+    {
+        "country": "NP",
+        "name": "Khandbari",
+        "lat": "27.37469",
+        "lng": "87.2039"
+    },
+    {
+        "country": "NP",
+        "name": "Kathmandu",
+        "lat": "27.70169",
+        "lng": "85.3206"
+    },
+    {
+        "country": "NP",
+        "name": "Jumla",
+        "lat": "29.27472",
+        "lng": "82.18383"
+    },
+    {
+        "country": "NP",
+        "name": "Janakpur",
+        "lat": "26.72882",
+        "lng": "85.92628"
+    },
+    {
+        "country": "NP",
+        "name": "Jaleshwar",
+        "lat": "26.64921",
+        "lng": "85.80017"
+    },
+    {
+        "country": "NP",
+        "name": "Titahari",
+        "lat": "26.66371",
+        "lng": "87.27403"
+    },
+    {
+        "country": "NP",
+        "name": "Ilam",
+        "lat": "26.90943",
+        "lng": "87.92824"
+    },
+    {
+        "country": "NP",
+        "name": "Hetauda",
+        "lat": "27.42839",
+        "lng": "85.03219"
+    },
+    {
+        "country": "NP",
+        "name": "Gulariya",
+        "lat": "28.23333",
+        "lng": "81.33333"
+    },
+    {
+        "country": "NP",
+        "name": "Gaur",
+        "lat": "26.76448",
+        "lng": "85.27841"
+    },
+    {
+        "country": "NP",
+        "name": "Dhulikhel",
+        "lat": "27.6221",
+        "lng": "85.54281"
+    },
+    {
+        "country": "NP",
+        "name": "Dharan",
+        "lat": "26.81436",
+        "lng": "87.27972"
+    },
+    {
+        "country": "NP",
+        "name": "Dhankuta",
+        "lat": "26.98333",
+        "lng": "87.33333"
+    },
+    {
+        "country": "NP",
+        "name": "Dhangarhi",
+        "lat": "28.70792",
+        "lng": "80.59611"
+    },
+    {
+        "country": "NP",
+        "name": "Darchula",
+        "lat": "29.83",
+        "lng": "80.55"
+    },
+    {
+        "country": "NP",
+        "name": "Dailekh",
+        "lat": "28.84434",
+        "lng": "81.71011"
+    },
+    {
+        "country": "NP",
+        "name": "Dadeldhura",
+        "lat": "29.29842",
+        "lng": "80.58059"
+    },
+    {
+        "country": "NP",
+        "name": "Butwal",
+        "lat": "27.70055",
+        "lng": "83.44836"
+    },
+    {
+        "country": "NP",
+        "name": "Birganj",
+        "lat": "27.01043",
+        "lng": "84.87735"
+    },
+    {
+        "country": "NP",
+        "name": "Biratnagar",
+        "lat": "26.45505",
+        "lng": "87.27007"
+    },
+    {
+        "country": "NP",
+        "name": "Bhojpur",
+        "lat": "27.93565",
+        "lng": "81.77555"
+    },
+    {
+        "country": "NP",
+        "name": "Bhojpur",
+        "lat": "27.1715",
+        "lng": "87.04607"
+    },
+    {
+        "country": "NP",
+        "name": "Bharatpur",
+        "lat": "27.6768",
+        "lng": "84.43589"
+    },
+    {
+        "country": "NP",
+        "name": "Bhaktapur",
+        "lat": "27.67298",
+        "lng": "85.43005"
+    },
+    {
+        "country": "NP",
+        "name": "Siddharthanagar",
+        "lat": "27.5",
+        "lng": "83.45"
+    },
+    {
+        "country": "NP",
+        "name": "Bhadrapur",
+        "lat": "26.54404",
+        "lng": "88.09436"
+    },
+    {
+        "country": "NP",
+        "name": "Bardiya",
+        "lat": "28.30058",
+        "lng": "81.3536"
+    },
+    {
+        "country": "NP",
+        "name": "Banepa",
+        "lat": "27.63245",
+        "lng": "85.52192"
+    },
+    {
+        "country": "NP",
+        "name": "Baglung",
+        "lat": "28.27189",
+        "lng": "83.58975"
+    },
+    {
+        "country": "NP",
+        "name": "Achham",
+        "lat": "29.05",
+        "lng": "81.3"
+    },
+    {
+        "country": "NP",
+        "name": "Besisahar",
+        "lat": "28.23417",
+        "lng": "82.41278"
+    },
+    {
+        "country": "NP",
+        "name": "Birendranagar",
+        "lat": "28.60194",
+        "lng": "81.63389"
+    },
+    {
+        "country": "NP",
+        "name": "Dipayal",
+        "lat": "29.26083",
+        "lng": "80.94"
+    },
+    {
+        "country": "NP",
+        "name": "Nepalgunj",
+        "lat": "28.05",
+        "lng": "81.61667"
+    },
+    {
+        "country": "NP",
+        "name": "Chitre",
+        "lat": "28.42673",
+        "lng": "83.69076"
+    },
+    {
+        "country": "NP",
+        "name": "Surkhet",
+        "lat": "28.51746",
+        "lng": "81.7787"
+    },
+    {
+        "country": "NP",
+        "name": "Panauti",
+        "lat": "27.58466",
+        "lng": "85.52122"
+    },
+    {
+        "country": "NP",
+        "name": "Inaruwa",
+        "lat": "26.60675",
+        "lng": "87.1478"
+    },
+    {
+        "country": "NP",
+        "name": "kankrabari Dovan",
+        "lat": "27.62881",
+        "lng": "85.45934"
+    },
+    {
+        "country": "NP",
+        "name": "Triyuga",
+        "lat": "26.7919",
+        "lng": "86.699"
+    },
+    {
+        "country": "NP",
+        "name": "Madhyapur Thimi",
+        "lat": "27.68056",
+        "lng": "85.3875"
+    },
+    {
+        "country": "NP",
+        "name": "Hari Bdr Tamang House",
+        "lat": "27.6289",
+        "lng": "85.45893"
+    },
+    {
+        "country": "NP",
+        "name": "Bhattarai Danda",
+        "lat": "27.88333",
+        "lng": "83.93333"
+    },
+    {
+        "country": "NP",
+        "name": "Dihi",
+        "lat": "27.87552",
+        "lng": "83.92759"
+    }
+]

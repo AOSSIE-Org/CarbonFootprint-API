@@ -1,0 +1,830 @@
+[
+    {
+        "country": "CL",
+        "name": "Yumbel",
+        "lat": "-37.0982",
+        "lng": "-72.56084"
+    },
+    {
+        "country": "CL",
+        "name": "Vi\u00f1a del Mar",
+        "lat": "-33.02457",
+        "lng": "-71.55183"
+    },
+    {
+        "country": "CL",
+        "name": "Villarrica",
+        "lat": "-39.28569",
+        "lng": "-72.2279"
+    },
+    {
+        "country": "CL",
+        "name": "Villa Alemana",
+        "lat": "-33.04222",
+        "lng": "-71.37333"
+    },
+    {
+        "country": "CL",
+        "name": "Vilc\u00fan",
+        "lat": "-38.66875",
+        "lng": "-72.22565"
+    },
+    {
+        "country": "CL",
+        "name": "Vicu\u00f1a",
+        "lat": "-30.03541",
+        "lng": "-70.71274"
+    },
+    {
+        "country": "CL",
+        "name": "Victoria",
+        "lat": "-38.23291",
+        "lng": "-72.33292"
+    },
+    {
+        "country": "CL",
+        "name": "Valpara\u00edso",
+        "lat": "-33.036",
+        "lng": "-71.62963"
+    },
+    {
+        "country": "CL",
+        "name": "Vallenar",
+        "lat": "-28.57617",
+        "lng": "-70.75938"
+    },
+    {
+        "country": "CL",
+        "name": "Valdivia",
+        "lat": "-39.81422",
+        "lng": "-73.24589"
+    },
+    {
+        "country": "CL",
+        "name": "Traigu\u00e9n",
+        "lat": "-38.2496",
+        "lng": "-72.67027"
+    },
+    {
+        "country": "CL",
+        "name": "Tom\u00e9",
+        "lat": "-36.61756",
+        "lng": "-72.95593"
+    },
+    {
+        "country": "CL",
+        "name": "Tocopilla",
+        "lat": "-22.09198",
+        "lng": "-70.19792"
+    },
+    {
+        "country": "CL",
+        "name": "Teno",
+        "lat": "-34.87055",
+        "lng": "-71.16219"
+    },
+    {
+        "country": "CL",
+        "name": "Temuco",
+        "lat": "-38.73965",
+        "lng": "-72.59842"
+    },
+    {
+        "country": "CL",
+        "name": "Taltal",
+        "lat": "-25.40873",
+        "lng": "-70.48358"
+    },
+    {
+        "country": "CL",
+        "name": "Talcahuano",
+        "lat": "-36.72494",
+        "lng": "-73.11684"
+    },
+    {
+        "country": "CL",
+        "name": "Talca",
+        "lat": "-35.4264",
+        "lng": "-71.65542"
+    },
+    {
+        "country": "CL",
+        "name": "Talagante",
+        "lat": "-33.66386",
+        "lng": "-70.92734"
+    },
+    {
+        "country": "CL",
+        "name": "San Vicente de Tagua Tagua",
+        "lat": "-34.43859",
+        "lng": "-71.07751"
+    },
+    {
+        "country": "CL",
+        "name": "San Vicente",
+        "lat": "-34.43333",
+        "lng": "-71.08333"
+    },
+    {
+        "country": "CL",
+        "name": "Santiago",
+        "lat": "-33.45694",
+        "lng": "-70.64827"
+    },
+    {
+        "country": "CL",
+        "name": "Santa Cruz",
+        "lat": "-34.63881",
+        "lng": "-71.36576"
+    },
+    {
+        "country": "CL",
+        "name": "San Pedro de Atacama",
+        "lat": "-22.9111",
+        "lng": "-68.20113"
+    },
+    {
+        "country": "CL",
+        "name": "San Javier",
+        "lat": "-35.5952",
+        "lng": "-71.72924"
+    },
+    {
+        "country": "CL",
+        "name": "San Felipe",
+        "lat": "-32.74976",
+        "lng": "-70.72584"
+    },
+    {
+        "country": "CL",
+        "name": "San Clemente",
+        "lat": "-35.53777",
+        "lng": "-71.487"
+    },
+    {
+        "country": "CL",
+        "name": "San Carlos",
+        "lat": "-36.42477",
+        "lng": "-71.958"
+    },
+    {
+        "country": "CL",
+        "name": "San Bernardo",
+        "lat": "-33.59217",
+        "lng": "-70.6996"
+    },
+    {
+        "country": "CL",
+        "name": "San Antonio",
+        "lat": "-33.59473",
+        "lng": "-71.60746"
+    },
+    {
+        "country": "CL",
+        "name": "Salamanca",
+        "lat": "-31.77922",
+        "lng": "-70.96389"
+    },
+    {
+        "country": "CL",
+        "name": "R\u00edo Bueno",
+        "lat": "-40.33494",
+        "lng": "-72.95564"
+    },
+    {
+        "country": "CL",
+        "name": "Rengo",
+        "lat": "-34.40639",
+        "lng": "-70.85834"
+    },
+    {
+        "country": "CL",
+        "name": "Rauco",
+        "lat": "-34.92546",
+        "lng": "-71.31722"
+    },
+    {
+        "country": "CL",
+        "name": "Rancagua",
+        "lat": "-34.17083",
+        "lng": "-70.74444"
+    },
+    {
+        "country": "CL",
+        "name": "Quilpu\u00e9",
+        "lat": "-33.04752",
+        "lng": "-71.44249"
+    },
+    {
+        "country": "CL",
+        "name": "Quillota",
+        "lat": "-32.88341",
+        "lng": "-71.24882"
+    },
+    {
+        "country": "CL",
+        "name": "Puyehue",
+        "lat": "-40.65944",
+        "lng": "-72.60172"
+    },
+    {
+        "country": "CL",
+        "name": "Putre",
+        "lat": "-18.19821",
+        "lng": "-69.56071"
+    },
+    {
+        "country": "CL",
+        "name": "Purranque",
+        "lat": "-40.91305",
+        "lng": "-73.15913"
+    },
+    {
+        "country": "CL",
+        "name": "Punta Arenas",
+        "lat": "-53.15483",
+        "lng": "-70.91129"
+    },
+    {
+        "country": "CL",
+        "name": "Puerto Varas",
+        "lat": "-41.31946",
+        "lng": "-72.98538"
+    },
+    {
+        "country": "CL",
+        "name": "Quell\u00f3n",
+        "lat": "-43.11819",
+        "lng": "-73.61661"
+    },
+    {
+        "country": "CL",
+        "name": "Puerto Natales",
+        "lat": "-51.72987",
+        "lng": "-72.50603"
+    },
+    {
+        "country": "CL",
+        "name": "Puerto Montt",
+        "lat": "-41.4693",
+        "lng": "-72.94237"
+    },
+    {
+        "country": "CL",
+        "name": "Puerto Cisnes",
+        "lat": "-44.74736",
+        "lng": "-72.69695"
+    },
+    {
+        "country": "CL",
+        "name": "Puerto Ais\u00e9n",
+        "lat": "-45.40303",
+        "lng": "-72.69184"
+    },
+    {
+        "country": "CL",
+        "name": "Puente Alto",
+        "lat": "-33.61169",
+        "lng": "-70.57577"
+    },
+    {
+        "country": "CL",
+        "name": "Puc\u00f3n",
+        "lat": "-39.28223",
+        "lng": "-71.95427"
+    },
+    {
+        "country": "CL",
+        "name": "Providencia",
+        "lat": "-33.43107",
+        "lng": "-70.60454"
+    },
+    {
+        "country": "CL",
+        "name": "Pitrufqu\u00e9n",
+        "lat": "-38.98635",
+        "lng": "-72.63721"
+    },
+    {
+        "country": "CL",
+        "name": "Pica",
+        "lat": "-20.49128",
+        "lng": "-69.33118"
+    },
+    {
+        "country": "CL",
+        "name": "Penco",
+        "lat": "-36.74075",
+        "lng": "-72.99528"
+    },
+    {
+        "country": "CL",
+        "name": "Pe\u00f1aflor",
+        "lat": "-33.60627",
+        "lng": "-70.87649"
+    },
+    {
+        "country": "CL",
+        "name": "Parral",
+        "lat": "-36.14311",
+        "lng": "-71.82605"
+    },
+    {
+        "country": "CL",
+        "name": "Panguipulli",
+        "lat": "-39.64355",
+        "lng": "-72.33269"
+    },
+    {
+        "country": "CL",
+        "name": "Palena",
+        "lat": "-43.61876",
+        "lng": "-71.80434"
+    },
+    {
+        "country": "CL",
+        "name": "Paine",
+        "lat": "-33.80796",
+        "lng": "-70.74109"
+    },
+    {
+        "country": "CL",
+        "name": "Ovalle",
+        "lat": "-30.60106",
+        "lng": "-71.19901"
+    },
+    {
+        "country": "CL",
+        "name": "Osorno",
+        "lat": "-40.57395",
+        "lng": "-73.13348"
+    },
+    {
+        "country": "CL",
+        "name": "Nueva Imperial",
+        "lat": "-38.74451",
+        "lng": "-72.95025"
+    },
+    {
+        "country": "CL",
+        "name": "Nacimiento",
+        "lat": "-37.50253",
+        "lng": "-72.67307"
+    },
+    {
+        "country": "CL",
+        "name": "Mulch\u00e9n",
+        "lat": "-37.71893",
+        "lng": "-72.24099"
+    },
+    {
+        "country": "CL",
+        "name": "Monte Patria",
+        "lat": "-30.69496",
+        "lng": "-70.9577"
+    },
+    {
+        "country": "CL",
+        "name": "Molina",
+        "lat": "-35.11428",
+        "lng": "-71.28232"
+    },
+    {
+        "country": "CL",
+        "name": "Melipilla",
+        "lat": "-33.68909",
+        "lng": "-71.21528"
+    },
+    {
+        "country": "CL",
+        "name": "Machal\u00ed",
+        "lat": "-34.18082",
+        "lng": "-70.64933"
+    },
+    {
+        "country": "CL",
+        "name": "Lota",
+        "lat": "-37.08994",
+        "lng": "-73.1577"
+    },
+    {
+        "country": "CL",
+        "name": "Los \u00c1ngeles",
+        "lat": "-37.46973",
+        "lng": "-72.35366"
+    },
+    {
+        "country": "CL",
+        "name": "Los Andes",
+        "lat": "-32.83369",
+        "lng": "-70.59827"
+    },
+    {
+        "country": "CL",
+        "name": "Longav\u00ed",
+        "lat": "-35.96496",
+        "lng": "-71.6836"
+    },
+    {
+        "country": "CL",
+        "name": "Loncoche",
+        "lat": "-39.36708",
+        "lng": "-72.63087"
+    },
+    {
+        "country": "CL",
+        "name": "Llaillay",
+        "lat": "-32.84043",
+        "lng": "-70.95623"
+    },
+    {
+        "country": "CL",
+        "name": "Linares",
+        "lat": "-35.84667",
+        "lng": "-71.59308"
+    },
+    {
+        "country": "CL",
+        "name": "Limache",
+        "lat": "-33.01667",
+        "lng": "-71.26667"
+    },
+    {
+        "country": "CL",
+        "name": "Lebu",
+        "lat": "-37.60825",
+        "lng": "-73.65356"
+    },
+    {
+        "country": "CL",
+        "name": "Lautaro",
+        "lat": "-38.53066",
+        "lng": "-72.43652"
+    },
+    {
+        "country": "CL",
+        "name": "La Uni\u00f3n",
+        "lat": "-40.29313",
+        "lng": "-73.08167"
+    },
+    {
+        "country": "CL",
+        "name": "La Serena",
+        "lat": "-29.90453",
+        "lng": "-71.24894"
+    },
+    {
+        "country": "CL",
+        "name": "Lampa",
+        "lat": "-33.2863",
+        "lng": "-70.87561"
+    },
+    {
+        "country": "CL",
+        "name": "La Ligua",
+        "lat": "-32.45242",
+        "lng": "-71.23106"
+    },
+    {
+        "country": "CL",
+        "name": "La Laja",
+        "lat": "-37.28415",
+        "lng": "-72.71105"
+    },
+    {
+        "country": "CL",
+        "name": "La Ensenada",
+        "lat": "-41.20746",
+        "lng": "-72.5384"
+    },
+    {
+        "country": "CL",
+        "name": "Iquique",
+        "lat": "-20.22036",
+        "lng": "-70.13913"
+    },
+    {
+        "country": "CL",
+        "name": "Illapel",
+        "lat": "-31.63349",
+        "lng": "-71.16967"
+    },
+    {
+        "country": "CL",
+        "name": "Hacienda La Calera",
+        "lat": "-32.78333",
+        "lng": "-71.21667"
+    },
+    {
+        "country": "CL",
+        "name": "Graneros",
+        "lat": "-34.06863",
+        "lng": "-70.72747"
+    },
+    {
+        "country": "CL",
+        "name": "Futaleuf\u00fa",
+        "lat": "-43.18492",
+        "lng": "-71.86722"
+    },
+    {
+        "country": "CL",
+        "name": "Frutillar",
+        "lat": "-41.12676",
+        "lng": "-73.04372"
+    },
+    {
+        "country": "CL",
+        "name": "Freire",
+        "lat": "-38.95252",
+        "lng": "-72.62653"
+    },
+    {
+        "country": "CL",
+        "name": "El Tabo",
+        "lat": "-33.45",
+        "lng": "-71.66667"
+    },
+    {
+        "country": "CL",
+        "name": "El Monte",
+        "lat": "-33.67969",
+        "lng": "-70.98482"
+    },
+    {
+        "country": "CL",
+        "name": "Diego de Almagro",
+        "lat": "-26.36667",
+        "lng": "-70.05"
+    },
+    {
+        "country": "CL",
+        "name": "Curic\u00f3",
+        "lat": "-34.98279",
+        "lng": "-71.23943"
+    },
+    {
+        "country": "CL",
+        "name": "Curanilahue",
+        "lat": "-37.47793",
+        "lng": "-73.34495"
+    },
+    {
+        "country": "CL",
+        "name": "Corral",
+        "lat": "-39.8873",
+        "lng": "-73.43101"
+    },
+    {
+        "country": "CL",
+        "name": "Coronel",
+        "lat": "-37.03386",
+        "lng": "-73.14019"
+    },
+    {
+        "country": "CL",
+        "name": "Coquimbo",
+        "lat": "-29.95332",
+        "lng": "-71.33947"
+    },
+    {
+        "country": "CL",
+        "name": "Copiap\u00f3",
+        "lat": "-27.36679",
+        "lng": "-70.3314"
+    },
+    {
+        "country": "CL",
+        "name": "Constituci\u00f3n",
+        "lat": "-35.33321",
+        "lng": "-72.41156"
+    },
+    {
+        "country": "CL",
+        "name": "Concepci\u00f3n",
+        "lat": "-36.82699",
+        "lng": "-73.04977"
+    },
+    {
+        "country": "CL",
+        "name": "Collipulli",
+        "lat": "-37.95453",
+        "lng": "-72.43438"
+    },
+    {
+        "country": "CL",
+        "name": "Colb\u00fan",
+        "lat": "-35.69494",
+        "lng": "-71.40568"
+    },
+    {
+        "country": "CL",
+        "name": "Coihueco",
+        "lat": "-36.62785",
+        "lng": "-71.83068"
+    },
+    {
+        "country": "CL",
+        "name": "Coyhaique",
+        "lat": "-45.57524",
+        "lng": "-72.06619"
+    },
+    {
+        "country": "CL",
+        "name": "Cochrane",
+        "lat": "-47.2557",
+        "lng": "-72.5695"
+    },
+    {
+        "country": "CL",
+        "name": "Chonchi",
+        "lat": "-42.62003",
+        "lng": "-73.77674"
+    },
+    {
+        "country": "CL",
+        "name": "Chimbarongo",
+        "lat": "-34.71247",
+        "lng": "-71.0434"
+    },
+    {
+        "country": "CL",
+        "name": "Chill\u00e1n",
+        "lat": "-36.60664",
+        "lng": "-72.10344"
+    },
+    {
+        "country": "CL",
+        "name": "Chile Chico",
+        "lat": "-46.541",
+        "lng": "-71.72375"
+    },
+    {
+        "country": "CL",
+        "name": "Chiguayante",
+        "lat": "-36.9256",
+        "lng": "-73.02841"
+    },
+    {
+        "country": "CL",
+        "name": "Chicureo Abajo",
+        "lat": "-33.28379",
+        "lng": "-70.65333"
+    },
+    {
+        "country": "CL",
+        "name": "Chait\u00e9n",
+        "lat": "-42.91596",
+        "lng": "-72.70632"
+    },
+    {
+        "country": "CL",
+        "name": "Cauquenes",
+        "lat": "-35.9671",
+        "lng": "-72.32248"
+    },
+    {
+        "country": "CL",
+        "name": "Castro",
+        "lat": "-42.4721",
+        "lng": "-73.77319"
+    },
+    {
+        "country": "CL",
+        "name": "Cartagena",
+        "lat": "-33.55384",
+        "lng": "-71.60761"
+    },
+    {
+        "country": "CL",
+        "name": "Carahue",
+        "lat": "-38.71122",
+        "lng": "-73.16101"
+    },
+    {
+        "country": "CL",
+        "name": "Ca\u00f1ete",
+        "lat": "-37.80128",
+        "lng": "-73.39616"
+    },
+    {
+        "country": "CL",
+        "name": "C\u00e1meron",
+        "lat": "-53.63988",
+        "lng": "-69.64693"
+    },
+    {
+        "country": "CL",
+        "name": "Calbuco",
+        "lat": "-41.77338",
+        "lng": "-73.13049"
+    },
+    {
+        "country": "CL",
+        "name": "Calama",
+        "lat": "-22.45667",
+        "lng": "-68.92371"
+    },
+    {
+        "country": "CL",
+        "name": "Cabrero",
+        "lat": "-37.03394",
+        "lng": "-72.40468"
+    },
+    {
+        "country": "CL",
+        "name": "Bulnes",
+        "lat": "-36.74232",
+        "lng": "-72.29854"
+    },
+    {
+        "country": "CL",
+        "name": "Buin",
+        "lat": "-33.73257",
+        "lng": "-70.74281"
+    },
+    {
+        "country": "CL",
+        "name": "Arica",
+        "lat": "-18.4746",
+        "lng": "-70.29792"
+    },
+    {
+        "country": "CL",
+        "name": "Arauco",
+        "lat": "-37.2463",
+        "lng": "-73.31752"
+    },
+    {
+        "country": "CL",
+        "name": "Antofagasta",
+        "lat": "-23.65236",
+        "lng": "-70.3954"
+    },
+    {
+        "country": "CL",
+        "name": "Angol",
+        "lat": "-37.79519",
+        "lng": "-72.71636"
+    },
+    {
+        "country": "CL",
+        "name": "Ancud",
+        "lat": "-41.8707",
+        "lng": "-73.81622"
+    },
+    {
+        "country": "CL",
+        "name": "Puerto Chacabuco",
+        "lat": "-45.46667",
+        "lng": "-72.81667"
+    },
+    {
+        "country": "CL",
+        "name": "La Junta",
+        "lat": "-43.97434",
+        "lng": "-72.40554"
+    },
+    {
+        "country": "CL",
+        "name": "Hanga Roa",
+        "lat": "-27.15474",
+        "lng": "-109.43241"
+    },
+    {
+        "country": "CL",
+        "name": "Las Gaviotas",
+        "lat": "-39.86653",
+        "lng": "-73.18834"
+    },
+    {
+        "country": "CL",
+        "name": "Las Animas",
+        "lat": "-39.80867",
+        "lng": "-73.21821"
+    },
+    {
+        "country": "CL",
+        "name": "La Pintana",
+        "lat": "-33.58331",
+        "lng": "-70.63419"
+    },
+    {
+        "country": "CL",
+        "name": "Lo Prado",
+        "lat": "-33.4443",
+        "lng": "-70.72552"
+    },
+    {
+        "country": "CL",
+        "name": "Villa Presidente Frei, \u00d1u\u00f1oa, Santiago, Chile",
+        "lat": "-33.46069",
+        "lng": "-70.58024"
+    },
+    {
+        "country": "CL",
+        "name": "Vallenar",
+        "lat": "-28.51576",
+        "lng": "-70.25551"
+    }
+]

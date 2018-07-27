@@ -1,0 +1,56 @@
+[
+    {
+        "country": "SC",
+        "name": "Victoria",
+        "lat": "-4.62001",
+        "lng": "55.45501"
+    },
+    {
+        "country": "SC",
+        "name": "Takamaka",
+        "lat": "-4.76667",
+        "lng": "55.5"
+    },
+    {
+        "country": "SC",
+        "name": "Port Glaud",
+        "lat": "-4.66667",
+        "lng": "55.41667"
+    },
+    {
+        "country": "SC",
+        "name": "Cascade",
+        "lat": "-4.66667",
+        "lng": "55.5"
+    },
+    {
+        "country": "SC",
+        "name": "Bel Ombre",
+        "lat": "-4.61667",
+        "lng": "55.41667"
+    },
+    {
+        "country": "SC",
+        "name": "Beau Vallon",
+        "lat": "-4.62091",
+        "lng": "55.43015"
+    },
+    {
+        "country": "SC",
+        "name": "Anse Royale",
+        "lat": "-4.73333",
+        "lng": "55.51667"
+    },
+    {
+        "country": "SC",
+        "name": "Anse Boileau",
+        "lat": "-4.71667",
+        "lng": "55.48333"
+    },
+    {
+        "country": "SC",
+        "name": "La Passe",
+        "lat": "-4.34808",
+        "lng": "55.83269"
+    }
+]

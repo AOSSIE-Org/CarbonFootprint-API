@@ -1,0 +1,524 @@
+[
+    {
+        "country": "BW",
+        "name": "Werda",
+        "lat": "-25.26667",
+        "lng": "23.28333"
+    },
+    {
+        "country": "BW",
+        "name": "Tshabong",
+        "lat": "-26.05",
+        "lng": "22.45"
+    },
+    {
+        "country": "BW",
+        "name": "Tsau",
+        "lat": "-20.15",
+        "lng": "22.45"
+    },
+    {
+        "country": "BW",
+        "name": "Tonota",
+        "lat": "-21.44236",
+        "lng": "27.46153"
+    },
+    {
+        "country": "BW",
+        "name": "Tobane",
+        "lat": "-21.95",
+        "lng": "27.9"
+    },
+    {
+        "country": "BW",
+        "name": "Thamaga",
+        "lat": "-24.67014",
+        "lng": "25.53975"
+    },
+    {
+        "country": "BW",
+        "name": "Tamasane",
+        "lat": "-22.4184",
+        "lng": "27.40127"
+    },
+    {
+        "country": "BW",
+        "name": "Sua",
+        "lat": "-20.05",
+        "lng": "26.2"
+    },
+    {
+        "country": "BW",
+        "name": "Shakawe",
+        "lat": "-18.36536",
+        "lng": "21.84219"
+    },
+    {
+        "country": "BW",
+        "name": "Serowe",
+        "lat": "-22.38754",
+        "lng": "26.71077"
+    },
+    {
+        "country": "BW",
+        "name": "Selebi-Phikwe",
+        "lat": "-21.97895",
+        "lng": "27.84296"
+    },
+    {
+        "country": "BW",
+        "name": "Sekoma",
+        "lat": "-24.4",
+        "lng": "23.88333"
+    },
+    {
+        "country": "BW",
+        "name": "Sehithwa",
+        "lat": "-20.46667",
+        "lng": "22.71667"
+    },
+    {
+        "country": "BW",
+        "name": "Sefophe",
+        "lat": "-22.18333",
+        "lng": "27.96667"
+    },
+    {
+        "country": "BW",
+        "name": "Sebina",
+        "lat": "-20.86667",
+        "lng": "27.25"
+    },
+    {
+        "country": "BW",
+        "name": "Ratholo",
+        "lat": "-22.72454",
+        "lng": "27.57199"
+    },
+    {
+        "country": "BW",
+        "name": "Ramotswa",
+        "lat": "-24.87158",
+        "lng": "25.86989"
+    },
+    {
+        "country": "BW",
+        "name": "Ramokgonami",
+        "lat": "-22.8645",
+        "lng": "27.42391"
+    },
+    {
+        "country": "BW",
+        "name": "Rakops",
+        "lat": "-21.02257",
+        "lng": "24.36052"
+    },
+    {
+        "country": "BW",
+        "name": "Pilikwe",
+        "lat": "-22.79904",
+        "lng": "27.19376"
+    },
+    {
+        "country": "BW",
+        "name": "Pilane",
+        "lat": "-24.45",
+        "lng": "26.13333"
+    },
+    {
+        "country": "BW",
+        "name": "Pandamatenga",
+        "lat": "-18.52779",
+        "lng": "25.62698"
+    },
+    {
+        "country": "BW",
+        "name": "Palapye",
+        "lat": "-22.54605",
+        "lng": "27.12507"
+    },
+    {
+        "country": "BW",
+        "name": "Otse",
+        "lat": "-25.01667",
+        "lng": "25.73333"
+    },
+    {
+        "country": "BW",
+        "name": "Orapa",
+        "lat": "-21.3115",
+        "lng": "25.37642"
+    },
+    {
+        "country": "BW",
+        "name": "Nokaneng",
+        "lat": "-19.66667",
+        "lng": "22.26667"
+    },
+    {
+        "country": "BW",
+        "name": "Nata",
+        "lat": "-20.21667",
+        "lng": "26.18333"
+    },
+    {
+        "country": "BW",
+        "name": "Mosopa",
+        "lat": "-24.7718",
+        "lng": "25.42156"
+    },
+    {
+        "country": "BW",
+        "name": "Mosetse",
+        "lat": "-20.75",
+        "lng": "26.65"
+    },
+    {
+        "country": "BW",
+        "name": "Mopipi",
+        "lat": "-21.18333",
+        "lng": "24.88333"
+    },
+    {
+        "country": "BW",
+        "name": "Mookane",
+        "lat": "-23.68805",
+        "lng": "26.65948"
+    },
+    {
+        "country": "BW",
+        "name": "Maunatlala",
+        "lat": "-22.59701",
+        "lng": "27.63006"
+    },
+    {
+        "country": "BW",
+        "name": "Molepolole",
+        "lat": "-24.40659",
+        "lng": "25.49508"
+    },
+    {
+        "country": "BW",
+        "name": "Makobeng",
+        "lat": "-22.99637",
+        "lng": "27.66766"
+    },
+    {
+        "country": "BW",
+        "name": "Moijabana",
+        "lat": "-22.43333",
+        "lng": "26.41667"
+    },
+    {
+        "country": "BW",
+        "name": "Mogoditshane",
+        "lat": "-24.62694",
+        "lng": "25.86556"
+    },
+    {
+        "country": "BW",
+        "name": "Mogapinyana",
+        "lat": "-22.36667",
+        "lng": "27.6"
+    },
+    {
+        "country": "BW",
+        "name": "Mogapi",
+        "lat": "-22.32301",
+        "lng": "27.83492"
+    },
+    {
+        "country": "BW",
+        "name": "Mochudi",
+        "lat": "-24.41667",
+        "lng": "26.15"
+    },
+    {
+        "country": "BW",
+        "name": "Mmathubudukwane",
+        "lat": "-24.6",
+        "lng": "26.43333"
+    },
+    {
+        "country": "BW",
+        "name": "Maun",
+        "lat": "-19.98333",
+        "lng": "23.41667"
+    },
+    {
+        "country": "BW",
+        "name": "Mathakola",
+        "lat": "-22.72125",
+        "lng": "27.31057"
+    },
+    {
+        "country": "BW",
+        "name": "Mathathane",
+        "lat": "-22.26875",
+        "lng": "28.74946"
+    },
+    {
+        "country": "BW",
+        "name": "Mathambgwane",
+        "lat": "-20.99075",
+        "lng": "27.33158"
+    },
+    {
+        "country": "BW",
+        "name": "Masunga",
+        "lat": "-20.62455",
+        "lng": "27.44875"
+    },
+    {
+        "country": "BW",
+        "name": "Manyana",
+        "lat": "-23.4",
+        "lng": "21.71667"
+    },
+    {
+        "country": "BW",
+        "name": "Makwata",
+        "lat": "-23.28333",
+        "lng": "27.3"
+    },
+    {
+        "country": "BW",
+        "name": "Makoba",
+        "lat": "-23.48333",
+        "lng": "27.11667"
+    },
+    {
+        "country": "BW",
+        "name": "Makaleng",
+        "lat": "-20.9",
+        "lng": "27.28333"
+    },
+    {
+        "country": "BW",
+        "name": "Mahalapye",
+        "lat": "-23.10407",
+        "lng": "26.81421"
+    },
+    {
+        "country": "BW",
+        "name": "Magothla",
+        "lat": "-23.56667",
+        "lng": "27"
+    },
+    {
+        "country": "BW",
+        "name": "Machaneng",
+        "lat": "-23.18621",
+        "lng": "27.48856"
+    },
+    {
+        "country": "BW",
+        "name": "Mabuli",
+        "lat": "-25.78333",
+        "lng": "24.6"
+    },
+    {
+        "country": "BW",
+        "name": "Maapi",
+        "lat": "-22.75785",
+        "lng": "27.35001"
+    },
+    {
+        "country": "BW",
+        "name": "Lokwabe",
+        "lat": "-24.16667",
+        "lng": "21.83333"
+    },
+    {
+        "country": "BW",
+        "name": "Lobatse",
+        "lat": "-25.22435",
+        "lng": "25.67728"
+    },
+    {
+        "country": "BW",
+        "name": "Letlhakeng",
+        "lat": "-24.09442",
+        "lng": "25.02977"
+    },
+    {
+        "country": "BW",
+        "name": "Letlhakane",
+        "lat": "-21.41494",
+        "lng": "25.59263"
+    },
+    {
+        "country": "BW",
+        "name": "Lenchwe Le Tau",
+        "lat": "-24.38333",
+        "lng": "25.85"
+    },
+    {
+        "country": "BW",
+        "name": "Lehututu",
+        "lat": "-23.96667",
+        "lng": "21.86667"
+    },
+    {
+        "country": "BW",
+        "name": "Letsheng",
+        "lat": "-22.66384",
+        "lng": "27.2239"
+    },
+    {
+        "country": "BW",
+        "name": "Kurametsi",
+        "lat": "-23.4",
+        "lng": "27.06667"
+    },
+    {
+        "country": "BW",
+        "name": "Kopong",
+        "lat": "-24.48333",
+        "lng": "25.88333"
+    },
+    {
+        "country": "BW",
+        "name": "Khudumelapye",
+        "lat": "-23.88333",
+        "lng": "24.75"
+    },
+    {
+        "country": "BW",
+        "name": "Khakhea",
+        "lat": "-24.68954",
+        "lng": "23.49403"
+    },
+    {
+        "country": "BW",
+        "name": "Kasane",
+        "lat": "-17.81667",
+        "lng": "25.15"
+    },
+    {
+        "country": "BW",
+        "name": "Kanye",
+        "lat": "-24.96675",
+        "lng": "25.33273"
+    },
+    {
+        "country": "BW",
+        "name": "Kang",
+        "lat": "-23.67518",
+        "lng": "22.78762"
+    },
+    {
+        "country": "BW",
+        "name": "Kalamare",
+        "lat": "-22.93369",
+        "lng": "26.57032"
+    },
+    {
+        "country": "BW",
+        "name": "Janeng",
+        "lat": "-25.41667",
+        "lng": "25.55"
+    },
+    {
+        "country": "BW",
+        "name": "Hukuntsi",
+        "lat": "-23.9988",
+        "lng": "21.77962"
+    },
+    {
+        "country": "BW",
+        "name": "Gweta",
+        "lat": "-20.18333",
+        "lng": "25.23333"
+    },
+    {
+        "country": "BW",
+        "name": "Gobojango",
+        "lat": "-21.8327",
+        "lng": "28.72882"
+    },
+    {
+        "country": "BW",
+        "name": "Ghanzi",
+        "lat": "-21.69785",
+        "lng": "21.64581"
+    },
+    {
+        "country": "BW",
+        "name": "Gaborone",
+        "lat": "-24.65451",
+        "lng": "25.90859"
+    },
+    {
+        "country": "BW",
+        "name": "Gabane",
+        "lat": "-24.66667",
+        "lng": "25.78222"
+    },
+    {
+        "country": "BW",
+        "name": "Francistown",
+        "lat": "-21.17",
+        "lng": "27.50778"
+    },
+    {
+        "country": "BW",
+        "name": "Dutlwe",
+        "lat": "-23.98333",
+        "lng": "23.9"
+    },
+    {
+        "country": "BW",
+        "name": "Dukwe",
+        "lat": "-20.58333",
+        "lng": "26.41667"
+    },
+    {
+        "country": "BW",
+        "name": "Dekar",
+        "lat": "-21.53333",
+        "lng": "21.93333"
+    },
+    {
+        "country": "BW",
+        "name": "Botlhapatlou",
+        "lat": "-24.02591",
+        "lng": "25.48976"
+    },
+    {
+        "country": "BW",
+        "name": "Bokaa",
+        "lat": "-24.45",
+        "lng": "26.01667"
+    },
+    {
+        "country": "BW",
+        "name": "Gaphatshwe",
+        "lat": "-24.57389",
+        "lng": "25.83417"
+    },
+    {
+        "country": "BW",
+        "name": "Metsemotlhaba",
+        "lat": "-24.55139",
+        "lng": "25.80306"
+    },
+    {
+        "country": "BW",
+        "name": "Mmopone",
+        "lat": "-24.56694",
+        "lng": "25.87417"
+    },
+    {
+        "country": "BW",
+        "name": "Nkoyaphiri",
+        "lat": "-24.63222",
+        "lng": "25.83139"
+    },
+    {
+        "country": "BW",
+        "name": "Jwaneng",
+        "lat": "-24.60167",
+        "lng": "24.72806"
+    }
+]

@@ -1,0 +1,920 @@
+[
+    {
+        "country": "SK",
+        "name": "\u017dehra",
+        "lat": "48.9796",
+        "lng": "20.7917"
+    },
+    {
+        "country": "SK",
+        "name": "\u017ddiar",
+        "lat": "49.271",
+        "lng": "20.26239"
+    },
+    {
+        "country": "SK",
+        "name": "Vysok\u00e9 Tatry",
+        "lat": "49.13637",
+        "lng": "20.24386"
+    },
+    {
+        "country": "SK",
+        "name": "Vy\u0161n\u00e9 Ru\u017ebachy",
+        "lat": "49.30387",
+        "lng": "20.56558"
+    },
+    {
+        "country": "SK",
+        "name": "Vrbov",
+        "lat": "49.08764",
+        "lng": "20.4253"
+    },
+    {
+        "country": "SK",
+        "name": "Vranov nad Toplou",
+        "lat": "48.88836",
+        "lng": "21.68479"
+    },
+    {
+        "country": "SK",
+        "name": "Vinn\u00e9",
+        "lat": "48.80965",
+        "lng": "21.96757"
+    },
+    {
+        "country": "SK",
+        "name": "Trebi\u0161ov",
+        "lat": "48.62858",
+        "lng": "21.71954"
+    },
+    {
+        "country": "SK",
+        "name": "Svit",
+        "lat": "49.06014",
+        "lng": "20.20695"
+    },
+    {
+        "country": "SK",
+        "name": "Svidn\u00edk",
+        "lat": "49.30819",
+        "lng": "21.5703"
+    },
+    {
+        "country": "SK",
+        "name": "Stropkov",
+        "lat": "49.20211",
+        "lng": "21.65216"
+    },
+    {
+        "country": "SK",
+        "name": "\u0160trba",
+        "lat": "49.05913",
+        "lng": "20.07975"
+    },
+    {
+        "country": "SK",
+        "name": "Str\u00e1\u017eske",
+        "lat": "48.8735",
+        "lng": "21.83668"
+    },
+    {
+        "country": "SK",
+        "name": "Star\u00e1 Lubovna",
+        "lat": "49.29859",
+        "lng": "20.6862"
+    },
+    {
+        "country": "SK",
+        "name": "Spi\u0161sk\u00e9 Podhradie",
+        "lat": "49.00088",
+        "lng": "20.75307"
+    },
+    {
+        "country": "SK",
+        "name": "Spi\u0161sk\u00e1 Nov\u00e1 Ves",
+        "lat": "48.94464",
+        "lng": "20.56153"
+    },
+    {
+        "country": "SK",
+        "name": "Spi\u0161sk\u00e1 Bel\u00e1",
+        "lat": "49.18725",
+        "lng": "20.45948"
+    },
+    {
+        "country": "SK",
+        "name": "Sobrance",
+        "lat": "48.74455",
+        "lng": "22.18136"
+    },
+    {
+        "country": "SK",
+        "name": "Snina",
+        "lat": "48.98857",
+        "lng": "22.15099"
+    },
+    {
+        "country": "SK",
+        "name": "Secovce",
+        "lat": "48.70074",
+        "lng": "21.66104"
+    },
+    {
+        "country": "SK",
+        "name": "Sabinov",
+        "lat": "49.10309",
+        "lng": "21.0988"
+    },
+    {
+        "country": "SK",
+        "name": "Ro\u017enava",
+        "lat": "48.66009",
+        "lng": "20.53758"
+    },
+    {
+        "country": "SK",
+        "name": "Rimavsk\u00e1 Sobota",
+        "lat": "48.38284",
+        "lng": "20.02239"
+    },
+    {
+        "country": "SK",
+        "name": "Rev\u00faca",
+        "lat": "48.68346",
+        "lng": "20.11734"
+    },
+    {
+        "country": "SK",
+        "name": "Pre\u0161ov",
+        "lat": "48.99839",
+        "lng": "21.23393"
+    },
+    {
+        "country": "SK",
+        "name": "Poprad",
+        "lat": "49.06144",
+        "lng": "20.29798"
+    },
+    {
+        "country": "SK",
+        "name": "Podol\u00ednec",
+        "lat": "49.25869",
+        "lng": "20.536"
+    },
+    {
+        "country": "SK",
+        "name": "Nov\u00e1 Lesn\u00e1",
+        "lat": "49.12253",
+        "lng": "20.26737"
+    },
+    {
+        "country": "SK",
+        "name": "Moldava nad Bodvou",
+        "lat": "48.61428",
+        "lng": "20.99957"
+    },
+    {
+        "country": "SK",
+        "name": "Michalovce",
+        "lat": "48.75434",
+        "lng": "21.9195"
+    },
+    {
+        "country": "SK",
+        "name": "Medzilaborce",
+        "lat": "49.27195",
+        "lng": "21.90073"
+    },
+    {
+        "country": "SK",
+        "name": "Medzev",
+        "lat": "48.70041",
+        "lng": "20.89367"
+    },
+    {
+        "country": "SK",
+        "name": "Lubica",
+        "lat": "49.11667",
+        "lng": "20.45"
+    },
+    {
+        "country": "SK",
+        "name": "Lipany",
+        "lat": "49.15376",
+        "lng": "20.96382"
+    },
+    {
+        "country": "SK",
+        "name": "Levoca",
+        "lat": "49.02173",
+        "lng": "20.59212"
+    },
+    {
+        "country": "SK",
+        "name": "Krompachy",
+        "lat": "48.91447",
+        "lng": "20.87514"
+    },
+    {
+        "country": "SK",
+        "name": "Ko\u0161ice",
+        "lat": "48.71395",
+        "lng": "21.25808"
+    },
+    {
+        "country": "SK",
+        "name": "Ke\u017emarok",
+        "lat": "49.13571",
+        "lng": "20.43352"
+    },
+    {
+        "country": "SK",
+        "name": "Kavecany",
+        "lat": "48.77592",
+        "lng": "21.20587"
+    },
+    {
+        "country": "SK",
+        "name": "Humenn\u00e9",
+        "lat": "48.93707",
+        "lng": "21.91625"
+    },
+    {
+        "country": "SK",
+        "name": "Giraltovce",
+        "lat": "49.11398",
+        "lng": "21.51731"
+    },
+    {
+        "country": "SK",
+        "name": "Gelnica",
+        "lat": "48.85584",
+        "lng": "20.93713"
+    },
+    {
+        "country": "SK",
+        "name": "Dob\u0161in\u00e1",
+        "lat": "48.82073",
+        "lng": "20.36988"
+    },
+    {
+        "country": "SK",
+        "name": "Cierna nad Tisou",
+        "lat": "48.41704",
+        "lng": "22.08865"
+    },
+    {
+        "country": "SK",
+        "name": "Chlmec",
+        "lat": "48.88628",
+        "lng": "21.9393"
+    },
+    {
+        "country": "SK",
+        "name": "Bardejov",
+        "lat": "49.29175",
+        "lng": "21.27271"
+    },
+    {
+        "country": "SK",
+        "name": "Zvolen",
+        "lat": "48.57442",
+        "lng": "19.15324"
+    },
+    {
+        "country": "SK",
+        "name": "Zlat\u00e9 Moravce",
+        "lat": "48.38553",
+        "lng": "18.40063"
+    },
+    {
+        "country": "SK",
+        "name": "\u017dilina",
+        "lat": "49.22315",
+        "lng": "18.73941"
+    },
+    {
+        "country": "SK",
+        "name": "\u017diar nad Hronom",
+        "lat": "48.59184",
+        "lng": "18.84958"
+    },
+    {
+        "country": "SK",
+        "name": "\u017deliezovce",
+        "lat": "48.05075",
+        "lng": "18.65421"
+    },
+    {
+        "country": "SK",
+        "name": "\u017darnovica",
+        "lat": "48.48123",
+        "lng": "18.71565"
+    },
+    {
+        "country": "SK",
+        "name": "Vr\u00fatky",
+        "lat": "49.11328",
+        "lng": "18.91714"
+    },
+    {
+        "country": "SK",
+        "name": "Vrbov\u00e9",
+        "lat": "48.61973",
+        "lng": "17.7226"
+    },
+    {
+        "country": "SK",
+        "name": "Vr\u00e1ble",
+        "lat": "48.24371",
+        "lng": "18.30846"
+    },
+    {
+        "country": "SK",
+        "name": "Velk\u00fd Meder",
+        "lat": "47.85798",
+        "lng": "17.76884"
+    },
+    {
+        "country": "SK",
+        "name": "Velk\u00fd Krt\u00ed\u0161",
+        "lat": "48.21059",
+        "lng": "19.35043"
+    },
+    {
+        "country": "SK",
+        "name": "Tvrdo\u0161\u00edn",
+        "lat": "49.337",
+        "lng": "19.556"
+    },
+    {
+        "country": "SK",
+        "name": "Turzovka",
+        "lat": "49.40429",
+        "lng": "18.62258"
+    },
+    {
+        "country": "SK",
+        "name": "Turcianske Teplice",
+        "lat": "48.86225",
+        "lng": "18.86048"
+    },
+    {
+        "country": "SK",
+        "name": "Trsten\u00e1",
+        "lat": "49.36101",
+        "lng": "19.61249"
+    },
+    {
+        "country": "SK",
+        "name": "Trnava",
+        "lat": "48.37741",
+        "lng": "17.58723"
+    },
+    {
+        "country": "SK",
+        "name": "Trenc\u00edn",
+        "lat": "48.89452",
+        "lng": "18.04436"
+    },
+    {
+        "country": "SK",
+        "name": "Trencianske Teplice",
+        "lat": "48.91063",
+        "lng": "18.16691"
+    },
+    {
+        "country": "SK",
+        "name": "Topolcany",
+        "lat": "48.56361",
+        "lng": "18.16712"
+    },
+    {
+        "country": "SK",
+        "name": "Tlmace",
+        "lat": "48.28926",
+        "lng": "18.53152"
+    },
+    {
+        "country": "SK",
+        "name": "Tisovec",
+        "lat": "48.67738",
+        "lng": "19.94364"
+    },
+    {
+        "country": "SK",
+        "name": "Terchov\u00e1",
+        "lat": "49.25895",
+        "lng": "19.02935"
+    },
+    {
+        "country": "SK",
+        "name": "Svod\u00edn",
+        "lat": "47.91054",
+        "lng": "18.49967"
+    },
+    {
+        "country": "SK",
+        "name": "Sv\u00e4t\u00fd Jur",
+        "lat": "48.25216",
+        "lng": "17.21539"
+    },
+    {
+        "country": "SK",
+        "name": "Sv\u00e4t\u00fd Anton",
+        "lat": "48.41923",
+        "lng": "18.9401"
+    },
+    {
+        "country": "SK",
+        "name": "\u0160urany",
+        "lat": "48.08613",
+        "lng": "18.18447"
+    },
+    {
+        "country": "SK",
+        "name": "\u0160t\u00farovo",
+        "lat": "47.79495",
+        "lng": "18.7175"
+    },
+    {
+        "country": "SK",
+        "name": "Stupava",
+        "lat": "48.27474",
+        "lng": "17.03173"
+    },
+    {
+        "country": "SK",
+        "name": "Star\u00e1 Tur\u00e1",
+        "lat": "48.77721",
+        "lng": "17.69433"
+    },
+    {
+        "country": "SK",
+        "name": "Smolenice",
+        "lat": "48.50478",
+        "lng": "17.43067"
+    },
+    {
+        "country": "SK",
+        "name": "Sl\u00e1dkovicovo",
+        "lat": "48.20137",
+        "lng": "17.63852"
+    },
+    {
+        "country": "SK",
+        "name": "Skalica",
+        "lat": "48.8449",
+        "lng": "17.22635"
+    },
+    {
+        "country": "SK",
+        "name": "Senica",
+        "lat": "48.67922",
+        "lng": "17.36697"
+    },
+    {
+        "country": "SK",
+        "name": "Senec",
+        "lat": "48.21951",
+        "lng": "17.40043"
+    },
+    {
+        "country": "SK",
+        "name": "\u0160amor\u00edn",
+        "lat": "48.03015",
+        "lng": "17.30972"
+    },
+    {
+        "country": "SK",
+        "name": "Sellye",
+        "lat": "48.15127",
+        "lng": "17.88062"
+    },
+    {
+        "country": "SK",
+        "name": "\u0160ahy",
+        "lat": "48.07408",
+        "lng": "18.94946"
+    },
+    {
+        "country": "SK",
+        "name": "Ru\u017eomberok",
+        "lat": "49.0748",
+        "lng": "19.30751"
+    },
+    {
+        "country": "SK",
+        "name": "Rajec",
+        "lat": "49.08899",
+        "lng": "18.64007"
+    },
+    {
+        "country": "SK",
+        "name": "P\u00fachov",
+        "lat": "49.12494",
+        "lng": "18.32597"
+    },
+    {
+        "country": "SK",
+        "name": "Prievidza",
+        "lat": "48.77446",
+        "lng": "18.6275"
+    },
+    {
+        "country": "SK",
+        "name": "Pribylina",
+        "lat": "49.0995",
+        "lng": "19.79427"
+    },
+    {
+        "country": "SK",
+        "name": "Pova\u017esk\u00e1 Bystrica",
+        "lat": "49.12153",
+        "lng": "18.42169"
+    },
+    {
+        "country": "SK",
+        "name": "Polt\u00e1r",
+        "lat": "48.43094",
+        "lng": "19.79408"
+    },
+    {
+        "country": "SK",
+        "name": "Pie\u0161tany",
+        "lat": "48.59479",
+        "lng": "17.82591"
+    },
+    {
+        "country": "SK",
+        "name": "Pezinok",
+        "lat": "48.28986",
+        "lng": "17.26664"
+    },
+    {
+        "country": "SK",
+        "name": "Partiz\u00e1nske",
+        "lat": "48.62861",
+        "lng": "18.38455"
+    },
+    {
+        "country": "SK",
+        "name": "Oravsk\u00fd Podz\u00e1mok",
+        "lat": "49.25939",
+        "lng": "19.3569"
+    },
+    {
+        "country": "SK",
+        "name": "Nov\u00e9 Z\u00e1mky",
+        "lat": "47.98544",
+        "lng": "18.16195"
+    },
+    {
+        "country": "SK",
+        "name": "Nov\u00e9 Mesto nad V\u00e1hom",
+        "lat": "48.75763",
+        "lng": "17.8309"
+    },
+    {
+        "country": "SK",
+        "name": "Nov\u00e1ky",
+        "lat": "48.71106",
+        "lng": "18.53389"
+    },
+    {
+        "country": "SK",
+        "name": "Nov\u00e1 Dubnica",
+        "lat": "48.93479",
+        "lng": "18.14632"
+    },
+    {
+        "country": "SK",
+        "name": "Nov\u00e1 Bana",
+        "lat": "48.42305",
+        "lng": "18.64037"
+    },
+    {
+        "country": "SK",
+        "name": "Ni\u017en\u00e1",
+        "lat": "49.31046",
+        "lng": "19.52428"
+    },
+    {
+        "country": "SK",
+        "name": "Nitra",
+        "lat": "48.30763",
+        "lng": "18.08453"
+    },
+    {
+        "country": "SK",
+        "name": "Nem\u0161ov\u00e1",
+        "lat": "48.96702",
+        "lng": "18.11892"
+    },
+    {
+        "country": "SK",
+        "name": "N\u00e1mestovo",
+        "lat": "49.4079",
+        "lng": "19.48032"
+    },
+    {
+        "country": "SK",
+        "name": "Myjava",
+        "lat": "48.75876",
+        "lng": "17.56866"
+    },
+    {
+        "country": "SK",
+        "name": "Modra",
+        "lat": "48.33397",
+        "lng": "17.30711"
+    },
+    {
+        "country": "SK",
+        "name": "Martin",
+        "lat": "49.06651",
+        "lng": "18.92399"
+    },
+    {
+        "country": "SK",
+        "name": "Marianka",
+        "lat": "48.24903",
+        "lng": "17.064"
+    },
+    {
+        "country": "SK",
+        "name": "Malacky",
+        "lat": "48.43604",
+        "lng": "17.02188"
+    },
+    {
+        "country": "SK",
+        "name": "L\u00facky",
+        "lat": "49.12944",
+        "lng": "19.40228"
+    },
+    {
+        "country": "SK",
+        "name": "Lucenec",
+        "lat": "48.33249",
+        "lng": "19.66708"
+    },
+    {
+        "country": "SK",
+        "name": "Liptovsk\u00fd Mikul\u00e1\u0161",
+        "lat": "49.08061",
+        "lng": "19.62218"
+    },
+    {
+        "country": "SK",
+        "name": "Liptovsk\u00fd Hr\u00e1dok",
+        "lat": "49.03962",
+        "lng": "19.72335"
+    },
+    {
+        "country": "SK",
+        "name": "Levice",
+        "lat": "48.21563",
+        "lng": "18.60705"
+    },
+    {
+        "country": "SK",
+        "name": "Leopoldov",
+        "lat": "48.44575",
+        "lng": "17.76458"
+    },
+    {
+        "country": "SK",
+        "name": "Kysuck\u00e9 Nov\u00e9 Mesto",
+        "lat": "49.3",
+        "lng": "18.78333"
+    },
+    {
+        "country": "SK",
+        "name": "Krupina",
+        "lat": "48.3554",
+        "lng": "19.06474"
+    },
+    {
+        "country": "SK",
+        "name": "Kremnica",
+        "lat": "48.70519",
+        "lng": "18.91834"
+    },
+    {
+        "country": "SK",
+        "name": "Krasnany",
+        "lat": "49.21491",
+        "lng": "18.88718"
+    },
+    {
+        "country": "SK",
+        "name": "Kom\u00e1rno",
+        "lat": "48.11667",
+        "lng": "18.31667"
+    },
+    {
+        "country": "SK",
+        "name": "Kom\u00e1rno",
+        "lat": "47.76356",
+        "lng": "18.12263"
+    },
+    {
+        "country": "SK",
+        "name": "Kol\u00e1rovo",
+        "lat": "47.92294",
+        "lng": "17.98467"
+    },
+    {
+        "country": "SK",
+        "name": "Ivanka pri Dunaji",
+        "lat": "48.18675",
+        "lng": "17.2554"
+    },
+    {
+        "country": "SK",
+        "name": "Ilava",
+        "lat": "48.99769",
+        "lng": "18.2353"
+    },
+    {
+        "country": "SK",
+        "name": "Hybe",
+        "lat": "49.04439",
+        "lng": "19.82895"
+    },
+    {
+        "country": "SK",
+        "name": "Hurbanovo",
+        "lat": "47.86984",
+        "lng": "18.19233"
+    },
+    {
+        "country": "SK",
+        "name": "Hrochot,Slovakia",
+        "lat": "48.65567",
+        "lng": "19.31284"
+    },
+    {
+        "country": "SK",
+        "name": "Hrinov\u00e1",
+        "lat": "48.57787",
+        "lng": "19.52574"
+    },
+    {
+        "country": "SK",
+        "name": "Hol\u00edc",
+        "lat": "48.81105",
+        "lng": "17.16238"
+    },
+    {
+        "country": "SK",
+        "name": "Hlohovec",
+        "lat": "48.43174",
+        "lng": "17.8031"
+    },
+    {
+        "country": "SK",
+        "name": "Handlov\u00e1",
+        "lat": "48.7276",
+        "lng": "18.76012"
+    },
+    {
+        "country": "SK",
+        "name": "Gbely",
+        "lat": "48.718",
+        "lng": "17.11628"
+    },
+    {
+        "country": "SK",
+        "name": "Galanta",
+        "lat": "48.19001",
+        "lng": "17.72747"
+    },
+    {
+        "country": "SK",
+        "name": "Gabc\u00edkovo",
+        "lat": "47.89211",
+        "lng": "17.57884"
+    },
+    {
+        "country": "SK",
+        "name": "Filakovo",
+        "lat": "48.26757",
+        "lng": "19.82473"
+    },
+    {
+        "country": "SK",
+        "name": "Bratislava - Vajnory",
+        "lat": "48.20563",
+        "lng": "17.20759"
+    },
+    {
+        "country": "SK",
+        "name": "Dunajsk\u00e1 Streda",
+        "lat": "47.99268",
+        "lng": "17.61211"
+    },
+    {
+        "country": "SK",
+        "name": "Dudince",
+        "lat": "48.17135",
+        "lng": "18.88782"
+    },
+    {
+        "country": "SK",
+        "name": "Dubnica nad V\u00e1hom",
+        "lat": "48.95981",
+        "lng": "18.16634"
+    },
+    {
+        "country": "SK",
+        "name": "Doln\u00fd Kub\u00edn",
+        "lat": "49.20983",
+        "lng": "19.30341"
+    },
+    {
+        "country": "SK",
+        "name": "Detva",
+        "lat": "48.56082",
+        "lng": "19.41954"
+    },
+    {
+        "country": "SK",
+        "name": "Cierny Balog",
+        "lat": "48.74722",
+        "lng": "19.65125"
+    },
+    {
+        "country": "SK",
+        "name": "Cadca",
+        "lat": "49.43503",
+        "lng": "18.78895"
+    },
+    {
+        "country": "SK",
+        "name": "Cachtice",
+        "lat": "48.71226",
+        "lng": "17.78704"
+    },
+    {
+        "country": "SK",
+        "name": "Bytca",
+        "lat": "49.22404",
+        "lng": "18.55878"
+    },
+    {
+        "country": "SK",
+        "name": "Brezov\u00e1 pod Bradlom",
+        "lat": "48.66349",
+        "lng": "17.53905"
+    },
+    {
+        "country": "SK",
+        "name": "Brezno",
+        "lat": "48.80431",
+        "lng": "19.63631"
+    },
+    {
+        "country": "SK",
+        "name": "Bratislava",
+        "lat": "48.14816",
+        "lng": "17.10674"
+    },
+    {
+        "country": "SK",
+        "name": "Bojnice",
+        "lat": "48.78511",
+        "lng": "18.5864"
+    },
+    {
+        "country": "SK",
+        "name": "Bansk\u00e1 \u0160tiavnica",
+        "lat": "48.44858",
+        "lng": "18.91003"
+    },
+    {
+        "country": "SK",
+        "name": "Bansk\u00e1 Bystrica",
+        "lat": "48.73946",
+        "lng": "19.15349"
+    },
+    {
+        "country": "SK",
+        "name": "B\u00e1novce nad Bebravou",
+        "lat": "48.7213",
+        "lng": "18.25754"
+    },
+    {
+        "country": "SK",
+        "name": "Oravsk\u00e1 Lesn\u00e1",
+        "lat": "49.36672",
+        "lng": "19.18093"
+    },
+    {
+        "country": "SK",
+        "name": "Dunajsk\u00e1 Lu\u017en\u00e1",
+        "lat": "48.08347",
+        "lng": "17.26072"
+    }
+]
