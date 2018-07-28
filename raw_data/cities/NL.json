@@ -1,0 +1,8390 @@
+[
+    {
+        "country": "NL",
+        "name": "Zwolle",
+        "lat": "52.5125",
+        "lng": "6.09444"
+    },
+    {
+        "country": "NL",
+        "name": "Zwijndrecht",
+        "lat": "51.8175",
+        "lng": "4.63333"
+    },
+    {
+        "country": "NL",
+        "name": "Zwaanshoek",
+        "lat": "52.3125",
+        "lng": "4.61667"
+    },
+    {
+        "country": "NL",
+        "name": "De Westereen",
+        "lat": "53.25731",
+        "lng": "6.0363"
+    },
+    {
+        "country": "NL",
+        "name": "Zwaagdijk-Oost",
+        "lat": "52.7075",
+        "lng": "5.14028"
+    },
+    {
+        "country": "NL",
+        "name": "Zutphen",
+        "lat": "52.13833",
+        "lng": "6.20139"
+    },
+    {
+        "country": "NL",
+        "name": "Zundert",
+        "lat": "51.47167",
+        "lng": "4.65556"
+    },
+    {
+        "country": "NL",
+        "name": "Zuilichem",
+        "lat": "51.80917",
+        "lng": "5.13611"
+    },
+    {
+        "country": "NL",
+        "name": "Zuidwijk",
+        "lat": "51.87532",
+        "lng": "4.48514"
+    },
+    {
+        "country": "NL",
+        "name": "Zuid-Scharwoude",
+        "lat": "52.68667",
+        "lng": "4.80833"
+    },
+    {
+        "country": "NL",
+        "name": "Zuidlaren",
+        "lat": "53.09417",
+        "lng": "6.68194"
+    },
+    {
+        "country": "NL",
+        "name": "Zuidhorn",
+        "lat": "53.24667",
+        "lng": "6.40278"
+    },
+    {
+        "country": "NL",
+        "name": "Zuiderburen",
+        "lat": "53.1734",
+        "lng": "5.84271"
+    },
+    {
+        "country": "NL",
+        "name": "Zuidbroek",
+        "lat": "53.16333",
+        "lng": "6.86111"
+    },
+    {
+        "country": "NL",
+        "name": "Zuid-Beijerland",
+        "lat": "51.75083",
+        "lng": "4.36806"
+    },
+    {
+        "country": "NL",
+        "name": "Zoutkamp",
+        "lat": "53.33917",
+        "lng": "6.30417"
+    },
+    {
+        "country": "NL",
+        "name": "Zoutelande",
+        "lat": "51.50167",
+        "lng": "3.48472"
+    },
+    {
+        "country": "NL",
+        "name": "Zonnemaat",
+        "lat": "51.93115",
+        "lng": "6.06235"
+    },
+    {
+        "country": "NL",
+        "name": "Zonderwijk",
+        "lat": "51.41141",
+        "lng": "5.39361"
+    },
+    {
+        "country": "NL",
+        "name": "Zoeterwoude-Dorp",
+        "lat": "52.12",
+        "lng": "4.49583"
+    },
+    {
+        "country": "NL",
+        "name": "Zoetermeer",
+        "lat": "52.0575",
+        "lng": "4.49306"
+    },
+    {
+        "country": "NL",
+        "name": "Zoelen",
+        "lat": "51.9125",
+        "lng": "5.40278"
+    },
+    {
+        "country": "NL",
+        "name": "Zijtaart",
+        "lat": "51.5925",
+        "lng": "5.54167"
+    },
+    {
+        "country": "NL",
+        "name": "Zevenhuizen",
+        "lat": "52.21816",
+        "lng": "5.97841"
+    },
+    {
+        "country": "NL",
+        "name": "Zevenhoven",
+        "lat": "52.18167",
+        "lng": "4.77917"
+    },
+    {
+        "country": "NL",
+        "name": "Zevenbergschen Hoek",
+        "lat": "51.6725",
+        "lng": "4.67917"
+    },
+    {
+        "country": "NL",
+        "name": "Zevenaar",
+        "lat": "51.93",
+        "lng": "6.07083"
+    },
+    {
+        "country": "NL",
+        "name": "Zetten",
+        "lat": "51.92833",
+        "lng": "5.71389"
+    },
+    {
+        "country": "NL",
+        "name": "Zesgehuchten",
+        "lat": "51.41667",
+        "lng": "5.55"
+    },
+    {
+        "country": "NL",
+        "name": "Zelhem",
+        "lat": "52.00667",
+        "lng": "6.34861"
+    },
+    {
+        "country": "NL",
+        "name": "Zeist",
+        "lat": "52.09",
+        "lng": "5.23333"
+    },
+    {
+        "country": "NL",
+        "name": "Zeilberg",
+        "lat": "51.45469",
+        "lng": "5.81878"
+    },
+    {
+        "country": "NL",
+        "name": "Zegge",
+        "lat": "51.55667",
+        "lng": "4.51806"
+    },
+    {
+        "country": "NL",
+        "name": "Zeewolde",
+        "lat": "52.33",
+        "lng": "5.54167"
+    },
+    {
+        "country": "NL",
+        "name": "Zeelst",
+        "lat": "51.42421",
+        "lng": "5.41566"
+    },
+    {
+        "country": "NL",
+        "name": "Zeeland",
+        "lat": "51.6975",
+        "lng": "5.67639"
+    },
+    {
+        "country": "NL",
+        "name": "Zeddam",
+        "lat": "51.90333",
+        "lng": "6.25972"
+    },
+    {
+        "country": "NL",
+        "name": "Zandvoort",
+        "lat": "52.37125",
+        "lng": "4.53306"
+    },
+    {
+        "country": "NL",
+        "name": "Zandberg",
+        "lat": "51.57333",
+        "lng": "4.78472"
+    },
+    {
+        "country": "NL",
+        "name": "Zaltbommel",
+        "lat": "51.81",
+        "lng": "5.24444"
+    },
+    {
+        "country": "NL",
+        "name": "Zaanstad",
+        "lat": "52.45313",
+        "lng": "4.81356"
+    },
+    {
+        "country": "NL",
+        "name": "Zaandijk",
+        "lat": "52.47494",
+        "lng": "4.80686"
+    },
+    {
+        "country": "NL",
+        "name": "Zaandam",
+        "lat": "52.43854",
+        "lng": "4.82643"
+    },
+    {
+        "country": "NL",
+        "name": "Zaamslag",
+        "lat": "51.3125",
+        "lng": "3.9125"
+    },
+    {
+        "country": "NL",
+        "name": "Yerseke",
+        "lat": "51.4925",
+        "lng": "4.05"
+    },
+    {
+        "country": "NL",
+        "name": "Wouw",
+        "lat": "51.52167",
+        "lng": "4.39028"
+    },
+    {
+        "country": "NL",
+        "name": "Woudsend",
+        "lat": "52.94357",
+        "lng": "5.62843"
+    },
+    {
+        "country": "NL",
+        "name": "Woudrichem",
+        "lat": "51.815",
+        "lng": "5.00139"
+    },
+    {
+        "country": "NL",
+        "name": "Woudenberg",
+        "lat": "52.08083",
+        "lng": "5.41667"
+    },
+    {
+        "country": "NL",
+        "name": "Woubrugge",
+        "lat": "52.17",
+        "lng": "4.63611"
+    },
+    {
+        "country": "NL",
+        "name": "Workum",
+        "lat": "52.97969",
+        "lng": "5.4471"
+    },
+    {
+        "country": "NL",
+        "name": "Wooldrik",
+        "lat": "52.21667",
+        "lng": "6.91667"
+    },
+    {
+        "country": "NL",
+        "name": "Woolde",
+        "lat": "52.2721",
+        "lng": "6.75891"
+    },
+    {
+        "country": "NL",
+        "name": "Wommels",
+        "lat": "53.10883",
+        "lng": "5.58749"
+    },
+    {
+        "country": "NL",
+        "name": "Wolvega",
+        "lat": "52.87545",
+        "lng": "5.99691"
+    },
+    {
+        "country": "NL",
+        "name": "Wolphaartsdijk",
+        "lat": "51.53167",
+        "lng": "3.81944"
+    },
+    {
+        "country": "NL",
+        "name": "Wolfsbos",
+        "lat": "52.71734",
+        "lng": "6.49881"
+    },
+    {
+        "country": "NL",
+        "name": "Wolfheze",
+        "lat": "52.00333",
+        "lng": "5.79028"
+    },
+    {
+        "country": "NL",
+        "name": "Wolder",
+        "lat": "50.83752",
+        "lng": "5.65938"
+    },
+    {
+        "country": "NL",
+        "name": "Woerden",
+        "lat": "52.085",
+        "lng": "4.88333"
+    },
+    {
+        "country": "NL",
+        "name": "Woenselse Heide",
+        "lat": "51.48333",
+        "lng": "5.46667"
+    },
+    {
+        "country": "NL",
+        "name": "Woensdrecht",
+        "lat": "51.42897",
+        "lng": "4.30355"
+    },
+    {
+        "country": "NL",
+        "name": "Witmarsum",
+        "lat": "53.10452",
+        "lng": "5.46902"
+    },
+    {
+        "country": "NL",
+        "name": "Wissenkerke",
+        "lat": "51.585",
+        "lng": "3.74722"
+    },
+    {
+        "country": "NL",
+        "name": "Wisch",
+        "lat": "51.92648",
+        "lng": "6.41705"
+    },
+    {
+        "country": "NL",
+        "name": "Wirdum",
+        "lat": "53.14893",
+        "lng": "5.80387"
+    },
+    {
+        "country": "NL",
+        "name": "Winterswijk",
+        "lat": "51.9725",
+        "lng": "6.71944"
+    },
+    {
+        "country": "NL",
+        "name": "Winsum",
+        "lat": "53.33",
+        "lng": "6.52083"
+    },
+    {
+        "country": "NL",
+        "name": "Winschoten",
+        "lat": "53.14417",
+        "lng": "7.03472"
+    },
+    {
+        "country": "NL",
+        "name": "Winkel",
+        "lat": "52.75417",
+        "lng": "4.90278"
+    },
+    {
+        "country": "NL",
+        "name": "Wilnis",
+        "lat": "52.19667",
+        "lng": "4.89722"
+    },
+    {
+        "country": "NL",
+        "name": "Wilhelminadorp",
+        "lat": "51.49742",
+        "lng": "5.39223"
+    },
+    {
+        "country": "NL",
+        "name": "Wildervank",
+        "lat": "53.08083",
+        "lng": "6.8625"
+    },
+    {
+        "country": "NL",
+        "name": "Wijnjewoude",
+        "lat": "53.05814",
+        "lng": "6.2047"
+    },
+    {
+        "country": "NL",
+        "name": "Wijnandsrade",
+        "lat": "50.90583",
+        "lng": "5.88333"
+    },
+    {
+        "country": "NL",
+        "name": "Wijlre",
+        "lat": "50.83333",
+        "lng": "5.89583"
+    },
+    {
+        "country": "NL",
+        "name": "Wijk bij Duurstede",
+        "lat": "51.97417",
+        "lng": "5.34167"
+    },
+    {
+        "country": "NL",
+        "name": "Wijk aan Zee",
+        "lat": "52.4936",
+        "lng": "4.59409"
+    },
+    {
+        "country": "NL",
+        "name": "Wijhe",
+        "lat": "52.38667",
+        "lng": "6.13472"
+    },
+    {
+        "country": "NL",
+        "name": "Wijdenes",
+        "lat": "52.635",
+        "lng": "5.15694"
+    },
+    {
+        "country": "NL",
+        "name": "Wijchen",
+        "lat": "51.80917",
+        "lng": "5.725"
+    },
+    {
+        "country": "NL",
+        "name": "Wijbosch",
+        "lat": "51.61667",
+        "lng": "5.46806"
+    },
+    {
+        "country": "NL",
+        "name": "Wieringerwerf",
+        "lat": "52.85083",
+        "lng": "5.02639"
+    },
+    {
+        "country": "NL",
+        "name": "Wieringerwaard",
+        "lat": "52.83583",
+        "lng": "4.86528"
+    },
+    {
+        "country": "NL",
+        "name": "Wierden",
+        "lat": "52.35917",
+        "lng": "6.59306"
+    },
+    {
+        "country": "NL",
+        "name": "Westwoud",
+        "lat": "52.685",
+        "lng": "5.13472"
+    },
+    {
+        "country": "NL",
+        "name": "West-Terschelling",
+        "lat": "53.35911",
+        "lng": "5.21482"
+    },
+    {
+        "country": "NL",
+        "name": "West-Souburg",
+        "lat": "51.46417",
+        "lng": "3.59167"
+    },
+    {
+        "country": "NL",
+        "name": "Westmaas",
+        "lat": "51.78667",
+        "lng": "4.475"
+    },
+    {
+        "country": "NL",
+        "name": "Westlaren",
+        "lat": "53.0848",
+        "lng": "6.66469"
+    },
+    {
+        "country": "NL",
+        "name": "Westkapelle",
+        "lat": "51.52917",
+        "lng": "3.44028"
+    },
+    {
+        "country": "NL",
+        "name": "Westerzicht",
+        "lat": "51.46252",
+        "lng": "3.58687"
+    },
+    {
+        "country": "NL",
+        "name": "Westervoort",
+        "lat": "51.95583",
+        "lng": "5.97222"
+    },
+    {
+        "country": "NL",
+        "name": "Westerlee",
+        "lat": "53.14583",
+        "lng": "6.9875"
+    },
+    {
+        "country": "NL",
+        "name": "Westerhoven",
+        "lat": "51.3325",
+        "lng": "5.39583"
+    },
+    {
+        "country": "NL",
+        "name": "Westerhaar-Vriezenveensewijk",
+        "lat": "52.45583",
+        "lng": "6.62361"
+    },
+    {
+        "country": "NL",
+        "name": "Westerbork",
+        "lat": "52.85",
+        "lng": "6.60833"
+    },
+    {
+        "country": "NL",
+        "name": "Westeneng",
+        "lat": "52.1275",
+        "lng": "5.71528"
+    },
+    {
+        "country": "NL",
+        "name": "Westeinde",
+        "lat": "53.20853",
+        "lng": "5.76812"
+    },
+    {
+        "country": "NL",
+        "name": "Westdorpe",
+        "lat": "51.2325",
+        "lng": "3.82639"
+    },
+    {
+        "country": "NL",
+        "name": "Wessem",
+        "lat": "51.15954",
+        "lng": "5.88146"
+    },
+    {
+        "country": "NL",
+        "name": "Wernhout",
+        "lat": "51.455",
+        "lng": "4.64167"
+    },
+    {
+        "country": "NL",
+        "name": "Werkhoven",
+        "lat": "52.025",
+        "lng": "5.24444"
+    },
+    {
+        "country": "NL",
+        "name": "Werkendam",
+        "lat": "51.81",
+        "lng": "4.89444"
+    },
+    {
+        "country": "NL",
+        "name": "Wemeldinge",
+        "lat": "51.51833",
+        "lng": "3.99722"
+    },
+    {
+        "country": "NL",
+        "name": "Wellerlooi",
+        "lat": "51.53417",
+        "lng": "6.13611"
+    },
+    {
+        "country": "NL",
+        "name": "Well",
+        "lat": "51.55",
+        "lng": "6.08889"
+    },
+    {
+        "country": "NL",
+        "name": "Welberg",
+        "lat": "51.57667",
+        "lng": "4.33056"
+    },
+    {
+        "country": "NL",
+        "name": "Wekerom",
+        "lat": "52.1125",
+        "lng": "5.71389"
+    },
+    {
+        "country": "NL",
+        "name": "Weiteveen",
+        "lat": "52.6725",
+        "lng": "6.9875"
+    },
+    {
+        "country": "NL",
+        "name": "Weijpoort",
+        "lat": "52.08167",
+        "lng": "4.80278"
+    },
+    {
+        "country": "NL",
+        "name": "Weesp",
+        "lat": "52.3075",
+        "lng": "5.04167"
+    },
+    {
+        "country": "NL",
+        "name": "Weert",
+        "lat": "51.25167",
+        "lng": "5.70694"
+    },
+    {
+        "country": "NL",
+        "name": "Weerestein",
+        "lat": "52.30381",
+        "lng": "4.58861"
+    },
+    {
+        "country": "NL",
+        "name": "Waubach",
+        "lat": "50.91833",
+        "lng": "6.05"
+    },
+    {
+        "country": "NL",
+        "name": "Waterakkers",
+        "lat": "52.5044",
+        "lng": "4.65608"
+    },
+    {
+        "country": "NL",
+        "name": "Wassenaar",
+        "lat": "52.14583",
+        "lng": "4.40278"
+    },
+    {
+        "country": "NL",
+        "name": "Waspik",
+        "lat": "51.68667",
+        "lng": "4.94444"
+    },
+    {
+        "country": "NL",
+        "name": "Warnsveld",
+        "lat": "52.1375",
+        "lng": "6.23056"
+    },
+    {
+        "country": "NL",
+        "name": "Warmond",
+        "lat": "52.19667",
+        "lng": "4.50278"
+    },
+    {
+        "country": "NL",
+        "name": "Wergea",
+        "lat": "53.15145",
+        "lng": "5.84404"
+    },
+    {
+        "country": "NL",
+        "name": "Warffum",
+        "lat": "53.3925",
+        "lng": "6.55833"
+    },
+    {
+        "country": "NL",
+        "name": "Wapenveld",
+        "lat": "52.42917",
+        "lng": "6.07361"
+    },
+    {
+        "country": "NL",
+        "name": "Wanssum",
+        "lat": "51.53583",
+        "lng": "6.07639"
+    },
+    {
+        "country": "NL",
+        "name": "Wanroij",
+        "lat": "51.6575",
+        "lng": "5.81806"
+    },
+    {
+        "country": "NL",
+        "name": "Wageningen",
+        "lat": "51.97",
+        "lng": "5.66667"
+    },
+    {
+        "country": "NL",
+        "name": "Wagenborgen",
+        "lat": "53.25583",
+        "lng": "6.93333"
+    },
+    {
+        "country": "NL",
+        "name": "Wagenberg",
+        "lat": "51.665",
+        "lng": "4.74861"
+    },
+    {
+        "country": "NL",
+        "name": "Waddinxveen",
+        "lat": "52.045",
+        "lng": "4.65139"
+    },
+    {
+        "country": "NL",
+        "name": "Waarland",
+        "lat": "52.72667",
+        "lng": "4.83194"
+    },
+    {
+        "country": "NL",
+        "name": "Waarder",
+        "lat": "52.06083",
+        "lng": "4.82083"
+    },
+    {
+        "country": "NL",
+        "name": "Waardenburg",
+        "lat": "51.8325",
+        "lng": "5.25694"
+    },
+    {
+        "country": "NL",
+        "name": "Waarde",
+        "lat": "51.4175",
+        "lng": "4.06806"
+    },
+    {
+        "country": "NL",
+        "name": "Waalwijk",
+        "lat": "51.6825",
+        "lng": "5.07083"
+    },
+    {
+        "country": "NL",
+        "name": "Waalre",
+        "lat": "51.38667",
+        "lng": "5.44444"
+    },
+    {
+        "country": "NL",
+        "name": "Vuren",
+        "lat": "51.825",
+        "lng": "5.04583"
+    },
+    {
+        "country": "NL",
+        "name": "Vught",
+        "lat": "51.65333",
+        "lng": "5.2875"
+    },
+    {
+        "country": "NL",
+        "name": "Vroomshoop",
+        "lat": "52.46083",
+        "lng": "6.56528"
+    },
+    {
+        "country": "NL",
+        "name": "Vriezenveen",
+        "lat": "52.40833",
+        "lng": "6.62222"
+    },
+    {
+        "country": "NL",
+        "name": "Vries",
+        "lat": "53.07417",
+        "lng": "6.57778"
+    },
+    {
+        "country": "NL",
+        "name": "Vrieheide",
+        "lat": "50.92192",
+        "lng": "5.96701"
+    },
+    {
+        "country": "NL",
+        "name": "Vreewijk",
+        "lat": "51.88428",
+        "lng": "4.51967"
+    },
+    {
+        "country": "NL",
+        "name": "Vreeswijk",
+        "lat": "52.01088",
+        "lng": "5.09285"
+    },
+    {
+        "country": "NL",
+        "name": "Vredenburg",
+        "lat": "51.95355",
+        "lng": "5.90284"
+    },
+    {
+        "country": "NL",
+        "name": "Vorstenbosch",
+        "lat": "51.6525",
+        "lng": "5.55"
+    },
+    {
+        "country": "NL",
+        "name": "Vorden",
+        "lat": "52.105",
+        "lng": "6.30972"
+    },
+    {
+        "country": "NL",
+        "name": "Voorthuizen",
+        "lat": "52.18667",
+        "lng": "5.60556"
+    },
+    {
+        "country": "NL",
+        "name": "Voorst",
+        "lat": "52.17",
+        "lng": "6.14167"
+    },
+    {
+        "country": "NL",
+        "name": "Voorschoten",
+        "lat": "52.1275",
+        "lng": "4.44861"
+    },
+    {
+        "country": "NL",
+        "name": "Voorhout",
+        "lat": "52.22167",
+        "lng": "4.48472"
+    },
+    {
+        "country": "NL",
+        "name": "Voorburg",
+        "lat": "52.07417",
+        "lng": "4.35972"
+    },
+    {
+        "country": "NL",
+        "name": "Vollenhove",
+        "lat": "52.68083",
+        "lng": "5.95417"
+    },
+    {
+        "country": "NL",
+        "name": "Volkel",
+        "lat": "51.6425",
+        "lng": "5.65417"
+    },
+    {
+        "country": "NL",
+        "name": "Volendam",
+        "lat": "52.495",
+        "lng": "5.07083"
+    },
+    {
+        "country": "NL",
+        "name": "Voldijn",
+        "lat": "51.40052",
+        "lng": "5.47196"
+    },
+    {
+        "country": "NL",
+        "name": "Vogelwijk",
+        "lat": "52.07631",
+        "lng": "4.2479"
+    },
+    {
+        "country": "NL",
+        "name": "Vogelenzang",
+        "lat": "52.31917",
+        "lng": "4.57778"
+    },
+    {
+        "country": "NL",
+        "name": "Voerendaal",
+        "lat": "50.88327",
+        "lng": "5.92978"
+    },
+    {
+        "country": "NL",
+        "name": "Vlokhoven",
+        "lat": "51.46667",
+        "lng": "5.48333"
+    },
+    {
+        "country": "NL",
+        "name": "Vlodrop",
+        "lat": "51.13333",
+        "lng": "6.07639"
+    },
+    {
+        "country": "NL",
+        "name": "Vlissingen",
+        "lat": "51.4425",
+        "lng": "3.57361"
+    },
+    {
+        "country": "NL",
+        "name": "Vlietwijk",
+        "lat": "52.12436",
+        "lng": "4.45736"
+    },
+    {
+        "country": "NL",
+        "name": "Vlierden",
+        "lat": "51.445",
+        "lng": "5.75833"
+    },
+    {
+        "country": "NL",
+        "name": "Vliedberg",
+        "lat": "51.68961",
+        "lng": "5.19031"
+    },
+    {
+        "country": "NL",
+        "name": "Vleuten",
+        "lat": "52.10583",
+        "lng": "5.01528"
+    },
+    {
+        "country": "NL",
+        "name": "Vledder",
+        "lat": "52.85583",
+        "lng": "6.20833"
+    },
+    {
+        "country": "NL",
+        "name": "Vlagtwedde",
+        "lat": "53.0275",
+        "lng": "7.10833"
+    },
+    {
+        "country": "NL",
+        "name": "Vlaardingen",
+        "lat": "51.9125",
+        "lng": "4.34167"
+    },
+    {
+        "country": "NL",
+        "name": "Vinkeveen",
+        "lat": "52.21507",
+        "lng": "4.93372"
+    },
+    {
+        "country": "NL",
+        "name": "Vijlen",
+        "lat": "50.78833",
+        "lng": "5.96528"
+    },
+    {
+        "country": "NL",
+        "name": "Vijfhuizen",
+        "lat": "52.35083",
+        "lng": "4.67778"
+    },
+    {
+        "country": "NL",
+        "name": "Vierpolders",
+        "lat": "51.87917",
+        "lng": "4.17917"
+    },
+    {
+        "country": "NL",
+        "name": "Vianen",
+        "lat": "51.9925",
+        "lng": "5.09167"
+    },
+    {
+        "country": "NL",
+        "name": "Venray",
+        "lat": "51.525",
+        "lng": "5.975"
+    },
+    {
+        "country": "NL",
+        "name": "Venlo",
+        "lat": "51.37",
+        "lng": "6.16806"
+    },
+    {
+        "country": "NL",
+        "name": "Venhorst",
+        "lat": "51.60833",
+        "lng": "5.7375"
+    },
+    {
+        "country": "NL",
+        "name": "Ven",
+        "lat": "51.64",
+        "lng": "5.55"
+    },
+    {
+        "country": "NL",
+        "name": "Veltum",
+        "lat": "51.51954",
+        "lng": "5.96032"
+    },
+    {
+        "country": "NL",
+        "name": "Velsen-Zuid",
+        "lat": "52.46",
+        "lng": "4.65"
+    },
+    {
+        "country": "NL",
+        "name": "Velp",
+        "lat": "51.995",
+        "lng": "5.97361"
+    },
+    {
+        "country": "NL",
+        "name": "Veldhuizen",
+        "lat": "52.07537",
+        "lng": "5.01234"
+    },
+    {
+        "country": "NL",
+        "name": "Veldhoven",
+        "lat": "51.41833",
+        "lng": "5.40278"
+    },
+    {
+        "country": "NL",
+        "name": "Veghel",
+        "lat": "51.61667",
+        "lng": "5.54861"
+    },
+    {
+        "country": "NL",
+        "name": "Feanw\u00e2lden",
+        "lat": "53.23558",
+        "lng": "5.98832"
+    },
+    {
+        "country": "NL",
+        "name": "Veenoord",
+        "lat": "52.71087",
+        "lng": "6.84869"
+    },
+    {
+        "country": "NL",
+        "name": "Veenendaal",
+        "lat": "52.02863",
+        "lng": "5.55891"
+    },
+    {
+        "country": "NL",
+        "name": "Veendam",
+        "lat": "53.10667",
+        "lng": "6.87917"
+    },
+    {
+        "country": "NL",
+        "name": "Veen",
+        "lat": "51.7775",
+        "lng": "5.10833"
+    },
+    {
+        "country": "NL",
+        "name": "Varsseveld",
+        "lat": "51.94333",
+        "lng": "6.45833"
+    },
+    {
+        "country": "NL",
+        "name": "Valthermond",
+        "lat": "52.88167",
+        "lng": "6.9625"
+    },
+    {
+        "country": "NL",
+        "name": "Valthe",
+        "lat": "52.84583",
+        "lng": "6.89444"
+    },
+    {
+        "country": "NL",
+        "name": "Valkenswaard",
+        "lat": "51.35083",
+        "lng": "5.45972"
+    },
+    {
+        "country": "NL",
+        "name": "Valkenburg",
+        "lat": "52.18",
+        "lng": "4.43194"
+    },
+    {
+        "country": "NL",
+        "name": "Valkenburg",
+        "lat": "50.86523",
+        "lng": "5.83205"
+    },
+    {
+        "country": "NL",
+        "name": "Valendries",
+        "lat": "51.80658",
+        "lng": "5.73445"
+    },
+    {
+        "country": "NL",
+        "name": "Valburg",
+        "lat": "51.91167",
+        "lng": "5.79028"
+    },
+    {
+        "country": "NL",
+        "name": "Vaassen",
+        "lat": "52.28583",
+        "lng": "5.96667"
+    },
+    {
+        "country": "NL",
+        "name": "Vaartbroek",
+        "lat": "51.47954",
+        "lng": "5.49806"
+    },
+    {
+        "country": "NL",
+        "name": "Vaals",
+        "lat": "50.77083",
+        "lng": "6.01806"
+    },
+    {
+        "country": "NL",
+        "name": "Utrecht",
+        "lat": "52.09083",
+        "lng": "5.12222"
+    },
+    {
+        "country": "NL",
+        "name": "Usquert",
+        "lat": "53.4025",
+        "lng": "6.61111"
+    },
+    {
+        "country": "NL",
+        "name": "Urmond",
+        "lat": "50.99083",
+        "lng": "5.77222"
+    },
+    {
+        "country": "NL",
+        "name": "Urk",
+        "lat": "52.6625",
+        "lng": "5.60139"
+    },
+    {
+        "country": "NL",
+        "name": "Ureterp",
+        "lat": "53.09244",
+        "lng": "6.16718"
+    },
+    {
+        "country": "NL",
+        "name": "Ulvenhout",
+        "lat": "51.54907",
+        "lng": "4.79931"
+    },
+    {
+        "country": "NL",
+        "name": "Ulrum",
+        "lat": "53.35917",
+        "lng": "6.33333"
+    },
+    {
+        "country": "NL",
+        "name": "Ulestraten",
+        "lat": "50.90583",
+        "lng": "5.78194"
+    },
+    {
+        "country": "NL",
+        "name": "Uithuizermeeden",
+        "lat": "53.41417",
+        "lng": "6.72361"
+    },
+    {
+        "country": "NL",
+        "name": "Uithuizen",
+        "lat": "53.4075",
+        "lng": "6.67083"
+    },
+    {
+        "country": "NL",
+        "name": "Uithoorn",
+        "lat": "52.2375",
+        "lng": "4.82639"
+    },
+    {
+        "country": "NL",
+        "name": "Uitgeest",
+        "lat": "52.52917",
+        "lng": "4.70972"
+    },
+    {
+        "country": "NL",
+        "name": "Ugchelen",
+        "lat": "52.18464",
+        "lng": "5.93177"
+    },
+    {
+        "country": "NL",
+        "name": "Uffelte",
+        "lat": "52.79",
+        "lng": "6.28056"
+    },
+    {
+        "country": "NL",
+        "name": "Udenhout",
+        "lat": "51.60917",
+        "lng": "5.14306"
+    },
+    {
+        "country": "NL",
+        "name": "Uden",
+        "lat": "51.66083",
+        "lng": "5.61944"
+    },
+    {
+        "country": "NL",
+        "name": "Uddel",
+        "lat": "52.25917",
+        "lng": "5.78056"
+    },
+    {
+        "country": "NL",
+        "name": "Ubachsberg",
+        "lat": "50.85333",
+        "lng": "5.94861"
+    },
+    {
+        "country": "NL",
+        "name": "Tzummarum",
+        "lat": "53.23733",
+        "lng": "5.54612"
+    },
+    {
+        "country": "NL",
+        "name": "'t Zand",
+        "lat": "52.83667",
+        "lng": "4.75556"
+    },
+    {
+        "country": "NL",
+        "name": "Tynaarlo",
+        "lat": "53.0775",
+        "lng": "6.61667"
+    },
+    {
+        "country": "NL",
+        "name": "Twisk",
+        "lat": "52.74083",
+        "lng": "5.05278"
+    },
+    {
+        "country": "NL",
+        "name": "Twijzelerheide",
+        "lat": "53.24015",
+        "lng": "6.04591"
+    },
+    {
+        "country": "NL",
+        "name": "Twijzel",
+        "lat": "53.23152",
+        "lng": "6.08952"
+    },
+    {
+        "country": "NL",
+        "name": "Twello",
+        "lat": "52.23667",
+        "lng": "6.10278"
+    },
+    {
+        "country": "NL",
+        "name": "Twekkelerveld",
+        "lat": "52.23064",
+        "lng": "6.86004"
+    },
+    {
+        "country": "NL",
+        "name": "Tweede Exlo\u00ebrmond",
+        "lat": "52.90917",
+        "lng": "6.93333"
+    },
+    {
+        "country": "NL",
+        "name": "Tuk",
+        "lat": "52.79667",
+        "lng": "6.09444"
+    },
+    {
+        "country": "NL",
+        "name": "Tuindorp",
+        "lat": "51.93032",
+        "lng": "4.3784"
+    },
+    {
+        "country": "NL",
+        "name": "Tuikwerd",
+        "lat": "53.31667",
+        "lng": "6.9"
+    },
+    {
+        "country": "NL",
+        "name": "Tubbergen",
+        "lat": "52.4075",
+        "lng": "6.78472"
+    },
+    {
+        "country": "NL",
+        "name": "Tricht",
+        "lat": "51.89083",
+        "lng": "5.26806"
+    },
+    {
+        "country": "NL",
+        "name": "Tongelre",
+        "lat": "51.44889",
+        "lng": "5.51978"
+    },
+    {
+        "country": "NL",
+        "name": "Tolkamer",
+        "lat": "51.855",
+        "lng": "6.10278"
+    },
+    {
+        "country": "NL",
+        "name": "Tivoli",
+        "lat": "51.42069",
+        "lng": "5.50818"
+    },
+    {
+        "country": "NL",
+        "name": "Tinga",
+        "lat": "53.02064",
+        "lng": "5.64575"
+    },
+    {
+        "country": "NL",
+        "name": "Tilburg",
+        "lat": "51.55551",
+        "lng": "5.0913"
+    },
+    {
+        "country": "NL",
+        "name": "Tijnje",
+        "lat": "53.03058",
+        "lng": "5.99193"
+    },
+    {
+        "country": "NL",
+        "name": "Tytsjerk",
+        "lat": "53.21343",
+        "lng": "5.90961"
+    },
+    {
+        "country": "NL",
+        "name": "Tienray",
+        "lat": "51.495",
+        "lng": "6.09306"
+    },
+    {
+        "country": "NL",
+        "name": "Tiel",
+        "lat": "51.88667",
+        "lng": "5.42917"
+    },
+    {
+        "country": "NL",
+        "name": "Thorn",
+        "lat": "51.16167",
+        "lng": "5.84167"
+    },
+    {
+        "country": "NL",
+        "name": "Tholen",
+        "lat": "51.53167",
+        "lng": "4.22083"
+    },
+    {
+        "country": "NL",
+        "name": "'t Hofke",
+        "lat": "51.44943",
+        "lng": "5.51926"
+    },
+    {
+        "country": "NL",
+        "name": "Theereheide",
+        "lat": "51.63843",
+        "lng": "5.33729"
+    },
+    {
+        "country": "NL",
+        "name": "Teteringen",
+        "lat": "51.60917",
+        "lng": "4.82083"
+    },
+    {
+        "country": "NL",
+        "name": "Terwolde",
+        "lat": "52.28333",
+        "lng": "6.1"
+    },
+    {
+        "country": "NL",
+        "name": "Terwinselen",
+        "lat": "50.86659",
+        "lng": "6.02471"
+    },
+    {
+        "country": "NL",
+        "name": "Terschuur",
+        "lat": "52.165",
+        "lng": "5.51667"
+    },
+    {
+        "country": "NL",
+        "name": "Terneuzen",
+        "lat": "51.33583",
+        "lng": "3.82778"
+    },
+    {
+        "country": "NL",
+        "name": "Ternaard",
+        "lat": "53.38203",
+        "lng": "5.96523"
+    },
+    {
+        "country": "NL",
+        "name": "Terheijden",
+        "lat": "51.64333",
+        "lng": "4.75417"
+    },
+    {
+        "country": "NL",
+        "name": "Terbregge",
+        "lat": "51.95328",
+        "lng": "4.51537"
+    },
+    {
+        "country": "NL",
+        "name": "Terborg",
+        "lat": "51.92",
+        "lng": "6.35417"
+    },
+    {
+        "country": "NL",
+        "name": "Ter Apel",
+        "lat": "52.87667",
+        "lng": "7.05972"
+    },
+    {
+        "country": "NL",
+        "name": "Ten Boer",
+        "lat": "53.27583",
+        "lng": "6.69444"
+    },
+    {
+        "country": "NL",
+        "name": "Tegelen",
+        "lat": "51.34417",
+        "lng": "6.13611"
+    },
+    {
+        "country": "NL",
+        "name": "Surhuisterveen",
+        "lat": "53.18477",
+        "lng": "6.17031"
+    },
+    {
+        "country": "NL",
+        "name": "Strijp",
+        "lat": "52.03083",
+        "lng": "4.30139"
+    },
+    {
+        "country": "NL",
+        "name": "Strijen",
+        "lat": "51.74521",
+        "lng": "4.55083"
+    },
+    {
+        "country": "NL",
+        "name": "Stramproy",
+        "lat": "51.19417",
+        "lng": "5.71944"
+    },
+    {
+        "country": "NL",
+        "name": "Stompetoren",
+        "lat": "52.61333",
+        "lng": "4.82083"
+    },
+    {
+        "country": "NL",
+        "name": "Stolwijk",
+        "lat": "51.9725",
+        "lng": "4.77361"
+    },
+    {
+        "country": "NL",
+        "name": "Stiens",
+        "lat": "53.26234",
+        "lng": "5.75769"
+    },
+    {
+        "country": "NL",
+        "name": "Stepekolk",
+        "lat": "51.455",
+        "lng": "5.61251"
+    },
+    {
+        "country": "NL",
+        "name": "Stein",
+        "lat": "52.00333",
+        "lng": "4.78194"
+    },
+    {
+        "country": "NL",
+        "name": "Stein",
+        "lat": "50.96917",
+        "lng": "5.76667"
+    },
+    {
+        "country": "NL",
+        "name": "Stegeslag",
+        "lat": "51.94151",
+        "lng": "6.06194"
+    },
+    {
+        "country": "NL",
+        "name": "Steenwijkerwold",
+        "lat": "52.80417",
+        "lng": "6.06389"
+    },
+    {
+        "country": "NL",
+        "name": "Steenwijk",
+        "lat": "52.7875",
+        "lng": "6.12083"
+    },
+    {
+        "country": "NL",
+        "name": "Steensel",
+        "lat": "51.37667",
+        "lng": "5.35278"
+    },
+    {
+        "country": "NL",
+        "name": "Steenderen",
+        "lat": "52.06417",
+        "lng": "6.1875"
+    },
+    {
+        "country": "NL",
+        "name": "Steenbergen",
+        "lat": "51.58417",
+        "lng": "4.31944"
+    },
+    {
+        "country": "NL",
+        "name": "Stavenisse",
+        "lat": "51.5875",
+        "lng": "4.0125"
+    },
+    {
+        "country": "NL",
+        "name": "Statenkwartier",
+        "lat": "52.09311",
+        "lng": "4.27577"
+    },
+    {
+        "country": "NL",
+        "name": "Staphorst",
+        "lat": "52.645",
+        "lng": "6.21111"
+    },
+    {
+        "country": "NL",
+        "name": "Standdaarbuiten",
+        "lat": "51.61333",
+        "lng": "4.51389"
+    },
+    {
+        "country": "NL",
+        "name": "Stampersgat",
+        "lat": "51.61333",
+        "lng": "4.44444"
+    },
+    {
+        "country": "NL",
+        "name": "Stadskanaal",
+        "lat": "52.98947",
+        "lng": "6.9504"
+    },
+    {
+        "country": "NL",
+        "name": "Stadsfenne",
+        "lat": "53.03987",
+        "lng": "5.67844"
+    },
+    {
+        "country": "NL",
+        "name": "Stadbroek",
+        "lat": "51.00187",
+        "lng": "5.87656"
+    },
+    {
+        "country": "NL",
+        "name": "Sprundel",
+        "lat": "51.5375",
+        "lng": "4.59722"
+    },
+    {
+        "country": "NL",
+        "name": "Spoorwijk",
+        "lat": "52.05347",
+        "lng": "4.31339"
+    },
+    {
+        "country": "NL",
+        "name": "Spijkenisse",
+        "lat": "51.845",
+        "lng": "4.32917"
+    },
+    {
+        "country": "NL",
+        "name": "Spijk",
+        "lat": "53.39",
+        "lng": "6.8375"
+    },
+    {
+        "country": "NL",
+        "name": "Spierdijk",
+        "lat": "52.65083",
+        "lng": "4.94306"
+    },
+    {
+        "country": "NL",
+        "name": "Spekholzerheide",
+        "lat": "50.85559",
+        "lng": "6.02471"
+    },
+    {
+        "country": "NL",
+        "name": "Spaubeek",
+        "lat": "50.94",
+        "lng": "5.84306"
+    },
+    {
+        "country": "NL",
+        "name": "Spangen",
+        "lat": "51.91688",
+        "lng": "4.43539"
+    },
+    {
+        "country": "NL",
+        "name": "Spakenburg",
+        "lat": "52.25",
+        "lng": "5.36667"
+    },
+    {
+        "country": "NL",
+        "name": "Son",
+        "lat": "51.51136",
+        "lng": "5.49282"
+    },
+    {
+        "country": "NL",
+        "name": "Someren-Eind",
+        "lat": "51.3575",
+        "lng": "5.73333"
+    },
+    {
+        "country": "NL",
+        "name": "Someren",
+        "lat": "51.385",
+        "lng": "5.71111"
+    },
+    {
+        "country": "NL",
+        "name": "Soestdijk",
+        "lat": "52.19083",
+        "lng": "5.28472"
+    },
+    {
+        "country": "NL",
+        "name": "Soest",
+        "lat": "52.17333",
+        "lng": "5.29167"
+    },
+    {
+        "country": "NL",
+        "name": "Soerendonk",
+        "lat": "51.30083",
+        "lng": "5.575"
+    },
+    {
+        "country": "NL",
+        "name": "Sneek",
+        "lat": "53.03297",
+        "lng": "5.6589"
+    },
+    {
+        "country": "NL",
+        "name": "Sluiskil",
+        "lat": "51.27833",
+        "lng": "3.83611"
+    },
+    {
+        "country": "NL",
+        "name": "Sluis",
+        "lat": "51.30833",
+        "lng": "3.38611"
+    },
+    {
+        "country": "NL",
+        "name": "Slootdorp",
+        "lat": "52.8425",
+        "lng": "4.97222"
+    },
+    {
+        "country": "NL",
+        "name": "Slochteren",
+        "lat": "53.22078",
+        "lng": "6.80547"
+    },
+    {
+        "country": "NL",
+        "name": "Slikkerveer",
+        "lat": "51.88531",
+        "lng": "4.60494"
+    },
+    {
+        "country": "NL",
+        "name": "Sliedrecht",
+        "lat": "51.82083",
+        "lng": "4.77639"
+    },
+    {
+        "country": "NL",
+        "name": "Sleen",
+        "lat": "52.77167",
+        "lng": "6.80278"
+    },
+    {
+        "country": "NL",
+        "name": "Sittard",
+        "lat": "50.99833",
+        "lng": "5.86944"
+    },
+    {
+        "country": "NL",
+        "name": "Sint Willebrord",
+        "lat": "51.54833",
+        "lng": "4.58889"
+    },
+    {
+        "country": "NL",
+        "name": "Sint Philipsland",
+        "lat": "51.61667",
+        "lng": "4.16528"
+    },
+    {
+        "country": "NL",
+        "name": "Sint Pancras",
+        "lat": "52.66",
+        "lng": "4.78333"
+    },
+    {
+        "country": "NL",
+        "name": "Sint-Oedenrode",
+        "lat": "51.5675",
+        "lng": "5.45972"
+    },
+    {
+        "country": "NL",
+        "name": "Sint Odili\u00ebnberg",
+        "lat": "51.14333",
+        "lng": "6"
+    },
+    {
+        "country": "NL",
+        "name": "Sint Nicolaasga",
+        "lat": "52.92293",
+        "lng": "5.74242"
+    },
+    {
+        "country": "NL",
+        "name": "Sint-Michielsgestel",
+        "lat": "51.64167",
+        "lng": "5.35278"
+    },
+    {
+        "country": "NL",
+        "name": "Sint Laurens",
+        "lat": "51.5275",
+        "lng": "3.60278"
+    },
+    {
+        "country": "NL",
+        "name": "Sint Joost",
+        "lat": "51.1175",
+        "lng": "5.89861"
+    },
+    {
+        "country": "NL",
+        "name": "Sintjohannesga",
+        "lat": "52.93157",
+        "lng": "5.85588"
+    },
+    {
+        "country": "NL",
+        "name": "Sint Jansklooster",
+        "lat": "52.6775",
+        "lng": "6.00556"
+    },
+    {
+        "country": "NL",
+        "name": "Sint Jacobiparochie",
+        "lat": "53.27291",
+        "lng": "5.60354"
+    },
+    {
+        "country": "NL",
+        "name": "Sint Anthonis",
+        "lat": "51.62667",
+        "lng": "5.88194"
+    },
+    {
+        "country": "NL",
+        "name": "Sint Annaparochie",
+        "lat": "53.2762",
+        "lng": "5.65727"
+    },
+    {
+        "country": "NL",
+        "name": "Simpelveld",
+        "lat": "50.83417",
+        "lng": "5.98194"
+    },
+    {
+        "country": "NL",
+        "name": "Silvolde",
+        "lat": "51.90917",
+        "lng": "6.3875"
+    },
+    {
+        "country": "NL",
+        "name": "Siddeburen",
+        "lat": "53.25",
+        "lng": "6.86806"
+    },
+    {
+        "country": "NL",
+        "name": "Sibbe",
+        "lat": "50.84417",
+        "lng": "5.82639"
+    },
+    {
+        "country": "NL",
+        "name": "'s-Hertogenbosch",
+        "lat": "51.69917",
+        "lng": "5.30417"
+    },
+    {
+        "country": "NL",
+        "name": "'s-Heerenberg",
+        "lat": "51.8767",
+        "lng": "6.25877"
+    },
+    {
+        "country": "NL",
+        "name": "'s-Gravenzande",
+        "lat": "52.00167",
+        "lng": "4.16528"
+    },
+    {
+        "country": "NL",
+        "name": "'s Gravenmoer",
+        "lat": "51.65594",
+        "lng": "4.94076"
+    },
+    {
+        "country": "NL",
+        "name": "The Hague",
+        "lat": "52.07667",
+        "lng": "4.29861"
+    },
+    {
+        "country": "NL",
+        "name": "Sexbierum",
+        "lat": "53.21823",
+        "lng": "5.48402"
+    },
+    {
+        "country": "NL",
+        "name": "Sevenum",
+        "lat": "51.4125",
+        "lng": "6.0375"
+    },
+    {
+        "country": "NL",
+        "name": "Serooskerke",
+        "lat": "51.54833",
+        "lng": "3.59444"
+    },
+    {
+        "country": "NL",
+        "name": "Selwerd",
+        "lat": "53.2352",
+        "lng": "6.5545"
+    },
+    {
+        "country": "NL",
+        "name": "Sellingen",
+        "lat": "52.94583",
+        "lng": "7.15139"
+    },
+    {
+        "country": "NL",
+        "name": "Schutsboom",
+        "lat": "51.46152",
+        "lng": "5.6226"
+    },
+    {
+        "country": "NL",
+        "name": "Schoonrewoerd",
+        "lat": "51.92083",
+        "lng": "5.11667"
+    },
+    {
+        "country": "NL",
+        "name": "Schoonoord",
+        "lat": "52.84583",
+        "lng": "6.75556"
+    },
+    {
+        "country": "NL",
+        "name": "Schoonhoven",
+        "lat": "51.9475",
+        "lng": "4.84861"
+    },
+    {
+        "country": "NL",
+        "name": "Schoonebeek",
+        "lat": "52.6625",
+        "lng": "6.88472"
+    },
+    {
+        "country": "NL",
+        "name": "Schoondijke",
+        "lat": "51.35417",
+        "lng": "3.55556"
+    },
+    {
+        "country": "NL",
+        "name": "Schipluiden",
+        "lat": "51.97583",
+        "lng": "4.31389"
+    },
+    {
+        "country": "NL",
+        "name": "Schinveld",
+        "lat": "50.96917",
+        "lng": "5.97917"
+    },
+    {
+        "country": "NL",
+        "name": "Schinnen",
+        "lat": "50.94333",
+        "lng": "5.88889"
+    },
+    {
+        "country": "NL",
+        "name": "Schimmert",
+        "lat": "50.90667",
+        "lng": "5.82361"
+    },
+    {
+        "country": "NL",
+        "name": "Schildwolde",
+        "lat": "53.23327",
+        "lng": "6.81566"
+    },
+    {
+        "country": "NL",
+        "name": "Schilberg",
+        "lat": "51.09917",
+        "lng": "5.88611"
+    },
+    {
+        "country": "NL",
+        "name": "Schijndel",
+        "lat": "51.6225",
+        "lng": "5.43194"
+    },
+    {
+        "country": "NL",
+        "name": "Schiermonnikoog",
+        "lat": "53.48025",
+        "lng": "6.15209"
+    },
+    {
+        "country": "NL",
+        "name": "Schiedam",
+        "lat": "51.91917",
+        "lng": "4.38889"
+    },
+    {
+        "country": "NL",
+        "name": "Schiebroek",
+        "lat": "51.95838",
+        "lng": "4.47124"
+    },
+    {
+        "country": "NL",
+        "name": "Scheveningen",
+        "lat": "52.10461",
+        "lng": "4.27557"
+    },
+    {
+        "country": "NL",
+        "name": "Scherpenzeel",
+        "lat": "52.08",
+        "lng": "5.48889"
+    },
+    {
+        "country": "NL",
+        "name": "Scherpenisse",
+        "lat": "51.54667",
+        "lng": "4.10556"
+    },
+    {
+        "country": "NL",
+        "name": "Schermerhorn",
+        "lat": "52.60083",
+        "lng": "4.89167"
+    },
+    {
+        "country": "NL",
+        "name": "Schelluinen",
+        "lat": "51.84333",
+        "lng": "4.92639"
+    },
+    {
+        "country": "NL",
+        "name": "Scheemda",
+        "lat": "53.17333",
+        "lng": "6.97222"
+    },
+    {
+        "country": "NL",
+        "name": "Scharnegoutum",
+        "lat": "53.06051",
+        "lng": "5.67822"
+    },
+    {
+        "country": "NL",
+        "name": "Scharn",
+        "lat": "50.85",
+        "lng": "5.73333"
+    },
+    {
+        "country": "NL",
+        "name": "Scharendijke",
+        "lat": "51.73583",
+        "lng": "3.84306"
+    },
+    {
+        "country": "NL",
+        "name": "Schalkhaar",
+        "lat": "52.26833",
+        "lng": "6.19444"
+    },
+    {
+        "country": "NL",
+        "name": "Schaijk",
+        "lat": "51.74583",
+        "lng": "5.63194"
+    },
+    {
+        "country": "NL",
+        "name": "Schagerbrug",
+        "lat": "52.8025",
+        "lng": "4.75833"
+    },
+    {
+        "country": "NL",
+        "name": "Schagen",
+        "lat": "52.7875",
+        "lng": "4.79861"
+    },
+    {
+        "country": "NL",
+        "name": "Sas van Gent",
+        "lat": "51.2275",
+        "lng": "3.79861"
+    },
+    {
+        "country": "NL",
+        "name": "Sassenheim",
+        "lat": "52.225",
+        "lng": "4.52222"
+    },
+    {
+        "country": "NL",
+        "name": "Sappemeer",
+        "lat": "53.16417",
+        "lng": "6.79028"
+    },
+    {
+        "country": "NL",
+        "name": "Ruurlo",
+        "lat": "52.08833",
+        "lng": "6.45"
+    },
+    {
+        "country": "NL",
+        "name": "Ruinerwold",
+        "lat": "52.72333",
+        "lng": "6.24861"
+    },
+    {
+        "country": "NL",
+        "name": "Ruinen",
+        "lat": "52.7625",
+        "lng": "6.35417"
+    },
+    {
+        "country": "NL",
+        "name": "Rugge",
+        "lat": "51.89921",
+        "lng": "4.15231"
+    },
+    {
+        "country": "NL",
+        "name": "Rucphen",
+        "lat": "51.53167",
+        "lng": "4.55833"
+    },
+    {
+        "country": "NL",
+        "name": "Rozendaal",
+        "lat": "52.00583",
+        "lng": "5.9625"
+    },
+    {
+        "country": "NL",
+        "name": "Rozenburg",
+        "lat": "51.90417",
+        "lng": "4.24861"
+    },
+    {
+        "country": "NL",
+        "name": "Rottevalle",
+        "lat": "53.14523",
+        "lng": "6.10411"
+    },
+    {
+        "country": "NL",
+        "name": "Rotterdam",
+        "lat": "51.9225",
+        "lng": "4.47917"
+    },
+    {
+        "country": "NL",
+        "name": "Rothem",
+        "lat": "50.87667",
+        "lng": "5.73889"
+    },
+    {
+        "country": "NL",
+        "name": "Rossum",
+        "lat": "52.35167",
+        "lng": "6.92222"
+    },
+    {
+        "country": "NL",
+        "name": "Rossum",
+        "lat": "51.80083",
+        "lng": "5.33333"
+    },
+    {
+        "country": "NL",
+        "name": "Roosteren",
+        "lat": "51.08333",
+        "lng": "5.81806"
+    },
+    {
+        "country": "NL",
+        "name": "Roosendaal",
+        "lat": "51.53083",
+        "lng": "4.46528"
+    },
+    {
+        "country": "NL",
+        "name": "Rolde",
+        "lat": "52.98417",
+        "lng": "6.64861"
+    },
+    {
+        "country": "NL",
+        "name": "Roermond",
+        "lat": "51.19417",
+        "lng": "5.9875"
+    },
+    {
+        "country": "NL",
+        "name": "Roelofarendsveen",
+        "lat": "52.20333",
+        "lng": "4.63333"
+    },
+    {
+        "country": "NL",
+        "name": "Roden",
+        "lat": "53.1375",
+        "lng": "6.42083"
+    },
+    {
+        "country": "NL",
+        "name": "Rockanje",
+        "lat": "51.87167",
+        "lng": "4.07083"
+    },
+    {
+        "country": "NL",
+        "name": "Rijswijk",
+        "lat": "52.03634",
+        "lng": "4.32501"
+    },
+    {
+        "country": "NL",
+        "name": "Rijswijk",
+        "lat": "51.7975",
+        "lng": "5.025"
+    },
+    {
+        "country": "NL",
+        "name": "Rijsoord",
+        "lat": "51.85083",
+        "lng": "4.59583"
+    },
+    {
+        "country": "NL",
+        "name": "Rijsbergen",
+        "lat": "51.5175",
+        "lng": "4.69722"
+    },
+    {
+        "country": "NL",
+        "name": "Rijpwetering",
+        "lat": "52.1925",
+        "lng": "4.58333"
+    },
+    {
+        "country": "NL",
+        "name": "Rijnsburg",
+        "lat": "52.19",
+        "lng": "4.44167"
+    },
+    {
+        "country": "NL",
+        "name": "Rijnsaterwoude",
+        "lat": "52.19583",
+        "lng": "4.67083"
+    },
+    {
+        "country": "NL",
+        "name": "Rijen",
+        "lat": "51.59083",
+        "lng": "4.91944"
+    },
+    {
+        "country": "NL",
+        "name": "Riethoven",
+        "lat": "51.35417",
+        "lng": "5.3875"
+    },
+    {
+        "country": "NL",
+        "name": "Ridderkerk",
+        "lat": "51.8725",
+        "lng": "4.60278"
+    },
+    {
+        "country": "NL",
+        "name": "Rhoon",
+        "lat": "51.8575",
+        "lng": "4.42222"
+    },
+    {
+        "country": "NL",
+        "name": "Rhenen",
+        "lat": "51.95917",
+        "lng": "5.56806"
+    },
+    {
+        "country": "NL",
+        "name": "Rheden",
+        "lat": "52.005",
+        "lng": "6.02917"
+    },
+    {
+        "country": "NL",
+        "name": "Reuver",
+        "lat": "51.28417",
+        "lng": "6.07778"
+    },
+    {
+        "country": "NL",
+        "name": "Reusel",
+        "lat": "51.3625",
+        "lng": "5.16528"
+    },
+    {
+        "country": "NL",
+        "name": "Renswoude",
+        "lat": "52.07333",
+        "lng": "5.54028"
+    },
+    {
+        "country": "NL",
+        "name": "Renkum",
+        "lat": "51.97667",
+        "lng": "5.73333"
+    },
+    {
+        "country": "NL",
+        "name": "Renesse",
+        "lat": "51.7325",
+        "lng": "3.775"
+    },
+    {
+        "country": "NL",
+        "name": "Reeuwijk",
+        "lat": "52.04667",
+        "lng": "4.725"
+    },
+    {
+        "country": "NL",
+        "name": "Reek",
+        "lat": "51.74583",
+        "lng": "5.68194"
+    },
+    {
+        "country": "NL",
+        "name": "Ravenstein",
+        "lat": "51.79667",
+        "lng": "5.65"
+    },
+    {
+        "country": "NL",
+        "name": "Raamsdonksveer",
+        "lat": "51.69667",
+        "lng": "4.87361"
+    },
+    {
+        "country": "NL",
+        "name": "Raamsdonk",
+        "lat": "51.6875",
+        "lng": "4.90833"
+    },
+    {
+        "country": "NL",
+        "name": "Raam",
+        "lat": "51.65967",
+        "lng": "5.63637"
+    },
+    {
+        "country": "NL",
+        "name": "Raalte",
+        "lat": "52.38583",
+        "lng": "6.275"
+    },
+    {
+        "country": "NL",
+        "name": "Quirijnstok",
+        "lat": "51.5843",
+        "lng": "5.0981"
+    },
+    {
+        "country": "NL",
+        "name": "Putten",
+        "lat": "52.25917",
+        "lng": "5.60694"
+    },
+    {
+        "country": "NL",
+        "name": "Putte",
+        "lat": "51.36",
+        "lng": "4.39583"
+    },
+    {
+        "country": "NL",
+        "name": "Puth",
+        "lat": "50.95417",
+        "lng": "5.87361"
+    },
+    {
+        "country": "NL",
+        "name": "Purmerend",
+        "lat": "52.505",
+        "lng": "4.95972"
+    },
+    {
+        "country": "NL",
+        "name": "Puiflijk",
+        "lat": "51.87833",
+        "lng": "5.59028"
+    },
+    {
+        "country": "NL",
+        "name": "Prinsenbeek",
+        "lat": "51.59833",
+        "lng": "4.7125"
+    },
+    {
+        "country": "NL",
+        "name": "Princenhage",
+        "lat": "51.57632",
+        "lng": "4.73906"
+    },
+    {
+        "country": "NL",
+        "name": "Pottenberg",
+        "lat": "50.85135",
+        "lng": "5.65668"
+    },
+    {
+        "country": "NL",
+        "name": "Posterholt",
+        "lat": "51.12333",
+        "lng": "6.03472"
+    },
+    {
+        "country": "NL",
+        "name": "Poortvliet",
+        "lat": "51.54417",
+        "lng": "4.14306"
+    },
+    {
+        "country": "NL",
+        "name": "Poeldijk",
+        "lat": "52.02417",
+        "lng": "4.21944"
+    },
+    {
+        "country": "NL",
+        "name": "Pijnacker",
+        "lat": "52.01954",
+        "lng": "4.42946"
+    },
+    {
+        "country": "NL",
+        "name": "Piershil",
+        "lat": "51.79333",
+        "lng": "4.31389"
+    },
+    {
+        "country": "NL",
+        "name": "Pierik",
+        "lat": "52.50141",
+        "lng": "6.1117"
+    },
+    {
+        "country": "NL",
+        "name": "Petten",
+        "lat": "52.76667",
+        "lng": "4.66111"
+    },
+    {
+        "country": "NL",
+        "name": "Pernis",
+        "lat": "51.88833",
+        "lng": "4.38889"
+    },
+    {
+        "country": "NL",
+        "name": "Pendrecht",
+        "lat": "51.87152",
+        "lng": "4.46901"
+    },
+    {
+        "country": "NL",
+        "name": "Peize",
+        "lat": "53.14667",
+        "lng": "6.49722"
+    },
+    {
+        "country": "NL",
+        "name": "Peij",
+        "lat": "51.09417",
+        "lng": "5.89583"
+    },
+    {
+        "country": "NL",
+        "name": "Pathmos",
+        "lat": "52.21397",
+        "lng": "6.87555"
+    },
+    {
+        "country": "NL",
+        "name": "Paterswolde",
+        "lat": "53.145",
+        "lng": "6.56528"
+    },
+    {
+        "country": "NL",
+        "name": "Passart",
+        "lat": "50.92389",
+        "lng": "5.94674"
+    },
+    {
+        "country": "NL",
+        "name": "Papenveer",
+        "lat": "52.185",
+        "lng": "4.725"
+    },
+    {
+        "country": "NL",
+        "name": "Papendrecht",
+        "lat": "51.83167",
+        "lng": "4.6875"
+    },
+    {
+        "country": "NL",
+        "name": "Panningen",
+        "lat": "51.32667",
+        "lng": "5.97917"
+    },
+    {
+        "country": "NL",
+        "name": "Pannerden",
+        "lat": "51.89083",
+        "lng": "6.03889"
+    },
+    {
+        "country": "NL",
+        "name": "Palenstein",
+        "lat": "52.05579",
+        "lng": "4.50869"
+    },
+    {
+        "country": "NL",
+        "name": "Overveen",
+        "lat": "52.39167",
+        "lng": "4.61389"
+    },
+    {
+        "country": "NL",
+        "name": "Overschie",
+        "lat": "51.93863",
+        "lng": "4.42766"
+    },
+    {
+        "country": "NL",
+        "name": "Overloon",
+        "lat": "51.57167",
+        "lng": "5.94722"
+    },
+    {
+        "country": "NL",
+        "name": "Overhoven",
+        "lat": "51.00869",
+        "lng": "5.86628"
+    },
+    {
+        "country": "NL",
+        "name": "Overberg",
+        "lat": "52.04",
+        "lng": "5.49444"
+    },
+    {
+        "country": "NL",
+        "name": "Overasselt",
+        "lat": "51.76",
+        "lng": "5.78889"
+    },
+    {
+        "country": "NL",
+        "name": "Oud-Vossemeer",
+        "lat": "51.57083",
+        "lng": "4.19861"
+    },
+    {
+        "country": "NL",
+        "name": "Oud-Loosdrecht",
+        "lat": "52.20667",
+        "lng": "5.08056"
+    },
+    {
+        "country": "NL",
+        "name": "Oudkarspel",
+        "lat": "52.71583",
+        "lng": "4.80556"
+    },
+    {
+        "country": "NL",
+        "name": "Oud Gastel",
+        "lat": "51.58667",
+        "lng": "4.45972"
+    },
+    {
+        "country": "NL",
+        "name": "Oude Wetering",
+        "lat": "52.21417",
+        "lng": "4.64444"
+    },
+    {
+        "country": "NL",
+        "name": "Oudewater",
+        "lat": "52.025",
+        "lng": "4.86806"
+    },
+    {
+        "country": "NL",
+        "name": "Oudeschoot",
+        "lat": "52.93343",
+        "lng": "5.95579"
+    },
+    {
+        "country": "NL",
+        "name": "Oudeschild",
+        "lat": "53.03917",
+        "lng": "4.84722"
+    },
+    {
+        "country": "NL",
+        "name": "Ouderkerk aan den IJssel",
+        "lat": "51.93417",
+        "lng": "4.63611"
+    },
+    {
+        "country": "NL",
+        "name": "Ouderkerk aan de Amstel",
+        "lat": "52.29504",
+        "lng": "4.90746"
+    },
+    {
+        "country": "NL",
+        "name": "Oude Pekela",
+        "lat": "53.10417",
+        "lng": "7.00972"
+    },
+    {
+        "country": "NL",
+        "name": "Oudemirdum",
+        "lat": "52.85019",
+        "lng": "5.53544"
+    },
+    {
+        "country": "NL",
+        "name": "Oudehaske",
+        "lat": "52.95709",
+        "lng": "5.87095"
+    },
+    {
+        "country": "NL",
+        "name": "Oudega",
+        "lat": "53.12504",
+        "lng": "5.99888"
+    },
+    {
+        "country": "NL",
+        "name": "Ouddorp",
+        "lat": "51.81167",
+        "lng": "3.93472"
+    },
+    {
+        "country": "NL",
+        "name": "Oud-Caberg",
+        "lat": "50.86539",
+        "lng": "5.66444"
+    },
+    {
+        "country": "NL",
+        "name": "Oud-Beijerland",
+        "lat": "51.82417",
+        "lng": "4.4125"
+    },
+    {
+        "country": "NL",
+        "name": "Ottersum",
+        "lat": "51.70333",
+        "lng": "5.98333"
+    },
+    {
+        "country": "NL",
+        "name": "Otterlo",
+        "lat": "52.1",
+        "lng": "5.77222"
+    },
+    {
+        "country": "NL",
+        "name": "Othene",
+        "lat": "51.33083",
+        "lng": "3.85972"
+    },
+    {
+        "country": "NL",
+        "name": "Ossendrecht",
+        "lat": "51.39417",
+        "lng": "4.32639"
+    },
+    {
+        "country": "NL",
+        "name": "Oss",
+        "lat": "51.765",
+        "lng": "5.51806"
+    },
+    {
+        "country": "NL",
+        "name": "Ospel",
+        "lat": "51.2975",
+        "lng": "5.78472"
+    },
+    {
+        "country": "NL",
+        "name": "Orthen",
+        "lat": "51.70613",
+        "lng": "5.30468"
+    },
+    {
+        "country": "NL",
+        "name": "Orden",
+        "lat": "52.20113",
+        "lng": "5.93417"
+    },
+    {
+        "country": "NL",
+        "name": "Oranjewoud",
+        "lat": "52.94579",
+        "lng": "5.95038"
+    },
+    {
+        "country": "NL",
+        "name": "Opperdoes",
+        "lat": "52.75915",
+        "lng": "5.07534"
+    },
+    {
+        "country": "NL",
+        "name": "Oppenhuizen",
+        "lat": "53.01194",
+        "lng": "5.69495"
+    },
+    {
+        "country": "NL",
+        "name": "Opmeer",
+        "lat": "52.70667",
+        "lng": "4.94444"
+    },
+    {
+        "country": "NL",
+        "name": "Opijnen",
+        "lat": "51.82917",
+        "lng": "5.29861"
+    },
+    {
+        "country": "NL",
+        "name": "Ophoven",
+        "lat": "50.99036",
+        "lng": "5.85868"
+    },
+    {
+        "country": "NL",
+        "name": "Opheusden",
+        "lat": "51.93167",
+        "lng": "5.63194"
+    },
+    {
+        "country": "NL",
+        "name": "Ophemert",
+        "lat": "51.845",
+        "lng": "5.3875"
+    },
+    {
+        "country": "NL",
+        "name": "Opeinde",
+        "lat": "53.1341",
+        "lng": "6.05656"
+    },
+    {
+        "country": "NL",
+        "name": "Ooyerhoek",
+        "lat": "52.12838",
+        "lng": "6.22307"
+    },
+    {
+        "country": "NL",
+        "name": "Ootmarsum",
+        "lat": "52.40833",
+        "lng": "6.90139"
+    },
+    {
+        "country": "NL",
+        "name": "Oostvoorne",
+        "lat": "51.9125",
+        "lng": "4.09861"
+    },
+    {
+        "country": "NL",
+        "name": "Oost-Vlieland",
+        "lat": "53.29703",
+        "lng": "5.07431"
+    },
+    {
+        "country": "NL",
+        "name": "Oostrum",
+        "lat": "51.52917",
+        "lng": "6.01667"
+    },
+    {
+        "country": "NL",
+        "name": "Oostkapelle",
+        "lat": "51.56667",
+        "lng": "3.55139"
+    },
+    {
+        "country": "NL",
+        "name": "Oosthuizen",
+        "lat": "52.5725",
+        "lng": "4.99583"
+    },
+    {
+        "country": "NL",
+        "name": "Oosterzij",
+        "lat": "52.585",
+        "lng": "4.70556"
+    },
+    {
+        "country": "NL",
+        "name": "Oosterwolde",
+        "lat": "52.99164",
+        "lng": "6.29096"
+    },
+    {
+        "country": "NL",
+        "name": "Oosterpark",
+        "lat": "53.2237",
+        "lng": "6.5853"
+    },
+    {
+        "country": "NL",
+        "name": "Eastermar",
+        "lat": "53.17466",
+        "lng": "6.05999"
+    },
+    {
+        "country": "NL",
+        "name": "Oostermeenthe",
+        "lat": "52.79319",
+        "lng": "6.13138"
+    },
+    {
+        "country": "NL",
+        "name": "Oosterland",
+        "lat": "51.65",
+        "lng": "4.03611"
+    },
+    {
+        "country": "NL",
+        "name": "Oosterhout",
+        "lat": "51.88",
+        "lng": "5.82639"
+    },
+    {
+        "country": "NL",
+        "name": "Oosterhout",
+        "lat": "51.645",
+        "lng": "4.85972"
+    },
+    {
+        "country": "NL",
+        "name": "Oosterhoogebrug",
+        "lat": "53.22892",
+        "lng": "6.60141"
+    },
+    {
+        "country": "NL",
+        "name": "Oosterholt",
+        "lat": "52.55917",
+        "lng": "5.95556"
+    },
+    {
+        "country": "NL",
+        "name": "Oosterhesselen",
+        "lat": "52.75417",
+        "lng": "6.72222"
+    },
+    {
+        "country": "NL",
+        "name": "Oosterblokker",
+        "lat": "52.66917",
+        "lng": "5.11806"
+    },
+    {
+        "country": "NL",
+        "name": "Oosterbeek",
+        "lat": "51.98583",
+        "lng": "5.84583"
+    },
+    {
+        "country": "NL",
+        "name": "Oostendorp",
+        "lat": "52.44722",
+        "lng": "5.85443"
+    },
+    {
+        "country": "NL",
+        "name": "Oostelbeers",
+        "lat": "51.47171",
+        "lng": "5.26897"
+    },
+    {
+        "country": "NL",
+        "name": "Oosteinde",
+        "lat": "52.27917",
+        "lng": "4.79583"
+    },
+    {
+        "country": "NL",
+        "name": "Oosteind",
+        "lat": "51.64418",
+        "lng": "4.89784"
+    },
+    {
+        "country": "NL",
+        "name": "Oostdorp",
+        "lat": "52.14994",
+        "lng": "4.39319"
+    },
+    {
+        "country": "NL",
+        "name": "Oostburg",
+        "lat": "51.32583",
+        "lng": "3.4875"
+    },
+    {
+        "country": "NL",
+        "name": "Ooy",
+        "lat": "51.91917",
+        "lng": "6.05833"
+    },
+    {
+        "country": "NL",
+        "name": "Ooij",
+        "lat": "51.85465",
+        "lng": "5.93915"
+    },
+    {
+        "country": "NL",
+        "name": "Oog in Al",
+        "lat": "52.08636",
+        "lng": "5.0847"
+    },
+    {
+        "country": "NL",
+        "name": "Onstwedde",
+        "lat": "53.035",
+        "lng": "7.04028"
+    },
+    {
+        "country": "NL",
+        "name": "Onderdijk",
+        "lat": "52.74333",
+        "lng": "5.1375"
+    },
+    {
+        "country": "NL",
+        "name": "Ommoord",
+        "lat": "51.95951",
+        "lng": "4.54533"
+    },
+    {
+        "country": "NL",
+        "name": "Ommelanderwijk",
+        "lat": "53.08917",
+        "lng": "6.90556"
+    },
+    {
+        "country": "NL",
+        "name": "Olst",
+        "lat": "52.3375",
+        "lng": "6.10972"
+    },
+    {
+        "country": "NL",
+        "name": "Oldenzaal",
+        "lat": "52.31333",
+        "lng": "6.92917"
+    },
+    {
+        "country": "NL",
+        "name": "Oldemarkt",
+        "lat": "52.82083",
+        "lng": "5.975"
+    },
+    {
+        "country": "NL",
+        "name": "Oldehove",
+        "lat": "53.30333",
+        "lng": "6.39583"
+    },
+    {
+        "country": "NL",
+        "name": "Oldebroek",
+        "lat": "52.445",
+        "lng": "5.90139"
+    },
+    {
+        "country": "NL",
+        "name": "Aldeboarn",
+        "lat": "53.05",
+        "lng": "5.9"
+    },
+    {
+        "country": "NL",
+        "name": "Oldeberkoop",
+        "lat": "52.93788",
+        "lng": "6.13089"
+    },
+    {
+        "country": "NL",
+        "name": "Oisterwijk",
+        "lat": "51.57917",
+        "lng": "5.18889"
+    },
+    {
+        "country": "NL",
+        "name": "Oirschot",
+        "lat": "51.505",
+        "lng": "5.31389"
+    },
+    {
+        "country": "NL",
+        "name": "Oirsbeek",
+        "lat": "50.95083",
+        "lng": "5.90833"
+    },
+    {
+        "country": "NL",
+        "name": "Oirlo",
+        "lat": "51.51167",
+        "lng": "6.0375"
+    },
+    {
+        "country": "NL",
+        "name": "Offenbeek",
+        "lat": "51.28225",
+        "lng": "6.095"
+    },
+    {
+        "country": "NL",
+        "name": "Oerle",
+        "lat": "51.42255",
+        "lng": "5.37163"
+    },
+    {
+        "country": "NL",
+        "name": "Oentsjerk",
+        "lat": "53.25",
+        "lng": "5.9"
+    },
+    {
+        "country": "NL",
+        "name": "Oegstgeest",
+        "lat": "52.18",
+        "lng": "4.46944"
+    },
+    {
+        "country": "NL",
+        "name": "Odoorn",
+        "lat": "52.84917",
+        "lng": "6.85139"
+    },
+    {
+        "country": "NL",
+        "name": "Odiliapeel",
+        "lat": "51.64333",
+        "lng": "5.70556"
+    },
+    {
+        "country": "NL",
+        "name": "Odijk",
+        "lat": "52.0525",
+        "lng": "5.23611"
+    },
+    {
+        "country": "NL",
+        "name": "Ochten",
+        "lat": "51.91",
+        "lng": "5.56944"
+    },
+    {
+        "country": "NL",
+        "name": "Obergum",
+        "lat": "53.33333",
+        "lng": "6.51667"
+    },
+    {
+        "country": "NL",
+        "name": "Obdam",
+        "lat": "52.67583",
+        "lng": "4.90694"
+    },
+    {
+        "country": "NL",
+        "name": "Obbicht",
+        "lat": "51.02833",
+        "lng": "5.78056"
+    },
+    {
+        "country": "NL",
+        "name": "Nuth",
+        "lat": "50.9175",
+        "lng": "5.88611"
+    },
+    {
+        "country": "NL",
+        "name": "Nunspeet",
+        "lat": "52.37917",
+        "lng": "5.78611"
+    },
+    {
+        "country": "NL",
+        "name": "Numansdorp",
+        "lat": "51.73167",
+        "lng": "4.4375"
+    },
+    {
+        "country": "NL",
+        "name": "Nuenen",
+        "lat": "51.47",
+        "lng": "5.55278"
+    },
+    {
+        "country": "NL",
+        "name": "Norg",
+        "lat": "53.06667",
+        "lng": "6.45833"
+    },
+    {
+        "country": "NL",
+        "name": "Noordwolde",
+        "lat": "52.88964",
+        "lng": "6.14153"
+    },
+    {
+        "country": "NL",
+        "name": "Noordwijkerhout",
+        "lat": "52.26167",
+        "lng": "4.49306"
+    },
+    {
+        "country": "NL",
+        "name": "Noordwijk-Binnen",
+        "lat": "52.234",
+        "lng": "4.44474"
+    },
+    {
+        "country": "NL",
+        "name": "Noord-Scharwoude",
+        "lat": "52.69833",
+        "lng": "4.81111"
+    },
+    {
+        "country": "NL",
+        "name": "Noordhorn",
+        "lat": "53.26167",
+        "lng": "6.39583"
+    },
+    {
+        "country": "NL",
+        "name": "Noord-Hofland",
+        "lat": "52.14059",
+        "lng": "4.45864"
+    },
+    {
+        "country": "NL",
+        "name": "Noordhoek",
+        "lat": "51.6425",
+        "lng": "4.53194"
+    },
+    {
+        "country": "NL",
+        "name": "Noordgeest",
+        "lat": "51.50917",
+        "lng": "4.27917"
+    },
+    {
+        "country": "NL",
+        "name": "Noordeloos",
+        "lat": "51.90333",
+        "lng": "4.94167"
+    },
+    {
+        "country": "NL",
+        "name": "Noordeinde",
+        "lat": "52.01667",
+        "lng": "4.48333"
+    },
+    {
+        "country": "NL",
+        "name": "Noordbroek",
+        "lat": "53.195",
+        "lng": "6.87361"
+    },
+    {
+        "country": "NL",
+        "name": "Noardburgum",
+        "lat": "53.22135",
+        "lng": "6.00523"
+    },
+    {
+        "country": "NL",
+        "name": "Noordbarge",
+        "lat": "52.77237",
+        "lng": "6.88713"
+    },
+    {
+        "country": "NL",
+        "name": "Nistelrode",
+        "lat": "51.70417",
+        "lng": "5.5625"
+    },
+    {
+        "country": "NL",
+        "name": "Nispen",
+        "lat": "51.48331",
+        "lng": "4.46131"
+    },
+    {
+        "country": "NL",
+        "name": "Nijrees",
+        "lat": "52.335",
+        "lng": "6.66389"
+    },
+    {
+        "country": "NL",
+        "name": "Nijnsel",
+        "lat": "51.55083",
+        "lng": "5.48333"
+    },
+    {
+        "country": "NL",
+        "name": "Nijmegen",
+        "lat": "51.8425",
+        "lng": "5.85278"
+    },
+    {
+        "country": "NL",
+        "name": "Nijkerkerveen",
+        "lat": "52.195",
+        "lng": "5.46667"
+    },
+    {
+        "country": "NL",
+        "name": "Nijkerk",
+        "lat": "52.22",
+        "lng": "5.48611"
+    },
+    {
+        "country": "NL",
+        "name": "Nijenheim",
+        "lat": "52.08689",
+        "lng": "5.21852"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuw-Vossemeer",
+        "lat": "51.59",
+        "lng": "4.21806"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuwveen",
+        "lat": "52.19667",
+        "lng": "4.75694"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuw-Roden",
+        "lat": "53.13167",
+        "lng": "6.39722"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuwpoort",
+        "lat": "51.93583",
+        "lng": "4.86806"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuwoord",
+        "lat": "52.46667",
+        "lng": "6.55"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuwolda",
+        "lat": "53.24417",
+        "lng": "6.975"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuw-Lotbroek",
+        "lat": "50.91283",
+        "lng": "5.92798"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuw-Loosdrecht",
+        "lat": "52.19917",
+        "lng": "5.13889"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuw-Lekkerland",
+        "lat": "51.88915",
+        "lng": "4.68653"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuw- en Sint Joosland",
+        "lat": "51.48333",
+        "lng": "3.65694"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuwkuijk",
+        "lat": "51.69",
+        "lng": "5.18194"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuwkoop",
+        "lat": "52.15083",
+        "lng": "4.77639"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuwerkerk",
+        "lat": "51.65083",
+        "lng": "4.00139"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuwe Pekela",
+        "lat": "53.07917",
+        "lng": "6.96528"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuwe-Niedorp",
+        "lat": "52.74",
+        "lng": "4.89861"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuwenhoorn",
+        "lat": "51.85417",
+        "lng": "4.14306"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuwehorne",
+        "lat": "52.95113",
+        "lng": "6.06342"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuwegein",
+        "lat": "52.02917",
+        "lng": "5.08056"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuwdorp",
+        "lat": "50.96216",
+        "lng": "5.77297"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuw-Dordrecht",
+        "lat": "52.74833",
+        "lng": "6.96806"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuw-Buinen",
+        "lat": "52.9625",
+        "lng": "6.95"
+    },
+    {
+        "country": "NL",
+        "name": "Nieuw-Beijerland",
+        "lat": "51.8125",
+        "lng": "4.34306"
+    },
+    {
+        "country": "NL",
+        "name": "Niekerk",
+        "lat": "53.225",
+        "lng": "6.35278"
+    },
+    {
+        "country": "NL",
+        "name": "Nes",
+        "lat": "53.44502",
+        "lng": "5.774"
+    },
+    {
+        "country": "NL",
+        "name": "Nes",
+        "lat": "53.05207",
+        "lng": "5.85223"
+    },
+    {
+        "country": "NL",
+        "name": "Neerkant",
+        "lat": "51.36833",
+        "lng": "5.86667"
+    },
+    {
+        "country": "NL",
+        "name": "Neerbeek",
+        "lat": "50.95",
+        "lng": "5.81528"
+    },
+    {
+        "country": "NL",
+        "name": "Andel",
+        "lat": "51.78333",
+        "lng": "5.05833"
+    },
+    {
+        "country": "NL",
+        "name": "Neede",
+        "lat": "52.13417",
+        "lng": "6.61389"
+    },
+    {
+        "country": "NL",
+        "name": "Nederwoud",
+        "lat": "52.10083",
+        "lng": "5.57083"
+    },
+    {
+        "country": "NL",
+        "name": "Nederweert",
+        "lat": "51.28583",
+        "lng": "5.74861"
+    },
+    {
+        "country": "NL",
+        "name": "Nederhemert-Noord",
+        "lat": "51.76322",
+        "lng": "5.17305"
+    },
+    {
+        "country": "NL",
+        "name": "Nederhemert",
+        "lat": "51.76518",
+        "lng": "5.16817"
+    },
+    {
+        "country": "NL",
+        "name": "Neder-Hardinxveld",
+        "lat": "51.82879",
+        "lng": "4.85489"
+    },
+    {
+        "country": "NL",
+        "name": "Naastenbest",
+        "lat": "51.50484",
+        "lng": "5.38579"
+    },
+    {
+        "country": "NL",
+        "name": "Naarden",
+        "lat": "52.29583",
+        "lng": "5.1625"
+    },
+    {
+        "country": "NL",
+        "name": "Naaldwijk",
+        "lat": "51.99417",
+        "lng": "4.20972"
+    },
+    {
+        "country": "NL",
+        "name": "Munstergeleen",
+        "lat": "50.975",
+        "lng": "5.86389"
+    },
+    {
+        "country": "NL",
+        "name": "Muiderberg",
+        "lat": "52.32583",
+        "lng": "5.12083"
+    },
+    {
+        "country": "NL",
+        "name": "Mook",
+        "lat": "51.7525",
+        "lng": "5.88194"
+    },
+    {
+        "country": "NL",
+        "name": "Montfort",
+        "lat": "51.12583",
+        "lng": "5.94861"
+    },
+    {
+        "country": "NL",
+        "name": "Montfoort",
+        "lat": "52.04583",
+        "lng": "4.95278"
+    },
+    {
+        "country": "NL",
+        "name": "Monster",
+        "lat": "52.02583",
+        "lng": "4.175"
+    },
+    {
+        "country": "NL",
+        "name": "Monnickendam",
+        "lat": "52.45833",
+        "lng": "5.0375"
+    },
+    {
+        "country": "NL",
+        "name": "Molenhoek",
+        "lat": "51.71113",
+        "lng": "5.36809"
+    },
+    {
+        "country": "NL",
+        "name": "Moesel",
+        "lat": "51.23828",
+        "lng": "5.71778"
+    },
+    {
+        "country": "NL",
+        "name": "Moerdijk",
+        "lat": "51.70167",
+        "lng": "4.62639"
+    },
+    {
+        "country": "NL",
+        "name": "Minnertsga",
+        "lat": "53.25104",
+        "lng": "5.59513"
+    },
+    {
+        "country": "NL",
+        "name": "Milsbeek",
+        "lat": "51.725",
+        "lng": "5.94861"
+    },
+    {
+        "country": "NL",
+        "name": "Milheeze",
+        "lat": "51.50167",
+        "lng": "5.77917"
+    },
+    {
+        "country": "NL",
+        "name": "Mijnsheerenland",
+        "lat": "51.79667",
+        "lng": "4.4875"
+    },
+    {
+        "country": "NL",
+        "name": "Mijdrecht",
+        "lat": "52.20667",
+        "lng": "4.8625"
+    },
+    {
+        "country": "NL",
+        "name": "Mierlo",
+        "lat": "51.44",
+        "lng": "5.61944"
+    },
+    {
+        "country": "NL",
+        "name": "Midwoud",
+        "lat": "52.71667",
+        "lng": "5.075"
+    },
+    {
+        "country": "NL",
+        "name": "Midwolda",
+        "lat": "53.195",
+        "lng": "7.01389"
+    },
+    {
+        "country": "NL",
+        "name": "Middenmeer",
+        "lat": "52.80667",
+        "lng": "4.99861"
+    },
+    {
+        "country": "NL",
+        "name": "Middenbeemster",
+        "lat": "52.54917",
+        "lng": "4.9125"
+    },
+    {
+        "country": "NL",
+        "name": "Middelstum",
+        "lat": "53.34667",
+        "lng": "6.64167"
+    },
+    {
+        "country": "NL",
+        "name": "Middelsluis",
+        "lat": "51.7425",
+        "lng": "4.44167"
+    },
+    {
+        "country": "NL",
+        "name": "Middelrode",
+        "lat": "51.66417",
+        "lng": "5.41944"
+    },
+    {
+        "country": "NL",
+        "name": "Middelharnis",
+        "lat": "51.7575",
+        "lng": "4.16528"
+    },
+    {
+        "country": "NL",
+        "name": "Middelburg",
+        "lat": "51.5",
+        "lng": "3.61389"
+    },
+    {
+        "country": "NL",
+        "name": "Middelbeers",
+        "lat": "51.46667",
+        "lng": "5.25"
+    },
+    {
+        "country": "NL",
+        "name": "Meteren",
+        "lat": "51.865",
+        "lng": "5.28333"
+    },
+    {
+        "country": "NL",
+        "name": "Merum",
+        "lat": "51.17333",
+        "lng": "5.95972"
+    },
+    {
+        "country": "NL",
+        "name": "Merselo",
+        "lat": "51.53",
+        "lng": "5.92778"
+    },
+    {
+        "country": "NL",
+        "name": "Merkelbeek",
+        "lat": "50.95389",
+        "lng": "5.94069"
+    },
+    {
+        "country": "NL",
+        "name": "Merenwijk",
+        "lat": "52.17655",
+        "lng": "4.50885"
+    },
+    {
+        "country": "NL",
+        "name": "Meppel",
+        "lat": "52.69583",
+        "lng": "6.19444"
+    },
+    {
+        "country": "NL",
+        "name": "Menaam",
+        "lat": "53.21797",
+        "lng": "5.66124"
+    },
+    {
+        "country": "NL",
+        "name": "Melle",
+        "lat": "51.66244",
+        "lng": "5.63367"
+    },
+    {
+        "country": "NL",
+        "name": "Meliskerke",
+        "lat": "51.51417",
+        "lng": "3.50972"
+    },
+    {
+        "country": "NL",
+        "name": "Melick",
+        "lat": "51.15917",
+        "lng": "6.01667"
+    },
+    {
+        "country": "NL",
+        "name": "Melderslo",
+        "lat": "51.46167",
+        "lng": "6.08611"
+    },
+    {
+        "country": "NL",
+        "name": "Mekkelholt",
+        "lat": "52.23645",
+        "lng": "6.89058"
+    },
+    {
+        "country": "NL",
+        "name": "Meijel",
+        "lat": "51.34417",
+        "lng": "5.88472"
+    },
+    {
+        "country": "NL",
+        "name": "Megen",
+        "lat": "51.82167",
+        "lng": "5.5625"
+    },
+    {
+        "country": "NL",
+        "name": "Meezenbroek",
+        "lat": "50.8968",
+        "lng": "5.99051"
+    },
+    {
+        "country": "NL",
+        "name": "Meerveldhoven",
+        "lat": "51.41705",
+        "lng": "5.41618"
+    },
+    {
+        "country": "NL",
+        "name": "Meerssen",
+        "lat": "50.8875",
+        "lng": "5.75"
+    },
+    {
+        "country": "NL",
+        "name": "Meerlo",
+        "lat": "51.51333",
+        "lng": "6.08472"
+    },
+    {
+        "country": "NL",
+        "name": "Meeden",
+        "lat": "53.14",
+        "lng": "6.92639"
+    },
+    {
+        "country": "NL",
+        "name": "Medemblik",
+        "lat": "52.77167",
+        "lng": "5.10556"
+    },
+    {
+        "country": "NL",
+        "name": "Mechelen",
+        "lat": "50.79583",
+        "lng": "5.92639"
+    },
+    {
+        "country": "NL",
+        "name": "Maurik",
+        "lat": "51.96083",
+        "lng": "5.42222"
+    },
+    {
+        "country": "NL",
+        "name": "Marum",
+        "lat": "53.14417",
+        "lng": "6.2625"
+    },
+    {
+        "country": "NL",
+        "name": "Marsum",
+        "lat": "53.2105",
+        "lng": "5.72637"
+    },
+    {
+        "country": "NL",
+        "name": "Marrum",
+        "lat": "53.32277",
+        "lng": "5.80198"
+    },
+    {
+        "country": "NL",
+        "name": "Markelo",
+        "lat": "52.235",
+        "lng": "6.49861"
+    },
+    {
+        "country": "NL",
+        "name": "Mariarade",
+        "lat": "50.92906",
+        "lng": "5.92738"
+    },
+    {
+        "country": "NL",
+        "name": "Mariahout",
+        "lat": "51.54083",
+        "lng": "5.57222"
+    },
+    {
+        "country": "NL",
+        "name": "Margraten",
+        "lat": "50.82083",
+        "lng": "5.82083"
+    },
+    {
+        "country": "NL",
+        "name": "Mantgum",
+        "lat": "53.12865",
+        "lng": "5.71924"
+    },
+    {
+        "country": "NL",
+        "name": "Malta",
+        "lat": "51.65",
+        "lng": "3.93333"
+    },
+    {
+        "country": "NL",
+        "name": "Malburgen West",
+        "lat": "51.96811",
+        "lng": "5.89743"
+    },
+    {
+        "country": "NL",
+        "name": "Malberg",
+        "lat": "50.86244",
+        "lng": "5.65419"
+    },
+    {
+        "country": "NL",
+        "name": "Makkum",
+        "lat": "53.09513",
+        "lng": "5.67946"
+    },
+    {
+        "country": "NL",
+        "name": "Makkum",
+        "lat": "53.05458",
+        "lng": "5.40231"
+    },
+    {
+        "country": "NL",
+        "name": "Magele",
+        "lat": "52.46917",
+        "lng": "6.52083"
+    },
+    {
+        "country": "NL",
+        "name": "Made",
+        "lat": "51.67667",
+        "lng": "4.79306"
+    },
+    {
+        "country": "NL",
+        "name": "Maastricht",
+        "lat": "50.84833",
+        "lng": "5.68889"
+    },
+    {
+        "country": "NL",
+        "name": "Maassluis",
+        "lat": "51.92333",
+        "lng": "4.25"
+    },
+    {
+        "country": "NL",
+        "name": "Maasland",
+        "lat": "51.93417",
+        "lng": "4.27222"
+    },
+    {
+        "country": "NL",
+        "name": "Maaskantje",
+        "lat": "51.65833",
+        "lng": "5.37083"
+    },
+    {
+        "country": "NL",
+        "name": "Maasdijk",
+        "lat": "51.95917",
+        "lng": "4.21389"
+    },
+    {
+        "country": "NL",
+        "name": "Maasbree",
+        "lat": "51.3575",
+        "lng": "6.04861"
+    },
+    {
+        "country": "NL",
+        "name": "Maasbracht",
+        "lat": "51.13929",
+        "lng": "5.88627"
+    },
+    {
+        "country": "NL",
+        "name": "Maartensdijk",
+        "lat": "52.155",
+        "lng": "5.175"
+    },
+    {
+        "country": "NL",
+        "name": "Maarssen",
+        "lat": "52.13917",
+        "lng": "5.04167"
+    },
+    {
+        "country": "NL",
+        "name": "Maarn",
+        "lat": "52.06417",
+        "lng": "5.37083"
+    },
+    {
+        "country": "NL",
+        "name": "Maarheeze",
+        "lat": "51.31167",
+        "lng": "5.61667"
+    },
+    {
+        "country": "NL",
+        "name": "Luyksgestel",
+        "lat": "51.28917",
+        "lng": "5.32361"
+    },
+    {
+        "country": "NL",
+        "name": "Lutjebroek",
+        "lat": "52.6975",
+        "lng": "5.20417"
+    },
+    {
+        "country": "NL",
+        "name": "Lunteren",
+        "lat": "52.085",
+        "lng": "5.62222"
+    },
+    {
+        "country": "NL",
+        "name": "Loven",
+        "lat": "51.5648",
+        "lng": "5.09748"
+    },
+    {
+        "country": "NL",
+        "name": "Lottum",
+        "lat": "51.46167",
+        "lng": "6.16111"
+    },
+    {
+        "country": "NL",
+        "name": "Losser",
+        "lat": "52.26083",
+        "lng": "7.00417"
+    },
+    {
+        "country": "NL",
+        "name": "Loppersum",
+        "lat": "53.33167",
+        "lng": "6.74722"
+    },
+    {
+        "country": "NL",
+        "name": "Lopik",
+        "lat": "51.9725",
+        "lng": "4.94861"
+    },
+    {
+        "country": "NL",
+        "name": "Loosbroek",
+        "lat": "51.67833",
+        "lng": "5.50694"
+    },
+    {
+        "country": "NL",
+        "name": "Loon op Zand",
+        "lat": "51.6275",
+        "lng": "5.075"
+    },
+    {
+        "country": "NL",
+        "name": "Lombardijen",
+        "lat": "51.8738",
+        "lng": "4.52192"
+    },
+    {
+        "country": "NL",
+        "name": "Loenen",
+        "lat": "52.1175",
+        "lng": "6.01944"
+    },
+    {
+        "country": "NL",
+        "name": "Lochem",
+        "lat": "52.15917",
+        "lng": "6.41111"
+    },
+    {
+        "country": "NL",
+        "name": "Lobith",
+        "lat": "51.8625",
+        "lng": "6.11806"
+    },
+    {
+        "country": "NL",
+        "name": "Lith",
+        "lat": "51.80583",
+        "lng": "5.43889"
+    },
+    {
+        "country": "NL",
+        "name": "Lisserbroek",
+        "lat": "52.25667",
+        "lng": "4.57222"
+    },
+    {
+        "country": "NL",
+        "name": "Lisse",
+        "lat": "52.26",
+        "lng": "4.55694"
+    },
+    {
+        "country": "NL",
+        "name": "Linschoten",
+        "lat": "52.0625",
+        "lng": "4.91528"
+    },
+    {
+        "country": "NL",
+        "name": "Linne",
+        "lat": "51.155",
+        "lng": "5.93889"
+    },
+    {
+        "country": "NL",
+        "name": "Lindenholt",
+        "lat": "51.8327",
+        "lng": "5.7934"
+    },
+    {
+        "country": "NL",
+        "name": "Lindenheuvel",
+        "lat": "50.98509",
+        "lng": "5.81667"
+    },
+    {
+        "country": "NL",
+        "name": "Limmel",
+        "lat": "50.86718",
+        "lng": "5.70719"
+    },
+    {
+        "country": "NL",
+        "name": "Limbricht",
+        "lat": "51.01167",
+        "lng": "5.8375"
+    },
+    {
+        "country": "NL",
+        "name": "Lievendaal",
+        "lat": "51.44219",
+        "lng": "5.43405"
+    },
+    {
+        "country": "NL",
+        "name": "Liesveld",
+        "lat": "51.9325",
+        "lng": "4.83194"
+    },
+    {
+        "country": "NL",
+        "name": "Liessel",
+        "lat": "51.41333",
+        "lng": "5.82083"
+    },
+    {
+        "country": "NL",
+        "name": "Lieshout",
+        "lat": "51.52036",
+        "lng": "5.59479"
+    },
+    {
+        "country": "NL",
+        "name": "Lierop",
+        "lat": "51.41917",
+        "lng": "5.67917"
+    },
+    {
+        "country": "NL",
+        "name": "Lienden",
+        "lat": "51.94833",
+        "lng": "5.51806"
+    },
+    {
+        "country": "NL",
+        "name": "Liempde",
+        "lat": "51.56917",
+        "lng": "5.37222"
+    },
+    {
+        "country": "NL",
+        "name": "Lichtenvoorde",
+        "lat": "51.98667",
+        "lng": "6.56667"
+    },
+    {
+        "country": "NL",
+        "name": "Lichtenberg",
+        "lat": "50.9022",
+        "lng": "6.02523"
+    },
+    {
+        "country": "NL",
+        "name": "Leuth",
+        "lat": "51.83917",
+        "lng": "5.99167"
+    },
+    {
+        "country": "NL",
+        "name": "Leusden",
+        "lat": "52.1325",
+        "lng": "5.43194"
+    },
+    {
+        "country": "NL",
+        "name": "Leunen",
+        "lat": "51.51",
+        "lng": "5.97917"
+    },
+    {
+        "country": "NL",
+        "name": "Leuken",
+        "lat": "51.25288",
+        "lng": "5.7346"
+    },
+    {
+        "country": "NL",
+        "name": "Lepelstraat",
+        "lat": "51.54833",
+        "lng": "4.27639"
+    },
+    {
+        "country": "NL",
+        "name": "Lent",
+        "lat": "51.86167",
+        "lng": "5.86667"
+    },
+    {
+        "country": "NL",
+        "name": "Lemmer",
+        "lat": "52.84618",
+        "lng": "5.70912"
+    },
+    {
+        "country": "NL",
+        "name": "Lelystad",
+        "lat": "52.50833",
+        "lng": "5.475"
+    },
+    {
+        "country": "NL",
+        "name": "Leimuiden",
+        "lat": "52.22417",
+        "lng": "4.66944"
+    },
+    {
+        "country": "NL",
+        "name": "Leiderdorp",
+        "lat": "52.15833",
+        "lng": "4.52917"
+    },
+    {
+        "country": "NL",
+        "name": "Leiden",
+        "lat": "52.15833",
+        "lng": "4.49306"
+    },
+    {
+        "country": "NL",
+        "name": "Leeuwen",
+        "lat": "51.21032",
+        "lng": "5.99862"
+    },
+    {
+        "country": "NL",
+        "name": "Leeuwarden",
+        "lat": "53.20139",
+        "lng": "5.80859"
+    },
+    {
+        "country": "NL",
+        "name": "Leesten",
+        "lat": "52.1279",
+        "lng": "6.23217"
+    },
+    {
+        "country": "NL",
+        "name": "Leest",
+        "lat": "51.60983",
+        "lng": "5.54312"
+    },
+    {
+        "country": "NL",
+        "name": "Leersum",
+        "lat": "52.01167",
+        "lng": "5.42778"
+    },
+    {
+        "country": "NL",
+        "name": "Leerdam",
+        "lat": "51.89333",
+        "lng": "5.09167"
+    },
+    {
+        "country": "NL",
+        "name": "Leens",
+        "lat": "53.36",
+        "lng": "6.37917"
+    },
+    {
+        "country": "NL",
+        "name": "Leende",
+        "lat": "51.35083",
+        "lng": "5.55417"
+    },
+    {
+        "country": "NL",
+        "name": "Leek",
+        "lat": "53.1625",
+        "lng": "6.37639"
+    },
+    {
+        "country": "NL",
+        "name": "Lauradorp",
+        "lat": "50.91229",
+        "lng": "6.04591"
+    },
+    {
+        "country": "NL",
+        "name": "Laren",
+        "lat": "52.25667",
+        "lng": "5.22778"
+    },
+    {
+        "country": "NL",
+        "name": "Laren",
+        "lat": "52.19417",
+        "lng": "6.36528"
+    },
+    {
+        "country": "NL",
+        "name": "Langweer",
+        "lat": "52.95836",
+        "lng": "5.72173"
+    },
+    {
+        "country": "NL",
+        "name": "Langenoord",
+        "lat": "52.18768",
+        "lng": "5.38034"
+    },
+    {
+        "country": "NL",
+        "name": "Langenboom",
+        "lat": "51.70417",
+        "lng": "5.73056"
+    },
+    {
+        "country": "NL",
+        "name": "Langeheit",
+        "lat": "52.492",
+        "lng": "4.75849"
+    },
+    {
+        "country": "NL",
+        "name": "Landsmeer",
+        "lat": "52.43083",
+        "lng": "4.91528"
+    },
+    {
+        "country": "NL",
+        "name": "Lammerenburg",
+        "lat": "51.46667",
+        "lng": "3.55833"
+    },
+    {
+        "country": "NL",
+        "name": "Lage Mierde",
+        "lat": "51.40583",
+        "lng": "5.14722"
+    },
+    {
+        "country": "NL",
+        "name": "Kwintsheul",
+        "lat": "52.01333",
+        "lng": "4.25556"
+    },
+    {
+        "country": "NL",
+        "name": "Kunrade",
+        "lat": "50.87769",
+        "lng": "5.93107"
+    },
+    {
+        "country": "NL",
+        "name": "Kudelstaart",
+        "lat": "52.23417",
+        "lng": "4.75139"
+    },
+    {
+        "country": "NL",
+        "name": "Kruisland",
+        "lat": "51.56917",
+        "lng": "4.40972"
+    },
+    {
+        "country": "NL",
+        "name": "Kruisberg",
+        "lat": "50.94234",
+        "lng": "5.96519"
+    },
+    {
+        "country": "NL",
+        "name": "Krooswijk",
+        "lat": "51.64665",
+        "lng": "4.59203"
+    },
+    {
+        "country": "NL",
+        "name": "Krimpen aan den IJssel",
+        "lat": "51.91667",
+        "lng": "4.60278"
+    },
+    {
+        "country": "NL",
+        "name": "Krakeel",
+        "lat": "52.72339",
+        "lng": "6.51146"
+    },
+    {
+        "country": "NL",
+        "name": "Koudum",
+        "lat": "52.91551",
+        "lng": "5.44834"
+    },
+    {
+        "country": "NL",
+        "name": "Koudekerke",
+        "lat": "51.48167",
+        "lng": "3.55417"
+    },
+    {
+        "country": "NL",
+        "name": "Korvel",
+        "lat": "51.54954",
+        "lng": "5.07079"
+    },
+    {
+        "country": "NL",
+        "name": "Kortenhoef",
+        "lat": "52.23917",
+        "lng": "5.10694"
+    },
+    {
+        "country": "NL",
+        "name": "Korrewegwijk",
+        "lat": "53.23235",
+        "lng": "6.56804"
+    },
+    {
+        "country": "NL",
+        "name": "Kootwijkerbroek",
+        "lat": "52.15083",
+        "lng": "5.66944"
+    },
+    {
+        "country": "NL",
+        "name": "Kootstertille",
+        "lat": "53.21261",
+        "lng": "6.09209"
+    },
+    {
+        "country": "NL",
+        "name": "Koningslust",
+        "lat": "51.3575",
+        "lng": "5.99306"
+    },
+    {
+        "country": "NL",
+        "name": "Koningsbosch",
+        "lat": "51.05167",
+        "lng": "5.95833"
+    },
+    {
+        "country": "NL",
+        "name": "Kollumerzwaag",
+        "lat": "53.26224",
+        "lng": "6.07544"
+    },
+    {
+        "country": "NL",
+        "name": "Kollum",
+        "lat": "53.27695",
+        "lng": "6.15293"
+    },
+    {
+        "country": "NL",
+        "name": "Koewacht",
+        "lat": "51.22833",
+        "lng": "3.97361"
+    },
+    {
+        "country": "NL",
+        "name": "Koekange",
+        "lat": "52.69917",
+        "lng": "6.31667"
+    },
+    {
+        "country": "NL",
+        "name": "Klundert",
+        "lat": "51.665",
+        "lng": "4.53472"
+    },
+    {
+        "country": "NL",
+        "name": "Kloetinge",
+        "lat": "51.49833",
+        "lng": "3.91528"
+    },
+    {
+        "country": "NL",
+        "name": "Klimmen",
+        "lat": "50.87583",
+        "lng": "5.88056"
+    },
+    {
+        "country": "NL",
+        "name": "Klein-Zundert",
+        "lat": "51.48083",
+        "lng": "4.65417"
+    },
+    {
+        "country": "NL",
+        "name": "Klein Driene",
+        "lat": "52.26935",
+        "lng": "6.81613"
+    },
+    {
+        "country": "NL",
+        "name": "Klazienaveen",
+        "lat": "52.72417",
+        "lng": "6.99028"
+    },
+    {
+        "country": "NL",
+        "name": "Klarenbeek",
+        "lat": "51.50964",
+        "lng": "3.61132"
+    },
+    {
+        "country": "NL",
+        "name": "Klaaswaal",
+        "lat": "51.77",
+        "lng": "4.44583"
+    },
+    {
+        "country": "NL",
+        "name": "Kijkduin",
+        "lat": "52.06765",
+        "lng": "4.22188"
+    },
+    {
+        "country": "NL",
+        "name": "Kesteren",
+        "lat": "51.935",
+        "lng": "5.56944"
+    },
+    {
+        "country": "NL",
+        "name": "Kessel",
+        "lat": "51.29167",
+        "lng": "6.05417"
+    },
+    {
+        "country": "NL",
+        "name": "Kerschoten",
+        "lat": "52.23333",
+        "lng": "5.96667"
+    },
+    {
+        "country": "NL",
+        "name": "Kerkrade",
+        "lat": "50.86583",
+        "lng": "6.0625"
+    },
+    {
+        "country": "NL",
+        "name": "Kerkelanden",
+        "lat": "52.21755",
+        "lng": "5.13575"
+    },
+    {
+        "country": "NL",
+        "name": "Kerkehout",
+        "lat": "52.11018",
+        "lng": "4.37957"
+    },
+    {
+        "country": "NL",
+        "name": "Kerkdriel",
+        "lat": "51.77167",
+        "lng": "5.33472"
+    },
+    {
+        "country": "NL",
+        "name": "Marken",
+        "lat": "52.45833",
+        "lng": "5.10278"
+    },
+    {
+        "country": "NL",
+        "name": "Kerensheide",
+        "lat": "50.9721",
+        "lng": "5.77666"
+    },
+    {
+        "country": "NL",
+        "name": "Kerckebosch",
+        "lat": "52.07844",
+        "lng": "5.26584"
+    },
+    {
+        "country": "NL",
+        "name": "Keijenborg",
+        "lat": "52.02917",
+        "lng": "6.29444"
+    },
+    {
+        "country": "NL",
+        "name": "Keent",
+        "lat": "51.24218",
+        "lng": "5.70079"
+    },
+    {
+        "country": "NL",
+        "name": "Kedichem",
+        "lat": "51.86",
+        "lng": "5.05"
+    },
+    {
+        "country": "NL",
+        "name": "Katwijk aan Zee",
+        "lat": "52.20333",
+        "lng": "4.39861"
+    },
+    {
+        "country": "NL",
+        "name": "Katwijk aan den Rijn",
+        "lat": "52.19417",
+        "lng": "4.42222"
+    },
+    {
+        "country": "NL",
+        "name": "Katendrecht",
+        "lat": "51.90074",
+        "lng": "4.48254"
+    },
+    {
+        "country": "NL",
+        "name": "Kamperland",
+        "lat": "51.57167",
+        "lng": "3.70417"
+    },
+    {
+        "country": "NL",
+        "name": "Kampen",
+        "lat": "52.555",
+        "lng": "5.91111"
+    },
+    {
+        "country": "NL",
+        "name": "Kalsdonk",
+        "lat": "51.53973",
+        "lng": "4.47111"
+    },
+    {
+        "country": "NL",
+        "name": "Kakert",
+        "lat": "50.90414",
+        "lng": "6.00463"
+    },
+    {
+        "country": "NL",
+        "name": "Kadoelen",
+        "lat": "52.4175",
+        "lng": "4.90561"
+    },
+    {
+        "country": "NL",
+        "name": "Kaalheide",
+        "lat": "50.86505",
+        "lng": "6.03643"
+    },
+    {
+        "country": "NL",
+        "name": "Joure",
+        "lat": "52.9657",
+        "lng": "5.80301"
+    },
+    {
+        "country": "NL",
+        "name": "Jagershoef",
+        "lat": "51.4733",
+        "lng": "5.4672"
+    },
+    {
+        "country": "NL",
+        "name": "Jirnsum",
+        "lat": "53.07753",
+        "lng": "5.79254"
+    },
+    {
+        "country": "NL",
+        "name": "Ingen",
+        "lat": "51.95917",
+        "lng": "5.48472"
+    },
+    {
+        "country": "NL",
+        "name": "Ilpendam",
+        "lat": "52.46333",
+        "lng": "4.95"
+    },
+    {
+        "country": "NL",
+        "name": "IJzendijke",
+        "lat": "51.32167",
+        "lng": "3.61667"
+    },
+    {
+        "country": "NL",
+        "name": "Ysselsteyn",
+        "lat": "51.49",
+        "lng": "5.89722"
+    },
+    {
+        "country": "NL",
+        "name": "IJsselstein",
+        "lat": "52.02",
+        "lng": "5.04306"
+    },
+    {
+        "country": "NL",
+        "name": "IJlst",
+        "lat": "53.01009",
+        "lng": "5.62312"
+    },
+    {
+        "country": "NL",
+        "name": "Husken",
+        "lat": "50.89567",
+        "lng": "5.95648"
+    },
+    {
+        "country": "NL",
+        "name": "Hummelo",
+        "lat": "52.00417",
+        "lng": "6.23333"
+    },
+    {
+        "country": "NL",
+        "name": "Hulst",
+        "lat": "51.28",
+        "lng": "4.05278"
+    },
+    {
+        "country": "NL",
+        "name": "Hulsberg",
+        "lat": "50.88917",
+        "lng": "5.85556"
+    },
+    {
+        "country": "NL",
+        "name": "Huizen",
+        "lat": "52.29917",
+        "lng": "5.24167"
+    },
+    {
+        "country": "NL",
+        "name": "Huizum",
+        "lat": "53.1917",
+        "lng": "5.81119"
+    },
+    {
+        "country": "NL",
+        "name": "Huijbergen",
+        "lat": "51.4325",
+        "lng": "4.37639"
+    },
+    {
+        "country": "NL",
+        "name": "Houthem",
+        "lat": "50.8725",
+        "lng": "5.79306"
+    },
+    {
+        "country": "NL",
+        "name": "Houten",
+        "lat": "52.02833",
+        "lng": "5.16806"
+    },
+    {
+        "country": "NL",
+        "name": "Horssen",
+        "lat": "51.85583",
+        "lng": "5.60972"
+    },
+    {
+        "country": "NL",
+        "name": "Hopel",
+        "lat": "50.89245",
+        "lng": "6.05046"
+    },
+    {
+        "country": "NL",
+        "name": "Hoorn",
+        "lat": "52.6425",
+        "lng": "5.05972"
+    },
+    {
+        "country": "NL",
+        "name": "Hoogwoud",
+        "lat": "52.71583",
+        "lng": "4.93889"
+    },
+    {
+        "country": "NL",
+        "name": "Hoogmade",
+        "lat": "52.16917",
+        "lng": "4.58194"
+    },
+    {
+        "country": "NL",
+        "name": "Hoogland",
+        "lat": "52.1825",
+        "lng": "5.37361"
+    },
+    {
+        "country": "NL",
+        "name": "Hooge Zwaluwe",
+        "lat": "51.6875",
+        "lng": "4.74444"
+    },
+    {
+        "country": "NL",
+        "name": "Hoogezand",
+        "lat": "53.16167",
+        "lng": "6.76111"
+    },
+    {
+        "country": "NL",
+        "name": "Hoogeveen",
+        "lat": "52.7225",
+        "lng": "6.47639"
+    },
+    {
+        "country": "NL",
+        "name": "Hoogerheide",
+        "lat": "51.42417",
+        "lng": "4.325"
+    },
+    {
+        "country": "NL",
+        "name": "Hooge Mierde",
+        "lat": "51.3875",
+        "lng": "5.12917"
+    },
+    {
+        "country": "NL",
+        "name": "Hoogeloon",
+        "lat": "51.3975",
+        "lng": "5.26806"
+    },
+    {
+        "country": "NL",
+        "name": "Hoogblokland",
+        "lat": "51.875",
+        "lng": "4.97639"
+    },
+    {
+        "country": "NL",
+        "name": "Hoofddorp",
+        "lat": "52.3025",
+        "lng": "4.68889"
+    },
+    {
+        "country": "NL",
+        "name": "Honselersdijk",
+        "lat": "52.00665",
+        "lng": "4.22441"
+    },
+    {
+        "country": "NL",
+        "name": "Holz",
+        "lat": "50.86415",
+        "lng": "6.07424"
+    },
+    {
+        "country": "NL",
+        "name": "Holwerd",
+        "lat": "53.36815",
+        "lng": "5.90073"
+    },
+    {
+        "country": "NL",
+        "name": "Holtum",
+        "lat": "51.0475",
+        "lng": "5.82222"
+    },
+    {
+        "country": "NL",
+        "name": "Hollum",
+        "lat": "53.4394",
+        "lng": "5.63805"
+    },
+    {
+        "country": "NL",
+        "name": "Hollandsche Rading",
+        "lat": "52.175",
+        "lng": "5.17778"
+    },
+    {
+        "country": "NL",
+        "name": "Hoge Mors",
+        "lat": "52.15616",
+        "lng": "4.46025"
+    },
+    {
+        "country": "NL",
+        "name": "Hoge Vucht",
+        "lat": "51.60794",
+        "lng": "4.7915"
+    },
+    {
+        "country": "NL",
+        "name": "Hofgeest",
+        "lat": "52.44333",
+        "lng": "4.65833"
+    },
+    {
+        "country": "NL",
+        "name": "Hoeven",
+        "lat": "51.67206",
+        "lng": "5.63444"
+    },
+    {
+        "country": "NL",
+        "name": "Hoeven",
+        "lat": "51.57917",
+        "lng": "4.58333"
+    },
+    {
+        "country": "NL",
+        "name": "Hoensbroek",
+        "lat": "50.92387",
+        "lng": "5.92528"
+    },
+    {
+        "country": "NL",
+        "name": "Hoek van Holland",
+        "lat": "51.9775",
+        "lng": "4.13333"
+    },
+    {
+        "country": "NL",
+        "name": "Hippolytushoef",
+        "lat": "52.9075",
+        "lng": "4.9625"
+    },
+    {
+        "country": "NL",
+        "name": "Hilversumse Meent",
+        "lat": "52.27115",
+        "lng": "5.13729"
+    },
+    {
+        "country": "NL",
+        "name": "Hilversum",
+        "lat": "52.22333",
+        "lng": "5.17639"
+    },
+    {
+        "country": "NL",
+        "name": "Hilvarenbeek",
+        "lat": "51.48583",
+        "lng": "5.1375"
+    },
+    {
+        "country": "NL",
+        "name": "Hillegom",
+        "lat": "52.29083",
+        "lng": "4.58333"
+    },
+    {
+        "country": "NL",
+        "name": "Heythuysen",
+        "lat": "51.25",
+        "lng": "5.89861"
+    },
+    {
+        "country": "NL",
+        "name": "Heusdenhout",
+        "lat": "51.58811",
+        "lng": "4.8193"
+    },
+    {
+        "country": "NL",
+        "name": "Heusden",
+        "lat": "51.73417",
+        "lng": "5.13889"
+    },
+    {
+        "country": "NL",
+        "name": "Heusden",
+        "lat": "51.38417",
+        "lng": "5.76389"
+    },
+    {
+        "country": "NL",
+        "name": "Heumen",
+        "lat": "51.765",
+        "lng": "5.84444"
+    },
+    {
+        "country": "NL",
+        "name": "Heugem",
+        "lat": "50.82791",
+        "lng": "5.70774"
+    },
+    {
+        "country": "NL",
+        "name": "Het Oostrik",
+        "lat": "52.25",
+        "lng": "6.21667"
+    },
+    {
+        "country": "NL",
+        "name": "Het Loo",
+        "lat": "52.2339",
+        "lng": "5.95275"
+    },
+    {
+        "country": "NL",
+        "name": "Heteren",
+        "lat": "51.95667",
+        "lng": "5.75556"
+    },
+    {
+        "country": "NL",
+        "name": "Herwijnen",
+        "lat": "51.82667",
+        "lng": "5.12917"
+    },
+    {
+        "country": "NL",
+        "name": "Herten",
+        "lat": "51.18083",
+        "lng": "5.9625"
+    },
+    {
+        "country": "NL",
+        "name": "Herpen",
+        "lat": "51.77167",
+        "lng": "5.64167"
+    },
+    {
+        "country": "NL",
+        "name": "Herkenbosch",
+        "lat": "51.15333",
+        "lng": "6.06389"
+    },
+    {
+        "country": "NL",
+        "name": "Hensbroek",
+        "lat": "52.65833",
+        "lng": "4.88472"
+    },
+    {
+        "country": "NL",
+        "name": "Hengstdal",
+        "lat": "51.83333",
+        "lng": "5.88333"
+    },
+    {
+        "country": "NL",
+        "name": "Hengevelde",
+        "lat": "52.19917",
+        "lng": "6.63611"
+    },
+    {
+        "country": "NL",
+        "name": "Hengelo",
+        "lat": "52.26583",
+        "lng": "6.79306"
+    },
+    {
+        "country": "NL",
+        "name": "Hengelo",
+        "lat": "52.05083",
+        "lng": "6.30972"
+    },
+    {
+        "country": "NL",
+        "name": "Hendrik-Ido-Ambacht",
+        "lat": "51.84417",
+        "lng": "4.63889"
+    },
+    {
+        "country": "NL",
+        "name": "Hem",
+        "lat": "52.66083",
+        "lng": "5.18333"
+    },
+    {
+        "country": "NL",
+        "name": "Helvoirt",
+        "lat": "51.63167",
+        "lng": "5.23056"
+    },
+    {
+        "country": "NL",
+        "name": "Helpman",
+        "lat": "53.19794",
+        "lng": "6.57978"
+    },
+    {
+        "country": "NL",
+        "name": "Helmond",
+        "lat": "51.48167",
+        "lng": "5.66111"
+    },
+    {
+        "country": "NL",
+        "name": "Hellevoetsluis",
+        "lat": "51.83333",
+        "lng": "4.13333"
+    },
+    {
+        "country": "NL",
+        "name": "Helden",
+        "lat": "51.31917",
+        "lng": "6"
+    },
+    {
+        "country": "NL",
+        "name": "Heksenberg",
+        "lat": "50.92068",
+        "lng": "5.97373"
+    },
+    {
+        "country": "NL",
+        "name": "Heino",
+        "lat": "52.43661",
+        "lng": "6.23282"
+    },
+    {
+        "country": "NL",
+        "name": "Heiloo",
+        "lat": "52.60252",
+        "lng": "4.68815"
+    },
+    {
+        "country": "NL",
+        "name": "Heiligerlee",
+        "lat": "53.15667",
+        "lng": "7.00972"
+    },
+    {
+        "country": "NL",
+        "name": "Heijplaat",
+        "lat": "51.89333",
+        "lng": "4.42083"
+    },
+    {
+        "country": "NL",
+        "name": "Heijen",
+        "lat": "51.675",
+        "lng": "5.98056"
+    },
+    {
+        "country": "NL",
+        "name": "Heide",
+        "lat": "51.06833",
+        "lng": "5.87222"
+    },
+    {
+        "country": "NL",
+        "name": "Hegelsom",
+        "lat": "51.43917",
+        "lng": "6.03889"
+    },
+    {
+        "country": "NL",
+        "name": "Heeze",
+        "lat": "51.3828",
+        "lng": "5.57145"
+    },
+    {
+        "country": "NL",
+        "name": "Heeswijk-Dinther",
+        "lat": "51.65083",
+        "lng": "5.475"
+    },
+    {
+        "country": "NL",
+        "name": "Heesterakker",
+        "lat": "51.4861",
+        "lng": "5.49681"
+    },
+    {
+        "country": "NL",
+        "name": "Heesch",
+        "lat": "51.73362",
+        "lng": "5.52672"
+    },
+    {
+        "country": "NL",
+        "name": "Hees",
+        "lat": "51.84136",
+        "lng": "5.82846"
+    },
+    {
+        "country": "NL",
+        "name": "Heerlen",
+        "lat": "50.88365",
+        "lng": "5.98154"
+    },
+    {
+        "country": "NL",
+        "name": "Heerle",
+        "lat": "51.51917",
+        "lng": "4.35972"
+    },
+    {
+        "country": "NL",
+        "name": "Heerjansdam",
+        "lat": "51.83583",
+        "lng": "4.56389"
+    },
+    {
+        "country": "NL",
+        "name": "Heerhugowaard",
+        "lat": "52.67144",
+        "lng": "4.84862"
+    },
+    {
+        "country": "NL",
+        "name": "Heerewaarden",
+        "lat": "51.81769",
+        "lng": "5.393"
+    },
+    {
+        "country": "NL",
+        "name": "Heerenveen",
+        "lat": "52.95929",
+        "lng": "5.91854"
+    },
+    {
+        "country": "NL",
+        "name": "Heerde",
+        "lat": "52.38723",
+        "lng": "6.04016"
+    },
+    {
+        "country": "NL",
+        "name": "Heer",
+        "lat": "50.83836",
+        "lng": "5.72989"
+    },
+    {
+        "country": "NL",
+        "name": "Heemstede",
+        "lat": "52.34992",
+        "lng": "4.62301"
+    },
+    {
+        "country": "NL",
+        "name": "Heemskerk",
+        "lat": "52.51108",
+        "lng": "4.67165"
+    },
+    {
+        "country": "NL",
+        "name": "Heelsum",
+        "lat": "51.98417",
+        "lng": "5.75833"
+    },
+    {
+        "country": "NL",
+        "name": "Heel",
+        "lat": "51.17917",
+        "lng": "5.89444"
+    },
+    {
+        "country": "NL",
+        "name": "Heeg",
+        "lat": "52.9686",
+        "lng": "5.61075"
+    },
+    {
+        "country": "NL",
+        "name": "Heechterp",
+        "lat": "53.20963",
+        "lng": "5.8225"
+    },
+    {
+        "country": "NL",
+        "name": "Hedel",
+        "lat": "51.74802",
+        "lng": "5.26134"
+    },
+    {
+        "country": "NL",
+        "name": "Havelte",
+        "lat": "52.76941",
+        "lng": "6.24015"
+    },
+    {
+        "country": "NL",
+        "name": "Haulerwijk",
+        "lat": "53.06468",
+        "lng": "6.33453"
+    },
+    {
+        "country": "NL",
+        "name": "Hattemerbroek",
+        "lat": "52.47417",
+        "lng": "6.02222"
+    },
+    {
+        "country": "NL",
+        "name": "Hattem",
+        "lat": "52.475",
+        "lng": "6.06389"
+    },
+    {
+        "country": "NL",
+        "name": "Hatert",
+        "lat": "51.80635",
+        "lng": "5.83057"
+    },
+    {
+        "country": "NL",
+        "name": "Hasselt",
+        "lat": "52.59267",
+        "lng": "6.09527"
+    },
+    {
+        "country": "NL",
+        "name": "Harskamp",
+        "lat": "52.13",
+        "lng": "5.75278"
+    },
+    {
+        "country": "NL",
+        "name": "Harlingen",
+        "lat": "53.17477",
+        "lng": "5.42244"
+    },
+    {
+        "country": "NL",
+        "name": "Harkstede",
+        "lat": "53.21333",
+        "lng": "6.69861"
+    },
+    {
+        "country": "NL",
+        "name": "Harkema",
+        "lat": "53.18333",
+        "lng": "6.13333"
+    },
+    {
+        "country": "NL",
+        "name": "Harenkarspel",
+        "lat": "52.73416",
+        "lng": "4.77682"
+    },
+    {
+        "country": "NL",
+        "name": "Haren",
+        "lat": "53.17209",
+        "lng": "6.60931"
+    },
+    {
+        "country": "NL",
+        "name": "Harderwijk",
+        "lat": "52.34167",
+        "lng": "5.62083"
+    },
+    {
+        "country": "NL",
+        "name": "Hardenberg",
+        "lat": "52.57583",
+        "lng": "6.61944"
+    },
+    {
+        "country": "NL",
+        "name": "Hurdegaryp",
+        "lat": "53.21333",
+        "lng": "5.94137"
+    },
+    {
+        "country": "NL",
+        "name": "Haps",
+        "lat": "51.68917",
+        "lng": "5.86111"
+    },
+    {
+        "country": "NL",
+        "name": "Hapert",
+        "lat": "51.36833",
+        "lng": "5.25694"
+    },
+    {
+        "country": "NL",
+        "name": "Handel",
+        "lat": "51.58",
+        "lng": "5.70972"
+    },
+    {
+        "country": "NL",
+        "name": "Halsteren",
+        "lat": "51.52834",
+        "lng": "4.26785"
+    },
+    {
+        "country": "NL",
+        "name": "Hallum",
+        "lat": "53.30657",
+        "lng": "5.78379"
+    },
+    {
+        "country": "NL",
+        "name": "Halfweg",
+        "lat": "52.52417",
+        "lng": "4.92778"
+    },
+    {
+        "country": "NL",
+        "name": "Halfweg",
+        "lat": "52.3825",
+        "lng": "4.75417"
+    },
+    {
+        "country": "NL",
+        "name": "Haelen",
+        "lat": "51.23583",
+        "lng": "5.95694"
+    },
+    {
+        "country": "NL",
+        "name": "Haastrecht",
+        "lat": "52.00074",
+        "lng": "4.77639"
+    },
+    {
+        "country": "NL",
+        "name": "Haarsteeg",
+        "lat": "51.71167",
+        "lng": "5.19861"
+    },
+    {
+        "country": "NL",
+        "name": "Haarlem",
+        "lat": "52.38084",
+        "lng": "4.63683"
+    },
+    {
+        "country": "NL",
+        "name": "Haarle",
+        "lat": "52.35917",
+        "lng": "6.38056"
+    },
+    {
+        "country": "NL",
+        "name": "Haaren",
+        "lat": "51.6025",
+        "lng": "5.22222"
+    },
+    {
+        "country": "NL",
+        "name": "Haanrade",
+        "lat": "50.87981",
+        "lng": "6.07411"
+    },
+    {
+        "country": "NL",
+        "name": "Haamstede",
+        "lat": "51.69682",
+        "lng": "3.74299"
+    },
+    {
+        "country": "NL",
+        "name": "Haalderen",
+        "lat": "51.8875",
+        "lng": "5.92917"
+    },
+    {
+        "country": "NL",
+        "name": "Haaksbergen",
+        "lat": "52.15667",
+        "lng": "6.73889"
+    },
+    {
+        "country": "NL",
+        "name": "Haaften",
+        "lat": "51.81583",
+        "lng": "5.21111"
+    },
+    {
+        "country": "NL",
+        "name": "Guttecoven",
+        "lat": "51.015",
+        "lng": "5.81806"
+    },
+    {
+        "country": "NL",
+        "name": "Gulpen",
+        "lat": "50.81583",
+        "lng": "5.88889"
+    },
+    {
+        "country": "NL",
+        "name": "Grou",
+        "lat": "53.09456",
+        "lng": "5.83745"
+    },
+    {
+        "country": "NL",
+        "name": "Groot IJsselmonde",
+        "lat": "51.88264",
+        "lng": "4.54937"
+    },
+    {
+        "country": "NL",
+        "name": "Grootegast",
+        "lat": "53.2125",
+        "lng": "6.27361"
+    },
+    {
+        "country": "NL",
+        "name": "Groot-Ammers",
+        "lat": "51.92333",
+        "lng": "4.82361"
+    },
+    {
+        "country": "NL",
+        "name": "Gronsveld",
+        "lat": "50.81083",
+        "lng": "5.73056"
+    },
+    {
+        "country": "NL",
+        "name": "Groningen",
+        "lat": "53.21917",
+        "lng": "6.56667"
+    },
+    {
+        "country": "NL",
+        "name": "Groessen",
+        "lat": "51.93167",
+        "lng": "6.02639"
+    },
+    {
+        "country": "NL",
+        "name": "Groesbeek",
+        "lat": "51.77667",
+        "lng": "5.93611"
+    },
+    {
+        "country": "NL",
+        "name": "Groenewoud",
+        "lat": "51.5386",
+        "lng": "5.09028"
+    },
+    {
+        "country": "NL",
+        "name": "Groenekan",
+        "lat": "52.12333",
+        "lng": "5.15278"
+    },
+    {
+        "country": "NL",
+        "name": "Grijpskerke",
+        "lat": "51.53417",
+        "lng": "3.56111"
+    },
+    {
+        "country": "NL",
+        "name": "Grijpskerk",
+        "lat": "53.2625",
+        "lng": "6.30833"
+    },
+    {
+        "country": "NL",
+        "name": "Griffioen",
+        "lat": "51.50548",
+        "lng": "3.59598"
+    },
+    {
+        "country": "NL",
+        "name": "Grevenbicht",
+        "lat": "51.03833",
+        "lng": "5.775"
+    },
+    {
+        "country": "NL",
+        "name": "Grave",
+        "lat": "51.75902",
+        "lng": "5.73882"
+    },
+    {
+        "country": "NL",
+        "name": "Grashoek",
+        "lat": "51.36083",
+        "lng": "5.94306"
+    },
+    {
+        "country": "NL",
+        "name": "Grafhorst",
+        "lat": "52.5825",
+        "lng": "5.93333"
+    },
+    {
+        "country": "NL",
+        "name": "Gracht",
+        "lat": "50.85175",
+        "lng": "6.02793"
+    },
+    {
+        "country": "NL",
+        "name": "Gouwsluis",
+        "lat": "52.11943",
+        "lng": "4.66899"
+    },
+    {
+        "country": "NL",
+        "name": "Goutum",
+        "lat": "53.17734",
+        "lng": "5.8037"
+    },
+    {
+        "country": "NL",
+        "name": "Goudswaard",
+        "lat": "51.79417",
+        "lng": "4.27639"
+    },
+    {
+        "country": "NL",
+        "name": "Gouderak",
+        "lat": "51.98417",
+        "lng": "4.67778"
+    },
+    {
+        "country": "NL",
+        "name": "Gouda",
+        "lat": "52.01667",
+        "lng": "4.70833"
+    },
+    {
+        "country": "NL",
+        "name": "Gorssel",
+        "lat": "52.20167",
+        "lng": "6.20139"
+    },
+    {
+        "country": "NL",
+        "name": "Gorredijk",
+        "lat": "53.00659",
+        "lng": "6.06402"
+    },
+    {
+        "country": "NL",
+        "name": "Gorinchem",
+        "lat": "51.83652",
+        "lng": "4.97243"
+    },
+    {
+        "country": "NL",
+        "name": "Goor",
+        "lat": "52.23333",
+        "lng": "6.58611"
+    },
+    {
+        "country": "NL",
+        "name": "Goirle",
+        "lat": "51.52083",
+        "lng": "5.06667"
+    },
+    {
+        "country": "NL",
+        "name": "Goes",
+        "lat": "51.50417",
+        "lng": "3.88889"
+    },
+    {
+        "country": "NL",
+        "name": "Goedereede",
+        "lat": "51.8175",
+        "lng": "3.98056"
+    },
+    {
+        "country": "NL",
+        "name": "Glimmen",
+        "lat": "53.13917",
+        "lng": "6.62917"
+    },
+    {
+        "country": "NL",
+        "name": "Ginneken",
+        "lat": "51.56593",
+        "lng": "4.7931"
+    },
+    {
+        "country": "NL",
+        "name": "Gilze",
+        "lat": "51.54417",
+        "lng": "4.94028"
+    },
+    {
+        "country": "NL",
+        "name": "Giethoorn",
+        "lat": "52.74",
+        "lng": "6.07917"
+    },
+    {
+        "country": "NL",
+        "name": "Gieten",
+        "lat": "53.005",
+        "lng": "6.76389"
+    },
+    {
+        "country": "NL",
+        "name": "Giessendam",
+        "lat": "51.83257",
+        "lng": "4.83583"
+    },
+    {
+        "country": "NL",
+        "name": "Giessenburg",
+        "lat": "51.85083",
+        "lng": "4.89028"
+    },
+    {
+        "country": "NL",
+        "name": "Giessen",
+        "lat": "51.79",
+        "lng": "5.03056"
+    },
+    {
+        "country": "NL",
+        "name": "Giesbeek",
+        "lat": "51.99333",
+        "lng": "6.06667"
+    },
+    {
+        "country": "NL",
+        "name": "Gytsjerk",
+        "lat": "53.24293",
+        "lng": "5.89502"
+    },
+    {
+        "country": "NL",
+        "name": "Gerwen",
+        "lat": "51.49",
+        "lng": "5.5625"
+    },
+    {
+        "country": "NL",
+        "name": "Genoenhuis",
+        "lat": "51.40917",
+        "lng": "5.53889"
+    },
+    {
+        "country": "NL",
+        "name": "Gennep",
+        "lat": "51.69833",
+        "lng": "5.97361"
+    },
+    {
+        "country": "NL",
+        "name": "Gendt",
+        "lat": "51.8775",
+        "lng": "5.97083"
+    },
+    {
+        "country": "NL",
+        "name": "Gendringen",
+        "lat": "51.87333",
+        "lng": "6.37639"
+    },
+    {
+        "country": "NL",
+        "name": "Genderen",
+        "lat": "51.73583",
+        "lng": "5.0875"
+    },
+    {
+        "country": "NL",
+        "name": "Gemonde",
+        "lat": "51.61833",
+        "lng": "5.35694"
+    },
+    {
+        "country": "NL",
+        "name": "Geleen",
+        "lat": "50.97417",
+        "lng": "5.82917"
+    },
+    {
+        "country": "NL",
+        "name": "Geldrop",
+        "lat": "51.42167",
+        "lng": "5.55972"
+    },
+    {
+        "country": "NL",
+        "name": "Geldermalsen-West",
+        "lat": "51.87968",
+        "lng": "5.28015"
+    },
+    {
+        "country": "NL",
+        "name": "Geldermalsen",
+        "lat": "51.88083",
+        "lng": "5.28889"
+    },
+    {
+        "country": "NL",
+        "name": "Geitenkamp",
+        "lat": "52.00379",
+        "lng": "5.93862"
+    },
+    {
+        "country": "NL",
+        "name": "Geffen",
+        "lat": "51.74",
+        "lng": "5.46389"
+    },
+    {
+        "country": "NL",
+        "name": "Geertruidenberg",
+        "lat": "51.70167",
+        "lng": "4.85694"
+    },
+    {
+        "country": "NL",
+        "name": "Geenhoven",
+        "lat": "51.35935",
+        "lng": "5.46021"
+    },
+    {
+        "country": "NL",
+        "name": "Gasselternijveen",
+        "lat": "52.98833",
+        "lng": "6.85278"
+    },
+    {
+        "country": "NL",
+        "name": "Gasselte",
+        "lat": "52.97167",
+        "lng": "6.79444"
+    },
+    {
+        "country": "NL",
+        "name": "Garyp",
+        "lat": "53.16667",
+        "lng": "5.96667"
+    },
+    {
+        "country": "NL",
+        "name": "Garderen",
+        "lat": "52.23083",
+        "lng": "5.71389"
+    },
+    {
+        "country": "NL",
+        "name": "Gameren",
+        "lat": "51.80083",
+        "lng": "5.20417"
+    },
+    {
+        "country": "NL",
+        "name": "Gageldonk",
+        "lat": "51.60167",
+        "lng": "4.73889"
+    },
+    {
+        "country": "NL",
+        "name": "Frankhuis",
+        "lat": "52.525",
+        "lng": "6.06806"
+    },
+    {
+        "country": "NL",
+        "name": "Franeker",
+        "lat": "53.18546",
+        "lng": "5.54123"
+    },
+    {
+        "country": "NL",
+        "name": "Flevowijk",
+        "lat": "52.54583",
+        "lng": "5.91338"
+    },
+    {
+        "country": "NL",
+        "name": "Fijnaart",
+        "lat": "51.6375",
+        "lng": "4.46944"
+    },
+    {
+        "country": "NL",
+        "name": "Ferwert",
+        "lat": "53.33784",
+        "lng": "5.82533"
+    },
+    {
+        "country": "NL",
+        "name": "Feijenoord",
+        "lat": "51.91169",
+        "lng": "4.50645"
+    },
+    {
+        "country": "NL",
+        "name": "Farmsum",
+        "lat": "53.32167",
+        "lng": "6.92639"
+    },
+    {
+        "country": "NL",
+        "name": "Exloo",
+        "lat": "52.8825",
+        "lng": "6.86389"
+    },
+    {
+        "country": "NL",
+        "name": "Etten",
+        "lat": "51.91667",
+        "lng": "6.33611"
+    },
+    {
+        "country": "NL",
+        "name": "Essesteijn",
+        "lat": "52.08534",
+        "lng": "4.37263"
+    },
+    {
+        "country": "NL",
+        "name": "Esch",
+        "lat": "51.61083",
+        "lng": "5.29028"
+    },
+    {
+        "country": "NL",
+        "name": "Erp",
+        "lat": "51.6",
+        "lng": "5.60694"
+    },
+    {
+        "country": "NL",
+        "name": "Ermelo",
+        "lat": "52.29833",
+        "lng": "5.62222"
+    },
+    {
+        "country": "NL",
+        "name": "Epse",
+        "lat": "52.225",
+        "lng": "6.2"
+    },
+    {
+        "country": "NL",
+        "name": "Epe",
+        "lat": "52.3475",
+        "lng": "5.98333"
+    },
+    {
+        "country": "NL",
+        "name": "Enschot",
+        "lat": "51.57846",
+        "lng": "5.13885"
+    },
+    {
+        "country": "NL",
+        "name": "Enschede",
+        "lat": "52.21833",
+        "lng": "6.89583"
+    },
+    {
+        "country": "NL",
+        "name": "Ens",
+        "lat": "52.63667",
+        "lng": "5.82778"
+    },
+    {
+        "country": "NL",
+        "name": "Enkhuizen",
+        "lat": "52.70333",
+        "lng": "5.29167"
+    },
+    {
+        "country": "NL",
+        "name": "Emst",
+        "lat": "52.31583",
+        "lng": "5.97361"
+    },
+    {
+        "country": "NL",
+        "name": "Emmerschans",
+        "lat": "52.80083",
+        "lng": "6.93889"
+    },
+    {
+        "country": "NL",
+        "name": "Emmermeer",
+        "lat": "52.80071",
+        "lng": "6.89315"
+    },
+    {
+        "country": "NL",
+        "name": "Emmerhout",
+        "lat": "52.78755",
+        "lng": "6.93881"
+    },
+    {
+        "country": "NL",
+        "name": "Emmer-Erfscheidenveen",
+        "lat": "52.80667",
+        "lng": "6.98889"
+    },
+    {
+        "country": "NL",
+        "name": "Emmer-Compascuum",
+        "lat": "52.81167",
+        "lng": "7.04722"
+    },
+    {
+        "country": "NL",
+        "name": "Emmen",
+        "lat": "52.77917",
+        "lng": "6.90694"
+    },
+    {
+        "country": "NL",
+        "name": "Emmeloord",
+        "lat": "52.71083",
+        "lng": "5.74861"
+    },
+    {
+        "country": "NL",
+        "name": "Elst",
+        "lat": "51.91917",
+        "lng": "5.84167"
+    },
+    {
+        "country": "NL",
+        "name": "Elspeet",
+        "lat": "52.29167",
+        "lng": "5.78889"
+    },
+    {
+        "country": "NL",
+        "name": "Elsloo",
+        "lat": "50.94917",
+        "lng": "5.77083"
+    },
+    {
+        "country": "NL",
+        "name": "Elshout",
+        "lat": "51.70083",
+        "lng": "5.14167"
+    },
+    {
+        "country": "NL",
+        "name": "Ellecom",
+        "lat": "52.0325",
+        "lng": "6.0875"
+    },
+    {
+        "country": "NL",
+        "name": "Elden",
+        "lat": "51.95833",
+        "lng": "5.88194"
+    },
+    {
+        "country": "NL",
+        "name": "Elburg",
+        "lat": "52.4475",
+        "lng": "5.84306"
+    },
+    {
+        "country": "NL",
+        "name": "Ekenrooi",
+        "lat": "51.39656",
+        "lng": "5.48624"
+    },
+    {
+        "country": "NL",
+        "name": "Einighausen",
+        "lat": "51.00167",
+        "lng": "5.82778"
+    },
+    {
+        "country": "NL",
+        "name": "Eindhoven",
+        "lat": "51.44083",
+        "lng": "5.47778"
+    },
+    {
+        "country": "NL",
+        "name": "Eijsden",
+        "lat": "50.78",
+        "lng": "5.7177"
+    },
+    {
+        "country": "NL",
+        "name": "Eibergen",
+        "lat": "52.1",
+        "lng": "6.64861"
+    },
+    {
+        "country": "NL",
+        "name": "Egmond-Binnen",
+        "lat": "52.59583",
+        "lng": "4.65556"
+    },
+    {
+        "country": "NL",
+        "name": "Egmond aan Zee",
+        "lat": "52.6204",
+        "lng": "4.62705"
+    },
+    {
+        "country": "NL",
+        "name": "Egchel",
+        "lat": "51.31417",
+        "lng": "5.97222"
+    },
+    {
+        "country": "NL",
+        "name": "Eexta",
+        "lat": "53.16386",
+        "lng": "6.98344"
+    },
+    {
+        "country": "NL",
+        "name": "Eext",
+        "lat": "53.0175",
+        "lng": "6.73472"
+    },
+    {
+        "country": "NL",
+        "name": "Eersel",
+        "lat": "51.3575",
+        "lng": "5.31806"
+    },
+    {
+        "country": "NL",
+        "name": "Eerschot",
+        "lat": "51.56833",
+        "lng": "5.47361"
+    },
+    {
+        "country": "NL",
+        "name": "Eerde",
+        "lat": "51.60417",
+        "lng": "5.49861"
+    },
+    {
+        "country": "NL",
+        "name": "Eerbeek",
+        "lat": "52.105",
+        "lng": "6.05833"
+    },
+    {
+        "country": "NL",
+        "name": "Eenrum",
+        "lat": "53.3625",
+        "lng": "6.45833"
+    },
+    {
+        "country": "NL",
+        "name": "Eelde",
+        "lat": "53.13583",
+        "lng": "6.5625"
+    },
+    {
+        "country": "NL",
+        "name": "Eefde",
+        "lat": "52.16667",
+        "lng": "6.225"
+    },
+    {
+        "country": "NL",
+        "name": "Ederveen",
+        "lat": "52.06333",
+        "lng": "5.57778"
+    },
+    {
+        "country": "NL",
+        "name": "Ede",
+        "lat": "52.03333",
+        "lng": "5.65833"
+    },
+    {
+        "country": "NL",
+        "name": "Edam",
+        "lat": "52.51215",
+        "lng": "5.04805"
+    },
+    {
+        "country": "NL",
+        "name": "Eckart",
+        "lat": "51.4732",
+        "lng": "5.49449"
+    },
+    {
+        "country": "NL",
+        "name": "Echtenerbrug",
+        "lat": "52.87141",
+        "lng": "5.82147"
+    },
+    {
+        "country": "NL",
+        "name": "Dwingeloo",
+        "lat": "52.83417",
+        "lng": "6.36944"
+    },
+    {
+        "country": "NL",
+        "name": "Duizel",
+        "lat": "51.36833",
+        "lng": "5.29722"
+    },
+    {
+        "country": "NL",
+        "name": "Duivendrecht",
+        "lat": "52.32941",
+        "lng": "4.93964"
+    },
+    {
+        "country": "NL",
+        "name": "Duiven",
+        "lat": "51.94667",
+        "lng": "6.01389"
+    },
+    {
+        "country": "NL",
+        "name": "Duinzigt",
+        "lat": "52.10485",
+        "lng": "4.32494"
+    },
+    {
+        "country": "NL",
+        "name": "Duindorp",
+        "lat": "52.09078",
+        "lng": "4.26038"
+    },
+    {
+        "country": "NL",
+        "name": "Druten",
+        "lat": "51.88833",
+        "lng": "5.60556"
+    },
+    {
+        "country": "NL",
+        "name": "Drumpt",
+        "lat": "51.897",
+        "lng": "5.41043"
+    },
+    {
+        "country": "NL",
+        "name": "Dronten",
+        "lat": "52.525",
+        "lng": "5.71806"
+    },
+    {
+        "country": "NL",
+        "name": "Dronryp",
+        "lat": "53.2",
+        "lng": "5.65"
+    },
+    {
+        "country": "NL",
+        "name": "Drogeham",
+        "lat": "53.20213",
+        "lng": "6.11183"
+    },
+    {
+        "country": "NL",
+        "name": "Driemond",
+        "lat": "52.30583",
+        "lng": "5.01667"
+    },
+    {
+        "country": "NL",
+        "name": "Driemanspolder",
+        "lat": "52.05176",
+        "lng": "4.48504"
+    },
+    {
+        "country": "NL",
+        "name": "Driel",
+        "lat": "51.95917",
+        "lng": "5.81389"
+    },
+    {
+        "country": "NL",
+        "name": "Driehuizen",
+        "lat": "52.20879",
+        "lng": "5.94442"
+    },
+    {
+        "country": "NL",
+        "name": "Driebruggen",
+        "lat": "52.04417",
+        "lng": "4.8"
+    },
+    {
+        "country": "NL",
+        "name": "Driebergen-Rijsenburg",
+        "lat": "52.05333",
+        "lng": "5.28056"
+    },
+    {
+        "country": "NL",
+        "name": "Drachtstercompagnie",
+        "lat": "53.13462",
+        "lng": "6.14153"
+    },
+    {
+        "country": "NL",
+        "name": "Drachten",
+        "lat": "53.11254",
+        "lng": "6.0989"
+    },
+    {
+        "country": "NL",
+        "name": "Dorst",
+        "lat": "51.59",
+        "lng": "4.85694"
+    },
+    {
+        "country": "NL",
+        "name": "Dordrecht",
+        "lat": "51.81",
+        "lng": "4.67361"
+    },
+    {
+        "country": "NL",
+        "name": "Doorwerth",
+        "lat": "51.97917",
+        "lng": "5.79722"
+    },
+    {
+        "country": "NL",
+        "name": "Doornsteeg",
+        "lat": "52.23",
+        "lng": "5.45417"
+    },
+    {
+        "country": "NL",
+        "name": "Doornspijk",
+        "lat": "52.41833",
+        "lng": "5.81806"
+    },
+    {
+        "country": "NL",
+        "name": "Doornenburg",
+        "lat": "51.89",
+        "lng": "6"
+    },
+    {
+        "country": "NL",
+        "name": "Doorn",
+        "lat": "52.03343",
+        "lng": "5.34571"
+    },
+    {
+        "country": "NL",
+        "name": "Doonheide",
+        "lat": "51.56667",
+        "lng": "5.69444"
+    },
+    {
+        "country": "NL",
+        "name": "Donkerbroek",
+        "lat": "53.01734",
+        "lng": "6.23927"
+    },
+    {
+        "country": "NL",
+        "name": "Donk",
+        "lat": "51.53843",
+        "lng": "5.62914"
+    },
+    {
+        "country": "NL",
+        "name": "Dongen",
+        "lat": "51.62667",
+        "lng": "4.93889"
+    },
+    {
+        "country": "NL",
+        "name": "Dommelen",
+        "lat": "51.34624",
+        "lng": "5.43394"
+    },
+    {
+        "country": "NL",
+        "name": "Domburg",
+        "lat": "51.56333",
+        "lng": "3.49583"
+    },
+    {
+        "country": "NL",
+        "name": "Dokkum",
+        "lat": "53.32224",
+        "lng": "5.99697"
+    },
+    {
+        "country": "NL",
+        "name": "Doetinchem",
+        "lat": "51.965",
+        "lng": "6.28889"
+    },
+    {
+        "country": "NL",
+        "name": "Doesburg",
+        "lat": "52.06667",
+        "lng": "5.61667"
+    },
+    {
+        "country": "NL",
+        "name": "Doesburg",
+        "lat": "52.0125",
+        "lng": "6.13889"
+    },
+    {
+        "country": "NL",
+        "name": "Doenrade",
+        "lat": "50.9675",
+        "lng": "5.90694"
+    },
+    {
+        "country": "NL",
+        "name": "Dirksland",
+        "lat": "51.74917",
+        "lng": "4.1"
+    },
+    {
+        "country": "NL",
+        "name": "Dirkshorn",
+        "lat": "52.75",
+        "lng": "4.775"
+    },
+    {
+        "country": "NL",
+        "name": "Dinteloord",
+        "lat": "51.635",
+        "lng": "4.36944"
+    },
+    {
+        "country": "NL",
+        "name": "Diever",
+        "lat": "52.85417",
+        "lng": "6.31806"
+    },
+    {
+        "country": "NL",
+        "name": "Diessen",
+        "lat": "51.47583",
+        "lng": "5.175"
+    },
+    {
+        "country": "NL",
+        "name": "Dieren",
+        "lat": "52.0525",
+        "lng": "6.1"
+    },
+    {
+        "country": "NL",
+        "name": "Diepenheim",
+        "lat": "52.2",
+        "lng": "6.55556"
+    },
+    {
+        "country": "NL",
+        "name": "Diemen",
+        "lat": "52.33964",
+        "lng": "4.96256"
+    },
+    {
+        "country": "NL",
+        "name": "De Wijk",
+        "lat": "52.67333",
+        "lng": "6.29028"
+    },
+    {
+        "country": "NL",
+        "name": "De Wijert",
+        "lat": "53.1945",
+        "lng": "6.57117"
+    },
+    {
+        "country": "NL",
+        "name": "Deventer",
+        "lat": "52.255",
+        "lng": "6.16389"
+    },
+    {
+        "country": "NL",
+        "name": "Deuteren",
+        "lat": "51.68667",
+        "lng": "5.26667"
+    },
+    {
+        "country": "NL",
+        "name": "De Uithof",
+        "lat": "52.08526",
+        "lng": "5.17456"
+    },
+    {
+        "country": "NL",
+        "name": "De Rompert",
+        "lat": "51.71667",
+        "lng": "5.31667"
+    },
+    {
+        "country": "NL",
+        "name": "De Rijp",
+        "lat": "52.55667",
+        "lng": "4.84583"
+    },
+    {
+        "country": "NL",
+        "name": "De Reit",
+        "lat": "51.56038",
+        "lng": "5.04932"
+    },
+    {
+        "country": "NL",
+        "name": "De Peulen",
+        "lat": "51.82362",
+        "lng": "4.82165"
+    },
+    {
+        "country": "NL",
+        "name": "De Noord",
+        "lat": "52.7075",
+        "lng": "4.85139"
+    },
+    {
+        "country": "NL",
+        "name": "Den Oever",
+        "lat": "52.93353",
+        "lng": "5.03079"
+    },
+    {
+        "country": "NL",
+        "name": "Den Helder",
+        "lat": "52.95988",
+        "lng": "4.75933"
+    },
+    {
+        "country": "NL",
+        "name": "Den Ham",
+        "lat": "52.46583",
+        "lng": "6.49583"
+    },
+    {
+        "country": "NL",
+        "name": "Den Dungen",
+        "lat": "51.665",
+        "lng": "5.37222"
+    },
+    {
+        "country": "NL",
+        "name": "Den Burg",
+        "lat": "53.05417",
+        "lng": "4.79722"
+    },
+    {
+        "country": "NL",
+        "name": "De Mheen",
+        "lat": "52.21954",
+        "lng": "5.99141"
+    },
+    {
+        "country": "NL",
+        "name": "De Maer",
+        "lat": "52.51901",
+        "lng": "4.68171"
+    },
+    {
+        "country": "NL",
+        "name": "De Loo",
+        "lat": "52.67167",
+        "lng": "6.73967"
+    },
+    {
+        "country": "NL",
+        "name": "De Lier",
+        "lat": "51.975",
+        "lng": "4.24861"
+    },
+    {
+        "country": "NL",
+        "name": "Delfzijl",
+        "lat": "53.33",
+        "lng": "6.91806"
+    },
+    {
+        "country": "NL",
+        "name": "Delft",
+        "lat": "52.00667",
+        "lng": "4.35556"
+    },
+    {
+        "country": "NL",
+        "name": "Delfshaven",
+        "lat": "51.90488",
+        "lng": "4.45315"
+    },
+    {
+        "country": "NL",
+        "name": "Delden",
+        "lat": "52.26",
+        "lng": "6.71111"
+    },
+    {
+        "country": "NL",
+        "name": "De Kruiskamp",
+        "lat": "51.69978",
+        "lng": "5.26032"
+    },
+    {
+        "country": "NL",
+        "name": "De Koog",
+        "lat": "53.0975",
+        "lng": "4.76111"
+    },
+    {
+        "country": "NL",
+        "name": "De Kieviet",
+        "lat": "52.12333",
+        "lng": "4.35839"
+    },
+    {
+        "country": "NL",
+        "name": "Deil",
+        "lat": "51.88417",
+        "lng": "5.24306"
+    },
+    {
+        "country": "NL",
+        "name": "De Hoven",
+        "lat": "52.24901",
+        "lng": "6.14367"
+    },
+    {
+        "country": "NL",
+        "name": "De Heeg",
+        "lat": "50.82454",
+        "lng": "5.72309"
+    },
+    {
+        "country": "NL",
+        "name": "De Hagen",
+        "lat": "51.99381",
+        "lng": "5.10263"
+    },
+    {
+        "country": "NL",
+        "name": "De Greiden",
+        "lat": "52.9496",
+        "lng": "5.91366"
+    },
+    {
+        "country": "NL",
+        "name": "De Goorn",
+        "lat": "52.62583",
+        "lng": "4.94722"
+    },
+    {
+        "country": "NL",
+        "name": "De Glip",
+        "lat": "52.33083",
+        "lng": "4.61111"
+    },
+    {
+        "country": "NL",
+        "name": "Deest",
+        "lat": "51.89",
+        "lng": "5.66667"
+    },
+    {
+        "country": "NL",
+        "name": "De Drait",
+        "lat": "53.09743",
+        "lng": "6.06791"
+    },
+    {
+        "country": "NL",
+        "name": "De Doornakkers",
+        "lat": "51.43844",
+        "lng": "5.50887"
+    },
+    {
+        "country": "NL",
+        "name": "De Domp",
+        "lat": "53.03113",
+        "lng": "5.67716"
+    },
+    {
+        "country": "NL",
+        "name": "De Blaak",
+        "lat": "51.54626",
+        "lng": "5.04465"
+    },
+    {
+        "country": "NL",
+        "name": "De Bilt",
+        "lat": "52.11",
+        "lng": "5.18056"
+    },
+    {
+        "country": "NL",
+        "name": "Dauwendaele",
+        "lat": "51.49299",
+        "lng": "3.62624"
+    },
+    {
+        "country": "NL",
+        "name": "Damw\u00e2ld",
+        "lat": "53.29046",
+        "lng": "5.99785"
+    },
+    {
+        "country": "NL",
+        "name": "Dalfsen",
+        "lat": "52.51167",
+        "lng": "6.25694"
+    },
+    {
+        "country": "NL",
+        "name": "Dalen",
+        "lat": "52.69917",
+        "lng": "6.75556"
+    },
+    {
+        "country": "NL",
+        "name": "Culemborg",
+        "lat": "51.955",
+        "lng": "5.22778"
+    },
+    {
+        "country": "NL",
+        "name": "Cuijk",
+        "lat": "51.73083",
+        "lng": "5.87917"
+    },
+    {
+        "country": "NL",
+        "name": "Cranendonck",
+        "lat": "51.30417",
+        "lng": "5.58889"
+    },
+    {
+        "country": "NL",
+        "name": "Cothen",
+        "lat": "51.99667",
+        "lng": "5.30833"
+    },
+    {
+        "country": "NL",
+        "name": "Commandeurs",
+        "lat": "52.50902",
+        "lng": "4.65843"
+    },
+    {
+        "country": "NL",
+        "name": "Colijnsplaat",
+        "lat": "51.59917",
+        "lng": "3.84861"
+    },
+    {
+        "country": "NL",
+        "name": "Coevorden",
+        "lat": "52.66103",
+        "lng": "6.74046"
+    },
+    {
+        "country": "NL",
+        "name": "Coevering",
+        "lat": "51.41742",
+        "lng": "5.57463"
+    },
+    {
+        "country": "NL",
+        "name": "Coendersborg",
+        "lat": "53.1941",
+        "lng": "6.58944"
+    },
+    {
+        "country": "NL",
+        "name": "Chaam",
+        "lat": "51.50583",
+        "lng": "4.86111"
+    },
+    {
+        "country": "NL",
+        "name": "Castricum",
+        "lat": "52.54833",
+        "lng": "4.66944"
+    },
+    {
+        "country": "NL",
+        "name": "Carnisse",
+        "lat": "51.88932",
+        "lng": "4.47758"
+    },
+    {
+        "country": "NL",
+        "name": "Capelle-West",
+        "lat": "51.91667",
+        "lng": "4.56667"
+    },
+    {
+        "country": "NL",
+        "name": "Capelle aan den IJssel",
+        "lat": "51.92917",
+        "lng": "4.57778"
+    },
+    {
+        "country": "NL",
+        "name": "Callantsoog",
+        "lat": "52.84",
+        "lng": "4.69583"
+    },
+    {
+        "country": "NL",
+        "name": "Bussum",
+        "lat": "52.27333",
+        "lng": "5.16111"
+    },
+    {
+        "country": "NL",
+        "name": "Bunschoten",
+        "lat": "52.24304",
+        "lng": "5.37884"
+    },
+    {
+        "country": "NL",
+        "name": "Bunnik",
+        "lat": "52.06667",
+        "lng": "5.19861"
+    },
+    {
+        "country": "NL",
+        "name": "Bunde",
+        "lat": "50.89667",
+        "lng": "5.73194"
+    },
+    {
+        "country": "NL",
+        "name": "Buitenpost",
+        "lat": "53.25166",
+        "lng": "6.14483"
+    },
+    {
+        "country": "NL",
+        "name": "Budschop",
+        "lat": "51.28511",
+        "lng": "5.75898"
+    },
+    {
+        "country": "NL",
+        "name": "Budel-Schoot",
+        "lat": "51.2475",
+        "lng": "5.56528"
+    },
+    {
+        "country": "NL",
+        "name": "Budel-Dorplein",
+        "lat": "51.23667",
+        "lng": "5.5875"
+    },
+    {
+        "country": "NL",
+        "name": "Budel",
+        "lat": "51.27167",
+        "lng": "5.575"
+    },
+    {
+        "country": "NL",
+        "name": "Buchten",
+        "lat": "51.04333",
+        "lng": "5.80972"
+    },
+    {
+        "country": "NL",
+        "name": "Brunssum",
+        "lat": "50.94667",
+        "lng": "5.97083"
+    },
+    {
+        "country": "NL",
+        "name": "Brunnepe",
+        "lat": "52.56185",
+        "lng": "5.90343"
+    },
+    {
+        "country": "NL",
+        "name": "Brummen",
+        "lat": "52.09",
+        "lng": "6.15556"
+    },
+    {
+        "country": "NL",
+        "name": "Brukske",
+        "lat": "51.52101",
+        "lng": "5.9927"
+    },
+    {
+        "country": "NL",
+        "name": "Bruinisse",
+        "lat": "51.66167",
+        "lng": "4.09444"
+    },
+    {
+        "country": "NL",
+        "name": "Bruchem",
+        "lat": "51.78667",
+        "lng": "5.23611"
+    },
+    {
+        "country": "NL",
+        "name": "Brouwershaven",
+        "lat": "51.72667",
+        "lng": "3.9125"
+    },
+    {
+        "country": "NL",
+        "name": "Broeksterw\u00e2ld",
+        "lat": "53.27466",
+        "lng": "5.99648"
+    },
+    {
+        "country": "NL",
+        "name": "Broeksittard",
+        "lat": "51.0029",
+        "lng": "5.89511"
+    },
+    {
+        "country": "NL",
+        "name": "Broek op Langedijk",
+        "lat": "52.67417",
+        "lng": "4.80556"
+    },
+    {
+        "country": "NL",
+        "name": "Broek in Waterland",
+        "lat": "52.43417",
+        "lng": "4.99583"
+    },
+    {
+        "country": "NL",
+        "name": "Broekhoven",
+        "lat": "51.54801",
+        "lng": "5.09175"
+    },
+    {
+        "country": "NL",
+        "name": "Broekhem",
+        "lat": "50.87119",
+        "lng": "5.82069"
+    },
+    {
+        "country": "NL",
+        "name": "Brinkhorst",
+        "lat": "52.21302",
+        "lng": "5.95167"
+    },
+    {
+        "country": "NL",
+        "name": "Brielle",
+        "lat": "51.90167",
+        "lng": "4.1625"
+    },
+    {
+        "country": "NL",
+        "name": "Breukelen",
+        "lat": "52.17417",
+        "lng": "5.00139"
+    },
+    {
+        "country": "NL",
+        "name": "Breugel",
+        "lat": "51.5175",
+        "lng": "5.51111"
+    },
+    {
+        "country": "NL",
+        "name": "Breskens",
+        "lat": "51.39583",
+        "lng": "3.55556"
+    },
+    {
+        "country": "NL",
+        "name": "Breezand",
+        "lat": "52.89",
+        "lng": "4.80417"
+    },
+    {
+        "country": "NL",
+        "name": "Bredeweg",
+        "lat": "51.76019",
+        "lng": "5.94189"
+    },
+    {
+        "country": "NL",
+        "name": "Bredevoort",
+        "lat": "51.94167",
+        "lng": "6.62083"
+    },
+    {
+        "country": "NL",
+        "name": "Breda",
+        "lat": "51.58656",
+        "lng": "4.77596"
+    },
+    {
+        "country": "NL",
+        "name": "Brand",
+        "lat": "51.45839",
+        "lng": "5.62427"
+    },
+    {
+        "country": "NL",
+        "name": "Brakkenstein",
+        "lat": "51.81324",
+        "lng": "5.86539"
+    },
+    {
+        "country": "NL",
+        "name": "Brakel",
+        "lat": "51.8175",
+        "lng": "5.09028"
+    },
+    {
+        "country": "NL",
+        "name": "Brachterbeek",
+        "lat": "51.14694",
+        "lng": "5.90446"
+    },
+    {
+        "country": "NL",
+        "name": "Brabander",
+        "lat": "51.53583",
+        "lng": "5.96806"
+    },
+    {
+        "country": "NL",
+        "name": "Boxtel",
+        "lat": "51.59083",
+        "lng": "5.32917"
+    },
+    {
+        "country": "NL",
+        "name": "Boxmeer",
+        "lat": "51.64667",
+        "lng": "5.94722"
+    },
+    {
+        "country": "NL",
+        "name": "Boven-Hardinxveld",
+        "lat": "51.82333",
+        "lng": "4.88194"
+    },
+    {
+        "country": "NL",
+        "name": "Bosschenhoofd",
+        "lat": "51.56083",
+        "lng": "4.54028"
+    },
+    {
+        "country": "NL",
+        "name": "Boskoop",
+        "lat": "52.075",
+        "lng": "4.65556"
+    },
+    {
+        "country": "NL",
+        "name": "Boskamp",
+        "lat": "52.33083",
+        "lng": "6.12778"
+    },
+    {
+        "country": "NL",
+        "name": "Bosch en Duin",
+        "lat": "52.11667",
+        "lng": "5.24167"
+    },
+    {
+        "country": "NL",
+        "name": "Borssele",
+        "lat": "51.42333",
+        "lng": "3.73472"
+    },
+    {
+        "country": "NL",
+        "name": "Borne",
+        "lat": "52.30136",
+        "lng": "6.7482"
+    },
+    {
+        "country": "NL",
+        "name": "Born",
+        "lat": "51.03167",
+        "lng": "5.80972"
+    },
+    {
+        "country": "NL",
+        "name": "Borgharen",
+        "lat": "50.8775",
+        "lng": "5.6875"
+    },
+    {
+        "country": "NL",
+        "name": "Borger",
+        "lat": "52.92333",
+        "lng": "6.79306"
+    },
+    {
+        "country": "NL",
+        "name": "Borgele",
+        "lat": "52.2763",
+        "lng": "6.14926"
+    },
+    {
+        "country": "NL",
+        "name": "Borculo",
+        "lat": "52.11583",
+        "lng": "6.52222"
+    },
+    {
+        "country": "NL",
+        "name": "Boornbergum",
+        "lat": "53.08284",
+        "lng": "6.04578"
+    },
+    {
+        "country": "NL",
+        "name": "Bolsward",
+        "lat": "53.06555",
+        "lng": "5.53176"
+    },
+    {
+        "country": "NL",
+        "name": "Bolnes",
+        "lat": "51.895",
+        "lng": "4.57917"
+    },
+    {
+        "country": "NL",
+        "name": "Boekel",
+        "lat": "51.60333",
+        "lng": "5.675"
+    },
+    {
+        "country": "NL",
+        "name": "Bodegraven",
+        "lat": "52.0825",
+        "lng": "4.75"
+    },
+    {
+        "country": "NL",
+        "name": "Bocholtz",
+        "lat": "50.81833",
+        "lng": "6.00556"
+    },
+    {
+        "country": "NL",
+        "name": "Blokzijl",
+        "lat": "52.72667",
+        "lng": "5.96111"
+    },
+    {
+        "country": "NL",
+        "name": "Bloemhof",
+        "lat": "51.89723",
+        "lng": "4.49943"
+    },
+    {
+        "country": "NL",
+        "name": "Bloemendaal",
+        "lat": "52.02878",
+        "lng": "4.6944"
+    },
+    {
+        "country": "NL",
+        "name": "Bloemendaal",
+        "lat": "52.4025",
+        "lng": "4.62222"
+    },
+    {
+        "country": "NL",
+        "name": "Blitterswijck",
+        "lat": "51.53083",
+        "lng": "6.10833"
+    },
+    {
+        "country": "NL",
+        "name": "Blijham",
+        "lat": "53.10917",
+        "lng": "7.07639"
+    },
+    {
+        "country": "NL",
+        "name": "Bleskensgraaf",
+        "lat": "51.8725",
+        "lng": "4.78333"
+    },
+    {
+        "country": "NL",
+        "name": "Bleiswijk",
+        "lat": "52.01083",
+        "lng": "4.53194"
+    },
+    {
+        "country": "NL",
+        "name": "Bleijerheide",
+        "lat": "50.85538",
+        "lng": "6.06789"
+    },
+    {
+        "country": "NL",
+        "name": "Blaricum",
+        "lat": "52.2725",
+        "lng": "5.24167"
+    },
+    {
+        "country": "NL",
+        "name": "Bladel",
+        "lat": "51.36833",
+        "lng": "5.22083"
+    },
+    {
+        "country": "NL",
+        "name": "Blaarthem",
+        "lat": "51.42501",
+        "lng": "5.45784"
+    },
+    {
+        "country": "NL",
+        "name": "Bitswijk",
+        "lat": "51.6687",
+        "lng": "5.60921"
+    },
+    {
+        "country": "NL",
+        "name": "Burdaard",
+        "lat": "53.29421",
+        "lng": "5.87897"
+    },
+    {
+        "country": "NL",
+        "name": "Binnenhof",
+        "lat": "52.16418",
+        "lng": "4.53644"
+    },
+    {
+        "country": "NL",
+        "name": "Bilgaard",
+        "lat": "53.21551",
+        "lng": "5.79574"
+    },
+    {
+        "country": "NL",
+        "name": "Bijvanck",
+        "lat": "52.28585",
+        "lng": "5.26534"
+    },
+    {
+        "country": "NL",
+        "name": "Biesland",
+        "lat": "50.8411",
+        "lng": "5.67573"
+    },
+    {
+        "country": "NL",
+        "name": "Biesdonk",
+        "lat": "51.60613",
+        "lng": "4.78515"
+    },
+    {
+        "country": "NL",
+        "name": "Biddinghuizen",
+        "lat": "52.455",
+        "lng": "5.69306"
+    },
+    {
+        "country": "NL",
+        "name": "Beverwijk",
+        "lat": "52.48333",
+        "lng": "4.65694"
+    },
+    {
+        "country": "NL",
+        "name": "Beusichem",
+        "lat": "51.95",
+        "lng": "5.29167"
+    },
+    {
+        "country": "NL",
+        "name": "Beuningen",
+        "lat": "51.86083",
+        "lng": "5.76667"
+    },
+    {
+        "country": "NL",
+        "name": "Best",
+        "lat": "51.5075",
+        "lng": "5.39028"
+    },
+    {
+        "country": "NL",
+        "name": "Besoijen",
+        "lat": "51.68333",
+        "lng": "5.05"
+    },
+    {
+        "country": "NL",
+        "name": "Berltsum",
+        "lat": "53.2437",
+        "lng": "5.65101"
+    },
+    {
+        "country": "NL",
+        "name": "Berlicum",
+        "lat": "51.6775",
+        "lng": "5.4"
+    },
+    {
+        "country": "NL",
+        "name": "Berkum",
+        "lat": "52.52395",
+        "lng": "6.13655"
+    },
+    {
+        "country": "NL",
+        "name": "Berkhout",
+        "lat": "52.64083",
+        "lng": "5.00139"
+    },
+    {
+        "country": "NL",
+        "name": "Berkenwoude",
+        "lat": "51.945",
+        "lng": "4.70694"
+    },
+    {
+        "country": "NL",
+        "name": "Beringe",
+        "lat": "51.33667",
+        "lng": "5.94861"
+    },
+    {
+        "country": "NL",
+        "name": "Burgum",
+        "lat": "53.19243",
+        "lng": "5.99009"
+    },
+    {
+        "country": "NL",
+        "name": "Bergstoep",
+        "lat": "51.9225",
+        "lng": "4.78472"
+    },
+    {
+        "country": "NL",
+        "name": "Bergschenhoek",
+        "lat": "51.99",
+        "lng": "4.49861"
+    },
+    {
+        "country": "NL",
+        "name": "Berghem",
+        "lat": "51.76991",
+        "lng": "5.56827"
+    },
+    {
+        "country": "NL",
+        "name": "Bergharen",
+        "lat": "51.85083",
+        "lng": "5.66944"
+    },
+    {
+        "country": "NL",
+        "name": "Bergeijk",
+        "lat": "51.31917",
+        "lng": "5.35833"
+    },
+    {
+        "country": "NL",
+        "name": "Bergen op Zoom",
+        "lat": "51.495",
+        "lng": "4.29167"
+    },
+    {
+        "country": "NL",
+        "name": "Berg en Dal",
+        "lat": "51.82167",
+        "lng": "5.91667"
+    },
+    {
+        "country": "NL",
+        "name": "Berg en Bos",
+        "lat": "52.22009",
+        "lng": "5.9334"
+    },
+    {
+        "country": "NL",
+        "name": "Bergen",
+        "lat": "52.66917",
+        "lng": "4.70417"
+    },
+    {
+        "country": "NL",
+        "name": "Berg",
+        "lat": "51.00417",
+        "lng": "5.77083"
+    },
+    {
+        "country": "NL",
+        "name": "Berg",
+        "lat": "50.86167",
+        "lng": "5.78333"
+    },
+    {
+        "country": "NL",
+        "name": "Benthuizen",
+        "lat": "52.0775",
+        "lng": "4.54444"
+    },
+    {
+        "country": "NL",
+        "name": "Bennekom",
+        "lat": "51.99833",
+        "lng": "5.67639"
+    },
+    {
+        "country": "NL",
+        "name": "Bennebroek",
+        "lat": "52.32083",
+        "lng": "4.59861"
+    },
+    {
+        "country": "NL",
+        "name": "Bemmel",
+        "lat": "51.89167",
+        "lng": "5.89861"
+    },
+    {
+        "country": "NL",
+        "name": "Beltrum",
+        "lat": "52.06667",
+        "lng": "6.56389"
+    },
+    {
+        "country": "NL",
+        "name": "Bellingwolde",
+        "lat": "53.11583",
+        "lng": "7.16528"
+    },
+    {
+        "country": "NL",
+        "name": "Belfort",
+        "lat": "50.84698",
+        "lng": "5.65991"
+    },
+    {
+        "country": "NL",
+        "name": "Belcrum",
+        "lat": "51.59911",
+        "lng": "4.76994"
+    },
+    {
+        "country": "NL",
+        "name": "Beilen",
+        "lat": "52.86333",
+        "lng": "6.51389"
+    },
+    {
+        "country": "NL",
+        "name": "Beetsterzwaag",
+        "lat": "53.05914",
+        "lng": "6.07711"
+    },
+    {
+        "country": "NL",
+        "name": "Beesel",
+        "lat": "51.26833",
+        "lng": "6.03889"
+    },
+    {
+        "country": "NL",
+        "name": "Beesd",
+        "lat": "51.8875",
+        "lng": "5.19167"
+    },
+    {
+        "country": "NL",
+        "name": "Beersdal",
+        "lat": "50.90597",
+        "lng": "5.9644"
+    },
+    {
+        "country": "NL",
+        "name": "Beers",
+        "lat": "51.72583",
+        "lng": "5.82778"
+    },
+    {
+        "country": "NL",
+        "name": "Beekbergen",
+        "lat": "52.16",
+        "lng": "5.96389"
+    },
+    {
+        "country": "NL",
+        "name": "Beek gem Montferland",
+        "lat": "51.90667",
+        "lng": "6.1875"
+    },
+    {
+        "country": "NL",
+        "name": "Beek",
+        "lat": "51.5289",
+        "lng": "5.63382"
+    },
+    {
+        "country": "NL",
+        "name": "Beek",
+        "lat": "50.94083",
+        "lng": "5.79722"
+    },
+    {
+        "country": "NL",
+        "name": "Beegden",
+        "lat": "51.18917",
+        "lng": "5.91944"
+    },
+    {
+        "country": "NL",
+        "name": "Bedum",
+        "lat": "53.30083",
+        "lng": "6.60278"
+    },
+    {
+        "country": "NL",
+        "name": "Bavel",
+        "lat": "51.56583",
+        "lng": "4.83056"
+    },
+    {
+        "country": "NL",
+        "name": "Barneveld",
+        "lat": "52.14",
+        "lng": "5.58472"
+    },
+    {
+        "country": "NL",
+        "name": "Barger-Oosterveld",
+        "lat": "52.77",
+        "lng": "6.95833"
+    },
+    {
+        "country": "NL",
+        "name": "Bargeres",
+        "lat": "52.76152",
+        "lng": "6.88145"
+    },
+    {
+        "country": "NL",
+        "name": "Barendrecht",
+        "lat": "51.85667",
+        "lng": "4.53472"
+    },
+    {
+        "country": "NL",
+        "name": "Banholt",
+        "lat": "50.79",
+        "lng": "5.80833"
+    },
+    {
+        "country": "NL",
+        "name": "Bangert",
+        "lat": "52.73582",
+        "lng": "5.1801"
+    },
+    {
+        "country": "NL",
+        "name": "Ballast",
+        "lat": "52.67218",
+        "lng": "6.73299"
+    },
+    {
+        "country": "NL",
+        "name": "Balk",
+        "lat": "52.89756",
+        "lng": "5.57964"
+    },
+    {
+        "country": "NL",
+        "name": "Bakkeveen",
+        "lat": "53.08072",
+        "lng": "6.25671"
+    },
+    {
+        "country": "NL",
+        "name": "Bakhuizen",
+        "lat": "52.86975",
+        "lng": "5.45926"
+    },
+    {
+        "country": "NL",
+        "name": "Bakenberg",
+        "lat": "52.00511",
+        "lng": "5.8771"
+    },
+    {
+        "country": "NL",
+        "name": "Bakel",
+        "lat": "51.50333",
+        "lng": "5.74028"
+    },
+    {
+        "country": "NL",
+        "name": "Baflo",
+        "lat": "53.3625",
+        "lng": "6.51389"
+    },
+    {
+        "country": "NL",
+        "name": "Babberich",
+        "lat": "51.9075",
+        "lng": "6.11111"
+    },
+    {
+        "country": "NL",
+        "name": "Baarn",
+        "lat": "52.21167",
+        "lng": "5.2875"
+    },
+    {
+        "country": "NL",
+        "name": "Baarlo",
+        "lat": "51.33083",
+        "lng": "6.09444"
+    },
+    {
+        "country": "NL",
+        "name": "Baarle-Nassau",
+        "lat": "51.4475",
+        "lng": "4.92917"
+    },
+    {
+        "country": "NL",
+        "name": "Baardwijk",
+        "lat": "51.69246",
+        "lng": "5.09628"
+    },
+    {
+        "country": "NL",
+        "name": "Baambrugge",
+        "lat": "52.24583",
+        "lng": "4.98889"
+    },
+    {
+        "country": "NL",
+        "name": "Baalder",
+        "lat": "52.58579",
+        "lng": "6.65299"
+    },
+    {
+        "country": "NL",
+        "name": "Axel",
+        "lat": "51.26667",
+        "lng": "3.90833"
+    },
+    {
+        "country": "NL",
+        "name": "Avenhorn",
+        "lat": "52.6175",
+        "lng": "4.95139"
+    },
+    {
+        "country": "NL",
+        "name": "Austerlitz",
+        "lat": "52.08",
+        "lng": "5.31528"
+    },
+    {
+        "country": "NL",
+        "name": "Augustinusga",
+        "lat": "53.21785",
+        "lng": "6.1617"
+    },
+    {
+        "country": "NL",
+        "name": "Asten",
+        "lat": "51.40417",
+        "lng": "5.74861"
+    },
+    {
+        "country": "NL",
+        "name": "Assen",
+        "lat": "52.99667",
+        "lng": "6.5625"
+    },
+    {
+        "country": "NL",
+        "name": "Arnhem",
+        "lat": "51.98",
+        "lng": "5.91111"
+    },
+    {
+        "country": "NL",
+        "name": "Arnemuiden",
+        "lat": "51.50167",
+        "lng": "3.675"
+    },
+    {
+        "country": "NL",
+        "name": "Arkel",
+        "lat": "51.86417",
+        "lng": "4.99444"
+    },
+    {
+        "country": "NL",
+        "name": "Arcen",
+        "lat": "51.47667",
+        "lng": "6.18056"
+    },
+    {
+        "country": "NL",
+        "name": "Appingedam",
+        "lat": "53.32167",
+        "lng": "6.85833"
+    },
+    {
+        "country": "NL",
+        "name": "Appelscha",
+        "lat": "52.95526",
+        "lng": "6.35053"
+    },
+    {
+        "country": "NL",
+        "name": "Apeldoorn",
+        "lat": "52.21",
+        "lng": "5.96944"
+    },
+    {
+        "country": "NL",
+        "name": "Annen",
+        "lat": "53.0575",
+        "lng": "6.71944"
+    },
+    {
+        "country": "NL",
+        "name": "Anklaar",
+        "lat": "52.23111",
+        "lng": "5.98497"
+    },
+    {
+        "country": "NL",
+        "name": "Ankeveense Rade",
+        "lat": "52.25891",
+        "lng": "5.1016"
+    },
+    {
+        "country": "NL",
+        "name": "Angerlo",
+        "lat": "51.99583",
+        "lng": "6.13472"
+    },
+    {
+        "country": "NL",
+        "name": "Angeren",
+        "lat": "51.91583",
+        "lng": "5.95833"
+    },
+    {
+        "country": "NL",
+        "name": "Angelslo",
+        "lat": "52.7809",
+        "lng": "6.92645"
+    },
+    {
+        "country": "NL",
+        "name": "Andelst",
+        "lat": "51.90833",
+        "lng": "5.72917"
+    },
+    {
+        "country": "NL",
+        "name": "Amsterdam",
+        "lat": "52.37403",
+        "lng": "4.88969"
+    },
+    {
+        "country": "NL",
+        "name": "Amstenrade",
+        "lat": "50.93917",
+        "lng": "5.92361"
+    },
+    {
+        "country": "NL",
+        "name": "Amstelveen",
+        "lat": "52.30083",
+        "lng": "4.86389"
+    },
+    {
+        "country": "NL",
+        "name": "Ammerzoden",
+        "lat": "51.74917",
+        "lng": "5.22083"
+    },
+    {
+        "country": "NL",
+        "name": "Ammerstol",
+        "lat": "51.9275",
+        "lng": "4.80833"
+    },
+    {
+        "country": "NL",
+        "name": "Amersfoort",
+        "lat": "52.155",
+        "lng": "5.3875"
+    },
+    {
+        "country": "NL",
+        "name": "Amerongen",
+        "lat": "52.0025",
+        "lng": "5.45972"
+    },
+    {
+        "country": "NL",
+        "name": "America",
+        "lat": "51.43667",
+        "lng": "5.97917"
+    },
+    {
+        "country": "NL",
+        "name": "Amby",
+        "lat": "50.86215",
+        "lng": "5.73226"
+    },
+    {
+        "country": "NL",
+        "name": "Alverna",
+        "lat": "51.80417",
+        "lng": "5.75972"
+    },
+    {
+        "country": "NL",
+        "name": "Alphen aan den Rijn",
+        "lat": "52.12917",
+        "lng": "4.65546"
+    },
+    {
+        "country": "NL",
+        "name": "Alphen",
+        "lat": "51.48167",
+        "lng": "4.95833"
+    },
+    {
+        "country": "NL",
+        "name": "Almkerk",
+        "lat": "51.77083",
+        "lng": "4.95972"
+    },
+    {
+        "country": "NL",
+        "name": "Almere Stad",
+        "lat": "52.37025",
+        "lng": "5.21413"
+    },
+    {
+        "country": "NL",
+        "name": "Almelo",
+        "lat": "52.35667",
+        "lng": "6.6625"
+    },
+    {
+        "country": "NL",
+        "name": "Alkmaar",
+        "lat": "52.63167",
+        "lng": "4.74861"
+    },
+    {
+        "country": "NL",
+        "name": "Alblasserdam",
+        "lat": "51.86583",
+        "lng": "4.66111"
+    },
+    {
+        "country": "NL",
+        "name": "Akkrum",
+        "lat": "53.05024",
+        "lng": "5.83087"
+    },
+    {
+        "country": "NL",
+        "name": "Akert",
+        "lat": "51.41407",
+        "lng": "5.5596"
+    },
+    {
+        "country": "NL",
+        "name": "Afferden",
+        "lat": "51.88",
+        "lng": "5.63472"
+    },
+    {
+        "country": "NL",
+        "name": "Aduard",
+        "lat": "53.25667",
+        "lng": "6.45972"
+    },
+    {
+        "country": "NL",
+        "name": "Adegeest",
+        "lat": "52.13621",
+        "lng": "4.45249"
+    },
+    {
+        "country": "NL",
+        "name": "Abdissenbosch",
+        "lat": "50.91667",
+        "lng": "6.03333"
+    },
+    {
+        "country": "NL",
+        "name": "Abcoven",
+        "lat": "51.5275",
+        "lng": "5.08333"
+    },
+    {
+        "country": "NL",
+        "name": "Abcoude",
+        "lat": "52.2725",
+        "lng": "4.96944"
+    },
+    {
+        "country": "NL",
+        "name": "Abbekerk",
+        "lat": "52.73167",
+        "lng": "5.01806"
+    },
+    {
+        "country": "NL",
+        "name": "Aardenburg",
+        "lat": "51.27333",
+        "lng": "3.44722"
+    },
+    {
+        "country": "NL",
+        "name": "Aalten",
+        "lat": "51.925",
+        "lng": "6.58056"
+    },
+    {
+        "country": "NL",
+        "name": "Aalst",
+        "lat": "51.39667",
+        "lng": "5.47778"
+    },
+    {
+        "country": "NL",
+        "name": "Aalst",
+        "lat": "51.7825",
+        "lng": "5.12778"
+    },
+    {
+        "country": "NL",
+        "name": "Aalsmeer",
+        "lat": "52.25917",
+        "lng": "4.75972"
+    },
+    {
+        "country": "NL",
+        "name": "Aalden",
+        "lat": "52.79",
+        "lng": "6.71806"
+    },
+    {
+        "country": "NL",
+        "name": "Aalburg",
+        "lat": "51.75482",
+        "lng": "5.13156"
+    },
+    {
+        "country": "NL",
+        "name": "Aagtekerke",
+        "lat": "51.54667",
+        "lng": "3.50972"
+    },
+    {
+        "country": "NL",
+        "name": "Camminghaburen",
+        "lat": "53.20973",
+        "lng": "5.84318"
+    },
+    {
+        "country": "NL",
+        "name": "Amsterdam-Zuidoost",
+        "lat": "52.3075",
+        "lng": "4.97222"
+    },
+    {
+        "country": "NL",
+        "name": "Zuid-Berghuizen",
+        "lat": "52.30083",
+        "lng": "6.93333"
+    },
+    {
+        "country": "NL",
+        "name": "Chevremont",
+        "lat": "50.87554",
+        "lng": "6.05981"
+    },
+    {
+        "country": "NL",
+        "name": "Welgelegen",
+        "lat": "52.21397",
+        "lng": "5.97643"
+    },
+    {
+        "country": "NL",
+        "name": "Matenveld",
+        "lat": "52.18767",
+        "lng": "5.99879"
+    },
+    {
+        "country": "NL",
+        "name": "Matenhoeve",
+        "lat": "52.19056",
+        "lng": "6.01338"
+    },
+    {
+        "country": "NL",
+        "name": "Matendonk",
+        "lat": "52.19766",
+        "lng": "6.01115"
+    },
+    {
+        "country": "NL",
+        "name": "Matenhorst",
+        "lat": "52.20482",
+        "lng": "5.99304"
+    },
+    {
+        "country": "NL",
+        "name": "Matendreef",
+        "lat": "52.19993",
+        "lng": "5.98592"
+    },
+    {
+        "country": "NL",
+        "name": "Matengaarde",
+        "lat": "52.19793",
+        "lng": "5.9957"
+    },
+    {
+        "country": "NL",
+        "name": "Rivierenkwartier",
+        "lat": "52.18914",
+        "lng": "5.97665"
+    },
+    {
+        "country": "NL",
+        "name": "Staatsliedenkwartier",
+        "lat": "52.19951",
+        "lng": "5.97691"
+    },
+    {
+        "country": "NL",
+        "name": "Brummelhof",
+        "lat": "52.20503",
+        "lng": "5.96789"
+    },
+    {
+        "country": "NL",
+        "name": "Vogelkwartier",
+        "lat": "52.19777",
+        "lng": "5.96721"
+    },
+    {
+        "country": "NL",
+        "name": "Componistenkwartier",
+        "lat": "52.18977",
+        "lng": "5.96609"
+    },
+    {
+        "country": "NL",
+        "name": "Woudhuis",
+        "lat": "52.21323",
+        "lng": "6.01124"
+    },
+    {
+        "country": "NL",
+        "name": "Sluisoord",
+        "lat": "52.22291",
+        "lng": "5.98145"
+    },
+    {
+        "country": "NL",
+        "name": "Sprenkelaar",
+        "lat": "52.22512",
+        "lng": "5.99922"
+    },
+    {
+        "country": "NL",
+        "name": "De Haven",
+        "lat": "52.21045",
+        "lng": "5.97407"
+    },
+    {
+        "country": "NL",
+        "name": "Binnenstad",
+        "lat": "52.21304",
+        "lng": "5.95957"
+    },
+    {
+        "country": "NL",
+        "name": "Sprengenweg-Noord",
+        "lat": "52.21839",
+        "lng": "5.95068"
+    },
+    {
+        "country": "NL",
+        "name": "Sprengenbos",
+        "lat": "52.21902",
+        "lng": "5.94163"
+    },
+    {
+        "country": "NL",
+        "name": "Spainkbos",
+        "lat": "52.22228",
+        "lng": "5.94738"
+    },
+    {
+        "country": "NL",
+        "name": "De Heeze",
+        "lat": "52.20061",
+        "lng": "5.95365"
+    },
+    {
+        "country": "NL",
+        "name": "Westenenk",
+        "lat": "52.19624",
+        "lng": "5.95656"
+    },
+    {
+        "country": "NL",
+        "name": "Winkewijert",
+        "lat": "52.19082",
+        "lng": "5.95794"
+    },
+    {
+        "country": "NL",
+        "name": "De Bouwhof",
+        "lat": "52.18546",
+        "lng": "5.94704"
+    },
+    {
+        "country": "NL",
+        "name": "Speelheide",
+        "lat": "51.50607",
+        "lng": "5.40519"
+    },
+    {
+        "country": "NL",
+        "name": "Salderes",
+        "lat": "51.51505",
+        "lng": "5.38991"
+    },
+    {
+        "country": "NL",
+        "name": "Jubbega",
+        "lat": "53.00396",
+        "lng": "6.12183"
+    },
+    {
+        "country": "NL",
+        "name": "Meerhoven",
+        "lat": "51.44267",
+        "lng": "5.41102"
+    },
+    {
+        "country": "NL",
+        "name": "Grasrijk",
+        "lat": "51.43916",
+        "lng": "5.41544"
+    },
+    {
+        "country": "NL",
+        "name": "Hoek",
+        "lat": "53.20455",
+        "lng": "5.80192"
+    },
+    {
+        "country": "NL",
+        "name": "De Knipe",
+        "lat": "52.96829",
+        "lng": "5.97116"
+    },
+    {
+        "country": "NL",
+        "name": "Lunetten",
+        "lat": "52.06178",
+        "lng": "5.13474"
+    },
+    {
+        "country": "NL",
+        "name": "Aarle-Rixtel",
+        "lat": "51.50976",
+        "lng": "5.63839"
+    },
+    {
+        "country": "NL",
+        "name": "Kelpen-Oler",
+        "lat": "51.21817",
+        "lng": "5.82602"
+    },
+    {
+        "country": "NL",
+        "name": "Muschberg en Geestenberg",
+        "lat": "51.44384",
+        "lng": "5.52329"
+    },
+    {
+        "country": "NL",
+        "name": "Villapark",
+        "lat": "51.44144",
+        "lng": "5.49385"
+    },
+    {
+        "country": "NL",
+        "name": "Lakerlopen",
+        "lat": "51.43791",
+        "lng": "5.50106"
+    },
+    {
+        "country": "NL",
+        "name": "Berkel en Rodenrijs",
+        "lat": "51.99313",
+        "lng": "4.47865"
+    },
+    {
+        "country": "NL",
+        "name": "Reitdiep",
+        "lat": "53.24252",
+        "lng": "6.51957"
+    },
+    {
+        "country": "NL",
+        "name": "Ypenburg",
+        "lat": "52.04098",
+        "lng": "4.36981"
+    },
+    {
+        "country": "NL",
+        "name": "Aldl\u00e2n-Oost",
+        "lat": "53.1886",
+        "lng": "5.82825"
+    },
+    {
+        "country": "NL",
+        "name": "Oranjewijk",
+        "lat": "52.04922",
+        "lng": "4.65374"
+    },
+    {
+        "country": "NL",
+        "name": "Vondelwijk",
+        "lat": "52.05497",
+        "lng": "4.65314"
+    },
+    {
+        "country": "NL",
+        "name": "Groenswaard",
+        "lat": "52.05154",
+        "lng": "4.64541"
+    },
+    {
+        "country": "NL",
+        "name": "Randenbroek",
+        "lat": "52.14863",
+        "lng": "5.4012"
+    },
+    {
+        "country": "NL",
+        "name": "Corlaer",
+        "lat": "52.21639",
+        "lng": "5.46535"
+    },
+    {
+        "country": "NL",
+        "name": "Kapelle",
+        "lat": "51.48627",
+        "lng": "3.95804"
+    },
+    {
+        "country": "NL",
+        "name": "Hoogkamp",
+        "lat": "51.9963",
+        "lng": "5.88026"
+    },
+    {
+        "country": "NL",
+        "name": "Gulden Bodem",
+        "lat": "51.99428",
+        "lng": "5.8908"
+    },
+    {
+        "country": "NL",
+        "name": "Sterrenberg",
+        "lat": "51.9935",
+        "lng": "5.88387"
+    },
+    {
+        "country": "NL",
+        "name": "Burgemeesterswijk",
+        "lat": "51.98943",
+        "lng": "5.89597"
+    },
+    {
+        "country": "NL",
+        "name": "Kop van Zuid",
+        "lat": "51.90553",
+        "lng": "4.48706"
+    },
+    {
+        "country": "NL",
+        "name": "'s-Gravenland",
+        "lat": "51.92336",
+        "lng": "4.55315"
+    },
+    {
+        "country": "NL",
+        "name": "Spechtenkamp",
+        "lat": "52.13926",
+        "lng": "5.01758"
+    },
+    {
+        "country": "NL",
+        "name": "Besterd",
+        "lat": "51.5638",
+        "lng": "5.08658"
+    },
+    {
+        "country": "NL",
+        "name": "Wisselaar",
+        "lat": "51.61286",
+        "lng": "4.78444"
+    },
+    {
+        "country": "NL",
+        "name": "Waterdonken",
+        "lat": "51.60959",
+        "lng": "4.80452"
+    },
+    {
+        "country": "NL",
+        "name": "Hunnerberg",
+        "lat": "51.84209",
+        "lng": "5.87876"
+    },
+    {
+        "country": "NL",
+        "name": "Son en Breugel",
+        "lat": "51.51654",
+        "lng": "5.49608"
+    }
+]

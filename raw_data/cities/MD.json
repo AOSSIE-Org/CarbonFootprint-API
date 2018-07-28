@@ -1,0 +1,440 @@
+[
+    {
+        "country": "MD",
+        "name": "Tiraspolul Nou",
+        "lat": "46.82874",
+        "lng": "29.52174"
+    },
+    {
+        "country": "MD",
+        "name": "Edinet",
+        "lat": "48.17215",
+        "lng": "27.30337"
+    },
+    {
+        "country": "MD",
+        "name": "Iargara",
+        "lat": "46.4252",
+        "lng": "28.42676"
+    },
+    {
+        "country": "MD",
+        "name": "Vulcanesti",
+        "lat": "45.68492",
+        "lng": "28.40613"
+    },
+    {
+        "country": "MD",
+        "name": "Visniovca",
+        "lat": "46.3326",
+        "lng": "28.44797"
+    },
+    {
+        "country": "MD",
+        "name": "Varnita",
+        "lat": "46.86606",
+        "lng": "29.46636"
+    },
+    {
+        "country": "MD",
+        "name": "Vadul lui Voda",
+        "lat": "47.09009",
+        "lng": "29.0757"
+    },
+    {
+        "country": "MD",
+        "name": "Ustia",
+        "lat": "47.25524",
+        "lng": "29.12406"
+    },
+    {
+        "country": "MD",
+        "name": "Ungheni",
+        "lat": "47.21079",
+        "lng": "27.80047"
+    },
+    {
+        "country": "MD",
+        "name": "Tvardi?a",
+        "lat": "46.14826",
+        "lng": "28.96491"
+    },
+    {
+        "country": "MD",
+        "name": "Tiraspol",
+        "lat": "46.84274",
+        "lng": "29.62909"
+    },
+    {
+        "country": "MD",
+        "name": "Telenesti",
+        "lat": "47.5011",
+        "lng": "28.36536"
+    },
+    {
+        "country": "MD",
+        "name": "Taraclia",
+        "lat": "45.90273",
+        "lng": "28.66816"
+    },
+    {
+        "country": "MD",
+        "name": "S\u00eengera",
+        "lat": "46.91557",
+        "lng": "28.96673"
+    },
+    {
+        "country": "MD",
+        "name": "Stefan Voda",
+        "lat": "46.51287",
+        "lng": "29.66193"
+    },
+    {
+        "country": "MD",
+        "name": "Stra?eni",
+        "lat": "47.14216",
+        "lng": "28.60774"
+    },
+    {
+        "country": "MD",
+        "name": "Stauceni",
+        "lat": "47.09643",
+        "lng": "28.86791"
+    },
+    {
+        "country": "MD",
+        "name": "Bilicenii Vechi",
+        "lat": "47.6558",
+        "lng": "28.04734"
+    },
+    {
+        "country": "MD",
+        "name": "Soroca",
+        "lat": "48.15659",
+        "lng": "28.28489"
+    },
+    {
+        "country": "MD",
+        "name": "Soldanesti",
+        "lat": "47.81608",
+        "lng": "28.79718"
+    },
+    {
+        "country": "MD",
+        "name": "Slobozia",
+        "lat": "46.72927",
+        "lng": "29.70446"
+    },
+    {
+        "country": "MD",
+        "name": "Saharna",
+        "lat": "47.69107",
+        "lng": "28.97458"
+    },
+    {
+        "country": "MD",
+        "name": "R\u00eescani",
+        "lat": "47.94792",
+        "lng": "27.56376"
+    },
+    {
+        "country": "MD",
+        "name": "R\u00eebnita",
+        "lat": "47.76817",
+        "lng": "29.01"
+    },
+    {
+        "country": "MD",
+        "name": "Rezina",
+        "lat": "47.74928",
+        "lng": "28.96583"
+    },
+    {
+        "country": "MD",
+        "name": "Pervomaisc",
+        "lat": "46.73253",
+        "lng": "29.9617"
+    },
+    {
+        "country": "MD",
+        "name": "Orhei",
+        "lat": "47.38494",
+        "lng": "28.82446"
+    },
+    {
+        "country": "MD",
+        "name": "Ocnita",
+        "lat": "48.38274",
+        "lng": "27.43805"
+    },
+    {
+        "country": "MD",
+        "name": "Anenii Noi",
+        "lat": "46.87839",
+        "lng": "29.23483"
+    },
+    {
+        "country": "MD",
+        "name": "Nisporeni",
+        "lat": "47.08159",
+        "lng": "28.17138"
+    },
+    {
+        "country": "MD",
+        "name": "M\u00eendresti",
+        "lat": "47.50525",
+        "lng": "28.27687"
+    },
+    {
+        "country": "MD",
+        "name": "Maiac",
+        "lat": "47.23727",
+        "lng": "29.38498"
+    },
+    {
+        "country": "MD",
+        "name": "Marculesti",
+        "lat": "47.86897",
+        "lng": "28.24109"
+    },
+    {
+        "country": "MD",
+        "name": "Leova",
+        "lat": "46.4823",
+        "lng": "28.25301"
+    },
+    {
+        "country": "MD",
+        "name": "S\u00eengerei",
+        "lat": "47.63632",
+        "lng": "28.14296"
+    },
+    {
+        "country": "MD",
+        "name": "Cricova",
+        "lat": "47.13835",
+        "lng": "28.86156"
+    },
+    {
+        "country": "MD",
+        "name": "Crasnoe",
+        "lat": "46.64844",
+        "lng": "29.80403"
+    },
+    {
+        "country": "MD",
+        "name": "H\u00eencesti",
+        "lat": "46.83047",
+        "lng": "28.59064"
+    },
+    {
+        "country": "MD",
+        "name": "Cocieri",
+        "lat": "47.3017",
+        "lng": "29.11755"
+    },
+    {
+        "country": "MD",
+        "name": "Chitcani",
+        "lat": "46.78296",
+        "lng": "29.61682"
+    },
+    {
+        "country": "MD",
+        "name": "Causeni",
+        "lat": "46.63674",
+        "lng": "29.41114"
+    },
+    {
+        "country": "MD",
+        "name": "Ialoveni",
+        "lat": "46.94346",
+        "lng": "28.78233"
+    },
+    {
+        "country": "MD",
+        "name": "Hryhoriopol",
+        "lat": "47.15413",
+        "lng": "29.30008"
+    },
+    {
+        "country": "MD",
+        "name": "Glodeni",
+        "lat": "47.77513",
+        "lng": "27.51891"
+    },
+    {
+        "country": "MD",
+        "name": "Ghinde?ti",
+        "lat": "47.85482",
+        "lng": "28.37679"
+    },
+    {
+        "country": "MD",
+        "name": "Floresti",
+        "lat": "47.89137",
+        "lng": "28.29312"
+    },
+    {
+        "country": "MD",
+        "name": "Fale?ti",
+        "lat": "47.57667",
+        "lng": "27.71264"
+    },
+    {
+        "country": "MD",
+        "name": "Giurgiulesti",
+        "lat": "45.48167",
+        "lng": "28.19722"
+    },
+    {
+        "country": "MD",
+        "name": "Dubasari",
+        "lat": "47.26562",
+        "lng": "29.16667"
+    },
+    {
+        "country": "MD",
+        "name": "Drochia",
+        "lat": "48.03555",
+        "lng": "27.81293"
+    },
+    {
+        "country": "MD",
+        "name": "Donduseni",
+        "lat": "48.24268",
+        "lng": "27.6101"
+    },
+    {
+        "country": "MD",
+        "name": "Dnestrovsc",
+        "lat": "46.6164",
+        "lng": "29.91926"
+    },
+    {
+        "country": "MD",
+        "name": "Dancu",
+        "lat": "46.75818",
+        "lng": "28.20716"
+    },
+    {
+        "country": "MD",
+        "name": "Criuleni",
+        "lat": "47.21307",
+        "lng": "29.15926"
+    },
+    {
+        "country": "MD",
+        "name": "Comrat",
+        "lat": "46.29456",
+        "lng": "28.6565"
+    },
+    {
+        "country": "MD",
+        "name": "Cimislia",
+        "lat": "46.52685",
+        "lng": "28.76441"
+    },
+    {
+        "country": "MD",
+        "name": "Chisinau",
+        "lat": "47.00556",
+        "lng": "28.8575"
+    },
+    {
+        "country": "MD",
+        "name": "Cead\u00eer-Lunga",
+        "lat": "46.06169",
+        "lng": "28.83078"
+    },
+    {
+        "country": "MD",
+        "name": "Cantemir",
+        "lat": "46.27743",
+        "lng": "28.2027"
+    },
+    {
+        "country": "MD",
+        "name": "Camenca",
+        "lat": "48.03233",
+        "lng": "28.69899"
+    },
+    {
+        "country": "MD",
+        "name": "Calarasi",
+        "lat": "47.2556",
+        "lng": "28.30987"
+    },
+    {
+        "country": "MD",
+        "name": "Cahul",
+        "lat": "45.90425",
+        "lng": "28.19929"
+    },
+    {
+        "country": "MD",
+        "name": "Bucovat",
+        "lat": "47.19064",
+        "lng": "28.45802"
+    },
+    {
+        "country": "MD",
+        "name": "Bugeac",
+        "lat": "46.36554",
+        "lng": "28.6625"
+    },
+    {
+        "country": "MD",
+        "name": "Briceni",
+        "lat": "48.36289",
+        "lng": "27.07787"
+    },
+    {
+        "country": "MD",
+        "name": "Briceni",
+        "lat": "48.35628",
+        "lng": "27.70293"
+    },
+    {
+        "country": "MD",
+        "name": "Bender",
+        "lat": "46.83156",
+        "lng": "29.47769"
+    },
+    {
+        "country": "MD",
+        "name": "Basarabeasca",
+        "lat": "46.3317",
+        "lng": "28.96365"
+    },
+    {
+        "country": "MD",
+        "name": "Balti",
+        "lat": "47.76314",
+        "lng": "27.92932"
+    },
+    {
+        "country": "MD",
+        "name": "Otaci",
+        "lat": "48.43285",
+        "lng": "27.79912"
+    },
+    {
+        "country": "MD",
+        "name": "Vatra",
+        "lat": "47.0746",
+        "lng": "28.73685"
+    },
+    {
+        "country": "MD",
+        "name": "Ciorescu",
+        "lat": "47.13",
+        "lng": "28.88937"
+    },
+    {
+        "country": "MD",
+        "name": "Biruinta",
+        "lat": "47.81353",
+        "lng": "28.07004"
+    }
+]

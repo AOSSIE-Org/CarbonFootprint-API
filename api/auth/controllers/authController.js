@@ -1,6 +1,8 @@
 const uuidv4 = require('uuid/v4');
 const uuidv5 = require('uuid/v5');
-
+const redis = require('../../../framework/redis');
+// import Redis client
+const redisClient = redis.redisClient;
 // import user model
 const User = require('../models/userModel');
 
@@ -13,13 +15,20 @@ const generateApiKey = email => {
 // get user from the database by its email address
 const retrieveApiKey = email => {
   return new Promise((resolve, reject) => {
-    // find the user in the database
-    User.findOne({
-      email: email
-    }, (err, user) => {
-      if (!err && user) {
-        resolve(user);
-      } else reject('Unable to find the user');
+    // find the user in the Redis cache
+    redisClient.hget('users', email, (err, result) => {
+      if(err || !result){
+        // find the user in the database
+        User.findOne({
+          email: email
+        }, (err, user) => {
+          if (!err && user) {
+            resolve(user);
+          } else reject('Unable to find the user');
+        });
+      }else {
+        resolve(JSON.parse(result));
+      }
     });
   });
 };
@@ -42,7 +51,13 @@ const createApiKey = email => {
         // + 24 * 3600 * 1000;
         user.save(err => {
           if (err) reject('Error while creating the key');
-          else resolve(user);
+          else {
+            // storing the user in the Redis cache
+            redisClient.hset('users', email, JSON.stringify(user.toObject()), (err) => {
+              if(err) reject('Error while creating the key');
+            });
+            resolve(user);
+          }
         });
       });
   });
@@ -57,7 +72,13 @@ const deleteApiKey = email => {
       if (!err && user) {
         user.remove(err => {
           if (err) reject('Unable to delete the key');
-          else resolve('Key deleted successfully');
+          else {
+            // delete the user from Redis
+            redisClient.hdel('users', email, (err) => {
+              if(!err) resolve('Key deleted successfully');
+              else reject('Unable to delete the key');
+            });
+          }
         });
       } else reject('Unable to delete the key');
     });

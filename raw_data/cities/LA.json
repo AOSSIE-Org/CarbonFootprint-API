@@ -1,0 +1,314 @@
+[
+    {
+        "country": "LA",
+        "name": "Vientiane",
+        "lat": "17.96667",
+        "lng": "102.6"
+    },
+    {
+        "country": "LA",
+        "name": "Xam Nua",
+        "lat": "20.41591",
+        "lng": "104.04838"
+    },
+    {
+        "country": "LA",
+        "name": "Savannakh\u00e9t",
+        "lat": "16.56505",
+        "lng": "104.75273"
+    },
+    {
+        "country": "LA",
+        "name": "Salavan",
+        "lat": "15.71652",
+        "lng": "106.41744"
+    },
+    {
+        "country": "LA",
+        "name": "Ph\u00f4ngsali",
+        "lat": "21.68372",
+        "lng": "102.10536"
+    },
+    {
+        "country": "LA",
+        "name": "Pakse",
+        "lat": "15.12022",
+        "lng": "105.79898"
+    },
+    {
+        "country": "LA",
+        "name": "Pakkading",
+        "lat": "18.32459",
+        "lng": "103.99378"
+    },
+    {
+        "country": "LA",
+        "name": "Ban Xiang-Ngeun",
+        "lat": "19.75859",
+        "lng": "102.18232"
+    },
+    {
+        "country": "LA",
+        "name": "Muang Xay",
+        "lat": "20.69229",
+        "lng": "101.98368"
+    },
+    {
+        "country": "LA",
+        "name": "Sainyabuli",
+        "lat": "19.25756",
+        "lng": "101.71032"
+    },
+    {
+        "country": "LA",
+        "name": "Vangviang",
+        "lat": "18.9235",
+        "lng": "102.44784"
+    },
+    {
+        "country": "LA",
+        "name": "Ban That\u00e8ng",
+        "lat": "15.43317",
+        "lng": "106.38272"
+    },
+    {
+        "country": "LA",
+        "name": "Muang Sing",
+        "lat": "21.19206",
+        "lng": "101.14789"
+    },
+    {
+        "country": "LA",
+        "name": "Muang Sanakham",
+        "lat": "17.91006",
+        "lng": "101.67348"
+    },
+    {
+        "country": "LA",
+        "name": "Ph\u00f4nthong",
+        "lat": "15.10116",
+        "lng": "105.65416"
+    },
+    {
+        "country": "LA",
+        "name": "Muang Ph\u00f4nsavan",
+        "lat": "19.45",
+        "lng": "103.21667"
+    },
+    {
+        "country": "LA",
+        "name": "Muang Ph\u00f4n-H\u00f4ng",
+        "lat": "18.49565",
+        "lng": "102.41421"
+    },
+    {
+        "country": "LA",
+        "name": "Muang Phin",
+        "lat": "16.53399",
+        "lng": "106.02401"
+    },
+    {
+        "country": "LA",
+        "name": "Pakxong",
+        "lat": "15.18154",
+        "lng": "106.23038"
+    },
+    {
+        "country": "LA",
+        "name": "Muang Pakxan",
+        "lat": "18.38261",
+        "lng": "103.65857"
+    },
+    {
+        "country": "LA",
+        "name": "Muang Mok",
+        "lat": "18.90997",
+        "lng": "104.00626"
+    },
+    {
+        "country": "LA",
+        "name": "Muang Long",
+        "lat": "20.96504",
+        "lng": "100.82074"
+    },
+    {
+        "country": "LA",
+        "name": "Ban Pakla",
+        "lat": "20.8694",
+        "lng": "102.11153"
+    },
+    {
+        "country": "LA",
+        "name": "Khoa",
+        "lat": "21.07833",
+        "lng": "102.50608"
+    },
+    {
+        "country": "LA",
+        "name": "Muang Kh\u00f4ng",
+        "lat": "14.11785",
+        "lng": "105.85469"
+    },
+    {
+        "country": "LA",
+        "name": "Thakh\u00e8k",
+        "lat": "17.41027",
+        "lng": "104.83068"
+    },
+    {
+        "country": "LA",
+        "name": "Muang K\u00e8nthao",
+        "lat": "17.73289",
+        "lng": "101.39815"
+    },
+    {
+        "country": "LA",
+        "name": "Muang Kasi",
+        "lat": "19.22926",
+        "lng": "102.25319"
+    },
+    {
+        "country": "LA",
+        "name": "Muang Hinboun",
+        "lat": "17.591",
+        "lng": "104.60388"
+    },
+    {
+        "country": "LA",
+        "name": "Luang Prabang",
+        "lat": "19.88601",
+        "lng": "102.13503"
+    },
+    {
+        "country": "LA",
+        "name": "Luang Namtha",
+        "lat": "20.9486",
+        "lng": "101.40188"
+    },
+    {
+        "country": "LA",
+        "name": "Muang Khamkeut",
+        "lat": "18.22572",
+        "lng": "104.73119"
+    },
+    {
+        "country": "LA",
+        "name": "Ban D\u00f4ngh\u00e9n",
+        "lat": "16.70297",
+        "lng": "105.28211"
+    },
+    {
+        "country": "LA",
+        "name": "Champasak",
+        "lat": "14.89204",
+        "lng": "105.87787"
+    },
+    {
+        "country": "LA",
+        "name": "Borikhan",
+        "lat": "18.56286",
+        "lng": "103.72671"
+    },
+    {
+        "country": "LA",
+        "name": "Lamam",
+        "lat": "15.41705",
+        "lng": "106.69461"
+    },
+    {
+        "country": "LA",
+        "name": "Ban Nahin",
+        "lat": "18.24253",
+        "lng": "104.21281"
+    },
+    {
+        "country": "LA",
+        "name": "Ban Houayxay",
+        "lat": "20.27652",
+        "lng": "100.41302"
+    },
+    {
+        "country": "LA",
+        "name": "Ban Hatgnao",
+        "lat": "14.6803",
+        "lng": "106.58212"
+    },
+    {
+        "country": "LA",
+        "name": "Ban Fangd\u00e8ng",
+        "lat": "14.8132",
+        "lng": "106.93434"
+    },
+    {
+        "country": "LA",
+        "name": "Attapeu",
+        "lat": "14.81071",
+        "lng": "106.83184"
+    },
+    {
+        "country": "LA",
+        "name": "Ban Houakhoua",
+        "lat": "20.2467",
+        "lng": "100.45401"
+    },
+    {
+        "country": "LA",
+        "name": "Ban Namnga",
+        "lat": "21.17193",
+        "lng": "102.72562"
+    },
+    {
+        "country": "LA",
+        "name": "Viangxai",
+        "lat": "20.40677",
+        "lng": "104.22379"
+    },
+    {
+        "country": "LA",
+        "name": "Muang Nal\u00e8",
+        "lat": "20.53212",
+        "lng": "101.44678"
+    },
+    {
+        "country": "LA",
+        "name": "Dak Cheung",
+        "lat": "15.46667",
+        "lng": "107.26667"
+    },
+    {
+        "country": "LA",
+        "name": "Sanaxy",
+        "lat": "15.02207",
+        "lng": "107.26016"
+    },
+    {
+        "country": "LA",
+        "name": "Huameung",
+        "lat": "20.14895",
+        "lng": "103.85895"
+    },
+    {
+        "country": "LA",
+        "name": "Viengxay",
+        "lat": "20.34222",
+        "lng": "104.34464"
+    },
+    {
+        "country": "LA",
+        "name": "Xamtay",
+        "lat": "19.94515",
+        "lng": "104.51722"
+    },
+    {
+        "country": "LA",
+        "name": "Viengthong",
+        "lat": "20.32792",
+        "lng": "103.40856"
+    },
+    {
+        "country": "LA",
+        "name": "Xaysetha",
+        "lat": "14.81444",
+        "lng": "106.93444"
+    }
+]

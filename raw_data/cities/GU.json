@@ -1,0 +1,134 @@
+[
+    {
+        "country": "GU",
+        "name": "Piti Village",
+        "lat": "13.46256",
+        "lng": "144.69331"
+    },
+    {
+        "country": "GU",
+        "name": "Santa Rita Village",
+        "lat": "13.38608",
+        "lng": "144.67226"
+    },
+    {
+        "country": "GU",
+        "name": "Sinajana Village",
+        "lat": "13.46334",
+        "lng": "144.75406"
+    },
+    {
+        "country": "GU",
+        "name": "Talofofo Village",
+        "lat": "13.35513",
+        "lng": "144.75835"
+    },
+    {
+        "country": "GU",
+        "name": "Tamuning-Tumon-Harmon Village",
+        "lat": "13.48773",
+        "lng": "144.78138"
+    },
+    {
+        "country": "GU",
+        "name": "Umatac Village",
+        "lat": "13.29843",
+        "lng": "144.66314"
+    },
+    {
+        "country": "GU",
+        "name": "Yigo Village",
+        "lat": "13.53605",
+        "lng": "144.88855"
+    },
+    {
+        "country": "GU",
+        "name": "Yona Village",
+        "lat": "13.40974",
+        "lng": "144.77697"
+    },
+    {
+        "country": "GU",
+        "name": "Merizo Village",
+        "lat": "13.26584",
+        "lng": "144.66908"
+    },
+    {
+        "country": "GU",
+        "name": "Inarajan Village",
+        "lat": "13.27363",
+        "lng": "144.74845"
+    },
+    {
+        "country": "GU",
+        "name": "Agana Heights Village",
+        "lat": "13.46559",
+        "lng": "144.74795"
+    },
+    {
+        "country": "GU",
+        "name": "Guam Government House",
+        "lat": "13.47191",
+        "lng": "144.74978"
+    },
+    {
+        "country": "GU",
+        "name": "Chalan Pago-Ordot Village",
+        "lat": "13.44741",
+        "lng": "144.75902"
+    },
+    {
+        "country": "GU",
+        "name": "Barrigada Village",
+        "lat": "13.46913",
+        "lng": "144.79901"
+    },
+    {
+        "country": "GU",
+        "name": "Agat Village",
+        "lat": "13.38855",
+        "lng": "144.65852"
+    },
+    {
+        "country": "GU",
+        "name": "Asan-Maina Village",
+        "lat": "13.47215",
+        "lng": "144.71654"
+    },
+    {
+        "country": "GU",
+        "name": "Dededo Village",
+        "lat": "13.51777",
+        "lng": "144.8391"
+    },
+    {
+        "country": "GU",
+        "name": "Hag\u00e5t\u00f1a",
+        "lat": "13.47567",
+        "lng": "144.74886"
+    },
+    {
+        "country": "GU",
+        "name": "Mangilao Village",
+        "lat": "13.44761",
+        "lng": "144.80109"
+    },
+    {
+        "country": "GU",
+        "name": "Mongmong-Toto-Maite Village",
+        "lat": "13.46857",
+        "lng": "144.78214"
+    },
+    {
+        "country": "GU",
+        "name": "Hag\u00e5t\u00f1a Village",
+        "lat": "13.47279",
+        "lng": "144.75802"
+    },
+    {
+        "country": "GU",
+        "name": "Tamuning",
+        "lat": "13.48754",
+        "lng": "144.78143"
+    }
+]

@@ -1,0 +1,8480 @@
+[
+    {
+        "country": "CH",
+        "name": "Zwingen",
+        "lat": "47.43825",
+        "lng": "7.53027"
+    },
+    {
+        "country": "CH",
+        "name": "Zweisimmen",
+        "lat": "46.55539",
+        "lng": "7.37302"
+    },
+    {
+        "country": "CH",
+        "name": "Zuzwil",
+        "lat": "47.47452",
+        "lng": "9.11196"
+    },
+    {
+        "country": "CH",
+        "name": "Bad Zurzach",
+        "lat": "47.58764",
+        "lng": "8.29365"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich",
+        "lat": "47.36667",
+        "lng": "8.55"
+    },
+    {
+        "country": "CH",
+        "name": "Zuoz",
+        "lat": "46.60206",
+        "lng": "9.95965"
+    },
+    {
+        "country": "CH",
+        "name": "Zunzgen",
+        "lat": "47.44925",
+        "lng": "7.80789"
+    },
+    {
+        "country": "CH",
+        "name": "Zumikon",
+        "lat": "47.33158",
+        "lng": "8.62271"
+    },
+    {
+        "country": "CH",
+        "name": "Zug",
+        "lat": "47.17242",
+        "lng": "8.51745"
+    },
+    {
+        "country": "CH",
+        "name": "Zuchwil",
+        "lat": "47.20173",
+        "lng": "7.56649"
+    },
+    {
+        "country": "CH",
+        "name": "Zollikon",
+        "lat": "47.34019",
+        "lng": "8.57407"
+    },
+    {
+        "country": "CH",
+        "name": "Zollikofen",
+        "lat": "46.99905",
+        "lng": "7.45809"
+    },
+    {
+        "country": "CH",
+        "name": "Zofingen",
+        "lat": "47.28779",
+        "lng": "7.94586"
+    },
+    {
+        "country": "CH",
+        "name": "Zizers",
+        "lat": "46.93575",
+        "lng": "9.56491"
+    },
+    {
+        "country": "CH",
+        "name": "Zernez",
+        "lat": "46.69862",
+        "lng": "10.09268"
+    },
+    {
+        "country": "CH",
+        "name": "Zermatt",
+        "lat": "46.01998",
+        "lng": "7.74863"
+    },
+    {
+        "country": "CH",
+        "name": "Zell",
+        "lat": "47.13673",
+        "lng": "7.92495"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00e4ziwil",
+        "lat": "46.90196",
+        "lng": "7.66185"
+    },
+    {
+        "country": "CH",
+        "name": "Yvonand",
+        "lat": "46.80034",
+        "lng": "6.74249"
+    },
+    {
+        "country": "CH",
+        "name": "Yverdon-les-Bains",
+        "lat": "46.77852",
+        "lng": "6.64115"
+    },
+    {
+        "country": "CH",
+        "name": "Wyssachen",
+        "lat": "47.07851",
+        "lng": "7.82922"
+    },
+    {
+        "country": "CH",
+        "name": "Wynigen",
+        "lat": "47.10586",
+        "lng": "7.66681"
+    },
+    {
+        "country": "CH",
+        "name": "Wynau",
+        "lat": "47.2557",
+        "lng": "7.81626"
+    },
+    {
+        "country": "CH",
+        "name": "W\u00fcrenlos",
+        "lat": "47.44205",
+        "lng": "8.36261"
+    },
+    {
+        "country": "CH",
+        "name": "W\u00fcrenlingen",
+        "lat": "47.53356",
+        "lng": "8.25666"
+    },
+    {
+        "country": "CH",
+        "name": "Worben",
+        "lat": "47.10279",
+        "lng": "7.29518"
+    },
+    {
+        "country": "CH",
+        "name": "Worb",
+        "lat": "46.92984",
+        "lng": "7.56306"
+    },
+    {
+        "country": "CH",
+        "name": "Wollerau",
+        "lat": "47.19478",
+        "lng": "8.71903"
+    },
+    {
+        "country": "CH",
+        "name": "Wolhusen",
+        "lat": "47.05983",
+        "lng": "8.07389"
+    },
+    {
+        "country": "CH",
+        "name": "Wolfwil",
+        "lat": "47.26871",
+        "lng": "7.79652"
+    },
+    {
+        "country": "CH",
+        "name": "W\u00f6lflinswil",
+        "lat": "47.4607",
+        "lng": "7.99835"
+    },
+    {
+        "country": "CH",
+        "name": "Wolfenschiessen",
+        "lat": "46.90322",
+        "lng": "8.39423"
+    },
+    {
+        "country": "CH",
+        "name": "Wohlen",
+        "lat": "47.35066",
+        "lng": "8.27517"
+    },
+    {
+        "country": "CH",
+        "name": "Wohlen",
+        "lat": "46.97118",
+        "lng": "7.35685"
+    },
+    {
+        "country": "CH",
+        "name": "Wittnau",
+        "lat": "47.48139",
+        "lng": "7.97577"
+    },
+    {
+        "country": "CH",
+        "name": "Wittenbach",
+        "lat": "47.46108",
+        "lng": "9.38601"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 7) / Witikon",
+        "lat": "47.35751",
+        "lng": "8.59105"
+    },
+    {
+        "country": "CH",
+        "name": "Winterthur",
+        "lat": "47.50564",
+        "lng": "8.72413"
+    },
+    {
+        "country": "CH",
+        "name": "Windisch",
+        "lat": "47.47899",
+        "lng": "8.21842"
+    },
+    {
+        "country": "CH",
+        "name": "Wimmis",
+        "lat": "46.67587",
+        "lng": "7.63972"
+    },
+    {
+        "country": "CH",
+        "name": "Willisau",
+        "lat": "47.12183",
+        "lng": "7.99418"
+    },
+    {
+        "country": "CH",
+        "name": "Wildhaus",
+        "lat": "47.20583",
+        "lng": "9.35402"
+    },
+    {
+        "country": "CH",
+        "name": "Wilderswil",
+        "lat": "46.66369",
+        "lng": "7.86175"
+    },
+    {
+        "country": "CH",
+        "name": "Wilchingen",
+        "lat": "47.66745",
+        "lng": "8.46774"
+    },
+    {
+        "country": "CH",
+        "name": "Wila",
+        "lat": "47.41928",
+        "lng": "8.84524"
+    },
+    {
+        "country": "CH",
+        "name": "Wil",
+        "lat": "47.46152",
+        "lng": "9.04552"
+    },
+    {
+        "country": "CH",
+        "name": "Wikon",
+        "lat": "47.26339",
+        "lng": "7.96801"
+    },
+    {
+        "country": "CH",
+        "name": "Wigoltingen",
+        "lat": "47.5977",
+        "lng": "9.03141"
+    },
+    {
+        "country": "CH",
+        "name": "Wiesendangen / Wiesendangen (Dorf)",
+        "lat": "47.5217",
+        "lng": "8.78967"
+    },
+    {
+        "country": "CH",
+        "name": "Wiedlisbach",
+        "lat": "47.25194",
+        "lng": "7.6461"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 3) / Alt-Wiedikon",
+        "lat": "47.36201",
+        "lng": "8.51497"
+    },
+    {
+        "country": "CH",
+        "name": "Wetzikon",
+        "lat": "47.3264",
+        "lng": "8.79779"
+    },
+    {
+        "country": "CH",
+        "name": "Wettingen",
+        "lat": "47.47049",
+        "lng": "8.31636"
+    },
+    {
+        "country": "CH",
+        "name": "Werthenstein",
+        "lat": "47.05578",
+        "lng": "8.10182"
+    },
+    {
+        "country": "CH",
+        "name": "Welschenrohr",
+        "lat": "47.28052",
+        "lng": "7.52664"
+    },
+    {
+        "country": "CH",
+        "name": "Weisslingen",
+        "lat": "47.43063",
+        "lng": "8.76787"
+    },
+    {
+        "country": "CH",
+        "name": "Weiningen",
+        "lat": "47.42022",
+        "lng": "8.43644"
+    },
+    {
+        "country": "CH",
+        "name": "Weinfelden",
+        "lat": "47.56667",
+        "lng": "9.1"
+    },
+    {
+        "country": "CH",
+        "name": "Weggis",
+        "lat": "47.03208",
+        "lng": "8.43219"
+    },
+    {
+        "country": "CH",
+        "name": "Wegenstetten",
+        "lat": "47.49797",
+        "lng": "7.93141"
+    },
+    {
+        "country": "CH",
+        "name": "Weesen",
+        "lat": "47.13447",
+        "lng": "9.09644"
+    },
+    {
+        "country": "CH",
+        "name": "Wauwil",
+        "lat": "47.18457",
+        "lng": "8.021"
+    },
+    {
+        "country": "CH",
+        "name": "Wattwil",
+        "lat": "47.29955",
+        "lng": "9.08657"
+    },
+    {
+        "country": "CH",
+        "name": "Wattenwil",
+        "lat": "46.76973",
+        "lng": "7.50835"
+    },
+    {
+        "country": "CH",
+        "name": "W\u00e4ngi",
+        "lat": "47.49654",
+        "lng": "8.95325"
+    },
+    {
+        "country": "CH",
+        "name": "Wangen an der Aare",
+        "lat": "47.23208",
+        "lng": "7.65253"
+    },
+    {
+        "country": "CH",
+        "name": "Wangen",
+        "lat": "47.34365",
+        "lng": "7.86982"
+    },
+    {
+        "country": "CH",
+        "name": "Walzenhausen",
+        "lat": "47.44867",
+        "lng": "9.60495"
+    },
+    {
+        "country": "CH",
+        "name": "Waltenschwil",
+        "lat": "47.33339",
+        "lng": "8.29791"
+    },
+    {
+        "country": "CH",
+        "name": "Wallisellen",
+        "lat": "47.41499",
+        "lng": "8.59672"
+    },
+    {
+        "country": "CH",
+        "name": "Walenstadt",
+        "lat": "47.12411",
+        "lng": "9.31194"
+    },
+    {
+        "country": "CH",
+        "name": "Walkringen",
+        "lat": "46.94856",
+        "lng": "7.6204"
+    },
+    {
+        "country": "CH",
+        "name": "Waldstatt",
+        "lat": "47.35627",
+        "lng": "9.28345"
+    },
+    {
+        "country": "CH",
+        "name": "Waldkirch",
+        "lat": "47.46859",
+        "lng": "9.28665"
+    },
+    {
+        "country": "CH",
+        "name": "Waldenburg",
+        "lat": "47.38333",
+        "lng": "7.75"
+    },
+    {
+        "country": "CH",
+        "name": "Wald",
+        "lat": "47.27595",
+        "lng": "8.91405"
+    },
+    {
+        "country": "CH",
+        "name": "Walchwil",
+        "lat": "47.10169",
+        "lng": "8.51693"
+    },
+    {
+        "country": "CH",
+        "name": "Wahlen",
+        "lat": "47.40226",
+        "lng": "7.51511"
+    },
+    {
+        "country": "CH",
+        "name": "Wagenhausen",
+        "lat": "47.66003",
+        "lng": "8.84782"
+    },
+    {
+        "country": "CH",
+        "name": "W\u00e4denswil",
+        "lat": "47.22683",
+        "lng": "8.6687"
+    },
+    {
+        "country": "CH",
+        "name": "Vuadens",
+        "lat": "46.61545",
+        "lng": "7.01732"
+    },
+    {
+        "country": "CH",
+        "name": "Vouvry",
+        "lat": "46.33746",
+        "lng": "6.8895"
+    },
+    {
+        "country": "CH",
+        "name": "Vorderthal",
+        "lat": "47.12172",
+        "lng": "8.90225"
+    },
+    {
+        "country": "CH",
+        "name": "Vordemwald",
+        "lat": "47.27585",
+        "lng": "7.90114"
+    },
+    {
+        "country": "CH",
+        "name": "Volketswil / Volketswil (Dorf)",
+        "lat": "47.39016",
+        "lng": "8.69085"
+    },
+    {
+        "country": "CH",
+        "name": "Vitznau",
+        "lat": "47.01014",
+        "lng": "8.4842"
+    },
+    {
+        "country": "CH",
+        "name": "Visperterminen",
+        "lat": "46.25899",
+        "lng": "7.90192"
+    },
+    {
+        "country": "CH",
+        "name": "Visp",
+        "lat": "46.2937",
+        "lng": "7.88149"
+    },
+    {
+        "country": "CH",
+        "name": "Vionnaz",
+        "lat": "46.31101",
+        "lng": "6.90062"
+    },
+    {
+        "country": "CH",
+        "name": "Villnachern",
+        "lat": "47.47098",
+        "lng": "8.15975"
+    },
+    {
+        "country": "CH",
+        "name": "Villmergen",
+        "lat": "47.35009",
+        "lng": "8.24762"
+    },
+    {
+        "country": "CH",
+        "name": "Villigen",
+        "lat": "47.52682",
+        "lng": "8.21486"
+    },
+    {
+        "country": "CH",
+        "name": "Villeneuve",
+        "lat": "46.39869",
+        "lng": "6.92654"
+    },
+    {
+        "country": "CH",
+        "name": "Villaz-Saint-Pierre",
+        "lat": "46.72074",
+        "lng": "6.95638"
+    },
+    {
+        "country": "CH",
+        "name": "Villars-sur-Ollon",
+        "lat": "46.29832",
+        "lng": "7.05631"
+    },
+    {
+        "country": "CH",
+        "name": "Villars-sur-Gl\u00e2ne",
+        "lat": "46.79054",
+        "lng": "7.11717"
+    },
+    {
+        "country": "CH",
+        "name": "Viganello",
+        "lat": "46.01342",
+        "lng": "8.96879"
+    },
+    {
+        "country": "CH",
+        "name": "Vicques",
+        "lat": "47.35",
+        "lng": "7.41342"
+    },
+    {
+        "country": "CH",
+        "name": "Veyrier",
+        "lat": "46.16699",
+        "lng": "6.18436"
+    },
+    {
+        "country": "CH",
+        "name": "Vex",
+        "lat": "46.21239",
+        "lng": "7.39826"
+    },
+    {
+        "country": "CH",
+        "name": "Vevey",
+        "lat": "46.46299",
+        "lng": "6.84345"
+    },
+    {
+        "country": "CH",
+        "name": "V\u00e9troz",
+        "lat": "46.22171",
+        "lng": "7.27858"
+    },
+    {
+        "country": "CH",
+        "name": "Versoix",
+        "lat": "46.28382",
+        "lng": "6.16214"
+    },
+    {
+        "country": "CH",
+        "name": "Verscio",
+        "lat": "46.18482",
+        "lng": "8.73224"
+    },
+    {
+        "country": "CH",
+        "name": "Vernier",
+        "lat": "46.21702",
+        "lng": "6.08497"
+    },
+    {
+        "country": "CH",
+        "name": "Vernayaz",
+        "lat": "46.13667",
+        "lng": "7.03906"
+    },
+    {
+        "country": "CH",
+        "name": "Verbier",
+        "lat": "46.1002",
+        "lng": "7.22651"
+    },
+    {
+        "country": "CH",
+        "name": "Veltheim (Kreis 5)",
+        "lat": "47.51419",
+        "lng": "8.717"
+    },
+    {
+        "country": "CH",
+        "name": "Veltheim",
+        "lat": "47.43796",
+        "lng": "8.14722"
+    },
+    {
+        "country": "CH",
+        "name": "Vechigen",
+        "lat": "46.94616",
+        "lng": "7.56065"
+    },
+    {
+        "country": "CH",
+        "name": "Varen",
+        "lat": "46.3186",
+        "lng": "7.60743"
+    },
+    {
+        "country": "CH",
+        "name": "Vand\u0153uvres",
+        "lat": "46.22179",
+        "lng": "6.20285"
+    },
+    {
+        "country": "CH",
+        "name": "Vals Platz",
+        "lat": "46.61647",
+        "lng": "9.18025"
+    },
+    {
+        "country": "CH",
+        "name": "Vallorbe",
+        "lat": "46.71256",
+        "lng": "6.37894"
+    },
+    {
+        "country": "CH",
+        "name": "Uzwil",
+        "lat": "47.43653",
+        "lng": "9.13422"
+    },
+    {
+        "country": "CH",
+        "name": "Uznach",
+        "lat": "47.22421",
+        "lng": "8.98263"
+    },
+    {
+        "country": "CH",
+        "name": "Utzenstorf",
+        "lat": "47.13248",
+        "lng": "7.55355"
+    },
+    {
+        "country": "CH",
+        "name": "Uttwil",
+        "lat": "47.5844",
+        "lng": "9.34101"
+    },
+    {
+        "country": "CH",
+        "name": "Uttigen",
+        "lat": "46.79435",
+        "lng": "7.57789"
+    },
+    {
+        "country": "CH",
+        "name": "Uster",
+        "lat": "47.34713",
+        "lng": "8.72091"
+    },
+    {
+        "country": "CH",
+        "name": "Urtenen",
+        "lat": "47.02667",
+        "lng": "7.50081"
+    },
+    {
+        "country": "CH",
+        "name": "Urn\u00e4sch",
+        "lat": "47.31669",
+        "lng": "9.2795"
+    },
+    {
+        "country": "CH",
+        "name": "Wetzikon / Unter-Wetzikon",
+        "lat": "47.31637",
+        "lng": "8.79369"
+    },
+    {
+        "country": "CH",
+        "name": "Untervaz",
+        "lat": "46.9275",
+        "lng": "9.53422"
+    },
+    {
+        "country": "CH",
+        "name": "Untersiggenthal",
+        "lat": "47.50213",
+        "lng": "8.25554"
+    },
+    {
+        "country": "CH",
+        "name": "Unterseen",
+        "lat": "46.6853",
+        "lng": "7.84722"
+    },
+    {
+        "country": "CH",
+        "name": "Unterlunkhofen",
+        "lat": "47.3212",
+        "lng": "8.38102"
+    },
+    {
+        "country": "CH",
+        "name": "Unterkulm",
+        "lat": "47.30998",
+        "lng": "8.11371"
+    },
+    {
+        "country": "CH",
+        "name": "Illnau / Unter-Illnau",
+        "lat": "47.40787",
+        "lng": "8.72607"
+    },
+    {
+        "country": "CH",
+        "name": "Unteriberg",
+        "lat": "47.06258",
+        "lng": "8.8052"
+    },
+    {
+        "country": "CH",
+        "name": "Unterengstringen",
+        "lat": "47.41396",
+        "lng": "8.44761"
+    },
+    {
+        "country": "CH",
+        "name": "Ehrendingen",
+        "lat": "47.5025",
+        "lng": "8.34729"
+    },
+    {
+        "country": "CH",
+        "name": "Unter\u00e4geri",
+        "lat": "47.13645",
+        "lng": "8.5853"
+    },
+    {
+        "country": "CH",
+        "name": "Uitikon",
+        "lat": "47.36911",
+        "lng": "8.45699"
+    },
+    {
+        "country": "CH",
+        "name": "Uhwiesen",
+        "lat": "47.67074",
+        "lng": "8.63542"
+    },
+    {
+        "country": "CH",
+        "name": "Uetikon",
+        "lat": "47.26441",
+        "lng": "8.67925"
+    },
+    {
+        "country": "CH",
+        "name": "Uetendorf",
+        "lat": "46.77392",
+        "lng": "7.57251"
+    },
+    {
+        "country": "CH",
+        "name": "Uerkheim",
+        "lat": "47.30353",
+        "lng": "8.0232"
+    },
+    {
+        "country": "CH",
+        "name": "Uerikon",
+        "lat": "47.23672",
+        "lng": "8.7573"
+    },
+    {
+        "country": "CH",
+        "name": "Ueberstorf",
+        "lat": "46.86587",
+        "lng": "7.30998"
+    },
+    {
+        "country": "CH",
+        "name": "Udligenswil",
+        "lat": "47.09005",
+        "lng": "8.40335"
+    },
+    {
+        "country": "CH",
+        "name": "Turtmann",
+        "lat": "46.30028",
+        "lng": "7.702"
+    },
+    {
+        "country": "CH",
+        "name": "Turgi",
+        "lat": "47.49201",
+        "lng": "8.25412"
+    },
+    {
+        "country": "CH",
+        "name": "Turbenthal",
+        "lat": "47.43633",
+        "lng": "8.84629"
+    },
+    {
+        "country": "CH",
+        "name": "Tuggen",
+        "lat": "47.20291",
+        "lng": "8.94896"
+    },
+    {
+        "country": "CH",
+        "name": "Trun",
+        "lat": "46.74292",
+        "lng": "8.98716"
+    },
+    {
+        "country": "CH",
+        "name": "Trubschachen",
+        "lat": "46.92228",
+        "lng": "7.8452"
+    },
+    {
+        "country": "CH",
+        "name": "Trub",
+        "lat": "46.94168",
+        "lng": "7.87996"
+    },
+    {
+        "country": "CH",
+        "name": "Troistorrents",
+        "lat": "46.2289",
+        "lng": "6.91589"
+    },
+    {
+        "country": "CH",
+        "name": "Trogen",
+        "lat": "47.40782",
+        "lng": "9.46498"
+    },
+    {
+        "country": "CH",
+        "name": "Trimmis",
+        "lat": "46.90075",
+        "lng": "9.5612"
+    },
+    {
+        "country": "CH",
+        "name": "Trimbach",
+        "lat": "47.36561",
+        "lng": "7.8868"
+    },
+    {
+        "country": "CH",
+        "name": "Triengen",
+        "lat": "47.23573",
+        "lng": "8.07652"
+    },
+    {
+        "country": "CH",
+        "name": "Treyvaux",
+        "lat": "46.72796",
+        "lng": "7.13769"
+    },
+    {
+        "country": "CH",
+        "name": "Tr\u00e9lex",
+        "lat": "46.41538",
+        "lng": "6.20813"
+    },
+    {
+        "country": "CH",
+        "name": "Travers",
+        "lat": "46.94018",
+        "lng": "6.67595"
+    },
+    {
+        "country": "CH",
+        "name": "Tramelan",
+        "lat": "47.22298",
+        "lng": "7.10287"
+    },
+    {
+        "country": "CH",
+        "name": "Trachselwald",
+        "lat": "47.01699",
+        "lng": "7.73639"
+    },
+    {
+        "country": "CH",
+        "name": "T\u00f6ss (Kreis 4)",
+        "lat": "47.4789",
+        "lng": "8.70215"
+    },
+    {
+        "country": "CH",
+        "name": "Toffen",
+        "lat": "46.86031",
+        "lng": "7.49216"
+    },
+    {
+        "country": "CH",
+        "name": "Tiefencastel",
+        "lat": "46.66014",
+        "lng": "9.57883"
+    },
+    {
+        "country": "CH",
+        "name": "Thusis",
+        "lat": "46.69724",
+        "lng": "9.43938"
+    },
+    {
+        "country": "CH",
+        "name": "Thundorf",
+        "lat": "47.54594",
+        "lng": "8.96358"
+    },
+    {
+        "country": "CH",
+        "name": "Thun",
+        "lat": "46.75118",
+        "lng": "7.62166"
+    },
+    {
+        "country": "CH",
+        "name": "Thierachern",
+        "lat": "46.75319",
+        "lng": "7.57442"
+    },
+    {
+        "country": "CH",
+        "name": "Therwil",
+        "lat": "47.49941",
+        "lng": "7.55669"
+    },
+    {
+        "country": "CH",
+        "name": "Thayngen",
+        "lat": "47.74717",
+        "lng": "8.70724"
+    },
+    {
+        "country": "CH",
+        "name": "Thalwil",
+        "lat": "47.29175",
+        "lng": "8.56351"
+    },
+    {
+        "country": "CH",
+        "name": "Teufenthal",
+        "lat": "47.32896",
+        "lng": "8.11777"
+    },
+    {
+        "country": "CH",
+        "name": "Teufen",
+        "lat": "47.3908",
+        "lng": "9.38644"
+    },
+    {
+        "country": "CH",
+        "name": "Tesserete",
+        "lat": "46.06813",
+        "lng": "8.96501"
+    },
+    {
+        "country": "CH",
+        "name": "Tegerfelden",
+        "lat": "47.55809",
+        "lng": "8.28914"
+    },
+    {
+        "country": "CH",
+        "name": "Tavannes",
+        "lat": "47.22079",
+        "lng": "7.19759"
+    },
+    {
+        "country": "CH",
+        "name": "T\u00e4uffelen",
+        "lat": "47.0663",
+        "lng": "7.19883"
+    },
+    {
+        "country": "CH",
+        "name": "Tann",
+        "lat": "47.26898",
+        "lng": "8.85024"
+    },
+    {
+        "country": "CH",
+        "name": "Tanay",
+        "lat": "46.34503",
+        "lng": "6.83041"
+    },
+    {
+        "country": "CH",
+        "name": "Tamins",
+        "lat": "46.82964",
+        "lng": "9.40648"
+    },
+    {
+        "country": "CH",
+        "name": "T\u00e4gerwilen",
+        "lat": "47.65698",
+        "lng": "9.13999"
+    },
+    {
+        "country": "CH",
+        "name": "Tafers",
+        "lat": "46.81483",
+        "lng": "7.21852"
+    },
+    {
+        "country": "CH",
+        "name": "Sursee",
+        "lat": "47.17088",
+        "lng": "8.11113"
+    },
+    {
+        "country": "CH",
+        "name": "Sumiswald",
+        "lat": "47.02747",
+        "lng": "7.74526"
+    },
+    {
+        "country": "CH",
+        "name": "Sulz",
+        "lat": "47.53602",
+        "lng": "8.09628"
+    },
+    {
+        "country": "CH",
+        "name": "Sulgen",
+        "lat": "47.53967",
+        "lng": "9.18585"
+    },
+    {
+        "country": "CH",
+        "name": "Suhr",
+        "lat": "47.37172",
+        "lng": "8.07967"
+    },
+    {
+        "country": "CH",
+        "name": "Subingen",
+        "lat": "47.19852",
+        "lng": "7.61949"
+    },
+    {
+        "country": "CH",
+        "name": "Strengelbach",
+        "lat": "47.27917",
+        "lng": "7.92895"
+    },
+    {
+        "country": "CH",
+        "name": "Stettlen",
+        "lat": "46.95835",
+        "lng": "7.52508"
+    },
+    {
+        "country": "CH",
+        "name": "Stettfurt",
+        "lat": "47.52588",
+        "lng": "8.95317"
+    },
+    {
+        "country": "CH",
+        "name": "Steinhausen",
+        "lat": "47.1951",
+        "lng": "8.48581"
+    },
+    {
+        "country": "CH",
+        "name": "Steinen",
+        "lat": "47.04975",
+        "lng": "8.61214"
+    },
+    {
+        "country": "CH",
+        "name": "Stein am Rhein",
+        "lat": "47.65933",
+        "lng": "8.85964"
+    },
+    {
+        "country": "CH",
+        "name": "Stein",
+        "lat": "47.54403",
+        "lng": "7.95256"
+    },
+    {
+        "country": "CH",
+        "name": "Steffisburg",
+        "lat": "46.77807",
+        "lng": "7.63249"
+    },
+    {
+        "country": "CH",
+        "name": "Steckborn",
+        "lat": "47.66667",
+        "lng": "8.98333"
+    },
+    {
+        "country": "CH",
+        "name": "Staufen",
+        "lat": "47.38197",
+        "lng": "8.16681"
+    },
+    {
+        "country": "CH",
+        "name": "Stansstad",
+        "lat": "46.9768",
+        "lng": "8.33553"
+    },
+    {
+        "country": "CH",
+        "name": "Stans",
+        "lat": "46.95805",
+        "lng": "8.36609"
+    },
+    {
+        "country": "CH",
+        "name": "Stalden",
+        "lat": "46.23341",
+        "lng": "7.87273"
+    },
+    {
+        "country": "CH",
+        "name": "Staffelbach",
+        "lat": "47.28395",
+        "lng": "8.04208"
+    },
+    {
+        "country": "CH",
+        "name": "St\u00e4fa",
+        "lat": "47.24254",
+        "lng": "8.72342"
+    },
+    {
+        "country": "CH",
+        "name": "Stabio",
+        "lat": "45.84846",
+        "lng": "8.93642"
+    },
+    {
+        "country": "CH",
+        "name": "Spreitenbach",
+        "lat": "47.42285",
+        "lng": "8.36792"
+    },
+    {
+        "country": "CH",
+        "name": "Spiez",
+        "lat": "46.68473",
+        "lng": "7.69111"
+    },
+    {
+        "country": "CH",
+        "name": "Speicher",
+        "lat": "47.4109",
+        "lng": "9.44335"
+    },
+    {
+        "country": "CH",
+        "name": "Sottens",
+        "lat": "46.65521",
+        "lng": "6.74197"
+    },
+    {
+        "country": "CH",
+        "name": "Sorengo",
+        "lat": "45.99766",
+        "lng": "8.93783"
+    },
+    {
+        "country": "CH",
+        "name": "Solothurn",
+        "lat": "47.20791",
+        "lng": "7.53714"
+    },
+    {
+        "country": "CH",
+        "name": "Sissach",
+        "lat": "47.46408",
+        "lng": "7.80888"
+    },
+    {
+        "country": "CH",
+        "name": "Sirnach",
+        "lat": "47.46222",
+        "lng": "8.99763"
+    },
+    {
+        "country": "CH",
+        "name": "Sitten",
+        "lat": "46.22739",
+        "lng": "7.35559"
+    },
+    {
+        "country": "CH",
+        "name": "Sins",
+        "lat": "47.19296",
+        "lng": "8.39384"
+    },
+    {
+        "country": "CH",
+        "name": "Silvaplana",
+        "lat": "46.4581",
+        "lng": "9.79514"
+    },
+    {
+        "country": "CH",
+        "name": "Silenen",
+        "lat": "46.7891",
+        "lng": "8.67325"
+    },
+    {
+        "country": "CH",
+        "name": "Sigriswil",
+        "lat": "46.71656",
+        "lng": "7.71335"
+    },
+    {
+        "country": "CH",
+        "name": "Signau",
+        "lat": "46.91944",
+        "lng": "7.72418"
+    },
+    {
+        "country": "CH",
+        "name": "Sierre",
+        "lat": "46.29192",
+        "lng": "7.53559"
+    },
+    {
+        "country": "CH",
+        "name": "Siebnen",
+        "lat": "47.17449",
+        "lng": "8.89781"
+    },
+    {
+        "country": "CH",
+        "name": "Sevelen",
+        "lat": "47.12213",
+        "lng": "9.48601"
+    },
+    {
+        "country": "CH",
+        "name": "Seuzach / Seuzach (Dorf)",
+        "lat": "47.53545",
+        "lng": "8.73728"
+    },
+    {
+        "country": "CH",
+        "name": "Seon",
+        "lat": "47.34848",
+        "lng": "8.16072"
+    },
+    {
+        "country": "CH",
+        "name": "Sennwald",
+        "lat": "47.26063",
+        "lng": "9.50268"
+    },
+    {
+        "country": "CH",
+        "name": "Sempach",
+        "lat": "47.13577",
+        "lng": "8.19149"
+    },
+    {
+        "country": "CH",
+        "name": "Sementina",
+        "lat": "46.18363",
+        "lng": "8.99162"
+    },
+    {
+        "country": "CH",
+        "name": "Selzach",
+        "lat": "47.20531",
+        "lng": "7.45521"
+    },
+    {
+        "country": "CH",
+        "name": "Seltisberg",
+        "lat": "47.46249",
+        "lng": "7.72039"
+    },
+    {
+        "country": "CH",
+        "name": "Seftigen",
+        "lat": "46.78765",
+        "lng": "7.53937"
+    },
+    {
+        "country": "CH",
+        "name": "Seengen",
+        "lat": "47.32503",
+        "lng": "8.20724"
+    },
+    {
+        "country": "CH",
+        "name": "Seedorf",
+        "lat": "47.03445",
+        "lng": "7.31249"
+    },
+    {
+        "country": "CH",
+        "name": "Seedorf",
+        "lat": "46.88199",
+        "lng": "8.61611"
+    },
+    {
+        "country": "CH",
+        "name": "Seeberg",
+        "lat": "47.15585",
+        "lng": "7.66567"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 11) / Seebach",
+        "lat": "47.42181",
+        "lng": "8.54779"
+    },
+    {
+        "country": "CH",
+        "name": "Scuol",
+        "lat": "46.79671",
+        "lng": "10.29804"
+    },
+    {
+        "country": "CH",
+        "name": "Schwyz",
+        "lat": "47.02076",
+        "lng": "8.65414"
+    },
+    {
+        "country": "CH",
+        "name": "Schwellbrunn",
+        "lat": "47.35255",
+        "lng": "9.24894"
+    },
+    {
+        "country": "CH",
+        "name": "Schwarzenberg",
+        "lat": "47.01705",
+        "lng": "8.17261"
+    },
+    {
+        "country": "CH",
+        "name": "Schwanden",
+        "lat": "46.99541",
+        "lng": "9.0701"
+    },
+    {
+        "country": "CH",
+        "name": "Schwaderloch",
+        "lat": "47.58541",
+        "lng": "8.14455"
+    },
+    {
+        "country": "CH",
+        "name": "Sch\u00fcpfheim",
+        "lat": "46.95161",
+        "lng": "8.01723"
+    },
+    {
+        "country": "CH",
+        "name": "Sch\u00fcpfen",
+        "lat": "47.03661",
+        "lng": "7.37723"
+    },
+    {
+        "country": "CH",
+        "name": "Sch\u00fcbelbach",
+        "lat": "47.17326",
+        "lng": "8.92811"
+    },
+    {
+        "country": "CH",
+        "name": "Sch\u00f6tz",
+        "lat": "47.16896",
+        "lng": "7.9887"
+    },
+    {
+        "country": "CH",
+        "name": "Sch\u00f6nenwerd",
+        "lat": "47.3691",
+        "lng": "8.00167"
+    },
+    {
+        "country": "CH",
+        "name": "Sch\u00f6nenbuch",
+        "lat": "47.53853",
+        "lng": "7.50572"
+    },
+    {
+        "country": "CH",
+        "name": "Sch\u00f6ftland",
+        "lat": "47.3059",
+        "lng": "8.05119"
+    },
+    {
+        "country": "CH",
+        "name": "Schmitten",
+        "lat": "46.8575",
+        "lng": "7.25031"
+    },
+    {
+        "country": "CH",
+        "name": "Schmerikon",
+        "lat": "47.22538",
+        "lng": "8.94836"
+    },
+    {
+        "country": "CH",
+        "name": "Schlieren",
+        "lat": "47.39668",
+        "lng": "8.44763"
+    },
+    {
+        "country": "CH",
+        "name": "Schleitheim",
+        "lat": "47.74818",
+        "lng": "8.48213"
+    },
+    {
+        "country": "CH",
+        "name": "Schinznach Dorf",
+        "lat": "47.4465",
+        "lng": "8.14089"
+    },
+    {
+        "country": "CH",
+        "name": "Schinznach Bad",
+        "lat": "47.44992",
+        "lng": "8.16833"
+    },
+    {
+        "country": "CH",
+        "name": "Schindellegi",
+        "lat": "47.1746",
+        "lng": "8.71345"
+    },
+    {
+        "country": "CH",
+        "name": "Schiers",
+        "lat": "46.96973",
+        "lng": "9.6872"
+    },
+    {
+        "country": "CH",
+        "name": "Schenkon",
+        "lat": "47.1683",
+        "lng": "8.14384"
+    },
+    {
+        "country": "CH",
+        "name": "Schattdorf",
+        "lat": "46.8655",
+        "lng": "8.65465"
+    },
+    {
+        "country": "CH",
+        "name": "Scharans",
+        "lat": "46.71814",
+        "lng": "9.45903"
+    },
+    {
+        "country": "CH",
+        "name": "Sch\u00e4nis",
+        "lat": "47.15995",
+        "lng": "9.04549"
+    },
+    {
+        "country": "CH",
+        "name": "Schafisheim",
+        "lat": "47.37664",
+        "lng": "8.14263"
+    },
+    {
+        "country": "CH",
+        "name": "Schaffhausen",
+        "lat": "47.69732",
+        "lng": "8.63493"
+    },
+    {
+        "country": "CH",
+        "name": "Saxon",
+        "lat": "46.14937",
+        "lng": "7.17514"
+    },
+    {
+        "country": "CH",
+        "name": "Savigny",
+        "lat": "46.53844",
+        "lng": "6.73222"
+    },
+    {
+        "country": "CH",
+        "name": "Savi\u00e8se",
+        "lat": "46.25115",
+        "lng": "7.34558"
+    },
+    {
+        "country": "CH",
+        "name": "Sattel",
+        "lat": "47.08246",
+        "lng": "8.63565"
+    },
+    {
+        "country": "CH",
+        "name": "Satigny",
+        "lat": "46.21462",
+        "lng": "6.03553"
+    },
+    {
+        "country": "CH",
+        "name": "Sarnen",
+        "lat": "46.89611",
+        "lng": "8.24531"
+    },
+    {
+        "country": "CH",
+        "name": "Sarmenstorf",
+        "lat": "47.31109",
+        "lng": "8.2495"
+    },
+    {
+        "country": "CH",
+        "name": "Sargans",
+        "lat": "47.04896",
+        "lng": "9.44103"
+    },
+    {
+        "country": "CH",
+        "name": "Santa Maria in Calanca",
+        "lat": "46.26285",
+        "lng": "9.14485"
+    },
+    {
+        "country": "CH",
+        "name": "Sankt Stephan",
+        "lat": "46.50827",
+        "lng": "7.39559"
+    },
+    {
+        "country": "CH",
+        "name": "Sankt Peterzell",
+        "lat": "47.31782",
+        "lng": "9.17599"
+    },
+    {
+        "country": "CH",
+        "name": "Sankt Niklaus",
+        "lat": "46.17717",
+        "lng": "7.80349"
+    },
+    {
+        "country": "CH",
+        "name": "St. Moritz",
+        "lat": "46.49937",
+        "lng": "9.84327"
+    },
+    {
+        "country": "CH",
+        "name": "Sankt Margrethen",
+        "lat": "47.45253",
+        "lng": "9.63741"
+    },
+    {
+        "country": "CH",
+        "name": "Sankt Gallenkappel",
+        "lat": "47.24368",
+        "lng": "8.96438"
+    },
+    {
+        "country": "CH",
+        "name": "Sankt Gallen",
+        "lat": "47.42391",
+        "lng": "9.37477"
+    },
+    {
+        "country": "CH",
+        "name": "Sankt Antoni",
+        "lat": "46.82207",
+        "lng": "7.26091"
+    },
+    {
+        "country": "CH",
+        "name": "Samedan",
+        "lat": "46.53399",
+        "lng": "9.87276"
+    },
+    {
+        "country": "CH",
+        "name": "Salvan",
+        "lat": "46.1189",
+        "lng": "7.02078"
+    },
+    {
+        "country": "CH",
+        "name": "Salmsach",
+        "lat": "47.55433",
+        "lng": "9.37229"
+    },
+    {
+        "country": "CH",
+        "name": "Salgesch",
+        "lat": "46.31155",
+        "lng": "7.5712"
+    },
+    {
+        "country": "CH",
+        "name": "S\u00e2les",
+        "lat": "46.63473",
+        "lng": "6.97336"
+    },
+    {
+        "country": "CH",
+        "name": "Saint-Prex",
+        "lat": "46.47963",
+        "lng": "6.45992"
+    },
+    {
+        "country": "CH",
+        "name": "Saint-Maurice",
+        "lat": "46.21826",
+        "lng": "7.0032"
+    },
+    {
+        "country": "CH",
+        "name": "Saint-Livres",
+        "lat": "46.50794",
+        "lng": "6.38753"
+    },
+    {
+        "country": "CH",
+        "name": "Saint-L\u00e9onard",
+        "lat": "46.25152",
+        "lng": "7.41714"
+    },
+    {
+        "country": "CH",
+        "name": "Saint-Imier",
+        "lat": "47.15284",
+        "lng": "6.99692"
+    },
+    {
+        "country": "CH",
+        "name": "Sainte-Croix",
+        "lat": "46.82203",
+        "lng": "6.50283"
+    },
+    {
+        "country": "CH",
+        "name": "Saint-Cergue",
+        "lat": "46.4459",
+        "lng": "6.15737"
+    },
+    {
+        "country": "CH",
+        "name": "Saint-Blaise",
+        "lat": "47.01511",
+        "lng": "6.98832"
+    },
+    {
+        "country": "CH",
+        "name": "Saint-Aubin-Sauges",
+        "lat": "46.89419",
+        "lng": "6.77251"
+    },
+    {
+        "country": "CH",
+        "name": "Saillon",
+        "lat": "46.17035",
+        "lng": "7.18771"
+    },
+    {
+        "country": "CH",
+        "name": "Saignel\u00e9gier",
+        "lat": "47.25619",
+        "lng": "6.99648"
+    },
+    {
+        "country": "CH",
+        "name": "Safenwil",
+        "lat": "47.32163",
+        "lng": "7.98254"
+    },
+    {
+        "country": "CH",
+        "name": "Sachseln",
+        "lat": "46.86718",
+        "lng": "8.23344"
+    },
+    {
+        "country": "CH",
+        "name": "Saas-Grund",
+        "lat": "46.12281",
+        "lng": "7.93651"
+    },
+    {
+        "country": "CH",
+        "name": "Saas-Fee",
+        "lat": "46.10805",
+        "lng": "7.92741"
+    },
+    {
+        "country": "CH",
+        "name": "Saanen",
+        "lat": "46.48945",
+        "lng": "7.26003"
+    },
+    {
+        "country": "CH",
+        "name": "R\u00fcti",
+        "lat": "47.25603",
+        "lng": "8.85552"
+    },
+    {
+        "country": "CH",
+        "name": "R\u00fcthi",
+        "lat": "47.2948",
+        "lng": "9.53857"
+    },
+    {
+        "country": "CH",
+        "name": "Ruswil",
+        "lat": "47.08425",
+        "lng": "8.12645"
+    },
+    {
+        "country": "CH",
+        "name": "Russikon",
+        "lat": "47.39669",
+        "lng": "8.77515"
+    },
+    {
+        "country": "CH",
+        "name": "R\u00fcschlikon",
+        "lat": "47.30688",
+        "lng": "8.55135"
+    },
+    {
+        "country": "CH",
+        "name": "R\u00fcschegg",
+        "lat": "46.77977",
+        "lng": "7.39167"
+    },
+    {
+        "country": "CH",
+        "name": "Rupperswil",
+        "lat": "47.40131",
+        "lng": "8.12877"
+    },
+    {
+        "country": "CH",
+        "name": "R\u00fcmlang",
+        "lat": "47.45041",
+        "lng": "8.52993"
+    },
+    {
+        "country": "CH",
+        "name": "R\u00fceggisberg",
+        "lat": "46.82216",
+        "lng": "7.4389"
+    },
+    {
+        "country": "CH",
+        "name": "Rue",
+        "lat": "46.61916",
+        "lng": "6.82225"
+    },
+    {
+        "country": "CH",
+        "name": "Rudolfstetten",
+        "lat": "47.37101",
+        "lng": "8.38083"
+    },
+    {
+        "country": "CH",
+        "name": "R\u00fcderswil",
+        "lat": "46.98374",
+        "lng": "7.72167"
+    },
+    {
+        "country": "CH",
+        "name": "Rubigen",
+        "lat": "46.89868",
+        "lng": "7.5446"
+    },
+    {
+        "country": "CH",
+        "name": "Rotkreuz",
+        "lat": "47.14283",
+        "lng": "8.4314"
+    },
+    {
+        "country": "CH",
+        "name": "Rothrist",
+        "lat": "47.30508",
+        "lng": "7.89196"
+    },
+    {
+        "country": "CH",
+        "name": "Rothenthurm",
+        "lat": "47.1042",
+        "lng": "8.67585"
+    },
+    {
+        "country": "CH",
+        "name": "R\u00f6schenz",
+        "lat": "47.42366",
+        "lng": "7.48024"
+    },
+    {
+        "country": "CH",
+        "name": "Rorschach",
+        "lat": "47.478",
+        "lng": "9.4903"
+    },
+    {
+        "country": "CH",
+        "name": "Rorbas",
+        "lat": "47.53092",
+        "lng": "8.57555"
+    },
+    {
+        "country": "CH",
+        "name": "Root",
+        "lat": "47.11458",
+        "lng": "8.39021"
+    },
+    {
+        "country": "CH",
+        "name": "Romont",
+        "lat": "46.69652",
+        "lng": "6.91898"
+    },
+    {
+        "country": "CH",
+        "name": "R\u00f6merswil",
+        "lat": "47.16881",
+        "lng": "8.24528"
+    },
+    {
+        "country": "CH",
+        "name": "Romanshorn",
+        "lat": "47.56586",
+        "lng": "9.37869"
+    },
+    {
+        "country": "CH",
+        "name": "Romanel-sur-Lausanne",
+        "lat": "46.56403",
+        "lng": "6.60538"
+    },
+    {
+        "country": "CH",
+        "name": "Rolle",
+        "lat": "46.4582",
+        "lng": "6.33499"
+    },
+    {
+        "country": "CH",
+        "name": "Rohrbach",
+        "lat": "47.13521",
+        "lng": "7.81334"
+    },
+    {
+        "country": "CH",
+        "name": "Rohr",
+        "lat": "47.41029",
+        "lng": "7.95333"
+    },
+    {
+        "country": "CH",
+        "name": "Roggwil",
+        "lat": "47.49981",
+        "lng": "9.3958"
+    },
+    {
+        "country": "CH",
+        "name": "Roggwil",
+        "lat": "47.24119",
+        "lng": "7.82141"
+    },
+    {
+        "country": "CH",
+        "name": "Rodersdorf",
+        "lat": "47.48082",
+        "lng": "7.45767"
+    },
+    {
+        "country": "CH",
+        "name": "Riva San Vitale",
+        "lat": "45.90123",
+        "lng": "8.97167"
+    },
+    {
+        "country": "CH",
+        "name": "Ringgenberg",
+        "lat": "46.70114",
+        "lng": "7.89445"
+    },
+    {
+        "country": "CH",
+        "name": "Effretikon / Rikon",
+        "lat": "47.43099",
+        "lng": "8.68624"
+    },
+    {
+        "country": "CH",
+        "name": "Riggisberg",
+        "lat": "46.81028",
+        "lng": "7.48014"
+    },
+    {
+        "country": "CH",
+        "name": "Riedholz",
+        "lat": "47.23158",
+        "lng": "7.56829"
+    },
+    {
+        "country": "CH",
+        "name": "Riddes",
+        "lat": "46.17276",
+        "lng": "7.2236"
+    },
+    {
+        "country": "CH",
+        "name": "Rickenbach bei Wil",
+        "lat": "47.44856",
+        "lng": "9.04902"
+    },
+    {
+        "country": "CH",
+        "name": "Richterswil",
+        "lat": "47.20622",
+        "lng": "8.69686"
+    },
+    {
+        "country": "CH",
+        "name": "Riaz",
+        "lat": "46.64224",
+        "lng": "7.06183"
+    },
+    {
+        "country": "CH",
+        "name": "Rheinfelden",
+        "lat": "47.55437",
+        "lng": "7.79403"
+    },
+    {
+        "country": "CH",
+        "name": "Rheineck",
+        "lat": "47.4663",
+        "lng": "9.59028"
+    },
+    {
+        "country": "CH",
+        "name": "Rh\u00e4z\u00fcns",
+        "lat": "46.79891",
+        "lng": "9.39764"
+    },
+    {
+        "country": "CH",
+        "name": "Renens",
+        "lat": "46.53989",
+        "lng": "6.5881"
+    },
+    {
+        "country": "CH",
+        "name": "Reinach",
+        "lat": "47.25732",
+        "lng": "8.18091"
+    },
+    {
+        "country": "CH",
+        "name": "Reigoldswil",
+        "lat": "47.39824",
+        "lng": "7.68718"
+    },
+    {
+        "country": "CH",
+        "name": "Reiden",
+        "lat": "47.24719",
+        "lng": "7.97135"
+    },
+    {
+        "country": "CH",
+        "name": "Reichenburg",
+        "lat": "47.17097",
+        "lng": "8.97704"
+    },
+    {
+        "country": "CH",
+        "name": "Rehetobel",
+        "lat": "47.42611",
+        "lng": "9.483"
+    },
+    {
+        "country": "CH",
+        "name": "Regensdorf",
+        "lat": "47.4341",
+        "lng": "8.46874"
+    },
+    {
+        "country": "CH",
+        "name": "Reconvilier",
+        "lat": "47.23431",
+        "lng": "7.22239"
+    },
+    {
+        "country": "CH",
+        "name": "Rechthalten",
+        "lat": "46.76766",
+        "lng": "7.24028"
+    },
+    {
+        "country": "CH",
+        "name": "Rebstein",
+        "lat": "47.39812",
+        "lng": "9.58503"
+    },
+    {
+        "country": "CH",
+        "name": "Elsau-R\u00e4terschen / R\u00e4terschen",
+        "lat": "47.49927",
+        "lng": "8.796"
+    },
+    {
+        "country": "CH",
+        "name": "Raron",
+        "lat": "46.31196",
+        "lng": "7.80029"
+    },
+    {
+        "country": "CH",
+        "name": "Rapperswil",
+        "lat": "47.22557",
+        "lng": "8.82228"
+    },
+    {
+        "country": "CH",
+        "name": "Randogne",
+        "lat": "46.30952",
+        "lng": "7.50058"
+    },
+    {
+        "country": "CH",
+        "name": "Ramsen",
+        "lat": "47.70797",
+        "lng": "8.80949"
+    },
+    {
+        "country": "CH",
+        "name": "Rafz",
+        "lat": "47.60438",
+        "lng": "8.54305"
+    },
+    {
+        "country": "CH",
+        "name": "Radelfingen",
+        "lat": "47.02146",
+        "lng": "7.27178"
+    },
+    {
+        "country": "CH",
+        "name": "Quarten",
+        "lat": "47.107",
+        "lng": "9.24199"
+    },
+    {
+        "country": "CH",
+        "name": "Pura",
+        "lat": "45.98647",
+        "lng": "8.86877"
+    },
+    {
+        "country": "CH",
+        "name": "Pully",
+        "lat": "46.51027",
+        "lng": "6.66183"
+    },
+    {
+        "country": "CH",
+        "name": "Puidoux",
+        "lat": "46.50093",
+        "lng": "6.78249"
+    },
+    {
+        "country": "CH",
+        "name": "Promontogno",
+        "lat": "46.33939",
+        "lng": "9.55759"
+    },
+    {
+        "country": "CH",
+        "name": "Prilly",
+        "lat": "46.53698",
+        "lng": "6.60456"
+    },
+    {
+        "country": "CH",
+        "name": "Pregassona",
+        "lat": "46.02021",
+        "lng": "8.97429"
+    },
+    {
+        "country": "CH",
+        "name": "Pratteln",
+        "lat": "47.52071",
+        "lng": "7.69356"
+    },
+    {
+        "country": "CH",
+        "name": "Praroman",
+        "lat": "46.75145",
+        "lng": "7.17778"
+    },
+    {
+        "country": "CH",
+        "name": "Prangins",
+        "lat": "46.39518",
+        "lng": "6.2496"
+    },
+    {
+        "country": "CH",
+        "name": "Poschiavo",
+        "lat": "46.32441",
+        "lng": "10.05823"
+    },
+    {
+        "country": "CH",
+        "name": "Porrentruy",
+        "lat": "47.41728",
+        "lng": "7.07573"
+    },
+    {
+        "country": "CH",
+        "name": "Pontresina",
+        "lat": "46.4955",
+        "lng": "9.90126"
+    },
+    {
+        "country": "CH",
+        "name": "La Punt Chamues-ch",
+        "lat": "46.57887",
+        "lng": "9.92015"
+    },
+    {
+        "country": "CH",
+        "name": "Plan-les-Ouates",
+        "lat": "46.16789",
+        "lng": "6.11664"
+    },
+    {
+        "country": "CH",
+        "name": "Plaffeien",
+        "lat": "46.74198",
+        "lng": "7.28666"
+    },
+    {
+        "country": "CH",
+        "name": "Pieterlen",
+        "lat": "47.17501",
+        "lng": "7.33791"
+    },
+    {
+        "country": "CH",
+        "name": "Pfyn",
+        "lat": "47.59693",
+        "lng": "8.9542"
+    },
+    {
+        "country": "CH",
+        "name": "Pfungen",
+        "lat": "47.51394",
+        "lng": "8.6423"
+    },
+    {
+        "country": "CH",
+        "name": "Pfaffhausen",
+        "lat": "47.36476",
+        "lng": "8.62375"
+    },
+    {
+        "country": "CH",
+        "name": "Pfeffingen",
+        "lat": "47.45984",
+        "lng": "7.58975"
+    },
+    {
+        "country": "CH",
+        "name": "Pfaffnau",
+        "lat": "47.22772",
+        "lng": "7.89719"
+    },
+    {
+        "country": "CH",
+        "name": "Pf\u00e4ffikon",
+        "lat": "47.36453",
+        "lng": "8.79202"
+    },
+    {
+        "country": "CH",
+        "name": "Pf\u00e4ffikon",
+        "lat": "47.20109",
+        "lng": "8.77816"
+    },
+    {
+        "country": "CH",
+        "name": "Peseux",
+        "lat": "46.98704",
+        "lng": "6.88903"
+    },
+    {
+        "country": "CH",
+        "name": "P\u00e9ry",
+        "lat": "47.19398",
+        "lng": "7.24913"
+    },
+    {
+        "country": "CH",
+        "name": "Perroy",
+        "lat": "46.4669",
+        "lng": "6.35349"
+    },
+    {
+        "country": "CH",
+        "name": "Penthalaz",
+        "lat": "46.61077",
+        "lng": "6.52519"
+    },
+    {
+        "country": "CH",
+        "name": "Payerne",
+        "lat": "46.82192",
+        "lng": "6.93817"
+    },
+    {
+        "country": "CH",
+        "name": "Paudex",
+        "lat": "46.50548",
+        "lng": "6.66819"
+    },
+    {
+        "country": "CH",
+        "name": "Pampigny",
+        "lat": "46.58093",
+        "lng": "6.42941"
+    },
+    {
+        "country": "CH",
+        "name": "Pal\u00e9zieux",
+        "lat": "46.54191",
+        "lng": "6.83989"
+    },
+    {
+        "country": "CH",
+        "name": "Pailly",
+        "lat": "46.70123",
+        "lng": "6.6754"
+    },
+    {
+        "country": "CH",
+        "name": "Ottenbach",
+        "lat": "47.28228",
+        "lng": "8.40432"
+    },
+    {
+        "country": "CH",
+        "name": "Othmarsingen",
+        "lat": "47.40125",
+        "lng": "8.21383"
+    },
+    {
+        "country": "CH",
+        "name": "Otelfingen",
+        "lat": "47.46053",
+        "lng": "8.39141"
+    },
+    {
+        "country": "CH",
+        "name": "Ostermundigen",
+        "lat": "46.95694",
+        "lng": "7.49019"
+    },
+    {
+        "country": "CH",
+        "name": "Orvin",
+        "lat": "47.16068",
+        "lng": "7.21368"
+    },
+    {
+        "country": "CH",
+        "name": "Orsi\u00e8res",
+        "lat": "46.02903",
+        "lng": "7.14437"
+    },
+    {
+        "country": "CH",
+        "name": "Orpund",
+        "lat": "47.13891",
+        "lng": "7.30775"
+    },
+    {
+        "country": "CH",
+        "name": "Oron-la-Ville",
+        "lat": "46.57094",
+        "lng": "6.82557"
+    },
+    {
+        "country": "CH",
+        "name": "Ormalingen",
+        "lat": "47.46936",
+        "lng": "7.87248"
+    },
+    {
+        "country": "CH",
+        "name": "Orbe",
+        "lat": "46.72504",
+        "lng": "6.53069"
+    },
+    {
+        "country": "CH",
+        "name": "Opfikon",
+        "lat": "47.43169",
+        "lng": "8.57588"
+    },
+    {
+        "country": "CH",
+        "name": "Onex",
+        "lat": "46.18396",
+        "lng": "6.10237"
+    },
+    {
+        "country": "CH",
+        "name": "Olten",
+        "lat": "47.34999",
+        "lng": "7.90329"
+    },
+    {
+        "country": "CH",
+        "name": "Ollon",
+        "lat": "46.29524",
+        "lng": "6.99314"
+    },
+    {
+        "country": "CH",
+        "name": "Oftringen",
+        "lat": "47.31382",
+        "lng": "7.92533"
+    },
+    {
+        "country": "CH",
+        "name": "Oetwil",
+        "lat": "47.27049",
+        "lng": "8.72023"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 11) / Oerlikon",
+        "lat": "47.40823",
+        "lng": "8.54258"
+    },
+    {
+        "country": "CH",
+        "name": "Oensingen",
+        "lat": "47.28764",
+        "lng": "7.71612"
+    },
+    {
+        "country": "CH",
+        "name": "Obfelden",
+        "lat": "47.26413",
+        "lng": "8.4215"
+    },
+    {
+        "country": "CH",
+        "name": "Oberwil",
+        "lat": "47.51407",
+        "lng": "7.55786"
+    },
+    {
+        "country": "CH",
+        "name": "Wetzikon / Ober-Wetzikon",
+        "lat": "47.32514",
+        "lng": "8.80005"
+    },
+    {
+        "country": "CH",
+        "name": "Oberuzwil",
+        "lat": "47.43076",
+        "lng": "9.12724"
+    },
+    {
+        "country": "CH",
+        "name": "Urdorf",
+        "lat": "47.38507",
+        "lng": "8.42581"
+    },
+    {
+        "country": "CH",
+        "name": "Obersiggenthal",
+        "lat": "47.4875",
+        "lng": "8.29652"
+    },
+    {
+        "country": "CH",
+        "name": "Oberschrot",
+        "lat": "46.74126",
+        "lng": "7.28149"
+    },
+    {
+        "country": "CH",
+        "name": "Oberr\u00fcti",
+        "lat": "47.16673",
+        "lng": "8.39441"
+    },
+    {
+        "country": "CH",
+        "name": "Oberriet",
+        "lat": "47.32088",
+        "lng": "9.56808"
+    },
+    {
+        "country": "CH",
+        "name": "Oberrieden",
+        "lat": "47.27444",
+        "lng": "8.57838"
+    },
+    {
+        "country": "CH",
+        "name": "Oberlunkhofen",
+        "lat": "47.31244",
+        "lng": "8.39242"
+    },
+    {
+        "country": "CH",
+        "name": "Oberkirch",
+        "lat": "47.15642",
+        "lng": "8.11567"
+    },
+    {
+        "country": "CH",
+        "name": "Oberhelfenschwil",
+        "lat": "47.35673",
+        "lng": "9.11076"
+    },
+    {
+        "country": "CH",
+        "name": "Oberg\u00f6sgen",
+        "lat": "47.36538",
+        "lng": "7.95173"
+    },
+    {
+        "country": "CH",
+        "name": "Oberglatt",
+        "lat": "47.47576",
+        "lng": "8.51896"
+    },
+    {
+        "country": "CH",
+        "name": "Oberentfelden",
+        "lat": "47.35639",
+        "lng": "8.04594"
+    },
+    {
+        "country": "CH",
+        "name": "Oberengstringen",
+        "lat": "47.40841",
+        "lng": "8.46515"
+    },
+    {
+        "country": "CH",
+        "name": "Endingen",
+        "lat": "47.53742",
+        "lng": "8.29036"
+    },
+    {
+        "country": "CH",
+        "name": "Oberegg",
+        "lat": "47.42531",
+        "lng": "9.55134"
+    },
+    {
+        "country": "CH",
+        "name": "Oberdorf",
+        "lat": "47.39353",
+        "lng": "7.75169"
+    },
+    {
+        "country": "CH",
+        "name": "Oberdiessbach",
+        "lat": "46.84117",
+        "lng": "7.6173"
+    },
+    {
+        "country": "CH",
+        "name": "Oberburg",
+        "lat": "47.03665",
+        "lng": "7.62745"
+    },
+    {
+        "country": "CH",
+        "name": "Oberbuchsiten",
+        "lat": "47.31334",
+        "lng": "7.76836"
+    },
+    {
+        "country": "CH",
+        "name": "Oberbipp",
+        "lat": "47.2607",
+        "lng": "7.66359"
+    },
+    {
+        "country": "CH",
+        "name": "Nyon",
+        "lat": "46.38318",
+        "lng": "6.23955"
+    },
+    {
+        "country": "CH",
+        "name": "N\u00fcrensdorf",
+        "lat": "47.44814",
+        "lng": "8.64908"
+    },
+    {
+        "country": "CH",
+        "name": "Nunningen",
+        "lat": "47.3941",
+        "lng": "7.61951"
+    },
+    {
+        "country": "CH",
+        "name": "Novazzano",
+        "lat": "45.84073",
+        "lng": "8.98236"
+    },
+    {
+        "country": "CH",
+        "name": "Nottwil",
+        "lat": "47.13469",
+        "lng": "8.13774"
+    },
+    {
+        "country": "CH",
+        "name": "Wichtrach",
+        "lat": "46.8501",
+        "lng": "7.57748"
+    },
+    {
+        "country": "CH",
+        "name": "Niederurnen",
+        "lat": "47.12598",
+        "lng": "9.05428"
+    },
+    {
+        "country": "CH",
+        "name": "Niederrohrdorf",
+        "lat": "47.42409",
+        "lng": "8.30404"
+    },
+    {
+        "country": "CH",
+        "name": "Niederlenz",
+        "lat": "47.40079",
+        "lng": "8.1764"
+    },
+    {
+        "country": "CH",
+        "name": "Niederhelfenschwil",
+        "lat": "47.47487",
+        "lng": "9.18543"
+    },
+    {
+        "country": "CH",
+        "name": "Niederg\u00f6sgen",
+        "lat": "47.37157",
+        "lng": "7.98837"
+    },
+    {
+        "country": "CH",
+        "name": "Niedererlinsbach",
+        "lat": "47.39753",
+        "lng": "8.00797"
+    },
+    {
+        "country": "CH",
+        "name": "Niederb\u00fcren",
+        "lat": "47.46547",
+        "lng": "9.20568"
+    },
+    {
+        "country": "CH",
+        "name": "Niederbipp",
+        "lat": "47.27175",
+        "lng": "7.69583"
+    },
+    {
+        "country": "CH",
+        "name": "Nidau",
+        "lat": "47.12545",
+        "lng": "7.24033"
+    },
+    {
+        "country": "CH",
+        "name": "Neunkirch",
+        "lat": "47.69012",
+        "lng": "8.49981"
+    },
+    {
+        "country": "CH",
+        "name": "Neuhausen",
+        "lat": "47.68579",
+        "lng": "8.61474"
+    },
+    {
+        "country": "CH",
+        "name": "Neuenkirch",
+        "lat": "47.09989",
+        "lng": "8.20416"
+    },
+    {
+        "country": "CH",
+        "name": "Neuenhof",
+        "lat": "47.44985",
+        "lng": "8.32682"
+    },
+    {
+        "country": "CH",
+        "name": "Neudorf",
+        "lat": "47.17699",
+        "lng": "8.20911"
+    },
+    {
+        "country": "CH",
+        "name": "Neuch\u00e2tel",
+        "lat": "46.99179",
+        "lng": "6.931"
+    },
+    {
+        "country": "CH",
+        "name": "Netstal",
+        "lat": "47.06337",
+        "lng": "9.05734"
+    },
+    {
+        "country": "CH",
+        "name": "Neftenbach / Dorf Neftenbach",
+        "lat": "47.52764",
+        "lng": "8.6649"
+    },
+    {
+        "country": "CH",
+        "name": "Nebikon",
+        "lat": "47.19185",
+        "lng": "7.97769"
+    },
+    {
+        "country": "CH",
+        "name": "Naters",
+        "lat": "46.32536",
+        "lng": "7.98912"
+    },
+    {
+        "country": "CH",
+        "name": "N\u00e4nikon",
+        "lat": "47.36975",
+        "lng": "8.68894"
+    },
+    {
+        "country": "CH",
+        "name": "N\u00e4fels",
+        "lat": "47.09775",
+        "lng": "9.06361"
+    },
+    {
+        "country": "CH",
+        "name": "Muttenz",
+        "lat": "47.52271",
+        "lng": "7.64511"
+    },
+    {
+        "country": "CH",
+        "name": "Murten/Morat",
+        "lat": "46.92827",
+        "lng": "7.11715"
+    },
+    {
+        "country": "CH",
+        "name": "Muri",
+        "lat": "47.27428",
+        "lng": "8.33854"
+    },
+    {
+        "country": "CH",
+        "name": "Muri",
+        "lat": "46.93122",
+        "lng": "7.48658"
+    },
+    {
+        "country": "CH",
+        "name": "Murgenthal",
+        "lat": "47.27145",
+        "lng": "7.83935"
+    },
+    {
+        "country": "CH",
+        "name": "Muotathal",
+        "lat": "46.97676",
+        "lng": "8.76499"
+    },
+    {
+        "country": "CH",
+        "name": "Muolen",
+        "lat": "47.52102",
+        "lng": "9.32484"
+    },
+    {
+        "country": "CH",
+        "name": "M\u00fcntschemier",
+        "lat": "46.99548",
+        "lng": "7.14626"
+    },
+    {
+        "country": "CH",
+        "name": "M\u00fcnsterlingen",
+        "lat": "47.63197",
+        "lng": "9.23271"
+    },
+    {
+        "country": "CH",
+        "name": "M\u00fcnsingen",
+        "lat": "46.87298",
+        "lng": "7.561"
+    },
+    {
+        "country": "CH",
+        "name": "M\u00fcnchwilen",
+        "lat": "47.47719",
+        "lng": "8.99677"
+    },
+    {
+        "country": "CH",
+        "name": "M\u00fcnchenstein",
+        "lat": "47.51848",
+        "lng": "7.60966"
+    },
+    {
+        "country": "CH",
+        "name": "M\u00fcnchenbuchsee",
+        "lat": "47.02175",
+        "lng": "7.45036"
+    },
+    {
+        "country": "CH",
+        "name": "Mumpf",
+        "lat": "47.54563",
+        "lng": "7.92123"
+    },
+    {
+        "country": "CH",
+        "name": "M\u00fcllheim",
+        "lat": "47.60195",
+        "lng": "9.00357"
+    },
+    {
+        "country": "CH",
+        "name": "M\u00fchlethurnen",
+        "lat": "46.81345",
+        "lng": "7.50881"
+    },
+    {
+        "country": "CH",
+        "name": "M\u00fchleberg",
+        "lat": "46.95466",
+        "lng": "7.26102"
+    },
+    {
+        "country": "CH",
+        "name": "Muhen",
+        "lat": "47.33578",
+        "lng": "8.05536"
+    },
+    {
+        "country": "CH",
+        "name": "Moutier",
+        "lat": "47.27818",
+        "lng": "7.36951"
+    },
+    {
+        "country": "CH",
+        "name": "Moudon",
+        "lat": "46.66758",
+        "lng": "6.79781"
+    },
+    {
+        "country": "CH",
+        "name": "Mosnang",
+        "lat": "47.36252",
+        "lng": "9.04296"
+    },
+    {
+        "country": "CH",
+        "name": "M\u00f6rschwil",
+        "lat": "47.47097",
+        "lng": "9.42278"
+    },
+    {
+        "country": "CH",
+        "name": "Morges",
+        "lat": "46.51127",
+        "lng": "6.49854"
+    },
+    {
+        "country": "CH",
+        "name": "Morbio Inferiore",
+        "lat": "45.84915",
+        "lng": "9.01907"
+    },
+    {
+        "country": "CH",
+        "name": "Montreux",
+        "lat": "46.43301",
+        "lng": "6.91143"
+    },
+    {
+        "country": "CH",
+        "name": "Monthey",
+        "lat": "46.25451",
+        "lng": "6.95406"
+    },
+    {
+        "country": "CH",
+        "name": "Monte Carasso",
+        "lat": "46.18649",
+        "lng": "8.99892"
+    },
+    {
+        "country": "CH",
+        "name": "Montana",
+        "lat": "46.31338",
+        "lng": "7.48839"
+    },
+    {
+        "country": "CH",
+        "name": "Montagny",
+        "lat": "46.79289",
+        "lng": "6.61222"
+    },
+    {
+        "country": "CH",
+        "name": "Montagnola",
+        "lat": "45.98323",
+        "lng": "8.91786"
+    },
+    {
+        "country": "CH",
+        "name": "M\u00f6nchaltorf",
+        "lat": "47.30958",
+        "lng": "8.72029"
+    },
+    {
+        "country": "CH",
+        "name": "Mollis",
+        "lat": "47.08878",
+        "lng": "9.07242"
+    },
+    {
+        "country": "CH",
+        "name": "Mollens",
+        "lat": "46.5776",
+        "lng": "6.3632"
+    },
+    {
+        "country": "CH",
+        "name": "M\u00f6hlin",
+        "lat": "47.55915",
+        "lng": "7.84329"
+    },
+    {
+        "country": "CH",
+        "name": "Mogelsberg",
+        "lat": "47.36222",
+        "lng": "9.13541"
+    },
+    {
+        "country": "CH",
+        "name": "Minusio",
+        "lat": "46.17769",
+        "lng": "8.81473"
+    },
+    {
+        "country": "CH",
+        "name": "M\u00e9zi\u00e8res",
+        "lat": "46.67958",
+        "lng": "6.9263"
+    },
+    {
+        "country": "CH",
+        "name": "Meyrin",
+        "lat": "46.23424",
+        "lng": "6.08025"
+    },
+    {
+        "country": "CH",
+        "name": "Mettmenstetten",
+        "lat": "47.24529",
+        "lng": "8.46347"
+    },
+    {
+        "country": "CH",
+        "name": "Messen",
+        "lat": "47.09155",
+        "lng": "7.44528"
+    },
+    {
+        "country": "CH",
+        "name": "Mesocco",
+        "lat": "46.3939",
+        "lng": "9.23333"
+    },
+    {
+        "country": "CH",
+        "name": "Merenschwand",
+        "lat": "47.25944",
+        "lng": "8.37633"
+    },
+    {
+        "country": "CH",
+        "name": "Menznau",
+        "lat": "47.08364",
+        "lng": "8.03971"
+    },
+    {
+        "country": "CH",
+        "name": "Menzingen",
+        "lat": "47.17764",
+        "lng": "8.59215"
+    },
+    {
+        "country": "CH",
+        "name": "Menziken",
+        "lat": "47.23965",
+        "lng": "8.18996"
+    },
+    {
+        "country": "CH",
+        "name": "Mendrisio",
+        "lat": "45.87019",
+        "lng": "8.9816"
+    },
+    {
+        "country": "CH",
+        "name": "Mellingen",
+        "lat": "47.41903",
+        "lng": "8.27331"
+    },
+    {
+        "country": "CH",
+        "name": "Melide",
+        "lat": "45.95455",
+        "lng": "8.94725"
+    },
+    {
+        "country": "CH",
+        "name": "Melchnau",
+        "lat": "47.18213",
+        "lng": "7.85128"
+    },
+    {
+        "country": "CH",
+        "name": "Melano",
+        "lat": "45.92202",
+        "lng": "8.98435"
+    },
+    {
+        "country": "CH",
+        "name": "Meisterschwanden",
+        "lat": "47.29489",
+        "lng": "8.22867"
+    },
+    {
+        "country": "CH",
+        "name": "Meiringen",
+        "lat": "46.72709",
+        "lng": "8.1872"
+    },
+    {
+        "country": "CH",
+        "name": "Meinisberg",
+        "lat": "47.15965",
+        "lng": "7.34801"
+    },
+    {
+        "country": "CH",
+        "name": "Meilen",
+        "lat": "47.27232",
+        "lng": "8.64617"
+    },
+    {
+        "country": "CH",
+        "name": "Meierskappel",
+        "lat": "47.1247",
+        "lng": "8.44274"
+    },
+    {
+        "country": "CH",
+        "name": "Meggen",
+        "lat": "47.04691",
+        "lng": "8.37467"
+    },
+    {
+        "country": "CH",
+        "name": "Mauensee",
+        "lat": "47.16703",
+        "lng": "8.06793"
+    },
+    {
+        "country": "CH",
+        "name": "Matzingen",
+        "lat": "47.51957",
+        "lng": "8.93365"
+    },
+    {
+        "country": "CH",
+        "name": "Matzendorf",
+        "lat": "47.30374",
+        "lng": "7.6282"
+    },
+    {
+        "country": "CH",
+        "name": "Matten",
+        "lat": "46.67833",
+        "lng": "7.86889"
+    },
+    {
+        "country": "CH",
+        "name": "Massagno",
+        "lat": "46.01257",
+        "lng": "8.94354"
+    },
+    {
+        "country": "CH",
+        "name": "Martigny-Ville",
+        "lat": "46.10276",
+        "lng": "7.07245"
+    },
+    {
+        "country": "CH",
+        "name": "Martigny-Combe",
+        "lat": "46.07817",
+        "lng": "7.05099"
+    },
+    {
+        "country": "CH",
+        "name": "Marthalen",
+        "lat": "47.62913",
+        "lng": "8.65326"
+    },
+    {
+        "country": "CH",
+        "name": "M\u00e4rstetten-Dorf",
+        "lat": "47.59252",
+        "lng": "9.06851"
+    },
+    {
+        "country": "CH",
+        "name": "Marsens",
+        "lat": "46.65644",
+        "lng": "7.05948"
+    },
+    {
+        "country": "CH",
+        "name": "Marly",
+        "lat": "46.77611",
+        "lng": "7.16459"
+    },
+    {
+        "country": "CH",
+        "name": "M\u00e4nnedorf",
+        "lat": "47.25686",
+        "lng": "8.69893"
+    },
+    {
+        "country": "CH",
+        "name": "Malvaglia",
+        "lat": "46.40588",
+        "lng": "8.9819"
+    },
+    {
+        "country": "CH",
+        "name": "Malters",
+        "lat": "47.03628",
+        "lng": "8.18193"
+    },
+    {
+        "country": "CH",
+        "name": "Malleray",
+        "lat": "47.23839",
+        "lng": "7.27286"
+    },
+    {
+        "country": "CH",
+        "name": "Malans",
+        "lat": "46.98096",
+        "lng": "9.57527"
+    },
+    {
+        "country": "CH",
+        "name": "Maienfeld",
+        "lat": "47.00472",
+        "lng": "9.53115"
+    },
+    {
+        "country": "CH",
+        "name": "Magden",
+        "lat": "47.52868",
+        "lng": "7.81128"
+    },
+    {
+        "country": "CH",
+        "name": "Magadino",
+        "lat": "46.14892",
+        "lng": "8.8561"
+    },
+    {
+        "country": "CH",
+        "name": "Madiswil",
+        "lat": "47.16463",
+        "lng": "7.79858"
+    },
+    {
+        "country": "CH",
+        "name": "Lyssach",
+        "lat": "47.06445",
+        "lng": "7.58228"
+    },
+    {
+        "country": "CH",
+        "name": "Lyss",
+        "lat": "47.0741",
+        "lng": "7.30655"
+    },
+    {
+        "country": "CH",
+        "name": "Luzern",
+        "lat": "47.05048",
+        "lng": "8.30635"
+    },
+    {
+        "country": "CH",
+        "name": "Luzein",
+        "lat": "46.91957",
+        "lng": "9.7608"
+    },
+    {
+        "country": "CH",
+        "name": "L\u00fctzelfl\u00fch",
+        "lat": "47.00757",
+        "lng": "7.69165"
+    },
+    {
+        "country": "CH",
+        "name": "Lutry",
+        "lat": "46.50241",
+        "lng": "6.68647"
+    },
+    {
+        "country": "CH",
+        "name": "L\u00fctisburg",
+        "lat": "47.39451",
+        "lng": "9.08312"
+    },
+    {
+        "country": "CH",
+        "name": "Luthern",
+        "lat": "47.05753",
+        "lng": "7.91692"
+    },
+    {
+        "country": "CH",
+        "name": "Luterbach",
+        "lat": "47.21426",
+        "lng": "7.58463"
+    },
+    {
+        "country": "CH",
+        "name": "Lungern",
+        "lat": "46.78578",
+        "lng": "8.15984"
+    },
+    {
+        "country": "CH",
+        "name": "Lumino",
+        "lat": "46.2302",
+        "lng": "9.0642"
+    },
+    {
+        "country": "CH",
+        "name": "Lugano",
+        "lat": "46.01008",
+        "lng": "8.96004"
+    },
+    {
+        "country": "CH",
+        "name": "Luchsingen",
+        "lat": "46.9664",
+        "lng": "9.03715"
+    },
+    {
+        "country": "CH",
+        "name": "Lucens",
+        "lat": "46.70854",
+        "lng": "6.83931"
+    },
+    {
+        "country": "CH",
+        "name": "Lotzwil",
+        "lat": "47.19135",
+        "lng": "7.79102"
+    },
+    {
+        "country": "CH",
+        "name": "Lostorf",
+        "lat": "47.38372",
+        "lng": "7.94655"
+    },
+    {
+        "country": "CH",
+        "name": "Losone",
+        "lat": "46.16866",
+        "lng": "8.75928"
+    },
+    {
+        "country": "CH",
+        "name": "Lodrino",
+        "lat": "46.30016",
+        "lng": "8.97986"
+    },
+    {
+        "country": "CH",
+        "name": "Locarno",
+        "lat": "46.17086",
+        "lng": "8.79953"
+    },
+    {
+        "country": "CH",
+        "name": "Littau",
+        "lat": "47.05",
+        "lng": "8.26274"
+    },
+    {
+        "country": "CH",
+        "name": "Linthal",
+        "lat": "46.92127",
+        "lng": "8.99799"
+    },
+    {
+        "country": "CH",
+        "name": "Linden",
+        "lat": "46.8469",
+        "lng": "7.67831"
+    },
+    {
+        "country": "CH",
+        "name": "Ligornetto",
+        "lat": "45.86161",
+        "lng": "8.95166"
+    },
+    {
+        "country": "CH",
+        "name": "Liestal",
+        "lat": "47.48455",
+        "lng": "7.73446"
+    },
+    {
+        "country": "CH",
+        "name": "Liesberg",
+        "lat": "47.40398",
+        "lng": "7.42787"
+    },
+    {
+        "country": "CH",
+        "name": "Lichtensteig",
+        "lat": "47.32381",
+        "lng": "9.08758"
+    },
+    {
+        "country": "CH",
+        "name": "Leytron",
+        "lat": "46.1866",
+        "lng": "7.2078"
+    },
+    {
+        "country": "CH",
+        "name": "Leysin",
+        "lat": "46.34183",
+        "lng": "7.01151"
+    },
+    {
+        "country": "CH",
+        "name": "Le Vaud",
+        "lat": "46.47753",
+        "lng": "6.23603"
+    },
+    {
+        "country": "CH",
+        "name": "Leuzigen",
+        "lat": "47.17458",
+        "lng": "7.45775"
+    },
+    {
+        "country": "CH",
+        "name": "Leukerbad",
+        "lat": "46.37943",
+        "lng": "7.62687"
+    },
+    {
+        "country": "CH",
+        "name": "Leuk",
+        "lat": "46.31736",
+        "lng": "7.63412"
+    },
+    {
+        "country": "CH",
+        "name": "Les Ponts-de-Martel",
+        "lat": "46.99735",
+        "lng": "6.73059"
+    },
+    {
+        "country": "CH",
+        "name": "Les Geneveys-sur-Coffrane",
+        "lat": "47.01528",
+        "lng": "6.8513"
+    },
+    {
+        "country": "CH",
+        "name": "Les Breuleux",
+        "lat": "47.21099",
+        "lng": "7.00792"
+    },
+    {
+        "country": "CH",
+        "name": "Les Brenets",
+        "lat": "47.06774",
+        "lng": "6.70478"
+    },
+    {
+        "country": "CH",
+        "name": "Les Bois",
+        "lat": "47.17715",
+        "lng": "6.90498"
+    },
+    {
+        "country": "CH",
+        "name": "Lenzerheide",
+        "lat": "46.72215",
+        "lng": "9.55905"
+    },
+    {
+        "country": "CH",
+        "name": "Lenzburg",
+        "lat": "47.38853",
+        "lng": "8.17503"
+    },
+    {
+        "country": "CH",
+        "name": "Lens",
+        "lat": "46.28298",
+        "lng": "7.44976"
+    },
+    {
+        "country": "CH",
+        "name": "Le Noirmont",
+        "lat": "47.22464",
+        "lng": "6.95784"
+    },
+    {
+        "country": "CH",
+        "name": "Lenk",
+        "lat": "46.45826",
+        "lng": "7.44298"
+    },
+    {
+        "country": "CH",
+        "name": "Lengnau",
+        "lat": "47.18155",
+        "lng": "7.36814"
+    },
+    {
+        "country": "CH",
+        "name": "Le Mont-sur-Lausanne",
+        "lat": "46.55815",
+        "lng": "6.63145"
+    },
+    {
+        "country": "CH",
+        "name": "Le Locle",
+        "lat": "47.05619",
+        "lng": "6.74913"
+    },
+    {
+        "country": "CH",
+        "name": "Le Landeron",
+        "lat": "47.05702",
+        "lng": "7.07052"
+    },
+    {
+        "country": "CH",
+        "name": "Leibstadt",
+        "lat": "47.5879",
+        "lng": "8.17611"
+    },
+    {
+        "country": "CH",
+        "name": "Le Chenit",
+        "lat": "46.60688",
+        "lng": "6.23062"
+    },
+    {
+        "country": "CH",
+        "name": "Lavertezzo",
+        "lat": "46.25893",
+        "lng": "8.83756"
+    },
+    {
+        "country": "CH",
+        "name": "Lauterbrunnen",
+        "lat": "46.59307",
+        "lng": "7.90938"
+    },
+    {
+        "country": "CH",
+        "name": "Lausen",
+        "lat": "47.47139",
+        "lng": "7.7603"
+    },
+    {
+        "country": "CH",
+        "name": "Lausanne",
+        "lat": "46.516",
+        "lng": "6.63282"
+    },
+    {
+        "country": "CH",
+        "name": "Lauperswil",
+        "lat": "46.96564",
+        "lng": "7.74214"
+    },
+    {
+        "country": "CH",
+        "name": "Laupersdorf",
+        "lat": "47.3126",
+        "lng": "7.65465"
+    },
+    {
+        "country": "CH",
+        "name": "Laupen",
+        "lat": "46.90214",
+        "lng": "7.23973"
+    },
+    {
+        "country": "CH",
+        "name": "Laufenburg",
+        "lat": "47.55985",
+        "lng": "8.06225"
+    },
+    {
+        "country": "CH",
+        "name": "Laufen",
+        "lat": "47.42193",
+        "lng": "7.49946"
+    },
+    {
+        "country": "CH",
+        "name": "L\u00e4ufelfingen",
+        "lat": "47.39457",
+        "lng": "7.85578"
+    },
+    {
+        "country": "CH",
+        "name": "La Tour-de-Tr\u00eame",
+        "lat": "46.61061",
+        "lng": "7.06496"
+    },
+    {
+        "country": "CH",
+        "name": "La Tour-de-Peilz",
+        "lat": "46.45312",
+        "lng": "6.85856"
+    },
+    {
+        "country": "CH",
+        "name": "La Sarraz",
+        "lat": "46.65863",
+        "lng": "6.51077"
+    },
+    {
+        "country": "CH",
+        "name": "La Roche",
+        "lat": "46.6962",
+        "lng": "7.13721"
+    },
+    {
+        "country": "CH",
+        "name": "Langrickenbach",
+        "lat": "47.59353",
+        "lng": "9.24727"
+    },
+    {
+        "country": "CH",
+        "name": "Langnau / Langnau (Dorf)",
+        "lat": "47.28643",
+        "lng": "8.53627"
+    },
+    {
+        "country": "CH",
+        "name": "Langnau",
+        "lat": "46.93936",
+        "lng": "7.78738"
+    },
+    {
+        "country": "CH",
+        "name": "Langenthal",
+        "lat": "47.21526",
+        "lng": "7.79607"
+    },
+    {
+        "country": "CH",
+        "name": "Langenbruck",
+        "lat": "47.34917",
+        "lng": "7.76802"
+    },
+    {
+        "country": "CH",
+        "name": "La Neuveville",
+        "lat": "47.06592",
+        "lng": "7.09717"
+    },
+    {
+        "country": "CH",
+        "name": "Landquart",
+        "lat": "46.95",
+        "lng": "9.56667"
+    },
+    {
+        "country": "CH",
+        "name": "St-L\u00e9gier-La Chi\u00e9saz",
+        "lat": "46.47227",
+        "lng": "6.87366"
+    },
+    {
+        "country": "CH",
+        "name": "Lachen",
+        "lat": "47.19927",
+        "lng": "8.85432"
+    },
+    {
+        "country": "CH",
+        "name": "La Chaux-de-Fonds",
+        "lat": "47.09993",
+        "lng": "6.82586"
+    },
+    {
+        "country": "CH",
+        "name": "L'Abbaye",
+        "lat": "46.64966",
+        "lng": "6.31907"
+    },
+    {
+        "country": "CH",
+        "name": "Laax",
+        "lat": "46.80452",
+        "lng": "9.25787"
+    },
+    {
+        "country": "CH",
+        "name": "K\u00fcttigen",
+        "lat": "47.41484",
+        "lng": "8.04979"
+    },
+    {
+        "country": "CH",
+        "name": "K\u00fcssnacht",
+        "lat": "47.08557",
+        "lng": "8.44206"
+    },
+    {
+        "country": "CH",
+        "name": "K\u00fcsnacht",
+        "lat": "47.31805",
+        "lng": "8.58401"
+    },
+    {
+        "country": "CH",
+        "name": "K\u00fcnten",
+        "lat": "47.38887",
+        "lng": "8.33045"
+    },
+    {
+        "country": "CH",
+        "name": "Krummenau",
+        "lat": "47.24755",
+        "lng": "9.17064"
+    },
+    {
+        "country": "CH",
+        "name": "Kriens",
+        "lat": "47.0311",
+        "lng": "8.28547"
+    },
+    {
+        "country": "CH",
+        "name": "Kriegstetten",
+        "lat": "47.17449",
+        "lng": "7.59799"
+    },
+    {
+        "country": "CH",
+        "name": "Kreuzlingen",
+        "lat": "47.65051",
+        "lng": "9.17504"
+    },
+    {
+        "country": "CH",
+        "name": "Krauchthal",
+        "lat": "47.00964",
+        "lng": "7.5664"
+    },
+    {
+        "country": "CH",
+        "name": "Koppigen",
+        "lat": "47.13125",
+        "lng": "7.60525"
+    },
+    {
+        "country": "CH",
+        "name": "Konolfingen",
+        "lat": "46.87909",
+        "lng": "7.62013"
+    },
+    {
+        "country": "CH",
+        "name": "K\u00f6niz",
+        "lat": "46.92436",
+        "lng": "7.41457"
+    },
+    {
+        "country": "CH",
+        "name": "K\u00f6lliken",
+        "lat": "47.33337",
+        "lng": "8.02237"
+    },
+    {
+        "country": "CH",
+        "name": "Kollbrunn",
+        "lat": "47.45793",
+        "lng": "8.78295"
+    },
+    {
+        "country": "CH",
+        "name": "Koblenz",
+        "lat": "47.60972",
+        "lng": "8.2375"
+    },
+    {
+        "country": "CH",
+        "name": "Knutwil",
+        "lat": "47.19953",
+        "lng": "8.07315"
+    },
+    {
+        "country": "CH",
+        "name": "Knonau",
+        "lat": "47.2235",
+        "lng": "8.46197"
+    },
+    {
+        "country": "CH",
+        "name": "Kloten",
+        "lat": "47.45152",
+        "lng": "8.58491"
+    },
+    {
+        "country": "CH",
+        "name": "Klosters Serneus",
+        "lat": "46.88918",
+        "lng": "9.83826"
+    },
+    {
+        "country": "CH",
+        "name": "Klingnau",
+        "lat": "47.58361",
+        "lng": "8.2488"
+    },
+    {
+        "country": "CH",
+        "name": "Kleinl\u00fctzel",
+        "lat": "47.42518",
+        "lng": "7.41607"
+    },
+    {
+        "country": "CH",
+        "name": "Kirchlindach",
+        "lat": "46.99965",
+        "lng": "7.41735"
+    },
+    {
+        "country": "CH",
+        "name": "Kirchberg",
+        "lat": "47.41159",
+        "lng": "9.0402"
+    },
+    {
+        "country": "CH",
+        "name": "Kirchberg",
+        "lat": "47.08538",
+        "lng": "7.58288"
+    },
+    {
+        "country": "CH",
+        "name": "Killwangen",
+        "lat": "47.43223",
+        "lng": "8.35097"
+    },
+    {
+        "country": "CH",
+        "name": "Kilchberg",
+        "lat": "47.32438",
+        "lng": "8.54548"
+    },
+    {
+        "country": "CH",
+        "name": "Kerzers",
+        "lat": "46.97586",
+        "lng": "7.1957"
+    },
+    {
+        "country": "CH",
+        "name": "Kerns",
+        "lat": "46.90121",
+        "lng": "8.27514"
+    },
+    {
+        "country": "CH",
+        "name": "Kehrsatz",
+        "lat": "46.91035",
+        "lng": "7.47096"
+    },
+    {
+        "country": "CH",
+        "name": "Kappelen",
+        "lat": "47.06015",
+        "lng": "7.2686"
+    },
+    {
+        "country": "CH",
+        "name": "Kandersteg",
+        "lat": "46.49467",
+        "lng": "7.67326"
+    },
+    {
+        "country": "CH",
+        "name": "Kaltbrunn",
+        "lat": "47.21367",
+        "lng": "9.0259"
+    },
+    {
+        "country": "CH",
+        "name": "Kallnach",
+        "lat": "47.02032",
+        "lng": "7.23545"
+    },
+    {
+        "country": "CH",
+        "name": "Kaisten",
+        "lat": "47.5416",
+        "lng": "8.04337"
+    },
+    {
+        "country": "CH",
+        "name": "Kaiseraugst",
+        "lat": "47.53966",
+        "lng": "7.72605"
+    },
+    {
+        "country": "CH",
+        "name": "Jussy",
+        "lat": "46.2359",
+        "lng": "6.26701"
+    },
+    {
+        "country": "CH",
+        "name": "Jonschwil",
+        "lat": "47.42402",
+        "lng": "9.08689"
+    },
+    {
+        "country": "CH",
+        "name": "Jonen",
+        "lat": "47.2975",
+        "lng": "8.39282"
+    },
+    {
+        "country": "CH",
+        "name": "Jona",
+        "lat": "47.22983",
+        "lng": "8.83884"
+    },
+    {
+        "country": "CH",
+        "name": "Jenaz",
+        "lat": "46.92892",
+        "lng": "9.71275"
+    },
+    {
+        "country": "CH",
+        "name": "Jegenstorf",
+        "lat": "47.04802",
+        "lng": "7.50787"
+    },
+    {
+        "country": "CH",
+        "name": "Pf\u00e4ffikon / Irgenhausen",
+        "lat": "47.3624",
+        "lng": "8.79265"
+    },
+    {
+        "country": "CH",
+        "name": "Inwil",
+        "lat": "47.1253",
+        "lng": "8.34885"
+    },
+    {
+        "country": "CH",
+        "name": "Interlaken",
+        "lat": "46.68387",
+        "lng": "7.86638"
+    },
+    {
+        "country": "CH",
+        "name": "Ins",
+        "lat": "47.00584",
+        "lng": "7.10609"
+    },
+    {
+        "country": "CH",
+        "name": "Ingenbohl",
+        "lat": "46.9988",
+        "lng": "8.61529"
+    },
+    {
+        "country": "CH",
+        "name": "Illnau",
+        "lat": "47.4113",
+        "lng": "8.72125"
+    },
+    {
+        "country": "CH",
+        "name": "Ilanz",
+        "lat": "46.77413",
+        "lng": "9.20461"
+    },
+    {
+        "country": "CH",
+        "name": "Igis",
+        "lat": "46.94531",
+        "lng": "9.57218"
+    },
+    {
+        "country": "CH",
+        "name": "Ibach",
+        "lat": "47.01105",
+        "lng": "8.64538"
+    },
+    {
+        "country": "CH",
+        "name": "H\u00fcttwilen",
+        "lat": "47.60674",
+        "lng": "8.87343"
+    },
+    {
+        "country": "CH",
+        "name": "Huttwil",
+        "lat": "47.11502",
+        "lng": "7.86209"
+    },
+    {
+        "country": "CH",
+        "name": "H\u00fcnenberg",
+        "lat": "47.17536",
+        "lng": "8.42497"
+    },
+    {
+        "country": "CH",
+        "name": "Horw",
+        "lat": "47.01692",
+        "lng": "8.30956"
+    },
+    {
+        "country": "CH",
+        "name": "Horn",
+        "lat": "47.49425",
+        "lng": "9.46246"
+    },
+    {
+        "country": "CH",
+        "name": "Horgen",
+        "lat": "47.25983",
+        "lng": "8.59778"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 10) / H\u00f6ngg",
+        "lat": "47.40313",
+        "lng": "8.4971"
+    },
+    {
+        "country": "CH",
+        "name": "Homburg",
+        "lat": "47.63469",
+        "lng": "9.00756"
+    },
+    {
+        "country": "CH",
+        "name": "Hombrechtikon",
+        "lat": "47.25298",
+        "lng": "8.77212"
+    },
+    {
+        "country": "CH",
+        "name": "H\u00f6lstein",
+        "lat": "47.4229",
+        "lng": "7.77041"
+    },
+    {
+        "country": "CH",
+        "name": "Hohenrain",
+        "lat": "47.18083",
+        "lng": "8.31802"
+    },
+    {
+        "country": "CH",
+        "name": "Hochwald",
+        "lat": "47.45389",
+        "lng": "7.64459"
+    },
+    {
+        "country": "CH",
+        "name": "Hochdorf",
+        "lat": "47.16841",
+        "lng": "8.29179"
+    },
+    {
+        "country": "CH",
+        "name": "Hitzkirch",
+        "lat": "47.22403",
+        "lng": "8.26425"
+    },
+    {
+        "country": "CH",
+        "name": "Hittnau / Hittnau (Dorf)",
+        "lat": "47.36334",
+        "lng": "8.82418"
+    },
+    {
+        "country": "CH",
+        "name": "Hinwil",
+        "lat": "47.29426",
+        "lng": "8.84393"
+    },
+    {
+        "country": "CH",
+        "name": "Hinterrhein",
+        "lat": "46.53333",
+        "lng": "9.2"
+    },
+    {
+        "country": "CH",
+        "name": "Hindelbank",
+        "lat": "47.0427",
+        "lng": "7.54143"
+    },
+    {
+        "country": "CH",
+        "name": "Himmelried",
+        "lat": "47.42136",
+        "lng": "7.59985"
+    },
+    {
+        "country": "CH",
+        "name": "Hilterfingen",
+        "lat": "46.73521",
+        "lng": "7.66185"
+    },
+    {
+        "country": "CH",
+        "name": "Hildisrieden",
+        "lat": "47.15068",
+        "lng": "8.22582"
+    },
+    {
+        "country": "CH",
+        "name": "Hettlingen",
+        "lat": "47.5461",
+        "lng": "8.70532"
+    },
+    {
+        "country": "CH",
+        "name": "Herzogenbuchsee",
+        "lat": "47.18795",
+        "lng": "7.7062"
+    },
+    {
+        "country": "CH",
+        "name": "Herrliberg",
+        "lat": "47.29064",
+        "lng": "8.61464"
+    },
+    {
+        "country": "CH",
+        "name": "Hermiswil",
+        "lat": "46.83125",
+        "lng": "7.47775"
+    },
+    {
+        "country": "CH",
+        "name": "Herisau",
+        "lat": "47.38615",
+        "lng": "9.27916"
+    },
+    {
+        "country": "CH",
+        "name": "Hergiswil",
+        "lat": "46.98429",
+        "lng": "8.30944"
+    },
+    {
+        "country": "CH",
+        "name": "H\u00e9r\u00e9mence",
+        "lat": "46.18032",
+        "lng": "7.40477"
+    },
+    {
+        "country": "CH",
+        "name": "Henggart",
+        "lat": "47.56272",
+        "lng": "8.68215"
+    },
+    {
+        "country": "CH",
+        "name": "Heitenried",
+        "lat": "46.82762",
+        "lng": "7.29944"
+    },
+    {
+        "country": "CH",
+        "name": "Heimiswil",
+        "lat": "47.06755",
+        "lng": "7.66665"
+    },
+    {
+        "country": "CH",
+        "name": "Heimberg",
+        "lat": "46.79482",
+        "lng": "7.60433"
+    },
+    {
+        "country": "CH",
+        "name": "Heiden",
+        "lat": "47.44255",
+        "lng": "9.53293"
+    },
+    {
+        "country": "CH",
+        "name": "Oberwinterthur (Kreis 2) / Hegi",
+        "lat": "47.50716",
+        "lng": "8.77057"
+    },
+    {
+        "country": "CH",
+        "name": "Hausen am Albis / Hausen (Dorf)",
+        "lat": "47.24496",
+        "lng": "8.53299"
+    },
+    {
+        "country": "CH",
+        "name": "Haslen",
+        "lat": "47.36931",
+        "lng": "9.36752"
+    },
+    {
+        "country": "CH",
+        "name": "Hasle",
+        "lat": "46.97787",
+        "lng": "8.05326"
+    },
+    {
+        "country": "CH",
+        "name": "Hallau",
+        "lat": "47.69648",
+        "lng": "8.45827"
+    },
+    {
+        "country": "CH",
+        "name": "H\u00e4gglingen",
+        "lat": "47.38851",
+        "lng": "8.25285"
+    },
+    {
+        "country": "CH",
+        "name": "H\u00e4ggenschwil",
+        "lat": "47.49462",
+        "lng": "9.34487"
+    },
+    {
+        "country": "CH",
+        "name": "H\u00e4gendorf",
+        "lat": "47.33497",
+        "lng": "7.84133"
+    },
+    {
+        "country": "CH",
+        "name": "G\u00fcttingen",
+        "lat": "47.60349",
+        "lng": "9.28742"
+    },
+    {
+        "country": "CH",
+        "name": "Gunzwil",
+        "lat": "47.21072",
+        "lng": "8.17932"
+    },
+    {
+        "country": "CH",
+        "name": "Gunzgen",
+        "lat": "47.31375",
+        "lng": "7.83102"
+    },
+    {
+        "country": "CH",
+        "name": "Guggisberg",
+        "lat": "46.76756",
+        "lng": "7.32946"
+    },
+    {
+        "country": "CH",
+        "name": "Gstaad",
+        "lat": "46.47215",
+        "lng": "7.28685"
+    },
+    {
+        "country": "CH",
+        "name": "Gryon",
+        "lat": "46.27377",
+        "lng": "7.05975"
+    },
+    {
+        "country": "CH",
+        "name": "Gruy\u00e8res",
+        "lat": "46.58338",
+        "lng": "7.08207"
+    },
+    {
+        "country": "CH",
+        "name": "Gr\u00fcsch",
+        "lat": "46.97965",
+        "lng": "9.64639"
+    },
+    {
+        "country": "CH",
+        "name": "Grosswangen",
+        "lat": "47.1331",
+        "lng": "8.05041"
+    },
+    {
+        "country": "CH",
+        "name": "Andelfingen",
+        "lat": "47.59447",
+        "lng": "8.67826"
+    },
+    {
+        "country": "CH",
+        "name": "Grossaffoltern",
+        "lat": "47.06534",
+        "lng": "7.35689"
+    },
+    {
+        "country": "CH",
+        "name": "Gr\u00f4ne",
+        "lat": "46.25288",
+        "lng": "7.45947"
+    },
+    {
+        "country": "CH",
+        "name": "Grolley",
+        "lat": "46.8336",
+        "lng": "7.07116"
+    },
+    {
+        "country": "CH",
+        "name": "Grindelwald",
+        "lat": "46.62396",
+        "lng": "8.03601"
+    },
+    {
+        "country": "CH",
+        "name": "Grimisuat",
+        "lat": "46.25938",
+        "lng": "7.38408"
+    },
+    {
+        "country": "CH",
+        "name": "Grenchen",
+        "lat": "47.1921",
+        "lng": "7.39586"
+    },
+    {
+        "country": "CH",
+        "name": "Grellingen",
+        "lat": "47.44231",
+        "lng": "7.58906"
+    },
+    {
+        "country": "CH",
+        "name": "Greifensee",
+        "lat": "47.36717",
+        "lng": "8.68115"
+    },
+    {
+        "country": "CH",
+        "name": "Gravesano",
+        "lat": "46.04208",
+        "lng": "8.91832"
+    },
+    {
+        "country": "CH",
+        "name": "Gr\u00e4nichen",
+        "lat": "47.3593",
+        "lng": "8.10243"
+    },
+    {
+        "country": "CH",
+        "name": "Grandson",
+        "lat": "46.80946",
+        "lng": "6.646"
+    },
+    {
+        "country": "CH",
+        "name": "Grand-Savagnier",
+        "lat": "47.05101",
+        "lng": "6.95489"
+    },
+    {
+        "country": "CH",
+        "name": "Le Grand-Saconnex",
+        "lat": "46.23188",
+        "lng": "6.12091"
+    },
+    {
+        "country": "CH",
+        "name": "Grancy",
+        "lat": "46.59214",
+        "lng": "6.46391"
+    },
+    {
+        "country": "CH",
+        "name": "Gr\u00e4chen",
+        "lat": "46.19529",
+        "lng": "7.83745"
+    },
+    {
+        "country": "CH",
+        "name": "Grabs",
+        "lat": "47.18248",
+        "lng": "9.44395"
+    },
+    {
+        "country": "CH",
+        "name": "Gottlieben",
+        "lat": "47.6638",
+        "lng": "9.13371"
+    },
+    {
+        "country": "CH",
+        "name": "Gossau",
+        "lat": "47.41551",
+        "lng": "9.25482"
+    },
+    {
+        "country": "CH",
+        "name": "Gossau",
+        "lat": "47.3051",
+        "lng": "8.75831"
+    },
+    {
+        "country": "CH",
+        "name": "Gorgier",
+        "lat": "46.90143",
+        "lng": "6.77985"
+    },
+    {
+        "country": "CH",
+        "name": "Gordola",
+        "lat": "46.18256",
+        "lng": "8.86657"
+    },
+    {
+        "country": "CH",
+        "name": "Gontenschwil",
+        "lat": "47.27166",
+        "lng": "8.14396"
+    },
+    {
+        "country": "CH",
+        "name": "Gonten",
+        "lat": "47.32725",
+        "lng": "9.34705"
+    },
+    {
+        "country": "CH",
+        "name": "Gommiswald",
+        "lat": "47.23128",
+        "lng": "9.02355"
+    },
+    {
+        "country": "CH",
+        "name": "Goldingen",
+        "lat": "47.26477",
+        "lng": "8.96167"
+    },
+    {
+        "country": "CH",
+        "name": "Goldau",
+        "lat": "47.04761",
+        "lng": "8.54616"
+    },
+    {
+        "country": "CH",
+        "name": "Goldach",
+        "lat": "47.47401",
+        "lng": "9.46711"
+    },
+    {
+        "country": "CH",
+        "name": "Glovelier",
+        "lat": "47.33534",
+        "lng": "7.20556"
+    },
+    {
+        "country": "CH",
+        "name": "Glattfelden",
+        "lat": "47.55871",
+        "lng": "8.50167"
+    },
+    {
+        "country": "CH",
+        "name": "Glattbrugg",
+        "lat": "47.4313",
+        "lng": "8.56272"
+    },
+    {
+        "country": "CH",
+        "name": "Glarus",
+        "lat": "47.04057",
+        "lng": "9.06804"
+    },
+    {
+        "country": "CH",
+        "name": "Gland",
+        "lat": "46.42082",
+        "lng": "6.2701"
+    },
+    {
+        "country": "CH",
+        "name": "Giubiasco",
+        "lat": "46.17246",
+        "lng": "9.00793"
+    },
+    {
+        "country": "CH",
+        "name": "Giswil",
+        "lat": "46.83333",
+        "lng": "8.18065"
+    },
+    {
+        "country": "CH",
+        "name": "Gipf-Oberfrick",
+        "lat": "47.49875",
+        "lng": "8.00497"
+    },
+    {
+        "country": "CH",
+        "name": "Gimel",
+        "lat": "46.50945",
+        "lng": "6.30736"
+    },
+    {
+        "country": "CH",
+        "name": "Giffers",
+        "lat": "46.7623",
+        "lng": "7.20845"
+    },
+    {
+        "country": "CH",
+        "name": "Geuensee",
+        "lat": "47.1997",
+        "lng": "8.10689"
+    },
+    {
+        "country": "CH",
+        "name": "Gersau",
+        "lat": "46.99419",
+        "lng": "8.525"
+    },
+    {
+        "country": "CH",
+        "name": "Gerlafingen",
+        "lat": "47.17087",
+        "lng": "7.57249"
+    },
+    {
+        "country": "CH",
+        "name": "Genolier",
+        "lat": "46.43537",
+        "lng": "6.21809"
+    },
+    {
+        "country": "CH",
+        "name": "Gen\u00e8ve",
+        "lat": "46.20222",
+        "lng": "6.14569"
+    },
+    {
+        "country": "CH",
+        "name": "Gelterkinden",
+        "lat": "47.46497",
+        "lng": "7.85174"
+    },
+    {
+        "country": "CH",
+        "name": "Gebenstorf",
+        "lat": "47.48136",
+        "lng": "8.23949"
+    },
+    {
+        "country": "CH",
+        "name": "Ganterschwil",
+        "lat": "47.38103",
+        "lng": "9.09239"
+    },
+    {
+        "country": "CH",
+        "name": "Gams",
+        "lat": "47.20429",
+        "lng": "9.44172"
+    },
+    {
+        "country": "CH",
+        "name": "Gampel",
+        "lat": "46.31599",
+        "lng": "7.7421"
+    },
+    {
+        "country": "CH",
+        "name": "Gais",
+        "lat": "47.3615",
+        "lng": "9.45356"
+    },
+    {
+        "country": "CH",
+        "name": "Gachnang",
+        "lat": "47.53935",
+        "lng": "8.85311"
+    },
+    {
+        "country": "CH",
+        "name": "Fully",
+        "lat": "46.13851",
+        "lng": "7.11468"
+    },
+    {
+        "country": "CH",
+        "name": "F\u00fcllinsdorf",
+        "lat": "47.50688",
+        "lng": "7.73129"
+    },
+    {
+        "country": "CH",
+        "name": "Fulenbach",
+        "lat": "47.27103",
+        "lng": "7.83136"
+    },
+    {
+        "country": "CH",
+        "name": "Frutigen",
+        "lat": "46.58723",
+        "lng": "7.64945"
+    },
+    {
+        "country": "CH",
+        "name": "Froideville",
+        "lat": "46.60123",
+        "lng": "6.68085"
+    },
+    {
+        "country": "CH",
+        "name": "Frick",
+        "lat": "47.51169",
+        "lng": "8.02471"
+    },
+    {
+        "country": "CH",
+        "name": "Fribourg",
+        "lat": "46.80237",
+        "lng": "7.15128"
+    },
+    {
+        "country": "CH",
+        "name": "Frenkendorf",
+        "lat": "47.50686",
+        "lng": "7.71648"
+    },
+    {
+        "country": "CH",
+        "name": "Freienbach",
+        "lat": "47.20534",
+        "lng": "8.75842"
+    },
+    {
+        "country": "CH",
+        "name": "Frauenkappelen",
+        "lat": "46.95425",
+        "lng": "7.33835"
+    },
+    {
+        "country": "CH",
+        "name": "Frauenfeld",
+        "lat": "47.55776",
+        "lng": "8.89893"
+    },
+    {
+        "country": "CH",
+        "name": "Fraubrunnen",
+        "lat": "47.0862",
+        "lng": "7.52727"
+    },
+    {
+        "country": "CH",
+        "name": "Founex",
+        "lat": "46.33277",
+        "lng": "6.19243"
+    },
+    {
+        "country": "CH",
+        "name": "Fontenais",
+        "lat": "47.40292",
+        "lng": "7.08108"
+    },
+    {
+        "country": "CH",
+        "name": "Fontainemelon",
+        "lat": "47.05495",
+        "lng": "6.8868"
+    },
+    {
+        "country": "CH",
+        "name": "Flurlingen",
+        "lat": "47.6839",
+        "lng": "8.62995"
+    },
+    {
+        "country": "CH",
+        "name": "Flums",
+        "lat": "47.09058",
+        "lng": "9.34301"
+    },
+    {
+        "country": "CH",
+        "name": "Fl\u00fchli",
+        "lat": "46.88391",
+        "lng": "8.01558"
+    },
+    {
+        "country": "CH",
+        "name": "Fl\u00fcelen",
+        "lat": "46.90478",
+        "lng": "8.62396"
+    },
+    {
+        "country": "CH",
+        "name": "Flims",
+        "lat": "46.83705",
+        "lng": "9.28458"
+    },
+    {
+        "country": "CH",
+        "name": "Fleurier",
+        "lat": "46.90224",
+        "lng": "6.58253"
+    },
+    {
+        "country": "CH",
+        "name": "Flawil",
+        "lat": "47.41301",
+        "lng": "9.18324"
+    },
+    {
+        "country": "CH",
+        "name": "Flamatt",
+        "lat": "46.88994",
+        "lng": "7.32204"
+    },
+    {
+        "country": "CH",
+        "name": "Fischingen",
+        "lat": "47.41422",
+        "lng": "8.96862"
+    },
+    {
+        "country": "CH",
+        "name": "Fiesch",
+        "lat": "46.39981",
+        "lng": "8.13533"
+    },
+    {
+        "country": "CH",
+        "name": "Feusisberg",
+        "lat": "47.18707",
+        "lng": "8.74724"
+    },
+    {
+        "country": "CH",
+        "name": "Feuerthalen",
+        "lat": "47.69054",
+        "lng": "8.64357"
+    },
+    {
+        "country": "CH",
+        "name": "Ferenbalm",
+        "lat": "46.9488",
+        "lng": "7.21124"
+    },
+    {
+        "country": "CH",
+        "name": "Felsberg",
+        "lat": "46.84566",
+        "lng": "9.47588"
+    },
+    {
+        "country": "CH",
+        "name": "Feldmeilen",
+        "lat": "47.27873",
+        "lng": "8.62165"
+    },
+    {
+        "country": "CH",
+        "name": "Fehraltorf",
+        "lat": "47.38775",
+        "lng": "8.75149"
+    },
+    {
+        "country": "CH",
+        "name": "F\u00e4llanden",
+        "lat": "47.37169",
+        "lng": "8.63869"
+    },
+    {
+        "country": "CH",
+        "name": "Faido",
+        "lat": "46.477",
+        "lng": "8.80125"
+    },
+    {
+        "country": "CH",
+        "name": "Evol\u00e8ne",
+        "lat": "46.11422",
+        "lng": "7.49407"
+    },
+    {
+        "country": "CH",
+        "name": "Evionnaz",
+        "lat": "46.18096",
+        "lng": "7.02232"
+    },
+    {
+        "country": "CH",
+        "name": "Evilard",
+        "lat": "47.15046",
+        "lng": "7.23895"
+    },
+    {
+        "country": "CH",
+        "name": "Ettiswil",
+        "lat": "47.15031",
+        "lng": "8.01759"
+    },
+    {
+        "country": "CH",
+        "name": "Ettingen",
+        "lat": "47.48225",
+        "lng": "7.54654"
+    },
+    {
+        "country": "CH",
+        "name": "Estavayer-le-Lac",
+        "lat": "46.84876",
+        "lng": "6.8465"
+    },
+    {
+        "country": "CH",
+        "name": "Escholzmatt",
+        "lat": "46.9135",
+        "lng": "7.93426"
+    },
+    {
+        "country": "CH",
+        "name": "Eschlikon",
+        "lat": "47.46361",
+        "lng": "8.96381"
+    },
+    {
+        "country": "CH",
+        "name": "Eschenz",
+        "lat": "47.64793",
+        "lng": "8.87472"
+    },
+    {
+        "country": "CH",
+        "name": "Eschenbach",
+        "lat": "47.23981",
+        "lng": "8.92156"
+    },
+    {
+        "country": "CH",
+        "name": "Erstfeld",
+        "lat": "46.81885",
+        "lng": "8.65052"
+    },
+    {
+        "country": "CH",
+        "name": "Ersigen",
+        "lat": "47.09368",
+        "lng": "7.59507"
+    },
+    {
+        "country": "CH",
+        "name": "Ermatingen",
+        "lat": "47.67057",
+        "lng": "9.08573"
+    },
+    {
+        "country": "CH",
+        "name": "Erlenbach im Simmental",
+        "lat": "46.66021",
+        "lng": "7.55445"
+    },
+    {
+        "country": "CH",
+        "name": "Erlenbach",
+        "lat": "47.30298",
+        "lng": "8.59743"
+    },
+    {
+        "country": "CH",
+        "name": "Erlen",
+        "lat": "47.54814",
+        "lng": "9.23415"
+    },
+    {
+        "country": "CH",
+        "name": "Erlach",
+        "lat": "47.0422",
+        "lng": "7.09728"
+    },
+    {
+        "country": "CH",
+        "name": "Eriswil",
+        "lat": "47.07816",
+        "lng": "7.85149"
+    },
+    {
+        "country": "CH",
+        "name": "Ependes",
+        "lat": "46.75368",
+        "lng": "7.14609"
+    },
+    {
+        "country": "CH",
+        "name": "Epalinges",
+        "lat": "46.54896",
+        "lng": "6.66831"
+    },
+    {
+        "country": "CH",
+        "name": "Entlebuch",
+        "lat": "46.99559",
+        "lng": "8.06354"
+    },
+    {
+        "country": "CH",
+        "name": "Ennetb\u00fcrgen",
+        "lat": "46.98423",
+        "lng": "8.41003"
+    },
+    {
+        "country": "CH",
+        "name": "Ennenda",
+        "lat": "47.03363",
+        "lng": "9.07888"
+    },
+    {
+        "country": "CH",
+        "name": "Engelberg",
+        "lat": "46.82107",
+        "lng": "8.40133"
+    },
+    {
+        "country": "CH",
+        "name": "Emmetten",
+        "lat": "46.95658",
+        "lng": "8.51467"
+    },
+    {
+        "country": "CH",
+        "name": "Emmen",
+        "lat": "47.07819",
+        "lng": "8.27331"
+    },
+    {
+        "country": "CH",
+        "name": "Embrach",
+        "lat": "47.50561",
+        "lng": "8.59406"
+    },
+    {
+        "country": "CH",
+        "name": "Elgg",
+        "lat": "47.49715",
+        "lng": "8.86523"
+    },
+    {
+        "country": "CH",
+        "name": "Einsiedeln",
+        "lat": "47.12849",
+        "lng": "8.74735"
+    },
+    {
+        "country": "CH",
+        "name": "Eiken",
+        "lat": "47.53361",
+        "lng": "7.98801"
+    },
+    {
+        "country": "CH",
+        "name": "Eichberg",
+        "lat": "47.34374",
+        "lng": "9.5314"
+    },
+    {
+        "country": "CH",
+        "name": "Eich",
+        "lat": "47.15116",
+        "lng": "8.16695"
+    },
+    {
+        "country": "CH",
+        "name": "Egnach",
+        "lat": "47.54268",
+        "lng": "9.38048"
+    },
+    {
+        "country": "CH",
+        "name": "Egliswil",
+        "lat": "47.34922",
+        "lng": "8.18553"
+    },
+    {
+        "country": "CH",
+        "name": "Eggiwil",
+        "lat": "46.87575",
+        "lng": "7.79567"
+    },
+    {
+        "country": "CH",
+        "name": "Eggersriet",
+        "lat": "47.44202",
+        "lng": "9.46901"
+    },
+    {
+        "country": "CH",
+        "name": "Egg",
+        "lat": "47.29976",
+        "lng": "8.69032"
+    },
+    {
+        "country": "CH",
+        "name": "Egerkingen",
+        "lat": "47.31957",
+        "lng": "7.78424"
+    },
+    {
+        "country": "CH",
+        "name": "Effretikon",
+        "lat": "47.42575",
+        "lng": "8.69094"
+    },
+    {
+        "country": "CH",
+        "name": "Ecublens",
+        "lat": "46.60735",
+        "lng": "6.80895"
+    },
+    {
+        "country": "CH",
+        "name": "Echallens",
+        "lat": "46.6413",
+        "lng": "6.63317"
+    },
+    {
+        "country": "CH",
+        "name": "Ebnat-Kappel",
+        "lat": "47.26195",
+        "lng": "9.12473"
+    },
+    {
+        "country": "CH",
+        "name": "Ebikon",
+        "lat": "47.07937",
+        "lng": "8.34041"
+    },
+    {
+        "country": "CH",
+        "name": "D\u00fcrrenroth",
+        "lat": "47.08953",
+        "lng": "7.7917"
+    },
+    {
+        "country": "CH",
+        "name": "D\u00fcrren\u00e4sch",
+        "lat": "47.32094",
+        "lng": "8.15874"
+    },
+    {
+        "country": "CH",
+        "name": "D\u00fcrnten",
+        "lat": "47.27856",
+        "lng": "8.84156"
+    },
+    {
+        "country": "CH",
+        "name": "D\u00fcdingen",
+        "lat": "46.84916",
+        "lng": "7.1915"
+    },
+    {
+        "country": "CH",
+        "name": "D\u00fcbendorf",
+        "lat": "47.39724",
+        "lng": "8.61872"
+    },
+    {
+        "country": "CH",
+        "name": "Dottikon",
+        "lat": "47.38437",
+        "lng": "8.23981"
+    },
+    {
+        "country": "CH",
+        "name": "Dornach",
+        "lat": "47.48038",
+        "lng": "7.61644"
+    },
+    {
+        "country": "CH",
+        "name": "Domdidier",
+        "lat": "46.86716",
+        "lng": "7.01337"
+    },
+    {
+        "country": "CH",
+        "name": "Dombresson",
+        "lat": "47.07192",
+        "lng": "6.9592"
+    },
+    {
+        "country": "CH",
+        "name": "Domat",
+        "lat": "46.83483",
+        "lng": "9.45075"
+    },
+    {
+        "country": "CH",
+        "name": "Disentis",
+        "lat": "46.70341",
+        "lng": "8.8509"
+    },
+    {
+        "country": "CH",
+        "name": "Dietlikon / Dietlikon (Dorf)",
+        "lat": "47.41827",
+        "lng": "8.6188"
+    },
+    {
+        "country": "CH",
+        "name": "Dietikon",
+        "lat": "47.40165",
+        "lng": "8.40015"
+    },
+    {
+        "country": "CH",
+        "name": "Diessenhofen",
+        "lat": "47.68908",
+        "lng": "8.74958"
+    },
+    {
+        "country": "CH",
+        "name": "Diepoldsau",
+        "lat": "47.386",
+        "lng": "9.65558"
+    },
+    {
+        "country": "CH",
+        "name": "Diemtigen",
+        "lat": "46.64928",
+        "lng": "7.56477"
+    },
+    {
+        "country": "CH",
+        "name": "Dielsdorf",
+        "lat": "47.48146",
+        "lng": "8.4585"
+    },
+    {
+        "country": "CH",
+        "name": "Diegten",
+        "lat": "47.4138",
+        "lng": "7.81085"
+    },
+    {
+        "country": "CH",
+        "name": "Derendingen",
+        "lat": "47.1985",
+        "lng": "7.58844"
+    },
+    {
+        "country": "CH",
+        "name": "Densb\u00fcren",
+        "lat": "47.4526",
+        "lng": "8.0533"
+    },
+    {
+        "country": "CH",
+        "name": "Del\u00e9mont",
+        "lat": "47.36493",
+        "lng": "7.34453"
+    },
+    {
+        "country": "CH",
+        "name": "Deitingen",
+        "lat": "47.21515",
+        "lng": "7.6188"
+    },
+    {
+        "country": "CH",
+        "name": "Degersheim",
+        "lat": "47.37429",
+        "lng": "9.20019"
+    },
+    {
+        "country": "CH",
+        "name": "Davos",
+        "lat": "46.80429",
+        "lng": "9.83723"
+    },
+    {
+        "country": "CH",
+        "name": "D\u00e4rligen",
+        "lat": "46.66175",
+        "lng": "7.80808"
+    },
+    {
+        "country": "CH",
+        "name": "Dardagny",
+        "lat": "46.19564",
+        "lng": "5.99497"
+    },
+    {
+        "country": "CH",
+        "name": "Dallenwil",
+        "lat": "46.9242",
+        "lng": "8.38785"
+    },
+    {
+        "country": "CH",
+        "name": "Dagmersellen",
+        "lat": "47.21405",
+        "lng": "7.98519"
+    },
+    {
+        "country": "CH",
+        "name": "Dachsen",
+        "lat": "47.66515",
+        "lng": "8.6179"
+    },
+    {
+        "country": "CH",
+        "name": "Cully",
+        "lat": "46.48892",
+        "lng": "6.72945"
+    },
+    {
+        "country": "CH",
+        "name": "Cugy",
+        "lat": "46.81479",
+        "lng": "6.88888"
+    },
+    {
+        "country": "CH",
+        "name": "Cugnasco",
+        "lat": "46.17473",
+        "lng": "8.91684"
+    },
+    {
+        "country": "CH",
+        "name": "Crissier",
+        "lat": "46.54586",
+        "lng": "6.57567"
+    },
+    {
+        "country": "CH",
+        "name": "Couvet",
+        "lat": "46.92525",
+        "lng": "6.6327"
+    },
+    {
+        "country": "CH",
+        "name": "Court\u00e9telle",
+        "lat": "47.34074",
+        "lng": "7.31827"
+    },
+    {
+        "country": "CH",
+        "name": "Courtelary",
+        "lat": "47.17822",
+        "lng": "7.07236"
+    },
+    {
+        "country": "CH",
+        "name": "Court",
+        "lat": "47.23956",
+        "lng": "7.33655"
+    },
+    {
+        "country": "CH",
+        "name": "Courroux",
+        "lat": "47.36069",
+        "lng": "7.37371"
+    },
+    {
+        "country": "CH",
+        "name": "Courrendlin",
+        "lat": "47.33853",
+        "lng": "7.37243"
+    },
+    {
+        "country": "CH",
+        "name": "Courgevaux",
+        "lat": "46.90648",
+        "lng": "7.11215"
+    },
+    {
+        "country": "CH",
+        "name": "Courgenay",
+        "lat": "47.40483",
+        "lng": "7.12522"
+    },
+    {
+        "country": "CH",
+        "name": "Courfaivre",
+        "lat": "47.33461",
+        "lng": "7.28186"
+    },
+    {
+        "country": "CH",
+        "name": "Cossonay",
+        "lat": "46.61443",
+        "lng": "6.50631"
+    },
+    {
+        "country": "CH",
+        "name": "Cortaillod",
+        "lat": "46.94306",
+        "lng": "6.8444"
+    },
+    {
+        "country": "CH",
+        "name": "Corsier",
+        "lat": "46.26297",
+        "lng": "6.22461"
+    },
+    {
+        "country": "CH",
+        "name": "Cornaux",
+        "lat": "47.0396",
+        "lng": "7.01872"
+    },
+    {
+        "country": "CH",
+        "name": "Corminboeuf",
+        "lat": "46.81029",
+        "lng": "7.10535"
+    },
+    {
+        "country": "CH",
+        "name": "Corg\u00e9mont",
+        "lat": "47.19457",
+        "lng": "7.14517"
+    },
+    {
+        "country": "CH",
+        "name": "Coppet",
+        "lat": "46.31682",
+        "lng": "6.19114"
+    },
+    {
+        "country": "CH",
+        "name": "Conthey",
+        "lat": "46.2237",
+        "lng": "7.30283"
+    },
+    {
+        "country": "CH",
+        "name": "Confignon",
+        "lat": "46.17341",
+        "lng": "6.08437"
+    },
+    {
+        "country": "CH",
+        "name": "Comano",
+        "lat": "46.03635",
+        "lng": "8.95526"
+    },
+    {
+        "country": "CH",
+        "name": "Colombier",
+        "lat": "46.55709",
+        "lng": "6.47284"
+    },
+    {
+        "country": "CH",
+        "name": "Collombey",
+        "lat": "46.27385",
+        "lng": "6.94789"
+    },
+    {
+        "country": "CH",
+        "name": "Claro",
+        "lat": "46.25763",
+        "lng": "9.02252"
+    },
+    {
+        "country": "CH",
+        "name": "Churwalden",
+        "lat": "46.78143",
+        "lng": "9.54377"
+    },
+    {
+        "country": "CH",
+        "name": "Chur",
+        "lat": "46.84986",
+        "lng": "9.53287"
+    },
+    {
+        "country": "CH",
+        "name": "Chippis",
+        "lat": "46.2802",
+        "lng": "7.53962"
+    },
+    {
+        "country": "CH",
+        "name": "Chiasso",
+        "lat": "45.83203",
+        "lng": "9.03119"
+    },
+    {
+        "country": "CH",
+        "name": "Ch\u00e9zard-Saint-Martin",
+        "lat": "47.06629",
+        "lng": "6.93332"
+    },
+    {
+        "country": "CH",
+        "name": "Chexbres",
+        "lat": "46.48208",
+        "lng": "6.77805"
+    },
+    {
+        "country": "CH",
+        "name": "Cheseaux",
+        "lat": "46.58624",
+        "lng": "6.60587"
+    },
+    {
+        "country": "CH",
+        "name": "Chermignon-d\u2019en Haut",
+        "lat": "46.28844",
+        "lng": "7.47487"
+    },
+    {
+        "country": "CH",
+        "name": "Ch\u00eane-Bourg",
+        "lat": "46.19534",
+        "lng": "6.19406"
+    },
+    {
+        "country": "CH",
+        "name": "Chavornay",
+        "lat": "46.70244",
+        "lng": "6.5694"
+    },
+    {
+        "country": "CH",
+        "name": "Chavannes",
+        "lat": "46.53005",
+        "lng": "6.57068"
+    },
+    {
+        "country": "CH",
+        "name": "Ch\u00e2tel-Saint-Denis",
+        "lat": "46.52691",
+        "lng": "6.90083"
+    },
+    {
+        "country": "CH",
+        "name": "Ch\u00e2teau-d'Oex",
+        "lat": "46.47455",
+        "lng": "7.13155"
+    },
+    {
+        "country": "CH",
+        "name": "Charrat",
+        "lat": "46.1249",
+        "lng": "7.13138"
+    },
+    {
+        "country": "CH",
+        "name": "Charmey",
+        "lat": "46.61957",
+        "lng": "7.16486"
+    },
+    {
+        "country": "CH",
+        "name": "Chardonne",
+        "lat": "46.47676",
+        "lng": "6.8268"
+    },
+    {
+        "country": "CH",
+        "name": "Chancy",
+        "lat": "46.15003",
+        "lng": "5.97153"
+    },
+    {
+        "country": "CH",
+        "name": "Champ\u00e9ry",
+        "lat": "46.17543",
+        "lng": "6.86903"
+    },
+    {
+        "country": "CH",
+        "name": "Chamoson",
+        "lat": "46.20275",
+        "lng": "7.22319"
+    },
+    {
+        "country": "CH",
+        "name": "Cham",
+        "lat": "47.18213",
+        "lng": "8.46358"
+    },
+    {
+        "country": "CH",
+        "name": "Chalais",
+        "lat": "46.26758",
+        "lng": "7.51145"
+    },
+    {
+        "country": "CH",
+        "name": "Cevio",
+        "lat": "46.31479",
+        "lng": "8.60332"
+    },
+    {
+        "country": "CH",
+        "name": "Cernier",
+        "lat": "47.05878",
+        "lng": "6.9004"
+    },
+    {
+        "country": "CH",
+        "name": "Celerina",
+        "lat": "46.51217",
+        "lng": "9.85794"
+    },
+    {
+        "country": "CH",
+        "name": "Cazis",
+        "lat": "46.7194",
+        "lng": "9.43271"
+    },
+    {
+        "country": "CH",
+        "name": "Caux",
+        "lat": "46.43241",
+        "lng": "6.93855"
+    },
+    {
+        "country": "CH",
+        "name": "Cauco",
+        "lat": "46.33541",
+        "lng": "9.12129"
+    },
+    {
+        "country": "CH",
+        "name": "Castel San Pietro",
+        "lat": "45.86211",
+        "lng": "9.00843"
+    },
+    {
+        "country": "CH",
+        "name": "Caslano",
+        "lat": "45.97364",
+        "lng": "8.87739"
+    },
+    {
+        "country": "CH",
+        "name": "Carouge",
+        "lat": "46.18096",
+        "lng": "6.13921"
+    },
+    {
+        "country": "CH",
+        "name": "Canobbio",
+        "lat": "46.03592",
+        "lng": "8.96605"
+    },
+    {
+        "country": "CH",
+        "name": "Camorino",
+        "lat": "46.16483",
+        "lng": "9.00547"
+    },
+    {
+        "country": "CH",
+        "name": "Cadro",
+        "lat": "46.04595",
+        "lng": "8.98725"
+    },
+    {
+        "country": "CH",
+        "name": "Cadenazzo",
+        "lat": "46.15172",
+        "lng": "8.94719"
+    },
+    {
+        "country": "CH",
+        "name": "Cadempino",
+        "lat": "46.03672",
+        "lng": "8.93403"
+    },
+    {
+        "country": "CH",
+        "name": "Buus",
+        "lat": "47.50635",
+        "lng": "7.86414"
+    },
+    {
+        "country": "CH",
+        "name": "Buttwil",
+        "lat": "47.26828",
+        "lng": "8.31064"
+    },
+    {
+        "country": "CH",
+        "name": "Buttisholz",
+        "lat": "47.11442",
+        "lng": "8.09425"
+    },
+    {
+        "country": "CH",
+        "name": "B\u00fctschwil",
+        "lat": "47.36022",
+        "lng": "9.07213"
+    },
+    {
+        "country": "CH",
+        "name": "Bussigny",
+        "lat": "46.5511",
+        "lng": "6.55597"
+    },
+    {
+        "country": "CH",
+        "name": "B\u00fcsserach",
+        "lat": "47.39415",
+        "lng": "7.54117"
+    },
+    {
+        "country": "CH",
+        "name": "Buseno",
+        "lat": "46.27381",
+        "lng": "9.10735"
+    },
+    {
+        "country": "CH",
+        "name": "B\u00fcron",
+        "lat": "47.21192",
+        "lng": "8.0942"
+    },
+    {
+        "country": "CH",
+        "name": "B\u00fcrglen",
+        "lat": "47.54921",
+        "lng": "9.1495"
+    },
+    {
+        "country": "CH",
+        "name": "B\u00fcrglen",
+        "lat": "46.87565",
+        "lng": "8.66539"
+    },
+    {
+        "country": "CH",
+        "name": "Burgistein",
+        "lat": "46.78464",
+        "lng": "7.49988"
+    },
+    {
+        "country": "CH",
+        "name": "Burgdorf",
+        "lat": "47.05901",
+        "lng": "7.62786"
+    },
+    {
+        "country": "CH",
+        "name": "Buochs",
+        "lat": "46.97398",
+        "lng": "8.42279"
+    },
+    {
+        "country": "CH",
+        "name": "Bulle",
+        "lat": "46.61797",
+        "lng": "7.0569"
+    },
+    {
+        "country": "CH",
+        "name": "B\u00fclach",
+        "lat": "47.52197",
+        "lng": "8.54049"
+    },
+    {
+        "country": "CH",
+        "name": "B\u00fchler",
+        "lat": "47.37348",
+        "lng": "9.42507"
+    },
+    {
+        "country": "CH",
+        "name": "Buchs",
+        "lat": "47.39358",
+        "lng": "8.08233"
+    },
+    {
+        "country": "CH",
+        "name": "Buchs",
+        "lat": "47.16743",
+        "lng": "9.47794"
+    },
+    {
+        "country": "CH",
+        "name": "Buchrain",
+        "lat": "47.09625",
+        "lng": "8.34729"
+    },
+    {
+        "country": "CH",
+        "name": "Buchholterberg",
+        "lat": "46.81351",
+        "lng": "7.67463"
+    },
+    {
+        "country": "CH",
+        "name": "Bubikon",
+        "lat": "47.26698",
+        "lng": "8.8179"
+    },
+    {
+        "country": "CH",
+        "name": "Bubendorf",
+        "lat": "47.44586",
+        "lng": "7.73759"
+    },
+    {
+        "country": "CH",
+        "name": "Br\u00fcttisellen",
+        "lat": "47.42173",
+        "lng": "8.63263"
+    },
+    {
+        "country": "CH",
+        "name": "Br\u00fctten",
+        "lat": "47.47318",
+        "lng": "8.67569"
+    },
+    {
+        "country": "CH",
+        "name": "Brusio",
+        "lat": "46.25953",
+        "lng": "10.12385"
+    },
+    {
+        "country": "CH",
+        "name": "Brugg",
+        "lat": "47.48096",
+        "lng": "8.20869"
+    },
+    {
+        "country": "CH",
+        "name": "Br\u00fcgg",
+        "lat": "47.1237",
+        "lng": "7.27887"
+    },
+    {
+        "country": "CH",
+        "name": "Bronschhofen",
+        "lat": "47.47835",
+        "lng": "9.03454"
+    },
+    {
+        "country": "CH",
+        "name": "Broc",
+        "lat": "46.60513",
+        "lng": "7.09891"
+    },
+    {
+        "country": "CH",
+        "name": "Brittnau",
+        "lat": "47.25954",
+        "lng": "7.94689"
+    },
+    {
+        "country": "CH",
+        "name": "Brissago",
+        "lat": "46.12013",
+        "lng": "8.71181"
+    },
+    {
+        "country": "CH",
+        "name": "Brislach",
+        "lat": "47.41763",
+        "lng": "7.5434"
+    },
+    {
+        "country": "CH",
+        "name": "Brig",
+        "lat": "46.31667",
+        "lng": "7.98333"
+    },
+    {
+        "country": "CH",
+        "name": "Brienz",
+        "lat": "46.7545",
+        "lng": "8.03847"
+    },
+    {
+        "country": "CH",
+        "name": "Bremgarten",
+        "lat": "47.35109",
+        "lng": "8.34214"
+    },
+    {
+        "country": "CH",
+        "name": "Breitenbach",
+        "lat": "47.40668",
+        "lng": "7.54554"
+    },
+    {
+        "country": "CH",
+        "name": "Bre\u00edl",
+        "lat": "46.76986",
+        "lng": "9.06036"
+    },
+    {
+        "country": "CH",
+        "name": "Bowil",
+        "lat": "46.89304",
+        "lng": "7.69757"
+    },
+    {
+        "country": "CH",
+        "name": "Boudry",
+        "lat": "46.94991",
+        "lng": "6.83757"
+    },
+    {
+        "country": "CH",
+        "name": "Bottmingen",
+        "lat": "47.52343",
+        "lng": "7.57211"
+    },
+    {
+        "country": "CH",
+        "name": "Bottighofen",
+        "lat": "47.63643",
+        "lng": "9.20882"
+    },
+    {
+        "country": "CH",
+        "name": "Bottens",
+        "lat": "46.61596",
+        "lng": "6.66149"
+    },
+    {
+        "country": "CH",
+        "name": "B\u00f6singen",
+        "lat": "46.89229",
+        "lng": "7.2277"
+    },
+    {
+        "country": "CH",
+        "name": "Bonstetten",
+        "lat": "47.31505",
+        "lng": "8.46836"
+    },
+    {
+        "country": "CH",
+        "name": "Boniswil",
+        "lat": "47.31725",
+        "lng": "8.18963"
+    },
+    {
+        "country": "CH",
+        "name": "B\u00f6nigen",
+        "lat": "46.68736",
+        "lng": "7.8935"
+    },
+    {
+        "country": "CH",
+        "name": "Boncourt",
+        "lat": "47.49493",
+        "lng": "7.01297"
+    },
+    {
+        "country": "CH",
+        "name": "Bonaduz",
+        "lat": "46.81103",
+        "lng": "9.39821"
+    },
+    {
+        "country": "CH",
+        "name": "Boltigen",
+        "lat": "46.62847",
+        "lng": "7.39054"
+    },
+    {
+        "country": "CH",
+        "name": "Bolligen",
+        "lat": "46.9751",
+        "lng": "7.49697"
+    },
+    {
+        "country": "CH",
+        "name": "Bodio",
+        "lat": "46.37808",
+        "lng": "8.90991"
+    },
+    {
+        "country": "CH",
+        "name": "Blumenstein",
+        "lat": "46.7421",
+        "lng": "7.52136"
+    },
+    {
+        "country": "CH",
+        "name": "Blonay",
+        "lat": "46.46778",
+        "lng": "6.89615"
+    },
+    {
+        "country": "CH",
+        "name": "Birsfelden",
+        "lat": "47.5529",
+        "lng": "7.62322"
+    },
+    {
+        "country": "CH",
+        "name": "Birr",
+        "lat": "47.43432",
+        "lng": "8.20891"
+    },
+    {
+        "country": "CH",
+        "name": "Birmenstorf",
+        "lat": "47.46152",
+        "lng": "8.24816"
+    },
+    {
+        "country": "CH",
+        "name": "Birmensdorf",
+        "lat": "47.35515",
+        "lng": "8.44256"
+    },
+    {
+        "country": "CH",
+        "name": "Bioggio",
+        "lat": "46.01357",
+        "lng": "8.91103"
+    },
+    {
+        "country": "CH",
+        "name": "Binningen",
+        "lat": "47.54021",
+        "lng": "7.56932"
+    },
+    {
+        "country": "CH",
+        "name": "Bilten",
+        "lat": "47.14995",
+        "lng": "9.02551"
+    },
+    {
+        "country": "CH",
+        "name": "Biglen",
+        "lat": "46.92629",
+        "lng": "7.62508"
+    },
+    {
+        "country": "CH",
+        "name": "Bi\u00e8re",
+        "lat": "46.53761",
+        "lng": "6.33362"
+    },
+    {
+        "country": "CH",
+        "name": "Biel/Bienne",
+        "lat": "47.13713",
+        "lng": "7.24608"
+    },
+    {
+        "country": "CH",
+        "name": "Biberist",
+        "lat": "47.18009",
+        "lng": "7.56246"
+    },
+    {
+        "country": "CH",
+        "name": "Biasca",
+        "lat": "46.35972",
+        "lng": "8.96965"
+    },
+    {
+        "country": "CH",
+        "name": "Bex",
+        "lat": "46.24965",
+        "lng": "7.0098"
+    },
+    {
+        "country": "CH",
+        "name": "B\u00e9vilard",
+        "lat": "47.23711",
+        "lng": "7.28325"
+    },
+    {
+        "country": "CH",
+        "name": "Bevaix",
+        "lat": "46.92958",
+        "lng": "6.8147"
+    },
+    {
+        "country": "CH",
+        "name": "Bettlach",
+        "lat": "47.20062",
+        "lng": "7.42405"
+    },
+    {
+        "country": "CH",
+        "name": "Bettingen",
+        "lat": "47.57039",
+        "lng": "7.66425"
+    },
+    {
+        "country": "CH",
+        "name": "Berom\u00fcnster",
+        "lat": "47.20612",
+        "lng": "8.19265"
+    },
+    {
+        "country": "CH",
+        "name": "Bernex",
+        "lat": "46.1765",
+        "lng": "6.07544"
+    },
+    {
+        "country": "CH",
+        "name": "Bern",
+        "lat": "46.94809",
+        "lng": "7.44744"
+    },
+    {
+        "country": "CH",
+        "name": "Beringen",
+        "lat": "47.69763",
+        "lng": "8.57431"
+    },
+    {
+        "country": "CH",
+        "name": "Berikon",
+        "lat": "47.35155",
+        "lng": "8.37232"
+    },
+    {
+        "country": "CH",
+        "name": "Berg",
+        "lat": "47.57879",
+        "lng": "9.16635"
+    },
+    {
+        "country": "CH",
+        "name": "Benken",
+        "lat": "47.19942",
+        "lng": "9.00735"
+    },
+    {
+        "country": "CH",
+        "name": "Belp",
+        "lat": "46.89129",
+        "lng": "7.49825"
+    },
+    {
+        "country": "CH",
+        "name": "Belmont-sur-Lausanne",
+        "lat": "46.51891",
+        "lng": "6.67636"
+    },
+    {
+        "country": "CH",
+        "name": "Bellmund",
+        "lat": "47.10852",
+        "lng": "7.24608"
+    },
+    {
+        "country": "CH",
+        "name": "Bellinzona",
+        "lat": "46.19278",
+        "lng": "9.01703"
+    },
+    {
+        "country": "CH",
+        "name": "Bellevue",
+        "lat": "46.25739",
+        "lng": "6.15475"
+    },
+    {
+        "country": "CH",
+        "name": "Belfaux",
+        "lat": "46.82171",
+        "lng": "7.10674"
+    },
+    {
+        "country": "CH",
+        "name": "Begnins",
+        "lat": "46.44152",
+        "lng": "6.24762"
+    },
+    {
+        "country": "CH",
+        "name": "Beckenried",
+        "lat": "46.96653",
+        "lng": "8.47575"
+    },
+    {
+        "country": "CH",
+        "name": "Beatenberg",
+        "lat": "46.69896",
+        "lng": "7.79428"
+    },
+    {
+        "country": "CH",
+        "name": "Bavois",
+        "lat": "46.68403",
+        "lng": "6.5671"
+    },
+    {
+        "country": "CH",
+        "name": "Bauma",
+        "lat": "47.36745",
+        "lng": "8.87905"
+    },
+    {
+        "country": "CH",
+        "name": "Bauen",
+        "lat": "46.93559",
+        "lng": "8.57836"
+    },
+    {
+        "country": "CH",
+        "name": "B\u00e4tterkinden",
+        "lat": "47.13164",
+        "lng": "7.53817"
+    },
+    {
+        "country": "CH",
+        "name": "Bassersdorf",
+        "lat": "47.44342",
+        "lng": "8.62851"
+    },
+    {
+        "country": "CH",
+        "name": "Basse-Nendaz",
+        "lat": "46.18993",
+        "lng": "7.31209"
+    },
+    {
+        "country": "CH",
+        "name": "Bassecourt",
+        "lat": "47.33808",
+        "lng": "7.24373"
+    },
+    {
+        "country": "CH",
+        "name": "Basel",
+        "lat": "47.55839",
+        "lng": "7.57327"
+    },
+    {
+        "country": "CH",
+        "name": "B\u00e4riswil",
+        "lat": "47.01947",
+        "lng": "7.52709"
+    },
+    {
+        "country": "CH",
+        "name": "B\u00e4retswil",
+        "lat": "47.33709",
+        "lng": "8.85645"
+    },
+    {
+        "country": "CH",
+        "name": "Baltschieder",
+        "lat": "46.30888",
+        "lng": "7.8657"
+    },
+    {
+        "country": "CH",
+        "name": "Balsthal",
+        "lat": "47.31613",
+        "lng": "7.69318"
+    },
+    {
+        "country": "CH",
+        "name": "Ballwil",
+        "lat": "47.15371",
+        "lng": "8.32233"
+    },
+    {
+        "country": "CH",
+        "name": "Ballens",
+        "lat": "46.55485",
+        "lng": "6.3731"
+    },
+    {
+        "country": "CH",
+        "name": "Balgach",
+        "lat": "47.40556",
+        "lng": "9.60702"
+    },
+    {
+        "country": "CH",
+        "name": "Balerna",
+        "lat": "45.84638",
+        "lng": "9.00724"
+    },
+    {
+        "country": "CH",
+        "name": "Bagnes",
+        "lat": "46.08333",
+        "lng": "7.21667"
+    },
+    {
+        "country": "CH",
+        "name": "Bad Ragaz",
+        "lat": "47.00601",
+        "lng": "9.50266"
+    },
+    {
+        "country": "CH",
+        "name": "Baden",
+        "lat": "47.47333",
+        "lng": "8.30592"
+    },
+    {
+        "country": "CH",
+        "name": "Bachenb\u00fclach",
+        "lat": "47.50317",
+        "lng": "8.54556"
+    },
+    {
+        "country": "CH",
+        "name": "B\u00e4ch",
+        "lat": "47.20388",
+        "lng": "8.73224"
+    },
+    {
+        "country": "CH",
+        "name": "Baar",
+        "lat": "47.19625",
+        "lng": "8.52954"
+    },
+    {
+        "country": "CH",
+        "name": "Ayent",
+        "lat": "46.28249",
+        "lng": "7.41028"
+    },
+    {
+        "country": "CH",
+        "name": "Avry-sur-Matran",
+        "lat": "46.78753",
+        "lng": "7.06735"
+    },
+    {
+        "country": "CH",
+        "name": "Avenches",
+        "lat": "46.88004",
+        "lng": "7.04071"
+    },
+    {
+        "country": "CH",
+        "name": "Auw",
+        "lat": "47.21082",
+        "lng": "8.36583"
+    },
+    {
+        "country": "CH",
+        "name": "Auvernier",
+        "lat": "46.97545",
+        "lng": "6.87903"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 4) / Aussersihl",
+        "lat": "47.37752",
+        "lng": "8.52127"
+    },
+    {
+        "country": "CH",
+        "name": "Aubonne",
+        "lat": "46.49514",
+        "lng": "6.39155"
+    },
+    {
+        "country": "CH",
+        "name": "Au",
+        "lat": "47.43093",
+        "lng": "9.63448"
+    },
+    {
+        "country": "CH",
+        "name": "Au",
+        "lat": "47.24185",
+        "lng": "8.64406"
+    },
+    {
+        "country": "CH",
+        "name": "Attiswil",
+        "lat": "47.24673",
+        "lng": "7.61353"
+    },
+    {
+        "country": "CH",
+        "name": "Attinghausen",
+        "lat": "46.86255",
+        "lng": "8.63036"
+    },
+    {
+        "country": "CH",
+        "name": "Attalens",
+        "lat": "46.50555",
+        "lng": "6.85039"
+    },
+    {
+        "country": "CH",
+        "name": "Ascona",
+        "lat": "46.15451",
+        "lng": "8.77327"
+    },
+    {
+        "country": "CH",
+        "name": "Arzo",
+        "lat": "45.87606",
+        "lng": "8.94103"
+    },
+    {
+        "country": "CH",
+        "name": "Arzier",
+        "lat": "46.45962",
+        "lng": "6.20813"
+    },
+    {
+        "country": "CH",
+        "name": "Arvigo",
+        "lat": "46.30211",
+        "lng": "9.113"
+    },
+    {
+        "country": "CH",
+        "name": "Arth",
+        "lat": "47.06337",
+        "lng": "8.52349"
+    },
+    {
+        "country": "CH",
+        "name": "Arosa",
+        "lat": "46.77793",
+        "lng": "9.67621"
+    },
+    {
+        "country": "CH",
+        "name": "Arlesheim",
+        "lat": "47.49412",
+        "lng": "7.61979"
+    },
+    {
+        "country": "CH",
+        "name": "Aristau",
+        "lat": "47.28692",
+        "lng": "8.36356"
+    },
+    {
+        "country": "CH",
+        "name": "Arisdorf",
+        "lat": "47.51323",
+        "lng": "7.76515"
+    },
+    {
+        "country": "CH",
+        "name": "Ardon",
+        "lat": "46.20951",
+        "lng": "7.26012"
+    },
+    {
+        "country": "CH",
+        "name": "Arch",
+        "lat": "47.16533",
+        "lng": "7.43139"
+    },
+    {
+        "country": "CH",
+        "name": "Arbon",
+        "lat": "47.51667",
+        "lng": "9.43333"
+    },
+    {
+        "country": "CH",
+        "name": "Apples",
+        "lat": "46.55237",
+        "lng": "6.42889"
+    },
+    {
+        "country": "CH",
+        "name": "Appenzell",
+        "lat": "47.33103",
+        "lng": "9.40996"
+    },
+    {
+        "country": "CH",
+        "name": "Ani\u00e8res",
+        "lat": "46.27673",
+        "lng": "6.22204"
+    },
+    {
+        "country": "CH",
+        "name": "Andwil",
+        "lat": "47.43855",
+        "lng": "9.27436"
+    },
+    {
+        "country": "CH",
+        "name": "Andermatt",
+        "lat": "46.63565",
+        "lng": "8.59388"
+    },
+    {
+        "country": "CH",
+        "name": "Amriswil",
+        "lat": "47.54699",
+        "lng": "9.29586"
+    },
+    {
+        "country": "CH",
+        "name": "Amden",
+        "lat": "47.14888",
+        "lng": "9.14233"
+    },
+    {
+        "country": "CH",
+        "name": "Altst\u00e4tten",
+        "lat": "47.37766",
+        "lng": "9.54746"
+    },
+    {
+        "country": "CH",
+        "name": "Altnau",
+        "lat": "47.61052",
+        "lng": "9.2616"
+    },
+    {
+        "country": "CH",
+        "name": "Altishofen",
+        "lat": "47.19916",
+        "lng": "7.96964"
+    },
+    {
+        "country": "CH",
+        "name": "Alterswil",
+        "lat": "46.79587",
+        "lng": "7.25877"
+    },
+    {
+        "country": "CH",
+        "name": "Altendorf",
+        "lat": "47.18994",
+        "lng": "8.83823"
+    },
+    {
+        "country": "CH",
+        "name": "Altdorf",
+        "lat": "46.88042",
+        "lng": "8.64441"
+    },
+    {
+        "country": "CH",
+        "name": "Alpnach",
+        "lat": "46.94227",
+        "lng": "8.2718"
+    },
+    {
+        "country": "CH",
+        "name": "Allschwil",
+        "lat": "47.55074",
+        "lng": "7.53599"
+    },
+    {
+        "country": "CH",
+        "name": "Alle",
+        "lat": "47.42542",
+        "lng": "7.13018"
+    },
+    {
+        "country": "CH",
+        "name": "Airolo",
+        "lat": "46.52855",
+        "lng": "8.61189"
+    },
+    {
+        "country": "CH",
+        "name": "Aigle",
+        "lat": "46.3181",
+        "lng": "6.96457"
+    },
+    {
+        "country": "CH",
+        "name": "Agno",
+        "lat": "45.99863",
+        "lng": "8.9003"
+    },
+    {
+        "country": "CH",
+        "name": "Affoltern am Albis",
+        "lat": "47.27743",
+        "lng": "8.45128"
+    },
+    {
+        "country": "CH",
+        "name": "Affeltrangen",
+        "lat": "47.52581",
+        "lng": "9.03307"
+    },
+    {
+        "country": "CH",
+        "name": "Aeschi b. Spiez",
+        "lat": "46.65848",
+        "lng": "7.6965"
+    },
+    {
+        "country": "CH",
+        "name": "Aesch",
+        "lat": "47.47104",
+        "lng": "7.5973"
+    },
+    {
+        "country": "CH",
+        "name": "Adliswil",
+        "lat": "47.30997",
+        "lng": "8.52462"
+    },
+    {
+        "country": "CH",
+        "name": "Adligenswil",
+        "lat": "47.06521",
+        "lng": "8.36124"
+    },
+    {
+        "country": "CH",
+        "name": "Adelboden",
+        "lat": "46.49142",
+        "lng": "7.56031"
+    },
+    {
+        "country": "CH",
+        "name": "Acquarossa",
+        "lat": "46.45473",
+        "lng": "8.94261"
+    },
+    {
+        "country": "CH",
+        "name": "Aarwangen",
+        "lat": "47.23845",
+        "lng": "7.76854"
+    },
+    {
+        "country": "CH",
+        "name": "Aarburg",
+        "lat": "47.32067",
+        "lng": "7.89986"
+    },
+    {
+        "country": "CH",
+        "name": "Aarberg",
+        "lat": "47.04439",
+        "lng": "7.27578"
+    },
+    {
+        "country": "CH",
+        "name": "Aarau",
+        "lat": "47.39254",
+        "lng": "8.04422"
+    },
+    {
+        "country": "CH",
+        "name": "Aadorf",
+        "lat": "47.49204",
+        "lng": "8.90099"
+    },
+    {
+        "country": "CH",
+        "name": "Riehen",
+        "lat": "47.57884",
+        "lng": "7.64683"
+    },
+    {
+        "country": "CH",
+        "name": "Ch\u00eane-Bougeries",
+        "lat": "46.19843",
+        "lng": "6.18642"
+    },
+    {
+        "country": "CH",
+        "name": "Meinier",
+        "lat": "46.24706",
+        "lng": "6.23423"
+    },
+    {
+        "country": "CH",
+        "name": "Puplinge",
+        "lat": "46.21043",
+        "lng": "6.23114"
+    },
+    {
+        "country": "CH",
+        "name": "Th\u00f4nex",
+        "lat": "46.18815",
+        "lng": "6.19904"
+    },
+    {
+        "country": "CH",
+        "name": "Wettswil / Wettswil (Dorf)",
+        "lat": "47.34152",
+        "lng": "8.47149"
+    },
+    {
+        "country": "CH",
+        "name": "Sellenb\u00fcren",
+        "lat": "47.34361",
+        "lng": "8.48301"
+    },
+    {
+        "country": "CH",
+        "name": "Itingen",
+        "lat": "47.46651",
+        "lng": "7.78502"
+    },
+    {
+        "country": "CH",
+        "name": "Ecublens",
+        "lat": "46.52899",
+        "lng": "6.56261"
+    },
+    {
+        "country": "CH",
+        "name": "Affoltern / Hasenb\u00fcel",
+        "lat": "47.27324",
+        "lng": "8.45218"
+    },
+    {
+        "country": "CH",
+        "name": "Affoltern / Oberdorf",
+        "lat": "47.27852",
+        "lng": "8.45651"
+    },
+    {
+        "country": "CH",
+        "name": "Affoltern / Unterdorf",
+        "lat": "47.28277",
+        "lng": "8.45409"
+    },
+    {
+        "country": "CH",
+        "name": "Affoltern / Sonnenberg",
+        "lat": "47.28055",
+        "lng": "8.46008"
+    },
+    {
+        "country": "CH",
+        "name": "Schachen",
+        "lat": "47.32419",
+        "lng": "8.47251"
+    },
+    {
+        "country": "CH",
+        "name": "Hedingen",
+        "lat": "47.29794",
+        "lng": "8.44833"
+    },
+    {
+        "country": "CH",
+        "name": "Obfelden / Oberlunnern",
+        "lat": "47.26197",
+        "lng": "8.41588"
+    },
+    {
+        "country": "CH",
+        "name": "Obfelden / Toussen",
+        "lat": "47.26574",
+        "lng": "8.43013"
+    },
+    {
+        "country": "CH",
+        "name": "Wettswil / Ausser-Dorf",
+        "lat": "47.33197",
+        "lng": "8.47732"
+    },
+    {
+        "country": "CH",
+        "name": "Kleinandelfingen",
+        "lat": "47.60058",
+        "lng": "8.68362"
+    },
+    {
+        "country": "CH",
+        "name": "B\u00fclach / Solig\u00e4nter",
+        "lat": "47.52632",
+        "lng": "8.54106"
+    },
+    {
+        "country": "CH",
+        "name": "B\u00fclach / Gst\u00fcckt",
+        "lat": "47.52337",
+        "lng": "8.54879"
+    },
+    {
+        "country": "CH",
+        "name": "B\u00fclach / Seematt",
+        "lat": "47.51716",
+        "lng": "8.54651"
+    },
+    {
+        "country": "CH",
+        "name": "Dietlikon / Eichwiesen",
+        "lat": "47.4191",
+        "lng": "8.62078"
+    },
+    {
+        "country": "CH",
+        "name": "Embrach / Embrach (Dorfkern)",
+        "lat": "47.504",
+        "lng": "8.59477"
+    },
+    {
+        "country": "CH",
+        "name": "Embrach / Kellersacker",
+        "lat": "47.51455",
+        "lng": "8.59146"
+    },
+    {
+        "country": "CH",
+        "name": "Freienstein",
+        "lat": "47.53307",
+        "lng": "8.58455"
+    },
+    {
+        "country": "CH",
+        "name": "Hochfelden",
+        "lat": "47.52262",
+        "lng": "8.51564"
+    },
+    {
+        "country": "CH",
+        "name": "H\u00f6ri",
+        "lat": "47.50799",
+        "lng": "8.51203"
+    },
+    {
+        "country": "CH",
+        "name": "Kloten / Kloten (Zentrum)",
+        "lat": "47.45134",
+        "lng": "8.58683"
+    },
+    {
+        "country": "CH",
+        "name": "Kloten / Freienberg (Chanzler-Chlini Chaseren)",
+        "lat": "47.46584",
+        "lng": "8.58145"
+    },
+    {
+        "country": "CH",
+        "name": "Kloten / Horainli",
+        "lat": "47.45399",
+        "lng": "8.58306"
+    },
+    {
+        "country": "CH",
+        "name": "Kloten / Geissberg",
+        "lat": "47.45424",
+        "lng": "8.59066"
+    },
+    {
+        "country": "CH",
+        "name": "Kloten / Hostrass",
+        "lat": "47.45255",
+        "lng": "8.59464"
+    },
+    {
+        "country": "CH",
+        "name": "Kloten / Holberg",
+        "lat": "47.44642",
+        "lng": "8.57661"
+    },
+    {
+        "country": "CH",
+        "name": "Kloten / Balsberg",
+        "lat": "47.44233",
+        "lng": "8.57496"
+    },
+    {
+        "country": "CH",
+        "name": "Kloten / Spitz",
+        "lat": "47.44455",
+        "lng": "8.58724"
+    },
+    {
+        "country": "CH",
+        "name": "Kloten / R\u00fctlen",
+        "lat": "47.44726",
+        "lng": "8.58808"
+    },
+    {
+        "country": "CH",
+        "name": "Birchwil",
+        "lat": "47.45431",
+        "lng": "8.63477"
+    },
+    {
+        "country": "CH",
+        "name": "Glattbrugg / Wydacker/Bettacker/L\u00e4ttenwiesen",
+        "lat": "47.42908",
+        "lng": "8.56657"
+    },
+    {
+        "country": "CH",
+        "name": "Grossacker/Opfikon",
+        "lat": "47.42696",
+        "lng": "8.57886"
+    },
+    {
+        "country": "CH",
+        "name": "Glattbrugg / Rohr/Platten-Balsberg",
+        "lat": "47.43721",
+        "lng": "8.56642"
+    },
+    {
+        "country": "CH",
+        "name": "Wallisellen / Wallisellen-West",
+        "lat": "47.41906",
+        "lng": "8.58586"
+    },
+    {
+        "country": "CH",
+        "name": "Wallisellen / Wallisellen-Ost",
+        "lat": "47.41446",
+        "lng": "8.59727"
+    },
+    {
+        "country": "CH",
+        "name": "Wallisellen / Rieden",
+        "lat": "47.41738",
+        "lng": "8.60028"
+    },
+    {
+        "country": "CH",
+        "name": "D\u00e4llikon / D\u00e4llikon (Dorf)",
+        "lat": "47.43983",
+        "lng": "8.43813"
+    },
+    {
+        "country": "CH",
+        "name": "Neerach",
+        "lat": "47.51096",
+        "lng": "8.47099"
+    },
+    {
+        "country": "CH",
+        "name": "Niederglatt / Niederglatt (Dorfkern)",
+        "lat": "47.49065",
+        "lng": "8.50048"
+    },
+    {
+        "country": "CH",
+        "name": "Niederhasli",
+        "lat": "47.48012",
+        "lng": "8.48576"
+    },
+    {
+        "country": "CH",
+        "name": "Oberglatt / Oberglatt (Dorfkern)",
+        "lat": "47.47596",
+        "lng": "8.51929"
+    },
+    {
+        "country": "CH",
+        "name": "Oberglatt / Bahnhofquartier",
+        "lat": "47.47143",
+        "lng": "8.51289"
+    },
+    {
+        "country": "CH",
+        "name": "Hofstetten",
+        "lat": "47.47778",
+        "lng": "8.50646"
+    },
+    {
+        "country": "CH",
+        "name": "Sonnhalde",
+        "lat": "47.45329",
+        "lng": "8.46091"
+    },
+    {
+        "country": "CH",
+        "name": "Regensdorf / Hofacher-Geeren",
+        "lat": "47.43525",
+        "lng": "8.4624"
+    },
+    {
+        "country": "CH",
+        "name": "Regensdorf / Feldblumen-Riedthofstrasse",
+        "lat": "47.43618",
+        "lng": "8.46659"
+    },
+    {
+        "country": "CH",
+        "name": "Regensdorf / Obstgarten",
+        "lat": "47.42772",
+        "lng": "8.46566"
+    },
+    {
+        "country": "CH",
+        "name": "R\u00fcmlang / R\u00fcmlang (Dorfkern)",
+        "lat": "47.4494",
+        "lng": "8.53255"
+    },
+    {
+        "country": "CH",
+        "name": "Tann / Tann (Dorfkern)",
+        "lat": "47.26494",
+        "lng": "8.85048"
+    },
+    {
+        "country": "CH",
+        "name": "Gr\u00fct",
+        "lat": "47.31151",
+        "lng": "8.78339"
+    },
+    {
+        "country": "CH",
+        "name": "Binzikon",
+        "lat": "47.27632",
+        "lng": "8.75851"
+    },
+    {
+        "country": "CH",
+        "name": "Hadlikon",
+        "lat": "47.2875",
+        "lng": "8.85719"
+    },
+    {
+        "country": "CH",
+        "name": "R\u00fcti / Westlicher Dorfteil",
+        "lat": "47.25548",
+        "lng": "8.8449"
+    },
+    {
+        "country": "CH",
+        "name": "R\u00fcti / Dorfzentrum, S\u00fcdl. Teil",
+        "lat": "47.25368",
+        "lng": "8.85654"
+    },
+    {
+        "country": "CH",
+        "name": "R\u00fcti / Oberdorf",
+        "lat": "47.25894",
+        "lng": "8.86512"
+    },
+    {
+        "country": "CH",
+        "name": "Wetzikon / Robenhausen",
+        "lat": "47.33089",
+        "lng": "8.78762"
+    },
+    {
+        "country": "CH",
+        "name": "Wetzikon / Kempten",
+        "lat": "47.33319",
+        "lng": "8.80982"
+    },
+    {
+        "country": "CH",
+        "name": "Adliswil / Adliswil (Stadtkern)",
+        "lat": "47.31128",
+        "lng": "8.52675"
+    },
+    {
+        "country": "CH",
+        "name": "Adliswil / Oberleimbach",
+        "lat": "47.3202",
+        "lng": "8.51508"
+    },
+    {
+        "country": "CH",
+        "name": "Adliswil / Sood",
+        "lat": "47.3187",
+        "lng": "8.52425"
+    },
+    {
+        "country": "CH",
+        "name": "Adliswil / H\u00fcndli-Zopf",
+        "lat": "47.31637",
+        "lng": "8.51888"
+    },
+    {
+        "country": "CH",
+        "name": "Adliswil / Sonnenberg",
+        "lat": "47.30958",
+        "lng": "8.52055"
+    },
+    {
+        "country": "CH",
+        "name": "Adliswil / Tal",
+        "lat": "47.31142",
+        "lng": "8.53446"
+    },
+    {
+        "country": "CH",
+        "name": "Hirzel",
+        "lat": "47.21743",
+        "lng": "8.60794"
+    },
+    {
+        "country": "CH",
+        "name": "Horgen / Horgen (Dorfkern)",
+        "lat": "47.25604",
+        "lng": "8.60159"
+    },
+    {
+        "country": "CH",
+        "name": "Horgen / Allmend",
+        "lat": "47.24729",
+        "lng": "8.6066"
+    },
+    {
+        "country": "CH",
+        "name": "Horgen / Scheller-Stockerstrasse",
+        "lat": "47.26584",
+        "lng": "8.5876"
+    },
+    {
+        "country": "CH",
+        "name": "Horgen / Oberdorf",
+        "lat": "47.25837",
+        "lng": "8.59013"
+    },
+    {
+        "country": "CH",
+        "name": "Kilchberg / B\u00e4chler-Stocken",
+        "lat": "47.32728",
+        "lng": "8.53957"
+    },
+    {
+        "country": "CH",
+        "name": "Kilchberg / Kilchberg (Dorfkern)",
+        "lat": "47.32012",
+        "lng": "8.54306"
+    },
+    {
+        "country": "CH",
+        "name": "Langnau / Vitaquartier",
+        "lat": "47.29377",
+        "lng": "8.53758"
+    },
+    {
+        "country": "CH",
+        "name": "M\u00fchlehalde",
+        "lat": "47.28306",
+        "lng": "8.53386"
+    },
+    {
+        "country": "CH",
+        "name": "Oberrieden / Mitte",
+        "lat": "47.27242",
+        "lng": "8.58021"
+    },
+    {
+        "country": "CH",
+        "name": "Oberrieden / Berg",
+        "lat": "47.27628",
+        "lng": "8.57257"
+    },
+    {
+        "country": "CH",
+        "name": "Richterswil / Dorfkern",
+        "lat": "47.20715",
+        "lng": "8.70607"
+    },
+    {
+        "country": "CH",
+        "name": "Richterswil / Richterswil (Dorfkern)",
+        "lat": "47.20323",
+        "lng": "8.70516"
+    },
+    {
+        "country": "CH",
+        "name": "Richterswil / Burghalde",
+        "lat": "47.20973",
+        "lng": "8.69133"
+    },
+    {
+        "country": "CH",
+        "name": "Thalwil / Dorfkern",
+        "lat": "47.29047",
+        "lng": "8.56633"
+    },
+    {
+        "country": "CH",
+        "name": "Thalwil / Berg",
+        "lat": "47.29178",
+        "lng": "8.55602"
+    },
+    {
+        "country": "CH",
+        "name": "Thalwil / Nord",
+        "lat": "47.29748",
+        "lng": "8.55634"
+    },
+    {
+        "country": "CH",
+        "name": "Thalwil / S\u00fcd",
+        "lat": "47.28495",
+        "lng": "8.56954"
+    },
+    {
+        "country": "CH",
+        "name": "Gattikon",
+        "lat": "47.28439",
+        "lng": "8.5483"
+    },
+    {
+        "country": "CH",
+        "name": "W\u00e4denswil / Dorf (W\u00e4denswil)",
+        "lat": "47.22923",
+        "lng": "8.6722"
+    },
+    {
+        "country": "CH",
+        "name": "Au / Unter-Dorf",
+        "lat": "47.2473",
+        "lng": "8.6327"
+    },
+    {
+        "country": "CH",
+        "name": "Au / Mittel-Dorf",
+        "lat": "47.24303",
+        "lng": "8.64591"
+    },
+    {
+        "country": "CH",
+        "name": "W\u00e4denswil / Hangenmoos",
+        "lat": "47.23367",
+        "lng": "8.65251"
+    },
+    {
+        "country": "CH",
+        "name": "W\u00e4denswil / B\u00fcelen",
+        "lat": "47.23395",
+        "lng": "8.66346"
+    },
+    {
+        "country": "CH",
+        "name": "W\u00e4denswil / Untermosen-Fuhr",
+        "lat": "47.22772",
+        "lng": "8.66303"
+    },
+    {
+        "country": "CH",
+        "name": "W\u00e4denswil / Leihof-M\u00fchlebach",
+        "lat": "47.22364",
+        "lng": "8.67149"
+    },
+    {
+        "country": "CH",
+        "name": "W\u00e4denswil / Eichweid",
+        "lat": "47.21847",
+        "lng": "8.6744"
+    },
+    {
+        "country": "CH",
+        "name": "W\u00e4denswil / Boller-Giessen",
+        "lat": "47.22115",
+        "lng": "8.68385"
+    },
+    {
+        "country": "CH",
+        "name": "Erlenbach / rechts des Dorfbachs oberhalb Bahnlinie",
+        "lat": "47.30658",
+        "lng": "8.60271"
+    },
+    {
+        "country": "CH",
+        "name": "Erlenbach / links des Dorfbachs oberhalb Bahnlinie",
+        "lat": "47.2995",
+        "lng": "8.60188"
+    },
+    {
+        "country": "CH",
+        "name": "K\u00fcsnacht / Dorf",
+        "lat": "47.31783",
+        "lng": "8.58303"
+    },
+    {
+        "country": "CH",
+        "name": "K\u00fcsnacht / Goldbach",
+        "lat": "47.32729",
+        "lng": "8.58077"
+    },
+    {
+        "country": "CH",
+        "name": "K\u00fcsnacht / Itschnach",
+        "lat": "47.32714",
+        "lng": "8.60068"
+    },
+    {
+        "country": "CH",
+        "name": "K\u00fcsnacht / Schiedhalden",
+        "lat": "47.32112",
+        "lng": "8.58881"
+    },
+    {
+        "country": "CH",
+        "name": "K\u00fcsnacht / Heslibach",
+        "lat": "47.31307",
+        "lng": "8.58849"
+    },
+    {
+        "country": "CH",
+        "name": "M\u00e4nnedorf / Dorfkern",
+        "lat": "47.25612",
+        "lng": "8.69161"
+    },
+    {
+        "country": "CH",
+        "name": "M\u00e4nnedorf / Ausserfeld",
+        "lat": "47.24636",
+        "lng": "8.70608"
+    },
+    {
+        "country": "CH",
+        "name": "Dorf",
+        "lat": "47.239",
+        "lng": "8.73567"
+    },
+    {
+        "country": "CH",
+        "name": "Uetikon / Grossdorf",
+        "lat": "47.26654",
+        "lng": "8.67765"
+    },
+    {
+        "country": "CH",
+        "name": "Zollikerberg",
+        "lat": "47.3451",
+        "lng": "8.60088"
+    },
+    {
+        "country": "CH",
+        "name": "Effretikon / Watt",
+        "lat": "47.42797",
+        "lng": "8.69822"
+    },
+    {
+        "country": "CH",
+        "name": "Effretikon / Rappenhalde-Bannhalde",
+        "lat": "47.42388",
+        "lng": "8.69653"
+    },
+    {
+        "country": "CH",
+        "name": "Tagelswangen",
+        "lat": "47.4307",
+        "lng": "8.67284"
+    },
+    {
+        "country": "CH",
+        "name": "Pf\u00e4ffikon / Pf\u00e4ffikon (Dorfkern)",
+        "lat": "47.36943",
+        "lng": "8.78309"
+    },
+    {
+        "country": "CH",
+        "name": "D\u00fcbendorf / Vogelquartier",
+        "lat": "47.39502",
+        "lng": "8.61184"
+    },
+    {
+        "country": "CH",
+        "name": "D\u00fcbendorf / Wasserfurren",
+        "lat": "47.39352",
+        "lng": "8.6085"
+    },
+    {
+        "country": "CH",
+        "name": "D\u00fcbendorf / Sonnenberg",
+        "lat": "47.39469",
+        "lng": "8.63162"
+    },
+    {
+        "country": "CH",
+        "name": "D\u00fcbendorf / Kunklerstrasse",
+        "lat": "47.40109",
+        "lng": "8.62724"
+    },
+    {
+        "country": "CH",
+        "name": "Hinteregg",
+        "lat": "47.30736",
+        "lng": "8.68339"
+    },
+    {
+        "country": "CH",
+        "name": "Esslingen",
+        "lat": "47.28325",
+        "lng": "8.71038"
+    },
+    {
+        "country": "CH",
+        "name": "Benglen",
+        "lat": "47.36077",
+        "lng": "8.63687"
+    },
+    {
+        "country": "CH",
+        "name": "Greifensee / M\u00fcllerwis / Seilerwis",
+        "lat": "47.37042",
+        "lng": "8.68151"
+    },
+    {
+        "country": "CH",
+        "name": "Greifensee / Pfisterh\u00f6lzli",
+        "lat": "47.3643",
+        "lng": "8.68979"
+    },
+    {
+        "country": "CH",
+        "name": "Aesch",
+        "lat": "47.3297",
+        "lng": "8.6541"
+    },
+    {
+        "country": "CH",
+        "name": "Binz",
+        "lat": "47.35635",
+        "lng": "8.62657"
+    },
+    {
+        "country": "CH",
+        "name": "M\u00f6nchaltorf / Dorf",
+        "lat": "47.30401",
+        "lng": "8.72211"
+    },
+    {
+        "country": "CH",
+        "name": "Schwerzenbach / Chimli",
+        "lat": "47.38592",
+        "lng": "8.65888"
+    },
+    {
+        "country": "CH",
+        "name": "Schwerzenbach / Blatten",
+        "lat": "47.38308",
+        "lng": "8.64954"
+    },
+    {
+        "country": "CH",
+        "name": "Uster / Kirch-Uster",
+        "lat": "47.34579",
+        "lng": "8.71839"
+    },
+    {
+        "country": "CH",
+        "name": "Uster / Nieder-Uster",
+        "lat": "47.34743",
+        "lng": "8.70088"
+    },
+    {
+        "country": "CH",
+        "name": "Uster / Gschwader",
+        "lat": "47.36016",
+        "lng": "8.7139"
+    },
+    {
+        "country": "CH",
+        "name": "Uster / Ober-Uster",
+        "lat": "47.34874",
+        "lng": "8.73319"
+    },
+    {
+        "country": "CH",
+        "name": "Uster / Nossikon",
+        "lat": "47.34088",
+        "lng": "8.72555"
+    },
+    {
+        "country": "CH",
+        "name": "N\u00e4nikon / N\u00e4nikon (Dorfkern)",
+        "lat": "47.37099",
+        "lng": "8.69254"
+    },
+    {
+        "country": "CH",
+        "name": "Kindhausen / Kindhausen (Dorf)",
+        "lat": "47.40644",
+        "lng": "8.68296"
+    },
+    {
+        "country": "CH",
+        "name": "Hegnau / Sunneb\u00fcel-Eich",
+        "lat": "47.39246",
+        "lng": "8.6791"
+    },
+    {
+        "country": "CH",
+        "name": "Hegnau / Dammboden-Grindel",
+        "lat": "47.38713",
+        "lng": "8.66657"
+    },
+    {
+        "country": "CH",
+        "name": "Gutenswil",
+        "lat": "47.38387",
+        "lng": "8.71763"
+    },
+    {
+        "country": "CH",
+        "name": "Wangen",
+        "lat": "47.41182",
+        "lng": "8.64516"
+    },
+    {
+        "country": "CH",
+        "name": "Elgg / St\u00e4dtchen und Umgebung",
+        "lat": "47.49265",
+        "lng": "8.8668"
+    },
+    {
+        "country": "CH",
+        "name": "Seuzach Dorf / Breite-Weid",
+        "lat": "47.53345",
+        "lng": "8.73415"
+    },
+    {
+        "country": "CH",
+        "name": "Stadt Winterthur (Kreis 1) / Altstadt",
+        "lat": "47.49951",
+        "lng": "8.72872"
+    },
+    {
+        "country": "CH",
+        "name": "Stadt Winterthur (Kreis 1) / Lind",
+        "lat": "47.50571",
+        "lng": "8.73372"
+    },
+    {
+        "country": "CH",
+        "name": "Stadt Winterthur (Kreis 1) / Heiligberg",
+        "lat": "47.49409",
+        "lng": "8.72334"
+    },
+    {
+        "country": "CH",
+        "name": "Stadt Winterthur (Kreis 1) / T\u00f6ssfeld",
+        "lat": "47.4934",
+        "lng": "8.71512"
+    },
+    {
+        "country": "CH",
+        "name": "Stadt Winterthur (Kreis 1) / Br\u00fchlberg",
+        "lat": "47.49764",
+        "lng": "8.71272"
+    },
+    {
+        "country": "CH",
+        "name": "Stadt Winterthur (Kreis 1) / Neuwiesen",
+        "lat": "47.50207",
+        "lng": "8.71625"
+    },
+    {
+        "country": "CH",
+        "name": "Oberwinterthur (Kreis 2) / Talacker",
+        "lat": "47.50596",
+        "lng": "8.7515"
+    },
+    {
+        "country": "CH",
+        "name": "Oberwinterthur (Kreis 2) / Guggenb\u00fchl",
+        "lat": "47.51339",
+        "lng": "8.75998"
+    },
+    {
+        "country": "CH",
+        "name": "Oberwinterthur (Kreis 2) / Zinzikon",
+        "lat": "47.5195",
+        "lng": "8.7564"
+    },
+    {
+        "country": "CH",
+        "name": "Seen (Kreis 3) / Waser",
+        "lat": "47.48913",
+        "lng": "8.76034"
+    },
+    {
+        "country": "CH",
+        "name": "Seen (Kreis 3) / B\u00fcelwiesen",
+        "lat": "47.48446",
+        "lng": "8.76517"
+    },
+    {
+        "country": "CH",
+        "name": "Seen (Kreis 3) / Waldegg",
+        "lat": "47.48393",
+        "lng": "8.75586"
+    },
+    {
+        "country": "CH",
+        "name": "Seen (Kreis 3) / Ganzenb\u00fchl",
+        "lat": "47.481",
+        "lng": "8.76249"
+    },
+    {
+        "country": "CH",
+        "name": "Seen (Kreis 3) / Oberseen",
+        "lat": "47.48205",
+        "lng": "8.77289"
+    },
+    {
+        "country": "CH",
+        "name": "T\u00f6ss (Kreis 4) / Vorder-D\u00e4ttnau",
+        "lat": "47.48135",
+        "lng": "8.69855"
+    },
+    {
+        "country": "CH",
+        "name": "T\u00f6ss (Kreis 4) / Schlosstal",
+        "lat": "47.49279",
+        "lng": "8.70223"
+    },
+    {
+        "country": "CH",
+        "name": "T\u00f6ss (Kreis 4) / Eichliacker",
+        "lat": "47.48727",
+        "lng": "8.7074"
+    },
+    {
+        "country": "CH",
+        "name": "Veltheim (Kreis 5) / Rosenberg",
+        "lat": "47.51386",
+        "lng": "8.71583"
+    },
+    {
+        "country": "CH",
+        "name": "Veltheim (Kreis 5) / Blumenau",
+        "lat": "47.50618",
+        "lng": "8.71563"
+    },
+    {
+        "country": "CH",
+        "name": "W\u00fclflingen (Kreis 6) / Oberfeld",
+        "lat": "47.49873",
+        "lng": "8.69897"
+    },
+    {
+        "country": "CH",
+        "name": "W\u00fclflingen (Kreis 6) / Lindenplatz",
+        "lat": "47.51098",
+        "lng": "8.6929"
+    },
+    {
+        "country": "CH",
+        "name": "W\u00fclflingen (Kreis 6) / Niederfeld",
+        "lat": "47.50904",
+        "lng": "8.67968"
+    },
+    {
+        "country": "CH",
+        "name": "W\u00fclflingen (Kreis 6) / H\u00e4rti",
+        "lat": "47.51262",
+        "lng": "8.684"
+    },
+    {
+        "country": "CH",
+        "name": "Mattenbach (Kreis 7) / Deutweg",
+        "lat": "47.49419",
+        "lng": "8.73948"
+    },
+    {
+        "country": "CH",
+        "name": "Mattenbach (Kreis 7) / Gutschick",
+        "lat": "47.49104",
+        "lng": "8.75258"
+    },
+    {
+        "country": "CH",
+        "name": "Mattenbach (Kreis 7) / Endliker",
+        "lat": "47.48821",
+        "lng": "8.74938"
+    },
+    {
+        "country": "CH",
+        "name": "Kollbrunn / Kollbrunn (Dorfkern)",
+        "lat": "47.45748",
+        "lng": "8.77413"
+    },
+    {
+        "country": "CH",
+        "name": "Dietikon / Vorstadt",
+        "lat": "47.40819",
+        "lng": "8.39719"
+    },
+    {
+        "country": "CH",
+        "name": "Dietikon / Almend",
+        "lat": "47.40477",
+        "lng": "8.39168"
+    },
+    {
+        "country": "CH",
+        "name": "Dietikon / Oberdorf",
+        "lat": "47.40065",
+        "lng": "8.39416"
+    },
+    {
+        "country": "CH",
+        "name": "Dietikon / Kreuzacker",
+        "lat": "47.39919",
+        "lng": "8.40146"
+    },
+    {
+        "country": "CH",
+        "name": "Dietikon / Guggenb\u00fchl",
+        "lat": "47.40009",
+        "lng": "8.40818"
+    },
+    {
+        "country": "CH",
+        "name": "Dietikon / Hofacker",
+        "lat": "47.39718",
+        "lng": "8.41609"
+    },
+    {
+        "country": "CH",
+        "name": "Dietikon / Sch\u00f6nenwerd",
+        "lat": "47.39706",
+        "lng": "8.42576"
+    },
+    {
+        "country": "CH",
+        "name": "Oberengstringen / Zentrum",
+        "lat": "47.40711",
+        "lng": "8.46276"
+    },
+    {
+        "country": "CH",
+        "name": "Oberengstringen / Sonnenberg",
+        "lat": "47.41211",
+        "lng": "8.46055"
+    },
+    {
+        "country": "CH",
+        "name": "Oberengstringen / Rauchacher",
+        "lat": "47.40919",
+        "lng": "8.45627"
+    },
+    {
+        "country": "CH",
+        "name": "Schlieren / Zentrum",
+        "lat": "47.39779",
+        "lng": "8.4477"
+    },
+    {
+        "country": "CH",
+        "name": "Schlieren / Engstingerquartier",
+        "lat": "47.40338",
+        "lng": "8.44352"
+    },
+    {
+        "country": "CH",
+        "name": "Schlieren / Spital",
+        "lat": "47.39489",
+        "lng": "8.43027"
+    },
+    {
+        "country": "CH",
+        "name": "Schlieren / Freiestrasse",
+        "lat": "47.39598",
+        "lng": "8.44202"
+    },
+    {
+        "country": "CH",
+        "name": "Schlieren / Kamp",
+        "lat": "47.39358",
+        "lng": "8.44453"
+    },
+    {
+        "country": "CH",
+        "name": "Schlieren / Boden",
+        "lat": "47.39721",
+        "lng": "8.45734"
+    },
+    {
+        "country": "CH",
+        "name": "Urdorf / Bodenfeld",
+        "lat": "47.3892",
+        "lng": "8.42265"
+    },
+    {
+        "country": "CH",
+        "name": "Urdorf / Moos",
+        "lat": "47.38977",
+        "lng": "8.42886"
+    },
+    {
+        "country": "CH",
+        "name": "Urdorf / Oberurdorf",
+        "lat": "47.38072",
+        "lng": "8.42343"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 12) / Auzelg",
+        "lat": "47.41511",
+        "lng": "8.57014"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 11) / Schwandenholz",
+        "lat": "47.42476",
+        "lng": "8.52125"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 2) / Mittel-Leimbach",
+        "lat": "47.32538",
+        "lng": "8.51391"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 2) / Unter-Leimbach",
+        "lat": "47.33362",
+        "lng": "8.51433"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 10) / Wipkingen",
+        "lat": "47.39503",
+        "lng": "8.52529"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 10) / R\u00fctihof",
+        "lat": "47.41444",
+        "lng": "8.47928"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 1) / Rathaus",
+        "lat": "47.37161",
+        "lng": "8.54501"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 11) / Affoltern",
+        "lat": "47.41814",
+        "lng": "8.5122"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 12) / Saatlen",
+        "lat": "47.41127",
+        "lng": "8.5648"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 12) / Schwamendingen-Mitte",
+        "lat": "47.4063",
+        "lng": "8.57242"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 12) / Hirzenbach",
+        "lat": "47.40187",
+        "lng": "8.58633"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 1) / Lindenhof",
+        "lat": "47.37188",
+        "lng": "8.54036"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 1) / City",
+        "lat": "47.37269",
+        "lng": "8.53576"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 2) / Wollishofen",
+        "lat": "47.3401",
+        "lng": "8.53134"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 2) / Enge",
+        "lat": "47.3605",
+        "lng": "8.53127"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 3) / Friesenberg",
+        "lat": "47.36372",
+        "lng": "8.50417"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 3) / Sihlfeld",
+        "lat": "47.37382",
+        "lng": "8.51164"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 4) / Werd",
+        "lat": "47.37178",
+        "lng": "8.52584"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 4) / Langstrasse",
+        "lat": "47.37767",
+        "lng": "8.52854"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 4) / Hard",
+        "lat": "47.38311",
+        "lng": "8.50942"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 5) / Gewerbeschule",
+        "lat": "47.38481",
+        "lng": "8.53011"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 5) / Escher-Wyss",
+        "lat": "47.39052",
+        "lng": "8.51292"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 6) / Unterstrass",
+        "lat": "47.3953",
+        "lng": "8.53721"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 6) / Oberstrass",
+        "lat": "47.38917",
+        "lng": "8.5504"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 7) / Fluntern",
+        "lat": "47.38013",
+        "lng": "8.56133"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 7) / Hottingen",
+        "lat": "47.37011",
+        "lng": "8.56306"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 7) / Hirslanden",
+        "lat": "47.3624",
+        "lng": "8.56755"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 8) / Seefeld",
+        "lat": "47.35462",
+        "lng": "8.55537"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 8) / M\u00fchlebach",
+        "lat": "47.35727",
+        "lng": "8.55744"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 8) / Weinegg",
+        "lat": "47.3525",
+        "lng": "8.57011"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 9) / Albisrieden",
+        "lat": "47.37398",
+        "lng": "8.49007"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 9) / Altstetten",
+        "lat": "47.38946",
+        "lng": "8.48533"
+    },
+    {
+        "country": "CH",
+        "name": "Schwerzenbach",
+        "lat": "47.38213",
+        "lng": "8.65727"
+    },
+    {
+        "country": "CH",
+        "name": "Steinmaur",
+        "lat": "47.4971",
+        "lng": "8.45216"
+    },
+    {
+        "country": "CH",
+        "name": "Hegnau",
+        "lat": "47.39227",
+        "lng": "8.66988"
+    },
+    {
+        "country": "CH",
+        "name": "Gockhausen",
+        "lat": "47.38098",
+        "lng": "8.59978"
+    },
+    {
+        "country": "CH",
+        "name": "Stadt Winterthur (Kreis 1)",
+        "lat": "47.49494",
+        "lng": "8.71954"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 5)",
+        "lat": "47.38767",
+        "lng": "8.52152"
+    },
+    {
+        "country": "CH",
+        "name": "D\u00e4nikon",
+        "lat": "47.44674",
+        "lng": "8.40648"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 12)",
+        "lat": "47.40372",
+        "lng": "8.57608"
+    },
+    {
+        "country": "CH",
+        "name": "W\u00fclflingen (Kreis 6)",
+        "lat": "47.51036",
+        "lng": "8.68333"
+    },
+    {
+        "country": "CH",
+        "name": "Sulz",
+        "lat": "47.53954",
+        "lng": "8.78887"
+    },
+    {
+        "country": "CH",
+        "name": "Seglingen",
+        "lat": "47.57244",
+        "lng": "8.52093"
+    },
+    {
+        "country": "CH",
+        "name": "Niederglatt",
+        "lat": "47.49066",
+        "lng": "8.49987"
+    },
+    {
+        "country": "CH",
+        "name": "Ebmatingen",
+        "lat": "47.34987",
+        "lng": "8.64013"
+    },
+    {
+        "country": "CH",
+        "name": "Seen (Kreis 3)",
+        "lat": "47.47646",
+        "lng": "8.76996"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 3)",
+        "lat": "47.35785",
+        "lng": "8.50296"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 11)",
+        "lat": "47.42326",
+        "lng": "8.52166"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 9)",
+        "lat": "47.38245",
+        "lng": "8.47993"
+    },
+    {
+        "country": "CH",
+        "name": "Oberwinterthur (Kreis 2)",
+        "lat": "47.51692",
+        "lng": "8.76863"
+    },
+    {
+        "country": "CH",
+        "name": "Geroldswil",
+        "lat": "47.42213",
+        "lng": "8.41085"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 10)",
+        "lat": "47.40773",
+        "lng": "8.5005"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 2)",
+        "lat": "47.33756",
+        "lng": "8.5211"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 8)",
+        "lat": "47.3548",
+        "lng": "8.56097"
+    },
+    {
+        "country": "CH",
+        "name": "Wolfhausen",
+        "lat": "47.25619",
+        "lng": "8.7991"
+    },
+    {
+        "country": "CH",
+        "name": "Seuzach Dorf",
+        "lat": "47.5356",
+        "lng": "8.73209"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 1)",
+        "lat": "47.37055",
+        "lng": "8.54177"
+    },
+    {
+        "country": "CH",
+        "name": "Mattenbach (Kreis 7)",
+        "lat": "47.48705",
+        "lng": "8.74681"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 7)",
+        "lat": "47.37328",
+        "lng": "8.58038"
+    },
+    {
+        "country": "CH",
+        "name": "Obermeilen",
+        "lat": "47.26574",
+        "lng": "8.65567"
+    },
+    {
+        "country": "CH",
+        "name": "Z\u00fcrich (Kreis 6)",
+        "lat": "47.39223",
+        "lng": "8.54381"
+    },
+    {
+        "country": "CH",
+        "name": "Elsau-R\u00e4terschen",
+        "lat": "47.50238",
+        "lng": "8.79874"
+    },
+    {
+        "country": "CH",
+        "name": "Thalwil / See",
+        "lat": "47.29409",
+        "lng": "8.56929"
+    },
+    {
+        "country": "CH",
+        "name": "Thal",
+        "lat": "47.46677",
+        "lng": "9.56643"
+    },
+    {
+        "country": "CH",
+        "name": "Pr\u00e9verenges",
+        "lat": "46.51854",
+        "lng": "6.52682"
+    },
+    {
+        "country": "CH",
+        "name": "Langnau am Albis",
+        "lat": "47.28885",
+        "lng": "8.5411"
+    },
+    {
+        "country": "CH",
+        "name": "Langendorf",
+        "lat": "47.21974",
+        "lng": "7.51469"
+    },
+    {
+        "country": "CH",
+        "name": "Troinex",
+        "lat": "46.16313",
+        "lng": "6.14745"
+    },
+    {
+        "country": "CH",
+        "name": "Lancy",
+        "lat": "46.18981",
+        "lng": "6.11441"
+    },
+    {
+        "country": "CH",
+        "name": "Muralto",
+        "lat": "46.17323",
+        "lng": "8.80219"
+    },
+    {
+        "country": "CH",
+        "name": "M\u00fcnchenwiler",
+        "lat": "46.91334",
+        "lng": "7.12556"
+    },
+    {
+        "country": "CH",
+        "name": "Stetten",
+        "lat": "47.74025",
+        "lng": "8.66298"
+    },
+    {
+        "country": "CH",
+        "name": "L\u00f6hningen",
+        "lat": "47.70121",
+        "lng": "8.55236"
+    },
+    {
+        "country": "CH",
+        "name": "Lauffohr (Brugg)",
+        "lat": "47.50154",
+        "lng": "8.23122"
+    },
+    {
+        "country": "CH",
+        "name": "Jongny",
+        "lat": "46.47883",
+        "lng": "6.84114"
+    },
+    {
+        "country": "CH",
+        "name": "Haag (Rheintal)",
+        "lat": "47.20989",
+        "lng": "9.48931"
+    },
+    {
+        "country": "CH",
+        "name": "Givisiez",
+        "lat": "46.81201",
+        "lng": "7.12639"
+    },
+    {
+        "country": "CH",
+        "name": "Aire-la-Ville",
+        "lat": "46.19057",
+        "lng": "6.04287"
+    },
+    {
+        "country": "CH",
+        "name": "Hausen",
+        "lat": "47.46396",
+        "lng": "8.20988"
+    },
+    {
+        "country": "CH",
+        "name": "Veyras",
+        "lat": "46.30212",
+        "lng": "7.53619"
+    },
+    {
+        "country": "CH",
+        "name": "K\u00e4nerkinden",
+        "lat": "47.41188",
+        "lng": "7.83716"
+    },
+    {
+        "country": "CH",
+        "name": "Oberurnen",
+        "lat": "47.11412",
+        "lng": "9.05866"
+    },
+    {
+        "country": "CH",
+        "name": "Saint Saphorin",
+        "lat": "46.47329",
+        "lng": "6.79601"
+    },
+    {
+        "country": "CH",
+        "name": "Cuarnens",
+        "lat": "46.62545",
+        "lng": "6.43713"
+    },
+    {
+        "country": "CH",
+        "name": "Les Avanchets",
+        "lat": "46.22168",
+        "lng": "6.10814"
+    },
+    {
+        "country": "CH",
+        "name": "Biberstein",
+        "lat": "47.41641",
+        "lng": "8.08508"
+    },
+    {
+        "country": "CH",
+        "name": "Braggio",
+        "lat": "46.30277",
+        "lng": "9.1238"
+    },
+    {
+        "country": "CH",
+        "name": "Saint-George",
+        "lat": "46.51428",
+        "lng": "6.2598"
+    },
+    {
+        "country": "CH",
+        "name": "Saubraz",
+        "lat": "46.51606",
+        "lng": "6.33018"
+    },
+    {
+        "country": "CH",
+        "name": "Berolle",
+        "lat": "46.55798",
+        "lng": "6.33551"
+    },
+    {
+        "country": "CH",
+        "name": "Mauraz",
+        "lat": "46.60558",
+        "lng": "6.42074"
+    },
+    {
+        "country": "CH",
+        "name": "Chavannes-le-Veyron",
+        "lat": "46.607",
+        "lng": "6.45086"
+    },
+    {
+        "country": "CH",
+        "name": "La Chaux",
+        "lat": "46.61714",
+        "lng": "6.47223"
+    },
+    {
+        "country": "CH",
+        "name": "Chevilly",
+        "lat": "46.64272",
+        "lng": "6.47661"
+    },
+    {
+        "country": "CH",
+        "name": "Moiry",
+        "lat": "46.64914",
+        "lng": "6.45335"
+    },
+    {
+        "country": "CH",
+        "name": "Ferreyres",
+        "lat": "46.65804",
+        "lng": "6.4852"
+    },
+    {
+        "country": "CH",
+        "name": "Orny",
+        "lat": "46.66758",
+        "lng": "6.52639"
+    },
+    {
+        "country": "CH",
+        "name": "Pompaples",
+        "lat": "46.66699",
+        "lng": "6.50966"
+    },
+    {
+        "country": "CH",
+        "name": "Penth\u00e9r\u00e9az",
+        "lat": "46.68171",
+        "lng": "6.6039"
+    },
+    {
+        "country": "CH",
+        "name": "Vuarrens",
+        "lat": "46.68578",
+        "lng": "6.64793"
+    },
+    {
+        "country": "CH",
+        "name": "Rueyres",
+        "lat": "46.69337",
+        "lng": "6.69213"
+    },
+    {
+        "country": "CH",
+        "name": "Bas-Vully",
+        "lat": "46.96194",
+        "lng": "7.11251"
+    },
+    {
+        "country": "CH",
+        "name": "Marin-Epagnier",
+        "lat": "47.01017",
+        "lng": "6.99941"
+    },
+    {
+        "country": "CH",
+        "name": "T\u00e4gertschi",
+        "lat": "46.87548",
+        "lng": "7.58529"
+    },
+    {
+        "country": "CH",
+        "name": "Oberrohrdorf",
+        "lat": "47.41833",
+        "lng": "8.31983"
+    },
+    {
+        "country": "CH",
+        "name": "Kirchleerau",
+        "lat": "47.27579",
+        "lng": "8.06581"
+    },
+    {
+        "country": "CH",
+        "name": "Matran",
+        "lat": "46.78593",
+        "lng": "7.09768"
+    },
+    {
+        "country": "CH",
+        "name": "Bl\u00e9cherette",
+        "lat": "46.53932",
+        "lng": "6.62227"
+    },
+    {
+        "country": "CH",
+        "name": "Oberhof",
+        "lat": "47.44874",
+        "lng": "8.00273"
+    },
+    {
+        "country": "CH",
+        "name": "Tenniken",
+        "lat": "47.43712",
+        "lng": "7.81149"
+    },
+    {
+        "country": "CH",
+        "name": "Gansingen",
+        "lat": "47.5429",
+        "lng": "8.13516"
+    },
+    {
+        "country": "CH",
+        "name": "Vuisternens-devant-Romont",
+        "lat": "46.65312",
+        "lng": "6.92958"
+    },
+    {
+        "country": "CH",
+        "name": "Wettswil",
+        "lat": "47.33725",
+        "lng": "8.47527"
+    },
+    {
+        "country": "CH",
+        "name": "Oberkulm",
+        "lat": "47.29908",
+        "lng": "8.12242"
+    },
+    {
+        "country": "CH",
+        "name": "Savosa",
+        "lat": "46.01902",
+        "lng": "8.94236"
+    },
+    {
+        "country": "CH",
+        "name": "Aeugst am Albis",
+        "lat": "47.26703",
+        "lng": "8.48539"
+    },
+    {
+        "country": "CH",
+        "name": "Pont-la-Ville",
+        "lat": "46.69793",
+        "lng": "7.11094"
+    },
+    {
+        "country": "CH",
+        "name": "Servion",
+        "lat": "46.57096",
+        "lng": "6.77835"
+    },
+    {
+        "country": "CH",
+        "name": "Ch\u00e9serex",
+        "lat": "46.39935",
+        "lng": "6.17524"
+    },
+    {
+        "country": "CH",
+        "name": "Hohentannen",
+        "lat": "47.50862",
+        "lng": "9.225"
+    },
+    {
+        "country": "CH",
+        "name": "Valeyres-sous-Montagny",
+        "lat": "46.79859",
+        "lng": "6.61094"
+    },
+    {
+        "country": "CH",
+        "name": "Bedigliora",
+        "lat": "46.00252",
+        "lng": "8.84052"
+    },
+    {
+        "country": "CH",
+        "name": "Uebeschi",
+        "lat": "46.73774",
+        "lng": "7.5558"
+    },
+    {
+        "country": "CH",
+        "name": "Kleinb\u00f6singen",
+        "lat": "46.89404",
+        "lng": "7.20531"
+    },
+    {
+        "country": "CH",
+        "name": "Niedermuhlern",
+        "lat": "46.85846",
+        "lng": "7.46663"
+    },
+    {
+        "country": "CH",
+        "name": "Cheseaux-Nor\u00e9az",
+        "lat": "46.78184",
+        "lng": "6.67029"
+    },
+    {
+        "country": "CH",
+        "name": "Rochefort",
+        "lat": "46.97768",
+        "lng": "6.80835"
+    },
+    {
+        "country": "CH",
+        "name": "Corcelles-le-Jorat",
+        "lat": "46.60647",
+        "lng": "6.74273"
+    },
+    {
+        "country": "CH",
+        "name": "R\u00fcegsau",
+        "lat": "47.02483",
+        "lng": "7.67395"
+    },
+    {
+        "country": "CH",
+        "name": "Auswil",
+        "lat": "47.13632",
+        "lng": "7.83226"
+    },
+    {
+        "country": "CH",
+        "name": "R\u00fcmligen",
+        "lat": "46.82975",
+        "lng": "7.49542"
+    },
+    {
+        "country": "CH",
+        "name": "Donat",
+        "lat": "46.62843",
+        "lng": "9.4297"
+    },
+    {
+        "country": "CH",
+        "name": "Surpierre",
+        "lat": "46.74612",
+        "lng": "6.85929"
+    },
+    {
+        "country": "CH",
+        "name": "Oberh\u00fcnigen",
+        "lat": "46.88049",
+        "lng": "7.65696"
+    },
+    {
+        "country": "CH",
+        "name": "Les Cl\u00e9es",
+        "lat": "46.7321",
+        "lng": "6.46266"
+    },
+    {
+        "country": "CH",
+        "name": "Busswil bei Melchnau",
+        "lat": "47.18583",
+        "lng": "7.83194"
+    },
+    {
+        "country": "CH",
+        "name": "Walliswil bei Niederbipp",
+        "lat": "47.23625",
+        "lng": "7.68991"
+    },
+    {
+        "country": "CH",
+        "name": "R\u00fcti bei Lyssach",
+        "lat": "47.05684",
+        "lng": "7.57679"
+    }
+]

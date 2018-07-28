@@ -1,0 +1,482 @@
+[
+    {
+        "country": "CY",
+        "name": "Protaras",
+        "lat": "35.0125",
+        "lng": "34.05833"
+    },
+    {
+        "country": "CY",
+        "name": "\u00ddpsonas",
+        "lat": "34.68797",
+        "lng": "32.96191"
+    },
+    {
+        "country": "CY",
+        "name": "G\u00e9ri",
+        "lat": "35.1056",
+        "lng": "33.41977"
+    },
+    {
+        "country": "CY",
+        "name": "Xylotymbou",
+        "lat": "35.0172",
+        "lng": "33.74245"
+    },
+    {
+        "country": "CY",
+        "name": "Ts\u00e9ri",
+        "lat": "35.07307",
+        "lng": "33.32344"
+    },
+    {
+        "country": "CY",
+        "name": "Vor\u00f3klini",
+        "lat": "34.986",
+        "lng": "33.65387"
+    },
+    {
+        "country": "CY",
+        "name": "Tro\u00falloi",
+        "lat": "35.03203",
+        "lng": "33.61501"
+    },
+    {
+        "country": "CY",
+        "name": "Tr\u00edkomo",
+        "lat": "35.28628",
+        "lng": "33.89167"
+    },
+    {
+        "country": "CY",
+        "name": "Tersef\u00e1nou",
+        "lat": "34.85411",
+        "lng": "33.54746"
+    },
+    {
+        "country": "CY",
+        "name": "T\u00e1la",
+        "lat": "34.83745",
+        "lng": "32.43272"
+    },
+    {
+        "country": "CY",
+        "name": "Sot\u00edra",
+        "lat": "34.71189",
+        "lng": "32.8634"
+    },
+    {
+        "country": "CY",
+        "name": "Rizok\u00e1rpaso",
+        "lat": "35.59719",
+        "lng": "34.37916"
+    },
+    {
+        "country": "CY",
+        "name": "Pyrgos",
+        "lat": "34.74167",
+        "lng": "33.18333"
+    },
+    {
+        "country": "CY",
+        "name": "P\u00fdla",
+        "lat": "35.01237",
+        "lng": "33.69188"
+    },
+    {
+        "country": "CY",
+        "name": "Psimolofou",
+        "lat": "35.0625",
+        "lng": "33.2625"
+    },
+    {
+        "country": "CY",
+        "name": "Psevd\u00e1s",
+        "lat": "34.94653",
+        "lng": "33.46277"
+    },
+    {
+        "country": "CY",
+        "name": "P\u00f3lis",
+        "lat": "35.03534",
+        "lng": "32.42575"
+    },
+    {
+        "country": "CY",
+        "name": "Pisso\u00fari",
+        "lat": "34.66942",
+        "lng": "32.70132"
+    },
+    {
+        "country": "CY",
+        "name": "Fr\u00e9naros",
+        "lat": "35.04121",
+        "lng": "33.92242"
+    },
+    {
+        "country": "CY",
+        "name": "P\u00e9geia",
+        "lat": "34.88341",
+        "lng": "32.38166"
+    },
+    {
+        "country": "CY",
+        "name": "Periv\u00f3lia",
+        "lat": "34.83355",
+        "lng": "33.58196"
+    },
+    {
+        "country": "CY",
+        "name": "Perister\u00f3na",
+        "lat": "35.12928",
+        "lng": "33.07858"
+    },
+    {
+        "country": "CY",
+        "name": "P\u00e9rgamos",
+        "lat": "35.04167",
+        "lng": "33.70833"
+    },
+    {
+        "country": "CY",
+        "name": "P\u00e9ra",
+        "lat": "35.0335",
+        "lng": "33.25413"
+    },
+    {
+        "country": "CY",
+        "name": "Pel\u00e9ndri",
+        "lat": "34.89597",
+        "lng": "32.96817"
+    },
+    {
+        "country": "CY",
+        "name": "Parekklisha",
+        "lat": "34.74583",
+        "lng": "33.15833"
+    },
+    {
+        "country": "CY",
+        "name": "Paral\u00edmni",
+        "lat": "35.03945",
+        "lng": "33.98181"
+    },
+    {
+        "country": "CY",
+        "name": "Paphos",
+        "lat": "34.77679",
+        "lng": "32.42451"
+    },
+    {
+        "country": "CY",
+        "name": "P\u00e1no Polem\u00eddia",
+        "lat": "34.70559",
+        "lng": "32.99269"
+    },
+    {
+        "country": "CY",
+        "name": "P\u00e1no Defter\u00e1",
+        "lat": "35.07778",
+        "lng": "33.26584"
+    },
+    {
+        "country": "CY",
+        "name": "P\u00e1chna",
+        "lat": "34.77874",
+        "lng": "32.79355"
+    },
+    {
+        "country": "CY",
+        "name": "Nicosia",
+        "lat": "35.17531",
+        "lng": "33.3642"
+    },
+    {
+        "country": "CY",
+        "name": "Mouttagi\u00e1ka",
+        "lat": "34.72022",
+        "lng": "33.10066"
+    },
+    {
+        "country": "CY",
+        "name": "Mosfilot\u00ed",
+        "lat": "34.95256",
+        "lng": "33.42511"
+    },
+    {
+        "country": "CY",
+        "name": "M\u00f3rfou",
+        "lat": "35.19869",
+        "lng": "32.99338"
+    },
+    {
+        "country": "CY",
+        "name": "Mes\u00f3gi",
+        "lat": "34.81577",
+        "lng": "32.45542"
+    },
+    {
+        "country": "CY",
+        "name": "Meneou",
+        "lat": "34.86114",
+        "lng": "33.59516"
+    },
+    {
+        "country": "CY",
+        "name": "M\u00e1mmari",
+        "lat": "35.17604",
+        "lng": "33.20435"
+    },
+    {
+        "country": "CY",
+        "name": "Lythrod\u00f3ntas",
+        "lat": "34.95105",
+        "lng": "33.29777"
+    },
+    {
+        "country": "CY",
+        "name": "L\u00fdmpia",
+        "lat": "34.99889",
+        "lng": "33.46175"
+    },
+    {
+        "country": "CY",
+        "name": "Liv\u00e1dia",
+        "lat": "34.95118",
+        "lng": "33.62658"
+    },
+    {
+        "country": "CY",
+        "name": "Liop\u00e9tri",
+        "lat": "35.00885",
+        "lng": "33.89256"
+    },
+    {
+        "country": "CY",
+        "name": "Limassol",
+        "lat": "34.68406",
+        "lng": "33.03794"
+    },
+    {
+        "country": "CY",
+        "name": "Leon\u00e1risso",
+        "lat": "35.46892",
+        "lng": "34.13886"
+    },
+    {
+        "country": "CY",
+        "name": "Lefk\u00f3noiko",
+        "lat": "35.2598",
+        "lng": "33.73189"
+    },
+    {
+        "country": "CY",
+        "name": "L\u00e9fka",
+        "lat": "35.11199",
+        "lng": "32.84997"
+    },
+    {
+        "country": "CY",
+        "name": "Larnaca",
+        "lat": "34.92291",
+        "lng": "33.6233"
+    },
+    {
+        "country": "CY",
+        "name": "L\u00e1pithos",
+        "lat": "35.33823",
+        "lng": "33.17368"
+    },
+    {
+        "country": "CY",
+        "name": "Kyrenia",
+        "lat": "35.33634",
+        "lng": "33.31729"
+    },
+    {
+        "country": "CY",
+        "name": "Kypero\u00fanta",
+        "lat": "34.93815",
+        "lng": "32.97551"
+    },
+    {
+        "country": "CY",
+        "name": "K\u00f3rnos",
+        "lat": "34.92396",
+        "lng": "33.39764"
+    },
+    {
+        "country": "CY",
+        "name": "Kof\u00ednou",
+        "lat": "34.82449",
+        "lng": "33.3913"
+    },
+    {
+        "country": "CY",
+        "name": "Kolossi",
+        "lat": "34.66865",
+        "lng": "32.93375"
+    },
+    {
+        "country": "CY",
+        "name": "Kokkinotrimithi\u00e1",
+        "lat": "35.15303",
+        "lng": "33.19966"
+    },
+    {
+        "country": "CY",
+        "name": "Kl\u00edrou",
+        "lat": "35.02004",
+        "lng": "33.17806"
+    },
+    {
+        "country": "CY",
+        "name": "K\u00edti",
+        "lat": "34.84696",
+        "lng": "33.57344"
+    },
+    {
+        "country": "CY",
+        "name": "Kiss\u00f3nerga",
+        "lat": "34.82217",
+        "lng": "32.40191"
+    },
+    {
+        "country": "CY",
+        "name": "Chl\u00f3rakas",
+        "lat": "34.79768",
+        "lng": "32.41207"
+    },
+    {
+        "country": "CY",
+        "name": "K\u00e1to P\u00fdrgos",
+        "lat": "35.17897",
+        "lng": "32.686"
+    },
+    {
+        "country": "CY",
+        "name": "K\u00e1to Defter\u00e1",
+        "lat": "35.08489",
+        "lng": "33.27558"
+    },
+    {
+        "country": "CY",
+        "name": "Kakopetri\u00e1",
+        "lat": "34.98768",
+        "lng": "32.90468"
+    },
+    {
+        "country": "CY",
+        "name": "Famagusta",
+        "lat": "35.12054",
+        "lng": "33.93894"
+    },
+    {
+        "country": "CY",
+        "name": "Er\u00edmi",
+        "lat": "34.67766",
+        "lng": "32.91815"
+    },
+    {
+        "country": "CY",
+        "name": "\u00c9mpa",
+        "lat": "34.80765",
+        "lng": "32.42402"
+    },
+    {
+        "country": "CY",
+        "name": "Dhromolaxia",
+        "lat": "34.87551",
+        "lng": "33.58684"
+    },
+    {
+        "country": "CY",
+        "name": "Der\u00fdneia",
+        "lat": "35.06484",
+        "lng": "33.96083"
+    },
+    {
+        "country": "CY",
+        "name": "D\u00e1li",
+        "lat": "35.02294",
+        "lng": "33.42195"
+    },
+    {
+        "country": "CY",
+        "name": "\u00c1gios T\u00fdchon",
+        "lat": "34.72606",
+        "lng": "33.13872"
+    },
+    {
+        "country": "CY",
+        "name": "Ayia Napa",
+        "lat": "34.98213",
+        "lng": "34.00183"
+    },
+    {
+        "country": "CY",
+        "name": "Avg\u00f3rou",
+        "lat": "35.03615",
+        "lng": "33.83918"
+    },
+    {
+        "country": "CY",
+        "name": "\u00c1chna",
+        "lat": "35.05515",
+        "lng": "33.78388"
+    },
+    {
+        "country": "CY",
+        "name": "Ath\u00edenou",
+        "lat": "35.0618",
+        "lng": "33.54156"
+    },
+    {
+        "country": "CY",
+        "name": "Astromer\u00edtis",
+        "lat": "35.14096",
+        "lng": "33.03793"
+    },
+    {
+        "country": "CY",
+        "name": "Erg\u00e1tes",
+        "lat": "35.05365",
+        "lng": "33.24292"
+    },
+    {
+        "country": "CY",
+        "name": "Arad\u00edppou",
+        "lat": "34.95151",
+        "lng": "33.59199"
+    },
+    {
+        "country": "CY",
+        "name": "Aredio\u00fa",
+        "lat": "35.04844",
+        "lng": "33.1961"
+    },
+    {
+        "country": "CY",
+        "name": "Al\u00e1mpra",
+        "lat": "34.98898",
+        "lng": "33.39887"
+    },
+    {
+        "country": "CY",
+        "name": "Acher\u00edtou",
+        "lat": "35.10022",
+        "lng": "33.86155"
+    },
+    {
+        "country": "CY",
+        "name": "Ak\u00e1ki",
+        "lat": "35.13341",
+        "lng": "33.12873"
+    },
+    {
+        "country": "CY",
+        "name": "M\u00e9niko",
+        "lat": "35.10945",
+        "lng": "33.14474"
+    }
+]

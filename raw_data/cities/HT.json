@@ -1,0 +1,614 @@
+[
+    {
+        "country": "HT",
+        "name": "Verrettes",
+        "lat": "19.0505",
+        "lng": "-72.46585"
+    },
+    {
+        "country": "HT",
+        "name": "Trou du Nord",
+        "lat": "19.61668",
+        "lng": "-72.02442"
+    },
+    {
+        "country": "HT",
+        "name": "Torbeck",
+        "lat": "18.16338",
+        "lng": "-73.80949"
+    },
+    {
+        "country": "HT",
+        "name": "Tiburon",
+        "lat": "18.32589",
+        "lng": "-74.39598"
+    },
+    {
+        "country": "HT",
+        "name": "Thomonde",
+        "lat": "19.0173",
+        "lng": "-71.96235"
+    },
+    {
+        "country": "HT",
+        "name": "Thomazeau",
+        "lat": "18.65297",
+        "lng": "-72.09391"
+    },
+    {
+        "country": "HT",
+        "name": "Thomassique",
+        "lat": "19.08209",
+        "lng": "-71.83855"
+    },
+    {
+        "country": "HT",
+        "name": "Thiotte",
+        "lat": "18.24384",
+        "lng": "-71.84157"
+    },
+    {
+        "country": "HT",
+        "name": "Saint-Rapha\u00ebl",
+        "lat": "19.43877",
+        "lng": "-72.1991"
+    },
+    {
+        "country": "HT",
+        "name": "Saint-Marc",
+        "lat": "19.10819",
+        "lng": "-72.69379"
+    },
+    {
+        "country": "HT",
+        "name": "Saint-Louis du Sud",
+        "lat": "18.26241",
+        "lng": "-73.54603"
+    },
+    {
+        "country": "HT",
+        "name": "Saint-Louis du Nord",
+        "lat": "19.93397",
+        "lng": "-72.72138"
+    },
+    {
+        "country": "HT",
+        "name": "Roche-\u00e0-Bateau",
+        "lat": "18.18182",
+        "lng": "-74.00345"
+    },
+    {
+        "country": "HT",
+        "name": "Ranquitte",
+        "lat": "19.41327",
+        "lng": "-72.08077"
+    },
+    {
+        "country": "HT",
+        "name": "Quartier Morin",
+        "lat": "19.69696",
+        "lng": "-72.15712"
+    },
+    {
+        "country": "HT",
+        "name": "Port-Margot",
+        "lat": "19.7518",
+        "lng": "-72.43006"
+    },
+    {
+        "country": "HT",
+        "name": "Port-de-Paix",
+        "lat": "19.9389",
+        "lng": "-72.83257"
+    },
+    {
+        "country": "HT",
+        "name": "Port-au-Prince",
+        "lat": "18.53917",
+        "lng": "-72.335"
+    },
+    {
+        "country": "HT",
+        "name": "Port-\u00e0-Piment",
+        "lat": "18.24963",
+        "lng": "-74.0971"
+    },
+    {
+        "country": "HT",
+        "name": "Plaisance",
+        "lat": "19.59795",
+        "lng": "-72.46994"
+    },
+    {
+        "country": "HT",
+        "name": "Plaine du Nord",
+        "lat": "19.67707",
+        "lng": "-72.26969"
+    },
+    {
+        "country": "HT",
+        "name": "Pilate",
+        "lat": "19.66745",
+        "lng": "-72.55229"
+    },
+    {
+        "country": "HT",
+        "name": "Pignon",
+        "lat": "19.33594",
+        "lng": "-72.11662"
+    },
+    {
+        "country": "HT",
+        "name": "Pha\u00ebton",
+        "lat": "19.67525",
+        "lng": "-71.89691"
+    },
+    {
+        "country": "HT",
+        "name": "Petit Trou de Nippes",
+        "lat": "18.52535",
+        "lng": "-73.50815"
+    },
+    {
+        "country": "HT",
+        "name": "Tigwav",
+        "lat": "18.43117",
+        "lng": "-72.86521"
+    },
+    {
+        "country": "HT",
+        "name": "Petite Rivi\u00e8re de Nippes",
+        "lat": "18.47611",
+        "lng": "-73.23495"
+    },
+    {
+        "country": "HT",
+        "name": "Petite Anse",
+        "lat": "19.63011",
+        "lng": "-73.15499"
+    },
+    {
+        "country": "HT",
+        "name": "P\u00e9tionville",
+        "lat": "18.5125",
+        "lng": "-72.28528"
+    },
+    {
+        "country": "HT",
+        "name": "Perches",
+        "lat": "19.52201",
+        "lng": "-71.92323"
+    },
+    {
+        "country": "HT",
+        "name": "Ouanaminthe",
+        "lat": "19.54934",
+        "lng": "-71.72475"
+    },
+    {
+        "country": "HT",
+        "name": "Moron",
+        "lat": "18.56039",
+        "lng": "-74.25777"
+    },
+    {
+        "country": "HT",
+        "name": "Mont\u00f2rganize",
+        "lat": "19.40815",
+        "lng": "-71.78132"
+    },
+    {
+        "country": "HT",
+        "name": "M\u00f4le Saint-Nicolas",
+        "lat": "19.807",
+        "lng": "-73.37605"
+    },
+    {
+        "country": "HT",
+        "name": "Mirebalais",
+        "lat": "18.83455",
+        "lng": "-72.1048"
+    },
+    {
+        "country": "HT",
+        "name": "Mirago\u00e2ne",
+        "lat": "18.44232",
+        "lng": "-73.08758"
+    },
+    {
+        "country": "HT",
+        "name": "Milot",
+        "lat": "19.60837",
+        "lng": "-72.21319"
+    },
+    {
+        "country": "HT",
+        "name": "Marmelade",
+        "lat": "19.51736",
+        "lng": "-72.36133"
+    },
+    {
+        "country": "HT",
+        "name": "Marigot",
+        "lat": "18.23167",
+        "lng": "-72.32289"
+    },
+    {
+        "country": "HT",
+        "name": "Mayisad",
+        "lat": "19.17607",
+        "lng": "-72.13958"
+    },
+    {
+        "country": "HT",
+        "name": "Limonade",
+        "lat": "19.67014",
+        "lng": "-72.1243"
+    },
+    {
+        "country": "HT",
+        "name": "Lenbe",
+        "lat": "19.70603",
+        "lng": "-72.40336"
+    },
+    {
+        "country": "HT",
+        "name": "Les Irois",
+        "lat": "18.4049",
+        "lng": "-74.4528"
+    },
+    {
+        "country": "HT",
+        "name": "Les Anglais",
+        "lat": "18.3054",
+        "lng": "-74.21968"
+    },
+    {
+        "country": "HT",
+        "name": "L\u00e9og\u00e2ne",
+        "lat": "18.5111",
+        "lng": "-72.63343"
+    },
+    {
+        "country": "HT",
+        "name": "Borgne",
+        "lat": "19.84507",
+        "lng": "-72.52349"
+    },
+    {
+        "country": "HT",
+        "name": "Lascahobas",
+        "lat": "18.83047",
+        "lng": "-71.93563"
+    },
+    {
+        "country": "HT",
+        "name": "Kenscoff",
+        "lat": "18.44773",
+        "lng": "-72.28398"
+    },
+    {
+        "country": "HT",
+        "name": "J\u00e9r\u00e9mie",
+        "lat": "18.65",
+        "lng": "-74.11667"
+    },
+    {
+        "country": "HT",
+        "name": "Jean-Rabel",
+        "lat": "19.85379",
+        "lng": "-73.19131"
+    },
+    {
+        "country": "HT",
+        "name": "Jacmel",
+        "lat": "18.23427",
+        "lng": "-72.53539"
+    },
+    {
+        "country": "HT",
+        "name": "Hinche",
+        "lat": "19.15",
+        "lng": "-72.01667"
+    },
+    {
+        "country": "HT",
+        "name": "Gros Morne",
+        "lat": "19.6708",
+        "lng": "-72.67808"
+    },
+    {
+        "country": "HT",
+        "name": "Gressier",
+        "lat": "18.54091",
+        "lng": "-72.52679"
+    },
+    {
+        "country": "HT",
+        "name": "Grangwav",
+        "lat": "18.4259",
+        "lng": "-72.76995"
+    },
+    {
+        "country": "HT",
+        "name": "Grande Saline",
+        "lat": "19.26513",
+        "lng": "-72.76897"
+    },
+    {
+        "country": "HT",
+        "name": "Grande Rivi\u00e8re du Nord",
+        "lat": "19.57744",
+        "lng": "-72.16872"
+    },
+    {
+        "country": "HT",
+        "name": "Gonayiv",
+        "lat": "19.44749",
+        "lng": "-72.68903"
+    },
+    {
+        "country": "HT",
+        "name": "Fort Libert\u00e9",
+        "lat": "19.66273",
+        "lng": "-71.83798"
+    },
+    {
+        "country": "HT",
+        "name": "Fonds Verrettes",
+        "lat": "18.39566",
+        "lng": "-71.85634"
+    },
+    {
+        "country": "HT",
+        "name": "Fond Parisien",
+        "lat": "18.50547",
+        "lng": "-71.98122"
+    },
+    {
+        "country": "HT",
+        "name": "Fond des Blancs",
+        "lat": "18.27782",
+        "lng": "-73.12733"
+    },
+    {
+        "country": "HT",
+        "name": "Fond Bassin Bleu",
+        "lat": "19.79445",
+        "lng": "-72.79949"
+    },
+    {
+        "country": "HT",
+        "name": "Ferrier",
+        "lat": "19.61549",
+        "lng": "-71.77792"
+    },
+    {
+        "country": "HT",
+        "name": "Ennery",
+        "lat": "19.48342",
+        "lng": "-72.48537"
+    },
+    {
+        "country": "HT",
+        "name": "Dondon",
+        "lat": "19.52734",
+        "lng": "-72.24337"
+    },
+    {
+        "country": "HT",
+        "name": "Dessalines",
+        "lat": "19.26177",
+        "lng": "-72.51611"
+    },
+    {
+        "country": "HT",
+        "name": "D\u00e9sarmes",
+        "lat": "18.99345",
+        "lng": "-72.39058"
+    },
+    {
+        "country": "HT",
+        "name": "D\u00e9rac",
+        "lat": "19.65476",
+        "lng": "-71.81451"
+    },
+    {
+        "country": "HT",
+        "name": "Delmas 73",
+        "lat": "18.54472",
+        "lng": "-72.30278"
+    },
+    {
+        "country": "HT",
+        "name": "Dame-Marie",
+        "lat": "18.56107",
+        "lng": "-74.42167"
+    },
+    {
+        "country": "HT",
+        "name": "Croix-des-Bouquets",
+        "lat": "18.57677",
+        "lng": "-72.22625"
+    },
+    {
+        "country": "HT",
+        "name": "Kotdef\u00e8",
+        "lat": "18.18872",
+        "lng": "-73.00287"
+    },
+    {
+        "country": "HT",
+        "name": "Koto",
+        "lat": "18.20601",
+        "lng": "-74.04013"
+    },
+    {
+        "country": "HT",
+        "name": "Cornillon",
+        "lat": "18.67546",
+        "lng": "-71.95271"
+    },
+    {
+        "country": "HT",
+        "name": "Corail",
+        "lat": "18.56766",
+        "lng": "-73.88942"
+    },
+    {
+        "country": "HT",
+        "name": "Chardonni\u00e8re",
+        "lat": "18.27484",
+        "lng": "-74.16613"
+    },
+    {
+        "country": "HT",
+        "name": "Chantal",
+        "lat": "18.20169",
+        "lng": "-73.88957"
+    },
+    {
+        "country": "HT",
+        "name": "Chambellan",
+        "lat": "18.55037",
+        "lng": "-74.31317"
+    },
+    {
+        "country": "HT",
+        "name": "Cerca la Source",
+        "lat": "19.16696",
+        "lng": "-71.79015"
+    },
+    {
+        "country": "HT",
+        "name": "Cayes-Jacmel",
+        "lat": "18.2311",
+        "lng": "-72.39545"
+    },
+    {
+        "country": "HT",
+        "name": "Les Cayes",
+        "lat": "18.19331",
+        "lng": "-73.74601"
+    },
+    {
+        "country": "HT",
+        "name": "Cavaillon",
+        "lat": "18.29987",
+        "lng": "-73.65455"
+    },
+    {
+        "country": "HT",
+        "name": "Carrefour",
+        "lat": "18.54114",
+        "lng": "-72.39922"
+    },
+    {
+        "country": "HT",
+        "name": "Carice",
+        "lat": "19.37795",
+        "lng": "-71.8303"
+    },
+    {
+        "country": "HT",
+        "name": "Caracol",
+        "lat": "19.69274",
+        "lng": "-72.01733"
+    },
+    {
+        "country": "HT",
+        "name": "Okap",
+        "lat": "19.75938",
+        "lng": "-72.19815"
+    },
+    {
+        "country": "HT",
+        "name": "Cabaret",
+        "lat": "18.73582",
+        "lng": "-72.41929"
+    },
+    {
+        "country": "HT",
+        "name": "Bombardopolis",
+        "lat": "19.69142",
+        "lng": "-73.33769"
+    },
+    {
+        "country": "HT",
+        "name": "Belle-Anse",
+        "lat": "18.23768",
+        "lng": "-72.06638"
+    },
+    {
+        "country": "HT",
+        "name": "Barad\u00e8res",
+        "lat": "18.48255",
+        "lng": "-73.63884"
+    },
+    {
+        "country": "HT",
+        "name": "Baie de Henne",
+        "lat": "19.66307",
+        "lng": "-73.20943"
+    },
+    {
+        "country": "HT",
+        "name": "Bahon",
+        "lat": "19.46959",
+        "lng": "-72.11466"
+    },
+    {
+        "country": "HT",
+        "name": "Arcahaie",
+        "lat": "19.81667",
+        "lng": "-72.91667"
+    },
+    {
+        "country": "HT",
+        "name": "Aquin",
+        "lat": "18.27974",
+        "lng": "-73.39433"
+    },
+    {
+        "country": "HT",
+        "name": "Anse Rouge",
+        "lat": "19.63382",
+        "lng": "-73.0553"
+    },
+    {
+        "country": "HT",
+        "name": "Anse-\u00e0-Veau",
+        "lat": "18.5011",
+        "lng": "-73.3449"
+    },
+    {
+        "country": "HT",
+        "name": "Anse-\u00e0-Pitre",
+        "lat": "18.05",
+        "lng": "-71.75"
+    },
+    {
+        "country": "HT",
+        "name": "Anse \u00e0 Galets",
+        "lat": "18.83449",
+        "lng": "-72.86644"
+    },
+    {
+        "country": "HT",
+        "name": "Acul du Nord",
+        "lat": "19.68075",
+        "lng": "-72.31978"
+    },
+    {
+        "country": "HT",
+        "name": "Les Abricots",
+        "lat": "18.64901",
+        "lng": "-74.30786"
+    },
+    {
+        "country": "HT",
+        "name": "Ti Port-de-Paix",
+        "lat": "19.93333",
+        "lng": "-72.83333"
+    }
+]

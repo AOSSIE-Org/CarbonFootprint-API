@@ -23,6 +23,8 @@ Find .env.example [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/mast
      * Add Google distance matrix API key. Find one [here](https://developers.google.com/maps/documentation/distance-matrix/get-api-key) .
      * Add the `jwksUri` with `https://<userName>.auth0.com/.well-known/jwks.json` for example `https://footprintcarbon.auth0.com/.well-known/jwks.json`.
      * Add the `issuer` with `https://<userName>.auth0.com/`
+     * Add the `redis host`, default being `127.0.0.1`
+     * Add the `redis port`, default being `6379`
 * Add [auth0-config.js]() [here](https://gitlab.com/aossie/CarbonFootprint-API/tree/master/client/src/Auth) with the same format as [auth0-config.js.example](https://gitlab.com/aossie/CarbonFootprint-API/tree/master/client/src/Auth/auth0-config.js.example)
      * Add `clientId` from the client you created above.
      * `domain` is `<userName>.auth0.com`.

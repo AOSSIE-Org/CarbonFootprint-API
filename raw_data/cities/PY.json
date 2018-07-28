@@ -1,0 +1,854 @@
+[
+    {
+        "country": "PY",
+        "name": "Yuty",
+        "lat": "-26.61471",
+        "lng": "-56.24607"
+    },
+    {
+        "country": "PY",
+        "name": "Ypacarai",
+        "lat": "-25.40777",
+        "lng": "-57.28889"
+    },
+    {
+        "country": "PY",
+        "name": "Yh\u00fa",
+        "lat": "-25.05784",
+        "lng": "-55.92267"
+    },
+    {
+        "country": "PY",
+        "name": "Ygatimi",
+        "lat": "-24.12371",
+        "lng": "-55.64418"
+    },
+    {
+        "country": "PY",
+        "name": "Yegros",
+        "lat": "-26.45",
+        "lng": "-56.4"
+    },
+    {
+        "country": "PY",
+        "name": "Ybycu\u00ed",
+        "lat": "-26.01667",
+        "lng": "-57.05"
+    },
+    {
+        "country": "PY",
+        "name": "Yataity del Norte",
+        "lat": "-24.83333",
+        "lng": "-56.35"
+    },
+    {
+        "country": "PY",
+        "name": "Yaguar\u00f3n",
+        "lat": "-25.56139",
+        "lng": "-57.28343"
+    },
+    {
+        "country": "PY",
+        "name": "Villarrica",
+        "lat": "-25.74946",
+        "lng": "-56.43518"
+    },
+    {
+        "country": "PY",
+        "name": "Villa Hayes",
+        "lat": "-25.09306",
+        "lng": "-57.52361"
+    },
+    {
+        "country": "PY",
+        "name": "Villa Florida",
+        "lat": "-26.38333",
+        "lng": "-57.15"
+    },
+    {
+        "country": "PY",
+        "name": "Villa Elisa",
+        "lat": "-25.3676",
+        "lng": "-57.59274"
+    },
+    {
+        "country": "PY",
+        "name": "Uni\u00f3n",
+        "lat": "-24.8079",
+        "lng": "-56.52148"
+    },
+    {
+        "country": "PY",
+        "name": "Trinidad",
+        "lat": "-27.11667",
+        "lng": "-55.78333"
+    },
+    {
+        "country": "PY",
+        "name": "Tobat\u00ed",
+        "lat": "-25.26111",
+        "lng": "-57.08329"
+    },
+    {
+        "country": "PY",
+        "name": "Tacuat\u00ed",
+        "lat": "-23.45",
+        "lng": "-56.58333"
+    },
+    {
+        "country": "PY",
+        "name": "Sapuca\u00ed",
+        "lat": "-25.66652",
+        "lng": "-56.95215"
+    },
+    {
+        "country": "PY",
+        "name": "Santiago",
+        "lat": "-27.1431",
+        "lng": "-56.76803"
+    },
+    {
+        "country": "PY",
+        "name": "Santa Rosa Misiones",
+        "lat": "-26.8873",
+        "lng": "-56.84905"
+    },
+    {
+        "country": "PY",
+        "name": "Santa Rita",
+        "lat": "-25.78333",
+        "lng": "-55.06667"
+    },
+    {
+        "country": "PY",
+        "name": "Santa Mar\u00eda",
+        "lat": "-26.78333",
+        "lng": "-56.93333"
+    },
+    {
+        "country": "PY",
+        "name": "Santa Elena",
+        "lat": "-25.41327",
+        "lng": "-56.79708"
+    },
+    {
+        "country": "PY",
+        "name": "San Pedro de Ycuamandiy\u00fa",
+        "lat": "-24.08534",
+        "lng": "-57.08745"
+    },
+    {
+        "country": "PY",
+        "name": "San Pedro del Paran\u00e1",
+        "lat": "-26.83268",
+        "lng": "-56.20575"
+    },
+    {
+        "country": "PY",
+        "name": "San Patricio",
+        "lat": "-26.96667",
+        "lng": "-56.81667"
+    },
+    {
+        "country": "PY",
+        "name": "San Miguel",
+        "lat": "-26.5",
+        "lng": "-57.05"
+    },
+    {
+        "country": "PY",
+        "name": "San Lorenzo",
+        "lat": "-25.33968",
+        "lng": "-57.50879"
+    },
+    {
+        "country": "PY",
+        "name": "San Juan Nepomuceno",
+        "lat": "-26.11229",
+        "lng": "-55.93861"
+    },
+    {
+        "country": "PY",
+        "name": "San Juan del Paran\u00e1",
+        "lat": "-27.30168",
+        "lng": "-55.96509"
+    },
+    {
+        "country": "PY",
+        "name": "San Juan Bautista",
+        "lat": "-26.66944",
+        "lng": "-57.14583"
+    },
+    {
+        "country": "PY",
+        "name": "San Jos\u00e9",
+        "lat": "-25.53333",
+        "lng": "-56.73333"
+    },
+    {
+        "country": "PY",
+        "name": "San Joaqu\u00edn",
+        "lat": "-25.02853",
+        "lng": "-56.0428"
+    },
+    {
+        "country": "PY",
+        "name": "San Isidro de Curuguaty",
+        "lat": "-24.47184",
+        "lng": "-55.69227"
+    },
+    {
+        "country": "PY",
+        "name": "San Cosme y Dami\u00e1n",
+        "lat": "-27.31741",
+        "lng": "-56.33087"
+    },
+    {
+        "country": "PY",
+        "name": "San Bernardino",
+        "lat": "-25.31067",
+        "lng": "-57.29628"
+    },
+    {
+        "country": "PY",
+        "name": "San Antonio",
+        "lat": "-25.42126",
+        "lng": "-57.54725"
+    },
+    {
+        "country": "PY",
+        "name": "San Alberto",
+        "lat": "-24.96667",
+        "lng": "-54.9"
+    },
+    {
+        "country": "PY",
+        "name": "Salto del Guair\u00e1",
+        "lat": "-24.0625",
+        "lng": "-54.30694"
+    },
+    {
+        "country": "PY",
+        "name": "Repatriaci\u00f3n",
+        "lat": "-25.53333",
+        "lng": "-55.95"
+    },
+    {
+        "country": "PY",
+        "name": "Quiindy",
+        "lat": "-25.97606",
+        "lng": "-57.23353"
+    },
+    {
+        "country": "PY",
+        "name": "Puerto Rosario",
+        "lat": "-24.44127",
+        "lng": "-57.14272"
+    },
+    {
+        "country": "PY",
+        "name": "Puerto Mayor Ota\u00f1o",
+        "lat": "-26.4",
+        "lng": "-54.7"
+    },
+    {
+        "country": "PY",
+        "name": "Presidente Franco",
+        "lat": "-25.56384",
+        "lng": "-54.61097"
+    },
+    {
+        "country": "PY",
+        "name": "Piribebuy",
+        "lat": "-25.46498",
+        "lng": "-57.04183"
+    },
+    {
+        "country": "PY",
+        "name": "Piray\u00fa",
+        "lat": "-25.48406",
+        "lng": "-57.2349"
+    },
+    {
+        "country": "PY",
+        "name": "Pirap\u00f3",
+        "lat": "-26.86012",
+        "lng": "-55.54357"
+    },
+    {
+        "country": "PY",
+        "name": "Pilar",
+        "lat": "-26.86879",
+        "lng": "-58.29346"
+    },
+    {
+        "country": "PY",
+        "name": "Pedro Juan Caballero",
+        "lat": "-22.54722",
+        "lng": "-55.73333"
+    },
+    {
+        "country": "PY",
+        "name": "Paraguar\u00ed",
+        "lat": "-25.62083",
+        "lng": "-57.14722"
+    },
+    {
+        "country": "PY",
+        "name": "Obligado",
+        "lat": "-27.03333",
+        "lng": "-55.63333"
+    },
+    {
+        "country": "PY",
+        "name": "Nueva Italia",
+        "lat": "-25.6108",
+        "lng": "-57.46563"
+    },
+    {
+        "country": "PY",
+        "name": "Colonia Nueva Germania",
+        "lat": "-23.91137",
+        "lng": "-56.70091"
+    },
+    {
+        "country": "PY",
+        "name": "Nemby",
+        "lat": "-25.3949",
+        "lng": "-57.53574"
+    },
+    {
+        "country": "PY",
+        "name": "Natalio",
+        "lat": "-26.75702",
+        "lng": "-55.13777"
+    },
+    {
+        "country": "PY",
+        "name": "Natalicio Talavera",
+        "lat": "-25.63333",
+        "lng": "-56.3"
+    },
+    {
+        "country": "PY",
+        "name": "Naranjal",
+        "lat": "-25.96667",
+        "lng": "-55.18333"
+    },
+    {
+        "country": "PY",
+        "name": "Nanawua",
+        "lat": "-25.2793",
+        "lng": "-57.70307"
+    },
+    {
+        "country": "PY",
+        "name": "Mbuyapey",
+        "lat": "-26.21921",
+        "lng": "-56.75777"
+    },
+    {
+        "country": "PY",
+        "name": "Mbutu\u00fd",
+        "lat": "-24.97518",
+        "lng": "-56.30927"
+    },
+    {
+        "country": "PY",
+        "name": "Mbocayaty",
+        "lat": "-25.71938",
+        "lng": "-56.42179"
+    },
+    {
+        "country": "PY",
+        "name": "Cedrales",
+        "lat": "-25.65668",
+        "lng": "-54.72272"
+    },
+    {
+        "country": "PY",
+        "name": "Limpio",
+        "lat": "-25.16611",
+        "lng": "-57.48562"
+    },
+    {
+        "country": "PY",
+        "name": "Lima",
+        "lat": "-23.88327",
+        "lng": "-56.48217"
+    },
+    {
+        "country": "PY",
+        "name": "La Paloma",
+        "lat": "-24.12957",
+        "lng": "-54.61376"
+    },
+    {
+        "country": "PY",
+        "name": "Lambar\u00e9",
+        "lat": "-25.34682",
+        "lng": "-57.60647"
+    },
+    {
+        "country": "PY",
+        "name": "La Colmena",
+        "lat": "-25.88627",
+        "lng": "-56.84084"
+    },
+    {
+        "country": "PY",
+        "name": "Jes\u00fas",
+        "lat": "-27.05598",
+        "lng": "-55.7413"
+    },
+    {
+        "country": "PY",
+        "name": "Iturbe",
+        "lat": "-26.05508",
+        "lng": "-56.48463"
+    },
+    {
+        "country": "PY",
+        "name": "Itaugu\u00e1",
+        "lat": "-25.39258",
+        "lng": "-57.35421"
+    },
+    {
+        "country": "PY",
+        "name": "Itakyry",
+        "lat": "-24.98611",
+        "lng": "-55.14963"
+    },
+    {
+        "country": "PY",
+        "name": "Itap\u00e9",
+        "lat": "-25.85172",
+        "lng": "-56.61385"
+    },
+    {
+        "country": "PY",
+        "name": "Itacurub\u00ed del Rosario",
+        "lat": "-24.53541",
+        "lng": "-56.82352"
+    },
+    {
+        "country": "PY",
+        "name": "Itacurub\u00ed de la Cordillera",
+        "lat": "-25.46158",
+        "lng": "-56.85333"
+    },
+    {
+        "country": "PY",
+        "name": "It\u00e1",
+        "lat": "-25.50054",
+        "lng": "-57.36717"
+    },
+    {
+        "country": "PY",
+        "name": "Isla Puc\u00fa",
+        "lat": "-25.30853",
+        "lng": "-56.89986"
+    },
+    {
+        "country": "PY",
+        "name": "Independencia",
+        "lat": "-25.691",
+        "lng": "-56.26781"
+    },
+    {
+        "country": "PY",
+        "name": "Hohenau",
+        "lat": "-27.07315",
+        "lng": "-55.64247"
+    },
+    {
+        "country": "PY",
+        "name": "Guayaybi",
+        "lat": "-24.53333",
+        "lng": "-56.43333"
+    },
+    {
+        "country": "PY",
+        "name": "Guarambar\u00e9",
+        "lat": "-25.49096",
+        "lng": "-57.45567"
+    },
+    {
+        "country": "PY",
+        "name": "General Jos\u00e9 Eduvigis D\u00edaz",
+        "lat": "-27.20136",
+        "lng": "-58.3674"
+    },
+    {
+        "country": "PY",
+        "name": "General Higinio Mor\u00ednigo",
+        "lat": "-25.95",
+        "lng": "-55.91667"
+    },
+    {
+        "country": "PY",
+        "name": "General Elizardo Aquino",
+        "lat": "-24.44417",
+        "lng": "-56.90061"
+    },
+    {
+        "country": "PY",
+        "name": "General Delgado",
+        "lat": "-27.09046",
+        "lng": "-56.52474"
+    },
+    {
+        "country": "PY",
+        "name": "General Artigas",
+        "lat": "-26.93522",
+        "lng": "-56.22168"
+    },
+    {
+        "country": "PY",
+        "name": "Fuerte Olimpo",
+        "lat": "-21.04153",
+        "lng": "-57.87377"
+    },
+    {
+        "country": "PY",
+        "name": "Fram",
+        "lat": "-26.98333",
+        "lng": "-55.88333"
+    },
+    {
+        "country": "PY",
+        "name": "Fernando de la Mora",
+        "lat": "-25.3386",
+        "lng": "-57.52167"
+    },
+    {
+        "country": "PY",
+        "name": "Eusebio Ayala",
+        "lat": "-25.38276",
+        "lng": "-56.96088"
+    },
+    {
+        "country": "PY",
+        "name": "Encarnaci\u00f3n",
+        "lat": "-27.33056",
+        "lng": "-55.86667"
+    },
+    {
+        "country": "PY",
+        "name": "Emboscada",
+        "lat": "-25.15",
+        "lng": "-57.35"
+    },
+    {
+        "country": "PY",
+        "name": "Edelira",
+        "lat": "-26.76734",
+        "lng": "-55.27872"
+    },
+    {
+        "country": "PY",
+        "name": "Doctor Juan Manuel Frutos",
+        "lat": "-25.3838",
+        "lng": "-55.83215"
+    },
+    {
+        "country": "PY",
+        "name": "Doctor Juan Le\u00f3n Mallorqu\u00edn",
+        "lat": "-25.43053",
+        "lng": "-55.25412"
+    },
+    {
+        "country": "PY",
+        "name": "Cecilio Baez",
+        "lat": "-25.07158",
+        "lng": "-56.24386"
+    },
+    {
+        "country": "PY",
+        "name": "Corpus Christi",
+        "lat": "-24.0804",
+        "lng": "-54.93933"
+    },
+    {
+        "country": "PY",
+        "name": "Coronel Oviedo",
+        "lat": "-25.44444",
+        "lng": "-56.44028"
+    },
+    {
+        "country": "PY",
+        "name": "Coronel Mart\u00ednez",
+        "lat": "-25.75862",
+        "lng": "-56.61677"
+    },
+    {
+        "country": "PY",
+        "name": "Concepci\u00f3n",
+        "lat": "-23.39985",
+        "lng": "-57.43236"
+    },
+    {
+        "country": "PY",
+        "name": "Yguaz\u00fa",
+        "lat": "-25.46187",
+        "lng": "-55.00007"
+    },
+    {
+        "country": "PY",
+        "name": "Colonia Minga Por\u00e1",
+        "lat": "-24.86667",
+        "lng": "-54.9"
+    },
+    {
+        "country": "PY",
+        "name": "Colonia Menno",
+        "lat": "-22.36667",
+        "lng": "-59.81667"
+    },
+    {
+        "country": "PY",
+        "name": "Colonia Mauricio Jos\u00e9 Troche",
+        "lat": "-25.56667",
+        "lng": "-56.28333"
+    },
+    {
+        "country": "PY",
+        "name": "Mariano Roque Alonso",
+        "lat": "-25.20791",
+        "lng": "-57.53202"
+    },
+    {
+        "country": "PY",
+        "name": "Colonia General Alfredo Stroessner",
+        "lat": "-25.36395",
+        "lng": "-55.7069"
+    },
+    {
+        "country": "PY",
+        "name": "Colonia Catuete",
+        "lat": "-24.13333",
+        "lng": "-54.61667"
+    },
+    {
+        "country": "PY",
+        "name": "Ciudad del Este",
+        "lat": "-25.50972",
+        "lng": "-54.61111"
+    },
+    {
+        "country": "PY",
+        "name": "Chore",
+        "lat": "-24.18606",
+        "lng": "-56.58251"
+    },
+    {
+        "country": "PY",
+        "name": "Cerrito",
+        "lat": "-27.34215",
+        "lng": "-57.64119"
+    },
+    {
+        "country": "PY",
+        "name": "Carmen del Paran\u00e1",
+        "lat": "-27.22232",
+        "lng": "-56.15243"
+    },
+    {
+        "country": "PY",
+        "name": "Colonia Carlos Antonio L\u00f3pez",
+        "lat": "-26.39853",
+        "lng": "-54.7569"
+    },
+    {
+        "country": "PY",
+        "name": "Caraya\u00f3",
+        "lat": "-25.1975",
+        "lng": "-56.39878"
+    },
+    {
+        "country": "PY",
+        "name": "Carapegu\u00e1",
+        "lat": "-25.8",
+        "lng": "-57.23333"
+    },
+    {
+        "country": "PY",
+        "name": "Caraguatay",
+        "lat": "-25.23844",
+        "lng": "-56.82693"
+    },
+    {
+        "country": "PY",
+        "name": "Capit\u00e1n Miranda",
+        "lat": "-27.2",
+        "lng": "-55.8"
+    },
+    {
+        "country": "PY",
+        "name": "Capit\u00e1n Bado",
+        "lat": "-23.26667",
+        "lng": "-55.53333"
+    },
+    {
+        "country": "PY",
+        "name": "Capi\u00edbary",
+        "lat": "-24.8",
+        "lng": "-56.03333"
+    },
+    {
+        "country": "PY",
+        "name": "Capiat\u00e1",
+        "lat": "-25.3552",
+        "lng": "-57.44545"
+    },
+    {
+        "country": "PY",
+        "name": "Caazap\u00e1",
+        "lat": "-26.19583",
+        "lng": "-56.36806"
+    },
+    {
+        "country": "PY",
+        "name": "Caapuc\u00fa",
+        "lat": "-26.23523",
+        "lng": "-57.18212"
+    },
+    {
+        "country": "PY",
+        "name": "Caaguaz\u00fa",
+        "lat": "-25.47104",
+        "lng": "-56.01603"
+    },
+    {
+        "country": "PY",
+        "name": "Caacup\u00e9",
+        "lat": "-25.38575",
+        "lng": "-57.14217"
+    },
+    {
+        "country": "PY",
+        "name": "Buena Vista",
+        "lat": "-26.18387",
+        "lng": "-56.08171"
+    },
+    {
+        "country": "PY",
+        "name": "Benjam\u00edn Aceval",
+        "lat": "-24.96667",
+        "lng": "-57.56667"
+    },
+    {
+        "country": "PY",
+        "name": "Bella Vista",
+        "lat": "-27.05",
+        "lng": "-55.55"
+    },
+    {
+        "country": "PY",
+        "name": "Bella Vista",
+        "lat": "-22.13333",
+        "lng": "-56.51667"
+    },
+    {
+        "country": "PY",
+        "name": "Bel\u00e9n",
+        "lat": "-23.46611",
+        "lng": "-57.26194"
+    },
+    {
+        "country": "PY",
+        "name": "Juan de Ayolas",
+        "lat": "-27.38662",
+        "lng": "-56.84724"
+    },
+    {
+        "country": "PY",
+        "name": "Atyr\u00e1",
+        "lat": "-25.27876",
+        "lng": "-57.17192"
+    },
+    {
+        "country": "PY",
+        "name": "Asunci\u00f3n",
+        "lat": "-25.30066",
+        "lng": "-57.63591"
+    },
+    {
+        "country": "PY",
+        "name": "Arroyos y Esteros",
+        "lat": "-25.05478",
+        "lng": "-57.09873"
+    },
+    {
+        "country": "PY",
+        "name": "Arquitecto Tom\u00e1s Romero Pereira",
+        "lat": "-26.48333",
+        "lng": "-55.25"
+    },
+    {
+        "country": "PY",
+        "name": "Aregu\u00e1",
+        "lat": "-25.3125",
+        "lng": "-57.38472"
+    },
+    {
+        "country": "PY",
+        "name": "Antequera",
+        "lat": "-24.08526",
+        "lng": "-57.20221"
+    },
+    {
+        "country": "PY",
+        "name": "Altos",
+        "lat": "-25.26263",
+        "lng": "-57.25443"
+    },
+    {
+        "country": "PY",
+        "name": "Acahay",
+        "lat": "-25.91667",
+        "lng": "-57.15"
+    },
+    {
+        "country": "PY",
+        "name": "Aba\u00ed",
+        "lat": "-26.03333",
+        "lng": "-55.93333"
+    },
+    {
+        "country": "PY",
+        "name": "Horqueta",
+        "lat": "-23.34278",
+        "lng": "-57.05972"
+    },
+    {
+        "country": "PY",
+        "name": "Filadelfia",
+        "lat": "-22.33936",
+        "lng": "-60.03157"
+    },
+    {
+        "country": "PY",
+        "name": "Colonia Neuland",
+        "lat": "-22.66667",
+        "lng": "-60.11667"
+    },
+    {
+        "country": "PY",
+        "name": "Capit\u00e1n Pablo Lagerenza",
+        "lat": "-19.91667",
+        "lng": "-60.78333"
+    },
+    {
+        "country": "PY",
+        "name": "Nueva Esperanza",
+        "lat": "-24.5076",
+        "lng": "-54.8551"
+    },
+    {
+        "country": "PY",
+        "name": "Colonia San Lorenzo",
+        "lat": "-26.49324",
+        "lng": "-54.79989"
+    }
+]

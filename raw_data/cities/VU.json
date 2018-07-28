@@ -1,0 +1,50 @@
+[
+    {
+        "country": "VU",
+        "name": "Sola",
+        "lat": "-13.87611",
+        "lng": "167.55167"
+    },
+    {
+        "country": "VU",
+        "name": "Port-Vila",
+        "lat": "-17.73381",
+        "lng": "168.32188"
+    },
+    {
+        "country": "VU",
+        "name": "Port-Olry",
+        "lat": "-15.04175",
+        "lng": "167.07265"
+    },
+    {
+        "country": "VU",
+        "name": "Norsup",
+        "lat": "-16.06536",
+        "lng": "167.39714"
+    },
+    {
+        "country": "VU",
+        "name": "Luganville",
+        "lat": "-15.51989",
+        "lng": "167.16235"
+    },
+    {
+        "country": "VU",
+        "name": "Lakatoro",
+        "lat": "-16.09992",
+        "lng": "167.41636"
+    },
+    {
+        "country": "VU",
+        "name": "Isangel",
+        "lat": "-19.54167",
+        "lng": "169.28167"
+    },
+    {
+        "country": "VU",
+        "name": "Saratamata",
+        "lat": "-15.29031",
+        "lng": "167.96679"
+    }
+]

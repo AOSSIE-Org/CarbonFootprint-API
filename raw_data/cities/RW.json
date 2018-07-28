@@ -1,0 +1,86 @@
+[
+    {
+        "country": "RW",
+        "name": "Rwamagana",
+        "lat": "-1.9487",
+        "lng": "30.4347"
+    },
+    {
+        "country": "RW",
+        "name": "Musanze",
+        "lat": "-1.49984",
+        "lng": "29.63497"
+    },
+    {
+        "country": "RW",
+        "name": "Nzega",
+        "lat": "-2.479",
+        "lng": "29.5564"
+    },
+    {
+        "country": "RW",
+        "name": "Kigali",
+        "lat": "-1.94995",
+        "lng": "30.05885"
+    },
+    {
+        "country": "RW",
+        "name": "Kibuye",
+        "lat": "-2.06028",
+        "lng": "29.34778"
+    },
+    {
+        "country": "RW",
+        "name": "Kibungo",
+        "lat": "-2.1597",
+        "lng": "30.5427"
+    },
+    {
+        "country": "RW",
+        "name": "Gitarama",
+        "lat": "-2.07444",
+        "lng": "29.75667"
+    },
+    {
+        "country": "RW",
+        "name": "Gikongoro",
+        "lat": "-2.46397",
+        "lng": "29.57389"
+    },
+    {
+        "country": "RW",
+        "name": "Cyangugu",
+        "lat": "-2.4846",
+        "lng": "28.9075"
+    },
+    {
+        "country": "RW",
+        "name": "Gisenyi",
+        "lat": "-1.70278",
+        "lng": "29.25639"
+    },
+    {
+        "country": "RW",
+        "name": "Byumba",
+        "lat": "-1.5763",
+        "lng": "30.0675"
+    },
+    {
+        "country": "RW",
+        "name": "Butare",
+        "lat": "-2.59667",
+        "lng": "29.73944"
+    },
+    {
+        "country": "RW",
+        "name": "Nyanza",
+        "lat": "-2.35187",
+        "lng": "29.75089"
+    },
+    {
+        "country": "RW",
+        "name": "Eglise Catholique, Centrale GIKO",
+        "lat": "-1.93653",
+        "lng": "29.8061"
+    }
+]

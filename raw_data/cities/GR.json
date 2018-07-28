@@ -1,0 +1,6464 @@
+[
+    {
+        "country": "GR",
+        "name": "Zonian\u00e1",
+        "lat": "35.29502",
+        "lng": "24.82944"
+    },
+    {
+        "country": "GR",
+        "name": "Zevgolatei\u00f3",
+        "lat": "37.93333",
+        "lng": "22.8"
+    },
+    {
+        "country": "GR",
+        "name": "Zar\u00f3s",
+        "lat": "35.1303",
+        "lng": "24.90412"
+    },
+    {
+        "country": "GR",
+        "name": "Z\u00e1rkos",
+        "lat": "39.6086",
+        "lng": "22.12336"
+    },
+    {
+        "country": "GR",
+        "name": "Zakynthos",
+        "lat": "37.78022",
+        "lng": "20.89555"
+    },
+    {
+        "country": "GR",
+        "name": "Zach\u00e1ro",
+        "lat": "37.48333",
+        "lng": "21.65"
+    },
+    {
+        "country": "GR",
+        "name": "Zagor\u00e1",
+        "lat": "39.45",
+        "lng": "23.1"
+    },
+    {
+        "country": "GR",
+        "name": "G\u00fdtheio",
+        "lat": "36.755",
+        "lng": "22.56417"
+    },
+    {
+        "country": "GR",
+        "name": "Yimn\u00f3n",
+        "lat": "38.44048",
+        "lng": "23.884"
+    },
+    {
+        "country": "GR",
+        "name": "Gi\u00e1nnouli",
+        "lat": "39.66717",
+        "lng": "22.39597"
+    },
+    {
+        "country": "GR",
+        "name": "G\u00e9rgeri",
+        "lat": "35.13281",
+        "lng": "24.94963"
+    },
+    {
+        "country": "GR",
+        "name": "Ger\u00e1ni",
+        "lat": "35.51721",
+        "lng": "23.87818"
+    },
+    {
+        "country": "GR",
+        "name": "Ger\u00e1ki",
+        "lat": "36.99227",
+        "lng": "22.70663"
+    },
+    {
+        "country": "GR",
+        "name": "G\u00e9fyra",
+        "lat": "36.68715",
+        "lng": "23.03509"
+    },
+    {
+        "country": "GR",
+        "name": "Xyl\u00f3kastro",
+        "lat": "38.07762",
+        "lng": "22.63166"
+    },
+    {
+        "country": "GR",
+        "name": "Vront\u00e1dos",
+        "lat": "38.40876",
+        "lng": "26.12948"
+    },
+    {
+        "country": "GR",
+        "name": "Vr\u00fdses",
+        "lat": "35.37585",
+        "lng": "24.20109"
+    },
+    {
+        "country": "GR",
+        "name": "Vran\u00e1",
+        "lat": "38.12497",
+        "lng": "23.95198"
+    },
+    {
+        "country": "GR",
+        "name": "Vrachna\u00edika",
+        "lat": "38.16253",
+        "lng": "21.66693"
+    },
+    {
+        "country": "GR",
+        "name": "Vrakh\u00e1ti",
+        "lat": "37.95895",
+        "lng": "22.80573"
+    },
+    {
+        "country": "GR",
+        "name": "Vounoplagi\u00e1",
+        "lat": "39.69161",
+        "lng": "20.78597"
+    },
+    {
+        "country": "GR",
+        "name": "Vouliagm\u00e9ni",
+        "lat": "37.81423",
+        "lng": "23.77892"
+    },
+    {
+        "country": "GR",
+        "name": "Vo\u00fala",
+        "lat": "37.84221",
+        "lng": "23.77651"
+    },
+    {
+        "country": "GR",
+        "name": "V\u00f3nitsa",
+        "lat": "38.91639",
+        "lng": "20.88639"
+    },
+    {
+        "country": "GR",
+        "name": "Volos",
+        "lat": "39.36103",
+        "lng": "22.94248"
+    },
+    {
+        "country": "GR",
+        "name": "Vokha\u00efk\u00f3",
+        "lat": "37.94843",
+        "lng": "22.79203"
+    },
+    {
+        "country": "GR",
+        "name": "Vlach\u00f3poulo",
+        "lat": "37.03186",
+        "lng": "21.79158"
+    },
+    {
+        "country": "GR",
+        "name": "Vlachi\u00f3tis",
+        "lat": "36.86094",
+        "lng": "22.70831"
+    },
+    {
+        "country": "GR",
+        "name": "V\u00fdronas",
+        "lat": "37.96105",
+        "lng": "23.753"
+    },
+    {
+        "country": "GR",
+        "name": "V\u00edlia",
+        "lat": "38.16716",
+        "lng": "23.33659"
+    },
+    {
+        "country": "GR",
+        "name": "Akta\u00edo",
+        "lat": "38.30444",
+        "lng": "21.7944"
+    },
+    {
+        "country": "GR",
+        "name": "Verdiko\u00fassa",
+        "lat": "39.78175",
+        "lng": "21.97728"
+    },
+    {
+        "country": "GR",
+        "name": "V\u00e9lo",
+        "lat": "37.9761",
+        "lng": "22.75985"
+    },
+    {
+        "country": "GR",
+        "name": "Velest\u00edno",
+        "lat": "39.38181",
+        "lng": "22.74616"
+    },
+    {
+        "country": "GR",
+        "name": "V\u00e1gia",
+        "lat": "38.31748",
+        "lng": "23.17752"
+    },
+    {
+        "country": "GR",
+        "name": "Vath\u00ed",
+        "lat": "38.4049",
+        "lng": "23.60332"
+    },
+    {
+        "country": "GR",
+        "name": "Vath\u00fd",
+        "lat": "37.7642",
+        "lng": "23.48011"
+    },
+    {
+        "country": "GR",
+        "name": "Vath\u00fd",
+        "lat": "37.74692",
+        "lng": "26.98316"
+    },
+    {
+        "country": "GR",
+        "name": "Vasilik\u00f3n",
+        "lat": "38.42586",
+        "lng": "23.67189"
+    },
+    {
+        "country": "GR",
+        "name": "Vasilik\u00ed",
+        "lat": "39.63984",
+        "lng": "21.70448"
+    },
+    {
+        "country": "GR",
+        "name": "Varv\u00e1saina",
+        "lat": "37.67106",
+        "lng": "21.49886"
+    },
+    {
+        "country": "GR",
+        "name": "Vartholomi\u00f3",
+        "lat": "37.86219",
+        "lng": "21.20575"
+    },
+    {
+        "country": "GR",
+        "name": "Varn\u00e1vas",
+        "lat": "38.22358",
+        "lng": "23.92307"
+    },
+    {
+        "country": "GR",
+        "name": "Varei\u00e1",
+        "lat": "39.07941",
+        "lng": "26.57777"
+    },
+    {
+        "country": "GR",
+        "name": "V\u00e1ri",
+        "lat": "37.8332",
+        "lng": "23.80311"
+    },
+    {
+        "country": "GR",
+        "name": "V\u00e1ri",
+        "lat": "37.39859",
+        "lng": "24.94904"
+    },
+    {
+        "country": "GR",
+        "name": "V\u00e1rda",
+        "lat": "38.03058",
+        "lng": "21.36506"
+    },
+    {
+        "country": "GR",
+        "name": "Van\u00e1ton",
+        "lat": "37.79446",
+        "lng": "20.85188"
+    },
+    {
+        "country": "GR",
+        "name": "Vamvako\u00fa",
+        "lat": "39.33708",
+        "lng": "22.41983"
+    },
+    {
+        "country": "GR",
+        "name": "Valsam\u00e1ta",
+        "lat": "38.176",
+        "lng": "20.58392"
+    },
+    {
+        "country": "GR",
+        "name": "Tsikalari\u00e1",
+        "lat": "35.47623",
+        "lng": "24.06274"
+    },
+    {
+        "country": "GR",
+        "name": "Tsar\u00edtsani",
+        "lat": "39.88117",
+        "lng": "22.22758"
+    },
+    {
+        "country": "GR",
+        "name": "Tr\u00edpoli",
+        "lat": "37.50889",
+        "lng": "22.37944"
+    },
+    {
+        "country": "GR",
+        "name": "Tr\u00edkeri",
+        "lat": "39.10114",
+        "lng": "23.07669"
+    },
+    {
+        "country": "GR",
+        "name": "Tr\u00edkala",
+        "lat": "39.55493",
+        "lng": "21.76837"
+    },
+    {
+        "country": "GR",
+        "name": "Trianda\u00edika",
+        "lat": "38.6553",
+        "lng": "21.38315"
+    },
+    {
+        "country": "GR",
+        "name": "Ialys\u00f3s",
+        "lat": "36.41352",
+        "lng": "28.15516"
+    },
+    {
+        "country": "GR",
+        "name": "Tragan\u00f3n",
+        "lat": "37.89789",
+        "lng": "21.31245"
+    },
+    {
+        "country": "GR",
+        "name": "Tol\u00f3n",
+        "lat": "37.52021",
+        "lng": "22.8586"
+    },
+    {
+        "country": "GR",
+        "name": "T\u00fdrnavos",
+        "lat": "39.73778",
+        "lng": "22.28917"
+    },
+    {
+        "country": "GR",
+        "name": "T\u00ednos",
+        "lat": "37.53753",
+        "lng": "25.16343"
+    },
+    {
+        "country": "GR",
+        "name": "Tymp\u00e1ki",
+        "lat": "35.07286",
+        "lng": "24.76851"
+    },
+    {
+        "country": "GR",
+        "name": "T\u00edlisos",
+        "lat": "35.29607",
+        "lng": "25.01587"
+    },
+    {
+        "country": "GR",
+        "name": "Thrapsan\u00f3n",
+        "lat": "35.18798",
+        "lng": "25.28091"
+    },
+    {
+        "country": "GR",
+        "name": "Thour\u00eda",
+        "lat": "37.08356",
+        "lng": "22.04891"
+    },
+    {
+        "country": "GR",
+        "name": "Th\u00edvai",
+        "lat": "38.325",
+        "lng": "23.31889"
+    },
+    {
+        "country": "GR",
+        "name": "Fir\u00e1",
+        "lat": "36.42107",
+        "lng": "25.43087"
+    },
+    {
+        "country": "GR",
+        "name": "Thymian\u00e1",
+        "lat": "38.31439",
+        "lng": "26.13259"
+    },
+    {
+        "country": "GR",
+        "name": "Thesprotik\u00f3",
+        "lat": "39.25114",
+        "lng": "20.78528"
+    },
+    {
+        "country": "GR",
+        "name": "Thespi\u00e9s",
+        "lat": "38.303",
+        "lng": "23.15016"
+    },
+    {
+        "country": "GR",
+        "name": "Th\u00e9rmo",
+        "lat": "38.57358",
+        "lng": "21.66628"
+    },
+    {
+        "country": "GR",
+        "name": "Terpsith\u00e9a",
+        "lat": "39.61898",
+        "lng": "22.35087"
+    },
+    {
+        "country": "GR",
+        "name": "T\u00e9meni",
+        "lat": "38.23707",
+        "lng": "22.12533"
+    },
+    {
+        "country": "GR",
+        "name": "T\u00e1vros",
+        "lat": "37.97064",
+        "lng": "23.69043"
+    },
+    {
+        "country": "GR",
+        "name": "Ste\u00edri",
+        "lat": "38.40831",
+        "lng": "22.71162"
+    },
+    {
+        "country": "GR",
+        "name": "St\u00fdpsi",
+        "lat": "39.31121",
+        "lng": "26.22056"
+    },
+    {
+        "country": "GR",
+        "name": "Styl\u00edda",
+        "lat": "38.91667",
+        "lng": "22.61667"
+    },
+    {
+        "country": "GR",
+        "name": "Stefanov\u00edkeio",
+        "lat": "39.46354",
+        "lng": "22.74198"
+    },
+    {
+        "country": "GR",
+        "name": "Stavr\u00f3s",
+        "lat": "38.89641",
+        "lng": "22.37082"
+    },
+    {
+        "country": "GR",
+        "name": "Stavr\u00e1ki",
+        "lat": "39.65614",
+        "lng": "20.81806"
+    },
+    {
+        "country": "GR",
+        "name": "St\u00e1nos",
+        "lat": "38.80453",
+        "lng": "21.17461"
+    },
+    {
+        "country": "GR",
+        "name": "Stam\u00e1ta",
+        "lat": "38.12546",
+        "lng": "23.88038"
+    },
+    {
+        "country": "GR",
+        "name": "Stal\u00eds",
+        "lat": "35.29257",
+        "lng": "25.43292"
+    },
+    {
+        "country": "GR",
+        "name": "Sp\u00e9tses",
+        "lat": "37.26191",
+        "lng": "23.15943"
+    },
+    {
+        "country": "GR",
+        "name": "Sperch\u00f3geia",
+        "lat": "37.07405",
+        "lng": "22.06248"
+    },
+    {
+        "country": "GR",
+        "name": "Sperchei\u00e1da",
+        "lat": "38.90656",
+        "lng": "22.12792"
+    },
+    {
+        "country": "GR",
+        "name": "Sp\u00e1ta",
+        "lat": "37.96163",
+        "lng": "23.91514"
+    },
+    {
+        "country": "GR",
+        "name": "Sp\u00e1rti",
+        "lat": "37.07446",
+        "lng": "22.43009"
+    },
+    {
+        "country": "GR",
+        "name": "So\u00farpi",
+        "lat": "39.10319",
+        "lng": "22.89789"
+    },
+    {
+        "country": "GR",
+        "name": "So\u00fada",
+        "lat": "35.48717",
+        "lng": "24.07344"
+    },
+    {
+        "country": "GR",
+        "name": "Sofik\u00f3n",
+        "lat": "37.79412",
+        "lng": "23.05204"
+    },
+    {
+        "country": "GR",
+        "name": "Sof\u00e1des",
+        "lat": "39.33333",
+        "lng": "22.1"
+    },
+    {
+        "country": "GR",
+        "name": "Sk\u00f3pelos",
+        "lat": "39.12144",
+        "lng": "23.72686"
+    },
+    {
+        "country": "GR",
+        "name": "Sk\u00f3pelos",
+        "lat": "39.02922",
+        "lng": "26.44836"
+    },
+    {
+        "country": "GR",
+        "name": "Sk\u00fdros",
+        "lat": "38.90417",
+        "lng": "24.56306"
+    },
+    {
+        "country": "GR",
+        "name": "Ski\u00e1thos",
+        "lat": "39.16227",
+        "lng": "23.49089"
+    },
+    {
+        "country": "GR",
+        "name": "Sch\u00edsma Elo\u00fandas",
+        "lat": "35.25757",
+        "lng": "25.72796"
+    },
+    {
+        "country": "GR",
+        "name": "Schimat\u00e1ri",
+        "lat": "38.35",
+        "lng": "23.58333"
+    },
+    {
+        "country": "GR",
+        "name": "Skarmagk\u00e1s",
+        "lat": "38.01133",
+        "lng": "23.60303"
+    },
+    {
+        "country": "GR",
+        "name": "Sk\u00e1la Oropo\u00fa",
+        "lat": "38.31964",
+        "lng": "23.78763"
+    },
+    {
+        "country": "GR",
+        "name": "Skal\u00e1nion",
+        "lat": "35.28262",
+        "lng": "25.18684"
+    },
+    {
+        "country": "GR",
+        "name": "Sk\u00e1la",
+        "lat": "37.32218",
+        "lng": "26.543"
+    },
+    {
+        "country": "GR",
+        "name": "Sk\u00e1la",
+        "lat": "36.85",
+        "lng": "22.66667"
+    },
+    {
+        "country": "GR",
+        "name": "Sitia",
+        "lat": "35.20783",
+        "lng": "26.10467"
+    },
+    {
+        "country": "GR",
+        "name": "S\u00edsion",
+        "lat": "35.3077",
+        "lng": "25.52021"
+    },
+    {
+        "country": "GR",
+        "name": "Synoikism\u00f3s Chavar\u00edou",
+        "lat": "37.85575",
+        "lng": "21.38789"
+    },
+    {
+        "country": "GR",
+        "name": "S\u00fdmi",
+        "lat": "36.61547",
+        "lng": "27.83619"
+    },
+    {
+        "country": "GR",
+        "name": "Sylivaini\u00f3tika",
+        "lat": "38.16139",
+        "lng": "22.33156"
+    },
+    {
+        "country": "GR",
+        "name": "Syko\u00fario",
+        "lat": "39.75947",
+        "lng": "22.58"
+    },
+    {
+        "country": "GR",
+        "name": "Siky\u00f3n",
+        "lat": "37.9823",
+        "lng": "22.72462"
+    },
+    {
+        "country": "GR",
+        "name": "S\u00edkinos",
+        "lat": "36.7",
+        "lng": "25.11667"
+    },
+    {
+        "country": "GR",
+        "name": "Syki\u00e1",
+        "lat": "36.76398",
+        "lng": "22.94302"
+    },
+    {
+        "country": "GR",
+        "name": "S\u00e9rifos",
+        "lat": "37.15397",
+        "lng": "24.50614"
+    },
+    {
+        "country": "GR",
+        "name": "Sel\u00ednia",
+        "lat": "37.9332",
+        "lng": "23.53147"
+    },
+    {
+        "country": "GR",
+        "name": "Sav\u00e1lia",
+        "lat": "37.82158",
+        "lng": "21.29425"
+    },
+    {
+        "country": "GR",
+        "name": "Sard\u00ednia",
+        "lat": "38.89003",
+        "lng": "21.20619"
+    },
+    {
+        "country": "GR",
+        "name": "Samos",
+        "lat": "37.75744",
+        "lng": "26.97616"
+    },
+    {
+        "country": "GR",
+        "name": "S\u00e1mi",
+        "lat": "38.25081",
+        "lng": "20.64686"
+    },
+    {
+        "country": "GR",
+        "name": "Salam\u00edna",
+        "lat": "37.96427",
+        "lng": "23.49649"
+    },
+    {
+        "country": "GR",
+        "name": "Roy\u00edtika",
+        "lat": "38.18268",
+        "lng": "21.68414"
+    },
+    {
+        "country": "GR",
+        "name": "Rovi\u00e9s",
+        "lat": "38.80971",
+        "lng": "23.23073"
+    },
+    {
+        "country": "GR",
+        "name": "Ne\u00e1polis",
+        "lat": "38.67144",
+        "lng": "21.36274"
+    },
+    {
+        "country": "GR",
+        "name": "Rodot\u00f3pi",
+        "lat": "39.70822",
+        "lng": "20.72656"
+    },
+    {
+        "country": "GR",
+        "name": "Rodod\u00e1fni",
+        "lat": "38.26976",
+        "lng": "22.04875"
+    },
+    {
+        "country": "GR",
+        "name": "Rodh\u00edtsa",
+        "lat": "38.88829",
+        "lng": "22.4641"
+    },
+    {
+        "country": "GR",
+        "name": "Riz\u00f3mylos",
+        "lat": "39.42763",
+        "lng": "22.74717"
+    },
+    {
+        "country": "GR",
+        "name": "R\u00edzoma",
+        "lat": "39.66432",
+        "lng": "21.73541"
+    },
+    {
+        "country": "GR",
+        "name": "R\u00edo",
+        "lat": "38.29558",
+        "lng": "21.78504"
+    },
+    {
+        "country": "GR",
+        "name": "Rethymno",
+        "lat": "35.36555",
+        "lng": "24.48232"
+    },
+    {
+        "country": "GR",
+        "name": "Raf\u00edna",
+        "lat": "38.01812",
+        "lng": "24.00599"
+    },
+    {
+        "country": "GR",
+        "name": "Ptele\u00f3s",
+        "lat": "39.05261",
+        "lng": "22.95271"
+    },
+    {
+        "country": "GR",
+        "name": "Psychik\u00f3",
+        "lat": "38.01324",
+        "lng": "23.77223"
+    },
+    {
+        "country": "GR",
+        "name": "Psachn\u00e1",
+        "lat": "38.57852",
+        "lng": "23.64326"
+    },
+    {
+        "country": "GR",
+        "name": "Prok\u00f3pi",
+        "lat": "38.73402",
+        "lng": "23.4906"
+    },
+    {
+        "country": "GR",
+        "name": "Prof\u00edtis Il\u00edas",
+        "lat": "35.20555",
+        "lng": "25.09985"
+    },
+    {
+        "country": "GR",
+        "name": "Pr\u00e9veza",
+        "lat": "38.95617",
+        "lng": "20.7505"
+    },
+    {
+        "country": "GR",
+        "name": "Pr\u00e1manta",
+        "lat": "39.52306",
+        "lng": "21.10139"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00f3rto Ch\u00e9li",
+        "lat": "37.32786",
+        "lng": "23.14384"
+    },
+    {
+        "country": "GR",
+        "name": "Portari\u00e1",
+        "lat": "39.3895",
+        "lng": "22.99948"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00f3ros",
+        "lat": "38.15369",
+        "lng": "20.7712"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00f3ros",
+        "lat": "37.49944",
+        "lng": "23.45361"
+    },
+    {
+        "country": "GR",
+        "name": "Politik\u00e1",
+        "lat": "38.59673",
+        "lng": "23.54457"
+    },
+    {
+        "country": "GR",
+        "name": "Polichn\u00edtos",
+        "lat": "39.07911",
+        "lng": "26.18215"
+    },
+    {
+        "country": "GR",
+        "name": "Polyd\u00e9ndri",
+        "lat": "38.216",
+        "lng": "23.86806"
+    },
+    {
+        "country": "GR",
+        "name": "Plom\u00e1ri",
+        "lat": "38.97527",
+        "lng": "26.37137"
+    },
+    {
+        "country": "GR",
+        "name": "Plat\u00fdkampos",
+        "lat": "39.61667",
+        "lng": "22.53333"
+    },
+    {
+        "country": "GR",
+        "name": "Platari\u00e1",
+        "lat": "39.45044",
+        "lng": "20.27781"
+    },
+    {
+        "country": "GR",
+        "name": "Pl\u00e1tanos",
+        "lat": "37.66731",
+        "lng": "21.61108"
+    },
+    {
+        "country": "GR",
+        "name": "Pig\u00ed",
+        "lat": "39.51061",
+        "lng": "21.70103"
+    },
+    {
+        "country": "GR",
+        "name": "Pith\u00e1ri",
+        "lat": "35.51672",
+        "lng": "24.08653"
+    },
+    {
+        "country": "GR",
+        "name": "Pythag\u00f3reio",
+        "lat": "37.69102",
+        "lng": "26.94341"
+    },
+    {
+        "country": "GR",
+        "name": "Pyrget\u00f3s",
+        "lat": "39.91869",
+        "lng": "22.59339"
+    },
+    {
+        "country": "GR",
+        "name": "Pyrget\u00f3s",
+        "lat": "39.55276",
+        "lng": "21.74846"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00fdrgos",
+        "lat": "37.67513",
+        "lng": "21.44102"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00fdrgos",
+        "lat": "35.00611",
+        "lng": "25.15191"
+    },
+    {
+        "country": "GR",
+        "name": "Piraeus",
+        "lat": "37.94745",
+        "lng": "23.63708"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00fdlos",
+        "lat": "36.91298",
+        "lng": "21.6965"
+    },
+    {
+        "country": "GR",
+        "name": "Pyl\u00ed",
+        "lat": "36.84472",
+        "lng": "27.15932"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00fdli",
+        "lat": "39.45806",
+        "lng": "21.61889"
+    },
+    {
+        "country": "GR",
+        "name": "Pik\u00e9rmi",
+        "lat": "38.00161",
+        "lng": "23.94075"
+    },
+    {
+        "country": "GR",
+        "name": "Petro\u00fapolis",
+        "lat": "38.04187",
+        "lng": "23.68494"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00e9tra",
+        "lat": "39.32682",
+        "lng": "26.17648"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00e9ta",
+        "lat": "39.16667",
+        "lng": "21.03472"
+    },
+    {
+        "country": "GR",
+        "name": "Periyi\u00e1li",
+        "lat": "37.94041",
+        "lng": "22.83946"
+    },
+    {
+        "country": "GR",
+        "name": "Periv\u00f3li",
+        "lat": "39.41936",
+        "lng": "20.01469"
+    },
+    {
+        "country": "GR",
+        "name": "Periv\u00f3lia",
+        "lat": "35.48491",
+        "lng": "23.99421"
+    },
+    {
+        "country": "GR",
+        "name": "Perist\u00e9ri",
+        "lat": "38.01539",
+        "lng": "23.69187"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00e9rdika",
+        "lat": "39.36967",
+        "lng": "20.30419"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00e9rama",
+        "lat": "39.69331",
+        "lng": "20.84656"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00e9rama",
+        "lat": "37.96775",
+        "lng": "23.5721"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00e9rama",
+        "lat": "35.3703",
+        "lng": "24.70345"
+    },
+    {
+        "country": "GR",
+        "name": "Perach\u00f3ra",
+        "lat": "38.03021",
+        "lng": "22.94902"
+    },
+    {
+        "country": "GR",
+        "name": "Pent\u00e9li",
+        "lat": "38.05",
+        "lng": "23.86667"
+    },
+    {
+        "country": "GR",
+        "name": "Pel\u00f3pi",
+        "lat": "37.67444",
+        "lng": "21.59344"
+    },
+    {
+        "country": "GR",
+        "name": "Pelasg\u00eda",
+        "lat": "38.94813",
+        "lng": "22.8398"
+    },
+    {
+        "country": "GR",
+        "name": "Pedin\u00ed",
+        "lat": "39.59994",
+        "lng": "20.84261"
+    },
+    {
+        "country": "GR",
+        "name": "G\u00e1\u00efos",
+        "lat": "39.19722",
+        "lng": "20.18556"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00e1tra",
+        "lat": "38.24444",
+        "lng": "21.73444"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00e1tmos",
+        "lat": "37.30895",
+        "lng": "26.54723"
+    },
+    {
+        "country": "GR",
+        "name": "Patit\u00edrion",
+        "lat": "39.14657",
+        "lng": "23.86494"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00e1sion",
+        "lat": "38.01294",
+        "lng": "22.72814"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00e1ros",
+        "lat": "37.08333",
+        "lng": "25.15"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00e1rga",
+        "lat": "39.28572",
+        "lng": "20.40044"
+    },
+    {
+        "country": "GR",
+        "name": "Parav\u00f3la",
+        "lat": "38.61472",
+        "lng": "21.52046"
+    },
+    {
+        "country": "GR",
+        "name": "Pro\u00e1stio",
+        "lat": "39.48682",
+        "lng": "21.90288"
+    },
+    {
+        "country": "GR",
+        "name": "Parap\u00f3tamos",
+        "lat": "39.54858",
+        "lng": "20.32436"
+    },
+    {
+        "country": "GR",
+        "name": "Paramythi\u00e1",
+        "lat": "39.47111",
+        "lng": "20.51111"
+    },
+    {
+        "country": "GR",
+        "name": "Paral\u00eda Avl\u00eddhos",
+        "lat": "38.38002",
+        "lng": "23.62842"
+    },
+    {
+        "country": "GR",
+        "name": "Paral\u00eda",
+        "lat": "38.19833",
+        "lng": "21.70263"
+    },
+    {
+        "country": "GR",
+        "name": "Papp\u00e1dos",
+        "lat": "39.03905",
+        "lng": "26.45598"
+    },
+    {
+        "country": "GR",
+        "name": "Pappad\u00e1tes",
+        "lat": "39.31444",
+        "lng": "20.79314"
+    },
+    {
+        "country": "GR",
+        "name": "Pappadh\u00e1tai",
+        "lat": "38.52816",
+        "lng": "21.45016"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00e1normos",
+        "lat": "35.41815",
+        "lng": "24.69091"
+    },
+    {
+        "country": "GR",
+        "name": "Panait\u00f3lion",
+        "lat": "38.58316",
+        "lng": "21.44729"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00e1mfila",
+        "lat": "39.15697",
+        "lng": "26.5217"
+    },
+    {
+        "country": "GR",
+        "name": "Pall\u00edni",
+        "lat": "38.00514",
+        "lng": "23.88302"
+    },
+    {
+        "country": "GR",
+        "name": "Palam\u00e1s",
+        "lat": "39.46667",
+        "lng": "22.08333"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00e1lairos",
+        "lat": "38.783",
+        "lng": "20.88183"
+    },
+    {
+        "country": "GR",
+        "name": "Palai\u00f3pyrgos",
+        "lat": "39.60845",
+        "lng": "21.8172"
+    },
+    {
+        "country": "GR",
+        "name": "Palai\u00f3 F\u00e1liro",
+        "lat": "37.92812",
+        "lng": "23.70105"
+    },
+    {
+        "country": "GR",
+        "name": "Palaiomon\u00e1stiro",
+        "lat": "39.46269",
+        "lng": "21.65793"
+    },
+    {
+        "country": "GR",
+        "name": "Palai\u00f3kipos",
+        "lat": "39.05563",
+        "lng": "26.45053"
+    },
+    {
+        "country": "GR",
+        "name": "Palai\u00f3chora",
+        "lat": "35.23128",
+        "lng": "23.68185"
+    },
+    {
+        "country": "GR",
+        "name": "Palekastro",
+        "lat": "35.19793",
+        "lng": "26.25429"
+    },
+    {
+        "country": "GR",
+        "name": "Psar\u00e1",
+        "lat": "38.54097",
+        "lng": "25.56287"
+    },
+    {
+        "country": "GR",
+        "name": "Palai\u00e1 F\u00f3kaia",
+        "lat": "37.71998",
+        "lng": "23.94792"
+    },
+    {
+        "country": "GR",
+        "name": "Palai\u00e1 Ep\u00eddavros",
+        "lat": "37.63847",
+        "lng": "23.15609"
+    },
+    {
+        "country": "GR",
+        "name": "Paian\u00eda",
+        "lat": "37.95527",
+        "lng": "23.85443"
+    },
+    {
+        "country": "GR",
+        "name": "Ox\u00edlithos",
+        "lat": "38.57988",
+        "lng": "24.11184"
+    },
+    {
+        "country": "GR",
+        "name": "Ovri\u00e1",
+        "lat": "38.18866",
+        "lng": "21.72903"
+    },
+    {
+        "country": "GR",
+        "name": "Orop\u00f3s",
+        "lat": "38.30326",
+        "lng": "23.75549"
+    },
+    {
+        "country": "GR",
+        "name": "Orchomen\u00f3s",
+        "lat": "38.4929",
+        "lng": "22.97962"
+    },
+    {
+        "country": "GR",
+        "name": "Oreo\u00ed",
+        "lat": "38.95034",
+        "lng": "23.09191"
+    },
+    {
+        "country": "GR",
+        "name": "Omvriak\u00ed",
+        "lat": "39.10118",
+        "lng": "22.27106"
+    },
+    {
+        "country": "GR",
+        "name": "Oino\u00fasses",
+        "lat": "38.51458",
+        "lng": "26.22241"
+    },
+    {
+        "country": "GR",
+        "name": "Oin\u00f3fyta",
+        "lat": "38.31163",
+        "lng": "23.64"
+    },
+    {
+        "country": "GR",
+        "name": "Pap\u00e1gou",
+        "lat": "37.98642",
+        "lng": "23.79347"
+    },
+    {
+        "country": "GR",
+        "name": "O\u00eda",
+        "lat": "36.4626",
+        "lng": "25.37637"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00edkaia",
+        "lat": "39.56667",
+        "lng": "22.46667"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00edkaia",
+        "lat": "37.96667",
+        "lng": "23.65"
+    },
+    {
+        "country": "GR",
+        "name": "Neroko\u00faros",
+        "lat": "35.47587",
+        "lng": "24.03995"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9on Monast\u00edrion",
+        "lat": "39.23988",
+        "lng": "22.27465"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9on Karlov\u00e1sion",
+        "lat": "37.79209",
+        "lng": "26.7049"
+    },
+    {
+        "country": "GR",
+        "name": "Neochor\u00f3poulo",
+        "lat": "39.62553",
+        "lng": "20.83558"
+    },
+    {
+        "country": "GR",
+        "name": "Oichal\u00eda",
+        "lat": "39.60827",
+        "lng": "21.97996"
+    },
+    {
+        "country": "GR",
+        "name": "Neoch\u00f3ri",
+        "lat": "39.07025",
+        "lng": "21.01892"
+    },
+    {
+        "country": "GR",
+        "name": "Neoch\u00f3rion",
+        "lat": "38.40847",
+        "lng": "21.27511"
+    },
+    {
+        "country": "GR",
+        "name": "Neoch\u00f3ri",
+        "lat": "37.90794",
+        "lng": "21.20392"
+    },
+    {
+        "country": "GR",
+        "name": "Nem\u00e9a",
+        "lat": "37.82068",
+        "lng": "22.66102"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a T\u00edrins",
+        "lat": "37.60793",
+        "lng": "22.81996"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a St\u00edra",
+        "lat": "38.17935",
+        "lng": "24.20842"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Sm\u00fdrni",
+        "lat": "37.94504",
+        "lng": "23.71416"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Sel\u00e9fkeia",
+        "lat": "39.52461",
+        "lng": "20.25519"
+    },
+    {
+        "country": "GR",
+        "name": "Ne\u00e1poli",
+        "lat": "35.25627",
+        "lng": "25.60415"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a P\u00e9ramos",
+        "lat": "38.00647",
+        "lng": "23.42348"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Pal\u00e1tia",
+        "lat": "38.31942",
+        "lng": "23.79649"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Manol\u00e1da",
+        "lat": "38.05378",
+        "lng": "21.38189"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a M\u00e1kri",
+        "lat": "38.08733",
+        "lng": "23.97642"
+    },
+    {
+        "country": "GR",
+        "name": "\u00cdlion",
+        "lat": "38.03333",
+        "lng": "23.7"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a L\u00e1mpsakos",
+        "lat": "38.43729",
+        "lng": "23.62824"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a K\u00edos",
+        "lat": "37.59023",
+        "lng": "22.74342"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Ion\u00eda",
+        "lat": "38.0357",
+        "lng": "23.75733"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Filad\u00e9lfeia",
+        "lat": "38.03491",
+        "lng": "23.73811"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Erythra\u00eda",
+        "lat": "38.0927",
+        "lng": "23.82223"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Art\u00e1ki",
+        "lat": "38.52027",
+        "lng": "23.63296"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Anchi\u00e1los",
+        "lat": "39.28015",
+        "lng": "22.81819"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e1xos",
+        "lat": "37.10556",
+        "lng": "25.37639"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e1fplio",
+        "lat": "37.56863",
+        "lng": "22.80691"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e1fpaktos",
+        "lat": "38.39167",
+        "lng": "21.8275"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e1ousa",
+        "lat": "37.12181",
+        "lng": "25.24014"
+    },
+    {
+        "country": "GR",
+        "name": "Mouzour\u00e1s",
+        "lat": "35.53885",
+        "lng": "24.15554"
+    },
+    {
+        "country": "GR",
+        "name": "Mouz\u00e1ki",
+        "lat": "39.42972",
+        "lng": "21.66361"
+    },
+    {
+        "country": "GR",
+        "name": "Mouzaki",
+        "lat": "37.73565",
+        "lng": "20.82291"
+    },
+    {
+        "country": "GR",
+        "name": "Mourni\u00e9s",
+        "lat": "35.48228",
+        "lng": "24.01253"
+    },
+    {
+        "country": "GR",
+        "name": "Mo\u00falki",
+        "lat": "37.99319",
+        "lng": "22.72531"
+    },
+    {
+        "country": "GR",
+        "name": "Moskh\u00e1ton",
+        "lat": "37.94789",
+        "lng": "23.6788"
+    },
+    {
+        "country": "GR",
+        "name": "M\u00f3ria",
+        "lat": "39.13248",
+        "lng": "26.51698"
+    },
+    {
+        "country": "GR",
+        "name": "Morfovo\u00fani",
+        "lat": "39.3525",
+        "lng": "21.75"
+    },
+    {
+        "country": "GR",
+        "name": "Monastir\u00e1ki",
+        "lat": "38.85053",
+        "lng": "20.94458"
+    },
+    {
+        "country": "GR",
+        "name": "M\u00f3los",
+        "lat": "38.80998",
+        "lng": "22.64544"
+    },
+    {
+        "country": "GR",
+        "name": "Mol\u00e1oi",
+        "lat": "36.80757",
+        "lng": "22.85132"
+    },
+    {
+        "country": "GR",
+        "name": "Mokh\u00f3s",
+        "lat": "35.26342",
+        "lng": "25.42305"
+    },
+    {
+        "country": "GR",
+        "name": "Mo\u00edres",
+        "lat": "35.05143",
+        "lng": "24.8733"
+    },
+    {
+        "country": "GR",
+        "name": "Mitr\u00f3poli",
+        "lat": "39.33933",
+        "lng": "21.83751"
+    },
+    {
+        "country": "GR",
+        "name": "Mytilinio\u00ed",
+        "lat": "37.72716",
+        "lng": "26.90747"
+    },
+    {
+        "country": "GR",
+        "name": "Mytilene",
+        "lat": "39.10772",
+        "lng": "26.55529"
+    },
+    {
+        "country": "GR",
+        "name": "Mytikas",
+        "lat": "38.44373",
+        "lng": "23.65365"
+    },
+    {
+        "country": "GR",
+        "name": "M\u00edthymna",
+        "lat": "39.36781",
+        "lng": "26.17639"
+    },
+    {
+        "country": "GR",
+        "name": "Myrs\u00edni",
+        "lat": "37.92117",
+        "lng": "21.237"
+    },
+    {
+        "country": "GR",
+        "name": "M\u00fdrina",
+        "lat": "39.87483",
+        "lng": "25.06359"
+    },
+    {
+        "country": "GR",
+        "name": "Mindil\u00f3glion",
+        "lat": "38.18387",
+        "lng": "21.70133"
+    },
+    {
+        "country": "GR",
+        "name": "M\u00edlos",
+        "lat": "36.74536",
+        "lng": "24.4265"
+    },
+    {
+        "country": "GR",
+        "name": "Mykonos",
+        "lat": "37.44529",
+        "lng": "25.32872"
+    },
+    {
+        "country": "GR",
+        "name": "Meg\u00edsti",
+        "lat": "36.14889",
+        "lng": "29.59361"
+    },
+    {
+        "country": "GR",
+        "name": "Metsovo",
+        "lat": "39.76944",
+        "lng": "21.18222"
+    },
+    {
+        "country": "GR",
+        "name": "Meth\u00f3ni",
+        "lat": "36.81973",
+        "lng": "21.70486"
+    },
+    {
+        "country": "GR",
+        "name": "Mess\u00edni",
+        "lat": "37.05111",
+        "lng": "22.00778"
+    },
+    {
+        "country": "GR",
+        "name": "Mesol\u00f3ngi",
+        "lat": "38.37138",
+        "lng": "21.43151"
+    },
+    {
+        "country": "GR",
+        "name": "Mesari\u00e1",
+        "lat": "36.39893",
+        "lng": "25.44807"
+    },
+    {
+        "country": "GR",
+        "name": "Ag\u00eda Tri\u00e1da",
+        "lat": "39.46361",
+        "lng": "21.89848"
+    },
+    {
+        "country": "GR",
+        "name": "Men\u00eddi",
+        "lat": "39.04213",
+        "lng": "21.11875"
+    },
+    {
+        "country": "GR",
+        "name": "Mel\u00edssia",
+        "lat": "38.05",
+        "lng": "23.83333"
+    },
+    {
+        "country": "GR",
+        "name": "Meligal\u00e1s",
+        "lat": "37.21667",
+        "lng": "21.96667"
+    },
+    {
+        "country": "GR",
+        "name": "M\u00e9gara",
+        "lat": "37.99471",
+        "lng": "23.34324"
+    },
+    {
+        "country": "GR",
+        "name": "Megal\u00f3poli",
+        "lat": "37.40111",
+        "lng": "22.14222"
+    },
+    {
+        "country": "GR",
+        "name": "Meg\u00e1lo Chori\u00f3",
+        "lat": "36.44917",
+        "lng": "27.34833"
+    },
+    {
+        "country": "GR",
+        "name": "Megaloch\u00f3ri",
+        "lat": "39.55982",
+        "lng": "21.84195"
+    },
+    {
+        "country": "GR",
+        "name": "Meg\u00e1li Kh\u00f3ra",
+        "lat": "38.64629",
+        "lng": "21.37309"
+    },
+    {
+        "country": "GR",
+        "name": "Meg\u00e1la Kal\u00fdvia",
+        "lat": "39.49693",
+        "lng": "21.78802"
+    },
+    {
+        "country": "GR",
+        "name": "Mavromm\u00e1ti",
+        "lat": "39.42386",
+        "lng": "21.69379"
+    },
+    {
+        "country": "GR",
+        "name": "Matar\u00e1nga",
+        "lat": "38.52359",
+        "lng": "21.47325"
+    },
+    {
+        "country": "GR",
+        "name": "Mart\u00ednon",
+        "lat": "38.56817",
+        "lng": "23.21458"
+    },
+    {
+        "country": "GR",
+        "name": "Marm\u00e1rion",
+        "lat": "38.04839",
+        "lng": "24.32039"
+    },
+    {
+        "country": "GR",
+        "name": "Mark\u00f3poulo Oropo\u00fa",
+        "lat": "38.2898",
+        "lng": "23.82475"
+    },
+    {
+        "country": "GR",
+        "name": "Mark\u00f3poulo",
+        "lat": "37.88333",
+        "lng": "23.93333"
+    },
+    {
+        "country": "GR",
+        "name": "Marath\u00f3nas",
+        "lat": "38.15317",
+        "lng": "23.96278"
+    },
+    {
+        "country": "GR",
+        "name": "Marath\u00f3kampos",
+        "lat": "37.72674",
+        "lng": "26.68964"
+    },
+    {
+        "country": "GR",
+        "name": "Manol\u00e1da",
+        "lat": "38.04708",
+        "lng": "21.34814"
+    },
+    {
+        "country": "GR",
+        "name": "Mandr\u00e1ki",
+        "lat": "36.61139",
+        "lng": "27.13333"
+    },
+    {
+        "country": "GR",
+        "name": "M\u00e1ndra",
+        "lat": "38.06667",
+        "lng": "23.5"
+    },
+    {
+        "country": "GR",
+        "name": "Manto\u00fadi",
+        "lat": "38.79808",
+        "lng": "23.47967"
+    },
+    {
+        "country": "GR",
+        "name": "Mantam\u00e1dos",
+        "lat": "39.31003",
+        "lng": "26.33629"
+    },
+    {
+        "country": "GR",
+        "name": "M\u00e1lia",
+        "lat": "35.28367",
+        "lng": "25.46262"
+    },
+    {
+        "country": "GR",
+        "name": "Males\u00edna",
+        "lat": "38.62225",
+        "lng": "23.2337"
+    },
+    {
+        "country": "GR",
+        "name": "Malak\u00f3nta",
+        "lat": "38.4",
+        "lng": "23.76667"
+    },
+    {
+        "country": "GR",
+        "name": "Makr\u00edsia",
+        "lat": "37.60957",
+        "lng": "21.60509"
+    },
+    {
+        "country": "GR",
+        "name": "Makrych\u00f3ri",
+        "lat": "39.8",
+        "lng": "22.48333"
+    },
+    {
+        "country": "GR",
+        "name": "Makrych\u00f3ri",
+        "lat": "39.43978",
+        "lng": "21.96582"
+    },
+    {
+        "country": "GR",
+        "name": "Makrak\u00f3mi",
+        "lat": "38.9415",
+        "lng": "22.11535"
+    },
+    {
+        "country": "GR",
+        "name": "Mago\u00fala",
+        "lat": "38.41178",
+        "lng": "23.82128"
+    },
+    {
+        "country": "GR",
+        "name": "Mago\u00fala",
+        "lat": "38.07989",
+        "lng": "23.52108"
+    },
+    {
+        "country": "GR",
+        "name": "Mago\u00fala",
+        "lat": "37.08007",
+        "lng": "22.40469"
+    },
+    {
+        "country": "GR",
+        "name": "Art\u00e9mida",
+        "lat": "37.96727",
+        "lng": "23.99684"
+    },
+    {
+        "country": "GR",
+        "name": "Loutr\u00e1ki",
+        "lat": "37.9783",
+        "lng": "22.97781"
+    },
+    {
+        "country": "GR",
+        "name": "Loutr\u00e1 Aidhipso\u00fa",
+        "lat": "38.85695",
+        "lng": "23.04739"
+    },
+    {
+        "country": "GR",
+        "name": "Loutr\u00e1",
+        "lat": "39.05695",
+        "lng": "26.54476"
+    },
+    {
+        "country": "GR",
+        "name": "Lo\u00faros",
+        "lat": "39.166",
+        "lng": "20.75608"
+    },
+    {
+        "country": "GR",
+        "name": "Louk\u00edsia",
+        "lat": "38.47946",
+        "lng": "23.44796"
+    },
+    {
+        "country": "GR",
+        "name": "Lixo\u00fari",
+        "lat": "38.20133",
+        "lng": "20.43706"
+    },
+    {
+        "country": "GR",
+        "name": "Livan\u00e1tes",
+        "lat": "38.711",
+        "lng": "23.0503"
+    },
+    {
+        "country": "GR",
+        "name": "Lithaki\u00e1",
+        "lat": "37.71935",
+        "lng": "20.83013"
+    },
+    {
+        "country": "GR",
+        "name": "Leipso\u00ed",
+        "lat": "37.28333",
+        "lng": "26.76667"
+    },
+    {
+        "country": "GR",
+        "name": "Limnokh\u00f3rion",
+        "lat": "38.14115",
+        "lng": "21.48047"
+    },
+    {
+        "country": "GR",
+        "name": "L\u00edmni",
+        "lat": "38.76667",
+        "lng": "23.31667"
+    },
+    {
+        "country": "GR",
+        "name": "Lim\u00edn Mesoya\u00edas",
+        "lat": "37.89108",
+        "lng": "24.00307"
+    },
+    {
+        "country": "GR",
+        "name": "Lim\u00edn Kherson\u00edsou",
+        "lat": "35.32297",
+        "lng": "25.39275"
+    },
+    {
+        "country": "GR",
+        "name": "Lyk\u00f3vrysi",
+        "lat": "38.06933",
+        "lng": "23.78223"
+    },
+    {
+        "country": "GR",
+        "name": "Ligouri\u00f3n",
+        "lat": "37.61233",
+        "lng": "23.03773"
+    },
+    {
+        "country": "GR",
+        "name": "Lidor\u00edki",
+        "lat": "38.52389",
+        "lng": "22.19972"
+    },
+    {
+        "country": "GR",
+        "name": "Lianokl\u00e1dhion",
+        "lat": "38.91655",
+        "lng": "22.30336"
+    },
+    {
+        "country": "GR",
+        "name": "Lefk\u00edmmi",
+        "lat": "39.42336",
+        "lng": "20.07094"
+    },
+    {
+        "country": "GR",
+        "name": "Lefk\u00e1da",
+        "lat": "38.83036",
+        "lng": "20.70442"
+    },
+    {
+        "country": "GR",
+        "name": "Lev\u00eddion",
+        "lat": "37.68269",
+        "lng": "22.29586"
+    },
+    {
+        "country": "GR",
+        "name": "Livadei\u00e1",
+        "lat": "38.43616",
+        "lng": "22.87665"
+    },
+    {
+        "country": "GR",
+        "name": "Lepeno\u00fa",
+        "lat": "38.70839",
+        "lng": "21.2897"
+    },
+    {
+        "country": "GR",
+        "name": "Leon\u00eddio",
+        "lat": "37.16679",
+        "lng": "22.85773"
+    },
+    {
+        "country": "GR",
+        "name": "Leond\u00e1rion",
+        "lat": "37.987",
+        "lng": "23.85518"
+    },
+    {
+        "country": "GR",
+        "name": "L\u00e9khaio",
+        "lat": "37.93279",
+        "lng": "22.85002"
+    },
+    {
+        "country": "GR",
+        "name": "Lechain\u00e1",
+        "lat": "37.93333",
+        "lng": "21.26667"
+    },
+    {
+        "country": "GR",
+        "name": "L\u00e1vrio",
+        "lat": "37.71445",
+        "lng": "24.05647"
+    },
+    {
+        "country": "GR",
+        "name": "L\u00e1risa",
+        "lat": "39.63689",
+        "lng": "22.41761"
+    },
+    {
+        "country": "GR",
+        "name": "L\u00e1pas",
+        "lat": "38.09755",
+        "lng": "21.41861"
+    },
+    {
+        "country": "GR",
+        "name": "Lang\u00e1dhia",
+        "lat": "37.68186",
+        "lng": "22.03002"
+    },
+    {
+        "country": "GR",
+        "name": "Lam\u00eda",
+        "lat": "38.9",
+        "lng": "22.43333"
+    },
+    {
+        "country": "GR",
+        "name": "L\u00e1las",
+        "lat": "37.70936",
+        "lng": "21.72117"
+    },
+    {
+        "country": "GR",
+        "name": "Lakk\u00ed",
+        "lat": "37.13344",
+        "lng": "26.85237"
+    },
+    {
+        "country": "GR",
+        "name": "Krous\u00f3n",
+        "lat": "35.23062",
+        "lng": "24.98291"
+    },
+    {
+        "country": "GR",
+        "name": "Kroke\u00e9s",
+        "lat": "36.88297",
+        "lng": "22.54683"
+    },
+    {
+        "country": "GR",
+        "name": "Taxi\u00e1rches",
+        "lat": "39.57565",
+        "lng": "21.89245"
+    },
+    {
+        "country": "GR",
+        "name": "Krits\u00e1",
+        "lat": "35.15821",
+        "lng": "25.64459"
+    },
+    {
+        "country": "GR",
+        "name": "Kryon\u00e9ri",
+        "lat": "38.13712",
+        "lng": "23.83055"
+    },
+    {
+        "country": "GR",
+        "name": "Kr\u00edkellos",
+        "lat": "38.94532",
+        "lng": "21.1791"
+    },
+    {
+        "country": "GR",
+        "name": "Kr\u00e9stena",
+        "lat": "37.59193",
+        "lng": "21.62034"
+    },
+    {
+        "country": "GR",
+        "name": "Kran\u00eddi",
+        "lat": "37.37974",
+        "lng": "23.15969"
+    },
+    {
+        "country": "GR",
+        "name": "Krani\u00e1 Elass\u00f3nas",
+        "lat": "39.95094",
+        "lng": "21.97078"
+    },
+    {
+        "country": "GR",
+        "name": "Kouvar\u00e1s",
+        "lat": "37.82711",
+        "lng": "23.96715"
+    },
+    {
+        "country": "GR",
+        "name": "Koutsop\u00f3di",
+        "lat": "37.68426",
+        "lng": "22.71355"
+    },
+    {
+        "country": "GR",
+        "name": "Koutseli\u00f3",
+        "lat": "39.58808",
+        "lng": "20.91197"
+    },
+    {
+        "country": "GR",
+        "name": "Metam\u00f3rfosi",
+        "lat": "38.06576",
+        "lng": "23.76356"
+    },
+    {
+        "country": "GR",
+        "name": "Kostakio\u00ed",
+        "lat": "39.13672",
+        "lng": "20.95761"
+    },
+    {
+        "country": "GR",
+        "name": "Kos",
+        "lat": "36.89333",
+        "lng": "27.28889"
+    },
+    {
+        "country": "GR",
+        "name": "Korop\u00ed",
+        "lat": "37.89886",
+        "lng": "23.87181"
+    },
+    {
+        "country": "GR",
+        "name": "Kor\u00f3ni",
+        "lat": "36.79526",
+        "lng": "21.95794"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00f3rinthos",
+        "lat": "37.94007",
+        "lng": "22.9513"
+    },
+    {
+        "country": "GR",
+        "name": "Domvra\u00edna",
+        "lat": "38.253",
+        "lng": "22.98211"
+    },
+    {
+        "country": "GR",
+        "name": "Komp\u00f3ti",
+        "lat": "39.10255",
+        "lng": "21.08389"
+    },
+    {
+        "country": "GR",
+        "name": "Kolymp\u00e1ri",
+        "lat": "35.54115",
+        "lng": "23.77995"
+    },
+    {
+        "country": "GR",
+        "name": "Kokk\u00f3nion",
+        "lat": "37.97061",
+        "lng": "22.78018"
+    },
+    {
+        "country": "GR",
+        "name": "Kokk\u00edni Ch\u00e1ni",
+        "lat": "35.32827",
+        "lng": "25.2581"
+    },
+    {
+        "country": "GR",
+        "name": "Kokk\u00e1ri",
+        "lat": "37.77908",
+        "lng": "26.89179"
+    },
+    {
+        "country": "GR",
+        "name": "Koil\u00e1s",
+        "lat": "37.4123",
+        "lng": "23.12553"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00fdthnos",
+        "lat": "37.41237",
+        "lng": "24.43068"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00fdthira",
+        "lat": "36.14955",
+        "lng": "22.98979"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00edssamos",
+        "lat": "35.49459",
+        "lng": "23.65375"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00edrra",
+        "lat": "38.42944",
+        "lng": "22.44443"
+    },
+    {
+        "country": "GR",
+        "name": "Kyri\u00e1ki",
+        "lat": "38.35365",
+        "lng": "22.78841"
+    },
+    {
+        "country": "GR",
+        "name": "Kyr\u00e1s Vr\u00fdsi",
+        "lat": "37.91295",
+        "lng": "22.98651"
+    },
+    {
+        "country": "GR",
+        "name": "Kips\u00e9li",
+        "lat": "38.00288",
+        "lng": "23.73755"
+    },
+    {
+        "country": "GR",
+        "name": "Kyps\u00e9li",
+        "lat": "37.76021",
+        "lng": "23.45448"
+    },
+    {
+        "country": "GR",
+        "name": "Kypariss\u00eda",
+        "lat": "37.25111",
+        "lng": "21.67361"
+    },
+    {
+        "country": "GR",
+        "name": "Kin\u00e9ta",
+        "lat": "37.96843",
+        "lng": "23.21351"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00edmolos",
+        "lat": "36.79368",
+        "lng": "24.57577"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00fdmi",
+        "lat": "38.63477",
+        "lng": "24.10287"
+    },
+    {
+        "country": "GR",
+        "name": "Kyll\u00edni",
+        "lat": "37.93542",
+        "lng": "21.14503"
+    },
+    {
+        "country": "GR",
+        "name": "Kifisi\u00e1",
+        "lat": "38.07438",
+        "lng": "23.81106"
+    },
+    {
+        "country": "GR",
+        "name": "Ki\u00e1to",
+        "lat": "38.01321",
+        "lng": "22.74839"
+    },
+    {
+        "country": "GR",
+        "name": "Ch\u00f3ra Sfak\u00edon",
+        "lat": "35.20176",
+        "lng": "24.13711"
+    },
+    {
+        "country": "GR",
+        "name": "Ch\u00f3ra",
+        "lat": "37.70374",
+        "lng": "26.90454"
+    },
+    {
+        "country": "GR",
+        "name": "Ch\u00f3ra",
+        "lat": "37.05106",
+        "lng": "21.7169"
+    },
+    {
+        "country": "GR",
+        "name": "Cholarg\u00f3s",
+        "lat": "38",
+        "lng": "23.8"
+    },
+    {
+        "country": "GR",
+        "name": "Chios",
+        "lat": "38.36778",
+        "lng": "26.13583"
+    },
+    {
+        "country": "GR",
+        "name": "Khiliom\u00f3dhi",
+        "lat": "37.81016",
+        "lng": "22.86972"
+    },
+    {
+        "country": "GR",
+        "name": "Ch\u00e1vari",
+        "lat": "37.84842",
+        "lng": "21.38403"
+    },
+    {
+        "country": "GR",
+        "name": "Chani\u00e1",
+        "lat": "35.51124",
+        "lng": "24.02921"
+    },
+    {
+        "country": "GR",
+        "name": "Khalko\u00fatsion",
+        "lat": "38.33263",
+        "lng": "23.73188"
+    },
+    {
+        "country": "GR",
+        "name": "Chalk\u00edda",
+        "lat": "38.46354",
+        "lng": "23.60284"
+    },
+    {
+        "country": "GR",
+        "name": "Chalki\u00e1des",
+        "lat": "39.15981",
+        "lng": "20.93292"
+    },
+    {
+        "country": "GR",
+        "name": "Ch\u00e1lki",
+        "lat": "39.56853",
+        "lng": "22.54017"
+    },
+    {
+        "country": "GR",
+        "name": "Ch\u00e1lki",
+        "lat": "36.22243",
+        "lng": "27.61191"
+    },
+    {
+        "country": "GR",
+        "name": "Chalandr\u00edtsa",
+        "lat": "38.10843",
+        "lng": "21.78349"
+    },
+    {
+        "country": "GR",
+        "name": "Khal\u00e1ndrion",
+        "lat": "38.02369",
+        "lng": "23.80068"
+    },
+    {
+        "country": "GR",
+        "name": "Chair\u00f3neia",
+        "lat": "38.49551",
+        "lng": "22.84424"
+    },
+    {
+        "country": "GR",
+        "name": "Cha\u00efd\u00e1ri",
+        "lat": "38.01135",
+        "lng": "23.66597"
+    },
+    {
+        "country": "GR",
+        "name": "Kerats\u00edni",
+        "lat": "37.9625",
+        "lng": "23.61972"
+    },
+    {
+        "country": "GR",
+        "name": "Kerat\u00e9a",
+        "lat": "37.80585",
+        "lng": "23.9774"
+    },
+    {
+        "country": "GR",
+        "name": "Kerasoch\u00f3ri",
+        "lat": "39.00556",
+        "lng": "21.63778"
+    },
+    {
+        "country": "GR",
+        "name": "Kentr\u00ed",
+        "lat": "35.03258",
+        "lng": "25.7528"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00e9falos",
+        "lat": "36.74507",
+        "lng": "26.95961"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00e9a",
+        "lat": "37.63333",
+        "lng": "24.35"
+    },
+    {
+        "country": "GR",
+        "name": "Kav\u00e1sila",
+        "lat": "37.87581",
+        "lng": "21.26422"
+    },
+    {
+        "country": "GR",
+        "name": "Katsik\u00e1s",
+        "lat": "39.62281",
+        "lng": "20.88758"
+    },
+    {
+        "country": "GR",
+        "name": "Kato\u00fana",
+        "lat": "38.78547",
+        "lng": "21.11417"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00e1to Tithor\u00e9a",
+        "lat": "38.60751",
+        "lng": "22.71348"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00e1to So\u00falion",
+        "lat": "38.16803",
+        "lng": "24.01628"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00e1to Mazar\u00e1ki",
+        "lat": "38.07035",
+        "lng": "21.65097"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00e1to Lekh\u00f3nia",
+        "lat": "39.33091",
+        "lng": "23.03957"
+    },
+    {
+        "country": "GR",
+        "name": "Katoch\u00ed",
+        "lat": "38.41237",
+        "lng": "21.25258"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00e1to Glyk\u00f3vrysi",
+        "lat": "36.82791",
+        "lng": "22.77732"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00e1to Dhimini\u00f3",
+        "lat": "38.0249",
+        "lng": "22.73294"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00e1to As\u00edtai",
+        "lat": "35.20271",
+        "lng": "24.99827"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00e1to Acha?a",
+        "lat": "38.15",
+        "lng": "21.55"
+    },
+    {
+        "country": "GR",
+        "name": "Katast\u00e1rion",
+        "lat": "37.83012",
+        "lng": "20.75755"
+    },
+    {
+        "country": "GR",
+        "name": "Kastr\u00ed",
+        "lat": "34.8346",
+        "lng": "24.08572"
+    },
+    {
+        "country": "GR",
+        "name": "Kastr\u00e1ki",
+        "lat": "39.71692",
+        "lng": "21.61865"
+    },
+    {
+        "country": "GR",
+        "name": "Kast\u00e9lli",
+        "lat": "35.20902",
+        "lng": "25.33773"
+    },
+    {
+        "country": "GR",
+        "name": "Kast\u00e9lla",
+        "lat": "38.57048",
+        "lng": "23.63131"
+    },
+    {
+        "country": "GR",
+        "name": "Karpoch\u00f3ri",
+        "lat": "39.33575",
+        "lng": "22.01129"
+    },
+    {
+        "country": "GR",
+        "name": "Karpen\u00edsi",
+        "lat": "38.91218",
+        "lng": "21.79836"
+    },
+    {
+        "country": "GR",
+        "name": "Karpathos",
+        "lat": "35.50701",
+        "lng": "27.21322"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00e1rystos",
+        "lat": "38.01333",
+        "lng": "24.41611"
+    },
+    {
+        "country": "GR",
+        "name": "Kary\u00e9s",
+        "lat": "37.29119",
+        "lng": "22.50066"
+    },
+    {
+        "country": "GR",
+        "name": "Karditsomago\u00fala",
+        "lat": "39.39061",
+        "lng": "21.9233"
+    },
+    {
+        "country": "GR",
+        "name": "Kard\u00edtsa",
+        "lat": "39.36485",
+        "lng": "21.92191"
+    },
+    {
+        "country": "GR",
+        "name": "Kardam\u00fdli",
+        "lat": "36.88778",
+        "lng": "22.23317"
+    },
+    {
+        "country": "GR",
+        "name": "Kardam\u00e1s",
+        "lat": "37.76729",
+        "lng": "21.33946"
+    },
+    {
+        "country": "GR",
+        "name": "Kard\u00e1maina",
+        "lat": "36.78305",
+        "lng": "27.14289"
+    },
+    {
+        "country": "GR",
+        "name": "Kar\u00e1toula",
+        "lat": "37.73564",
+        "lng": "21.53578"
+    },
+    {
+        "country": "GR",
+        "name": "Pefkoch\u00f3ri",
+        "lat": "39.98784",
+        "lng": "23.61219"
+    },
+    {
+        "country": "GR",
+        "name": "Kapar\u00e9llion",
+        "lat": "38.23697",
+        "lng": "23.21411"
+    },
+    {
+        "country": "GR",
+        "name": "Kapandr\u00edti",
+        "lat": "38.21579",
+        "lng": "23.87938"
+    },
+    {
+        "country": "GR",
+        "name": "Kand\u00edla",
+        "lat": "38.70564",
+        "lng": "20.94749"
+    },
+    {
+        "country": "GR",
+        "name": "Kanal\u00e1ki",
+        "lat": "39.23361",
+        "lng": "20.6"
+    },
+    {
+        "country": "GR",
+        "name": "Kan\u00e1lia",
+        "lat": "39.49928",
+        "lng": "22.88589"
+    },
+    {
+        "country": "GR",
+        "name": "Kam\u00e9na Vo\u00farla",
+        "lat": "38.77844",
+        "lng": "22.78573"
+    },
+    {
+        "country": "GR",
+        "name": "Kamater\u00f3n",
+        "lat": "38.05586",
+        "lng": "23.70515"
+    },
+    {
+        "country": "GR",
+        "name": "Kam\u00e1rai",
+        "lat": "38.29881",
+        "lng": "21.99892"
+    },
+    {
+        "country": "GR",
+        "name": "Kalp\u00e1ki",
+        "lat": "39.88778",
+        "lng": "20.62389"
+    },
+    {
+        "country": "GR",
+        "name": "Kallon\u00ed",
+        "lat": "39.23318",
+        "lng": "26.20724"
+    },
+    {
+        "country": "GR",
+        "name": "Kall\u00edthiro",
+        "lat": "39.28099",
+        "lng": "21.90491"
+    },
+    {
+        "country": "GR",
+        "name": "Kallith\u00e9a",
+        "lat": "37.95",
+        "lng": "23.7"
+    },
+    {
+        "country": "GR",
+        "name": "Kallif\u00f3ni",
+        "lat": "39.27712",
+        "lng": "21.96128"
+    },
+    {
+        "country": "GR",
+        "name": "Kal\u00fdvia Thoriko\u00fa",
+        "lat": "37.83894",
+        "lng": "23.92505"
+    },
+    {
+        "country": "GR",
+        "name": "Kal\u00fdves",
+        "lat": "35.45046",
+        "lng": "24.17507"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00e1lymnos",
+        "lat": "36.95447",
+        "lng": "26.9769"
+    },
+    {
+        "country": "GR",
+        "name": "Kal\u00e1vryta",
+        "lat": "38.03222",
+        "lng": "22.1125"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00e1lamos",
+        "lat": "38.28447",
+        "lng": "23.86308"
+    },
+    {
+        "country": "GR",
+        "name": "Kalami\u00e1",
+        "lat": "39.16528",
+        "lng": "20.93206"
+    },
+    {
+        "country": "GR",
+        "name": "Kalamp\u00e1ka",
+        "lat": "39.70444",
+        "lng": "21.62694"
+    },
+    {
+        "country": "GR",
+        "name": "Kalamata",
+        "lat": "37.03913",
+        "lng": "22.11265"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1limos",
+        "lat": "37.91033",
+        "lng": "23.72361"
+    },
+    {
+        "country": "GR",
+        "name": "Kaisarian\u00ed",
+        "lat": "37.9634",
+        "lng": "23.76523"
+    },
+    {
+        "country": "GR",
+        "name": "Kaino\u00faryion",
+        "lat": "38.79283",
+        "lng": "22.7247"
+    },
+    {
+        "country": "GR",
+        "name": "Kaino\u00faryion",
+        "lat": "38.60453",
+        "lng": "21.48776"
+    },
+    {
+        "country": "GR",
+        "name": "Ith\u00e1ki",
+        "lat": "38.36421",
+        "lng": "20.71848"
+    },
+    {
+        "country": "GR",
+        "name": "It\u00e9a",
+        "lat": "39.45669",
+        "lng": "22.16577"
+    },
+    {
+        "country": "GR",
+        "name": "It\u00e9a",
+        "lat": "38.43201",
+        "lng": "22.42443"
+    },
+    {
+        "country": "GR",
+        "name": "Istia\u00eda",
+        "lat": "38.9552",
+        "lng": "23.1521"
+    },
+    {
+        "country": "GR",
+        "name": "Isthm\u00eda",
+        "lat": "37.91356",
+        "lng": "23.0046"
+    },
+    {
+        "country": "GR",
+        "name": "Ir\u00e1kleio",
+        "lat": "38.05282",
+        "lng": "23.76523"
+    },
+    {
+        "country": "GR",
+        "name": "Ir\u00e1kleion",
+        "lat": "35.32787",
+        "lng": "25.14341"
+    },
+    {
+        "country": "GR",
+        "name": "\u00cdos",
+        "lat": "36.73333",
+        "lng": "25.28333"
+    },
+    {
+        "country": "GR",
+        "name": "Io\u00e1nnina",
+        "lat": "39.66486",
+        "lng": "20.85189"
+    },
+    {
+        "country": "GR",
+        "name": "Igoumen\u00edtsa",
+        "lat": "39.50342",
+        "lng": "20.26728"
+    },
+    {
+        "country": "GR",
+        "name": "Ier\u00e1petra",
+        "lat": "35.01186",
+        "lng": "25.74234"
+    },
+    {
+        "country": "GR",
+        "name": "\u00dddra",
+        "lat": "37.34976",
+        "lng": "23.4656"
+    },
+    {
+        "country": "GR",
+        "name": "Griz\u00e1no",
+        "lat": "39.63192",
+        "lng": "22.05258"
+    },
+    {
+        "country": "GR",
+        "name": "Grammen\u00edtsa",
+        "lat": "39.18444",
+        "lng": "20.97933"
+    },
+    {
+        "country": "GR",
+        "name": "Grammatik\u00f3",
+        "lat": "38.20251",
+        "lng": "23.96504"
+    },
+    {
+        "country": "GR",
+        "name": "Gra Liyi\u00e1",
+        "lat": "35.01467",
+        "lng": "25.69127"
+    },
+    {
+        "country": "GR",
+        "name": "Graikoch\u00f3ri",
+        "lat": "39.49789",
+        "lng": "20.27608"
+    },
+    {
+        "country": "GR",
+        "name": "Go\u00farnes",
+        "lat": "35.32626",
+        "lng": "25.2774"
+    },
+    {
+        "country": "GR",
+        "name": "Go\u00famero",
+        "lat": "37.76236",
+        "lng": "21.61853"
+    },
+    {
+        "country": "GR",
+        "name": "G\u00f3nnoi",
+        "lat": "39.86153",
+        "lng": "22.47647"
+    },
+    {
+        "country": "GR",
+        "name": "G\u00f3mfoi",
+        "lat": "39.46413",
+        "lng": "21.69342"
+    },
+    {
+        "country": "GR",
+        "name": "Glyf\u00e1da",
+        "lat": "37.86289",
+        "lng": "23.75802"
+    },
+    {
+        "country": "GR",
+        "name": "G\u00e1zi",
+        "lat": "35.32531",
+        "lng": "25.06694"
+    },
+    {
+        "country": "GR",
+        "name": "Gavalo\u00fa",
+        "lat": "38.52903",
+        "lng": "21.53226"
+    },
+    {
+        "country": "GR",
+        "name": "Gasto\u00fani",
+        "lat": "37.85",
+        "lng": "21.25"
+    },
+    {
+        "country": "GR",
+        "name": "Gargali\u00e1noi",
+        "lat": "37.06518",
+        "lng": "21.63809"
+    },
+    {
+        "country": "GR",
+        "name": "Galax\u00eddhion",
+        "lat": "38.38067",
+        "lng": "22.38001"
+    },
+    {
+        "country": "GR",
+        "name": "Gal\u00e1tsi",
+        "lat": "38.01667",
+        "lng": "23.75"
+    },
+    {
+        "country": "GR",
+        "name": "Galat\u00e1s",
+        "lat": "38.35742",
+        "lng": "21.56222"
+    },
+    {
+        "country": "GR",
+        "name": "Galat\u00e1s",
+        "lat": "37.49618",
+        "lng": "23.44886"
+    },
+    {
+        "country": "GR",
+        "name": "Galat\u00e1s",
+        "lat": "35.49864",
+        "lng": "23.96341"
+    },
+    {
+        "country": "GR",
+        "name": "Ga\u00eft\u00e1nion",
+        "lat": "37.79134",
+        "lng": "20.87407"
+    },
+    {
+        "country": "GR",
+        "name": "Fry",
+        "lat": "35.41623",
+        "lng": "26.92328"
+    },
+    {
+        "country": "GR",
+        "name": "Fol\u00e9gandros",
+        "lat": "36.62794",
+        "lng": "24.92021"
+    },
+    {
+        "country": "GR",
+        "name": "Fyte\u00edes",
+        "lat": "38.69524",
+        "lng": "21.18467"
+    },
+    {
+        "country": "GR",
+        "name": "Fil\u00f3tion",
+        "lat": "37.05167",
+        "lng": "25.49829"
+    },
+    {
+        "country": "GR",
+        "name": "Filoth\u00e9i",
+        "lat": "38.02524",
+        "lng": "23.78257"
+    },
+    {
+        "country": "GR",
+        "name": "F\u00edlla",
+        "lat": "38.44177",
+        "lng": "23.68306"
+    },
+    {
+        "country": "GR",
+        "name": "Filippi\u00e1da",
+        "lat": "39.20472",
+        "lng": "20.88222"
+    },
+    {
+        "country": "GR",
+        "name": "Filiatr\u00e1",
+        "lat": "37.15637",
+        "lng": "21.58532"
+    },
+    {
+        "country": "GR",
+        "name": "Fili\u00e1tes",
+        "lat": "39.60111",
+        "lng": "20.31194"
+    },
+    {
+        "country": "GR",
+        "name": "Fyl\u00ed",
+        "lat": "38.10235",
+        "lng": "23.66901"
+    },
+    {
+        "country": "GR",
+        "name": "F\u00edki",
+        "lat": "39.51602",
+        "lng": "21.65556"
+    },
+    {
+        "country": "GR",
+        "name": "F\u00e1rsala",
+        "lat": "39.29472",
+        "lng": "22.38472"
+    },
+    {
+        "country": "GR",
+        "name": "F\u00e1ros",
+        "lat": "38.39959",
+        "lng": "23.62275"
+    },
+    {
+        "country": "GR",
+        "name": "Farkad\u00f3na",
+        "lat": "39.6",
+        "lng": "22.06667"
+    },
+    {
+        "country": "GR",
+        "name": "Mago\u00fala",
+        "lat": "39.45395",
+        "lng": "21.80351"
+    },
+    {
+        "country": "GR",
+        "name": "F\u00e1lanna",
+        "lat": "39.71986",
+        "lng": "22.39733"
+    },
+    {
+        "country": "GR",
+        "name": "Exam\u00edlia",
+        "lat": "37.89736",
+        "lng": "22.92832"
+    },
+    {
+        "country": "GR",
+        "name": "Evxino\u00fapolis",
+        "lat": "39.18414",
+        "lng": "22.73831"
+    },
+    {
+        "country": "GR",
+        "name": "Ermo\u00fapolis",
+        "lat": "37.44227",
+        "lng": "24.94248"
+    },
+    {
+        "country": "GR",
+        "name": "Ermi\u00f3ni",
+        "lat": "37.38492",
+        "lng": "23.24686"
+    },
+    {
+        "country": "GR",
+        "name": "Erythr\u00e9s",
+        "lat": "38.21741",
+        "lng": "23.32234"
+    },
+    {
+        "country": "GR",
+        "name": "Er\u00e9tria",
+        "lat": "38.40097",
+        "lng": "23.8022"
+    },
+    {
+        "country": "GR",
+        "name": "Eres\u00f3s",
+        "lat": "39.16973",
+        "lng": "25.93437"
+    },
+    {
+        "country": "GR",
+        "name": "Epit\u00e1lio",
+        "lat": "37.62675",
+        "lng": "21.49528"
+    },
+    {
+        "country": "GR",
+        "name": "Ano Arhanes",
+        "lat": "35.23333",
+        "lng": "25.16667"
+    },
+    {
+        "country": "GR",
+        "name": "Empore\u00edo",
+        "lat": "36.35816",
+        "lng": "25.44615"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c9mponas",
+        "lat": "36.22683",
+        "lng": "27.85645"
+    },
+    {
+        "country": "GR",
+        "name": "Elo\u00fanda",
+        "lat": "35.265",
+        "lng": "25.72127"
+    },
+    {
+        "country": "GR",
+        "name": "Ellinik\u00f3",
+        "lat": "37.89013",
+        "lng": "23.74406"
+    },
+    {
+        "country": "GR",
+        "name": "Elefs\u00edna",
+        "lat": "38.04135",
+        "lng": "23.54295"
+    },
+    {
+        "country": "GR",
+        "name": "Eleo\u00fasa",
+        "lat": "39.70639",
+        "lng": "20.7925"
+    },
+    {
+        "country": "GR",
+        "name": "Eleo\u00fasa",
+        "lat": "39.15278",
+        "lng": "20.96214"
+    },
+    {
+        "country": "GR",
+        "name": "El\u00e1teia",
+        "lat": "38.6277",
+        "lng": "22.76492"
+    },
+    {
+        "country": "GR",
+        "name": "Elass\u00f3na",
+        "lat": "39.89472",
+        "lng": "22.18861"
+    },
+    {
+        "country": "GR",
+        "name": "Ek\u00e1li",
+        "lat": "38.11035",
+        "lng": "23.83505"
+    },
+    {
+        "country": "GR",
+        "name": "Voulgar\u00e9li",
+        "lat": "39.37194",
+        "lng": "21.18333"
+    },
+    {
+        "country": "GR",
+        "name": "Dhrosi\u00e1",
+        "lat": "38.48413",
+        "lng": "23.54774"
+    },
+    {
+        "country": "GR",
+        "name": "Drosi\u00e1",
+        "lat": "38.11977",
+        "lng": "23.86428"
+    },
+    {
+        "country": "GR",
+        "name": "Dr\u00e9panon",
+        "lat": "37.53888",
+        "lng": "22.89323"
+    },
+    {
+        "country": "GR",
+        "name": "Dhr\u00e1fi",
+        "lat": "38.02375",
+        "lng": "23.90788"
+    },
+    {
+        "country": "GR",
+        "name": "Domok\u00f3s",
+        "lat": "39.12722",
+        "lng": "22.30028"
+    },
+    {
+        "country": "GR",
+        "name": "Dhok\u00edmion",
+        "lat": "38.61352",
+        "lng": "21.38072"
+    },
+    {
+        "country": "GR",
+        "name": "D\u00edstomo",
+        "lat": "38.42892",
+        "lng": "22.66728"
+    },
+    {
+        "country": "GR",
+        "name": "Di\u00f3nysos",
+        "lat": "38.10458",
+        "lng": "23.87938"
+    },
+    {
+        "country": "GR",
+        "name": "Dimits\u00e1na",
+        "lat": "37.59524",
+        "lng": "22.04025"
+    },
+    {
+        "country": "GR",
+        "name": "D\u00edlesi",
+        "lat": "38.33762",
+        "lng": "23.67077"
+    },
+    {
+        "country": "GR",
+        "name": "D\u00eddyma",
+        "lat": "37.4625",
+        "lng": "23.17183"
+    },
+    {
+        "country": "GR",
+        "name": "Desk\u00e1ti",
+        "lat": "39.92422",
+        "lng": "21.81031"
+    },
+    {
+        "country": "GR",
+        "name": "Delphi",
+        "lat": "38.47942",
+        "lng": "22.49357"
+    },
+    {
+        "country": "GR",
+        "name": "Dar\u00e1tsos",
+        "lat": "35.49955",
+        "lng": "23.97488"
+    },
+    {
+        "country": "GR",
+        "name": "Dhafn\u00ed",
+        "lat": "37.95002",
+        "lng": "23.73437"
+    },
+    {
+        "country": "GR",
+        "name": "Rod\u00f3poli",
+        "lat": "38.11669",
+        "lng": "23.87572"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1gios Ge\u00f3rgios",
+        "lat": "38.39343",
+        "lng": "22.93189"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1yios Vas\u00edlios",
+        "lat": "37.79763",
+        "lng": "22.79727"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1yios Thom\u00e1s",
+        "lat": "38.27717",
+        "lng": "23.58906"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1gios St\u00e9fanos",
+        "lat": "38.14657",
+        "lng": "23.85608"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1yios Nik\u00f3laos",
+        "lat": "38.42051",
+        "lng": "23.64772"
+    },
+    {
+        "country": "GR",
+        "name": "Arko\u00fadi",
+        "lat": "37.84681",
+        "lng": "21.11022"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1gios Nik\u00f3laos",
+        "lat": "35.19106",
+        "lng": "25.71524"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1yios Konstand\u00ednos",
+        "lat": "38.75612",
+        "lng": "22.85757"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1yios Konstand\u00ednos",
+        "lat": "38.63337",
+        "lng": "21.3995"
+    },
+    {
+        "country": "GR",
+        "name": "Agios Kirykos",
+        "lat": "37.61472",
+        "lng": "26.29444"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1gios Efstr\u00e1tios",
+        "lat": "39.53889",
+        "lng": "24.99167"
+    },
+    {
+        "country": "GR",
+        "name": "Agios Dimitrios",
+        "lat": "37.93333",
+        "lng": "23.73333"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1gios Andr\u00e9as",
+        "lat": "37.34519",
+        "lng": "22.76466"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1yios Adhrian\u00f3s",
+        "lat": "37.59975",
+        "lng": "22.8456"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1gioi The\u00f3doroi",
+        "lat": "37.92736",
+        "lng": "23.14221"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1gioi D\u00e9ka",
+        "lat": "35.06667",
+        "lng": "24.96667"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1yioi Ap\u00f3stoloi",
+        "lat": "38.29169",
+        "lng": "23.91011"
+    },
+    {
+        "country": "GR",
+        "name": "Ag\u00eda Varv\u00e1ra",
+        "lat": "37.98938",
+        "lng": "23.66011"
+    },
+    {
+        "country": "GR",
+        "name": "Ag\u00eda Varv\u00e1ra",
+        "lat": "35.13715",
+        "lng": "25.00131"
+    },
+    {
+        "country": "GR",
+        "name": "Ag\u00eda Tri\u00e1da",
+        "lat": "38.35505",
+        "lng": "22.90881"
+    },
+    {
+        "country": "GR",
+        "name": "Ay\u00eda Tri\u00e1s",
+        "lat": "37.63707",
+        "lng": "22.80504"
+    },
+    {
+        "country": "GR",
+        "name": "Agi\u00e1sos",
+        "lat": "39.08295",
+        "lng": "26.37218"
+    },
+    {
+        "country": "GR",
+        "name": "Ag\u00eda Paraskev\u00ed",
+        "lat": "39.24792",
+        "lng": "26.27178"
+    },
+    {
+        "country": "GR",
+        "name": "Ag\u00eda Paraskev\u00ed",
+        "lat": "38.01667",
+        "lng": "23.83333"
+    },
+    {
+        "country": "GR",
+        "name": "Ag\u00eda Mar\u00edna",
+        "lat": "37.1543",
+        "lng": "26.85162"
+    },
+    {
+        "country": "GR",
+        "name": "Ag\u00eda Mar\u00edna",
+        "lat": "35.51778",
+        "lng": "23.92675"
+    },
+    {
+        "country": "GR",
+        "name": "Ag\u00eda Gal\u00edni",
+        "lat": "35.09707",
+        "lng": "24.68818"
+    },
+    {
+        "country": "GR",
+        "name": "Agi\u00e1",
+        "lat": "39.71901",
+        "lng": "22.75869"
+    },
+    {
+        "country": "GR",
+        "name": "Avl\u00f3nas",
+        "lat": "38.25149",
+        "lng": "23.69554"
+    },
+    {
+        "country": "GR",
+        "name": "Atsip\u00f3poulo",
+        "lat": "35.35253",
+        "lng": "24.43378"
+    },
+    {
+        "country": "GR",
+        "name": "Athens",
+        "lat": "37.97945",
+        "lng": "23.71622"
+    },
+    {
+        "country": "GR",
+        "name": "Ath\u00edkia",
+        "lat": "37.81675",
+        "lng": "22.92939"
+    },
+    {
+        "country": "GR",
+        "name": "Atal\u00e1nti",
+        "lat": "38.65111",
+        "lng": "22.99917"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1stros",
+        "lat": "37.40395",
+        "lng": "22.72118"
+    },
+    {
+        "country": "GR",
+        "name": "Astyp\u00e1laia",
+        "lat": "36.55",
+        "lng": "26.35"
+    },
+    {
+        "country": "GR",
+        "name": "Astak\u00f3s",
+        "lat": "38.53556",
+        "lng": "21.08135"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1ssos",
+        "lat": "37.93955",
+        "lng": "22.82223"
+    },
+    {
+        "country": "GR",
+        "name": "Aspr\u00f3pyrgos",
+        "lat": "38.06134",
+        "lng": "23.58971"
+    },
+    {
+        "country": "GR",
+        "name": "Aspr\u00e1ngeloi",
+        "lat": "39.82328",
+        "lng": "20.72862"
+    },
+    {
+        "country": "GR",
+        "name": "Asop\u00f3s",
+        "lat": "36.72986",
+        "lng": "22.85455"
+    },
+    {
+        "country": "GR",
+        "name": "Asop\u00eda",
+        "lat": "38.29882",
+        "lng": "23.50189"
+    },
+    {
+        "country": "GR",
+        "name": "As\u00edni",
+        "lat": "37.54431",
+        "lng": "22.86435"
+    },
+    {
+        "country": "GR",
+        "name": "As\u00edmion",
+        "lat": "35.04321",
+        "lng": "25.09277"
+    },
+    {
+        "country": "GR",
+        "name": "Argyro\u00fapoli",
+        "lat": "37.90594",
+        "lng": "23.75035"
+    },
+    {
+        "country": "GR",
+        "name": "Argyropo\u00fali",
+        "lat": "39.82567",
+        "lng": "22.30689"
+    },
+    {
+        "country": "GR",
+        "name": "Artesian\u00f3",
+        "lat": "39.40194",
+        "lng": "21.89649"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1rta",
+        "lat": "39.16014",
+        "lng": "20.98561"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1rma",
+        "lat": "38.35121",
+        "lng": "23.48599"
+    },
+    {
+        "country": "GR",
+        "name": "Archontoch\u00f3ri",
+        "lat": "38.70053",
+        "lng": "21.03896"
+    },
+    {
+        "country": "GR",
+        "name": "Archa\u00eda Olymp\u00eda",
+        "lat": "37.64788",
+        "lng": "21.6271"
+    },
+    {
+        "country": "GR",
+        "name": "Arkha\u00eda K\u00f3rinthos",
+        "lat": "37.90953",
+        "lng": "22.88353"
+    },
+    {
+        "country": "GR",
+        "name": "Arkaloch\u00f3ri",
+        "lat": "35.14634",
+        "lng": "25.26538"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1ris",
+        "lat": "37.0992",
+        "lng": "22.00443"
+    },
+    {
+        "country": "GR",
+        "name": "Aria",
+        "lat": "37.57372",
+        "lng": "22.83539"
+    },
+    {
+        "country": "GR",
+        "name": "Argost\u00f3lion",
+        "lat": "38.18109",
+        "lng": "20.48903"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1rgos",
+        "lat": "37.63333",
+        "lng": "22.73333"
+    },
+    {
+        "country": "GR",
+        "name": "Argalast\u00ed",
+        "lat": "39.22627",
+        "lng": "23.21868"
+    },
+    {
+        "country": "GR",
+        "name": "Arfar\u00e1",
+        "lat": "37.15619",
+        "lng": "22.04485"
+    },
+    {
+        "country": "GR",
+        "name": "Ar\u00e1chova",
+        "lat": "38.47958",
+        "lng": "22.5835"
+    },
+    {
+        "country": "GR",
+        "name": "Anthir\u00f3",
+        "lat": "39.34722",
+        "lng": "21.45833"
+    },
+    {
+        "country": "GR",
+        "name": "Anth\u00edli",
+        "lat": "38.85",
+        "lng": "22.47906"
+    },
+    {
+        "country": "GR",
+        "name": "An\u00f3geia",
+        "lat": "35.29084",
+        "lng": "24.88412"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1no S\u00fdros",
+        "lat": "37.44997",
+        "lng": "24.93562"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1no Mer\u00e1",
+        "lat": "37.44904",
+        "lng": "25.39095"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1no Li\u00f3sia",
+        "lat": "38.08333",
+        "lng": "23.7"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1no Lekh\u00f3nia",
+        "lat": "39.32763",
+        "lng": "23.05395"
+    },
+    {
+        "country": "GR",
+        "name": "Kopan\u00e1ki",
+        "lat": "37.28913",
+        "lng": "21.81854"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1no Kastr\u00edtsi",
+        "lat": "38.27228",
+        "lng": "21.836"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1no Kalent\u00edni",
+        "lat": "39.25",
+        "lng": "21.18528"
+    },
+    {
+        "country": "GR",
+        "name": "Anoixi",
+        "lat": "38.13267",
+        "lng": "23.85874"
+    },
+    {
+        "country": "GR",
+        "name": "Megaloch\u00f3ri",
+        "lat": "37.71051",
+        "lng": "23.34659"
+    },
+    {
+        "country": "GR",
+        "name": "Angel\u00f3kastro",
+        "lat": "38.56585",
+        "lng": "21.29631"
+    },
+    {
+        "country": "GR",
+        "name": "An\u00e9za",
+        "lat": "39.08658",
+        "lng": "20.923"
+    },
+    {
+        "country": "GR",
+        "name": "Andros",
+        "lat": "37.83333",
+        "lng": "24.93333"
+    },
+    {
+        "country": "GR",
+        "name": "Andrav\u00edda",
+        "lat": "37.90588",
+        "lng": "21.26936"
+    },
+    {
+        "country": "GR",
+        "name": "Antirrio",
+        "lat": "38.33014",
+        "lng": "21.76413"
+    },
+    {
+        "country": "GR",
+        "name": "Ant\u00edparos",
+        "lat": "37.0394",
+        "lng": "25.08258"
+    },
+    {
+        "country": "GR",
+        "name": "Antim\u00e1cheia",
+        "lat": "36.80888",
+        "lng": "27.09764"
+    },
+    {
+        "country": "GR",
+        "name": "Antikyra",
+        "lat": "38.38333",
+        "lng": "22.63333"
+    },
+    {
+        "country": "GR",
+        "name": "An\u00e1vra",
+        "lat": "39.18996",
+        "lng": "22.09308"
+    },
+    {
+        "country": "GR",
+        "name": "An\u00e1vyssos",
+        "lat": "37.73414",
+        "lng": "23.94389"
+    },
+    {
+        "country": "GR",
+        "name": "Anatol\u00ed",
+        "lat": "39.63531",
+        "lng": "20.86578"
+    },
+    {
+        "country": "GR",
+        "name": "An\u00e1fi",
+        "lat": "36.35",
+        "lng": "25.76667"
+    },
+    {
+        "country": "GR",
+        "name": "Amorg\u00f3s",
+        "lat": "36.83175",
+        "lng": "25.89821"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1mfissa",
+        "lat": "38.52813",
+        "lng": "22.37713"
+    },
+    {
+        "country": "GR",
+        "name": "Amfiloch\u00eda",
+        "lat": "38.85944",
+        "lng": "21.16639"
+    },
+    {
+        "country": "GR",
+        "name": "Amf\u00edkleia",
+        "lat": "38.63912",
+        "lng": "22.59171"
+    },
+    {
+        "country": "GR",
+        "name": "Ampel\u00f3na",
+        "lat": "39.74481",
+        "lng": "22.36575"
+    },
+    {
+        "country": "GR",
+        "name": "Ambel\u00f3kipoi",
+        "lat": "37.75809",
+        "lng": "20.87248"
+    },
+    {
+        "country": "GR",
+        "name": "Ampel\u00e1kia",
+        "lat": "37.95055",
+        "lng": "23.52803"
+    },
+    {
+        "country": "GR",
+        "name": "Maro\u00fasi",
+        "lat": "38.05",
+        "lng": "23.8"
+    },
+    {
+        "country": "GR",
+        "name": "Am\u00e1rynthos",
+        "lat": "38.393",
+        "lng": "23.88492"
+    },
+    {
+        "country": "GR",
+        "name": "Amali\u00e1da",
+        "lat": "37.79842",
+        "lng": "21.35068"
+    },
+    {
+        "country": "GR",
+        "name": "Almyr\u00f3s",
+        "lat": "39.18222",
+        "lng": "22.75944"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1lli Meri\u00e1",
+        "lat": "39.37039",
+        "lng": "22.9835"
+    },
+    {
+        "country": "GR",
+        "name": "Aliv\u00e9ri",
+        "lat": "38.41667",
+        "lng": "24.03333"
+    },
+    {
+        "country": "GR",
+        "name": "Al\u00edartos",
+        "lat": "38.36667",
+        "lng": "23.1"
+    },
+    {
+        "country": "GR",
+        "name": "Alfeio\u00fasa",
+        "lat": "37.64019",
+        "lng": "21.5375"
+    },
+    {
+        "country": "GR",
+        "name": "Akr\u00e1ta",
+        "lat": "38.15469",
+        "lng": "22.3183"
+    },
+    {
+        "country": "GR",
+        "name": "Akraifn\u00eda",
+        "lat": "38.45663",
+        "lng": "23.22093"
+    },
+    {
+        "country": "GR",
+        "name": "Acharn\u00e9s",
+        "lat": "38.08333",
+        "lng": "23.73333"
+    },
+    {
+        "country": "GR",
+        "name": "A\u00edyira",
+        "lat": "38.14846",
+        "lng": "22.35426"
+    },
+    {
+        "country": "GR",
+        "name": "A\u00edgio",
+        "lat": "38.24861",
+        "lng": "22.08194"
+    },
+    {
+        "country": "GR",
+        "name": "Aegina",
+        "lat": "37.74667",
+        "lng": "23.4275"
+    },
+    {
+        "country": "GR",
+        "name": "Aitolik\u00f3",
+        "lat": "38.43704",
+        "lng": "21.35358"
+    },
+    {
+        "country": "GR",
+        "name": "Aig\u00e1leo",
+        "lat": "37.98333",
+        "lng": "23.68333"
+    },
+    {
+        "country": "GR",
+        "name": "Aidips\u00f3s",
+        "lat": "38.87924",
+        "lng": "23.04691"
+    },
+    {
+        "country": "GR",
+        "name": "Ai\u00e1nteio",
+        "lat": "37.92135",
+        "lng": "23.45877"
+    },
+    {
+        "country": "GR",
+        "name": "Agr\u00ednio",
+        "lat": "38.62139",
+        "lng": "21.40778"
+    },
+    {
+        "country": "GR",
+        "name": "Agri\u00e1",
+        "lat": "39.34078",
+        "lng": "23.01258"
+    },
+    {
+        "country": "GR",
+        "name": "Agnanter\u00f3",
+        "lat": "39.48586",
+        "lng": "21.84789"
+    },
+    {
+        "country": "GR",
+        "name": "Afr\u00e1tion",
+        "lat": "38.45212",
+        "lng": "23.68775"
+    },
+    {
+        "country": "GR",
+        "name": "Afidn\u00e9s",
+        "lat": "38.20332",
+        "lng": "23.83982"
+    },
+    {
+        "country": "GR",
+        "name": "Ad\u00e1mas",
+        "lat": "36.72506",
+        "lng": "24.44685"
+    },
+    {
+        "country": "GR",
+        "name": "R\u00f3dos",
+        "lat": "36.43556",
+        "lng": "28.22199"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Alikarnass\u00f3s",
+        "lat": "35.33977",
+        "lng": "25.15895"
+    },
+    {
+        "country": "GR",
+        "name": "Kremast\u00ed",
+        "lat": "36.40981",
+        "lng": "28.1192"
+    },
+    {
+        "country": "GR",
+        "name": "Af\u00e1ntou",
+        "lat": "36.29354",
+        "lng": "28.16225"
+    },
+    {
+        "country": "GR",
+        "name": "Arch\u00e1ngelos",
+        "lat": "36.21492",
+        "lng": "28.11487"
+    },
+    {
+        "country": "GR",
+        "name": "L\u00e1rdos",
+        "lat": "36.09419",
+        "lng": "28.01565"
+    },
+    {
+        "country": "GR",
+        "name": "Zip\u00e1ri",
+        "lat": "36.87696",
+        "lng": "27.20532"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9os Orop\u00f3s",
+        "lat": "39.15064",
+        "lng": "20.73636"
+    },
+    {
+        "country": "GR",
+        "name": "Zyg\u00f3s",
+        "lat": "41.0132",
+        "lng": "24.38132"
+    },
+    {
+        "country": "GR",
+        "name": "Akrol\u00edmni",
+        "lat": "40.6802",
+        "lng": "22.2645"
+    },
+    {
+        "country": "GR",
+        "name": "Giannits\u00e1",
+        "lat": "40.79194",
+        "lng": "22.4075"
+    },
+    {
+        "country": "GR",
+        "name": "Gerakaro\u00fa",
+        "lat": "40.62666",
+        "lng": "23.21566"
+    },
+    {
+        "country": "GR",
+        "name": "Geniss\u00e9a",
+        "lat": "41.06165",
+        "lng": "24.96248"
+    },
+    {
+        "country": "GR",
+        "name": "G\u00e9fyra",
+        "lat": "40.73253",
+        "lng": "22.69359"
+    },
+    {
+        "country": "GR",
+        "name": "Xirop\u00f3tamos",
+        "lat": "41.19206",
+        "lng": "24.10385"
+    },
+    {
+        "country": "GR",
+        "name": "Xin\u00f3 Ner\u00f3",
+        "lat": "40.69028",
+        "lng": "21.62324"
+    },
+    {
+        "country": "GR",
+        "name": "Xil\u00f3polis",
+        "lat": "40.92713",
+        "lng": "23.17944"
+    },
+    {
+        "country": "GR",
+        "name": "Xylagan\u00ed",
+        "lat": "40.97437",
+        "lng": "25.42022"
+    },
+    {
+        "country": "GR",
+        "name": "X\u00e1nthi",
+        "lat": "41.13488",
+        "lng": "24.888"
+    },
+    {
+        "country": "GR",
+        "name": "Vronto\u00fa",
+        "lat": "40.19356",
+        "lng": "22.43203"
+    },
+    {
+        "country": "GR",
+        "name": "V\u00f3lakas",
+        "lat": "41.31661",
+        "lng": "24.00215"
+    },
+    {
+        "country": "GR",
+        "name": "Verg\u00edna",
+        "lat": "40.48654",
+        "lng": "22.31735"
+    },
+    {
+        "country": "GR",
+        "name": "V\u00e9roia",
+        "lat": "40.52437",
+        "lng": "22.20242"
+    },
+    {
+        "country": "GR",
+        "name": "Velvent\u00f3s",
+        "lat": "40.25532",
+        "lng": "22.07543"
+    },
+    {
+        "country": "GR",
+        "name": "Vath\u00fdlakkos",
+        "lat": "40.76942",
+        "lng": "22.7088"
+    },
+    {
+        "country": "GR",
+        "name": "Vasilik\u00e1",
+        "lat": "40.47966",
+        "lng": "23.13695"
+    },
+    {
+        "country": "GR",
+        "name": "Vamvak\u00f3fyto",
+        "lat": "41.17916",
+        "lng": "23.39602"
+    },
+    {
+        "country": "GR",
+        "name": "Valter\u00f3",
+        "lat": "41.17927",
+        "lng": "23.32022"
+    },
+    {
+        "country": "GR",
+        "name": "Tsot\u00edli",
+        "lat": "40.26147",
+        "lng": "21.32533"
+    },
+    {
+        "country": "GR",
+        "name": "Tr\u00edlofos",
+        "lat": "40.46898",
+        "lng": "22.9718"
+    },
+    {
+        "country": "GR",
+        "name": "Tr\u00edkala",
+        "lat": "40.59814",
+        "lng": "22.55733"
+    },
+    {
+        "country": "GR",
+        "name": "Tycher\u00f3",
+        "lat": "41.02878",
+        "lng": "26.29455"
+    },
+    {
+        "country": "GR",
+        "name": "Thessalon\u00edki",
+        "lat": "40.64361",
+        "lng": "22.93086"
+    },
+    {
+        "country": "GR",
+        "name": "Th\u00e9rmi",
+        "lat": "40.54712",
+        "lng": "23.01967"
+    },
+    {
+        "country": "GR",
+        "name": "Th\u00e1sos",
+        "lat": "40.77806",
+        "lng": "24.70944"
+    },
+    {
+        "country": "GR",
+        "name": "Terpn\u00ed",
+        "lat": "40.91643",
+        "lng": "23.48137"
+    },
+    {
+        "country": "GR",
+        "name": "Svor\u00f3nos",
+        "lat": "40.26805",
+        "lng": "22.46366"
+    },
+    {
+        "country": "GR",
+        "name": "Strymonik\u00f3",
+        "lat": "41.04144",
+        "lng": "23.31487"
+    },
+    {
+        "country": "GR",
+        "name": "Strat\u00f3nion",
+        "lat": "40.51406",
+        "lng": "23.82471"
+    },
+    {
+        "country": "GR",
+        "name": "Stavro\u00fapoli",
+        "lat": "40.66944",
+        "lng": "22.93806"
+    },
+    {
+        "country": "GR",
+        "name": "Stavr\u00f3s",
+        "lat": "40.66498",
+        "lng": "23.70015"
+    },
+    {
+        "country": "GR",
+        "name": "Stavr\u00f3s",
+        "lat": "40.58939",
+        "lng": "22.30861"
+    },
+    {
+        "country": "GR",
+        "name": "Sourot\u00ed",
+        "lat": "40.47274",
+        "lng": "23.09197"
+    },
+    {
+        "country": "GR",
+        "name": "Soufl\u00ed",
+        "lat": "41.19194",
+        "lng": "26.29944"
+    },
+    {
+        "country": "GR",
+        "name": "Sos\u00e1ndra",
+        "lat": "40.99894",
+        "lng": "22.03254"
+    },
+    {
+        "country": "GR",
+        "name": "Soch\u00f3s",
+        "lat": "40.81788",
+        "lng": "23.35546"
+    },
+    {
+        "country": "GR",
+        "name": "Sm\u00ednthi",
+        "lat": "41.23333",
+        "lng": "24.86667"
+    },
+    {
+        "country": "GR",
+        "name": "Sko\u00fatari",
+        "lat": "41.01871",
+        "lng": "23.51971"
+    },
+    {
+        "country": "GR",
+        "name": "Skoto\u00fassa",
+        "lat": "41.12844",
+        "lng": "23.38174"
+    },
+    {
+        "country": "GR",
+        "name": "Sk\u00fddra",
+        "lat": "40.76722",
+        "lng": "22.15194"
+    },
+    {
+        "country": "GR",
+        "name": "Leptokary\u00e1",
+        "lat": "40.06032",
+        "lng": "22.5612"
+    },
+    {
+        "country": "GR",
+        "name": "Sitagro\u00ed",
+        "lat": "41.11067",
+        "lng": "24.02755"
+    },
+    {
+        "country": "GR",
+        "name": "S\u00edndos",
+        "lat": "40.67045",
+        "lng": "22.80545"
+    },
+    {
+        "country": "GR",
+        "name": "Syki\u00e1",
+        "lat": "40.03874",
+        "lng": "23.94046"
+    },
+    {
+        "country": "GR",
+        "name": "Syki\u00e9s",
+        "lat": "40.64944",
+        "lng": "22.95083"
+    },
+    {
+        "country": "GR",
+        "name": "Sidir\u00f3kastro",
+        "lat": "41.23499",
+        "lng": "23.38899"
+    },
+    {
+        "country": "GR",
+        "name": "Si\u00e1tista",
+        "lat": "40.26194",
+        "lng": "21.54417"
+    },
+    {
+        "country": "GR",
+        "name": "Sfend\u00e1mi",
+        "lat": "40.41307",
+        "lng": "22.54677"
+    },
+    {
+        "country": "GR",
+        "name": "Sevastian\u00e1",
+        "lat": "40.76874",
+        "lng": "22.12346"
+    },
+    {
+        "country": "GR",
+        "name": "S\u00e9rvia",
+        "lat": "40.17972",
+        "lng": "21.99444"
+    },
+    {
+        "country": "GR",
+        "name": "S\u00e9rres",
+        "lat": "41.08499",
+        "lng": "23.54757"
+    },
+    {
+        "country": "GR",
+        "name": "S\u00e9lero",
+        "lat": "41.13382",
+        "lng": "24.99408"
+    },
+    {
+        "country": "GR",
+        "name": "S\u00e1rti",
+        "lat": "40.09369",
+        "lng": "23.97859"
+    },
+    {
+        "country": "GR",
+        "name": "S\u00e1pes",
+        "lat": "41.02861",
+        "lng": "25.69306"
+    },
+    {
+        "country": "GR",
+        "name": "Samothr\u00e1ki",
+        "lat": "40.47333",
+        "lng": "25.52222"
+    },
+    {
+        "country": "GR",
+        "name": "Rodol\u00edvos",
+        "lat": "40.92055",
+        "lng": "23.97489"
+    },
+    {
+        "country": "GR",
+        "name": "Riz\u00f3",
+        "lat": "40.73331",
+        "lng": "22.13674"
+    },
+    {
+        "country": "GR",
+        "name": "Riz\u00f3mata",
+        "lat": "40.35061",
+        "lng": "22.21079"
+    },
+    {
+        "country": "GR",
+        "name": "R\u00edzia",
+        "lat": "41.6249",
+        "lng": "26.42771"
+    },
+    {
+        "country": "GR",
+        "name": "Riz\u00e1ri",
+        "lat": "40.78373",
+        "lng": "22.088"
+    },
+    {
+        "country": "GR",
+        "name": "Rit\u00edni",
+        "lat": "40.28835",
+        "lng": "22.28361"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00e9fka",
+        "lat": "40.65806",
+        "lng": "22.99378"
+    },
+    {
+        "country": "GR",
+        "name": "Ptolema?da",
+        "lat": "40.51472",
+        "lng": "21.67861"
+    },
+    {
+        "country": "GR",
+        "name": "Fteli\u00e1",
+        "lat": "41.08266",
+        "lng": "24.18968"
+    },
+    {
+        "country": "GR",
+        "name": "Provat\u00e1s",
+        "lat": "41.06825",
+        "lng": "23.3903"
+    },
+    {
+        "country": "GR",
+        "name": "Pr\u00f3ti",
+        "lat": "40.94411",
+        "lng": "24.00118"
+    },
+    {
+        "country": "GR",
+        "name": "Prosots\u00e1ni",
+        "lat": "41.18333",
+        "lng": "23.96667"
+    },
+    {
+        "country": "GR",
+        "name": "Pr\u00f3machoi",
+        "lat": "41.02517",
+        "lng": "22.00437"
+    },
+    {
+        "country": "GR",
+        "name": "Pr\u00f3choma",
+        "lat": "40.79826",
+        "lng": "22.66659"
+    },
+    {
+        "country": "GR",
+        "name": "Prof\u00edtis Il\u00edas",
+        "lat": "40.81373",
+        "lng": "22.16166"
+    },
+    {
+        "country": "GR",
+        "name": "Potami\u00e1",
+        "lat": "40.71633",
+        "lng": "24.72859"
+    },
+    {
+        "country": "GR",
+        "name": "Portari\u00e1",
+        "lat": "40.28405",
+        "lng": "23.29549"
+    },
+    {
+        "country": "GR",
+        "name": "Pontism\u00e9no",
+        "lat": "41.20885",
+        "lng": "23.28325"
+    },
+    {
+        "country": "GR",
+        "name": "Pol\u00fdgyros",
+        "lat": "40.37704",
+        "lng": "23.44135"
+    },
+    {
+        "country": "GR",
+        "name": "Pol\u00edchni",
+        "lat": "40.66671",
+        "lng": "22.94881"
+    },
+    {
+        "country": "GR",
+        "name": "Pol\u00fdkastro",
+        "lat": "40.99444",
+        "lng": "22.56909"
+    },
+    {
+        "country": "GR",
+        "name": "Polyk\u00e1rpi",
+        "lat": "40.92598",
+        "lng": "22.01634"
+    },
+    {
+        "country": "GR",
+        "name": "Plagi\u00e1ri",
+        "lat": "40.47276",
+        "lng": "22.9579"
+    },
+    {
+        "country": "GR",
+        "name": "Plat\u00fd",
+        "lat": "40.64241",
+        "lng": "22.53458"
+    },
+    {
+        "country": "GR",
+        "name": "Platan\u00f3revma",
+        "lat": "40.20083",
+        "lng": "22.02488"
+    },
+    {
+        "country": "GR",
+        "name": "Chal\u00e1stra",
+        "lat": "40.62643",
+        "lng": "22.73291"
+    },
+    {
+        "country": "GR",
+        "name": "Pyla\u00eda",
+        "lat": "40.59918",
+        "lng": "22.98613"
+    },
+    {
+        "country": "GR",
+        "name": "Petro\u00fassa",
+        "lat": "41.1947",
+        "lng": "24.01731"
+    },
+    {
+        "country": "GR",
+        "name": "Petroch\u00f3ri",
+        "lat": "41.08742",
+        "lng": "24.84092"
+    },
+    {
+        "country": "GR",
+        "name": "Petein\u00f3s",
+        "lat": "41.10056",
+        "lng": "24.89847"
+    },
+    {
+        "country": "GR",
+        "name": "Perister\u00e1",
+        "lat": "40.54881",
+        "lng": "23.1654"
+    },
+    {
+        "country": "GR",
+        "name": "Per\u00edstasi",
+        "lat": "40.27443",
+        "lng": "22.54164"
+    },
+    {
+        "country": "GR",
+        "name": "Pera\u00eda",
+        "lat": "40.49874",
+        "lng": "22.92617"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00e9plos",
+        "lat": "40.95755",
+        "lng": "26.26577"
+    },
+    {
+        "country": "GR",
+        "name": "Pentapl\u00e1tano",
+        "lat": "40.81902",
+        "lng": "22.41903"
+    },
+    {
+        "country": "GR",
+        "name": "Pent\u00e1lofos",
+        "lat": "40.74296",
+        "lng": "22.85256"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00e9lla",
+        "lat": "40.76169",
+        "lng": "22.52637"
+    },
+    {
+        "country": "GR",
+        "name": "Pedin\u00f3",
+        "lat": "40.91013",
+        "lng": "22.87253"
+    },
+    {
+        "country": "GR",
+        "name": "Patr\u00edda",
+        "lat": "40.56071",
+        "lng": "22.18545"
+    },
+    {
+        "country": "GR",
+        "name": "Paran\u00e9sti",
+        "lat": "41.26667",
+        "lng": "24.5"
+    },
+    {
+        "country": "GR",
+        "name": "Paral\u00eda",
+        "lat": "40.2671",
+        "lng": "22.59615"
+    },
+    {
+        "country": "GR",
+        "name": "Pan\u00f3rama",
+        "lat": "40.58779",
+        "lng": "23.0315"
+    },
+    {
+        "country": "GR",
+        "name": "Palai\u00f3 Tsifl\u00edki",
+        "lat": "40.90495",
+        "lng": "24.35083"
+    },
+    {
+        "country": "GR",
+        "name": "Ax\u00f3s",
+        "lat": "40.80223",
+        "lng": "22.36158"
+    },
+    {
+        "country": "GR",
+        "name": "Palaiok\u00f3mi",
+        "lat": "40.87068",
+        "lng": "23.90121"
+    },
+    {
+        "country": "GR",
+        "name": "Palaioch\u00f3ri",
+        "lat": "40.94338",
+        "lng": "24.17747"
+    },
+    {
+        "country": "GR",
+        "name": "Palaioch\u00f3ri",
+        "lat": "40.49186",
+        "lng": "23.64928"
+    },
+    {
+        "country": "GR",
+        "name": "Pala\u00edfyto",
+        "lat": "40.78283",
+        "lng": "22.27388"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00e1chni",
+        "lat": "41.30506",
+        "lng": "24.89438"
+    },
+    {
+        "country": "GR",
+        "name": "Ouranoupolis",
+        "lat": "40.33333",
+        "lng": "23.98333"
+    },
+    {
+        "country": "GR",
+        "name": "Orm\u00fdlia",
+        "lat": "40.29451",
+        "lng": "23.54332"
+    },
+    {
+        "country": "GR",
+        "name": "Oresti\u00e1da",
+        "lat": "41.50306",
+        "lng": "26.52972"
+    },
+    {
+        "country": "GR",
+        "name": "Orai\u00f3kastro",
+        "lat": "40.73083",
+        "lng": "22.91722"
+    },
+    {
+        "country": "GR",
+        "name": "Nis\u00ed",
+        "lat": "40.6361",
+        "lng": "22.38884"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00edkiti",
+        "lat": "40.22204",
+        "lng": "23.66837"
+    },
+    {
+        "country": "GR",
+        "name": "Nik\u00edsiani",
+        "lat": "40.94739",
+        "lng": "24.14311"
+    },
+    {
+        "country": "GR",
+        "name": "Nigr\u00edta",
+        "lat": "40.90528",
+        "lng": "23.49944"
+    },
+    {
+        "country": "GR",
+        "name": "Nest\u00f3rio",
+        "lat": "40.41278",
+        "lng": "21.06222"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9os Skop\u00f3s",
+        "lat": "41.0239",
+        "lng": "23.60927"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9os Myl\u00f3topos",
+        "lat": "40.81872",
+        "lng": "22.35489"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9os Marmar\u00e1s",
+        "lat": "40.0961",
+        "lng": "23.78323"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9o So\u00fali",
+        "lat": "41.09397",
+        "lng": "23.64376"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9o R\u00fdsi",
+        "lat": "40.49605",
+        "lng": "22.98794"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9o Petr\u00edtsi",
+        "lat": "41.27459",
+        "lng": "23.29381"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9o Agion\u00e9ri",
+        "lat": "40.80826",
+        "lng": "22.70733"
+    },
+    {
+        "country": "GR",
+        "name": "Neochoro\u00fada",
+        "lat": "40.73817",
+        "lng": "22.87557"
+    },
+    {
+        "country": "GR",
+        "name": "Neoch\u00f3ri",
+        "lat": "41.51131",
+        "lng": "26.4574"
+    },
+    {
+        "country": "GR",
+        "name": "Neoch\u00f3ri",
+        "lat": "41.05231",
+        "lng": "23.57997"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9oi Epiv\u00e1tes",
+        "lat": "40.49863",
+        "lng": "22.91192"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Z\u00edchni",
+        "lat": "41.03204",
+        "lng": "23.8287"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a V\u00fdssa",
+        "lat": "41.58449",
+        "lng": "26.54318"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Tr\u00edglia",
+        "lat": "40.30575",
+        "lng": "23.2066"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a S\u00e1nta",
+        "lat": "40.84084",
+        "lng": "22.92163"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a R\u00f3da",
+        "lat": "40.38119",
+        "lng": "23.92374"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Pote\u00eddaia",
+        "lat": "40.19409",
+        "lng": "23.32832"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Pl\u00e1gia",
+        "lat": "40.26537",
+        "lng": "23.20376"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a P\u00e9ramos",
+        "lat": "40.83854",
+        "lng": "24.3013"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a P\u00e9lla",
+        "lat": "40.76516",
+        "lng": "22.49173"
+    },
+    {
+        "country": "GR",
+        "name": "\u00d3lynthos",
+        "lat": "40.29147",
+        "lng": "23.34205"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Moudhani\u00e1",
+        "lat": "40.2439",
+        "lng": "23.28484"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Michani\u00f3na",
+        "lat": "40.46371",
+        "lng": "22.8617"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Mesimvr\u00eda",
+        "lat": "40.75158",
+        "lng": "22.76904"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a M\u00e1lgara",
+        "lat": "40.60985",
+        "lng": "22.68196"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Magnis\u00eda",
+        "lat": "40.68785",
+        "lng": "22.84582"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Karv\u00e1li",
+        "lat": "40.96148",
+        "lng": "24.51132"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Kary\u00e1",
+        "lat": "40.90621",
+        "lng": "24.70726"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Kallikr\u00e1teia",
+        "lat": "40.31312",
+        "lng": "23.06343"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Irakl\u00edtsa",
+        "lat": "40.86442",
+        "lng": "24.3165"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a F\u00f3kaia",
+        "lat": "40.13333",
+        "lng": "23.39754"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a \u00c9fesos",
+        "lat": "40.22923",
+        "lng": "22.49811"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Apollon\u00eda",
+        "lat": "40.62558",
+        "lng": "23.44074"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e1ousa",
+        "lat": "40.62944",
+        "lng": "22.06806"
+    },
+    {
+        "country": "GR",
+        "name": "Mikr\u00f3polis",
+        "lat": "41.19351",
+        "lng": "23.8157"
+    },
+    {
+        "country": "GR",
+        "name": "Mikr\u00f3 Monast\u00edri",
+        "lat": "40.7043",
+        "lng": "22.54112"
+    },
+    {
+        "country": "GR",
+        "name": "Mikr\u00f3kampos",
+        "lat": "40.84098",
+        "lng": "22.77483"
+    },
+    {
+        "country": "GR",
+        "name": "M\u00fdki",
+        "lat": "41.24384",
+        "lng": "24.92084"
+    },
+    {
+        "country": "GR",
+        "name": "Mesopotam\u00eda",
+        "lat": "40.50252",
+        "lng": "21.1611"
+    },
+    {
+        "country": "GR",
+        "name": "Mesim\u00e9ri",
+        "lat": "40.41344",
+        "lng": "23.0075"
+    },
+    {
+        "country": "GR",
+        "name": "Menem\u00e9ni",
+        "lat": "40.65829",
+        "lng": "22.89712"
+    },
+    {
+        "country": "GR",
+        "name": "Mel\u00edti",
+        "lat": "40.83434",
+        "lng": "21.58426"
+    },
+    {
+        "country": "GR",
+        "name": "Melissoch\u00f3ri",
+        "lat": "40.76796",
+        "lng": "22.92858"
+    },
+    {
+        "country": "GR",
+        "name": "Mel\u00edki",
+        "lat": "40.51685",
+        "lng": "22.39599"
+    },
+    {
+        "country": "GR",
+        "name": "Meg\u00e1li Panag\u00eda",
+        "lat": "40.44505",
+        "lng": "23.67999"
+    },
+    {
+        "country": "GR",
+        "name": "Mavrovo\u00fani",
+        "lat": "40.78243",
+        "lng": "22.15629"
+    },
+    {
+        "country": "GR",
+        "name": "Mavroth\u00e1lassa",
+        "lat": "40.89427",
+        "lng": "23.75048"
+    },
+    {
+        "country": "GR",
+        "name": "Mavroch\u00f3ri",
+        "lat": "40.51224",
+        "lng": "21.32038"
+    },
+    {
+        "country": "GR",
+        "name": "Mar\u00edna",
+        "lat": "40.692",
+        "lng": "22.10099"
+    },
+    {
+        "country": "GR",
+        "name": "Mani\u00e1koi",
+        "lat": "40.50064",
+        "lng": "21.24446"
+    },
+    {
+        "country": "GR",
+        "name": "M\u00e1ndalo",
+        "lat": "40.85677",
+        "lng": "22.21264"
+    },
+    {
+        "country": "GR",
+        "name": "D\u00edon",
+        "lat": "40.17169",
+        "lng": "22.48463"
+    },
+    {
+        "country": "GR",
+        "name": "Makroch\u00f3ri",
+        "lat": "40.55125",
+        "lng": "22.24955"
+    },
+    {
+        "country": "GR",
+        "name": "Makr\u00fdgialos",
+        "lat": "40.41551",
+        "lng": "22.60392"
+    },
+    {
+        "country": "GR",
+        "name": "Loutr\u00f3s",
+        "lat": "40.58873",
+        "lng": "22.39976"
+    },
+    {
+        "country": "GR",
+        "name": "L\u00f3fos",
+        "lat": "40.24395",
+        "lng": "22.38033"
+    },
+    {
+        "country": "GR",
+        "name": "Liv\u00e1di",
+        "lat": "40.12625",
+        "lng": "22.15753"
+    },
+    {
+        "country": "GR",
+        "name": "Livader\u00f3",
+        "lat": "40.03455",
+        "lng": "21.94279"
+    },
+    {
+        "country": "GR",
+        "name": "Lit\u00f3choro",
+        "lat": "40.10056",
+        "lng": "22.49778"
+    },
+    {
+        "country": "GR",
+        "name": "Lit\u00ed",
+        "lat": "40.74533",
+        "lng": "22.97982"
+    },
+    {
+        "country": "GR",
+        "name": "Limen\u00e1ria",
+        "lat": "40.62741",
+        "lng": "24.5765"
+    },
+    {
+        "country": "GR",
+        "name": "L\u00fdkeio",
+        "lat": "41.06413",
+        "lng": "25.6857"
+    },
+    {
+        "country": "GR",
+        "name": "Lianov\u00e9rgi",
+        "lat": "40.63526",
+        "lng": "22.5082"
+    },
+    {
+        "country": "GR",
+        "name": "Lefk\u00f3nas",
+        "lat": "41.10029",
+        "lng": "23.49658"
+    },
+    {
+        "country": "GR",
+        "name": "Lagyn\u00e1",
+        "lat": "40.72351",
+        "lng": "23.0042"
+    },
+    {
+        "country": "GR",
+        "name": "L\u00e1vara",
+        "lat": "41.26957",
+        "lng": "26.38522"
+    },
+    {
+        "country": "GR",
+        "name": "Lagkad\u00e1s",
+        "lat": "40.75",
+        "lng": "23.06667"
+    },
+    {
+        "country": "GR",
+        "name": "L\u00e1kkoma",
+        "lat": "40.39139",
+        "lng": "23.05578"
+    },
+    {
+        "country": "GR",
+        "name": "Laim\u00f3s",
+        "lat": "40.83628",
+        "lng": "21.14061"
+    },
+    {
+        "country": "GR",
+        "name": "Lag\u00f3s",
+        "lat": "41.45102",
+        "lng": "26.46067"
+    },
+    {
+        "country": "GR",
+        "name": "Kr\u00f3kos",
+        "lat": "40.26349",
+        "lng": "21.8176"
+    },
+    {
+        "country": "GR",
+        "name": "Krithi\u00e1",
+        "lat": "40.84184",
+        "lng": "22.98292"
+    },
+    {
+        "country": "GR",
+        "name": "Krist\u00f3ni",
+        "lat": "40.95962",
+        "lng": "22.85929"
+    },
+    {
+        "country": "GR",
+        "name": "Krin\u00eddes",
+        "lat": "41.01396",
+        "lng": "24.29647"
+    },
+    {
+        "country": "GR",
+        "name": "Kr\u00fda Vr\u00fdsi",
+        "lat": "40.68738",
+        "lng": "22.30516"
+    },
+    {
+        "country": "GR",
+        "name": "Koz\u00e1ni",
+        "lat": "40.30069",
+        "lng": "21.78896"
+    },
+    {
+        "country": "GR",
+        "name": "Koulo\u00fara",
+        "lat": "40.54652",
+        "lng": "22.31795"
+    },
+    {
+        "country": "GR",
+        "name": "Kouf\u00e1lia",
+        "lat": "40.77778",
+        "lng": "22.57194"
+    },
+    {
+        "country": "GR",
+        "name": "Korin\u00f3s",
+        "lat": "40.31659",
+        "lng": "22.58817"
+    },
+    {
+        "country": "GR",
+        "name": "Koryf\u00ed",
+        "lat": "40.60286",
+        "lng": "22.50681"
+    },
+    {
+        "country": "GR",
+        "name": "Kopan\u00f3s",
+        "lat": "40.63382",
+        "lng": "22.12893"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00f3nitsa",
+        "lat": "40.04861",
+        "lng": "20.75667"
+    },
+    {
+        "country": "GR",
+        "name": "Kontari\u00f3tissa",
+        "lat": "40.22754",
+        "lng": "22.461"
+    },
+    {
+        "country": "GR",
+        "name": "Komotin\u00ed",
+        "lat": "41.11917",
+        "lng": "25.40535"
+    },
+    {
+        "country": "GR",
+        "name": "Komnin\u00e1",
+        "lat": "40.59057",
+        "lng": "21.77671"
+    },
+    {
+        "country": "GR",
+        "name": "Kolchik\u00f3n",
+        "lat": "40.75662",
+        "lng": "23.13377"
+    },
+    {
+        "country": "GR",
+        "name": "Kolindr\u00f3s",
+        "lat": "40.47888",
+        "lng": "22.48319"
+    },
+    {
+        "country": "GR",
+        "name": "Kokkin\u00f3choma",
+        "lat": "40.9269",
+        "lng": "24.30805"
+    },
+    {
+        "country": "GR",
+        "name": "Ko\u00edmisi",
+        "lat": "41.21282",
+        "lng": "23.30035"
+    },
+    {
+        "country": "GR",
+        "name": "Ko\u00edla",
+        "lat": "40.33055",
+        "lng": "21.79102"
+    },
+    {
+        "country": "GR",
+        "name": "Kle\u00edtos",
+        "lat": "40.4314",
+        "lng": "21.85806"
+    },
+    {
+        "country": "GR",
+        "name": "Kleid\u00ed",
+        "lat": "40.56632",
+        "lng": "22.59033"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00edtros",
+        "lat": "40.37399",
+        "lng": "22.57862"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00fdria",
+        "lat": "41.099",
+        "lng": "24.28915"
+    },
+    {
+        "country": "GR",
+        "name": "Kypr\u00ednos",
+        "lat": "41.57542",
+        "lng": "26.22905"
+    },
+    {
+        "country": "GR",
+        "name": "Kimm\u00e9ria",
+        "lat": "41.14788",
+        "lng": "24.93869"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00fdmina",
+        "lat": "40.61354",
+        "lng": "22.69278"
+    },
+    {
+        "country": "GR",
+        "name": "Kilk\u00eds",
+        "lat": "40.99302",
+        "lng": "22.87433"
+    },
+    {
+        "country": "GR",
+        "name": "Chryso\u00fapolis",
+        "lat": "40.98556",
+        "lng": "24.69389"
+    },
+    {
+        "country": "GR",
+        "name": "Chrys\u00f3",
+        "lat": "41.05806",
+        "lng": "23.65108"
+    },
+    {
+        "country": "GR",
+        "name": "Chrysoch\u00f3ri",
+        "lat": "40.93328",
+        "lng": "24.71088"
+    },
+    {
+        "country": "GR",
+        "name": "Chrysoch\u00f3rafa",
+        "lat": "41.18097",
+        "lng": "23.23551"
+    },
+    {
+        "country": "GR",
+        "name": "Chorti\u00e1tis",
+        "lat": "40.60954",
+        "lng": "23.10014"
+    },
+    {
+        "country": "GR",
+        "name": "Chorist\u00ed",
+        "lat": "41.13056",
+        "lng": "24.20843"
+    },
+    {
+        "country": "GR",
+        "name": "Charop\u00f3",
+        "lat": "41.26031",
+        "lng": "23.37279"
+    },
+    {
+        "country": "GR",
+        "name": "Chalkid\u00f3na",
+        "lat": "40.73184",
+        "lng": "22.59992"
+    },
+    {
+        "country": "GR",
+        "name": "Keramot\u00ed",
+        "lat": "40.85591",
+        "lng": "24.70595"
+    },
+    {
+        "country": "GR",
+        "name": "Kav\u00fdli",
+        "lat": "41.56225",
+        "lng": "26.5147"
+    },
+    {
+        "country": "GR",
+        "name": "Kavall\u00e1ri",
+        "lat": "40.71539",
+        "lng": "23.04588"
+    },
+    {
+        "country": "GR",
+        "name": "Kav\u00e1la",
+        "lat": "40.93959",
+        "lng": "24.40687"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00e1to Schol\u00e1ri",
+        "lat": "40.42906",
+        "lng": "23.02978"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00e1to Nevrok\u00f3pi",
+        "lat": "41.35",
+        "lng": "23.86667"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00e1to Mili\u00e1",
+        "lat": "40.25403",
+        "lng": "22.34342"
+    },
+    {
+        "country": "GR",
+        "name": "Loutr\u00e1ki",
+        "lat": "40.97116",
+        "lng": "21.94659"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00e1to Lipoch\u00f3ri",
+        "lat": "40.75754",
+        "lng": "22.17962"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00e1to Kam\u00edla",
+        "lat": "41.02119",
+        "lng": "23.48336"
+    },
+    {
+        "country": "GR",
+        "name": "Kater\u00edni",
+        "lat": "40.26956",
+        "lng": "22.50608"
+    },
+    {
+        "country": "GR",
+        "name": "Kastoria",
+        "lat": "40.52165",
+        "lng": "21.26341"
+    },
+    {
+        "country": "GR",
+        "name": "Kastani\u00e9s",
+        "lat": "41.64551",
+        "lng": "26.47676"
+    },
+    {
+        "country": "GR",
+        "name": "Kass\u00e1ndreia",
+        "lat": "40.04835",
+        "lng": "23.41362"
+    },
+    {
+        "country": "GR",
+        "name": "S\u00edmantra",
+        "lat": "40.34563",
+        "lng": "23.31026"
+    },
+    {
+        "country": "GR",
+        "name": "Kar\u00edtsa",
+        "lat": "40.18745",
+        "lng": "22.48171"
+    },
+    {
+        "country": "GR",
+        "name": "Kary\u00f3tissa",
+        "lat": "40.76915",
+        "lng": "22.31331"
+    },
+    {
+        "country": "GR",
+        "name": "Karyes",
+        "lat": "40.25715",
+        "lng": "24.24498"
+    },
+    {
+        "country": "GR",
+        "name": "Kardi\u00e1",
+        "lat": "40.46909",
+        "lng": "22.99378"
+    },
+    {
+        "country": "GR",
+        "name": "Kamp\u00e1nis",
+        "lat": "40.88951",
+        "lng": "22.91682"
+    },
+    {
+        "country": "GR",
+        "name": "Kamari\u00f3tissa",
+        "lat": "40.47501",
+        "lng": "25.47456"
+    },
+    {
+        "country": "GR",
+        "name": "Kal\u00f3s Agr\u00f3s",
+        "lat": "41.10543",
+        "lng": "24.0857"
+    },
+    {
+        "country": "GR",
+        "name": "Kaloch\u00f3ri",
+        "lat": "40.64189",
+        "lng": "22.85734"
+    },
+    {
+        "country": "GR",
+        "name": "Kallith\u00e9a",
+        "lat": "40.2739",
+        "lng": "22.57775"
+    },
+    {
+        "country": "GR",
+        "name": "Kallith\u00e9a",
+        "lat": "40.07374",
+        "lng": "23.44637"
+    },
+    {
+        "country": "GR",
+        "name": "Kall\u00edfytos",
+        "lat": "41.1728",
+        "lng": "24.21527"
+    },
+    {
+        "country": "GR",
+        "name": "Kal\u00ed Vr\u00fdsi",
+        "lat": "41.14653",
+        "lng": "23.90667"
+    },
+    {
+        "country": "GR",
+        "name": "Kal\u00fdves Polyg\u00fdrou",
+        "lat": "40.28659",
+        "lng": "23.39033"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1gios Spyr\u00eddon",
+        "lat": "40.20778",
+        "lng": "22.44311"
+    },
+    {
+        "country": "GR",
+        "name": "Kal\u00fdvia",
+        "lat": "40.75508",
+        "lng": "22.21753"
+    },
+    {
+        "country": "GR",
+        "name": "Pr\u00ednos",
+        "lat": "40.7409",
+        "lng": "24.57787"
+    },
+    {
+        "country": "GR",
+        "name": "Kal\u00ed",
+        "lat": "40.81931",
+        "lng": "22.17761"
+    },
+    {
+        "country": "GR",
+        "name": "Kalamp\u00e1ki",
+        "lat": "41.05",
+        "lng": "24.18333"
+    },
+    {
+        "country": "GR",
+        "name": "Kalamari\u00e1",
+        "lat": "40.5825",
+        "lng": "22.95028"
+    },
+    {
+        "country": "GR",
+        "name": "Kal\u00e1 D\u00e9ndra",
+        "lat": "41.09941",
+        "lng": "23.42396"
+    },
+    {
+        "country": "GR",
+        "name": "L\u00e9chovo",
+        "lat": "40.58442",
+        "lng": "21.49218"
+    },
+    {
+        "country": "GR",
+        "name": "Ir\u00e1kleia",
+        "lat": "41.18217",
+        "lng": "23.28243"
+    },
+    {
+        "country": "GR",
+        "name": "Ieriss\u00f3s",
+        "lat": "40.39748",
+        "lng": "23.87505"
+    },
+    {
+        "country": "GR",
+        "name": "\u00cdasmos",
+        "lat": "41.12747",
+        "lng": "25.18573"
+    },
+    {
+        "country": "GR",
+        "name": "Greven\u00e1",
+        "lat": "40.08452",
+        "lng": "21.42744"
+    },
+    {
+        "country": "GR",
+        "name": "Goum\u00e9nissa",
+        "lat": "40.94604",
+        "lng": "22.44974"
+    },
+    {
+        "country": "GR",
+        "name": "G\u00e1zoros",
+        "lat": "41.02557",
+        "lng": "23.77574"
+    },
+    {
+        "country": "GR",
+        "name": "Gallik\u00f3s",
+        "lat": "40.85817",
+        "lng": "22.87604"
+    },
+    {
+        "country": "GR",
+        "name": "Gal\u00e1tista",
+        "lat": "40.4682",
+        "lng": "23.28015"
+    },
+    {
+        "country": "GR",
+        "name": "Galatin\u00ed",
+        "lat": "40.31966",
+        "lng": "21.55148"
+    },
+    {
+        "country": "GR",
+        "name": "Galat\u00e1des",
+        "lat": "40.7559",
+        "lng": "22.28062"
+    },
+    {
+        "country": "GR",
+        "name": "Fotol\u00edvos",
+        "lat": "41.06013",
+        "lng": "24.04724"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Flogit\u00e1",
+        "lat": "40.26108",
+        "lng": "23.22107"
+    },
+    {
+        "country": "GR",
+        "name": "Fl\u00f3rina",
+        "lat": "40.78197",
+        "lng": "21.40981"
+    },
+    {
+        "country": "GR",
+        "name": "Fil\u00f3tas",
+        "lat": "40.6252",
+        "lng": "21.70851"
+    },
+    {
+        "country": "GR",
+        "name": "Fill\u00fdra",
+        "lat": "41.11667",
+        "lng": "25.63333"
+    },
+    {
+        "country": "GR",
+        "name": "F\u00edliro",
+        "lat": "40.69151",
+        "lng": "23.0046"
+    },
+    {
+        "country": "GR",
+        "name": "F\u00e9res",
+        "lat": "40.89305",
+        "lng": "26.17234"
+    },
+    {
+        "country": "GR",
+        "name": "Exapl\u00e1tanos",
+        "lat": "40.97643",
+        "lng": "22.12958"
+    },
+    {
+        "country": "GR",
+        "name": "Evrop\u00f3s",
+        "lat": "40.89703",
+        "lng": "22.55277"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c9vosmos",
+        "lat": "40.67056",
+        "lng": "22.90833"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c9vlalo",
+        "lat": "40.98333",
+        "lng": "24.8"
+    },
+    {
+        "country": "GR",
+        "name": "Efkarp\u00eda",
+        "lat": "40.68797",
+        "lng": "22.95348"
+    },
+    {
+        "country": "GR",
+        "name": "Er\u00e1tyra",
+        "lat": "40.34253",
+        "lng": "21.51333"
+    },
+    {
+        "country": "GR",
+        "name": "Episkop\u00ed",
+        "lat": "40.68748",
+        "lng": "22.1364"
+    },
+    {
+        "country": "GR",
+        "name": "Epanom\u00ed",
+        "lat": "40.42614",
+        "lng": "22.92782"
+    },
+    {
+        "country": "GR",
+        "name": "Emp\u00f3rio",
+        "lat": "40.48866",
+        "lng": "21.55768"
+    },
+    {
+        "country": "GR",
+        "name": "Elefthero\u00fapolis",
+        "lat": "40.91389",
+        "lng": "24.25139"
+    },
+    {
+        "country": "GR",
+        "name": "Elefther\u00e9s",
+        "lat": "40.84666",
+        "lng": "24.25431"
+    },
+    {
+        "country": "GR",
+        "name": "Elaioch\u00f3ri",
+        "lat": "40.8203",
+        "lng": "24.24373"
+    },
+    {
+        "country": "GR",
+        "name": "Ech\u00ednos",
+        "lat": "41.27558",
+        "lng": "24.97237"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c9dessa",
+        "lat": "40.8026",
+        "lng": "22.04751"
+    },
+    {
+        "country": "GR",
+        "name": "Dr\u00e1ma",
+        "lat": "41.15283",
+        "lng": "24.1473"
+    },
+    {
+        "country": "GR",
+        "name": "Dros\u00e1to",
+        "lat": "41.16641",
+        "lng": "22.80298"
+    },
+    {
+        "country": "GR",
+        "name": "Drym\u00f3s",
+        "lat": "40.78099",
+        "lng": "22.95889"
+    },
+    {
+        "country": "GR",
+        "name": "Drav\u00edskos",
+        "lat": "40.92393",
+        "lng": "23.87119"
+    },
+    {
+        "country": "GR",
+        "name": "Didym\u00f3teicho",
+        "lat": "41.34806",
+        "lng": "26.49611"
+    },
+    {
+        "country": "GR",
+        "name": "Diavat\u00f3s",
+        "lat": "40.54606",
+        "lng": "22.26686"
+    },
+    {
+        "country": "GR",
+        "name": "Diavat\u00e1",
+        "lat": "40.68744",
+        "lng": "22.85799"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1gios Ge\u00f3rgios",
+        "lat": "40.60215",
+        "lng": "22.1943"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1gios Vas\u00edleios",
+        "lat": "40.66424",
+        "lng": "23.11373"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1gios P\u00e9tros",
+        "lat": "40.86725",
+        "lng": "22.58298"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1gios Nik\u00f3laos",
+        "lat": "40.24926",
+        "lng": "23.69616"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1gios Louk\u00e1s",
+        "lat": "40.71799",
+        "lng": "22.29545"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1gios Athan\u00e1sios",
+        "lat": "41.07463",
+        "lng": "24.24545"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1gios Athan\u00e1sios",
+        "lat": "40.71598",
+        "lng": "22.72841"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1gio Pn\u00e9vma",
+        "lat": "41.10142",
+        "lng": "23.67992"
+    },
+    {
+        "country": "GR",
+        "name": "Ag\u00eda Tri\u00e1da",
+        "lat": "40.50003",
+        "lng": "22.87351"
+    },
+    {
+        "country": "GR",
+        "name": "Ag\u00eda Paraskev\u00ed",
+        "lat": "40.4815",
+        "lng": "23.04863"
+    },
+    {
+        "country": "GR",
+        "name": "Axio\u00fapoli",
+        "lat": "40.98582",
+        "lng": "22.54165"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1vato",
+        "lat": "40.96279",
+        "lng": "24.80441"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1thyra",
+        "lat": "40.82615",
+        "lng": "22.59279"
+    },
+    {
+        "country": "GR",
+        "name": "Asvestoch\u00f3ri",
+        "lat": "40.64125",
+        "lng": "23.02528"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1ssiros",
+        "lat": "40.82143",
+        "lng": "23.03008"
+    },
+    {
+        "country": "GR",
+        "name": "Asprov\u00e1lta",
+        "lat": "40.73049",
+        "lng": "23.7118"
+    },
+    {
+        "country": "GR",
+        "name": "Ask\u00f3s",
+        "lat": "40.75105",
+        "lng": "23.38721"
+    },
+    {
+        "country": "GR",
+        "name": "Ars\u00e9nio",
+        "lat": "40.71412",
+        "lng": "22.15923"
+    },
+    {
+        "country": "GR",
+        "name": "Arrian\u00e1",
+        "lat": "41.08131",
+        "lng": "25.69494"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1rnissa",
+        "lat": "40.79555",
+        "lng": "21.83577"
+    },
+    {
+        "country": "GR",
+        "name": "Arna\u00eda",
+        "lat": "40.48652",
+        "lng": "23.59537"
+    },
+    {
+        "country": "GR",
+        "name": "Ar\u00edsvi",
+        "lat": "41.07",
+        "lng": "25.59041"
+    },
+    {
+        "country": "GR",
+        "name": "Arida\u00eda",
+        "lat": "40.97306",
+        "lng": "22.05639"
+    },
+    {
+        "country": "GR",
+        "name": "Argos Orestiko",
+        "lat": "40.45354",
+        "lng": "21.25889"
+    },
+    {
+        "country": "GR",
+        "name": "Araviss\u00f3s",
+        "lat": "40.84352",
+        "lng": "22.30178"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1ratos",
+        "lat": "41.08139",
+        "lng": "25.55186"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1psalos",
+        "lat": "40.8924",
+        "lng": "22.05709"
+    },
+    {
+        "country": "GR",
+        "name": "Mitro\u00fasi",
+        "lat": "41.07041",
+        "lng": "23.46064"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1no K\u00f3mi",
+        "lat": "40.2266",
+        "lng": "21.82827"
+    },
+    {
+        "country": "GR",
+        "name": "Angeloch\u00f3ri",
+        "lat": "40.67862",
+        "lng": "22.19933"
+    },
+    {
+        "country": "GR",
+        "name": "Agkathi\u00e1",
+        "lat": "40.55535",
+        "lng": "22.47083"
+    },
+    {
+        "country": "GR",
+        "name": "Anatolik\u00f3",
+        "lat": "40.66152",
+        "lng": "22.7119"
+    },
+    {
+        "country": "GR",
+        "name": "Anar\u00e1chi",
+        "lat": "40.49234",
+        "lng": "21.57279"
+    },
+    {
+        "country": "GR",
+        "name": "Ammoch\u00f3ri",
+        "lat": "40.78203",
+        "lng": "21.48458"
+    },
+    {
+        "country": "GR",
+        "name": "Am\u00fdntaio",
+        "lat": "40.68967",
+        "lng": "21.67974"
+    },
+    {
+        "country": "GR",
+        "name": "Amygdale\u00f3nas",
+        "lat": "40.96346",
+        "lng": "24.36007"
+    },
+    {
+        "country": "GR",
+        "name": "Ampele\u00edes",
+        "lat": "40.83417",
+        "lng": "22.38767"
+    },
+    {
+        "country": "GR",
+        "name": "Alistr\u00e1ti",
+        "lat": "41.06443",
+        "lng": "23.95751"
+    },
+    {
+        "country": "GR",
+        "name": "Alexandroupoli",
+        "lat": "40.84995",
+        "lng": "25.87644"
+    },
+    {
+        "country": "GR",
+        "name": "Alex\u00e1ndreia",
+        "lat": "40.62667",
+        "lng": "22.44417"
+    },
+    {
+        "country": "GR",
+        "name": "Akrin\u00ed",
+        "lat": "40.43492",
+        "lng": "21.90609"
+    },
+    {
+        "country": "GR",
+        "name": "Aig\u00ednio",
+        "lat": "40.50139",
+        "lng": "22.54"
+    },
+    {
+        "country": "GR",
+        "name": "Aian\u00ed",
+        "lat": "40.16381",
+        "lng": "21.81945"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1fytos",
+        "lat": "40.09915",
+        "lng": "23.4367"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1dendro",
+        "lat": "40.67131",
+        "lng": "22.60466"
+    },
+    {
+        "country": "GR",
+        "name": "Eirino\u00fapoli",
+        "lat": "40.67806",
+        "lng": "22.19278"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1gios P\u00e1vlos",
+        "lat": "40.64075",
+        "lng": "22.96039"
+    },
+    {
+        "country": "GR",
+        "name": "Triandr\u00eda",
+        "lat": "40.615",
+        "lng": "22.9762"
+    },
+    {
+        "country": "GR",
+        "name": "Mel\u00edssi",
+        "lat": "40.77406",
+        "lng": "22.35304"
+    },
+    {
+        "country": "GR",
+        "name": "Vir\u00f3s",
+        "lat": "39.5834",
+        "lng": "19.8827"
+    },
+    {
+        "country": "GR",
+        "name": "Potam\u00f3s",
+        "lat": "39.6242",
+        "lng": "19.87826"
+    },
+    {
+        "country": "GR",
+        "name": "Kontok\u00e1li",
+        "lat": "39.64436",
+        "lng": "19.85194"
+    },
+    {
+        "country": "GR",
+        "name": "Kynopi\u00e1stes",
+        "lat": "39.56785",
+        "lng": "19.88362"
+    },
+    {
+        "country": "GR",
+        "name": "Corfu",
+        "lat": "39.62069",
+        "lng": "19.91975"
+    },
+    {
+        "country": "GR",
+        "name": "Kan\u00e1li",
+        "lat": "39.60556",
+        "lng": "19.8925"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1gios Mattha\u00edos",
+        "lat": "39.49506",
+        "lng": "19.87336"
+    },
+    {
+        "country": "GR",
+        "name": "Alepo\u00fa",
+        "lat": "39.61594",
+        "lng": "19.89564"
+    },
+    {
+        "country": "GR",
+        "name": "Vrilissia",
+        "lat": "38.03381",
+        "lng": "23.82962"
+    },
+    {
+        "country": "GR",
+        "name": "Faliraki",
+        "lat": "36.33981",
+        "lng": "28.19942"
+    },
+    {
+        "country": "GR",
+        "name": "Achar\u00e1vi",
+        "lat": "39.7936",
+        "lng": "19.81736"
+    },
+    {
+        "country": "GR",
+        "name": "Agios Georgis",
+        "lat": "39.72363",
+        "lng": "19.69969"
+    },
+    {
+        "country": "GR",
+        "name": "Georgioupolis",
+        "lat": "35.36225",
+        "lng": "24.26013"
+    },
+    {
+        "country": "GR",
+        "name": "Orn\u00f3s",
+        "lat": "37.42391",
+        "lng": "25.32248"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00e1normos",
+        "lat": "36.97156",
+        "lng": "26.93727"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00e1to Go\u00faves",
+        "lat": "35.32934",
+        "lng": "25.31353"
+    },
+    {
+        "country": "GR",
+        "name": "Saron\u00edda",
+        "lat": "37.74809",
+        "lng": "23.91059"
+    },
+    {
+        "country": "GR",
+        "name": "Ymittos",
+        "lat": "37.95342",
+        "lng": "23.74897"
+    },
+    {
+        "country": "GR",
+        "name": "G\u00e9rakas",
+        "lat": "38.02277",
+        "lng": "23.8576"
+    },
+    {
+        "country": "GR",
+        "name": "Meg\u00e1lo Chori\u00f3",
+        "lat": "37.4582",
+        "lng": "26.97272"
+    },
+    {
+        "country": "GR",
+        "name": "Paral\u00eda Ofryn\u00edou",
+        "lat": "40.76663",
+        "lng": "23.90039"
+    },
+    {
+        "country": "GR",
+        "name": "Ag\u00eda Kyriak\u00ed",
+        "lat": "39.52264",
+        "lng": "20.88358"
+    },
+    {
+        "country": "GR",
+        "name": "Ag\u00eda Fotein\u00ed",
+        "lat": "35.25459",
+        "lng": "24.63495"
+    },
+    {
+        "country": "GR",
+        "name": "Ilio\u00fapoli",
+        "lat": "37.93149",
+        "lng": "23.76779"
+    },
+    {
+        "country": "GR",
+        "name": "Korydall\u00f3s",
+        "lat": "37.98468",
+        "lng": "23.64711"
+    },
+    {
+        "country": "GR",
+        "name": "Zogr\u00e1fos",
+        "lat": "37.97574",
+        "lng": "23.76911"
+    },
+    {
+        "country": "GR",
+        "name": "P\u00e9fki",
+        "lat": "38.06019",
+        "lng": "23.79264"
+    },
+    {
+        "country": "GR",
+        "name": "\u00c1gioi An\u00e1rgyroi",
+        "lat": "38.03013",
+        "lng": "23.72379"
+    },
+    {
+        "country": "GR",
+        "name": "Ampel\u00f3kipoi",
+        "lat": "40.65304",
+        "lng": "22.92624"
+    },
+    {
+        "country": "GR",
+        "name": "Fo\u00farnoi",
+        "lat": "37.5785",
+        "lng": "26.48069"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Pot\u00eddhaia",
+        "lat": "40.19428",
+        "lng": "23.32874"
+    },
+    {
+        "country": "GR",
+        "name": "Agios Ioannis Rentis",
+        "lat": "37.96491",
+        "lng": "23.66511"
+    },
+    {
+        "country": "GR",
+        "name": "Viol\u00ed Char\u00e1ki",
+        "lat": "35.35864",
+        "lng": "24.43857"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Anatol\u00ed",
+        "lat": "35.0092",
+        "lng": "25.6617"
+    },
+    {
+        "country": "GR",
+        "name": "Drapets\u00f3na",
+        "lat": "37.94988",
+        "lng": "23.62309"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9o Psychik\u00f3",
+        "lat": "38.00624",
+        "lng": "23.78373"
+    },
+    {
+        "country": "GR",
+        "name": "Chl\u00f3i",
+        "lat": "40.53918",
+        "lng": "21.25923"
+    },
+    {
+        "country": "GR",
+        "name": "Varyb\u00f3bi",
+        "lat": "38.12723",
+        "lng": "23.78729"
+    },
+    {
+        "country": "GR",
+        "name": "Aghios Pantele\u00edmon",
+        "lat": "38.11643",
+        "lng": "23.98182"
+    },
+    {
+        "country": "GR",
+        "name": "Antho\u00fasa",
+        "lat": "38.02544",
+        "lng": "23.87617"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Vrasn\u00e1",
+        "lat": "40.70592",
+        "lng": "23.6985"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Ion\u00eda",
+        "lat": "39.37904",
+        "lng": "22.92752"
+    },
+    {
+        "country": "GR",
+        "name": "Zefyri",
+        "lat": "38.06647",
+        "lng": "23.71701"
+    },
+    {
+        "country": "GR",
+        "name": "Thrakomaked\u00f3nes",
+        "lat": "38.12964",
+        "lng": "23.75751"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Pent\u00e9li",
+        "lat": "38.06059",
+        "lng": "23.85926"
+    },
+    {
+        "country": "GR",
+        "name": "N\u00e9a Chalkid\u00f3na",
+        "lat": "38.0271",
+        "lng": "23.73051"
+    },
+    {
+        "country": "GR",
+        "name": "K\u00edtsi",
+        "lat": "37.85181",
+        "lng": "23.84068"
+    },
+    {
+        "country": "GR",
+        "name": "Ag\u00eda Mar\u00edna",
+        "lat": "37.82036",
+        "lng": "23.84424"
+    },
+    {
+        "country": "GR",
+        "name": "Agios Dim\u00edtrios Kropi\u00e1s",
+        "lat": "37.80612",
+        "lng": "23.85793"
+    },
+    {
+        "country": "GR",
+        "name": "Karell\u00e1s",
+        "lat": "37.93445",
+        "lng": "23.86484"
+    },
+    {
+        "country": "GR",
+        "name": "Neos Voutz\u00e1s",
+        "lat": "38.04312",
+        "lng": "23.97749"
+    },
+    {
+        "country": "GR",
+        "name": "Argith\u00e9a",
+        "lat": "37.97506",
+        "lng": "23.88556"
+    },
+    {
+        "country": "GR",
+        "name": "Di\u00f3ni",
+        "lat": "38.02328",
+        "lng": "23.93286"
+    },
+    {
+        "country": "GR",
+        "name": "Vlych\u00e1da",
+        "lat": "38.02734",
+        "lng": "23.43663"
+    },
+    {
+        "country": "GR",
+        "name": "Perama",
+        "lat": "39.58289",
+        "lng": "19.9122"
+    },
+    {
+        "country": "GR",
+        "name": "Loutr\u00e1 Ora\u00edas El\u00e9nis",
+        "lat": "37.86466",
+        "lng": "22.99614"
+    },
+    {
+        "country": "GR",
+        "name": "Paral\u00eda V\u00e9rgas",
+        "lat": "37.00708",
+        "lng": "22.15676"
+    },
+    {
+        "country": "GR",
+        "name": "Kardam\u00edtsia",
+        "lat": "39.67816",
+        "lng": "20.81956"
+    },
+    {
+        "country": "GR",
+        "name": "Tsiflik\u00f3poulo",
+        "lat": "39.65624",
+        "lng": "20.83882"
+    },
+    {
+        "country": "GR",
+        "name": "Eksoch\u00ed",
+        "lat": "39.68744",
+        "lng": "20.8224"
+    },
+    {
+        "country": "GR",
+        "name": "Pl\u00e1ka D\u00edlesi",
+        "lat": "38.3495",
+        "lng": "23.65056"
+    },
+    {
+        "country": "GR",
+        "name": "Anakasi\u00e1",
+        "lat": "39.38112",
+        "lng": "22.97484"
+    },
+    {
+        "country": "GR",
+        "name": "Iliokentima",
+        "lat": "40.94931",
+        "lng": "24.78859"
+    },
+    {
+        "country": "GR",
+        "name": "Neapoli",
+        "lat": "40.6532",
+        "lng": "22.94156"
+    }
+]

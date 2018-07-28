@@ -1,0 +1,440 @@
+[
+    {
+        "country": "GH",
+        "name": "Yendi",
+        "lat": "9.44272",
+        "lng": "-0.00991"
+    },
+    {
+        "country": "GH",
+        "name": "Winneba",
+        "lat": "5.35113",
+        "lng": "-0.62313"
+    },
+    {
+        "country": "GH",
+        "name": "Wenchi",
+        "lat": "7.73916",
+        "lng": "-2.10456"
+    },
+    {
+        "country": "GH",
+        "name": "Wa",
+        "lat": "10.06069",
+        "lng": "-2.50192"
+    },
+    {
+        "country": "GH",
+        "name": "Teshi Old Town",
+        "lat": "5.58365",
+        "lng": "-0.10722"
+    },
+    {
+        "country": "GH",
+        "name": "Tema",
+        "lat": "5.6698",
+        "lng": "-0.01657"
+    },
+    {
+        "country": "GH",
+        "name": "Techiman",
+        "lat": "7.58617",
+        "lng": "-1.94137"
+    },
+    {
+        "country": "GH",
+        "name": "Tarkwa",
+        "lat": "5.30383",
+        "lng": "-1.98956"
+    },
+    {
+        "country": "GH",
+        "name": "Tamale",
+        "lat": "9.40079",
+        "lng": "-0.8393"
+    },
+    {
+        "country": "GH",
+        "name": "Takoradi",
+        "lat": "4.89816",
+        "lng": "-1.76029"
+    },
+    {
+        "country": "GH",
+        "name": "Tafo",
+        "lat": "6.73156",
+        "lng": "-1.6137"
+    },
+    {
+        "country": "GH",
+        "name": "Swedru",
+        "lat": "5.53711",
+        "lng": "-0.69984"
+    },
+    {
+        "country": "GH",
+        "name": "Sunyani",
+        "lat": "7.33991",
+        "lng": "-2.32676"
+    },
+    {
+        "country": "GH",
+        "name": "Suhum",
+        "lat": "6.04089",
+        "lng": "-0.45004"
+    },
+    {
+        "country": "GH",
+        "name": "Shama Junction",
+        "lat": "5.01806",
+        "lng": "-1.66437"
+    },
+    {
+        "country": "GH",
+        "name": "Sekondi-Takoradi",
+        "lat": "4.92678",
+        "lng": "-1.75773"
+    },
+    {
+        "country": "GH",
+        "name": "Savelugu",
+        "lat": "9.62441",
+        "lng": "-0.8253"
+    },
+    {
+        "country": "GH",
+        "name": "Saltpond",
+        "lat": "5.20913",
+        "lng": "-1.06058"
+    },
+    {
+        "country": "GH",
+        "name": "Salaga",
+        "lat": "8.55083",
+        "lng": "-0.51875"
+    },
+    {
+        "country": "GH",
+        "name": "Prestea",
+        "lat": "5.43274",
+        "lng": "-2.14284"
+    },
+    {
+        "country": "GH",
+        "name": "Kasoa",
+        "lat": "5.53449",
+        "lng": "-0.41679"
+    },
+    {
+        "country": "GH",
+        "name": "Akim Oda",
+        "lat": "5.92665",
+        "lng": "-0.98577"
+    },
+    {
+        "country": "GH",
+        "name": "Obuase",
+        "lat": "6.20228",
+        "lng": "-1.66796"
+    },
+    {
+        "country": "GH",
+        "name": "Nungua",
+        "lat": "5.60105",
+        "lng": "-0.07713"
+    },
+    {
+        "country": "GH",
+        "name": "Nsawam",
+        "lat": "5.80893",
+        "lng": "-0.35026"
+    },
+    {
+        "country": "GH",
+        "name": "Nkawkaw",
+        "lat": "6.55121",
+        "lng": "-0.7662"
+    },
+    {
+        "country": "GH",
+        "name": "Navrongo",
+        "lat": "10.89557",
+        "lng": "-1.0921"
+    },
+    {
+        "country": "GH",
+        "name": "Mumford",
+        "lat": "5.26176",
+        "lng": "-0.75897"
+    },
+    {
+        "country": "GH",
+        "name": "Mpraeso",
+        "lat": "6.59321",
+        "lng": "-0.73462"
+    },
+    {
+        "country": "GH",
+        "name": "Mampong",
+        "lat": "7.06273",
+        "lng": "-1.4001"
+    },
+    {
+        "country": "GH",
+        "name": "Medina Estates",
+        "lat": "5.6658",
+        "lng": "-0.16307"
+    },
+    {
+        "country": "GH",
+        "name": "Kumasi",
+        "lat": "6.68848",
+        "lng": "-1.62443"
+    },
+    {
+        "country": "GH",
+        "name": "Kpandu",
+        "lat": "6.99536",
+        "lng": "0.29306"
+    },
+    {
+        "country": "GH",
+        "name": "Kpandae",
+        "lat": "8.46885",
+        "lng": "-0.01127"
+    },
+    {
+        "country": "GH",
+        "name": "Konongo",
+        "lat": "6.61667",
+        "lng": "-1.21667"
+    },
+    {
+        "country": "GH",
+        "name": "Koforidua",
+        "lat": "6.09408",
+        "lng": "-0.25913"
+    },
+    {
+        "country": "GH",
+        "name": "Kintampo",
+        "lat": "8.05627",
+        "lng": "-1.73058"
+    },
+    {
+        "country": "GH",
+        "name": "Kibi",
+        "lat": "6.16494",
+        "lng": "-0.55376"
+    },
+    {
+        "country": "GH",
+        "name": "Kete Krachi",
+        "lat": "7.79391",
+        "lng": "-0.0498"
+    },
+    {
+        "country": "GH",
+        "name": "Keta",
+        "lat": "5.91793",
+        "lng": "0.98789"
+    },
+    {
+        "country": "GH",
+        "name": "Hohoe",
+        "lat": "7.15181",
+        "lng": "0.47362"
+    },
+    {
+        "country": "GH",
+        "name": "Ho",
+        "lat": "6.60084",
+        "lng": "0.4713"
+    },
+    {
+        "country": "GH",
+        "name": "Gbawe",
+        "lat": "5.57692",
+        "lng": "-0.31038"
+    },
+    {
+        "country": "GH",
+        "name": "Foso",
+        "lat": "5.70119",
+        "lng": "-1.28657"
+    },
+    {
+        "country": "GH",
+        "name": "Elmina",
+        "lat": "5.0847",
+        "lng": "-1.35093"
+    },
+    {
+        "country": "GH",
+        "name": "Ejura",
+        "lat": "7.38558",
+        "lng": "-1.35617"
+    },
+    {
+        "country": "GH",
+        "name": "Dunkwa",
+        "lat": "5.95996",
+        "lng": "-1.77792"
+    },
+    {
+        "country": "GH",
+        "name": "Duayaw Nkwanta",
+        "lat": "7.17242",
+        "lng": "-2.10281"
+    },
+    {
+        "country": "GH",
+        "name": "Dome",
+        "lat": "5.65003",
+        "lng": "-0.2361"
+    },
+    {
+        "country": "GH",
+        "name": "Cape Coast",
+        "lat": "5.10535",
+        "lng": "-1.2466"
+    },
+    {
+        "country": "GH",
+        "name": "Bolgatanga",
+        "lat": "10.78556",
+        "lng": "-0.85139"
+    },
+    {
+        "country": "GH",
+        "name": "Bibiani",
+        "lat": "6.46346",
+        "lng": "-2.31938"
+    },
+    {
+        "country": "GH",
+        "name": "Berekum",
+        "lat": "7.4534",
+        "lng": "-2.58404"
+    },
+    {
+        "country": "GH",
+        "name": "Bekwai",
+        "lat": "6.45195",
+        "lng": "-1.57866"
+    },
+    {
+        "country": "GH",
+        "name": "Begoro",
+        "lat": "6.38706",
+        "lng": "-0.37738"
+    },
+    {
+        "country": "GH",
+        "name": "Bechem",
+        "lat": "7.09034",
+        "lng": "-2.02498"
+    },
+    {
+        "country": "GH",
+        "name": "Bawku",
+        "lat": "11.0616",
+        "lng": "-0.24169"
+    },
+    {
+        "country": "GH",
+        "name": "Axim",
+        "lat": "4.86641",
+        "lng": "-2.24181"
+    },
+    {
+        "country": "GH",
+        "name": "Asamankese",
+        "lat": "5.86006",
+        "lng": "-0.6635"
+    },
+    {
+        "country": "GH",
+        "name": "Apam",
+        "lat": "5.28483",
+        "lng": "-0.73711"
+    },
+    {
+        "country": "GH",
+        "name": "Anloga",
+        "lat": "5.79473",
+        "lng": "0.89728"
+    },
+    {
+        "country": "GH",
+        "name": "Akwatia",
+        "lat": "6.04024",
+        "lng": "-0.80876"
+    },
+    {
+        "country": "GH",
+        "name": "Akropong",
+        "lat": "5.97462",
+        "lng": "-0.08542"
+    },
+    {
+        "country": "GH",
+        "name": "Akim Swedru",
+        "lat": "5.8938",
+        "lng": "-1.01636"
+    },
+    {
+        "country": "GH",
+        "name": "Agogo",
+        "lat": "6.80004",
+        "lng": "-1.08193"
+    },
+    {
+        "country": "GH",
+        "name": "Aflao",
+        "lat": "6.11982",
+        "lng": "1.19012"
+    },
+    {
+        "country": "GH",
+        "name": "Atsiaman",
+        "lat": "5.69775",
+        "lng": "-0.32824"
+    },
+    {
+        "country": "GH",
+        "name": "Accra",
+        "lat": "5.55602",
+        "lng": "-0.1969"
+    },
+    {
+        "country": "GH",
+        "name": "Aburi",
+        "lat": "5.84802",
+        "lng": "-0.17449"
+    },
+    {
+        "country": "GH",
+        "name": "Aboso",
+        "lat": "5.36073",
+        "lng": "-1.94856"
+    },
+    {
+        "country": "GH",
+        "name": "Mamponteng",
+        "lat": "6.73333",
+        "lng": "-1.55"
+    },
+    {
+        "country": "GH",
+        "name": "Wassa-Akropong",
+        "lat": "5.78722",
+        "lng": "-2.08361"
+    },
+    {
+        "country": "GH",
+        "name": "Odumase Krobo",
+        "lat": "6.53333",
+        "lng": "-0.81667"
+    }
+]

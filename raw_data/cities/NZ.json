@@ -1,0 +1,830 @@
+[
+    {
+        "country": "NZ",
+        "name": "Woodend",
+        "lat": "-43.31667",
+        "lng": "172.66667"
+    },
+    {
+        "country": "NZ",
+        "name": "Whitianga",
+        "lat": "-36.83333",
+        "lng": "175.7"
+    },
+    {
+        "country": "NZ",
+        "name": "Whangamata",
+        "lat": "-37.2",
+        "lng": "175.86667"
+    },
+    {
+        "country": "NZ",
+        "name": "Wellsford",
+        "lat": "-36.28333",
+        "lng": "174.51667"
+    },
+    {
+        "country": "NZ",
+        "name": "Wellington",
+        "lat": "-41.28664",
+        "lng": "174.77557"
+    },
+    {
+        "country": "NZ",
+        "name": "Warkworth",
+        "lat": "-36.4",
+        "lng": "174.66667"
+    },
+    {
+        "country": "NZ",
+        "name": "Wanganui",
+        "lat": "-39.93333",
+        "lng": "175.05"
+    },
+    {
+        "country": "NZ",
+        "name": "Wakefield",
+        "lat": "-41.4",
+        "lng": "173.05"
+    },
+    {
+        "country": "NZ",
+        "name": "Waiuku",
+        "lat": "-37.24806",
+        "lng": "174.73489"
+    },
+    {
+        "country": "NZ",
+        "name": "Waiouru",
+        "lat": "-39.47753",
+        "lng": "175.66834"
+    },
+    {
+        "country": "NZ",
+        "name": "Waimate North",
+        "lat": "-35.31667",
+        "lng": "173.88333"
+    },
+    {
+        "country": "NZ",
+        "name": "Waihi Beach",
+        "lat": "-37.4",
+        "lng": "175.93333"
+    },
+    {
+        "country": "NZ",
+        "name": "Turangi",
+        "lat": "-38.99037",
+        "lng": "175.80837"
+    },
+    {
+        "country": "NZ",
+        "name": "Tokoroa",
+        "lat": "-38.23333",
+        "lng": "175.86667"
+    },
+    {
+        "country": "NZ",
+        "name": "Tinwald",
+        "lat": "-43.91667",
+        "lng": "171.71667"
+    },
+    {
+        "country": "NZ",
+        "name": "Timaru",
+        "lat": "-44.39672",
+        "lng": "171.25364"
+    },
+    {
+        "country": "NZ",
+        "name": "Te Kauwhata",
+        "lat": "-37.4",
+        "lng": "175.15"
+    },
+    {
+        "country": "NZ",
+        "name": "Te Anau",
+        "lat": "-45.41667",
+        "lng": "167.71667"
+    },
+    {
+        "country": "NZ",
+        "name": "Taupo",
+        "lat": "-38.68333",
+        "lng": "176.08333"
+    },
+    {
+        "country": "NZ",
+        "name": "Takaka",
+        "lat": "-40.85",
+        "lng": "172.8"
+    },
+    {
+        "country": "NZ",
+        "name": "Tairua",
+        "lat": "-37.01667",
+        "lng": "175.85"
+    },
+    {
+        "country": "NZ",
+        "name": "Taipa",
+        "lat": "-34.99604",
+        "lng": "173.46665"
+    },
+    {
+        "country": "NZ",
+        "name": "Rolleston",
+        "lat": "-43.58333",
+        "lng": "172.38333"
+    },
+    {
+        "country": "NZ",
+        "name": "Richmond",
+        "lat": "-41.33333",
+        "lng": "173.18333"
+    },
+    {
+        "country": "NZ",
+        "name": "Rakaia",
+        "lat": "-43.75",
+        "lng": "172.01667"
+    },
+    {
+        "country": "NZ",
+        "name": "Raglan",
+        "lat": "-37.8",
+        "lng": "174.88333"
+    },
+    {
+        "country": "NZ",
+        "name": "Pukekohe East",
+        "lat": "-37.2",
+        "lng": "174.95"
+    },
+    {
+        "country": "NZ",
+        "name": "Prebbleton",
+        "lat": "-43.58333",
+        "lng": "172.51667"
+    },
+    {
+        "country": "NZ",
+        "name": "Portobello",
+        "lat": "-45.85",
+        "lng": "170.65"
+    },
+    {
+        "country": "NZ",
+        "name": "Motueka",
+        "lat": "-41.13333",
+        "lng": "173.01667"
+    },
+    {
+        "country": "NZ",
+        "name": "Porirua",
+        "lat": "-41.13333",
+        "lng": "174.85"
+    },
+    {
+        "country": "NZ",
+        "name": "Pleasant Point",
+        "lat": "-44.26667",
+        "lng": "171.13333"
+    },
+    {
+        "country": "NZ",
+        "name": "Wanaka",
+        "lat": "-44.7",
+        "lng": "169.15"
+    },
+    {
+        "country": "NZ",
+        "name": "Paraparaumu",
+        "lat": "-40.91667",
+        "lng": "175.01667"
+    },
+    {
+        "country": "NZ",
+        "name": "Parakai",
+        "lat": "-36.65",
+        "lng": "174.43333"
+    },
+    {
+        "country": "NZ",
+        "name": "Papatowai",
+        "lat": "-46.56069",
+        "lng": "169.47068"
+    },
+    {
+        "country": "NZ",
+        "name": "Palmerston North",
+        "lat": "-40.35636",
+        "lng": "175.61113"
+    },
+    {
+        "country": "NZ",
+        "name": "Paihia",
+        "lat": "-35.28067",
+        "lng": "174.09103"
+    },
+    {
+        "country": "NZ",
+        "name": "Oxford",
+        "lat": "-43.3",
+        "lng": "172.18333"
+    },
+    {
+        "country": "NZ",
+        "name": "Otorohanga",
+        "lat": "-38.18333",
+        "lng": "175.2"
+    },
+    {
+        "country": "NZ",
+        "name": "North Shore",
+        "lat": "-36.8",
+        "lng": "174.75"
+    },
+    {
+        "country": "NZ",
+        "name": "Ngunguru",
+        "lat": "-35.61667",
+        "lng": "174.5"
+    },
+    {
+        "country": "NZ",
+        "name": "Ngatea",
+        "lat": "-37.28333",
+        "lng": "175.5"
+    },
+    {
+        "country": "NZ",
+        "name": "New Plymouth",
+        "lat": "-39.06667",
+        "lng": "174.08333"
+    },
+    {
+        "country": "NZ",
+        "name": "Nelson",
+        "lat": "-41.27078",
+        "lng": "173.28404"
+    },
+    {
+        "country": "NZ",
+        "name": "Napier",
+        "lat": "-39.4926",
+        "lng": "176.91233"
+    },
+    {
+        "country": "NZ",
+        "name": "Murupara",
+        "lat": "-38.46667",
+        "lng": "176.7"
+    },
+    {
+        "country": "NZ",
+        "name": "Muriwai Beach",
+        "lat": "-36.81667",
+        "lng": "174.45"
+    },
+    {
+        "country": "NZ",
+        "name": "Moerewa",
+        "lat": "-35.38333",
+        "lng": "174.03333"
+    },
+    {
+        "country": "NZ",
+        "name": "Methven",
+        "lat": "-43.63333",
+        "lng": "171.65"
+    },
+    {
+        "country": "NZ",
+        "name": "Maungatapere",
+        "lat": "-35.75",
+        "lng": "174.2"
+    },
+    {
+        "country": "NZ",
+        "name": "Mapua",
+        "lat": "-41.25",
+        "lng": "173.1"
+    },
+    {
+        "country": "NZ",
+        "name": "Manukau City",
+        "lat": "-36.99282",
+        "lng": "174.87986"
+    },
+    {
+        "country": "NZ",
+        "name": "Mangere",
+        "lat": "-36.96807",
+        "lng": "174.79875"
+    },
+    {
+        "country": "NZ",
+        "name": "Maketu",
+        "lat": "-37.76667",
+        "lng": "176.45"
+    },
+    {
+        "country": "NZ",
+        "name": "Lower Hutt",
+        "lat": "-41.21667",
+        "lng": "174.91667"
+    },
+    {
+        "country": "NZ",
+        "name": "Lincoln",
+        "lat": "-43.65",
+        "lng": "172.48333"
+    },
+    {
+        "country": "NZ",
+        "name": "Leeston",
+        "lat": "-43.76667",
+        "lng": "172.3"
+    },
+    {
+        "country": "NZ",
+        "name": "Kingston",
+        "lat": "-45.33333",
+        "lng": "168.7"
+    },
+    {
+        "country": "NZ",
+        "name": "Kerikeri",
+        "lat": "-35.22676",
+        "lng": "173.94739"
+    },
+    {
+        "country": "NZ",
+        "name": "Kelburn",
+        "lat": "-41.28333",
+        "lng": "174.76667"
+    },
+    {
+        "country": "NZ",
+        "name": "Kawerau",
+        "lat": "-38.1",
+        "lng": "176.7"
+    },
+    {
+        "country": "NZ",
+        "name": "Kawakawa",
+        "lat": "-35.38333",
+        "lng": "174.06667"
+    },
+    {
+        "country": "NZ",
+        "name": "Katikati",
+        "lat": "-37.55",
+        "lng": "175.91667"
+    },
+    {
+        "country": "NZ",
+        "name": "Invercargill",
+        "lat": "-46.4",
+        "lng": "168.35"
+    },
+    {
+        "country": "NZ",
+        "name": "Hastings",
+        "lat": "-39.6381",
+        "lng": "176.84918"
+    },
+    {
+        "country": "NZ",
+        "name": "Hamilton",
+        "lat": "-37.78333",
+        "lng": "175.28333"
+    },
+    {
+        "country": "NZ",
+        "name": "Edgecumbe",
+        "lat": "-37.98333",
+        "lng": "176.83333"
+    },
+    {
+        "country": "NZ",
+        "name": "Dunedin",
+        "lat": "-45.87416",
+        "lng": "170.50361"
+    },
+    {
+        "country": "NZ",
+        "name": "Dargaville",
+        "lat": "-35.93333",
+        "lng": "173.88333"
+    },
+    {
+        "country": "NZ",
+        "name": "Darfield",
+        "lat": "-43.48333",
+        "lng": "172.11667"
+    },
+    {
+        "country": "NZ",
+        "name": "Coromandel",
+        "lat": "-36.7611",
+        "lng": "175.49634"
+    },
+    {
+        "country": "NZ",
+        "name": "Christchurch",
+        "lat": "-43.53333",
+        "lng": "172.63333"
+    },
+    {
+        "country": "NZ",
+        "name": "Castlepoint",
+        "lat": "-40.9",
+        "lng": "176.21667"
+    },
+    {
+        "country": "NZ",
+        "name": "Burnham",
+        "lat": "-43.61667",
+        "lng": "172.31667"
+    },
+    {
+        "country": "NZ",
+        "name": "Bulls",
+        "lat": "-40.17487",
+        "lng": "175.38463"
+    },
+    {
+        "country": "NZ",
+        "name": "Brooklyn",
+        "lat": "-41.30586",
+        "lng": "174.76257"
+    },
+    {
+        "country": "NZ",
+        "name": "Brightwater",
+        "lat": "-41.38333",
+        "lng": "173.11667"
+    },
+    {
+        "country": "NZ",
+        "name": "Auckland",
+        "lat": "-36.84853",
+        "lng": "174.76349"
+    },
+    {
+        "country": "NZ",
+        "name": "Amberley",
+        "lat": "-43.15589",
+        "lng": "172.72975"
+    },
+    {
+        "country": "NZ",
+        "name": "Ahipara",
+        "lat": "-35.16667",
+        "lng": "173.16667"
+    },
+    {
+        "country": "NZ",
+        "name": "Opunake",
+        "lat": "-39.45556",
+        "lng": "173.85833"
+    },
+    {
+        "country": "NZ",
+        "name": "Eltham",
+        "lat": "-39.42917",
+        "lng": "174.3"
+    },
+    {
+        "country": "NZ",
+        "name": "Hawera",
+        "lat": "-39.59167",
+        "lng": "174.28333"
+    },
+    {
+        "country": "NZ",
+        "name": "Patea",
+        "lat": "-39.75833",
+        "lng": "174.48333"
+    },
+    {
+        "country": "NZ",
+        "name": "Foxton",
+        "lat": "-40.46667",
+        "lng": "175.3"
+    },
+    {
+        "country": "NZ",
+        "name": "Levin",
+        "lat": "-40.63333",
+        "lng": "175.275"
+    },
+    {
+        "country": "NZ",
+        "name": "Otaki",
+        "lat": "-40.75833",
+        "lng": "175.15"
+    },
+    {
+        "country": "NZ",
+        "name": "Wairoa",
+        "lat": "-39.03333",
+        "lng": "177.36667"
+    },
+    {
+        "country": "NZ",
+        "name": "Gisborne",
+        "lat": "-38.65333",
+        "lng": "178.00417"
+    },
+    {
+        "country": "NZ",
+        "name": "Waipawa",
+        "lat": "-41.41222",
+        "lng": "175.51528"
+    },
+    {
+        "country": "NZ",
+        "name": "Masterton",
+        "lat": "-40.95972",
+        "lng": "175.6575"
+    },
+    {
+        "country": "NZ",
+        "name": "Hokitika",
+        "lat": "-42.71667",
+        "lng": "170.96667"
+    },
+    {
+        "country": "NZ",
+        "name": "Greymouth",
+        "lat": "-42.46667",
+        "lng": "171.2"
+    },
+    {
+        "country": "NZ",
+        "name": "Westport",
+        "lat": "-41.75262",
+        "lng": "171.6037"
+    },
+    {
+        "country": "NZ",
+        "name": "Bluff",
+        "lat": "-46.6",
+        "lng": "168.33333"
+    },
+    {
+        "country": "NZ",
+        "name": "Riverton",
+        "lat": "-46.35",
+        "lng": "168.01667"
+    },
+    {
+        "country": "NZ",
+        "name": "Winton",
+        "lat": "-46.15",
+        "lng": "168.33333"
+    },
+    {
+        "country": "NZ",
+        "name": "Tauranga",
+        "lat": "-37.68611",
+        "lng": "176.16667"
+    },
+    {
+        "country": "NZ",
+        "name": "Waitara",
+        "lat": "-39.00158",
+        "lng": "174.23836"
+    },
+    {
+        "country": "NZ",
+        "name": "Milton",
+        "lat": "-46.12083",
+        "lng": "169.96944"
+    },
+    {
+        "country": "NZ",
+        "name": "Balclutha",
+        "lat": "-46.23389",
+        "lng": "169.75"
+    },
+    {
+        "country": "NZ",
+        "name": "Paeroa",
+        "lat": "-37.36667",
+        "lng": "175.66667"
+    },
+    {
+        "country": "NZ",
+        "name": "Waihi",
+        "lat": "-37.38333",
+        "lng": "175.83333"
+    },
+    {
+        "country": "NZ",
+        "name": "Papakura",
+        "lat": "-37.06573",
+        "lng": "174.94393"
+    },
+    {
+        "country": "NZ",
+        "name": "Whakatane",
+        "lat": "-37.95855",
+        "lng": "176.98545"
+    },
+    {
+        "country": "NZ",
+        "name": "Opotiki",
+        "lat": "-38.00915",
+        "lng": "177.28706"
+    },
+    {
+        "country": "NZ",
+        "name": "Thames",
+        "lat": "-37.13832",
+        "lng": "175.54011"
+    },
+    {
+        "country": "NZ",
+        "name": "Waitangi",
+        "lat": "-43.95353",
+        "lng": "-176.55973"
+    },
+    {
+        "country": "NZ",
+        "name": "Gore",
+        "lat": "-46.10282",
+        "lng": "168.94357"
+    },
+    {
+        "country": "NZ",
+        "name": "Queenstown",
+        "lat": "-45.03023",
+        "lng": "168.66271"
+    },
+    {
+        "country": "NZ",
+        "name": "Arrowtown",
+        "lat": "-44.93837",
+        "lng": "168.81007"
+    },
+    {
+        "country": "NZ",
+        "name": "Oamaru",
+        "lat": "-45.09758",
+        "lng": "170.97087"
+    },
+    {
+        "country": "NZ",
+        "name": "Ashburton",
+        "lat": "-43.89834",
+        "lng": "171.73011"
+    },
+    {
+        "country": "NZ",
+        "name": "Kaiapoi",
+        "lat": "-43.37832",
+        "lng": "172.64013"
+    },
+    {
+        "country": "NZ",
+        "name": "Kaitaia",
+        "lat": "-35.11485",
+        "lng": "173.26366"
+    },
+    {
+        "country": "NZ",
+        "name": "Whangarei",
+        "lat": "-35.73167",
+        "lng": "174.32391"
+    },
+    {
+        "country": "NZ",
+        "name": "Ruakaka",
+        "lat": "-35.90818",
+        "lng": "174.45019"
+    },
+    {
+        "country": "NZ",
+        "name": "Takanini",
+        "lat": "-37.0482",
+        "lng": "174.90019"
+    },
+    {
+        "country": "NZ",
+        "name": "Red Hill",
+        "lat": "-37.0582",
+        "lng": "174.97019"
+    },
+    {
+        "country": "NZ",
+        "name": "Rothesay Bay",
+        "lat": "-36.72602",
+        "lng": "174.74064"
+    },
+    {
+        "country": "NZ",
+        "name": "Murrays Bay",
+        "lat": "-36.72819",
+        "lng": "174.75019"
+    },
+    {
+        "country": "NZ",
+        "name": "Wiri",
+        "lat": "-36.9982",
+        "lng": "174.86019"
+    },
+    {
+        "country": "NZ",
+        "name": "Pakuranga",
+        "lat": "-36.88333",
+        "lng": "174.91667"
+    },
+    {
+        "country": "NZ",
+        "name": "Tamaki",
+        "lat": "-36.8882",
+        "lng": "174.86019"
+    },
+    {
+        "country": "NZ",
+        "name": "Titirangi",
+        "lat": "-36.93754",
+        "lng": "174.65584"
+    },
+    {
+        "country": "NZ",
+        "name": "Matamata",
+        "lat": "-37.8106",
+        "lng": "175.76237"
+    },
+    {
+        "country": "NZ",
+        "name": "Cambridge",
+        "lat": "-37.87822",
+        "lng": "175.4402"
+    },
+    {
+        "country": "NZ",
+        "name": "Rotorua",
+        "lat": "-38.13874",
+        "lng": "176.24516"
+    },
+    {
+        "country": "NZ",
+        "name": "Picton",
+        "lat": "-41.29067",
+        "lng": "174.00801"
+    },
+    {
+        "country": "NZ",
+        "name": "Blenheim",
+        "lat": "-41.51603",
+        "lng": "173.9528"
+    },
+    {
+        "country": "NZ",
+        "name": "Petone",
+        "lat": "-41.22827",
+        "lng": "174.87019"
+    },
+    {
+        "country": "NZ",
+        "name": "Upper Hutt",
+        "lat": "-41.13827",
+        "lng": "175.0502"
+    },
+    {
+        "country": "NZ",
+        "name": "Taradale",
+        "lat": "-39.53333",
+        "lng": "176.85"
+    },
+    {
+        "country": "NZ",
+        "name": "Ngaruawahia",
+        "lat": "-37.66738",
+        "lng": "175.15554"
+    },
+    {
+        "country": "NZ",
+        "name": "Waitakere",
+        "lat": "-36.91754",
+        "lng": "174.65773"
+    },
+    {
+        "country": "NZ",
+        "name": "Kaikoura",
+        "lat": "-42.40749",
+        "lng": "173.68132"
+    },
+    {
+        "country": "NZ",
+        "name": "Rosebank",
+        "lat": "-36.87495",
+        "lng": "174.66991"
+    }
+]

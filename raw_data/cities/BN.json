@@ -1,0 +1,32 @@
+[
+    {
+        "country": "BN",
+        "name": "Tutong",
+        "lat": "4.8",
+        "lng": "114.65"
+    },
+    {
+        "country": "BN",
+        "name": "Seria",
+        "lat": "4.60637",
+        "lng": "114.32476"
+    },
+    {
+        "country": "BN",
+        "name": "Kuala Belait",
+        "lat": "4.58361",
+        "lng": "114.2312"
+    },
+    {
+        "country": "BN",
+        "name": "Bangar",
+        "lat": "4.71667",
+        "lng": "115.06667"
+    },
+    {
+        "country": "BN",
+        "name": "Bandar Seri Begawan",
+        "lat": "4.89035",
+        "lng": "114.94006"
+    }
+]

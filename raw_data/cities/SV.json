@@ -1,0 +1,602 @@
+[
+    {
+        "country": "SV",
+        "name": "Zaragoza",
+        "lat": "13.58944",
+        "lng": "-89.28889"
+    },
+    {
+        "country": "SV",
+        "name": "Zacatecoluca",
+        "lat": "13.5",
+        "lng": "-88.86667"
+    },
+    {
+        "country": "SV",
+        "name": "Victoria",
+        "lat": "13.95",
+        "lng": "-88.63333"
+    },
+    {
+        "country": "SV",
+        "name": "Usulut\u00e1n",
+        "lat": "13.35",
+        "lng": "-88.45"
+    },
+    {
+        "country": "SV",
+        "name": "Tonacatepeque",
+        "lat": "13.78111",
+        "lng": "-89.11861"
+    },
+    {
+        "country": "SV",
+        "name": "Texistepeque",
+        "lat": "14.13333",
+        "lng": "-89.5"
+    },
+    {
+        "country": "SV",
+        "name": "Tenancingo",
+        "lat": "13.83333",
+        "lng": "-88.98333"
+    },
+    {
+        "country": "SV",
+        "name": "Tecoluca",
+        "lat": "13.78917",
+        "lng": "-89.00528"
+    },
+    {
+        "country": "SV",
+        "name": "Tacuba",
+        "lat": "13.90111",
+        "lng": "-89.92972"
+    },
+    {
+        "country": "SV",
+        "name": "Suchitoto",
+        "lat": "13.93806",
+        "lng": "-89.02778"
+    },
+    {
+        "country": "SV",
+        "name": "Soyapango",
+        "lat": "13.71024",
+        "lng": "-89.13989"
+    },
+    {
+        "country": "SV",
+        "name": "Sonzacate",
+        "lat": "13.73417",
+        "lng": "-89.71472"
+    },
+    {
+        "country": "SV",
+        "name": "Sonsonate",
+        "lat": "13.71889",
+        "lng": "-89.72417"
+    },
+    {
+        "country": "SV",
+        "name": "Sociedad",
+        "lat": "13.7",
+        "lng": "-88.01667"
+    },
+    {
+        "country": "SV",
+        "name": "Sesori",
+        "lat": "13.71667",
+        "lng": "-88.36667"
+    },
+    {
+        "country": "SV",
+        "name": "Sensuntepeque",
+        "lat": "13.86667",
+        "lng": "-88.63333"
+    },
+    {
+        "country": "SV",
+        "name": "San Vicente",
+        "lat": "13.63333",
+        "lng": "-88.8"
+    },
+    {
+        "country": "SV",
+        "name": "Santo Tom\u00e1s",
+        "lat": "13.64083",
+        "lng": "-89.13333"
+    },
+    {
+        "country": "SV",
+        "name": "Santiago Nonualco",
+        "lat": "13.51667",
+        "lng": "-88.95"
+    },
+    {
+        "country": "SV",
+        "name": "Santiago de Mar\u00eda",
+        "lat": "13.48333",
+        "lng": "-88.46667"
+    },
+    {
+        "country": "SV",
+        "name": "Santa Rosa de Lima",
+        "lat": "13.62472",
+        "lng": "-87.89361"
+    },
+    {
+        "country": "SV",
+        "name": "Santa Elena",
+        "lat": "13.38333",
+        "lng": "-88.41667"
+    },
+    {
+        "country": "SV",
+        "name": "Santa Ana",
+        "lat": "13.99417",
+        "lng": "-89.55972"
+    },
+    {
+        "country": "SV",
+        "name": "San Sebasti\u00e1n",
+        "lat": "13.73333",
+        "lng": "-88.83333"
+    },
+    {
+        "country": "SV",
+        "name": "San Salvador",
+        "lat": "13.68935",
+        "lng": "-89.18718"
+    },
+    {
+        "country": "SV",
+        "name": "San Rafael Oriente",
+        "lat": "13.38333",
+        "lng": "-88.35"
+    },
+    {
+        "country": "SV",
+        "name": "San Pedro Masahuat",
+        "lat": "13.54361",
+        "lng": "-89.03861"
+    },
+    {
+        "country": "SV",
+        "name": "San Pablo Tacachico",
+        "lat": "13.97556",
+        "lng": "-89.34"
+    },
+    {
+        "country": "SV",
+        "name": "San Miguel",
+        "lat": "13.48333",
+        "lng": "-88.18333"
+    },
+    {
+        "country": "SV",
+        "name": "San Mart\u00edn",
+        "lat": "13.78333",
+        "lng": "-88.91667"
+    },
+    {
+        "country": "SV",
+        "name": "San Marcos",
+        "lat": "13.65889",
+        "lng": "-89.18306"
+    },
+    {
+        "country": "SV",
+        "name": "San Juan Opico",
+        "lat": "13.87611",
+        "lng": "-89.35972"
+    },
+    {
+        "country": "SV",
+        "name": "San Francisco Men\u00e9ndez",
+        "lat": "13.84306",
+        "lng": "-90.01583"
+    },
+    {
+        "country": "SV",
+        "name": "San Francisco",
+        "lat": "13.7",
+        "lng": "-88.1"
+    },
+    {
+        "country": "SV",
+        "name": "San Antonio del Monte",
+        "lat": "13.71639",
+        "lng": "-89.73833"
+    },
+    {
+        "country": "SV",
+        "name": "San Alejo",
+        "lat": "13.43139",
+        "lng": "-87.96306"
+    },
+    {
+        "country": "SV",
+        "name": "San Agust\u00edn",
+        "lat": "13.43333",
+        "lng": "-88.6"
+    },
+    {
+        "country": "SV",
+        "name": "Rosario de Mora",
+        "lat": "13.57528",
+        "lng": "-89.20889"
+    },
+    {
+        "country": "SV",
+        "name": "Quezaltepeque",
+        "lat": "13.83124",
+        "lng": "-89.27221"
+    },
+    {
+        "country": "SV",
+        "name": "Puerto El Triunfo",
+        "lat": "13.28333",
+        "lng": "-88.55"
+    },
+    {
+        "country": "SV",
+        "name": "Pasaquina",
+        "lat": "13.58444",
+        "lng": "-87.84111"
+    },
+    {
+        "country": "SV",
+        "name": "Panchimalco",
+        "lat": "13.61278",
+        "lng": "-89.18"
+    },
+    {
+        "country": "SV",
+        "name": "Ozatl\u00e1n",
+        "lat": "13.38333",
+        "lng": "-88.5"
+    },
+    {
+        "country": "SV",
+        "name": "Olocuilta",
+        "lat": "13.56972",
+        "lng": "-89.11722"
+    },
+    {
+        "country": "SV",
+        "name": "Nuevo Cuscatl\u00e1n",
+        "lat": "13.64861",
+        "lng": "-89.26528"
+    },
+    {
+        "country": "SV",
+        "name": "Santa Tecla",
+        "lat": "13.67694",
+        "lng": "-89.27972"
+    },
+    {
+        "country": "SV",
+        "name": "Nueva Guadalupe",
+        "lat": "13.53333",
+        "lng": "-88.35"
+    },
+    {
+        "country": "SV",
+        "name": "Nueva Esparta",
+        "lat": "13.78361",
+        "lng": "-87.83861"
+    },
+    {
+        "country": "SV",
+        "name": "Nueva Concepci\u00f3n",
+        "lat": "14.13333",
+        "lng": "-89.3"
+    },
+    {
+        "country": "SV",
+        "name": "Nahuizalco",
+        "lat": "13.7775",
+        "lng": "-89.73667"
+    },
+    {
+        "country": "SV",
+        "name": "Moncagua",
+        "lat": "13.53333",
+        "lng": "-88.25"
+    },
+    {
+        "country": "SV",
+        "name": "Metap\u00e1n",
+        "lat": "14.33333",
+        "lng": "-89.45"
+    },
+    {
+        "country": "SV",
+        "name": "Mejicanos",
+        "lat": "13.74028",
+        "lng": "-89.21306"
+    },
+    {
+        "country": "SV",
+        "name": "Lolotique",
+        "lat": "13.55",
+        "lng": "-88.35"
+    },
+    {
+        "country": "SV",
+        "name": "La Uni\u00f3n",
+        "lat": "13.33694",
+        "lng": "-87.84389"
+    },
+    {
+        "country": "SV",
+        "name": "La Libertad",
+        "lat": "13.48833",
+        "lng": "-89.32222"
+    },
+    {
+        "country": "SV",
+        "name": "Jujutla",
+        "lat": "13.78694",
+        "lng": "-89.85722"
+    },
+    {
+        "country": "SV",
+        "name": "Jucuar\u00e1n",
+        "lat": "13.25389",
+        "lng": "-88.24778"
+    },
+    {
+        "country": "SV",
+        "name": "Jucuapa",
+        "lat": "13.51667",
+        "lng": "-88.38333"
+    },
+    {
+        "country": "SV",
+        "name": "Juay\u00faa",
+        "lat": "13.84139",
+        "lng": "-89.74556"
+    },
+    {
+        "country": "SV",
+        "name": "Jocoro",
+        "lat": "13.61667",
+        "lng": "-88.01667"
+    },
+    {
+        "country": "SV",
+        "name": "Jiquilisco",
+        "lat": "13.31667",
+        "lng": "-88.58333"
+    },
+    {
+        "country": "SV",
+        "name": "Izalco",
+        "lat": "13.74472",
+        "lng": "-89.67306"
+    },
+    {
+        "country": "SV",
+        "name": "Intipuc\u00e1",
+        "lat": "13.19694",
+        "lng": "-88.05444"
+    },
+    {
+        "country": "SV",
+        "name": "Ilopango",
+        "lat": "13.70167",
+        "lng": "-89.10944"
+    },
+    {
+        "country": "SV",
+        "name": "Guazapa",
+        "lat": "13.87694",
+        "lng": "-89.17306"
+    },
+    {
+        "country": "SV",
+        "name": "Guaymango",
+        "lat": "13.75028",
+        "lng": "-89.84222"
+    },
+    {
+        "country": "SV",
+        "name": "Guatajiagua",
+        "lat": "13.66667",
+        "lng": "-88.2"
+    },
+    {
+        "country": "SV",
+        "name": "El Tr\u00e1nsito",
+        "lat": "13.35",
+        "lng": "-88.35"
+    },
+    {
+        "country": "SV",
+        "name": "El Rosario",
+        "lat": "13.49778",
+        "lng": "-89.02972"
+    },
+    {
+        "country": "SV",
+        "name": "El Paisnal",
+        "lat": "13.97361",
+        "lng": "-89.21861"
+    },
+    {
+        "country": "SV",
+        "name": "El Congo",
+        "lat": "13.90889",
+        "lng": "-89.49583"
+    },
+    {
+        "country": "SV",
+        "name": "Delgado",
+        "lat": "13.72417",
+        "lng": "-89.17028"
+    },
+    {
+        "country": "SV",
+        "name": "Cuscatancingo",
+        "lat": "13.73611",
+        "lng": "-89.18139"
+    },
+    {
+        "country": "SV",
+        "name": "Corinto",
+        "lat": "13.81083",
+        "lng": "-87.97139"
+    },
+    {
+        "country": "SV",
+        "name": "Conchagua",
+        "lat": "13.30778",
+        "lng": "-87.86472"
+    },
+    {
+        "country": "SV",
+        "name": "Concepci\u00f3n de Ataco",
+        "lat": "13.87028",
+        "lng": "-89.84861"
+    },
+    {
+        "country": "SV",
+        "name": "Concepci\u00f3n Batres",
+        "lat": "13.35",
+        "lng": "-88.36667"
+    },
+    {
+        "country": "SV",
+        "name": "Cojutepeque",
+        "lat": "13.71667",
+        "lng": "-88.93333"
+    },
+    {
+        "country": "SV",
+        "name": "Coatepeque",
+        "lat": "13.92861",
+        "lng": "-89.50417"
+    },
+    {
+        "country": "SV",
+        "name": "Ciudad Barrios",
+        "lat": "13.76667",
+        "lng": "-88.26667"
+    },
+    {
+        "country": "SV",
+        "name": "Ciudad Arce",
+        "lat": "13.84028",
+        "lng": "-89.44722"
+    },
+    {
+        "country": "SV",
+        "name": "Chirilagua",
+        "lat": "13.22028",
+        "lng": "-88.13861"
+    },
+    {
+        "country": "SV",
+        "name": "Chinameca",
+        "lat": "13.5",
+        "lng": "-88.35"
+    },
+    {
+        "country": "SV",
+        "name": "Chapeltique",
+        "lat": "13.63333",
+        "lng": "-88.26667"
+    },
+    {
+        "country": "SV",
+        "name": "Chalchuapa",
+        "lat": "13.98667",
+        "lng": "-89.68111"
+    },
+    {
+        "country": "SV",
+        "name": "Chalatenango",
+        "lat": "14.03333",
+        "lng": "-88.93333"
+    },
+    {
+        "country": "SV",
+        "name": "Candelaria de La Frontera",
+        "lat": "14.11667",
+        "lng": "-89.65"
+    },
+    {
+        "country": "SV",
+        "name": "Cacaopera",
+        "lat": "13.76667",
+        "lng": "-88.08333"
+    },
+    {
+        "country": "SV",
+        "name": "Berl\u00edn",
+        "lat": "13.5",
+        "lng": "-88.53333"
+    },
+    {
+        "country": "SV",
+        "name": "Ayutuxtepeque",
+        "lat": "13.74556",
+        "lng": "-89.20639"
+    },
+    {
+        "country": "SV",
+        "name": "Atiquizaya",
+        "lat": "13.97694",
+        "lng": "-89.7525"
+    },
+    {
+        "country": "SV",
+        "name": "Armenia",
+        "lat": "13.74361",
+        "lng": "-89.49889"
+    },
+    {
+        "country": "SV",
+        "name": "Apopa",
+        "lat": "13.80722",
+        "lng": "-89.17917"
+    },
+    {
+        "country": "SV",
+        "name": "Apastepeque",
+        "lat": "13.66667",
+        "lng": "-88.78333"
+    },
+    {
+        "country": "SV",
+        "name": "Antiguo Cuscatl\u00e1n",
+        "lat": "13.66492",
+        "lng": "-89.25319"
+    },
+    {
+        "country": "SV",
+        "name": "Anamor\u00f3s",
+        "lat": "13.74056",
+        "lng": "-87.87361"
+    },
+    {
+        "country": "SV",
+        "name": "Ahuachap\u00e1n",
+        "lat": "13.92139",
+        "lng": "-89.845"
+    },
+    {
+        "country": "SV",
+        "name": "Aguilares",
+        "lat": "13.95722",
+        "lng": "-89.18972"
+    },
+    {
+        "country": "SV",
+        "name": "Acajutla",
+        "lat": "13.59278",
+        "lng": "-89.8275"
+    }
+]

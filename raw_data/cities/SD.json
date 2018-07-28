@@ -1,0 +1,434 @@
+[
+    {
+        "country": "SD",
+        "name": "Dongola",
+        "lat": "19.18163",
+        "lng": "30.47689"
+    },
+    {
+        "country": "SD",
+        "name": "Zalingei",
+        "lat": "12.90918",
+        "lng": "23.47058"
+    },
+    {
+        "country": "SD",
+        "name": "Wagar",
+        "lat": "16.1525",
+        "lng": "36.2032"
+    },
+    {
+        "country": "SD",
+        "name": "Wad Rawah",
+        "lat": "15.16028",
+        "lng": "33.13972"
+    },
+    {
+        "country": "SD",
+        "name": "Wad Medani",
+        "lat": "14.40118",
+        "lng": "33.51989"
+    },
+    {
+        "country": "SD",
+        "name": "Wad az Zaki",
+        "lat": "14.4619",
+        "lng": "32.2065"
+    },
+    {
+        "country": "SD",
+        "name": "Umm Ruwaba",
+        "lat": "12.9061",
+        "lng": "31.2158"
+    },
+    {
+        "country": "SD",
+        "name": "Umm Kaddadah",
+        "lat": "13.60169",
+        "lng": "26.68759"
+    },
+    {
+        "country": "SD",
+        "name": "Um Jar Al Gharbiyya",
+        "lat": "13.8013",
+        "lng": "32.4078"
+    },
+    {
+        "country": "SD",
+        "name": "Omdurman",
+        "lat": "15.64453",
+        "lng": "32.47773"
+    },
+    {
+        "country": "SD",
+        "name": "Tokar",
+        "lat": "18.4254",
+        "lng": "37.729"
+    },
+    {
+        "country": "SD",
+        "name": "Tandalti",
+        "lat": "13.01667",
+        "lng": "31.86667"
+    },
+    {
+        "country": "SD",
+        "name": "Talodi",
+        "lat": "10.63246",
+        "lng": "30.3797"
+    },
+    {
+        "country": "SD",
+        "name": "Singa",
+        "lat": "13.1483",
+        "lng": "33.93117"
+    },
+    {
+        "country": "SD",
+        "name": "Shendi",
+        "lat": "16.6915",
+        "lng": "33.4341"
+    },
+    {
+        "country": "SD",
+        "name": "Sawakin",
+        "lat": "19.1059",
+        "lng": "37.3321"
+    },
+    {
+        "country": "SD",
+        "name": "Sinnar",
+        "lat": "13.56907",
+        "lng": "33.56718"
+    },
+    {
+        "country": "SD",
+        "name": "Rabak",
+        "lat": "13.18087",
+        "lng": "32.73999"
+    },
+    {
+        "country": "SD",
+        "name": "Nyala",
+        "lat": "12.04888",
+        "lng": "24.88069"
+    },
+    {
+        "country": "SD",
+        "name": "Merowe",
+        "lat": "18.47036",
+        "lng": "31.81126"
+    },
+    {
+        "country": "SD",
+        "name": "Marabba",
+        "lat": "12.35",
+        "lng": "32.18333"
+    },
+    {
+        "country": "SD",
+        "name": "Maiurno",
+        "lat": "13.41667",
+        "lng": "33.66667"
+    },
+    {
+        "country": "SD",
+        "name": "Kutum",
+        "lat": "14.2",
+        "lng": "24.66667"
+    },
+    {
+        "country": "SD",
+        "name": "Kosti",
+        "lat": "13.1629",
+        "lng": "32.66347"
+    },
+    {
+        "country": "SD",
+        "name": "Kurmuk",
+        "lat": "10.55",
+        "lng": "34.28333"
+    },
+    {
+        "country": "SD",
+        "name": "Kuraymah",
+        "lat": "18.55",
+        "lng": "31.85"
+    },
+    {
+        "country": "SD",
+        "name": "Kinana",
+        "lat": "14.0361",
+        "lng": "33.1712"
+    },
+    {
+        "country": "SD",
+        "name": "Kassala",
+        "lat": "15.45099",
+        "lng": "36.39998"
+    },
+    {
+        "country": "SD",
+        "name": "Karmah an Nuzul",
+        "lat": "19.63333",
+        "lng": "30.41667"
+    },
+    {
+        "country": "SD",
+        "name": "Kadugli",
+        "lat": "11.01111",
+        "lng": "29.71833"
+    },
+    {
+        "country": "SD",
+        "name": "Gebeit",
+        "lat": "21.06667",
+        "lng": "36.31667"
+    },
+    {
+        "country": "SD",
+        "name": "Jalqani",
+        "lat": "12.4486",
+        "lng": "34.2186"
+    },
+    {
+        "country": "SD",
+        "name": "Doka",
+        "lat": "13.51667",
+        "lng": "35.76667"
+    },
+    {
+        "country": "SD",
+        "name": "Dilling",
+        "lat": "12.05",
+        "lng": "29.65"
+    },
+    {
+        "country": "SD",
+        "name": "Port Sudan",
+        "lat": "19.61745",
+        "lng": "37.21644"
+    },
+    {
+        "country": "SD",
+        "name": "Berber",
+        "lat": "18.02158",
+        "lng": "33.98299"
+    },
+    {
+        "country": "SD",
+        "name": "Barah",
+        "lat": "13.7",
+        "lng": "30.36667"
+    },
+    {
+        "country": "SD",
+        "name": "Atbara",
+        "lat": "17.70217",
+        "lng": "33.98638"
+    },
+    {
+        "country": "SD",
+        "name": "As Suki",
+        "lat": "13.31667",
+        "lng": "33.88333"
+    },
+    {
+        "country": "SD",
+        "name": "Ar Ruseris",
+        "lat": "11.8659",
+        "lng": "34.3869"
+    },
+    {
+        "country": "SD",
+        "name": "Ar Rahad",
+        "lat": "12.71667",
+        "lng": "30.65"
+    },
+    {
+        "country": "SD",
+        "name": "Aroma",
+        "lat": "15.81667",
+        "lng": "36.13333"
+    },
+    {
+        "country": "SD",
+        "name": "Argo",
+        "lat": "19.51667",
+        "lng": "30.41667"
+    },
+    {
+        "country": "SD",
+        "name": "An Nuhud",
+        "lat": "12.7",
+        "lng": "28.43333"
+    },
+    {
+        "country": "SD",
+        "name": "El Obeid",
+        "lat": "13.18421",
+        "lng": "30.21669"
+    },
+    {
+        "country": "SD",
+        "name": "Al Qitena",
+        "lat": "14.8648",
+        "lng": "32.3668"
+    },
+    {
+        "country": "SD",
+        "name": "Al Qadarif",
+        "lat": "14.03493",
+        "lng": "35.38344"
+    },
+    {
+        "country": "SD",
+        "name": "Al Masallamiyya",
+        "lat": "14.5748",
+        "lng": "33.3373"
+    },
+    {
+        "country": "SD",
+        "name": "Al Mijlad",
+        "lat": "11.03333",
+        "lng": "27.73333"
+    },
+    {
+        "country": "SD",
+        "name": "El Matama",
+        "lat": "16.7095",
+        "lng": "33.3565"
+    },
+    {
+        "country": "SD",
+        "name": "Al Manaqil",
+        "lat": "14.2459",
+        "lng": "32.9891"
+    },
+    {
+        "country": "SD",
+        "name": "Al Lagowa",
+        "lat": "11.4",
+        "lng": "29.13333"
+    },
+    {
+        "country": "SD",
+        "name": "Khartoum",
+        "lat": "15.55177",
+        "lng": "32.53241"
+    },
+    {
+        "country": "SD",
+        "name": "Al Kiremit al \u2018Arakiyyin",
+        "lat": "14.3476",
+        "lng": "32.9437"
+    },
+    {
+        "country": "SD",
+        "name": "Al Kawa",
+        "lat": "13.7463",
+        "lng": "32.4996"
+    },
+    {
+        "country": "SD",
+        "name": "Geneina",
+        "lat": "13.45262",
+        "lng": "22.44725"
+    },
+    {
+        "country": "SD",
+        "name": "Al Hilaliyya",
+        "lat": "14.9398",
+        "lng": "33.234"
+    },
+    {
+        "country": "SD",
+        "name": "Al ?awatah",
+        "lat": "13.41667",
+        "lng": "34.63333"
+    },
+    {
+        "country": "SD",
+        "name": "Al Hasaheisa",
+        "lat": "14.75264",
+        "lng": "33.29836"
+    },
+    {
+        "country": "SD",
+        "name": "Al Fulah",
+        "lat": "11.73292",
+        "lng": "28.35786"
+    },
+    {
+        "country": "SD",
+        "name": "El Fasher",
+        "lat": "13.62793",
+        "lng": "25.34936"
+    },
+    {
+        "country": "SD",
+        "name": "El Bauga",
+        "lat": "18.26197",
+        "lng": "33.90812"
+    },
+    {
+        "country": "SD",
+        "name": "Ad Douiem",
+        "lat": "14.0012",
+        "lng": "32.3116"
+    },
+    {
+        "country": "SD",
+        "name": "El Daein",
+        "lat": "11.46186",
+        "lng": "26.12583"
+    },
+    {
+        "country": "SD",
+        "name": "Ad Dindar",
+        "lat": "13.2",
+        "lng": "34.16667"
+    },
+    {
+        "country": "SD",
+        "name": "Ed Damer",
+        "lat": "17.59898",
+        "lng": "33.97205"
+    },
+    {
+        "country": "SD",
+        "name": "Ad-Damazin",
+        "lat": "11.7891",
+        "lng": "34.3592"
+    },
+    {
+        "country": "SD",
+        "name": "Ad Dabbah",
+        "lat": "18.05",
+        "lng": "30.95"
+    },
+    {
+        "country": "SD",
+        "name": "Abu Zabad",
+        "lat": "12.35",
+        "lng": "29.25"
+    },
+    {
+        "country": "SD",
+        "name": "Abu Jibeha",
+        "lat": "11.4562",
+        "lng": "31.2285"
+    },
+    {
+        "country": "SD",
+        "name": "Gereida",
+        "lat": "11.27543",
+        "lng": "25.14026"
+    },
+    {
+        "country": "SD",
+        "name": "El Fula",
+        "lat": "11.71195",
+        "lng": "28.3462"
+    }
+]

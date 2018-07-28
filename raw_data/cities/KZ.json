@@ -1,0 +1,1598 @@
+[
+    {
+        "country": "KZ",
+        "name": "Zhumysker",
+        "lat": "49.33333",
+        "lng": "49.4"
+    },
+    {
+        "country": "KZ",
+        "name": "Zhetibay",
+        "lat": "43.59417",
+        "lng": "52.07889"
+    },
+    {
+        "country": "KZ",
+        "name": "Zhanaozen",
+        "lat": "43.34116",
+        "lng": "52.86192"
+    },
+    {
+        "country": "KZ",
+        "name": "Temir",
+        "lat": "49.14132",
+        "lng": "57.12855"
+    },
+    {
+        "country": "KZ",
+        "name": "Taushyq",
+        "lat": "44.34678",
+        "lng": "51.34932"
+    },
+    {
+        "country": "KZ",
+        "name": "Shubarshi",
+        "lat": "48.58022",
+        "lng": "57.18289"
+    },
+    {
+        "country": "KZ",
+        "name": "Shubarkuduk",
+        "lat": "49.14391",
+        "lng": "56.48196"
+    },
+    {
+        "country": "KZ",
+        "name": "Shetpe",
+        "lat": "44.16667",
+        "lng": "52.11667"
+    },
+    {
+        "country": "KZ",
+        "name": "Shalqar",
+        "lat": "47.83333",
+        "lng": "59.6"
+    },
+    {
+        "country": "KZ",
+        "name": "Shalkar",
+        "lat": "48.03333",
+        "lng": "48.9"
+    },
+    {
+        "country": "KZ",
+        "name": "Say\u00f6tesh",
+        "lat": "44.32781",
+        "lng": "53.53246"
+    },
+    {
+        "country": "KZ",
+        "name": "Saykhin",
+        "lat": "48.85611",
+        "lng": "46.83361"
+    },
+    {
+        "country": "KZ",
+        "name": "Peremetnoe",
+        "lat": "51.19925",
+        "lng": "50.85544"
+    },
+    {
+        "country": "KZ",
+        "name": "Oral",
+        "lat": "51.23333",
+        "lng": "51.36667"
+    },
+    {
+        "country": "KZ",
+        "name": "Kandyagash",
+        "lat": "49.46912",
+        "lng": "57.41914"
+    },
+    {
+        "country": "KZ",
+        "name": "Munayshy",
+        "lat": "43.49111",
+        "lng": "52.10861"
+    },
+    {
+        "country": "KZ",
+        "name": "Miyaly",
+        "lat": "48.88504",
+        "lng": "53.79194"
+    },
+    {
+        "country": "KZ",
+        "name": "Martuk",
+        "lat": "50.74746",
+        "lng": "56.50611"
+    },
+    {
+        "country": "KZ",
+        "name": "Maqat",
+        "lat": "47.65",
+        "lng": "53.31667"
+    },
+    {
+        "country": "KZ",
+        "name": "Maloye Ganyushkino",
+        "lat": "46.6",
+        "lng": "49.26667"
+    },
+    {
+        "country": "KZ",
+        "name": "Makhambet",
+        "lat": "47.66667",
+        "lng": "51.58333"
+    },
+    {
+        "country": "KZ",
+        "name": "Qulsary",
+        "lat": "46.95307",
+        "lng": "54.01978"
+    },
+    {
+        "country": "KZ",
+        "name": "Krugloozernoe",
+        "lat": "51.07854",
+        "lng": "51.28992"
+    },
+    {
+        "country": "KZ",
+        "name": "Khromtau",
+        "lat": "50.25117",
+        "lng": "58.44003"
+    },
+    {
+        "country": "KZ",
+        "name": "Kaztalovka",
+        "lat": "49.76612",
+        "lng": "48.68903"
+    },
+    {
+        "country": "KZ",
+        "name": "Qaraton",
+        "lat": "46.43528",
+        "lng": "53.48639"
+    },
+    {
+        "country": "KZ",
+        "name": "Karagandy",
+        "lat": "49.83333",
+        "lng": "73.1658"
+    },
+    {
+        "country": "KZ",
+        "name": "Kamenka",
+        "lat": "51.11073",
+        "lng": "50.29454"
+    },
+    {
+        "country": "KZ",
+        "name": "Inderbor",
+        "lat": "48.55",
+        "lng": "51.78333"
+    },
+    {
+        "country": "KZ",
+        "name": "Fort-Shevchenko",
+        "lat": "44.50654",
+        "lng": "50.26388"
+    },
+    {
+        "country": "KZ",
+        "name": "Fedorovka",
+        "lat": "51.22102",
+        "lng": "51.95723"
+    },
+    {
+        "country": "KZ",
+        "name": "Yeraliyev",
+        "lat": "43.18032",
+        "lng": "51.68116"
+    },
+    {
+        "country": "KZ",
+        "name": "Embi",
+        "lat": "48.82981",
+        "lng": "58.15042"
+    },
+    {
+        "country": "KZ",
+        "name": "Zh\u00e4nibek",
+        "lat": "49.42207",
+        "lng": "46.84705"
+    },
+    {
+        "country": "KZ",
+        "name": "Dzhangala",
+        "lat": "49.21667",
+        "lng": "50.33333"
+    },
+    {
+        "country": "KZ",
+        "name": "Dzhambeyty",
+        "lat": "50.25676",
+        "lng": "52.59895"
+    },
+    {
+        "country": "KZ",
+        "name": "Dossor",
+        "lat": "47.52722",
+        "lng": "52.98111"
+    },
+    {
+        "country": "KZ",
+        "name": "Chingirlau",
+        "lat": "51.09878",
+        "lng": "54.08426"
+    },
+    {
+        "country": "KZ",
+        "name": "Chapaev",
+        "lat": "50.2",
+        "lng": "51.16667"
+    },
+    {
+        "country": "KZ",
+        "name": "Burlin",
+        "lat": "51.42724",
+        "lng": "52.71392"
+    },
+    {
+        "country": "KZ",
+        "name": "Beyneu",
+        "lat": "45.31667",
+        "lng": "55.2"
+    },
+    {
+        "country": "KZ",
+        "name": "Bayganin",
+        "lat": "48.68975",
+        "lng": "55.87512"
+    },
+    {
+        "country": "KZ",
+        "name": "Bayshonas",
+        "lat": "47.24139",
+        "lng": "52.94111"
+    },
+    {
+        "country": "KZ",
+        "name": "Bautino",
+        "lat": "44.54479",
+        "lng": "50.24629"
+    },
+    {
+        "country": "KZ",
+        "name": "Batamshinskiy",
+        "lat": "50.56022",
+        "lng": "58.27715"
+    },
+    {
+        "country": "KZ",
+        "name": "Balykshi",
+        "lat": "47.06667",
+        "lng": "51.86667"
+    },
+    {
+        "country": "KZ",
+        "name": "Atyrau",
+        "lat": "47.11667",
+        "lng": "51.88333"
+    },
+    {
+        "country": "KZ",
+        "name": "Aqt\u00f6be",
+        "lat": "50.27969",
+        "lng": "57.20718"
+    },
+    {
+        "country": "KZ",
+        "name": "Aktau",
+        "lat": "43.65",
+        "lng": "51.16667"
+    },
+    {
+        "country": "KZ",
+        "name": "Aqsay",
+        "lat": "51.1681",
+        "lng": "52.99782"
+    },
+    {
+        "country": "KZ",
+        "name": "Akkol\u2019",
+        "lat": "48.77177",
+        "lng": "53.1858"
+    },
+    {
+        "country": "KZ",
+        "name": "\u00d6mirzaq",
+        "lat": "43.59786",
+        "lng": "51.24171"
+    },
+    {
+        "country": "KZ",
+        "name": "Zyryanovsk",
+        "lat": "49.72654",
+        "lng": "84.27318"
+    },
+    {
+        "country": "KZ",
+        "name": "Zhosaly",
+        "lat": "45.48778",
+        "lng": "64.07806"
+    },
+    {
+        "country": "KZ",
+        "name": "Zholymbet",
+        "lat": "51.74211",
+        "lng": "71.71245"
+    },
+    {
+        "country": "KZ",
+        "name": "Zhezqazghan",
+        "lat": "47.78333",
+        "lng": "67.76667"
+    },
+    {
+        "country": "KZ",
+        "name": "Zhezkent",
+        "lat": "50.93112",
+        "lng": "81.3615"
+    },
+    {
+        "country": "KZ",
+        "name": "Dzhetygara",
+        "lat": "52.19019",
+        "lng": "61.19894"
+    },
+    {
+        "country": "KZ",
+        "name": "Zhelezinka",
+        "lat": "53.5388",
+        "lng": "75.31326"
+    },
+    {
+        "country": "KZ",
+        "name": "Zharyk",
+        "lat": "48.85692",
+        "lng": "72.83598"
+    },
+    {
+        "country": "KZ",
+        "name": "Zhangatas",
+        "lat": "43.56222",
+        "lng": "69.73428"
+    },
+    {
+        "country": "KZ",
+        "name": "Ayteke Bi",
+        "lat": "45.84607",
+        "lng": "62.15264"
+    },
+    {
+        "country": "KZ",
+        "name": "Taraz",
+        "lat": "42.9",
+        "lng": "71.36667"
+    },
+    {
+        "country": "KZ",
+        "name": "Zhalghyztobe",
+        "lat": "49.21094",
+        "lng": "81.21596"
+    },
+    {
+        "country": "KZ",
+        "name": "Zhaqsy",
+        "lat": "51.91058",
+        "lng": "67.31665"
+    },
+    {
+        "country": "KZ",
+        "name": "Zaysan",
+        "lat": "47.46657",
+        "lng": "84.87144"
+    },
+    {
+        "country": "KZ",
+        "name": "Yrghyz",
+        "lat": "48.61667",
+        "lng": "61.26667"
+    },
+    {
+        "country": "KZ",
+        "name": "Yavlenka",
+        "lat": "54.34525",
+        "lng": "68.4574"
+    },
+    {
+        "country": "KZ",
+        "name": "Yanykurgan",
+        "lat": "43.90652",
+        "lng": "67.24637"
+    },
+    {
+        "country": "KZ",
+        "name": "Volodarskoye",
+        "lat": "53.2927",
+        "lng": "68.105"
+    },
+    {
+        "country": "KZ",
+        "name": "Verkhniye Kayrakty",
+        "lat": "48.68333",
+        "lng": "73.28333"
+    },
+    {
+        "country": "KZ",
+        "name": "Turar Ryskulov",
+        "lat": "42.5334",
+        "lng": "70.3496"
+    },
+    {
+        "country": "KZ",
+        "name": "Ust\u2019-Talovka",
+        "lat": "50.54927",
+        "lng": "81.84997"
+    },
+    {
+        "country": "KZ",
+        "name": "Ush-Tyube",
+        "lat": "45.25201",
+        "lng": "77.98007"
+    },
+    {
+        "country": "KZ",
+        "name": "Urzhar",
+        "lat": "47.09302",
+        "lng": "81.62939"
+    },
+    {
+        "country": "KZ",
+        "name": "Turkestan",
+        "lat": "43.29733",
+        "lng": "68.25175"
+    },
+    {
+        "country": "KZ",
+        "name": "Turgen",
+        "lat": "43.40056",
+        "lng": "77.59333"
+    },
+    {
+        "country": "KZ",
+        "name": "Timiryazevo",
+        "lat": "53.74947",
+        "lng": "66.48852"
+    },
+    {
+        "country": "KZ",
+        "name": "Troyebratskiy",
+        "lat": "54.44306",
+        "lng": "66.07982"
+    },
+    {
+        "country": "KZ",
+        "name": "Torghay",
+        "lat": "49.63389",
+        "lng": "63.49806"
+    },
+    {
+        "country": "KZ",
+        "name": "Tokarevka",
+        "lat": "50.11573",
+        "lng": "73.16034"
+    },
+    {
+        "country": "KZ",
+        "name": "Tobol",
+        "lat": "52.69366",
+        "lng": "62.5914"
+    },
+    {
+        "country": "KZ",
+        "name": "Terenozek",
+        "lat": "45.05053",
+        "lng": "64.98395"
+    },
+    {
+        "country": "KZ",
+        "name": "Temirtau",
+        "lat": "50.05494",
+        "lng": "72.96464"
+    },
+    {
+        "country": "KZ",
+        "name": "Temirlanovka",
+        "lat": "42.59998",
+        "lng": "69.25836"
+    },
+    {
+        "country": "KZ",
+        "name": "Tekeli",
+        "lat": "44.83322",
+        "lng": "78.83089"
+    },
+    {
+        "country": "KZ",
+        "name": "Tasb\u00f6get",
+        "lat": "44.77384",
+        "lng": "65.55227"
+    },
+    {
+        "country": "KZ",
+        "name": "Taranovskoye",
+        "lat": "52.83554",
+        "lng": "62.52078"
+    },
+    {
+        "country": "KZ",
+        "name": "Talshik",
+        "lat": "53.63736",
+        "lng": "71.87404"
+    },
+    {
+        "country": "KZ",
+        "name": "Talghar",
+        "lat": "43.30348",
+        "lng": "77.24085"
+    },
+    {
+        "country": "KZ",
+        "name": "Taldykorgan",
+        "lat": "45.01556",
+        "lng": "78.37389"
+    },
+    {
+        "country": "KZ",
+        "name": "Taldyqorghan",
+        "lat": "45",
+        "lng": "77.91667"
+    },
+    {
+        "country": "KZ",
+        "name": "Suykbulak",
+        "lat": "49.70837",
+        "lng": "81.04854"
+    },
+    {
+        "country": "KZ",
+        "name": "Stepnyak",
+        "lat": "52.83489",
+        "lng": "70.78861"
+    },
+    {
+        "country": "KZ",
+        "name": "Smirnovo",
+        "lat": "54.5148",
+        "lng": "69.42732"
+    },
+    {
+        "country": "KZ",
+        "name": "Slavyanka",
+        "lat": "40.66338",
+        "lng": "68.5451"
+    },
+    {
+        "country": "KZ",
+        "name": "Shymkent",
+        "lat": "42.3",
+        "lng": "69.6"
+    },
+    {
+        "country": "KZ",
+        "name": "Chu",
+        "lat": "43.60334",
+        "lng": "73.75919"
+    },
+    {
+        "country": "KZ",
+        "name": "Shortandy",
+        "lat": "51.69946",
+        "lng": "70.99457"
+    },
+    {
+        "country": "KZ",
+        "name": "Shemonaikha",
+        "lat": "50.62811",
+        "lng": "81.91213"
+    },
+    {
+        "country": "KZ",
+        "name": "Shchuchinsk",
+        "lat": "52.93592",
+        "lng": "70.18895"
+    },
+    {
+        "country": "KZ",
+        "name": "Shar",
+        "lat": "49.5872",
+        "lng": "81.04883"
+    },
+    {
+        "country": "KZ",
+        "name": "Shantobe",
+        "lat": "52.45376",
+        "lng": "68.17475"
+    },
+    {
+        "country": "KZ",
+        "name": "Shakhtinsk",
+        "lat": "49.70885",
+        "lng": "72.59212"
+    },
+    {
+        "country": "KZ",
+        "name": "Shakhan",
+        "lat": "49.81958",
+        "lng": "72.65407"
+    },
+    {
+        "country": "KZ",
+        "name": "Sergeyevka",
+        "lat": "53.88139",
+        "lng": "67.40882"
+    },
+    {
+        "country": "KZ",
+        "name": "Semey",
+        "lat": "50.42675",
+        "lng": "80.26669"
+    },
+    {
+        "country": "KZ",
+        "name": "Sayaq",
+        "lat": "47",
+        "lng": "77.26667"
+    },
+    {
+        "country": "KZ",
+        "name": "Sastobe",
+        "lat": "42.5533",
+        "lng": "69.99835"
+    },
+    {
+        "country": "KZ",
+        "name": "Saryshaghan",
+        "lat": "46.11917",
+        "lng": "73.61917"
+    },
+    {
+        "country": "KZ",
+        "name": "Saryozek",
+        "lat": "44.36178",
+        "lng": "77.97279"
+    },
+    {
+        "country": "KZ",
+        "name": "Sarykamys",
+        "lat": "47.78333",
+        "lng": "78.71667"
+    },
+    {
+        "country": "KZ",
+        "name": "Saryaghash",
+        "lat": "41.46042",
+        "lng": "69.16791"
+    },
+    {
+        "country": "KZ",
+        "name": "Sarkand",
+        "lat": "45.41126",
+        "lng": "79.91545"
+    },
+    {
+        "country": "KZ",
+        "name": "Soran",
+        "lat": "49.7908",
+        "lng": "72.83744"
+    },
+    {
+        "country": "KZ",
+        "name": "Sekseuil",
+        "lat": "47.09",
+        "lng": "61.15194"
+    },
+    {
+        "country": "KZ",
+        "name": "Rudnyy",
+        "lat": "52.9729",
+        "lng": "63.11677"
+    },
+    {
+        "country": "KZ",
+        "name": "Kyzylorda",
+        "lat": "44.85278",
+        "lng": "65.50917"
+    },
+    {
+        "country": "KZ",
+        "name": "Qusmuryn",
+        "lat": "52.45107",
+        "lng": "64.61977"
+    },
+    {
+        "country": "KZ",
+        "name": "Kostanay",
+        "lat": "53.21435",
+        "lng": "63.62463"
+    },
+    {
+        "country": "KZ",
+        "name": "Qashar",
+        "lat": "53.36799",
+        "lng": "62.86839"
+    },
+    {
+        "country": "KZ",
+        "name": "Qarqaraly",
+        "lat": "49.41287",
+        "lng": "75.47286"
+    },
+    {
+        "country": "KZ",
+        "name": "Qarazhal",
+        "lat": "48.00627",
+        "lng": "70.79607"
+    },
+    {
+        "country": "KZ",
+        "name": "Qarauyl",
+        "lat": "48.94509",
+        "lng": "79.25502"
+    },
+    {
+        "country": "KZ",
+        "name": "Karatau",
+        "lat": "43.17869",
+        "lng": "70.46768"
+    },
+    {
+        "country": "KZ",
+        "name": "Kapshagay",
+        "lat": "43.86681",
+        "lng": "77.06304"
+    },
+    {
+        "country": "KZ",
+        "name": "Tughyl",
+        "lat": "47.72521",
+        "lng": "84.20629"
+    },
+    {
+        "country": "KZ",
+        "name": "Petropavl",
+        "lat": "54.86667",
+        "lng": "69.15"
+    },
+    {
+        "country": "KZ",
+        "name": "Pervorosiyskiy",
+        "lat": "49.7165",
+        "lng": "83.8492"
+    },
+    {
+        "country": "KZ",
+        "name": "Pervomayka",
+        "lat": "43.37361",
+        "lng": "76.94"
+    },
+    {
+        "country": "KZ",
+        "name": "Pavlodar",
+        "lat": "52.28333",
+        "lng": "76.96667"
+    },
+    {
+        "country": "KZ",
+        "name": "Zharkent",
+        "lat": "44.1666",
+        "lng": "80.00655"
+    },
+    {
+        "country": "KZ",
+        "name": "Oytal",
+        "lat": "42.90573",
+        "lng": "73.26972"
+    },
+    {
+        "country": "KZ",
+        "name": "Ust-Kamenogorsk",
+        "lat": "49.97143",
+        "lng": "82.60586"
+    },
+    {
+        "country": "KZ",
+        "name": "Osakarovka",
+        "lat": "50.56219",
+        "lng": "72.57089"
+    },
+    {
+        "country": "KZ",
+        "name": "Ordzhonikidze",
+        "lat": "52.44772",
+        "lng": "61.74942"
+    },
+    {
+        "country": "KZ",
+        "name": "Ognevka",
+        "lat": "49.68351",
+        "lng": "83.01674"
+    },
+    {
+        "country": "KZ",
+        "name": "Zhabagly",
+        "lat": "42.43781",
+        "lng": "70.47841"
+    },
+    {
+        "country": "KZ",
+        "name": "Novodolinskiy",
+        "lat": "49.7065",
+        "lng": "72.70807"
+    },
+    {
+        "country": "KZ",
+        "name": "Zhanga Buqtyrma",
+        "lat": "49.6295",
+        "lng": "83.52475"
+    },
+    {
+        "country": "KZ",
+        "name": "Narynkol",
+        "lat": "42.72636",
+        "lng": "80.17495"
+    },
+    {
+        "country": "KZ",
+        "name": "Mynaral",
+        "lat": "45.41611",
+        "lng": "73.68444"
+    },
+    {
+        "country": "KZ",
+        "name": "Moyynty",
+        "lat": "47.22111",
+        "lng": "73.36694"
+    },
+    {
+        "country": "KZ",
+        "name": "Kurchatov",
+        "lat": "50.75617",
+        "lng": "78.54188"
+    },
+    {
+        "country": "KZ",
+        "name": "Mikhaylovka",
+        "lat": "43",
+        "lng": "71.5"
+    },
+    {
+        "country": "KZ",
+        "name": "Merke",
+        "lat": "42.86976",
+        "lng": "73.18463"
+    },
+    {
+        "country": "KZ",
+        "name": "Mayqayyng",
+        "lat": "51.45981",
+        "lng": "75.80232"
+    },
+    {
+        "country": "KZ",
+        "name": "Matay",
+        "lat": "45.895",
+        "lng": "78.71806"
+    },
+    {
+        "country": "KZ",
+        "name": "Makinsk",
+        "lat": "52.6329",
+        "lng": "70.41911"
+    },
+    {
+        "country": "KZ",
+        "name": "Lugovoye",
+        "lat": "42.9101",
+        "lng": "72.72066"
+    },
+    {
+        "country": "KZ",
+        "name": "Lugovoy",
+        "lat": "42.94197",
+        "lng": "72.76098"
+    },
+    {
+        "country": "KZ",
+        "name": "Lisakovsk",
+        "lat": "52.54707",
+        "lng": "62.49987"
+    },
+    {
+        "country": "KZ",
+        "name": "Lepsy",
+        "lat": "46.235",
+        "lng": "78.94556"
+    },
+    {
+        "country": "KZ",
+        "name": "Leninskoye",
+        "lat": "41.7564",
+        "lng": "69.3839"
+    },
+    {
+        "country": "KZ",
+        "name": "Leninskiy",
+        "lat": "52.25346",
+        "lng": "76.78211"
+    },
+    {
+        "country": "KZ",
+        "name": "Baikonur",
+        "lat": "45.61667",
+        "lng": "63.31667"
+    },
+    {
+        "country": "KZ",
+        "name": "Ridder",
+        "lat": "50.34413",
+        "lng": "83.51287"
+    },
+    {
+        "country": "KZ",
+        "name": "Lenger",
+        "lat": "42.18152",
+        "lng": "69.88582"
+    },
+    {
+        "country": "KZ",
+        "name": "Kzyltu",
+        "lat": "53.63589",
+        "lng": "72.34079"
+    },
+    {
+        "country": "KZ",
+        "name": "Kyzylzhar",
+        "lat": "49.98197",
+        "lng": "72.60761"
+    },
+    {
+        "country": "KZ",
+        "name": "Kushoky",
+        "lat": "50.23091",
+        "lng": "73.40146"
+    },
+    {
+        "country": "KZ",
+        "name": "Kurchum",
+        "lat": "48.56603",
+        "lng": "83.66146"
+    },
+    {
+        "country": "KZ",
+        "name": "Egindik\u00f6l",
+        "lat": "51.05412",
+        "lng": "69.47928"
+    },
+    {
+        "country": "KZ",
+        "name": "Krasnogorskiy",
+        "lat": "52.2456",
+        "lng": "66.52081"
+    },
+    {
+        "country": "KZ",
+        "name": "Taiynsha",
+        "lat": "53.84796",
+        "lng": "69.76773"
+    },
+    {
+        "country": "KZ",
+        "name": "Kokshetau",
+        "lat": "53.28333",
+        "lng": "69.4"
+    },
+    {
+        "country": "KZ",
+        "name": "Komsomolets",
+        "lat": "53.75019",
+        "lng": "62.0584"
+    },
+    {
+        "country": "KZ",
+        "name": "Kokterek",
+        "lat": "42.49442",
+        "lng": "70.25478"
+    },
+    {
+        "country": "KZ",
+        "name": "Koktal",
+        "lat": "49.65",
+        "lng": "73.51667"
+    },
+    {
+        "country": "KZ",
+        "name": "Kokpekty",
+        "lat": "48.75",
+        "lng": "82.4"
+    },
+    {
+        "country": "KZ",
+        "name": "Kievka",
+        "lat": "50.26212",
+        "lng": "71.54839"
+    },
+    {
+        "country": "KZ",
+        "name": "Balpyk Bi",
+        "lat": "44.90225",
+        "lng": "78.23157"
+    },
+    {
+        "country": "KZ",
+        "name": "Asyqata",
+        "lat": "40.8946",
+        "lng": "68.3643"
+    },
+    {
+        "country": "KZ",
+        "name": "Khantau",
+        "lat": "44.22744",
+        "lng": "73.79555"
+    },
+    {
+        "country": "KZ",
+        "name": "Kentau",
+        "lat": "43.51672",
+        "lng": "68.50463"
+    },
+    {
+        "country": "KZ",
+        "name": "Kegen",
+        "lat": "43.02143",
+        "lng": "79.22055"
+    },
+    {
+        "country": "KZ",
+        "name": "Qazaly",
+        "lat": "45.76278",
+        "lng": "62.1075"
+    },
+    {
+        "country": "KZ",
+        "name": "Karasu",
+        "lat": "52.65995",
+        "lng": "65.48421"
+    },
+    {
+        "country": "KZ",
+        "name": "Karabas",
+        "lat": "46.53333",
+        "lng": "76.2"
+    },
+    {
+        "country": "KZ",
+        "name": "Kantagi",
+        "lat": "43.52786",
+        "lng": "68.58287"
+    },
+    {
+        "country": "KZ",
+        "name": "Kalkaman",
+        "lat": "51.95349",
+        "lng": "76.02723"
+    },
+    {
+        "country": "KZ",
+        "name": "Qashyr",
+        "lat": "53.06649",
+        "lng": "76.10489"
+    },
+    {
+        "country": "KZ",
+        "name": "Esik",
+        "lat": "43.3552",
+        "lng": "77.45245"
+    },
+    {
+        "country": "KZ",
+        "name": "Irtyshsk",
+        "lat": "53.33365",
+        "lng": "75.45775"
+    },
+    {
+        "country": "KZ",
+        "name": "Atakent",
+        "lat": "40.84782",
+        "lng": "68.50643"
+    },
+    {
+        "country": "KZ",
+        "name": "Granitogorsk",
+        "lat": "42.744",
+        "lng": "73.46848"
+    },
+    {
+        "country": "KZ",
+        "name": "Glubokoye",
+        "lat": "50.13887",
+        "lng": "82.31114"
+    },
+    {
+        "country": "KZ",
+        "name": "Georgiyevka",
+        "lat": "43.03882",
+        "lng": "74.71287"
+    },
+    {
+        "country": "KZ",
+        "name": "Georgievka",
+        "lat": "49.32671",
+        "lng": "81.57373"
+    },
+    {
+        "country": "KZ",
+        "name": "Moyynkum",
+        "lat": "44.28461",
+        "lng": "72.9392"
+    },
+    {
+        "country": "KZ",
+        "name": "Fyodorovka",
+        "lat": "53.63809",
+        "lng": "62.69653"
+    },
+    {
+        "country": "KZ",
+        "name": "Esil",
+        "lat": "51.95495",
+        "lng": "66.40841"
+    },
+    {
+        "country": "KZ",
+        "name": "Aksu",
+        "lat": "52.04023",
+        "lng": "76.92748"
+    },
+    {
+        "country": "KZ",
+        "name": "Yermentau",
+        "lat": "51.62364",
+        "lng": "73.10265"
+    },
+    {
+        "country": "KZ",
+        "name": "Otegen Batyra",
+        "lat": "43.41949",
+        "lng": "77.0202"
+    },
+    {
+        "country": "KZ",
+        "name": "Ekibastuz",
+        "lat": "51.72371",
+        "lng": "75.32287"
+    },
+    {
+        "country": "KZ",
+        "name": "Zhambyl",
+        "lat": "47.20694",
+        "lng": "71.39694"
+    },
+    {
+        "country": "KZ",
+        "name": "Dzhalagash",
+        "lat": "45.08333",
+        "lng": "64.66667"
+    },
+    {
+        "country": "KZ",
+        "name": "Druzhba",
+        "lat": "45.25332",
+        "lng": "82.48044"
+    },
+    {
+        "country": "KZ",
+        "name": "Dolinka",
+        "lat": "49.67685",
+        "lng": "72.67822"
+    },
+    {
+        "country": "KZ",
+        "name": "Derzhavinsk",
+        "lat": "51.09922",
+        "lng": "66.31557"
+    },
+    {
+        "country": "KZ",
+        "name": "Chulakkurgan",
+        "lat": "43.76453",
+        "lng": "69.17856"
+    },
+    {
+        "country": "KZ",
+        "name": "Shieli",
+        "lat": "44.16882",
+        "lng": "66.73887"
+    },
+    {
+        "country": "KZ",
+        "name": "Chayan",
+        "lat": "43.03399",
+        "lng": "69.38048"
+    },
+    {
+        "country": "KZ",
+        "name": "Chardara",
+        "lat": "41.25832",
+        "lng": "67.96991"
+    },
+    {
+        "country": "KZ",
+        "name": "Burunday",
+        "lat": "43.35567",
+        "lng": "76.85477"
+    },
+    {
+        "country": "KZ",
+        "name": "Bulayevo",
+        "lat": "54.90596",
+        "lng": "70.44155"
+    },
+    {
+        "country": "KZ",
+        "name": "Borovskoy",
+        "lat": "53.7927",
+        "lng": "64.18268"
+    },
+    {
+        "country": "KZ",
+        "name": "Burabay",
+        "lat": "53.08382",
+        "lng": "70.31379"
+    },
+    {
+        "country": "KZ",
+        "name": "Borodulikha",
+        "lat": "50.71841",
+        "lng": "80.9295"
+    },
+    {
+        "country": "KZ",
+        "name": "Priisk Boko",
+        "lat": "49.06028",
+        "lng": "81.64528"
+    },
+    {
+        "country": "KZ",
+        "name": "Bishkul",
+        "lat": "54.77763",
+        "lng": "69.09951"
+    },
+    {
+        "country": "KZ",
+        "name": "Bestobe",
+        "lat": "52.49795",
+        "lng": "73.09592"
+    },
+    {
+        "country": "KZ",
+        "name": "Belyye Vody",
+        "lat": "42.42193",
+        "lng": "69.82709"
+    },
+    {
+        "country": "KZ",
+        "name": "Belousovka",
+        "lat": "50.13287",
+        "lng": "82.52481"
+    },
+    {
+        "country": "KZ",
+        "name": "Belogor\u2019ye",
+        "lat": "51.52983",
+        "lng": "77.47146"
+    },
+    {
+        "country": "KZ",
+        "name": "Belogorskiy",
+        "lat": "49.47698",
+        "lng": "83.14803"
+    },
+    {
+        "country": "KZ",
+        "name": "Bayzhansay",
+        "lat": "43.16708",
+        "lng": "69.91459"
+    },
+    {
+        "country": "KZ",
+        "name": "Bayanaul",
+        "lat": "50.79304",
+        "lng": "75.70123"
+    },
+    {
+        "country": "KZ",
+        "name": "Qogham",
+        "lat": "42.82774",
+        "lng": "68.28074"
+    },
+    {
+        "country": "KZ",
+        "name": "Balqash",
+        "lat": "46.84806",
+        "lng": "74.995"
+    },
+    {
+        "country": "KZ",
+        "name": "Balkashino",
+        "lat": "52.51779",
+        "lng": "68.7516"
+    },
+    {
+        "country": "KZ",
+        "name": "Bakanas",
+        "lat": "44.80838",
+        "lng": "76.27214"
+    },
+    {
+        "country": "KZ",
+        "name": "Ayagoz",
+        "lat": "47.96447",
+        "lng": "80.43437"
+    },
+    {
+        "country": "KZ",
+        "name": "Auezov",
+        "lat": "49.71003",
+        "lng": "81.58018"
+    },
+    {
+        "country": "KZ",
+        "name": "Atbasar",
+        "lat": "51.80652",
+        "lng": "68.35996"
+    },
+    {
+        "country": "KZ",
+        "name": "Atasu",
+        "lat": "48.68659",
+        "lng": "71.64469"
+    },
+    {
+        "country": "KZ",
+        "name": "Asubulaq",
+        "lat": "49.55688",
+        "lng": "83.06355"
+    },
+    {
+        "country": "KZ",
+        "name": "Astrakhan",
+        "lat": "51.53092",
+        "lng": "69.79684"
+    },
+    {
+        "country": "KZ",
+        "name": "Ashchysay",
+        "lat": "43.5537",
+        "lng": "68.89792"
+    },
+    {
+        "country": "KZ",
+        "name": "Arys",
+        "lat": "42.43015",
+        "lng": "68.8087"
+    },
+    {
+        "country": "KZ",
+        "name": "Arkalyk",
+        "lat": "50.24915",
+        "lng": "66.92027"
+    },
+    {
+        "country": "KZ",
+        "name": "Aral",
+        "lat": "46.8",
+        "lng": "61.66667"
+    },
+    {
+        "country": "KZ",
+        "name": "Aqtoghay",
+        "lat": "46.95",
+        "lng": "79.66667"
+    },
+    {
+        "country": "KZ",
+        "name": "Aktau",
+        "lat": "50.23466",
+        "lng": "73.06662"
+    },
+    {
+        "country": "KZ",
+        "name": "Aksu",
+        "lat": "52.44422",
+        "lng": "71.95761"
+    },
+    {
+        "country": "KZ",
+        "name": "Aqshatau",
+        "lat": "47.98917",
+        "lng": "74.0575"
+    },
+    {
+        "country": "KZ",
+        "name": "Astana",
+        "lat": "51.1801",
+        "lng": "71.44598"
+    },
+    {
+        "country": "KZ",
+        "name": "Aqadyr",
+        "lat": "48.26014",
+        "lng": "72.85851"
+    },
+    {
+        "country": "KZ",
+        "name": "Almaty",
+        "lat": "43.25667",
+        "lng": "76.92861"
+    },
+    {
+        "country": "KZ",
+        "name": "Aqk\u00f6l",
+        "lat": "51.99374",
+        "lng": "70.94704"
+    },
+    {
+        "country": "KZ",
+        "name": "Prigorodnoye",
+        "lat": "49.69244",
+        "lng": "75.58438"
+    },
+    {
+        "country": "KZ",
+        "name": "Aktogay",
+        "lat": "48.16667",
+        "lng": "75.3"
+    },
+    {
+        "country": "KZ",
+        "name": "Aktau",
+        "lat": "48.03333",
+        "lng": "72.83333"
+    },
+    {
+        "country": "KZ",
+        "name": "Aktas",
+        "lat": "49.77952",
+        "lng": "72.96128"
+    },
+    {
+        "country": "KZ",
+        "name": "Aksu-Ayuly",
+        "lat": "48.76788",
+        "lng": "73.67272"
+    },
+    {
+        "country": "KZ",
+        "name": "Aksuat",
+        "lat": "48.71667",
+        "lng": "83.7"
+    },
+    {
+        "country": "KZ",
+        "name": "Akkol\u2019",
+        "lat": "53.29617",
+        "lng": "69.59997"
+    },
+    {
+        "country": "KZ",
+        "name": "Aqbaqay",
+        "lat": "45",
+        "lng": "72.78333"
+    },
+    {
+        "country": "KZ",
+        "name": "Abay",
+        "lat": "49.63575",
+        "lng": "72.86164"
+    },
+    {
+        "country": "KZ",
+        "name": "Shalqiya",
+        "lat": "44.00947",
+        "lng": "67.41062"
+    },
+    {
+        "country": "KZ",
+        "name": "Birlestik",
+        "lat": "53.58414",
+        "lng": "68.35382"
+    },
+    {
+        "country": "KZ",
+        "name": "Maleyevsk",
+        "lat": "49.81441",
+        "lng": "84.29102"
+    },
+    {
+        "country": "KZ",
+        "name": "Belk\u00f6l",
+        "lat": "44.81162",
+        "lng": "65.58796"
+    },
+    {
+        "country": "KZ",
+        "name": "Novoishimskiy",
+        "lat": "53.19806",
+        "lng": "66.76944"
+    },
+    {
+        "country": "KZ",
+        "name": "Shashubay",
+        "lat": "46.81694",
+        "lng": "75.04028"
+    },
+    {
+        "country": "KZ",
+        "name": "Shyghanaq",
+        "lat": "44.83056",
+        "lng": "70.00194"
+    },
+    {
+        "country": "KZ",
+        "name": "Shubark\u00f6l",
+        "lat": "48.88222",
+        "lng": "68.80722"
+    },
+    {
+        "country": "KZ",
+        "name": "Stepnogorsk",
+        "lat": "52.35062",
+        "lng": "71.88161"
+    },
+    {
+        "country": "KZ",
+        "name": "Zavodskoy",
+        "lat": "52.47031",
+        "lng": "72.01514"
+    },
+    {
+        "country": "KZ",
+        "name": "\u00dclken",
+        "lat": "45.21194",
+        "lng": "73.97861"
+    },
+    {
+        "country": "KZ",
+        "name": "Altayskiy",
+        "lat": "50.24593",
+        "lng": "82.36252"
+    },
+    {
+        "country": "KZ",
+        "name": "Chemolgan",
+        "lat": "43.37633",
+        "lng": "76.62456"
+    },
+    {
+        "country": "KZ",
+        "name": "Priozersk",
+        "lat": "46.03106",
+        "lng": "73.70247"
+    },
+    {
+        "country": "KZ",
+        "name": "Tyuratam",
+        "lat": "45.65005",
+        "lng": "63.31163"
+    },
+    {
+        "country": "KZ",
+        "name": "Kyzyl-Orda",
+        "lat": "44.8479",
+        "lng": "65.49989"
+    }
+]

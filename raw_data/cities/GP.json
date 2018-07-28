@@ -1,0 +1,152 @@
+[
+    {
+        "country": "GP",
+        "name": "Vieux-Habitants",
+        "lat": "16.05866",
+        "lng": "-61.76667"
+    },
+    {
+        "country": "GP",
+        "name": "Trois-Rivi\u00e8res",
+        "lat": "15.97595",
+        "lng": "-61.64492"
+    },
+    {
+        "country": "GP",
+        "name": "Petites Anses",
+        "lat": "15.84993",
+        "lng": "-61.64457"
+    },
+    {
+        "country": "GP",
+        "name": "Saint-Fran\u00e7ois",
+        "lat": "16.25236",
+        "lng": "-61.27332"
+    },
+    {
+        "country": "GP",
+        "name": "Sainte-Rose",
+        "lat": "16.33264",
+        "lng": "-61.6969"
+    },
+    {
+        "country": "GP",
+        "name": "Sainte-Anne",
+        "lat": "16.22564",
+        "lng": "-61.38098"
+    },
+    {
+        "country": "GP",
+        "name": "Saint-Claude",
+        "lat": "16.02515",
+        "lng": "-61.69975"
+    },
+    {
+        "country": "GP",
+        "name": "Port-Louis",
+        "lat": "16.41749",
+        "lng": "-61.53045"
+    },
+    {
+        "country": "GP",
+        "name": "Pointe-Noire",
+        "lat": "16.23218",
+        "lng": "-61.78917"
+    },
+    {
+        "country": "GP",
+        "name": "Pointe-\u00e0-Pitre",
+        "lat": "16.24125",
+        "lng": "-61.53614"
+    },
+    {
+        "country": "GP",
+        "name": "Petit-Canal",
+        "lat": "16.37913",
+        "lng": "-61.48716"
+    },
+    {
+        "country": "GP",
+        "name": "Petit-Bourg",
+        "lat": "16.19163",
+        "lng": "-61.5914"
+    },
+    {
+        "country": "GP",
+        "name": "Les Abymes",
+        "lat": "16.273",
+        "lng": "-61.50507"
+    },
+    {
+        "country": "GP",
+        "name": "Le Moule",
+        "lat": "16.33164",
+        "lng": "-61.34656"
+    },
+    {
+        "country": "GP",
+        "name": "Le Gosier",
+        "lat": "16.20618",
+        "lng": "-61.49306"
+    },
+    {
+        "country": "GP",
+        "name": "Lamentin",
+        "lat": "16.27047",
+        "lng": "-61.63166"
+    },
+    {
+        "country": "GP",
+        "name": "Beaus\u00e9jour",
+        "lat": "16.30413",
+        "lng": "-61.07375"
+    },
+    {
+        "country": "GP",
+        "name": "Grand-Bourg",
+        "lat": "15.88402",
+        "lng": "-61.3148"
+    },
+    {
+        "country": "GP",
+        "name": "Gourbeyre",
+        "lat": "15.99454",
+        "lng": "-61.69203"
+    },
+    {
+        "country": "GP",
+        "name": "Capesterre-Belle-Eau",
+        "lat": "16.04495",
+        "lng": "-61.56425"
+    },
+    {
+        "country": "GP",
+        "name": "Bouillante",
+        "lat": "16.13043",
+        "lng": "-61.76895"
+    },
+    {
+        "country": "GP",
+        "name": "Basse-Terre",
+        "lat": "15.99714",
+        "lng": "-61.73214"
+    },
+    {
+        "country": "GP",
+        "name": "Baillif",
+        "lat": "16.02037",
+        "lng": "-61.74611"
+    },
+    {
+        "country": "GP",
+        "name": "Baie-Mahault",
+        "lat": "16.26738",
+        "lng": "-61.58543"
+    },
+    {
+        "country": "GP",
+        "name": "Anse-Bertrand",
+        "lat": "16.47239",
+        "lng": "-61.50739"
+    }
+]

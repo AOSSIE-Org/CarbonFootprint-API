@@ -1,0 +1,230 @@
+[
+    {
+        "country": "AO",
+        "name": "Saurimo",
+        "lat": "-9.66078",
+        "lng": "20.39155"
+    },
+    {
+        "country": "AO",
+        "name": "Lucapa",
+        "lat": "-8.41915",
+        "lng": "20.74466"
+    },
+    {
+        "country": "AO",
+        "name": "Lumeje",
+        "lat": "-11.55",
+        "lng": "20.78333"
+    },
+    {
+        "country": "AO",
+        "name": "Luau",
+        "lat": "-10.70727",
+        "lng": "22.22466"
+    },
+    {
+        "country": "AO",
+        "name": "L\u00e9ua",
+        "lat": "-11.65",
+        "lng": "20.45"
+    },
+    {
+        "country": "AO",
+        "name": "Cazaji",
+        "lat": "-11.06715",
+        "lng": "20.70148"
+    },
+    {
+        "country": "AO",
+        "name": "U\u00edge",
+        "lat": "-7.60874",
+        "lng": "15.06131"
+    },
+    {
+        "country": "AO",
+        "name": "Soio",
+        "lat": "-6.1349",
+        "lng": "12.36894"
+    },
+    {
+        "country": "AO",
+        "name": "N'zeto",
+        "lat": "-7.23116",
+        "lng": "12.8666"
+    },
+    {
+        "country": "AO",
+        "name": "N\u2019dalatando",
+        "lat": "-9.29782",
+        "lng": "14.91162"
+    },
+    {
+        "country": "AO",
+        "name": "Mbanza Congo",
+        "lat": "-6.26703",
+        "lng": "14.2401"
+    },
+    {
+        "country": "AO",
+        "name": "Malanje",
+        "lat": "-9.54015",
+        "lng": "16.34096"
+    },
+    {
+        "country": "AO",
+        "name": "Luanda",
+        "lat": "-8.83682",
+        "lng": "13.23432"
+    },
+    {
+        "country": "AO",
+        "name": "Caxito",
+        "lat": "-8.57848",
+        "lng": "13.66425"
+    },
+    {
+        "country": "AO",
+        "name": "Camabatela",
+        "lat": "-8.18812",
+        "lng": "15.37495"
+    },
+    {
+        "country": "AO",
+        "name": "Cabinda",
+        "lat": "-5.55",
+        "lng": "12.2"
+    },
+    {
+        "country": "AO",
+        "name": "Uacu Cungo",
+        "lat": "-11.35669",
+        "lng": "15.11719"
+    },
+    {
+        "country": "AO",
+        "name": "Sumbe",
+        "lat": "-11.20605",
+        "lng": "13.84371"
+    },
+    {
+        "country": "AO",
+        "name": "Quibala",
+        "lat": "-10.73366",
+        "lng": "14.97995"
+    },
+    {
+        "country": "AO",
+        "name": "Ondjiva",
+        "lat": "-17.06667",
+        "lng": "15.73333"
+    },
+    {
+        "country": "AO",
+        "name": "Namibe",
+        "lat": "-15.19611",
+        "lng": "12.15222"
+    },
+    {
+        "country": "AO",
+        "name": "Menongue",
+        "lat": "-14.6585",
+        "lng": "17.69099"
+    },
+    {
+        "country": "AO",
+        "name": "Luena",
+        "lat": "-11.78333",
+        "lng": "19.91667"
+    },
+    {
+        "country": "AO",
+        "name": "Lubango",
+        "lat": "-14.91717",
+        "lng": "13.4925"
+    },
+    {
+        "country": "AO",
+        "name": "Longonjo",
+        "lat": "-12.90667",
+        "lng": "15.25333"
+    },
+    {
+        "country": "AO",
+        "name": "Lobito",
+        "lat": "-12.3644",
+        "lng": "13.53601"
+    },
+    {
+        "country": "AO",
+        "name": "Cuito",
+        "lat": "-12.38333",
+        "lng": "16.93333"
+    },
+    {
+        "country": "AO",
+        "name": "Huambo",
+        "lat": "-12.77611",
+        "lng": "15.73917"
+    },
+    {
+        "country": "AO",
+        "name": "Chissamba",
+        "lat": "-12.16667",
+        "lng": "17.33333"
+    },
+    {
+        "country": "AO",
+        "name": "Catumbela",
+        "lat": "-12.43002",
+        "lng": "13.54677"
+    },
+    {
+        "country": "AO",
+        "name": "Catabola",
+        "lat": "-12.15",
+        "lng": "17.28333"
+    },
+    {
+        "country": "AO",
+        "name": "Camacupa",
+        "lat": "-12.01667",
+        "lng": "17.48333"
+    },
+    {
+        "country": "AO",
+        "name": "Caluquembe",
+        "lat": "-13.78333",
+        "lng": "14.68333"
+    },
+    {
+        "country": "AO",
+        "name": "Caconda",
+        "lat": "-13.73333",
+        "lng": "15.06667"
+    },
+    {
+        "country": "AO",
+        "name": "Ca\u00e1la",
+        "lat": "-12.8525",
+        "lng": "15.56056"
+    },
+    {
+        "country": "AO",
+        "name": "Benguela",
+        "lat": "-12.57626",
+        "lng": "13.40547"
+    },
+    {
+        "country": "AO",
+        "name": "Chela",
+        "lat": "-12.30261",
+        "lng": "15.43358"
+    },
+    {
+        "country": "AO",
+        "name": "Chinjenje",
+        "lat": "-12.93244",
+        "lng": "14.99238"
+    }
+]

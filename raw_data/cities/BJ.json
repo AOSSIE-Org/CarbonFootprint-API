@@ -1,0 +1,218 @@
+[
+    {
+        "country": "BJ",
+        "name": "Zagnanado",
+        "lat": "7.22097",
+        "lng": "2.38335"
+    },
+    {
+        "country": "BJ",
+        "name": "Tchaourou",
+        "lat": "8.88649",
+        "lng": "2.59753"
+    },
+    {
+        "country": "BJ",
+        "name": "Tangui\u00e9ta",
+        "lat": "10.62118",
+        "lng": "1.26651"
+    },
+    {
+        "country": "BJ",
+        "name": "Sav\u00e9",
+        "lat": "8.03424",
+        "lng": "2.4866"
+    },
+    {
+        "country": "BJ",
+        "name": "Savalou",
+        "lat": "7.92807",
+        "lng": "1.97558"
+    },
+    {
+        "country": "BJ",
+        "name": "Sak\u00e9t\u00e9",
+        "lat": "6.73618",
+        "lng": "2.65866"
+    },
+    {
+        "country": "BJ",
+        "name": "Porto-Novo",
+        "lat": "6.49646",
+        "lng": "2.60359"
+    },
+    {
+        "country": "BJ",
+        "name": "Pob\u00e9",
+        "lat": "6.98008",
+        "lng": "2.6649"
+    },
+    {
+        "country": "BJ",
+        "name": "Parakou",
+        "lat": "9.33716",
+        "lng": "2.63031"
+    },
+    {
+        "country": "BJ",
+        "name": "Ouidah",
+        "lat": "6.36307",
+        "lng": "2.08506"
+    },
+    {
+        "country": "BJ",
+        "name": "Nikki",
+        "lat": "9.94009",
+        "lng": "3.21075"
+    },
+    {
+        "country": "BJ",
+        "name": "Natitingou",
+        "lat": "10.30416",
+        "lng": "1.37962"
+    },
+    {
+        "country": "BJ",
+        "name": "Malanville",
+        "lat": "11.86819",
+        "lng": "3.38327"
+    },
+    {
+        "country": "BJ",
+        "name": "Lokossa",
+        "lat": "6.63869",
+        "lng": "1.71674"
+    },
+    {
+        "country": "BJ",
+        "name": "K\u00e9tou",
+        "lat": "7.36332",
+        "lng": "2.59978"
+    },
+    {
+        "country": "BJ",
+        "name": "Kandi",
+        "lat": "11.13417",
+        "lng": "2.93861"
+    },
+    {
+        "country": "BJ",
+        "name": "Hinvi",
+        "lat": "6.76667",
+        "lng": "2.16667"
+    },
+    {
+        "country": "BJ",
+        "name": "H\u00e9vi\u00e9",
+        "lat": "6.41667",
+        "lng": "2.25"
+    },
+    {
+        "country": "BJ",
+        "name": "Guilmaro",
+        "lat": "10.56583",
+        "lng": "1.72444"
+    },
+    {
+        "country": "BJ",
+        "name": "Grand-Popo",
+        "lat": "6.28036",
+        "lng": "1.82251"
+    },
+    {
+        "country": "BJ",
+        "name": "Dogbo",
+        "lat": "6.79911",
+        "lng": "1.78073"
+    },
+    {
+        "country": "BJ",
+        "name": "Djougou",
+        "lat": "9.70853",
+        "lng": "1.66598"
+    },
+    {
+        "country": "BJ",
+        "name": "Dassa-Zoum\u00e9",
+        "lat": "7.75",
+        "lng": "2.18333"
+    },
+    {
+        "country": "BJ",
+        "name": "Cov\u00e9",
+        "lat": "7.22097",
+        "lng": "2.34017"
+    },
+    {
+        "country": "BJ",
+        "name": "Cotonou",
+        "lat": "6.36536",
+        "lng": "2.41833"
+    },
+    {
+        "country": "BJ",
+        "name": "Com\u00e9",
+        "lat": "6.40764",
+        "lng": "1.88198"
+    },
+    {
+        "country": "BJ",
+        "name": "Bohicon",
+        "lat": "7.17826",
+        "lng": "2.0667"
+    },
+    {
+        "country": "BJ",
+        "name": "B\u00e9t\u00e9rou",
+        "lat": "9.19916",
+        "lng": "2.25855"
+    },
+    {
+        "country": "BJ",
+        "name": "Bemb\u00e8r\u00e8k\u00e8",
+        "lat": "10.22827",
+        "lng": "2.66335"
+    },
+    {
+        "country": "BJ",
+        "name": "Bassila",
+        "lat": "9.00814",
+        "lng": "1.6654"
+    },
+    {
+        "country": "BJ",
+        "name": "Banikoara",
+        "lat": "11.29845",
+        "lng": "2.43856"
+    },
+    {
+        "country": "BJ",
+        "name": "Aplahou\u00e9",
+        "lat": "6.93333",
+        "lng": "1.68333"
+    },
+    {
+        "country": "BJ",
+        "name": "Allada",
+        "lat": "6.66547",
+        "lng": "2.15138"
+    },
+    {
+        "country": "BJ",
+        "name": "Abomey-Calavi",
+        "lat": "6.44852",
+        "lng": "2.35566"
+    },
+    {
+        "country": "BJ",
+        "name": "Abomey",
+        "lat": "7.18286",
+        "lng": "1.99119"
+    },
+    {
+        "country": "BJ",
+        "name": "Houinvigue",
+        "lat": "6.8862",
+        "lng": "2.4806"
+    }
+]

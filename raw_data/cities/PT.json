@@ -1,0 +1,3728 @@
+[
+    {
+        "country": "PT",
+        "name": "Vila Vi\u00e7osa",
+        "lat": "38.7777",
+        "lng": "-7.41793"
+    },
+    {
+        "country": "PT",
+        "name": "Vila Real de Santo Ant\u00f3nio",
+        "lat": "37.195",
+        "lng": "-7.41766"
+    },
+    {
+        "country": "PT",
+        "name": "Vila Nova de Milfontes",
+        "lat": "37.72377",
+        "lng": "-8.78278"
+    },
+    {
+        "country": "PT",
+        "name": "Vila Nova da Barquinha",
+        "lat": "39.45",
+        "lng": "-8.43333"
+    },
+    {
+        "country": "PT",
+        "name": "Vila Franca de Xira",
+        "lat": "38.95525",
+        "lng": "-8.98966"
+    },
+    {
+        "country": "PT",
+        "name": "Vila Flor",
+        "lat": "41.30904",
+        "lng": "-7.15378"
+    },
+    {
+        "country": "PT",
+        "name": "Vila do Bispo",
+        "lat": "37.08317",
+        "lng": "-8.91144"
+    },
+    {
+        "country": "PT",
+        "name": "Vila de Rei",
+        "lat": "39.67604",
+        "lng": "-8.14577"
+    },
+    {
+        "country": "PT",
+        "name": "Vila Baleira",
+        "lat": "33.05919",
+        "lng": "-16.33371"
+    },
+    {
+        "country": "PT",
+        "name": "Vieira de Leiria",
+        "lat": "39.86945",
+        "lng": "-8.93238"
+    },
+    {
+        "country": "PT",
+        "name": "Vidigueira",
+        "lat": "38.20995",
+        "lng": "-7.8005"
+    },
+    {
+        "country": "PT",
+        "name": "Viana do Alentejo",
+        "lat": "38.33458",
+        "lng": "-8.0044"
+    },
+    {
+        "country": "PT",
+        "name": "Vialonga",
+        "lat": "38.87206",
+        "lng": "-9.07805"
+    },
+    {
+        "country": "PT",
+        "name": "Ventosa",
+        "lat": "39.12696",
+        "lng": "-9.08423"
+    },
+    {
+        "country": "PT",
+        "name": "Vendas Novas",
+        "lat": "38.67706",
+        "lng": "-8.45792"
+    },
+    {
+        "country": "PT",
+        "name": "Venda do Pinheiro",
+        "lat": "38.92365",
+        "lng": "-9.23178"
+    },
+    {
+        "country": "PT",
+        "name": "Vale da Amoreira",
+        "lat": "39.06969",
+        "lng": "-7.69849"
+    },
+    {
+        "country": "PT",
+        "name": "Urra",
+        "lat": "39.2283",
+        "lng": "-7.39856"
+    },
+    {
+        "country": "PT",
+        "name": "Unhos",
+        "lat": "38.81958",
+        "lng": "-9.12007"
+    },
+    {
+        "country": "PT",
+        "name": "Turquel",
+        "lat": "39.46411",
+        "lng": "-8.97743"
+    },
+    {
+        "country": "PT",
+        "name": "Tunes",
+        "lat": "37.16592",
+        "lng": "-8.25919"
+    },
+    {
+        "country": "PT",
+        "name": "Tramagal",
+        "lat": "39.45",
+        "lng": "-8.25"
+    },
+    {
+        "country": "PT",
+        "name": "Trafaria",
+        "lat": "38.67222",
+        "lng": "-9.23268"
+    },
+    {
+        "country": "PT",
+        "name": "Torres Vedras",
+        "lat": "39.09109",
+        "lng": "-9.2586"
+    },
+    {
+        "country": "PT",
+        "name": "Torres Novas",
+        "lat": "39.48114",
+        "lng": "-8.53949"
+    },
+    {
+        "country": "PT",
+        "name": "Tomar",
+        "lat": "39.60199",
+        "lng": "-8.40924"
+    },
+    {
+        "country": "PT",
+        "name": "Terrugem",
+        "lat": "38.70647",
+        "lng": "-9.28693"
+    },
+    {
+        "country": "PT",
+        "name": "Tavira",
+        "lat": "37.12734",
+        "lng": "-7.64861"
+    },
+    {
+        "country": "PT",
+        "name": "Souto da Carpalhosa",
+        "lat": "39.84569",
+        "lng": "-8.82332"
+    },
+    {
+        "country": "PT",
+        "name": "Sobreda",
+        "lat": "38.64961",
+        "lng": "-9.18977"
+    },
+    {
+        "country": "PT",
+        "name": "Sobralinho",
+        "lat": "38.91703",
+        "lng": "-9.02656"
+    },
+    {
+        "country": "PT",
+        "name": "Sobral de Monte Agra\u00e7o",
+        "lat": "39.01958",
+        "lng": "-9.15081"
+    },
+    {
+        "country": "PT",
+        "name": "Sintra",
+        "lat": "38.80097",
+        "lng": "-9.37826"
+    },
+    {
+        "country": "PT",
+        "name": "Sines",
+        "lat": "37.95622",
+        "lng": "-8.86979"
+    },
+    {
+        "country": "PT",
+        "name": "Silves",
+        "lat": "37.18921",
+        "lng": "-8.43822"
+    },
+    {
+        "country": "PT",
+        "name": "Silveira",
+        "lat": "39.1112",
+        "lng": "-9.3643"
+    },
+    {
+        "country": "PT",
+        "name": "Sesimbra",
+        "lat": "38.44451",
+        "lng": "-9.10149"
+    },
+    {
+        "country": "PT",
+        "name": "Set\u00fabal",
+        "lat": "38.5244",
+        "lng": "-8.8882"
+    },
+    {
+        "country": "PT",
+        "name": "Sert\u00e3",
+        "lat": "39.80846",
+        "lng": "-8.09883"
+    },
+    {
+        "country": "PT",
+        "name": "Serpa",
+        "lat": "37.94581",
+        "lng": "-7.59754"
+    },
+    {
+        "country": "PT",
+        "name": "Senhora da Luz",
+        "lat": "37.08771",
+        "lng": "-8.72649"
+    },
+    {
+        "country": "PT",
+        "name": "Seixal",
+        "lat": "38.64008",
+        "lng": "-9.10141"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Vicente",
+        "lat": "32.79673",
+        "lng": "-17.04323"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Teot\u00f3nio",
+        "lat": "37.51282",
+        "lng": "-8.70708"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Roque",
+        "lat": "32.66667",
+        "lng": "-16.91667"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Pedro da Cadeira",
+        "lat": "39.06983",
+        "lng": "-9.37174"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Martinho do Porto",
+        "lat": "39.51444",
+        "lng": "-9.13111"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Marcos da Serra",
+        "lat": "37.361",
+        "lng": "-8.37764"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Juli\u00e3o",
+        "lat": "39.32268",
+        "lng": "-7.31106"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Jo\u00e3o dos Montes",
+        "lat": "38.93944",
+        "lng": "-9.01892"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Jo\u00e3o da Talha",
+        "lat": "38.82378",
+        "lng": "-9.09719"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Jo\u00e3o das Lampas",
+        "lat": "38.87376",
+        "lng": "-9.39842"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Domingos de Rana",
+        "lat": "38.70123",
+        "lng": "-9.3276"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Br\u00e1s de Alportel",
+        "lat": "37.1531",
+        "lng": "-7.88751"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Bartolomeu de Messines",
+        "lat": "37.25648",
+        "lng": "-8.28672"
+    },
+    {
+        "country": "PT",
+        "name": "Santo Ant\u00f3nio da Charneca",
+        "lat": "38.62561",
+        "lng": "-9.03043"
+    },
+    {
+        "country": "PT",
+        "name": "Santo Ant\u00e3o do Tojal",
+        "lat": "38.85151",
+        "lng": "-9.13975"
+    },
+    {
+        "country": "PT",
+        "name": "Santo Andr\u00e9",
+        "lat": "39.05532",
+        "lng": "-8.24414"
+    },
+    {
+        "country": "PT",
+        "name": "Santo Andr\u00e9",
+        "lat": "38.06078",
+        "lng": "-8.7822"
+    },
+    {
+        "country": "PT",
+        "name": "Santiago do Cac\u00e9m",
+        "lat": "38.01693",
+        "lng": "-8.69475"
+    },
+    {
+        "country": "PT",
+        "name": "Santar\u00e9m",
+        "lat": "39.23333",
+        "lng": "-8.68333"
+    },
+    {
+        "country": "PT",
+        "name": "Santana",
+        "lat": "32.8",
+        "lng": "-16.88333"
+    },
+    {
+        "country": "PT",
+        "name": "Santa Luzia",
+        "lat": "37.10224",
+        "lng": "-7.66202"
+    },
+    {
+        "country": "PT",
+        "name": "Santa Iria da Az\u00f3ia",
+        "lat": "38.84629",
+        "lng": "-9.08748"
+    },
+    {
+        "country": "PT",
+        "name": "Santa Cruz",
+        "lat": "32.68333",
+        "lng": "-16.8"
+    },
+    {
+        "country": "PT",
+        "name": "Santa Catarina da Serra",
+        "lat": "39.6796",
+        "lng": "-8.68679"
+    },
+    {
+        "country": "PT",
+        "name": "Santa B\u00e1rbara de Nexe",
+        "lat": "37.10619",
+        "lng": "-7.96648"
+    },
+    {
+        "country": "PT",
+        "name": "Samora Correia",
+        "lat": "38.93709",
+        "lng": "-8.87178"
+    },
+    {
+        "country": "PT",
+        "name": "Salvaterra de Magos",
+        "lat": "39.02788",
+        "lng": "-8.7935"
+    },
+    {
+        "country": "PT",
+        "name": "Sagres",
+        "lat": "37.00864",
+        "lng": "-8.94311"
+    },
+    {
+        "country": "PT",
+        "name": "Sacav\u00e9m",
+        "lat": "38.79202",
+        "lng": "-9.10801"
+    },
+    {
+        "country": "PT",
+        "name": "Rio Maior",
+        "lat": "39.33732",
+        "lng": "-8.93906"
+    },
+    {
+        "country": "PT",
+        "name": "Rio de Mouro",
+        "lat": "38.77457",
+        "lng": "-9.3276"
+    },
+    {
+        "country": "PT",
+        "name": "Ribeira Brava",
+        "lat": "32.67756",
+        "lng": "-17.06667"
+    },
+    {
+        "country": "PT",
+        "name": "Riachos",
+        "lat": "39.44472",
+        "lng": "-8.5142"
+    },
+    {
+        "country": "PT",
+        "name": "Reguengos de Monsaraz",
+        "lat": "38.42529",
+        "lng": "-7.53494"
+    },
+    {
+        "country": "PT",
+        "name": "Reguengo",
+        "lat": "39.29801",
+        "lng": "-7.39234"
+    },
+    {
+        "country": "PT",
+        "name": "Redondo",
+        "lat": "38.64872",
+        "lng": "-7.54708"
+    },
+    {
+        "country": "PT",
+        "name": "Ramada",
+        "lat": "38.80235",
+        "lng": "-9.19216"
+    },
+    {
+        "country": "PT",
+        "name": "Quinta do Anjo",
+        "lat": "38.56753",
+        "lng": "-8.94228"
+    },
+    {
+        "country": "PT",
+        "name": "Queluz",
+        "lat": "38.75657",
+        "lng": "-9.25451"
+    },
+    {
+        "country": "PT",
+        "name": "Quejas",
+        "lat": "38.72236",
+        "lng": "-9.26593"
+    },
+    {
+        "country": "PT",
+        "name": "Quarteira",
+        "lat": "37.06946",
+        "lng": "-8.10064"
+    },
+    {
+        "country": "PT",
+        "name": "Proen\u00e7a-a-Nova",
+        "lat": "39.7522",
+        "lng": "-7.9239"
+    },
+    {
+        "country": "PT",
+        "name": "Pragal",
+        "lat": "38.67459",
+        "lng": "-9.16981"
+    },
+    {
+        "country": "PT",
+        "name": "P\u00f3voa e Meadas",
+        "lat": "39.51046",
+        "lng": "-7.51765"
+    },
+    {
+        "country": "PT",
+        "name": "P\u00f3voa de Santo Adri\u00e3o",
+        "lat": "38.8",
+        "lng": "-9.16667"
+    },
+    {
+        "country": "PT",
+        "name": "P\u00f3voa de Santa Iria",
+        "lat": "38.86101",
+        "lng": "-9.06453"
+    },
+    {
+        "country": "PT",
+        "name": "Porto Salvo",
+        "lat": "38.71745",
+        "lng": "-9.29833"
+    },
+    {
+        "country": "PT",
+        "name": "Porto Moniz",
+        "lat": "32.86681",
+        "lng": "-17.16667"
+    },
+    {
+        "country": "PT",
+        "name": "Porto de M\u00f3s",
+        "lat": "39.60191",
+        "lng": "-8.81839"
+    },
+    {
+        "country": "PT",
+        "name": "Porto Covo",
+        "lat": "37.85256",
+        "lng": "-8.79018"
+    },
+    {
+        "country": "PT",
+        "name": "Portim\u00e3o",
+        "lat": "37.13856",
+        "lng": "-8.53775"
+    },
+    {
+        "country": "PT",
+        "name": "Portel",
+        "lat": "38.30697",
+        "lng": "-7.70244"
+    },
+    {
+        "country": "PT",
+        "name": "Portalegre",
+        "lat": "39.29379",
+        "lng": "-7.43122"
+    },
+    {
+        "country": "PT",
+        "name": "Pontinha",
+        "lat": "38.76771",
+        "lng": "-9.19935"
+    },
+    {
+        "country": "PT",
+        "name": "Pont\u00e9vel",
+        "lat": "39.14945",
+        "lng": "-8.8388"
+    },
+    {
+        "country": "PT",
+        "name": "Ponte de S\u00f4r",
+        "lat": "39.24964",
+        "lng": "-8.01009"
+    },
+    {
+        "country": "PT",
+        "name": "Ponta do Sol",
+        "lat": "32.6798",
+        "lng": "-17.1"
+    },
+    {
+        "country": "PT",
+        "name": "Pombal",
+        "lat": "39.91674",
+        "lng": "-8.62847"
+    },
+    {
+        "country": "PT",
+        "name": "Poceir\u00e3o",
+        "lat": "38.83095",
+        "lng": "-8.79365"
+    },
+    {
+        "country": "PT",
+        "name": "Pinhal Novo",
+        "lat": "38.63106",
+        "lng": "-8.91376"
+    },
+    {
+        "country": "PT",
+        "name": "Piedade",
+        "lat": "38.67005",
+        "lng": "-9.15852"
+    },
+    {
+        "country": "PT",
+        "name": "Pero Pinheiro",
+        "lat": "38.85783",
+        "lng": "-9.32352"
+    },
+    {
+        "country": "PT",
+        "name": "Peniche",
+        "lat": "39.3558",
+        "lng": "-9.38112"
+    },
+    {
+        "country": "PT",
+        "name": "Pedr\u00f3g\u00e3o Grande",
+        "lat": "39.91835",
+        "lng": "-8.1459"
+    },
+    {
+        "country": "PT",
+        "name": "Pataias",
+        "lat": "39.66978",
+        "lng": "-8.9958"
+    },
+    {
+        "country": "PT",
+        "name": "Parede",
+        "lat": "38.69282",
+        "lng": "-9.35412"
+    },
+    {
+        "country": "PT",
+        "name": "Palmela",
+        "lat": "38.56902",
+        "lng": "-8.90126"
+    },
+    {
+        "country": "PT",
+        "name": "Paderne",
+        "lat": "37.17935",
+        "lng": "-8.2015"
+    },
+    {
+        "country": "PT",
+        "name": "Pa\u00e7o de Arcos",
+        "lat": "38.69569",
+        "lng": "-9.29143"
+    },
+    {
+        "country": "PT",
+        "name": "Ourique",
+        "lat": "37.6539",
+        "lng": "-8.22569"
+    },
+    {
+        "country": "PT",
+        "name": "Our\u00e9m",
+        "lat": "39.64167",
+        "lng": "-8.5919"
+    },
+    {
+        "country": "PT",
+        "name": "Olival do Basto",
+        "lat": "38.79079",
+        "lng": "-9.16621"
+    },
+    {
+        "country": "PT",
+        "name": "Olhos de \u00c1gua",
+        "lat": "37.09024",
+        "lng": "-8.19168"
+    },
+    {
+        "country": "PT",
+        "name": "Olh\u00e3o",
+        "lat": "37.0286",
+        "lng": "-7.8411"
+    },
+    {
+        "country": "PT",
+        "name": "Oleiros",
+        "lat": "39.91893",
+        "lng": "-7.9137"
+    },
+    {
+        "country": "PT",
+        "name": "Oeiras",
+        "lat": "38.69105",
+        "lng": "-9.31085"
+    },
+    {
+        "country": "PT",
+        "name": "Odivelas",
+        "lat": "38.79269",
+        "lng": "-9.1838"
+    },
+    {
+        "country": "PT",
+        "name": "Odemira",
+        "lat": "37.59798",
+        "lng": "-8.63972"
+    },
+    {
+        "country": "PT",
+        "name": "\u00d3bidos",
+        "lat": "39.36055",
+        "lng": "-9.1567"
+    },
+    {
+        "country": "PT",
+        "name": "Nossa Senhora do Monte",
+        "lat": "32.66667",
+        "lng": "-16.9"
+    },
+    {
+        "country": "PT",
+        "name": "Nisa",
+        "lat": "39.51499",
+        "lng": "-7.64908"
+    },
+    {
+        "country": "PT",
+        "name": "Nazar\u00e9",
+        "lat": "39.60289",
+        "lng": "-9.06836"
+    },
+    {
+        "country": "PT",
+        "name": "Mour\u00e3o",
+        "lat": "38.38356",
+        "lng": "-7.34189"
+    },
+    {
+        "country": "PT",
+        "name": "Moura",
+        "lat": "38.1401",
+        "lng": "-7.44856"
+    },
+    {
+        "country": "PT",
+        "name": "Moscavide",
+        "lat": "38.77929",
+        "lng": "-9.10222"
+    },
+    {
+        "country": "PT",
+        "name": "Mora",
+        "lat": "38.94351",
+        "lng": "-8.16434"
+    },
+    {
+        "country": "PT",
+        "name": "Montijo",
+        "lat": "38.70675",
+        "lng": "-8.97388"
+    },
+    {
+        "country": "PT",
+        "name": "Monte Redondo",
+        "lat": "39.8993",
+        "lng": "-8.83171"
+    },
+    {
+        "country": "PT",
+        "name": "Montemor-o-Novo",
+        "lat": "38.64812",
+        "lng": "-8.21455"
+    },
+    {
+        "country": "PT",
+        "name": "Monte Gordo",
+        "lat": "37.18192",
+        "lng": "-7.45225"
+    },
+    {
+        "country": "PT",
+        "name": "Monte Estoril",
+        "lat": "38.70279",
+        "lng": "-9.41606"
+    },
+    {
+        "country": "PT",
+        "name": "Monsanto",
+        "lat": "39.46203",
+        "lng": "-8.7118"
+    },
+    {
+        "country": "PT",
+        "name": "Monchique",
+        "lat": "37.31775",
+        "lng": "-8.55529"
+    },
+    {
+        "country": "PT",
+        "name": "Moncarapacho",
+        "lat": "37.0836",
+        "lng": "-7.78763"
+    },
+    {
+        "country": "PT",
+        "name": "Moita",
+        "lat": "38.65078",
+        "lng": "-8.99038"
+    },
+    {
+        "country": "PT",
+        "name": "Milharado",
+        "lat": "38.94732",
+        "lng": "-9.19914"
+    },
+    {
+        "country": "PT",
+        "name": "Mexilhoeira Grande",
+        "lat": "37.15858",
+        "lng": "-8.61487"
+    },
+    {
+        "country": "PT",
+        "name": "M\u00e9rtola",
+        "lat": "37.64304",
+        "lng": "-7.6611"
+    },
+    {
+        "country": "PT",
+        "name": "Marv\u00e3o",
+        "lat": "39.39377",
+        "lng": "-7.37663"
+    },
+    {
+        "country": "PT",
+        "name": "Marinhais",
+        "lat": "39.0473",
+        "lng": "-8.70236"
+    },
+    {
+        "country": "PT",
+        "name": "Marinha Grande",
+        "lat": "39.74769",
+        "lng": "-8.93228"
+    },
+    {
+        "country": "PT",
+        "name": "Malveira",
+        "lat": "38.93213",
+        "lng": "-9.25779"
+    },
+    {
+        "country": "PT",
+        "name": "Mafra",
+        "lat": "38.93793",
+        "lng": "-9.32756"
+    },
+    {
+        "country": "PT",
+        "name": "Machico",
+        "lat": "32.7162",
+        "lng": "-16.76758"
+    },
+    {
+        "country": "PT",
+        "name": "Maceira",
+        "lat": "39.68853",
+        "lng": "-8.89423"
+    },
+    {
+        "country": "PT",
+        "name": "Ma\u00e7\u00e3o",
+        "lat": "39.55573",
+        "lng": "-7.99421"
+    },
+    {
+        "country": "PT",
+        "name": "Luz",
+        "lat": "37.09216",
+        "lng": "-7.70433"
+    },
+    {
+        "country": "PT",
+        "name": "Lourinh\u00e3",
+        "lat": "39.24166",
+        "lng": "-9.31254"
+    },
+    {
+        "country": "PT",
+        "name": "Louri\u00e7al",
+        "lat": "40.0039",
+        "lng": "-8.73736"
+    },
+    {
+        "country": "PT",
+        "name": "Loures",
+        "lat": "38.83091",
+        "lng": "-9.16845"
+    },
+    {
+        "country": "PT",
+        "name": "Loul\u00e9",
+        "lat": "37.13772",
+        "lng": "-8.01968"
+    },
+    {
+        "country": "PT",
+        "name": "Lisbon",
+        "lat": "38.71667",
+        "lng": "-9.13333"
+    },
+    {
+        "country": "PT",
+        "name": "Linda-a-Velha",
+        "lat": "38.71446",
+        "lng": "-9.2422"
+    },
+    {
+        "country": "PT",
+        "name": "Leiria",
+        "lat": "39.74362",
+        "lng": "-8.80705"
+    },
+    {
+        "country": "PT",
+        "name": "Laranjeiro",
+        "lat": "37.06799",
+        "lng": "-7.8078"
+    },
+    {
+        "country": "PT",
+        "name": "Lagos",
+        "lat": "37.10202",
+        "lng": "-8.67422"
+    },
+    {
+        "country": "PT",
+        "name": "Lagoa",
+        "lat": "37.13535",
+        "lng": "-8.45319"
+    },
+    {
+        "country": "PT",
+        "name": "Idanha-a-Nova",
+        "lat": "39.92316",
+        "lng": "-7.24082"
+    },
+    {
+        "country": "PT",
+        "name": "Guia",
+        "lat": "37.12959",
+        "lng": "-8.29963"
+    },
+    {
+        "country": "PT",
+        "name": "Gr\u00e2ndola",
+        "lat": "38.17718",
+        "lng": "-8.56675"
+    },
+    {
+        "country": "PT",
+        "name": "Goleg\u00e3",
+        "lat": "39.40474",
+        "lng": "-8.48625"
+    },
+    {
+        "country": "PT",
+        "name": "Gavi\u00e3o",
+        "lat": "39.46443",
+        "lng": "-7.93449"
+    },
+    {
+        "country": "PT",
+        "name": "Fuzeta",
+        "lat": "37.05429",
+        "lng": "-7.74699"
+    },
+    {
+        "country": "PT",
+        "name": "Funchal",
+        "lat": "32.66568",
+        "lng": "-16.92547"
+    },
+    {
+        "country": "PT",
+        "name": "Fronteira",
+        "lat": "39.05629",
+        "lng": "-7.64868"
+    },
+    {
+        "country": "PT",
+        "name": "Fortios",
+        "lat": "39.32494",
+        "lng": "-7.50057"
+    },
+    {
+        "country": "PT",
+        "name": "Figueir\u00f3 dos Vinhos",
+        "lat": "39.90413",
+        "lng": "-8.27511"
+    },
+    {
+        "country": "PT",
+        "name": "Ferrel",
+        "lat": "39.36398",
+        "lng": "-9.31541"
+    },
+    {
+        "country": "PT",
+        "name": "Ferreiras",
+        "lat": "37.12926",
+        "lng": "-8.23759"
+    },
+    {
+        "country": "PT",
+        "name": "Ferreira do Z\u00eazere",
+        "lat": "39.69406",
+        "lng": "-8.29213"
+    },
+    {
+        "country": "PT",
+        "name": "Ferreira do Alentejo",
+        "lat": "38.05",
+        "lng": "-8.03333"
+    },
+    {
+        "country": "PT",
+        "name": "Ferragudo",
+        "lat": "37.12474",
+        "lng": "-8.51915"
+    },
+    {
+        "country": "PT",
+        "name": "Fazendas de Almeirim",
+        "lat": "39.17553",
+        "lng": "-8.56927"
+    },
+    {
+        "country": "PT",
+        "name": "F\u00e1tima",
+        "lat": "39.62071",
+        "lng": "-8.65237"
+    },
+    {
+        "country": "PT",
+        "name": "Faro",
+        "lat": "37.01937",
+        "lng": "-7.93223"
+    },
+    {
+        "country": "PT",
+        "name": "Fam\u00f5es",
+        "lat": "38.78804",
+        "lng": "-9.21033"
+    },
+    {
+        "country": "PT",
+        "name": "Faj\u00e3 da Ovelha",
+        "lat": "32.77457",
+        "lng": "-17.23412"
+    },
+    {
+        "country": "PT",
+        "name": "\u00c9vora",
+        "lat": "38.56667",
+        "lng": "-7.9"
+    },
+    {
+        "country": "PT",
+        "name": "Estremoz",
+        "lat": "38.84432",
+        "lng": "-7.58585"
+    },
+    {
+        "country": "PT",
+        "name": "Estreito da Calheta",
+        "lat": "32.73704",
+        "lng": "-17.18674"
+    },
+    {
+        "country": "PT",
+        "name": "Estoril",
+        "lat": "38.70571",
+        "lng": "-9.39773"
+    },
+    {
+        "country": "PT",
+        "name": "Est\u00f4mbar",
+        "lat": "37.14629",
+        "lng": "-8.48505"
+    },
+    {
+        "country": "PT",
+        "name": "Est\u00f3i",
+        "lat": "37.09503",
+        "lng": "-7.89445"
+    },
+    {
+        "country": "PT",
+        "name": "Ericeira",
+        "lat": "38.96275",
+        "lng": "-9.41563"
+    },
+    {
+        "country": "PT",
+        "name": "Entroncamento",
+        "lat": "39.46667",
+        "lng": "-8.46667"
+    },
+    {
+        "country": "PT",
+        "name": "Elvas",
+        "lat": "38.8815",
+        "lng": "-7.16282"
+    },
+    {
+        "country": "PT",
+        "name": "Curral das Freiras",
+        "lat": "32.72029",
+        "lng": "-16.96993"
+    },
+    {
+        "country": "PT",
+        "name": "Cuba",
+        "lat": "38.16544",
+        "lng": "-7.8924"
+    },
+    {
+        "country": "PT",
+        "name": "Costa de Caparica",
+        "lat": "38.64458",
+        "lng": "-9.23556"
+    },
+    {
+        "country": "PT",
+        "name": "Coruche",
+        "lat": "38.95955",
+        "lng": "-8.52524"
+    },
+    {
+        "country": "PT",
+        "name": "Corroios",
+        "lat": "38.64004",
+        "lng": "-9.1508"
+    },
+    {
+        "country": "PT",
+        "name": "Const\u00e2ncia",
+        "lat": "39.46667",
+        "lng": "-8.33333"
+    },
+    {
+        "country": "PT",
+        "name": "Concei\u00e7\u00e3o",
+        "lat": "37.14789",
+        "lng": "-7.60426"
+    },
+    {
+        "country": "PT",
+        "name": "Colares",
+        "lat": "38.79921",
+        "lng": "-9.44691"
+    },
+    {
+        "country": "PT",
+        "name": "Charneca",
+        "lat": "38.62059",
+        "lng": "-9.19149"
+    },
+    {
+        "country": "PT",
+        "name": "Cercal",
+        "lat": "37.80601",
+        "lng": "-8.67153"
+    },
+    {
+        "country": "PT",
+        "name": "Caxias",
+        "lat": "38.70314",
+        "lng": "-9.27666"
+    },
+    {
+        "country": "PT",
+        "name": "Castro Verde",
+        "lat": "37.69828",
+        "lng": "-8.08581"
+    },
+    {
+        "country": "PT",
+        "name": "Castro Marim",
+        "lat": "37.22068",
+        "lng": "-7.4435"
+    },
+    {
+        "country": "PT",
+        "name": "Castelo de Vide",
+        "lat": "39.41624",
+        "lng": "-7.4568"
+    },
+    {
+        "country": "PT",
+        "name": "Castelo Branco",
+        "lat": "39.82219",
+        "lng": "-7.49087"
+    },
+    {
+        "country": "PT",
+        "name": "Castanheira do Ribatejo",
+        "lat": "38.99298",
+        "lng": "-8.97346"
+    },
+    {
+        "country": "PT",
+        "name": "Castanheira de P\u00eara",
+        "lat": "40.00717",
+        "lng": "-8.21048"
+    },
+    {
+        "country": "PT",
+        "name": "Cascais",
+        "lat": "38.69681",
+        "lng": "-9.42147"
+    },
+    {
+        "country": "PT",
+        "name": "Carvoeiro",
+        "lat": "37.09051",
+        "lng": "-8.45381"
+    },
+    {
+        "country": "PT",
+        "name": "Cartaxo",
+        "lat": "39.16022",
+        "lng": "-8.78741"
+    },
+    {
+        "country": "PT",
+        "name": "Carregado",
+        "lat": "39.02362",
+        "lng": "-8.97692"
+    },
+    {
+        "country": "PT",
+        "name": "Carnaxide",
+        "lat": "38.72706",
+        "lng": "-9.24671"
+    },
+    {
+        "country": "PT",
+        "name": "Carcavelos",
+        "lat": "38.69105",
+        "lng": "-9.32215"
+    },
+    {
+        "country": "PT",
+        "name": "Caranguejeira",
+        "lat": "39.74619",
+        "lng": "-8.7074"
+    },
+    {
+        "country": "PT",
+        "name": "Caparica",
+        "lat": "38.66667",
+        "lng": "-9.2"
+    },
+    {
+        "country": "PT",
+        "name": "Cani\u00e7o",
+        "lat": "32.65078",
+        "lng": "-16.83749"
+    },
+    {
+        "country": "PT",
+        "name": "Cani\u00e7al",
+        "lat": "32.73834",
+        "lng": "-16.73836"
+    },
+    {
+        "country": "PT",
+        "name": "Cane\u00e7as",
+        "lat": "38.81321",
+        "lng": "-9.22679"
+    },
+    {
+        "country": "PT",
+        "name": "Campo Maior",
+        "lat": "39.01774",
+        "lng": "-7.06497"
+    },
+    {
+        "country": "PT",
+        "name": "Campan\u00e1rio",
+        "lat": "32.66578",
+        "lng": "-17.03576"
+    },
+    {
+        "country": "PT",
+        "name": "Camarate",
+        "lat": "38.80358",
+        "lng": "-9.12809"
+    },
+    {
+        "country": "PT",
+        "name": "C\u00e2mara de Lobos",
+        "lat": "32.63333",
+        "lng": "-16.96667"
+    },
+    {
+        "country": "PT",
+        "name": "Camacha",
+        "lat": "33.08665",
+        "lng": "-16.34253"
+    },
+    {
+        "country": "PT",
+        "name": "Camacha",
+        "lat": "32.67919",
+        "lng": "-16.84462"
+    },
+    {
+        "country": "PT",
+        "name": "Calheta",
+        "lat": "32.71667",
+        "lng": "-17.18333"
+    },
+    {
+        "country": "PT",
+        "name": "Caldas da Rainha",
+        "lat": "39.40326",
+        "lng": "-9.13839"
+    },
+    {
+        "country": "PT",
+        "name": "Cadaval",
+        "lat": "39.24298",
+        "lng": "-9.10327"
+    },
+    {
+        "country": "PT",
+        "name": "Cacilhas",
+        "lat": "38.68773",
+        "lng": "-9.14663"
+    },
+    {
+        "country": "PT",
+        "name": "Cac\u00e9m",
+        "lat": "38.76698",
+        "lng": "-9.29793"
+    },
+    {
+        "country": "PT",
+        "name": "Bucelas",
+        "lat": "38.90193",
+        "lng": "-9.11885"
+    },
+    {
+        "country": "PT",
+        "name": "Borba",
+        "lat": "38.80553",
+        "lng": "-7.45465"
+    },
+    {
+        "country": "PT",
+        "name": "Bombarral",
+        "lat": "39.26723",
+        "lng": "-9.15795"
+    },
+    {
+        "country": "PT",
+        "name": "Boliqueime",
+        "lat": "37.13718",
+        "lng": "-8.1582"
+    },
+    {
+        "country": "PT",
+        "name": "Bobadela",
+        "lat": "38.80774",
+        "lng": "-9.09925"
+    },
+    {
+        "country": "PT",
+        "name": "Bensafrim",
+        "lat": "37.15583",
+        "lng": "-8.7352"
+    },
+    {
+        "country": "PT",
+        "name": "Benedita",
+        "lat": "39.4247",
+        "lng": "-8.96996"
+    },
+    {
+        "country": "PT",
+        "name": "Benavente",
+        "lat": "38.97919",
+        "lng": "-8.80759"
+    },
+    {
+        "country": "PT",
+        "name": "Belas",
+        "lat": "38.77721",
+        "lng": "-9.26078"
+    },
+    {
+        "country": "PT",
+        "name": "Beja",
+        "lat": "38.01506",
+        "lng": "-7.86323"
+    },
+    {
+        "country": "PT",
+        "name": "Batalha",
+        "lat": "39.66025",
+        "lng": "-8.82475"
+    },
+    {
+        "country": "PT",
+        "name": "Barreiro",
+        "lat": "38.66314",
+        "lng": "-9.0724"
+    },
+    {
+        "country": "PT",
+        "name": "Barrancos",
+        "lat": "38.13446",
+        "lng": "-6.97604"
+    },
+    {
+        "country": "PT",
+        "name": "Barcarena",
+        "lat": "38.73245",
+        "lng": "-9.28"
+    },
+    {
+        "country": "PT",
+        "name": "Azambuja",
+        "lat": "39.07029",
+        "lng": "-8.86822"
+    },
+    {
+        "country": "PT",
+        "name": "Avis",
+        "lat": "39.05391",
+        "lng": "-7.89156"
+    },
+    {
+        "country": "PT",
+        "name": "Aveiras de Cima",
+        "lat": "39.13796",
+        "lng": "-8.89932"
+    },
+    {
+        "country": "PT",
+        "name": "Atouguia da Baleia",
+        "lat": "39.33814",
+        "lng": "-9.3263"
+    },
+    {
+        "country": "PT",
+        "name": "Arruda dos Vinhos",
+        "lat": "38.98411",
+        "lng": "-9.07746"
+    },
+    {
+        "country": "PT",
+        "name": "Arronches",
+        "lat": "39.12242",
+        "lng": "-7.28619"
+    },
+    {
+        "country": "PT",
+        "name": "Arrentela",
+        "lat": "38.61667",
+        "lng": "-9.1"
+    },
+    {
+        "country": "PT",
+        "name": "Arraiolos",
+        "lat": "38.72363",
+        "lng": "-7.98478"
+    },
+    {
+        "country": "PT",
+        "name": "Arma\u00e7\u00e3o de P\u00eara",
+        "lat": "37.10256",
+        "lng": "-8.35695"
+    },
+    {
+        "country": "PT",
+        "name": "Arco da Calheta",
+        "lat": "32.71502",
+        "lng": "-17.14974"
+    },
+    {
+        "country": "PT",
+        "name": "Apela\u00e7\u00e3o",
+        "lat": "38.81387",
+        "lng": "-9.13225"
+    },
+    {
+        "country": "PT",
+        "name": "Ansi\u00e3o",
+        "lat": "39.91177",
+        "lng": "-8.43568"
+    },
+    {
+        "country": "PT",
+        "name": "Amora",
+        "lat": "38.62961",
+        "lng": "-9.11557"
+    },
+    {
+        "country": "PT",
+        "name": "Amor",
+        "lat": "39.80404",
+        "lng": "-8.85984"
+    },
+    {
+        "country": "PT",
+        "name": "Amadora",
+        "lat": "38.75382",
+        "lng": "-9.23083"
+    },
+    {
+        "country": "PT",
+        "name": "Alvor",
+        "lat": "37.12994",
+        "lng": "-8.59174"
+    },
+    {
+        "country": "PT",
+        "name": "Alvito",
+        "lat": "38.25611",
+        "lng": "-7.99158"
+    },
+    {
+        "country": "PT",
+        "name": "Alvai\u00e1zere",
+        "lat": "39.82256",
+        "lng": "-8.37999"
+    },
+    {
+        "country": "PT",
+        "name": "Altura",
+        "lat": "37.1756",
+        "lng": "-7.50064"
+    },
+    {
+        "country": "PT",
+        "name": "Alter do Ch\u00e3o",
+        "lat": "39.19741",
+        "lng": "-7.65893"
+    },
+    {
+        "country": "PT",
+        "name": "Alpiar\u00e7a",
+        "lat": "39.25712",
+        "lng": "-8.58187"
+    },
+    {
+        "country": "PT",
+        "name": "Almod\u00f4var",
+        "lat": "37.51279",
+        "lng": "-8.06008"
+    },
+    {
+        "country": "PT",
+        "name": "Almeirim",
+        "lat": "39.20903",
+        "lng": "-8.61643"
+    },
+    {
+        "country": "PT",
+        "name": "Almargem",
+        "lat": "38.84485",
+        "lng": "-9.27315"
+    },
+    {
+        "country": "PT",
+        "name": "Almancil",
+        "lat": "37.08686",
+        "lng": "-8.03074"
+    },
+    {
+        "country": "PT",
+        "name": "Almada",
+        "lat": "38.67902",
+        "lng": "-9.1569"
+    },
+    {
+        "country": "PT",
+        "name": "Aljustrel",
+        "lat": "37.87759",
+        "lng": "-8.16516"
+    },
+    {
+        "country": "PT",
+        "name": "Aljubarrota",
+        "lat": "39.56715",
+        "lng": "-8.92925"
+    },
+    {
+        "country": "PT",
+        "name": "Aljezur",
+        "lat": "37.31915",
+        "lng": "-8.8033"
+    },
+    {
+        "country": "PT",
+        "name": "Alhos Vedros",
+        "lat": "38.65486",
+        "lng": "-9.02368"
+    },
+    {
+        "country": "PT",
+        "name": "Alhandra",
+        "lat": "38.92732",
+        "lng": "-9.00864"
+    },
+    {
+        "country": "PT",
+        "name": "Algoz",
+        "lat": "37.16301",
+        "lng": "-8.30359"
+    },
+    {
+        "country": "PT",
+        "name": "Alg\u00e9s",
+        "lat": "38.70245",
+        "lng": "-9.22936"
+    },
+    {
+        "country": "PT",
+        "name": "Alferrarede",
+        "lat": "39.48333",
+        "lng": "-8.16667"
+    },
+    {
+        "country": "PT",
+        "name": "Alenquer",
+        "lat": "39.05315",
+        "lng": "-9.00928"
+    },
+    {
+        "country": "PT",
+        "name": "Alegrete",
+        "lat": "39.23983",
+        "lng": "-7.32342"
+    },
+    {
+        "country": "PT",
+        "name": "Aldeia Nova de S\u00e3o Bento",
+        "lat": "37.92603",
+        "lng": "-7.40804"
+    },
+    {
+        "country": "PT",
+        "name": "Aldeia de Paio Pires",
+        "lat": "38.61667",
+        "lng": "-9.08333"
+    },
+    {
+        "country": "PT",
+        "name": "Alcoutim",
+        "lat": "37.47432",
+        "lng": "-7.47228"
+    },
+    {
+        "country": "PT",
+        "name": "Alcoentre",
+        "lat": "39.20857",
+        "lng": "-8.95953"
+    },
+    {
+        "country": "PT",
+        "name": "Alcochete",
+        "lat": "38.75534",
+        "lng": "-8.96086"
+    },
+    {
+        "country": "PT",
+        "name": "Alcoba\u00e7a",
+        "lat": "39.55223",
+        "lng": "-8.97749"
+    },
+    {
+        "country": "PT",
+        "name": "Alcantarilha",
+        "lat": "37.13044",
+        "lng": "-8.34623"
+    },
+    {
+        "country": "PT",
+        "name": "Alcanena",
+        "lat": "39.459",
+        "lng": "-8.66892"
+    },
+    {
+        "country": "PT",
+        "name": "Alcanede",
+        "lat": "39.41501",
+        "lng": "-8.82189"
+    },
+    {
+        "country": "PT",
+        "name": "Alcains",
+        "lat": "39.91642",
+        "lng": "-7.45655"
+    },
+    {
+        "country": "PT",
+        "name": "Alc\u00e1cer do Sal",
+        "lat": "38.37326",
+        "lng": "-8.51444"
+    },
+    {
+        "country": "PT",
+        "name": "Alcabideche",
+        "lat": "38.73366",
+        "lng": "-9.40928"
+    },
+    {
+        "country": "PT",
+        "name": "Albufeira",
+        "lat": "37.08819",
+        "lng": "-8.2503"
+    },
+    {
+        "country": "PT",
+        "name": "Alandroal",
+        "lat": "38.702",
+        "lng": "-7.40309"
+    },
+    {
+        "country": "PT",
+        "name": "Alagoa",
+        "lat": "39.36125",
+        "lng": "-7.53894"
+    },
+    {
+        "country": "PT",
+        "name": "\u00c1gua de Pena",
+        "lat": "32.70143",
+        "lng": "-16.77874"
+    },
+    {
+        "country": "PT",
+        "name": "A dos Cunhados",
+        "lat": "39.15237",
+        "lng": "-9.2972"
+    },
+    {
+        "country": "PT",
+        "name": "Abrantes",
+        "lat": "39.46667",
+        "lng": "-8.2"
+    },
+    {
+        "country": "PT",
+        "name": "Vouzela",
+        "lat": "40.72361",
+        "lng": "-8.11283"
+    },
+    {
+        "country": "PT",
+        "name": "Vizela",
+        "lat": "41.39096",
+        "lng": "-8.26389"
+    },
+    {
+        "country": "PT",
+        "name": "Vizela",
+        "lat": "41.38242",
+        "lng": "-8.24887"
+    },
+    {
+        "country": "PT",
+        "name": "Viseu",
+        "lat": "40.66101",
+        "lng": "-7.90971"
+    },
+    {
+        "country": "PT",
+        "name": "Vinhais",
+        "lat": "41.83509",
+        "lng": "-7.00501"
+    },
+    {
+        "country": "PT",
+        "name": "Vimioso",
+        "lat": "41.58473",
+        "lng": "-6.52767"
+    },
+    {
+        "country": "PT",
+        "name": "Vilela",
+        "lat": "41.22511",
+        "lng": "-7.60338"
+    },
+    {
+        "country": "PT",
+        "name": "Vila Verde",
+        "lat": "41.64729",
+        "lng": "-8.43715"
+    },
+    {
+        "country": "PT",
+        "name": "Vilarinho",
+        "lat": "41.35955",
+        "lng": "-8.33123"
+    },
+    {
+        "country": "PT",
+        "name": "Vila Real",
+        "lat": "41.30062",
+        "lng": "-7.74413"
+    },
+    {
+        "country": "PT",
+        "name": "Vilar do Para\u00edso",
+        "lat": "41.08974",
+        "lng": "-8.6211"
+    },
+    {
+        "country": "PT",
+        "name": "Vilar de Andorinho",
+        "lat": "41.10751",
+        "lng": "-8.59632"
+    },
+    {
+        "country": "PT",
+        "name": "Vila Praia de \u00c2ncora",
+        "lat": "41.81098",
+        "lng": "-8.85255"
+    },
+    {
+        "country": "PT",
+        "name": "Vila Pouca de Aguiar",
+        "lat": "41.50018",
+        "lng": "-7.64383"
+    },
+    {
+        "country": "PT",
+        "name": "Vila Nova de Paiva",
+        "lat": "40.85291",
+        "lng": "-7.72791"
+    },
+    {
+        "country": "PT",
+        "name": "Vila Nova de Gaia",
+        "lat": "41.13363",
+        "lng": "-8.61742"
+    },
+    {
+        "country": "PT",
+        "name": "Vila Nova de Foz C\u00f4a",
+        "lat": "41.08194",
+        "lng": "-7.14146"
+    },
+    {
+        "country": "PT",
+        "name": "Vila Nova de Famalic\u00e3o",
+        "lat": "41.40797",
+        "lng": "-8.51978"
+    },
+    {
+        "country": "PT",
+        "name": "Vila Nova da Telha",
+        "lat": "41.0717",
+        "lng": "-8.64146"
+    },
+    {
+        "country": "PT",
+        "name": "Vila Nova de Cerveira",
+        "lat": "41.94118",
+        "lng": "-8.7423"
+    },
+    {
+        "country": "PT",
+        "name": "Vila Frescainha",
+        "lat": "41.53846",
+        "lng": "-8.63971"
+    },
+    {
+        "country": "PT",
+        "name": "Vila do Conde",
+        "lat": "41.35481",
+        "lng": "-8.7434"
+    },
+    {
+        "country": "PT",
+        "name": "Vila Ch\u00e3",
+        "lat": "40.86667",
+        "lng": "-8.46667"
+    },
+    {
+        "country": "PT",
+        "name": "Vieira do Minho",
+        "lat": "41.63292",
+        "lng": "-8.14252"
+    },
+    {
+        "country": "PT",
+        "name": "Viana do Castelo",
+        "lat": "41.69323",
+        "lng": "-8.83287"
+    },
+    {
+        "country": "PT",
+        "name": "Valpa\u00e7os",
+        "lat": "41.60746",
+        "lng": "-7.31088"
+    },
+    {
+        "country": "PT",
+        "name": "Valongo",
+        "lat": "41.19501",
+        "lng": "-8.51027"
+    },
+    {
+        "country": "PT",
+        "name": "Valongo",
+        "lat": "40.61667",
+        "lng": "-8.45"
+    },
+    {
+        "country": "PT",
+        "name": "Valen\u00e7a",
+        "lat": "42.03104",
+        "lng": "-8.64595"
+    },
+    {
+        "country": "PT",
+        "name": "V\u00e1lega",
+        "lat": "40.83629",
+        "lng": "-8.58061"
+    },
+    {
+        "country": "PT",
+        "name": "Vale de Cambra",
+        "lat": "40.8497",
+        "lng": "-8.39389"
+    },
+    {
+        "country": "PT",
+        "name": "Valbom",
+        "lat": "41.13247",
+        "lng": "-8.56414"
+    },
+    {
+        "country": "PT",
+        "name": "Valadares",
+        "lat": "41.14737",
+        "lng": "-7.9812"
+    },
+    {
+        "country": "PT",
+        "name": "Vagos",
+        "lat": "40.556",
+        "lng": "-8.68175"
+    },
+    {
+        "country": "PT",
+        "name": "Urgeses",
+        "lat": "41.4272",
+        "lng": "-8.29796"
+    },
+    {
+        "country": "PT",
+        "name": "Trancoso",
+        "lat": "40.78329",
+        "lng": "-7.35016"
+    },
+    {
+        "country": "PT",
+        "name": "Torre de Moncorvo",
+        "lat": "41.17454",
+        "lng": "-7.05364"
+    },
+    {
+        "country": "PT",
+        "name": "Tondela",
+        "lat": "40.51682",
+        "lng": "-8.08087"
+    },
+    {
+        "country": "PT",
+        "name": "Terras de Bouro",
+        "lat": "41.71769",
+        "lng": "-8.30888"
+    },
+    {
+        "country": "PT",
+        "name": "Tel\u00f5es",
+        "lat": "41.31054",
+        "lng": "-8.11101"
+    },
+    {
+        "country": "PT",
+        "name": "Teixoso",
+        "lat": "40.31448",
+        "lng": "-7.45759"
+    },
+    {
+        "country": "PT",
+        "name": "Tavarede",
+        "lat": "40.17079",
+        "lng": "-8.84566"
+    },
+    {
+        "country": "PT",
+        "name": "Tarouca",
+        "lat": "41.01444",
+        "lng": "-7.78143"
+    },
+    {
+        "country": "PT",
+        "name": "Tabua\u00e7o",
+        "lat": "41.11615",
+        "lng": "-7.56793"
+    },
+    {
+        "country": "PT",
+        "name": "T\u00e1bua",
+        "lat": "40.36207",
+        "lng": "-8.02936"
+    },
+    {
+        "country": "PT",
+        "name": "Souto",
+        "lat": "40.98675",
+        "lng": "-8.6223"
+    },
+    {
+        "country": "PT",
+        "name": "Soure",
+        "lat": "40.05989",
+        "lng": "-8.62605"
+    },
+    {
+        "country": "PT",
+        "name": "Sobreira",
+        "lat": "41.52371",
+        "lng": "-7.80234"
+    },
+    {
+        "country": "PT",
+        "name": "Sobrado",
+        "lat": "41.21041",
+        "lng": "-8.45488"
+    },
+    {
+        "country": "PT",
+        "name": "Cinf\u00e3es",
+        "lat": "41.07197",
+        "lng": "-8.08999"
+    },
+    {
+        "country": "PT",
+        "name": "Silvalde",
+        "lat": "40.99397",
+        "lng": "-8.62608"
+    },
+    {
+        "country": "PT",
+        "name": "Sever do Vouga",
+        "lat": "40.73459",
+        "lng": "-8.36722"
+    },
+    {
+        "country": "PT",
+        "name": "Serzedo",
+        "lat": "41.40502",
+        "lng": "-8.22926"
+    },
+    {
+        "country": "PT",
+        "name": "Serzedelo",
+        "lat": "41.40128",
+        "lng": "-8.36888"
+    },
+    {
+        "country": "PT",
+        "name": "Seroa",
+        "lat": "41.26511",
+        "lng": "-8.42892"
+    },
+    {
+        "country": "PT",
+        "name": "Sernancelhe",
+        "lat": "40.89871",
+        "lng": "-7.49342"
+    },
+    {
+        "country": "PT",
+        "name": "Sequeira",
+        "lat": "40.55364",
+        "lng": "-7.22594"
+    },
+    {
+        "country": "PT",
+        "name": "Senhora da Hora",
+        "lat": "41.18641",
+        "lng": "-8.65172"
+    },
+    {
+        "country": "PT",
+        "name": "Selho",
+        "lat": "41.41938",
+        "lng": "-8.34599"
+    },
+    {
+        "country": "PT",
+        "name": "Seia",
+        "lat": "40.4151",
+        "lng": "-7.70859"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e1t\u00e3o",
+        "lat": "40.74177",
+        "lng": "-7.73285"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Roque",
+        "lat": "40.87216",
+        "lng": "-8.47149"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Rom\u00e3o do Coronado",
+        "lat": "41.28544",
+        "lng": "-8.5632"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Pedro do Sul",
+        "lat": "40.75537",
+        "lng": "-8.07265"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Pedro da Cova",
+        "lat": "41.14331",
+        "lng": "-8.50033"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Miguel do Couto",
+        "lat": "41.33167",
+        "lng": "-8.46185"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Mamede de Infesta",
+        "lat": "41.20042",
+        "lng": "-8.60251"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Jo\u00e3o de Ver",
+        "lat": "40.95527",
+        "lng": "-8.55117"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Jo\u00e3o da Pesqueira",
+        "lat": "41.14805",
+        "lng": "-7.40489"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Jo\u00e3o da Madeira",
+        "lat": "40.90229",
+        "lng": "-8.48969"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Jo\u00e3o",
+        "lat": "40.86802",
+        "lng": "-8.60672"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o F\u00e9lix da Marinha",
+        "lat": "41.03555",
+        "lng": "-8.62259"
+    },
+    {
+        "country": "PT",
+        "name": "Santo Tirso",
+        "lat": "41.34257",
+        "lng": "-8.47746"
+    },
+    {
+        "country": "PT",
+        "name": "Santa Marta de Penagui\u00e3o",
+        "lat": "41.20991",
+        "lng": "-7.78386"
+    },
+    {
+        "country": "PT",
+        "name": "Santa Cruz do Bispo",
+        "lat": "41.2255",
+        "lng": "-8.68361"
+    },
+    {
+        "country": "PT",
+        "name": "Santa Comba D\u00e3o",
+        "lat": "40.39856",
+        "lng": "-8.1316"
+    },
+    {
+        "country": "PT",
+        "name": "Sangalhos",
+        "lat": "40.48678",
+        "lng": "-8.46968"
+    },
+    {
+        "country": "PT",
+        "name": "Sandim",
+        "lat": "41.03508",
+        "lng": "-8.507"
+    },
+    {
+        "country": "PT",
+        "name": "Sande",
+        "lat": "41.7019",
+        "lng": "-8.39246"
+    },
+    {
+        "country": "PT",
+        "name": "Salreu",
+        "lat": "40.73971",
+        "lng": "-8.5572"
+    },
+    {
+        "country": "PT",
+        "name": "Sabugal",
+        "lat": "40.35127",
+        "lng": "-7.09104"
+    },
+    {
+        "country": "PT",
+        "name": "Sabrosa",
+        "lat": "41.26702",
+        "lng": "-7.57601"
+    },
+    {
+        "country": "PT",
+        "name": "Ronfe",
+        "lat": "41.44146",
+        "lng": "-8.38412"
+    },
+    {
+        "country": "PT",
+        "name": "Rio Tinto",
+        "lat": "41.18259",
+        "lng": "-8.55811"
+    },
+    {
+        "country": "PT",
+        "name": "Rio Me\u00e3o",
+        "lat": "40.95775",
+        "lng": "-8.57818"
+    },
+    {
+        "country": "PT",
+        "name": "Rio de Loba",
+        "lat": "40.66596",
+        "lng": "-7.87781"
+    },
+    {
+        "country": "PT",
+        "name": "Ribeir\u00e3o",
+        "lat": "41.36081",
+        "lng": "-8.56774"
+    },
+    {
+        "country": "PT",
+        "name": "Ribeira de Pena",
+        "lat": "41.52147",
+        "lng": "-7.80237"
+    },
+    {
+        "country": "PT",
+        "name": "Resende",
+        "lat": "41.10582",
+        "lng": "-7.9665"
+    },
+    {
+        "country": "PT",
+        "name": "Refojos de Basto",
+        "lat": "41.51318",
+        "lng": "-7.99517"
+    },
+    {
+        "country": "PT",
+        "name": "Recarei",
+        "lat": "41.15356",
+        "lng": "-8.41178"
+    },
+    {
+        "country": "PT",
+        "name": "Rebordosa",
+        "lat": "41.22405",
+        "lng": "-8.40669"
+    },
+    {
+        "country": "PT",
+        "name": "Real",
+        "lat": "41.63882",
+        "lng": "-8.18098"
+    },
+    {
+        "country": "PT",
+        "name": "Prado",
+        "lat": "41.60246",
+        "lng": "-8.46297"
+    },
+    {
+        "country": "PT",
+        "name": "P\u00f3voa de Varzim",
+        "lat": "41.38344",
+        "lng": "-8.76364"
+    },
+    {
+        "country": "PT",
+        "name": "P\u00f3voa de Lanhoso",
+        "lat": "41.57873",
+        "lng": "-8.28197"
+    },
+    {
+        "country": "PT",
+        "name": "Porto",
+        "lat": "41.14961",
+        "lng": "-8.61099"
+    },
+    {
+        "country": "PT",
+        "name": "Ponte de Lima",
+        "lat": "41.76719",
+        "lng": "-8.58393"
+    },
+    {
+        "country": "PT",
+        "name": "Ponte da Barca",
+        "lat": "41.80451",
+        "lng": "-8.41554"
+    },
+    {
+        "country": "PT",
+        "name": "Ponte",
+        "lat": "41.47057",
+        "lng": "-8.3299"
+    },
+    {
+        "country": "PT",
+        "name": "Poiares",
+        "lat": "40.21026",
+        "lng": "-8.25746"
+    },
+    {
+        "country": "PT",
+        "name": "Pinhel",
+        "lat": "40.77403",
+        "lng": "-7.06675"
+    },
+    {
+        "country": "PT",
+        "name": "Peso da R\u00e9gua",
+        "lat": "41.16491",
+        "lng": "-7.78703"
+    },
+    {
+        "country": "PT",
+        "name": "Perozinho",
+        "lat": "41.06513",
+        "lng": "-8.58531"
+    },
+    {
+        "country": "PT",
+        "name": "Perafita",
+        "lat": "41.18252",
+        "lng": "-8.2545"
+    },
+    {
+        "country": "PT",
+        "name": "Penela",
+        "lat": "40.03333",
+        "lng": "-8.38333"
+    },
+    {
+        "country": "PT",
+        "name": "Penedono",
+        "lat": "40.98875",
+        "lng": "-7.39386"
+    },
+    {
+        "country": "PT",
+        "name": "Penamacor",
+        "lat": "40.16895",
+        "lng": "-7.16987"
+    },
+    {
+        "country": "PT",
+        "name": "Penafiel",
+        "lat": "41.20835",
+        "lng": "-8.28285"
+    },
+    {
+        "country": "PT",
+        "name": "Penacova",
+        "lat": "40.26884",
+        "lng": "-8.28237"
+    },
+    {
+        "country": "PT",
+        "name": "Pedrou\u00e7os",
+        "lat": "41.19315",
+        "lng": "-8.58167"
+    },
+    {
+        "country": "PT",
+        "name": "Pedroso",
+        "lat": "41.41103",
+        "lng": "-8.74897"
+    },
+    {
+        "country": "PT",
+        "name": "Paredes de Coura",
+        "lat": "41.91013",
+        "lng": "-8.56094"
+    },
+    {
+        "country": "PT",
+        "name": "Paredes",
+        "lat": "41.20485",
+        "lng": "-8.33147"
+    },
+    {
+        "country": "PT",
+        "name": "Pardilh\u00f3",
+        "lat": "40.79925",
+        "lng": "-8.62598"
+    },
+    {
+        "country": "PT",
+        "name": "Pampilhosa do Bot\u00e3o",
+        "lat": "40.3358",
+        "lng": "-8.42738"
+    },
+    {
+        "country": "PT",
+        "name": "Pampilhosa da Serra",
+        "lat": "40.0462",
+        "lng": "-7.95182"
+    },
+    {
+        "country": "PT",
+        "name": "Pa\u00e7os de Ferreira",
+        "lat": "41.27657",
+        "lng": "-8.37617"
+    },
+    {
+        "country": "PT",
+        "name": "Pa\u00e7os de Brand\u00e3o",
+        "lat": "40.97541",
+        "lng": "-8.5835"
+    },
+    {
+        "country": "PT",
+        "name": "Ovar",
+        "lat": "40.85862",
+        "lng": "-8.62513"
+    },
+    {
+        "country": "PT",
+        "name": "Oliveirinha",
+        "lat": "40.60715",
+        "lng": "-8.59198"
+    },
+    {
+        "country": "PT",
+        "name": "Oliveira do Hospital",
+        "lat": "40.3618",
+        "lng": "-7.86014"
+    },
+    {
+        "country": "PT",
+        "name": "Oliveira do Douro",
+        "lat": "41.12466",
+        "lng": "-8.58463"
+    },
+    {
+        "country": "PT",
+        "name": "Oliveira do Bairro",
+        "lat": "40.5146",
+        "lng": "-8.49386"
+    },
+    {
+        "country": "PT",
+        "name": "Oliveira de Frades",
+        "lat": "40.73357",
+        "lng": "-8.17481"
+    },
+    {
+        "country": "PT",
+        "name": "Oliveira de Azemeis",
+        "lat": "40.84101",
+        "lng": "-8.47555"
+    },
+    {
+        "country": "PT",
+        "name": "Oliveira",
+        "lat": "41.47819",
+        "lng": "-8.46965"
+    },
+    {
+        "country": "PT",
+        "name": "Olival",
+        "lat": "41.05024",
+        "lng": "-8.54416"
+    },
+    {
+        "country": "PT",
+        "name": "Oi\u00e3",
+        "lat": "40.54264",
+        "lng": "-8.53856"
+    },
+    {
+        "country": "PT",
+        "name": "Nogueira da Regedoura",
+        "lat": "41.0053",
+        "lng": "-8.59195"
+    },
+    {
+        "country": "PT",
+        "name": "Nogueira",
+        "lat": "41.24246",
+        "lng": "-8.58685"
+    },
+    {
+        "country": "PT",
+        "name": "Nelas",
+        "lat": "40.53216",
+        "lng": "-7.85152"
+    },
+    {
+        "country": "PT",
+        "name": "Negrelos",
+        "lat": "41.34946",
+        "lng": "-8.40145"
+    },
+    {
+        "country": "PT",
+        "name": "Murtosa",
+        "lat": "40.73695",
+        "lng": "-8.6377"
+    },
+    {
+        "country": "PT",
+        "name": "Mur\u00e7a",
+        "lat": "41.406",
+        "lng": "-7.45485"
+    },
+    {
+        "country": "PT",
+        "name": "Mozelos",
+        "lat": "41.86774",
+        "lng": "-8.39776"
+    },
+    {
+        "country": "PT",
+        "name": "Mosteir\u00f4",
+        "lat": "40.89843",
+        "lng": "-8.53196"
+    },
+    {
+        "country": "PT",
+        "name": "Mort\u00e1gua",
+        "lat": "40.39675",
+        "lng": "-8.23234"
+    },
+    {
+        "country": "PT",
+        "name": "Moreira de Conegos",
+        "lat": "41.3868",
+        "lng": "-8.3394"
+    },
+    {
+        "country": "PT",
+        "name": "Moreira",
+        "lat": "41.056",
+        "lng": "-8.38939"
+    },
+    {
+        "country": "PT",
+        "name": "Montemor-o-Velho",
+        "lat": "40.17287",
+        "lng": "-8.68616"
+    },
+    {
+        "country": "PT",
+        "name": "Montalegre",
+        "lat": "41.82357",
+        "lng": "-7.78971"
+    },
+    {
+        "country": "PT",
+        "name": "Mondim de Basto",
+        "lat": "41.41157",
+        "lng": "-7.95441"
+    },
+    {
+        "country": "PT",
+        "name": "Mon\u00e7\u00e3o",
+        "lat": "42.07892",
+        "lng": "-8.48076"
+    },
+    {
+        "country": "PT",
+        "name": "Moimenta da Beira",
+        "lat": "40.98383",
+        "lng": "-7.61765"
+    },
+    {
+        "country": "PT",
+        "name": "Mogadouro",
+        "lat": "41.34034",
+        "lng": "-6.71187"
+    },
+    {
+        "country": "PT",
+        "name": "Mirandela",
+        "lat": "41.48739",
+        "lng": "-7.18695"
+    },
+    {
+        "country": "PT",
+        "name": "Miranda do Douro",
+        "lat": "41.49692",
+        "lng": "-6.27308"
+    },
+    {
+        "country": "PT",
+        "name": "Miranda do Corvo",
+        "lat": "40.09318",
+        "lng": "-8.33261"
+    },
+    {
+        "country": "PT",
+        "name": "Mira",
+        "lat": "40.42892",
+        "lng": "-8.73746"
+    },
+    {
+        "country": "PT",
+        "name": "Milheir\u00f3s de Poiares",
+        "lat": "40.92163",
+        "lng": "-8.46788"
+    },
+    {
+        "country": "PT",
+        "name": "Milheir\u00f3s",
+        "lat": "41.21478",
+        "lng": "-8.58837"
+    },
+    {
+        "country": "PT",
+        "name": "Mes\u00e3o Frio",
+        "lat": "41.16317",
+        "lng": "-7.87353"
+    },
+    {
+        "country": "PT",
+        "name": "Melga\u00e7o",
+        "lat": "42.11337",
+        "lng": "-8.26016"
+    },
+    {
+        "country": "PT",
+        "name": "Meinedo",
+        "lat": "41.24827",
+        "lng": "-8.25807"
+    },
+    {
+        "country": "PT",
+        "name": "M\u00eada",
+        "lat": "40.96635",
+        "lng": "-7.26163"
+    },
+    {
+        "country": "PT",
+        "name": "Mealhada",
+        "lat": "40.37806",
+        "lng": "-8.44991"
+    },
+    {
+        "country": "PT",
+        "name": "Meadela",
+        "lat": "41.70654",
+        "lng": "-8.79628"
+    },
+    {
+        "country": "PT",
+        "name": "Matosinhos",
+        "lat": "41.18207",
+        "lng": "-8.68908"
+    },
+    {
+        "country": "PT",
+        "name": "Marinhas",
+        "lat": "41.55906",
+        "lng": "-8.78297"
+    },
+    {
+        "country": "PT",
+        "name": "Margaride",
+        "lat": "41.36829",
+        "lng": "-8.20072"
+    },
+    {
+        "country": "PT",
+        "name": "Marco de Canavezes",
+        "lat": "41.18389",
+        "lng": "-8.14864"
+    },
+    {
+        "country": "PT",
+        "name": "Manteigas",
+        "lat": "40.4028",
+        "lng": "-7.53977"
+    },
+    {
+        "country": "PT",
+        "name": "Mangualde",
+        "lat": "40.60425",
+        "lng": "-7.76115"
+    },
+    {
+        "country": "PT",
+        "name": "Maia",
+        "lat": "41.23574",
+        "lng": "-8.6199"
+    },
+    {
+        "country": "PT",
+        "name": "Madalena",
+        "lat": "41.21616",
+        "lng": "-8.33451"
+    },
+    {
+        "country": "PT",
+        "name": "Macieira de Cambra",
+        "lat": "40.85939",
+        "lng": "-8.37338"
+    },
+    {
+        "country": "PT",
+        "name": "Macedo de Cavaleiros",
+        "lat": "41.53816",
+        "lng": "-6.9611"
+    },
+    {
+        "country": "PT",
+        "name": "Lustosa",
+        "lat": "41.34081",
+        "lng": "-8.31715"
+    },
+    {
+        "country": "PT",
+        "name": "Luso",
+        "lat": "40.38429",
+        "lng": "-8.37845"
+    },
+    {
+        "country": "PT",
+        "name": "Lousada",
+        "lat": "41.27822",
+        "lng": "-8.27993"
+    },
+    {
+        "country": "PT",
+        "name": "Lous\u00e3",
+        "lat": "40.11673",
+        "lng": "-8.24921"
+    },
+    {
+        "country": "PT",
+        "name": "Lourosa",
+        "lat": "40.9842",
+        "lng": "-8.55142"
+    },
+    {
+        "country": "PT",
+        "name": "Lorv\u00e3o",
+        "lat": "40.25938",
+        "lng": "-8.31683"
+    },
+    {
+        "country": "PT",
+        "name": "Lordelo",
+        "lat": "41.37411",
+        "lng": "-8.38016"
+    },
+    {
+        "country": "PT",
+        "name": "Lordelo",
+        "lat": "41.23451",
+        "lng": "-8.40297"
+    },
+    {
+        "country": "PT",
+        "name": "Lob\u00e3o",
+        "lat": "40.98664",
+        "lng": "-8.48566"
+    },
+    {
+        "country": "PT",
+        "name": "Le\u00e7a do Bailio",
+        "lat": "41.21457",
+        "lng": "-8.61348"
+    },
+    {
+        "country": "PT",
+        "name": "Le\u00e7a da Palmeira",
+        "lat": "41.191",
+        "lng": "-8.70027"
+    },
+    {
+        "country": "PT",
+        "name": "Lavra",
+        "lat": "41.25935",
+        "lng": "-8.71849"
+    },
+    {
+        "country": "PT",
+        "name": "Lavos",
+        "lat": "40.09363",
+        "lng": "-8.82826"
+    },
+    {
+        "country": "PT",
+        "name": "Lamego",
+        "lat": "41.09741",
+        "lng": "-7.80991"
+    },
+    {
+        "country": "PT",
+        "name": "Lamas",
+        "lat": "40.98597",
+        "lng": "-8.56923"
+    },
+    {
+        "country": "PT",
+        "name": "Jovim",
+        "lat": "41.11102",
+        "lng": "-8.51903"
+    },
+    {
+        "country": "PT",
+        "name": "Joane",
+        "lat": "41.43906",
+        "lng": "-8.40846"
+    },
+    {
+        "country": "PT",
+        "name": "\u00cdlhavo",
+        "lat": "40.60188",
+        "lng": "-8.67021"
+    },
+    {
+        "country": "PT",
+        "name": "Gulpilhares",
+        "lat": "41.08292",
+        "lng": "-8.62679"
+    },
+    {
+        "country": "PT",
+        "name": "Guimar\u00e3es",
+        "lat": "41.44443",
+        "lng": "-8.29619"
+    },
+    {
+        "country": "PT",
+        "name": "Guif\u00f5es",
+        "lat": "41.20039",
+        "lng": "-8.66719"
+    },
+    {
+        "country": "PT",
+        "name": "Guarda",
+        "lat": "40.53733",
+        "lng": "-7.26575"
+    },
+    {
+        "country": "PT",
+        "name": "Grij\u00f3",
+        "lat": "41.02836",
+        "lng": "-8.58017"
+    },
+    {
+        "country": "PT",
+        "name": "Gondomar",
+        "lat": "41.14454",
+        "lng": "-8.53223"
+    },
+    {
+        "country": "PT",
+        "name": "G\u00f3is",
+        "lat": "40.15735",
+        "lng": "-8.11007"
+    },
+    {
+        "country": "PT",
+        "name": "Godim",
+        "lat": "41.17104",
+        "lng": "-7.80303"
+    },
+    {
+        "country": "PT",
+        "name": "Gemunde",
+        "lat": "41.26766",
+        "lng": "-8.64515"
+    },
+    {
+        "country": "PT",
+        "name": "Gandra",
+        "lat": "41.52185",
+        "lng": "-8.76185"
+    },
+    {
+        "country": "PT",
+        "name": "Gandra",
+        "lat": "41.20116",
+        "lng": "-8.43376"
+    },
+    {
+        "country": "PT",
+        "name": "Galegos",
+        "lat": "41.56268",
+        "lng": "-8.57204"
+    },
+    {
+        "country": "PT",
+        "name": "Gafanha da Nazar\u00e9",
+        "lat": "40.63621",
+        "lng": "-8.71338"
+    },
+    {
+        "country": "PT",
+        "name": "Gafanha da Encarna\u00e7\u00e3o",
+        "lat": "40.61806",
+        "lng": "-8.73303"
+    },
+    {
+        "country": "PT",
+        "name": "Fund\u00e3o",
+        "lat": "40.14025",
+        "lng": "-7.50135"
+    },
+    {
+        "country": "PT",
+        "name": "Freixo de Espada \u00e0 Cinta",
+        "lat": "41.09033",
+        "lng": "-6.80648"
+    },
+    {
+        "country": "PT",
+        "name": "Freamunde",
+        "lat": "41.28835",
+        "lng": "-8.33533"
+    },
+    {
+        "country": "PT",
+        "name": "Fraz\u00e3o",
+        "lat": "41.25866",
+        "lng": "-8.40014"
+    },
+    {
+        "country": "PT",
+        "name": "Foz do Sousa",
+        "lat": "41.09668",
+        "lng": "-8.50184"
+    },
+    {
+        "country": "PT",
+        "name": "Fornos de Algodres",
+        "lat": "40.62807",
+        "lng": "-7.54064"
+    },
+    {
+        "country": "PT",
+        "name": "Figueir\u00f3",
+        "lat": "41.29922",
+        "lng": "-8.16779"
+    },
+    {
+        "country": "PT",
+        "name": "Figueira de Castelo Rodrigo",
+        "lat": "40.89262",
+        "lng": "-6.9635"
+    },
+    {
+        "country": "PT",
+        "name": "Figueira da Foz",
+        "lat": "40.15085",
+        "lng": "-8.86179"
+    },
+    {
+        "country": "PT",
+        "name": "Fi\u00e3es",
+        "lat": "40.99446",
+        "lng": "-8.52537"
+    },
+    {
+        "country": "PT",
+        "name": "Ferreiros",
+        "lat": "41.35",
+        "lng": "-8.55"
+    },
+    {
+        "country": "PT",
+        "name": "Ferreira",
+        "lat": "41.26718",
+        "lng": "-8.34434"
+    },
+    {
+        "country": "PT",
+        "name": "Felgueiras",
+        "lat": "41.36806",
+        "lng": "-8.19396"
+    },
+    {
+        "country": "PT",
+        "name": "Feira",
+        "lat": "40.92535",
+        "lng": "-8.54277"
+    },
+    {
+        "country": "PT",
+        "name": "Ap\u00falia e F\u00e3o",
+        "lat": "41.51194",
+        "lng": "-8.77288"
+    },
+    {
+        "country": "PT",
+        "name": "F\u00e2nzeres",
+        "lat": "41.17087",
+        "lng": "-8.5257"
+    },
+    {
+        "country": "PT",
+        "name": "Fafe",
+        "lat": "41.45083",
+        "lng": "-8.17258"
+    },
+    {
+        "country": "PT",
+        "name": "Estarreja",
+        "lat": "40.75648",
+        "lng": "-8.57207"
+    },
+    {
+        "country": "PT",
+        "name": "Esposende",
+        "lat": "41.5361",
+        "lng": "-8.78201"
+    },
+    {
+        "country": "PT",
+        "name": "Espinho",
+        "lat": "41.00763",
+        "lng": "-8.64125"
+    },
+    {
+        "country": "PT",
+        "name": "Esmoriz",
+        "lat": "40.95773",
+        "lng": "-8.62753"
+    },
+    {
+        "country": "PT",
+        "name": "Ervedosa do Douro",
+        "lat": "41.16626",
+        "lng": "-7.47305"
+    },
+    {
+        "country": "PT",
+        "name": "Ermesinde",
+        "lat": "41.22176",
+        "lng": "-8.55462"
+    },
+    {
+        "country": "PT",
+        "name": "Eixo",
+        "lat": "40.62758",
+        "lng": "-8.56922"
+    },
+    {
+        "country": "PT",
+        "name": "Darque",
+        "lat": "41.68333",
+        "lng": "-8.76667"
+    },
+    {
+        "country": "PT",
+        "name": "Custoias",
+        "lat": "41.1053",
+        "lng": "-7.32097"
+    },
+    {
+        "country": "PT",
+        "name": "Cucuj\u00e3es",
+        "lat": "40.87413",
+        "lng": "-8.50687"
+    },
+    {
+        "country": "PT",
+        "name": "Covilh\u00e3",
+        "lat": "40.28106",
+        "lng": "-7.50504"
+    },
+    {
+        "country": "PT",
+        "name": "Cortega\u00e7a",
+        "lat": "40.94883",
+        "lng": "-8.6213"
+    },
+    {
+        "country": "PT",
+        "name": "Condeixa-a-Nova",
+        "lat": "40.11573",
+        "lng": "-8.49834"
+    },
+    {
+        "country": "PT",
+        "name": "Coimbra",
+        "lat": "40.20564",
+        "lng": "-8.41955"
+    },
+    {
+        "country": "PT",
+        "name": "Chaves",
+        "lat": "41.74019",
+        "lng": "-7.46879"
+    },
+    {
+        "country": "PT",
+        "name": "Celorico de Basto",
+        "lat": "41.38714",
+        "lng": "-8.00101"
+    },
+    {
+        "country": "PT",
+        "name": "Celorico da Beira",
+        "lat": "40.63723",
+        "lng": "-7.39037"
+    },
+    {
+        "country": "PT",
+        "name": "Castro Daire",
+        "lat": "40.8984",
+        "lng": "-7.93381"
+    },
+    {
+        "country": "PT",
+        "name": "Castel\u00f5es de Cepeda",
+        "lat": "41.20265",
+        "lng": "-8.33516"
+    },
+    {
+        "country": "PT",
+        "name": "Castelo de Paiva",
+        "lat": "41.06301",
+        "lng": "-8.2647"
+    },
+    {
+        "country": "PT",
+        "name": "Carvalhosa",
+        "lat": "41.30057",
+        "lng": "-8.3608"
+    },
+    {
+        "country": "PT",
+        "name": "Carregal do Sal",
+        "lat": "40.43333",
+        "lng": "-8"
+    },
+    {
+        "country": "PT",
+        "name": "Carrazeda de Anci\u00e3es",
+        "lat": "41.24247",
+        "lng": "-7.30721"
+    },
+    {
+        "country": "PT",
+        "name": "Cantanhede",
+        "lat": "40.34671",
+        "lng": "-8.59419"
+    },
+    {
+        "country": "PT",
+        "name": "Canidelo",
+        "lat": "41.12402",
+        "lng": "-8.65104"
+    },
+    {
+        "country": "PT",
+        "name": "Canelas",
+        "lat": "41.08333",
+        "lng": "-8.6"
+    },
+    {
+        "country": "PT",
+        "name": "Candoso",
+        "lat": "41.42768",
+        "lng": "-8.32166"
+    },
+    {
+        "country": "PT",
+        "name": "Campo",
+        "lat": "41.18516",
+        "lng": "-8.46493"
+    },
+    {
+        "country": "PT",
+        "name": "Campo",
+        "lat": "40.71086",
+        "lng": "-7.91445"
+    },
+    {
+        "country": "PT",
+        "name": "Calend\u00e1rio",
+        "lat": "41.40361",
+        "lng": "-8.52967"
+    },
+    {
+        "country": "PT",
+        "name": "Caldelas",
+        "lat": "41.67101",
+        "lng": "-8.38148"
+    },
+    {
+        "country": "PT",
+        "name": "Caldas de Vizela",
+        "lat": "41.38212",
+        "lng": "-8.3089"
+    },
+    {
+        "country": "PT",
+        "name": "Cabeceiras de Basto",
+        "lat": "41.51431",
+        "lng": "-7.98942"
+    },
+    {
+        "country": "PT",
+        "name": "Buarcos",
+        "lat": "40.16604",
+        "lng": "-8.8768"
+    },
+    {
+        "country": "PT",
+        "name": "Brito",
+        "lat": "41.45821",
+        "lng": "-8.36103"
+    },
+    {
+        "country": "PT",
+        "name": "Branca",
+        "lat": "40.76653",
+        "lng": "-8.48262"
+    },
+    {
+        "country": "PT",
+        "name": "Bragan\u00e7a",
+        "lat": "41.80582",
+        "lng": "-6.75719"
+    },
+    {
+        "country": "PT",
+        "name": "Braga",
+        "lat": "41.55032",
+        "lng": "-8.42005"
+    },
+    {
+        "country": "PT",
+        "name": "Bougado",
+        "lat": "41.33979",
+        "lng": "-8.5518"
+    },
+    {
+        "country": "PT",
+        "name": "Boticas",
+        "lat": "41.68987",
+        "lng": "-7.66594"
+    },
+    {
+        "country": "PT",
+        "name": "Belmonte",
+        "lat": "40.3593",
+        "lng": "-7.34869"
+    },
+    {
+        "country": "PT",
+        "name": "Beduido",
+        "lat": "40.76427",
+        "lng": "-8.5611"
+    },
+    {
+        "country": "PT",
+        "name": "Barrosas",
+        "lat": "41.35534",
+        "lng": "-8.29943"
+    },
+    {
+        "country": "PT",
+        "name": "Barcelos",
+        "lat": "41.53174",
+        "lng": "-8.61843"
+    },
+    {
+        "country": "PT",
+        "name": "Baltar",
+        "lat": "41.18512",
+        "lng": "-8.37344"
+    },
+    {
+        "country": "PT",
+        "name": "Bai\u00e3o",
+        "lat": "41.16273",
+        "lng": "-8.0347"
+    },
+    {
+        "country": "PT",
+        "name": "Baguim do Monte",
+        "lat": "41.19203",
+        "lng": "-8.54118"
+    },
+    {
+        "country": "PT",
+        "name": "Azenha",
+        "lat": "41.07651",
+        "lng": "-8.62468"
+    },
+    {
+        "country": "PT",
+        "name": "Avintes",
+        "lat": "41.11747",
+        "lng": "-8.54986"
+    },
+    {
+        "country": "PT",
+        "name": "Aves",
+        "lat": "41.37034",
+        "lng": "-8.4101"
+    },
+    {
+        "country": "PT",
+        "name": "Aver-o-Mar",
+        "lat": "41.40607",
+        "lng": "-8.77958"
+    },
+    {
+        "country": "PT",
+        "name": "Aveiro",
+        "lat": "40.64427",
+        "lng": "-8.64554"
+    },
+    {
+        "country": "PT",
+        "name": "Avanca",
+        "lat": "40.80771",
+        "lng": "-8.5722"
+    },
+    {
+        "country": "PT",
+        "name": "\u00c1rvore",
+        "lat": "41.33922",
+        "lng": "-8.71806"
+    },
+    {
+        "country": "PT",
+        "name": "Arrifana",
+        "lat": "40.91565",
+        "lng": "-8.49657"
+    },
+    {
+        "country": "PT",
+        "name": "Arouca",
+        "lat": "40.93057",
+        "lng": "-8.24488"
+    },
+    {
+        "country": "PT",
+        "name": "Ar\u00f5es",
+        "lat": "41.45553",
+        "lng": "-8.21419"
+    },
+    {
+        "country": "PT",
+        "name": "Armamar",
+        "lat": "41.10765",
+        "lng": "-7.69139"
+    },
+    {
+        "country": "PT",
+        "name": "Argoncilhe",
+        "lat": "41.02541",
+        "lng": "-8.53885"
+    },
+    {
+        "country": "PT",
+        "name": "Arganil",
+        "lat": "40.21826",
+        "lng": "-8.05403"
+    },
+    {
+        "country": "PT",
+        "name": "Areosa",
+        "lat": "41.71779",
+        "lng": "-8.85707"
+    },
+    {
+        "country": "PT",
+        "name": "Arcozelo",
+        "lat": "41.05327",
+        "lng": "-8.64326"
+    },
+    {
+        "country": "PT",
+        "name": "Arcos",
+        "lat": "40.44779",
+        "lng": "-8.44171"
+    },
+    {
+        "country": "PT",
+        "name": "Arazede",
+        "lat": "40.28627",
+        "lng": "-8.64999"
+    },
+    {
+        "country": "PT",
+        "name": "Aradas",
+        "lat": "40.62084",
+        "lng": "-8.64195"
+    },
+    {
+        "country": "PT",
+        "name": "Ap\u00falia",
+        "lat": "41.48512",
+        "lng": "-8.76413"
+    },
+    {
+        "country": "PT",
+        "name": "Antas",
+        "lat": "41.73644",
+        "lng": "-8.30888"
+    },
+    {
+        "country": "PT",
+        "name": "Anta",
+        "lat": "41.26634",
+        "lng": "-8.62844"
+    },
+    {
+        "country": "PT",
+        "name": "Anadia",
+        "lat": "40.43841",
+        "lng": "-8.43352"
+    },
+    {
+        "country": "PT",
+        "name": "Amares",
+        "lat": "41.63091",
+        "lng": "-8.35117"
+    },
+    {
+        "country": "PT",
+        "name": "Amarante",
+        "lat": "41.27271",
+        "lng": "-8.08245"
+    },
+    {
+        "country": "PT",
+        "name": "Alhadas",
+        "lat": "40.18607",
+        "lng": "-8.79057"
+    },
+    {
+        "country": "PT",
+        "name": "Alfena",
+        "lat": "41.23671",
+        "lng": "-8.52454"
+    },
+    {
+        "country": "PT",
+        "name": "Alfarelos",
+        "lat": "40.15057",
+        "lng": "-8.65326"
+    },
+    {
+        "country": "PT",
+        "name": "Alf\u00e2ndega da F\u00e9",
+        "lat": "41.34315",
+        "lng": "-6.96112"
+    },
+    {
+        "country": "PT",
+        "name": "Aldeia de Joanes",
+        "lat": "40.13905",
+        "lng": "-7.51694"
+    },
+    {
+        "country": "PT",
+        "name": "Albergaria-a-Velha",
+        "lat": "40.69318",
+        "lng": "-8.47994"
+    },
+    {
+        "country": "PT",
+        "name": "Aguiar da Beira",
+        "lat": "40.81726",
+        "lng": "-7.54431"
+    },
+    {
+        "country": "PT",
+        "name": "\u00c1gueda",
+        "lat": "40.5772",
+        "lng": "-8.44442"
+    },
+    {
+        "country": "PT",
+        "name": "Agu\u00e7adoura",
+        "lat": "41.43116",
+        "lng": "-8.77844"
+    },
+    {
+        "country": "PT",
+        "name": "\u00c1guas Santas",
+        "lat": "41.21061",
+        "lng": "-8.5866"
+    },
+    {
+        "country": "PT",
+        "name": "Aguada de Cima",
+        "lat": "40.52291",
+        "lng": "-8.427"
+    },
+    {
+        "country": "PT",
+        "name": "Ada\u00fafe",
+        "lat": "41.58732",
+        "lng": "-8.39817"
+    },
+    {
+        "country": "PT",
+        "name": "Abraveses",
+        "lat": "40.68137",
+        "lng": "-7.92102"
+    },
+    {
+        "country": "PT",
+        "name": "Vila Franca do Campo",
+        "lat": "37.71667",
+        "lng": "-25.43333"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Roque do Pico",
+        "lat": "38.51631",
+        "lng": "-28.30752"
+    },
+    {
+        "country": "PT",
+        "name": "S\u00e3o Roque",
+        "lat": "37.75418",
+        "lng": "-25.64127"
+    },
+    {
+        "country": "PT",
+        "name": "Rosto de C\u00e3o",
+        "lat": "37.75",
+        "lng": "-25.65"
+    },
+    {
+        "country": "PT",
+        "name": "Ribeira Grande",
+        "lat": "38.51667",
+        "lng": "-28.7"
+    },
+    {
+        "country": "PT",
+        "name": "Relva",
+        "lat": "37.75271",
+        "lng": "-25.71848"
+    },
+    {
+        "country": "PT",
+        "name": "Rabo de Peixe",
+        "lat": "37.8",
+        "lng": "-25.58333"
+    },
+    {
+        "country": "PT",
+        "name": "Praia da Vit\u00f3ria",
+        "lat": "38.73333",
+        "lng": "-27.06667"
+    },
+    {
+        "country": "PT",
+        "name": "Ponta Delgada",
+        "lat": "37.73783",
+        "lng": "-25.67401"
+    },
+    {
+        "country": "PT",
+        "name": "Madalena",
+        "lat": "38.53642",
+        "lng": "-28.5266"
+    },
+    {
+        "country": "PT",
+        "name": "Lajes das Flores",
+        "lat": "39.37744",
+        "lng": "-31.17847"
+    },
+    {
+        "country": "PT",
+        "name": "Lagoa",
+        "lat": "39.05",
+        "lng": "-27.98333"
+    },
+    {
+        "country": "PT",
+        "name": "Horta",
+        "lat": "38.53333",
+        "lng": "-28.63333"
+    },
+    {
+        "country": "PT",
+        "name": "Furnas",
+        "lat": "37.77567",
+        "lng": "-25.31035"
+    },
+    {
+        "country": "PT",
+        "name": "Faj\u00e3 de Baixo",
+        "lat": "37.75",
+        "lng": "-25.65"
+    },
+    {
+        "country": "PT",
+        "name": "Cabouco",
+        "lat": "37.76667",
+        "lng": "-25.56667"
+    },
+    {
+        "country": "PT",
+        "name": "Biscoitos",
+        "lat": "38.78333",
+        "lng": "-27.25"
+    },
+    {
+        "country": "PT",
+        "name": "Arrifes",
+        "lat": "37.76667",
+        "lng": "-25.7"
+    },
+    {
+        "country": "PT",
+        "name": "Angra do Hero\u00edsmo",
+        "lat": "38.65",
+        "lng": "-27.21667"
+    },
+    {
+        "country": "PT",
+        "name": "Vilamoura",
+        "lat": "37.081",
+        "lng": "-8.11083"
+    },
+    {
+        "country": "PT",
+        "name": "Vila Nova De Cacela",
+        "lat": "37.17447",
+        "lng": "-7.53473"
+    },
+    {
+        "country": "PT",
+        "name": "Valenza",
+        "lat": "42.02418",
+        "lng": "-8.63474"
+    },
+    {
+        "country": "PT",
+        "name": "Vila",
+        "lat": "42.0304",
+        "lng": "-8.1588"
+    },
+    {
+        "country": "PT",
+        "name": "Cabanas de Tavira",
+        "lat": "37.13521",
+        "lng": "-7.60048"
+    },
+    {
+        "country": "PT",
+        "name": "Azeit\u00e3o",
+        "lat": "38.51919",
+        "lng": "-9.0139"
+    }
+]
