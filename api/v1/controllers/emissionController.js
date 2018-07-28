@@ -37,6 +37,7 @@ let processEmission = (emissions, component, region, quantity, item) => {
           Logger.info(`Emissions ${component.name}: ${emissions[component.name]} kg`);
         }
       }
+      emissions['type'] = item.categories[0];
       resolve(emissions);
     }
     // if component type is complex, recurse to find its atomic components
