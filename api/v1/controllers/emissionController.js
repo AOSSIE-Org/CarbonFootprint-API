@@ -1,6 +1,6 @@
 const Emission = require('../models/emissionModel');
 const spline = require('cubic-spline');
-const Logger  = require('@framework/Logger');
+const Logger = require('@framework/Logger');
 const redis = require('@framework/redis');
 // import Redis client
 const redisClient = redis.redisClient;
@@ -136,21 +136,21 @@ let find = (component, region, quantity) => {
   });
 };
 
-exports.calculate = async function(itemName, region, quantity, multiply = 1, type = ''){
-    let emissions = await find(itemName, region, quantity);
-    // round up the emission value upto 10 decimal points
-  if(type && emissions.type != type) {
+exports.calculate = async function (itemName, region, quantity, multiply = 1, type = '') {
+  let emissions = await find(itemName, region, quantity);
+  // round up the emission value upto 10 decimal points
+  if (type && emissions.type != type) {
     return new Promise((resolve, reject) => {
       reject(`Unable to find component ${itemName} for ${region}`);
     });
   }
-    for(let i in emissions){
-        emissions[i] = parseFloat((emissions[i]*multiply).toFixed(10));
-        // remove CH4 or N2O key if emissions are zero
-        if(!emissions[i] && i !== "CO2"){
-            delete emissions[i];
-        }
+  for (let i in emissions) {
+    emissions[i] = parseFloat((emissions[i] * multiply).toFixed(10));
+    // remove CH4 or N2O key if emissions are zero
+    if (!emissions[i] && i !== "CO2") {
+      delete emissions[i];
     }
-    return emissions;
+  }
+  return emissions;
 };
 
