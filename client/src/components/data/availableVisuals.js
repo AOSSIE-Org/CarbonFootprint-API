@@ -26,7 +26,35 @@ const data = [
     "longDescription": "CO2 emissions from commonly used electric appliances categorized into rooms in which they are commonly found in.",
     "link": "appliances",
     "title": "Electric Appliance(s) Emissions"
+  },
+  {
+    "name": "Agriculture 🚜",
+    "shortDescription": "CO2 emissions from agricultural processes for a certain country",
+    "longDescription": "CO2 emissions from agricultural processes for a certain country",
+    "link": "agriculture",
+    "title": "Agriculture Emissions"
+  },
+  {
+    "name": "Food 🍖",
+    "shortDescription": "CO2 emissions from food items for a certain country",
+    "longDescription": "CO2 emissions from food items for a certain country",
+    "link": "food",
+    "title": "Food Emissions"
+  },
+  {
+    "name": "Sector 🏭",
+    "shortDescription": "CO2 emissions from different types of sectors for a certain country.",
+    "longDescription": "CO2 emissions from different types of sectors for a certain country.",
+    "link": "sector",
+    "title": "Sector Emissions"
+  },
+  {
+    "name": "Land 🌍",
+    "shortDescription": "CO2 emissions from different types of land for a certain country.",
+    "longDescription": "CO2 emissions from different types of land for a certain country.",
+    "link": "land",
+    "title": "Land Emissions"
   }
-]
+];
 
 export default data;

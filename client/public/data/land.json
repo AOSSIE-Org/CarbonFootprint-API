@@ -1,0 +1,1395 @@
+{
+  "Afghanistan": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Albania": {
+    "Forest land": "-513.3333",
+    "Cropland": "155.6306",
+    "Grassland": "0",
+    "Burning Biomass": "2.9041"
+  },
+  "Algeria": {
+    "Forest land": "-440",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "American Samoa": {
+    "Forest land": "8.1253",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Andorra": {
+    "Forest land": "-21.7505",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Angola": {
+    "Forest land": "34466.6667",
+    "Cropland": "111.0311",
+    "Grassland": "96.5742",
+    "Burning Biomass": "49480.4415"
+  },
+  "Anguilla": {
+    "Forest land": "3.6989",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Antigua and Barbuda": {
+    "Forest land": "6.5908",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Argentina": {
+    "Forest land": "88733.3333",
+    "Cropland": "994.3238",
+    "Grassland": "755.9477",
+    "Burning Biomass": "5080.5427"
+  },
+  "Armenia": {
+    "Forest land": "-146.6667",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Aruba": {
+    "Forest land": "0.2825",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Australia": {
+    "Forest land": "-72969.3182",
+    "Cropland": "3149.6216",
+    "Grassland": "28.5867",
+    "Burning Biomass": "549.6435"
+  },
+  "Austria": {
+    "Forest land": "-5133.3333",
+    "Cropland": "234.49",
+    "Grassland": "7.0263",
+    "Burning Biomass": "0.0632"
+  },
+  "Azerbaijan": {
+    "Forest land": "-8474.4708",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Bahamas": {
+    "Forest land": "346.3514",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Bahrain": {
+    "Forest land": "-4.8592",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Bangladesh": {
+    "Forest land": "-2530",
+    "Cropland": "31226.1666",
+    "Grassland": "24.3173",
+    "Burning Biomass": "151.0107"
+  },
+  "Barbados": {
+    "Forest land": "4.2369",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Belarus": {
+    "Forest land": "-25520",
+    "Cropland": "24708.1041",
+    "Grassland": "107.1511",
+    "Burning Biomass": "107.7821"
+  },
+  "Belgium": {
+    "Forest land": "-2882",
+    "Cropland": "245.2608",
+    "Grassland": "8.0433",
+    "Burning Biomass": "0.9652"
+  },
+  "Belize": {
+    "Forest land": "1466.6667",
+    "Cropland": "542.4819",
+    "Grassland": "42.4332",
+    "Burning Biomass": "506.5187"
+  },
+  "Benin": {
+    "Forest land": "10538",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Bermuda": {
+    "Forest land": "-0.2227",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Bhutan": {
+    "Forest land": "-3813.3333",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Bolivia (Plurinational State of)": {
+    "Forest land": "83741.7377",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Bosnia and Herzegovina": {
+    "Forest land": "0",
+    "Cropland": "135.1009",
+    "Grassland": "0",
+    "Burning Biomass": "19.4448"
+  },
+  "Botswana": {
+    "Forest land": "7333.3333",
+    "Cropland": "0",
+    "Grassland": "102.542",
+    "Burning Biomass": "21154.2977"
+  },
+  "Brazil": {
+    "Forest land": "294030",
+    "Cropland": "35.1049",
+    "Grassland": "2.0104",
+    "Burning Biomass": "63.9272"
+  },
+  "British Virgin Islands": {
+    "Forest land": "3.7445",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Brunei Darussalam": {
+    "Forest land": "0",
+    "Cropland": "379.8492",
+    "Grassland": "0",
+    "Burning Biomass": "64.736"
+  },
+  "Bulgaria": {
+    "Forest land": "-11366.6667",
+    "Cropland": "1440.5431",
+    "Grassland": "0",
+    "Burning Biomass": "30.7337"
+  },
+  "Burkina Faso": {
+    "Forest land": "8800",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Burundi": {
+    "Forest land": "-1606",
+    "Cropland": "3067.6063",
+    "Grassland": "5.8",
+    "Burning Biomass": "716.5752"
+  },
+  "Cabo Verde": {
+    "Forest land": "-168.6667",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Cambodia": {
+    "Forest land": "22733.3333",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Cameroon": {
+    "Forest land": "108533.3333",
+    "Cropland": "1078.2178",
+    "Grassland": "0",
+    "Burning Biomass": "1176.8368"
+  },
+  "Canada": {
+    "Forest land": "6883.8256",
+    "Cropland": "12937.1755",
+    "Grassland": "1440.3149",
+    "Burning Biomass": "44209.3495"
+  },
+  "Cayman Islands": {
+    "Forest land": "8.5411",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Central African Republic": {
+    "Forest land": "13200",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "4.0887"
+  },
+  "Chad": {
+    "Forest land": "24933.3333",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Channel Islands": {
+    "Forest land": "-0.7495",
+    "Cropland": "0",
+    "Grassland": "0"
+  },
+  "Chile": {
+    "Forest land": "-105380",
+    "Cropland": "115.1722",
+    "Grassland": "19.3965",
+    "Burning Biomass": "6.5572"
+  },
+  "China, Hong Kong SAR": {
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "China, Macao SAR": {
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "China, mainland": {
+    "Forest land": "-313720",
+    "Cropland": "1051.5414",
+    "Grassland": "163.9303",
+    "Burning Biomass": "335.7682"
+  },
+  "China, Taiwan Province of": {
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Colombia": {
+    "Forest land": "14388",
+    "Cropland": "3058.098",
+    "Grassland": "504.2539",
+    "Burning Biomass": "70.4779"
+  },
+  "Comoros": {
+    "Forest land": "66",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Congo": {
+    "Forest land": "8066.6667",
+    "Cropland": "1135.0779",
+    "Grassland": "28.9071",
+    "Burning Biomass": "2805.1378"
+  },
+  "Cook Islands": {
+    "Forest land": "0.0061",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Costa Rica": {
+    "Forest land": "-11440",
+    "Cropland": "69.981",
+    "Grassland": "0",
+    "Burning Biomass": "13.6411"
+  },
+  "Côte d'Ivoire": {
+    "Forest land": "3666.6667",
+    "Cropland": "1697.2028",
+    "Grassland": "67.6466",
+    "Burning Biomass": "33.0109"
+  },
+  "Croatia": {
+    "Forest land": "-3842.6667",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "1.0362"
+  },
+  "Cuba": {
+    "Forest land": "-14006.6667",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Cyprus": {
+    "Forest land": "-304.3333",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Czechia": {
+    "Forest land": "-12686.6667",
+    "Cropland": "190.2392",
+    "Grassland": "0.0049",
+    "Burning Biomass": "0.2052"
+  },
+  "Democratic People's Republic of Korea": {
+    "Forest land": "13933.3333",
+    "Cropland": "201.2234",
+    "Grassland": "0.5267",
+    "Burning Biomass": "2.7323"
+  },
+  "Democratic Republic of the Congo": {
+    "Forest land": "145200",
+    "Cropland": "28.2438",
+    "Grassland": "4.707",
+    "Burning Biomass": "1111.5038"
+  },
+  "Denmark": {
+    "Forest land": "-2200",
+    "Cropland": "1700.0908",
+    "Grassland": "5.0992",
+    "Burning Biomass": "0.5224"
+  },
+  "Djibouti": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Dominica": {
+    "Forest land": "116.2538",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Dominican Republic": {
+    "Forest land": "-8726.6667",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Ecuador": {
+    "Forest land": "33733.3333",
+    "Cropland": "149.5549",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Egypt": {
+    "Forest land": "-218.5333",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "El Salvador": {
+    "Forest land": "731.8309",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Equatorial Guinea": {
+    "Forest land": "5353.3333",
+    "Cropland": "6.9399",
+    "Grassland": "0.0394",
+    "Burning Biomass": "0.0371"
+  },
+  "Eritrea": {
+    "Forest land": "660.0869",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0.2391"
+  },
+  "Estonia": {
+    "Forest land": "-1422.6667",
+    "Cropland": "5741.498",
+    "Grassland": "64.8805",
+    "Burning Biomass": "11.2288"
+  },
+  "Ethiopia": {
+    "Forest land": "-2651.4151",
+    "Cropland": "12101.1247",
+    "Grassland": "335.5601",
+    "Burning Biomass": "6030.3017"
+  },
+  "Falkland Islands (Malvinas)": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "5.2673"
+  },
+  "Faroe Islands": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Fiji": {
+    "Forest land": "-3124.4881",
+    "Cropland": "127.0786",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Finland": {
+    "Forest land": "0",
+    "Cropland": "5619.3261",
+    "Grassland": "95.4891",
+    "Burning Biomass": "13.5109"
+  },
+  "France": {
+    "Forest land": "-85800",
+    "Cropland": "6699.9281",
+    "Grassland": "257.2709",
+    "Burning Biomass": "7.6426"
+  },
+  "French Guiana": {
+    "Forest land": "733.3333",
+    "Cropland": "165.2099",
+    "Grassland": "0.0786",
+    "Burning Biomass": "48.0809"
+  },
+  "French Polynesia": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Gabon": {
+    "Forest land": "-94600",
+    "Cropland": "392.0697",
+    "Grassland": "3.7859",
+    "Burning Biomass": "13.946"
+  },
+  "Gambia": {
+    "Forest land": "-359.3333",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Georgia": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Germany": {
+    "Forest land": "-49866.6667",
+    "Cropland": "11979.0875",
+    "Grassland": "520.5564",
+    "Burning Biomass": "10.4217"
+  },
+  "Ghana": {
+    "Forest land": "8103.3333",
+    "Cropland": "145.661",
+    "Grassland": "0",
+    "Burning Biomass": "1.0853"
+  },
+  "Gibraltar": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Greece": {
+    "Forest land": "-2200",
+    "Cropland": "1491.9223",
+    "Grassland": "0.4907",
+    "Burning Biomass": "24.1184"
+  },
+  "Greenland": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Grenada": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Guadeloupe": {
+    "Forest land": "0.7694",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Guam": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Guatemala": {
+    "Forest land": "7480",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Guinea": {
+    "Forest land": "12466.6667",
+    "Cropland": "655.683",
+    "Grassland": "54.6407",
+    "Burning Biomass": "590.8292"
+  },
+  "Guinea-Bissau": {
+    "Forest land": "1466.6667",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Guyana": {
+    "Forest land": "11000",
+    "Cropland": "3198.5397",
+    "Grassland": "297.4658",
+    "Burning Biomass": "2347.2645"
+  },
+  "Haiti": {
+    "Forest land": "137.8667",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Holy See": {
+    "Cropland": "0",
+    "Grassland": "0"
+  },
+  "Honduras": {
+    "Forest land": "27866.6667",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Hungary": {
+    "Forest land": "-3593.3333",
+    "Cropland": "7819.0713",
+    "Grassland": "10.8104",
+    "Burning Biomass": "12.9473"
+  },
+  "Iceland": {
+    "Forest land": "-183.3333",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "2.6615"
+  },
+  "India": {
+    "Forest land": "112200",
+    "Cropland": "8483.9433",
+    "Grassland": "25.6473",
+    "Burning Biomass": "7.6357"
+  },
+  "Indonesia": {
+    "Forest land": "998066.6667",
+    "Cropland": "285366.73",
+    "Grassland": "8981.7785",
+    "Burning Biomass": "132077.3667"
+  },
+  "Iran (Islamic Republic of)": {
+    "Forest land": "67075.58",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Iraq": {
+    "Forest land": "-2040.4279",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Ireland": {
+    "Forest land": "-1392.8026",
+    "Cropland": "477.1939",
+    "Grassland": "476.3363",
+    "Burning Biomass": "44.9716"
+  },
+  "Isle of Man": {
+    "Forest land": "-3.2418",
+    "Cropland": "4.5892",
+    "Grassland": "0.1837",
+    "Burning Biomass": "0"
+  },
+  "Israel": {
+    "Forest land": "-73.3333",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Italy": {
+    "Forest land": "-35200",
+    "Cropland": "905.3891",
+    "Grassland": "7.0261",
+    "Burning Biomass": "1.23"
+  },
+  "Jamaica": {
+    "Forest land": "146.6667",
+    "Cropland": "630.5464",
+    "Grassland": "0",
+    "Burning Biomass": "20.36"
+  },
+  "Japan": {
+    "Forest land": "387.2573",
+    "Cropland": "7027.4702",
+    "Grassland": "24.5272",
+    "Burning Biomass": "20.7609"
+  },
+  "Jordan": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Kazakhstan": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0.9477"
+  },
+  "Kenya": {
+    "Forest land": "-31533.3333",
+    "Cropland": "262.4004",
+    "Grassland": "1.1831",
+    "Burning Biomass": "416.6056"
+  },
+  "Kiribati": {
+    "Forest land": "-5.6644",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Kuwait": {
+    "Forest land": "-15.4578",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Kyrgyzstan": {
+    "Forest land": "-836.1747",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Lao People's Democratic Republic": {
+    "Forest land": "16199.3333",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Latvia": {
+    "Forest land": "-16060",
+    "Cropland": "5182.6792",
+    "Grassland": "31.8743",
+    "Burning Biomass": "1.9793"
+  },
+  "Lebanon": {
+    "Forest land": "-4.4",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Lesotho": {
+    "Forest land": "-198",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Liberia": {
+    "Forest land": "1180.6667",
+    "Cropland": "115.7465",
+    "Grassland": "14.4288",
+    "Burning Biomass": "0"
+  },
+  "Libya": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Liechtenstein": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0"
+  },
+  "Lithuania": {
+    "Forest land": "-5940",
+    "Cropland": "6344.93",
+    "Grassland": "29.9943",
+    "Burning Biomass": "5.6186"
+  },
+  "Luxembourg": {
+    "Forest land": "0",
+    "Cropland": "3.6237",
+    "Grassland": "0.0201",
+    "Burning Biomass": "0"
+  },
+  "Madagascar": {
+    "Forest land": "14666.6667",
+    "Cropland": "1320.9368",
+    "Grassland": "1360.0168",
+    "Burning Biomass": "2925.8332"
+  },
+  "Malawi": {
+    "Forest land": "2933.3333",
+    "Cropland": "549.5241",
+    "Grassland": "0.9315",
+    "Burning Biomass": "499.535"
+  },
+  "Malaysia": {
+    "Forest land": "-182600",
+    "Cropland": "36508.538",
+    "Grassland": "961.4822",
+    "Burning Biomass": "5068.3453"
+  },
+  "Maldives": {
+    "Forest land": "2.3989",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Mali": {
+    "Forest land": "6541.3333",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Malta": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Marshall Islands": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Martinique": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Mauritania": {
+    "Forest land": "-1518",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Mauritius": {
+    "Forest land": "-14.6667",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Mayotte": {
+    "Forest land": "47.2519",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Mexico": {
+    "Forest land": "7333.3333",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Micronesia (Federated States of)": {
+    "Forest land": "-29.3333",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Monaco": {
+    "Cropland": "0",
+    "Grassland": "0"
+  },
+  "Mongolia": {
+    "Forest land": "15948.234",
+    "Cropland": "7795.8057",
+    "Grassland": "331.0624",
+    "Burning Biomass": "1799.5366"
+  },
+  "Montenegro": {
+    "Forest land": "0",
+    "Cropland": "61.897",
+    "Grassland": "0",
+    "Burning Biomass": "6.0873"
+  },
+  "Montserrat": {
+    "Forest land": "1.6813",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Morocco": {
+    "Forest land": "-1466.6667",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Mozambique": {
+    "Forest land": "37400",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Myanmar": {
+    "Forest land": "75335.3333",
+    "Cropland": "18258.4409",
+    "Grassland": "50.9834",
+    "Burning Biomass": "1355.2215"
+  },
+  "Namibia": {
+    "Forest land": "7890.6667",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "1002.782"
+  },
+  "Nauru": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Nepal": {
+    "Forest land": "0",
+    "Cropland": "5234.306",
+    "Grassland": "218.747",
+    "Burning Biomass": "280.7116"
+  },
+  "Netherlands": {
+    "Forest land": "-2493.3333",
+    "Cropland": "3505.0552",
+    "Grassland": "148.285",
+    "Burning Biomass": "0.0085"
+  },
+  "Netherlands Antilles (former)": {
+    "Forest land": "0.7936",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "New Caledonia": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "New Zealand": {
+    "Forest land": "-18333.3333",
+    "Cropland": "2845.9635",
+    "Grassland": "84.7898",
+    "Burning Biomass": "1.7035"
+  },
+  "Nicaragua": {
+    "Forest land": "8.8",
+    "Cropland": "55.7201",
+    "Grassland": "0",
+    "Burning Biomass": "5.217"
+  },
+  "Niger": {
+    "Forest land": "1466.6667",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Nigeria": {
+    "Forest land": "183333.3333",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Niue": {
+    "Forest land": "48.3831",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Norfolk Island": {
+    "Forest land": "-0.0419",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Northern Mariana Islands": {
+    "Forest land": "60.9402",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Norway": {
+    "Forest land": "-24200",
+    "Cropland": "2135.3111",
+    "Grassland": "113.6347",
+    "Burning Biomass": "4.9751"
+  },
+  "Occupied Palestinian Territory": {
+    "Forest land": "-22.6797",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Oman": {
+    "Forest land": "-4.9465",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Pakistan": {
+    "Forest land": "28600",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Palau": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Panama": {
+    "Forest land": "7333.3333",
+    "Cropland": "1208.1421",
+    "Grassland": "0",
+    "Burning Biomass": "9.8023"
+  },
+  "Papua New Guinea": {
+    "Forest land": "2200",
+    "Cropland": "42029.13",
+    "Grassland": "2.1925",
+    "Burning Biomass": "8369.9063"
+  },
+  "Paraguay": {
+    "Forest land": "141641.5272",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Peru": {
+    "Forest land": "70315.9339",
+    "Cropland": "1357.5122",
+    "Grassland": "0",
+    "Burning Biomass": "184.0377"
+  },
+  "Philippines": {
+    "Forest land": "-60353.3333",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Pitcairn Islands": {
+    "Forest land": "0.0014",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Poland": {
+    "Forest land": "-40333.3333",
+    "Cropland": "14867.0973",
+    "Grassland": "356.5576",
+    "Burning Biomass": "18.7484"
+  },
+  "Portugal": {
+    "Forest land": "1321.4943",
+    "Cropland": "427.3947",
+    "Grassland": "3.2631",
+    "Burning Biomass": "7.7965"
+  },
+  "Puerto Rico": {
+    "Forest land": "-2200",
+    "Cropland": "279.6811",
+    "Grassland": "0",
+    "Burning Biomass": "0.6377"
+  },
+  "Qatar": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Republic of Korea": {
+    "Forest land": "-39600",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Republic of Moldova": {
+    "Forest land": "-1254",
+    "Cropland": "165.0825",
+    "Grassland": "1.024",
+    "Burning Biomass": "0"
+  },
+  "Réunion": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Romania": {
+    "Forest land": "-165066",
+    "Cropland": "1155.005",
+    "Grassland": "0",
+    "Burning Biomass": "416.0611"
+  },
+  "Russian Federation": {
+    "Forest land": "-220000",
+    "Cropland": "29854.9179",
+    "Grassland": "1562.6945",
+    "Burning Biomass": "57205.2352"
+  },
+  "Rwanda": {
+    "Forest land": "-2412.6667",
+    "Cropland": "2730.9495",
+    "Grassland": "13.517",
+    "Burning Biomass": "307.9114"
+  },
+  "Saint Helena, Ascension and Tristan da Cunha": {
+    "Forest land": "1.149",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Saint Kitts and Nevis": {
+    "Forest land": "7.3978",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Saint Lucia": {
+    "Forest land": "33.3019",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Saint Pierre and Miquelon": {
+    "Forest land": "2.8484",
+    "Cropland": "0.1821",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Saint Vincent and the Grenadines": {
+    "Forest land": "18.1582",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Samoa": {
+    "Forest land": "0.0686",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "San Marino": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0"
+  },
+  "Sao Tome and Principe": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Saudi Arabia": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Senegal": {
+    "Forest land": "4400",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Serbia": {
+    "Forest land": "-1320",
+    "Cropland": "3.1292",
+    "Grassland": "0.022",
+    "Burning Biomass": "0.0663"
+  },
+  "Seychelles": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Sierra Leone": {
+    "Forest land": "5683.3333",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Singapore": {
+    "Forest land": "44.0969",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Slovakia": {
+    "Forest land": "-5133.3333",
+    "Cropland": "43.0457",
+    "Grassland": "0.0026",
+    "Burning Biomass": "0.7586"
+  },
+  "Slovenia": {
+    "Forest land": "-6306.6667",
+    "Cropland": "61.9472",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Solomon Islands": {
+    "Forest land": "1980",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Somalia": {
+    "Forest land": "13200",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "South Africa": {
+    "Forest land": "0",
+    "Cropland": "247.9442",
+    "Grassland": "6.8902",
+    "Burning Biomass": "777.4202"
+  },
+  "Spain": {
+    "Forest land": "-33586.6667",
+    "Cropland": "409.0497",
+    "Grassland": "1.4463",
+    "Burning Biomass": "22.995"
+  },
+  "Sri Lanka": {
+    "Forest land": "1444.6667",
+    "Cropland": "2995.7008",
+    "Grassland": "0",
+    "Burning Biomass": "0.3504"
+  },
+  "Sudan (former)": {
+    "Forest land": "44062.2156",
+    "Cropland": "750.318",
+    "Grassland": "154.1435",
+    "Burning Biomass": "122275.6442"
+  },
+  "Suriname": {
+    "Forest land": "1788.6",
+    "Cropland": "1961.0172",
+    "Grassland": "71.2869",
+    "Burning Biomass": "544.1085"
+  },
+  "Svalbard and Jan Mayen Islands": {
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Eswatini": {
+    "Forest land": "146.6667",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "41.6654"
+  },
+  "Sweden": {
+    "Forest land": "-8433.3333",
+    "Cropland": "4147.9207",
+    "Grassland": "29.2586",
+    "Burning Biomass": "22.5533"
+  },
+  "Switzerland": {
+    "Forest land": "-1833.3333",
+    "Cropland": "268.4803",
+    "Grassland": "12.5555",
+    "Burning Biomass": "0"
+  },
+  "Syrian Arab Republic": {
+    "Forest land": "-1214.3637",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Tajikistan": {
+    "Forest land": "-0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Thailand": {
+    "Forest land": "12466.6667",
+    "Cropland": "1141.5254",
+    "Grassland": "1.2544",
+    "Burning Biomass": "16.2915"
+  },
+  "The former Yugoslav Republic of Macedonia": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0.0024"
+  },
+  "Timor-Leste": {
+    "Forest land": "6098.7431",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Togo": {
+    "Forest land": "6556.4388",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Tokelau": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Tonga": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Trinidad and Tobago": {
+    "Forest land": "-501.4682",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Tunisia": {
+    "Forest land": "-293.3333",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Turkey": {
+    "Forest land": "-64870.6667",
+    "Cropland": "0.5897",
+    "Grassland": "0",
+    "Burning Biomass": "0.4463"
+  },
+  "Turkmenistan": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Turks and Caicos Islands": {
+    "Forest land": "23.1349",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Tuvalu": {
+    "Forest land": "0.0004",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Uganda": {
+    "Forest land": "17600",
+    "Cropland": "6404.479",
+    "Grassland": "68.3697",
+    "Burning Biomass": "1353.6437"
+  },
+  "Ukraine": {
+    "Forest land": "-18333.3333",
+    "Cropland": "12399.96",
+    "Grassland": "117.3968",
+    "Burning Biomass": "866.906"
+  },
+  "United Arab Emirates": {
+    "Forest land": "-212.6667",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "United Kingdom": {
+    "Forest land": "-15400",
+    "Cropland": "2800.835",
+    "Grassland": "383.3797",
+    "Burning Biomass": "30.7744"
+  },
+  "United Republic of Tanzania": {
+    "Forest land": "161054.6667",
+    "Cropland": "6720.8926",
+    "Grassland": "164.9479",
+    "Burning Biomass": "40145.8097"
+  },
+  "United States of America": {
+    "Forest land": "-192866.6667",
+    "Cropland": "72180.1516",
+    "Grassland": "1828.3139",
+    "Burning Biomass": "57810.0538"
+  },
+  "United States Virgin Islands": {
+    "Forest land": "-80.6667",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Uruguay": {
+    "Forest land": "-10663.0866",
+    "Cropland": "102.7357",
+    "Grassland": "39.6088",
+    "Burning Biomass": "8.0696"
+  },
+  "Uzbekistan": {
+    "Forest land": "-16426.6667",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Vanuatu": {
+    "Forest land": "-14.0072",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Venezuela (Bolivarian Republic of)": {
+    "Forest land": "61347.73",
+    "Cropland": "1384.7702",
+    "Grassland": "15.5784",
+    "Burning Biomass": "3162.8778"
+  },
+  "Viet Nam": {
+    "Forest land": "-28600",
+    "Cropland": "8906.4935",
+    "Grassland": "0.9329",
+    "Burning Biomass": "227.4119"
+  },
+  "Wallis and Futuna Islands": {
+    "Forest land": "7.3333",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Western Sahara": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Yemen": {
+    "Forest land": "0",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "Zambia": {
+    "Forest land": "5770.5853",
+    "Cropland": "9619.61",
+    "Grassland": "2950.6998",
+    "Burning Biomass": "247087.7382"
+  },
+  "Zimbabwe": {
+    "Forest land": "36043.3333",
+    "Cropland": "0",
+    "Grassland": "0",
+    "Burning Biomass": "0"
+  },
+  "China": {
+    "Forest land": "-313720",
+    "Cropland": "1051.5414",
+    "Grassland": "163.9303",
+    "Burning Biomass": "335.7682"
+  }
+}

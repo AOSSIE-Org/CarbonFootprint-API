@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+<div id="bar">
+</div>
+<svg class="chart"></svg>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="../js/d3-tip.js"></script>
+<script type="text/javascript">
+  let foodData;
+  let data = {
+    labels: [
+      "Cereals excluding rice", "Rice, paddy", "Meat, cattle", "Milk, whole fresh cow",
+      "Meat, goat", "Milk, whole fresh goat", "Meat, sheep", "Milk, whole fresh sheep",
+      "Milk, whole fresh camel", "Meat, chicken", "Eggs, hen, in shell"
+    ], series: [{
+      label: '',
+      values: []
+    }]
+  };
+
+  function showGraph(country) {
+    data['series'][0]['values'] = [];
+    for (key in foodData[country]) {
+      data['series'][0]['label'] = country;
+      data['series'][0]['values'].push(foodData[country][key]);
+    }
+
+    let chartWidth = 600,
+        barHeight = 30,
+        groupHeight = barHeight * data.series.length,
+        gapBetweenGroups = 10,
+        spaceForLabels = 200,
+        spaceForLegend = 400,
+        margin = {top: 80, right: 80, bottom: 100, left: 100},
+        width = window.innerWidth - margin.left - margin.right,
+        height = window.innerHeight - margin.top - margin.bottom;
+
+    // Zip the series data together (first values, second values, etc.)
+    let zippedData = [];
+    for (let i = 0; i < data.labels.length; i++) {
+      for (let j = 0; j < data.series.length; j++) {
+        zippedData.push(parseFloat(data.series[j].values[i]));
+      }
+    }
+
+    // Color scale
+    let color = d3.scale.category20();
+    let chartHeight = 50 + barHeight * zippedData.length + gapBetweenGroups * data.labels.length;
+
+    let x = d3.scale.linear()
+        .domain([0, d3.max(zippedData)])
+        .range([0, chartWidth]);
+
+    let y = d3.scale.linear()
+        .range([chartHeight + gapBetweenGroups, 50]);
+
+    let yAxis = d3.svg.axis()
+        .scale(y)
+        .tickFormat('')
+        .tickSize(0)
+        .orient("left");
+
+    // Specify the chart area and dimensions
+    let chart = d3.select(".chart")
+        .attr("width", spaceForLabels + chartWidth + spaceForLegend)
+        .attr("height", chartHeight);
+
+    // Create tooltip
+    let tooltip = d3.select("body").append("div").attr("class", "toolTip");
+    // Create bars
+    let bar = chart.selectAll("g")
+        .data(zippedData)
+        .enter().append("g")
+        .attr("class", "bar")
+        .attr("transform", function (d, i) {
+          return `translate(${spaceForLabels},${i * barHeight + 50 + gapBetweenGroups * (0.5 + Math.floor(i / data.series.length))})`;
+        })
+        .on("mousemove", function (d) {
+          tooltip
+              .style("left", d3.event.pageX - 50 + "px")
+              .style("top", d3.event.pageY - 70 + "px")
+              .style("display", "inline-block")
+              .html(`CO2 Emissions (in GigaGrams): ${d}`);
+        })
+        .on("mouseout", function (d) {
+          tooltip.style("display", "none");
+        });
+
+    // Create rectangles of the correct width
+    bar.append("rect")
+        .attr("fill", function (d, i) {
+          return color(i % data.series.length);
+        })
+        .attr("class", "bar")
+        .attr("width", x)
+        .attr("height", barHeight - 1);
+
+    // Draw labels
+    bar.append("text")
+        .attr("class", "label")
+        .attr("x", function (d) {
+          return -10;
+        })
+        .attr("y", groupHeight / 2)
+        .attr("dy", ".35em")
+        .text(function (d, i) {
+          if (i % data.series.length === 0)
+            return data.labels[Math.floor(i / data.series.length)];
+          else
+            return ""
+        });
+
+    chart.append("g")
+        .attr("class", "y axis")
+        .attr("transform", `translate(${spaceForLabels},${-gapBetweenGroups / 2})`)
+        .call(yAxis);
+
+    // Draw legend
+    let legendRectSize = 18,
+        legendSpacing = 4;
+
+    let legend = chart.selectAll('.legend')
+        .data(data.series)
+        .enter()
+        .append('g')
+        .attr('transform', function (d, i) {
+          let height = legendRectSize + legendSpacing;
+          let offset = -gapBetweenGroups / 2;
+          let horz = spaceForLabels + chartWidth + 40 - legendRectSize;
+          let vert = i * height - offset;
+          return `translate(${horz},${vert})`;
+        });
+
+    legend.append('rect')
+        .attr('width', legendRectSize)
+        .attr('height', legendRectSize)
+        .style('fill', function (d, i) {
+          return color(i);
+        })
+        .style('stroke', function (d, i) {
+          return color(i);
+        });
+
+    legend.append('text')
+        .attr('class', 'legend')
+        .attr('x', legendRectSize + legendSpacing)
+        .attr('y', legendRectSize - legendSpacing)
+        .text(function (d) {
+          return d.label;
+        });
+  }
+
+  function updateGraph(country) {
+    country = country.value;
+    let bar = document.getElementById("bar");
+    // Clear the div
+    bar.innerHTML = '';
+    // Repopulating the div
+    d3.select('.chart').html("");
+    showGraph(country);
+  }
+
+  d3.json("../data/food.json", function (data) {
+    // create a dropdown with countries
+    let select = document.createElement("select");
+    select.setAttribute('onChange', 'updateGraph(this)');
+    for (let x in data) {
+      let option = document.createElement("option");
+      option.text = x;
+      select.append(option);
+    }
+    document.body.prepend(select);
+    foodData = data;
+    // default country set
+    showGraph("Afghanistan");
+  });
+</script>
+</body>
+</html>
