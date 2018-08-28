@@ -1,3 +1,4 @@
+//react-json-schema's schema for the structured data
 const schemaArray = [
     {
         "title": "Structured Data",

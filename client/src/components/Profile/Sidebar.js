@@ -51,9 +51,11 @@ export default class Sidebar extends Component {
           active={activeItem === 'updates'}
           onClick={() => window.open('http://docs.carbonhub.xyz', '_blank')}
         >
+        <Link to= {"/DataUpload"}>
           <span>
-            <Icon name="newspaper" /> Documentation
+            <Icon name= "file" /> Data Upload
           </span>
+        </Link>
         </Menu.Item>
 
         <Menu.Item
