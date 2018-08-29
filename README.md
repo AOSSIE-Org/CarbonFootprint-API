@@ -86,6 +86,10 @@ Documentation
 
 * `cd docs && gitbook serve`  to view the documentation.
 
+Package
+-----
+* Check our [npm package](https://gitlab.com/vedularaghu/aossiecfe/)
+
 Licenses
 ---------
 * GNU-GPL-3.0
