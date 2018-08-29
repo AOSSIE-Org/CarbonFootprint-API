@@ -1,0 +1,1122 @@
+{
+  "Afghanistan": {
+    "Energy": "61",
+    "Industry": "157.76",
+    "Waste": "0"
+  },
+  "Albania": {
+    "Energy": "865.98",
+    "Industry": "534.51",
+    "Waste": "2.46"
+  },
+  "Algeria": {
+    "Energy": "57519",
+    "Industry": "10070.82",
+    "Waste": "0"
+  },
+  "American Samoa": {
+    "Energy": "0",
+    "Industry": "16.3191",
+    "Waste": "0"
+  },
+  "Angola": {
+    "Energy": "9181",
+    "Industry": "655.18",
+    "Waste": "0"
+  },
+  "Anguilla": {
+    "Energy": "0",
+    "Industry": "0",
+    "Waste": "0"
+  },
+  "Antigua and Barbuda": {
+    "Energy": "146.7",
+    "Industry": "64.349",
+    "Waste": "0"
+  },
+  "Argentina": {
+    "Energy": "88721",
+    "Industry": "8889.97",
+    "Waste": "0"
+  },
+  "Armenia": {
+    "Energy": "1563",
+    "Industry": "549.3678",
+    "Waste": "0"
+  },
+  "Aruba": {
+    "Energy": "0",
+    "Industry": "56.5175",
+    "Waste": "0"
+  },
+  "Australia": {
+    "Energy": "311062",
+    "Industry": "17694.94",
+    "Waste": "15.9"
+  },
+  "Austria": {
+    "Energy": "36671",
+    "Industry": "6591.44",
+    "Waste": "4.18"
+  },
+  "Azerbaijan": {
+    "Energy": "15859",
+    "Industry": "1221.59",
+    "Waste": "0"
+  },
+  "Bahamas": {
+    "Energy": "1971.0003",
+    "Industry": "434.476",
+    "Waste": "0"
+  },
+  "Bahrain": {
+    "Energy": "21474.2",
+    "Industry": "2416.2774",
+    "Waste": "0"
+  },
+  "Bangladesh": {
+    "Energy": "27803.247",
+    "Industry": "3888.03",
+    "Waste": "0"
+  },
+  "Barbados": {
+    "Energy": "559.7001",
+    "Industry": "147.097",
+    "Waste": "0"
+  },
+  "Belarus": {
+    "Energy": "40726.12",
+    "Industry": "4608.71",
+    "Waste": "0"
+  },
+  "Belgium": {
+    "Energy": "53679",
+    "Industry": "9961.54",
+    "Waste": "151"
+  },
+  "Belize": {
+    "Energy": "238.0001",
+    "Industry": "2.892",
+    "Waste": "0"
+  },
+  "Benin": {
+    "Energy": "256.5",
+    "Industry": "741.757",
+    "Waste": "0"
+  },
+  "Bermuda": {
+    "Energy": "263",
+    "Industry": "4.5028",
+    "Waste": "0"
+  },
+  "Bhutan": {
+    "Energy": "46.4",
+    "Industry": "204.1753",
+    "Waste": "0"
+  },
+  "Bolivia (Plurinational State of)": {
+    "Energy": "6646.7",
+    "Industry": "735.23",
+    "Waste": "0"
+  },
+  "Bosnia and Herzegovina": {
+    "Energy": "20608.7",
+    "Industry": "921.03",
+    "Waste": "3.5"
+  },
+  "Botswana": {
+    "Energy": "2760.0001",
+    "Industry": "99.1838",
+    "Waste": "0"
+  },
+  "Brazil": {
+    "Energy": "180560",
+    "Industry": "43037.3",
+    "Waste": "237"
+  },
+  "British Virgin Islands": {
+    "Energy": "29.84",
+    "Industry": "0.212",
+    "Waste": "0"
+  },
+  "Brunei Darussalam": {
+    "Energy": "8132",
+    "Industry": "108.3942",
+    "Waste": "1.57"
+  },
+  "Bulgaria": {
+    "Energy": "34905.0537",
+    "Industry": "4817.8",
+    "Waste": "0"
+  },
+  "Burkina Faso": {
+    "Energy": "210",
+    "Industry": "74.68",
+    "Waste": "0"
+  },
+  "Burundi": {
+    "Energy": "70.3",
+    "Industry": "125.408",
+    "Waste": "0"
+  },
+  "Cabo Verde": {
+    "Energy": "24.47",
+    "Industry": "4.508",
+    "Waste": "0"
+  },
+  "Cambodia": {
+    "Energy": "394",
+    "Industry": "15.535",
+    "Waste": "9.51"
+  },
+  "Cameroon": {
+    "Energy": "2636",
+    "Industry": "1743.745",
+    "Waste": "0"
+  },
+  "Canada": {
+    "Energy": "263100",
+    "Industry": "27918.1",
+    "Waste": "175"
+  },
+  "Cayman Islands": {
+    "Energy": "155.01",
+    "Industry": "3.082",
+    "Waste": "0"
+  },
+  "Central African Republic": {
+    "Energy": "43.2",
+    "Industry": "187.001",
+    "Waste": "0"
+  },
+  "Chad": {
+    "Energy": "85.35",
+    "Industry": "27.86",
+    "Waste": "0"
+  },
+  "Chile": {
+    "Energy": "47539.5",
+    "Industry": "5762.29",
+    "Waste": "0"
+  },
+  "China, Hong Kong SAR": {
+    "Energy": "39220",
+    "Industry": "591.826",
+    "Waste": "10.2"
+  },
+  "China, Macao SAR": {
+    "Energy": "834",
+    "Industry": "2.3767",
+    "Waste": "0.753"
+  },
+  "China, mainland": {
+    "Energy": "6455290",
+    "Industry": "1132927.5",
+    "Waste": "897"
+  },
+  "China, Taiwan Province of": {
+    "Energy": "216100.0564",
+    "Industry": "13605.09",
+    "Waste": "24.9"
+  },
+  "Colombia": {
+    "Energy": "35512",
+    "Industry": "6348.678",
+    "Waste": "0"
+  },
+  "Comoros": {
+    "Energy": "15.48",
+    "Industry": "5.3423",
+    "Waste": "0"
+  },
+  "Congo": {
+    "Energy": "2585.7",
+    "Industry": "12.601",
+    "Waste": "0"
+  },
+  "Cook Islands": {
+    "Energy": "16.7",
+    "Industry": "0",
+    "Waste": "0"
+  },
+  "Costa Rica": {
+    "Energy": "1635.1012",
+    "Industry": "640.208",
+    "Waste": "0"
+  },
+  "Côte d'Ivoire": {
+    "Energy": "3028",
+    "Industry": "424.19",
+    "Waste": "0"
+  },
+  "Croatia": {
+    "Energy": "9446.28",
+    "Industry": "3878.32",
+    "Waste": "0.0813"
+  },
+  "Cuba": {
+    "Energy": "35801",
+    "Industry": "989.26",
+    "Waste": "0"
+  },
+  "Cyprus": {
+    "Energy": "4525",
+    "Industry": "892.65",
+    "Waste": "0"
+  },
+  "Czechia": {
+    "Energy": "86631.68",
+    "Industry": "5340.08",
+    "Waste": "492"
+  },
+  "Democratic People's Republic of Korea": {
+    "Energy": "50209.9003",
+    "Industry": "3913.81",
+    "Waste": "6.02"
+  },
+  "Democratic Republic of the Congo": {
+    "Energy": "1144.22",
+    "Industry": "404.19",
+    "Waste": "0"
+  },
+  "Denmark": {
+    "Energy": "28138.8",
+    "Industry": "1904.948",
+    "Waste": "0"
+  },
+  "Djibouti": {
+    "Energy": "1005",
+    "Industry": "0.6667",
+    "Waste": "0"
+  },
+  "Dominica": {
+    "Energy": "36.94",
+    "Industry": "7.1825",
+    "Waste": "0"
+  },
+  "Dominican Republic": {
+    "Energy": "11560.0031",
+    "Industry": "1665.79",
+    "Waste": "10.9"
+  },
+  "Ecuador": {
+    "Energy": "13619",
+    "Industry": "1734.207",
+    "Waste": "0"
+  },
+  "Egypt": {
+    "Energy": "109191.4",
+    "Industry": "23631.86",
+    "Waste": "0"
+  },
+  "El Salvador": {
+    "Energy": "2500.901",
+    "Industry": "550.011",
+    "Waste": "0"
+  },
+  "Equatorial Guinea": {
+    "Energy": "2171.21",
+    "Industry": "576.7279",
+    "Waste": "0"
+  },
+  "Eritrea": {
+    "Energy": "355.9",
+    "Industry": "39.1091",
+    "Waste": "0"
+  },
+  "Estonia": {
+    "Energy": "15759.6",
+    "Industry": "892.041",
+    "Waste": "0"
+  },
+  "Ethiopia": {
+    "Energy": "1598.34",
+    "Industry": "909.1818",
+    "Waste": "0"
+  },
+  "Falkland Islands (Malvinas)": {
+    "Energy": "21.85",
+    "Industry": "0.2636",
+    "Waste": "0.0026"
+  },
+  "Faroe Islands": {
+    "Energy": "0",
+    "Industry": "0",
+    "Waste": "1.88"
+  },
+  "Fiji": {
+    "Energy": "288",
+    "Industry": "89.8352",
+    "Waste": "0"
+  },
+  "Finland": {
+    "Energy": "47225",
+    "Industry": "2174.57",
+    "Waste": "0"
+  },
+  "France": {
+    "Energy": "132857",
+    "Industry": "28266.2",
+    "Waste": "3240"
+  },
+  "French Guiana": {
+    "Energy": "492.0001",
+    "Industry": "26.398",
+    "Waste": "0.0825"
+  },
+  "French Polynesia": {
+    "Energy": "275.6",
+    "Industry": "3.9993",
+    "Waste": "0"
+  },
+  "French Southern and Antarctic Territories": {
+    "Energy": "0",
+    "Industry": "0",
+    "Waste": "0"
+  },
+  "Gabon": {
+    "Energy": "4566.6",
+    "Industry": "118.1322",
+    "Waste": "0"
+  },
+  "Gambia": {
+    "Energy": "45.66",
+    "Industry": "5.9373",
+    "Waste": "0"
+  },
+  "Georgia": {
+    "Energy": "1970.78",
+    "Industry": "621.18",
+    "Waste": "0"
+  },
+  "Germany": {
+    "Energy": "470770",
+    "Industry": "40909.57",
+    "Waste": "0"
+  },
+  "Ghana": {
+    "Energy": "3978.1026",
+    "Industry": "911.67",
+    "Waste": "0"
+  },
+  "Gibraltar": {
+    "Energy": "119",
+    "Industry": "0.614",
+    "Waste": "0.589"
+  },
+  "Greece": {
+    "Energy": "52302.54",
+    "Industry": "8337.84",
+    "Waste": "0.918"
+  },
+  "Greenland": {
+    "Energy": "0",
+    "Industry": "1.3886",
+    "Waste": "0.996"
+  },
+  "Grenada": {
+    "Energy": "91.83",
+    "Industry": "1.1474",
+    "Waste": "0"
+  },
+  "Guadeloupe": {
+    "Energy": "636.6001",
+    "Industry": "106.6609",
+    "Waste": "0"
+  },
+  "Guam": {
+    "Energy": "0",
+    "Industry": "11.567",
+    "Waste": "0"
+  },
+  "Guatemala": {
+    "Energy": "4271.56",
+    "Industry": "1299.85",
+    "Waste": "0"
+  },
+  "Guinea": {
+    "Energy": "504",
+    "Industry": "187.221",
+    "Waste": "0"
+  },
+  "Guinea-Bissau": {
+    "Energy": "107.2",
+    "Industry": "4.6984",
+    "Waste": "0"
+  },
+  "Guyana": {
+    "Energy": "823.8001",
+    "Industry": "1.1445",
+    "Waste": "0.119"
+  },
+  "Haiti": {
+    "Energy": "764",
+    "Industry": "222.241",
+    "Waste": "0"
+  },
+  "Honduras": {
+    "Energy": "3690",
+    "Industry": "767.514",
+    "Waste": "0"
+  },
+  "Hungary": {
+    "Energy": "23389.6",
+    "Industry": "4131.9059",
+    "Waste": "218"
+  },
+  "Iceland": {
+    "Energy": "521.54",
+    "Industry": "2492.1776",
+    "Waste": "0"
+  },
+  "India": {
+    "Energy": "1296650",
+    "Industry": "135322.8",
+    "Waste": "0"
+  },
+  "Indonesia": {
+    "Energy": "301580",
+    "Industry": "28624.2",
+    "Waste": "101"
+  },
+  "Iran (Islamic Republic of)": {
+    "Energy": "207888",
+    "Industry": "37861.9",
+    "Waste": "0"
+  },
+  "Iraq": {
+    "Energy": "100520",
+    "Industry": "13709.4",
+    "Waste": "0"
+  },
+  "Ireland": {
+    "Energy": "17058.0042",
+    "Industry": "2758.31",
+    "Waste": "0"
+  },
+  "Israel": {
+    "Energy": "46083.7",
+    "Industry": "2577",
+    "Waste": "0"
+  },
+  "Italy": {
+    "Energy": "188101",
+    "Industry": "27915.8",
+    "Waste": "868"
+  },
+  "Jamaica": {
+    "Energy": "5920.47",
+    "Industry": "439.6244",
+    "Waste": "0"
+  },
+  "Japan": {
+    "Energy": "761809",
+    "Industry": "69267.7",
+    "Waste": "24200"
+  },
+  "Jordan": {
+    "Energy": "11746.0086",
+    "Industry": "1927.299",
+    "Waste": "0"
+  },
+  "Kazakhstan": {
+    "Energy": "142150",
+    "Industry": "12322.39",
+    "Waste": "0"
+  },
+  "Kenya": {
+    "Energy": "4343.0017",
+    "Industry": "1732.28",
+    "Waste": "0"
+  },
+  "Kiribati": {
+    "Energy": "2.361",
+    "Industry": "0.3675",
+    "Waste": "0"
+  },
+  "Kuwait": {
+    "Energy": "70040",
+    "Industry": "4253.1135",
+    "Waste": "0"
+  },
+  "Kyrgyzstan": {
+    "Energy": "3750.173",
+    "Industry": "684.9577",
+    "Waste": "0"
+  },
+  "Lao People's Democratic Republic": {
+    "Energy": "204",
+    "Industry": "199.78",
+    "Waste": "0"
+  },
+  "Latvia": {
+    "Energy": "3530",
+    "Industry": "412.664",
+    "Waste": "0.389"
+  },
+  "Lebanon": {
+    "Energy": "9730",
+    "Industry": "2231.307",
+    "Waste": "0"
+  },
+  "Lesotho": {
+    "Energy": "42.8",
+    "Industry": "6.1064",
+    "Waste": "0"
+  },
+  "Liberia": {
+    "Energy": "187.8",
+    "Industry": "81.0624",
+    "Waste": "0"
+  },
+  "Libya": {
+    "Energy": "37980",
+    "Industry": "5015.05",
+    "Waste": "0"
+  },
+  "Lithuania": {
+    "Energy": "6140.66",
+    "Industry": "3223.54",
+    "Waste": "1.88"
+  },
+  "Luxembourg": {
+    "Energy": "3110",
+    "Industry": "611.948",
+    "Waste": "0"
+  },
+  "Madagascar": {
+    "Energy": "506.0001",
+    "Industry": "157.04",
+    "Waste": "0"
+  },
+  "Malawi": {
+    "Energy": "123.3",
+    "Industry": "132.854",
+    "Waste": "0"
+  },
+  "Malaysia": {
+    "Energy": "138090",
+    "Industry": "16461.23",
+    "Waste": "42.3"
+  },
+  "Maldives": {
+    "Energy": "313",
+    "Industry": "1.0575",
+    "Waste": "0"
+  },
+  "Mali": {
+    "Energy": "106.7",
+    "Industry": "39.51",
+    "Waste": "0"
+  },
+  "Malta": {
+    "Energy": "1090",
+    "Industry": "16.4518",
+    "Waste": "0"
+  },
+  "Marshall Islands": {
+    "Energy": "0",
+    "Industry": "0",
+    "Waste": "0"
+  },
+  "Martinique": {
+    "Energy": "1024.0001",
+    "Industry": "102.4044",
+    "Waste": "0"
+  },
+  "Mauritania": {
+    "Energy": "1159.0001",
+    "Industry": "149.751",
+    "Waste": "0"
+  },
+  "Mauritius": {
+    "Energy": "1324.0001",
+    "Industry": "39.5888",
+    "Waste": "0"
+  },
+  "Mayotte": {
+    "Energy": "0",
+    "Industry": "0",
+    "Waste": "0"
+  },
+  "Mexico": {
+    "Energy": "253610",
+    "Industry": "25266",
+    "Waste": "0"
+  },
+  "Micronesia (Federated States of)": {
+    "Energy": "0",
+    "Industry": "0",
+    "Waste": "0"
+  },
+  "Mongolia": {
+    "Energy": "10049.232",
+    "Industry": "121.289",
+    "Waste": "0.789"
+  },
+  "Montserrat": {
+    "Energy": "24.86",
+    "Industry": "0",
+    "Waste": "0"
+  },
+  "Morocco": {
+    "Energy": "22337.0245",
+    "Industry": "5041.77",
+    "Waste": "0"
+  },
+  "Mozambique": {
+    "Energy": "468.8",
+    "Industry": "1213.24",
+    "Waste": "0"
+  },
+  "Myanmar": {
+    "Energy": "5869",
+    "Industry": "468.08",
+    "Waste": "0"
+  },
+  "Namibia": {
+    "Energy": "274.28",
+    "Industry": "202.064",
+    "Waste": "0"
+  },
+  "Nauru": {
+    "Energy": "0",
+    "Industry": "1.027",
+    "Waste": "0"
+  },
+  "Nepal": {
+    "Energy": "1343.43",
+    "Industry": "176.824",
+    "Waste": "0"
+  },
+  "Netherlands": {
+    "Energy": "91005.5",
+    "Industry": "12249.8",
+    "Waste": "0"
+  },
+  "Netherlands Antilles (former)": {
+    "Energy": "3286.0108",
+    "Industry": "90.2114",
+    "Waste": "0"
+  },
+  "New Caledonia": {
+    "Energy": "656",
+    "Industry": "83.1156",
+    "Waste": "0"
+  },
+  "New Zealand": {
+    "Energy": "14153",
+    "Industry": "3051.07",
+    "Waste": "0"
+  },
+  "Nicaragua": {
+    "Energy": "2414.1005",
+    "Industry": "268.037",
+    "Waste": "0"
+  },
+  "Niger": {
+    "Energy": "321.6",
+    "Industry": "42.776",
+    "Waste": "0"
+  },
+  "Nigeria": {
+    "Energy": "45210",
+    "Industry": "2844.1",
+    "Waste": "0"
+  },
+  "Niue": {
+    "Energy": "0",
+    "Industry": "0",
+    "Waste": "0"
+  },
+  "Norfolk Island": {
+    "Energy": "0",
+    "Industry": "0",
+    "Waste": "0"
+  },
+  "Northern Mariana Islands": {
+    "Energy": "0",
+    "Industry": "0",
+    "Waste": "0"
+  },
+  "Norway": {
+    "Energy": "19139",
+    "Industry": "6843.599",
+    "Waste": "485"
+  },
+  "Oman": {
+    "Energy": "33630",
+    "Industry": "1916.8631",
+    "Waste": "0"
+  },
+  "Pakistan": {
+    "Energy": "89171",
+    "Industry": "14490.1",
+    "Waste": "0"
+  },
+  "Palau": {
+    "Energy": "0",
+    "Industry": "0",
+    "Waste": "0"
+  },
+  "Panama": {
+    "Energy": "6540",
+    "Industry": "450.6469",
+    "Waste": "0"
+  },
+  "Papua New Guinea": {
+    "Energy": "2888",
+    "Industry": "70.884",
+    "Waste": "0.819"
+  },
+  "Paraguay": {
+    "Energy": "150",
+    "Industry": "417.148",
+    "Waste": "0"
+  },
+  "Peru": {
+    "Energy": "21855.6",
+    "Industry": "3115.76",
+    "Waste": "0"
+  },
+  "Philippines": {
+    "Energy": "46297.5",
+    "Industry": "6785.29",
+    "Waste": "0"
+  },
+  "Pitcairn Islands": {
+    "Energy": "0",
+    "Industry": "0",
+    "Waste": "0"
+  },
+  "Poland": {
+    "Energy": "206381.46",
+    "Industry": "17015.1",
+    "Waste": "157"
+  },
+  "Portugal": {
+    "Energy": "21651.4",
+    "Industry": "5251.11",
+    "Waste": "235"
+  },
+  "Puerto Rico": {
+    "Energy": "3.97",
+    "Industry": "620.2612",
+    "Waste": "0"
+  },
+  "Qatar": {
+    "Energy": "60100",
+    "Industry": "4782.7637",
+    "Waste": "0"
+  },
+  "Republic of Korea": {
+    "Energy": "416260.0485",
+    "Industry": "26999.41",
+    "Waste": "0"
+  },
+  "Republic of Moldova": {
+    "Energy": "4252.0502",
+    "Industry": "460.431",
+    "Waste": "2.32"
+  },
+  "Réunion": {
+    "Energy": "485.0001",
+    "Industry": "182.5837",
+    "Waste": "0"
+  },
+  "Romania": {
+    "Energy": "48475",
+    "Industry": "10846.38",
+    "Waste": "59.9"
+  },
+  "Russian Federation": {
+    "Energy": "1188050",
+    "Industry": "93559.3",
+    "Waste": "0"
+  },
+  "Rwanda": {
+    "Energy": "159.47",
+    "Industry": "57.014",
+    "Waste": "0"
+  },
+  "Saint Helena, Ascension and Tristan da Cunha": {
+    "Energy": "0.0032",
+    "Industry": "0",
+    "Waste": "0"
+  },
+  "Saint Kitts and Nevis": {
+    "Energy": "48.9",
+    "Industry": "0.1833",
+    "Waste": "0"
+  },
+  "Saint Lucia": {
+    "Energy": "175.8",
+    "Industry": "28.9887",
+    "Waste": "0"
+  },
+  "Saint Pierre and Miquelon": {
+    "Energy": "2.65",
+    "Industry": "0",
+    "Waste": "0.0349"
+  },
+  "Saint Vincent and the Grenadines": {
+    "Energy": "89",
+    "Industry": "0.4645",
+    "Waste": "0"
+  },
+  "Samoa": {
+    "Energy": "11.73",
+    "Industry": "0.7155",
+    "Waste": "0"
+  },
+  "Sao Tome and Principe": {
+    "Energy": "20.54",
+    "Industry": "3.6943",
+    "Waste": "0"
+  },
+  "Saudi Arabia": {
+    "Energy": "276620",
+    "Industry": "40437.806",
+    "Waste": "0"
+  },
+  "Senegal": {
+    "Energy": "3336.7002",
+    "Industry": "1474.22",
+    "Waste": "0"
+  },
+  "Seychelles": {
+    "Energy": "357.8",
+    "Industry": "24.8116",
+    "Waste": "0"
+  },
+  "Sierra Leone": {
+    "Energy": "327",
+    "Industry": "122.116",
+    "Waste": "0"
+  },
+  "Singapore": {
+    "Energy": "32391.068",
+    "Industry": "2903.662",
+    "Waste": "160"
+  },
+  "Slovakia": {
+    "Energy": "22820.4",
+    "Industry": "4193.999",
+    "Waste": "66.2"
+  },
+  "Slovenia": {
+    "Energy": "8381.8",
+    "Industry": "2056.76",
+    "Waste": "0"
+  },
+  "Solomon Islands": {
+    "Energy": "24.66",
+    "Industry": "6.4357",
+    "Waste": "0"
+  },
+  "Somalia": {
+    "Energy": "117.2",
+    "Industry": "16.524",
+    "Waste": "0"
+  },
+  "South Africa": {
+    "Energy": "262479.4",
+    "Industry": "16339.41",
+    "Waste": "0"
+  },
+  "Spain": {
+    "Energy": "121254",
+    "Industry": "24292.3",
+    "Waste": "22"
+  },
+  "Sri Lanka": {
+    "Energy": "5679.8009",
+    "Industry": "893.23",
+    "Waste": "0"
+  },
+  "Sudan (former)": {
+    "Energy": "4430.6",
+    "Industry": "259.29",
+    "Waste": "0"
+  },
+  "Suriname": {
+    "Energy": "863.0005",
+    "Industry": "31.6551",
+    "Waste": "0.184"
+  },
+  "Eswatini": {
+    "Energy": "336.7",
+    "Industry": "3.2353",
+    "Waste": "0"
+  },
+  "Sweden": {
+    "Energy": "22620.6",
+    "Industry": "4337.947",
+    "Waste": "35.2"
+  },
+  "Switzerland": {
+    "Energy": "8635.839",
+    "Industry": "2357.8",
+    "Waste": "0.0195"
+  },
+  "Syrian Arab Republic": {
+    "Energy": "33870",
+    "Industry": "2639.41",
+    "Waste": "0"
+  },
+  "Tajikistan": {
+    "Energy": "671.6317",
+    "Industry": "734.65",
+    "Waste": "0"
+  },
+  "Thailand": {
+    "Energy": "146246",
+    "Industry": "17957.73",
+    "Waste": "72"
+  },
+  "The former Yugoslav Republic of Macedonia": {
+    "Energy": "7570.0015",
+    "Industry": "611.97",
+    "Waste": "2.1"
+  },
+  "Timor-Leste": {
+    "Energy": "0.003",
+    "Industry": "1.5635",
+    "Waste": "0.121"
+  },
+  "Togo": {
+    "Energy": "399.8",
+    "Industry": "367.019",
+    "Waste": "0"
+  },
+  "Tokelau": {
+    "Energy": "0",
+    "Industry": "0",
+    "Waste": "0"
+  },
+  "Tonga": {
+    "Energy": "14.2",
+    "Industry": "6.0458",
+    "Waste": "0"
+  },
+  "Trinidad and Tobago": {
+    "Energy": "24188",
+    "Industry": "15299.889",
+    "Waste": "0"
+  },
+  "Tunisia": {
+    "Energy": "13569.2",
+    "Industry": "3630.95",
+    "Waste": "0"
+  },
+  "Turkey": {
+    "Energy": "157708.87",
+    "Industry": "34237.86",
+    "Waste": "0"
+  },
+  "Turkmenistan": {
+    "Energy": "25716.16",
+    "Industry": "1088.963",
+    "Waste": "0"
+  },
+  "Turks and Caicos Islands": {
+    "Energy": "0",
+    "Industry": "0",
+    "Waste": "0"
+  },
+  "Tuvalu": {
+    "Energy": "0",
+    "Industry": "0.55",
+    "Waste": "0"
+  },
+  "Uganda": {
+    "Energy": "346.6001",
+    "Industry": "349.824",
+    "Waste": "0"
+  },
+  "Ukraine": {
+    "Energy": "200938.4",
+    "Industry": "29735.3",
+    "Waste": "0"
+  },
+  "United Arab Emirates": {
+    "Energy": "146330",
+    "Industry": "9267.846",
+    "Waste": "0"
+  },
+  "United Kingdom": {
+    "Energy": "258720",
+    "Industry": "17186.9",
+    "Waste": "483"
+  },
+  "United Republic of Tanzania": {
+    "Energy": "1079.6",
+    "Industry": "778.28",
+    "Waste": "0"
+  },
+  "United States of America": {
+    "Energy": "3106260",
+    "Industry": "148058.8",
+    "Waste": "0"
+  },
+  "United States Virgin Islands": {
+    "Energy": "0",
+    "Industry": "1.4863",
+    "Waste": "0"
+  },
+  "Uruguay": {
+    "Energy": "1464.0036",
+    "Industry": "285.753",
+    "Waste": "0"
+  },
+  "Uzbekistan": {
+    "Energy": "61530",
+    "Industry": "5445.03",
+    "Waste": "0"
+  },
+  "Vanuatu": {
+    "Energy": "12.82",
+    "Industry": "1.9542",
+    "Waste": "0"
+  },
+  "Venezuela (Bolivarian Republic of)": {
+    "Energy": "116910",
+    "Industry": "8807.32",
+    "Waste": "0"
+  },
+  "Viet Nam": {
+    "Energy": "86026",
+    "Industry": "22550.49",
+    "Waste": "0"
+  },
+  "Wallis and Futuna Islands": {
+    "Energy": "0",
+    "Industry": "0",
+    "Waste": "0"
+  },
+  "Western Sahara": {
+    "Energy": "104.5",
+    "Industry": "0.4773",
+    "Waste": "0"
+  },
+  "Yemen": {
+    "Energy": "12265",
+    "Industry": "1474.8957",
+    "Waste": "0"
+  },
+  "Zambia": {
+    "Energy": "745.6008",
+    "Industry": "422.151",
+    "Waste": "0"
+  },
+  "Zimbabwe": {
+    "Energy": "9019.3",
+    "Industry": "471.89",
+    "Waste": "0"
+  },
+  "China": {
+    "Energy": "6711444.0564",
+    "Industry": "1147126.7927",
+    "Waste": "932.853"
+  }
+}

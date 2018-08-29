@@ -73,3 +73,40 @@ select {
 .details{
     color:white;
 }
+
+.chart .legend {
+    fill: black;
+    font: 14px sans-serif;
+    text-anchor: start;
+    font-size: 12px;
+}
+
+.chart text {
+    fill: black;
+    font: 10px sans-serif;
+    text-anchor: end;
+}
+
+.chart .label {
+    fill: black;
+    font: 14px sans-serif;
+    text-anchor: end;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.toolTip {
+    position: absolute;
+    display: none;
+    min-width: 80px;
+    height: auto;
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid brown;
+    padding: 14px;
+    text-align: center;
+}
