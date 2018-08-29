@@ -5,13 +5,13 @@ const suggestedData = require('../models/suggestedDataModel');
 const fs = require('fs');
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
-      cb(null, 'suggested_data/')
+        cb(null, 'suggested_data/')
     },
     filename: function (req, file, cb) {
-      cb(null, file.fieldname + '-' + Date.now()+ '.' + file.originalname.split('.')[file.originalname.split('.').length -1]);
+        cb(null, file.fieldname + '-' + Date.now() + '.' + file.originalname.split('.')[file.originalname.split('.').length - 1]);
     }
-  });
-  const upload = multer({ storage: storage });
+});
+const upload = multer({ storage: storage });
 
 router.post('/', (req, res) => {
     console.log(req.body);
@@ -59,6 +59,7 @@ router.post('/approveData', (req, res) => {
             fs.readFile(process.cwd() + "/raw_data/appliances.json", (err, file) => {
                 const appliance = approve.data["Appliance"];
                 const diss = approve.data['Average_watts (in Wh)'];
+                const place = approve.data['place'];
                 let jsonArray = JSON.parse(file);
                 jsonArray.push({ "Appliance": appliance, "Average_watts (in Wh)": parseInt(diss) });
                 fs.writeFile(process.cwd() + "/raw_data/appliances.json", JSON.stringify(jsonArray), (err, result) => {
@@ -68,6 +69,22 @@ router.post('/approveData', (req, res) => {
                         console.log("successfully approved");
                     }
                 });
+                fs.readFile(process.cwd() + "/client/public/data/appliances.json", (err, file) => {
+                    let jarray = JSON.parse(file);
+                    data = {
+                        "item": appliance,
+                        "val": "" + diss
+                    };
+                    jarray[place].push(data)
+                    fs.writeFile(process.cwd() + "/client/public/data/appliances.json", JSON.stringify(jarray), (err, result) => {
+                        if (err) {
+                            console.log(err);
+                        } else {
+                            console.log("successfully added to front-end data");
+
+                        }
+                    })
+                })
             });
         } else if (approve.title === "Country Code") {
             fs.readFile(process.cwd() + "/raw_data/countrycode.json", (err, file) => {
@@ -86,6 +103,7 @@ router.post('/approveData', (req, res) => {
         } else if (approve.title === "Electricity Emission") {
             fs.readFile(process.cwd() + "/raw_data/electricity_emission.json", (err, file) => {
                 const country = approve.data["Country"];
+                const code = approve.data["code"];
                 const genCO2 = approve.data["Generation-CO2"];
                 const genCH4 = approve.data["Generation-CH4"];
                 const genN2O = approve.data["Generation-N2O"];
@@ -151,6 +169,30 @@ router.post('/approveData', (req, res) => {
                         }
                     });
                 });
+                fs.readFile(process.cwd() + "/client/public/data/electricity.json", (err, file) => {
+                    let jarray = JSON.parse(file);
+                    jarray[code] = {
+                        "name": country,
+                        "CO2": "" + (genCO2 + tdCO2),
+                        "CH4": "" + (genCH4 + tdCH4),
+                        "N2O": "" + (genN2O + tdN2O),
+                        "unit": "kg/kWh"
+                    }
+                    let newj = {};
+                    Object.keys(jarray)
+                        .sort()
+                        .forEach(function (v, i) {
+                            console.log(v, jarray[v]);
+                            newj[v] = jarray[v];
+                        });
+                    fs.writeFile(process.cwd() + "/client/public/data/electricity.json", JSON.stringify(newj), (err, result) => {
+                        if (err) {
+                            console.log(err);
+                        } else {
+                            console.log("successfully added to front-end data");
+                        }
+                    });
+                })
             });
         } else if (approve.title === "Flights") {
             fs.readFile(process.cwd() + "/raw_data/flights.json", (err, file) => {
@@ -176,7 +218,7 @@ router.post('/approveData', (req, res) => {
                 const d20 = approve.data["8500"];
                 const model = approve.data["airplane model"];
                 let jsonArray = JSON.parse(file);
-                jsonArray.push({
+                const data = {
                     "125": d1,
                     "250": d2,
                     "500": d3,
@@ -198,13 +240,31 @@ router.post('/approveData', (req, res) => {
                     "8000": d19,
                     "8500": d20,
                     "airplane model": model
-                })
+                };
+                jsonArray.push(data)
                 fs.writeFile(process.cwd() + "/raw_data/flights.json", JSON.stringify(jsonArray), (err, result) => {
                     if (err) {
                         console.log(err);
                     } else {
                         console.log("successfully approved");
                     }
+                });
+                fs.readFile(process.cwd() + "/client/public/data/flights.json", (err, file) => {
+                    let jarray = JSON.parse(file);
+                    jarray[model] = data;
+                    const newdata = {};
+                    Object.keys(jarray)
+                        .sort()
+                        .forEach(function (v, i) {
+                            newdata[v] = jarray[v];
+                        })
+                    fs.writeFile(process.cwd() + "/client/public/data/flights.json", JSON.stringify(newdata), (err, result) => {
+                        if (err) {
+                            console.log(err);
+                        } else {
+                            console.log("successfully appended to front-end data");
+                        }
+                    });
                 });
             });
         } else if (approve.title === "Fuels") {
@@ -312,6 +372,54 @@ router.post('/approveData', (req, res) => {
                     } else {
                         console.log("successfully approved");
                     }
+                });
+                fs.readFile(process.cwd() + "/client/public/data/percap.json", (err, file) => {
+                    let jarray = JSON.parse(file);
+                    const data = {
+                        "1990": d1,
+                        "1991": d2,
+                        "1992": d3,
+                        "1993": d4,
+                        "1994": d5,
+                        "1995": d6,
+                        "1996": d7,
+                        "1997": d8,
+                        "1998": d9,
+                        "1999": d10,
+                        "2000": d11,
+                        "2001": d12,
+                        "2002": d13,
+                        "2003": d14,
+                        "2004": d15,
+                        "2005": d16,
+                        "2006": d17,
+                        "2007": d18,
+                        "2008": d19,
+                        "2009": d20,
+                        "2010": d21,
+                        "2011": d22,
+                        "2012": d23,
+                        "2013": d24,
+                        "2014": d25,
+                        "2015": d26,
+                        "2016": d27,
+                        "2017": d28,
+                        "2018": d29
+                    }
+                    jarray[country] = data;
+                    const newdata = {};
+                    Object.keys(jarray)
+                        .sort()
+                        .forEach(function (v, i) {
+                            newdata[v] = jarray[v];
+                        })
+                    fs.writeFile(process.cwd() + "/client/public/data/percap.json", JSON.stringify(newdata), (err, result) => {
+                        if (err) {
+                            console.log(err);
+                        } else {
+                            console.log("successfully appended to front-end data");
+                        }
+                    });
                 });
             });
         } else if (approve.title === 'Poultry') {
