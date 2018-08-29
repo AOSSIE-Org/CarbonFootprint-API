@@ -1,12 +1,14 @@
 // to run this script use "node sector_db.js"
 // database setup
 const mongoose = require('mongoose');
+// get the logger
+const Logger  = require('@framework/Logger');
 // get the database configuration file
-const config = require('../../../config.json');
+const config = require('@root/config.json');
 try {
   config
 } catch (e) {
-  console.log(`Database configuration file "config.json" is missing.`);
+  Logger.error(`Database configuration file "config.json" is missing.`);
   process.exit(1);
 }
 const db = config.database;
@@ -16,22 +18,22 @@ mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.po
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
-  console.log('Connection to database established successfully');
-  console.log('sector_db.js running');
+  Logger.info('Connection to database established successfully');
+  Logger.info('sector_db.js running');
 });
 
 // If the connection throws an error
 mongoose.connection.on('error', (err) => {
-  console.log(`Error connecting to database: ${err}`);
+  Logger.error(`Error connecting to database: ${err}`);
 });
 
 // When the connection is disconnected
 mongoose.connection.on('disconnected', () => {
-  console.log('Database disconnected');
+  Logger.info('Database disconnected');
 });
-let json = require('../../../raw_data/emissions_sector.json');
+const json = require('@raw_data/emissions_sector.json');
+const Emission = require('../models/emissionModel.js');
 for (js in json) {
-  let Emission = require('../models/emissionModel.js');
   let obj = new Emission();
   obj.item = json[js]['Item'];
   obj.region = json[js]['Area'];
@@ -45,7 +47,7 @@ for (js in json) {
   }];
   obj.save(err => {
     if (err) throw err;
-    console.log('Object Saved Successfully');
+    Logger.info('Object Saved Successfully');
   });
 }
 mongoose.connection.close();

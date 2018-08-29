@@ -32,11 +32,8 @@ mongoose.connection.on('disconnected', () => {
   Logger.info('Database disconnected');
 });
 
-let Emission = require('../models/emissionModel.js');
-
-let obj = new Emission();
-let trainsData = require("@raw_data/trains.json");
-
+const Emission = require('../models/emissionModel.js');
+const trainsData = require("@raw_data/trains.json");
 for(items in trainsData){
     let obj = new Emission();
     obj.item = items;

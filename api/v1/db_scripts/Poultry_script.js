@@ -33,11 +33,10 @@ mongoose.connection.on('disconnected', () => {
   Logger.info('Database disconnected');
 });
 
-let Emission = require('../models/emissionModel.js');
-
-let json = require('@raw_data/poultry.json');
+const Emission = require('../models/emissionModel.js');
+const json = require('@raw_data/poultry.json');
 // console.log(json['data'].length)
-let data = json['data'];
+const data = json['data'];
 for(let x=0;x<data.length;x++){
   let obj = new Emission();
   obj.item= data[x]['type'];

@@ -11,7 +11,7 @@ try {
   Logger.error(`Database configuration file "config.json" is missing.`);
   process.exit(1);
 }
-let db = config.database;
+const db = config.database;
 
 // connect to the database
 mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, { useMongoClient: true });
@@ -31,9 +31,9 @@ mongoose.connection.on('error', (err) => {
 mongoose.connection.on('disconnected', () => {
   Logger.info('Database disconnected');
 });
-let Emission = require('../models/emissionModel.js')
-let dist = [125, 250, 500, 750, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 8500];
-let json = require('@raw_data/flights.json');
+const Emission = require('../models/emissionModel.js')
+const dist = [125, 250, 500, 750, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 8500];
+const json = require('@raw_data/flights.json');
 for(js in json){
   let obj = new Emission();
   obj.item=`airplane model ${json[js]["airplane model"]}`;

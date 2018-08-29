@@ -31,9 +31,9 @@ mongoose.connection.on('error', (err) => {
 mongoose.connection.on('disconnected', () => {
   Logger.info('Database disconnected');
 });
-let json = require('@raw_data/appliances.json');
+const json = require('@raw_data/appliances.json');
+const Emission = require('../models/emissionModel.js');
 for (js in json) {
-  let Emission = require('../models/emissionModel.js')
   let obj = new Emission();
   obj.item = json[js]['Appliance'];
   obj.region = "Default";
