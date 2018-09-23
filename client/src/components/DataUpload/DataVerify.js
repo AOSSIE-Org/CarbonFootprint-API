@@ -3,18 +3,8 @@ import axios from 'axios';
 import ProfileSettings from '../Profile/ProfileSettings';
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
-<<<<<<< HEAD
-<<<<<<< HEAD
 import { Redirect } from 'react-router-dom';
 import { Button, Grid, Segment, Divider, List, Card } from 'semantic-ui-react';
-=======
-import axios from 'axios';
-import { Redirect } from 'react-router-dom';
->>>>>>> 155bd2d... Updated Data Upload page (for suggesting data) and Data verify page (for verifying the suggested data)
-=======
-import { Redirect } from 'react-router-dom';
-import { Button, Grid, Segment, Divider, List } from 'semantic-ui-react';
->>>>>>> 676c449... Restructured backend to save the approved suggested data directly into the respective raw_data files
 
 /* Extended react.Component class as DataVerify */
 
@@ -41,7 +31,6 @@ export default class DataVerify extends Component {
         this.handleApprove = this.handleApprove.bind(this);
         this.handleReject = this.handleReject.bind(this);
     }
-<<<<<<< HEAD
     
     componentDidMount() {
         this.props.auth.getProfile()
@@ -62,23 +51,8 @@ export default class DataVerify extends Component {
             axios.get('/suggestedData/fetchData').then(response => {
                 this.setState({ data: response.data });
             });
-=======
-
-    handleApprove(id) {
-        axios.post('/suggestedData/approveData', { data_id: id });
-        window.location.reload();
     }
 
-<<<<<<< HEAD
-    handleReject(id) {
-        axios.post('/suggestedData/rejectData', { data_id: id });
-        window.location.reload();
->>>>>>> 155bd2d... Updated Data Upload page (for suggesting data) and Data verify page (for verifying the suggested data)
-    }
-
-<<<<<<< HEAD
-=======
->>>>>>> 0c2825a... Added a readme file providing a detailed usage of Data Upload page and added inline comments
     /**
    * Inherited function from react.Component.
    * This method is invoked immediately after a component is mounted
@@ -86,11 +60,6 @@ export default class DataVerify extends Component {
     componentDidMount() {
         this.props.auth.getProfile()
             .then((profile) => {
-=======
-    componentWillMount() {
-        this.props.auth.getProfile((err, profile) => {
-            if (!err) {
->>>>>>> 676c449... Restructured backend to save the approved suggested data directly into the respective raw_data files
                 this.setState({
                     profile: profile,
                     profilePicture: profile.picture,
@@ -100,7 +69,6 @@ export default class DataVerify extends Component {
                     given_name: profile.given_name,
                     family_name: profile.family_name
                 });
-<<<<<<< HEAD
             })
             .catch((err) => {
                 console.log(err);
@@ -126,13 +94,6 @@ export default class DataVerify extends Component {
     handleReject(id) {
         axios.post('/suggestedData/rejectData', { data_id: id });
         window.location.reload();
-=======
-            }
-        });
-        axios.get('/suggestedData/fetchData').then(response => {
-            this.setState({ data: response.data });
-        })
->>>>>>> 155bd2d... Updated Data Upload page (for suggesting data) and Data verify page (for verifying the suggested data)
     }
 
     /**
@@ -159,7 +120,6 @@ export default class DataVerify extends Component {
                     <Grid.Column width={10}>
                         <Segment style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                             <List>
-<<<<<<< HEAD
                                 {data.length ? data.map(d =>
                                     <List.Item key={d._id}>
                                         <List.Content>
@@ -167,13 +127,6 @@ export default class DataVerify extends Component {
                                             <List.Header>Suggestion from - {d.createdby}</List.Header>
                                             <br />
                                             <List.Header>Route - {d.title}</List.Header>
-=======
-                                {console.log(data)}
-                                {data.length ? data.map(d =>
-                                    <List.Item key={d._id}>
-                                        <List.Content>
-                                            <List.Header>{d.title}</List.Header>
->>>>>>> 155bd2d... Updated Data Upload page (for suggesting data) and Data verify page (for verifying the suggested data)
                                             <br />
                                             <table style={styles.table} >
                                                 {Object.keys(d.data).map(key => (
@@ -203,14 +156,8 @@ export default class DataVerify extends Component {
     }
 }
 const styles = {
-<<<<<<< HEAD
     td: {
         paddingLeft: '20px',
         paddingRight: '20px'
-=======
-    td: { 
-        paddingLeft: '20px', 
-        paddingRight: '20px' 
->>>>>>> 155bd2d... Updated Data Upload page (for suggesting data) and Data verify page (for verifying the suggested data)
     }
 }
