@@ -1,3 +1,5 @@
+require('module-alias/register');
+
 // to run this script use "node sector_db.js"
 // database setup
 const mongoose = require('mongoose');

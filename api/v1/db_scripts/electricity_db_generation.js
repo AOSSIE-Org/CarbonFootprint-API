@@ -1,3 +1,5 @@
+require('module-alias/register');
+
 //To run this script use "node electricity_db_generation.js"
 // database setup
 const mongoose = require('mongoose');
@@ -33,7 +35,7 @@ mongoose.connection.on('disconnected', () => {
 });
 const Emission = require('../models/emissionModel.js');
 
-const json = require('@raw_data/electricty_emission.json');
+const json = require('@raw_data/electricity_emission.json');
 for(js in json){
   let obj = new Emission();
   obj.item="generation";
