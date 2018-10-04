@@ -1,3 +1,5 @@
+require('module-alias/register');
+
 // to run this script use "node land_db.js"
 // database setup
 const mongoose = require('mongoose');

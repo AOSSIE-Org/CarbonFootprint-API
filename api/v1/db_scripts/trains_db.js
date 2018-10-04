@@ -1,3 +1,5 @@
+require('module-alias/register');
+
 //run node trains_db.js to add data to db.
 // database setup
 const mongoose = require('mongoose');
