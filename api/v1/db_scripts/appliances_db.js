@@ -1,3 +1,5 @@
+require('module-alias/register');
+
 //To run this script use "node appliances_db.js"
 // database setup
 const mongoose = require('mongoose');
