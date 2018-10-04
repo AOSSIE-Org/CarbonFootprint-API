@@ -7,6 +7,7 @@ const mongoose = require('mongoose');
 const Logger  = require('@framework/Logger');
 // get the database configuration file
 const config = require('@root/config.json');
+const async = require('async');
 try {
   config
 } catch (e) {
@@ -33,8 +34,9 @@ mongoose.connection.on('error', (err) => {
 mongoose.connection.on('disconnected', () => {
   Logger.info('Database disconnected');
 });
-const Emission = require('../models/emissionModel.js')
+const Emission = require('../models/emissionModel.js');
 const json = require('@raw_data/trees.json');
+emissions = [];
 for(js in json.treeData){
   let obj = new Emission();
   obj.item=js;
@@ -47,10 +49,11 @@ for(js in json.treeData){
     	name: "CO2",
     	quantity: [-json.treeData[js]],
     	unit: "kg"
-    }]
-  obj.save(err => {
-    if ( err ) throw err;
-    Logger.info("Object Saved Successfully");
-  });
+    }];
+  emissions.push(obj);
 }
-mongoose.connection.close();
+
+Emission.create(emissions, function (err) {
+  if (err) throw err;
+  mongoose.connection.close();
+});

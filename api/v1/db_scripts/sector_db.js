@@ -7,6 +7,7 @@ const mongoose = require('mongoose');
 const Logger  = require('@framework/Logger');
 // get the database configuration file
 const config = require('@root/config.json');
+const async = require('async');
 try {
   config
 } catch (e) {
@@ -35,6 +36,7 @@ mongoose.connection.on('disconnected', () => {
 });
 const json = require('@raw_data/emissions_sector.json');
 const Emission = require('../models/emissionModel.js');
+emissions = [];
 for (js in json) {
   let obj = new Emission();
   obj.item = json[js]['Item'];
@@ -47,9 +49,10 @@ for (js in json) {
     quantity: json[js]['Value'],
     unit: json[js]['Unit']
   }];
-  obj.save(err => {
-    if (err) throw err;
-    Logger.info('Object Saved Successfully');
-  });
+  emissions.push(obj);
 }
-mongoose.connection.close();
+
+Emission.create(emissions, function (err) {
+  if (err) throw err;
+  mongoose.connection.close();
+});

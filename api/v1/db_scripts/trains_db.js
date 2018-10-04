@@ -7,6 +7,7 @@ const mongoose = require('mongoose');
 const Logger  = require('@framework/Logger');
 // get the database configuration file
 const config = require('@root/config.json');
+const async = require('async');
 try {
   config
 } catch (e) {
@@ -36,6 +37,7 @@ mongoose.connection.on('disconnected', () => {
 
 const Emission = require('../models/emissionModel.js');
 const trainsData = require("@raw_data/trains.json");
+emissions = [];
 for(items in trainsData){
     let obj = new Emission();
     obj.item = items;
@@ -60,14 +62,10 @@ for(items in trainsData){
             unit:trainsData[items]['unit']
         }
     ];
-    save(obj,items);
+    emissions.push(obj);
 }
 
-async function save(obj,items){
-    await obj.save((err)=>{
-        if(err) Logger.error(`Error: ${err}`);
-        else Logger.info(`Object for item ${items} saved successfully`);
-
-    });
-}
-mongoose.connection.close();
+Emission.create(emissions, function (err) {
+  if (err) throw err;
+  mongoose.connection.close();
+});
