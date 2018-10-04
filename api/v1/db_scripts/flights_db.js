@@ -4,9 +4,10 @@ require('module-alias/register');
 // database setup
 const mongoose = require('mongoose');
 // get the logger
-const Logger  = require('@framework/Logger');
+const Logger = require('@framework/Logger');
 // get the database configuration file
 const config = require('@root/config.json');
+const async = require('async');
 try {
   config
 } catch (e) {
@@ -16,7 +17,7 @@ try {
 const db = config.database;
 
 // connect to the database
-mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, { useMongoClient: true });
+mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, {useMongoClient: true});
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
@@ -36,84 +37,76 @@ mongoose.connection.on('disconnected', () => {
 const Emission = require('../models/emissionModel.js')
 const dist = [125, 250, 500, 750, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 8500];
 const json = require('@raw_data/flights.json');
+emissions = [];
 for(js in json){
   let obj = new Emission();
-  obj.item=`airplane model ${json[js]["airplane model"]}`;
-  obj.region="Default";
+  obj.item = `airplane model ${json[js]["airplane model"]}`;
+  obj.region = "Default";
 
-  obj.quantity=[];
-  obj.unit="nm";
-  obj.categories=["flights"];
-  obj.calculationMethod="interpolation"
-  obj.components=[
-  {
+  obj.quantity = [];
+  obj.unit = "nm";
+  obj.categories = ["flights"];
+  obj.calculationMethod = "interpolation"
+  obj.components = [
+    {
       name: "airplane fuel",
       quantity: [],
       unit: "kg"
-  }]
-  for(ds in dist){
-    if (json[js][dist[ds]]){
+    }];
+  for (ds in dist) {
+    if (json[js][dist[ds]]) {
       obj.quantity.push(dist[ds]);
       obj.components[0].quantity.push(json[js][dist[ds]]);
     }
   }
-  obj.save(err => {
-  if ( err ) throw err;
-    Logger.info("Object Saved Successfully");
-  });
+  emissions.push(obj);
 }
 
 obj = new Emission();
-obj.item="airplane model A380";
-obj.region="Default";
-obj.quantity=[125, 250, 500, 750, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 8500, 9000, 9500, 10000, 10500, 11000, 11500, 12000];
-obj.unit="nm";
-obj.categories=["flights"];
-obj.calculationMethod="interpolation"
-obj.components=[
-{
+obj.item = "airplane model A380";
+obj.region = "Default";
+obj.quantity = [125, 250, 500, 750, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 8500, 9000, 9500, 10000, 10500, 11000, 11500, 12000];
+obj.unit = "nm";
+obj.categories = ["flights"];
+obj.calculationMethod = "interpolation"
+obj.components = [
+  {
     name: "airplane fuel",
     quantity: [5821, 12016, 17623, 24940, 32211, 46695, 61160, 75638, 90143, 104681, 119255, 133865, 148512, 163196, 177916, 192517, 203465, 214166, 224632, 235540, 244520, 252370, 259010, 264340, 268260, 270670, 271480],
     unit: "kg"
-}]
-obj.save(err => {
-if ( err ) throw err;
-  Logger.info("Object Saved Successfully");
-});
+  }];
+emissions.push(obj);
 
 obj = new Emission();
-obj.item="airplane model A320";
-obj.region="Default";
-obj.quantity=[125, 250, 500, 750, 1000, 1500, 2000, 2500];
-obj.unit="nm";
-obj.categories=["flights"];
-obj.calculationMethod="interpolation"
-obj.components=[
-{
+obj.item = "airplane model A320";
+obj.region = "Default";
+obj.quantity = [125, 250, 500, 750, 1000, 1500, 2000, 2500];
+obj.unit = "nm";
+obj.categories = ["flights"];
+obj.calculationMethod = "interpolation"
+obj.components = [
+  {
     name: "airplane fuel",
-    quantity: [1672,3430,4585,6212,7772,10766,13648,16452],
+    quantity: [1672, 3430, 4585, 6212, 7772, 10766, 13648, 16452],
     unit: "kg"
-}]
-obj.save(err => {
-if ( err ) throw err;
-  Logger.info("Object Saved Successfully");
-});
+  }];
+emissions.push(obj);
 
 obj = new Emission();
-obj.item="airplane fuel";
-obj.region="Default";
-obj.quantity=[1];
-obj.unit="kg";
-obj.categories=["flights","transport"];
-obj.components=[
-{
+obj.item = "airplane fuel";
+obj.region = "Default";
+obj.quantity = [1];
+obj.unit = "kg";
+obj.categories = ["flights", "transport"];
+obj.components = [
+  {
     name: "CO2",
     quantity: [0.00316],
     unit: "kg"
-}]
-obj.save(err => {
-if ( err ) throw err;
-  Logger.info("Object Saved Successfully");
-});
+  }];
+emissions.push(obj);
 
-mongoose.connection.close();
+Emission.create(emissions, function (err) {
+  if (err) throw err;
+  mongoose.connection.close();
+});

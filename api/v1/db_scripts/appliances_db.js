@@ -4,9 +4,10 @@ require('module-alias/register');
 // database setup
 const mongoose = require('mongoose');
 // get the logger
-const Logger  = require('@framework/Logger');
+const Logger = require('@framework/Logger');
 // get the database configuration file
 const config = require('@root/config.json');
+const async = require('async');
 try {
   config
 } catch (e) {
@@ -16,7 +17,7 @@ try {
 const db = config.database;
 
 // connect to the database
-mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, { useMongoClient: true });
+mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, {useMongoClient: true});
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
@@ -35,6 +36,7 @@ mongoose.connection.on('disconnected', () => {
 });
 const json = require('@raw_data/appliances.json');
 const Emission = require('../models/emissionModel.js');
+emissions = [];
 for (js in json) {
   let obj = new Emission();
   obj.item = json[js]['Appliance'];
@@ -46,10 +48,11 @@ for (js in json) {
     name: "electricity",
     quantity: json[js]['Average_watts (in Wh)'] / 1000,
     unit: "kWh"
-  }]
-  obj.save(err => {
-    if (err) throw err;
-    Logger.info("Object Saved Successfully");
-  });
+  }];
+  emissions.push(obj);
 }
-mongoose.connection.close();
+
+Emission.create(emissions, function (err) {
+  if (err) throw err;
+  mongoose.connection.close();
+});

@@ -4,9 +4,10 @@ require('module-alias/register');
 // database setup
 const mongoose = require('mongoose');
 // get the logger
-const Logger  = require('@framework/Logger');
+const Logger = require('@framework/Logger');
 // get the database configuration file
 const config = require('@root/config.json');
+const async = require('async');
 try {
   config
 } catch (e) {
@@ -15,9 +16,8 @@ try {
 }
 const db = config.database;
 
-
 // connect to the database
-mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, { useMongoClient: true });
+mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, {useMongoClient: true});
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
@@ -34,32 +34,34 @@ mongoose.connection.on('error', (err) => {
 mongoose.connection.on('disconnected', () => {
   Logger.info('Database disconnected');
 });
-const Emission = require('../models/emissionModel.js')
+const Emission = require('../models/emissionModel.js');
 const json = require('@raw_data/electricity_emission.json');
-for(js in json){
+emissions = [];
+for (js in json) {
   let obj = new Emission();
-  obj.item="td";
-  obj.region=json[js]['Country'];
-  obj.quantity=[1];
-  obj.unit="kg/kWh";
-  obj.categories=["electricity"];
-  obj.components=[
+  obj.item = "td";
+  obj.region = json[js]['Country'];
+  obj.quantity = [1];
+  obj.unit = "kg/kWh";
+  obj.categories = ["electricity"];
+  obj.components = [
     {
-    	name: "CO2",
-    	quantity: [json[js]['Td-CO2']],
-    	unit: "kg CO2/kWh"
-    },{
-    	name: "CH4",
-    	quantity: [json[js]['Td-CH4']],
-    	unit: "kg CH4/kWh"
-    },{
-    	name: "N2O",
-    	quantity: [json[js]['Td-N2O']],
-    	unit: "kg N20/kWh"
-    }]
-  obj.save(err => {
-    if ( err ) throw err;
-    Logger.info("Object Saved Successfully");
-  });
+      name: "CO2",
+      quantity: [json[js]['Td-CO2']],
+      unit: "kg CO2/kWh"
+    }, {
+      name: "CH4",
+      quantity: [json[js]['Td-CH4']],
+      unit: "kg CH4/kWh"
+    }, {
+      name: "N2O",
+      quantity: [json[js]['Td-N2O']],
+      unit: "kg N20/kWh"
+    }];
+  emissions.push(obj);
 }
-mongoose.connection.close();
+
+Emission.create(emissions, function (err) {
+  if (err) throw err;
+  mongoose.connection.close();
+});
