@@ -9,7 +9,8 @@ import Profile from "./components/Profile/Profile";
 import Loading from "./components/Loading/Loading";
 import Auth from './Auth/Auth';
 import Explorer from './components/Explorer/Explorer'
-import DataUpload from './components/DataUpload/DataUpload'
+import DataUpload from './components/DataUpload/DataUpload';
+import TransportComparer from './components/TransportComparer/TransportComparer';
 import Structured from './components/DataUpload/Structured';
 import Unstructured from './components/DataUpload/Unstructured';
 import history from './history';
@@ -52,6 +53,13 @@ export default class App extends React.Component {
                                     <Redirect to="/" />
                                 ) : (
                                         <DataUpload auth={auth} />
+                                    )   
+                            )} />
+                            <Route path="/TransportComparer" render={(props) => (
+                                !auth.isAuthenticated() ? (
+                                    <Redirect to="/" />
+                                ) : (
+                                        <TransportComparer auth={auth} />
                                     )
                             )} />
                             <Route path="/structured" render={(props) => (
