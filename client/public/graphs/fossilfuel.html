@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  </head>
+  <body>
+    <div id="chart"></div>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="../js/d3-tip.js"></script>
+    <script>
+      (function() {
+        var fossilFuelData = [];
+
+        //Renders the whole visualization
+        function showGraph() {
+          const MARGINS = { top: 100, right: 100, bottom: 100, left: 100 },
+            WIDTH = window.innerWidth - MARGINS.left - MARGINS.right,
+            HEIGHT = window.innerHeight - MARGINS.top - MARGINS.bottom;
+          
+          var x = d3.scaleLinear()
+            .range([0, WIDTH]);
+          var y = d3.scaleLinear()
+              .range([HEIGHT, 0]);
+          
+          // Line generation code for Total
+          var totalLineGen = d3
+            .line()
+            .x(function(d) {
+              return x(d.Year);
+            })
+            .y(function(d) {
+              return y(d.Total);
+            });
+
+          // Line generation code for Solid Fuel
+          var solidFuelLineGen = d3
+            .line()
+            .x(function(d) {
+              return x(d.Year);
+            })
+            .y(function(d) {
+              return y(d["Solid Fuel"]);
+            });
+
+          var lineChart = d3
+            .select("#chart")
+            .append("svg")
+            .attr("width", WIDTH + MARGINS.left + MARGINS.right)
+            .attr("height", HEIGHT + MARGINS.top + MARGINS.bottom)
+            .append("g")
+            .attr("transform", "translate(" + MARGINS.left + "," + MARGINS.top + ")");
+
+          // format the data
+          // Scale the range of the data in the domains
+          x.domain([1750, 2015]);
+          y.domain([0, 9000]);
+
+          // Append Total Line
+          lineChart
+            .append("svg:path")
+            .attr("d", totalLineGen(fossilFuelData))
+            .attr("stroke", "black")
+            .attr("stroke-width", "2")
+            .attr("fill", "none");
+
+          // Append Total Line
+          lineChart
+            .append("svg:path")
+            .attr("d", solidFuelLineGen(fossilFuelData))
+            .attr("stroke", "orange")
+            .attr("stroke-width", 2)
+            .attr("fill", "none");
+          
+          x.invert = (function(){
+              var domain = x.domain();
+              var range = x.range();
+              var scale = d3.scaleQuantize().domain(range).range(domain);
+
+              return function(x){ return scale(x) };
+          })();
+          
+          // Append x-axis
+          lineChart
+            .append("g")
+            .attr("transform", "translate(0," + HEIGHT + ")")
+            .call(d3.axisBottom(x));
+
+          // Append y-axis
+          lineChart
+            .append("g")
+            .call(d3.axisLeft(y));
+        }
+        
+        // Load the fossil fuel data from JSON file
+        d3.json("../data/fossilfuel.json", function(data) {
+          fossilFuelData = data;
+          showGraph();
+        });
+      })();
+    </script>
+  </body>
+</html>

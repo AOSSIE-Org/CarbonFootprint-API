@@ -54,6 +54,13 @@ const data = [
     "longDescription": "CO2 emissions from different types of land for a certain country.",
     "link": "land",
     "title": "Land Emissions"
+  },
+  {
+    "name": "Fossil Fuel 🛢",
+    "shortDescription": "Global CO2 Emissions from fossil-fuels annually since 1751 till 2014. ",
+    "longDescription": "Global CO2 Emissions from fossil-fuels annually since 1751 till 2014.",
+    "link": "fossilfuel",
+    "title": "Fossion Fuel Emissions"
   }
 ];
 
