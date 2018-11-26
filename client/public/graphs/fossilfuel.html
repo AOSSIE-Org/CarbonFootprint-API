@@ -12,8 +12,22 @@
       (function() {
         var fossilFuelData = [];
 
+        function getYearDomain () {
+          return [
+            d3.min(fossilFuelData, function (d) { return d.Year }),
+            d3.max(fossilFuelData, function (d) { return d.Year }),
+          ];
+        }
+
+        function getFuelDomain () {
+          return [
+            d3.min(fossilFuelData, function (d) { return d.Total }),
+            d3.max(fossilFuelData, function (d) { return d.Total }),
+          ];
+        }
+
         //Renders the whole visualization
-        function showGraph() {
+        function showGraph () {
           const MARGINS = { top: 100, right: 100, bottom: 100, left: 100 },
             WIDTH = window.innerWidth - MARGINS.left - MARGINS.right,
             HEIGHT = window.innerHeight - MARGINS.top - MARGINS.bottom;
@@ -53,8 +67,8 @@
 
           // format the data
           // Scale the range of the data in the domains
-          x.domain([1750, 2015]);
-          y.domain([0, 9000]);
+          x.domain(getYearDomain());
+          y.domain(getFuelDomain());
 
           // Append Total Line
           lineChart
