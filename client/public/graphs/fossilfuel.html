@@ -3,11 +3,49 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <style>
+      .label-container {
+        position: absolute;
+        margin: 8px;
+        right: 16px;
+        top: 16px;
+      }
+
+      #total, #solid {
+        display: flex;
+        align-items: center;
+      }
+
+      .label-line {
+        width: 30px;
+        height: 2px;
+        display: inline-block;
+        margin-right: 8px;
+      }
+
+      #total .label-line {
+        background-color: black;
+      }
+
+      #solid .label-line {
+        background-color: orange;
+      }
+    </style>
   </head>
   <body>
+    <div class="label-container">
+      <div id="total">
+        <span class="label-line"></span>
+        <span>Total Value</span>
+      </div>
+      <div id="solid">
+        <span class="label-line"></span>
+        <span>Solid Fuel</span>
+      </div>
+    </div>
+    <div id="line2"></div>
     <div id="chart"></div>
     <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="../js/d3-tip.js"></script>
     <script>
       (function() {
         var fossilFuelData = [];
@@ -76,7 +114,9 @@
             .attr("d", totalLineGen(fossilFuelData))
             .attr("stroke", "black")
             .attr("stroke-width", "2")
-            .attr("fill", "none");
+            .attr("fill", "none")
+            .attr("class", "total-path");
+
 
           // Append Total Line
           lineChart
@@ -104,6 +144,23 @@
           lineChart
             .append("g")
             .call(d3.axisLeft(y));
+
+          // Append y-axis label
+          lineChart
+            .append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 16 - MARGINS.left)
+            .attr("x", 0 - (HEIGHT / 2))
+            .attr("dy", "1em")
+            .style("text-anchor", "middle")
+            .text("Emission");
+          
+          // Append x-axis label
+          lineChart
+            .append("text")
+            .attr("transform", "translate(" + (WIDTH/2) + " ," + (HEIGHT + 40) + ")")
+            .style("text-anchor", "middle")
+            .text("Year");
         }
         
         // Load the fossil fuel data from JSON file
