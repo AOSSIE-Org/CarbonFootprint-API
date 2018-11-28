@@ -1,2341 +1,2602 @@
-[{
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 3.0,
-  "Total": 3.0,
-  "Year": 1751
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 3.0,
-  "Total": 3.0,
-  "Year": 1752
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 3.0,
-  "Total": 3.0,
-  "Year": 1753
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 3.0,
-  "Total": 3.0,
-  "Year": 1754
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 3.0,
-  "Total": 3.0,
-  "Year": 1755
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 3.0,
-  "Total": 3.0,
-  "Year": 1756
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 3.0,
-  "Total": 3.0,
-  "Year": 1757
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 3.0,
-  "Total": 3.0,
-  "Year": 1758
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 3.0,
-  "Total": 3.0,
-  "Year": 1759
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 3.0,
-  "Total": 3.0,
-  "Year": 1760
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 3.0,
-  "Total": 3.0,
-  "Year": 1761
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 3.0,
-  "Total": 3.0,
-  "Year": 1762
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 3.0,
-  "Total": 3.0,
-  "Year": 1763
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 3.0,
-  "Total": 3.0,
-  "Year": 1764
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 3.0,
-  "Total": 3.0,
-  "Year": 1765
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 3.0,
-  "Total": 3.0,
-  "Year": 1766
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 3.0,
-  "Total": 3.0,
-  "Year": 1767
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 3.0,
-  "Total": 3.0,
-  "Year": 1768
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 3.0,
-  "Total": 3.0,
-  "Year": 1769
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 3.0,
-  "Total": 3.0,
-  "Year": 1770
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 4.0,
-  "Total": 4.0,
-  "Year": 1771
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 4.0,
-  "Total": 4.0,
-  "Year": 1772
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 4.0,
-  "Total": 4.0,
-  "Year": 1773
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 4.0,
-  "Total": 4.0,
-  "Year": 1774
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 4.0,
-  "Total": 4.0,
-  "Year": 1775
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 4.0,
-  "Total": 4.0,
-  "Year": 1776
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 4.0,
-  "Total": 4.0,
-  "Year": 1777
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 4.0,
-  "Total": 4.0,
-  "Year": 1778
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 4.0,
-  "Total": 4.0,
-  "Year": 1779
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 4.0,
-  "Total": 4.0,
-  "Year": 1780
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 5.0,
-  "Total": 5.0,
-  "Year": 1781
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 5.0,
-  "Total": 5.0,
-  "Year": 1782
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 5.0,
-  "Total": 5.0,
-  "Year": 1783
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 5.0,
-  "Total": 5.0,
-  "Year": 1784
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 5.0,
-  "Total": 5.0,
-  "Year": 1785
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 5.0,
-  "Total": 5.0,
-  "Year": 1786
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 5.0,
-  "Total": 5.0,
-  "Year": 1787
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 5.0,
-  "Total": 5.0,
-  "Year": 1788
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 5.0,
-  "Total": 5.0,
-  "Year": 1789
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 5.0,
-  "Total": 5.0,
-  "Year": 1790
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 6.0,
-  "Total": 6.0,
-  "Year": 1791
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 6.0,
-  "Total": 6.0,
-  "Year": 1792
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 6.0,
-  "Total": 6.0,
-  "Year": 1793
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 6.0,
-  "Total": 6.0,
-  "Year": 1794
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 6.0,
-  "Total": 6.0,
-  "Year": 1795
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 6.0,
-  "Total": 6.0,
-  "Year": 1796
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 7.0,
-  "Total": 7.0,
-  "Year": 1797
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 7.0,
-  "Total": 7.0,
-  "Year": 1798
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 7.0,
-  "Total": 7.0,
-  "Year": 1799
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 8.0,
-  "Total": 8.0,
-  "Year": 1800
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 8.0,
-  "Total": 8.0,
-  "Year": 1801
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 10.0,
-  "Total": 10.0,
-  "Year": 1802
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 9.0,
-  "Total": 9.0,
-  "Year": 1803
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 9.0,
-  "Total": 9.0,
-  "Year": 1804
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 9.0,
-  "Total": 9.0,
-  "Year": 1805
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 10.0,
-  "Total": 10.0,
-  "Year": 1806
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 10.0,
-  "Total": 10.0,
-  "Year": 1807
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 10.0,
-  "Total": 10.0,
-  "Year": 1808
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 10.0,
-  "Total": 10.0,
-  "Year": 1809
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 10.0,
-  "Total": 10.0,
-  "Year": 1810
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 11.0,
-  "Total": 11.0,
-  "Year": 1811
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 11.0,
-  "Total": 11.0,
-  "Year": 1812
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 11.0,
-  "Total": 11.0,
-  "Year": 1813
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 11.0,
-  "Total": 11.0,
-  "Year": 1814
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 12.0,
-  "Total": 12.0,
-  "Year": 1815
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 13.0,
-  "Total": 13.0,
-  "Year": 1816
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 14.0,
-  "Total": 14.0,
-  "Year": 1817
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 14.0,
-  "Total": 14.0,
-  "Year": 1818
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 14.0,
-  "Total": 14.0,
-  "Year": 1819
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 14.0,
-  "Total": 14.0,
-  "Year": 1820
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 14.0,
-  "Total": 14.0,
-  "Year": 1821
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 15.0,
-  "Total": 15.0,
-  "Year": 1822
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 16.0,
-  "Total": 16.0,
-  "Year": 1823
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 16.0,
-  "Total": 16.0,
-  "Year": 1824
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 17.0,
-  "Total": 17.0,
-  "Year": 1825
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 17.0,
-  "Total": 17.0,
-  "Year": 1826
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 18.0,
-  "Total": 18.0,
-  "Year": 1827
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 18.0,
-  "Total": 18.0,
-  "Year": 1828
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 18.0,
-  "Total": 18.0,
-  "Year": 1829
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 24.0,
-  "Total": 24.0,
-  "Year": 1830
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 23.0,
-  "Total": 23.0,
-  "Year": 1831
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 23.0,
-  "Total": 23.0,
-  "Year": 1832
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 24.0,
-  "Total": 24.0,
-  "Year": 1833
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 24.0,
-  "Total": 24.0,
-  "Year": 1834
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 25.0,
-  "Total": 25.0,
-  "Year": 1835
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 29.0,
-  "Total": 29.0,
-  "Year": 1836
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 29.0,
-  "Total": 29.0,
-  "Year": 1837
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 30.0,
-  "Total": 30.0,
-  "Year": 1838
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 31.0,
-  "Total": 31.0,
-  "Year": 1839
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 33.0,
-  "Total": 33.0,
-  "Year": 1840
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 34.0,
-  "Total": 34.0,
-  "Year": 1841
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 36.0,
-  "Total": 36.0,
-  "Year": 1842
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 37.0,
-  "Total": 37.0,
-  "Year": 1843
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 39.0,
-  "Total": 39.0,
-  "Year": 1844
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 43.0,
-  "Total": 43.0,
-  "Year": 1845
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 43.0,
-  "Total": 43.0,
-  "Year": 1846
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 46.0,
-  "Total": 46.0,
-  "Year": 1847
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 47.0,
-  "Total": 47.0,
-  "Year": 1848
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 50.0,
-  "Total": 50.0,
-  "Year": 1849
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 54.0,
-  "Total": 54.0,
-  "Year": 1850
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 54.0,
-  "Total": 54.0,
-  "Year": 1851
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 57.0,
-  "Total": 57.0,
-  "Year": 1852
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 59.0,
-  "Total": 59.0,
-  "Year": 1853
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 69.0,
-  "Total": 69.0,
-  "Year": 1854
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 71.0,
-  "Total": 71.0,
-  "Year": 1855
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 76.0,
-  "Total": 76.0,
-  "Year": 1856
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 77.0,
-  "Total": 77.0,
-  "Year": 1857
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 78.0,
-  "Total": 78.0,
-  "Year": 1858
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 83.0,
-  "Total": 83.0,
-  "Year": 1859
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 91.0,
-  "Total": 91.0,
-  "Year": 1860
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 95.0,
-  "Total": 95.0,
-  "Year": 1861
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 96.0,
-  "Total": 97.0,
-  "Year": 1862
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 103.0,
-  "Total": 104.0,
-  "Year": 1863
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 112.0,
-  "Total": 112.0,
-  "Year": 1864
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 119.0,
-  "Total": 119.0,
-  "Year": 1865
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 122.0,
-  "Total": 122.0,
-  "Year": 1866
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 130.0,
-  "Total": 130.0,
-  "Year": 1867
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 134.0,
-  "Total": 135.0,
-  "Year": 1868
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 0.0,
-  "Per Capita": null,
-  "Solid Fuel": 142.0,
-  "Total": 142.0,
-  "Year": 1869
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 1.0,
-  "Per Capita": null,
-  "Solid Fuel": 146.0,
-  "Total": 147.0,
-  "Year": 1870
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 1.0,
-  "Per Capita": null,
-  "Solid Fuel": 156.0,
-  "Total": 156.0,
-  "Year": 1871
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 1.0,
-  "Per Capita": null,
-  "Solid Fuel": 173.0,
-  "Total": 173.0,
-  "Year": 1872
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 1.0,
-  "Per Capita": null,
-  "Solid Fuel": 183.0,
-  "Total": 184.0,
-  "Year": 1873
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 1.0,
-  "Per Capita": null,
-  "Solid Fuel": 173.0,
-  "Total": 174.0,
-  "Year": 1874
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 1.0,
-  "Per Capita": null,
-  "Solid Fuel": 187.0,
-  "Total": 188.0,
-  "Year": 1875
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 1.0,
-  "Per Capita": null,
-  "Solid Fuel": 190.0,
-  "Total": 191.0,
-  "Year": 1876
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 2.0,
-  "Per Capita": null,
-  "Solid Fuel": 192.0,
-  "Total": 194.0,
-  "Year": 1877
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 2.0,
-  "Per Capita": null,
-  "Solid Fuel": 194.0,
-  "Total": 196.0,
-  "Year": 1878
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 3.0,
-  "Per Capita": null,
-  "Solid Fuel": 207.0,
-  "Total": 210.0,
-  "Year": 1879
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 3.0,
-  "Per Capita": null,
-  "Solid Fuel": 233.0,
-  "Total": 236.0,
-  "Year": 1880
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 4.0,
-  "Per Capita": null,
-  "Solid Fuel": 239.0,
-  "Total": 243.0,
-  "Year": 1881
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 4.0,
-  "Per Capita": null,
-  "Solid Fuel": 252.0,
-  "Total": 256.0,
-  "Year": 1882
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 3.0,
-  "Per Capita": null,
-  "Solid Fuel": 269.0,
-  "Total": 272.0,
-  "Year": 1883
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 0.0,
-  "Liquid Fuel": 4.0,
-  "Per Capita": null,
-  "Solid Fuel": 271.0,
-  "Total": 275.0,
-  "Year": 1884
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 1.0,
-  "Liquid Fuel": 4.0,
-  "Per Capita": null,
-  "Solid Fuel": 273.0,
-  "Total": 277.0,
-  "Year": 1885
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 2.0,
-  "Liquid Fuel": 5.0,
-  "Per Capita": null,
-  "Solid Fuel": 275.0,
-  "Total": 281.0,
-  "Year": 1886
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 3.0,
-  "Liquid Fuel": 5.0,
-  "Per Capita": null,
-  "Solid Fuel": 287.0,
-  "Total": 295.0,
-  "Year": 1887
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 5.0,
-  "Liquid Fuel": 5.0,
-  "Per Capita": null,
-  "Solid Fuel": 317.0,
-  "Total": 327.0,
-  "Year": 1888
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 3.0,
-  "Liquid Fuel": 6.0,
-  "Per Capita": null,
-  "Solid Fuel": 318.0,
-  "Total": 327.0,
-  "Year": 1889
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 3.0,
-  "Liquid Fuel": 8.0,
-  "Per Capita": null,
-  "Solid Fuel": 345.0,
-  "Total": 356.0,
-  "Year": 1890
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 2.0,
-  "Liquid Fuel": 9.0,
-  "Per Capita": null,
-  "Solid Fuel": 360.0,
-  "Total": 372.0,
-  "Year": 1891
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 2.0,
-  "Liquid Fuel": 9.0,
-  "Per Capita": null,
-  "Solid Fuel": 363.0,
-  "Total": 374.0,
-  "Year": 1892
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 2.0,
-  "Liquid Fuel": 10.0,
-  "Per Capita": null,
-  "Solid Fuel": 358.0,
-  "Total": 370.0,
-  "Year": 1893
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 2.0,
-  "Liquid Fuel": 9.0,
-  "Per Capita": null,
-  "Solid Fuel": 372.0,
-  "Total": 383.0,
-  "Year": 1894
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 2.0,
-  "Liquid Fuel": 11.0,
-  "Per Capita": null,
-  "Solid Fuel": 393.0,
-  "Total": 406.0,
-  "Year": 1895
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 2.0,
-  "Liquid Fuel": 12.0,
-  "Per Capita": null,
-  "Solid Fuel": 405.0,
-  "Total": 419.0,
-  "Year": 1896
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 2.0,
-  "Liquid Fuel": 13.0,
-  "Per Capita": null,
-  "Solid Fuel": 425.0,
-  "Total": 440.0,
-  "Year": 1897
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 2.0,
-  "Liquid Fuel": 13.0,
-  "Per Capita": null,
-  "Solid Fuel": 449.0,
-  "Total": 465.0,
-  "Year": 1898
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 3.0,
-  "Liquid Fuel": 14.0,
-  "Per Capita": null,
-  "Solid Fuel": 491.0,
-  "Total": 507.0,
-  "Year": 1899
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 3.0,
-  "Liquid Fuel": 16.0,
-  "Per Capita": null,
-  "Solid Fuel": 515.0,
-  "Total": 534.0,
-  "Year": 1900
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 4.0,
-  "Liquid Fuel": 18.0,
-  "Per Capita": null,
-  "Solid Fuel": 531.0,
-  "Total": 552.0,
-  "Year": 1901
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 4.0,
-  "Liquid Fuel": 19.0,
-  "Per Capita": null,
-  "Solid Fuel": 543.0,
-  "Total": 566.0,
-  "Year": 1902
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 4.0,
-  "Liquid Fuel": 20.0,
-  "Per Capita": null,
-  "Solid Fuel": 593.0,
-  "Total": 617.0,
-  "Year": 1903
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 4.0,
-  "Liquid Fuel": 23.0,
-  "Per Capita": null,
-  "Solid Fuel": 597.0,
-  "Total": 624.0,
-  "Year": 1904
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 5.0,
-  "Liquid Fuel": 23.0,
-  "Per Capita": null,
-  "Solid Fuel": 636.0,
-  "Total": 663.0,
-  "Year": 1905
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 5.0,
-  "Liquid Fuel": 23.0,
-  "Per Capita": null,
-  "Solid Fuel": 680.0,
-  "Total": 707.0,
-  "Year": 1906
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 5.0,
-  "Liquid Fuel": 28.0,
-  "Per Capita": null,
-  "Solid Fuel": 750.0,
-  "Total": 784.0,
-  "Year": 1907
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 5.0,
-  "Liquid Fuel": 30.0,
-  "Per Capita": null,
-  "Solid Fuel": 714.0,
-  "Total": 750.0,
-  "Year": 1908
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 6.0,
-  "Liquid Fuel": 32.0,
-  "Per Capita": null,
-  "Solid Fuel": 747.0,
-  "Total": 785.0,
-  "Year": 1909
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 7.0,
-  "Liquid Fuel": 34.0,
-  "Per Capita": null,
-  "Solid Fuel": 778.0,
-  "Total": 819.0,
-  "Year": 1910
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 7.0,
-  "Liquid Fuel": 36.0,
-  "Per Capita": null,
-  "Solid Fuel": 792.0,
-  "Total": 836.0,
-  "Year": 1911
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 8.0,
-  "Liquid Fuel": 37.0,
-  "Per Capita": null,
-  "Solid Fuel": 834.0,
-  "Total": 879.0,
-  "Year": 1912
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 8.0,
-  "Liquid Fuel": 41.0,
-  "Per Capita": null,
-  "Solid Fuel": 895.0,
-  "Total": 943.0,
-  "Year": 1913
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 8.0,
-  "Liquid Fuel": 42.0,
-  "Per Capita": null,
-  "Solid Fuel": 800.0,
-  "Total": 850.0,
-  "Year": 1914
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 9.0,
-  "Liquid Fuel": 45.0,
-  "Per Capita": null,
-  "Solid Fuel": 784.0,
-  "Total": 838.0,
-  "Year": 1915
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 10.0,
-  "Liquid Fuel": 48.0,
-  "Per Capita": null,
-  "Solid Fuel": 842.0,
-  "Total": 901.0,
-  "Year": 1916
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 11.0,
-  "Liquid Fuel": 54.0,
-  "Per Capita": null,
-  "Solid Fuel": 891.0,
-  "Total": 955.0,
-  "Year": 1917
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 10.0,
-  "Liquid Fuel": 53.0,
-  "Per Capita": null,
-  "Solid Fuel": 873.0,
-  "Total": 936.0,
-  "Year": 1918
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 10.0,
-  "Liquid Fuel": 61.0,
-  "Per Capita": null,
-  "Solid Fuel": 735.0,
-  "Total": 806.0,
-  "Year": 1919
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 11.0,
-  "Liquid Fuel": 78.0,
-  "Per Capita": null,
-  "Solid Fuel": 843.0,
-  "Total": 932.0,
-  "Year": 1920
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 10.0,
-  "Liquid Fuel": 84.0,
-  "Per Capita": null,
-  "Solid Fuel": 709.0,
-  "Total": 803.0,
-  "Year": 1921
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 11.0,
-  "Liquid Fuel": 94.0,
-  "Per Capita": null,
-  "Solid Fuel": 740.0,
-  "Total": 845.0,
-  "Year": 1922
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 14.0,
-  "Liquid Fuel": 111.0,
-  "Per Capita": null,
-  "Solid Fuel": 845.0,
-  "Total": 970.0,
-  "Year": 1923
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 16.0,
-  "Liquid Fuel": 110.0,
-  "Per Capita": null,
-  "Solid Fuel": 836.0,
-  "Total": 963.0,
-  "Year": 1924
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 17.0,
-  "Liquid Fuel": 116.0,
-  "Per Capita": null,
-  "Solid Fuel": 842.0,
-  "Total": 975.0,
-  "Year": 1925
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 19.0,
-  "Liquid Fuel": 119.0,
-  "Per Capita": null,
-  "Solid Fuel": 846.0,
-  "Total": 983.0,
-  "Year": 1926
-}, {
-  "Cement": 0.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 21.0,
-  "Liquid Fuel": 136.0,
-  "Per Capita": null,
-  "Solid Fuel": 905.0,
-  "Total": 1062.0,
-  "Year": 1927
-}, {
-  "Cement": 10.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 23.0,
-  "Liquid Fuel": 143.0,
-  "Per Capita": null,
-  "Solid Fuel": 890.0,
-  "Total": 1065.0,
-  "Year": 1928
-}, {
-  "Cement": 10.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 28.0,
-  "Liquid Fuel": 160.0,
-  "Per Capita": null,
-  "Solid Fuel": 947.0,
-  "Total": 1145.0,
-  "Year": 1929
-}, {
-  "Cement": 10.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 28.0,
-  "Liquid Fuel": 152.0,
-  "Per Capita": null,
-  "Solid Fuel": 862.0,
-  "Total": 1053.0,
-  "Year": 1930
-}, {
-  "Cement": 8.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 25.0,
-  "Liquid Fuel": 147.0,
-  "Per Capita": null,
-  "Solid Fuel": 759.0,
-  "Total": 940.0,
-  "Year": 1931
-}, {
-  "Cement": 7.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 24.0,
-  "Liquid Fuel": 141.0,
-  "Per Capita": null,
-  "Solid Fuel": 675.0,
-  "Total": 847.0,
-  "Year": 1932
-}, {
-  "Cement": 7.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 25.0,
-  "Liquid Fuel": 154.0,
-  "Per Capita": null,
-  "Solid Fuel": 708.0,
-  "Total": 893.0,
-  "Year": 1933
-}, {
-  "Cement": 8.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 28.0,
-  "Liquid Fuel": 162.0,
-  "Per Capita": null,
-  "Solid Fuel": 775.0,
-  "Total": 973.0,
-  "Year": 1934
-}, {
-  "Cement": 9.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 30.0,
-  "Liquid Fuel": 176.0,
-  "Per Capita": null,
-  "Solid Fuel": 811.0,
-  "Total": 1027.0,
-  "Year": 1935
-}, {
-  "Cement": 11.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 34.0,
-  "Liquid Fuel": 192.0,
-  "Per Capita": null,
-  "Solid Fuel": 893.0,
-  "Total": 1130.0,
-  "Year": 1936
-}, {
-  "Cement": 11.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 38.0,
-  "Liquid Fuel": 219.0,
-  "Per Capita": null,
-  "Solid Fuel": 941.0,
-  "Total": 1209.0,
-  "Year": 1937
-}, {
-  "Cement": 12.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 37.0,
-  "Liquid Fuel": 214.0,
-  "Per Capita": null,
-  "Solid Fuel": 880.0,
-  "Total": 1142.0,
-  "Year": 1938
-}, {
-  "Cement": 13.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 38.0,
-  "Liquid Fuel": 222.0,
-  "Per Capita": null,
-  "Solid Fuel": 918.0,
-  "Total": 1192.0,
-  "Year": 1939
-}, {
-  "Cement": 11.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 42.0,
-  "Liquid Fuel": 229.0,
-  "Per Capita": null,
-  "Solid Fuel": 1017.0,
-  "Total": 1299.0,
-  "Year": 1940
-}, {
-  "Cement": 12.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 42.0,
-  "Liquid Fuel": 236.0,
-  "Per Capita": null,
-  "Solid Fuel": 1043.0,
-  "Total": 1334.0,
-  "Year": 1941
-}, {
-  "Cement": 11.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 45.0,
-  "Liquid Fuel": 222.0,
-  "Per Capita": null,
-  "Solid Fuel": 1063.0,
-  "Total": 1342.0,
-  "Year": 1942
-}, {
-  "Cement": 10.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 50.0,
-  "Liquid Fuel": 239.0,
-  "Per Capita": null,
-  "Solid Fuel": 1092.0,
-  "Total": 1391.0,
-  "Year": 1943
-}, {
-  "Cement": 7.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 54.0,
-  "Liquid Fuel": 275.0,
-  "Per Capita": null,
-  "Solid Fuel": 1047.0,
-  "Total": 1383.0,
-  "Year": 1944
-}, {
-  "Cement": 7.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 59.0,
-  "Liquid Fuel": 275.0,
-  "Per Capita": null,
-  "Solid Fuel": 820.0,
-  "Total": 1160.0,
-  "Year": 1945
-}, {
-  "Cement": 10.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 61.0,
-  "Liquid Fuel": 292.0,
-  "Per Capita": null,
-  "Solid Fuel": 875.0,
-  "Total": 1238.0,
-  "Year": 1946
-}, {
-  "Cement": 12.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 67.0,
-  "Liquid Fuel": 322.0,
-  "Per Capita": null,
-  "Solid Fuel": 992.0,
-  "Total": 1392.0,
-  "Year": 1947
-}, {
-  "Cement": 14.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 76.0,
-  "Liquid Fuel": 364.0,
-  "Per Capita": null,
-  "Solid Fuel": 1015.0,
-  "Total": 1469.0,
-  "Year": 1948
-}, {
-  "Cement": 16.0,
-  "Gas Flaring": 0.0,
-  "Gas Fuel": 81.0,
-  "Liquid Fuel": 362.0,
-  "Per Capita": null,
-  "Solid Fuel": 960.0,
-  "Total": 1419.0,
-  "Year": 1949
-}, {
-  "Cement": 18.0,
-  "Gas Flaring": 23.0,
-  "Gas Fuel": 97.0,
-  "Liquid Fuel": 423.0,
-  "Per Capita": 0.64,
-  "Solid Fuel": 1070.0,
-  "Total": 1630.0,
-  "Year": 1950
-}, {
-  "Cement": 20.0,
-  "Gas Flaring": 24.0,
-  "Gas Fuel": 115.0,
-  "Liquid Fuel": 479.0,
-  "Per Capita": 0.69,
-  "Solid Fuel": 1129.0,
-  "Total": 1767.0,
-  "Year": 1951
-}, {
-  "Cement": 22.0,
-  "Gas Flaring": 26.0,
-  "Gas Fuel": 124.0,
-  "Liquid Fuel": 504.0,
-  "Per Capita": 0.68,
-  "Solid Fuel": 1119.0,
-  "Total": 1795.0,
-  "Year": 1952
-}, {
-  "Cement": 24.0,
-  "Gas Flaring": 27.0,
-  "Gas Fuel": 131.0,
-  "Liquid Fuel": 533.0,
-  "Per Capita": 0.69,
-  "Solid Fuel": 1125.0,
-  "Total": 1841.0,
-  "Year": 1953
-}, {
-  "Cement": 27.0,
-  "Gas Flaring": 27.0,
-  "Gas Fuel": 138.0,
-  "Liquid Fuel": 557.0,
-  "Per Capita": 0.69,
-  "Solid Fuel": 1116.0,
-  "Total": 1865.0,
-  "Year": 1954
-}, {
-  "Cement": 30.0,
-  "Gas Flaring": 31.0,
-  "Gas Fuel": 150.0,
-  "Liquid Fuel": 625.0,
-  "Per Capita": 0.74,
-  "Solid Fuel": 1208.0,
-  "Total": 2042.0,
-  "Year": 1955
-}, {
-  "Cement": 32.0,
-  "Gas Flaring": 32.0,
-  "Gas Fuel": 161.0,
-  "Liquid Fuel": 679.0,
-  "Per Capita": 0.77,
-  "Solid Fuel": 1273.0,
-  "Total": 2177.0,
-  "Year": 1956
-}, {
-  "Cement": 34.0,
-  "Gas Flaring": 35.0,
-  "Gas Fuel": 178.0,
-  "Liquid Fuel": 714.0,
-  "Per Capita": 0.79,
-  "Solid Fuel": 1309.0,
-  "Total": 2270.0,
-  "Year": 1957
-}, {
-  "Cement": 36.0,
-  "Gas Flaring": 35.0,
-  "Gas Fuel": 192.0,
-  "Liquid Fuel": 731.0,
-  "Per Capita": 0.8,
-  "Solid Fuel": 1336.0,
-  "Total": 2330.0,
-  "Year": 1958
-}, {
-  "Cement": 40.0,
-  "Gas Flaring": 36.0,
-  "Gas Fuel": 206.0,
-  "Liquid Fuel": 789.0,
-  "Per Capita": 0.83,
-  "Solid Fuel": 1382.0,
-  "Total": 2454.0,
-  "Year": 1959
-}, {
-  "Cement": 43.0,
-  "Gas Flaring": 39.0,
-  "Gas Fuel": 227.0,
-  "Liquid Fuel": 849.0,
-  "Per Capita": 0.85,
-  "Solid Fuel": 1410.0,
-  "Total": 2569.0,
-  "Year": 1960
-}, {
-  "Cement": 45.0,
-  "Gas Flaring": 42.0,
-  "Gas Fuel": 240.0,
-  "Liquid Fuel": 904.0,
-  "Per Capita": 0.84,
-  "Solid Fuel": 1349.0,
-  "Total": 2580.0,
-  "Year": 1961
-}, {
-  "Cement": 49.0,
-  "Gas Flaring": 44.0,
-  "Gas Fuel": 263.0,
-  "Liquid Fuel": 980.0,
-  "Per Capita": 0.86,
-  "Solid Fuel": 1351.0,
-  "Total": 2686.0,
-  "Year": 1962
-}, {
-  "Cement": 51.0,
-  "Gas Flaring": 47.0,
-  "Gas Fuel": 286.0,
-  "Liquid Fuel": 1052.0,
-  "Per Capita": 0.88,
-  "Solid Fuel": 1396.0,
-  "Total": 2833.0,
-  "Year": 1963
-}, {
-  "Cement": 57.0,
-  "Gas Flaring": 51.0,
-  "Gas Fuel": 316.0,
-  "Liquid Fuel": 1137.0,
-  "Per Capita": 0.92,
-  "Solid Fuel": 1435.0,
-  "Total": 2995.0,
-  "Year": 1964
-}, {
-  "Cement": 59.0,
-  "Gas Flaring": 55.0,
-  "Gas Fuel": 337.0,
-  "Liquid Fuel": 1219.0,
-  "Per Capita": 0.94,
-  "Solid Fuel": 1460.0,
-  "Total": 3130.0,
-  "Year": 1965
-}, {
-  "Cement": 63.0,
-  "Gas Flaring": 60.0,
-  "Gas Fuel": 364.0,
-  "Liquid Fuel": 1323.0,
-  "Per Capita": 0.97,
-  "Solid Fuel": 1478.0,
-  "Total": 3288.0,
-  "Year": 1966
-}, {
-  "Cement": 65.0,
-  "Gas Flaring": 66.0,
-  "Gas Fuel": 392.0,
-  "Liquid Fuel": 1423.0,
-  "Per Capita": 0.98,
-  "Solid Fuel": 1448.0,
-  "Total": 3393.0,
-  "Year": 1967
-}, {
-  "Cement": 70.0,
-  "Gas Flaring": 73.0,
-  "Gas Fuel": 424.0,
-  "Liquid Fuel": 1551.0,
-  "Per Capita": 1.01,
-  "Solid Fuel": 1448.0,
-  "Total": 3566.0,
-  "Year": 1968
-}, {
-  "Cement": 74.0,
-  "Gas Flaring": 80.0,
-  "Gas Fuel": 467.0,
-  "Liquid Fuel": 1673.0,
-  "Per Capita": 1.05,
-  "Solid Fuel": 1486.0,
-  "Total": 3780.0,
-  "Year": 1969
-}, {
-  "Cement": 78.0,
-  "Gas Flaring": 87.0,
-  "Gas Fuel": 493.0,
-  "Liquid Fuel": 1839.0,
-  "Per Capita": 1.1,
-  "Solid Fuel": 1556.0,
-  "Total": 4053.0,
-  "Year": 1970
-}, {
-  "Cement": 84.0,
-  "Gas Flaring": 88.0,
-  "Gas Fuel": 530.0,
-  "Liquid Fuel": 1947.0,
-  "Per Capita": 1.12,
-  "Solid Fuel": 1559.0,
-  "Total": 4208.0,
-  "Year": 1971
-}, {
-  "Cement": 89.0,
-  "Gas Flaring": 94.0,
-  "Gas Fuel": 560.0,
-  "Liquid Fuel": 2057.0,
-  "Per Capita": 1.14,
-  "Solid Fuel": 1576.0,
-  "Total": 4376.0,
-  "Year": 1972
-}, {
-  "Cement": 95.0,
-  "Gas Flaring": 110.0,
-  "Gas Fuel": 588.0,
-  "Liquid Fuel": 2241.0,
-  "Per Capita": 1.18,
-  "Solid Fuel": 1581.0,
-  "Total": 4614.0,
-  "Year": 1973
-}, {
-  "Cement": 96.0,
-  "Gas Flaring": 107.0,
-  "Gas Fuel": 597.0,
-  "Liquid Fuel": 2245.0,
-  "Per Capita": 1.16,
-  "Solid Fuel": 1579.0,
-  "Total": 4623.0,
-  "Year": 1974
-}, {
-  "Cement": 95.0,
-  "Gas Flaring": 92.0,
-  "Gas Fuel": 604.0,
-  "Liquid Fuel": 2132.0,
-  "Per Capita": 1.13,
-  "Solid Fuel": 1673.0,
-  "Total": 4596.0,
-  "Year": 1975
-}, {
-  "Cement": 103.0,
-  "Gas Flaring": 108.0,
-  "Gas Fuel": 630.0,
-  "Liquid Fuel": 2314.0,
-  "Per Capita": 1.18,
-  "Solid Fuel": 1710.0,
-  "Total": 4864.0,
-  "Year": 1976
-}, {
-  "Cement": 108.0,
-  "Gas Flaring": 104.0,
-  "Gas Fuel": 650.0,
-  "Liquid Fuel": 2398.0,
-  "Per Capita": 1.19,
-  "Solid Fuel": 1765.0,
-  "Total": 5026.0,
-  "Year": 1977
-}, {
-  "Cement": 116.0,
-  "Gas Flaring": 106.0,
-  "Gas Fuel": 680.0,
-  "Liquid Fuel": 2392.0,
-  "Per Capita": 1.19,
-  "Solid Fuel": 1793.0,
-  "Total": 5087.0,
-  "Year": 1978
-}, {
-  "Cement": 119.0,
-  "Gas Flaring": 98.0,
-  "Gas Fuel": 721.0,
-  "Liquid Fuel": 2544.0,
-  "Per Capita": 1.23,
-  "Solid Fuel": 1887.0,
-  "Total": 5369.0,
-  "Year": 1979
-}, {
-  "Cement": 120.0,
-  "Gas Flaring": 86.0,
-  "Gas Fuel": 740.0,
-  "Liquid Fuel": 2422.0,
-  "Per Capita": 1.2,
-  "Solid Fuel": 1947.0,
-  "Total": 5315.0,
-  "Year": 1980
-}, {
-  "Cement": 121.0,
-  "Gas Flaring": 64.0,
-  "Gas Fuel": 756.0,
-  "Liquid Fuel": 2289.0,
-  "Per Capita": 1.14,
-  "Solid Fuel": 1921.0,
-  "Total": 5152.0,
-  "Year": 1981
-}, {
-  "Cement": 121.0,
-  "Gas Flaring": 64.0,
-  "Gas Fuel": 740.0,
-  "Liquid Fuel": 2196.0,
-  "Per Capita": 1.11,
-  "Solid Fuel": 1992.0,
-  "Total": 5113.0,
-  "Year": 1982
-}, {
-  "Cement": 125.0,
-  "Gas Flaring": 58.0,
-  "Gas Fuel": 741.0,
-  "Liquid Fuel": 2176.0,
-  "Per Capita": 1.09,
-  "Solid Fuel": 1995.0,
-  "Total": 5094.0,
-  "Year": 1983
-}, {
-  "Cement": 128.0,
-  "Gas Flaring": 51.0,
-  "Gas Fuel": 808.0,
-  "Liquid Fuel": 2199.0,
-  "Per Capita": 1.11,
-  "Solid Fuel": 2094.0,
-  "Total": 5280.0,
-  "Year": 1984
-}, {
-  "Cement": 131.0,
-  "Gas Flaring": 49.0,
-  "Gas Fuel": 837.0,
-  "Liquid Fuel": 2186.0,
-  "Per Capita": 1.12,
-  "Solid Fuel": 2237.0,
-  "Total": 5439.0,
-  "Year": 1985
-}, {
-  "Cement": 137.0,
-  "Gas Flaring": 46.0,
-  "Gas Fuel": 831.0,
-  "Liquid Fuel": 2293.0,
-  "Per Capita": 1.14,
-  "Solid Fuel": 2300.0,
-  "Total": 5607.0,
-  "Year": 1986
-}, {
-  "Cement": 143.0,
-  "Gas Flaring": 44.0,
-  "Gas Fuel": 894.0,
-  "Liquid Fuel": 2306.0,
-  "Per Capita": 1.15,
-  "Solid Fuel": 2364.0,
-  "Total": 5752.0,
-  "Year": 1987
-}, {
-  "Cement": 152.0,
-  "Gas Flaring": 50.0,
-  "Gas Fuel": 937.0,
-  "Liquid Fuel": 2412.0,
-  "Per Capita": 1.17,
-  "Solid Fuel": 2414.0,
-  "Total": 5965.0,
-  "Year": 1988
-}, {
-  "Cement": 156.0,
-  "Gas Flaring": 41.0,
-  "Gas Fuel": 985.0,
-  "Liquid Fuel": 2459.0,
-  "Per Capita": 1.17,
-  "Solid Fuel": 2457.0,
-  "Total": 6097.0,
-  "Year": 1989
-}, {
-  "Cement": 157.0,
-  "Gas Flaring": 40.0,
-  "Gas Fuel": 1019.0,
-  "Liquid Fuel": 2492.0,
-  "Per Capita": 1.16,
-  "Solid Fuel": 2419.0,
-  "Total": 6127.0,
-  "Year": 1990
-}, {
-  "Cement": 161.0,
-  "Gas Flaring": 44.0,
-  "Gas Fuel": 1063.0,
-  "Liquid Fuel": 2605.0,
-  "Per Capita": 1.16,
-  "Solid Fuel": 2345.0,
-  "Total": 6217.0,
-  "Year": 1991
-}, {
-  "Cement": 167.0,
-  "Gas Flaring": 35.0,
-  "Gas Fuel": 1095.0,
-  "Liquid Fuel": 2510.0,
-  "Per Capita": 1.13,
-  "Solid Fuel": 2357.0,
-  "Total": 6164.0,
-  "Year": 1992
-}, {
-  "Cement": 176.0,
-  "Gas Flaring": 36.0,
-  "Gas Fuel": 1129.0,
-  "Liquid Fuel": 2523.0,
-  "Per Capita": 1.11,
-  "Solid Fuel": 2298.0,
-  "Total": 6162.0,
-  "Year": 1993
-}, {
-  "Cement": 186.0,
-  "Gas Flaring": 38.0,
-  "Gas Fuel": 1139.0,
-  "Liquid Fuel": 2546.0,
-  "Per Capita": 1.11,
-  "Solid Fuel": 2358.0,
-  "Total": 6266.0,
-  "Year": 1994
-}, {
-  "Cement": 197.0,
-  "Gas Flaring": 36.0,
-  "Gas Fuel": 1157.0,
-  "Liquid Fuel": 2565.0,
-  "Per Capita": 1.12,
-  "Solid Fuel": 2442.0,
-  "Total": 6398.0,
-  "Year": 1995
-}, {
-  "Cement": 203.0,
-  "Gas Flaring": 37.0,
-  "Gas Fuel": 1209.0,
-  "Liquid Fuel": 2624.0,
-  "Per Capita": 1.13,
-  "Solid Fuel": 2469.0,
-  "Total": 6542.0,
-  "Year": 1996
-}, {
-  "Cement": 209.0,
-  "Gas Flaring": 38.0,
-  "Gas Fuel": 1208.0,
-  "Liquid Fuel": 2700.0,
-  "Per Capita": 1.13,
-  "Solid Fuel": 2495.0,
-  "Total": 6651.0,
-  "Year": 1997
-}, {
-  "Cement": 209.0,
-  "Gas Flaring": 35.0,
-  "Gas Fuel": 1243.0,
-  "Liquid Fuel": 2766.0,
-  "Per Capita": 1.12,
-  "Solid Fuel": 2391.0,
-  "Total": 6643.0,
-  "Year": 1998
-}, {
-  "Cement": 217.0,
-  "Gas Flaring": 33.0,
-  "Gas Fuel": 1270.0,
-  "Liquid Fuel": 2737.0,
-  "Per Capita": 1.1,
-  "Solid Fuel": 2352.0,
-  "Total": 6610.0,
-  "Year": 1999
-}, {
-  "Cement": 226.0,
-  "Gas Flaring": 45.0,
-  "Gas Fuel": 1288.0,
-  "Liquid Fuel": 2838.0,
-  "Per Capita": 1.11,
-  "Solid Fuel": 2367.0,
-  "Total": 6765.0,
-  "Year": 2000
-}, {
-  "Cement": 237.0,
-  "Gas Flaring": 46.0,
-  "Gas Fuel": 1312.0,
-  "Liquid Fuel": 2840.0,
-  "Per Capita": 1.12,
-  "Solid Fuel": 2492.0,
-  "Total": 6927.0,
-  "Year": 2001
-}, {
-  "Cement": 252.0,
-  "Gas Flaring": 48.0,
-  "Gas Fuel": 1344.0,
-  "Liquid Fuel": 2831.0,
-  "Per Capita": 1.12,
-  "Solid Fuel": 2521.0,
-  "Total": 6996.0,
-  "Year": 2002
-}, {
-  "Cement": 276.0,
-  "Gas Flaring": 48.0,
-  "Gas Fuel": 1391.0,
-  "Liquid Fuel": 2959.0,
-  "Per Capita": 1.17,
-  "Solid Fuel": 2743.0,
-  "Total": 7416.0,
-  "Year": 2003
-}, {
-  "Cement": 298.0,
-  "Gas Flaring": 53.0,
-  "Gas Fuel": 1437.0,
-  "Liquid Fuel": 3053.0,
-  "Per Capita": 1.21,
-  "Solid Fuel": 2967.0,
-  "Total": 7807.0,
-  "Year": 2004
-}, {
-  "Cement": 320.0,
-  "Gas Flaring": 60.0,
-  "Gas Fuel": 1480.0,
-  "Liquid Fuel": 3076.0,
-  "Per Capita": 1.24,
-  "Solid Fuel": 3157.0,
-  "Total": 8093.0,
-  "Year": 2005
-}, {
-  "Cement": 356.0,
-  "Gas Flaring": 61.0,
-  "Gas Fuel": 1525.0,
-  "Liquid Fuel": 3089.0,
-  "Per Capita": 1.27,
-  "Solid Fuel": 3339.0,
-  "Total": 8370.0,
-  "Year": 2006
-}, {
-  "Cement": 382.0,
-  "Gas Flaring": 68.0,
-  "Gas Fuel": 1572.0,
-  "Liquid Fuel": 3081.0,
-  "Per Capita": 1.28,
-  "Solid Fuel": 3464.0,
-  "Total": 8566.0,
-  "Year": 2007
-}, {
-  "Cement": 388.0,
-  "Gas Flaring": 71.0,
-  "Gas Fuel": 1631.0,
-  "Liquid Fuel": 3122.0,
-  "Per Capita": 1.3,
-  "Solid Fuel": 3571.0,
-  "Total": 8783.0,
-  "Year": 2008
-}, {
-  "Cement": 413.0,
-  "Gas Flaring": 66.0,
-  "Gas Fuel": 1585.0,
-  "Liquid Fuel": 3056.0,
-  "Per Capita": 1.28,
-  "Solid Fuel": 3620.0,
-  "Total": 8740.0,
-  "Year": 2009
-}, {
-  "Cement": 450.0,
-  "Gas Flaring": 59.0,
-  "Gas Fuel": 1702.0,
-  "Liquid Fuel": 3114.0,
-  "Per Capita": 1.33,
-  "Solid Fuel": 3842.0,
-  "Total": 9167.0,
-  "Year": 2010
-}]
+[
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 3,
+    "Total": 3,
+    "Year": 1751
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 3,
+    "Total": 3,
+    "Year": 1752
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 3,
+    "Total": 3,
+    "Year": 1753
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 3,
+    "Total": 3,
+    "Year": 1754
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 3,
+    "Total": 3,
+    "Year": 1755
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 3,
+    "Total": 3,
+    "Year": 1756
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 3,
+    "Total": 3,
+    "Year": 1757
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 3,
+    "Total": 3,
+    "Year": 1758
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 3,
+    "Total": 3,
+    "Year": 1759
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 3,
+    "Total": 3,
+    "Year": 1760
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 3,
+    "Total": 3,
+    "Year": 1761
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 3,
+    "Total": 3,
+    "Year": 1762
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 3,
+    "Total": 3,
+    "Year": 1763
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 3,
+    "Total": 3,
+    "Year": 1764
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 3,
+    "Total": 3,
+    "Year": 1765
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 3,
+    "Total": 3,
+    "Year": 1766
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 3,
+    "Total": 3,
+    "Year": 1767
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 3,
+    "Total": 3,
+    "Year": 1768
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 3,
+    "Total": 3,
+    "Year": 1769
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 3,
+    "Total": 3,
+    "Year": 1770
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 4,
+    "Total": 4,
+    "Year": 1771
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 4,
+    "Total": 4,
+    "Year": 1772
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 4,
+    "Total": 4,
+    "Year": 1773
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 4,
+    "Total": 4,
+    "Year": 1774
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 4,
+    "Total": 4,
+    "Year": 1775
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 4,
+    "Total": 4,
+    "Year": 1776
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 4,
+    "Total": 4,
+    "Year": 1777
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 4,
+    "Total": 4,
+    "Year": 1778
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 4,
+    "Total": 4,
+    "Year": 1779
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 4,
+    "Total": 4,
+    "Year": 1780
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 5,
+    "Total": 5,
+    "Year": 1781
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 5,
+    "Total": 5,
+    "Year": 1782
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 5,
+    "Total": 5,
+    "Year": 1783
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 5,
+    "Total": 5,
+    "Year": 1784
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 5,
+    "Total": 5,
+    "Year": 1785
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 5,
+    "Total": 5,
+    "Year": 1786
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 5,
+    "Total": 5,
+    "Year": 1787
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 5,
+    "Total": 5,
+    "Year": 1788
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 5,
+    "Total": 5,
+    "Year": 1789
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 5,
+    "Total": 5,
+    "Year": 1790
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 6,
+    "Total": 6,
+    "Year": 1791
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 6,
+    "Total": 6,
+    "Year": 1792
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 6,
+    "Total": 6,
+    "Year": 1793
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 6,
+    "Total": 6,
+    "Year": 1794
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 6,
+    "Total": 6,
+    "Year": 1795
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 6,
+    "Total": 6,
+    "Year": 1796
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 7,
+    "Total": 7,
+    "Year": 1797
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 7,
+    "Total": 7,
+    "Year": 1798
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 7,
+    "Total": 7,
+    "Year": 1799
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 8,
+    "Total": 8,
+    "Year": 1800
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 8,
+    "Total": 8,
+    "Year": 1801
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 10,
+    "Total": 10,
+    "Year": 1802
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 9,
+    "Total": 9,
+    "Year": 1803
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 9,
+    "Total": 9,
+    "Year": 1804
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 9,
+    "Total": 9,
+    "Year": 1805
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 10,
+    "Total": 10,
+    "Year": 1806
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 10,
+    "Total": 10,
+    "Year": 1807
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 10,
+    "Total": 10,
+    "Year": 1808
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 10,
+    "Total": 10,
+    "Year": 1809
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 10,
+    "Total": 10,
+    "Year": 1810
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 11,
+    "Total": 11,
+    "Year": 1811
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 11,
+    "Total": 11,
+    "Year": 1812
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 11,
+    "Total": 11,
+    "Year": 1813
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 11,
+    "Total": 11,
+    "Year": 1814
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 12,
+    "Total": 12,
+    "Year": 1815
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 13,
+    "Total": 13,
+    "Year": 1816
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 14,
+    "Total": 14,
+    "Year": 1817
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 14,
+    "Total": 14,
+    "Year": 1818
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 14,
+    "Total": 14,
+    "Year": 1819
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 14,
+    "Total": 14,
+    "Year": 1820
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 14,
+    "Total": 14,
+    "Year": 1821
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 15,
+    "Total": 15,
+    "Year": 1822
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 16,
+    "Total": 16,
+    "Year": 1823
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 16,
+    "Total": 16,
+    "Year": 1824
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 17,
+    "Total": 17,
+    "Year": 1825
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 17,
+    "Total": 17,
+    "Year": 1826
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 18,
+    "Total": 18,
+    "Year": 1827
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 18,
+    "Total": 18,
+    "Year": 1828
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 18,
+    "Total": 18,
+    "Year": 1829
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 24,
+    "Total": 24,
+    "Year": 1830
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 23,
+    "Total": 23,
+    "Year": 1831
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 23,
+    "Total": 23,
+    "Year": 1832
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 24,
+    "Total": 24,
+    "Year": 1833
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 24,
+    "Total": 24,
+    "Year": 1834
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 25,
+    "Total": 25,
+    "Year": 1835
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 29,
+    "Total": 29,
+    "Year": 1836
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 29,
+    "Total": 29,
+    "Year": 1837
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 30,
+    "Total": 30,
+    "Year": 1838
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 31,
+    "Total": 31,
+    "Year": 1839
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 33,
+    "Total": 33,
+    "Year": 1840
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 34,
+    "Total": 34,
+    "Year": 1841
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 36,
+    "Total": 36,
+    "Year": 1842
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 37,
+    "Total": 37,
+    "Year": 1843
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 39,
+    "Total": 39,
+    "Year": 1844
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 43,
+    "Total": 43,
+    "Year": 1845
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 43,
+    "Total": 43,
+    "Year": 1846
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 46,
+    "Total": 46,
+    "Year": 1847
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 47,
+    "Total": 47,
+    "Year": 1848
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 50,
+    "Total": 50,
+    "Year": 1849
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 54,
+    "Total": 54,
+    "Year": 1850
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 54,
+    "Total": 54,
+    "Year": 1851
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 57,
+    "Total": 57,
+    "Year": 1852
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 59,
+    "Total": 59,
+    "Year": 1853
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 69,
+    "Total": 69,
+    "Year": 1854
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 71,
+    "Total": 71,
+    "Year": 1855
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 76,
+    "Total": 76,
+    "Year": 1856
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 77,
+    "Total": 77,
+    "Year": 1857
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 78,
+    "Total": 78,
+    "Year": 1858
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 83,
+    "Total": 83,
+    "Year": 1859
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 91,
+    "Total": 91,
+    "Year": 1860
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 95,
+    "Total": 95,
+    "Year": 1861
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 96,
+    "Total": 97,
+    "Year": 1862
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 103,
+    "Total": 104,
+    "Year": 1863
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 112,
+    "Total": 112,
+    "Year": 1864
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 119,
+    "Total": 119,
+    "Year": 1865
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 122,
+    "Total": 122,
+    "Year": 1866
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 130,
+    "Total": 130,
+    "Year": 1867
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 134,
+    "Total": 135,
+    "Year": 1868
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 0,
+    "Per Capita": null,
+    "Solid Fuel": 142,
+    "Total": 142,
+    "Year": 1869
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 1,
+    "Per Capita": null,
+    "Solid Fuel": 146,
+    "Total": 147,
+    "Year": 1870
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 1,
+    "Per Capita": null,
+    "Solid Fuel": 156,
+    "Total": 156,
+    "Year": 1871
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 1,
+    "Per Capita": null,
+    "Solid Fuel": 173,
+    "Total": 173,
+    "Year": 1872
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 1,
+    "Per Capita": null,
+    "Solid Fuel": 183,
+    "Total": 184,
+    "Year": 1873
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 1,
+    "Per Capita": null,
+    "Solid Fuel": 173,
+    "Total": 174,
+    "Year": 1874
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 1,
+    "Per Capita": null,
+    "Solid Fuel": 187,
+    "Total": 188,
+    "Year": 1875
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 1,
+    "Per Capita": null,
+    "Solid Fuel": 190,
+    "Total": 191,
+    "Year": 1876
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 2,
+    "Per Capita": null,
+    "Solid Fuel": 192,
+    "Total": 194,
+    "Year": 1877
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 2,
+    "Per Capita": null,
+    "Solid Fuel": 194,
+    "Total": 196,
+    "Year": 1878
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 3,
+    "Per Capita": null,
+    "Solid Fuel": 207,
+    "Total": 210,
+    "Year": 1879
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 3,
+    "Per Capita": null,
+    "Solid Fuel": 233,
+    "Total": 236,
+    "Year": 1880
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 4,
+    "Per Capita": null,
+    "Solid Fuel": 239,
+    "Total": 243,
+    "Year": 1881
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 4,
+    "Per Capita": null,
+    "Solid Fuel": 252,
+    "Total": 256,
+    "Year": 1882
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 3,
+    "Per Capita": null,
+    "Solid Fuel": 269,
+    "Total": 272,
+    "Year": 1883
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 0,
+    "Liquid Fuel": 4,
+    "Per Capita": null,
+    "Solid Fuel": 271,
+    "Total": 275,
+    "Year": 1884
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 1,
+    "Liquid Fuel": 4,
+    "Per Capita": null,
+    "Solid Fuel": 273,
+    "Total": 277,
+    "Year": 1885
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 2,
+    "Liquid Fuel": 5,
+    "Per Capita": null,
+    "Solid Fuel": 275,
+    "Total": 281,
+    "Year": 1886
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 3,
+    "Liquid Fuel": 5,
+    "Per Capita": null,
+    "Solid Fuel": 287,
+    "Total": 295,
+    "Year": 1887
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 5,
+    "Liquid Fuel": 5,
+    "Per Capita": null,
+    "Solid Fuel": 317,
+    "Total": 327,
+    "Year": 1888
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 3,
+    "Liquid Fuel": 6,
+    "Per Capita": null,
+    "Solid Fuel": 318,
+    "Total": 327,
+    "Year": 1889
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 3,
+    "Liquid Fuel": 8,
+    "Per Capita": null,
+    "Solid Fuel": 345,
+    "Total": 356,
+    "Year": 1890
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 2,
+    "Liquid Fuel": 9,
+    "Per Capita": null,
+    "Solid Fuel": 360,
+    "Total": 372,
+    "Year": 1891
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 2,
+    "Liquid Fuel": 9,
+    "Per Capita": null,
+    "Solid Fuel": 363,
+    "Total": 374,
+    "Year": 1892
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 2,
+    "Liquid Fuel": 10,
+    "Per Capita": null,
+    "Solid Fuel": 358,
+    "Total": 370,
+    "Year": 1893
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 2,
+    "Liquid Fuel": 9,
+    "Per Capita": null,
+    "Solid Fuel": 372,
+    "Total": 383,
+    "Year": 1894
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 2,
+    "Liquid Fuel": 11,
+    "Per Capita": null,
+    "Solid Fuel": 393,
+    "Total": 406,
+    "Year": 1895
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 2,
+    "Liquid Fuel": 12,
+    "Per Capita": null,
+    "Solid Fuel": 405,
+    "Total": 419,
+    "Year": 1896
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 2,
+    "Liquid Fuel": 13,
+    "Per Capita": null,
+    "Solid Fuel": 425,
+    "Total": 440,
+    "Year": 1897
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 2,
+    "Liquid Fuel": 13,
+    "Per Capita": null,
+    "Solid Fuel": 449,
+    "Total": 465,
+    "Year": 1898
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 3,
+    "Liquid Fuel": 14,
+    "Per Capita": null,
+    "Solid Fuel": 491,
+    "Total": 507,
+    "Year": 1899
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 3,
+    "Liquid Fuel": 16,
+    "Per Capita": null,
+    "Solid Fuel": 515,
+    "Total": 534,
+    "Year": 1900
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 4,
+    "Liquid Fuel": 18,
+    "Per Capita": null,
+    "Solid Fuel": 531,
+    "Total": 552,
+    "Year": 1901
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 4,
+    "Liquid Fuel": 19,
+    "Per Capita": null,
+    "Solid Fuel": 543,
+    "Total": 566,
+    "Year": 1902
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 4,
+    "Liquid Fuel": 20,
+    "Per Capita": null,
+    "Solid Fuel": 593,
+    "Total": 617,
+    "Year": 1903
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 4,
+    "Liquid Fuel": 23,
+    "Per Capita": null,
+    "Solid Fuel": 597,
+    "Total": 624,
+    "Year": 1904
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 5,
+    "Liquid Fuel": 23,
+    "Per Capita": null,
+    "Solid Fuel": 636,
+    "Total": 663,
+    "Year": 1905
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 5,
+    "Liquid Fuel": 23,
+    "Per Capita": null,
+    "Solid Fuel": 680,
+    "Total": 707,
+    "Year": 1906
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 5,
+    "Liquid Fuel": 28,
+    "Per Capita": null,
+    "Solid Fuel": 750,
+    "Total": 784,
+    "Year": 1907
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 5,
+    "Liquid Fuel": 30,
+    "Per Capita": null,
+    "Solid Fuel": 714,
+    "Total": 750,
+    "Year": 1908
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 6,
+    "Liquid Fuel": 32,
+    "Per Capita": null,
+    "Solid Fuel": 747,
+    "Total": 785,
+    "Year": 1909
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 7,
+    "Liquid Fuel": 34,
+    "Per Capita": null,
+    "Solid Fuel": 778,
+    "Total": 819,
+    "Year": 1910
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 7,
+    "Liquid Fuel": 36,
+    "Per Capita": null,
+    "Solid Fuel": 792,
+    "Total": 836,
+    "Year": 1911
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 8,
+    "Liquid Fuel": 37,
+    "Per Capita": null,
+    "Solid Fuel": 834,
+    "Total": 879,
+    "Year": 1912
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 8,
+    "Liquid Fuel": 41,
+    "Per Capita": null,
+    "Solid Fuel": 895,
+    "Total": 943,
+    "Year": 1913
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 8,
+    "Liquid Fuel": 42,
+    "Per Capita": null,
+    "Solid Fuel": 800,
+    "Total": 850,
+    "Year": 1914
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 9,
+    "Liquid Fuel": 45,
+    "Per Capita": null,
+    "Solid Fuel": 784,
+    "Total": 838,
+    "Year": 1915
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 10,
+    "Liquid Fuel": 48,
+    "Per Capita": null,
+    "Solid Fuel": 842,
+    "Total": 901,
+    "Year": 1916
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 11,
+    "Liquid Fuel": 54,
+    "Per Capita": null,
+    "Solid Fuel": 891,
+    "Total": 955,
+    "Year": 1917
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 10,
+    "Liquid Fuel": 53,
+    "Per Capita": null,
+    "Solid Fuel": 873,
+    "Total": 936,
+    "Year": 1918
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 10,
+    "Liquid Fuel": 61,
+    "Per Capita": null,
+    "Solid Fuel": 735,
+    "Total": 806,
+    "Year": 1919
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 11,
+    "Liquid Fuel": 78,
+    "Per Capita": null,
+    "Solid Fuel": 843,
+    "Total": 932,
+    "Year": 1920
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 10,
+    "Liquid Fuel": 84,
+    "Per Capita": null,
+    "Solid Fuel": 709,
+    "Total": 803,
+    "Year": 1921
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 11,
+    "Liquid Fuel": 94,
+    "Per Capita": null,
+    "Solid Fuel": 740,
+    "Total": 845,
+    "Year": 1922
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 14,
+    "Liquid Fuel": 111,
+    "Per Capita": null,
+    "Solid Fuel": 845,
+    "Total": 970,
+    "Year": 1923
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 16,
+    "Liquid Fuel": 110,
+    "Per Capita": null,
+    "Solid Fuel": 836,
+    "Total": 963,
+    "Year": 1924
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 17,
+    "Liquid Fuel": 116,
+    "Per Capita": null,
+    "Solid Fuel": 842,
+    "Total": 975,
+    "Year": 1925
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 19,
+    "Liquid Fuel": 119,
+    "Per Capita": null,
+    "Solid Fuel": 846,
+    "Total": 983,
+    "Year": 1926
+  },
+  {
+    "Cement": 0,
+    "Gas Flaring": 0,
+    "Gas Fuel": 21,
+    "Liquid Fuel": 136,
+    "Per Capita": null,
+    "Solid Fuel": 905,
+    "Total": 1062,
+    "Year": 1927
+  },
+  {
+    "Cement": 10,
+    "Gas Flaring": 0,
+    "Gas Fuel": 23,
+    "Liquid Fuel": 143,
+    "Per Capita": null,
+    "Solid Fuel": 890,
+    "Total": 1065,
+    "Year": 1928
+  },
+  {
+    "Cement": 10,
+    "Gas Flaring": 0,
+    "Gas Fuel": 28,
+    "Liquid Fuel": 160,
+    "Per Capita": null,
+    "Solid Fuel": 947,
+    "Total": 1145,
+    "Year": 1929
+  },
+  {
+    "Cement": 10,
+    "Gas Flaring": 0,
+    "Gas Fuel": 28,
+    "Liquid Fuel": 152,
+    "Per Capita": null,
+    "Solid Fuel": 862,
+    "Total": 1053,
+    "Year": 1930
+  },
+  {
+    "Cement": 8,
+    "Gas Flaring": 0,
+    "Gas Fuel": 25,
+    "Liquid Fuel": 147,
+    "Per Capita": null,
+    "Solid Fuel": 759,
+    "Total": 940,
+    "Year": 1931
+  },
+  {
+    "Cement": 7,
+    "Gas Flaring": 0,
+    "Gas Fuel": 24,
+    "Liquid Fuel": 141,
+    "Per Capita": null,
+    "Solid Fuel": 675,
+    "Total": 847,
+    "Year": 1932
+  },
+  {
+    "Cement": 7,
+    "Gas Flaring": 0,
+    "Gas Fuel": 25,
+    "Liquid Fuel": 154,
+    "Per Capita": null,
+    "Solid Fuel": 708,
+    "Total": 893,
+    "Year": 1933
+  },
+  {
+    "Cement": 8,
+    "Gas Flaring": 0,
+    "Gas Fuel": 28,
+    "Liquid Fuel": 162,
+    "Per Capita": null,
+    "Solid Fuel": 775,
+    "Total": 973,
+    "Year": 1934
+  },
+  {
+    "Cement": 9,
+    "Gas Flaring": 0,
+    "Gas Fuel": 30,
+    "Liquid Fuel": 176,
+    "Per Capita": null,
+    "Solid Fuel": 811,
+    "Total": 1027,
+    "Year": 1935
+  },
+  {
+    "Cement": 11,
+    "Gas Flaring": 0,
+    "Gas Fuel": 34,
+    "Liquid Fuel": 192,
+    "Per Capita": null,
+    "Solid Fuel": 893,
+    "Total": 1130,
+    "Year": 1936
+  },
+  {
+    "Cement": 11,
+    "Gas Flaring": 0,
+    "Gas Fuel": 38,
+    "Liquid Fuel": 219,
+    "Per Capita": null,
+    "Solid Fuel": 941,
+    "Total": 1209,
+    "Year": 1937
+  },
+  {
+    "Cement": 12,
+    "Gas Flaring": 0,
+    "Gas Fuel": 37,
+    "Liquid Fuel": 214,
+    "Per Capita": null,
+    "Solid Fuel": 880,
+    "Total": 1142,
+    "Year": 1938
+  },
+  {
+    "Cement": 13,
+    "Gas Flaring": 0,
+    "Gas Fuel": 38,
+    "Liquid Fuel": 222,
+    "Per Capita": null,
+    "Solid Fuel": 918,
+    "Total": 1192,
+    "Year": 1939
+  },
+  {
+    "Cement": 11,
+    "Gas Flaring": 0,
+    "Gas Fuel": 42,
+    "Liquid Fuel": 229,
+    "Per Capita": null,
+    "Solid Fuel": 1017,
+    "Total": 1299,
+    "Year": 1940
+  },
+  {
+    "Cement": 12,
+    "Gas Flaring": 0,
+    "Gas Fuel": 42,
+    "Liquid Fuel": 236,
+    "Per Capita": null,
+    "Solid Fuel": 1043,
+    "Total": 1334,
+    "Year": 1941
+  },
+  {
+    "Cement": 11,
+    "Gas Flaring": 0,
+    "Gas Fuel": 45,
+    "Liquid Fuel": 222,
+    "Per Capita": null,
+    "Solid Fuel": 1063,
+    "Total": 1342,
+    "Year": 1942
+  },
+  {
+    "Cement": 10,
+    "Gas Flaring": 0,
+    "Gas Fuel": 50,
+    "Liquid Fuel": 239,
+    "Per Capita": null,
+    "Solid Fuel": 1092,
+    "Total": 1391,
+    "Year": 1943
+  },
+  {
+    "Cement": 7,
+    "Gas Flaring": 0,
+    "Gas Fuel": 54,
+    "Liquid Fuel": 275,
+    "Per Capita": null,
+    "Solid Fuel": 1047,
+    "Total": 1383,
+    "Year": 1944
+  },
+  {
+    "Cement": 7,
+    "Gas Flaring": 0,
+    "Gas Fuel": 59,
+    "Liquid Fuel": 275,
+    "Per Capita": null,
+    "Solid Fuel": 820,
+    "Total": 1160,
+    "Year": 1945
+  },
+  {
+    "Cement": 10,
+    "Gas Flaring": 0,
+    "Gas Fuel": 61,
+    "Liquid Fuel": 292,
+    "Per Capita": null,
+    "Solid Fuel": 875,
+    "Total": 1238,
+    "Year": 1946
+  },
+  {
+    "Cement": 12,
+    "Gas Flaring": 0,
+    "Gas Fuel": 67,
+    "Liquid Fuel": 322,
+    "Per Capita": null,
+    "Solid Fuel": 992,
+    "Total": 1392,
+    "Year": 1947
+  },
+  {
+    "Cement": 14,
+    "Gas Flaring": 0,
+    "Gas Fuel": 76,
+    "Liquid Fuel": 364,
+    "Per Capita": null,
+    "Solid Fuel": 1015,
+    "Total": 1469,
+    "Year": 1948
+  },
+  {
+    "Cement": 16,
+    "Gas Flaring": 0,
+    "Gas Fuel": 81,
+    "Liquid Fuel": 362,
+    "Per Capita": null,
+    "Solid Fuel": 960,
+    "Total": 1419,
+    "Year": 1949
+  },
+  {
+    "Cement": 18,
+    "Gas Flaring": 23,
+    "Gas Fuel": 97,
+    "Liquid Fuel": 423,
+    "Per Capita": 0.64,
+    "Solid Fuel": 1070,
+    "Total": 1630,
+    "Year": 1950
+  },
+  {
+    "Cement": 20,
+    "Gas Flaring": 24,
+    "Gas Fuel": 115,
+    "Liquid Fuel": 479,
+    "Per Capita": 0.69,
+    "Solid Fuel": 1129,
+    "Total": 1767,
+    "Year": 1951
+  },
+  {
+    "Cement": 22,
+    "Gas Flaring": 26,
+    "Gas Fuel": 124,
+    "Liquid Fuel": 504,
+    "Per Capita": 0.68,
+    "Solid Fuel": 1119,
+    "Total": 1795,
+    "Year": 1952
+  },
+  {
+    "Cement": 24,
+    "Gas Flaring": 27,
+    "Gas Fuel": 131,
+    "Liquid Fuel": 533,
+    "Per Capita": 0.69,
+    "Solid Fuel": 1125,
+    "Total": 1841,
+    "Year": 1953
+  },
+  {
+    "Cement": 27,
+    "Gas Flaring": 27,
+    "Gas Fuel": 138,
+    "Liquid Fuel": 557,
+    "Per Capita": 0.69,
+    "Solid Fuel": 1116,
+    "Total": 1865,
+    "Year": 1954
+  },
+  {
+    "Cement": 30,
+    "Gas Flaring": 31,
+    "Gas Fuel": 150,
+    "Liquid Fuel": 625,
+    "Per Capita": 0.74,
+    "Solid Fuel": 1208,
+    "Total": 2042,
+    "Year": 1955
+  },
+  {
+    "Cement": 32,
+    "Gas Flaring": 32,
+    "Gas Fuel": 161,
+    "Liquid Fuel": 679,
+    "Per Capita": 0.77,
+    "Solid Fuel": 1273,
+    "Total": 2177,
+    "Year": 1956
+  },
+  {
+    "Cement": 34,
+    "Gas Flaring": 35,
+    "Gas Fuel": 178,
+    "Liquid Fuel": 714,
+    "Per Capita": 0.79,
+    "Solid Fuel": 1309,
+    "Total": 2270,
+    "Year": 1957
+  },
+  {
+    "Cement": 36,
+    "Gas Flaring": 35,
+    "Gas Fuel": 192,
+    "Liquid Fuel": 731,
+    "Per Capita": 0.8,
+    "Solid Fuel": 1336,
+    "Total": 2330,
+    "Year": 1958
+  },
+  {
+    "Cement": 40,
+    "Gas Flaring": 36,
+    "Gas Fuel": 206,
+    "Liquid Fuel": 789,
+    "Per Capita": 0.83,
+    "Solid Fuel": 1382,
+    "Total": 2454,
+    "Year": 1959
+  },
+  {
+    "Cement": 43,
+    "Gas Flaring": 39,
+    "Gas Fuel": 227,
+    "Liquid Fuel": 849,
+    "Per Capita": 0.85,
+    "Solid Fuel": 1410,
+    "Total": 2569,
+    "Year": 1960
+  },
+  {
+    "Cement": 45,
+    "Gas Flaring": 42,
+    "Gas Fuel": 240,
+    "Liquid Fuel": 904,
+    "Per Capita": 0.84,
+    "Solid Fuel": 1349,
+    "Total": 2580,
+    "Year": 1961
+  },
+  {
+    "Cement": 49,
+    "Gas Flaring": 44,
+    "Gas Fuel": 263,
+    "Liquid Fuel": 980,
+    "Per Capita": 0.86,
+    "Solid Fuel": 1351,
+    "Total": 2686,
+    "Year": 1962
+  },
+  {
+    "Cement": 51,
+    "Gas Flaring": 47,
+    "Gas Fuel": 286,
+    "Liquid Fuel": 1052,
+    "Per Capita": 0.88,
+    "Solid Fuel": 1396,
+    "Total": 2833,
+    "Year": 1963
+  },
+  {
+    "Cement": 57,
+    "Gas Flaring": 51,
+    "Gas Fuel": 316,
+    "Liquid Fuel": 1137,
+    "Per Capita": 0.92,
+    "Solid Fuel": 1435,
+    "Total": 2995,
+    "Year": 1964
+  },
+  {
+    "Cement": 59,
+    "Gas Flaring": 55,
+    "Gas Fuel": 337,
+    "Liquid Fuel": 1219,
+    "Per Capita": 0.94,
+    "Solid Fuel": 1460,
+    "Total": 3130,
+    "Year": 1965
+  },
+  {
+    "Cement": 63,
+    "Gas Flaring": 60,
+    "Gas Fuel": 364,
+    "Liquid Fuel": 1323,
+    "Per Capita": 0.97,
+    "Solid Fuel": 1478,
+    "Total": 3288,
+    "Year": 1966
+  },
+  {
+    "Cement": 65,
+    "Gas Flaring": 66,
+    "Gas Fuel": 392,
+    "Liquid Fuel": 1423,
+    "Per Capita": 0.98,
+    "Solid Fuel": 1448,
+    "Total": 3393,
+    "Year": 1967
+  },
+  {
+    "Cement": 70,
+    "Gas Flaring": 73,
+    "Gas Fuel": 424,
+    "Liquid Fuel": 1551,
+    "Per Capita": 1.01,
+    "Solid Fuel": 1448,
+    "Total": 3566,
+    "Year": 1968
+  },
+  {
+    "Cement": 74,
+    "Gas Flaring": 80,
+    "Gas Fuel": 467,
+    "Liquid Fuel": 1673,
+    "Per Capita": 1.05,
+    "Solid Fuel": 1486,
+    "Total": 3780,
+    "Year": 1969
+  },
+  {
+    "Cement": 78,
+    "Gas Flaring": 87,
+    "Gas Fuel": 493,
+    "Liquid Fuel": 1839,
+    "Per Capita": 1.1,
+    "Solid Fuel": 1556,
+    "Total": 4053,
+    "Year": 1970
+  },
+  {
+    "Cement": 84,
+    "Gas Flaring": 88,
+    "Gas Fuel": 530,
+    "Liquid Fuel": 1947,
+    "Per Capita": 1.12,
+    "Solid Fuel": 1559,
+    "Total": 4208,
+    "Year": 1971
+  },
+  {
+    "Cement": 89,
+    "Gas Flaring": 94,
+    "Gas Fuel": 560,
+    "Liquid Fuel": 2057,
+    "Per Capita": 1.14,
+    "Solid Fuel": 1576,
+    "Total": 4376,
+    "Year": 1972
+  },
+  {
+    "Cement": 95,
+    "Gas Flaring": 110,
+    "Gas Fuel": 588,
+    "Liquid Fuel": 2241,
+    "Per Capita": 1.18,
+    "Solid Fuel": 1581,
+    "Total": 4614,
+    "Year": 1973
+  },
+  {
+    "Cement": 96,
+    "Gas Flaring": 107,
+    "Gas Fuel": 597,
+    "Liquid Fuel": 2245,
+    "Per Capita": 1.16,
+    "Solid Fuel": 1579,
+    "Total": 4623,
+    "Year": 1974
+  },
+  {
+    "Cement": 95,
+    "Gas Flaring": 92,
+    "Gas Fuel": 604,
+    "Liquid Fuel": 2132,
+    "Per Capita": 1.13,
+    "Solid Fuel": 1673,
+    "Total": 4596,
+    "Year": 1975
+  },
+  {
+    "Cement": 103,
+    "Gas Flaring": 108,
+    "Gas Fuel": 630,
+    "Liquid Fuel": 2314,
+    "Per Capita": 1.18,
+    "Solid Fuel": 1710,
+    "Total": 4864,
+    "Year": 1976
+  },
+  {
+    "Cement": 108,
+    "Gas Flaring": 104,
+    "Gas Fuel": 650,
+    "Liquid Fuel": 2398,
+    "Per Capita": 1.19,
+    "Solid Fuel": 1765,
+    "Total": 5026,
+    "Year": 1977
+  },
+  {
+    "Cement": 116,
+    "Gas Flaring": 106,
+    "Gas Fuel": 680,
+    "Liquid Fuel": 2392,
+    "Per Capita": 1.19,
+    "Solid Fuel": 1793,
+    "Total": 5087,
+    "Year": 1978
+  },
+  {
+    "Cement": 119,
+    "Gas Flaring": 98,
+    "Gas Fuel": 721,
+    "Liquid Fuel": 2544,
+    "Per Capita": 1.23,
+    "Solid Fuel": 1887,
+    "Total": 5369,
+    "Year": 1979
+  },
+  {
+    "Cement": 120,
+    "Gas Flaring": 86,
+    "Gas Fuel": 740,
+    "Liquid Fuel": 2422,
+    "Per Capita": 1.2,
+    "Solid Fuel": 1947,
+    "Total": 5315,
+    "Year": 1980
+  },
+  {
+    "Cement": 121,
+    "Gas Flaring": 64,
+    "Gas Fuel": 756,
+    "Liquid Fuel": 2289,
+    "Per Capita": 1.14,
+    "Solid Fuel": 1921,
+    "Total": 5152,
+    "Year": 1981
+  },
+  {
+    "Cement": 121,
+    "Gas Flaring": 64,
+    "Gas Fuel": 740,
+    "Liquid Fuel": 2196,
+    "Per Capita": 1.11,
+    "Solid Fuel": 1992,
+    "Total": 5113,
+    "Year": 1982
+  },
+  {
+    "Cement": 125,
+    "Gas Flaring": 58,
+    "Gas Fuel": 741,
+    "Liquid Fuel": 2176,
+    "Per Capita": 1.09,
+    "Solid Fuel": 1995,
+    "Total": 5094,
+    "Year": 1983
+  },
+  {
+    "Cement": 128,
+    "Gas Flaring": 51,
+    "Gas Fuel": 808,
+    "Liquid Fuel": 2199,
+    "Per Capita": 1.11,
+    "Solid Fuel": 2094,
+    "Total": 5280,
+    "Year": 1984
+  },
+  {
+    "Cement": 131,
+    "Gas Flaring": 49,
+    "Gas Fuel": 837,
+    "Liquid Fuel": 2186,
+    "Per Capita": 1.12,
+    "Solid Fuel": 2237,
+    "Total": 5439,
+    "Year": 1985
+  },
+  {
+    "Cement": 137,
+    "Gas Flaring": 46,
+    "Gas Fuel": 831,
+    "Liquid Fuel": 2293,
+    "Per Capita": 1.14,
+    "Solid Fuel": 2300,
+    "Total": 5607,
+    "Year": 1986
+  },
+  {
+    "Cement": 143,
+    "Gas Flaring": 44,
+    "Gas Fuel": 894,
+    "Liquid Fuel": 2306,
+    "Per Capita": 1.15,
+    "Solid Fuel": 2364,
+    "Total": 5752,
+    "Year": 1987
+  },
+  {
+    "Cement": 152,
+    "Gas Flaring": 50,
+    "Gas Fuel": 937,
+    "Liquid Fuel": 2412,
+    "Per Capita": 1.17,
+    "Solid Fuel": 2414,
+    "Total": 5965,
+    "Year": 1988
+  },
+  {
+    "Cement": 156,
+    "Gas Flaring": 41,
+    "Gas Fuel": 985,
+    "Liquid Fuel": 2459,
+    "Per Capita": 1.17,
+    "Solid Fuel": 2457,
+    "Total": 6097,
+    "Year": 1989
+  },
+  {
+    "Cement": 157,
+    "Gas Flaring": 40,
+    "Gas Fuel": 1019,
+    "Liquid Fuel": 2492,
+    "Per Capita": 1.16,
+    "Solid Fuel": 2419,
+    "Total": 6127,
+    "Year": 1990
+  },
+  {
+    "Cement": 161,
+    "Gas Flaring": 44,
+    "Gas Fuel": 1063,
+    "Liquid Fuel": 2605,
+    "Per Capita": 1.16,
+    "Solid Fuel": 2345,
+    "Total": 6217,
+    "Year": 1991
+  },
+  {
+    "Cement": 167,
+    "Gas Flaring": 35,
+    "Gas Fuel": 1095,
+    "Liquid Fuel": 2510,
+    "Per Capita": 1.13,
+    "Solid Fuel": 2357,
+    "Total": 6164,
+    "Year": 1992
+  },
+  {
+    "Cement": 176,
+    "Gas Flaring": 36,
+    "Gas Fuel": 1129,
+    "Liquid Fuel": 2523,
+    "Per Capita": 1.11,
+    "Solid Fuel": 2298,
+    "Total": 6162,
+    "Year": 1993
+  },
+  {
+    "Cement": 186,
+    "Gas Flaring": 38,
+    "Gas Fuel": 1139,
+    "Liquid Fuel": 2546,
+    "Per Capita": 1.11,
+    "Solid Fuel": 2358,
+    "Total": 6266,
+    "Year": 1994
+  },
+  {
+    "Cement": 197,
+    "Gas Flaring": 36,
+    "Gas Fuel": 1157,
+    "Liquid Fuel": 2565,
+    "Per Capita": 1.12,
+    "Solid Fuel": 2442,
+    "Total": 6398,
+    "Year": 1995
+  },
+  {
+    "Cement": 203,
+    "Gas Flaring": 37,
+    "Gas Fuel": 1209,
+    "Liquid Fuel": 2624,
+    "Per Capita": 1.13,
+    "Solid Fuel": 2469,
+    "Total": 6542,
+    "Year": 1996
+  },
+  {
+    "Cement": 209,
+    "Gas Flaring": 38,
+    "Gas Fuel": 1208,
+    "Liquid Fuel": 2700,
+    "Per Capita": 1.13,
+    "Solid Fuel": 2495,
+    "Total": 6651,
+    "Year": 1997
+  },
+  {
+    "Cement": 209,
+    "Gas Flaring": 35,
+    "Gas Fuel": 1243,
+    "Liquid Fuel": 2766,
+    "Per Capita": 1.12,
+    "Solid Fuel": 2391,
+    "Total": 6643,
+    "Year": 1998
+  },
+  {
+    "Cement": 217,
+    "Gas Flaring": 33,
+    "Gas Fuel": 1270,
+    "Liquid Fuel": 2737,
+    "Per Capita": 1.1,
+    "Solid Fuel": 2352,
+    "Total": 6610,
+    "Year": 1999
+  },
+  {
+    "Cement": 226,
+    "Gas Flaring": 45,
+    "Gas Fuel": 1288,
+    "Liquid Fuel": 2838,
+    "Per Capita": 1.11,
+    "Solid Fuel": 2367,
+    "Total": 6765,
+    "Year": 2000
+  },
+  {
+    "Cement": 237,
+    "Gas Flaring": 46,
+    "Gas Fuel": 1312,
+    "Liquid Fuel": 2840,
+    "Per Capita": 1.12,
+    "Solid Fuel": 2492,
+    "Total": 6927,
+    "Year": 2001
+  },
+  {
+    "Cement": 252,
+    "Gas Flaring": 48,
+    "Gas Fuel": 1344,
+    "Liquid Fuel": 2831,
+    "Per Capita": 1.12,
+    "Solid Fuel": 2521,
+    "Total": 6996,
+    "Year": 2002
+  },
+  {
+    "Cement": 276,
+    "Gas Flaring": 48,
+    "Gas Fuel": 1391,
+    "Liquid Fuel": 2959,
+    "Per Capita": 1.17,
+    "Solid Fuel": 2743,
+    "Total": 7416,
+    "Year": 2003
+  },
+  {
+    "Cement": 298,
+    "Gas Flaring": 53,
+    "Gas Fuel": 1437,
+    "Liquid Fuel": 3053,
+    "Per Capita": 1.21,
+    "Solid Fuel": 2967,
+    "Total": 7807,
+    "Year": 2004
+  },
+  {
+    "Cement": 320,
+    "Gas Flaring": 60,
+    "Gas Fuel": 1480,
+    "Liquid Fuel": 3076,
+    "Per Capita": 1.24,
+    "Solid Fuel": 3157,
+    "Total": 8093,
+    "Year": 2005
+  },
+  {
+    "Cement": 356,
+    "Gas Flaring": 61,
+    "Gas Fuel": 1525,
+    "Liquid Fuel": 3089,
+    "Per Capita": 1.27,
+    "Solid Fuel": 3339,
+    "Total": 8370,
+    "Year": 2006
+  },
+  {
+    "Cement": 382,
+    "Gas Flaring": 68,
+    "Gas Fuel": 1572,
+    "Liquid Fuel": 3081,
+    "Per Capita": 1.28,
+    "Solid Fuel": 3464,
+    "Total": 8566,
+    "Year": 2007
+  },
+  {
+    "Cement": 388,
+    "Gas Flaring": 71,
+    "Gas Fuel": 1631,
+    "Liquid Fuel": 3122,
+    "Per Capita": 1.3,
+    "Solid Fuel": 3571,
+    "Total": 8783,
+    "Year": 2008
+  },
+  {
+    "Cement": 413,
+    "Gas Flaring": 66,
+    "Gas Fuel": 1585,
+    "Liquid Fuel": 3056,
+    "Per Capita": 1.28,
+    "Solid Fuel": 3620,
+    "Total": 8740,
+    "Year": 2009
+  },
+  {
+    "Cement": 450,
+    "Gas Flaring": 59,
+    "Gas Fuel": 1702,
+    "Liquid Fuel": 3114,
+    "Per Capita": 1.33,
+    "Solid Fuel": 3842,
+    "Total": 9167,
+    "Year": 2010
+  }
+]
