@@ -17,7 +17,7 @@ export default class Sidebar extends Component {
   constructor() {
     super();
     this.state = { activeItem: '' };
-    this.handleItemClick.bind(this);
+    this.handleItemClick = this.handleItemClick.bind(this);
   }
 
   /* Function to handle click event on menu item */
@@ -47,9 +47,21 @@ export default class Sidebar extends Component {
         </Menu.Item>
         
         <Menu.Item
+          name="transport"
+          active={activeItem === 'transport'}
+          onClick={this.handleItemClick}
+        >
+          <Link to= '/TransportComparer'>
+            <span>
+              <Icon name="train" /> Transport Comparer
+            </span>
+          </Link>
+        </Menu.Item>
+
+        <Menu.Item
           name="updates"
           active={activeItem === 'updates'}
-          onClick={() => window.open('http://docs.carbonhub.xyz', '_blank')}
+          onClick={() => window.open('http://docs.carbonhub.org', '_blank')}
         >
         <Link to= {"/DataUpload"}>
           <span>

@@ -70,7 +70,7 @@ export default class SnippetModal extends Component {
         && this.state.key && this.state.query) {
       let snippet = new HTTPSnippet({
         method: this.state.method.toUpperCase(),
-        url: 'https://carbonhub.xyz/v1/'+this.state.url,
+        url: 'https://carbonhub.org/v1/'+this.state.url,
         httpVersion: 'HTTP/1.1',
         headers: [
           {name: 'Content-Type', value: 'application/json'},

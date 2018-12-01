@@ -78,7 +78,7 @@
           "enabled": true
         }
       ],
-      "url": "https:\/\/www.carbonhub.xyz\/v1\/trains",
+      "url": "https:\/\/www.carbonhub.org\/v1\/trains",
       "folder": "c56452fa-c041-e8a3-df28-85c13cf0469c",
       "queryParams": [],
       "preRequestScript": null,
@@ -221,7 +221,7 @@
           "scrollToResult": false,
           "runTests": false,
           "request": {
-            "url": "https:\/\/www.carbonhub.xyz\/v1\/trains",
+            "url": "https:\/\/www.carbonhub.org\/v1\/trains",
             "pathVariableData": [],
             "queryParams": [],
             "headerData": [
@@ -290,7 +290,7 @@
           "enabled": true
         }
       ],
-      "url": "https:\/\/www.carbonhub.xyz\/v1\/flight",
+      "url": "https:\/\/www.carbonhub.org\/v1\/flight",
       "folder": "c56452fa-c041-e8a3-df28-85c13cf0469c",
       "queryParams": [],
       "preRequestScript": null,
@@ -439,7 +439,7 @@
           "scrollToResult": false,
           "runTests": false,
           "request": {
-            "url": "https:\/\/www.carbonhub.xyz\/v1\/flight",
+            "url": "https:\/\/www.carbonhub.org\/v1\/flight",
             "pathVariableData": [],
             "queryParams": [],
             "headerData": [
@@ -514,7 +514,7 @@
           "enabled": true
         }
       ],
-      "url": "https:\/\/www.carbonhub.xyz\/v1\/vehicle",
+      "url": "https:\/\/www.carbonhub.org\/v1\/vehicle",
       "folder": "c56452fa-c041-e8a3-df28-85c13cf0469c",
       "queryParams": [],
       "preRequestScript": null,
@@ -663,7 +663,7 @@
           "scrollToResult": false,
           "runTests": false,
           "request": {
-            "url": "https:\/\/www.carbonhub.xyz\/v1\/vehicle",
+            "url": "https:\/\/www.carbonhub.org\/v1\/vehicle",
             "pathVariableData": [],
             "queryParams": [],
             "headerData": [
@@ -738,7 +738,7 @@
           "enabled": true
         }
       ],
-      "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+      "url": "https:\/\/www.carbonhub.org\/v1\/emissions",
       "folder": "440fde61-95d1-aac6-08c2-48b070a1c182",
       "queryParams": [],
       "preRequestScript": null,
@@ -887,7 +887,7 @@
           "scrollToResult": false,
           "runTests": false,
           "request": {
-            "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+            "url": "https:\/\/www.carbonhub.org\/v1\/emissions",
             "pathVariableData": [],
             "queryParams": [],
             "headerData": [
@@ -956,7 +956,7 @@
           "enabled": true
         }
       ],
-      "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+      "url": "https:\/\/www.carbonhub.org\/v1\/emissions",
       "folder": "440fde61-95d1-aac6-08c2-48b070a1c182",
       "queryParams": [],
       "preRequestScript": null,
@@ -1105,7 +1105,7 @@
           "scrollToResult": false,
           "runTests": false,
           "request": {
-            "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+            "url": "https:\/\/www.carbonhub.org\/v1\/emissions",
             "pathVariableData": [],
             "queryParams": [],
             "headerData": [
@@ -1180,7 +1180,7 @@
           "enabled": true
         }
       ],
-      "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+      "url": "https:\/\/www.carbonhub.org\/v1\/emissions",
       "folder": "440fde61-95d1-aac6-08c2-48b070a1c182",
       "queryParams": [],
       "preRequestScript": null,
@@ -1323,7 +1323,7 @@
           "scrollToResult": false,
           "runTests": false,
           "request": {
-            "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+            "url": "https:\/\/www.carbonhub.org\/v1\/emissions",
             "pathVariableData": [],
             "queryParams": [],
             "headerData": [
@@ -1386,7 +1386,7 @@
           "enabled": true
         }
       ],
-      "url": "https:\/\/www.carbonhub.xyz\/v1\/appliances",
+      "url": "https:\/\/www.carbonhub.org\/v1\/appliances",
       "folder": null,
       "queryParams": [],
       "preRequestScript": null,
@@ -1535,7 +1535,7 @@
           "scrollToResult": false,
           "runTests": false,
           "request": {
-            "url": "https:\/\/www.carbonhub.xyz\/v1\/appliances",
+            "url": "https:\/\/www.carbonhub.org\/v1\/appliances",
             "pathVariableData": [],
             "queryParams": [],
             "headerData": [
@@ -1610,7 +1610,7 @@
           "enabled": true
         }
       ],
-      "url": "https:\/\/www.carbonhub.xyz\/v1\/poultry",
+      "url": "https:\/\/www.carbonhub.org\/v1\/poultry",
       "folder": null,
       "queryParams": [],
       "preRequestScript": null,
@@ -1747,7 +1747,7 @@
           "scrollToResult": false,
           "runTests": false,
           "request": {
-            "url": "https:\/\/www.carbonhub.xyz\/v1\/poultry",
+            "url": "https:\/\/www.carbonhub.org\/v1\/poultry",
             "pathVariableData": [],
             "queryParams": [],
             "headerData": [
@@ -1810,7 +1810,7 @@
           "enabled": true
         }
       ],
-      "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+      "url": "https:\/\/www.carbonhub.org\/v1\/emissions",
       "folder": "440fde61-95d1-aac6-08c2-48b070a1c182",
       "queryParams": [],
       "preRequestScript": null,
@@ -1959,7 +1959,7 @@
           "scrollToResult": false,
           "runTests": false,
           "request": {
-            "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+            "url": "https:\/\/www.carbonhub.org\/v1\/emissions",
             "pathVariableData": [],
             "queryParams": [],
             "headerData": [
@@ -2025,7 +2025,7 @@
           "enabled": true
         }
       ],
-      "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+      "url": "https:\/\/www.carbonhub.org\/v1\/emissions",
       "folder": "440fde61-95d1-aac6-08c2-48b070a1c182",
       "queryParams": [],
       "preRequestScript": null,
@@ -2168,7 +2168,7 @@
           "scrollToResult": false,
           "runTests": false,
           "request": {
-            "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+            "url": "https:\/\/www.carbonhub.org\/v1\/emissions",
             "pathVariableData": [],
             "queryParams": [],
             "headerData": [
@@ -2231,7 +2231,7 @@
           "enabled": true
         }
       ],
-      "url": "https:\/\/www.carbonhub.xyz\/v1\/quantity",
+      "url": "https:\/\/www.carbonhub.org\/v1\/quantity",
       "folder": null,
       "queryParams": [],
       "preRequestScript": null,
@@ -2368,7 +2368,7 @@
           "scrollToResult": false,
           "runTests": false,
           "request": {
-            "url": "https:\/\/www.carbonhub.xyz\/v1\/quantity",
+            "url": "https:\/\/www.carbonhub.org\/v1\/quantity",
             "pathVariableData": [],
             "queryParams": [],
             "headerData": [
@@ -2431,7 +2431,7 @@
           "enabled": true
         }
       ],
-      "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+      "url": "https:\/\/www.carbonhub.org\/v1\/emissions",
       "folder": "440fde61-95d1-aac6-08c2-48b070a1c182",
       "queryParams": [],
       "preRequestScript": null,
@@ -2580,7 +2580,7 @@
           "scrollToResult": false,
           "runTests": false,
           "request": {
-            "url": "https:\/\/www.carbonhub.xyz\/v1\/emissions",
+            "url": "https:\/\/www.carbonhub.org\/v1\/emissions",
             "pathVariableData": [],
             "queryParams": [],
             "headerData": [
