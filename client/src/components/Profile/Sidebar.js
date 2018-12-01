@@ -61,7 +61,7 @@ export default class Sidebar extends Component {
         <Menu.Item
           name="updates"
           active={activeItem === 'updates'}
-          onClick={() => window.open('http://docs.carbonhub.xyz', '_blank')}
+          onClick={() => window.open('http://docs.carbonhub.org', '_blank')}
         >
         <Link to= {"/DataUpload"}>
           <span>

@@ -1,6 +1,6 @@
 # Quantity
 {% method %}
-This route is can be used to retrieve the quantity of a certain element provided the CO2 emission for the specific item is already known. Refer to the [GHG Emission](https://docs.carbonhub.xyz/API-Reference/emissions.html) doc for more details on items available.
+This route is can be used to retrieve the quantity of a certain element provided the CO2 emission for the specific item is already known. Refer to the [GHG Emission](https://docs.carbonhub.org/API-Reference/emissions.html) doc for more details on items available.
 ###**Parameters**
 
 | Name        | Type           | Description  |
@@ -44,7 +44,7 @@ curl -POST -H 'access-key: <apikey>' -H "Content-type: application/json" -d '{
         "item": "lamp",
         "region": "ohio",
         "emission": 91
-}' 'https://www.carbonhub.xyz/v1/quantity'
+}' 'https://www.carbonhub.org/v1/quantity'
 ```
 {% sample lang="python" %}
 ```Python
@@ -54,7 +54,7 @@ import json
 def getQuantity(url,data,headers):
     r = requests.post(url,data = json.dumps(data),headers=headers)
     return r.content
-url = 'https://www.carbonhub.xyz/v1/quantity'
+url = 'https://www.carbonhub.org/v1/quantity'
 data = {
         "item": "lamp",
         "region": "ohio",
@@ -86,7 +86,7 @@ function getQuantity(url,data,headers){
     });
 }
     
-let url = "https://www.carbonhub.xyz/v1/quantity",
+let url = "https://www.carbonhub.org/v1/quantity",
     data = {
         "item": "lamp",
         "region": "ohio",
@@ -118,7 +118,7 @@ import java.util.List;
 public class getQuantity {
     public static void main(String[] args) {
         HttpClient client = HttpClientBuilder.create().build();
-        HttpPost post = new HttpPost("https://www.carbonhub.xyz/v1/quantity");
+        HttpPost post = new HttpPost("https://www.carbonhub.org/v1/quantity");
 
         // Create some NameValuePair for HttpPost parameters
         List<NameValuePair> data = new ArrayList<>(3);

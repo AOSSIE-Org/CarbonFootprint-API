@@ -2,21 +2,21 @@
 ### Student - Rohit Gupta
 ### Links  
 * **Project Repository:** https://gitlab.com/aossie/CarbonFootprint-API
-* **Live Project:** https://carbonhub.xyz
-* **Documentation:** https://docs.carbonhub.xyz
+* **Live Project:** https://carbonhub.org
+* **Documentation:** https://docs.carbonhub.org
 
 ### CarbonFootrprint API : 
 *This project aims to build a RESTful API, that is the one place to go to for any information that you require on Carbon Emissions. The aim is to create a universal converter to CO2. The project contains a number of visualizations to help understand the generic emission patterns.*
 
 ### Technical Details
- The [CarbonFootprint API](https://carbonhub.xyz) provides a REST API service serving information related to carbon emission. The project was started from scratch in the GSoC 2017 summer period. This is a MERN stack based Web Application. 
+ The [CarbonFootprint API](https://carbonhub.org) provides a REST API service serving information related to carbon emission. The project was started from scratch in the GSoC 2017 summer period. This is a MERN stack based Web Application. 
  Technology stack we are using - 
 
  * [ExpressJS](https://expressjs.com/) - Handles the API requests and the backend services.
  * [MongoDB](https://www.mongodb.com/) - Database used for the project.
  * [React](https://facebook.github.io/react/) - React and Semantic UI is used to create the front end for the project.
  * [yarn](https://yarnpkg.com/en/) - The package manager used by us.
- * [Gitbook](https://www.gitbook.com/) - Used to create the [documentation](docs.carbonhub.xyz) for the project.
+ * [Gitbook](https://www.gitbook.com/) - Used to create the [documentation](docs.carbonhub.org) for the project.
  * The other packages we are using you can find [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/package.json).
  
  We started the summer with API basic functionalities, that is defining the routes, the controller and a schema for the emission elements. As suggested by Bruno we made a general DB schema that could handle all atomic and compound elements related to emissions. This schema was a major challenge that we faced, however, we did manage to put a unified schema for the same. 

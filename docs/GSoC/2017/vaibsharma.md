@@ -46,9 +46,9 @@ The team member with me in this project was [nakulh](https://gitlab.com/nakulh) 
 	
 The team members with me in this project were [saisankargochhayat](https://gitlab.com/saisankargochhayat) and [r0hitgupta](https://gitlab.com/r0hitgupta) .
 
-<strong>APP URL</strong> : https://www.carbonhub.xyz
+<strong>APP URL</strong> : https://www.carbonhub.org
 
-<strong>Documentation</strong> : https://docs.carbonhub.xyz
+<strong>Documentation</strong> : https://docs.carbonhub.org
 
 <strong>Project URL</strong> : https://gitlab.com/aossie/CarbonFootprint-API
 
