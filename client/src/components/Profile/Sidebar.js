@@ -65,7 +65,7 @@ export default class Sidebar extends Component {
         >
         <Link to= {"/DataUpload"}>
           <span>
-            <Icon name= "file" /> Data Upload
+            <Icon name="newspaper" /> API Documentation
           </span>
         </Link>
         </Menu.Item>
