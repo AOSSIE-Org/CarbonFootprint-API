@@ -1,5 +1,5 @@
 import React from 'react';
-import { Dropdown, Icon } from 'semantic-ui-react';
+import { Dropdown, Icon, Responsive } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 
 export default class Header extends React.Component {
@@ -39,11 +39,17 @@ export default class Header extends React.Component {
           </span>}
         {isAuthenticated() &&
           <Dropdown
+            icon={null}
             style={styles.menuItem}
             trigger={
               <span>
-                <img src={this.state.profile.picture} style={{borderRadius:'50%',height:'20px',marginBottom:'-5px',marginRight:'5px'}} />
-                {this.state.profile.nickname}
+                <Responsive minWidth={500}>
+                  <img src={this.state.profile.picture} style={{borderRadius:'50%',height:'20px',marginRight:'5px'}} />
+                  {this.state.profile.nickname}
+                </Responsive>
+                <Responsive maxWidth={499}>
+                  <Icon name="ellipsis vertical" size="large" />
+                </Responsive>
               </span>
             }
           >
