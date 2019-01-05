@@ -38,51 +38,49 @@ Find .env.example [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/mast
 * To install all the require modules and build file:
 
 ```
-yarn install
-yarn run build
+npm install
+npm run build
 ```
 
 * Before testing APIs on your local node server, please follow any of the following instructions according to requirement(s) (this might take some time)
 
     * To add all the data
        ```
-       yarn run all
+       npm run all
        ```
     * To add electricity data
       ```
-      yarn run electricity
+      npm run electricity
       ```
     * To add flights data
       ```
-      yarn run flights
+      npm run flights
       ```
     * To add vehicles data
       ```
-      yarn run vehicle
+      npm run vehicle
       ```
     * To add trains data
       ```
-      yarn run trains
+      npm run trains
       ```
     * To add trees data
       ```
-      yarn run trees
+      npm run trees
       ```
     * To add appliance data
       ```
-      yarn run appliance
+      npm run appliance
       ```
 * For details about using API, checkout [postman](./Postman-guidelines) folder for futher instructions to get an example of all the APIs.
 
-Note : For details on [yarn](https://yarnpkg.com) installation and usage [click here](https://yarnpkg.com/en/docs/usage)
+* To start the server, run `npm start`.
 
-* To start the server, run `yarn start`.
-
-* To run the unit tests, use `yarn test`.
+* To run the unit tests, use `npm test`.
 
 Documentation
 -------------
-* `yarn global add gitbook-cli`
+* `npm install -g gitbook-cli`
 
 * `cd docs && gitbook serve`  to view the documentation.
 
