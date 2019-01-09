@@ -41,6 +41,7 @@ var index = require('./routes/index');
 var emissions = require('./api/v1/routes/emissionRoutes');
 var suggestedData = require('./routes/suggestedData');
 var auth = require('./api/auth/routes/apikeyRoute');
+let individualEmission = require('./api/user/routes/dailyEmissionRoute');
 
 const Auth = require('./api/auth/controllers/authController');
 
@@ -107,6 +108,12 @@ var authroute = express.Router();
 authroute.use(jwtCheck);
 authroute.use('/', auth);
 
+// route for user functions
+let userRoute = express.Router();
+userRoute.use(jwtCheck);
+userRoute.use('/', individualEmission);
+app.use('/user', userRoute);
+
 app.use('/suggestedData', suggestedData);
 
 // Use v1 router for all the API requests adhering to version 1
@@ -125,6 +132,7 @@ app.use((err, req, res, next) => {
   res.locals.error = req.app.get('env') === 'development' ? err : {};
 
   // render the error page
+  console.log(err);
   res.status(err.status || 500);
   res.send('error');
 });

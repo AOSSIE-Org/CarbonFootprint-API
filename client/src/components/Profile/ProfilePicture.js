@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Card, Icon } from 'semantic-ui-react';
-import ProfileEdit from './ProfileEdit'
+import { Card, Icon, Button, Responsive } from 'semantic-ui-react';
+import ProfileEdit from './ProfileEdit';
+import { Link } from "react-router-dom";
 
 
 /* Extended react.Component class as ProfilePicture */
@@ -52,9 +53,21 @@ export default class ProfilePicture extends Component {
           <Card.Header>
             {this.state.nickname || this.props.nickname} <ProfileEdit auth={auth} profile={this.props.profile} />
           </Card.Header>
-          <Card.Meta>
+          <Card.Meta style={{
+            display: "inline-flex",
+            overflowX: "hidden",
+            width: "100%"
+          }}>
             {this.props.email}
           </Card.Meta>
+          <Responsive {...Responsive.onlyMobile}>
+            <Card.Meta style={{ textAlign: "center", marginTop: "10px" }}>
+              <Button as={Link} to="/profile/enter" color="twitter" ref="entryModal">
+                <Icon name="add" />
+                Today's entry
+              </Button>
+            </Card.Meta>
+          </Responsive>
         </Card.Content>
       </Card>
     );

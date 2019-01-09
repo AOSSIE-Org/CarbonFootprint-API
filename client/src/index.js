@@ -15,6 +15,7 @@ import Structured from './components/DataUpload/Structured';
 import Unstructured from './components/DataUpload/Unstructured';
 import history from './history';
 import DataVerify from './components/DataUpload/DataVerify';
+import DailyDetails from './components/Profile/DailyDetails';
 
 const auth = new Auth();
 
@@ -34,7 +35,7 @@ export default class App extends React.Component {
                         <Switch>
                             <Route exact path="/" component={Visuals} />
                             <Route path="/visuals/:type" component={Graph} />
-                            <Route path="/profile" render={(props) => (
+                            <Route exact path="/profile" render={(props) => (
                                 !auth.isAuthenticated() ? (
                                     <Redirect to="/" />
                                 ) : (
@@ -87,6 +88,13 @@ export default class App extends React.Component {
                                 handleAuthentication(props);
                                 return <Loading {...props} />
                             }} />
+                            <Route path="/profile/enter" render={(props) => (
+                                !auth.isAuthenticated() ? (
+                                    <Redirect to="/" />
+                                ) : (
+                                        <DailyDetails />
+                                    )
+                            )} />
                             <Route component={NotFound} />
                         </Switch>
                     </Body>

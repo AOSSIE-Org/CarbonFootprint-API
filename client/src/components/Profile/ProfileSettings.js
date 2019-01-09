@@ -206,6 +206,7 @@ export default class ProfileSettings extends Component {
             <Responsive minWidth={761}>
               <Form.Group>
                   <Input
+                    className="tempclass"
                     style={{ marginBottom: "10px" }}
                     value={this.state.key ? this.state.key : "Generate an API access key"}
                     readOnly
@@ -216,7 +217,7 @@ export default class ProfileSettings extends Component {
                   primary
                   size="small"
                   onClick={this.createAccessKey}
-                  style={{ marginLeft: "10px" }}
+                  style={{ marginLeft: "10px", height: "37px" }}
                   >
                     CREATE API KEY
                   </Button> 

@@ -4,6 +4,7 @@ import ProfilePicture from './ProfilePicture';
 import ProfileSettings from './ProfileSettings';
 import Sidebar from './Sidebar';
 import DataUpload from '../DataUpload/DataUpload';
+import DailyEmission from './DailyEmission';
 
 /* Extended react.Component class as Profile */
 
@@ -70,6 +71,7 @@ export default class Profile extends Component {
           </Grid.Column>
           <Grid.Column width={8} mobile={16} tablet={10} computer={10}>
             <ProfileSettings auth={this.props.auth} />
+            <DailyEmission />
           </Grid.Column>
         </Grid.Row>
       </Grid>
