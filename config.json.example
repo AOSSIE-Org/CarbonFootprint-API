@@ -8,7 +8,7 @@
 		"dbname": ""
 	},
 	"apikeys": {
-		"googlemap": ""
+		"microsftmap": ""
 	},
 	"auth0": {
 		"jwksUri": "",
