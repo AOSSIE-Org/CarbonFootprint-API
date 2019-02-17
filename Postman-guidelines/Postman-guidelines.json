@@ -11,7 +11,7 @@
 			"description": "",
 			"item": [
 				{
-					"name": "https://carbonhub.xyz/v1/flight",
+					"name": "https://carbonhub.org/v1/flight",
 					"request": {
 						"method": "POST",
 						"header": [
@@ -29,7 +29,7 @@
 							"raw": "{\n    \"origin\": \"DEL\",\n    \"destination\": \"JFK\",\n    \"type\": \"international\",\n    \"model\": \"A380\",\n    \"passengers\": 840\n}"
 						},
 						"url": {
-							"raw": "https://carbonhub.xyz/v1/flight",
+							"raw": "https://carbonhub.org/v1/flight",
 							"protocol": "https",
 							"host": [
 								"carbonhub",
@@ -40,12 +40,12 @@
 								"flight"
 							]
 						},
-						"description": "Find Emissions for a flight between two airports. Only IATA (https://en.wikipedia.org/wiki/IATA_airport_code) Airport Codes are supported.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.xyz/) variable in the header."
+						"description": "Find Emissions for a flight between two airports. Only IATA (https://en.wikipedia.org/wiki/IATA_airport_code) Airport Codes are supported.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.org/) variable in the header."
 					},
 					"response": []
 				},
 				{
-					"name": "https://carbonhub.xyz/v1/vehicle",
+					"name": "https://carbonhub.org/v1/vehicle",
 					"request": {
 						"method": "POST",
 						"header": [
@@ -63,7 +63,7 @@
 							"raw": "{\n    \"type\": \"Petrol\",\n    \"origin\": \"Bhubaneswar\",\n    \"destination\": \"Cuttack\",\n    \"mileage\": 50,\n    \"mileage_unit\": \"km/l\"\n}\n"
 						},
 						"url": {
-							"raw": "https://carbonhub.xyz/v1/vehicle",
+							"raw": "https://carbonhub.org/v1/vehicle",
 							"protocol": "https",
 							"host": [
 								"carbonhub",
@@ -74,12 +74,12 @@
 								"vehicle"
 							]
 						},
-						"description": "This route enables you to find GHG emissions for a number of fuels.The distance is calculated using Google Map Distant Matrix API (https://developers.google.com/maps/documentation/javascript/distancematrix). The fuels that we currently support are listed in /Source/Core/core/resources/fuels.json.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.xyz/) variable in the header."
+						"description": "This route enables you to find GHG emissions for a number of fuels.The distance is calculated using Google Map Distant Matrix API (https://developers.google.com/maps/documentation/javascript/distancematrix). The fuels that we currently support are listed in /Source/Core/core/resources/fuels.json.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.org/) variable in the header."
 					},
 					"response": []
 				},
 				{
-					"name": "https://carbonhub.xyz/v1/trains",
+					"name": "https://carbonhub.org/v1/trains",
 					"request": {
 						"method": "POST",
 						"header": [
@@ -97,7 +97,7 @@
 							"raw": "{\n    \"type\":\"railcars\",\n    \"origin\":\"Bhubaneswar\",\n    \"destination\":\"Delhi\",\n    \"passengers\":10\n}"
 						},
 						"url": {
-							"raw": "https://carbonhub.xyz/v1/trains",
+							"raw": "https://carbonhub.org/v1/trains",
 							"protocol": "https",
 							"host": [
 								"carbonhub",
@@ -108,14 +108,14 @@
 								"trains"
 							]
 						},
-						"description": "This route enables you to find GHG emissions for a number of train types for a certain route.The distance is calculated using Google Map Distant Matrix API (https://developers.google.com/maps/documentation/javascript/distancematrix). The trains that we currently support are listed in /raw_data/trains.json.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.xyz/) variable in the header."
+						"description": "This route enables you to find GHG emissions for a number of train types for a certain route.The distance is calculated using Google Map Distant Matrix API (https://developers.google.com/maps/documentation/javascript/distancematrix). The trains that we currently support are listed in /raw_data/trains.json.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.org/) variable in the header."
 					},
 					"response": []
 				}
 			]
 		},
 		{
-			"name": "https://carbonhub.xyz/v1/appliances",
+			"name": "https://carbonhub.org/v1/appliances",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -133,7 +133,7 @@
 					"raw": "{\n    \"appliance\":\"Water heater\",\n    \"type\":\"instantaneous\",\n    \"region\":\"India\",\n    \"quantity\":1,\n    \"runnning_time\":3\n}"
 				},
 				"url": {
-					"raw": "https://carbonhub.xyz/v1/appliances",
+					"raw": "https://carbonhub.org/v1/appliances",
 					"protocol": "https",
 					"host": [
 						"carbonhub",
@@ -144,12 +144,12 @@
 						"appliances"
 					]
 				},
-				"description": "This route enables you to find GHG emissions for a number of appliance types for a specific quantity and running time. The emissions are calculated from the electricity based emissions on a particular region.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.xyz/) variable in the header."
+				"description": "This route enables you to find GHG emissions for a number of appliance types for a specific quantity and running time. The emissions are calculated from the electricity based emissions on a particular region.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.org/) variable in the header."
 			},
 			"response": []
 		},
 		{
-			"name": "https://carbonhub.xyz/v1/poultry",
+			"name": "https://carbonhub.org/v1/poultry",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -167,7 +167,7 @@
 					"raw": "{\n  \"type\":\"Broiler chicken\",\n  \"region\":\"British columbia\",\n  \"quantity\":3\n}"
 				},
 				"url": {
-					"raw": "https://carbonhub.xyz/v1/poultry",
+					"raw": "https://carbonhub.org/v1/poultry",
 					"protocol": "https",
 					"host": [
 						"carbonhub",
@@ -178,12 +178,12 @@
 						"poultry"
 					]
 				},
-				"description": "- This route enables you to find GHG emissions for different type of   Poutry meat production. In this we consider the factors like         Production emission, Water loss factor, Moisture loss factor,        Post-farmgate emissions in different conditions according to         region in which they are found.\n- Types of poultry is in /raw_data/poultry.json\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.xyz/) variable in the header."
+				"description": "- This route enables you to find GHG emissions for different type of   Poutry meat production. In this we consider the factors like         Production emission, Water loss factor, Moisture loss factor,        Post-farmgate emissions in different conditions according to         region in which they are found.\n- Types of poultry is in /raw_data/poultry.json\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.org/) variable in the header."
 			},
 			"response": []
 		},
 		{
-			"name": "https://carbonhub.xyz/v1/emissions",
+			"name": "https://carbonhub.org/v1/emissions",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -201,7 +201,7 @@
 					"raw": "[{\n    \"item\": \"electricity\",\n    \"region\": \"india\",\n    \"unit\": \"kWh\",\n    \"quantity\": 1.9999\n},\n{\n    \"item\": \"airplane model A380\",\n    \"unit\": \"nm\",\n    \"quantity\": 125\n},\n{\n    \"item\":\"fuelPetrol\",\n    \"quantity\": 2,\n    \"unit\": \"L\"\n},\n{\n    \"item\":\"railcars\",\n    \"region\":\"Default\",\n    \"quantity\": 1000,\n    \"unit\": \"kg/km\",\n    \"multiply\": 3\n},\n{\n    \"item\":\"Cherry\",\n    \"region\":\"Default\",\n    \"quantity\": 1,\n    \"unit\": \"year\"\n},\n{\n    \"item\":\"Air conditioner large\",\n    \"region\":\"Africa\",\n    \"unit\":\"kWh\",\n    \"quantity\":1,\n    \"multiply\":8\n}\n]\n"
 				},
 				"url": {
-					"raw": "https://carbonhub.xyz/v1/emissions",
+					"raw": "https://carbonhub.org/v1/emissions",
 					"protocol": "https",
 					"host": [
 						"carbonhub",
@@ -212,12 +212,12 @@
 						"emissions"
 					]
 				},
-				"description": "GHG EMISSIONS\n\n1. Electricity\n  - The emission route can be requested to find emission for any     country for per kilowatt of electricity consumed. It can        also  deliver components of emission like generation and        transmission  & dissipation when queried with item names        generation and td     respectively.The data source for this is   here. The region that   is unavailable results in returning     the emission for the Default  region which is calculated as a   average of the whole data.\n\n2. Airplane Fuel\n  - Airplane fuel converts the distance flown by a particular air    plane to corresponing CO2 emission.\n\n3. Vehicle Fuel\n  - Emission route can be requested with fuel quantity and type     and   unit , to return the GHG emission generated on the        consumption   of the same.The fuels that we currently support   are listed in Source/Core/core/resources/fuels.json\n  \n4. Trains\n  - Emission route can provide you with the emission generated      from a train journey, provided with the distance of the         journey.Here the item is the the train type and multiply        signifies the number of passengers.\n  \n5. Trees\n  - Emission route can be requested with tree name and the number   of years to find out the CO2 absorption from it per year.The    trees that we currently support are listed                      /Source/Core/core/resources/trees.json.\n  \n6. Appliances\n  - Emission route can be requested with a appliance name and the   number of units and no of hours to find out the CO2 emission    for the running time.The appliances that we currently support   are listed /raw_data/appliances.json.\n\nUSE ONLY ONE EXAMPLE GIVEN IN THE BODY AT A TIME.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.xyz/) variable in the header."
+				"description": "GHG EMISSIONS\n\n1. Electricity\n  - The emission route can be requested to find emission for any     country for per kilowatt of electricity consumed. It can        also  deliver components of emission like generation and        transmission  & dissipation when queried with item names        generation and td     respectively.The data source for this is   here. The region that   is unavailable results in returning     the emission for the Default  region which is calculated as a   average of the whole data.\n\n2. Airplane Fuel\n  - Airplane fuel converts the distance flown by a particular air    plane to corresponing CO2 emission.\n\n3. Vehicle Fuel\n  - Emission route can be requested with fuel quantity and type     and   unit , to return the GHG emission generated on the        consumption   of the same.The fuels that we currently support   are listed in Source/Core/core/resources/fuels.json\n  \n4. Trains\n  - Emission route can provide you with the emission generated      from a train journey, provided with the distance of the         journey.Here the item is the the train type and multiply        signifies the number of passengers.\n  \n5. Trees\n  - Emission route can be requested with tree name and the number   of years to find out the CO2 absorption from it per year.The    trees that we currently support are listed                      /Source/Core/core/resources/trees.json.\n  \n6. Appliances\n  - Emission route can be requested with a appliance name and the   number of units and no of hours to find out the CO2 emission    for the running time.The appliances that we currently support   are listed /raw_data/appliances.json.\n\nUSE ONLY ONE EXAMPLE GIVEN IN THE BODY AT A TIME.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.org/) variable in the header."
 			},
 			"response": []
 		},
 		{
-			"name": "https://carbonhub.xyz/v1/quantity",
+			"name": "https://carbonhub.org/v1/quantity",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -235,7 +235,7 @@
 					"raw": "{\n        \"item\": \"lamp\",\n        \"region\": \"ohio\",\n        \"emission\": 91\n}"
 				},
 				"url": {
-					"raw": "https://carbonhub.xyz/v1/quantity",
+					"raw": "https://carbonhub.org/v1/quantity",
 					"protocol": "https",
 					"host": [
 						"carbonhub",
@@ -246,7 +246,7 @@
 						"quantity"
 					]
 				},
-				"description": "This route is can be used to retrieve the quantity of a certain element provided the CO2 emission for the specific item is already known.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.xyz/) variable in the header."
+				"description": "This route is can be used to retrieve the quantity of a certain element provided the CO2 emission for the specific item is already known.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.org/) variable in the header."
 			},
 			"response": []
 		}

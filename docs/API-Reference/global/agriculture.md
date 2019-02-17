@@ -55,7 +55,7 @@ POST /v1/agriculture
 curl -POST -H 'access-key: <apikey>' -H "Content-type: application/json" -d '{
     "item":"Synthetic Fertilizers",
     "region":"India"
-}' 'https://www.carbonhub.xyz/v1/agriculture'
+}' 'https://www.carbonhub.org/v1/agriculture'
 ```
 {% sample lang="python" %}
 ```Python
@@ -65,7 +65,7 @@ import json
 def getAgricultureEmission(url,data,headers):
     r = requests.post(url,data = json.dumps(data),headers=headers)
     return r.content
-url = 'https://www.carbonhub.xyz/v1/agriculture'
+url = 'https://www.carbonhub.org/v1/agriculture'
 data = {
     "item":"Synthetic Fertilizers",
     "region":"India"
@@ -96,7 +96,7 @@ function getAgricultureEmission(url,data,headers){
     });
 }
     
-let url = "https://www.carbonhub.xyz/v1/agriculture",
+let url = "https://www.carbonhub.org/v1/agriculture",
     data = {
     "item":"Synthetic Fertilizers",
     "region":"India"
@@ -127,7 +127,7 @@ import java.util.List;
 public class getAgricultureEmission {
     public static void main(String[] args) {
         HttpClient client = HttpClientBuilder.create().build();
-        HttpPost post = new HttpPost("https://www.carbonhub.xyz/v1/agriculture");
+        HttpPost post = new HttpPost("https://www.carbonhub.org/v1/agriculture");
 
         // Create some NameValuePair for HttpPost parameters
         List<NameValuePair> data = new ArrayList<>(2);
