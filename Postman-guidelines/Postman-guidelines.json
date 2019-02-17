@@ -74,7 +74,7 @@
 								"vehicle"
 							]
 						},
-						"description": "This route enables you to find GHG emissions for a number of fuels.The distance is calculated using Google Map Distant Matrix API (https://developers.google.com/maps/documentation/javascript/distancematrix). The fuels that we currently support are listed in /Source/Core/core/resources/fuels.json.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.org/) variable in the header."
+						"description": "This route enables you to find GHG emissions for a number of fuels.The distance is calculated using Microsoft Bing Maps Distant Matrix API (https://docs.microsoft.com/en-us/bingmaps/rest-services/routes/calculate-a-distance-matrix). The fuels that we currently support are listed in /Source/Core/core/resources/fuels.json.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.org/) variable in the header."
 					},
 					"response": []
 				},
@@ -108,7 +108,7 @@
 								"trains"
 							]
 						},
-						"description": "This route enables you to find GHG emissions for a number of train types for a certain route.The distance is calculated using Google Map Distant Matrix API (https://developers.google.com/maps/documentation/javascript/distancematrix). The trains that we currently support are listed in /raw_data/trains.json.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.org/) variable in the header."
+						"description": "This route enables you to find GHG emissions for a number of train types for a certain route.The distance is calculated using Microsoft Bing Maps Distant Matrix API (https://docs.microsoft.com/en-us/bingmaps/rest-services/routes/calculate-a-distance-matrix). The trains that we currently support are listed in /raw_data/trains.json.\n\nYou need to sepcify your 'access-key' (which you got from https://carbonhub.org/) variable in the header."
 					},
 					"response": []
 				}
