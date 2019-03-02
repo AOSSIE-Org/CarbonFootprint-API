@@ -47,7 +47,7 @@ POST /v1/sector
 curl -POST -H 'access-key: <apikey>' -H "Content-type: application/json" -d '{
     "sector":"energy",
     "region":"India"
-}' 'https://www.carbonhub.xyz/v1/sector'
+}' 'https://www.carbonhub.org/v1/sector'
 ```
 {% sample lang="python" %}
 ```Python
@@ -57,7 +57,7 @@ import json
 def getSectorEmission(url,data,headers):
     r = requests.post(url,data = json.dumps(data),headers=headers)
     return r.content
-url = 'https://www.carbonhub.xyz/v1/sector'
+url = 'https://www.carbonhub.org/v1/sector'
 data = {
     "sector":"energy",
     "region":"India"
@@ -88,7 +88,7 @@ function getSectorEmission(url,data,headers){
     });
 }
     
-let url = "https://www.carbonhub.xyz/v1/sector",
+let url = "https://www.carbonhub.org/v1/sector",
     data = {
     "sector":"energy",
     "region":"India"
@@ -119,7 +119,7 @@ import java.util.List;
 public class getSectorEmission {
     public static void main(String[] args) {
         HttpClient client = HttpClientBuilder.create().build();
-        HttpPost post = new HttpPost("https://www.carbonhub.xyz/v1/sector");
+        HttpPost post = new HttpPost("https://www.carbonhub.org/v1/sector");
 
         // Create some NameValuePair for HttpPost parameters
         List<NameValuePair> data = new ArrayList<>(2);
