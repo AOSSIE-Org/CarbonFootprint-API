@@ -11,12 +11,12 @@ This route enables you to find global emissions for different types of sectors f
 
 | Name        | Type           | Description  |
 | ------------- |-------------| -----|
-| item | string | **Required:** The name of sector.|
+| sector | string | **Required:** The name of sector.|
 | region | string | **Required:** The country whose emissions are to be calculated. |
 **Example**
 ```JSON
 {
-    "item":"energy",
+    "sector":"energy",
     "region":"India"
 }
 ```
@@ -33,7 +33,7 @@ This route enables you to find global emissions for different types of sectors f
 ```JSON
 {
     "success": false,
-    "error": "Unable to find sector emissions for item type invalid_sector in India"
+    "error": "Unable to find sector emissions for sector type invalid_sector in India"
 }
 ```
 {% common %}
@@ -45,7 +45,7 @@ POST /v1/sector
 #use your API key here
 
 curl -POST -H 'access-key: <apikey>' -H "Content-type: application/json" -d '{
-    "item":"energy",
+    "sector":"energy",
     "region":"India"
 }' 'https://www.carbonhub.org/v1/sector'
 ```
@@ -59,7 +59,7 @@ def getSectorEmission(url,data,headers):
     return r.content
 url = 'https://www.carbonhub.org/v1/sector'
 data = {
-    "item":"energy",
+    "sector":"energy",
     "region":"India"
 }
 #use your api key here
@@ -90,7 +90,7 @@ function getSectorEmission(url,data,headers){
     
 let url = "https://www.carbonhub.org/v1/sector",
     data = {
-    "item":"energy",
+    "sector":"energy",
     "region":"India"
     },
     //use your api key here
@@ -123,7 +123,7 @@ public class getSectorEmission {
 
         // Create some NameValuePair for HttpPost parameters
         List<NameValuePair> data = new ArrayList<>(2);
-        data.add(new BasicNameValuePair("item", "energy"));
+        data.add(new BasicNameValuePair("sector", "energy"));
         data.add(new BasicNameValuePair("region", "India"));
         try {
             post.setEntity(new UrlEncodedFormEntity(data));
