@@ -13,7 +13,7 @@ import DataUpload from './components/DataUpload/DataUpload';
 import TransportComparer from './components/TransportComparer/TransportComparer';
 import Structured from './components/DataUpload/Structured';
 import Unstructured from './components/DataUpload/Unstructured';
-import history from './history';
+// import history from './history';
 import DataVerify from './components/DataUpload/DataVerify';
 import DailyDetails from './components/Profile/DailyDetails';
 
