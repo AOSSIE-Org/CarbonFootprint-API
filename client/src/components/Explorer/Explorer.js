@@ -114,7 +114,7 @@ export default class Explorer extends Component {
                 />
               </Modal.Content>
             </Modal>
-            <a href='postman://app/collections/import/9f30a9efdc0b87ca59af'>
+            <a href='https://app.getpostman.com/run-collection/9f30a9efdc0b87ca59af' target="_blank">
               <Button
                   content='Run in Postman'
                   size='small'
