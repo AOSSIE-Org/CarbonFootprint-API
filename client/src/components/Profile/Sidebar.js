@@ -33,7 +33,7 @@ export default class Sidebar extends Component {
   render() {
     const { activeItem } = this.state;
     return (
-      <Menu fluid vertical>
+      <Menu fluid vertical style={ styles.cardMargin }>
         <Menu.Item
           name="inbox"
           active={activeItem === 'inbox'}
@@ -105,5 +105,11 @@ export default class Sidebar extends Component {
 
       </Menu>
     );
+  }
+}
+
+const styles = {
+  cardMargin: {
+    marginBottom: "15px"
   }
 }
