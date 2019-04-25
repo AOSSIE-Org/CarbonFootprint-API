@@ -12,7 +12,7 @@ After creating an account on Auth0, click on [Clients](https://manage.auth0.com/
 Find .env.example [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/.env.example) and auth0-config.js.example [here](https://gitlab.com/aossie/CarbonFootprint-API/tree/master/client/src/Auth/auth0-config.js.example) , fill these with your credentials.
 
 * Add ___.env___ [here](https://gitlab.com/aossie/CarbonFootprint-API) with the same format as [.env.example](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/.env.example). In `database` fill the database configuration. If you don't have one signup [here](https://mlab.com/signup/) .
-     * Add Google distance matrix API key. Find one [here](https://developers.google.com/maps/documentation/distance-matrix/get-api-key) .
+     * Add Microsoft Bing distance matrix API key. Find one [here](https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key).
      * Add the `jwksUri` with `https://<userName>.auth0.com/.well-known/jwks.json`
      * Add the `issuer` with `https://<userName>.auth0.com/`
 * Add [auth0-config.js]() [here](https://gitlab.com/aossie/CarbonFootprint-API/tree/master/client/src/Auth) with the same format as [auth0-config.js.example](https://gitlab.com/aossie/CarbonFootprint-API/tree/master/client/src/Auth/auth0-config.js.example)

@@ -9,9 +9,11 @@ import {
   Statistic,
   Message,
   Form,
-  Responsive
+  Responsive,
+  Input
 } from 'semantic-ui-react';
 import { getKey, createKey, deleteKey } from './profileController';
+import '../../css/heatmap.css';
 
 
 /* Extended react.Component class as ProfileSettings */
@@ -199,26 +201,106 @@ export default class ProfileSettings extends Component {
           <Message success>
             <p>Copied to clipboard!</p>
           </Message>}
-
-        <Form>
-          <Form.Group>
-           <Form.Input width={12} value={this.state.key ? this.state.key : 'Generate an API access key'} readOnly />
-          {!this.state.key
-            ? <Button primary size='small' onClick={this.createAccessKey} style={{marginLeft:'10px'}}>
-                CREATE API KEY
-              </Button>
-            : <Button negative size='small' onClick={this.deleteAccessKey} style={{marginLeft:'10px'}}>
-                DELETE KEY
-              </Button>}
-
-              {this.state.key && document.queryCommandSupported('copy') &&
-              <div>
-              <Button positive size='small' onClick={this.copyToClipboard} style={{marginLeft:'10px'}}>
-                  COPY TO CLIPBOARD
+            
+          <Form>
+            <Responsive minWidth={761}>
+              <Form.Group>
+                  <Input
+                    style={{ marginBottom: "10px" }}
+                    value={this.state.key ? this.state.key : "Generate an API access key"}
+                    readOnly
+                    />
+                {!this.state.key ? (
+                  <Button
+                  fluid
+                  primary
+                  size="small"
+                  onClick={this.createAccessKey}
+                  style={{ marginLeft: "10px" }}
+                  >
+                    CREATE API KEY
+                  </Button> 
+                ) : (
+                  <Button
+                  fluid
+                  negative
+                  size="small"
+                  onClick={this.deleteAccessKey}
+                  style={{ height: "37px", marginLeft: "10px", marginBottom: "10px" }}
+                  >
+                    DELETE KEY
                   </Button>
-              </div>}
-        </Form.Group>
-        </Form>
+                )}
+
+                {this.state.key && document.queryCommandSupported("copy") && (
+                  <Button
+                  fluid
+                  positive
+                  size="small"
+                  onClick={this.copyToClipboard}
+                  style={{ height:"37px", marginLeft: "10px" }}
+                  >
+                    COPY TO CLIPBOARD
+                  </Button>
+                )}
+              </Form.Group>
+            </Responsive>
+            <Responsive maxWidth={760}>
+              <Form.Group>
+                <Grid>
+                  <Grid.Row>
+                    <Grid.Column computer={10} mobile={16} tablet={6}>
+                      <Form.Input
+                        className="setmargin"
+                        style={{ marginBottom: "10px" }}
+                        value={
+                          this.state.key ? this.state.key : "Generate an API access key"
+                        }
+                        readOnly
+                      />
+                    </Grid.Column>
+                    {!this.state.key ? (
+                      <Grid.Column
+                        computer={3}
+                        mobile={16}
+                        tablet={3}
+                        style={{ marginLeft: "10px" }}
+                      >
+                        <Button className="setmargin" fluid primary size="medium" onClick={this.createAccessKey}>
+                          CREATE API KEY
+                        </Button>
+                      </Grid.Column>
+                    ) : (
+                      <Grid.Column
+                        computer={3}
+                        mobile={16}
+                        tablet={3}
+                        style={{ marginLeft: "10px", marginBottom: "10px" }}
+                      >
+                        <Button className="setmargin" fluid negative size="medium" onClick={this.deleteAccessKey}>
+                          DELETE KEY
+                        </Button>
+                      </Grid.Column>
+                    )}
+
+                    {this.state.key && document.queryCommandSupported("copy") && (
+                      <Grid.Column
+                        fluid
+                        computer={3}
+                        mobile={16}
+                        tablet={3}
+                        style={{ marginLeft: "10px" }}
+                      >
+                        <Button className="setmargin" fluid positive size="medium" onClick={this.copyToClipboard}>
+                          COPY TO CLIPBOARD
+                        </Button>
+                      </Grid.Column>
+                    )}
+                  </Grid.Row>
+                </Grid>
+              </Form.Group>
+            </Responsive>
+          </Form>
       </Responsive>
     );
   }

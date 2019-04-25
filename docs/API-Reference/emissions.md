@@ -236,7 +236,7 @@ curl -POST -H 'access-key: <apikey>' -H "Content-type: application/json" -d '{
     "region": "india",
     "unit": "kWh",
     "quantity": 1.564
-}' 'https://www.carbonhub.xyz/v1/emissions'
+}' 'https://www.carbonhub.org/v1/emissions'
 ```
 
 {% sample lang="python"%}
@@ -247,7 +247,7 @@ import json
 def getEmissions(url,data,headers):
     r = requests.post(url,data = json.dumps(data),headers=headers)
     return r.content
-url = 'https://www.carbonhub.xyz/v1/emissions'
+url = 'https://www.carbonhub.org/v1/emissions'
 data = {
     "item": "electricity",
     "region": "india",
@@ -280,7 +280,7 @@ function getEmissions(url,data,headers){
     });
 }
     
-let url = "https://www.carbonhub.xyz/v1/emissions",
+let url = "https://www.carbonhub.org/v1/emissions",
     data = {
     "item": "electricity",
     "region": "india",
@@ -314,7 +314,7 @@ import java.util.List;
 public class getEmissions {
     public static void main(String[] args) {
         HttpClient client = HttpClientBuilder.create().build();
-        HttpPost post = new HttpPost("https://www.carbonhub.xyz/v1/emissions");
+        HttpPost post = new HttpPost("https://www.carbonhub.org/v1/emissions");
 
         // Create some NameValuePair for HttpPost parameters
         List<NameValuePair> data = new ArrayList<>(4); 

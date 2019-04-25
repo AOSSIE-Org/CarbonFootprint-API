@@ -1,7 +1,7 @@
 # Trains Endpoint
 
 {% method %}
-This route enables you to find GHG emissions for a number of train types for a certain route.The distance is calculated using [Google Map Distant Matrix API](https://developers.google.com/maps/documentation/javascript/distancematrix). The trains that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/raw_data/trains.json). 
+This route enables you to find GHG emissions for a number of train types for a certain route.The distance is calculated using [Microsoft Distant Matrix API](https://docs.microsoft.com/en-us/bingmaps/rest-services/routes/calculate-a-distance-matrix). The trains that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/raw_data/trains.json). 
 ###**Parameters**
 
 | Name        | Type           | Description  |
@@ -50,7 +50,7 @@ curl -POST -H 'access-key: <apikey>' -H "Content-type: application/json" -d '{
     "origin":"Bhubaneswar",
     "destination":"Delhi",
     "passengers":10
-}' 'https://www.carbonhub.xyz/v1/trains'
+}' 'https://www.carbonhub.org/v1/trains'
 ```
 {% sample lang="python" %}
 ```Python
@@ -60,7 +60,7 @@ import json
 def getTrainEmissions(url,data,headers):
     r = requests.post(url,data = json.dumps(data),headers=headers)
     return r.content
-url = 'https://www.carbonhub.xyz/v1/trains'
+url = 'https://www.carbonhub.org/v1/trains'
 data = {
     "type":"railcars",
     "origin":"Bhubaneswar",
@@ -93,7 +93,7 @@ function getTrainEmissions(url,data,headers){
     });
 }
     
-let url = "https://www.carbonhub.xyz/v1/trains",
+let url = "https://www.carbonhub.org/v1/trains",
     data = {
     "type":"railcars",
     "origin":"Bhubaneswar",
@@ -126,7 +126,7 @@ import java.util.List;
 public class getTrainEmission {
     public static void main(String[] args) {
         HttpClient client = HttpClientBuilder.create().build();
-        HttpPost post = new HttpPost("https://www.carbonhub.xyz/v1/trains");
+        HttpPost post = new HttpPost("https://www.carbonhub.org/v1/trains");
 
         // Create some NameValuePair for HttpPost parameters
         List<NameValuePair> data = new ArrayList<>(4);

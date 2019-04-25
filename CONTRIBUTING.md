@@ -45,6 +45,10 @@ Once you’ve opened a merge request a discussion will start around your propose
 - Connect your local to the original ‘upstream’ repository by adding it as a remote. 
 - **Pull in changes** from ‘upstream’ often so that you stay up to date so that when you submit your merge request, merge conflicts will be less likely.
 - **Create a branch** for your edits. See [guidelines for naming branches](#create-a-branch) for naming conventions.
+- **Config gitlab environment variables:** `https://gitlab.com/<insert-your-username>/CarbonFootprint-API/settings/ci_cd`  
+  Fill in the same details of `.env` in the **Environment Variables** section. This env vars will be used everytime your code is run through the pipeline.
+
+  ![Gitlab config ss](./docs/gitlab-env-config.png)
 - **[Create a merge request](https://gitlab.com/help/user/project/merge_requests/index.md)** to `develop` branch in the original 'upstream' repository
 - Add `fixes #<issue_number>` phrase in the merge request description to add a reference to the corresponding issue. See [information here](https://gitlab.com/help/user/project/issues/index.md) for referencing issues in the merge request.
 - Explain in your merge request what steps you have taken to ensure that the code change doesn't break the existing project's functionality.

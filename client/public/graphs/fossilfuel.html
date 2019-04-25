@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <style>
+      .label-container {
+        position: absolute;
+        margin: 8px;
+        right: 16px;
+        top: 16px;
+      }
+
+      #total, #solid {
+        display: flex;
+        align-items: center;
+      }
+
+      .label-line {
+        width: 30px;
+        height: 2px;
+        display: inline-block;
+        margin-right: 8px;
+      }
+
+      #total .label-line {
+        background-color: black;
+      }
+
+      #solid .label-line {
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="label-container">
+      <div id="total">
+        <span class="label-line"></span>
+        <span>Total Value</span>
+      </div>
+      <div id="solid">
+        <span class="label-line"></span>
+        <span>Solid Fuel</span>
+      </div>
+    </div>
+    <div id="line2"></div>
+    <div id="chart"></div>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script>
+      (function() {
+        var fossilFuelData = [];
+
+        function getYearDomain () {
+          return [
+            d3.min(fossilFuelData, function (d) { return d.Year }),
+            d3.max(fossilFuelData, function (d) { return d.Year })
+          ];
+        }
+
+        function getFuelDomain () {
+          return [
+            d3.min(fossilFuelData, function (d) { return d.Total }),
+            d3.max(fossilFuelData, function (d) { return d.Total })
+          ];
+        }
+
+        //Renders the whole visualization
+        function showGraph () {
+          const MARGINS = { top: 100, right: 100, bottom: 100, left: 100 },
+            WIDTH = window.innerWidth - MARGINS.left - MARGINS.right,
+            HEIGHT = window.innerHeight - MARGINS.top - MARGINS.bottom;
+          
+          var x = d3.scaleLinear()
+            .range([0, WIDTH]);
+          var y = d3.scaleLinear()
+              .range([HEIGHT, 0]);
+          
+          // Line generation code for Total
+          var totalLineGen = d3
+            .line()
+            .x(function(d) {
+              return x(d.Year);
+            })
+            .y(function(d) {
+              return y(d.Total);
+            });
+
+          // Line generation code for Solid Fuel
+          var solidFuelLineGen = d3
+            .line()
+            .x(function(d) {
+              return x(d.Year);
+            })
+            .y(function(d) {
+              return y(d["Solid Fuel"]);
+            });
+
+          var lineChart = d3
+            .select("#chart")
+            .append("svg")
+            .attr("width", WIDTH + MARGINS.left + MARGINS.right)
+            .attr("height", HEIGHT + MARGINS.top + MARGINS.bottom)
+            .append("g")
+            .attr("transform", "translate(" + MARGINS.left + "," + MARGINS.top + ")");
+
+          // format the data
+          // Scale the range of the data in the domains
+          x.domain(getYearDomain());
+          y.domain(getFuelDomain());
+
+          // Append Total Line
+          lineChart
+            .append("svg:path")
+            .attr("d", totalLineGen(fossilFuelData))
+            .attr("stroke", "black")
+            .attr("stroke-width", "2")
+            .attr("fill", "none")
+            .attr("class", "total-path");
+
+          // Append Solid Line
+          lineChart
+            .append("svg:path")
+            .attr("d", solidFuelLineGen(fossilFuelData))
+            .attr("stroke", "orange")
+            .attr("stroke-width", 2)
+            .attr("fill", "none")
+            .attr("class", "solid-path");
+
+          // Append x-axis
+          lineChart
+            .append("g")
+            .attr("transform", "translate(0," + HEIGHT + ")")
+            .call(d3.axisBottom(x));
+
+          // Append y-axis
+          lineChart
+            .append("g")
+            .call(d3.axisLeft(y));
+
+          // Append y-axis label
+          lineChart
+            .append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 16 - MARGINS.left)
+            .attr("x", 0 - (HEIGHT / 2))
+            .attr("dy", "1em")
+            .style("text-anchor", "middle")
+            .text("Emission");
+
+          // Append x-axis label
+          lineChart
+            .append("text")
+            .attr("transform", "translate(" + (WIDTH/2) + " ," + (HEIGHT + 40) + ")")
+            .style("text-anchor", "middle")
+            .text("Year");
+          
+          // Tool tip focus
+          var focus = lineChart
+            .selectAll('.total-path')
+            .data(fossilFuelData)
+            .enter()
+            .append("g")
+            .attr("class", "focus")
+            .style("display", "none");
+
+          // The tooltip line
+          focus
+            .append("line")
+            .attr('y1' , 0)
+            .attr('y2',  HEIGHT)
+            .attr("stroke", "black");
+  
+          // Tooltip text for Total Fuel
+          focus.append("text")
+            .attr('class', 'total-text')
+            .attr("x", 10)
+            .attr("dy", HEIGHT / 2);
+
+          // Tooltip text for Solid Fuel
+          focus.append("text")
+            .attr('class', 'solid-text')
+            .attr("x", 10)
+            .attr("dy", (HEIGHT / 2) + 20);
+
+          // Attaching the mouse events
+          lineChart
+            .selectAll('.total-path')
+            .data(fossilFuelData)
+            .enter()
+            .append("rect")
+            .attr("class", "overlay")
+            .attr("fill", "transparent")
+            .attr("width", WIDTH)
+            .attr("height", HEIGHT)
+            .on("mouseover", function() { focus.style("display", null); })
+            .on("mouseout", function() { focus.style("display", "none"); })
+            .on("mousemove", mousemove);
+
+          x.invert = (function(){
+            var domain = fossilFuelData.map(function (d) { return d.Year });
+            var range = x.range();
+            var scale = d3.scaleQuantize().domain(range).range(domain);
+
+            return function(x){ return scale(x) };
+          })();
+          
+          function mousemove() {
+            var x0 = x.invert(d3.mouse(this)[0]),
+              i = fossilFuelData.map(function(d){ return d.Year }).indexOf(parseInt(x0));
+              d = fossilFuelData[i];
+
+            focus.attr("transform", "translate(" + x(d.Year) + ",0)");
+            focus
+              .select(".total-text")
+              .text('Total: ' + d.Total)
+              .style('fill', 'black');
+            
+            focus
+              .select(".solid-text")
+              .text("Solid: " + d["Solid Fuel"])
+              .style('fill', 'orange');
+          }
+        }
+        
+        // Load the fossil fuel data from JSON file
+        d3.json("../data/fossilfuel.json", function(data) {
+          fossilFuelData = data;
+          showGraph();
+        });
+      })();
+    </script>
+  </body>
+</html>

@@ -144,7 +144,7 @@ export default class ProfileEdit extends Component{
   	return(
   		<div style={{display:'inline'}}>
   		<Icon name="write" style={{float:'right',fontSize:'15px'}} onClick={()=>this.openModal()} />
-  		<Modal dimmer="blurring" open={isOpen} onClose={()=>this.hideModal()}>
+  		<Modal dimmer="blurring" open={isOpen} onClose={()=>this.hideModal()} style={{ maxHeight: '500px', overflowY: 'auto', transform: 'translate(0, -50%)' }}>
           <Modal.Header>Profile</Modal.Header>
           <Modal.Content image>
             <Image wrapped size='small' src={profile.picture} />

@@ -322,7 +322,7 @@ describe("API endpoint testing", () => {
         .set('access-key', API_TEST_KEY)
         .send({
           "item": "lamp",
-          "region": "ohio",
+          "region": "Default",
           "emission": 91
         })
         .expect("Content-type", /json/)
@@ -330,7 +330,7 @@ describe("API endpoint testing", () => {
         .end((err, res) => {
           res.status.should.equal(200);
           res.body.success.should.equal(true);
-          res.body.quantity.should.approximately(2.015314173084483, 0.2);
+          res.body.quantity.should.approximately(2.310839737829899, 0.2);
           done();
         });
   });

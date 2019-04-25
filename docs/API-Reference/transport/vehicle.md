@@ -1,7 +1,7 @@
 # Vehicles
 
 {% method %}
-This route enables you to find GHG emissions for a number of fuels.The distance is calculated using [Google Map Distant Matrix API](https://developers.google.com/maps/documentation/javascript/distancematrix). The fuels that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint/blob/master/Source/Core/core/resources/fuels.json). 
+This route enables you to find GHG emissions for a number of fuels.The distance is calculated using [Microsoft Distant Matrix API](https://docs.microsoft.com/en-us/bingmaps/rest-services/routes/calculate-a-distance-matrix). The fuels that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint/blob/master/Source/Core/core/resources/fuels.json). 
 ###**Parameters**
 
 | Name        | Type           | Description  |
@@ -54,7 +54,7 @@ curl -POST -H 'access-key: <apikey>' -H "Content-type: application/json" -d '{
     "destination": "Cuttack",
     "mileage": 50,
     "mileage_unit": "km/l"
-}' 'https://www.carbonhub.xyz/v1/vehicle'
+}' 'https://www.carbonhub.org/v1/vehicle'
 ```
 {% sample lang="python" %}
 ```Python
@@ -64,7 +64,7 @@ import json
 def getVehicleEmissions(url,data,headers):
     r = requests.post(url,data = json.dumps(data),headers=headers)
     return r.content
-url = 'https://www.carbonhub.xyz/v1/vehicle'
+url = 'https://www.carbonhub.org/v1/vehicle'
 data = {
     "type": "Petrol",
     "origin": "Bhubaneswar",
@@ -99,7 +99,7 @@ function getVehicleEmissions(url,data,headers){
     });
 }
     
-let url = "https://www.carbonhub.xyz/v1/vehicle",
+let url = "https://www.carbonhub.org/v1/vehicle",
     data = {
     "type": "Petrol",
     "origin": "Bhubaneswar",
@@ -134,7 +134,7 @@ import java.util.List;
 public class getVehicleEmission {
     public static void main(String[] args) {
         HttpClient client = HttpClientBuilder.create().build();
-        HttpPost post = new HttpPost("https://www.carbonhub.xyz/v1/vehicle");
+        HttpPost post = new HttpPost("https://www.carbonhub.org/v1/vehicle");
 
         // Create some NameValuePair for HttpPost parameters
         List<NameValuePair> data = new ArrayList<>(5); 
