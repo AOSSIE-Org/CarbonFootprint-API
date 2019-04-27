@@ -4,9 +4,11 @@ This project aims to have a universal API to find carbon footprint of almost any
 
 # Prerequisites
 
-At the time of development we were using :
-`npm : 5.0.3` or higher
-`node : v8.1.2` or higher
+At the time of development we were using :  
+  - `npm : v6.9.0` or higher
+  - `node : v10.15.3 (LTS)` or higher
+  - `redis`
+  - `mongo`
 
 To check your current versions :
 
