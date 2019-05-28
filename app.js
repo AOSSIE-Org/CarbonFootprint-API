@@ -13,6 +13,7 @@ var jwks = require('jwks-rsa');
 var customErrorFunctions = require('@framework/CustomRouterFunctions');
 var helmet = require('helmet');
 var Logger = require('@framework/Logger');
+var cors = require('cors');
 
 // database setup
 var mongoose = require('mongoose');
@@ -46,6 +47,19 @@ const Auth = require('./api/auth/controllers/authController');
 var app = express();
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
+
+var whitelist = ['http://localhost:3000'] // adding the whitelist urls in the array
+var corsOptions = {
+  origin: function (origin, callback) {
+    if (whitelist.indexOf(origin) !== -1) {
+      callback(null, true)
+    } else {
+      callback(new Error('Not allowed by CORS'))
+    }
+  }
+}
+
+app.use(cors(corsOptions));
 
 // view engine setup
 // app.set('views', path.join(__dirname, 'views'));
