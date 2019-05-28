@@ -49,17 +49,17 @@ app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 var whitelist = ['http://localhost:3000'] // adding the whitelist urls in the array
-var corsOptions = {
-  origin: function (origin, callback) {
-    if (whitelist.indexOf(origin) !== -1) {
-      callback(null, true)
-    } else {
-      callback(new Error('Not allowed by CORS'))
-    }
+var corsOptionsDelegate = function (req, callback) {
+  var corsOptions;
+  if (whitelist.indexOf(req.header('Origin')) !== -1) {
+    corsOptions = { origin: true } // reflect (enable) the requested origin in the CORS response
+  } else {
+    corsOptions = { origin: false } // disable CORS for this request
   }
+  callback(null, corsOptions) // callback expects two parameters: error and options
 }
 
-app.use(cors(corsOptions));
+app.use(cors(corsOptionsDelegate));
 
 // view engine setup
 // app.set('views', path.join(__dirname, 'views'));
