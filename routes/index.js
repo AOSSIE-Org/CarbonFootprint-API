@@ -5,7 +5,7 @@ const path = process.cwd();
 
 /* GET home page. */
 router.get('*', function(req, res) {
-    res.sendFile(`${path}/client/public/index.html`);
+    res.sendFile(`${path}/client/build/index.html`);
 });
 
 module.exports = router;

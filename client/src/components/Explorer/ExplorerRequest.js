@@ -14,7 +14,7 @@ import { getKey } from '../Profile/profileController';
 import axios from 'axios';
 import _ from 'lodash';
 
-const BASE_URL = (process.env.NODE_ENV == 'production') ? 'https://carbonhub.org/v1/' : 'http://localhost:3080/v1/';
+const BASE_URL = (process.env.NODE_ENV === 'production') ? 'https://carbonhub.org/v1/' : 'http://localhost:3080/v1/';
 
 /* Extended react.Component class as ExplorerRequest */
 export default class ExplorerRequest extends Component {
@@ -221,6 +221,7 @@ const styles = {
     fontSize: '16px'
   }
 };
+// eslint-disable-next-line no-unused-vars
 const details = {
   flight: {
     "origin": "DEL",
@@ -233,6 +234,7 @@ const details = {
 
 //Example data which is default if data is not provided
 
+// eslint-disable-next-line no-unused-vars
 const example = {
   "appliances": {
     "appliance": "Water heater",

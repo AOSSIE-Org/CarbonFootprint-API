@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import { Icon, Menu, Card } from 'semantic-ui-react';
-import Explorer from '../Explorer/Explorer';
-import DataUpload from '../DataUpload/DataUpload';
-import DataVerify from '../DataUpload/DataVerify';
+import { Icon, Menu } from 'semantic-ui-react';
 import {Link} from 'react-router-dom';
 
 /* Extended react.Component class as Sidebar */
@@ -38,36 +35,37 @@ export default class Sidebar extends Component {
           name="inbox"
           active={activeItem === 'inbox'}
           onClick={this.handleItemClick}
+          as={Link}
+          to="/profile"
+          link={true}
         >
-          <Link to= '/profile'>
-            <span>
-              <Icon name="home" /> Account
-            </span>
-          </Link>
+          <span style={{ color: '#4183c4' }}>
+            <Icon name="home" /> Account
+          </span>
         </Menu.Item>
         
         <Menu.Item
           name="transport"
           active={activeItem === 'transport'}
           onClick={this.handleItemClick}
+          as={Link}
+          to="/TransportComparer"
+          link={true}
         >
-          <Link to= '/TransportComparer'>
-            <span>
-              <Icon name="train" /> Transport Comparer
-            </span>
-          </Link>
+          <span style={{ color: '#4183c4' }}>
+            <Icon name="train" /> Transport Comparer
+          </span>
         </Menu.Item>
 
         <Menu.Item
           name="updates"
           active={activeItem === 'updates'}
-          onClick={() => window.open('http://docs.carbonhub.org', '_blank')}
         >
-        <Link to= {"/DataUpload"}>
+        <a href="http://docs.carbonhub.org" target="_blank" rel="noopener noreferrer">
           <span>
             <Icon name="newspaper" /> API Documentation
           </span>
-        </Link>
+        </a>
         </Menu.Item>
 
         <Menu.Item

@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import ProfileSettings from '../Profile/ProfileSettings';
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
-import { Redirect } from 'react-router-dom';
-import { Button, Grid, Segment, Divider, List, Card } from 'semantic-ui-react';
+import { Button, Grid, Segment, List } from 'semantic-ui-react';
 
 /* Extended react.Component class as DataVerify */
 
@@ -32,31 +30,6 @@ export default class DataVerify extends Component {
         this.handleReject = this.handleReject.bind(this);
     }
     
-    componentDidMount() {
-        this.props.auth.getProfile()
-            .then((profile) => {
-                this.setState({
-                    profile: profile,
-                    profilePicture: profile.picture,
-                    nickname: profile.nickname,
-                    email: profile.email,
-                    userid: profile.sub,
-                    given_name: profile.given_name,
-                    family_name: profile.family_name
-                });
-            })
-            .catch((err) => {
-                console.log(err);
-            });
-            axios.get('/suggestedData/fetchData').then(response => {
-                this.setState({ data: response.data });
-            });
-    }
-
-    /**
-   * Inherited function from react.Component.
-   * This method is invoked immediately after a component is mounted
-   */
     componentDidMount() {
         this.props.auth.getProfile()
             .then((profile) => {

@@ -10,11 +10,13 @@ const styles = {
     footer: {
         width: "100%",
         height: "50px",
-        marginTop: "50px",
+        marginBottom: "0",
         background: "#ddd",
         padding: "10px 30px",
         color: "#999",
         display: "flex",
+        position: "static",
+        bottom: 0,
         alignItems: "center"
     }
 }

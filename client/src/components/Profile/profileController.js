@@ -1,4 +1,4 @@
-import Auth from '../../Auth/Auth';
+const url = (process.env.NODE_ENV === 'production') ? 'https://carbonhub.org' : 'http://localhost:3080';
 
 const options = {
   headers: {
@@ -10,19 +10,19 @@ const options = {
 
 export const getKey = () => {
   options.method = 'GET';
-  return fetch('/auth/key', options).then(res => res.json());
+  return fetch(`${url}/auth/key`, options).then(res => res.json());
 };
 
 /* Function to create API key */
 
 export const createKey = () => {
   options.method = 'POST';
-  return fetch('/auth/key', options).then(res => res.json());
+  return fetch(`${url}/auth/key`, options).then(res => res.json());
 };
 
 /* Function to delete API key */
 
 export const deleteKey = () => {
   options.method = 'DELETE';
-  return fetch('/auth/key', options).then(res => res.json());
+  return fetch(`${url}/auth/key`, options).then(res => res.json());
 };
