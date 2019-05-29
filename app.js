@@ -48,7 +48,7 @@ var app = express();
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
-var whitelist = ['http://localhost:3000'] // adding the whitelist urls in the array
+var whitelist = process.env.WHITELISTED_DOMAINS.split(','); // adding the whitelist urls in the array
 var corsOptionsDelegate = function (req, callback) {
   var corsOptions;
   if (whitelist.indexOf(req.header('Origin')) !== -1) {
@@ -77,7 +77,7 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'client/public')));
+app.use(express.static(path.join(__dirname, 'client/build')));
 app.use(helmet());
 
 // Authentication middleware provided by express-jwt.
