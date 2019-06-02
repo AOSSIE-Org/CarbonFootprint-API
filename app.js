@@ -13,6 +13,7 @@ var jwks = require('jwks-rsa');
 var customErrorFunctions = require('@framework/CustomRouterFunctions');
 var helmet = require('helmet');
 var Logger = require('@framework/Logger');
+var cors = require('cors');
 
 // database setup
 var mongoose = require('mongoose');
@@ -47,6 +48,19 @@ var app = express();
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
+var whitelist = process.env.WHITELISTED_DOMAINS.split(','); // adding the whitelist urls in the array
+var corsOptionsDelegate = function (req, callback) {
+  var corsOptions;
+  if (whitelist.indexOf(req.header('Origin')) !== -1) {
+    corsOptions = { origin: true } // reflect (enable) the requested origin in the CORS response
+  } else {
+    corsOptions = { origin: false } // disable CORS for this request
+  }
+  callback(null, corsOptions) // callback expects two parameters: error and options
+}
+
+app.use(cors(corsOptionsDelegate));
+
 // view engine setup
 // app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -63,7 +77,7 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'client/public')));
+app.use(express.static(path.join(__dirname, 'client/build')));
 app.use(helmet());
 
 // Authentication middleware provided by express-jwt.
