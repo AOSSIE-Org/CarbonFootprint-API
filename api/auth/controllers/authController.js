@@ -95,7 +95,7 @@ let apiKey = (mail, action) => {
         .then(result => {
           resolve(result);
         })
-        .catch(reject => {
+        .catch(err => {
           reject('User not found');
         });
     }
