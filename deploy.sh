@@ -3,25 +3,31 @@
 cd "$(dirname "$0")"
 echo Inside CarbonFootprint Directory
 
+# Update API and Website
+sudo git checkout master
+sudo git pull origin master -f
+echo New master fetched
+
 # Update docs
 cd docs
 gitbook build
 cd ..
 echo Docs Updated
 
-# Update API and Website
-sudo git checkout master
-sudo git pull origin master -f
-echo New master fetched 
+# install client packages
+cd client
+sudo npm install -y
+echo client packages installed
 
-sudo yarn install
-echo Yarn install performed
+# creating react build
+sudo npm run build 
+cd ..
+echo react build finished
 
-sudo yarn run build
-echo yarn build performed
-
+# install backend packages
+sudo npm install -y
 sudo pm2 restart bin/www
 echo sudo pm2 list
 
-echo All actions performed , exiting now.
+echo All actions performed, exiting now.
 exit
