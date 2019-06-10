@@ -37,13 +37,15 @@ Find .env.example [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/mast
  For 500 Mb Free services on MongoDB databases, signup [here](https://www.mlab.com/signup) (or you can use any other service of your choice).
  Note : For Auth0 credentials refer to [README.md](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/client/src/Auth/README.md)
 
-* To install all the require modules and build file:
-
-```
-npm install
-npm run build
-```
-
+* To install all the require modules and build file:  
+  - For server, run the following commands in the project root directory.
+    ```
+    npm install
+    ```
+  - To install client side dependencies run in `client` directory:
+    ```
+    npm install
+    ```
 * Before testing APIs on your local node server, please follow any of the following instructions according to requirement(s) (this might take some time)
 
     * To add all the data
@@ -76,7 +78,12 @@ npm run build
       ```
 * For details about using API, checkout [postman](./Postman-guidelines) folder for futher instructions to get an example of all the APIs.
 
-* To start the server, run `npm start`.
+Development procedure
+----
+
+* To start the API server, run `npm start` in project root directory.
+
+* To start the client side development server run `npm start` in `client` directory.
 
 * To run the unit tests, use `npm test`.
 
