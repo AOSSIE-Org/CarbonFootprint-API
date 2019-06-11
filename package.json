@@ -5,8 +5,6 @@
   "scripts": {
     "start": "nodemon ./bin/www",
     "test": "mocha --timeout 10000",
-    "watch": "webpack -d --watch",
-    "build": "webpack",
     "all": "cd api/v1/db_scripts && npm run all && cd ../../..",
     "flights": "cd api/v1/db_scripts && npm run flights && cd ../../..",
     "electricity": "cd api/v1/db_scripts && npm run electricity && cd ../../..",
