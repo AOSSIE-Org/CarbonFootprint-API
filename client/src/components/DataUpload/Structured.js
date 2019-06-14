@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
 import Form from 'react-jsonschema-form';
-import { Button, Grid, Segment, Divider } from 'semantic-ui-react';
+import { Grid, Segment } from 'semantic-ui-react';
 import axios from 'axios';
-import ProfileSettings from '../Profile/ProfileSettings';
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
 import schemaArray from './StructuredSchema';
 import { Redirect } from 'react-router-dom';
-import { json } from 'body-parser';
 
 /* Extended react.Component class as Structured */
 

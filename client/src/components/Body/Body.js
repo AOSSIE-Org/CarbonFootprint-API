@@ -1,13 +1,6 @@
 import React from 'react';
-import {Grid, Card, Icon} from 'semantic-ui-react'
-import {Link} from 'react-router-dom'
-import Footer from '../Footer/Footer';
 
 export default class Body extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div style={styles.body}>
@@ -17,7 +10,6 @@ export default class Body extends React.Component {
         }}>
           {this.props.children}
         </div>
-        <Footer/>
       </div>
     );
   }
@@ -25,7 +17,7 @@ export default class Body extends React.Component {
 
 const styles = {
   body: {
-    minHeight: "100%",
+    minHeight: "calc(100vh - 50px - 60px)",
     display: "flex",
     flexDirection: "column",
     flex: 1,

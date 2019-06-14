@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, Icon } from 'semantic-ui-react';
+import { Card } from 'semantic-ui-react';
 import ProfileEdit from './ProfileEdit'
 
 
@@ -25,7 +25,7 @@ export default class ProfilePicture extends Component {
    */
 
   componentWillReceiveProps(nextProps){
-    if(nextProps.nickname != this.state.nickname){
+    if(nextProps.nickname !== this.state.nickname){
       this.setState({nickname:nextProps.nickname});
     }
   }

@@ -144,7 +144,7 @@ export default class Auth {
               .then((idToken) => {
                   let url = AUTH_CONFIG.apiEndpoint + userId;
 
-                  let response = $.ajax({
+                  $.ajax({
                       type: 'GET',
                       url: url,
                       headers:{
@@ -177,7 +177,7 @@ export default class Auth {
           this.getIdToken()
               .then((idToken) => {
                   let url = AUTH_CONFIG.apiEndpoint+clientId;
-                  let response = $.ajax({
+                    $.ajax({
                       type: 'PATCH',
                       url: url,
                       data:data,
