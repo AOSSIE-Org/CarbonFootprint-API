@@ -26,7 +26,7 @@ export default class ExplorerQuery extends Component {
    * @param nextProps the next Props received from Parent
    */
   componentWillReceiveProps(nextProps){
-    if(nextProps.query && nextProps.query!=`""`) {
+    if(nextProps.query && nextProps.query!==`""`) {
       this.setState({
         query: nextProps.query,
         data: JSON.parse(nextProps.query)

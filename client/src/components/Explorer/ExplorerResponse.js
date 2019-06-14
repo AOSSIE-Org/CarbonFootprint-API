@@ -3,15 +3,6 @@ import { Segment, Form, TextArea } from 'semantic-ui-react';
 
 /* Extended react.Component class as ExplorerResponse */
 export default class ExplorerResponse extends Component {
-
-  /**
-   * Constructor for the ExplorerResponse class
-   * @constructor extends react.Component
-   */
-  constructor(props) {
-    super(props);
-  }
-
   /**
    * Inherited function from react.Component.
    * This method is invoked before rendering when new props or state are being received.
@@ -31,7 +22,7 @@ export default class ExplorerResponse extends Component {
    * @returns {string} formatted JSON
    */
   formatJSON(input, space) {
-    return (input.length == 0) ? '' : JSON.stringify(input, null, space);
+    return (input.length === 0) ? '' : JSON.stringify(input, null, space);
   }
 
   /**

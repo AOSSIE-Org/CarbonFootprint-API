@@ -44,7 +44,7 @@ export default class Header extends React.Component {
             trigger={
               <span>
                 <Responsive minWidth={500}>
-                  <img src={this.state.profile.picture} style={{borderRadius:'50%',height:'20px',marginRight:'5px'}} />
+                  <img alt="profile" src={this.state.profile.picture} style={{borderRadius:'50%',height:'20px',marginRight:'5px'}} />
                   {this.state.profile.nickname}
                 </Responsive>
                 <Responsive maxWidth={499}>

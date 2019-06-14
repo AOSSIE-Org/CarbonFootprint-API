@@ -5,10 +5,6 @@ import {Header} from 'semantic-ui-react';
 import data from '../data/availableVisuals.js';
 
 export default class Visuals extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div>

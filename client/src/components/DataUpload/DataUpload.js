@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import { Route, Redirect } from 'react-router-dom';
+import { Redirect } from 'react-router';
 import { Button, Grid, Segment, Divider } from 'semantic-ui-react';
 import ProfileSettings from '../Profile/ProfileSettings';
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
-import Structured from './Structured';
-import Unstructured from './Unstructured';
 
 /* Extended react.Component class as DataUpload */
 
@@ -42,6 +40,7 @@ export default class DataUpload extends Component {
    * Function to render the respective component clicked
    */
   _renderSubComp(){
+      // eslint-disable-next-line default-case
       switch(this.state.render){
         case 'structured' : return <Redirect to="/structured" />
         case 'unstructured' : return <Redirect to="/unstructured" />

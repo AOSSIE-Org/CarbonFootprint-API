@@ -4,7 +4,6 @@ import ExplorerRequest from './ExplorerRequest';
 import ExplorerQuery from './ExplorerQuery';
 import ExplorerResponse from './ExplorerResponse';
 import ExplorerParams from './ExplorerParams';
-import { Link } from 'react-router-dom';
 import SnippetModal from './SnippetModal';
 
 /* Extended react.Component class as Explorer */
@@ -81,7 +80,7 @@ export default class Explorer extends Component {
               />
             </Grid.Row>
             <Grid.Row columns={3}>
-              <Grid.Column width={4} mobile={16} tablet={8} computer={4}>
+              <Grid.Column mobile={16} tablet={8} computer={4}>
                 <ExplorerParams
                     query={this.state.query}
                     url={this.state.url}
@@ -89,13 +88,13 @@ export default class Explorer extends Component {
                     params={this.state.params}
                 />
               </Grid.Column>
-              <Grid.Column width={7} mobile={16} tablet={8} computer={7}>
+              <Grid.Column mobile={16} tablet={8} computer={7}>
                 <ExplorerQuery
                     queryUpdate={this.queryUpdate}
                     query={JSON.stringify(this.state.query)}
                 />
               </Grid.Column>
-              <Grid.Column width={5} mobile={16} tablet={8} computer={5}>
+              <Grid.Column mobile={16} tablet={8} computer={5}>
                 <ExplorerResponse
                     response={this.state.response}
                 />
@@ -114,7 +113,7 @@ export default class Explorer extends Component {
                 />
               </Modal.Content>
             </Modal>
-            <a href='https://app.getpostman.com/run-collection/9f30a9efdc0b87ca59af' target="_blank">
+            <a href='https://app.getpostman.com/run-collection/9f30a9efdc0b87ca59af' target="_blank" rel="noopener noreferrer">
               <Button
                   content='Run in Postman'
                   size='small'

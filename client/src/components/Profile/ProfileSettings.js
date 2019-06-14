@@ -91,7 +91,6 @@ export default class ProfileSettings extends Component {
    */
 
   deleteAccessKey() {
-    const self = this;
     deleteKey().then(data => {
       // console.log(data);
       if (data.success) {
@@ -286,7 +285,7 @@ export default class ProfileSettings extends Component {
 
                     {this.state.key && document.queryCommandSupported("copy") && (
                       <Grid.Column
-                        fluid
+                        fluid="true"
                         computer={3}
                         mobile={16}
                         tablet={3}

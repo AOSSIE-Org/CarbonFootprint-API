@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
 import { Redirect } from 'react-router-dom';
-import { Button, Grid, Segment, Divider, Form } from 'semantic-ui-react';
+import { Button, Grid, Segment, Form } from 'semantic-ui-react';
 import axios from 'axios'
-import ProfileSettings from '../Profile/ProfileSettings';
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
 
-const BASE_URL = (process.env.NODE_ENV == 'production') ? 'https://carbonhub.org/v1/' : 'http://localhost:3080/v1/';
+const BASE_URL = (process.env.NODE_ENV === 'production') ? 'https://carbonhub.org/v1/' : 'http://localhost:3080/v1/';
 
 /* Extended react.Component class as Unstructured */
 export default class Unstructured extends Component {

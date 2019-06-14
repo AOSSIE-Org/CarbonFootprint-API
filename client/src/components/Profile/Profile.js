@@ -3,7 +3,6 @@ import { Grid } from 'semantic-ui-react';
 import ProfilePicture from './ProfilePicture';
 import ProfileSettings from './ProfileSettings';
 import Sidebar from './Sidebar';
-import DataUpload from '../DataUpload/DataUpload';
 import DailyEmission from './DailyEmission';
 
 /* Extended react.Component class as Profile */
@@ -59,7 +58,7 @@ export default class Profile extends Component {
     return (
       <Grid centered textAlign="left" className="chartwidth">
         <Grid.Row>
-          <Grid.Column width={3} mobile={16} tablet={3} computer={3}>
+          <Grid.Column mobile={16} tablet={3} computer={3}>
             <ProfilePicture
               profilePicture={this.state.profilePicture}
               nickname={this.state.nickname }
@@ -69,7 +68,7 @@ export default class Profile extends Component {
             />
             <Sidebar />
           </Grid.Column>
-          <Grid.Column width={8} mobile={16} tablet={10} computer={10}>
+          <Grid.Column mobile={16} tablet={10} computer={10}>
             <ProfileSettings auth={this.props.auth} />
             <DailyEmission />
           </Grid.Column>
