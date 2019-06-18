@@ -53,7 +53,7 @@ export default class DailyDetails extends Component {
   };
 
   render() {
-    const { calculation, apikey, total, loading, check } = this.state;
+    const { calculation, apikey, total, loading } = this.state;
     return (
       <Grid centered textAlign="center">
         <Grid.Row>

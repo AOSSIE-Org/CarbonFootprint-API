@@ -8,7 +8,6 @@ import DailyEmission from './DailyEmission';
 /* Extended react.Component class as Profile */
 
 export default class Profile extends Component {
-
   /**
    * Constructor for the Profile class
    * @constructor extends react.Component
@@ -24,33 +23,34 @@ export default class Profile extends Component {
       userid: '',
       given_name: '',
       family_name: ''
-    }
+    };
   }
 
-  /** 
+  /**
    * Inherit function from react.Component to handle after mounting
    *   react component
    */
 
-  componentDidMount(){
-      this.props.auth.getProfile()
-          .then((profile) => {
-              this.setState({
-                  profile: profile,
-                  profilePicture: profile.picture,
-                  nickname: profile.nickname,
-                  email: profile.email,
-                  userid: profile.sub,
-                  given_name:profile.given_name,
-                  family_name:profile.family_name
-              });
-          })
-          .catch((err) => {
-              console.log(err);
-          });
+  componentDidMount() {
+    this.props.auth
+      .getProfile()
+      .then(profile => {
+        this.setState({
+          profile: profile,
+          profilePicture: profile.picture,
+          nickname: profile.nickname,
+          email: profile.email,
+          userid: profile.sub,
+          given_name: profile.given_name,
+          family_name: profile.family_name
+        });
+      })
+      .catch(err => {
+        console.log(err);
+      });
   }
 
-  /** 
+  /**
    * Inherited function from react.Component to render to DOM object into html
    */
 
@@ -61,7 +61,7 @@ export default class Profile extends Component {
           <Grid.Column mobile={16} tablet={3} computer={3}>
             <ProfilePicture
               profilePicture={this.state.profilePicture}
-              nickname={this.state.nickname }
+              nickname={this.state.nickname}
               email={this.state.email}
               auth={this.props.auth}
               profile={this.state.profile}

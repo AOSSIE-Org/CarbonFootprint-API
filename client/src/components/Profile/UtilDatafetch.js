@@ -1,5 +1,4 @@
-// const url = "http://localhost:3080";
-const url = "";
+const url = process.env.NODE_ENV === 'production' ? '' : 'http://localhost:3080';
 
 const headers = {
   Accept: "application/json"

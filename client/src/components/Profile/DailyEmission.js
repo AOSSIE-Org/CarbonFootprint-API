@@ -1,20 +1,13 @@
 // @ts-nocheck
-import React, { Component } from "react";
-import * as d3 from "d3";
-import moment from "moment";
-import {
-  Responsive,
-  Segment,
-  Header,
-  Icon,
-  Divider,
-  Grid,
-  Button
-} from "semantic-ui-react";
-import { Link } from "react-router-dom";
-import { getData } from "./UtilDatafetch";
+import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
+import * as d3 from 'd3';
+import moment from 'moment';
+import { Responsive, Segment, Header, Icon, Divider, Grid, Button } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
+import { getData } from './UtilDatafetch';
 
-export default class DailyEmission extends Component {
+class DailyEmission extends Component {
   componentDidMount() {
     this.create();
   }
@@ -29,44 +22,31 @@ export default class DailyEmission extends Component {
     let SQUARE_PADDING = 2;
     let MONTH_LABEL_PADDING = 6;
     let now = moment()
-      .endOf("day")
+      .endOf('day')
       .toDate();
     let yearAgo = moment()
-      .startOf("day")
-      .subtract(9, "month")
+      .startOf('day')
+      .subtract(9, 'month')
       .toDate();
     let startDate = null;
     let counterMap = {};
     let data = [];
     let max = null;
-    let colorRange = ["#ebedf0", "#ff0000"];
+    let colorRange = ['#ebedf0', '#ff0000'];
     let tooltipEnabled = true;
-    let tooltipUnit = "emission";
+    let tooltipUnit = 'emission';
     let legendEnabled = true;
     let onClick = null;
     let weekStart = 0; //0 for Sunday, 1 for Monday
     let locale = {
-      months: [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ],
-      days: ["S", "M", "T", "W", "T", "F", "S"],
-      No: "No",
-      on: "on",
-      Less: "Less",
-      More: "More"
+      months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+      days: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
+      No: 'No',
+      on: 'on',
+      Less: 'Less',
+      More: 'More'
     };
-    let v = Number(d3.version.split(".")[0]);
+    let v = Number(d3.version.split('.')[0]);
 
     // setters and getters
     chart.data = function(value) {
@@ -79,7 +59,7 @@ export default class DailyEmission extends Component {
       counterMap = {};
 
       data.forEach(function(element, index) {
-        let key = moment(element.date).format("YYYY-MM-DD");
+        let key = moment(element.date).format('YYYY-MM-DD');
         let counter = counterMap[key] || 0;
         counterMap[key] = counter + element.count;
       });
@@ -109,8 +89,8 @@ export default class DailyEmission extends Component {
       }
       yearAgo = value;
       now = moment(value)
-        .endOf("day")
-        .add(1, "year")
+        .endOf('day')
+        .add(1, 'year')
         .toDate();
       return chart;
     };
@@ -165,18 +145,18 @@ export default class DailyEmission extends Component {
 
     function chart() {
       d3.select(chart.selector())
-        .selectAll("svg.calendar-heatmap")
+        .selectAll('svg.calendar-heatmap')
         .remove(); // remove the existing chart, if it exists
 
-      let dateRange = ((d3.time && d3.time.days) || d3.timeDays)(yearAgo, now); // generates an array of date objects within the specified range
-      let monthRange = ((d3.time && d3.time.months) || d3.timeMonths)(
+      let dateRange = d3.timeDays(yearAgo, now); // generates an array of date objects within the specified range
+      let monthRange = d3.timeMonths(
         moment(yearAgo)
-          .startOf("month")
+          .startOf('month')
           .toDate(),
         now
       ); // it ignores the first month if the 1st date is after the start of the month
       let firstDate = moment(dateRange[0]);
-      if (chart.data().length == 0) {
+      if (chart.data().length === 0) {
         max = 0;
       } else if (max === null) {
         max = d3.max(chart.data(), function(d) {
@@ -185,7 +165,8 @@ export default class DailyEmission extends Component {
       }
 
       // color range
-      let color = ((d3.scale && d3.scale.linear) || d3.scaleLinear)()
+      let color = d3
+        .scaleLinear()
         .range(chart.colorRange())
         .domain([0, max]);
 
@@ -197,72 +178,66 @@ export default class DailyEmission extends Component {
       function drawChart() {
         let svg = d3
           .select(chart.selector())
-          .style("position", "relative")
-          .append("svg")
-          .attr("width", width)
-          .attr("class", "calendar-heatmap")
-          .attr("height", height)
-          .style("padding", "36px");
+          .style('position', 'relative')
+          .append('svg')
+          .attr('width', width)
+          .attr('class', 'calendar-heatmap')
+          .attr('height', height)
+          .style('padding', '36px');
 
-        dayRects = svg.selectAll(".day-cell").data(dateRange); //  array of days for the last yr
+        dayRects = svg.selectAll('.day-cell').data(dateRange); //  array of days for the last yr
 
         let enterSelection = dayRects
           .enter()
-          .append("rect")
-          .attr("class", "day-cell")
-          .attr("width", SQUARE_LENGTH)
-          .attr("height", SQUARE_LENGTH)
-          .attr("fill", function(d) {
+          .append('rect')
+          .attr('class', 'day-cell')
+          .attr('width', SQUARE_LENGTH)
+          .attr('height', SQUARE_LENGTH)
+          .attr('fill', function(d) {
             return color(countForDate(d));
           })
-          .attr("x", function(d, i) {
+          .attr('x', function(d, i) {
             let cellDate = moment(d);
             let result =
               cellDate.week() -
               firstDate.week() +
-              firstDate.weeksInYear() *
-                (cellDate.weekYear() - firstDate.weekYear());
+              firstDate.weeksInYear() * (cellDate.weekYear() - firstDate.weekYear());
             return result * (SQUARE_LENGTH + SQUARE_PADDING);
           })
-          .attr("y", function(d, i) {
+          .attr('y', function(d, i) {
             return (
-              MONTH_LABEL_PADDING +
-              formatWeekday(d.getDay()) * (SQUARE_LENGTH + SQUARE_PADDING)
+              MONTH_LABEL_PADDING + formatWeekday(d.getDay()) * (SQUARE_LENGTH + SQUARE_PADDING)
             );
           })
-          .attr("style", "transform: translateY(10px);");
+          .attr('style', 'transform: translateY(10px);');
 
-        if (typeof onClick === "function") {
-          (v === 3 ? enterSelection : enterSelection.merge(dayRects)).on(
-            "click",
-            function(d) {
-              let count = countForDate(d);
-              onClick({ date: d, count: count });
-            }
-          );
+        if (typeof onClick === 'function') {
+          (v === 3 ? enterSelection : enterSelection.merge(dayRects)).on('click', function(d) {
+            let count = countForDate(d);
+            onClick({ date: d, count: count });
+          });
         }
 
         if (chart.tooltipEnabled()) {
           (v === 3 ? enterSelection : enterSelection.merge(dayRects))
-            .on("mouseenter", function(d, i) {
+            .on('mouseenter', function(d, i) {
               tooltip = d3
                 .select(chart.selector())
-                .append("div")
-                .attr("class", "day-cell-tooltip")
+                .append('div')
+                .attr('class', 'day-cell-tooltip')
                 .html(tooltipHTMLForDate(d))
-                .style("left", function() {
-                  return Math.floor(i / 7) * SQUARE_LENGTH + "px";
+                .style('left', function() {
+                  return Math.floor(i / 7) * SQUARE_LENGTH + 'px';
                 })
-                .style("top", function() {
+                .style('top', function() {
                   return (
-                    formatWeekday(d.getDay()) *
-                      (SQUARE_LENGTH + SQUARE_PADDING) +
+                    formatWeekday(d.getDay()) * (SQUARE_LENGTH + SQUARE_PADDING) +
                     MONTH_LABEL_PADDING * 2 +
-                    "px"
+                    'px'
                   );
                 });
             })
-            .on("mouseout", function(d, i) {
+            .on('mouseout', function(d, i) {
               tooltip.remove();
             });
         }
@@ -273,109 +248,90 @@ export default class DailyEmission extends Component {
             colorRange.push(color(max / i));
           }
 
-          let legendGroup = svg.append("g");
+          let legendGroup = svg.append('g');
           legendGroup
-            .selectAll(".calendar-heatmap-legend")
+            .selectAll('.calendar-heatmap-legend')
             .data(colorRange)
             .enter()
-            .append("rect")
-            .attr("class", "calendar-heatmap-legend")
-            .attr("width", SQUARE_LENGTH)
-            .attr("height", SQUARE_LENGTH)
-            .attr("x", function(d, i) {
+            .append('rect')
+            .attr('class', 'calendar-heatmap-legend')
+            .attr('width', SQUARE_LENGTH)
+            .attr('height', SQUARE_LENGTH)
+            .attr('x', function(d, i) {
               return width - legendWidth + (i + 1) * 13;
             })
-            .attr("y", height + SQUARE_PADDING + 30)
-            .attr("fill", function(d) {
+            .attr('y', height + SQUARE_PADDING + 30)
+            .attr('fill', function(d) {
               return d;
             })
-            .attr("style", "transform: translateY(-50px);");
+            .attr('style', 'transform: translateY(-50px);');
 
           legendGroup
-            .append("text")
-            .attr(
-              "class",
-              "calendar-heatmap-legend-text calendar-heatmap-legend-text-less"
-            )
-            .attr("x", width - legendWidth - 13)
-            .attr("y", height + SQUARE_LENGTH)
+            .append('text')
+            .attr('class', 'calendar-heatmap-legend-text calendar-heatmap-legend-text-less')
+            .attr('x', width - legendWidth - 13)
+            .attr('y', height + SQUARE_LENGTH)
             .text(locale.Less)
-            .attr("style", "transform: translateY(-20px);");
+            .attr('style', 'transform: translateY(-20px);');
 
           legendGroup
-            .append("text")
-            .attr(
-              "class",
-              "calendar-heatmap-legend-text calendar-heatmap-legend-text-more"
-            )
-            .attr(
-              "x",
-              width -
-                legendWidth +
-                SQUARE_PADDING +
-                (colorRange.length + 1) * 13
-            )
-            .attr("y", height + SQUARE_LENGTH)
+            .append('text')
+            .attr('class', 'calendar-heatmap-legend-text calendar-heatmap-legend-text-more')
+            .attr('x', width - legendWidth + SQUARE_PADDING + (colorRange.length + 1) * 13)
+            .attr('y', height + SQUARE_LENGTH)
             .text(locale.More)
-            .attr("style", "transform: translateY(-20px);");
+            .attr('style', 'transform: translateY(-20px);');
         }
 
         dayRects.exit().remove();
-        let monthLabels = svg
-          .selectAll(".month")
+        svg
+          .selectAll('.month')
           .data(monthRange)
           .enter()
-          .append("text")
-          .attr("class", "month-name")
+          .append('text')
+          .attr('class', 'month-name')
           .text(function(d) {
-            if (d.getMonth() === new Date().getMonth() - 9) return "";
+            if (d.getMonth() === new Date().getMonth() - 9) return '';
             return locale.months[d.getMonth()];
           })
-          .attr("x", function(d, i) {
+          .attr('x', function(d, i) {
             let matchIndex = 0;
             dateRange.find(function(element, index) {
               matchIndex = index;
-              return (
-                moment(d).isSame(element, "month") &&
-                moment(d).isSame(element, "year")
-              );
+              return moment(d).isSame(element, 'month') && moment(d).isSame(element, 'year');
             });
 
-            return (
-              Math.floor(matchIndex / 7) * (SQUARE_LENGTH + SQUARE_PADDING)
-            );
+            return Math.floor(matchIndex / 7) * (SQUARE_LENGTH + SQUARE_PADDING);
           })
-          .attr("y", 0) // fix these to the top
-          .attr("style", "transform: translateY(10px);");
+          .attr('y', 0) // fix these to the top
+          .attr('style', 'transform: translateY(10px);');
 
         locale.days.forEach(function(day, index) {
           index = formatWeekday(index);
           if (index % 2) {
             svg
-              .append("text")
-              .attr("class", "day-initial")
+              .append('text')
+              .attr('class', 'day-initial')
               .attr(
-                "transform",
-                "translate(-8," +
-                  (SQUARE_LENGTH + SQUARE_PADDING) * (index + 1) +
-                  ")"
+                'transform',
+                'translate(-8,' + (SQUARE_LENGTH + SQUARE_PADDING) * (index + 1) + ')'
               )
-              .style("text-anchor", "middle")
-              .attr("dy", "2")
+              .style('text-anchor', 'middle')
+              .attr('dy', '2')
               .text(day);
           }
         });
       }
 
       function pluralizedTooltipUnit(count) {
-        if ("string" === typeof tooltipUnit) {
-          return tooltipUnit + (count === 1 ? "" : "s");
+        if ('string' === typeof tooltipUnit) {
+          return tooltipUnit + (count === 1 ? '' : 's');
         }
         for (let i in tooltipUnit) {
           let _rule = tooltipUnit[i];
           let _min = _rule.min;
           let _max = _rule.max || _rule.min;
-          _max = _max === "Infinity" ? Infinity : _max;
+          _max = _max === 'Infinity' ? Infinity : _max;
           if (count >= _min && count <= _max) {
             return _rule.unit;
           }
@@ -383,23 +339,23 @@ export default class DailyEmission extends Component {
       }
 
       function tooltipHTMLForDate(d) {
-        let dateStr = moment(d).format("ddd, MMM Do YYYY");
+        let dateStr = moment(d).format('ddd, MMM Do YYYY');
         let count = countForDate(d);
         return (
-          "<span><strong>" +
+          '<span><strong>' +
           (count ? count : locale.No) +
-          " " +
+          ' ' +
           pluralizedTooltipUnit(count) +
-          "</strong> " +
+          '</strong> ' +
           locale.on +
-          " " +
+          ' ' +
           dateStr +
-          "</span>"
+          '</span>'
         );
       }
 
       function countForDate(d) {
-        let key = moment(d).format("YYYY-MM-DD");
+        let key = moment(d).format('YYYY-MM-DD');
         return counterMap[key] || 0;
       }
 
@@ -414,7 +370,7 @@ export default class DailyEmission extends Component {
         return weekDay;
       }
 
-      let daysOfChart = chart.data().map(function(day) {
+      chart.data().map(function(day) {
         return day.date.toDateString();
       });
     }
@@ -426,7 +382,6 @@ export default class DailyEmission extends Component {
     getData().then(data => {
       let yearData = data;
       let chartData = yearData.map(dateElement => {
-        console.log(dateElement);
         return {
           date: new Date(dateElement.date),
           count: dateElement.quantity
@@ -437,9 +392,9 @@ export default class DailyEmission extends Component {
         .data(chartData)
         .selector(this.refs.jsHeatmap)
         .tooltipEnabled(true)
-        .colorRange(["#ebedf0", "#e1b809"])
+        .colorRange(['#ebedf0', '#e1b809'])
         .onClick(function(data) {
-          console.log("data", data);
+          console.log('data', data);
         })();
     });
   };
@@ -448,29 +403,26 @@ export default class DailyEmission extends Component {
     return (
       // <div style={{background: "#FFFFFF"}}>
       <Responsive as={Segment} raised className="screenhide">
-        <Header as="h3" style={{ display: "flex" }}>
+        <Header as="h3" style={{ display: 'flex' }}>
           <Icon name="leaf" />
           <Header.Content>
             Emissions Chart
-            <Header.Subheader>
-              Your CO2 emission for the past months
-            </Header.Subheader>
+            <Header.Subheader>Your CO2 emission for the past months</Header.Subheader>
           </Header.Content>
           <Button
             as={Link}
             to="/profile/enter"
             color="twitter"
-            style={{ marginLeft: "auto" }}
-            ref="entryModal"
-          >
+            style={{ marginLeft: 'auto' }}
+            ref="entryModal">
             <Icon name="add" />
             Today's entry
           </Button>
         </Header>
         <Divider />
-        <Grid centered>
-          <Grid.Column>
-            <div ref="jsHeatmap" style={{ margin: "-36px" }} />
+        <Grid centered columns={1}>
+          <Grid.Column style={{ textAlign: 'center' }}>
+            <div ref="jsHeatmap" style={{ margin: '-36px auto' }} />
           </Grid.Column>
         </Grid>
       </Responsive>
@@ -478,3 +430,5 @@ export default class DailyEmission extends Component {
     );
   }
 }
+
+export default withRouter(DailyEmission);

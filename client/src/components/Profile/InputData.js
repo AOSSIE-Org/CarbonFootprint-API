@@ -1,12 +1,6 @@
-import React, { Component } from "react";
-import { Grid, Input, Select, Button, Header } from "semantic-ui-react";
-import {
-  flightData,
-  trainData,
-  vehicleData,
-  poultryData,
-  appliancesData
-} from "./UtilDatafetch";
+import React, { Component } from 'react';
+import { Grid, Input, Select, Button, Header } from 'semantic-ui-react';
+import { flightData, trainData, vehicleData, poultryData, appliancesData } from './UtilDatafetch';
 
 export default class InputData extends Component {
   state = {
@@ -47,22 +41,16 @@ export default class InputData extends Component {
       appliance,
       running_time
     } = this.state.data;
-    let data;
     switch (this.state.value) {
       case 0:
-        appliancesData(
-          this.props.apikey,
-          appliance,
-          type,
-          region,
-          quantity,
-          running_time
-        ).then(data => {
-          this.setState({ emissions: data.emissions });
-          this.props.changeCalculation(this.props.index, {
-            emissions: this.state.emissions.CO2
-          });
-        });
+        appliancesData(this.props.apikey, appliance, type, region, quantity, running_time).then(
+          data => {
+            this.setState({ emissions: data.emissions });
+            this.props.changeCalculation(this.props.index, {
+              emissions: this.state.emissions.CO2
+            });
+          }
+        );
         break;
       case 1:
         poultryData(this.props.apikey, type, region, quantity).then(data => {
@@ -73,14 +61,7 @@ export default class InputData extends Component {
         });
         break;
       case 2:
-        flightData(
-          this.props.apikey,
-          origin,
-          destination,
-          type,
-          model,
-          passengers
-        ).then(data => {
+        flightData(this.props.apikey, origin, destination, type, model, passengers).then(data => {
           this.setState({ emissions: data.emissions });
           this.props.changeCalculation(this.props.index, {
             emissions: this.state.emissions.CO2
@@ -88,28 +69,17 @@ export default class InputData extends Component {
         });
         break;
       case 3:
-        vehicleData(
-          this.props.apikey,
-          origin,
-          destination,
-          type,
-          mileage,
-          mileage_unit
-        ).then(data => {
-          this.setState({ emissions: data.emissions });
-          this.props.changeCalculation(this.props.index, {
-            emissions: this.state.emissions.CO2
-          });
-        });
+        vehicleData(this.props.apikey, origin, destination, type, mileage, mileage_unit).then(
+          data => {
+            this.setState({ emissions: data.emissions });
+            this.props.changeCalculation(this.props.index, {
+              emissions: this.state.emissions.CO2
+            });
+          }
+        );
         break;
       case 4:
-        trainData(
-          this.props.apikey,
-          origin,
-          destination,
-          type,
-          passengers
-        ).then(data => {
+        trainData(this.props.apikey, origin, destination, type, passengers).then(data => {
           this.setState({ emissions: data.emissions });
           this.props.changeCalculation(this.props.index, {
             emissions: this.state.emissions.CO2
@@ -117,7 +87,7 @@ export default class InputData extends Component {
         });
         break;
       default:
-        console.log("no option");
+        console.log('no option');
         break;
     }
   };
@@ -125,7 +95,7 @@ export default class InputData extends Component {
   render() {
     const { params } = this.state;
     return (
-      <Grid style={{ marginLeft: "15px", width: "100%" }}>
+      <Grid style={{ marginLeft: '15px', width: '100%' }}>
         <Grid.Row>
           <Grid.Column mobile={8} computer={7} tablet={7}>
             <Select
@@ -140,13 +110,12 @@ export default class InputData extends Component {
           {this.state.emissions !== undefined && (
             <Grid.Column
               className="counter"
-              style={{ paddingTop: "0.6rem", marginRight: "1.6rem" }}
+              style={{ paddingTop: '0.6rem', marginRight: '1.6rem' }}
               floated="right"
               mobile={4}
               computer={4}
-              tablet={4}
-            >
-              <Header as="h3" style={{ width: "100px" }}>
+              tablet={4}>
+              <Header as="h3" style={{ width: '100px' }}>
                 {this.state.emissions.CO2.toFixed(2)} kg
               </Header>
             </Grid.Column>
@@ -161,17 +130,16 @@ export default class InputData extends Component {
                   placeholder={`${comps}`}
                   id={comps}
                   onChange={this.inputChange}
-                  style={{ marginTop: "-22px" }}
+                  style={{ marginTop: '-22px' }}
                 />
               </Grid.Column>
             ))}
             {params.length !== 0 && (
-              <Grid.Column style={{ marginTop: "-22px" }}>
+              <Grid.Column style={{ marginTop: '-22px' }}>
                 <Button
-                  style={{ paddingRight: "10px", paddingLeft: "10px" }}
+                  style={{ paddingRight: '10px', paddingLeft: '10px' }}
                   fluid
-                  onClick={this.calculate}
-                >
+                  onClick={this.calculate}>
                   Calculate
                 </Button>
               </Grid.Column>
@@ -185,24 +153,24 @@ export default class InputData extends Component {
 
 const paramSource = [
   {
-    title: "appliances",
-    params: ["appliance", "type", "region", "quantity", "runnning_time"]
+    title: 'appliances',
+    params: ['appliance', 'type', 'region', 'quantity', 'runnning_time']
   },
   {
-    title: "poultry",
-    params: ["type", "region", "quantity"]
+    title: 'poultry',
+    params: ['type', 'region', 'quantity']
   },
   {
-    title: "flight",
-    params: ["origin", "destination", "type", "model", "passengers"]
+    title: 'flight',
+    params: ['origin', 'destination', 'type', 'model', 'passengers']
   },
   {
-    title: "vehicle",
-    params: ["type", "origin", "destination", "mileage", "mileage_unit"]
+    title: 'vehicle',
+    params: ['type', 'origin', 'destination', 'mileage', 'mileage_unit']
   },
   {
-    title: "trains",
-    params: ["type", "origin", "destination", "passengers"]
+    title: 'trains',
+    params: ['type', 'origin', 'destination', 'passengers']
   }
 ];
 
