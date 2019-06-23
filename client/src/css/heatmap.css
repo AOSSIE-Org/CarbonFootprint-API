@@ -33,7 +33,7 @@ rect.day-cell:hover {
 }
 
 @media screen and (min-width: 1100px) {
-  input {
+  div.tempclass > input {
     min-width: 376px;
   }
 }
@@ -44,5 +44,11 @@ rect.day-cell:hover {
   }
   .screenhide {
     display: none;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .counter {
+    margin-left: 0.6rem !important;
   }
 }

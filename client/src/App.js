@@ -15,6 +15,7 @@ import Structured from './components/DataUpload/Structured';
 import Unstructured from './components/DataUpload/Unstructured';
 import DataVerify from './components/DataUpload/DataVerify';
 import Footer from './components/Footer/Footer';
+import DailyDetails from './components/Profile/DailyDetails';
 
 const auth = new Auth();
 
@@ -34,11 +35,18 @@ export default class App extends React.Component {
                         <Switch>
                             <Route exact path="/" component={Visuals} />
                             <Route path="/visuals/:type" component={Graph} />
-                            <Route path="/profile" render={(props) => (
+                            <Route exact path="/profile" render={(props) => (
                                 !auth.isAuthenticated() ? (
                                     <Redirect to="/" />
                                 ) : (
                                         <Profile auth={auth} />
+                                    )
+                            )} />
+                            <Route path="/profile/enter" render={(props) => (
+                                !auth.isAuthenticated() ? (
+                                    <Redirect to="/" />
+                                ) : (
+                                        <DailyDetails />
                                     )
                             )} />
                             <Route path="/explorer" render={(props) => (
