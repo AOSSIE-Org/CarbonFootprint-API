@@ -49,6 +49,9 @@
     "node-geocoder": "^3.22.0",
     "redis": "^2.8.0",
     "serve-favicon": "^2.5.0",
+    "semantic-ui-react": "^0.81.0",
+    "swagger-jsdoc": "^3.2.7",
+    "swagger-ui-express": "^4.0.2",
     "topojson-client": "^3.0.0",
     "uuid": "^3.1.0",
     "winston": "^2.4.1"
