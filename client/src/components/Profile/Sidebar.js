@@ -69,26 +69,27 @@ export default class Sidebar extends Component {
         </Menu.Item>
 
         <Menu.Item
-          name= "explorer"
-          active= {activeItem === 'explorer'}
-        >
-        <Link to = {"/explorer"}>
-          <span>
-            <Icon name="edit" /> API Explorer
-          </span>
-        </Link>
-        </Menu.Item>
-
-        <Menu.Item
           name= "Data Upload"
           active= {activeItem === 'Data Upload'}
         >
         <Link to= {"/DataUpload"}>
           <span>
-            <Icon name= "file" /> Data Upload
+            <Icon name= "upload" /> Data Upload
           </span>
         </Link>
         </Menu.Item>
+
+        <Menu.Item
+          name= "Swagger Docs"
+          active= {activeItem === 'Data Upload'}
+        >
+        <a href="/api/docs" target="_blank" rel="noopener noreferrer">
+          <span>
+            <Icon name="wpforms" /> Swagger Documentation
+          </span>
+        </a>
+        </Menu.Item>
+
 
         <Menu.Item
           name= "Verify Data"
@@ -96,7 +97,7 @@ export default class Sidebar extends Component {
         >
         <Link to= {"/dataVerify"}>
           <span>
-            <Icon name= "file" /> Verify Data
+            <Icon name= "check circle" /> Verify Data
           </span>
         </Link>
         </Menu.Item>
