@@ -10,7 +10,7 @@ echo New master fetched
 
 # Update docs
 cd docs
-gitbook build
+sudo gitbook build
 cd ..
 echo Docs Updated
 
