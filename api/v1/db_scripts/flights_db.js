@@ -3,6 +3,7 @@ require('module-alias/register');
 //To run this script use "node flights_db.js"
 // database setup
 const mongoose = require('mongoose');
+mongoose.Promise = global.Promise;
 // get the logger
 const Logger = require('@framework/Logger');
 // get the database configuration file

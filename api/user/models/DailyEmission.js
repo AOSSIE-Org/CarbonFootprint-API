@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+mongoose.Promise = global.Promise;
 
 const DailyEmissionSchema = new mongoose.Schema({
   email: {

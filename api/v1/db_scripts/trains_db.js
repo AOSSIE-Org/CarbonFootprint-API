@@ -3,6 +3,7 @@ require('module-alias/register');
 //run node trains_db.js to add data to db.
 // database setup
 const mongoose = require('mongoose');
+mongoose.Promise = global.Promise;
 // get the logger
 const Logger  = require('@framework/Logger');
 // get the database configuration file
