@@ -1,6 +1,6 @@
 require('module-alias/register');
 
-//To run this script use "node electricity_db_generation.js"
+// To run this script use "node electricity_db_generation.js"
 // database setup
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
@@ -9,21 +9,22 @@ const Logger = require('@framework/Logger');
 // get the database configuration file
 const config = require('@root/config.json');
 const async = require('async');
+
 try {
-  config
+  config;
 } catch (e) {
-  Logger.error(`Database configuration file "config.json" is missing.`);
+  Logger.error('Database configuration file "config.json" is missing.');
   process.exit(1);
 }
 const db = config.database;
 
 // connect to the database
-mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, {useMongoClient: true});
+mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, { useMongoClient: true });
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
   Logger.info('Connection to database established successfully');
-  Logger.info("electricity_db_generation.js running");
+  Logger.info('electricity_db_generation.js running');
 });
 
 // If the connection throws an error
@@ -35,34 +36,35 @@ mongoose.connection.on('error', (err) => {
 mongoose.connection.on('disconnected', () => {
   Logger.info('Database disconnected');
 });
-const Emission = require('../models/emissionModel.js');
 const json = require('@raw_data/electricity_emission.json');
+const Emission = require('../models/emissionModel.js');
+
 emissions = [];
-for(js in json){
-  let obj = new Emission();
-  obj.item = "generation";
-  obj.region = json[js]['Country'];
+for (js in json) {
+  const obj = new Emission();
+  obj.item = 'generation';
+  obj.region = json[js].Country;
   obj.quantity = [1];
-  obj.unit = "kg/kWh";
-  obj.categories = ["electricity"];
+  obj.unit = 'kg/kWh';
+  obj.categories = ['electricity'];
   obj.components = [
     {
-      name: "CO2",
+      name: 'CO2',
       quantity: [json[js]['Generation-CO2']],
-      unit: "kg CO2/kWh"
+      unit: 'kg CO2/kWh',
     }, {
-      name: "CH4",
+      name: 'CH4',
       quantity: [json[js]['Generation-CH4']],
-      unit: "kg CH4/kWh"
+      unit: 'kg CH4/kWh',
     }, {
-      name: "N2O",
+      name: 'N2O',
       quantity: [json[js]['Generation-N2O']],
-      unit: "kg N2O/kWh"
+      unit: 'kg N2O/kWh',
     }];
   emissions.push(obj);
 }
 
-Emission.create(emissions, function (err) {
+Emission.create(emissions, (err) => {
   if (err) throw err;
   mongoose.connection.close();
 });

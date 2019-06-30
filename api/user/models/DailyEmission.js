@@ -1,23 +1,24 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
+
 mongoose.Promise = global.Promise;
 
 const DailyEmissionSchema = new mongoose.Schema({
   email: {
     type: String,
     trim: true,
-    required: true
+    required: true,
   },
   date: {
     type: Date,
     required: true,
-    default: new Date(new Date().toDateString())
+    default: new Date(new Date().toDateString()),
   },
   quantity: {
     type: Number,
-    required: true
-  }
+    required: true,
+  },
 });
 
-const DailyEmission = mongoose.model("DailyEmission", DailyEmissionSchema);
+const DailyEmission = mongoose.model('DailyEmission', DailyEmissionSchema);
 
 module.exports = DailyEmission;

@@ -1,6 +1,6 @@
 require('module-alias/register');
 
-//To run this script use "node appliances_db.js"
+// To run this script use "node appliances_db.js"
 // database setup
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
@@ -9,21 +9,22 @@ const Logger = require('@framework/Logger');
 // get the database configuration file
 const config = require('@root/config.json');
 const async = require('async');
+
 try {
-  config
+  config;
 } catch (e) {
-  Logger.error(`Database configuration file "config.json" is missing.`);
+  Logger.error('Database configuration file "config.json" is missing.');
   process.exit(1);
 }
 const db = config.database;
 
 // connect to the database
-mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, {useMongoClient: true});
+mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, { useMongoClient: true });
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
   Logger.info('Connection to database established successfully');
-  Logger.info("appliances_db.js running");
+  Logger.info('appliances_db.js running');
 });
 
 // If the connection throws an error
@@ -37,23 +38,24 @@ mongoose.connection.on('disconnected', () => {
 });
 const json = require('@raw_data/appliances.json');
 const Emission = require('../models/emissionModel.js');
+
 emissions = [];
 for (js in json) {
-  let obj = new Emission();
-  obj.item = json[js]['Appliance'];
-  obj.region = "Default";
+  const obj = new Emission();
+  obj.item = json[js].Appliance;
+  obj.region = 'Default';
   obj.quantity = [1];
-  obj.unit = "kWh";
-  obj.categories = ["appliances"];
+  obj.unit = 'kWh';
+  obj.categories = ['appliances'];
   obj.components = [{
-    name: "electricity",
+    name: 'electricity',
     quantity: json[js]['Average_watts (in Wh)'] / 1000,
-    unit: "kWh"
+    unit: 'kWh',
   }];
   emissions.push(obj);
 }
 
-Emission.create(emissions, function (err) {
+Emission.create(emissions, (err) => {
   if (err) throw err;
   mongoose.connection.close();
 });

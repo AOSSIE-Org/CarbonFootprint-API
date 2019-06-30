@@ -7,9 +7,9 @@ const Logger = new winston.Logger({
       prettyPrint: true,
       colorize: true,
       silent: false,
-      timestamp: false
+      timestamp: false,
     }),
-    new winston.transports.File({level: 'debug',filename: 'dev.log'}),
+    new winston.transports.File({ level: 'debug', filename: 'dev.log' }),
   ],
 });
 
