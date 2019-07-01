@@ -17,6 +17,7 @@ var cors = require('cors');
 
 // database setup
 var mongoose = require('mongoose');
+mongoose.Promise = global.Promise;
 // connect to the database
 mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`, { useMongoClient: true });
 
@@ -42,6 +43,7 @@ var emissions = require('./api/v1/routes/emissionRoutes');
 var suggestedData = require('./routes/suggestedData');
 var auth = require('./api/auth/routes/apikeyRoute');
 let individualEmission = require('./api/user/routes/dailyEmissionRoute');
+const swagger = require('./api/v1/routes/swagger');
 
 const Auth = require('./api/auth/controllers/authController');
 
@@ -102,6 +104,9 @@ app.use(customErrorFunctions);
 var v1 = express.Router();
 v1.use(Auth.verifyApiKey);
 v1.use('/', emissions);
+
+//route for documentation
+app.use('/api/docs', swagger);
 
 //routes for authorization key generation
 var authroute = express.Router();

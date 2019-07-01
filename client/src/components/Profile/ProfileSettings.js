@@ -252,7 +252,7 @@ export default class ProfileSettings extends Component {
                     <Grid.Column computer={10} mobile={16} tablet={6}>
                       <Form.Input
                         className="setmargin"
-                        style={{ marginBottom: "10px" }}
+                        style={{ marginBottom: 10, marginLeft: 10 }}
                         value={
                           this.state.key ? this.state.key : "Generate an API access key"
                         }
