@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 const multer = require('multer');
 const fs = require('fs');
-const suggestedData = require('../models/suggestedDataModel');
+const SuggestedData = require('../models/suggestedDataModel');
 
 const storage = multer.diskStorage({
   destination(req, file, cb) {
@@ -17,7 +17,7 @@ const upload = multer({ storage });
 
 router.post('/', (req, res) => {
   console.log(req.body);
-  const newSuggestedData = new suggestedData({
+  const newSuggestedData = new SuggestedData({
     title: req.body.title,
     data: req.body.data,
     createdby: req.body.useremail,
@@ -29,58 +29,60 @@ router.post('/', (req, res) => {
     } else {
       console.log('Successfully saved!');
       console.log(data);
+      res.send(data);
     }
   });
 });
 
 router.get('/fetchData', (req, res) => {
-  suggestedData.find({}, (err, fetch) => {
+  SuggestedData.find({}, (err, fetch) => {
     console.log(fetch);
+    res.send(fetch);
   });
 });
 
 router.post('/approveData', (req, res) => {
-  suggestedData.findById({ _id: req.body.data_id }, (err, approve) => {
+  SuggestedData.findById({ _id: req.body.data_id }, (err, approve) => {
     if (approve.title === 'Airports') {
-      fs.readFile(`${process.cwd()}/raw_data/airports.json`, (err, file) => {
+      fs.readFile(`${process.cwd()}/raw_data/airports.json`, (err2, file) => {
         const head = approve.data['Airport Code'];
         const jsonHead = head.toUpperCase();
         const { lat } = approve.data;
         const { lon } = approve.data;
         const jsonArray = JSON.parse(file);
-        jsonArray[jsonHead] = { lat: parseInt(lat), lon: parseInt(lon) };
-        fs.writeFile(`${process.cwd()}/raw_data/airports.json`, JSON.stringify(jsonArray), (err, result) => {
-          if (err) {
-            console.log(err);
+        jsonArray[jsonHead] = { lat: parseInt(lat, 10), lon: parseInt(lon, 10) };
+        fs.writeFile(`${process.cwd()}/raw_data/airports.json`, JSON.stringify(jsonArray), (err3) => {
+          if (err3) {
+            console.log(err3);
           } else {
             console.log('successfully approved');
           }
         });
       });
     } else if (approve.title === 'Appliances Data') {
-      fs.readFile(`${process.cwd()}/raw_data/appliances.json`, (err, file) => {
+      fs.readFile(`${process.cwd()}/raw_data/appliances.json`, (err2, file) => {
         const appliance = approve.data.Appliance;
         const diss = approve.data['Average_watts (in Wh)'];
         const { place } = approve.data;
         const jsonArray = JSON.parse(file);
-        jsonArray.push({ Appliance: appliance, 'Average_watts (in Wh)': parseInt(diss) });
-        fs.writeFile(`${process.cwd()}/raw_data/appliances.json`, JSON.stringify(jsonArray), (err, result) => {
-          if (err) {
-            console.log(err);
+        jsonArray.push({ Appliance: appliance, 'Average_watts (in Wh)': parseInt(diss, 10) });
+        fs.writeFile(`${process.cwd()}/raw_data/appliances.json`, JSON.stringify(jsonArray), (err21) => {
+          if (err21) {
+            console.log(err21);
           } else {
             console.log('successfully approved');
           }
         });
-        fs.readFile(`${process.cwd()}/client/public/data/appliances.json`, (err, file) => {
-          const jarray = JSON.parse(file);
-          data = {
+        fs.readFile(`${process.cwd()}/client/public/data/appliances.json`, (err3, file2) => {
+          const jarray = JSON.parse(file2);
+          const data = {
             item: appliance,
             val: `${diss}`,
           };
           jarray[place].push(data);
-          fs.writeFile(`${process.cwd()}/client/public/data/appliances.json`, JSON.stringify(jarray), (err, result) => {
-            if (err) {
-              console.log(err);
+          fs.writeFile(`${process.cwd()}/client/public/data/appliances.json`, JSON.stringify(jarray), (err4) => {
+            if (err4) {
+              console.log(err4);
             } else {
               console.log('successfully added to front-end data');
             }
@@ -88,21 +90,21 @@ router.post('/approveData', (req, res) => {
         });
       });
     } else if (approve.title === 'Country Code') {
-      fs.readFile(`${process.cwd()}/raw_data/countrycode.json`, (err, file) => {
+      fs.readFile(`${process.cwd()}/raw_data/countrycode.json`, (err2, file) => {
         const { name } = approve.data;
         const { code } = approve.data;
         const jsonArray = JSON.parse(file);
         jsonArray.push({ name, code: code.toUpperCase() });
-        fs.writeFile(`${process.cwd()}/raw_data/countrycode.json`, JSON.stringify(jsonArray), (err, result) => {
-          if (err) {
-            console.log(err);
+        fs.writeFile(`${process.cwd()}/raw_data/countrycode.json`, JSON.stringify(jsonArray), (err3) => {
+          if (err3) {
+            console.log(err3);
           } else {
             console.log('successfully approved');
           }
         });
       });
     } else if (approve.title === 'Electricity Emission') {
-      fs.readFile(`${process.cwd()}/raw_data/electricity_emission.json`, (err, file) => {
+      fs.readFile(`${process.cwd()}/raw_data/electricity_emission.json`, (err2, file) => {
         const country = approve.data.Country;
         const { code } = approve.data;
         const genCO2 = approve.data['Generation-CO2'];
@@ -128,14 +130,14 @@ router.post('/approveData', (req, res) => {
           'Consum-N2O': `${consumN20}`,
         };
         jsonArray.push(data);
-        fs.writeFile(`${process.cwd()}/raw_data/electricity_emission.json`, JSON.stringify(jsonArray), (err, result) => {
-          if (err) {
-            console.log(err);
+        fs.writeFile(`${process.cwd()}/raw_data/electricity_emission.json`, JSON.stringify(jsonArray), (err3) => {
+          if (err3) {
+            console.log(err3);
           } else {
             console.log('successfully approved');
           }
         });
-        fs.readFile(`${process.cwd()}/raw_data/electricity.json`, (err, file) => {
+        fs.readFile(`${process.cwd()}/raw_data/electricity.json`, () => {
           const obj1 = {
             item: 'generation',
             region: data.Country,
@@ -162,15 +164,15 @@ router.post('/approveData', (req, res) => {
           };
           const elecArray = JSON.parse(file);
           elecArray.push(obj1, obj2);
-          fs.writeFile(`${process.cwd()}/raw_data/electricity.json`, JSON.stringify(elecArray), (err, result) => {
-            if (err) {
-              console.log(err);
+          fs.writeFile(`${process.cwd()}/raw_data/electricity.json`, JSON.stringify(elecArray), (err4) => {
+            if (err4) {
+              console.log(err4);
             } else {
               console.log('successfully approved');
             }
           });
         });
-        fs.readFile(`${process.cwd()}/client/public/data/electricity.json`, (err, file) => {
+        fs.readFile(`${process.cwd()}/client/public/data/electricity.json`, () => {
           const jarray = JSON.parse(file);
           jarray[code] = {
             name: country,
@@ -182,13 +184,13 @@ router.post('/approveData', (req, res) => {
           const newj = {};
           Object.keys(jarray)
             .sort()
-            .forEach((v, i) => {
+            .forEach((v) => {
               console.log(v, jarray[v]);
               newj[v] = jarray[v];
             });
-          fs.writeFile(`${process.cwd()}/client/public/data/electricity.json`, JSON.stringify(newj), (err, result) => {
-            if (err) {
-              console.log(err);
+          fs.writeFile(`${process.cwd()}/client/public/data/electricity.json`, JSON.stringify(newj), (err3) => {
+            if (err3) {
+              console.log(err3);
             } else {
               console.log('successfully added to front-end data');
             }
@@ -196,7 +198,7 @@ router.post('/approveData', (req, res) => {
         });
       });
     } else if (approve.title === 'Flights') {
-      fs.readFile(`${process.cwd()}/raw_data/flights.json`, (err, file) => {
+      fs.readFile(`${process.cwd()}/raw_data/flights.json`, (err2, file) => {
         const d1 = approve.data['125'];
         const d2 = approve.data['250'];
         const d3 = approve.data['500'];
@@ -243,25 +245,25 @@ router.post('/approveData', (req, res) => {
           'airplane model': model,
         };
         jsonArray.push(data);
-        fs.writeFile(`${process.cwd()}/raw_data/flights.json`, JSON.stringify(jsonArray), (err, result) => {
-          if (err) {
-            console.log(err);
+        fs.writeFile(`${process.cwd()}/raw_data/flights.json`, JSON.stringify(jsonArray), (err3) => {
+          if (err3) {
+            console.log(err3);
           } else {
             console.log('successfully approved');
           }
         });
-        fs.readFile(`${process.cwd()}/client/public/data/flights.json`, (err, file) => {
-          const jarray = JSON.parse(file);
+        fs.readFile(`${process.cwd()}/client/public/data/flights.json`, (err3, file1) => {
+          const jarray = JSON.parse(file1);
           jarray[model] = data;
           const newdata = {};
           Object.keys(jarray)
             .sort()
-            .forEach((v, i) => {
+            .forEach((v) => {
               newdata[v] = jarray[v];
             });
-          fs.writeFile(`${process.cwd()}/client/public/data/flights.json`, JSON.stringify(newdata), (err, result) => {
-            if (err) {
-              console.log(err);
+          fs.writeFile(`${process.cwd()}/client/public/data/flights.json`, JSON.stringify(newdata), (err4) => {
+            if (err4) {
+              console.log(err4);
             } else {
               console.log('successfully appended to front-end data');
             }
@@ -269,13 +271,14 @@ router.post('/approveData', (req, res) => {
         });
       });
     } else if (approve.title === 'Fuels') {
-      fs.readFile(`${process.cwd()}/raw_data/fuels.json`, (err, file) => {
+      fs.readFile(`${process.cwd()}/raw_data/fuels.json`, (err2, file) => {
         const fname = approve.data.Fuel;
         const { langKey } = approve.data;
         const coem = approve.data.CO2Emission;
         const chem = approve.data.CH4Emission;
         const noem = approve.data.N2OEmission;
         const ghgem = approve.data.GHGEmission;
+        // eslint-disable-next-line no-underscore-dangle
         const comment = approve.data._comments;
         const jsonArray = JSON.parse(file);
         jsonArray[fname] = {
@@ -286,16 +289,16 @@ router.post('/approveData', (req, res) => {
           GHGEmission: `${ghgem}`,
           _comments: comment,
         };
-        fs.writeFile(`${process.cwd()}/raw_data/fuels.json`, JSON.stringify(jsonArray), (err, result) => {
-          if (err) {
-            console.log(err);
+        fs.writeFile(`${process.cwd()}/raw_data/fuels.json`, JSON.stringify(jsonArray), (err3) => {
+          if (err3) {
+            console.log(err3);
           } else {
             console.log('successfully approved');
           }
         });
       });
     } else if (approve.title === 'Per Capita') {
-      fs.readFile(`${process.cwd()}/raw_data/percap.json`, (err, file) => {
+      fs.readFile(`${process.cwd()}/raw_data/percap.json`, (err2, file) => {
         const d1 = approve.data['1990'];
         const d2 = approve.data['1991'];
         const d3 = approve.data['1992'];
@@ -367,15 +370,15 @@ router.post('/approveData', (req, res) => {
           Footnotes: '',
           Type: '',
         });
-        fs.writeFile(`${process.cwd()}/raw_data/percap.json`, JSON.stringify(jsonArray), (err, result) => {
-          if (err) {
-            console.log(err);
+        fs.writeFile(`${process.cwd()}/raw_data/percap.json`, JSON.stringify(jsonArray), (err3) => {
+          if (err3) {
+            console.log(err3);
           } else {
             console.log('successfully approved');
           }
         });
-        fs.readFile(`${process.cwd()}/client/public/data/percap.json`, (err, file) => {
-          const jarray = JSON.parse(file);
+        fs.readFile(`${process.cwd()}/client/public/data/percap.json`, (err3, file2) => {
+          const jarray = JSON.parse(file2);
           const data = {
             1990: d1,
             1991: d2,
@@ -411,12 +414,12 @@ router.post('/approveData', (req, res) => {
           const newdata = {};
           Object.keys(jarray)
             .sort()
-            .forEach((v, i) => {
+            .forEach((v) => {
               newdata[v] = jarray[v];
             });
-          fs.writeFile(`${process.cwd()}/client/public/data/percap.json`, JSON.stringify(newdata), (err, result) => {
-            if (err) {
-              console.log(err);
+          fs.writeFile(`${process.cwd()}/client/public/data/percap.json`, JSON.stringify(newdata), (err4) => {
+            if (err4) {
+              console.log(err4);
             } else {
               console.log('successfully appended to front-end data');
             }
@@ -424,7 +427,7 @@ router.post('/approveData', (req, res) => {
         });
       });
     } else if (approve.title === 'Poultry') {
-      fs.readFile(`${process.cwd()}/raw_data/poultry.json`, (err, file) => {
+      fs.readFile(`${process.cwd()}/raw_data/poultry.json`, (err2, file) => {
         const { type } = approve.data;
         const { region } = approve.data;
         const pfem = approve.data.pf_emissions;
@@ -441,16 +444,16 @@ router.post('/approveData', (req, res) => {
           ml_factor: mlfactor,
           unit: 'kg',
         });
-        fs.writeFile(`${process.cwd()}/raw_data/poultry.json`, JSON.stringify(jsonArray), (err, result) => {
-          if (err) {
-            console.log(err);
+        fs.writeFile(`${process.cwd()}/raw_data/poultry.json`, JSON.stringify(jsonArray), (err3) => {
+          if (err3) {
+            console.log(err3);
           } else {
             console.log('successfully approved');
           }
         });
       });
     } else if (approve.title === 'Trains') {
-      fs.readFile(`${process.cwd()}/raw_data/trains.json`, (err, file) => {
+      fs.readFile(`${process.cwd()}/raw_data/trains.json`, (err2, file) => {
         const { trainType } = approve.data;
         const co2 = approve.data.CO2;
         const no2 = approve.data.NO2;
@@ -470,33 +473,33 @@ router.post('/approveData', (req, res) => {
           unit: 'kg/km',
           'M.F.(multiply factor)': mf,
         };
-        fs.writeFile(`${process.cwd()}/raw_data/trains.json`, JSON.stringify(jsonArray), (err, result) => {
-          if (err) {
-            console.log(err);
+        fs.writeFile(`${process.cwd()}/raw_data/trains.json`, JSON.stringify(jsonArray), (err3) => {
+          if (err3) {
+            console.log(err3);
           } else {
             console.log('successfully approved');
           }
         });
       });
     } else if (approve.title === 'Trees') {
-      fs.readFile(`${process.cwd()}/raw_data/trees.json`, (err, file) => {
+      fs.readFile(`${process.cwd()}/raw_data/trees.json`, (err2, file) => {
         const treeName = `${approve.data.treename}`;
         const { emission } = approve.data;
         const jsonArray = JSON.parse(file);
-        jsonArray.treeData[treeName] = parseInt(emission);
-        fs.writeFile(`${process.cwd()}/raw_data/trees.json`, JSON.stringify(jsonArray), (err, result) => {
-          if (err) {
-            console.log(err);
+        jsonArray.treeData[treeName] = parseInt(emission, 10);
+        fs.writeFile(`${process.cwd()}/raw_data/trees.json`, JSON.stringify(jsonArray), (err3) => {
+          if (err3) {
+            console.log(err3);
           } else {
             console.log('successfully approved');
           }
         });
       });
     } else {
-      console.error;
+      console.error(new Error('Not found'));
     }
   });
-  suggestedData.findByIdAndRemove({ _id: req.body.data_id }, (err, approved) => {
+  SuggestedData.findByIdAndRemove({ _id: req.body.data_id }, (err) => {
     if (err) {
       res.send(400).json(err);
     } else {
@@ -506,7 +509,7 @@ router.post('/approveData', (req, res) => {
 });
 
 router.post('/rejectData', (req, res) => {
-  suggestedData.findByIdAndRemove({ _id: req.body.data_id }, (err, reject) => {
+  SuggestedData.findByIdAndRemove({ _id: req.body.data_id }, (err, reject) => {
     if (err) {
       res.send(400).json(err);
     } else {
@@ -518,6 +521,7 @@ router.post('/rejectData', (req, res) => {
 router.post('/upload', upload.single('file'), (req, res) => {
   console.log(req.body);
   console.log(req.file);
+  res.send();
 });
 
 module.exports = router;

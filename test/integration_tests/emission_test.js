@@ -1,5 +1,7 @@
+/* eslint-disable no-undef */
 // Require the dev-dependencies
 const supertest = require('supertest');
+// eslint-disable-next-line no-unused-vars
 const should = require('should');
 const app = require('../../app.js');
 
