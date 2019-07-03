@@ -10,7 +10,12 @@ const storage = multer.diskStorage({
     cb(null, 'suggested_data/');
   },
   filename(req, file, cb) {
-    cb(null, `${file.fieldname}-${Date.now()}.${file.originalname.split('.')[file.originalname.split('.').length - 1]}`);
+    cb(
+      null,
+      `${file.fieldname}-${Date.now()}.${
+        file.originalname.split('.')[file.originalname.split('.').length - 1]
+      }`,
+    );
   },
 });
 const upload = multer({ storage });
@@ -21,7 +26,7 @@ router.post('/', (req, res) => {
     title: req.body.title,
     data: req.body.data,
     createdby: req.body.useremail,
-    state: 'Pending',
+    state: 'Pending'
   });
   newSuggestedData.save((err, data) => {
     if (err) {
@@ -50,14 +55,21 @@ router.post('/approveData', (req, res) => {
         const { lat } = approve.data;
         const { lon } = approve.data;
         const jsonArray = JSON.parse(file);
-        jsonArray[jsonHead] = { lat: parseInt(lat, 10), lon: parseInt(lon, 10) };
-        fs.writeFile(`${process.cwd()}/raw_data/airports.json`, JSON.stringify(jsonArray), (err3) => {
-          if (err3) {
-            console.log(err3);
-          } else {
-            console.log('successfully approved');
-          }
-        });
+        jsonArray[jsonHead] = {
+          lat: parseInt(lat, 10),
+          lon: parseInt(lon, 10),
+        };
+        fs.writeFile(
+          `${process.cwd()}/raw_data/airports.json`,
+          JSON.stringify(jsonArray),
+          (err3) => {
+            if (err3) {
+              console.log(err3);
+            } else {
+              console.log('successfully approved');
+            }
+          },
+        );
       });
     } else if (approve.title === 'Appliances Data') {
       fs.readFile(`${process.cwd()}/raw_data/appliances.json`, (err2, file) => {
@@ -65,138 +77,201 @@ router.post('/approveData', (req, res) => {
         const diss = approve.data['Average_watts (in Wh)'];
         const { place } = approve.data;
         const jsonArray = JSON.parse(file);
-        jsonArray.push({ Appliance: appliance, 'Average_watts (in Wh)': parseInt(diss, 10) });
-        fs.writeFile(`${process.cwd()}/raw_data/appliances.json`, JSON.stringify(jsonArray), (err21) => {
-          if (err21) {
-            console.log(err21);
-          } else {
-            console.log('successfully approved');
-          }
+        jsonArray.push({
+          Appliance: appliance,
+          'Average_watts (in Wh)': parseInt(diss, 10),
         });
-        fs.readFile(`${process.cwd()}/client/public/data/appliances.json`, (err3, file2) => {
-          const jarray = JSON.parse(file2);
-          const data = {
-            item: appliance,
-            val: `${diss}`,
-          };
-          jarray[place].push(data);
-          fs.writeFile(`${process.cwd()}/client/public/data/appliances.json`, JSON.stringify(jarray), (err4) => {
-            if (err4) {
-              console.log(err4);
-            } else {
-              console.log('successfully added to front-end data');
-            }
-          });
-        });
-      });
-    } else if (approve.title === 'Country Code') {
-      fs.readFile(`${process.cwd()}/raw_data/countrycode.json`, (err2, file) => {
-        const { name } = approve.data;
-        const { code } = approve.data;
-        const jsonArray = JSON.parse(file);
-        jsonArray.push({ name, code: code.toUpperCase() });
-        fs.writeFile(`${process.cwd()}/raw_data/countrycode.json`, JSON.stringify(jsonArray), (err3) => {
-          if (err3) {
-            console.log(err3);
-          } else {
-            console.log('successfully approved');
-          }
-        });
-      });
-    } else if (approve.title === 'Electricity Emission') {
-      fs.readFile(`${process.cwd()}/raw_data/electricity_emission.json`, (err2, file) => {
-        const country = approve.data.Country;
-        const { code } = approve.data;
-        const genCO2 = approve.data['Generation-CO2'];
-        const genCH4 = approve.data['Generation-CH4'];
-        const genN2O = approve.data['Generation-N2O'];
-        const tdCO2 = approve.data['Td-CO2'];
-        const tdCH4 = approve.data['Td-CH4'];
-        const tdN2O = approve.data['Td-N2O'];
-        const consumCO2 = approve.data['Consum-CO2'];
-        const consumCH4 = approve.data['Consum-CH4'];
-        const consumN20 = approve.data['Consum-N2O'];
-        const jsonArray = JSON.parse(file);
-        const data = {
-          Country: country,
-          'Generation-CO2': `${genCO2}`,
-          'Generation-CH4': `${genCH4}`,
-          'Generation-N2O': `${genN2O}`,
-          'Td-CO2': `${tdCO2}`,
-          'Td-CH4': `${tdCH4}`,
-          'Td-N2O': `${tdN2O}`,
-          'Consum-CO2': `${consumCO2}`,
-          'Consum-CH4': `${consumCH4}`,
-          'Consum-N2O': `${consumN20}`,
-        };
-        jsonArray.push(data);
-        fs.writeFile(`${process.cwd()}/raw_data/electricity_emission.json`, JSON.stringify(jsonArray), (err3) => {
-          if (err3) {
-            console.log(err3);
-          } else {
-            console.log('successfully approved');
-          }
-        });
-        fs.readFile(`${process.cwd()}/raw_data/electricity.json`, () => {
-          const obj1 = {
-            item: 'generation',
-            region: data.Country,
-            quantity: 1,
-            units: 'kWh',
-            categories: ['electricity'],
-            components: [
-              { name: 'CO2', quantity: parseFloat(data['Generation-CO2']), units: 'kg CO2/kWh' },
-              { name: 'CH4', quantity: parseFloat(data['Generation-CH4']), units: 'kg CH4/kWh' },
-              { name: 'N2O', quantity: parseFloat(data['Generation-N2O']), units: 'kg N2O/kWh' },
-            ],
-          };
-          const obj2 = {
-            item: 'td',
-            region: data.Country,
-            quantity: 1,
-            units: 'kWh',
-            categories: ['electricity'],
-            components: [
-              { name: 'CO2', quantity: parseFloat(data['Td-CO2']), units: 'kg CO2/kWh' },
-              { name: 'CH4', quantity: parseFloat(data['Td-CH4']), units: 'kg CH4/kWh' },
-              { name: 'N2O', quantity: parseFloat(data['Td-N2O']), units: 'kg N2O/kWh' },
-            ],
-          };
-          const elecArray = JSON.parse(file);
-          elecArray.push(obj1, obj2);
-          fs.writeFile(`${process.cwd()}/raw_data/electricity.json`, JSON.stringify(elecArray), (err4) => {
-            if (err4) {
-              console.log(err4);
+        fs.writeFile(
+          `${process.cwd()}/raw_data/appliances.json`,
+          JSON.stringify(jsonArray),
+          (err21) => {
+            if (err21) {
+              console.log(err21);
             } else {
               console.log('successfully approved');
             }
-          });
-        });
-        fs.readFile(`${process.cwd()}/client/public/data/electricity.json`, () => {
-          const jarray = JSON.parse(file);
-          jarray[code] = {
-            name: country,
-            CO2: `${genCO2 + tdCO2}`,
-            CH4: `${genCH4 + tdCH4}`,
-            N2O: `${genN2O + tdN2O}`,
-            unit: 'kg/kWh',
-          };
-          const newj = {};
-          Object.keys(jarray)
-            .sort()
-            .forEach((v) => {
-              console.log(v, jarray[v]);
-              newj[v] = jarray[v];
-            });
-          fs.writeFile(`${process.cwd()}/client/public/data/electricity.json`, JSON.stringify(newj), (err3) => {
-            if (err3) {
-              console.log(err3);
-            } else {
-              console.log('successfully added to front-end data');
-            }
-          });
-        });
+          },
+        );
+        fs.readFile(
+          `${process.cwd()}/client/public/data/appliances.json`,
+          (err3, file2) => {
+            const jarray = JSON.parse(file2);
+            const data = {
+              item: appliance,
+              val: `${diss}`,
+            };
+            jarray[place].push(data);
+            fs.writeFile(
+              `${process.cwd()}/client/public/data/appliances.json`,
+              JSON.stringify(jarray),
+              (err4) => {
+                if (err4) {
+                  console.log(err4);
+                } else {
+                  console.log('successfully added to front-end data');
+                }
+              },
+            );
+          },
+        );
       });
+    } else if (approve.title === 'Country Code') {
+      fs.readFile(
+        `${process.cwd()}/raw_data/countrycode.json`,
+        (err2, file) => {
+          const { name } = approve.data;
+          const { code } = approve.data;
+          const jsonArray = JSON.parse(file);
+          jsonArray.push({ name, code: code.toUpperCase() });
+          fs.writeFile(
+            `${process.cwd()}/raw_data/countrycode.json`,
+            JSON.stringify(jsonArray),
+            (err3) => {
+              if (err3) {
+                console.log(err3);
+              } else {
+                console.log('successfully approved');
+              }
+            },
+          );
+        },
+      );
+    } else if (approve.title === 'Electricity Emission') {
+      fs.readFile(
+        `${process.cwd()}/raw_data/electricity_emission.json`,
+        (err2, file) => {
+          const country = approve.data.Country;
+          const { code } = approve.data;
+          const genCO2 = approve.data['Generation-CO2'];
+          const genCH4 = approve.data['Generation-CH4'];
+          const genN2O = approve.data['Generation-N2O'];
+          const tdCO2 = approve.data['Td-CO2'];
+          const tdCH4 = approve.data['Td-CH4'];
+          const tdN2O = approve.data['Td-N2O'];
+          const consumCO2 = approve.data['Consum-CO2'];
+          const consumCH4 = approve.data['Consum-CH4'];
+          const consumN20 = approve.data['Consum-N2O'];
+          const jsonArray = JSON.parse(file);
+          const data = {
+            Country: country,
+            'Generation-CO2': `${genCO2}`,
+            'Generation-CH4': `${genCH4}`,
+            'Generation-N2O': `${genN2O}`,
+            'Td-CO2': `${tdCO2}`,
+            'Td-CH4': `${tdCH4}`,
+            'Td-N2O': `${tdN2O}`,
+            'Consum-CO2': `${consumCO2}`,
+            'Consum-CH4': `${consumCH4}`,
+            'Consum-N2O': `${consumN20}`,
+          };
+          jsonArray.push(data);
+          fs.writeFile(
+            `${process.cwd()}/raw_data/electricity_emission.json`,
+            JSON.stringify(jsonArray),
+            (err3) => {
+              if (err3) {
+                console.log(err3);
+              } else {
+                console.log('successfully approved');
+              }
+            },
+          );
+          fs.readFile(`${process.cwd()}/raw_data/electricity.json`, () => {
+            const obj1 = {
+              item: 'generation',
+              region: data.Country,
+              quantity: 1,
+              units: 'kWh',
+              categories: ['electricity'],
+              components: [
+                {
+                  name: 'CO2',
+                  quantity: parseFloat(data['Generation-CO2']),
+                  units: 'kg CO2/kWh'
+                },
+                {
+                  name: 'CH4',
+                  quantity: parseFloat(data['Generation-CH4']),
+                  units: 'kg CH4/kWh'
+                },
+                {
+                  name: 'N2O',
+                  quantity: parseFloat(data['Generation-N2O']),
+                  units: 'kg N2O/kWh'
+                },
+              ],
+            };
+            const obj2 = {
+              item: 'td',
+              region: data.Country,
+              quantity: 1,
+              units: 'kWh',
+              categories: ['electricity'],
+              components: [
+                {
+                  name: 'CO2',
+                  quantity: parseFloat(data['Td-CO2']),
+                  units: 'kg CO2/kWh'
+                },
+                {
+                  name: 'CH4',
+                  quantity: parseFloat(data['Td-CH4']),
+                  units: 'kg CH4/kWh'
+                },
+                {
+                  name: 'N2O',
+                  quantity: parseFloat(data['Td-N2O']),
+                  units: 'kg N2O/kWh'
+                },
+              ],
+            };
+            const elecArray = JSON.parse(file);
+            elecArray.push(obj1, obj2);
+            fs.writeFile(
+              `${process.cwd()}/raw_data/electricity.json`,
+              JSON.stringify(elecArray),
+              (err4) => {
+                if (err4) {
+                  console.log(err4);
+                } else {
+                  console.log('successfully approved');
+                }
+              },
+            );
+          });
+          fs.readFile(
+            `${process.cwd()}/client/public/data/electricity.json`,
+            () => {
+              const jarray = JSON.parse(file);
+              jarray[code] = {
+                name: country,
+                CO2: `${genCO2 + tdCO2}`,
+                CH4: `${genCH4 + tdCH4}`,
+                N2O: `${genN2O + tdN2O}`,
+                unit: 'kg/kWh'
+              };
+              const newj = {};
+              Object.keys(jarray)
+                .sort()
+                .forEach((v) => {
+                  console.log(v, jarray[v]);
+                  newj[v] = jarray[v];
+                });
+              fs.writeFile(
+                `${process.cwd()}/client/public/data/electricity.json`,
+                JSON.stringify(newj),
+                (err3) => {
+                  if (err3) {
+                    console.log(err3);
+                  } else {
+                    console.log('successfully added to front-end data');
+                  }
+                },
+              );
+            },
+          );
+        },
+      );
     } else if (approve.title === 'Flights') {
       fs.readFile(`${process.cwd()}/raw_data/flights.json`, (err2, file) => {
         const d1 = approve.data['125'];
@@ -245,30 +320,41 @@ router.post('/approveData', (req, res) => {
           'airplane model': model,
         };
         jsonArray.push(data);
-        fs.writeFile(`${process.cwd()}/raw_data/flights.json`, JSON.stringify(jsonArray), (err3) => {
-          if (err3) {
-            console.log(err3);
-          } else {
-            console.log('successfully approved');
-          }
-        });
-        fs.readFile(`${process.cwd()}/client/public/data/flights.json`, (err3, file1) => {
-          const jarray = JSON.parse(file1);
-          jarray[model] = data;
-          const newdata = {};
-          Object.keys(jarray)
-            .sort()
-            .forEach((v) => {
-              newdata[v] = jarray[v];
-            });
-          fs.writeFile(`${process.cwd()}/client/public/data/flights.json`, JSON.stringify(newdata), (err4) => {
-            if (err4) {
-              console.log(err4);
+        fs.writeFile(
+          `${process.cwd()}/raw_data/flights.json`,
+          JSON.stringify(jsonArray),
+          (err3) => {
+            if (err3) {
+              console.log(err3);
             } else {
-              console.log('successfully appended to front-end data');
+              console.log('successfully approved');
             }
-          });
-        });
+          },
+        );
+        fs.readFile(
+          `${process.cwd()}/client/public/data/flights.json`,
+          (err3, file1) => {
+            const jarray = JSON.parse(file1);
+            jarray[model] = data;
+            const newdata = {};
+            Object.keys(jarray)
+              .sort()
+              .forEach((v) => {
+                newdata[v] = jarray[v];
+              });
+            fs.writeFile(
+              `${process.cwd()}/client/public/data/flights.json`,
+              JSON.stringify(newdata),
+              (err4) => {
+                if (err4) {
+                  console.log(err4);
+                } else {
+                  console.log('successfully appended to front-end data');
+                }
+              },
+            );
+          },
+        );
       });
     } else if (approve.title === 'Fuels') {
       fs.readFile(`${process.cwd()}/raw_data/fuels.json`, (err2, file) => {
@@ -289,13 +375,17 @@ router.post('/approveData', (req, res) => {
           GHGEmission: `${ghgem}`,
           _comments: comment,
         };
-        fs.writeFile(`${process.cwd()}/raw_data/fuels.json`, JSON.stringify(jsonArray), (err3) => {
-          if (err3) {
-            console.log(err3);
-          } else {
-            console.log('successfully approved');
-          }
-        });
+        fs.writeFile(
+          `${process.cwd()}/raw_data/fuels.json`,
+          JSON.stringify(jsonArray),
+          (err3) => {
+            if (err3) {
+              console.log(err3);
+            } else {
+              console.log('successfully approved');
+            }
+          },
+        );
       });
     } else if (approve.title === 'Per Capita') {
       fs.readFile(`${process.cwd()}/raw_data/percap.json`, (err2, file) => {
@@ -366,65 +456,77 @@ router.post('/approveData', (req, res) => {
           Country: country,
           SeriesCode: seriesCode,
           MDG: 'Y',
-          Series: 'Carbon dioxide emissions (CO2), metric tons of CO2 per capita (CDIAC)',
+          Series:
+            'Carbon dioxide emissions (CO2), metric tons of CO2 per capita (CDIAC)',
           Footnotes: '',
-          Type: '',
+          Type: ''
         });
-        fs.writeFile(`${process.cwd()}/raw_data/percap.json`, JSON.stringify(jsonArray), (err3) => {
-          if (err3) {
-            console.log(err3);
-          } else {
-            console.log('successfully approved');
-          }
-        });
-        fs.readFile(`${process.cwd()}/client/public/data/percap.json`, (err3, file2) => {
-          const jarray = JSON.parse(file2);
-          const data = {
-            1990: d1,
-            1991: d2,
-            1992: d3,
-            1993: d4,
-            1994: d5,
-            1995: d6,
-            1996: d7,
-            1997: d8,
-            1998: d9,
-            1999: d10,
-            2000: d11,
-            2001: d12,
-            2002: d13,
-            2003: d14,
-            2004: d15,
-            2005: d16,
-            2006: d17,
-            2007: d18,
-            2008: d19,
-            2009: d20,
-            2010: d21,
-            2011: d22,
-            2012: d23,
-            2013: d24,
-            2014: d25,
-            2015: d26,
-            2016: d27,
-            2017: d28,
-            2018: d29,
-          };
-          jarray[country] = data;
-          const newdata = {};
-          Object.keys(jarray)
-            .sort()
-            .forEach((v) => {
-              newdata[v] = jarray[v];
-            });
-          fs.writeFile(`${process.cwd()}/client/public/data/percap.json`, JSON.stringify(newdata), (err4) => {
-            if (err4) {
-              console.log(err4);
+        fs.writeFile(
+          `${process.cwd()}/raw_data/percap.json`,
+          JSON.stringify(jsonArray),
+          (err3) => {
+            if (err3) {
+              console.log(err3);
             } else {
-              console.log('successfully appended to front-end data');
+              console.log('successfully approved');
             }
-          });
-        });
+          },
+        );
+        fs.readFile(
+          `${process.cwd()}/client/public/data/percap.json`,
+          (err3, file2) => {
+            const jarray = JSON.parse(file2);
+            const data = {
+              1990: d1,
+              1991: d2,
+              1992: d3,
+              1993: d4,
+              1994: d5,
+              1995: d6,
+              1996: d7,
+              1997: d8,
+              1998: d9,
+              1999: d10,
+              2000: d11,
+              2001: d12,
+              2002: d13,
+              2003: d14,
+              2004: d15,
+              2005: d16,
+              2006: d17,
+              2007: d18,
+              2008: d19,
+              2009: d20,
+              2010: d21,
+              2011: d22,
+              2012: d23,
+              2013: d24,
+              2014: d25,
+              2015: d26,
+              2016: d27,
+              2017: d28,
+              2018: d29,
+            };
+            jarray[country] = data;
+            const newdata = {};
+            Object.keys(jarray)
+              .sort()
+              .forEach((v) => {
+                newdata[v] = jarray[v];
+              });
+            fs.writeFile(
+              `${process.cwd()}/client/public/data/percap.json`,
+              JSON.stringify(newdata),
+              (err4) => {
+                if (err4) {
+                  console.log(err4);
+                } else {
+                  console.log('successfully appended to front-end data');
+                }
+              },
+            );
+          },
+        );
       });
     } else if (approve.title === 'Poultry') {
       fs.readFile(`${process.cwd()}/raw_data/poultry.json`, (err2, file) => {
@@ -442,15 +544,19 @@ router.post('/approveData', (req, res) => {
           p_emissions: pem,
           wl_factor: wfactor,
           ml_factor: mlfactor,
-          unit: 'kg',
+          unit: 'kg'
         });
-        fs.writeFile(`${process.cwd()}/raw_data/poultry.json`, JSON.stringify(jsonArray), (err3) => {
-          if (err3) {
-            console.log(err3);
-          } else {
-            console.log('successfully approved');
-          }
-        });
+        fs.writeFile(
+          `${process.cwd()}/raw_data/poultry.json`,
+          JSON.stringify(jsonArray),
+          (err3) => {
+            if (err3) {
+              console.log(err3);
+            } else {
+              console.log('successfully approved');
+            }
+          },
+        );
       });
     } else if (approve.title === 'Trains') {
       fs.readFile(`${process.cwd()}/raw_data/trains.json`, (err2, file) => {
@@ -473,13 +579,17 @@ router.post('/approveData', (req, res) => {
           unit: 'kg/km',
           'M.F.(multiply factor)': mf,
         };
-        fs.writeFile(`${process.cwd()}/raw_data/trains.json`, JSON.stringify(jsonArray), (err3) => {
-          if (err3) {
-            console.log(err3);
-          } else {
-            console.log('successfully approved');
-          }
-        });
+        fs.writeFile(
+          `${process.cwd()}/raw_data/trains.json`,
+          JSON.stringify(jsonArray),
+          (err3) => {
+            if (err3) {
+              console.log(err3);
+            } else {
+              console.log('successfully approved');
+            }
+          },
+        );
       });
     } else if (approve.title === 'Trees') {
       fs.readFile(`${process.cwd()}/raw_data/trees.json`, (err2, file) => {
@@ -487,13 +597,17 @@ router.post('/approveData', (req, res) => {
         const { emission } = approve.data;
         const jsonArray = JSON.parse(file);
         jsonArray.treeData[treeName] = parseInt(emission, 10);
-        fs.writeFile(`${process.cwd()}/raw_data/trees.json`, JSON.stringify(jsonArray), (err3) => {
-          if (err3) {
-            console.log(err3);
-          } else {
-            console.log('successfully approved');
-          }
-        });
+        fs.writeFile(
+          `${process.cwd()}/raw_data/trees.json`,
+          JSON.stringify(jsonArray),
+          (err3) => {
+            if (err3) {
+              console.log(err3);
+            } else {
+              console.log('successfully approved');
+            }
+          },
+        );
       });
     } else {
       console.error(new Error('Not found'));

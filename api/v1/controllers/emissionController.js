@@ -11,8 +11,11 @@ const interpolate = (l1, l2, d) => {
       return spline(d, l1, l2);
     }
     if (d >= l1[l1.length - 1]) {
-      const slope = Math.abs((l2[l2.length - 1] - l2[l2.length - 2]) / (l1[l1.length - 1] - l1[l1.length - 2]));
-      return l2[l2.length - 1] + (slope * (d - l1[l1.length - 1]));
+      const slope = Math.abs(
+        (l2[l2.length - 1] - l2[l2.length - 2])
+          / (l1[l1.length - 1] - l1[l1.length - 2]),
+      );
+      return l2[l2.length - 1] + slope * (d - l1[l1.length - 1]);
     }
     if (d <= l1[0]) {
       const slope = Math.abs((l2[1] - l2[0]) / (l1[1] - l1[0]));
@@ -28,13 +31,17 @@ const processEmission = (emissions, component, region, quantity, item) => {
   Logger.info(`Item name: ${item.item} :: Region: ${item.region}`);
   return new Promise((resolve, reject) => {
     // if component type is atomic return it's emissions
-    if (item.components[0].name === 'CO2'
-        || item.components[0].name === 'CH4'
-        || item.components[0].name === 'N2O') {
+    if (
+      item.components[0].name === 'CO2' ||
+      item.components[0].name === 'CH4' ||
+      item.components[0].name === 'N2O'
+    ) {
       for (const component of item.components) {
         if (emissions.hasOwnProperty(component.name)) {
-          emissions[component.name] += (quantity * component.quantity[0]);
-          Logger.info(`Emissions ${component.name}: ${emissions[component.name]} kg`);
+          emissions[component.name] += quantity * component.quantity[0];
+          Logger.info(
+            `Emissions ${component.name}: ${emissions[component.name]} kg`,
+          );
         }
       }
       emissions.type = item.categories[0];
@@ -46,7 +53,11 @@ const processEmission = (emissions, component, region, quantity, item) => {
       (async function () {
         for (let i = 0; i < numOfComponents; i++) {
           if (item.components[i].quantity.length > 1) {
-            const getInterpolatedQuantity = await interpolate(item.quantity, item.components[i].quantity, quantity);
+            const getInterpolatedQuantity = await interpolate(
+              item.quantity,
+              item.components[i].quantity,
+              quantity,
+            );
             Logger.info(`Interpolated value = ${getInterpolatedQuantity}`);
             await find(item.components[i].name, region, getInterpolatedQuantity)
               .then((emis) => {
@@ -56,7 +67,11 @@ const processEmission = (emissions, component, region, quantity, item) => {
               })
               .catch(err => reject(err));
           } else {
-            await find(item.components[i].name, region, item.components[i].quantity[0])
+            await find(
+              item.components[i].name,
+              region,
+              item.components[i].quantity[0],
+            )
               .then((emis) => {
                 for (const i in emis) {
                   emissions[i] += emis[i];
@@ -65,16 +80,17 @@ const processEmission = (emissions, component, region, quantity, item) => {
               .catch(err => reject(err));
           }
         }
-      }()).then(() => {
-        if (item.calculationMethod === 'interpolation') {
-          resolve(emissions);
-        } else {
-          for (const i in emissions) {
-            emissions[i] *= quantity;
+      }())
+        .then(() => {
+          if (item.calculationMethod === 'interpolation') {
+            resolve(emissions);
+          } else {
+            for (const i in emissions) {
+              emissions[i] *= quantity;
+            }
+            resolve(emissions);
           }
-          resolve(emissions);
-        }
-      })
+        })
         .catch(err => reject(err));
     }
   });
@@ -97,33 +113,48 @@ let find = (component, region, quantity) => {
     redisClient.hget('emissions', `${component}[${region}]`, (err, result) => {
       if (err || !result) {
         // find the component in the database
-        Emission.findOne({
-          $or: [{
-            item: new RegExp(`^${component}$`, 'i'),
-            region: new RegExp(`^${region}$`, 'i'),
-          },
-          // find the default values if a particular region is not found
+        Emission.findOne(
           {
-            item: new RegExp(`^${component}$`, 'i'),
-            region: 'Default',
-          }],
-        }, (err, item) => {
-          // if component is found
-          if (!err && item) {
-            processEmission(emissions, component, region, quantity, item)
-              .then((result) => {
-                resolve(result);
-              })
-              .catch((err) => {
-                Logger.error(`Error: ${err}`);
-              });
-            redisClient.hset('emissions', `${component}[${region}]`, JSON.stringify(item.toObject()));
-          }
-          // return an error if component is not found
-          else reject(`Unable to find component ${component} for ${region}`);
-        });
+            $or: [
+              {
+                item: new RegExp(`^${component}$`, 'i'),
+                region: new RegExp(`^${region}$`, 'i'),
+              },
+              // find the default values if a particular region is not found
+              {
+                item: new RegExp(`^${component}$`, 'i'),
+                region: 'Default'
+              },
+            ],
+          },
+          (err, item) => {
+            // if component is found
+            if (!err && item) {
+              processEmission(emissions, component, region, quantity, item)
+                .then((result) => {
+                  resolve(result);
+                })
+                .catch((err) => {
+                  Logger.error(`Error: ${err}`);
+                });
+              redisClient.hset(
+                'emissions',
+                `${component}[${region}]`,
+                JSON.stringify(item.toObject()),
+              );
+            }
+            // return an error if component is not found
+            else reject(`Unable to find component ${component} for ${region}`);
+          },
+        );
       } else {
-        processEmission(emissions, component, region, quantity, JSON.parse(result))
+        processEmission(
+          emissions,
+          component,
+          region,
+          quantity,
+          JSON.parse(result),
+        )
           .then((result) => {
             resolve(result);
           })
@@ -135,7 +166,13 @@ let find = (component, region, quantity) => {
   });
 };
 
-exports.calculate = async function (itemName, region, quantity, multiply = 1, type = '') {
+exports.calculate = async function (
+  itemName,
+  region,
+  quantity,
+  multiply = 1,
+  type = ''
+) {
   const emissions = await find(itemName, region, quantity);
   // round up the emission value upto 10 decimal points
   if (type && emissions.type != type) {

@@ -19,7 +19,10 @@ try {
 const db = config.database;
 
 // connect to the database
-mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, { useMongoClient: true });
+mongoose.connect(
+  `mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`,
+  { useMongoClient: true },
+);
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
@@ -51,16 +54,19 @@ for (js in json) {
     {
       name: 'CO2',
       quantity: [json[js]['Td-CO2']],
-      unit: 'kg CO2/kWh',
-    }, {
+      unit: 'kg CO2/kWh'
+    },
+    {
       name: 'CH4',
       quantity: [json[js]['Td-CH4']],
-      unit: 'kg CH4/kWh',
-    }, {
+      unit: 'kg CH4/kWh'
+    },
+    {
       name: 'N2O',
       quantity: [json[js]['Td-N2O']],
-      unit: 'kg N20/kWh',
-    }];
+      unit: 'kg N20/kWh'
+    },
+  ];
   emissions.push(obj);
 }
 

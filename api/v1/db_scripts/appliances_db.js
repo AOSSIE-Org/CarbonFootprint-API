@@ -19,7 +19,10 @@ try {
 const db = config.database;
 
 // connect to the database
-mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, { useMongoClient: true });
+mongoose.connect(
+  `mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`,
+  { useMongoClient: true },
+);
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
@@ -47,11 +50,13 @@ for (js in json) {
   obj.quantity = [1];
   obj.unit = 'kWh';
   obj.categories = ['appliances'];
-  obj.components = [{
-    name: 'electricity',
-    quantity: json[js]['Average_watts (in Wh)'] / 1000,
-    unit: 'kWh',
-  }];
+  obj.components = [
+    {
+      name: 'electricity',
+      quantity: json[js]['Average_watts (in Wh)'] / 1000,
+      unit: 'kWh'
+    },
+  ];
   emissions.push(obj);
 }
 

@@ -19,7 +19,10 @@ try {
 const db = config.database;
 
 // connect to the database
-mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, { useMongoClient: true });
+mongoose.connect(
+  `mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`,
+  { useMongoClient: true },
+);
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
@@ -49,10 +52,11 @@ for (js in json.treeData) {
   obj.categories = ['trees'];
   obj.components = [
     {
-    	name: 'CO2',
-    	quantity: [-json.treeData[js]],
-    	unit: 'kg',
-    }];
+      name: 'CO2',
+      quantity: [-json.treeData[js]],
+      unit: 'kg'
+    },
+  ];
   emissions.push(obj);
 }
 

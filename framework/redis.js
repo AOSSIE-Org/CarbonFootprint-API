@@ -1,5 +1,6 @@
 require('dotenv').config();
 // get the logger
+// eslint-disable-next-line import/no-unresolved
 const Logger = require('@framework/Logger');
 // redis setup
 const redis = require('redis');
@@ -12,9 +13,9 @@ const redisLink = `redis://${REDIS_HOST}:${REDIS_PORT}`;
 const redisClient = redis.createClient(redisLink);
 
 redisClient
-// if the connection throws an error
+  // if the connection throws an error
   .on('error', err => Logger.error(`Redis connection failed: ${err}`))
-// if the connection is connected
+  // if the connection is connected
   .on('connect', () => Logger.info('Redis connected successfully'));
 
 module.exports = {

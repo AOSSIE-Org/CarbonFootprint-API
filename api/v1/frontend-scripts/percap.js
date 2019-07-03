@@ -5,9 +5,7 @@ const Logger = require('@framework/Logger');
 
 const obj = {};
 for (js in percap) {
-  obj[percap[js].Country] = {
-
-  };
+  obj[percap[js].Country] = {};
   for (i = 0; i < 22; i++) {
     currYear = 1990 + i;
     obj[percap[js].Country][currYear] = percap[js][currYear];

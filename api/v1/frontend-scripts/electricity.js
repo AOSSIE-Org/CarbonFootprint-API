@@ -19,7 +19,7 @@ for (js in electricity) {
       CO2: electricity[js]['Consum-CO2'],
       CH4: electricity[js]['Consum-CH4'],
       N2O: electricity[js]['Consum-N2O'],
-      unit: 'kg/kWh',
+      unit: 'kg/kWh'
     };
   }
 }

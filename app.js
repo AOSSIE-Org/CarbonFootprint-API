@@ -20,7 +20,10 @@ const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
 // connect to the database
-mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`, { useMongoClient: true });
+mongoose.connect(
+  `mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`,
+  { useMongoClient: true },
+);
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
@@ -36,7 +39,6 @@ mongoose.connection.on('error', (err) => {
 mongoose.connection.on('disconnected', () => {
   Logger.info('Database disconnected');
 });
-
 
 // get different routes required
 const index = require('./routes/index');
@@ -72,7 +74,10 @@ app.set('view engine', 'ejs');
 // CORS Support
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, access-key');
+  res.header(
+    'Access-Control-Allow-Headers',
+    'Origin, X-Requested-With, Content-Type, Accept, access-key'
+  );
   next();
 });
 

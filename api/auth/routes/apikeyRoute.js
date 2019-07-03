@@ -1,8 +1,8 @@
 const express = require('express');
 // get the auth controller
-const { auth } = require('../controllers/authController');
+const Logger = require("@framework/Logger");
+const { auth } = require("../controllers/authController");
 // get the logger
-const Logger = require('@framework/Logger');
 
 const router = express.Router();
 
@@ -18,14 +18,15 @@ router.post('/key', (req, res) => {
   const action = 'create';
   if (email_verified) {
     const create = auth(email, action);
-    create.then((result) => {
-      Logger.debug(`Create key result: ${result}`);
-      res.status(200).json({
-        success: true,
-        apikey: result.apikey,
-        requests: result.requests,
-      });
-    })
+    create
+      .then((result) => {
+        Logger.debug(`Create key result: ${result}`);
+        res.status(200).json({
+          success: true,
+          apikey: result.apikey,
+          requests: result.requests,
+        });
+      })
       .catch((reject) => {
         res.status(400).json({
           success: false,
@@ -43,14 +44,15 @@ router.get('/key', (req, res) => {
   const { email } = req.user;
   const action = 'retrieve';
   const retrieve = auth(email, action);
-  retrieve.then((result) => {
-    Logger.debug(`Retrieve key result: ${result}`);
-    res.status(200).json({
-      success: true,
-      apikey: result.apikey,
-      requests: result.requests,
-    });
-  })
+  retrieve
+    .then((result) => {
+      Logger.debug(`Retrieve key result: ${result}`);
+      res.status(200).json({
+        success: true,
+        apikey: result.apikey,
+        requests: result.requests,
+      });
+    })
     .catch((reject) => {
       res.returnNotFoundError('User');
     });
@@ -63,12 +65,13 @@ router.get('/key', (req, res) => {
 router.delete('/key', (req, res) => {
   const { email } = req.user;
   const action = 'revoke';
-  auth(email, action).then((result) => {
-    res.status(200).json({
-      success: true,
-      deleted: req.user.email,
-    });
-  })
+  auth(email, action)
+    .then((result) => {
+      res.status(200).json({
+        success: true,
+        deleted: req.user.email,
+      });
+    })
     .catch((reject) => {
       res.returnNotFoundError('User');
     });

@@ -25,9 +25,15 @@ for (const i in data) {
         "units": "kWh",
         "categories": ["electricity"],
         "components": [
-            { "name": "CO2", "quantity": ${data[i]['Generation-CO2']}, "units": "kg CO2/kWh" },
-            { "name": "CH4", "quantity": ${data[i]['Generation-CH4']}, "units": "kg CH4/kWh" },
-            { "name": "N2O", "quantity": ${data[i]['Generation-N2O']}, "units": "kg N2O/kWh" }
+            { "name": "CO2", "quantity": ${
+  data[i]['Generation-CO2']
+}, "units": "kg CO2/kWh" },
+            { "name": "CH4", "quantity": ${
+  data[i]['Generation-CH4']
+}, "units": "kg CH4/kWh" },
+            { "name": "N2O", "quantity": ${
+  data[i]['Generation-N2O']
+}, "units": "kg N2O/kWh" }
         ]
     },
 	{
@@ -37,9 +43,15 @@ for (const i in data) {
         "units": "kWh",
         "categories": ["electricity"],
         "components": [
-            { "name": "CO2", "quantity": ${data[i]['Td-CO2']}, "units": "kg CO2/kWh" },
-            { "name": "CH4", "quantity": ${data[i]['Td-CH4']}, "units": "kg CH4/kWh" },
-            { "name": "N2O", "quantity": ${data[i]['Td-N2O']}, "units": "kg N2O/kWh" }
+            { "name": "CO2", "quantity": ${
+  data[i]['Td-CO2']
+}, "units": "kg CO2/kWh" },
+            { "name": "CH4", "quantity": ${
+  data[i]['Td-CH4']
+}, "units": "kg CH4/kWh" },
+            { "name": "N2O", "quantity": ${
+  data[i]['Td-N2O']
+}, "units": "kg N2O/kWh" }
         ]
     },`;
 

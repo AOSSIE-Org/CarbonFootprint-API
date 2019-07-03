@@ -20,15 +20,21 @@ const options = {
   swaggerDefinition: {
     openapi: '3.0.1',
     servers: [
-      { url: 'http://localhost:3080/v1', description: 'For local development server' },
-      { url: 'https://www.carbonhub.org/v1', description: 'To test live CarbonFootprint-API' },
+      {
+        url: 'http://localhost:3080/v1',
+        description: 'For local development server'
+      },
+      {
+        url: 'https://www.carbonhub.org/v1',
+        description: 'To test live CarbonFootprint-API'
+      },
     ],
     components: {
       securitySchemes: {
         apiKeyAuth: {
           type: 'apiKey',
           in: 'header',
-          name: 'access-key',
+          name: 'access-key'
         },
       },
     },
@@ -37,7 +43,7 @@ const options = {
       version: '1.0.0',
       description: 'Descriptive API documentation for CarbonFootprint-API',
       contact: {
-        email: 'thakursaurabh1998@gmail.com',
+        email: 'thakursaurabh1998@gmail.com'
       },
     },
     tags: [
@@ -57,6 +63,10 @@ router.get('/json', (req, res) => {
   res.send(swaggerSpec);
 });
 // Swagger UI served at /api/doc
-router.use('/', swaggerUi.serve, swaggerUi.setup(swaggerSpec, { customCss: customSwaggerCSS }));
+router.use(
+  '/',
+  swaggerUi.serve,
+  swaggerUi.setup(swaggerSpec, { customCss: customSwaggerCSS }),
+);
 
 module.exports = router;

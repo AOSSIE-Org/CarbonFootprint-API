@@ -20,7 +20,10 @@ try {
 const db = config.database;
 
 // connect to the database
-mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, { useMongoClient: true });
+mongoose.connect(
+  `mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`,
+  { useMongoClient: true },
+);
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
@@ -60,18 +63,23 @@ for (let x = 0; x < data.length; x++) {
 
   obj.components = [
     {
-    	name: 'CO2',
-    	quantity: data[x].p_emissions * data[x].wl_factor * data[x].ml_factor + data[x].pf_emissions,
-    	unit: (data[x].unit.length > 1) ? `kg CO2/${data[x].unit}` : 'kg CO2',
-    }, {
-    	name: 'CH4',
-    	quantity: 0,
-    	unit: (data[x].unit.length > 1) ? `kg CH4/${data[x].unit}` : 'kg CH4',
-    }, {
-    	name: 'N2O',
-    	quantity: 0,
-    	unit: (data[x].unit.length > 1) ? `kg N2O/${data[x].unit}` : 'kg N2O',
-    }];
+      name: 'CO2',
+      quantity:
+        data[x].p_emissions * data[x].wl_factor * data[x].ml_factor
+        + data[x].pf_emissions,
+      unit: data[x].unit.length > 1 ? `kg CO2/${data[x].unit}` : 'kg CO2'
+    },
+    {
+      name: 'CH4',
+      quantity: 0,
+      unit: data[x].unit.length > 1 ? `kg CH4/${data[x].unit}` : 'kg CH4'
+    },
+    {
+      name: 'N2O',
+      quantity: 0,
+      unit: data[x].unit.length > 1 ? `kg N2O/${data[x].unit}` : 'kg N2O'
+    },
+  ];
   emissions.push(obj);
 }
 

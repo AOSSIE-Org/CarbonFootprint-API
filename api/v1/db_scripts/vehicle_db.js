@@ -19,7 +19,10 @@ try {
 const db = config.database;
 
 // connect to the database
-mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, { useMongoClient: true });
+mongoose.connect(
+  `mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`,
+  { useMongoClient: true },
+);
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
@@ -49,22 +52,26 @@ for (js in json) {
   obj.categories = ['vehicle', 'transport'];
   obj.components = [
     {
-    	name: 'CO2',
-    	quantity: [json[js].CO2Emission],
-    	unit: 'kg CO2/L',
-    }, {
-    	name: 'CH4',
-    	quantity: [json[js].CH4Emission],
-    	unit: 'kg CH4/L',
-    }, {
-    	name: 'N2O',
-    	quantity: [json[js].N2OEmission],
-    	unit: 'kg N2O/L',
-    }, {
-    	name: 'GHG',
-    	quantity: [json[js].GHGEmission],
-    	unit: 'kg GHG/L',
-    }];
+      name: 'CO2',
+      quantity: [json[js].CO2Emission],
+      unit: 'kg CO2/L'
+    },
+    {
+      name: 'CH4',
+      quantity: [json[js].CH4Emission],
+      unit: 'kg CH4/L'
+    },
+    {
+      name: 'N2O',
+      quantity: [json[js].N2OEmission],
+      unit: 'kg N2O/L'
+    },
+    {
+      name: 'GHG',
+      quantity: [json[js].GHGEmission],
+      unit: 'kg GHG/L'
+    },
+  ];
   emissions.push(obj);
 }
 
