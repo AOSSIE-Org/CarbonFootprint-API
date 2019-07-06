@@ -60,7 +60,7 @@ const processEmission = (emissions, component, region, quantity, item) => {
             );
             Logger.info(`Interpolated value = ${getInterpolatedQuantity}`);
             await find(item.components[i].name, region, getInterpolatedQuantity)
-              .then((emis) => {
+              .then(emis => {
                 for (const i in emis) {
                   emissions[i] += emis[i];
                 }
@@ -72,7 +72,7 @@ const processEmission = (emissions, component, region, quantity, item) => {
               region,
               item.components[i].quantity[0],
             )
-              .then((emis) => {
+              .then(emis => {
                 for (const i in emis) {
                   emissions[i] += emis[i];
                 }
@@ -123,7 +123,7 @@ let find = (component, region, quantity) => {
               // find the default values if a particular region is not found
               {
                 item: new RegExp(`^${component}$`, 'i'),
-                region: 'Default'
+                region: 'Default',
               },
             ],
           },
@@ -131,10 +131,10 @@ let find = (component, region, quantity) => {
             // if component is found
             if (!err && item) {
               processEmission(emissions, component, region, quantity, item)
-                .then((result) => {
+                .then(result => {
                   resolve(result);
                 })
-                .catch((err) => {
+                .catch(err => {
                   Logger.error(`Error: ${err}`);
                 });
               redisClient.hset(
@@ -155,10 +155,10 @@ let find = (component, region, quantity) => {
           quantity,
           JSON.parse(result),
         )
-          .then((result) => {
+          .then(result => {
             resolve(result);
           })
-          .catch((err) => {
+          .catch(err => {
             Logger.error(`Error: ${err}`);
           });
       }
@@ -171,7 +171,7 @@ exports.calculate = async function (
   region,
   quantity,
   multiply = 1,
-  type = ''
+  type = '',
 ) {
   const emissions = await find(itemName, region, quantity);
   // round up the emission value upto 10 decimal points

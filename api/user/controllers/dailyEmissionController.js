@@ -19,7 +19,7 @@ const createLog = async (email, quantity, date) => {
     {
       new: true,
     },
-  ).then((data) => {
+  ).then(data => {
     if (data === null) {
       console.log("This log doesn't exist. Creating new log");
       const todaysEmission = new DailyEmission({
@@ -36,7 +36,8 @@ const createLog = async (email, quantity, date) => {
   });
 };
 
-const getEmissionsOfUser = email => new Promise(async (resolve, reject) => {
+const getEmissionsOfUser = email =>
+  new Promise(async (resolve, reject) => {
     // redisClient.hget("dailyEmission", email, async (err, result) => {
     //   result = JSON.parse(result);
     //   const currDate = new Date();
@@ -64,7 +65,7 @@ const getEmissionsOfUser = email => new Promise(async (resolve, reject) => {
       'dailyEmission',
       email,
       JSON.stringify({ userEmission, issueDate: new Date().toJSON() }),
-      (err) => {
+      err => {
         if (err) {
           console.log('error while creating key');
           reject(err);

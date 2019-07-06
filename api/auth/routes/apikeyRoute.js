@@ -1,7 +1,8 @@
 const express = require('express');
 // get the auth controller
-const Logger = require("@framework/Logger");
-const { auth } = require("../controllers/authController");
+// eslint-disable-next-line import/no-unresolved
+const Logger = require('@framework/Logger');
+const { auth } = require('../controllers/authController');
 // get the logger
 
 const router = express.Router();
@@ -13,13 +14,13 @@ const router = express.Router();
  */
 router.post('/key', (req, res) => {
   Logger.debug(`User: ${JSON.stringify(req.user)}`);
-  const { email_verified } = req.user;
+  const { email_verified: emailVerified } = req.user;
   const { email } = req.user;
   const action = 'create';
-  if (email_verified) {
+  if (emailVerified) {
     const create = auth(email, action);
     create
-      .then((result) => {
+      .then(result => {
         Logger.debug(`Create key result: ${result}`);
         res.status(200).json({
           success: true,
@@ -27,7 +28,7 @@ router.post('/key', (req, res) => {
           requests: result.requests,
         });
       })
-      .catch((reject) => {
+      .catch(reject => {
         res.status(400).json({
           success: false,
           err: reject,
@@ -45,7 +46,7 @@ router.get('/key', (req, res) => {
   const action = 'retrieve';
   const retrieve = auth(email, action);
   retrieve
-    .then((result) => {
+    .then(result => {
       Logger.debug(`Retrieve key result: ${result}`);
       res.status(200).json({
         success: true,
@@ -53,7 +54,7 @@ router.get('/key', (req, res) => {
         requests: result.requests,
       });
     })
-    .catch((reject) => {
+    .catch(() => {
       res.returnNotFoundError('User');
     });
 });
@@ -66,13 +67,13 @@ router.delete('/key', (req, res) => {
   const { email } = req.user;
   const action = 'revoke';
   auth(email, action)
-    .then((result) => {
+    .then(() => {
       res.status(200).json({
         success: true,
         deleted: req.user.email,
       });
     })
-    .catch((reject) => {
+    .catch(() => {
       res.returnNotFoundError('User');
     });
 });

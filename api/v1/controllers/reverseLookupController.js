@@ -1,12 +1,13 @@
 const Emission = require('../models/emissionModel');
 const Helper = require('./helperFunctions');
 
-const getTreesReverseLookup = (emissions, relativeLocation) => new Promise((resolve, reject) => {
+const getTreesReverseLookup = (emissions, relativeLocation) =>
+  new Promise((resolve, reject) => {
     const treeMatch = {
       section: 'trees',
       item: '',
       quantity: 0,
-      unit: ''
+      unit: '',
     };
     Emission.aggregate(
       [
@@ -37,7 +38,8 @@ const getTreesReverseLookup = (emissions, relativeLocation) => new Promise((reso
     );
   });
 
-const getVehiclesReverseLookup = (emissions, relativeLocation) => new Promise((resolve, reject) => {
+const getVehiclesReverseLookup = (emissions, relativeLocation) =>
+  new Promise((resolve, reject) => {
     const vehicleMatch = {
       section: 'vehicles',
       source: '',
@@ -58,7 +60,7 @@ const getVehiclesReverseLookup = (emissions, relativeLocation) => new Promise((r
       relativeLocation.lng,
     );
     geoDetails
-      .then((val) => {
+      .then(val => {
         const countryCityDataPath = `../../../raw_data/cities/${val.countryCode}.json`;
         const cityList = require(countryCityDataPath);
         const noOfCities = Object.keys(cityList).length;
@@ -81,7 +83,7 @@ const getVehiclesReverseLookup = (emissions, relativeLocation) => new Promise((r
               destinationCity.lng,
             );
             geoDetailsDest
-              .then((details) => {
+              .then(details => {
                 destinationState = details.state;
                 vehicleMatch.source = val.city;
                 vehicleMatch.sourceState = val.state;
@@ -91,7 +93,7 @@ const getVehiclesReverseLookup = (emissions, relativeLocation) => new Promise((r
                 vehicleMatch.distance = distance;
                 resolve(vehicleMatch);
               })
-              .catch((err) => {
+              .catch(err => {
                 vehicleMatch.source = val.city;
                 vehicleMatch.sourceState = val.state;
                 vehicleMatch.destination = destinationCity.name;
@@ -103,12 +105,13 @@ const getVehiclesReverseLookup = (emissions, relativeLocation) => new Promise((r
           }
         } while (true);
       })
-      .catch((err) => {
+      .catch(err => {
         reject(err);
       });
   });
 
-const getTrainReverseLookup = (emissions, relativeLocation) => new Promise((resolve, reject) => {
+const getTrainReverseLookup = (emissions, relativeLocation) =>
+  new Promise((resolve, reject) => {
     const trainMatch = {
       section: 'trains',
       source: '',
@@ -118,7 +121,7 @@ const getTrainReverseLookup = (emissions, relativeLocation) => new Promise((reso
     };
     const results = Helper.nearbyTrainStations(relativeLocation);
     results
-      .then((val) => {
+      .then(val => {
         const sourceName = val[0].name;
         const sourceLocation = val[0].location;
         // We currently use the railcar type by default since it's the type that is most
@@ -157,7 +160,7 @@ const getTrainReverseLookup = (emissions, relativeLocation) => new Promise((reso
             trainDestLocation,
           );
           railDistance
-            .then((val) => {
+            .then(val => {
               const newPassengerCount = Math.round(
                 emissions.CO2 / (railcarDefault * val),
               );
@@ -167,14 +170,14 @@ const getTrainReverseLookup = (emissions, relativeLocation) => new Promise((reso
               trainMatch.distance = val;
               resolve(trainMatch);
             })
-            .catch((err) => {
+            .catch(err => {
               reject(`Failed to get rail distance: ${err}`);
             });
         } else {
           reject('Not many stations around the given location');
         }
       })
-      .catch((err) => {
+      .catch(err => {
         reject(err);
       });
   });
@@ -184,7 +187,7 @@ const findMatch = (emissions, section, relativeLocation) => {
     section1: 'trees',
     section2: 'trains',
     section3: 'vehicles',
-    section4: 'all'
+    section4: 'all',
   };
   return new Promise((resolve, reject) => {
     // We are only concerned with CO2 emission for now
@@ -192,48 +195,49 @@ const findMatch = (emissions, section, relativeLocation) => {
       if (section === 'trains') {
         const trainResponse = {
           train: '',
-          section: 'trains'
+          section: 'trains',
         };
         getTrainReverseLookup(emissions, relativeLocation)
-          .then((result) => {
+          .then(result => {
             delete result.section;
             trainResponse.match = result;
             resolve(trainResponse);
           })
-          .catch((err) => {
+          .catch(err => {
             reject(err);
           });
       } else if (section === 'vehicles') {
         const vehicleResponse = {
           match: '',
-          section: 'vehicles'
+          section: 'vehicles',
         };
         getVehiclesReverseLookup(emissions, relativeLocation)
-          .then((result) => {
+          .then(result => {
             delete result.section;
             vehicleResponse.match = result;
             resolve(vehicleResponse);
           })
-          .catch((err) => {
+          .catch(err => {
             reject(err);
           });
       } else if (section === 'trees') {
         const treeResponse = {
           match: '',
-          section: 'trees'
+          section: 'trees',
         };
         getTreesReverseLookup(emissions, relativeLocation)
-          .then((result) => {
+          .then(result => {
             delete result.section;
             treeResponse.match = result;
             resolve(treeResponse);
           })
-          .catch((err) => {
+          .catch(err => {
             reject(err);
           });
       } else if (section === 'all') {
         const sectionPromises = [];
-        const reflect = p => p.then(
+        const reflect = p =>
+          p.then(
             match => ({
               status: 'success',
               match,
@@ -241,7 +245,7 @@ const findMatch = (emissions, section, relativeLocation) => {
             }),
             error => ({
               error,
-              status: 'failure'
+              status: 'failure',
             }),
           );
         sectionPromises.push(
@@ -254,7 +258,7 @@ const findMatch = (emissions, section, relativeLocation) => {
           getTreesReverseLookup(emissions, relativeLocation),
         );
         Promise.all(sectionPromises.map(reflect))
-          .then((results) => {
+          .then(results => {
             for (let i = 0; i < results.length; i++) {
               if (results[i].match) {
                 // Cleanup unwanted section key
@@ -263,7 +267,7 @@ const findMatch = (emissions, section, relativeLocation) => {
             }
             resolve(results);
           })
-          .catch((err) => {
+          .catch(err => {
             reject(err);
           });
       }

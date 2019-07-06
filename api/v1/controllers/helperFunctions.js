@@ -7,7 +7,8 @@ const options = {
   formatter: null,
 };
 
-const createMapURI = opt => `https://dev.virtualearth.net/REST/v1/${opt}?key=${process.env.MICROSOFT_MAPS_KEY}`;
+const createMapURI = opt =>
+  `https://dev.virtualearth.net/REST/v1/${opt}?key=${process.env.MICROSOFT_MAPS_KEY}`;
 
 const getDistanceFromLatLon = (lat1, lon1, lat2, lon2) => {
   const p = 0.017453292519943295; // Math.PI / 180
@@ -18,10 +19,12 @@ const getDistanceFromLatLon = (lat1, lon1, lat2, lon2) => {
   return 12742 * Math.asin(Math.sqrt(a)); // 2 * R; R = 6371 km
 };
 
-const getRandomNumber = (minimum, maximum) => Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
+const getRandomNumber = (minimum, maximum) =>
+  Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
 
 // Using Microsoft map api to find distance.
-const distance = (ori, dest, mod) => new Promise(async (resolve, reject) => {
+const distance = (ori, dest, mod) =>
+  new Promise(async (resolve, reject) => {
     const geocoder = NodeGeocoder(options);
     let oriCoord;
     let destCoord;
@@ -44,9 +47,9 @@ const distance = (ori, dest, mod) => new Promise(async (resolve, reject) => {
       .post(createMapURI('Routes/DistanceMatrix'), {
         origins: [oriCoord],
         destinations: [destCoord],
-        travelMode: 'driving'
+        travelMode: 'driving',
       })
-      .then((data) => {
+      .then(data => {
         if (
           data.data.resourceSets[0].resources[0].results[0].travelDistance === 0
         ) reject('Distance data not available');
@@ -56,19 +59,20 @@ const distance = (ori, dest, mod) => new Promise(async (resolve, reject) => {
           );
         }
       })
-      .catch(err => reject(
+      .catch(err =>
+        reject(
           'Unable to find the distance between the origin and destination points.',
         ),
       );
   });
 
-const nearbyTrainStations = async (relativeLocation) => {
+const nearbyTrainStations = async relativeLocation => {
   const trainStationData = await geodecodeFromLatLon();
 
   return new Promise((resolve, reject) => {
     axios
       .post(createMapURI(`Locations/${locationName}+Train+Railway+Station`), {})
-      .then((data) => {
+      .then(data => {
         if (data.data.resourceSets[0].resources[0].estimatedTotal === 0) reject("Can't find any train station data");
         else {
           const dataArray = data.data.resourceSets[0].resources.reduce(
@@ -96,7 +100,8 @@ const transitDistanceInCoordinates = (
   sourceLocation,
   destinationLocation,
   mode,
-) => new Promise((resolve, reject) => {
+) =>
+  new Promise((resolve, reject) => {
     axios
       .post(createMapURI('Routes/DistanceMatrix'), {
         origins: [
@@ -108,9 +113,9 @@ const transitDistanceInCoordinates = (
             longitude: destinationLocation.lng,
           },
         ],
-        travelMode: 'transit'
+        travelMode: 'transit',
       })
-      .then((data) => {
+      .then(data => {
         if (
           data.data.resourceSets[0].resources[0].results[0].travelDistance
             === 0
@@ -123,14 +128,16 @@ const transitDistanceInCoordinates = (
           );
         }
       })
-      .catch(err => reject(
+      .catch(err =>
+        reject(
           'Unable to find the distance between the origin and destination points.',
         ),
       );
   });
 
 // Different from distance(orig, dest, mod) since this accepts coordinates
-const railDistanceInCoordinates = (sourceLocation, destinationLocation, mode) => new Promise((resolve, reject) => {
+const railDistanceInCoordinates = (sourceLocation, destinationLocation, mode) =>
+  new Promise((resolve, reject) => {
     axios
       .post(createMapURI('Routes/DistanceMatrix'), {
         origins: [
@@ -143,7 +150,7 @@ const railDistanceInCoordinates = (sourceLocation, destinationLocation, mode) =>
           },
         ],
       })
-      .then((data) => {
+      .then(data => {
         if (
           data.data.resourceSets[0].resources[0].results[0].travelDistance
             === 0
@@ -156,13 +163,15 @@ const railDistanceInCoordinates = (sourceLocation, destinationLocation, mode) =>
           );
         }
       })
-      .catch(err => reject(
+      .catch(err =>
+        reject(
           'Unable to find the distance between the origin and destination points.',
         ),
       );
   });
 
-const geodecodeFromLatLon = (lat, lng) => new Promise((resolve, reject) => {
+const geodecodeFromLatLon = (lat, lng) =>
+  new Promise((resolve, reject) => {
     const geocoder = NodeGeocoder(options);
     const data = {};
     geocoder.reverse(

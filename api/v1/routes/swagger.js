@@ -22,11 +22,11 @@ const options = {
     servers: [
       {
         url: 'http://localhost:3080/v1',
-        description: 'For local development server'
+        description: 'For local development server',
       },
       {
         url: 'https://www.carbonhub.org/v1',
-        description: 'To test live CarbonFootprint-API'
+        description: 'To test live CarbonFootprint-API',
       },
     ],
     components: {
@@ -34,7 +34,7 @@ const options = {
         apiKeyAuth: {
           type: 'apiKey',
           in: 'header',
-          name: 'access-key'
+          name: 'access-key',
         },
       },
     },
@@ -43,7 +43,7 @@ const options = {
       version: '1.0.0',
       description: 'Descriptive API documentation for CarbonFootprint-API',
       contact: {
-        email: 'thakursaurabh1998@gmail.com'
+        email: 'thakursaurabh1998@gmail.com',
       },
     },
     tags: [

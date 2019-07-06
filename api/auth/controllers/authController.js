@@ -7,13 +7,14 @@ const { redisClient } = redis;
 const User = require('../models/userModel');
 
 // Generate a api key using random and the provided email.
-const generateApiKey = (email) => {
+const generateApiKey = email => {
   const random = uuidv4();
   return uuidv5(email, random);
 };
 
 // get user from the database by its email address
-const retrieveApiKey = email => new Promise((resolve, reject) => {
+const retrieveApiKey = email =>
+  new Promise((resolve, reject) => {
     // find the user in the Redis cache
     redisClient.hget('users', email, (err, result) => {
       if (err || !result) {
@@ -22,10 +23,10 @@ const retrieveApiKey = email => new Promise((resolve, reject) => {
           {
             email,
           },
-          (err, user) => {
-            if (!err && user) {
+          (err2, user) => {
+            if (!err2 && user) {
               resolve(user);
-            } else reject('Unable to find the user');
+            } else reject(new Error('Unable to find the user'));
           },
         );
       } else {
@@ -35,7 +36,8 @@ const retrieveApiKey = email => new Promise((resolve, reject) => {
   });
 
 // Create and store API key
-const createApiKey = email => new Promise((resolve, reject) => {
+const createApiKey = email =>
+  new Promise((resolve, reject) => {
     retrieveApiKey(email)
       .then(() => {
         resolve('API key already exists'); // throw an error if user already exists
@@ -49,16 +51,16 @@ const createApiKey = email => new Promise((resolve, reject) => {
         user.requests.left = 1000;
         user.requests.resetTime = +new Date();
         // + 24 * 3600 * 1000;
-        user.save((err) => {
-          if (err) reject('Error while creating the key');
+        user.save(err => {
+          if (err) reject(new Error('Error while creating the key'));
           else {
             // storing the user in the Redis cache
             redisClient.hset(
               'users',
               email,
               JSON.stringify(user.toObject()),
-              (err) => {
-                if (err) reject('Error while creating the key');
+              err2 => {
+                if (err2) reject(new Error('Error while creating the key'));
               },
             );
             resolve(user);
@@ -68,65 +70,68 @@ const createApiKey = email => new Promise((resolve, reject) => {
   });
 
 // delete API Key
-const deleteApiKey = email => new Promise((resolve, reject) => {
+const deleteApiKey = email =>
+  new Promise((resolve, reject) => {
     User.findOne(
       {
         email,
       },
       (err, user) => {
         if (!err && user) {
-          user.remove((err) => {
-            if (err) reject('Unable to delete the key');
+          user.remove(err2 => {
+            if (err2) reject(new Error('Unable to delete the key'));
             else {
               // delete the user from Redis
-              redisClient.hdel('users', email, (err) => {
-                if (!err) resolve('Key deleted successfully');
-                else reject('Unable to delete the key');
+              redisClient.hdel('users', email, err3 => {
+                if (!err3) resolve('Key deleted successfully');
+                else reject(new Error('Unable to delete the key'));
               });
             }
           });
-        } else reject('Unable to delete the key');
+        } else reject(new Error('Unable to delete the key'));
       },
     );
   });
 
 // Function to create , store , revoke apikey.
 // Supported actions - create , retrieve , revoke
-const apiKey = (mail, action) => new Promise((resolve, reject) => {
-    if (action == 'create') {
+const apiKey = (mail, action) =>
+  new Promise((resolve, reject) => {
+    if (action === 'create') {
       const create = createApiKey(mail);
       create
-        .then((result) => {
+        .then(result => {
           resolve(result);
         })
-        .catch((err) => {
-          reject('User not found');
+        .catch(() => {
+          reject(new Error('User not found'));
         });
     }
-    if (action == 'retrieve') {
+    if (action === 'retrieve') {
       const apiToken = retrieveApiKey(mail);
       apiToken
-        .then((result) => {
+        .then(result => {
           resolve(result);
         })
-        .catch((err) => {
+        .catch(err => {
           reject(err);
         });
     }
-    if (action == 'revoke') {
+    if (action === 'revoke') {
       const apiToken = deleteApiKey(mail);
       apiToken
-        .then((result) => {
+        .then(result => {
           resolve(result);
         })
-        .catch((err) => {
+        .catch(err => {
           reject(err);
         });
     }
   });
 
-exports.auth = async function (email, action) {
-  return await apiKey(email, action);
+exports.auth = async (email, action) => {
+  const value = await apiKey(email, action);
+  return value;
 };
 
 // Verify API Key
@@ -157,8 +162,8 @@ exports.verifyApiKey = (req, res, next) => {
                 resetTime: currDate,
               },
             },
-            (err) => {
-              if (!err) {
+            err2 => {
+              if (!err2) {
                 res.set('X-RateLimit-Limit', user.requests.allowed);
                 res.set('X-RateLimit-Remaining', user.requests.left - 1);
                 // res.headers['X-RateLimit-Reset'] = 1372700873
@@ -166,7 +171,7 @@ exports.verifyApiKey = (req, res, next) => {
               }
             },
           );
-        } else if (user.requests.left != 0) {
+        } else if (user.requests.left !== 0) {
           User.update(
             {
               email: user.email,
@@ -180,8 +185,8 @@ exports.verifyApiKey = (req, res, next) => {
                 resetTime: user.requests.resetTime,
               },
             },
-            (err) => {
-              if (!err) {
+            err2 => {
+              if (!err2) {
                 res.set('X-RateLimit-Limit', user.requests.allowed);
                 res.set('X-RateLimit-Remaining', user.requests.left - 1);
                 // res.headers['X-RateLimit-Reset'] = 1372700873

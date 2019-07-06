@@ -17,7 +17,7 @@ console.log(`[
             { "name": "td", "quantity": 1, "units": "kWh" }
         ]
     },`);
-for (const i in data) {
+for (let i = 0; i < data.length; i++) {
   const obj = `    {
         "item": "generation",
         "region": "${data[i].Country}",
@@ -36,7 +36,7 @@ for (const i in data) {
 }, "units": "kg N2O/kWh" }
         ]
     },
-	{
+{
         "item": "td",
         "region": "${data[i].Country}",
         "quantity": 1,

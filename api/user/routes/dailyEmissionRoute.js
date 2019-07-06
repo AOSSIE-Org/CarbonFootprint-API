@@ -10,7 +10,7 @@ const router = express.Router();
 router.get('/daily-emission', (req, res) => {
   const { email } = req.user;
   getEmissionsOfUser(email)
-    .then((data) => {
+    .then(data => {
       res.send(data);
     })
     .catch(err => res.status(400).send(err));
@@ -18,13 +18,14 @@ router.get('/daily-emission', (req, res) => {
 
 router.post('/daily-emission', (req, res) => {
   const { email } = req.user;
-  let { quantity, date } = req.body;
+  const { quantity } = req.body;
+  let { date } = req.body;
   date = new Date(date);
   createLog(email, quantity, date)
-    .then((data) => {
+    .then(data => {
       res.send(data);
     })
-    .catch(err => res.status(400).send());
+    .catch(() => res.status(400).send());
 });
 
 module.exports = router;

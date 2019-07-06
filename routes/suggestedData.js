@@ -26,7 +26,7 @@ router.post('/', (req, res) => {
     title: req.body.title,
     data: req.body.data,
     createdby: req.body.useremail,
-    state: 'Pending'
+    state: 'Pending',
   });
   newSuggestedData.save((err, data) => {
     if (err) {
@@ -187,17 +187,17 @@ router.post('/approveData', (req, res) => {
                 {
                   name: 'CO2',
                   quantity: parseFloat(data['Generation-CO2']),
-                  units: 'kg CO2/kWh'
+                  units: 'kg CO2/kWh',
                 },
                 {
                   name: 'CH4',
                   quantity: parseFloat(data['Generation-CH4']),
-                  units: 'kg CH4/kWh'
+                  units: 'kg CH4/kWh',
                 },
                 {
                   name: 'N2O',
                   quantity: parseFloat(data['Generation-N2O']),
-                  units: 'kg N2O/kWh'
+                  units: 'kg N2O/kWh',
                 },
               ],
             };
@@ -211,17 +211,17 @@ router.post('/approveData', (req, res) => {
                 {
                   name: 'CO2',
                   quantity: parseFloat(data['Td-CO2']),
-                  units: 'kg CO2/kWh'
+                  units: 'kg CO2/kWh',
                 },
                 {
                   name: 'CH4',
                   quantity: parseFloat(data['Td-CH4']),
-                  units: 'kg CH4/kWh'
+                  units: 'kg CH4/kWh',
                 },
                 {
                   name: 'N2O',
                   quantity: parseFloat(data['Td-N2O']),
-                  units: 'kg N2O/kWh'
+                  units: 'kg N2O/kWh',
                 },
               ],
             };
@@ -248,7 +248,7 @@ router.post('/approveData', (req, res) => {
                 CO2: `${genCO2 + tdCO2}`,
                 CH4: `${genCH4 + tdCH4}`,
                 N2O: `${genN2O + tdN2O}`,
-                unit: 'kg/kWh'
+                unit: 'kg/kWh',
               };
               const newj = {};
               Object.keys(jarray)
@@ -459,7 +459,7 @@ router.post('/approveData', (req, res) => {
           Series:
             'Carbon dioxide emissions (CO2), metric tons of CO2 per capita (CDIAC)',
           Footnotes: '',
-          Type: ''
+          Type: '',
         });
         fs.writeFile(
           `${process.cwd()}/raw_data/percap.json`,
@@ -544,7 +544,7 @@ router.post('/approveData', (req, res) => {
           p_emissions: pem,
           wl_factor: wfactor,
           ml_factor: mlfactor,
-          unit: 'kg'
+          unit: 'kg',
         });
         fs.writeFile(
           `${process.cwd()}/raw_data/poultry.json`,
