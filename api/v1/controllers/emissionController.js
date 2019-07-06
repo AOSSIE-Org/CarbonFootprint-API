@@ -132,17 +132,19 @@ const processEmission = (emissions, component, region, quantity, item) => {
             Logger.info(`Interpolated value = ${getInterpolatedQuantity}`);
             await find(item.components[i].name, region, getInterpolatedQuantity)
               .then(emis => {
-                emis.forEach((a, j) => {
+                // eslint-disable-next-line no-restricted-syntax, guard-for-in
+                for (const j in emis) {
                   emissions[j] += emis[j];
-                });
+                }
               })
               .catch(err => reject(err));
           } else {
             await find(item.components[i].name, region, item.components[i].quantity[0])
               .then(emis => {
-                emis.forEach((a, j) => {
+                // eslint-disable-next-line no-restricted-syntax, guard-for-in
+                for (const j in emis) {
                   emissions[j] += emis[j];
-                });
+                }
               })
               .catch(err => reject(err));
           }
@@ -152,9 +154,11 @@ const processEmission = (emissions, component, region, quantity, item) => {
           if (item.calculationMethod === 'interpolation') {
             resolve(emissions);
           } else {
-            emissions.forEach((a, i) => {
+            // eslint-disable-next-line guard-for-in, no-restricted-syntax
+            for (const i in emissions) {
               emissions[i] *= quantity;
-            });
+            }
+
             resolve(emissions);
           }
         })
@@ -172,12 +176,14 @@ exports.calculate = async (itemName, region, quantity, multiply = 1, type = '') 
       reject(`Unable to find component ${itemName} for ${region}`);
     });
   }
-  emissions.forEach((a, i) => {
+  // eslint-disable-next-line no-restricted-syntax, guard-for-in
+  for (const i in emissions) {
     emissions[i] = parseFloat((emissions[i] * multiply).toFixed(10));
     // remove CH4 or N2O key if emissions are zero
     if (!emissions[i] && i !== 'CO2') {
       delete emissions[i];
     }
-  });
+  }
+
   return emissions;
 };
