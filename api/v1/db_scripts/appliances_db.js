@@ -1,7 +1,9 @@
-require('module-alias/register');
+// eslint-disable-next-line import/no-unresolved
+require('module-alias/regvister');
 
 // To run this script use "node appliances_db.js"
 // database setup
+// eslint-disable-next-line import/no-extraneous-dependencies
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 // get the logger

@@ -1,7 +1,8 @@
+/* eslint-disable no-loop-func */
 const Emission = require('../models/emissionModel');
 const Helper = require('./helperFunctions');
 
-const getTreesReverseLookup = (emissions, relativeLocation) =>
+const getTreesReverseLookup = emissions =>
   new Promise((resolve, reject) => {
     const treeMatch = {
       section: 'trees',
@@ -25,9 +26,10 @@ const getTreesReverseLookup = (emissions, relativeLocation) =>
       (err, match) => {
         if (!err && match) {
           let matchedQuantity = match[0].components[0].quantity;
-          let targetQuantity;
-          if (matchedQuantity < 0) matchedQuantity = -1 * matchedQuantity;
-          targetQuantity = emissions.CO2 / matchedQuantity;
+          if (matchedQuantity < 0) {
+            matchedQuantity *= -1;
+          }
+          const targetQuantity = emissions.CO2 / matchedQuantity;
           treeMatch.item = match[0].item;
           treeMatch.unit = match[0].unit;
           treeMatch.quantity = targetQuantity;
@@ -55,13 +57,11 @@ const getVehiclesReverseLookup = (emissions, relativeLocation) =>
     let distance;
     let newMileage;
     let noOfLitres;
-    const geoDetails = Helper.geodecodeFromLatLon(
-      relativeLocation.lat,
-      relativeLocation.lng,
-    );
+    const geoDetails = Helper.geodecodeFromLatLon(relativeLocation.lat, relativeLocation.lng);
     geoDetails
       .then(val => {
         const countryCityDataPath = `../../../raw_data/cities/${val.countryCode}.json`;
+        // eslint-disable-next-line global-require, import/no-dynamic-require
         const cityList = require(countryCityDataPath);
         const noOfCities = Object.keys(cityList).length;
         do {
@@ -74,10 +74,7 @@ const getVehiclesReverseLookup = (emissions, relativeLocation) =>
           );
           noOfLitres = emissions.CO2 / vehicleDefault;
           newMileage = distance / noOfLitres;
-          if (
-            destinationCity.name !== val.city
-            && (newMileage > 10 && newMileage < 30)
-          ) {
+          if (destinationCity.name !== val.city && (newMileage > 10 && newMileage < 30)) {
             const geoDetailsDest = Helper.geodecodeFromLatLon(
               destinationCity.lat,
               destinationCity.lng,
@@ -93,7 +90,7 @@ const getVehiclesReverseLookup = (emissions, relativeLocation) =>
                 vehicleMatch.distance = distance;
                 resolve(vehicleMatch);
               })
-              .catch(err => {
+              .catch(() => {
                 vehicleMatch.source = val.city;
                 vehicleMatch.sourceState = val.state;
                 vehicleMatch.destination = destinationCity.name;
@@ -103,6 +100,7 @@ const getVehiclesReverseLookup = (emissions, relativeLocation) =>
               });
             break;
           }
+        // eslint-disable-next-line no-constant-condition
         } while (true);
       })
       .catch(err => {
@@ -138,9 +136,7 @@ const getTrainReverseLookup = (emissions, relativeLocation) =>
             destinationLocation.lat,
             destinationLocation.lng,
           );
-          const noOfPassengers = Math.round(
-            emissions.CO2 / (railcarDefault * interDistance),
-          );
+          const noOfPassengers = Math.round(emissions.CO2 / (railcarDefault * interDistance));
           const singleMatch = {
             source: sourceName,
             destination: destinationName,
@@ -160,21 +156,19 @@ const getTrainReverseLookup = (emissions, relativeLocation) =>
             trainDestLocation,
           );
           railDistance
-            .then(val => {
-              const newPassengerCount = Math.round(
-                emissions.CO2 / (railcarDefault * val),
-              );
+            .then(val1 => {
+              const newPassengerCount = Math.round(emissions.CO2 / (railcarDefault * val1));
               trainMatch.source = sourceName;
               trainMatch.destination = matches[chosenOne].destination;
               trainMatch.passengers = newPassengerCount;
-              trainMatch.distance = val;
+              trainMatch.distance = val1;
               resolve(trainMatch);
             })
             .catch(err => {
-              reject(`Failed to get rail distance: ${err}`);
+              reject(new Error(`Failed to get rail distance: ${err}`));
             });
         } else {
-          reject('Not many stations around the given location');
+          reject(new Error('Not many stations around the given location'));
         }
       })
       .catch(err => {
@@ -225,7 +219,7 @@ const findMatch = (emissions, section, relativeLocation) => {
           match: '',
           section: 'trees',
         };
-        getTreesReverseLookup(emissions, relativeLocation)
+        getTreesReverseLookup(emissions)
           .then(result => {
             delete result.section;
             treeResponse.match = result;
@@ -248,15 +242,9 @@ const findMatch = (emissions, section, relativeLocation) => {
               status: 'failure',
             }),
           );
-        sectionPromises.push(
-          getTrainReverseLookup(emissions, relativeLocation),
-        );
-        sectionPromises.push(
-          getVehiclesReverseLookup(emissions, relativeLocation),
-        );
-        sectionPromises.push(
-          getTreesReverseLookup(emissions, relativeLocation),
-        );
+        sectionPromises.push(getTrainReverseLookup(emissions, relativeLocation));
+        sectionPromises.push(getVehiclesReverseLookup(emissions, relativeLocation));
+        sectionPromises.push(getTreesReverseLookup(emissions));
         Promise.all(sectionPromises.map(reflect))
           .then(results => {
             for (let i = 0; i < results.length; i++) {
@@ -271,11 +259,11 @@ const findMatch = (emissions, section, relativeLocation) => {
             reject(err);
           });
       }
-    } else reject('invalid category');
+    } else reject(new Error('invalid category'));
   });
 };
 
-exports.reverseFind = async function (emissions, section, relativeLocation) {
+exports.reverseFind = async (emissions, section, relativeLocation) => {
   const matches = await findMatch(emissions, section, relativeLocation);
   return matches;
 };

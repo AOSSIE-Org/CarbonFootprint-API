@@ -1,7 +1,9 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
 require('module-alias/register');
 
 // To run this script use "node electricity_db_generation.js"
 // database setup
+// eslint-disable-next-line import/no-extraneous-dependencies
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 // get the logger

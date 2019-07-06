@@ -1,7 +1,9 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
 require('module-alias/register');
 
 // to run this script use "node agriculture_db.js"
 // database setup
+// eslint-disable-next-line import/no-extraneous-dependencies
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 // get the logger
