@@ -10,8 +10,10 @@ const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const jwt = require('express-jwt');
 const jwks = require('jwks-rsa');
+// eslint-disable-next-line import/no-unresolved
 const customErrorFunctions = require('@framework/CustomRouterFunctions');
 const helmet = require('helmet');
+// eslint-disable-next-line import/no-unresolved
 const Logger = require('@framework/Logger');
 const cors = require('cors');
 
@@ -21,7 +23,9 @@ const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 // connect to the database
 mongoose.connect(
-  `mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`,
+  `mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:${
+    process.env.DB_PORT
+  }/${process.env.DB_NAME}`,
   { useMongoClient: true },
 );
 
@@ -31,7 +35,7 @@ mongoose.connection.on('connected', () => {
 });
 
 // If the connection throws an error
-mongoose.connection.on('error', (err) => {
+mongoose.connection.on('error', err => {
   Logger.error(`Error connecting to database: ${err}`);
 });
 
@@ -55,7 +59,7 @@ app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 const whitelist = process.env.WHITELISTED_DOMAINS.split(','); // adding the whitelist urls in the array
-const corsOptionsDelegate = function (req, callback) {
+const corsOptionsDelegate = (req, callback) => {
   let corsOptions;
   if (whitelist.indexOf(req.header('Origin')) !== -1) {
     corsOptions = { origin: true }; // reflect (enable) the requested origin in the CORS response
@@ -137,7 +141,7 @@ app.use('/auth', authroute);
 app.use('/', index);
 
 // error handler
-app.use((err, req, res, next) => {
+app.use((err, req, res) => {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};

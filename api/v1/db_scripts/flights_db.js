@@ -1,17 +1,24 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
 require('module-alias/register');
 
 // To run this script use "node flights_db.js"
 // database setup
+// eslint-disable-next-line import/no-extraneous-dependencies
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 // get the logger
+// eslint-disable-next-line import/no-unresolved
 const Logger = require('@framework/Logger');
 // get the database configuration file
+// eslint-disable-next-line import/no-unresolved
 const config = require('@root/config.json');
-const async = require('async');
+// eslint-disable-next-line import/no-unresolved
+const json = require('@raw_data/flights.json');
 
 try {
-  config;
+  if (!config) {
+    throw new Error('config.json missing');
+  }
 } catch (e) {
   Logger.error('Database configuration file "config.json" is missing.');
   process.exit(1);
@@ -19,10 +26,9 @@ try {
 const db = config.database;
 
 // connect to the database
-mongoose.connect(
-  `mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`,
-  { useMongoClient: true },
-);
+mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, {
+  useMongoClient: true,
+});
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
@@ -31,7 +37,7 @@ mongoose.connection.on('connected', () => {
 });
 
 // If the connection throws an error
-mongoose.connection.on('error', (err) => {
+mongoose.connection.on('error', err => {
   Logger.error(`Error connecting to database: ${err}`);
 });
 
@@ -63,10 +69,9 @@ const dist = [
   8000,
   8500,
 ];
-const json = require('@raw_data/flights.json');
 
-emissions = [];
-for (js in json) {
+const emissions = [];
+for (let js = 0; js < json.length; js++) {
   const obj = new Emission();
   obj.item = `airplane model ${json[js]['airplane model']}`;
   obj.region = 'Default';
@@ -79,10 +84,10 @@ for (js in json) {
     {
       name: 'airplane fuel',
       quantity: [],
-      unit: 'kg'
+      unit: 'kg',
     },
   ];
-  for (ds in dist) {
+  for (let ds = 0; ds < dist.length; ds++) {
     if (json[js][dist[ds]]) {
       obj.quantity.push(dist[ds]);
       obj.components[0].quantity.push(json[js][dist[ds]]);
@@ -91,7 +96,7 @@ for (js in json) {
   emissions.push(obj);
 }
 
-obj = new Emission();
+let obj = new Emission();
 obj.item = 'airplane model A380';
 obj.region = 'Default';
 obj.quantity = [
@@ -158,7 +163,7 @@ obj.components = [
       270670,
       271480,
     ],
-    unit: 'kg'
+    unit: 'kg',
   },
 ];
 emissions.push(obj);
@@ -174,7 +179,7 @@ obj.components = [
   {
     name: 'airplane fuel',
     quantity: [1672, 3430, 4585, 6212, 7772, 10766, 13648, 16452],
-    unit: 'kg'
+    unit: 'kg',
   },
 ];
 emissions.push(obj);
@@ -189,12 +194,12 @@ obj.components = [
   {
     name: 'CO2',
     quantity: [0.00316],
-    unit: 'kg'
+    unit: 'kg',
   },
 ];
 emissions.push(obj);
 
-Emission.create(emissions, (err) => {
+Emission.create(emissions, err => {
   if (err) throw err;
   mongoose.connection.close();
 });
