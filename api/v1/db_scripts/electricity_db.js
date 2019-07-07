@@ -5,6 +5,7 @@ require('module-alias/register');
 // database setup
 // eslint-disable-next-line import/no-extraneous-dependencies
 const mongoose = require('mongoose');
+
 mongoose.Promise = global.Promise;
 // get the logger
 // eslint-disable-next-line import/no-unresolved
