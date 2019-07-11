@@ -163,10 +163,10 @@ const getTrainReverseLookup = (emissions, relativeLocation) =>
               resolve(trainMatch);
             })
             .catch(err => {
-              reject(`Failed to get rail distance: ${err}`);
+              reject(new Error(`Failed to get rail distance: ${err}`));
             });
         } else {
-          reject(`Not many stations around the given location`);
+          reject(new Error(`Not many stations around the given location`));
         }
       })
       .catch(err => {
@@ -257,7 +257,7 @@ const findMatch = (emissions, section, relativeLocation) => {
             reject(err);
           });
       }
-    } else reject(`invalid category`);
+    } else reject(new Error(`invalid category`));
   });
 };
 
