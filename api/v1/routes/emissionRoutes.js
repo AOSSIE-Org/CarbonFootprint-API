@@ -319,28 +319,27 @@ router.post('/emissions', (req, res) => {
   const quantity = req.body["quantity"] || 1;
   const multiply = req.body["multiply"] || 1;
   calculate(itemName, region, quantity, multiply)
-      .then((emissions) => {
-        Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
-        if (emissions.CO2 < 0) {
-          res.status(200).json({
-            success: true,
-            emissions: emissions,
-            unit: 'kg',
-            note: "A negative number for emissions signifies that the item absorbs CO2."
-          });
-        } else {
-          res.status(200).json({
-            success: true,
-            emissions: emissions,
-            unit: 'kg'
-          });
-        }
-
-      })
-      .catch((err) => {
-        Logger.error(`Error: ${err}`);
-        res.sendJsonError(err, 400);
-      });
+    .then(emissions => {
+      Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
+      if (emissions.CO2 < 0) {
+        res.status(200).json({
+          success: true,
+          emissions,
+          unit: 'kg',
+          note:
+            'A negative number for emissions signifies that the item absorbs CO2.',
+        });
+      } else {
+        res.status(200).json({
+          success: true,
+          emissions,
+          unit: 'kg',
+        });
+      }
+    })
+    .catch(err => {
+      res.sendJsonError(err, 400);
+    });
 });
 
 router.post('/comparer', (req, res) => {
@@ -348,19 +347,15 @@ router.post('/comparer', (req, res) => {
   let section = req.body["section"];
   let relativeLocation = req.body["relativeLocation"] || null;
   reverseFind(emissions, section, relativeLocation)
-      .then((match) => {
-        res.status(200).json({
-          success: true,
-          matches: match
-        });
-      })
-      .catch((err) => {
-        console.log(`Error: ${err}`);
-        res.status(404).json({
-          success: false,
-          err: err
-        });
+    .then(match => {
+      res.status(200).json({
+        success: true,
+        matches: match,
       });
+    })
+    .catch(err => {
+      res.sendJsonError(err, 404);
+    });
 });
 
 /**

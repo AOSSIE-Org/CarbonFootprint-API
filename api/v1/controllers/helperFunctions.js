@@ -1,5 +1,7 @@
-var NodeGeocoder = require("node-geocoder");
-const axios = require("axios");
+const NodeGeocoder = require('node-geocoder');
+const axios = require('axios');
+// eslint-disable-next-line import/no-unresolved
+const countryToCode = require('@root/raw_data/countryToCode.json');
 
 var options = {
   provider: "virtualearth",
@@ -68,31 +70,31 @@ const distance = (ori, dest, mod) => {
         )
       );
   });
-};
+}
 
 const nearbyTrainStations = async relativeLocation => {
-  const trainStationData = await geodecodeFromLatLon();
+  // TODO bug fix
+  const trainStationData = await geodecodeFromLatLon(relativeLocation.lat, relativeLocation.lng);
+  const { city } = trainStationData;
+  const locationName = `${city}`;
 
   return new Promise((resolve, reject) => {
     axios
-      .post(createMapURI(`Locations/${locationName}+Train+Railway+Station`), {})
+      .get(createMapURI(`Locations/${locationName}+Train+Railway+Station`), {})
       .then(data => {
-        if (data.data.resourceSets[0].resources[0].estimatedTotal === 0)
-          reject("Can't find any train station data");
-        else {
-          const dataArray = data.data.resourceSets[0].resources.reduce(
-            (accumulator, current) => {
-              accumulator.push({
-                name: current.name,
-                location: {
-                  lat: current.geocodePoints[0].coordinates[0],
-                  lng: current.geocodePoints[0].coordinates[1]
-                }
-              });
-              return accumulator;
-            },
-            []
-          );
+        if (data.data.resourceSets[0].estimatedTotal === 0) {
+          reject(new Error("Can't find any train station data"));
+        } else {
+          const dataArray = data.data.resourceSets[0].resources.reduce((accumulator, current) => {
+            accumulator.push({
+              name: current.name,
+              location: {
+                lat: current.geocodePoints[0].coordinates[0],
+                lng: current.geocodePoints[0].coordinates[1],
+              },
+            });
+            return accumulator;
+          }, []);
           resolve(dataArray);
         }
       })
@@ -156,9 +158,10 @@ const railDistanceInCoordinates = (
         destinations: [
           {
             latitude: destinationLocation.lat,
-            longitude: destinationLocation.lng
-          }
-        ]
+            longitude: destinationLocation.lng,
+          },
+        ],
+        travelMode: 'driving',
       })
       .then(data => {
         if (
@@ -173,11 +176,9 @@ const railDistanceInCoordinates = (
             data.data.resourceSets[0].resources[0].results[0].travelDistance
           );
       })
-      .catch(err =>
-        reject(
-          "Unable to find the distance between the origin and destination points."
-        )
-      );
+      .catch(err => {
+        reject(new Error('Unable to find the distance between the origin and destination points.'));
+      });
   });
 };
 
@@ -195,10 +196,10 @@ const geodecodeFromLatLon = (lat, lng) => {
         else {
           //console.log(res);
           data.country = res[0].country;
-          data.countryCode = res[0].countryCode;
+          data.countryCode = countryToCode[res[0].country];
           data.city = res[0].city;
-          data.state = res[0].administrativeLevels.level1long;
-          //console.log(data);
+          data.state = res[0].state;
+          // console.log(data);
           resolve(data);
         }
       }
