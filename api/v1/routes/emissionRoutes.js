@@ -10,10 +10,7 @@ const airports = require('@raw_data/airports.json');
 const { calculate } = require('../controllers/emissionController');
 const { reverseFind } = require('../controllers/reverseLookupController');
 // get the helper functions
-const {
-  getDistanceFromLatLon,
-  distance,
-} = require('../controllers/helperFunctions');
+const { getDistanceFromLatLon, distance } = require('../controllers/helperFunctions');
 // get the logger
 
 /**
@@ -334,8 +331,7 @@ router.post('/emissions', (req, res) => {
           success: true,
           emissions,
           unit: 'kg',
-          note:
-            'A negative number for emissions signifies that the item absorbs CO2.',
+          note: 'A negative number for emissions signifies that the item absorbs CO2.',
         });
       } else {
         res.status(200).json({
@@ -346,7 +342,6 @@ router.post('/emissions', (req, res) => {
       }
     })
     .catch(err => {
-      Logger.error(`Error: ${err}`);
       res.sendJsonError(err, 400);
     });
 });
@@ -363,11 +358,7 @@ router.post('/comparer', (req, res) => {
       });
     })
     .catch(err => {
-      console.log(`Error: ${err}`);
-      res.status(404).json({
-        success: false,
-        err,
-      });
+      res.sendJsonError(err, 404);
     });
 });
 
@@ -453,16 +444,10 @@ router.post('/flight', (req, res) => {
       })
       .catch(err => {
         Logger.error(`Error: ${err}`);
-        res.sendJsonError(
-          `Unable to find emissions for airplane model ${model}`,
-          404,
-        );
+        res.sendJsonError(`Unable to find emissions for airplane model ${model}`, 404);
       });
   } else {
-    res.sendJsonError(
-      'Unable to find the airports. Please use IATA airport codes only',
-      400,
-    );
+    res.sendJsonError('Unable to find the airports. Please use IATA airport codes only', 400);
   }
 });
 
@@ -539,10 +524,7 @@ router.post('/vehicle', async (req, res) => {
           })
           .catch(err => {
             Logger.error(`Error: ${err}`);
-            res.sendJsonError(
-              `Unable to find emissions for fuel type ${type}`,
-              404,
-            );
+            res.sendJsonError(`Unable to find emissions for fuel type ${type}`, 404);
           });
       })
       .catch(err => {
@@ -624,10 +606,7 @@ router.post('/trains', async (req, res) => {
           })
           .catch(err => {
             Logger.error(`Error: ${err}`);
-            res.sendJsonError(
-              `Unable to find emissions for fuel type ${type}`,
-              404,
-            );
+            res.sendJsonError(`Unable to find emissions for fuel type ${type}`, 404);
           });
       })
       .catch(err => {
@@ -829,18 +808,12 @@ router.post('/quantity', (req, res) => {
           note: `This is a estimate for the quantity of ${itemName} that could be the cause of the emission provided.`,
         });
       } else {
-        res.sendJsonError(
-          `Unable to find quantity for item type ${itemName}`,
-          400,
-        );
+        res.sendJsonError(`Unable to find quantity for item type ${itemName}`, 400);
       }
     })
     .catch(err => {
       Logger.error(`Error: ${err}`);
-      res.sendJsonError(
-        `Unable to find quantity for item type ${itemName}`,
-        400,
-      );
+      res.sendJsonError(`Unable to find quantity for item type ${itemName}`, 400);
     });
 });
 
@@ -894,10 +867,7 @@ router.post('/agriculture', (req, res) => {
             note: `This is a estimate for the quantity of ${itemName} that could be the cause of the emission provided.`,
           });
         } else {
-          res.sendJsonError(
-            `Unable to find emissions for sector ${itemName} in ${region}`,
-            400,
-          );
+          res.sendJsonError(`Unable to find emissions for sector ${itemName} in ${region}`, 400);
         }
       })
       .catch(err => {
@@ -960,10 +930,7 @@ router.post('/food', (req, res) => {
             note: `This is a estimate for the quantity of ${itemName} that could be the cause of the emission provided.`,
           });
         } else {
-          res.sendJsonError(
-            `Unable to find emissions for sector ${itemName} in ${region}`,
-            400,
-          );
+          res.sendJsonError(`Unable to find emissions for sector ${itemName} in ${region}`, 400);
         }
       })
       .catch(err => {
@@ -1026,10 +993,7 @@ router.post('/land', (req, res) => {
             note: `This is a estimate for the quantity of ${itemName} that could be the cause of the emission provided.`,
           });
         } else {
-          res.sendJsonError(
-            `Unable to find emissions for sector ${itemName} in ${region}`,
-            400,
-          );
+          res.sendJsonError(`Unable to find emissions for sector ${itemName} in ${region}`, 400);
         }
       })
       .catch(err => {
@@ -1092,18 +1056,12 @@ router.post('/sector', (req, res) => {
             note: `This is a estimate for the quantity of ${sector} that could be the cause of the emission provided.`,
           });
         } else {
-          res.sendJsonError(
-            `Unable to find emissions for sector ${sector} in ${region}`,
-            400,
-          );
+          res.sendJsonError(`Unable to find emissions for sector ${sector} in ${region}`, 400);
         }
       })
       .catch(err => {
         Logger.error(`Error: ${err}`);
-        res.sendJsonError(
-          `Unable to find emissions for ${sector} in ${region}`,
-          400,
-        );
+        res.sendJsonError(`Unable to find emissions for ${sector} in ${region}`, 400);
       });
   } else {
     res.sendJsonError('Please provide valid sector and region values', 400);

@@ -33,9 +33,13 @@ const getTreesReverseLookup = emissions =>
           treeMatch.item = match[0].item;
           treeMatch.unit = match[0].unit;
           treeMatch.quantity = targetQuantity;
-          if (match[0].region && match[0].region !== 'Default') treeMatch.region = match[0].region;
+          if (match[0].region && match[0].region !== 'Default') {
+            treeMatch.region = match[0].region;
+          }
           resolve(treeMatch);
-        } else reject(err);
+        } else {
+          reject(err);
+        }
       },
     );
   });
@@ -52,11 +56,6 @@ const getVehiclesReverseLookup = (emissions, relativeLocation) =>
       distance: 0,
     };
     const vehicleDefault = 2.328; // petrol default.
-    let destinationCity;
-    let destinationState;
-    let distance;
-    let newMileage;
-    let noOfLitres;
     const geoDetails = Helper.geodecodeFromLatLon(relativeLocation.lat, relativeLocation.lng);
     geoDetails
       .then(val => {
@@ -65,15 +64,15 @@ const getVehiclesReverseLookup = (emissions, relativeLocation) =>
         const cityList = require(countryCityDataPath);
         const noOfCities = Object.keys(cityList).length;
         do {
-          destinationCity = cityList[Helper.getRandomNumber(0, noOfCities)];
-          distance = Helper.getDistanceFromLatLon(
+          const destinationCity = cityList[Helper.getRandomNumber(0, noOfCities)];
+          const distance = Helper.getDistanceFromLatLon(
             relativeLocation.lat,
             relativeLocation.lng,
             destinationCity.lat,
             destinationCity.lng,
           );
-          noOfLitres = emissions.CO2 / vehicleDefault;
-          newMileage = distance / noOfLitres;
+          const noOfLitres = emissions.CO2 / vehicleDefault;
+          const newMileage = distance / noOfLitres;
           if (destinationCity.name !== val.city && (newMileage > 10 && newMileage < 30)) {
             const geoDetailsDest = Helper.geodecodeFromLatLon(
               destinationCity.lat,
@@ -81,7 +80,7 @@ const getVehiclesReverseLookup = (emissions, relativeLocation) =>
             );
             geoDetailsDest
               .then(details => {
-                destinationState = details.state;
+                const destinationState = details.state;
                 vehicleMatch.source = val.city;
                 vehicleMatch.sourceState = val.state;
                 vehicleMatch.destination = destinationCity.name;
@@ -100,7 +99,7 @@ const getVehiclesReverseLookup = (emissions, relativeLocation) =>
               });
             break;
           }
-        // eslint-disable-next-line no-constant-condition
+          // eslint-disable-next-line no-constant-condition
         } while (true);
       })
       .catch(err => {
@@ -127,7 +126,7 @@ const getTrainReverseLookup = (emissions, relativeLocation) =>
         // expensive for this already expensive operation.
         const railcarDefault = 0.0412;
         const matches = [];
-        for (let i = 1; i < val.length; i++) {
+        for (let i = 0; i < val.length; i++) {
           const destinationLocation = val[i].location;
           const destinationName = val[i].name;
           const interDistance = Helper.getDistanceFromLatLon(
@@ -156,12 +155,12 @@ const getTrainReverseLookup = (emissions, relativeLocation) =>
             trainDestLocation,
           );
           railDistance
-            .then(val1 => {
-              const newPassengerCount = Math.round(emissions.CO2 / (railcarDefault * val1));
+            .then(val2 => {
+              const newPassengerCount = Math.round(emissions.CO2 / (railcarDefault * val2));
               trainMatch.source = sourceName;
               trainMatch.destination = matches[chosenOne].destination;
               trainMatch.passengers = newPassengerCount;
-              trainMatch.distance = val1;
+              trainMatch.distance = val2;
               resolve(trainMatch);
             })
             .catch(err => {
@@ -238,7 +237,7 @@ const findMatch = (emissions, section, relativeLocation) => {
               section: match.section,
             }),
             error => ({
-              error,
+              error: error.message,
               status: 'failure',
             }),
           );
