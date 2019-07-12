@@ -63,6 +63,7 @@ const distance = (ori, dest) =>
 
 const nearbyTrainStations = async relativeLocation => {
   // TODO bug fix
+  // eslint-disable-next-line no-use-before-define
   const trainStationData = await geodecodeFromLatLon(relativeLocation.lat, relativeLocation.lng);
   const { city } = trainStationData;
   const locationName = `${city}`;
@@ -179,7 +180,7 @@ module.exports = {
   geodecodeFromLatLon,
   railDistanceInCoordinates,
   transitDistanceInCoordinates,
-  // nearbyTrainStations,
+  nearbyTrainStations,
   distance,
   getRandomNumber,
   getDistanceFromLatLon,
