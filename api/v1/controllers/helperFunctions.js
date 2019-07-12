@@ -92,7 +92,6 @@ const nearbyTrainStations = async relativeLocation => {
       });
   });
 };
-*/
 
 // Different from distance(orig, dest, mod) since this accepts coordinates
 const transitDistanceInCoordinates = (sourceLocation, destinationLocation) =>
