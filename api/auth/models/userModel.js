@@ -1,38 +1,39 @@
 const mongoose = require('mongoose');
+
 mongoose.Promise = global.Promise;
-const Schema = mongoose.Schema;
+const { Schema } = mongoose;
 
 // create a schema for for generation of user api keys and rate limiting.
 const userSchema = new Schema(
   {
     email: {
       type: String,
-      required: true
+      required: true,
     },
     apikey: {
       type: String,
-      required: true
+      required: true,
     },
     requests: {
       allowed: {
         type: Number,
         required: true,
-        default: 1000
+        default: 1000,
       },
       left: {
         type: Number,
         required: true,
-        default: 1000
+        default: 1000,
       },
       resetTime: {
         type: Date,
-				required: true
-      }
-    }
+        required: true,
+      },
+    },
   },
   {
-    timestamps: true
-  }
+    timestamps: true,
+  },
 );
 
 module.exports = mongoose.model('User', userSchema);

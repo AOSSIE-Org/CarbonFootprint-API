@@ -1,3 +1,4 @@
+/* eslint-disable no-loop-func */
 const Emission = require('../models/emissionModel');
 const Helper = require('./helperFunctions');
 
@@ -7,20 +8,20 @@ const getTreesReverseLookup = emissions =>
       section: 'trees',
       item: '',
       quantity: 0,
-      unit: ''
+      unit: '',
     };
     Emission.aggregate(
       [
         {
           $match: {
-            'categories.0': 'trees'
-          }
+            'categories.0': 'trees',
+          },
         },
         {
           $sample: {
-            size: 1
-          }
-        }
+            size: 1,
+          },
+        },
       ],
       (err, match) => {
         if (!err && match) {
@@ -39,7 +40,7 @@ const getTreesReverseLookup = emissions =>
         } else {
           reject(err);
         }
-      }
+      },
     );
   });
 
@@ -52,7 +53,7 @@ const getVehiclesReverseLookup = (emissions, relativeLocation) =>
       destination: '',
       destinationState: '',
       mileage: 0,
-      distance: 0
+      distance: 0,
     };
     const vehicleDefault = 2.328; // petrol default.
     const geoDetails = Helper.geodecodeFromLatLon(relativeLocation.lat, relativeLocation.lng);
@@ -68,14 +69,14 @@ const getVehiclesReverseLookup = (emissions, relativeLocation) =>
             relativeLocation.lat,
             relativeLocation.lng,
             destinationCity.lat,
-            destinationCity.lng
+            destinationCity.lng,
           );
           const noOfLitres = emissions.CO2 / vehicleDefault;
           const newMileage = distance / noOfLitres;
           if (destinationCity.name !== val.city && (newMileage > 10 && newMileage < 30)) {
             const geoDetailsDest = Helper.geodecodeFromLatLon(
               destinationCity.lat,
-              destinationCity.lng
+              destinationCity.lng,
             );
             geoDetailsDest
               .then(details => {
@@ -113,7 +114,7 @@ const getTrainReverseLookup = (emissions, relativeLocation) =>
       source: '',
       destination: '',
       passengers: 0,
-      distance: 0
+      distance: 0,
     };
     const results = Helper.nearbyTrainStations(relativeLocation);
     results
@@ -132,7 +133,7 @@ const getTrainReverseLookup = (emissions, relativeLocation) =>
             sourceLocation.lat,
             sourceLocation.lng,
             destinationLocation.lat,
-            destinationLocation.lng
+            destinationLocation.lng,
           );
           const noOfPassengers = Math.round(emissions.CO2 / (railcarDefault * interDistance));
           const singleMatch = {
@@ -140,33 +141,33 @@ const getTrainReverseLookup = (emissions, relativeLocation) =>
             destination: destinationName,
             distance: interDistance,
             passengers: noOfPassengers,
-            location: destinationLocation
+            location: destinationLocation,
           };
           matches.push(singleMatch);
         }
 
         if (matches.length > 1) {
-          let chosenOne = Helper.getRandomNumber(1, matches.length - 1);
-          let trainSourceLocation = sourceLocation;
-          let trainDestLocation = matches[chosenOne].location;
-          let railDistance = Helper.railDistanceInCoordinates(
+          const chosenOne = Helper.getRandomNumber(1, matches.length - 1);
+          const trainSourceLocation = sourceLocation;
+          const trainDestLocation = matches[chosenOne].location;
+          const railDistance = Helper.railDistanceInCoordinates(
             trainSourceLocation,
-            trainDestLocation
+            trainDestLocation,
           );
           railDistance
-            .then(val => {
-              let newPassengerCount = Math.round(emissions.CO2 / (railcarDefault * val));
+            .then(val2 => {
+              const newPassengerCount = Math.round(emissions.CO2 / (railcarDefault * val2));
               trainMatch.source = sourceName;
               trainMatch.destination = matches[chosenOne].destination;
               trainMatch.passengers = newPassengerCount;
-              trainMatch.distance = val;
+              trainMatch.distance = val2;
               resolve(trainMatch);
             })
             .catch(err => {
               reject(new Error(`Failed to get rail distance: ${err}`));
             });
         } else {
-          reject(new Error(`Not many stations around the given location`));
+          reject(new Error('Not many stations around the given location'));
         }
       })
       .catch(err => {
@@ -179,7 +180,7 @@ const findMatch = (emissions, section, relativeLocation) => {
     section1: 'trees',
     section2: 'trains',
     section3: 'vehicles',
-    section4: 'all'
+    section4: 'all',
   };
   return new Promise((resolve, reject) => {
     // We are only concerned with CO2 emission for now
@@ -187,7 +188,7 @@ const findMatch = (emissions, section, relativeLocation) => {
       if (section === 'trains') {
         const trainResponse = {
           train: '',
-          section: 'trains'
+          section: 'trains',
         };
         getTrainReverseLookup(emissions, relativeLocation)
           .then(result => {
@@ -201,7 +202,7 @@ const findMatch = (emissions, section, relativeLocation) => {
       } else if (section === 'vehicles') {
         const vehicleResponse = {
           match: '',
-          section: 'vehicles'
+          section: 'vehicles',
         };
         getVehiclesReverseLookup(emissions, relativeLocation)
           .then(result => {
@@ -215,7 +216,7 @@ const findMatch = (emissions, section, relativeLocation) => {
       } else if (section === 'trees') {
         const treeResponse = {
           match: '',
-          section: 'trees'
+          section: 'trees',
         };
         getTreesReverseLookup(emissions)
           .then(result => {
@@ -233,12 +234,12 @@ const findMatch = (emissions, section, relativeLocation) => {
             match => ({
               status: 'success',
               match,
-              section: match.section
+              section: match.section,
             }),
             error => ({
               error: error.message,
-              status: 'failure'
-            })
+              status: 'failure',
+            }),
           );
         sectionPromises.push(getTrainReverseLookup(emissions, relativeLocation));
         sectionPromises.push(getVehiclesReverseLookup(emissions, relativeLocation));
@@ -257,11 +258,11 @@ const findMatch = (emissions, section, relativeLocation) => {
             reject(err);
           });
       }
-    } else reject(new Error(`invalid category`));
+    } else reject(new Error('invalid category'));
   });
 };
 
-exports.reverseFind = async function(emissions, section, relativeLocation) {
+exports.reverseFind = async (emissions, section, relativeLocation) => {
   const matches = await findMatch(emissions, section, relativeLocation);
   return matches;
 };

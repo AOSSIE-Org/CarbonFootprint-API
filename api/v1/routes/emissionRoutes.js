@@ -1,12 +1,17 @@
+/* eslint-disable max-len */
 const express = require('express');
+
 const router = express.Router();
 // get the emission controller
+// eslint-disable-next-line import/no-unresolved
+const Logger = require('@framework/Logger');
+// eslint-disable-next-line import/no-unresolved
+const airports = require('@raw_data/airports.json');
 const { calculate } = require('../controllers/emissionController');
 const { reverseFind } = require('../controllers/reverseLookupController');
 // get the helper functions
 const { getDistanceFromLatLon, distance } = require('../controllers/helperFunctions');
 // get the logger
-const Logger = require('@framework/Logger');
 
 /**
  * @swagger
@@ -51,7 +56,7 @@ const Logger = require('@framework/Logger');
  *                required: false
  *                type: number
  *                description: If emissions are to be found for multiple elements.
- *                example: 
+ *                example:
  *    responses:
  *      200:
  *        description: Returns emission by the specified airplane model
@@ -102,7 +107,7 @@ const Logger = require('@framework/Logger');
  *                required: false
  *                type: number
  *                description: If emissions are to be found for multiple elements.
- *                example: 
+ *                example:
  *    responses:
  *      200:
  *        description: Returns emission by the specified airplane model
@@ -110,7 +115,7 @@ const Logger = require('@framework/Logger');
  *        description: Error
  */
 
- /**
+/**
  * @swagger
  * /emissions?vehicle:
  *  post:
@@ -153,7 +158,7 @@ const Logger = require('@framework/Logger');
  *                required: false
  *                type: number
  *                description: If emissions are to be found for multiple elements.
- *                example: 
+ *                example:
  *    responses:
  *      200:
  *        description: Returns emission by the specified airplane model
@@ -161,7 +166,7 @@ const Logger = require('@framework/Logger');
  *        description: Error
  */
 
- /**
+/**
  * @swagger
  * /emissions?trains:
  *  post:
@@ -212,7 +217,7 @@ const Logger = require('@framework/Logger');
  *        description: Error
  */
 
- /**
+/**
  * @swagger
  * /emissions?trees:
  *  post:
@@ -220,7 +225,7 @@ const Logger = require('@framework/Logger');
  *    - "Emissions"
  *    security:
  *      - apiKeyAuth: []
- *    description: Emission route can be requested with tree name and the number of years to find out the CO2 absorption from it per year.The trees that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint/blob/master/Source/Core/core/resources/trees.json). 
+ *    description: Emission route can be requested with tree name and the number of years to find out the CO2 absorption from it per year.The trees that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint/blob/master/Source/Core/core/resources/trees.json).
  *    produces:
  *      application/json
  *    consumes:
@@ -255,7 +260,7 @@ const Logger = require('@framework/Logger');
  *                required: false
  *                type: number
  *                description: If emissions are to be found for multiple elements.
- *                example: 
+ *                example:
  *    responses:
  *      200:
  *        description: Returns emission by the specified airplane model
@@ -263,7 +268,7 @@ const Logger = require('@framework/Logger');
  *        description: Error
  */
 
- /**
+/**
  * @swagger
  * /emissions?aplliances:
  *  post:
@@ -271,7 +276,7 @@ const Logger = require('@framework/Logger');
  *    - "Emissions"
  *    security:
  *      - apiKeyAuth: []
- *    description: Emission route can be requested with a appliance name and the number of units and no of hours to find out the CO2 emission for the running time.The appliances that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/raw_data/appliances.json). 
+ *    description: Emission route can be requested with a appliance name and the number of units and no of hours to find out the CO2 emission for the running time.The appliances that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/raw_data/appliances.json).
  *    produces:
  *      application/json
  *    consumes:
@@ -314,10 +319,10 @@ const Logger = require('@framework/Logger');
  *        description: Error
  */
 router.post('/emissions', (req, res) => {
-  const itemName = req.body["item"];
-  const region = req.body["region"] || "Default";
-  const quantity = req.body["quantity"] || 1;
-  const multiply = req.body["multiply"] || 1;
+  const itemName = req.body.item;
+  const region = req.body.region || 'Default';
+  const quantity = req.body.quantity || 1;
+  const multiply = req.body.multiply || 1;
   calculate(itemName, region, quantity, multiply)
     .then(emissions => {
       Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
@@ -326,8 +331,7 @@ router.post('/emissions', (req, res) => {
           success: true,
           emissions,
           unit: 'kg',
-          note:
-            'A negative number for emissions signifies that the item absorbs CO2.',
+          note: 'A negative number for emissions signifies that the item absorbs CO2.',
         });
       } else {
         res.status(200).json({
@@ -343,9 +347,9 @@ router.post('/emissions', (req, res) => {
 });
 
 router.post('/comparer', (req, res) => {
-  let emissions = req.body["emissions"];
-  let section = req.body["section"];
-  let relativeLocation = req.body["relativeLocation"] || null;
+  const { emissions } = req.body;
+  const { section } = req.body;
+  const relativeLocation = req.body.relativeLocation || null;
   reverseFind(emissions, section, relativeLocation)
     .then(match => {
       res.status(200).json({
@@ -384,7 +388,7 @@ router.post('/comparer', (req, res) => {
  *                example: DEL
  *              destination:
  *                required: true
- *                description: Flight destination airport _IATA_ code.  
+ *                description: Flight destination airport _IATA_ code.
  *                type: string
  *                example: JFK
  *              type:
@@ -409,42 +413,42 @@ router.post('/comparer', (req, res) => {
  *        description: Error
  */
 router.post('/flight', (req, res) => {
-  const airports = require('@raw_data/airports.json');
   const type = req.body.type || 'international';
-  let model = req.body.model;
-  const origin = req.body.origin;
-  const destination = req.body.destination;
+  let { model } = req.body;
+  const { origin } = req.body;
+  const { destination } = req.body;
   const passengers = req.body.passengers || 1;
-  const seatType = req.body.seatType || 'economy';
 
   if (airports[origin] && airports[destination]) {
     const orig = airports[origin];
     const dest = airports[destination];
-    let distance = getDistanceFromLatLon(orig.lat, orig.lon, dest.lat, dest.lon);
-    distance *= 0.539957; // convert distance in km to nautical miles
+    let dis = getDistanceFromLatLon(orig.lat, orig.lon, dest.lat, dest.lon);
+    dis *= 0.539957; // convert distance in km to nautical miles
     if (!model) {
-      if (type == 'international') {
+      if (type === 'international') {
         model = 'A380';
       }
-      if (type == 'domestic') {
+      if (type === 'domestic') {
         model = 'A320';
       }
     }
 
-    calculate(`airplane model ${model}`, 'Default', distance, passengers)
-        .then((emissions) => {
-          Logger.info(`\nTotal Emissions: ${emissions}`);
-          res.status(200).json({
-            success: true,
-            emissions: emissions,
-            unit: 'kg'
-          });
-        })
-        .catch((err) => {
-          Logger.error(`Error: ${err}`);
-          res.sendJsonError(`Unable to find emissions for airplane model ${model}`, 404);
+    calculate(`airplane model ${model}`, 'Default', dis, passengers)
+      .then(emissions => {
+        Logger.info(`\nTotal Emissions: ${emissions}`);
+        res.status(200).json({
+          success: true,
+          emissions,
+          unit: 'kg',
         });
-  } else res.sendJsonError('Unable to find the airports. Please use IATA airport codes only', 400);
+      })
+      .catch(err => {
+        Logger.error(`Error: ${err}`);
+        res.sendJsonError(`Unable to find emissions for airplane model ${model}`, 404);
+      });
+  } else {
+    res.sendJsonError('Unable to find the airports. Please use IATA airport codes only', 400);
+  }
 });
 
 /**
@@ -497,38 +501,36 @@ router.post('/flight', (req, res) => {
  *      400:
  *        description: Error
  */
-router.post('/vehicle', async(req, res) => {
+router.post('/vehicle', async (req, res) => {
   const type = req.body.type || 'Diesel';
-  const origin = req.body.origin;
-  const destination = req.body.destination;
-  const unit = req.body.unit || 'km';
+  const { origin } = req.body;
+  const { destination } = req.body;
   const mileage = parseFloat(req.body.mileage) || 20;
-  const mileage_unit = req.body.mileage_unit || 'km/l';
 
   if (origin && destination) {
     distance(origin, destination, 'driving')
-        .then((val) => {
-          Logger.debug(`CalculatedDistance: ${val}`);
-          const fuelConsumed = val / mileage;
-          Logger.debug(`Fuel consumerd: ${fuelConsumed}`);
-          calculate(`fuel${type}`, 'Default', fuelConsumed)
-              .then((emissions) => {
-                Logger.info(`Emissions: ${JSON.stringify(emissions, null, 4)}`);
-                res.status(200).json({
-                  success: true,
-                  emissions: emissions,
-                  unit: 'kg'
-                });
-              })
-              .catch((err) => {
-                Logger.error(`Error: ${err}`);
-                res.sendJsonError(`Unable to find emissions for fuel type ${type}`, 404);
-              });
-        })
-        .catch((err) => {
-          Logger.error(`Error: ${err}`);
-          res.sendJsonError(err, 400);
-        });
+      .then(val => {
+        Logger.debug(`CalculatedDistance: ${val}`);
+        const fuelConsumed = val / mileage;
+        Logger.debug(`Fuel consumerd: ${fuelConsumed}`);
+        calculate(`fuel${type}`, 'Default', fuelConsumed)
+          .then(emissions => {
+            Logger.info(`Emissions: ${JSON.stringify(emissions, null, 4)}`);
+            res.status(200).json({
+              success: true,
+              emissions,
+              unit: 'kg',
+            });
+          })
+          .catch(err => {
+            Logger.error(`Error: ${err}`);
+            res.sendJsonError(`Unable to find emissions for fuel type ${type}`, 404);
+          });
+      })
+      .catch(err => {
+        Logger.error(`Error: ${err}`);
+        res.sendJsonError(err, 400);
+      });
   } else res.sendJsonError('Distance or Mileage cannot be less than zero', 400);
 });
 
@@ -540,7 +542,7 @@ router.post('/vehicle', async(req, res) => {
  *    - "Transport"
  *    security:
  *      - apiKeyAuth: []
- *    description: This route enables you to find GHG emissions for a number of train types for a certain route.The distance is calculated using [Microsoft Distant Matrix API](https://docs.microsoft.com/en-us/bingmaps/rest-services/routes/calculate-a-distance-matrix). The trains that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/raw_data/trains.json). 
+ *    description: This route enables you to find GHG emissions for a number of train types for a certain route.The distance is calculated using [Microsoft Distant Matrix API](https://docs.microsoft.com/en-us/bingmaps/rest-services/routes/calculate-a-distance-matrix). The trains that we currently support are listed [here](https://gitlab.com/aossie/CarbonFootprint-API/blob/master/raw_data/trains.json).
  *    produces:
  *      application/json
  *    consumes:
@@ -582,39 +584,37 @@ router.post('/vehicle', async(req, res) => {
  *      400:
  *        description: Error
  */
-router.post('/trains', async(req, res) => {
+router.post('/trains', async (req, res) => {
   const type = req.body.type || 'railcars';
-  const region = req.body.region || 'Default';
-  const origin = req.body.origin;
-  const destination = req.body.destination;
+  const { origin } = req.body;
+  const { destination } = req.body;
   const passengers = req.body.passengers || 1;
 
   if (origin && destination) {
     distance(origin, destination, 'transit')
-        .then((val) => {
-          Logger.debug(`CalculatedDistance: ${val}`);
-          Logger.debug(`CalculatedPassengers: ${passengers}`);
-          calculate(type, 'Default', val, passengers)
-              .then((emissions) => {
-                Logger.info(`Emissions: ${JSON.stringify(emissions, null, 4)}`);
-                res.status(200).json({
-                  success: true,
-                  emissions: emissions,
-                  unit: 'kg'
-                });
-              })
-              .catch((err) => {
-                Logger.error(`Error: ${err}`);
-                res.sendJsonError(`Unable to find emissions for fuel type ${type}`, 404);
-              });
-        })
-        .catch((err) => {
-          Logger.error(`Error: ${err}`);
-          res.sendJsonError(err, 400);
-        });
+      .then(val => {
+        Logger.debug(`CalculatedDistance: ${val}`);
+        Logger.debug(`CalculatedPassengers: ${passengers}`);
+        calculate(type, 'Default', val, passengers)
+          .then(emissions => {
+            Logger.info(`Emissions: ${JSON.stringify(emissions, null, 4)}`);
+            res.status(200).json({
+              success: true,
+              emissions,
+              unit: 'kg',
+            });
+          })
+          .catch(err => {
+            Logger.error(`Error: ${err}`);
+            res.sendJsonError(`Unable to find emissions for fuel type ${type}`, 404);
+          });
+      })
+      .catch(err => {
+        Logger.error(`Error: ${err}`);
+        res.sendJsonError(err, 400);
+      });
   } else res.sendJsonError('Distance cannot be less than zero', 400);
 });
-
 
 /**
  * @swagger
@@ -641,7 +641,7 @@ router.post('/trains', async(req, res) => {
  *                required: true
  *                example: Broiler chicken
  *              region:
- *                description: Region in which the poultry meat(and egg) is produced. By default we use average of all regions. 
+ *                description: Region in which the poultry meat(and egg) is produced. By default we use average of all regions.
  *                type: string
  *                example: British columbia
  *                required: false
@@ -656,25 +656,30 @@ router.post('/trains', async(req, res) => {
  *      400:
  *        description: Error
  */
-router.post('/poultry', async(req, res) => {
-  const type = req.body.type;
+router.post('/poultry', async (req, res) => {
+  const { type } = req.body;
   const region = req.body.region || 'Default';
   const quantity = req.body.quantity || 1;
   if (type) {
     calculate(type, region, quantity)
-        .then((emissions) => {
-          Logger.debug(`Emissions: ${emissions}`);
-          res.status(200).json({
-            success: true,
-            emissions: emissions,
-            unit: 'kg'
-          });
-        })
-        .catch((err) => {
-          Logger.error(`Error: ${err}`);
-          res.sendJsonError(`We cannot provide carbon footprints for this combination of ${type} in ${region} of mass ${quantity} kg`, 400);
+      .then(emissions => {
+        Logger.debug(`Emissions: ${emissions}`);
+        res.status(200).json({
+          success: true,
+          emissions,
+          unit: 'kg',
         });
-  } else res.sendJsonError(`Unable to find carbon footprint for type ${type}`, 400);
+      })
+      .catch(err => {
+        Logger.error(`Error: ${err}`);
+        res.sendJsonError(
+          `We cannot provide carbon footprints for this combination of ${type} in ${region} of mass ${quantity} kg`,
+          400,
+        );
+      });
+  } else {
+    res.sendJsonError(`Unable to find carbon footprint for type ${type}`, 400);
+  }
 });
 
 /**
@@ -713,7 +718,7 @@ router.post('/poultry', async(req, res) => {
  *                example: instantaneous
  *              quantity:
  *                type: number
- *                description: The number of appliances being used. 
+ *                description: The number of appliances being used.
  *                required: false
  *                example: 1
  *              running_time:
@@ -728,25 +733,24 @@ router.post('/poultry', async(req, res) => {
  *        description: Error
  */
 router.post('/appliances', (req, res) => {
-  const appliance = req.body["appliance"];
-  const type = req.body["type"];
-  const region = req.body["region"] || "Default";
-  const unit = req.body["unit"] || "kWh";
-  const quantity = req.body["quantity"] || 1;
-  const running_time = req.body["running_time"] || 1;
-  calculate(`${appliance} ${type}`, region, quantity, running_time)
-      .then((emissions) => {
-        Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
-        res.status(200).json({
-          success: true,
-          emissions: emissions,
-          unit: 'kg'
-        });
-      })
-      .catch((err) => {
-        Logger.error(`Error: ${err}`);
-        res.sendJsonError(err, 400);
+  const { appliance } = req.body;
+  const { type } = req.body;
+  const region = req.body.region || 'Default';
+  const quantity = req.body.quantity || 1;
+  const runningTime = req.body.running_time || 1;
+  calculate(`${appliance} ${type}`, region, quantity, runningTime)
+    .then(emissions => {
+      Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
+      res.status(200).json({
+        success: true,
+        emissions,
+        unit: 'kg',
       });
+    })
+    .catch(err => {
+      Logger.error(`Error: ${err}`);
+      res.sendJsonError(err, 400);
+    });
 });
 
 /**
@@ -790,27 +794,27 @@ router.post('/appliances', (req, res) => {
  *        description: Error
  */
 router.post('/quantity', (req, res) => {
-  const itemName = req.body["item"];
-  const region = req.body["region"] || "Default";
-  const emission = req.body["emission"] || 1;
+  const itemName = req.body.item;
+  const region = req.body.region || 'Default';
+  const emission = req.body.emission || 1;
   calculate(itemName, region, 1, 1)
-      .then((emissions) => {
-        Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
-        if (emissions.CO2) {
-          const quantity = Math.abs(emission / emissions.CO2);
-          res.status(200).json({
-            success: true,
-            quantity: quantity,
-            note: `This is a estimate for the quantity of ${itemName} that could be the cause of the emission provided.`
-          });
-        } else {
-          res.sendJsonError(`Unable to find quantity for item type ${itemName}`, 400);
-        }
-      })
-      .catch((err) => {
-        Logger.error(`Error: ${err}`);
+    .then(emissions => {
+      Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
+      if (emissions.CO2) {
+        const quantity = Math.abs(emission / emissions.CO2);
+        res.status(200).json({
+          success: true,
+          quantity,
+          note: `This is a estimate for the quantity of ${itemName} that could be the cause of the emission provided.`,
+        });
+      } else {
         res.sendJsonError(`Unable to find quantity for item type ${itemName}`, 400);
-      });
+      }
+    })
+    .catch(err => {
+      Logger.error(`Error: ${err}`);
+      res.sendJsonError(`Unable to find quantity for item type ${itemName}`, 400);
+    });
 });
 
 /**
@@ -850,27 +854,30 @@ router.post('/quantity', (req, res) => {
  */
 router.post('/agriculture', (req, res) => {
   const itemName = req.body.item;
-  const region = req.body.region;
+  const { region } = req.body;
   if (itemName && region) {
     calculate(itemName, region, 1, 1, 'agriculture')
-        .then((emissions) => {
-          Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
-          if (emissions.CO2) {
-            res.status(200).json({
-              success: true,
-              quantity: emissions.CO2,
-              unit: 'gigagrams',
-              note: `This is a estimate for the quantity of ${itemName} that could be the cause of the emission provided.`
-            });
-          } else {
-            res.sendJsonError(`Unable to find emissions for sector ${itemName} in ${region}`, 400);
-          }
-        })
-        .catch((err) => {
-          Logger.error(`Error: ${err}`);
-          res.sendJsonError(`Unable to find agriculture emissions for item type ${itemName} in ${region}`, 400);
-        });
-  } else res.sendJsonError(`Please provide valid item and region values`, 400);
+      .then(emissions => {
+        Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
+        if (emissions.CO2) {
+          res.status(200).json({
+            success: true,
+            quantity: emissions.CO2,
+            unit: 'gigagrams',
+            note: `This is a estimate for the quantity of ${itemName} that could be the cause of the emission provided.`,
+          });
+        } else {
+          res.sendJsonError(`Unable to find emissions for sector ${itemName} in ${region}`, 400);
+        }
+      })
+      .catch(err => {
+        Logger.error(`Error: ${err}`);
+        res.sendJsonError(
+          `Unable to find agriculture emissions for item type ${itemName} in ${region}`,
+          400,
+        );
+      });
+  } else res.sendJsonError('Please provide valid item and region values', 400);
 });
 
 /**
@@ -881,7 +888,7 @@ router.post('/agriculture', (req, res) => {
  *    - "Global"
  *    security:
  *      - apiKeyAuth: []
- *    description: This route enables you to find global emissions for a number of food items for a certain country. The food items included are Cereals excluding rice	Rice, paddy	Meat, cattle Milk, whole fresh cow, Meat, goat	Milk, whole fresh goat	Meat, sheep	Milk, whole fresh sheep
+ *    description: This route enables you to find global emissions for a number of food items for a certain country. The food items included are Cereals excluding rice Rice, paddy Meat, cattle Milk, whole fresh cow, Meat, goat Milk, whole fresh goat Meat, sheep Milk, whole fresh sheep
  *    produces:
  *      application/json
  *    consumes:
@@ -910,27 +917,30 @@ router.post('/agriculture', (req, res) => {
  */
 router.post('/food', (req, res) => {
   const itemName = req.body.item;
-  const region = req.body.region;
+  const { region } = req.body;
   if (itemName && region) {
     calculate(itemName, region, 1, 1, 'food')
-        .then((emissions) => {
-          Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
-          if (emissions.CO2) {
-            res.status(200).json({
-              success: true,
-              quantity: emissions.CO2,
-              unit: 'gigagrams',
-              note: `This is a estimate for the quantity of ${itemName} that could be the cause of the emission provided.`
-            });
-          } else {
-            res.sendJsonError(`Unable to find emissions for sector ${itemName} in ${region}`, 400);
-          }
-        })
-        .catch((err) => {
-          Logger.error(`Error: ${err}`);
-          res.sendJsonError(`Unable to find food emissions for item type ${itemName} in ${region}`, 400);
-        });
-  } else res.sendJsonError(`Please provide valid item and region values`, 400);
+      .then(emissions => {
+        Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
+        if (emissions.CO2) {
+          res.status(200).json({
+            success: true,
+            quantity: emissions.CO2,
+            unit: 'gigagrams',
+            note: `This is a estimate for the quantity of ${itemName} that could be the cause of the emission provided.`,
+          });
+        } else {
+          res.sendJsonError(`Unable to find emissions for sector ${itemName} in ${region}`, 400);
+        }
+      })
+      .catch(err => {
+        Logger.error(`Error: ${err}`);
+        res.sendJsonError(
+          `Unable to find food emissions for item type ${itemName} in ${region}`,
+          400,
+        );
+      });
+  } else res.sendJsonError('Please provide valid item and region values', 400);
 });
 
 /**
@@ -941,7 +951,7 @@ router.post('/food', (req, res) => {
  *    - "Global"
  *    security:
  *      - apiKeyAuth: []
- *    description: This route enables you to find global emissions for different types of land for a certain country. The land types included are Forest land	Cropland Grassland	Burning Biomass
+ *    description: This route enables you to find global emissions for different types of land for a certain country. The land types included are Forest land Cropland Grassland Burning Biomass
  *    produces:
  *      application/json
  *    consumes:
@@ -970,27 +980,30 @@ router.post('/food', (req, res) => {
  */
 router.post('/land', (req, res) => {
   const itemName = req.body.item;
-  const region = req.body.region;
+  const { region } = req.body;
   if (itemName && region) {
     calculate(itemName, region, 1, 1, 'land')
-        .then((emissions) => {
-          Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
-          if (emissions.CO2) {
-            res.status(200).json({
-              success: true,
-              quantity: emissions.CO2,
-              unit: 'gigagrams',
-              note: `This is a estimate for the quantity of ${itemName} that could be the cause of the emission provided.`
-            });
-          } else {
-            res.sendJsonError(`Unable to find emissions for sector ${itemName} in ${region}`, 400);
-          }
-        })
-        .catch((err) => {
-          Logger.error(`Error: ${err}`);
-          res.sendJsonError(`Unable to find land emissions for item type ${itemName} in ${region}`, 400);
-        });
-  } else res.sendJsonError(`Please provide valid item and region values`, 400);
+      .then(emissions => {
+        Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
+        if (emissions.CO2) {
+          res.status(200).json({
+            success: true,
+            quantity: emissions.CO2,
+            unit: 'gigagrams',
+            note: `This is a estimate for the quantity of ${itemName} that could be the cause of the emission provided.`,
+          });
+        } else {
+          res.sendJsonError(`Unable to find emissions for sector ${itemName} in ${region}`, 400);
+        }
+      })
+      .catch(err => {
+        Logger.error(`Error: ${err}`);
+        res.sendJsonError(
+          `Unable to find land emissions for item type ${itemName} in ${region}`,
+          400,
+        );
+      });
+  } else res.sendJsonError('Please provide valid item and region values', 400);
 });
 
 /**
@@ -1029,33 +1042,35 @@ router.post('/land', (req, res) => {
  *        description: Error
  */
 router.post('/sector', (req, res) => {
-  const sector = req.body.sector;
-  const region = req.body.region;
+  const { sector } = req.body;
+  const { region } = req.body;
   if (sector && region) {
     calculate(sector, region, 1, 1, 'sector')
-        .then((emissions) => {
-          Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
-          if (emissions.CO2) {
-            res.status(200).json({
-              success: true,
-              quantity: emissions.CO2,
-              unit: 'gigagrams',
-              note: `This is a estimate for the quantity of ${sector} that could be the cause of the emission provided.`
-            });
-          } else {
-            res.sendJsonError(`Unable to find emissions for sector ${sector} in ${region}`, 400);
-          }
-        })
-        .catch((err) => {
-          Logger.error(`Error: ${err}`);
-          res.sendJsonError(`Unable to find emissions for ${sector} in ${region}`, 400);
-        });
-  } else res.sendJsonError(`Please provide valid sector and region values`, 400);
+      .then(emissions => {
+        Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
+        if (emissions.CO2) {
+          res.status(200).json({
+            success: true,
+            quantity: emissions.CO2,
+            unit: 'gigagrams',
+            note: `This is a estimate for the quantity of ${sector} that could be the cause of the emission provided.`,
+          });
+        } else {
+          res.sendJsonError(`Unable to find emissions for sector ${sector} in ${region}`, 400);
+        }
+      })
+      .catch(err => {
+        Logger.error(`Error: ${err}`);
+        res.sendJsonError(`Unable to find emissions for ${sector} in ${region}`, 400);
+      });
+  } else {
+    res.sendJsonError('Please provide valid sector and region values', 400);
+  }
 });
 
 module.exports = router;
 
-//curl test- curl -H "Content-Type: application/json" -X POST -d '{"item":"electricity","region":"Africa","unit":"kWh","quantity":1}' http://localhost:3080/v1/emissions
-//curl test- curl -H "Content-Type: application/json" -X POST -d '{"item":"airplane model A380","region":"Default","unit":"nm","quantity":125}' http://localhost:3080/v1/emissions
-//curl test- curl -H "Content-Type: application/json" -X POST -d '{"type":"Petrol","distance":100,"unit":"km","mileage":50,"mileage_unit":"km/L"}' http://localhost:3080/v1/vehicle
-//curl test- curl -H "Content-Type: application/json" -X POST -d '{"type":"international","model":"A380","origin":"DEL","destination":"IXG"}' http://localhost:3080/v1/flight
+// curl test- curl -H "Content-Type: application/json" -X POST -d '{"item":"electricity","region":"Africa","unit":"kWh","quantity":1}' http://localhost:3080/v1/emissions
+// curl test- curl -H "Content-Type: application/json" -X POST -d '{"item":"airplane model A380","region":"Default","unit":"nm","quantity":125}' http://localhost:3080/v1/emissions
+// curl test- curl -H "Content-Type: application/json" -X POST -d '{"type":"Petrol","distance":100,"unit":"km","mileage":50,"mileage_unit":"km/L"}' http://localhost:3080/v1/vehicle
+// curl test- curl -H "Content-Type: application/json" -X POST -d '{"type":"international","model":"A380","origin":"DEL","destination":"IXG"}' http://localhost:3080/v1/flight

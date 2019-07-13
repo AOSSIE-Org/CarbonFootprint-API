@@ -13,3 +13,4 @@ before_script:
 test:
   script:
     - npm test
+    - npm run lint:test

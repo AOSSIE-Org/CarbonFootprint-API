@@ -1,8 +1,9 @@
 const express = require('express');
 // get the auth controller
+// eslint-disable-next-line import/no-unresolved
+const Logger = require('@framework/Logger');
 const { auth } = require('../controllers/authController');
 // get the logger
-const Logger  = require('@framework/Logger');
 
 const router = express.Router();
 
@@ -12,28 +13,28 @@ const router = express.Router();
  * @type POST
  */
 router.post('/key', (req, res) => {
-    Logger.debug(`User: ${JSON.stringify(req.user)}`);
-    let email_verified = req.user.email_verified;
-    let email = req.user.email;
-    let action = "create";
-    if (email_verified) {
-        let create = auth(email, action);
-        create.then(result => {
-                Logger.debug(`Create key result: ${result}`);
-                res.status(200).json({
-                    success: true,
-                    apikey: result.apikey,
-                    requests: result.requests
-                });
-            })
-            .catch(reject => {
-                res.status(400).json({
-                    success: false,
-                    err: reject
-                });
-            });
-    }
-    else res.sendJsonError("Email not verified", 403);
+  Logger.debug(`User: ${JSON.stringify(req.user)}`);
+  const { email_verified: emailVerified } = req.user;
+  const { email } = req.user;
+  const action = 'create';
+  if (emailVerified) {
+    const create = auth(email, action);
+    create
+      .then(result => {
+        Logger.debug(`Create key result: ${result}`);
+        res.status(200).json({
+          success: true,
+          apikey: result.apikey,
+          requests: result.requests,
+        });
+      })
+      .catch(reject => {
+        res.status(400).json({
+          success: false,
+          err: reject,
+        });
+      });
+  } else res.sendJsonError('Email not verified', 403);
 });
 
 /**
@@ -41,20 +42,21 @@ router.post('/key', (req, res) => {
  * @type GET
  */
 router.get('/key', (req, res) => {
-    let email = req.user.email;
-    let action = "retrieve";
-    let retrieve = auth(email, action);
-    retrieve.then(result => {
-            Logger.debug(`Retrieve key result: ${result}`);
-            res.status(200).json({
-                success: true,
-                apikey: result.apikey,
-                requests: result.requests
-            });
-        })
-        .catch(reject => {
-            res.returnNotFoundError('User');
-        });
+  const { email } = req.user;
+  const action = 'retrieve';
+  const retrieve = auth(email, action);
+  retrieve
+    .then(result => {
+      Logger.debug(`Retrieve key result: ${result}`);
+      res.status(200).json({
+        success: true,
+        apikey: result.apikey,
+        requests: result.requests,
+      });
+    })
+    .catch(() => {
+      res.returnNotFoundError('User');
+    });
 });
 
 /**
@@ -62,17 +64,18 @@ router.get('/key', (req, res) => {
  * @type DELETE
  */
 router.delete('/key', (req, res) => {
-    let email = req.user.email;
-    let action = "revoke";
-    auth(email, action).then(result => {
-            res.status(200).json({
-                success: true,
-                deleted: req.user.email
-            });
-        })
-        .catch(reject => {
-            res.returnNotFoundError('User');
-        });
+  const { email } = req.user;
+  const action = 'revoke';
+  auth(email, action)
+    .then(() => {
+      res.status(200).json({
+        success: true,
+        deleted: req.user.email,
+      });
+    })
+    .catch(() => {
+      res.returnNotFoundError('User');
+    });
 });
 
 module.exports = router;

@@ -1,44 +1,43 @@
-const redis = require("@framework/redis");
-const DailyEmission = require("../models/DailyEmission");
-const User = require("../../auth/models/userModel");
+// eslint-disable-next-line import/no-unresolved
+const redis = require('@framework/redis');
+const DailyEmission = require('../models/DailyEmission');
 
-const redisClient = redis.redisClient;
+const { redisClient } = redis;
 
 const createLog = async (email, quantity, date) => {
   date.setHours(0, 0, 0, 0);
   return DailyEmission.findOneAndUpdate(
     {
       email,
-      date: date.toJSON()
+      date: date.toJSON(),
     },
     {
       $set: {
-        quantity
-      }
+        quantity,
+      },
     },
     {
-      new: true
-    }
+      new: true,
+    },
   ).then(data => {
     if (data === null) {
       console.log("This log doesn't exist. Creating new log");
       const todaysEmission = new DailyEmission({
         email,
         quantity,
-        date: date.toJSON()
+        date: date.toJSON(),
       });
       return todaysEmission
         .save()
-        .then(data => data)
+        .then(emissionData => emissionData)
         .catch(err => console.log(JSON.stringify(err, null, 4)));
-    } else {
-      return data;
     }
+    return data;
   });
 };
 
-const getEmissionsOfUser = email => {
-  return new Promise(async (resolve, reject) => {
+const getEmissionsOfUser = email =>
+  new Promise(async (resolve, reject) => {
     // redisClient.hget("dailyEmission", email, async (err, result) => {
     //   result = JSON.parse(result);
     //   const currDate = new Date();
@@ -63,15 +62,15 @@ const getEmissionsOfUser = email => {
       .sort({ date: -1 })
       .limit(20);
     redisClient.hset(
-      "dailyEmission",
+      'dailyEmission',
       email,
       JSON.stringify({ userEmission, issueDate: new Date().toJSON() }),
       err => {
         if (err) {
-          console.log("error while creating key");
+          console.log('error while creating key');
           reject(err);
         }
-      }
+      },
     );
     // console.log("Data fetched from DB");
     resolve(userEmission);
@@ -81,9 +80,8 @@ const getEmissionsOfUser = email => {
     //   resolve(result.userEmission);
     // });
   });
-};
 
 module.exports = {
   createLog,
-  getEmissionsOfUser
+  getEmissionsOfUser,
 };

@@ -1,5 +1,6 @@
 // Get the logger
-const Logger  = require('@framework/Logger');
+// eslint-disable-next-line import/no-unresolved
+const Logger = require('@framework/Logger');
 /**
  * Creating our custom functions
  */
@@ -24,5 +25,5 @@ module.exports = function CustomRouterFunctions(req, res, next) {
     return res.status(404).json({ error: `Could not find ${entity}` });
   };
 
-    next();
+  next();
 };
