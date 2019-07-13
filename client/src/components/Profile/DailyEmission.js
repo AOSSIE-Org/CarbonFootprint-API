@@ -32,7 +32,7 @@ class DailyEmission extends Component {
     let counterMap = {};
     let data = [];
     let max = null;
-    let colorRange = ['#ebedf0', '#ff0000'];
+    let colorRange;
     let tooltipEnabled = true;
     let tooltipUnit = 'emission';
     let legendEnabled = true;
@@ -157,7 +157,7 @@ class DailyEmission extends Component {
       ); // it ignores the first month if the 1st date is after the start of the month
       let firstDate = moment(dateRange[0]);
       if (chart.data().length === 0) {
-        max = 0;
+        max = 1000000;
       } else if (max === null) {
         max = d3.max(chart.data(), function(d) {
           return d.count;
@@ -394,7 +394,6 @@ class DailyEmission extends Component {
         .tooltipEnabled(true)
         .colorRange(['#ebedf0', '#e1b809'])
         .onClick(function(data) {
-          console.log('data', data);
         })();
     });
   };
