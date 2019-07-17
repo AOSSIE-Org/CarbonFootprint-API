@@ -22,6 +22,7 @@ const { API_TEST_KEY } = process.env;
 
 // UNIT test begin
 describe('API endpoint testing', () => {
+  // to silence all the logs other than test checks
   before(() => {
     sinon.stub(Logger, 'info');
     sinon.stub(Logger, 'error');
@@ -519,6 +520,7 @@ describe('API endpoint testing', () => {
         });
     });
   });
+
   describe('sector endpoint route tests', () => {
     it('should return correct value for sector route', done => {
       server
@@ -568,6 +570,80 @@ describe('API endpoint testing', () => {
         .end((err, res) => {
           res.status.should.equal(400);
           res.body.success.should.equal(false);
+          done();
+        });
+    });
+  });
+
+  describe('comparer endpoint tests', () => {
+    it('testing for trees should return a 200 along with correct response', done => {
+      server
+        .post('/v1/comparer')
+        .set('access-key', API_TEST_KEY)
+        .send({
+          emissions: {
+            CO2: 25.6473,
+          },
+          relativeLocation: {
+            lat: 37.4219806,
+            lng: -122.0841979,
+          },
+          section: 'trees',
+        })
+        .expect('Content-type', /json/)
+        .expect(200)
+        .end((err, res) => {
+          res.status.should.equal(200);
+          res.body.success.should.equal(true);
+          done();
+        });
+    });
+
+    it('testing for all options should return a 200 along with correct response', done => {
+      server
+        .post('/v1/comparer')
+        .set('access-key', API_TEST_KEY)
+        .send({
+          emissions: {
+            CO2: 25.6473,
+          },
+          relativeLocation: {
+            lat: 37.4219806,
+            lng: -122.0841979,
+          },
+          section: 'all',
+        })
+        .expect('Content-type', /json/)
+        .expect(200)
+        .end((err, res) => {
+          res.status.should.equal(200);
+          res.body.success.should.equal(true);
+          res.body.matches.length.should.equal(3);
+          done();
+        });
+    });
+
+    it('testing for vehicles should return a 200 along with correct response', done => {
+      server
+        .post('/v1/comparer')
+        .set('access-key', API_TEST_KEY)
+        .send({
+          emissions: {
+            CO2: 25.6473,
+          },
+          relativeLocation: {
+            lat: 37.4219806,
+            lng: -122.0841979,
+          },
+          section: 'vehicles',
+        })
+        .expect('Content-type', /json/)
+        .expect(200)
+        .end((err, res) => {
+          res.status.should.equal(200);
+          res.body.success.should.equal(true);
+          res.body.matches.match.source.should.equal('Mountain View');
+          res.body.matches.match.sourceState.should.equal('CA');
           done();
         });
     });
