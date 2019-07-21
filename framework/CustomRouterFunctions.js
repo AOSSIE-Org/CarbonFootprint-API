@@ -14,13 +14,15 @@ module.exports = function CustomRouterFunctions(req, res, next) {
    */
   res.sendJsonError = (error, statusCode) => {
     Logger.error(`Error: ${error.message}`);
-    console.log(error.stack);
+    if (error.stack) {
+      console.log(error.stack);
+    }
     return res.status(statusCode).json({ error: error.message, success: false });
   };
   /**
    * Return a response indicating that the entity requested could not be found
    */
-  res.returnNotFoundError = (entity) => {
+  res.returnNotFoundError = entity => {
     Logger.error(`Could not find ${entity}`);
     return res.status(404).json({ error: `Could not find ${entity}` });
   };
