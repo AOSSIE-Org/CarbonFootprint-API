@@ -647,5 +647,28 @@ describe('API endpoint testing', () => {
           done();
         });
     });
+
+    it('testing for trains should return a 404', done => {
+      server
+        .post('/v1/comparer')
+        .set('access-key', API_TEST_KEY)
+        .send({
+          emissions: {
+            CO2: 25.6473,
+          },
+          relativeLocation: {
+            lat: 37.4219806,
+            lng: -122.0841979,
+          },
+          section: 'trains',
+        })
+        .expect('Content-type', /json/)
+        .expect(404)
+        .end((err, res) => {
+          res.status.should.equal(404);
+          res.body.success.should.equal(false);
+          done();
+        });
+    });
   });
 });
