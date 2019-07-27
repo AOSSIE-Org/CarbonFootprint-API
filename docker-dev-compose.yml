@@ -1,0 +1,23 @@
+version: '3'
+services:
+  web:
+    build: .
+    command: npm run watch:server
+    ports:
+      - "3080:3080"
+    volumes:
+      - ./:/usr/src/app
+  # client:
+  #   build: ./client
+  #   ports:
+  #     - "3000:3000"
+  mongo:
+    image: "mongo:4.0.10"
+    volumes:
+      - /data/db:/data/db
+    logging:
+      driver: none
+  redis:
+    image: "redis"
+    logging:
+      driver: none
