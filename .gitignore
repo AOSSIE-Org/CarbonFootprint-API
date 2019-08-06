@@ -44,7 +44,6 @@ package-lock.json
 
 # Configuration Files containing sensitive info
 config.json
-auth0-config.js
 .env
 
 #bundle file for react
