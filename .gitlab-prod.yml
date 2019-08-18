@@ -19,6 +19,8 @@ build_push:
     - docker login -u ${REGISTRY_USER} -p ${REGISTRY_PASSWORD}
     - docker build . -t aossie/carbonfootprint-api:production
     - docker push aossie/carbonfootprint-api:production
+  only:
+    - master
 
 deploy_application:
   stage: deploy
