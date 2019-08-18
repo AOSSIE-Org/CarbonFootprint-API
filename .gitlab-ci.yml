@@ -22,7 +22,7 @@ test_validation:
 build_push:
   stage: build
   only:
-    - master
+    - docker-test
   variables:
     DOCKER_DRIVER: overlay2
     DOCKER_TLS_CERTDIR: ""
@@ -41,7 +41,7 @@ deploy_application:
   stage: deploy
   when: manual
   only:
-    - master
+    - docker-test
   tags:
     - carbon-runner
   before_script:
@@ -51,8 +51,9 @@ deploy_application:
     - chmod 600 ~/.ssh/id_rsa
     - eval "$(ssh-agent -s)"
     - ssh-add ~/.ssh/id_rsa
-    - ssh-keyscan -H $DEPLOYMENT_SERVER_IP >> ~/.ssh/known_hosts
+    - ssh-keyscan -Hv "${DEPLOYMENT_SERVER_IP}" >> ~/.ssh/known_hosts
   script:
+    - echo "API_TEST_KEY=${API_TEST_KEY}\nDB_HOST=${DB_HOST}\nDB_PORT=${DB_PORT}\nDB_USER=${DB_USER}\nDB_PASS=${DB_PASS}\nDB_NAME=${DB_NAME}\nMICROSOFT_MAPS_KEY=${MICROSOFT_MAPS_KEY}\nMAPQUEST_KEY=${MAPQUEST_KEY}\nAUTH0_JWKS_URI=${AUTH0_JWKS_URI}\nAUTH0_ISSUER=${AUTH0_ISSUER}\nREDIS_HOST=${REDIS_HOST}\nREDIS_PORT=${REDIS_PORT}\nWHITELISTED_DOMAINS=${WHITELISTED_DOMAINS}\nAUTH0_DOMAIN=${AUTH0_DOMAIN}\nAUTH0_CLIENT_ID=${AUTH0_CLIENT_ID}\nAUTH0_CALLBACK_URL=${AUTH0_CALLBACK_URL}\nAUTH0_TOKEN_ENDPOINT=${AUTH0_TOKEN_ENDPOINT}\nAUTH0_API_ENDPOINT=${AUTH0_API_ENDPOINT}"
     - printf "API_TEST_KEY=${API_TEST_KEY}\nDB_HOST=${DB_HOST}\nDB_PORT=${DB_PORT}\nDB_USER=${DB_USER}\nDB_PASS=${DB_PASS}\nDB_NAME=${DB_NAME}\nMICROSOFT_MAPS_KEY=${MICROSOFT_MAPS_KEY}\nMAPQUEST_KEY=${MAPQUEST_KEY}\nAUTH0_JWKS_URI=${AUTH0_JWKS_URI}\nAUTH0_ISSUER=${AUTH0_ISSUER}\nREDIS_HOST=${REDIS_HOST}\nREDIS_PORT=${REDIS_PORT}\nWHITELISTED_DOMAINS=${WHITELISTED_DOMAINS}\nAUTH0_DOMAIN=${AUTH0_DOMAIN}\nAUTH0_CLIENT_ID=${AUTH0_CLIENT_ID}\nAUTH0_CALLBACK_URL=${AUTH0_CALLBACK_URL}\nAUTH0_TOKEN_ENDPOINT=${AUTH0_TOKEN_ENDPOINT}\nAUTH0_API_ENDPOINT=${AUTH0_API_ENDPOINT}" > .env
     - scp -r ./.env ./docker-compose.yml carbonfootprintapi_gmail_com@${DEPLOYMENT_SERVER_IP}:~/
     - ssh carbonfootprintapi_gmail_com@${DEPLOYMENT_SERVER_IP} "docker-compose stop;docker-compose rm web --force;docker pull aossie/carbonfootprint-api:production;docker-compose up -d;"
