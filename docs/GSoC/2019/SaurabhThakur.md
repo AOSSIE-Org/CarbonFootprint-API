@@ -1,16 +1,51 @@
 # **CarbonFootprint-API**
 
+> Google Summer of Code '19 Final Submission Report
+
 ### **Student** - _Saurabh Thakur_
 
 ### Links
 
 - **Project Repository:** https://gitlab.com/aossie/CarbonFootprint-API
 - **Live Project:** https://carbonhub.org
-- **Documentation:** https://docs.carbonhub.org
+- **Swagger API Documentation:** https://carbonhub.org/api/docs
+- **Project Documentation:** https://docs.carbonhub.org
 
 ### Google Summer of Code '19:
 
 _This year more focus was shifted on making the frontend of the dashboard more pleasing by adding more features as well as making the project more appealing and easy for the people who develop or want to develop to this open source project by improving the CI/CD of the project as well as development environment setup._
+
+This years summer of code brought quite a few interesting changes to the CarbonFootprint-API project. I tried to make this project a little more up to date with new UI, refactored code, more tests and better DevOps.
+
+It was really interesting to see how well the project is maintained because the transition was smooth, whether I was developing new things or I was refactoring them.  
+So I started off by working on the client side of the application. Correcting bugs in the UI and also started working on updating version of `React`.  
+During working with React I was facing an issue which was causing me a lot of frustration, the issue was the build time it was taking to show me the changes I made after changing the JSX code. In short words hot reloading was really slow. This was due to the webpack config which was used to build the client assets. This webpack config was not suitable for development life cycle, so to solve this problem I started finding solutions. I found two main solutions:
+
+1. One was to create a separate webpack config for development and one for production level builds. This would need a lot of insight in webpack as well as would become an addition which needed to be manage.
+1. To use `create-react-app` (_CRA_).
+
+I started working on the latter solution. This decision wasn't random and there were proper reasons of doing that which we are going to discuss below:
+
+- CRA managed the webpack config for dev and prod environments which was what we needed, but it also give a lot of other useful features.
+- It provides with `react-scripts` which can help improve the dev lifecycle.
+- It consists of multiple scripts, from starting the development server, to running the production build.
+- And all of this comes out of the box, so a developer doesn't need to worry about the configuration of the project.
+- It also solved another issue which we were facing was the usage of css styling in the JSX files.
+- I had to configure my babel separately so that it can take account of these changes and do not break. CRA also handled this out of the box.
+
+After doing all the necessary changes to all the files the client side was finally updated and the MR was merged.
+
+I was also working on another solution which I proposed was to add a new feature of taking entry of daily user activities, from which we can calculate and track the Carbon emission of that user. This data could be shown to the user in the form of heatmap, just like gitlab shows the previous commits of a user.  
+Creating the heatmap was also a challenge in itself, the library which I found after researching on the internet to visualize the data was [d3](https://d3js.org). The final result looked like this:
+
+<table>
+<tr><td align="center"> <img src="../../carbon1.png" /> </td></tr>
+<tr><td align="center"> <b>The profile page now shows a heatmap which displays the CO2 emission of a user over past few months.</b> </td></tr>
+<tr><td align="center"> <img src="../../heatmap.png" /> </td></tr>
+<tr><td align="center"> <b>Hovering on a tile shows the emission of the day with the date</b> </td></tr>
+</table>
+
+Next what I did was to add [eslint](https://eslint.org/), which was a long awaited desire of this project.
 
 ### Technical Details
 
