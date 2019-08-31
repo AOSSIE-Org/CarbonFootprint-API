@@ -45,13 +45,28 @@ Creating the heatmap was also a challenge in itself, the library which I found a
 <tr><td align="center"> <b>Hovering on a tile shows the emission of the day with the date</b> </td></tr>
 </table>
 
-Next what I did was to add [eslint](https://eslint.org/), which was a long awaited desire of this project.
+Next what I did was to add _**eslint**_, which was a long awaited desire of this project.
+
+**Swagger** was also introduced to write documentation of the existing apis. It helped with understanding the response details of the api as well as it gave an option to test run the api from the documentation page only so that a developer can see the response of the api without setting up the whole project.
+
+<table>
+<tr><td align="center"> <img src="../../carbon_swag.png" /> </td></tr>
+<tr><td align="center"> <b>Various sections that can be explored on Swagger Docs page</b> </td></tr>
+</table>
+
+The major work done was to improve the CI/CD of the project.  
+**Docker** was used for containerisation of the application. Previously setting up the development environment was very difficult and tedious task, installing mongodb, redis as well as configuring the project with all the dependencies. This was really confusing and time consuming.  
+Now with the help of `docker-compose` all of this becomes easy and the project gets up and running within minutes.  
+All the configuration is done in `docker-compose` files which are separate for development and production purposes.  
+
+Also the deployment of the project have some major changes. Earlier we used to go to the server and pull the changes and then redeploy manually whenever something was merged to production but now with `gitlab-runner` everything is automated and the application can be deployed with a click of a single button from the gitlab merge request page.
 
 ### Technical Details
 
 - [Docker](https://docker.com/) - To containerize the application for development and deployment purposes.
 - [Docker Compose](https://docs.docker.com/compose/) - For runnin multiple services in container interacting with each other.
 - [Gitlab Runner](https://docs.gitlab.com/runner/) - Gitlab runner is used for deployment of the project in the production server.
+- [ESLint](https://eslint.org) - ESLint helps provide linting for the project and can also be used to enforce code structure and style.
 - [Swagger Documentation](https://swagger.io/) - Swagger made API documentation and first time usage really easy, so we added it to the platform
 - [D3 JS](https://d3js.org/) - D3 is used in creating the user carbon emission heatmap in user profile.
 
@@ -173,5 +188,5 @@ Next what I did was to add [eslint](https://eslint.org/), which was a long await
   - The app is containerized using `Docker`.
   - Docker compose used for fast setup of development environment as well in production for the services used in API (i.e. redis).
   - Setting up of project becomes very easy with only a single command.
-  - The deployment of the project is also changed which takes use of the `Gitlab` CI/CD which is declared in the `gitlab-ci.yml file.
+  - The deployment of the project is also changed which takes use of the `Gitlab` CI/CD which is declared in the `gitlab-ci.yml` file.
   - On server we have a `gitlab-runner` daemon running which listens for any deployment trigger from the gitlab platform.
