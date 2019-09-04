@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www",
+    "start": "./bin/www",
+    "watch:server": "nodemon --ignore 'client/*' ./bin/www",
     "lint:test": "eslint .",
     "lint:fix": "eslint --fix .",
     "test": "mocha --timeout 10000 test/*",
