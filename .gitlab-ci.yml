@@ -1,41 +1,41 @@
 image: docker:latest
 
 stages:
-  - test
-  - build
+  # - test
+  # - build
   - deploy
 
-test_validation:
-  stage: test
-  image: node:latest
-  services:
-    - redis:4.0.0
-  cache:
-    paths:
-      - node_modules/
-  before_script:
-    - npm install
-  script:
-    - npm test
-    - npm run lint:test
+# test_validation:
+#   stage: test
+#   image: node:latest
+#   services:
+#     - redis:4.0.0
+#   cache:
+#     paths:
+#       - node_modules/
+#   before_script:
+#     - npm install
+#   script:
+#     - npm test
+#     - npm run lint:test
 
-build_push:
-  stage: build
-  only:
-    - docker-test
-  variables:
-    DOCKER_DRIVER: overlay2
-    DOCKER_TLS_CERTDIR: ""
-    DOCKER_HOST: tcp://docker:2375/
-    DOCKER_DRIVER: overlay2
-  services:
-    - name: docker:dind
-      entrypoint: ["env", "-u", "DOCKER_HOST"]
-      command: ["dockerd-entrypoint.sh"]
-  script:
-    - docker login -u ${REGISTRY_USER} -p ${REGISTRY_PASSWORD}
-    - docker build . -t aossie/carbonfootprint-api:production
-    - docker push aossie/carbonfootprint-api:production
+# build_push:
+#   stage: build
+#   only:
+#     - docker-test
+#   variables:
+#     DOCKER_DRIVER: overlay2
+#     DOCKER_TLS_CERTDIR: ""
+#     DOCKER_HOST: tcp://docker:2375/
+#     DOCKER_DRIVER: overlay2
+#   services:
+#     - name: docker:dind
+#       entrypoint: ["env", "-u", "DOCKER_HOST"]
+#       command: ["dockerd-entrypoint.sh"]
+#   script:
+#     - docker login -u ${REGISTRY_USER} -p ${REGISTRY_PASSWORD}
+#     - docker build . -t aossie/carbonfootprint-api:production
+#     - docker push aossie/carbonfootprint-api:production
 
 deploy_application:
   stage: deploy
@@ -51,7 +51,7 @@ deploy_application:
     - chmod 600 ~/.ssh/id_rsa
     - eval "$(ssh-agent -s)"
     - ssh-add ~/.ssh/id_rsa
-    - ssh-keyscan -H "${DEPLOYMENT_SERVER_IP}" >> ~/.ssh/known_hosts
+    - ssh-keyscan -H "${DEPLOYMENT_SERVER_IP}" > ~/.ssh/known_hosts
   script:
     - scp -r ./.env ./docker-compose.yml carbonfootprintapi_gmail_com@${DEPLOYMENT_SERVER_IP}:~/
     - ssh carbonfootprintapi_gmail_com@${DEPLOYMENT_SERVER_IP} "docker-compose stop;docker-compose rm web --force;docker pull aossie/carbonfootprint-api:production;docker-compose up -d;"
