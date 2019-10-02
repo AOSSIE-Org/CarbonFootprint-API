@@ -47,11 +47,11 @@ deploy_application:
   before_script:
     - apk add --no-cache openssh-client
     - mkdir -p ~/.ssh
-    - echo ${DEPLOY_SERVER_PRIVATE_KEY} | tr -d '\r' > ~/.ssh/id_rsa
+    - echo "${DEPLOY_SERVER_PRIVATE_KEY}"" | tr -d '\r' > ~/.ssh/id_rsa
     - chmod 600 ~/.ssh/id_rsa
     - eval "$(ssh-agent -s)"
     - ssh-add ~/.ssh/id_rsa
-    - ssh-keyscan -H ${DEPLOYMENT_SERVER_IP} >> ~/.ssh/known_hosts
+    - ssh-keyscan -H "${DEPLOYMENT_SERVER_IP}" >> ~/.ssh/known_hosts
   script:
     - scp -r ./.env ./docker-compose.yml carbonfootprintapi_gmail_com@${DEPLOYMENT_SERVER_IP}:~/
     - ssh carbonfootprintapi_gmail_com@${DEPLOYMENT_SERVER_IP} "docker-compose stop;docker-compose rm web --force;docker pull aossie/carbonfootprint-api:production;docker-compose up -d;"
