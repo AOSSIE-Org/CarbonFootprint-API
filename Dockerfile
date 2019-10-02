@@ -9,9 +9,12 @@ COPY client/package*.json /usr/src/app/client/
 
 RUN npm install --only=prod
 RUN npm install --prefix client --only=prod
+RUN npm install --prefix docs
 
-# Bundle app source
 COPY . /usr/src/app
+# Build gitbook docs
+RUN npm run build:docs --prefix docs
+# Build react bundle
 RUN npm run build --prefix client && rm -rf client/node_modules/
 
 # Add your preference

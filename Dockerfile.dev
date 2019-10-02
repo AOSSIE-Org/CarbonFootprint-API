@@ -10,6 +10,7 @@ RUN npm install
 
 # Bundle app source
 COPY . /usr/src/app
+RUN source .env
 
 # Add your preference
 CMD [ "npm", "start" ]
