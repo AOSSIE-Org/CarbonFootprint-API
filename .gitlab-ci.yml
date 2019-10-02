@@ -1,23 +1,23 @@
 image: docker:latest
 
 stages:
-  - test
+#   - test
   - build
   - deploy
 
-test_validation:
-  stage: test
-  image: node:latest
-  services:
-    - redis:4.0.0
-  cache:
-    paths:
-      - node_modules/
-  before_script:
-    - npm install
-  script:
-    - npm test
-    - npm run lint:test
+# test_validation:
+#   stage: test
+#   image: node:latest
+#   services:
+#     - redis:4.0.0
+#   cache:
+#     paths:
+#       - node_modules/
+#   before_script:
+#     - npm install
+#   script:
+#     - npm test
+#     - npm run lint:test
 
 build_push:
   stage: build

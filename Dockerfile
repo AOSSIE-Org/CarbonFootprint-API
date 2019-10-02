@@ -9,7 +9,7 @@ COPY client/package*.json /usr/src/app/client/
 
 RUN npm install --only=prod
 RUN npm install --prefix client --only=prod
-RUN npm install --prefix docs
+RUN npm install gitbook-cli -g
 
 COPY . /usr/src/app
 # Build gitbook docs
