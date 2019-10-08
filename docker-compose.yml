@@ -2,6 +2,8 @@ version: '3'
 services:
   web:
     image: "aossie/carbonfootprint-api"
+    env_file:
+      - ~/.env
     ports:
       - "3080:3080"
   redis:
