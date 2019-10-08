@@ -14,7 +14,7 @@ RUN npm install --prefix client --only=prod
 
 COPY . /usr/src/app
 # Build gitbook docs
-RUN npm run build:docs --prefix docs
+# RUN npm run build:docs --prefix docs
 # Build react bundle
 RUN npm run build --prefix client && rm -rf client/node_modules/
 
