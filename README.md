@@ -2,6 +2,10 @@
 
 This project aims to have a universal API to find carbon footprint of almost anything.
 
+Following are the links for live APIs and docs:<br/>
+&nbsp;&nbsp;&nbsp;[carbonhub.org](https://carbonhub.org/)<br/>
+&nbsp;&nbsp;&nbsp;[docs](https://docs.carbonhub.org/)
+
 # Prerequisites
 
 At the time of development we were using :  

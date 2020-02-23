@@ -1,0 +1,10 @@
+.git
+.gitignore
+.gitlab-ci.yml
+.dockerignore
+.eslintrc.json
+.eslintignore
+
+node_modules
+client/node_modules
+client/build
