@@ -46,13 +46,14 @@ mongoose.connection.on('disconnected', () => {
 });
 
 // eslint-disable-next-line import/no-unresolved
-const trainsData = require('@raw_data/trains.json');
+const json = require('@raw_data/trains.json');
 const Emission = require('../models/emissionModel.js');
 
 const emissions = [];
+const { trainsData } = json;
 for (let items = 0; items < trainsData.length; items++) {
   const obj = new Emission();
-  obj.item = items;
+  obj.item = trainsData[items].type;
   obj.region = trainsData[items].region;
   obj.quantity = trainsData[items].quantity;
   obj.unit = 'km';

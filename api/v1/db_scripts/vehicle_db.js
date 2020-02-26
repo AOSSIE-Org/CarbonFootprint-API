@@ -52,9 +52,10 @@ const json = require('@raw_data/fuels.json');
 const Emission = require('../models/emissionModel.js');
 
 const emissions = [];
-for (let js = 0; js < json.length; js++) {
+const { data } = json;
+for (let js = 0; js < data.length; js++) {
   const obj = new Emission();
-  obj.item = json[js].langKey;
+  obj.item = data[js].langKey;
   obj.region = 'Default';
   obj.quantity = [1];
   obj.unit = 'L';
@@ -62,22 +63,22 @@ for (let js = 0; js < json.length; js++) {
   obj.components = [
     {
       name: 'CO2',
-      quantity: [json[js].CO2Emission],
+      quantity: [data[js].CO2Emission],
       unit: 'kg CO2/L',
     },
     {
       name: 'CH4',
-      quantity: [json[js].CH4Emission],
+      quantity: [data[js].CH4Emission],
       unit: 'kg CH4/L',
     },
     {
       name: 'N2O',
-      quantity: [json[js].N2OEmission],
+      quantity: [data[js].N2OEmission],
       unit: 'kg N2O/L',
     },
     {
       name: 'GHG',
-      quantity: [json[js].GHGEmission],
+      quantity: [data[js].GHGEmission],
       unit: 'kg GHG/L',
     },
   ];

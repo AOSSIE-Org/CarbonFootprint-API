@@ -1,27 +1,93 @@
 {
-    "treeData": {
-        "Cherry": 26.9,
-        "Ginkgo": 35.4,
-        "Zelkova": 33.7,
-        "Buttonwood": 55.6,
-        "Maple": 20.5,
-        "Metasequoia": 69.6,
-        "Locust": 32.5,
-        "Tulip": 101.9,
-        "Pine": 7.3,
-        "Basswood": 9.7,
-        "Hemlock": 6.2,
-        "Elm": 5.6,
-        "Chestnut": 4.6,
-        "White Ash": 4.1,
-        "Yellow Birch": 3.7,
-        "Hackberry": 5.9,
-        "Silver Maple": 5.8,
-        "Bur Oak": 4.6,
-        "White Oak": 4.2,
-        "Ash": 4.1,
-        "Red Maple": 3.9,
-        "Sugar Maple": 3
+  "treeData": [
+    {
+      "type": "Cherry",
+      "CO2": 26.9
     },
-    "_comments": "CO2 emission in kg/tree/year"
+    {
+      "type": "Ginkgo",
+      "CO2": 35.4
+    },
+    {
+      "type": "Zelkova",
+      "CO2": 33.7
+    },
+    {
+      "type": "Buttonwood",
+      "CO2": 55.6
+    },
+    {
+      "type": "Maple",
+      "CO2": 20.5
+    },
+    {
+      "type": "Metasequoia",
+      "CO2": 69.6
+    },
+    {
+      "type": "Locust",
+      "CO2": 32.5
+    },
+    {
+      "type": "Tulip",
+      "CO2": 101.9
+    },
+    {
+      "type": "Pine",
+      "CO2": 7.3
+    },
+    {
+      "type": "Basswood",
+      "CO2": 9.7
+    },
+    {
+      "type": "Hemlock",
+      "CO2": 6.2
+    },
+    {
+      "type": "Elm",
+      "CO2": 5.6
+    },
+    {
+      "type": "Chestnut",
+      "CO2": 4.6
+    },
+    {
+      "type": "White Ash",
+      "CO2": 4.1
+    },
+    {
+      "type": "Yellow Birch",
+      "CO2": 3.7
+    },
+    {
+      "type": "Hackberry",
+      "CO2": 5.9
+    },
+    {
+      "type": "Silver Maple",
+      "CO2": 5.8
+    },
+    {
+      "type": "Bur Oak",
+      "CO2": 4.6
+    },
+    {
+      "type": "White Oak",
+      "CO2": 4.2
+    },
+    {
+      "type": "Ash",
+      "CO2": 4.1
+    },
+    {
+      "type": "Red Maple",
+      "CO2": 3.9
+    },
+    {
+      "type": "Sugar Maple",
+      "CO2": 3
+    }
+  ],
+  "_comments": "CO2 emission in kg/tree/year"
 }

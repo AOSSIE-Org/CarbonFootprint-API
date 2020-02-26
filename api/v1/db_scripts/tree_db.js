@@ -52,17 +52,18 @@ const json = require('@raw_data/trees.json');
 const Emission = require('../models/emissionModel.js');
 
 const emissions = [];
-for (let js = 0; js < json.length; js++) {
+const { treeData } = json
+for (let js = 0; js < treeData.length; js++) {
   const obj = new Emission();
-  obj.item = js;
+  obj.item = treeData[js].type;
   obj.region = 'Default';
   obj.quantity = [1];
-  obj.unit = 'year';
+  obj.unit = 'years';
   obj.categories = ['trees'];
   obj.components = [
     {
       name: 'CO2',
-      quantity: [-json.treeData[js]],
+      quantity: treeData[js].CO2 * -1,
       unit: 'kg',
     },
   ];
