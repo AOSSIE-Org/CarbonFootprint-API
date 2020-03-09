@@ -1,24 +1,28 @@
 import React, { Component } from 'react';
-import { Grid, Input, Select, Button, Header } from 'semantic-ui-react';
+import { Grid, Input, Select, Button, Header, Dropdown, Message } from 'semantic-ui-react';
 import { flightData, trainData, vehicleData, poultryData, appliancesData } from './UtilDatafetch';
+import { vehicleType } from "../../rawdata/vehicle.json";
 
 export default class InputData extends Component {
   state = {
     value: null,
     params: [],
     data: {},
-    loading: false
+    loading: false,
+    requiredFields: ['origin', 'destination'],
+    errorMessage: "",
+    errorActive: false
   };
 
   setValue = (e, { value }) => {
     this.setState({ value, params: [...paramSource[value].params] });
   };
 
-  inputChange = e => {
+  inputChange = (e, comps) => {
     e.persist();
 
     this.setState(prev => {
-      prev.data[e.target.id] = e.target.value;
+      prev.data[e.target.id || comps.id] = e.target.value || e.target.textContent;
       return prev;
     });
 
@@ -41,20 +45,20 @@ export default class InputData extends Component {
       appliance,
       running_time
     } = this.state.data;
-    this.setState({ loading : true });
+    this.setState({ loading: true });
     switch (this.state.value) {
       case 0:
-        appliancesData(this.props.apikey, appliance,quantity, running_time, region).then(data => {
-            this.setState({ emissions: data.emissions });
-            this.props.changeCalculation(this.props.index, {
-              emissions: this.state.emissions.CO2
-            });
-          }
+        appliancesData(this.props.apikey, appliance, quantity, running_time, region).then(data => {
+          this.setState({ emissions: data.emissions });
+          this.props.changeCalculation(this.props.index, {
+            emissions: this.state.emissions.CO2
+          });
+        }
         );
         break;
       case 1:
         poultryData(this.props.apikey, type, region, quantity).then(data => {
-          this.setState({ emissions: data.emissions, loading : false });
+          this.setState({ emissions: data.emissions, loading: false });
           this.props.changeCalculation(this.props.index, {
             emissions: this.state.emissions.CO2
           });
@@ -62,31 +66,43 @@ export default class InputData extends Component {
         break;
       case 2:
         flightData(this.props.apikey, origin, destination, type, model, passengers).then(data => {
-          this.setState({ emissions: data.emissions, loading : false });
+          this.setState({ emissions: data.emissions, loading: false });
           this.props.changeCalculation(this.props.index, {
             emissions: this.state.emissions.CO2
           });
         });
         break;
       case 3:
-        vehicleData(this.props.apikey, origin, destination, type, mileage).then(data => {
-            this.setState({ emissions: data.emissions });
-            this.props.changeCalculation(this.props.index, {
-              emissions: this.state.emissions.CO2
-            });
+        {
+          if (origin && destination) {
+            vehicleData(this.props.apikey, origin, destination, type, mileage).then(
+              data => {
+                console.log(data)
+                if (data.success) {
+                  this.setState({ emissions: data.emissions, errorMessage: "" });
+                  this.props.changeCalculation(this.props.index, {
+                    emissions: this.state.emissions.CO2
+                  });
+                }
+                else {
+                  this.setState({ emissions: undefined, errorMessage: "Unable to locate your position" });
+                }
+              }
+            ).catch(err => console.log(err))
           }
-        );
-        break;
+          else this.setState({ errorActive: true })
+          break;
+        }
       case 4:
         trainData(this.props.apikey, origin, destination, type, passengers).then(data => {
-          this.setState({ emissions: data.emissions, loading : false });
+          this.setState({ emissions: data.emissions, loading: false });
           this.props.changeCalculation(this.props.index, {
             emissions: this.state.emissions.CO2
           });
         });
         break;
       default:
-        this.setState({ loading : false})
+        this.setState({ loading: false })
         console.log('no option');
         break;
     }
@@ -125,13 +141,27 @@ export default class InputData extends Component {
           <Grid doubling columns={3}>
             {params.map((comps, index) => (
               <Grid.Column key={index}>
-                <Input
-                  fluid
-                  placeholder={`${comps}`}
-                  id={comps}
-                  onChange={this.inputChange}
-                  style={{ marginTop: '-22px' }}
-                />
+                {(paramSource[this.state.value][comps]) ? (
+                  <Dropdown
+                    defaultOpen={true}
+                    fluid
+                    selection
+                    placeholder={`${comps}`}
+                    id={comps}
+                    onChange={(e, comps) => { this.inputChange(e, comps) }}
+                    options={paramSource[this.state.value][comps]}
+                    style={{ marginTop: '-22px' }}
+                  />
+                )
+                  : (<Input
+                    error={((this.state.requiredFields.includes(comps)) && !this.state.data[comps] && this.state.errorActive) ? true : false}
+                    fluid
+                    placeholder={`${comps}`}
+                    id={comps}
+                    onChange={this.inputChange}
+                    style={{ marginTop: '-22px' }}
+                  />
+                  )}
               </Grid.Column>
             ))}
             {params.length !== 0 && (
@@ -139,8 +169,8 @@ export default class InputData extends Component {
                 <Button
                   style={{ paddingRight: '10px', paddingLeft: '10px' }}
                   fluid
-                  disabled = { loading }
-                  loading = { loading }
+                  disabled={loading}
+                  loading={loading}
                   onClick={this.calculate}>
                   Calculate
                 </Button>
@@ -148,6 +178,7 @@ export default class InputData extends Component {
             )}
           </Grid>
         </Grid.Row>
+        {(this.state.errorMessage) ? (<Message color='red' >{this.state.errorMessage}</Message>) : null}
       </Grid>
     );
   }
@@ -156,7 +187,7 @@ export default class InputData extends Component {
 const paramSource = [
   {
     title: 'appliances',
-    params: ['appliance','quantity', 'running_time', 'region']
+    params: ['appliance', 'quantity', 'running_time', 'region']
   },
   {
     title: 'poultry',
@@ -168,7 +199,12 @@ const paramSource = [
   },
   {
     title: 'vehicle',
-    params: ['type', 'origin', 'destination', 'mileage']
+    params: ['type', 'origin', 'destination', 'mileage'],
+    type: vehicleType.map((i, index) => ({
+      key: index,
+      value: index,
+      text: i
+    })),
   },
   {
     title: 'trains',

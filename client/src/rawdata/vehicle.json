@@ -1,0 +1,16 @@
+{
+	"vehicleType": [
+		"Diesel",
+		"Petrol",
+		"Gasoline",
+		"E10",
+		"E25",
+		"E85",
+		"Ethanol",
+		"Bio-Diesel",
+		"B20",
+		"LPG",
+		"CNG",
+		"Electricity"
+	]
+}
