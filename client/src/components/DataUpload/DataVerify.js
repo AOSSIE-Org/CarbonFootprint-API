@@ -79,7 +79,7 @@ export default class DataVerify extends Component {
             <Grid centered textAlign="left">
                 <Grid.Row>
 
-                    <Grid.Column width={3}>
+                <Grid.Column mobile={16} tablet={3} computer={3}>
                         <ProfilePicture
                             profilePicture={this.state.profilePicture}
                             nickname={this.state.nickname}
@@ -90,7 +90,7 @@ export default class DataVerify extends Component {
                         <Sidebar />
                     </Grid.Column>
 
-                    <Grid.Column width={10}>
+                    <Grid.Column mobile={16} tablet={10} computer={10}>
                         <Segment style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                             <List>
                                 {data.length ? data.map(d =>

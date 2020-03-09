@@ -77,7 +77,7 @@ export default class DataUpload extends Component {
       <Grid centered textAlign="left">
         <Grid.Row>
 
-          <Grid.Column width={3}>
+          <Grid.Column mobile={16} tablet={3} computer={3}>
             <ProfilePicture
               profilePicture={this.state.profilePicture}
               nickname={this.state.nickname}
@@ -88,7 +88,7 @@ export default class DataUpload extends Component {
             <Sidebar />
           </Grid.Column>
 
-          <Grid.Column width={10}>
+          <Grid.Column mobile={16} tablet={10} computer={10}>
             <ProfileSettings
               auth={this.props.auth}
             />
