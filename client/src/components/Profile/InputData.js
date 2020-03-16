@@ -42,9 +42,7 @@ export default class InputData extends Component {
     } = this.state.data;
     switch (this.state.value) {
       case 0:
-        appliancesData(this.props.apikey, appliance,quantity, running_time).then(
-          data => {
-            console.log(data);
+        appliancesData(this.props.apikey, appliance,quantity, running_time).then(data => {
             this.setState({ emissions: data.emissions });
             this.props.changeCalculation(this.props.index, {
               emissions: this.state.emissions.CO2
@@ -69,8 +67,7 @@ export default class InputData extends Component {
         });
         break;
       case 3:
-        vehicleData(this.props.apikey, origin, destination, type, mileage).then(
-          data => {
+        vehicleData(this.props.apikey, origin, destination, type, mileage).then(data => {
             this.setState({ emissions: data.emissions });
             this.props.changeCalculation(this.props.index, {
               emissions: this.state.emissions.CO2
@@ -80,7 +77,6 @@ export default class InputData extends Component {
         break;
       case 4:
         trainData(this.props.apikey, origin, destination, type, passengers).then(data => {
-          console.log(data);
           this.setState({ emissions: data.emissions });
           this.props.changeCalculation(this.props.index, {
             emissions: this.state.emissions.CO2
