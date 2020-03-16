@@ -45,15 +45,17 @@ export const trainData = (key, origin, destination, type, passengers) =>
       type,
       passengers: parseInt(passengers)
     })
-  }).then(res => res.json());
+  }).then(res => {
+    console.log(res);
+    return res.json();
+  });
 
 export const vehicleData = (
   key,
   origin,
   destination,
   type,
-  mileage,
-  mileage_unit
+  mileage
 ) =>
   fetch(`${url}/v1/vehicle`, {
     method: "POST",
@@ -66,7 +68,6 @@ export const vehicleData = (
       origin,
       destination,
       type,
-      mileage_unit,
       mileage: parseFloat(mileage)
     })
   }).then(res => res.json());
@@ -84,13 +85,14 @@ export const poultryData = (key, type, region, quantity) =>
       region,
       quantity: parseInt(quantity)
     })
-  }).then(res => res.json());
+  }).then(res => {
+    console.log(res);
+    return res.json();
+  });
 
 export const appliancesData = (
   key,
   appliance,
-  type,
-  region,
   quantity,
   running_time
 ) =>
@@ -102,13 +104,14 @@ export const appliancesData = (
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
-      type,
       appliance,
       running_time: parseFloat(running_time),
-      region,
       quantity: parseInt(quantity)
     })
-  }).then(res => res.json());
+  }).then(res => {
+    console.log(res);
+    return res.json();
+  });
 
 export const submitData = (quantity, date) =>
   fetch(`${url}/user/daily-emission`, {
