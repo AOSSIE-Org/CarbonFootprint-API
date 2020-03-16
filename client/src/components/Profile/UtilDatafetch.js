@@ -46,7 +46,6 @@ export const trainData = (key, origin, destination, type, passengers) =>
       passengers: parseInt(passengers)
     })
   }).then(res => {
-    console.log(res);
     return res.json();
   });
 
@@ -86,7 +85,6 @@ export const poultryData = (key, type, region, quantity) =>
       quantity: parseInt(quantity)
     })
   }).then(res => {
-    console.log(res);
     return res.json();
   });
 
@@ -109,7 +107,6 @@ export const appliancesData = (
       quantity: parseInt(quantity)
     })
   }).then(res => {
-    console.log(res);
     return res.json();
   });
 
