@@ -1,3 +1,4 @@
+/* eslint-disable consistent-return */
 /* eslint-disable max-len */
 const express = require('express');
 
@@ -418,8 +419,8 @@ router.post('/flight', (req, res) => {
   const { origin } = req.body;
   const { destination } = req.body;
   const passengers = req.body.passengers || 1;
-  if(passengers < 0){
-    return res.status(400).json({ success:false ,message: 'Passengers should not be negative'});
+  if (passengers < 0) {
+    return res.status(400).json({ success: false, message: 'Passengers should not be negative' });
   }
   if (airports[origin] && airports[destination]) {
     const orig = airports[origin];
@@ -433,8 +434,8 @@ router.post('/flight', (req, res) => {
       if (type === 'domestic') {
         model = 'A320';
       }
-    } else{
-      return res.status(400).json({ success:false ,message: `Enter a model number or choose type between domestic/international`});
+    } else {
+      return res.status(400).json({ success: false, message: 'Enter a model number or choose type between domestic/international' });
     }
     calculate(`airplane model ${model}`, '', dis, passengers)
       .then(emissions => {
@@ -447,11 +448,11 @@ router.post('/flight', (req, res) => {
       })
       .catch(err => {
         Logger.error(`Error: ${err}`);
-        return res.status(404).json({ success:false ,message: `Unable to find emissions for airplane model ${model}`});
+        return res.status(404).json({ success: false, message: `Unable to find emissions for airplane model ${model}` });
       });
   } else {
     res.sendJsonError('', 400);
-    return res.status(400).json({ success:false ,message: 'Unable to find the airports. Please use IATA airport codes only'});
+    return res.status(400).json({ success: false, message: 'Unable to find the airports. Please use IATA airport codes only' });
   }
 });
 
@@ -510,8 +511,9 @@ router.post('/vehicle', async (req, res) => {
   const { origin } = req.body;
   const { destination } = req.body;
   const mileage = parseFloat(req.body.mileage) || 20;
-  if(passengers < 0){
-    return res.status(400).json({ success:false ,message: 'Passengers should not be negative'});
+  const passengers = parseFloat(req.body.passengers) || 20;
+  if (passengers < 0) {
+    return res.status(400).json({ success: false, message: 'Passengers should not be negative' });
   }
   if (origin && destination) {
     distance(origin, destination)
@@ -519,7 +521,7 @@ router.post('/vehicle', async (req, res) => {
         Logger.debug(`CalculatedDistance: ${val}`);
         const fuelConsumed = val / mileage;
         Logger.debug(`Fuel consumerd: ${fuelConsumed}`);
-        calculate(`fuel${type}`, '', fuelConsumed,1)
+        calculate(`fuel${type}`, '', fuelConsumed, 1)
           .then(emissions => {
             Logger.info(`Emissions: ${JSON.stringify(emissions, null, 4)}`);
             res.status(200).json({
@@ -530,15 +532,15 @@ router.post('/vehicle', async (req, res) => {
           })
           .catch(err => {
             Logger.error(`Error: ${err}`);
-            return res.status(404).json({ success:false ,message: `Unable to find emissions for fuel type ${type}`});
+            return res.status(404).json({ success: false, message: `Unable to find emissions for fuel type ${type}` });
           });
       })
       .catch(err => {
         Logger.error(`Error: ${err}`);
-        return res.status(400).json({ success:false ,message: err});
+        return res.status(400).json({ success: false, message: err });
       });
   } else {
-    return res.status(400).json({ success:false ,message: 'Origin and destination need to be entered'});
+    return res.status(400).json({ success: false, message: 'Origin and destination need to be entered' });
   }
 });
 
@@ -592,13 +594,14 @@ router.post('/vehicle', async (req, res) => {
  *      400:
  *        description: Error
  */
+// eslint-disable-next-line consistent-return
 router.post('/trains', async (req, res) => {
   const type = req.body.type || 'railcars';
   const { origin } = req.body;
   const { destination } = req.body;
   const passengers = req.body.passengers || 1;
-  if(passengers < 0){
-    return res.status(400).json({ success:false ,message: 'Passengers should not be negative'});
+  if (passengers < 0) {
+    return res.status(400).json({ success: false, message: 'Passengers should not be negative' });
   }
   if (origin && destination) {
     distance(origin, destination)
@@ -616,17 +619,16 @@ router.post('/trains', async (req, res) => {
           })
           .catch(err => {
             Logger.error(`Error: ${err}`);
-            return res.status(404).json({ success:false ,message: `Unable to find emissions for fuel type ${type}`});
+            return res.status(404).json({ success: false, message: `Unable to find emissions for fuel type ${type}` });
           });
       })
       .catch(err => {
         Logger.error(`Error: ${err}`);
-        return res.status(404).json({ success:false ,message:`${err}`});
+        return res.status(404).json({ success: false, message: `${err}` });
       });
   } else {
-    return res.status(400).json({ success:false ,message: `Origin and destination need to be entered`});
+    return res.status(400).json({ success: false, message: 'Origin and destination need to be entered' });
   }
-  
 });
 
 /**
@@ -669,15 +671,16 @@ router.post('/trains', async (req, res) => {
  *      400:
  *        description: Error
  */
+// eslint-disable-next-line consistent-return
 router.post('/poultry', async (req, res) => {
   const { type } = req.body;
   const region = req.body.region || 'Default';
   const quantity = req.body.quantity || 1;
-  if(quantity < 0){
-    return res.status(400).json({ success:false ,message: 'Quantity should not be negative'});
+  if (quantity < 0) {
+    return res.status(400).json({ success: false, message: 'Quantity should not be negative' });
   }
   if (type) {
-    calculate(type, region, quantity,1)
+    calculate(type, region, quantity, 1)
       .then(emissions => {
         Logger.debug(`Emissions: ${emissions}`);
         res.status(200).json({
@@ -688,10 +691,10 @@ router.post('/poultry', async (req, res) => {
       })
       .catch(err => {
         Logger.error(`Error: ${err}`);
-        return res.status(400).json({ success:false ,message: `We cannot provide carbon footprints for this combination of ${type} in ${region} of mass ${quantity} kg`});
+        return res.status(400).json({ success: false, message: `We cannot provide carbon footprints for this combination of ${type} in ${region} of mass ${quantity} kg` });
       });
   } else {
-    return res.status(400).json({ success:false ,message: `Please enter a type of meat`});
+    return res.status(400).json({ success: false, message: 'Please enter a type of meat' });
   }
 });
 
@@ -749,10 +752,10 @@ router.post('/appliances', (req, res) => {
   const { appliance } = req.body;
   const quantity = req.body.quantity || 1;
   const runningTime = req.body.running_time || 1;
-  if(runningTime < 0 || quantity < 0){
-    return res.status(400).json({ success:false ,message: 'Quantity and running time should not be negative'});
+  if (runningTime < 0 || quantity < 0) {
+    return res.status(400).json({ success: false, message: 'Quantity and running time should not be negative' });
   }
-  calculate(`${appliance}`,'',quantity, runningTime)
+  calculate(`${appliance}`, '', quantity, runningTime)
     .then(emissions => {
       Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
       res.status(200).json({
@@ -763,7 +766,7 @@ router.post('/appliances', (req, res) => {
     })
     .catch(err => {
       Logger.error(`Error: ${err}`);
-      return res.status(400).json({ success:false ,message: `${err}`});
+      return res.status(400).json({ success: false, message: `${err}` });
     });
 });
 
