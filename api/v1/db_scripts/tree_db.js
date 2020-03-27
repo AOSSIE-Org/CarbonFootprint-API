@@ -50,7 +50,7 @@ const json = require('@raw_data/trees.json');
 const Emission = require('../models/emissionModel.js');
 
 const emissions = [];
-const { treeData } = json
+const { treeData } = json;
 for (let js = 0; js < treeData.length; js++) {
   const obj = new Emission();
   obj.item = treeData[js].type;
