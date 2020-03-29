@@ -7,7 +7,7 @@ import Sidebar from '../Profile/Sidebar';
 import schemaArray from './StructuredSchema';
 import { Redirect } from 'react-router-dom';
 
-const BASE_URL = (process.env.NODE_ENV === 'production') ? 'https://carbonhub.org/v1/' : 'http://localhost:3080/';
+const BASE_URL = (process.env.NODE_ENV === 'production') ? 'https://carbonhub.org' : 'http://localhost:3080';
 
 /* Extended react.Component class as Structured */
 
