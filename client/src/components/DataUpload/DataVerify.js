@@ -4,6 +4,8 @@ import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
 import { Button, Grid, Segment, List } from 'semantic-ui-react';
 
+const BASE_URL = (process.env.NODE_ENV === 'production') ? 'https://carbonhub.org/v1/' : 'http://localhost:3080/';
+
 /* Extended react.Component class as DataVerify */
 
 export default class DataVerify extends Component {
@@ -46,7 +48,7 @@ export default class DataVerify extends Component {
             .catch((err) => {
                 console.log(err);
             });
-            axios.get('/suggestedData/fetchData').then(response => {
+            axios.get(`${BASE_URL}/suggestedData/fetchData`).then(response => {
                 this.setState({ data: response.data });
             });
     }
@@ -56,7 +58,7 @@ export default class DataVerify extends Component {
    * @param id database ID of the object for reference
    */
     handleApprove(id) {
-        axios.post('/suggestedData/approveData', { data_id: id });
+        axios.post(`${BASE_URL}/suggestedData/approveData`, { data_id: id });
         window.location.reload();
     }
 
@@ -65,7 +67,7 @@ export default class DataVerify extends Component {
    * @param id database ID of the object for reference
    */
     handleReject(id) {
-        axios.post('/suggestedData/rejectData', { data_id: id });
+        axios.post(`${BASE_URL}/suggestedData/rejectData`, { data_id: id });
         window.location.reload();
     }
 
@@ -102,12 +104,14 @@ export default class DataVerify extends Component {
                                             <List.Header>Route - {d.title}</List.Header>
                                             <br />
                                             <table style={styles.table} >
-                                                {Object.keys(d.data).map(key => (
-                                                    <tr key={key}>
-                                                        <td style={styles.td} >{key}</td>
-                                                        <td style={{ paddingLeft: 0 }} >{d.data[key]}</td>
-                                                    </tr>
-                                                ))}
+                                                <tbody>
+                                                    {Object.keys(d.data).map(key => (
+                                                        <tr key={key}>
+                                                            <td style={styles.td} >{key}</td>
+                                                            <td style={{ paddingLeft: 0 }} >{d.data[key]}</td>
+                                                        </tr>
+                                                    ))}
+                                                </tbody>
                                             </table>
                                         </List.Content>
                                         <br />
