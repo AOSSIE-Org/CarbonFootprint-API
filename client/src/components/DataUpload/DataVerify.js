@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
-import { Button, Grid, Segment, List } from 'semantic-ui-react';
-
-const BASE_URL = (process.env.NODE_ENV === 'production') ? 'https://carbonhub.org' : 'http://localhost:3080';
+import { Button, Grid, Segment, List, Form } from 'semantic-ui-react';
+import { API_URL_SERVER } from '../../config/config';
 
 /* Extended react.Component class as DataVerify */
 
@@ -48,7 +47,7 @@ export default class DataVerify extends Component {
             .catch((err) => {
                 console.log(err);
             });
-            axios.get(`${BASE_URL}/suggestedData/fetchData`).then(response => {
+            axios.get(`${API_URL_SERVER}/suggestedData/fetchData`).then(response => {
                 this.setState({ data: response.data });
             });
     }
@@ -58,7 +57,7 @@ export default class DataVerify extends Component {
    * @param id database ID of the object for reference
    */
     handleApprove(id) {
-        axios.post(`${BASE_URL}/suggestedData/approveData`, { data_id: id });
+        axios.post(`${API_URL_SERVER}/suggestedData/approveData`, { data_id: id });
         window.location.reload();
     }
 
@@ -67,7 +66,7 @@ export default class DataVerify extends Component {
    * @param id database ID of the object for reference
    */
     handleReject(id) {
-        axios.post(`${BASE_URL}/suggestedData/rejectData`, { data_id: id });
+        axios.post(`${API_URL_SERVER}/suggestedData/rejectData`, { data_id: id });
         window.location.reload();
     }
 
