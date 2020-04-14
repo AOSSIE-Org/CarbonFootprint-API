@@ -45,9 +45,7 @@ export const trainData = (key, origin, destination, type, passengers) =>
       type,
       passengers: parseInt(passengers)
     })
-  }).then(res => {
-    return res.json();
-  });
+  }).then(res => res.json());
 
 export const vehicleData = (
   key,
@@ -84,15 +82,14 @@ export const poultryData = (key, type, region, quantity) =>
       region,
       quantity: parseInt(quantity)
     })
-  }).then(res => {
-    return res.json();
-  });
+  }).then(res => res.json());
 
 export const appliancesData = (
   key,
   appliance,
   quantity,
-  running_time
+  running_time,
+  region
 ) =>
   fetch(`${url}/v1/appliances`, {
     method: "POST",
@@ -104,7 +101,8 @@ export const appliancesData = (
     body: JSON.stringify({
       appliance,
       running_time: parseFloat(running_time),
-      quantity: parseInt(quantity)
+      quantity: parseInt(quantity),
+      region
     })
   }).then(res => {
     return res.json();

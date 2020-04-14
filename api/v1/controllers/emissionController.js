@@ -78,7 +78,7 @@ const find = (component, region, quantity) => {
             } else {
               // return an error if component is not found
               // eslint-disable-next-line prefer-promise-reject-errors
-              reject(`Unable to find component ${component} ${region ? `in ${region}` : ''}`);
+              reject(`Unable to find component ${component} for ${region}`);
             }
           },
         );
@@ -167,9 +167,15 @@ const processEmission = (emissions, component, region, quantity, item) => {
   });
 };
 
-exports.calculate = async (itemName, region, quantity, multiply) => {
+exports.calculate = async (itemName, region, quantity, multiply = 1, type = '') => {
   const emissions = await find(itemName, region, quantity);
   // round up the emission value upto 10 decimal points
+  if (type && emissions.type !== type) {
+    return new Promise((resolve, reject) => {
+      // eslint-disable-next-line prefer-promise-reject-errors
+      reject(`Unable to find component ${itemName} for ${region}`);
+    });
+  }
   // eslint-disable-next-line no-restricted-syntax, guard-for-in
   for (const i in emissions) {
     emissions[i] = parseFloat((emissions[i] * multiply).toFixed(10));

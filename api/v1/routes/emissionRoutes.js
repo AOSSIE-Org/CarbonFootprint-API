@@ -437,7 +437,7 @@ router.post('/flight', (req, res) => {
     } else {
       return res.status(400).json({ success: false, message: 'Enter a model number or choose type between domestic/international' });
     }
-    calculate(`airplane model ${model}`, '', dis, passengers)
+    calculate(`airplane model ${model}`, 'Default', dis, passengers)
       .then(emissions => {
         Logger.info(`\nTotal Emissions: ${emissions}`);
         res.status(200).json({
@@ -516,12 +516,12 @@ router.post('/vehicle', async (req, res) => {
     return res.status(400).json({ success: false, message: 'Passengers should not be negative' });
   }
   if (origin && destination) {
-    distance(origin, destination)
+    distance(origin, destination, 'driving')
       .then(val => {
         Logger.debug(`CalculatedDistance: ${val}`);
         const fuelConsumed = val / mileage;
         Logger.debug(`Fuel consumerd: ${fuelConsumed}`);
-        calculate(`fuel${type}`, '', fuelConsumed, 1)
+        calculate(`fuel${type}`, 'Default', fuelConsumed)
           .then(emissions => {
             Logger.info(`Emissions: ${JSON.stringify(emissions, null, 4)}`);
             res.status(200).json({
@@ -604,11 +604,11 @@ router.post('/trains', async (req, res) => {
     return res.status(400).json({ success: false, message: 'Passengers should not be negative' });
   }
   if (origin && destination) {
-    distance(origin, destination)
+    distance(origin, destination, 'transit')
       .then(val => {
         Logger.debug(`CalculatedDistance: ${val}`);
         Logger.debug(`CalculatedPassengers: ${passengers}`);
-        calculate(type, '', val, passengers)
+        calculate(type, 'Default', val, passengers)
           .then(emissions => {
             Logger.info(`Emissions: ${JSON.stringify(emissions, null, 4)}`);
             res.status(200).json({
@@ -752,10 +752,11 @@ router.post('/appliances', (req, res) => {
   const { appliance } = req.body;
   const quantity = req.body.quantity || 1;
   const runningTime = req.body.running_time || 1;
+  const region = req.body.region || 'Default';
   if (runningTime < 0 || quantity < 0) {
     return res.status(400).json({ success: false, message: 'Quantity and running time should not be negative' });
   }
-  calculate(`${appliance}`, '', quantity, runningTime)
+  calculate(`${appliance}`, region, quantity, runningTime)
     .then(emissions => {
       Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
       res.status(200).json({
