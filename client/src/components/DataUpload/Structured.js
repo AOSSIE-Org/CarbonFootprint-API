@@ -6,8 +6,7 @@ import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
 import schemaArray from './StructuredSchema';
 import { Redirect } from 'react-router-dom';
-
-const BASE_URL = (process.env.NODE_ENV === 'production') ? 'https://carbonhub.org' : 'http://localhost:3080';
+import { API_URL_SERVER } from '../../config/config';
 
 /* Extended react.Component class as Structured */
 
@@ -53,7 +52,7 @@ export default class Structured extends Component {
         if (typeof submitted != 'number') {
             const element = schemaArray[this.state.step];
             const { email } = this.state;
-            axios.post(`${BASE_URL}/suggestedData`, {
+            axios.post(`${API_URL_SERVER}/suggestedData`, {
                 title: element.title,
                 data: formData,
                 useremail: email
