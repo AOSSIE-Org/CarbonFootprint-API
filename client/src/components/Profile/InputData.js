@@ -77,7 +77,6 @@ export default class InputData extends Component {
           if (origin && destination) {
             vehicleData(this.props.apikey, origin, destination, type, mileage).then(
               data => {
-                console.log(data)
                 if (data.success) {
                   this.setState({ emissions: data.emissions, errorMessage: "" });
                   this.props.changeCalculation(this.props.index, {
@@ -85,7 +84,7 @@ export default class InputData extends Component {
                   });
                 }
                 else {
-                  this.setState({ emissions: undefined, errorMessage: "Unable to locate your position" });
+                  this.setState({ emissions: undefined, errorMessage: data.error });
                 }
               }
             ).catch(err => console.log(err))
