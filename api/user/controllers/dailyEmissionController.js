@@ -6,6 +6,11 @@ const { redisClient } = redis;
 
 const createLog = async (email, quantity, date) => {
   date.setHours(0, 0, 0, 0);
+  const prevEmission = await DailyEmission.findOne({ email, date: date.toJSON() });
+  // get previous quantity and add current quantity to it of same day.
+  if (prevEmission) {
+    quantity += prevEmission.quantity;
+  }
   return DailyEmission.findOneAndUpdate(
     {
       email,
