@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import { Card, Grid, Icon, Button } from "semantic-ui-react";
 import InputData from "./InputData";
-import { getKey, submitData } from "./UtilDatafetch";
+import { getKey, submitData, getRawData } from "./UtilDatafetch";
 
 export default class DailyDetails extends Component {
   state = {
     calculation: [],
     apikey: "",
     total: null,
-    loading: false
+    loading: false,
+    rawdata: ""
   };
 
   addValue = () => {
@@ -22,6 +23,7 @@ export default class DailyDetails extends Component {
 
   componentDidMount() {
     getKey().then(apikey => this.setState({ apikey }));
+    getRawData().then(rawdata => this.setState({ rawdata: rawdata.item }));
   }
 
   changeCalculation = (index, value) => {
@@ -53,7 +55,8 @@ export default class DailyDetails extends Component {
   };
 
   render() {
-    const { calculation, apikey, total, loading } = this.state;
+    // console.log(this.state.rawdata);
+    const { calculation, apikey, total, loading, rawdata } = this.state;
     return (
       <Grid centered textAlign="center">
         <Grid.Row>
@@ -67,6 +70,7 @@ export default class DailyDetails extends Component {
                   {calculation.map((i, index) => (
                     <Grid.Row key={index}>
                       <InputData
+                        rawdata={rawdata}
                         apikey={apikey}
                         index={index}
                         changeCalculation={this.changeCalculation}

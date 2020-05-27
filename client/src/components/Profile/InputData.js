@@ -1,21 +1,23 @@
 import React, { Component } from 'react';
 import { Grid, Input, Select, Button, Header, Dropdown, Message } from 'semantic-ui-react';
 import { flightData, trainData, vehicleData, poultryData, appliancesData } from './UtilDatafetch';
-import { vehicleType } from "../../rawdata/vehicle.json";
 
 export default class InputData extends Component {
-  state = {
-    value: null,
-    params: [],
-    data: {},
-    loading: false,
-    requiredFields: ['origin', 'destination'],
-    errorMessage: "",
-    errorActive: false
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: null,
+      params: [],
+      data: {},
+      loading: false,
+      requiredFields: ['origin', 'destination'],
+      errorMessage: "",
+      errorActive: false
+    };
+  }
 
   setValue = (e, { value }) => {
-    this.setState({ value, params: [...paramSource[value].params] });
+    this.setState({ value, params: [...this.paramSource[value].params] });
   };
 
   inputChange = (e, comps) => {
@@ -119,7 +121,7 @@ export default class InputData extends Component {
               search
               selection
               onChange={this.setValue}
-              options={options}
+              options={this.options}
             />
           </Grid.Column>
           {this.state.emissions !== undefined && (
@@ -140,7 +142,7 @@ export default class InputData extends Component {
           <Grid doubling columns={3}>
             {params.map((comps, index) => (
               <Grid.Column key={index}>
-                {(paramSource[this.state.value][comps]) ? (
+                {(this.paramSource[this.state.value][comps]) ? (
                   <Dropdown
                     defaultOpen={true}
                     fluid
@@ -148,7 +150,7 @@ export default class InputData extends Component {
                     placeholder={`${comps}`}
                     id={comps}
                     onChange={(e, comps) => { this.inputChange(e, comps) }}
-                    options={paramSource[this.state.value][comps]}
+                    options={this.paramSource[this.state.value][comps]}
                     style={{ marginTop: '-22px' }}
                   />
                 )
@@ -181,38 +183,39 @@ export default class InputData extends Component {
       </Grid>
     );
   }
+  paramSource = [
+    {
+      title: 'appliances',
+      params: ['appliance', 'region', 'quantity', 'runnning_time']
+    },
+    {
+      title: 'poultry',
+      params: ['type', 'region', 'quantity']
+    },
+    {
+      title: 'flight',
+      params: ['origin', 'destination', 'type', 'model', 'passengers']
+    },
+    {
+      title: 'vehicle',
+      params: ['type', 'origin', 'destination', 'mileage'],
+      type: this.props.rawdata.vehicleTypes.map((i, index) => ({
+        key: index,
+        value: index,
+        text: i
+      })),
+    },
+    {
+      title: 'trains',
+      params: ['type', 'origin', 'destination', 'passengers']
+    }
+  ];
+
+  options = this.paramSource.map((i, index) => ({
+    key: i.title,
+    value: index,
+    text: i.title.charAt(0).toUpperCase() + i.title.slice(1)
+  }));
 }
 
-const paramSource = [
-  {
-    title: 'appliances',
-    params: ['appliance', 'quantity', 'running_time', 'region']
-  },
-  {
-    title: 'poultry',
-    params: ['type', 'region', 'quantity']
-  },
-  {
-    title: 'flight',
-    params: ['origin', 'destination', 'type', 'model', 'passengers']
-  },
-  {
-    title: 'vehicle',
-    params: ['type', 'origin', 'destination', 'mileage'],
-    type: vehicleType.map((i, index) => ({
-      key: index,
-      value: index,
-      text: i
-    })),
-  },
-  {
-    title: 'trains',
-    params: ['type', 'origin', 'destination', 'passengers']
-  }
-];
 
-const options = paramSource.map((i, index) => ({
-  key: i.title,
-  value: index,
-  text: i.title.charAt(0).toUpperCase() + i.title.slice(1)
-}));
