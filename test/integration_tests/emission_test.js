@@ -359,8 +359,7 @@ describe('API endpoint testing', () => {
         .post('/v1/appliances')
         .set('access-key', API_TEST_KEY)
         .send({
-          appliance: 'Water heater',
-          type: 'instantaneous',
+          appliance: 'Water heater instantaneous',
           region: 'India',
           unit: 'kWh',
           quantity: 1,
