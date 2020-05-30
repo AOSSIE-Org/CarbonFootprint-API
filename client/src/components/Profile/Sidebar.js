@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Icon, Menu } from 'semantic-ui-react';
 import {Link} from 'react-router-dom';
-import { API_URL } from '../../config/config';
+import { API_URL_SERVER } from '../../config/config';
 
 /* Extended react.Component class as Sidebar */
 
@@ -14,7 +14,7 @@ export default class Sidebar extends Component {
 
   constructor() {
     super();
-    this.state = { activeItem: '',url : `${API_URL}/api/docs` };
+    this.state = { activeItem: '',url : `${API_URL_SERVER}/api/docs` };
     this.handleItemClick = this.handleItemClick.bind(this);
   }
 
@@ -24,7 +24,7 @@ export default class Sidebar extends Component {
     this.setState({ activeItem: name });
   }
 
-  /** 
+  /**
    * Inherited function from react.Component to render to DOM object into html
    */
 
@@ -44,7 +44,7 @@ export default class Sidebar extends Component {
             <Icon name="home" /> Account
           </span>
         </Menu.Item>
-        
+
         <Menu.Item
           name="transport"
           active={activeItem === 'transport'}
