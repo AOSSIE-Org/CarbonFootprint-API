@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Icon, Menu } from 'semantic-ui-react';
 import {Link} from 'react-router-dom';
+import { UI_URL } from '../../config/config';
 
 /* Extended react.Component class as Sidebar */
 
@@ -13,7 +14,7 @@ export default class Sidebar extends Component {
 
   constructor() {
     super();
-    this.state = { activeItem: '' };
+    this.state = { activeItem: '',url : `${UI_URL}/api/docs` };
     this.handleItemClick = this.handleItemClick.bind(this);
   }
 
@@ -28,7 +29,7 @@ export default class Sidebar extends Component {
    */
 
   render() {
-    const { activeItem } = this.state;
+    const { activeItem,url } = this.state;
     return (
       <Menu fluid vertical style={ styles.cardMargin }>
         <Menu.Item
@@ -83,13 +84,12 @@ export default class Sidebar extends Component {
           name= "Swagger Docs"
           active= {activeItem === 'Data Upload'}
         >
-        <a href="/api/docs" target="_blank" rel="noopener noreferrer">
+        <a href={url} target="_blank" rel="noopener noreferrer">
           <span>
             <Icon name="wpforms" /> Swagger Documentation
           </span>
         </a>
         </Menu.Item>
-
 
         <Menu.Item
           name= "Verify Data"
