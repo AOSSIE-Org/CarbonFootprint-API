@@ -6,6 +6,7 @@ import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
 import schemaArray from './StructuredSchema';
 import { Redirect } from 'react-router-dom';
+import { API_URL_SERVER } from '../../config/config';
 
 /* Extended react.Component class as Structured */
 
@@ -38,23 +39,29 @@ export default class Structured extends Component {
    */
     handleChange({ formData }) {
         const submitted = formData;
-        this.setState({
-            step: submitted,
-            formData: {
-                ...this.state.formData,
-                ...formData
-            },
-        })
+        if(typeof submitted == 'number'){
+            this.setState({
+                step: submitted,
+                formData: {
+                    ...this.state.formData,
+                    ...formData
+                },
+            })
+        }
+
         if (typeof submitted != 'number') {
             const element = schemaArray[this.state.step];
             const { email } = this.state;
-            axios.post('/suggestedData', {
+            axios.post(`${API_URL_SERVER}/suggestedData`, {
                 title: element.title,
                 data: formData,
                 useremail: email
-            });
-            this.setState({ redirect: true });
+            }).then(()=>{
+                this.setState({ redirect: true });
+            })
+            .catch(err=>console.log(err));
         }
+
     }
 
     /**

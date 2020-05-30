@@ -2,7 +2,7 @@ import React from 'react';
 import {Header} from 'semantic-ui-react';
 import { Redirect } from 'react-router-dom';
 import visuals from '../data/availableVisuals.js';
-import { API_URL } from '../../config/config'
+import { UI_URL } from '../../config/config'
 
 class Graph extends React.Component {
   constructor(props) {
@@ -29,7 +29,7 @@ class Graph extends React.Component {
           width: "100%"
         }}>
           <div style={styles.card}>
-            <iframe title="visual-link" src={`${API_URL}/graphs/${this.state.visual.link}.html`} width="100%" height="100%" style={{
+            <iframe title="visual-link" src={`${UI_URL}/graphs/${this.state.visual.link}.html`} width="100%" height="100%" style={{
               "border": "none"
             }}></iframe>
           </div>
