@@ -1,9 +1,9 @@
 import React from 'react';
 
 const NotFound = () => (
-  <div>
+  <div style={{ textAlign: 'center'}}>
     <h1>404. Page not found :( </h1>
-    <img alt="not found" src="./img/notfound.png" />
+    <img alt="not found" src="/img/notfound.png" />
   </div>
 );
 

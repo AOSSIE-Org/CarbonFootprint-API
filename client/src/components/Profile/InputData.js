@@ -6,7 +6,8 @@ export default class InputData extends Component {
   state = {
     value: null,
     params: [],
-    data: {}
+    data: {},
+    loading: false
   };
 
   setValue = (e, { value }) => {
@@ -35,16 +36,15 @@ export default class InputData extends Component {
       model,
       passengers,
       mileage,
-      mileage_unit,
       region,
       quantity,
       appliance,
       running_time
     } = this.state.data;
+    this.setState({ loading : true });
     switch (this.state.value) {
       case 0:
-        appliancesData(this.props.apikey, appliance, type, region, quantity, running_time).then(
-          data => {
+        appliancesData(this.props.apikey, appliance,quantity, running_time, region).then(data => {
             this.setState({ emissions: data.emissions });
             this.props.changeCalculation(this.props.index, {
               emissions: this.state.emissions.CO2
@@ -54,7 +54,7 @@ export default class InputData extends Component {
         break;
       case 1:
         poultryData(this.props.apikey, type, region, quantity).then(data => {
-          this.setState({ emissions: data.emissions });
+          this.setState({ emissions: data.emissions, loading : false });
           this.props.changeCalculation(this.props.index, {
             emissions: this.state.emissions.CO2
           });
@@ -62,15 +62,14 @@ export default class InputData extends Component {
         break;
       case 2:
         flightData(this.props.apikey, origin, destination, type, model, passengers).then(data => {
-          this.setState({ emissions: data.emissions });
+          this.setState({ emissions: data.emissions, loading : false });
           this.props.changeCalculation(this.props.index, {
             emissions: this.state.emissions.CO2
           });
         });
         break;
       case 3:
-        vehicleData(this.props.apikey, origin, destination, type, mileage, mileage_unit).then(
-          data => {
+        vehicleData(this.props.apikey, origin, destination, type, mileage).then(data => {
             this.setState({ emissions: data.emissions });
             this.props.changeCalculation(this.props.index, {
               emissions: this.state.emissions.CO2
@@ -80,20 +79,21 @@ export default class InputData extends Component {
         break;
       case 4:
         trainData(this.props.apikey, origin, destination, type, passengers).then(data => {
-          this.setState({ emissions: data.emissions });
+          this.setState({ emissions: data.emissions, loading : false });
           this.props.changeCalculation(this.props.index, {
             emissions: this.state.emissions.CO2
           });
         });
         break;
       default:
+        this.setState({ loading : false})
         console.log('no option');
         break;
     }
   };
 
   render() {
-    const { params } = this.state;
+    const { params, loading } = this.state;
     return (
       <Grid style={{ marginLeft: '15px', width: '100%' }}>
         <Grid.Row>
@@ -139,6 +139,8 @@ export default class InputData extends Component {
                 <Button
                   style={{ paddingRight: '10px', paddingLeft: '10px' }}
                   fluid
+                  disabled = { loading }
+                  loading = { loading }
                   onClick={this.calculate}>
                   Calculate
                 </Button>
@@ -154,7 +156,7 @@ export default class InputData extends Component {
 const paramSource = [
   {
     title: 'appliances',
-    params: ['appliance', 'type', 'region', 'quantity', 'runnning_time']
+    params: ['appliance','quantity', 'running_time', 'region']
   },
   {
     title: 'poultry',
@@ -166,7 +168,7 @@ const paramSource = [
   },
   {
     title: 'vehicle',
-    params: ['type', 'origin', 'destination', 'mileage', 'mileage_unit']
+    params: ['type', 'origin', 'destination', 'mileage']
   },
   {
     title: 'trains',

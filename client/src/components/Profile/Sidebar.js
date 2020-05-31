@@ -24,7 +24,7 @@ export default class Sidebar extends Component {
     this.setState({ activeItem: name });
   }
 
-  /** 
+  /**
    * Inherited function from react.Component to render to DOM object into html
    */
 
@@ -44,7 +44,7 @@ export default class Sidebar extends Component {
             <Icon name="home" /> Account
           </span>
         </Menu.Item>
-        
+
         <Menu.Item
           name="transport"
           active={activeItem === 'transport'}
