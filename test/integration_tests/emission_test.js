@@ -198,7 +198,7 @@ describe('API endpoint testing', () => {
         .post('/v1/vehicle')
         .set('access-key', API_TEST_KEY)
         .send({
-          type: 'Petrol',
+          type: 'fuelPetrol',
           origin: 'Bhubaneswar',
           destination: 'Cuttack',
           mileage: 50,
