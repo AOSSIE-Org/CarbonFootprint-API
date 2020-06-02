@@ -51,55 +51,69 @@ export default class InputData extends Component {
     switch (this.state.value) {
       case 0:
         appliancesData(this.props.apikey, appliance, quantity, running_time, region).then(data => {
-          this.setState({ emissions: data.emissions });
-          this.props.changeCalculation(this.props.index, {
-            emissions: this.state.emissions.CO2
-          });
-        }
-        );
+          if (data.success) {
+            this.setState({ emissions: data.emissions, errorMessage: "", loading: false });
+            this.props.changeCalculation(this.props.index, {
+              emissions: this.state.emissions.CO2
+            });
+          }
+          else {
+            this.setState({ emissions: undefined, errorMessage: data.message, loading: false });
+          }
+        });
         break;
       case 1:
         poultryData(this.props.apikey, type, region, quantity).then(data => {
-          this.setState({ emissions: data.emissions, loading: false });
-          this.props.changeCalculation(this.props.index, {
-            emissions: this.state.emissions.CO2
-          });
+          if (data.success) {
+            this.setState({ emissions: data.emissions, loading: false, errorMessage: "" });
+            this.props.changeCalculation(this.props.index, {
+              emissions: this.state.emissions.CO2
+            });
+          }
+          else {
+            this.setState({ emissions: undefined, errorMessage: data.message, loading: false });
+          }
         });
         break;
       case 2:
         flightData(this.props.apikey, origin, destination, type, model, passengers).then(data => {
-          this.setState({ emissions: data.emissions, loading: false });
-          this.props.changeCalculation(this.props.index, {
-            emissions: this.state.emissions.CO2
-          });
+          console.log(data);
+          if (data.success) {
+            this.setState({ emissions: data.emissions, loading: false, errorMessage: "" });
+            this.props.changeCalculation(this.props.index, {
+              emissions: this.state.emissions.CO2
+            });
+          }
+          else {
+            this.setState({ emissions: undefined, errorMessage: data.message, loading: false });
+          }
         });
         break;
       case 3:
-        {
-          if (origin && destination) {
-            vehicleData(this.props.apikey, origin, destination, type, mileage).then(
-              data => {
-                if (data.success) {
-                  this.setState({ emissions: data.emissions, errorMessage: "" });
-                  this.props.changeCalculation(this.props.index, {
-                    emissions: this.state.emissions.CO2
-                  });
-                }
-                else {
-                  this.setState({ emissions: undefined, errorMessage: data.error });
-                }
-              }
-            ).catch(err => console.log(err))
-          }
-          else this.setState({ errorActive: true })
-          break;
-        }
+        vehicleData(this.props.apikey, origin, destination, type, mileage).then(
+          data => {
+            if (data.success) {
+              this.setState({ emissions: data.emissions, errorMessage: "", loading: false });
+              this.props.changeCalculation(this.props.index, {
+                emissions: this.state.emissions.CO2
+              });
+            }
+            else {
+              this.setState({ emissions: undefined, errorMessage: data.message, loading: false });
+            }
+          });
+        break;
       case 4:
         trainData(this.props.apikey, origin, destination, type, passengers).then(data => {
-          this.setState({ emissions: data.emissions, loading: false });
-          this.props.changeCalculation(this.props.index, {
-            emissions: this.state.emissions.CO2
-          });
+          if (data.success) {
+            this.setState({ emissions: data.emissions, loading: false, errorMessage: "" });
+            this.props.changeCalculation(this.props.index, {
+              emissions: this.state.emissions.CO2
+            });
+          }
+          else {
+            this.setState({ emissions: undefined, errorMessage: data.message, loading: false });
+          }
         });
         break;
       default:
@@ -110,6 +124,7 @@ export default class InputData extends Component {
   };
 
   render() {
+    // console.log(this.state.errorMessage);
     const { params, loading } = this.state;
     return (
       <Grid style={{ marginLeft: '15px', width: '100%' }}>
@@ -186,11 +201,21 @@ export default class InputData extends Component {
   paramSource = [
     {
       title: 'appliances',
-      params: ['appliance', 'region', 'quantity', 'runnning_time']
+      params: ['appliance', 'region', 'quantity', 'runnning_time'],
+      appliance: this.props.rawdata.applianceTypes.map((i, index) => ({
+        key: index,
+        value: index,
+        text: i
+      })),
     },
     {
       title: 'poultry',
-      params: ['type', 'region', 'quantity']
+      params: ['type', 'region', 'quantity'],
+      type: this.props.rawdata.poultryTypes.map((i, index) => ({
+        key: index,
+        value: index,
+        text: i
+      })),
     },
     {
       title: 'flight',
@@ -207,7 +232,12 @@ export default class InputData extends Component {
     },
     {
       title: 'trains',
-      params: ['type', 'origin', 'destination', 'passengers']
+      params: ['type', 'origin', 'destination', 'passengers'],
+      type: this.props.rawdata.trainTypes.map((i, index) => ({
+        key: index,
+        value: index,
+        text: i
+      })),
     }
   ];
 

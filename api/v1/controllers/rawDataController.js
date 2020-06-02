@@ -9,14 +9,14 @@ const { redisClient } = redis;
 // eslint-disable-next-line arrow-body-style
 // to get all the rawData
 exports.fetchRawData = () => {
-  // Logger.info('entered fetchrawdata');
   let rawData;
   return new Promise((resolve) => {
-    redisClient.hget('rawdata', 'types', (err, result) => {
-      // Logger.info('entered redis');
+    // get rawdata from redis cache
+    redisClient.hget('rawdata', 'types', async (err, result) => {
       if (err || !result) {
         // get rawdata from database
-        let vehicleTypes = Emission.find(
+
+        let vehicleTypes = await Emission.find(
           {
             categories: ['vehicle', 'transport'],
           },
@@ -27,8 +27,9 @@ exports.fetchRawData = () => {
           },
         );
         vehicleTypes = vehicleTypes.map(item => item.item);
+
         // to get appliance types
-        let applianceTypes = Emission.find(
+        let applianceTypes = await Emission.find(
           {
             categories: ['appliances'],
           },
@@ -41,7 +42,7 @@ exports.fetchRawData = () => {
         applianceTypes = applianceTypes.map(item => item.item);
 
         // to get poultry types
-        let poultryTypes = Emission.find(
+        let poultryTypes = await Emission.find(
           {
             categories: ['poultry'],
           },
@@ -52,7 +53,23 @@ exports.fetchRawData = () => {
           },
         );
         poultryTypes = poultryTypes.map(item => item.item);
-        rawData = { vehicleTypes, applianceTypes, poultryTypes };
+
+        // to get train Types
+        let trainTypes = await Emission.find(
+          {
+            categories: ['trains', 'transport'],
+          },
+          (err1, data) => {
+            if (err1 && !data) {
+              Logger.error(err1);
+            }
+          },
+        );
+        trainTypes = trainTypes.map(item => item.item);
+
+        rawData = {
+          vehicleTypes, applianceTypes, poultryTypes, trainTypes,
+        };
         redisClient.hset('rawdata', 'types', JSON.stringify(rawData));
       } else {
         // Logger.info('result', JSON.parse(result));
@@ -60,6 +77,5 @@ exports.fetchRawData = () => {
       }
       resolve(rawData);
     });
-    // Logger.info('exit fetchrawdata');
   });
 };
