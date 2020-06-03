@@ -59,7 +59,7 @@ export default class ProfileEdit extends Component {
         this.setMetaData(this.state.profile.sub);
         this.hideModal();
       })
-      .reject(err => {
+      .catch(err => {
         console.log(err);
       });
   }
