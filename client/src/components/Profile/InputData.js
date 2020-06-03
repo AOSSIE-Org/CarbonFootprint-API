@@ -219,7 +219,12 @@ export default class InputData extends Component {
     },
     {
       title: 'flight',
-      params: ['origin', 'destination', 'type', 'model', 'passengers']
+      params: ['origin', 'destination', 'type', 'model', 'passengers'],
+      model: this.props.rawdata.flightTypes.map((i, index) => ({
+        key: index,
+        value: index,
+        text: i
+      })),
     },
     {
       title: 'vehicle',

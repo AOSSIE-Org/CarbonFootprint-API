@@ -245,7 +245,7 @@ describe('API endpoint testing', () => {
           origin: 'DEL',
           destination: 'JFK',
           type: 'international',
-          model: 'A380',
+          model: 'airplane model A380',
           passengers: 840,
         })
         .expect('Content-type', /json/)

@@ -10,6 +10,9 @@ const { redisClient } = redis;
 // to get all the rawData
 exports.fetchRawData = () => {
   let rawData;
+  // redisClient.flushdb((err, succeeded) => {
+  //   console.log(succeeded); // will be true if successfull
+  // });
   return new Promise((resolve) => {
     // get rawdata from redis cache
     redisClient.hget('rawdata', 'types', async (err, result) => {
@@ -67,8 +70,21 @@ exports.fetchRawData = () => {
         );
         trainTypes = trainTypes.map(item => item.item);
 
+        // to get flight types
+        let flightTypes = await Emission.find(
+          {
+            categories: ['flights'],
+          },
+          (err1, data) => {
+            if (err1 && !data) {
+              Logger.error(err1);
+            }
+          },
+        );
+        flightTypes = flightTypes.map(item => item.item);
+
         rawData = {
-          vehicleTypes, applianceTypes, poultryTypes, trainTypes,
+          vehicleTypes, applianceTypes, poultryTypes, trainTypes, flightTypes,
         };
         redisClient.hset('rawdata', 'types', JSON.stringify(rawData));
       } else {

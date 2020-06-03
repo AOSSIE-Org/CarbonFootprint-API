@@ -439,7 +439,7 @@ router.post('/flight', (req, res) => {
       // else {
       //   return res.status(400).json({ success: false, message: 'Enter a model number or choose type between domestic/international' });
       // }
-      calculate(`airplane model ${model}`, 'Default', dis, passengers)
+      calculate(model, 'Default', dis, passengers)
         .then(emissions => {
           Logger.info(`\nTotal Emissions: ${emissions}`);
           res.status(200).json({
@@ -450,7 +450,7 @@ router.post('/flight', (req, res) => {
         })
         .catch(err => {
           Logger.error(`Error: ${err}`);
-          return res.status(404).json({ success: false, message: `Unable to find emissions for airplane model ${model}` });
+          return res.status(404).json({ success: false, message: `Unable to find emissions for ${model}` });
         });
     } else {
       // res.sendJsonError('', 400);
