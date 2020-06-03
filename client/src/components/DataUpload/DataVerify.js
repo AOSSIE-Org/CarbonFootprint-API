@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
-import { Button, Grid, Segment, List, Form } from 'semantic-ui-react';
+import { Button, Grid, Segment, List } from 'semantic-ui-react';
 import { API_URL_SERVER } from '../../config/config';
 
 /* Extended react.Component class as DataVerify */
