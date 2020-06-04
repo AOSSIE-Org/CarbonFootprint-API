@@ -1,0 +1,31 @@
+.segment-upload{ 
+    display: flex; 
+    flex-direction: column;
+    padding: 0 25% 
+}
+/* Adding .ui.button for addition of the CSS rules to custom tag Button */
+.ui.button.verify-approve{
+    background-color: green;
+}
+/* Adding .ui.button for addition of the CSS rules to custom tag Button */
+.ui.button.verify-reject{
+    background-color: red;
+}
+.verify-td-key{
+    padding: 0 20px;
+}
+.verify-td-data{
+    padding-left: 0px;
+}
+/* Adding .ui.segment for addition of the CSS rules to custom tag Segment */
+.ui.segment.data-segment{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+/* Adding .ui.grid for addition of the CSS rules to custom tag Grid */
+.ui.grid.data-grid{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}

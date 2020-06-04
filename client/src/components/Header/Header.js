@@ -1,6 +1,7 @@
 import React from 'react';
 import { Dropdown, Icon, Responsive } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
+import './Header.css'
 
 export default class Header extends React.Component {
   constructor(props){
@@ -28,23 +29,23 @@ export default class Header extends React.Component {
   render() {
     const { isAuthenticated } = this.props.auth;
     return (
-      <div style={styles.header}>
-        <Link to="/" style={styles.logo}>
-          <Icon name="world" size="large" style={{ marginRight: '10px' }} />
+      <div className="header-div1">
+        <Link to="/" className="header-logo">
+          <Icon name="world" size="large" className="header-img-logo" />
           <strong>Carbon Footprint</strong>
         </Link>
         {!isAuthenticated() &&
-          <span style={styles.menuItem} onClick={() => this.login()}>
+          <span className="header-menu-item" onClick={() => this.login()}>
             Login
           </span>}
         {isAuthenticated() &&
           <Dropdown
             icon={null}
-            style={styles.menuItem}
+            className="header-menu-item"
             trigger={
               <span>
                 <Responsive minWidth={500}>
-                  <img alt="profile" src={this.state.profile.picture} style={{borderRadius:'50%',height:'20px',marginRight:'5px'}} />
+                  <img alt="profile" src={this.state.profile.picture} className="header-img" />
                   {this.state.profile.nickname}
                 </Responsive>
                 <Responsive maxWidth={499}>
@@ -53,7 +54,7 @@ export default class Header extends React.Component {
               </span>
             }
           >
-            <Dropdown.Menu style={{ right: 0, top: '120%', left: 'initial' }}>
+            <Dropdown.Menu className="header-dropdown-menu">
               <Dropdown.Item>
                 <Link to="/profile">My Account</Link>
               </Dropdown.Item>
@@ -67,27 +68,3 @@ export default class Header extends React.Component {
   }
 }
 
-const styles = {
-  header: {
-    width: '100%',
-    height: '60px',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    background: '#2980b9',
-    boxShadow: '1px 1px 5px #bbb',
-    padding: '15px 25px',
-    color: '#fff',
-    fontSize: '22px'
-  },
-  menuItem: {
-    fontSize: '15px',
-    cursor: 'pointer'
-  },
-  logo: {
-    color: 'white'
-  },
-  user: {
-    fontSize : '22px'
-  }
-};

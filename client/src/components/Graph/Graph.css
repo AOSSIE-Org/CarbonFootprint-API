@@ -1,0 +1,18 @@
+.graph-card1 {
+    width: 100%;
+    height: 80vh;
+    background-color: #fff;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGElEQVQYV2NkYGCQYmBgeMYABYwwBvECAD1WAQVZi1QaAAAAAElFTkSuQmCC);
+    background-repeat: repeat;
+    background-size: 7px;
+    box-shadow: 1px 1px 5px #bbb;
+    position: relative
+}
+.graph-iframe1 {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.graph-div1 {
+    width: 100%;
+}

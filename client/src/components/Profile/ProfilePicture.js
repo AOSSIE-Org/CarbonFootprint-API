@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Card, Icon, Button, Responsive } from 'semantic-ui-react';
 import ProfileEdit from './ProfileEdit';
 import { Link } from "react-router-dom";
+import './Profile.css'
 
 
 /* Extended react.Component class as ProfilePicture */
@@ -39,7 +40,7 @@ export default class ProfilePicture extends Component {
      const { auth } = this.props;
     return (
       <Card fluid raised>
-        <div style={styles.imageContainer}>
+        <div class="profile-picture-image-container">
           <div
             style={{
               width: '40%',
@@ -49,19 +50,15 @@ export default class ProfilePicture extends Component {
             }}
           />
         </div>
-        <Card.Content style={{fontSize:'15px', wordWrap:'break-word'}}>
+        <Card.Content className="profile-card-content">
           <Card.Header>
             {this.state.nickname || this.props.nickname} <ProfileEdit auth={auth} profile={this.props.profile} />
           </Card.Header>
-          <Card.Meta style={{
-            display: "inline-flex",
-            overflowX: "hidden",
-            width: "100%"
-          }}>
+          <Card.Meta className="profile-picture-email">
             {this.props.email}
           </Card.Meta>
           <Responsive {...Responsive.onlyMobile}>
-            <Card.Meta style={{ textAlign: "center", marginTop: "10px" }}>
+            <Card.Meta className="profile-picture-meta">
               <Button as={Link} to="/profile/enter" color="twitter" ref="entryModal">
                 <Icon name="add" />
                 Today's entry
