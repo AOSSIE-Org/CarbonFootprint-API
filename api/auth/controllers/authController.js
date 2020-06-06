@@ -149,7 +149,7 @@ exports.verifyApiKey = (req, res, next) => {
         // find the difference in hours between current time and previous reset time.
         const resetTimeCheck = Math.abs(currDate - prevTime) / 36e5;
         if (resetTimeCheck >= 24) {
-          User.update(
+          User.updateOne(
             {
               email: user.email,
             },
@@ -172,7 +172,7 @@ exports.verifyApiKey = (req, res, next) => {
             },
           );
         } else if (user.requests.left !== 0) {
-          User.update(
+          User.updateOne(
             {
               email: user.email,
             },

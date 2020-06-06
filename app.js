@@ -21,13 +21,12 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
+// Setting them universally rather than having to add them at every instance of .connect()
+mongoose.set('useNewUrlParser', true);
+mongoose.set('useUnifiedTopology', true);
 // connect to the database
 mongoose.connect(
-  `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}/${process.env.DB_NAME}`,
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  },
+  `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}/${process.env.DB_NAME}`
 );
 
 // When successfully connected
