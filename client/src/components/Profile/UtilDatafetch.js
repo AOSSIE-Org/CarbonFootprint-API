@@ -131,4 +131,4 @@ export const getData = () =>
   }).then(res => res.json());
 
 export const getRawData = () =>
-  fetch(`${url}/v2/rawdata`, { headers: headers }).then(res => res.json());  
+  fetch(`${url}/internal/rawdata`, { headers: headers }).then(res => res.json());  

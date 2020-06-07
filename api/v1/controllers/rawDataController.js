@@ -1,3 +1,4 @@
+
 // eslint-disable-next-line import/no-unresolved
 const Logger = require('@framework/Logger');
 // eslint-disable-next-line import/no-unresolved
@@ -19,9 +20,11 @@ exports.fetchRawData = () => {
       if (err || !result) {
         // get rawdata from database
 
-        let vehicleTypes = await Emission.find(
+        const Types = await Emission.find(
           {
-            categories: ['vehicle', 'transport'],
+            categories: {
+              $in: ['vehicle', 'trains', 'appliances', 'poultry', 'flights'],
+            },
           },
           (err1, data) => {
             if (err1 && !data) {
@@ -29,58 +32,26 @@ exports.fetchRawData = () => {
             }
           },
         );
+
+        let vehicleTypes = Types.filter(item =>
+          JSON.stringify(item.categories) === JSON.stringify(['vehicle', 'transport']));
         vehicleTypes = vehicleTypes.map(item => item.item);
 
-        // to get appliance types
-        let applianceTypes = await Emission.find(
-          {
-            categories: ['appliances'],
-          },
-          (err1, data) => {
-            if (err1 && !data) {
-              Logger.error(err1);
-            }
-          },
-        );
+        let applianceTypes = Types.filter(item =>
+          JSON.stringify(item.categories) === JSON.stringify(['appliances']));
         applianceTypes = applianceTypes.map(item => item.item);
 
-        // to get poultry types
-        let poultryTypes = await Emission.find(
-          {
-            categories: ['poultry'],
-          },
-          (err1, data) => {
-            if (err1 && !data) {
-              Logger.error(err1);
-            }
-          },
-        );
-        poultryTypes = poultryTypes.map(item => item.item);
-
-        // to get train Types
-        let trainTypes = await Emission.find(
-          {
-            categories: ['trains', 'transport'],
-          },
-          (err1, data) => {
-            if (err1 && !data) {
-              Logger.error(err1);
-            }
-          },
-        );
+        let trainTypes = Types.filter(item =>
+          JSON.stringify(item.categories) === JSON.stringify(['trains', 'transport']));
         trainTypes = trainTypes.map(item => item.item);
 
-        // to get flight types
-        let flightTypes = await Emission.find(
-          {
-            categories: ['flights'],
-          },
-          (err1, data) => {
-            if (err1 && !data) {
-              Logger.error(err1);
-            }
-          },
-        );
+        let poultryTypes = Types.filter(item =>
+          JSON.stringify(item.categories) === JSON.stringify(['poultry']));
+
+        poultryTypes = poultryTypes.map(item => item.item);
+
+        let flightTypes = Types.filter(item =>
+          JSON.stringify(item.categories) === JSON.stringify(['flights']));
         flightTypes = flightTypes.map(item => item.item);
 
         rawData = {

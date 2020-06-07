@@ -143,7 +143,7 @@ app.use('/suggestedData', suggestedData);
 // Use v1 router for all the API requests adhering to version 1
 app.use('/v1', v1);
 // Use v2 router to access rawdata
-app.use('/v2', rawdataRoute);
+app.use('/internal', rawdataRoute);
 // Use authroute for the requests regarding user authentication
 app.use('/auth', authroute);
 
