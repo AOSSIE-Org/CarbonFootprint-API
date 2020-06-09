@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@testing-library/react": "^10.2.1",
     "auth0-js": "^9.10.4",
     "axios": "^0.18.0",
     "d3": "^5.7.0",
@@ -16,7 +17,8 @@
     "react-scripts": "3.0.1",
     "recharts": "^1.6.2",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.87.1"
+    "semantic-ui-react": "^0.87.1",
+    "xmlhttprequest": "^1.8.0"
   },
   "scripts": {
     "start": "react-scripts start",

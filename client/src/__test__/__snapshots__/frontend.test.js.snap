@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`compare snapshot of ProfilePicture component 1`] = `
+<DocumentFragment>
+  <div
+    class="ui fluid raised card"
+  >
+    <div
+      style="display: flex; justify-content: center; align-items: center; width: 100%; background: rgb(52, 152, 219); height: 110px;"
+    >
+      <div
+        style="width: 40%; padding-top: 40%; border-radius: 50%;"
+      />
+    </div>
+    <div
+      class="content"
+      style="font-size: 15px; word-wrap: break-word;"
+    >
+      <div
+        class="header"
+      >
+         
+        <div
+          style="display: inline;"
+        >
+          <i
+            aria-hidden="true"
+            class="write icon"
+            style="float: right; font-size: 15px; cursor: pointer;"
+          />
+        </div>
+      </div>
+      <div
+        class="meta"
+        style="display: inline-flex; overflow-x: hidden; width: 100%;"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`compare snapshot of Sidebar component 1`] = `
+<DocumentFragment>
+  <div
+    class="ui fluid vertical menu"
+    style="margin-bottom: 15px;"
+  >
+    <a
+      class="link item"
+      href="/profile"
+    >
+      <span
+        style="color: rgb(65, 131, 196);"
+      >
+        <i
+          aria-hidden="true"
+          class="home icon"
+        />
+         Account
+      </span>
+    </a>
+    <a
+      class="link item"
+      href="/TransportComparer"
+    >
+      <span
+        style="color: rgb(65, 131, 196);"
+      >
+        <i
+          aria-hidden="true"
+          class="train icon"
+        />
+         Transport Comparer
+      </span>
+    </a>
+    <div
+      class="item"
+    >
+      <a
+        href="http://docs.carbonhub.org"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <span>
+          <i
+            aria-hidden="true"
+            class="newspaper icon"
+          />
+           API Documentation
+        </span>
+      </a>
+    </div>
+    <div
+      class="item"
+    >
+      <a
+        href="/DataUpload"
+      >
+        <span>
+          <i
+            aria-hidden="true"
+            class="upload icon"
+          />
+           Data Upload
+        </span>
+      </a>
+    </div>
+    <div
+      class="item"
+    >
+      <a
+        href="http://localhost:3080/api/docs"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <span>
+          <i
+            aria-hidden="true"
+            class="wpforms icon"
+          />
+           Swagger Documentation
+        </span>
+      </a>
+    </div>
+    <div
+      class="item"
+    >
+      <a
+        href="/dataVerify"
+      >
+        <span>
+          <i
+            aria-hidden="true"
+            class="check circle icon"
+          />
+           Verify Data
+        </span>
+      </a>
+    </div>
+  </div>
+  )
+</DocumentFragment>
+`;

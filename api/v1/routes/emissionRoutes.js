@@ -455,6 +455,9 @@ router.post('/flight', (req, res) => {
     } else {
       // res.sendJsonError('', 400);
       return res.status(400).json({ success: false, message: 'Unable to find the airports. Please use IATA airport codes only' });
+      // }
+      // else {
+      //   return res.status(400).json({ success: false, message: 'Enter a model number or choose type between domestic/international' });
     }
   } else {
     return res.status(400).json({ success: false, message: 'Origin and destination need to be entered' });
