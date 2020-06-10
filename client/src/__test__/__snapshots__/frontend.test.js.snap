@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`compare snapshot of ProfilePicture component 1`] = `
+exports[`Snapshot tests and rendering component without crashing compare snapshot of ProfilePicture component 1`] = `
 <DocumentFragment>
   <div
     class="ui fluid raised card"
@@ -39,7 +39,7 @@ exports[`compare snapshot of ProfilePicture component 1`] = `
 </DocumentFragment>
 `;
 
-exports[`compare snapshot of Sidebar component 1`] = `
+exports[`Snapshot tests and rendering component without crashing compare snapshot of Sidebar component 1`] = `
 <DocumentFragment>
   <div
     class="ui fluid vertical menu"
