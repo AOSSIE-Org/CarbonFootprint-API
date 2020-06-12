@@ -53,7 +53,7 @@ const auth = require('./api/auth/routes/apikeyRoute');
 const individualEmission = require('./api/user/routes/dailyEmissionRoute');
 const swagger = require('./api/v1/routes/swagger');
 
-const Auth = require('./api/auth/controllers/authController');
+const Auth = require('./api/auth/services/authServices');
 
 const app = express();
 app.use(bodyParser.json()); // support json encoded bodies
