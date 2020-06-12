@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 const express = require('express');
 
 const router = express.Router();
@@ -623,7 +624,10 @@ router.post('/approveData', (req, res) => {
 });
 
 router.post('/rejectData', (req, res) => {
+<<<<<<< HEAD
   // eslint-disable-next-line max-len
+=======
+>>>>>>> restructuring of /v1 APIs
   SuggestedData.findByIdAndRemove({ _id: req.body.data_id }, { useFindAndModify: false }, (err, reject) => {
     if (err) {
       res.send(400).json(err);
