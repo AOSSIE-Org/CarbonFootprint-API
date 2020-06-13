@@ -1,24 +1,30 @@
 import React, { Component } from 'react';
-import { Grid, Input, Select, Button, Header } from 'semantic-ui-react';
+import { Grid, Input, Select, Button, Header, Dropdown, Message } from 'semantic-ui-react';
 import { flightData, trainData, vehicleData, poultryData, appliancesData } from './UtilDatafetch';
 
 export default class InputData extends Component {
-  state = {
-    value: null,
-    params: [],
-    data: {},
-    loading: false
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: null,
+      params: [],
+      data: {},
+      loading: false,
+      requiredFields: ['origin', 'destination'],
+      errorMessage: "",
+      errorActive: false
+    };
+  }
 
   setValue = (e, { value }) => {
-    this.setState({ value, params: [...paramSource[value].params] });
+    this.setState({ value, params: [...this.paramSource[value].params] });
   };
 
-  inputChange = e => {
+  inputChange = (e, comps) => {
     e.persist();
 
     this.setState(prev => {
-      prev.data[e.target.id] = e.target.value;
+      prev.data[e.target.id || comps.id] = e.target.value || e.target.textContent;
       return prev;
     });
 
@@ -41,58 +47,84 @@ export default class InputData extends Component {
       appliance,
       running_time
     } = this.state.data;
-    this.setState({ loading : true });
+    this.setState({ loading: true });
     switch (this.state.value) {
       case 0:
-        appliancesData(this.props.apikey, appliance,quantity, running_time, region).then(data => {
-            this.setState({ emissions: data.emissions });
+        appliancesData(this.props.apikey, appliance, quantity, running_time, region).then(data => {
+          if (data.success) {
+            this.setState({ emissions: data.emissions, errorMessage: "", loading: false });
             this.props.changeCalculation(this.props.index, {
               emissions: this.state.emissions.CO2
             });
           }
-        );
+          else {
+            this.setState({ emissions: undefined, errorMessage: data.message, loading: false });
+          }
+        });
         break;
       case 1:
         poultryData(this.props.apikey, type, region, quantity).then(data => {
-          this.setState({ emissions: data.emissions, loading : false });
-          this.props.changeCalculation(this.props.index, {
-            emissions: this.state.emissions.CO2
-          });
+          if (data.success) {
+            this.setState({ emissions: data.emissions, loading: false, errorMessage: "" });
+            this.props.changeCalculation(this.props.index, {
+              emissions: this.state.emissions.CO2
+            });
+          }
+          else {
+            this.setState({ emissions: undefined, errorMessage: data.message, loading: false });
+          }
         });
         break;
       case 2:
         flightData(this.props.apikey, origin, destination, type, model, passengers).then(data => {
-          this.setState({ emissions: data.emissions, loading : false });
-          this.props.changeCalculation(this.props.index, {
-            emissions: this.state.emissions.CO2
-          });
-        });
-        break;
-      case 3:
-        vehicleData(this.props.apikey, origin, destination, type, mileage).then(data => {
-            this.setState({ emissions: data.emissions });
+          console.log(data);
+          if (data.success) {
+            this.setState({ emissions: data.emissions, loading: false, errorMessage: "" });
             this.props.changeCalculation(this.props.index, {
               emissions: this.state.emissions.CO2
             });
           }
-        );
+          else {
+            this.setState({ emissions: undefined, errorMessage: data.message, loading: false });
+          }
+        });
+        break;
+      case 3:
+        vehicleData(this.props.apikey, origin, destination, type, mileage).then(
+          data => {
+            if (data.success) {
+              this.setState({ emissions: data.emissions, errorMessage: "", loading: false });
+              this.props.changeCalculation(this.props.index, {
+                emissions: this.state.emissions.CO2
+              });
+            }
+            else {
+              this.setState({ emissions: undefined, errorMessage: data.message, loading: false });
+            }
+          });
         break;
       case 4:
         trainData(this.props.apikey, origin, destination, type, passengers).then(data => {
-          this.setState({ emissions: data.emissions, loading : false });
-          this.props.changeCalculation(this.props.index, {
-            emissions: this.state.emissions.CO2
-          });
+          if (data.success) {
+            this.setState({ emissions: data.emissions, loading: false, errorMessage: "" });
+            this.props.changeCalculation(this.props.index, {
+              emissions: this.state.emissions.CO2
+            });
+          }
+          else {
+            this.setState({ emissions: undefined, errorMessage: data.message, loading: false });
+          }
         });
         break;
       default:
-        this.setState({ loading : false})
+        this.setState({ loading: false })
         console.log('no option');
         break;
     }
   };
 
   render() {
+    // console.log(this.state.errorMessage);
     const { params, loading } = this.state;
     return (
       <Grid style={{ marginLeft: '15px', width: '100%' }}>
@@ -104,7 +136,7 @@ export default class InputData extends Component {
               search
               selection
               onChange={this.setValue}
-              options={options}
+              options={this.options}
             />
           </Grid.Column>
           {this.state.emissions !== undefined && (
@@ -125,13 +157,27 @@ export default class InputData extends Component {
           <Grid doubling columns={3}>
             {params.map((comps, index) => (
               <Grid.Column key={index}>
-                <Input
-                  fluid
-                  placeholder={`${comps}`}
-                  id={comps}
-                  onChange={this.inputChange}
-                  style={{ marginTop: '-22px' }}
-                />
+                {(this.paramSource[this.state.value][comps]) ? (
+                  <Dropdown
+                    defaultOpen={true}
+                    fluid
+                    selection
+                    placeholder={`${comps}`}
+                    id={comps}
+                    onChange={(e, comps) => { this.inputChange(e, comps) }}
+                    options={this.paramSource[this.state.value][comps]}
+                    style={{ marginTop: '-22px' }}
+                  />
+                )
+                  : (<Input
+                    error={((this.state.requiredFields.includes(comps)) && !this.state.data[comps] && this.state.errorActive) ? true : false}
+                    fluid
+                    placeholder={`${comps}`}
+                    id={comps}
+                    onChange={this.inputChange}
+                    style={{ marginTop: '-22px' }}
+                  />
+                  )}
               </Grid.Column>
             ))}
             {params.length !== 0 && (
@@ -139,8 +185,8 @@ export default class InputData extends Component {
                 <Button
                   style={{ paddingRight: '10px', paddingLeft: '10px' }}
                   fluid
-                  disabled = { loading }
-                  loading = { loading }
+                  disabled={loading}
+                  loading={loading}
                   onClick={this.calculate}>
                   Calculate
                 </Button>
@@ -148,36 +194,63 @@ export default class InputData extends Component {
             )}
           </Grid>
         </Grid.Row>
+        {(this.state.errorMessage) ? (<Message color='red' >{this.state.errorMessage}</Message>) : null}
       </Grid>
     );
   }
+  paramSource = [
+    {
+      title: 'appliances',
+      params: ['appliance', 'region', 'quantity', 'runnning_time'],
+      appliance: this.props.rawdata.applianceTypes.map((i, index) => ({
+        key: index,
+        value: index,
+        text: i
+      })),
+    },
+    {
+      title: 'poultry',
+      params: ['type', 'region', 'quantity'],
+      type: this.props.rawdata.poultryTypes.map((i, index) => ({
+        key: index,
+        value: index,
+        text: i
+      })),
+    },
+    {
+      title: 'flight',
+      params: ['origin', 'destination', 'type', 'model', 'passengers'],
+      model: this.props.rawdata.flightTypes.map((i, index) => ({
+        key: index,
+        value: index,
+        text: i
+      })),
+    },
+    {
+      title: 'vehicle',
+      params: ['type', 'origin', 'destination', 'mileage'],
+      type: this.props.rawdata.vehicleTypes.map((i, index) => ({
+        key: index,
+        value: index,
+        text: i
+      })),
+    },
+    {
+      title: 'trains',
+      params: ['type', 'origin', 'destination', 'passengers'],
+      type: this.props.rawdata.trainTypes.map((i, index) => ({
+        key: index,
+        value: index,
+        text: i
+      })),
+    }
+  ];
+
+  options = this.paramSource.map((i, index) => ({
+    key: i.title,
+    value: index,
+    text: i.title.charAt(0).toUpperCase() + i.title.slice(1)
+  }));
 }
 
-const paramSource = [
-  {
-    title: 'appliances',
-    params: ['appliance','quantity', 'running_time', 'region']
-  },
-  {
-    title: 'poultry',
-    params: ['type', 'region', 'quantity']
-  },
-  {
-    title: 'flight',
-    params: ['origin', 'destination', 'type', 'model', 'passengers']
-  },
-  {
-    title: 'vehicle',
-    params: ['type', 'origin', 'destination', 'mileage']
-  },
-  {
-    title: 'trains',
-    params: ['type', 'origin', 'destination', 'passengers']
-  }
-];
 
-const options = paramSource.map((i, index) => ({
-  key: i.title,
-  value: index,
-  text: i.title.charAt(0).toUpperCase() + i.title.slice(1)
-}));

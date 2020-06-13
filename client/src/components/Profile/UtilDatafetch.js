@@ -129,3 +129,6 @@ export const getData = () =>
       Authorization: `Bearer ${localStorage.getItem("id_token")}`
     }
   }).then(res => res.json());
+
+export const getRawData = () =>
+  fetch(`${url}/internal/rawdata`, { headers: headers }).then(res => res.json());  

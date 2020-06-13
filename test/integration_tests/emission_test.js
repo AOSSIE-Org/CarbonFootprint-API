@@ -198,7 +198,7 @@ describe('API endpoint testing', () => {
         .post('/v1/vehicle')
         .set('access-key', API_TEST_KEY)
         .send({
-          type: 'Petrol',
+          type: 'fuelPetrol',
           origin: 'Bhubaneswar',
           destination: 'Cuttack',
           mileage: 50,
@@ -245,7 +245,7 @@ describe('API endpoint testing', () => {
           origin: 'DEL',
           destination: 'JFK',
           type: 'international',
-          model: 'A380',
+          model: 'airplane model A380',
           passengers: 840,
         })
         .expect('Content-type', /json/)
