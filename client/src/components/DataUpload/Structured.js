@@ -7,6 +7,7 @@ import Sidebar from '../Profile/Sidebar';
 import schemaArray from './StructuredSchema';
 import { Redirect } from 'react-router-dom';
 import { API_URL_SERVER } from '../../config/config';
+import './DataUpload.css'
 
 /* Extended react.Component class as Structured */
 
@@ -91,7 +92,7 @@ export default class Structured extends Component {
    */
     render() {
         return (
-            <Grid centered textAlign="left">
+            <Grid className="data-grid" >
                 <Grid.Row>
 
                     <Grid.Column width={3}>        
@@ -106,7 +107,7 @@ export default class Structured extends Component {
                     </Grid.Column>
 
                     <Grid.Column width={10}>
-                        <Segment style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                        <Segment className="data-segment">
                             {this.state.redirect && <Redirect to='/DataUpload' />}
                             <Form schema={schemaArray[this.state.step]}
                                 onSubmit={this.handleChange.bind(this)}

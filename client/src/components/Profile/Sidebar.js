@@ -31,7 +31,7 @@ export default class Sidebar extends Component {
   render() {
     const { activeItem,url } = this.state;
     return (
-      <Menu fluid vertical style={ styles.cardMargin }>
+      <Menu fluid vertical className="sidebar-body">
         <Menu.Item
           name="inbox"
           active={activeItem === 'inbox'}
@@ -40,7 +40,7 @@ export default class Sidebar extends Component {
           to="/profile"
           link={true}
         >
-          <span style={{ color: '#4183c4' }}>
+          <span className="sidebar-item-color">
             <Icon name="home" /> Account
           </span>
         </Menu.Item>
@@ -53,7 +53,7 @@ export default class Sidebar extends Component {
           to="/TransportComparer"
           link={true}
         >
-          <span style={{ color: '#4183c4' }}>
+          <span className="sidebar-item-color">
             <Icon name="train" /> Transport Comparer
           </span>
         </Menu.Item>

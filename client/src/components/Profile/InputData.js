@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Input, Select, Button, Header, Dropdown, Message } from 'semantic-ui-react';
 import { flightData, trainData, vehicleData, poultryData, appliancesData } from './UtilDatafetch';
+import './Profile.css';
 
 export default class InputData extends Component {
   constructor(props) {
@@ -127,7 +128,7 @@ export default class InputData extends Component {
     // console.log(this.state.errorMessage);
     const { params, loading } = this.state;
     return (
-      <Grid style={{ marginLeft: '15px', width: '100%' }}>
+      <Grid className="input-grid">
         <Grid.Row>
           <Grid.Column mobile={8} computer={7} tablet={7}>
             <Select
@@ -142,12 +143,12 @@ export default class InputData extends Component {
           {this.state.emissions !== undefined && (
             <Grid.Column
               className="counter"
-              style={{ paddingTop: '0.6rem', marginRight: '1.6rem' }}
+              className="column-emission-value"
               floated="right"
               mobile={4}
               computer={4}
               tablet={4}>
-              <Header as="h3" style={{ width: '100px' }}>
+              <Header as="h3" className="input-header">
                 {this.state.emissions.CO2.toFixed(2)} kg
               </Header>
             </Grid.Column>
@@ -181,9 +182,9 @@ export default class InputData extends Component {
               </Grid.Column>
             ))}
             {params.length !== 0 && (
-              <Grid.Column style={{ marginTop: '-22px' }}>
+              <Grid.Column className="column-calculate">
                 <Button
-                  style={{ paddingRight: '10px', paddingLeft: '10px' }}
+                  className="profile-button"
                   fluid
                   disabled={loading}
                   loading={loading}

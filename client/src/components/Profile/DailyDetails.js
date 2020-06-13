@@ -58,7 +58,7 @@ export default class DailyDetails extends Component {
     // console.log(this.state.rawdata);
     const { calculation, apikey, total, loading, rawdata } = this.state;
     return (
-      <Grid centered textAlign="center">
+      <Grid className="daily-grid">
         <Grid.Row>
           <Grid.Column mobile={16} tablet={9} computer={9}>
             <Card fluid>
@@ -66,7 +66,7 @@ export default class DailyDetails extends Component {
                 <Card.Header>Your Activity</Card.Header>
               </Card.Content>
               <Card.Content>
-                <Grid style={{ marginLeft: "15px" }} textAlign="left">
+                <Grid className="daily-grid-calculate">
                   {calculation.map((i, index) => (
                     <Grid.Row key={index}>
                       <InputData
@@ -84,7 +84,7 @@ export default class DailyDetails extends Component {
                         size="large"
                         name="add"
                         onClick={this.addValue}
-                        style={{ margin: "11px" }}
+                        className="daily-icon"
                       />
                     </Grid.Column>
                     <Grid.Column mobile={8} computer={8} tablet={8}>
@@ -94,7 +94,7 @@ export default class DailyDetails extends Component {
                         loading={loading}
                         onClick={this.submitToday}
                         floated="right"
-                        style={{ paddingRight: "10px", paddingLeft: "10px" }}
+                        className="profile-button"
                       >
                         Total {isNaN(total) ? "" : total}
                       </Button>

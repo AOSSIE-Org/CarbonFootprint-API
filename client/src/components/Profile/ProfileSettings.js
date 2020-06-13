@@ -14,6 +14,7 @@ import {
 } from 'semantic-ui-react';
 import { getKey, createKey, deleteKey } from './profileController';
 import '../../css/heatmap.css';
+import './Profile.css';
 
 
 /* Extended react.Component class as ProfileSettings */
@@ -163,7 +164,7 @@ export default class ProfileSettings extends Component {
           </Header.Content>
         </Header>
         <Divider />
-        <Grid divided textAlign="center" columns="equal">
+        <Grid divided className="profile-settings-grid" columns="equal">
           <Grid.Row>
             <Grid.Column mobile={16} tablet={5} computer={5}>
               <Statistic
@@ -205,8 +206,7 @@ export default class ProfileSettings extends Component {
             <Responsive minWidth={761}>
               <Form.Group>
                   <Input
-                    className="tempclass"
-                    style={{ marginBottom: "10px" }}
+                    className="tempclass profile-settings-input"
                     value={this.state.key ? this.state.key : "Generate an API access key"}
                     readOnly
                     />
@@ -216,7 +216,7 @@ export default class ProfileSettings extends Component {
                   primary
                   size="small"
                   onClick={this.createAccessKey}
-                  style={{ marginLeft: "10px", height: "37px" }}
+                  className="profile-settings-button"
                   >
                     CREATE API KEY
                   </Button> 
@@ -226,7 +226,7 @@ export default class ProfileSettings extends Component {
                   negative
                   size="small"
                   onClick={this.deleteAccessKey}
-                  style={{ height: "37px", marginLeft: "10px", marginBottom: "10px" }}
+                  className="profile-settings-button profile-settings-input"
                   >
                     DELETE KEY
                   </Button>
@@ -238,7 +238,7 @@ export default class ProfileSettings extends Component {
                   positive
                   size="small"
                   onClick={this.copyToClipboard}
-                  style={{ height:"37px", marginLeft: "10px" }}
+                  className="profile-settings-button"
                   >
                     COPY TO CLIPBOARD
                   </Button>
@@ -251,8 +251,7 @@ export default class ProfileSettings extends Component {
                   <Grid.Row>
                     <Grid.Column computer={10} mobile={16} tablet={6}>
                       <Form.Input
-                        className="setmargin"
-                        style={{ marginBottom: 10, marginLeft: 10 }}
+                        className="setmargin profile-settings-input-medium"
                         value={
                           this.state.key ? this.state.key : "Generate an API access key"
                         }
@@ -264,7 +263,7 @@ export default class ProfileSettings extends Component {
                         computer={3}
                         mobile={16}
                         tablet={3}
-                        style={{ marginLeft: "10px" }}
+                        className="profile-settings-column"
                       >
                         <Button className="setmargin" fluid primary size="medium" onClick={this.createAccessKey}>
                           CREATE API KEY
@@ -275,7 +274,7 @@ export default class ProfileSettings extends Component {
                         computer={3}
                         mobile={16}
                         tablet={3}
-                        style={{ marginLeft: "10px", marginBottom: "10px" }}
+                        className="profile-settings-column-delete"
                       >
                         <Button className="setmargin" fluid negative size="medium" onClick={this.deleteAccessKey}>
                           DELETE KEY
@@ -289,7 +288,7 @@ export default class ProfileSettings extends Component {
                         computer={3}
                         mobile={16}
                         tablet={3}
-                        style={{ marginLeft: "10px" }}
+                        className="profile-settings-column"
                       >
                         <Button className="setmargin" fluid positive size="medium" onClick={this.copyToClipboard}>
                           COPY TO CLIPBOARD

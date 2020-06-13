@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Form, Image, Modal, Icon, Header, Button } from 'semantic-ui-react';
+import './Profile.css'
 
 /* Options provided for the gender in edit modal */
 
@@ -133,19 +134,19 @@ export default class ProfileEdit extends Component {
   render() {
     let { profile, metaProfile, isOpen } = this.state;
     return (
-      <div style={{ display: 'inline' }}>
+      <div className="profile-edit-div1">
         <Icon
           name="write"
-          style={{ float: 'right', fontSize: '15px', cursor:'pointer' }}
+          className="profile-edit-icon"
           onClick={() => this.openModal()}
         />
         <Modal
           dimmer="blurring"
           open={isOpen}
           onClose={() => this.hideModal()}
-          style={ styles.modalStyle }>
+          className="profile-edit-modal">
           <Modal.Header>Profile</Modal.Header>
-          <Modal.Content image style={{maxHeight:'400px', overflowY: 'auto'}}>
+          <Modal.Content image className="profile-edit-modal-content">
             <Image wrapped size="small" src={profile.picture} />
             <Modal.Description>
               <Header>Edit</Header>
@@ -250,16 +251,5 @@ export default class ProfileEdit extends Component {
         </Modal>
       </div>
     );
-  }
-}
-
-const styles = {
-  modalStyle: {
-      position: 'absolute !important',
-      top:'50%',
-      left:"50%",
-      transform: 'translate(-50%, -50%)',
-      minHeight:'520px',
-      maxHeight: '550px',
   }
 }
