@@ -16,6 +16,7 @@ redisClient
   // if the connection throws an error
   .on('error', (err) => {
     Logger.error(`Redis connection failed: ${err}`);
+    throw new Error(`Redis connection failed: ${err}`);
   })
   // if the connection is connected
   .on('connect', () => Logger.info('Redis connected successfully'));

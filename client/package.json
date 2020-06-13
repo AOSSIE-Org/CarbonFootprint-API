@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@sentry/browser": "^5.17.0",
     "auth0-js": "^9.10.4",
     "axios": "^0.18.0",
     "d3": "^5.7.0",

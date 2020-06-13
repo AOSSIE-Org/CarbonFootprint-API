@@ -5,6 +5,8 @@ import ProfileSettings from './ProfileSettings';
 import Sidebar from './Sidebar';
 import DailyEmission from './DailyEmission';
 
+const Sentry = require('../../Sentry/logger')
+
 /* Extended react.Component class as Profile */
 
 export default class Profile extends Component {
@@ -44,6 +46,7 @@ export default class Profile extends Component {
           given_name: profile.given_name,
           family_name: profile.family_name
         });
+        Sentry.setUser({username: profile.nickname});
       })
       .catch(err => {
         console.log(err);

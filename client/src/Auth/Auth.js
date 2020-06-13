@@ -3,6 +3,8 @@ import auth0 from 'auth0-js';
 import { AUTH_CONFIG } from './auth0-config';
 import $ from 'jquery'
 
+const Sentry = require('../Sentry/logger');
+
 /* Auth Class */
 
 export default class Auth {
@@ -94,6 +96,7 @@ export default class Auth {
       return new Promise((resolve, reject) => {
           const accessToken = localStorage.getItem('access_token');
           if (!accessToken) {
+              Sentry.captureMessage('No access token found');
               reject(new Error('No access token found'));
           }
           resolve(accessToken);
@@ -106,6 +109,7 @@ export default class Auth {
       return new Promise((resolve, reject) => {
           const idToken = localStorage.getItem('id_token');
           if (!idToken) {
+              Sentry.captureMessage('No id token found');
               reject(new Error('No id token found'));
           }
           resolve(idToken);
@@ -128,6 +132,7 @@ export default class Auth {
                   });
               })
               .catch((err) => {
+                  Sentry.captureMessage('Error while getting profile');
                   return reject(err);
               });
       });
@@ -156,11 +161,13 @@ export default class Auth {
                           return resolve(result);
                       },
                       error: err => {
+                          Sentry.captureMessage('Error in AJAX call for gettingMetaProfile data');
                           return reject(err);
                       }
                   });
               })
               .catch(err => {
+                  Sentry.captureMessage('Error while getting meta profile data');
                   reject(err);
               });
       });
@@ -190,11 +197,13 @@ export default class Auth {
                           resolve(result);
                       },
                       error: err => {
+                          Sentry.captureMessage('Error in AJAX call for update data');
                           reject(err);
                       }
                   });
               })
               .catch(err => {
+                  Sentry.captureMessage('Error while updating data');
                   reject(err);
               });
       });
