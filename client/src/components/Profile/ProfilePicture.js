@@ -26,7 +26,7 @@ export default class ProfilePicture extends Component {
    *   react component
    */
 
-  componentWillReceiveProps(nextProps){
+  componentDidUpdate(nextProps){
     if(nextProps.nickname !== this.state.nickname){
       this.setState({nickname:nextProps.nickname});
     }

@@ -42,8 +42,11 @@ rect.day-cell:hover {
   .setmargin {
     margin-left: 10px !important;
   }
-  .screenhide {
+  /* .screenhide {
     display: none;
+  } */
+  .calendar-heatmap{
+    padding: 36px 0 !important;
   }
 }
 

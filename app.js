@@ -21,13 +21,12 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
+// Setting them universally rather than having to add them at every instance of .connect()
+mongoose.set('useNewUrlParser', true);
+mongoose.set('useUnifiedTopology', true);
 // connect to the database
 mongoose.connect(
-  `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}/${process.env.DB_NAME}`,
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  },
+  `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}/${process.env.DB_NAME}`
 );
 
 // When successfully connected
@@ -48,6 +47,7 @@ mongoose.connection.on('disconnected', () => {
 // get different routes required
 const index = require('./routes/index');
 const emissions = require('./api/v1/routes/emissionRoutes');
+const rawData = require('./api/v1/routes/rawData');
 const suggestedData = require('./routes/suggestedData');
 const auth = require('./api/auth/routes/apikeyRoute');
 const individualEmission = require('./api/user/routes/dailyEmissionRoute');
@@ -119,6 +119,10 @@ const v1 = express.Router();
 v1.use(Auth.verifyApiKey);
 v1.use('/', emissions);
 
+// routes for accessing rawdata
+const rawdataRoute = express.Router();
+rawdataRoute.use('/', rawData);
+
 // route for documentation
 app.use('/api/docs', swagger);
 
@@ -137,7 +141,8 @@ app.use('/suggestedData', suggestedData);
 
 // Use v1 router for all the API requests adhering to version 1
 app.use('/v1', v1);
-
+// Use v2 router to access rawdata
+app.use('/internal', rawdataRoute);
 // Use authroute for the requests regarding user authentication
 app.use('/auth', authroute);
 

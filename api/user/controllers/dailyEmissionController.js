@@ -23,6 +23,7 @@ const createLog = async (email, quantity, date) => {
     },
     {
       new: true,
+      useFindAndModify: false,
     },
   ).then(data => {
     if (data === null) {
