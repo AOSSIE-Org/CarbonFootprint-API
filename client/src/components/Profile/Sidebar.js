@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { Icon, Menu } from 'semantic-ui-react';
 import {Link} from 'react-router-dom';
-import { API_URL_SERVER } from '../../config/config';
-import './Profile.css'
+import { UI_URL } from '../../config/config';
 
 /* Extended react.Component class as Sidebar */
 
@@ -15,7 +14,7 @@ export default class Sidebar extends Component {
 
   constructor() {
     super();
-    this.state = { activeItem: '',url : `${API_URL_SERVER}/api/docs` };
+    this.state = { activeItem: '',url : `${UI_URL}/api/docs` };
     this.handleItemClick = this.handleItemClick.bind(this);
   }
 
@@ -105,5 +104,11 @@ export default class Sidebar extends Component {
 
       </Menu>
     );
+  }
+}
+
+const styles = {
+  cardMargin: {
+    marginBottom: "15px"
   }
 }
