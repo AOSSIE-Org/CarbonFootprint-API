@@ -3,7 +3,7 @@
 const Logger = require('@framework/Logger');
 // eslint-disable-next-line import/no-unresolved
 const redis = require('@framework/redis');
-const Emission = require('../models/emissionModel');
+const Emission = require('../../models/emissionModel');
 // import Redis client
 const { redisClient } = redis;
 

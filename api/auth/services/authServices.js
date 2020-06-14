@@ -4,7 +4,7 @@ const redis = require('../../../framework/redis');
 // import Redis client
 const { redisClient } = redis;
 // import user model
-const User = require('../models/userModel');
+const User = require('../../models/userModel');
 
 // Generate a api key using random and the provided email.
 const generateApiKey = email => {

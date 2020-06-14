@@ -47,7 +47,7 @@ mongoose.connection.on('error', err => {
 mongoose.connection.on('disconnected', () => {
   Logger.info('Database disconnected');
 });
-const Emission = require('../models/emissionModel.js');
+const Emission = require('../../models/emissionModel.js');
 
 const dist = [
   125,

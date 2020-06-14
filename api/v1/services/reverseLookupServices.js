@@ -1,5 +1,5 @@
 /* eslint-disable no-loop-func */
-const Emission = require('../models/emissionModel');
+const Emission = require('../../models/emissionModel');
 // get the helper functions
 const Helper = require('../controllers/helperFunctions');
 

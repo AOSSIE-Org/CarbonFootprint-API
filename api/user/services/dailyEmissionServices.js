@@ -1,6 +1,6 @@
 // eslint-disable-next-line import/no-unresolved
 const redis = require('@framework/redis');
-const DailyEmission = require('../models/DailyEmission');
+const DailyEmission = require('../../models/DailyEmission');
 
 const { redisClient } = redis;
 

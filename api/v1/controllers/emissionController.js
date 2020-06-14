@@ -61,7 +61,7 @@ exports.flight = (req, res) => {
     // eslint-disable-next-line max-len
     //   return res.status(400).json({ success: false, message: 'Enter a model number or choose type between domestic/international' };
     // }
-    calculate(`airplane model ${model}`, 'Default', dis, passengers)
+    calculate(model, 'Default', dis, passengers)
       .then(emissions => {
         Logger.info(`\nTotal Emissions: ${emissions}`);
         res.status(200).json({
@@ -131,7 +131,7 @@ exports.vehicle = (req, res) => {
         Logger.debug(`CalculatedDistance: ${val}`);
         const fuelConsumed = val / mileage;
         Logger.debug(`Fuel consumerd: ${fuelConsumed}`);
-        calculate(`fuel${type}`, 'Default', fuelConsumed)
+        calculate(type, 'Default', fuelConsumed)
           .then(emissions => {
             Logger.info(`Emissions: ${JSON.stringify(emissions, null, 4)}`);
             res.status(200).json({
