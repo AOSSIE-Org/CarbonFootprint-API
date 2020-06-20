@@ -13,7 +13,7 @@ const Logger = new winston.Logger({
     new winston.transports.File({ level: 'debug', filename: 'dev.log' }),
     new Sentry({
       level: 'error',
-      dsn: ''
+      dsn: `${process.env.SENTRY_DSN}`
   })
   ],
 });

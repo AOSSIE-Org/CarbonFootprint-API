@@ -2,8 +2,7 @@ import history from '../history';
 import auth0 from 'auth0-js';
 import { AUTH_CONFIG } from './auth0-config';
 import $ from 'jquery'
-
-const Sentry = require('../Sentry/logger');
+import { sendMessage, sendMessageExtra } from '../Sentry/logger';
 
 /* Auth Class */
 
@@ -48,7 +47,7 @@ export default class Auth {
         history.replace('/profile');
       } else if (err) {
         history.replace('/profile');
-        console.log(err);
+        sendMessageExtra('Error in authentication',err.error);
         alert(`Error: ${err.error}. Check the console for further details.`);
       }
     });
@@ -96,7 +95,7 @@ export default class Auth {
       return new Promise((resolve, reject) => {
           const accessToken = localStorage.getItem('access_token');
           if (!accessToken) {
-              Sentry.captureMessage('No access token found');
+              sendMessage('No access token found');
               reject(new Error('No access token found'));
           }
           resolve(accessToken);
@@ -109,7 +108,7 @@ export default class Auth {
       return new Promise((resolve, reject) => {
           const idToken = localStorage.getItem('id_token');
           if (!idToken) {
-              Sentry.captureMessage('No id token found');
+              sendMessage('No id token found');
               reject(new Error('No id token found'));
           }
           resolve(idToken);
@@ -132,7 +131,7 @@ export default class Auth {
                   });
               })
               .catch((err) => {
-                  Sentry.captureMessage('Error while getting profile');
+                  sendMessageExtra('Error while getting profile',err);
                   return reject(err);
               });
       });
@@ -161,13 +160,13 @@ export default class Auth {
                           return resolve(result);
                       },
                       error: err => {
-                          Sentry.captureMessage('Error in AJAX call for gettingMetaProfile data');
+                          sendMessageExtra('Error in AJAX call for getting MetaProfileData',err);
                           return reject(err);
                       }
                   });
               })
               .catch(err => {
-                  Sentry.captureMessage('Error while getting meta profile data');
+                  sendMessageExtra('Error while getting meta profile data',err);
                   reject(err);
               });
       });
@@ -197,13 +196,13 @@ export default class Auth {
                           resolve(result);
                       },
                       error: err => {
-                          Sentry.captureMessage('Error in AJAX call for update data');
+                          sendMessageExtra('Error in AJAX call for update data',err);
                           reject(err);
                       }
                   });
               })
               .catch(err => {
-                  Sentry.captureMessage('Error while updating data');
+                  sendMessageExtra('Error while updating data',err);
                   reject(err);
               });
       });
