@@ -1,14 +1,16 @@
 import React, { Component } from "react";
 import { Card, Grid, Icon, Button } from "semantic-ui-react";
 import InputData from "./InputData";
-import { getKey, submitData } from "./UtilDatafetch";
+import { getKey, submitData, getRawData } from "./UtilDatafetch";
+import { raw } from "body-parser";
 
 export default class DailyDetails extends Component {
   state = {
     calculation: [],
     apikey: "",
     total: null,
-    loading: false
+    loading: false,
+    rawdata: ""
   };
 
   addValue = () => {
@@ -20,8 +22,11 @@ export default class DailyDetails extends Component {
     });
   };
 
-  componentDidMount() {
-    getKey().then(apikey => this.setState({ apikey }));
+  async componentDidMount() {
+    const apikey = await getKey();
+    this.setState({ apikey: apikey });
+    const rawdata = await getRawData();
+    this.setState({ rawdata: rawdata });
   }
 
   changeCalculation = (index, value) => {
@@ -53,9 +58,10 @@ export default class DailyDetails extends Component {
   };
 
   render() {
-    const { calculation, apikey, total, loading } = this.state;
+    // console.log(this.state.rawdata);
+    const { calculation, apikey, total, loading, rawdata } = this.state;
     return (
-      <Grid centered textAlign="center">
+      <Grid className="daily-grid">
         <Grid.Row>
           <Grid.Column mobile={16} tablet={9} computer={9}>
             <Card fluid>
@@ -63,10 +69,11 @@ export default class DailyDetails extends Component {
                 <Card.Header>Your Activity</Card.Header>
               </Card.Content>
               <Card.Content>
-                <Grid style={{ marginLeft: "15px" }} textAlign="left">
+                <Grid className="daily-grid-calculate">
                   {calculation.map((i, index) => (
                     <Grid.Row key={index}>
                       <InputData
+                        rawdata={rawdata}
                         apikey={apikey}
                         index={index}
                         changeCalculation={this.changeCalculation}
@@ -80,7 +87,7 @@ export default class DailyDetails extends Component {
                         size="large"
                         name="add"
                         onClick={this.addValue}
-                        style={{ margin: "11px" }}
+                        className="daily-icon"
                       />
                     </Grid.Column>
                     <Grid.Column mobile={8} computer={8} tablet={8}>
@@ -90,7 +97,7 @@ export default class DailyDetails extends Component {
                         loading={loading}
                         onClick={this.submitToday}
                         floated="right"
-                        style={{ paddingRight: "10px", paddingLeft: "10px" }}
+                        className="profile-button"
                       >
                         Total {isNaN(total) ? "" : total}
                       </Button>

@@ -1,0 +1,48 @@
+.transport-container {
+    margin-left: 15px;
+}
+.ui.header.transport-heading {
+    color: #626364;
+}
+.transport-column {
+    min-width: 160px;
+}
+.ui.form.transport-form {
+    margin-left: 18px;
+}
+.transport-form>.fields.transport-formGroup {
+    flex-direction: column ;
+}
+.transport-labelContainer {
+    display: flex !important;
+    align-items: center;
+}
+.transport-required {
+    color: #dc3545;
+}
+.transport-inputItem {
+    margin: 4px !important;
+}
+.transport-loadingContainer {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.transport-loading {
+    font-size: 24px;
+}
+.transport-barChartContainer {
+    display: flex;
+    cursor: default !important;
+    width: 100% !important;
+    height: 80vh !important;
+    background: #fff;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGElEQVQYV2NkYGCQYmBgeMYABYwwBvECAD1WAQVZi1QaAAAAAElFTkSuQmCC);
+    background-repeat: repeat;
+    background-size: 7px;
+    margin-top: 16px;
+    box-shadow: 1px 1px 5px #bbb;
+    position: relative !important;
+}

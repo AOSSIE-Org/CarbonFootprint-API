@@ -15,6 +15,7 @@ import {
   Legend,
   Label
 } from 'recharts';
+import './TransportComparer.css';
 
 // Remove this sampleData once the API's response is wired up
 const sampleData = [
@@ -85,20 +86,20 @@ export default class TransportComparer extends Component {
             <Grid.Row>
               <Grid.Column
                 width={1}
-                style={{...styles.column, ...styles.labelContainer}}
+                className="transport-column transport-labelContainer"
               >
                 <label>
                   {item.key}
-                  {item.isRequired && <sup style={styles.required}>*</sup>}
+                  {item.isRequired && <sup className="transport-required">*</sup>}
                 </label>
               </Grid.Column>
               <Grid.Column
                 width={3}
-                style={styles.column}
+                className="transport-column"
               >
                 <input
                   placeholder={item.key}
-                  style={styles.inputItem}
+                  className="transport-inputItem"
                   value={this.state[item.key.toLowerCase()] || ''}
                   onChange={this.handleChange.bind(this, item.key.toLowerCase())}
                 />
@@ -139,14 +140,14 @@ export default class TransportComparer extends Component {
     const { barChartWidth, barChartHeight } = this.getBarChartRects();
 
     return (
-      <div style={styles.container} >
-        <Header style={styles.heading} as='h4'>
+      <div className="transport-container">
+        <Header className="transport-heading" as='h4'>
           <Header.Content>
             Transport Comparer
           </Header.Content>
         </Header>
-        <Form style={styles.form}>
-          <Form.Group style={styles.formGroup}>
+        <Form className="transport-form">
+          <Form.Group className="transport-formGroup">
             {this.renderFormItems()}
           </Form.Group>
         </Form>
@@ -155,14 +156,14 @@ export default class TransportComparer extends Component {
         </Button>
         {
           this.state.isLoading &&
-            <div style={styles.loadingContainer}>
-              <div style={styles.loading}>Loading...</div>
+            <div className="transport-loadingContainer">
+              <div className="transport-loading">Loading...</div>
             </div>
         }
         {
           this.state.isGraphAvailable &&
             <BarChart
-              style={styles.barChartContainer}
+              className="transport-barChartContainer"
               layout='vertical'
               width={barChartWidth}
               height={barChartHeight}

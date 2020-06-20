@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
-import { Button, Grid, Segment, List, Form } from 'semantic-ui-react';
+import { Button, Grid, Segment, List } from 'semantic-ui-react';
 import { API_URL_SERVER } from '../../config/config';
+import './DataUpload.css'
 
 /* Extended react.Component class as DataVerify */
 
@@ -77,7 +78,7 @@ export default class DataVerify extends Component {
         const { data } = this.state;
     
         return (
-            <Grid centered textAlign="left">
+            <Grid className="verify-grid" >
                 <Grid.Row>
 
                 <Grid.Column mobile={16} tablet={3} computer={3}>
@@ -92,7 +93,7 @@ export default class DataVerify extends Component {
                     </Grid.Column>
 
                     <Grid.Column mobile={16} tablet={10} computer={10}>
-                        <Segment style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                        <Segment className="data-segment">
                             <List>
                                 {data.length ? data.map(d =>
                                     <List.Item key={d._id}>
@@ -102,12 +103,12 @@ export default class DataVerify extends Component {
                                             <br />
                                             <List.Header>Route - {d.title}</List.Header>
                                             <br />
-                                            <table style={styles.table} >
+                                            <table>
                                                 <tbody>
                                                     {Object.keys(d.data).map(key => (
                                                         <tr key={key}>
-                                                            <td style={styles.td} >{key}</td>
-                                                            <td style={{ paddingLeft: 0 }} >{d.data[key]}</td>
+                                                            <td className="verify-td-key" >{key}</td>
+                                                            <td className="verify-td-data" >{d.data[key]}</td>
                                                         </tr>
                                                     ))}
                                                 </tbody>
@@ -115,8 +116,8 @@ export default class DataVerify extends Component {
                                         </List.Content>
                                         <br />
                                         <List.Content >
-                                            <Button style={{ backgroundColor: 'green' }} onClick={() => this.handleApprove(d._id)} >Approve</Button>
-                                            <Button style={{ backgroundColor: 'red' }} onClick={() => this.handleReject(d._id)} >Reject</Button>
+                                            <Button className="verify-approve" onClick={() => this.handleApprove(d._id)} >Approve</Button>
+                                            <Button className="verify-reject" onClick={() => this.handleReject(d._id)} >Reject</Button>
                                         </List.Content>
                                     </List.Item>
                                 ) :

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Icon, Menu } from 'semantic-ui-react';
 import {Link} from 'react-router-dom';
-import { API_URL_SERVER } from '../../config/config';
+import { UI_URL } from '../../config/config';
 
 /* Extended react.Component class as Sidebar */
 
@@ -14,7 +14,7 @@ export default class Sidebar extends Component {
 
   constructor() {
     super();
-    this.state = { activeItem: '',url : `${API_URL_SERVER}/api/docs` };
+    this.state = { activeItem: '',url : `${UI_URL}/api/docs` };
     this.handleItemClick = this.handleItemClick.bind(this);
   }
 
@@ -31,7 +31,7 @@ export default class Sidebar extends Component {
   render() {
     const { activeItem,url } = this.state;
     return (
-      <Menu fluid vertical style={ styles.cardMargin }>
+      <Menu fluid vertical className="sidebar-body">
         <Menu.Item
           name="inbox"
           active={activeItem === 'inbox'}
@@ -40,7 +40,7 @@ export default class Sidebar extends Component {
           to="/profile"
           link={true}
         >
-          <span style={{ color: '#4183c4' }}>
+          <span className="sidebar-item-color">
             <Icon name="home" /> Account
           </span>
         </Menu.Item>
@@ -53,7 +53,7 @@ export default class Sidebar extends Component {
           to="/TransportComparer"
           link={true}
         >
-          <span style={{ color: '#4183c4' }}>
+          <span className="sidebar-item-color">
             <Icon name="train" /> Transport Comparer
           </span>
         </Menu.Item>

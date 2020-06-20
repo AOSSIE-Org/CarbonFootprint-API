@@ -1,189 +1,335 @@
-/* eslint-disable no-await-in-loop */
-const spline = require('cubic-spline');
+/* eslint-disable consistent-return */
 // eslint-disable-next-line import/no-unresolved
 const Logger = require('@framework/Logger');
 // eslint-disable-next-line import/no-unresolved
-const redis = require('@framework/redis');
-const Emission = require('../models/emissionModel');
-// import Redis client
-const { redisClient } = redis;
+const airports = require('@raw_data/airports.json');
+const { calculate } = require('../services/emissionServices');
+// get the helper functions
+const { getDistanceFromLatLon, distance } = require('./helperFunctions');
 
-// eslint-disable-next-line consistent-return
-const interpolate = (l1, l2, d) => {
-  for (let x = 0; x < l1.length; x++) {
-    if (d >= l1[x] && d < l1[x + 1] && x < l1.length - 1) {
-      return spline(d, l1, l2);
-    }
-    if (d >= l1[l1.length - 1]) {
-      const slope = Math.abs(
-        (l2[l2.length - 1] - l2[l2.length - 2]) / (l1[l1.length - 1] - l1[l1.length - 2]),
-      );
-      return l2[l2.length - 1] + slope * (d - l1[l1.length - 1]);
-    }
-    if (d <= l1[0]) {
-      const slope = Math.abs((l2[1] - l2[0]) / (l1[1] - l1[0]));
-      return slope * d;
-    }
-  }
-};
-
-/*
- * A function to calculate the emissions of a component.
- * Refer to the Emission schema for more information on the components.
- */
-const find = (component, region, quantity) => {
-  const emissions = {
-    CO2: 0,
-    CH4: 0,
-    N2O: 0,
-  }; // emissions accumulator
-  return new Promise((resolve, reject) => {
-    // eslint-disable-next-line prefer-promise-reject-errors
-    if (quantity < 0) reject('quantity cannot be negative');
-
-    // find component in redis
-    redisClient.hget('emissions', `${component}[${region}]`, (err, result) => {
-      if (err || !result) {
-        // find the component in the database
-        Emission.findOne(
-          {
-            $or: [
-              {
-                item: new RegExp(`^${component}$`, 'i'),
-                region: new RegExp(`^${region}$`, 'i'),
-              },
-              // find the default values if a particular region is not found
-              {
-                item: new RegExp(`^${component}$`, 'i'),
-                region: 'Default',
-              },
-            ],
-          },
-          (err1, item) => {
-            // if component is found
-            if (!err1 && item) {
-              // eslint-disable-next-line no-use-before-define
-              processEmission(emissions, component, region, quantity, item)
-                .then(result2 => {
-                  resolve(result2);
-                })
-                .catch(err2 => {
-                  Logger.error(`Error: ${err2}`);
-                });
-              redisClient.hset(
-                'emissions',
-                `${component}[${region}]`,
-                JSON.stringify(item.toObject()),
-              );
-            } else {
-              // return an error if component is not found
-              // eslint-disable-next-line prefer-promise-reject-errors
-              reject(`Unable to find component ${component} for ${region}`);
-            }
-          },
-        );
+exports.emissions = (req, res) => {
+  const itemName = req.body.item;
+  const region = req.body.region || 'Default';
+  const quantity = req.body.quantity || 1;
+  const multiply = req.body.multiply || 1;
+  calculate(itemName, region, quantity, multiply)
+    .then(emissions => {
+      Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
+      if (emissions.CO2 < 0) {
+        res.status(200).json({
+          success: true,
+          emissions,
+          unit: 'kg',
+          note: 'A negative number for emissions signifies that the item absorbs CO2.',
+        });
       } else {
-        // eslint-disable-next-line no-use-before-define
-        processEmission(emissions, component, region, quantity, JSON.parse(result))
-          .then(result2 => {
-            resolve(result2);
-          })
-          .catch(err2 => {
-            Logger.error(`Error: ${err2}`);
-          });
+        res.status(200).json({
+          success: true,
+          emissions,
+          unit: 'kg',
+        });
       }
+    })
+    .catch(err => {
+      res.sendJsonError(err, 400);
     });
-  });
 };
 
-/*
- * A helper function to process the emissions of a component.
- */
-const processEmission = (emissions, component, region, quantity, item) => {
-  Logger.info(`Item name: ${item.item} :: Region: ${item.region}`);
-  return new Promise((resolve, reject) => {
-    // if component type is atomic return it's emissions
-    if (
-      item.components[0].name === 'CO2'
-      || item.components[0].name === 'CH4'
-      || item.components[0].name === 'N2O'
-    ) {
-      item.components.forEach(comp => {
-        // eslint-disable-next-line no-prototype-builtins
-        if (emissions.hasOwnProperty(comp.name)) {
-          emissions[comp.name] += quantity * comp.quantity[0];
-          Logger.info(`Emissions ${comp.name}: ${emissions[comp.name]} kg`);
-        }
+exports.flight = (req, res) => {
+  const type = req.body.type || 'international';
+  let { model } = req.body;
+  const { origin } = req.body;
+  const { destination } = req.body;
+  const passengers = req.body.passengers || 1;
+  if (passengers < 0) {
+    return res.status(400).json({ success: false, message: 'Passengers should not be negative' });
+  }
+  if (airports[origin] && airports[destination]) {
+    const orig = airports[origin];
+    const dest = airports[destination];
+    let dis = getDistanceFromLatLon(orig.lat, orig.lon, dest.lat, dest.lon);
+    dis *= 0.539957; // convert distance in km to nautical miles
+    if (!model) {
+      if (type === 'international') {
+        model = 'A380';
+      }
+      if (type === 'domestic') {
+        model = 'A320';
+      }
+    }
+    calculate(model, 'Default', dis, passengers)
+      .then(emissions => {
+        Logger.info(`\nTotal Emissions: ${emissions}`);
+        res.status(200).json({
+          success: true,
+          emissions,
+          unit: 'kg',
+        });
+      })
+      .catch(err => {
+        Logger.error(`Error: ${err}`);
+        return res.status(404).json({ success: false, message: `Unable to find emissions for airplane model ${model}` });
       });
-      [emissions.type] = item.categories;
-      resolve(emissions);
-    } else {
-      // if component type is complex, recurse to find its atomic components
-      const numOfComponents = item.components.length; // number of subcomponents
-      // eslint-disable-next-line func-names
-      (async function () {
-        for (let i = 0; i < numOfComponents; i++) {
-          if (item.components[i].quantity.length > 1) {
-            const getInterpolatedQuantity = await interpolate(
-              item.quantity,
-              item.components[i].quantity,
-              quantity,
-            );
-            Logger.info(`Interpolated value = ${getInterpolatedQuantity}`);
-            await find(item.components[i].name, region, getInterpolatedQuantity)
-              .then(emis => {
-                // eslint-disable-next-line no-restricted-syntax, guard-for-in
-                for (const j in emis) {
-                  emissions[j] += emis[j];
-                }
-              })
-              .catch(err => reject(err));
-          } else {
-            await find(item.components[i].name, region, item.components[i].quantity[0])
-              .then(emis => {
-                // eslint-disable-next-line no-restricted-syntax, guard-for-in
-                for (const j in emis) {
-                  emissions[j] += emis[j];
-                }
-              })
-              .catch(err => reject(err));
-          }
-        }
-      }())
-        .then(() => {
-          if (item.calculationMethod === 'interpolation') {
-            resolve(emissions);
-          } else {
-            // eslint-disable-next-line guard-for-in, no-restricted-syntax
-            for (const i in emissions) {
-              emissions[i] *= quantity;
-            }
-
-            resolve(emissions);
-          }
-        })
-        .catch(err => reject(err));
-    }
-  });
+  } else {
+    res.sendJsonError('', 400);
+    return res.status(400).json({ success: false, message: 'Unable to find the airports. Please use IATA airport codes only' });
+  }
 };
 
-exports.calculate = async (itemName, region, quantity, multiply = 1, type = '') => {
-  const emissions = await find(itemName, region, quantity);
-  // round up the emission value upto 10 decimal points
-  if (type && emissions.type !== type) {
-    return new Promise((resolve, reject) => {
-      // eslint-disable-next-line prefer-promise-reject-errors
-      reject(`Unable to find component ${itemName} for ${region}`);
-    });
+exports.trains = (req, res) => {
+  const type = req.body.type || 'railcars';
+  const { origin } = req.body;
+  const { destination } = req.body;
+  const passengers = req.body.passengers || 1;
+  if (passengers < 0) {
+    return res.status(400).json({ success: false, message: 'Passengers should not be negative' });
   }
-  // eslint-disable-next-line no-restricted-syntax, guard-for-in
-  for (const i in emissions) {
-    emissions[i] = parseFloat((emissions[i] * multiply).toFixed(10));
-    // remove CH4 or N2O key if emissions are zero
-    if (!emissions[i] && i !== 'CO2') {
-      delete emissions[i];
-    }
+  if (origin && destination) {
+    distance(origin, destination, 'transit')
+      .then(val => {
+        Logger.debug(`CalculatedDistance: ${val}`);
+        Logger.debug(`CalculatedPassengers: ${passengers}`);
+        calculate(type, 'Default', val, passengers)
+          .then(emissions => {
+            Logger.info(`Emissions: ${JSON.stringify(emissions, null, 4)}`);
+            res.status(200).json({
+              success: true,
+              emissions,
+              unit: 'kg',
+            });
+          })
+          .catch(err => {
+            Logger.error(`Error: ${err}`);
+            return res.status(404).json({ success: false, message: `Unable to find emissions for fuel type ${type}` });
+          });
+      })
+      .catch(err => {
+        Logger.error(`Error: ${err}`);
+        return res.status(404).json({ success: false, message: `${err}` });
+      });
+  } else {
+    return res.status(400).json({ success: false, message: 'Origin and destination need to be entered' });
   }
+};
 
-  return emissions;
+exports.vehicle = (req, res) => {
+  const type = req.body.type || 'Diesel';
+  const { origin } = req.body;
+  const { destination } = req.body;
+  const mileage = parseFloat(req.body.mileage) || 20;
+  const passengers = parseFloat(req.body.passengers) || 20;
+  if (passengers < 0) {
+    return res.status(400).json({ success: false, message: 'Passengers should not be negative' });
+  }
+  if (origin && destination) {
+    distance(origin, destination, 'driving')
+      .then(val => {
+        Logger.debug(`CalculatedDistance: ${val}`);
+        const fuelConsumed = val / mileage;
+        Logger.debug(`Fuel consumerd: ${fuelConsumed}`);
+        calculate(type, 'Default', fuelConsumed)
+          .then(emissions => {
+            Logger.info(`Emissions: ${JSON.stringify(emissions, null, 4)}`);
+            res.status(200).json({
+              success: true,
+              emissions,
+              unit: 'kg',
+            });
+          })
+          .catch(err => {
+            Logger.error(`Error: ${err}`);
+            return res.status(404).json({ success: false, message: `Unable to find emissions for fuel type ${type}` });
+          });
+      })
+      .catch(err => {
+        Logger.error(`Error: ${err}`);
+        return res.status(400).json({ success: false, message: err });
+      });
+  } else {
+    return res.status(400).json({ success: false, message: 'Origin and destination need to be entered' });
+  }
+};
+
+exports.poultry = (req, res) => {
+  const { type } = req.body;
+  const region = req.body.region || 'Default';
+  const quantity = req.body.quantity || 1;
+  if (quantity < 0) {
+    return res.status(400).json({ success: false, message: 'Quantity should not be negative' });
+  }
+  if (type) {
+    calculate(type, region, quantity, 1)
+      .then(emissions => {
+        Logger.debug(`Emissions: ${emissions}`);
+        res.status(200).json({
+          success: true,
+          emissions,
+          unit: 'kg',
+        });
+      })
+      .catch(err => {
+        Logger.error(`Error: ${err}`);
+        return res.status(400).json({ success: false, message: `We cannot provide carbon footprints for this combination of ${type} in ${region} of mass ${quantity} kg` });
+      });
+  } else {
+    return res.status(400).json({ success: false, message: 'Please enter a type of meat' });
+  }
+};
+
+exports.appliances = (req, res) => {
+  const { appliance } = req.body;
+  const quantity = req.body.quantity || 1;
+  const runningTime = req.body.running_time || 1;
+  const region = req.body.region || 'Default';
+  if (runningTime < 0 || quantity < 0) {
+    return res.status(400).json({ success: false, message: 'Quantity and running time should not be negative' });
+  }
+  calculate(`${appliance}`, region, quantity, runningTime)
+    .then(emissions => {
+      Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
+      res.status(200).json({
+        success: true,
+        emissions,
+        unit: 'kg',
+      });
+    })
+    .catch(err => {
+      Logger.error(`Error: ${err}`);
+      return res.status(400).json({ success: false, message: `${err}` });
+    });
+};
+
+exports.quantity = (req, res) => {
+  const itemName = req.body.item;
+  const region = req.body.region || 'Default';
+  const emission = req.body.emission || 1;
+  calculate(itemName, region, 1, 1)
+    .then(emissions => {
+      Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
+      if (emissions.CO2) {
+        const quantity = Math.abs(emission / emissions.CO2);
+        res.status(200).json({
+          success: true,
+          quantity,
+          note: `This is a estimate for the quantity of ${itemName} that could be the cause of the emission provided.`,
+        });
+      } else {
+        res.sendJsonError(`Unable to find quantity for item type ${itemName}`, 400);
+      }
+    })
+    .catch(err => {
+      Logger.error(`Error: ${err}`);
+      res.sendJsonError(`Unable to find quantity for item type ${itemName}`, 400);
+    });
+};
+
+exports.agriculture = (req, res) => {
+  const itemName = req.body.item;
+  const { region } = req.body;
+  if (itemName && region) {
+    calculate(itemName, region, 1, 1, 'agriculture')
+      .then(emissions => {
+        Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
+        if (emissions.CO2) {
+          res.status(200).json({
+            success: true,
+            quantity: emissions.CO2,
+            unit: 'gigagrams',
+            note: `This is a estimate for the quantity of ${itemName} that could be the cause of the emission provided.`,
+          });
+        } else {
+          res.sendJsonError(`Unable to find emissions for sector ${itemName} in ${region}`, 400);
+        }
+      })
+      .catch(err => {
+        Logger.error(`Error: ${err}`);
+        res.sendJsonError(
+          `Unable to find agriculture emissions for item type ${itemName} in ${region}`,
+          400,
+        );
+      });
+  } else res.sendJsonError('Please provide valid item and region values', 400);
+};
+
+exports.food = (req, res) => {
+  const itemName = req.body.item;
+  const { region } = req.body;
+  if (itemName && region) {
+    calculate(itemName, region, 1, 1, 'food')
+      .then(emissions => {
+        Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
+        if (emissions.CO2) {
+          res.status(200).json({
+            success: true,
+            quantity: emissions.CO2,
+            unit: 'gigagrams',
+            note: `This is a estimate for the quantity of ${itemName} that could be the cause of the emission provided.`,
+          });
+        } else {
+          res.sendJsonError(`Unable to find emissions for sector ${itemName} in ${region}`, 400);
+        }
+      })
+      .catch(err => {
+        Logger.error(`Error: ${err}`);
+        res.sendJsonError(
+          `Unable to find food emissions for item type ${itemName} in ${region}`,
+          400,
+        );
+      });
+  } else res.sendJsonError('Please provide valid item and region values', 400);
+};
+
+exports.land = (req, res) => {
+  const itemName = req.body.item;
+  const { region } = req.body;
+  if (itemName && region) {
+    calculate(itemName, region, 1, 1, 'land')
+      .then(emissions => {
+        Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
+        if (emissions.CO2) {
+          res.status(200).json({
+            success: true,
+            quantity: emissions.CO2,
+            unit: 'gigagrams',
+            note: `This is a estimate for the quantity of ${itemName} that could be the cause of the emission provided.`,
+          });
+        } else {
+          res.sendJsonError(`Unable to find emissions for sector ${itemName} in ${region}`, 400);
+        }
+      })
+      .catch(err => {
+        Logger.error(`Error: ${err}`);
+        res.sendJsonError(
+          `Unable to find land emissions for item type ${itemName} in ${region}`,
+          400,
+        );
+      });
+  } else res.sendJsonError('Please provide valid item and region values', 400);
+};
+
+exports.sector = (req, res) => {
+  const { sector } = req.body;
+  const { region } = req.body;
+  if (sector && region) {
+    calculate(sector, region, 1, 1, 'sector')
+      .then(emissions => {
+        Logger.info(`\nTotal Emissions: ${emissions.CO2}`);
+        if (emissions.CO2) {
+          res.status(200).json({
+            success: true,
+            quantity: emissions.CO2,
+            unit: 'gigagrams',
+            note: `This is a estimate for the quantity of ${sector} that could be the cause of the emission provided.`,
+          });
+        } else {
+          res.sendJsonError(`Unable to find emissions for sector ${sector} in ${region}`, 400);
+        }
+      })
+      .catch(err => {
+        Logger.error(`Error: ${err}`);
+        res.sendJsonError(`Unable to find emissions for ${sector} in ${region}`, 400);
+      });
+  } else {
+    res.sendJsonError('Please provide valid sector and region values', 400);
+  }
 };

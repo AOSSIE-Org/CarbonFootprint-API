@@ -47,7 +47,7 @@ mongoose.connection.on('disconnected', () => {
 });
 // eslint-disable-next-line import/no-unresolved
 const json = require('@raw_data/emissions_sector.json');
-const Emission = require('../models/emissionModel.js');
+const Emission = require('../../models/emissionModel.js');
 
 const emissions = [];
 for (let js = 0; js < json.length; js++) {

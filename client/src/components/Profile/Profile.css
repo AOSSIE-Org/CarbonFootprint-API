@@ -1,0 +1,109 @@
+/* Adding .ui.grid for addition of the CSS rules to custom tag Grid */
+.ui.grid.daily-grid{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.ui.grid.daily-grid-calculate{
+    margin-left: 15px;
+    text-align: left;
+}
+/* Adding .icon for addition of the CSS rules to custom tag Icon */
+.icon.daily-icon{
+    margin: 11px;
+}
+/* Adding .ui.button for addition of the CSS rules to custom tag Button */
+.ui.button.profile-button{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.ui.grid.input-grid{
+    margin-left: 15px;
+    width: 100%;
+}
+.ui.input.input-field{
+    margin-top: -22px;
+}
+.column.column-calculate{
+    margin-top: -22px;
+}
+.column.column-emission-value{
+    padding-top: 0.6rem; 
+    margin-right: 1.6rem;
+}
+.ui.header.input-header{
+    width: 100px;
+}
+.ui.menu.sidebar-body{
+    margin-bottom: 15px;
+}
+.sidebar-item-color{
+    color: #4183c4;
+}
+.ui.grid.profile-home-grid{
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+}
+.ui.modal.profile-edit-modal{
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 520px;
+    max-height: 550px;
+}
+.icon.profile-edit-icon{
+    float: right;
+    font-size: 15px; 
+    cursor: pointer;
+}
+.content.profile-edit-modal-content{
+    max-height: 400px;
+    overflow-y: auto;
+}
+.profile-edit-div1{
+    display: inline;
+}
+.meta.profile-picture-email{
+    display: inline-flex;
+    overflow-x: hidden;
+    width: 100%;
+}
+.profile-picture-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #3498db;
+    height: 110px;
+}
+.content.profile-card-content{
+    font-size: 15px; 
+    word-wrap: break-word;
+}
+.profile-picture-meta{
+    text-align: right;
+    margin-top: 15px;
+}
+.ui.grid.profile-settings-grid{
+    text-align: center;
+}
+.ui.input.profile-settings-input{
+    margin-bottom: 10px;
+}
+.ui.button.profile-settings-button{
+    height: 37px;
+    margin-left: 10px;
+}
+.field.profile-settings-input-medium>.ui.input{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.column.profile-settings-column{
+    margin-left: 10px;
+}
+.column.profile-settings-column-delete{
+    margin-bottom: 10px !important;
+    margin-left: 10px;
+}

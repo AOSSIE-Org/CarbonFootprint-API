@@ -5,6 +5,7 @@ import ProfileSettings from './ProfileSettings';
 import Sidebar from './Sidebar';
 import DailyEmission from './DailyEmission';
 import { setUserName } from '../../Sentry/logger'
+import './Profile.css'
 
 /* Extended react.Component class as Profile */
 
@@ -58,7 +59,7 @@ export default class Profile extends Component {
 
   render() {
     return (
-      <Grid centered textAlign="left" className="chartwidth">
+      <Grid className="chartwidth profile-home-grid">
         <Grid.Row>
           <Grid.Column mobile={16} tablet={3} computer={3}>
             <ProfilePicture
