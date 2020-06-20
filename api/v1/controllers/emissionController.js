@@ -57,10 +57,6 @@ exports.flight = (req, res) => {
         model = 'A320';
       }
     }
-    // else {
-    // eslint-disable-next-line max-len
-    //   return res.status(400).json({ success: false, message: 'Enter a model number or choose type between domestic/international' };
-    // }
     calculate(model, 'Default', dis, passengers)
       .then(emissions => {
         Logger.info(`\nTotal Emissions: ${emissions}`);
