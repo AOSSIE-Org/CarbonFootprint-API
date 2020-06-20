@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Card, Grid, Icon, Button } from "semantic-ui-react";
 import InputData from "./InputData";
 import { getKey, submitData, getRawData } from "./UtilDatafetch";
+import { raw } from "body-parser";
 
 export default class DailyDetails extends Component {
   state = {
@@ -22,9 +23,10 @@ export default class DailyDetails extends Component {
   };
 
   async componentDidMount() {
-    await getKey().then(apikey => this.setState({ apikey }));
-    getRawData().then(rawdata => this.setState({ rawdata: rawdata.item }));
-
+    const apikey = await getKey();
+    this.setState({ apikey: apikey });
+    const rawdata = await getRawData();
+    this.setState({ rawdata: rawdata });
   }
 
   changeCalculation = (index, value) => {

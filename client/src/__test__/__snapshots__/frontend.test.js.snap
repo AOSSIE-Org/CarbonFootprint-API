@@ -6,33 +6,30 @@ exports[`Snapshot tests and rendering component without crashing compare snapsho
     class="ui fluid raised card"
   >
     <div
-      style="display: flex; justify-content: center; align-items: center; width: 100%; background: rgb(52, 152, 219); height: 110px;"
+      class="profile-picture-image-container"
     >
       <div
         style="width: 40%; padding-top: 40%; border-radius: 50%;"
       />
     </div>
     <div
-      class="content"
-      style="font-size: 15px; word-wrap: break-word;"
+      class="content profile-card-content"
     >
       <div
         class="header"
       >
          
         <div
-          style="display: inline;"
+          class="profile-edit-div1"
         >
           <i
             aria-hidden="true"
-            class="write icon"
-            style="float: right; font-size: 15px; cursor: pointer;"
+            class="write icon profile-edit-icon"
           />
         </div>
       </div>
       <div
-        class="meta"
-        style="display: inline-flex; overflow-x: hidden; width: 100%;"
+        class="meta profile-picture-email"
       />
     </div>
   </div>
@@ -42,15 +39,14 @@ exports[`Snapshot tests and rendering component without crashing compare snapsho
 exports[`Snapshot tests and rendering component without crashing compare snapshot of Sidebar component 1`] = `
 <DocumentFragment>
   <div
-    class="ui fluid vertical menu"
-    style="margin-bottom: 15px;"
+    class="ui fluid vertical sidebar-body menu"
   >
     <a
       class="link item"
       href="/profile"
     >
       <span
-        style="color: rgb(65, 131, 196);"
+        class="sidebar-item-color"
       >
         <i
           aria-hidden="true"
@@ -64,7 +60,7 @@ exports[`Snapshot tests and rendering component without crashing compare snapsho
       href="/TransportComparer"
     >
       <span
-        style="color: rgb(65, 131, 196);"
+        class="sidebar-item-color"
       >
         <i
           aria-hidden="true"
@@ -109,7 +105,7 @@ exports[`Snapshot tests and rendering component without crashing compare snapsho
       class="item"
     >
       <a
-        href="http://localhost:3080/api/docs"
+        href="http://localhost:3000/api/docs"
         rel="noopener noreferrer"
         target="_blank"
       >

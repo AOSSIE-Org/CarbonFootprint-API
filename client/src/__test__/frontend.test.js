@@ -13,6 +13,15 @@ beforeAll(() => {
   global.fetch = jest.fn();
 });
 
+// mocking props 
+const rawdata = {
+  applianceTypes: [],
+  poultryTypes: [],
+  flightTypes: [],
+  vehicleTypes: [],
+  trainTypes: []
+}
+
 describe('Snapshot tests and rendering component without crashing', () => {
   it('renders ProfilePicture component without crashing', () => {
     const div = document.createElement('div');
@@ -36,7 +45,7 @@ describe('Snapshot tests and rendering component without crashing', () => {
 
   it('renders InputData component without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<InputData />, div)
+    ReactDOM.render(<InputData rawdata={rawdata} />, div)
   })
 })
 
@@ -74,7 +83,8 @@ describe('functionality tests', () => {
   })
 
   // it('checking functionality of InputData component', () => {
-
+  //   const wrapper = shallow(<InputData rawdata={rawdata} />);
+  //   expect(wrapper.find('Select').exists()).toBeTruthy();
   // })
 })
 
