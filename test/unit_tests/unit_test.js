@@ -6,7 +6,7 @@ const { it } = require('mocha');
 const {
   getDistanceFromLatLon, distance, nearbyTrainStations, geodecodeFromLatLon,
 } = require('../../api/v1/controllers/helperFunctions');
-const { getEmissionsOfUser, createLog } = require('../../api/user/controllers/dailyEmissionController');
+const { getEmissionsOfUser, createLog } = require('../../api/user/services/dailyEmissionServices');
 
 
 describe('testing helper functions', () => {
