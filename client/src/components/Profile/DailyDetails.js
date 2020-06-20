@@ -22,11 +22,9 @@ export default class DailyDetails extends Component {
     });
   };
 
-  async componentDidMount() {
-    const apikey = await getKey();
-    this.setState({ apikey: apikey });
-    const rawdata = await getRawData();
-    this.setState({ rawdata: rawdata });
+  componentDidMount() {
+    getKey().then(apikey => this.setState({ apikey }));
+    getRawData().then(rawdata => this.setState({ rawdata: rawdata.item }));
   }
 
   changeCalculation = (index, value) => {
