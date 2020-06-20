@@ -198,7 +198,7 @@ describe('API endpoint testing', () => {
         .post('/v1/vehicle')
         .set('access-key', API_TEST_KEY)
         .send({
-          type: 'Petrol',
+          type: 'fuelPetrol',
           origin: 'Bhubaneswar',
           destination: 'Cuttack',
           mileage: 50,
@@ -236,7 +236,46 @@ describe('API endpoint testing', () => {
         });
     });
   });
-
+  describe('flight endpoint tests', () => {
+    it('Testing for flights - should return correct values for flight emissions between two airports', done => {
+      server
+        .post('/v1/flight')
+        .set('access-key', API_TEST_KEY)
+        .send({
+          origin: 'DEL',
+          destination: 'JFK',
+          type: 'international',
+          model: 'airplane model A380',
+          passengers: 840,
+        })
+        .expect('Content-type', /json/)
+        .expect(200)
+        .end((err, res) => {
+          res.status.should.equal(200);
+          res.body.success.should.equal(true);
+          res.body.emissions.CO2.should.approximately(499960.612, 1);
+          done();
+        });
+    });
+    it('Testing for flights - should return error for incorrect IATA code of origin or destination', done => {
+      server
+        .post('/v1/flight')
+        .set('access-key', API_TEST_KEY)
+        .send({
+          origin: 'INCORRECT_VALUE',
+          destination: 'JFK',
+          type: 'international',
+          model: 'A380',
+          passengers: 840,
+        })
+        .expect(400)
+        .end((err, res) => {
+          res.status.should.equal(400);
+          res.body.success.should.equal(false);
+          done();
+        });
+    });
+  });
   describe('poultry emission endpoint tests', () => {
     it('should check result for emissions produced after the production of 4 kg of turkey in Pennsylvania', done => {
       server
@@ -320,8 +359,7 @@ describe('API endpoint testing', () => {
         .post('/v1/appliances')
         .set('access-key', API_TEST_KEY)
         .send({
-          appliance: 'Water heater',
-          type: 'instantaneous',
+          appliance: 'Water heater instantaneous',
           region: 'India',
           unit: 'kWh',
           quantity: 1,

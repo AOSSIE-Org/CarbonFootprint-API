@@ -25,10 +25,10 @@ try {
 const db = config.database;
 
 // connect to the database
-mongoose.connect(
-  `mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`,
-  { useMongoClient: true },
-);
+mongoose.connect(`mongodb+srv://${db.username}:${db.password}@${db.hostname}/${db.dbname}`, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
@@ -47,7 +47,7 @@ mongoose.connection.on('disconnected', () => {
 });
 // eslint-disable-next-line import/no-unresolved
 const json = require('@raw_data/electricity_emission.json');
-const Emission = require('../models/emissionModel.js');
+const Emission = require('../../models/emissionModel.js');
 
 const emissions = [];
 for (let js = 0; js < json.length; js++) {

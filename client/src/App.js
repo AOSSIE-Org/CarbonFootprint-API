@@ -16,6 +16,7 @@ import Unstructured from './components/DataUpload/Unstructured';
 import DataVerify from './components/DataUpload/DataVerify';
 import Footer from './components/Footer/Footer';
 import DailyDetails from './components/Profile/DailyDetails';
+import './App.css'
 
 const auth = new Auth();
 
@@ -29,7 +30,7 @@ export default class App extends React.Component {
     render() {
         return (
             <BrowserRouter>
-                <div style={styles.app}>
+                <div className="app-main">
                     <Header auth={auth} />
                      <Body>
                         <Switch>
@@ -104,13 +105,3 @@ export default class App extends React.Component {
         );
     }
 }
-
-const styles = {
-    app: {
-        width: "100%",
-        minHeight: "100%",
-        display: "flex",
-        flexDirection: "column",
-        overflow: "hidden"
-    }
-};

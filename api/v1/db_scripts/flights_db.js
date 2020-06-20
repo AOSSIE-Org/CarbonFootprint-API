@@ -27,8 +27,9 @@ try {
 const db = config.database;
 
 // connect to the database
-mongoose.connect(`mongodb://${db.username}:${db.password}@${db.hostname}:${db.port}/${db.dbname}`, {
-  useMongoClient: true,
+mongoose.connect(`mongodb+srv://${db.username}:${db.password}@${db.hostname}/${db.dbname}`, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
 });
 
 // When successfully connected
@@ -46,7 +47,7 @@ mongoose.connection.on('error', err => {
 mongoose.connection.on('disconnected', () => {
   Logger.info('Database disconnected');
 });
-const Emission = require('../models/emissionModel.js');
+const Emission = require('../../models/emissionModel.js');
 
 const dist = [
   125,

@@ -8,13 +8,31 @@ import { Link } from 'react-router-dom';
 import { getData } from './UtilDatafetch';
 
 class DailyEmission extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      noOfMonths: 9,
+      width: 550,
+    }
+  }
   componentDidMount() {
+    window.addEventListener('resize', this.updateMapSize);
+    this.updateMapSize();
     this.create();
+  }
+  componentDidUpdate() {
+    this.create();
+  }
+  updateMapSize = () => {
+    const noOfMonths = (window.innerWidth <= 700) ? Math.floor(window.innerWidth / 100) + 1 : 9;
+    const width = (window.innerWidth <= 700) ? noOfMonths * (550 / 9) : 550;
+    this.setState({ noOfMonths: noOfMonths, width: width });
   }
 
   calendarHeatmap() {
     // defaults
-    let width = 550;
+    let width = this.state.width;
     let height = 140;
     let legendWidth = 100;
     let selector = null;
@@ -26,7 +44,7 @@ class DailyEmission extends Component {
       .toDate();
     let yearAgo = moment()
       .startOf('day')
-      .subtract(9, 'month')
+      .subtract(this.state.noOfMonths, 'month')
       .toDate();
     let startDate = null;
     let counterMap = {};
@@ -49,7 +67,7 @@ class DailyEmission extends Component {
     let v = Number(d3.version.split('.')[0]);
 
     // setters and getters
-    chart.data = function(value) {
+    chart.data = function (value) {
       if (!arguments.length) {
         return data;
       }
@@ -58,7 +76,7 @@ class DailyEmission extends Component {
 
       counterMap = {};
 
-      data.forEach(function(element, index) {
+      data.forEach(function (element, index) {
         let key = moment(element.date).format('YYYY-MM-DD');
         let counter = counterMap[key] || 0;
         counterMap[key] = counter + element.count;
@@ -67,7 +85,7 @@ class DailyEmission extends Component {
       return chart;
     };
 
-    chart.max = function(value) {
+    chart.max = function (value) {
       if (!arguments.length) {
         return max;
       }
@@ -75,7 +93,7 @@ class DailyEmission extends Component {
       return chart;
     };
 
-    chart.selector = function(value) {
+    chart.selector = function (value) {
       if (!arguments.length) {
         return selector;
       }
@@ -83,7 +101,7 @@ class DailyEmission extends Component {
       return chart;
     };
 
-    chart.startDate = function(value) {
+    chart.startDate = function (value) {
       if (!arguments.length) {
         return startDate;
       }
@@ -95,7 +113,7 @@ class DailyEmission extends Component {
       return chart;
     };
 
-    chart.colorRange = function(value) {
+    chart.colorRange = function (value) {
       if (!arguments.length) {
         return colorRange;
       }
@@ -103,7 +121,7 @@ class DailyEmission extends Component {
       return chart;
     };
 
-    chart.tooltipEnabled = function(value) {
+    chart.tooltipEnabled = function (value) {
       if (!arguments.length) {
         return tooltipEnabled;
       }
@@ -111,7 +129,7 @@ class DailyEmission extends Component {
       return chart;
     };
 
-    chart.tooltipUnit = function(value) {
+    chart.tooltipUnit = function (value) {
       if (!arguments.length) {
         return tooltipUnit;
       }
@@ -119,7 +137,7 @@ class DailyEmission extends Component {
       return chart;
     };
 
-    chart.legendEnabled = function(value) {
+    chart.legendEnabled = function (value) {
       if (!arguments.length) {
         return legendEnabled;
       }
@@ -127,7 +145,7 @@ class DailyEmission extends Component {
       return chart;
     };
 
-    chart.onClick = function(value) {
+    chart.onClick = function (value) {
       if (!arguments.length) {
         return onClick();
       }
@@ -135,7 +153,7 @@ class DailyEmission extends Component {
       return chart;
     };
 
-    chart.locale = function(value) {
+    chart.locale = function (value) {
       if (!arguments.length) {
         return locale;
       }
@@ -159,7 +177,7 @@ class DailyEmission extends Component {
       if (chart.data().length === 0) {
         max = 1000000;
       } else if (max === null) {
-        max = d3.max(chart.data(), function(d) {
+        max = d3.max(chart.data(), function (d) {
           return d.count;
         }); // max data value
       }
@@ -193,10 +211,10 @@ class DailyEmission extends Component {
           .attr('class', 'day-cell')
           .attr('width', SQUARE_LENGTH)
           .attr('height', SQUARE_LENGTH)
-          .attr('fill', function(d) {
+          .attr('fill', function (d) {
             return color(countForDate(d));
           })
-          .attr('x', function(d, i) {
+          .attr('x', function (d, i) {
             let cellDate = moment(d);
             let result =
               cellDate.week() -
@@ -204,7 +222,7 @@ class DailyEmission extends Component {
               firstDate.weeksInYear() * (cellDate.weekYear() - firstDate.weekYear());
             return result * (SQUARE_LENGTH + SQUARE_PADDING);
           })
-          .attr('y', function(d, i) {
+          .attr('y', function (d, i) {
             return (
               MONTH_LABEL_PADDING + formatWeekday(d.getDay()) * (SQUARE_LENGTH + SQUARE_PADDING)
             );
@@ -212,7 +230,7 @@ class DailyEmission extends Component {
           .attr('style', 'transform: translateY(10px);');
 
         if (typeof onClick === 'function') {
-          (v === 3 ? enterSelection : enterSelection.merge(dayRects)).on('click', function(d) {
+          (v === 3 ? enterSelection : enterSelection.merge(dayRects)).on('click', function (d) {
             let count = countForDate(d);
             onClick({ date: d, count: count });
           });
@@ -220,16 +238,16 @@ class DailyEmission extends Component {
 
         if (chart.tooltipEnabled()) {
           (v === 3 ? enterSelection : enterSelection.merge(dayRects))
-            .on('mouseenter', function(d, i) {
+            .on('mouseenter', function (d, i) {
               tooltip = d3
                 .select(chart.selector())
                 .append('div')
                 .attr('class', 'day-cell-tooltip')
                 .html(tooltipHTMLForDate(d))
-                .style('left', function() {
+                .style('left', function () {
                   return Math.floor(i / 7) * SQUARE_LENGTH + 'px';
                 })
-                .style('top', function() {
+                .style('top', function () {
                   return (
                     formatWeekday(d.getDay()) * (SQUARE_LENGTH + SQUARE_PADDING) +
                     MONTH_LABEL_PADDING * 2 +
@@ -237,7 +255,7 @@ class DailyEmission extends Component {
                   );
                 });
             })
-            .on('mouseout', function(d, i) {
+            .on('mouseout', function (d, i) {
               tooltip.remove();
             });
         }
@@ -257,11 +275,11 @@ class DailyEmission extends Component {
             .attr('class', 'calendar-heatmap-legend')
             .attr('width', SQUARE_LENGTH)
             .attr('height', SQUARE_LENGTH)
-            .attr('x', function(d, i) {
+            .attr('x', function (d, i) {
               return width - legendWidth + (i + 1) * 13;
             })
             .attr('y', height + SQUARE_PADDING + 30)
-            .attr('fill', function(d) {
+            .attr('fill', function (d) {
               return d;
             })
             .attr('style', 'transform: translateY(-50px);');
@@ -290,13 +308,13 @@ class DailyEmission extends Component {
           .enter()
           .append('text')
           .attr('class', 'month-name')
-          .text(function(d) {
+          .text(function (d) {
             if (d.getMonth() === new Date().getMonth() - 9) return '';
             return locale.months[d.getMonth()];
           })
-          .attr('x', function(d, i) {
+          .attr('x', function (d, i) {
             let matchIndex = 0;
-            dateRange.find(function(element, index) {
+            dateRange.find(function (element, index) {
               matchIndex = index;
               return moment(d).isSame(element, 'month') && moment(d).isSame(element, 'year');
             });
@@ -306,7 +324,7 @@ class DailyEmission extends Component {
           .attr('y', 0) // fix these to the top
           .attr('style', 'transform: translateY(10px);');
 
-        locale.days.forEach(function(day, index) {
+        locale.days.forEach(function (day, index) {
           index = formatWeekday(index);
           if (index % 2) {
             svg
@@ -370,7 +388,7 @@ class DailyEmission extends Component {
         return weekDay;
       }
 
-      chart.data().map(function(day) {
+      chart.data().map(function (day) {
         return day.date.toDateString();
       });
     }
@@ -393,7 +411,7 @@ class DailyEmission extends Component {
         .selector(this.refs.jsHeatmap)
         .tooltipEnabled(true)
         .colorRange(['#ebedf0', '#e1b809'])
-        .onClick(function(data) {
+        .onClick(function (data) {
         })();
     });
   };

@@ -5,20 +5,28 @@ services:
       context: .
       dockerfile: Dockerfile.dev
     command: npm run watch:server
+    env_file:
+      - ./.env
     ports:
       - "3080:3080"
     volumes:
       - ./:/usr/src/app
   client:
     build: ./client
+    env_file:
+      - ./.env
     ports:
       - "3000:3000"
     volumes:
       - ./client:/usr/src/client
+    env_file:
+      - ./.env
   mongo:
     image: "mongo:4.0.10"
     volumes:
-      - /data/db:/data/db
+      - ~/data:/data/db
+    ports:
+      - "27017:27017"
     logging:
       driver: none
   redis:

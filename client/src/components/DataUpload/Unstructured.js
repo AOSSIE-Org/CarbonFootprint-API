@@ -4,6 +4,7 @@ import { Button, Grid, Segment, Form } from 'semantic-ui-react';
 import axios from 'axios'
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
+import './DataUpload.css'
 
 const BASE_URL = (process.env.NODE_ENV === 'production') ? 'https://carbonhub.org/v1/' : 'http://localhost:3080/v1/';
 
@@ -76,7 +77,7 @@ export default class Unstructured extends Component {
    */
     render() {
         return (
-            <Grid centered textAlign="left">
+            <Grid className="data-grid">
                 <Grid.Row>
 
                     <Grid.Column width={3}>
@@ -91,7 +92,7 @@ export default class Unstructured extends Component {
                     </Grid.Column>
 
                     <Grid.Column width={10}>
-                        <Segment style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                        <Segment className="data-segment">
                             {this.state.redirect && <Redirect to='/DataUpload' />}
                             <Form onSubmit={this.handleFileUpload}>
                                 <Form.Field>

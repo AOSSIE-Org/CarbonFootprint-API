@@ -3,6 +3,8 @@ import axios from 'axios';
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
 import { Button, Grid, Segment, List } from 'semantic-ui-react';
+import { API_URL_SERVER } from '../../config/config';
+import './DataUpload.css'
 
 /* Extended react.Component class as DataVerify */
 
@@ -46,7 +48,7 @@ export default class DataVerify extends Component {
             .catch((err) => {
                 console.log(err);
             });
-            axios.get('/suggestedData/fetchData').then(response => {
+            axios.get(`${API_URL_SERVER}/suggestedData/fetchData`).then(response => {
                 this.setState({ data: response.data });
             });
     }
@@ -56,7 +58,7 @@ export default class DataVerify extends Component {
    * @param id database ID of the object for reference
    */
     handleApprove(id) {
-        axios.post('/suggestedData/approveData', { data_id: id });
+        axios.post(`${API_URL_SERVER}/suggestedData/approveData`, { data_id: id });
         window.location.reload();
     }
 
@@ -65,7 +67,7 @@ export default class DataVerify extends Component {
    * @param id database ID of the object for reference
    */
     handleReject(id) {
-        axios.post('/suggestedData/rejectData', { data_id: id });
+        axios.post(`${API_URL_SERVER}/suggestedData/rejectData`, { data_id: id });
         window.location.reload();
     }
 
@@ -76,10 +78,10 @@ export default class DataVerify extends Component {
         const { data } = this.state;
     
         return (
-            <Grid centered textAlign="left">
+            <Grid className="verify-grid" >
                 <Grid.Row>
 
-                    <Grid.Column width={3}>
+                <Grid.Column mobile={16} tablet={3} computer={3}>
                         <ProfilePicture
                             profilePicture={this.state.profilePicture}
                             nickname={this.state.nickname}
@@ -90,8 +92,8 @@ export default class DataVerify extends Component {
                         <Sidebar />
                     </Grid.Column>
 
-                    <Grid.Column width={10}>
-                        <Segment style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <Grid.Column mobile={16} tablet={10} computer={10}>
+                        <Segment className="data-segment">
                             <List>
                                 {data.length ? data.map(d =>
                                     <List.Item key={d._id}>
@@ -101,19 +103,21 @@ export default class DataVerify extends Component {
                                             <br />
                                             <List.Header>Route - {d.title}</List.Header>
                                             <br />
-                                            <table style={styles.table} >
-                                                {Object.keys(d.data).map(key => (
-                                                    <tr key={key}>
-                                                        <td style={styles.td} >{key}</td>
-                                                        <td style={{ paddingLeft: 0 }} >{d.data[key]}</td>
-                                                    </tr>
-                                                ))}
+                                            <table>
+                                                <tbody>
+                                                    {Object.keys(d.data).map(key => (
+                                                        <tr key={key}>
+                                                            <td className="verify-td-key" >{key}</td>
+                                                            <td className="verify-td-data" >{d.data[key]}</td>
+                                                        </tr>
+                                                    ))}
+                                                </tbody>
                                             </table>
                                         </List.Content>
                                         <br />
                                         <List.Content >
-                                            <Button style={{ backgroundColor: 'green' }} onClick={() => this.handleApprove(d._id)} >Approve</Button>
-                                            <Button style={{ backgroundColor: 'red' }} onClick={() => this.handleReject(d._id)} >Reject</Button>
+                                            <Button className="verify-approve" onClick={() => this.handleApprove(d._id)} >Approve</Button>
+                                            <Button className="verify-reject" onClick={() => this.handleReject(d._id)} >Reject</Button>
                                         </List.Content>
                                     </List.Item>
                                 ) :

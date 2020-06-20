@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Icon, Menu } from 'semantic-ui-react';
 import {Link} from 'react-router-dom';
+import { UI_URL } from '../../config/config';
 
 /* Extended react.Component class as Sidebar */
 
@@ -13,7 +14,7 @@ export default class Sidebar extends Component {
 
   constructor() {
     super();
-    this.state = { activeItem: '' };
+    this.state = { activeItem: '',url : `${UI_URL}/api/docs` };
     this.handleItemClick = this.handleItemClick.bind(this);
   }
 
@@ -23,14 +24,14 @@ export default class Sidebar extends Component {
     this.setState({ activeItem: name });
   }
 
-  /** 
+  /**
    * Inherited function from react.Component to render to DOM object into html
    */
 
   render() {
-    const { activeItem } = this.state;
+    const { activeItem,url } = this.state;
     return (
-      <Menu fluid vertical style={ styles.cardMargin }>
+      <Menu fluid vertical className="sidebar-body">
         <Menu.Item
           name="inbox"
           active={activeItem === 'inbox'}
@@ -39,11 +40,11 @@ export default class Sidebar extends Component {
           to="/profile"
           link={true}
         >
-          <span style={{ color: '#4183c4' }}>
+          <span className="sidebar-item-color">
             <Icon name="home" /> Account
           </span>
         </Menu.Item>
-        
+
         <Menu.Item
           name="transport"
           active={activeItem === 'transport'}
@@ -52,7 +53,7 @@ export default class Sidebar extends Component {
           to="/TransportComparer"
           link={true}
         >
-          <span style={{ color: '#4183c4' }}>
+          <span className="sidebar-item-color">
             <Icon name="train" /> Transport Comparer
           </span>
         </Menu.Item>
@@ -83,13 +84,12 @@ export default class Sidebar extends Component {
           name= "Swagger Docs"
           active= {activeItem === 'Data Upload'}
         >
-        <a href="/api/docs" target="_blank" rel="noopener noreferrer">
+        <a href={url} target="_blank" rel="noopener noreferrer">
           <span>
             <Icon name="wpforms" /> Swagger Documentation
           </span>
         </a>
         </Menu.Item>
-
 
         <Menu.Item
           name= "Verify Data"

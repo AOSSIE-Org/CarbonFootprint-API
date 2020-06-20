@@ -15,6 +15,7 @@ test_validation:
       - node_modules/
   before_script:
     - npm install
+    - npm install --prefix client
   script:
     - npm test
     - npm run lint:test

@@ -2,7 +2,8 @@ import React from 'react';
 import {Header} from 'semantic-ui-react';
 import { Redirect } from 'react-router-dom';
 import visuals from '../data/availableVisuals.js';
-import { API_URL } from '../../config/config'
+import { UI_URL } from '../../config/config';
+import './Graph.css';
 
 class Graph extends React.Component {
   constructor(props) {
@@ -25,13 +26,9 @@ class Graph extends React.Component {
     return (
       <div>
       {isGraphAvailable ? (
-        <div style={{
-          width: "100%"
-        }}>
-          <div style={styles.card}>
-            <iframe title="visual-link" src={`${API_URL}/graphs/${this.state.visual.link}.html`} width="100%" height="100%" style={{
-              "border": "none"
-            }}></iframe>
+        <div className="graph-div1">
+          <div className="graph-card1">
+            <iframe title="visual-link" src={`${UI_URL}/graphs/${this.state.visual.link}.html`} className="graph-iframe1"></iframe>
           </div>
           <Header as='h2' dividing>{this.state.visual.title}</Header>
           <p>{this.state.visual.longDescription}</p>
@@ -46,15 +43,3 @@ class Graph extends React.Component {
 }
 
 export default Graph;
-const styles = {
-  card: {
-    width: "100%",
-    height: "80vh",
-    background: '#fff',
-    backgroundImage: "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGElEQVQYV2NkYGCQYmBgeMYABYwwBvECAD1WAQVZi1QaAAAAAElFTkSuQmCC)",
-    backgroundRepeat: "repeat",
-    backgroundSize: "7px",
-    boxShadow: "1px 1px 5px #bbb",
-    position: "relative"
-  }
-};

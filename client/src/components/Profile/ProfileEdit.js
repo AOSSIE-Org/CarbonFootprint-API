@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Form, Image, Modal, Icon, Header, Button } from 'semantic-ui-react';
+import './Profile.css'
 
 /* Options provided for the gender in edit modal */
 
@@ -59,7 +60,7 @@ export default class ProfileEdit extends Component {
         this.setMetaData(this.state.profile.sub);
         this.hideModal();
       })
-      .reject(err => {
+      .catch(err => {
         console.log(err);
       });
   }
@@ -118,10 +119,11 @@ export default class ProfileEdit extends Component {
    *   react component
    */
 
-  componentWillReceiveProps(nextProps) {
+  componentDidUpdate(nextProps) {
     if (nextProps.profile !== this.state.profile) {
       this.setState({ profile: nextProps.profile });
-      this.setMetaData(nextProps.profile.sub);
+      if(Object.keys(nextProps.profile).length !== 0)
+        this.setMetaData(nextProps.profile.sub);
     }
   }
 
@@ -132,19 +134,19 @@ export default class ProfileEdit extends Component {
   render() {
     let { profile, metaProfile, isOpen } = this.state;
     return (
-      <div style={{ display: 'inline' }}>
+      <div className="profile-edit-div1">
         <Icon
           name="write"
-          style={{ float: 'right', fontSize: '15px' }}
+          className="profile-edit-icon"
           onClick={() => this.openModal()}
         />
         <Modal
           dimmer="blurring"
           open={isOpen}
           onClose={() => this.hideModal()}
-          style={{ maxHeight: '500px', overflowY: 'auto', transform: 'translate(0, -50%)' }}>
+          className="profile-edit-modal">
           <Modal.Header>Profile</Modal.Header>
-          <Modal.Content image>
+          <Modal.Content image className="profile-edit-modal-content">
             <Image wrapped size="small" src={profile.picture} />
             <Modal.Description>
               <Header>Edit</Header>

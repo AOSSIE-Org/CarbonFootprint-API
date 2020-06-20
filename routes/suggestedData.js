@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 const express = require('express');
 
 const router = express.Router();
@@ -613,7 +614,7 @@ router.post('/approveData', (req, res) => {
       console.error(new Error('Not found'));
     }
   });
-  SuggestedData.findByIdAndRemove({ _id: req.body.data_id }, (err) => {
+  SuggestedData.findByIdAndRemove({ _id: req.body.data_id }, { useFindAndModify: false }, (err) => {
     if (err) {
       res.send(400).json(err);
     } else {
@@ -623,7 +624,7 @@ router.post('/approveData', (req, res) => {
 });
 
 router.post('/rejectData', (req, res) => {
-  SuggestedData.findByIdAndRemove({ _id: req.body.data_id }, (err, reject) => {
+  SuggestedData.findByIdAndRemove({ _id: req.body.data_id }, { useFindAndModify: false }, (err, reject) => {
     if (err) {
       res.send(400).json(err);
     } else {

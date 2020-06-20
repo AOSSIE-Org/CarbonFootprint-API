@@ -1,0 +1,12 @@
+.loading-div-card1{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    font-size: 24;
+}

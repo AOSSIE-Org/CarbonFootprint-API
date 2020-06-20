@@ -1,0 +1,12 @@
+.body {
+    min-height: calc(100vh - 50px - 60px);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: auto;
+}
+
+.child{
+    padding: 30px;
+    flex: 1;
+}

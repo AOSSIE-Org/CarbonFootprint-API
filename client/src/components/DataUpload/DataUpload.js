@@ -4,6 +4,7 @@ import { Button, Grid, Segment, Divider } from 'semantic-ui-react';
 import ProfileSettings from '../Profile/ProfileSettings';
 import ProfilePicture from '../Profile/ProfilePicture';
 import Sidebar from '../Profile/Sidebar';
+import './DataUpload.css'
 
 /* Extended react.Component class as DataUpload */
 
@@ -77,7 +78,7 @@ export default class DataUpload extends Component {
       <Grid centered textAlign="left">
         <Grid.Row>
 
-          <Grid.Column width={3}>
+          <Grid.Column mobile={16} tablet={3} computer={3}>
             <ProfilePicture
               profilePicture={this.state.profilePicture}
               nickname={this.state.nickname}
@@ -88,12 +89,12 @@ export default class DataUpload extends Component {
             <Sidebar />
           </Grid.Column>
 
-          <Grid.Column width={10}>
+          <Grid.Column mobile={16} tablet={10} computer={10}>
             <ProfileSettings
               auth={this.props.auth}
             />
-            <Segment style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <Segment >
+              <div className="segment-upload">
                 <Button size='massive' color='blue' onClick={this.handleClick.bind(this, 'structured')} >Structured Data</Button>
                 <Divider horizontal>OR</Divider>
                 <Button size='massive' color='blue' onClick={this.handleClick.bind(this, 'unstructured')} >Unstructured Data</Button>
