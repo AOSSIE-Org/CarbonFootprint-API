@@ -78,7 +78,6 @@ export default class InputData extends Component {
         break;
       case 2:
         flightData(this.props.apikey, origin, destination, type, model, passengers).then(data => {
-          console.log(data);
           if (data.success) {
             this.setState({ emissions: data.emissions, loading: false, errorMessage: "" });
             this.props.changeCalculation(this.props.index, {
@@ -253,5 +252,4 @@ export default class InputData extends Component {
     text: i.title.charAt(0).toUpperCase() + i.title.slice(1)
   }));
 }
-
 

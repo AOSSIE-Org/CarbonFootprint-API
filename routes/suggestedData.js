@@ -623,7 +623,8 @@ router.post('/approveData', (req, res) => {
 });
 
 router.post('/rejectData', (req, res) => {
-  SuggestedData.findByIdAndRemove({ _id: req.body.data_id },{ useFindAndModify: false }, (err, reject) => {
+  // eslint-disable-next-line max-len
+  SuggestedData.findByIdAndRemove({ _id: req.body.data_id }, { useFindAndModify: false }, (err, reject) => {
     if (err) {
       res.send(400).json(err);
     } else {

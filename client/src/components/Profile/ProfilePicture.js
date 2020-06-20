@@ -14,10 +14,10 @@ export default class ProfilePicture extends Component {
    * @constructor extends react.Component
    */
 
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
-      nickname:""
+      nickname: ""
     }
   }
 
@@ -26,9 +26,9 @@ export default class ProfilePicture extends Component {
    *   react component
    */
 
-  componentDidUpdate(nextProps){
-    if(nextProps.nickname !== this.state.nickname){
-      this.setState({nickname:nextProps.nickname});
+  componentDidUpdate(nextProps) {
+    if (nextProps.nickname !== this.state.nickname) {
+      this.setState({ nickname: nextProps.nickname });
     }
   }
 
@@ -37,10 +37,10 @@ export default class ProfilePicture extends Component {
    */
 
   render() {
-     const { auth } = this.props;
+    const { auth } = this.props;
     return (
       <Card fluid raised>
-        <div class="profile-picture-image-container">
+        <div className="profile-picture-image-container">
           <div
             style={{
               width: '40%',

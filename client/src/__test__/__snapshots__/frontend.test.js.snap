@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot tests and rendering component without crashing compare snapshot of ProfilePicture component 1`] = `
+<DocumentFragment>
+  <div
+    class="ui fluid raised card"
+  >
+    <div
+      class="profile-picture-image-container"
+    >
+      <div
+        style="width: 40%; padding-top: 40%; border-radius: 50%;"
+      />
+    </div>
+    <div
+      class="content profile-card-content"
+    >
+      <div
+        class="header"
+      >
+         
+        <div
+          class="profile-edit-div1"
+        >
+          <i
+            aria-hidden="true"
+            class="write icon profile-edit-icon"
+          />
+        </div>
+      </div>
+      <div
+        class="meta profile-picture-email"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Snapshot tests and rendering component without crashing compare snapshot of Sidebar component 1`] = `
+<DocumentFragment>
+  <div
+    class="ui fluid vertical sidebar-body menu"
+  >
+    <a
+      class="link item"
+      href="/profile"
+    >
+      <span
+        class="sidebar-item-color"
+      >
+        <i
+          aria-hidden="true"
+          class="home icon"
+        />
+         Account
+      </span>
+    </a>
+    <a
+      class="link item"
+      href="/TransportComparer"
+    >
+      <span
+        class="sidebar-item-color"
+      >
+        <i
+          aria-hidden="true"
+          class="train icon"
+        />
+         Transport Comparer
+      </span>
+    </a>
+    <div
+      class="item"
+    >
+      <a
+        href="http://docs.carbonhub.org"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <span>
+          <i
+            aria-hidden="true"
+            class="newspaper icon"
+          />
+           API Documentation
+        </span>
+      </a>
+    </div>
+    <div
+      class="item"
+    >
+      <a
+        href="/DataUpload"
+      >
+        <span>
+          <i
+            aria-hidden="true"
+            class="upload icon"
+          />
+           Data Upload
+        </span>
+      </a>
+    </div>
+    <div
+      class="item"
+    >
+      <a
+        href="http://localhost:3000/api/docs"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <span>
+          <i
+            aria-hidden="true"
+            class="wpforms icon"
+          />
+           Swagger Documentation
+        </span>
+      </a>
+    </div>
+    <div
+      class="item"
+    >
+      <a
+        href="/dataVerify"
+      >
+        <span>
+          <i
+            aria-hidden="true"
+            class="check circle icon"
+          />
+           Verify Data
+        </span>
+      </a>
+    </div>
+  </div>
+  )
+</DocumentFragment>
+`;
