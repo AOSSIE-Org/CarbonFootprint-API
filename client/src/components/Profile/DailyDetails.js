@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Card, Grid, Icon, Button } from "semantic-ui-react";
 import InputData from "./InputData";
 import { getKey, submitData, getRawData } from "./UtilDatafetch";
-import { raw } from "body-parser";
 
 export default class DailyDetails extends Component {
   state = {
