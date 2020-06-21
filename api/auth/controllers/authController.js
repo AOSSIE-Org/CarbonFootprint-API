@@ -24,6 +24,7 @@ exports.createKey = (req, res) => {
           success: false,
           err: reject,
         });
+        Logger.error(`Error in creating key : ${reject}`);
       });
   } else res.sendJsonError('Email not verified', 403);
 };

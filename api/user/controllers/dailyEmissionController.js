@@ -2,6 +2,7 @@ const {
   createLog,
   getEmissionsOfUser,
 } = require('../services/dailyEmissionServices');
+const { Logger } = require('winston');
 
 exports.getDailyEmissions = (req, res) => {
   const { email } = req.user;
@@ -9,7 +10,10 @@ exports.getDailyEmissions = (req, res) => {
     .then(data => {
       res.send(data);
     })
-    .catch(err => res.status(400).send(err));
+    .catch(err => {
+      res.status(400).send(err);
+      Logger.error(`Cannot fetch daily emissions : ${err}`);
+    });
 };
 
 exports.addDailyEmissions = (req, res) => {
@@ -21,5 +25,8 @@ exports.addDailyEmissions = (req, res) => {
     .then(data => {
       res.send(data);
     })
-    .catch(() => res.status(400).send());
+    .catch(() => {
+      res.status(400).send();
+      Logger.error(`Cannot add data to daily emissions`);
+    });
 };
