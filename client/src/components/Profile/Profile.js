@@ -5,6 +5,7 @@ import ProfileSettings from './ProfileSettings';
 import Sidebar from './Sidebar';
 import DailyEmission from './DailyEmission';
 import { setUserName } from '../../Sentry/logger'
+import GoogleFit from './GoogleFit';
 import './Profile.css'
 
 /* Extended react.Component class as Profile */
@@ -70,6 +71,7 @@ export default class Profile extends Component {
               profile={this.state.profile}
             />
             <Sidebar />
+            <GoogleFit />
           </Grid.Column>
           <Grid.Column mobile={16} tablet={10} computer={10}>
             <ProfileSettings auth={this.props.auth} />
