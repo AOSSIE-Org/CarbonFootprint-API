@@ -9,12 +9,24 @@ export default class GoogleFit extends Component {
     const options = {
       headers: { 'Authorization': `Bearer ${accessToken}` }
     }
-    const result = await axios['post']('https://www.googleapis.com/fitness/v1/users/me/dataset:aggregate', reqbody, options);
-    console.log(result.data);
+    try {
+      const result = await axios['post']('https://www.googleapis.com/fitness/v1/users/me/dataset:aggregate', reqbody, options);
+      const fitData = result.data.bucket.map(day => {
+        var date = new Date(parseInt(day.startTimeMillis));
+        date.toDateString();
+        const steps = day.dataset[0].point[0].value[0].intVal;
+        const distance = day.dataset[1].point[0].value[0].fpVal;
+        return { date, steps, distance };
+      });
+      console.log(fitData);
+    }
+    catch (err) {
+      console.log(err);
+    }
   }
 
   handleFailureResponse = (response) => {
-    console.log(response);
+    console.log('Error', response);
   }
 
   render() {
@@ -25,7 +37,8 @@ export default class GoogleFit extends Component {
           clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID}
           scope={process.env.REACT_APP_GOOGLE_SCOPES}
           onSuccess={this.handleSuccessResponse}
-          onFailure={this.handleFailureResponse}>
+          onFailure={this.handleFailureResponse}
+          isSignedIn={true}>
           <span>Connect google fit</span>
         </GoogleLogin>
       </div>
@@ -45,17 +58,5 @@ const reqbody = {
       "dataTypeName": "com.google.distance.delta",
       "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:pruned_distance"
     },
-    {
-      "dataTypeName": "com.google.calories.expended",
-      "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:from_activities"
-    },
-    {
-      "dataTypeName": "com.google.speed",
-      "dataSourceId": "derived:com.google.speed:com.google.android.gms:from_distance<-merge_distance_delta"
-    },
-    {
-      "dataTypeName": "com.google.activity.segment",
-      "dataSourceId": "derived:com.google.activity.segment:com.google.android.gms:merge_activity_segments"
-    }
   ]
 }
