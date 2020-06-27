@@ -17,6 +17,10 @@ const helmet = require('helmet');
 const Logger = require('@framework/Logger');
 const cors = require('cors');
 
+const Sentry = require('@sentry/node');
+
+Sentry.init({ dsn: `${process.env.SENTRY_DSN}` });
+
 // database setup
 const mongoose = require('mongoose');
 
@@ -56,6 +60,11 @@ const swagger = require('./api/v1/routes/swagger');
 const Auth = require('./api/auth/services/authServices');
 
 const app = express();
+
+// The request handler must be the first middleware on the app
+app.use(Sentry.Handlers.requestHandler());
+
+
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
@@ -148,6 +157,9 @@ app.use('/auth', authroute);
 
 // show the API dashboard
 app.use('/', index);
+
+// The error handler must be before any other error middleware and after all controllers
+app.use(Sentry.Handlers.errorHandler());
 
 // error handler
 app.use((err, req, res) => {

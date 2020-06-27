@@ -4,6 +4,7 @@ import ProfilePicture from './ProfilePicture';
 import ProfileSettings from './ProfileSettings';
 import Sidebar from './Sidebar';
 import DailyEmission from './DailyEmission';
+import { setUserName } from '../../Sentry/logger'
 import './Profile.css'
 
 /* Extended react.Component class as Profile */
@@ -45,6 +46,7 @@ export default class Profile extends Component {
           given_name: profile.given_name,
           family_name: profile.family_name
         });
+        setUserName(profile.nickname);
       })
       .catch(err => {
         console.log(err);

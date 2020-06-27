@@ -1,4 +1,5 @@
 const winston = require('winston');
+const Sentry = require('winston-sentry');
 
 const Logger = new winston.Logger({
   transports: [
@@ -10,6 +11,10 @@ const Logger = new winston.Logger({
       timestamp: false,
     }),
     new winston.transports.File({ level: 'debug', filename: 'dev.log' }),
+    new Sentry({
+      level: 'error',
+      dsn: `${process.env.SENTRY_DSN}`
+  })
   ],
 });
 

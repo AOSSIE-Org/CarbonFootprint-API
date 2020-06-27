@@ -2,6 +2,7 @@
 const Emission = require('../../models/emissionModel');
 // get the helper functions
 const Helper = require('../controllers/helperFunctions');
+const Logger = require('@framework/Logger');
 
 const getTreesReverseLookup = emissions =>
   new Promise((resolve, reject) => {
@@ -39,6 +40,7 @@ const getTreesReverseLookup = emissions =>
           }
           resolve(treeMatch);
         } else {
+          Logger.error(`Cannot find tree :${err}`);
           reject(err);
         }
       },
@@ -104,6 +106,7 @@ const getVehiclesReverseLookup = (emissions, relativeLocation) =>
         } while (true);
       })
       .catch(err => {
+        Logger.error(`Cannot find vehicle :${err}`);
         reject(err);
       });
   });
@@ -165,6 +168,7 @@ const getTrainReverseLookup = (emissions, relativeLocation) =>
               resolve(trainMatch);
             })
             .catch(err => {
+              Logger.error(`Failed to get rail distance: ${err}`);
               reject(new Error(`Failed to get rail distance: ${err}`));
             });
         } else {
