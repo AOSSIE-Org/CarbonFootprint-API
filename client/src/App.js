@@ -16,6 +16,8 @@ import Unstructured from './components/DataUpload/Unstructured';
 import DataVerify from './components/DataUpload/DataVerify';
 import Footer from './components/Footer/Footer';
 import DailyDetails from './components/Profile/DailyDetails';
+import Emission from './components/EmissionGraph/Emission';
+import Steps from './components/StepsGraph/Steps';
 import './App.css'
 
 const auth = new Auth();
@@ -96,6 +98,20 @@ export default class App extends React.Component {
                                 handleAuthentication(props);
                                 return <Loading {...props} />
                             }} />
+                            <Route path="/emissions" render={(props) => (
+                                !auth.isAuthenticated() ? (
+                                    <Redirect to="/" />
+                                ) : (
+                                        <Emission auth={auth} />
+                                    )
+                            )} />
+                            <Route path="/steps" render={(props) => (
+                                !auth.isAuthenticated() ? (
+                                    <Redirect to="/" />
+                                ) : (
+                                        <Steps auth={auth} />
+                                    )
+                            )} />
                             <Route component={NotFound} />
                         </Switch>
                     </Body>
