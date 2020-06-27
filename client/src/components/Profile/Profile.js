@@ -71,7 +71,7 @@ export default class Profile extends Component {
               profile={this.state.profile}
             />
             <Sidebar />
-            <GoogleFit />
+            <GoogleFit auth={this.props.auth} />
           </Grid.Column>
           <Grid.Column mobile={16} tablet={10} computer={10}>
             <ProfileSettings auth={this.props.auth} />
