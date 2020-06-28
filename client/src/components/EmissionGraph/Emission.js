@@ -26,8 +26,8 @@ export default class Emission extends React.Component {
 
         // set the dimensions and margins of the graph
         var margin = { top: 10, right: 30, bottom: 30, left: 50 },
-            width = 660 - margin.left - margin.right,
-            height = 500 - margin.top - margin.bottom;
+            width = 800 - margin.left - margin.right,
+            height = 150 - margin.top - margin.bottom;
         d3.selectAll("svg").remove();
         var svg = d3.select("#my_dataviz")
             .append("svg")
