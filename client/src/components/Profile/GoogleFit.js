@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { GoogleLogin } from 'react-google-login';
 import axios from 'axios'
-
+import { fitData } from './UtilDatafetch';
 export default class GoogleFit extends Component {
   constructor(props) {
     super(props);
@@ -11,12 +11,14 @@ export default class GoogleFit extends Component {
 
   async componentDidMount() {
     const profile = await this.props.auth.getProfile();
-    if (profile.sub.substr(0, profile.sub.indexOf('|')) === 'google-oauth2') { }
-
+    if (profile.sub.substr(0, profile.sub.indexOf('|')) === 'google-oauth2') {
+      const data = await fitData(profile.sub);
+      console.log(data);
+    }
   }
 
   handleSuccessResponse = async (response) => {
-    const { accessToken, tokenId, profileObj } = response;
+    const { accessToken } = response;
     const options = {
       headers: { 'Authorization': `Bearer ${accessToken}` }
     }

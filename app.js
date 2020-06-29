@@ -56,6 +56,7 @@ const suggestedData = require('./routes/suggestedData');
 const auth = require('./api/auth/routes/apikeyRoute');
 const individualEmission = require('./api/user/routes/dailyEmissionRoute');
 const swagger = require('./api/v1/routes/swagger');
+const fitData = require('./api/googleFit/routes/googleFitRoute');
 
 const Auth = require('./api/auth/services/authServices');
 
@@ -132,6 +133,10 @@ v1.use('/', emissions);
 const rawdataRoute = express.Router();
 rawdataRoute.use('/', rawData);
 
+// routes for accessing google fit data
+const fitdataRoute = express.Router();
+fitdataRoute.use('/', fitData);
+
 // route for documentation
 app.use('/api/docs', swagger);
 
@@ -150,8 +155,8 @@ app.use('/suggestedData', suggestedData);
 
 // Use v1 router for all the API requests adhering to version 1
 app.use('/v1', v1);
-// Use v2 router to access rawdata
-app.use('/internal', rawdataRoute);
+// Use internal router to make all the internal requests
+app.use('/internal', rawdataRoute, fitdataRoute);
 // Use authroute for the requests regarding user authentication
 app.use('/auth', authroute);
 

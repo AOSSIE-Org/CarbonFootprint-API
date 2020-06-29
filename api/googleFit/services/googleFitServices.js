@@ -1,8 +1,8 @@
 // eslint-disable-next-line import/no-unresolved
-const redis = require('@framework/redis');
+// const redis = require('@framework/redis');
 const axios = require('axios');
 
-const { redisClient } = redis;
+// const { redisClient } = redis;
 const reqbody = {
   startTimeMillis: new Date().setHours(0, 0, 0, 0) - 86400000 * 7,
   endTimeMillis: new Date().setHours(0, 0, 0, 0),
@@ -27,17 +27,17 @@ exports.getApiToken = () => new Promise((resolve, reject) => {
   }).then(managementAccessToken => {
     resolve(managementAccessToken.data.access_token);
   }).catch(error => {
-    reject(new Error(error));
+    reject(error);
   });
 });
 
-exports.getFullUserProfile = (userId, apiToken) => new Promise((resolve, reject) => {
+exports.getAccessToken = (userId, apiToken) => new Promise((resolve, reject) => {
   axios.get(`https://dev-wtwvqlr1.auth0.com/api/v2/users/${userId}`, {
     headers: { authorization: `Bearer ${apiToken}` },
   }).then(fullUserProfile => {
     resolve(fullUserProfile.data.identities[0].access_token);
   }).catch(error => {
-    reject(new Error(error));
+    reject(error);
   });
 });
 
@@ -46,7 +46,7 @@ exports.getFitData = (accessToken) => new Promise((resolve, reject) => {
     headers: { Authorization: `Bearer ${accessToken}` },
   }).then(result => {
     const fitData = result.data.bucket.map(day => {
-      const date = new Date(parseInt(day.startTimeMillis));
+      const date = new Date(parseInt(day.startTimeMillis, 10));
       date.toDateString();
       const steps = day.dataset[0].point[0].value[0].intVal;
       const distance = day.dataset[1].point[0].value[0].fpVal;
@@ -54,6 +54,6 @@ exports.getFitData = (accessToken) => new Promise((resolve, reject) => {
     });
     resolve(fitData);
   }).catch(error => {
-    reject(new Error(error));
+    reject(error);
   });
 });
