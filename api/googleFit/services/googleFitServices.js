@@ -21,7 +21,7 @@ const reqbody = {
 
 exports.getApiToken = () => new Promise((resolve, reject) => {
   axios.post('https://dev-wtwvqlr1.auth0.com/oauth/token', {
-    client_id: 'tjP1NumeTKov7rBIt6RKLNQ6Y9gUmsux', client_secret: 'PRovdXfrwt_LhvZNlIyesA4Uyxy9xgbtqESfzZ1DX6__kGoK10Xbw5BcfxCMd5UZ', audience: 'https://dev-wtwvqlr1.auth0.com/api/v2/', grant_type: 'client_credentials',
+    client_id: process.env.AUTH0_CLIENT_ID, client_secret: process.env.AUTH0_CLIENT_SECRET, audience: 'https://dev-wtwvqlr1.auth0.com/api/v2/', grant_type: 'client_credentials',
   }, {
     headers: { 'content-type': 'application/json' },
   }).then(managementAccessToken => {

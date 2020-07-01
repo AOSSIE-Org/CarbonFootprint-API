@@ -26,7 +26,8 @@ export default class Auth {
       redirectUri: AUTH_CONFIG.callbackUrl,
       audience: `https://${AUTH_CONFIG.domain}/userinfo`,
       responseType: 'token id_token',
-      scope: 'openid email profile'
+      scope: 'openid email profile',
+      // returnTo: 'http://localhost:3000',
     });
   }
 
@@ -35,6 +36,7 @@ export default class Auth {
   login() {
     this.auth0.authorize({
       // connection: 'google-oauth2',
+      access_type: 'offline',
       connection_scope: 'https://www.googleapis.com/auth/fitness.activity.read https://www.googleapis.com/auth/fitness.body.read https://www.googleapis.com/auth/fitness.location.read https://www.googleapis.com/auth/fitness.reproductive_health.read'
     });
   }
@@ -73,6 +75,7 @@ export default class Auth {
    */
 
   logout() {
+    // this.auth0.logout();
     // Clear access token and ID token from local storage
     localStorage.removeItem('access_token');
     localStorage.removeItem('id_token');

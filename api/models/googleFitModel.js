@@ -8,26 +8,20 @@ const googleFitSchema = new mongoose.Schema({
     trim: true,
     required: true,
   },
-  distance: [{
-    date: {
-      type: Date,
-      required: true,
-    },
-    value: {
-      type: Number,
-      default: 0,
-    },
-  }],
-  steps: [{
-    date: {
-      type: Date,
-      required: true,
-    },
-    value: {
-      type: Number,
-      default: 0,
-    },
-  }],
+  distance: {
+    type: Number,
+    default: 0,
+    required: true,
+  },
+  steps: {
+    type: Number,
+    default: 0,
+    required: true,
+  },
+  date: {
+    type: Date,
+    required: true,
+  },
 });
 
 const googleFit = mongoose.model('googleFit', googleFitSchema);

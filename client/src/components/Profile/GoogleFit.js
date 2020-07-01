@@ -16,7 +16,7 @@ export default class GoogleFit extends Component {
       fitDataDirect(profile.sub)
         .then(fitData => {
           this.setState({
-            fitData
+            fitData: fitData.data
           });
         }).catch(error => {
           this.setState({
@@ -31,7 +31,7 @@ export default class GoogleFit extends Component {
     try {
       const fitData = await fitDataInDirect(accessToken);
       this.setState({
-        fitData
+        fitData: fitData.data
       });
     }
     catch (error) {
