@@ -2,7 +2,7 @@
 const Logger = require('@framework/Logger');
 
 const {
-  getApiToken, getAccessToken, getFitData, fillDb,
+  getApiToken, getAccessToken, getFitData, fillDb, fetchFromDb,
 } = require('../services/googleFitServices');
 
 // to obtain fit data when user logins via google-auth0
@@ -15,15 +15,19 @@ exports.fitDataDirect = (req, res) => {
           getFitData(accessToken)
             .then(data => {
               fillDb(userId, data)
-                .then((result) => {
-                  console.log(result);
+                .then(() => {
+                  fetchFromDb(userId)
+                    .then(fitdata => {
+                      res.status(200).json({
+                        success: true,
+                        data: fitdata,
+                      });
+                    }).catch((err) => {
+                      Logger.error(err);
+                    });
                 }).catch(err => {
-                  console.log(err);
+                  Logger.error(err, 'not able to update database');
                 });
-              // res.status(200).json({
-              //   success: true,
-              //   data,
-              // });
             }).catch(err => {
               Logger.error(err.response.data.error.message);
               // eslint-disable-next-line max-len
@@ -38,13 +42,23 @@ exports.fitDataDirect = (req, res) => {
 
 // to obtain fit data if user does not login through google
 exports.fitDataInDirect = (req, res) => {
-  const { accessToken } = req.body;
+  const { accessToken, userId } = req.body;
   getFitData(accessToken)
     .then(data => {
-      res.status(200).json({
-        success: true,
-        data,
-      });
+      fillDb(userId, data)
+        .then(() => {
+          fetchFromDb(userId)
+            .then(fitdata => {
+              res.status(200).json({
+                success: true,
+                data: fitdata,
+              });
+            }).catch((err) => {
+              Logger.error(err);
+            });
+        }).catch(err => {
+          Logger.error(err, 'not able to update database');
+        });
     }).catch(err => {
       Logger.error(err.response.data.error.message);
       // eslint-disable-next-line max-len

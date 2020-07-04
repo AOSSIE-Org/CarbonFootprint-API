@@ -27,9 +27,10 @@ export default class GoogleFit extends Component {
   }
 
   handleSuccessResponse = async (response) => {
-    const { accessToken } = response;
+    const { accessToken, googleId } = response;
+    let userId = 'google-oauth2|' + googleId;
     try {
-      const fitData = await fitDataInDirect(accessToken);
+      const fitData = await fitDataInDirect(accessToken, userId);
       this.setState({
         fitData: fitData.data
       });

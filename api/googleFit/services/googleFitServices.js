@@ -59,7 +59,6 @@ exports.getFitData = (accessToken) => new Promise((resolve, reject) => {
   });
 });
 
-// eslint-disable-next-line no-unused-vars
 exports.fillDb = (userId, fitData) => new Promise((resolve, reject) => {
   const documents = fitData.map(item => {
     const obj = new GoogleFit({
@@ -70,5 +69,21 @@ exports.fillDb = (userId, fitData) => new Promise((resolve, reject) => {
     });
     return obj;
   });
-  GoogleFit.insertMany(documents, { ordered: false });
+  GoogleFit.insertMany(documents, { ordered: false })
+    .then(result => {
+      resolve(result);
+    })
+    .catch(err => {
+      if (err.name === 'BulkWriteError' && err.code === 11000) {
+        resolve('successfully updated database');
+      } else reject(err);
+    });
+});
+
+exports.fetchFromDb = (userId) => new Promise((resolve, reject) => {
+  GoogleFit.find({ userId })
+    .sort({ date: -1 })
+    .limit(20)
+    .then(fitdata => resolve(fitdata))
+    .catch(err => reject(err));
 });

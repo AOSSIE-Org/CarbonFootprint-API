@@ -145,7 +145,7 @@ export const fitDataDirect = (userId) =>
     })
   }).then(res => res.json());
 
-export const fitDataInDirect = (accessToken) =>
+export const fitDataInDirect = (accessToken, userId) =>
   fetch(`${url}/internal/fit/indirect`, {
     method: "POST",
     headers: {
@@ -154,5 +154,6 @@ export const fitDataInDirect = (accessToken) =>
     },
     body: JSON.stringify({
       accessToken,
+      userId,
     })
   }).then(res => res.json());  
