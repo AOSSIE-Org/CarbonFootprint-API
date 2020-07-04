@@ -1,6 +1,7 @@
 // eslint-disable-next-line import/no-unresolved
 // const redis = require('@framework/redis');
 const axios = require('axios');
+const GoogleFit = require('../../models/googleFitModel');
 
 // const { redisClient } = redis;
 const reqbody = {
@@ -56,4 +57,18 @@ exports.getFitData = (accessToken) => new Promise((resolve, reject) => {
   }).catch(error => {
     reject(error);
   });
+});
+
+// eslint-disable-next-line no-unused-vars
+exports.fillDb = (userId, fitData) => new Promise((resolve, reject) => {
+  const documents = fitData.map(item => {
+    const obj = new GoogleFit({
+      userId,
+      distance: item.distance,
+      steps: item.steps,
+      date: item.date,
+    });
+    return obj;
+  });
+  GoogleFit.insertMany(documents, { ordered: false });
 });

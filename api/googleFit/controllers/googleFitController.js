@@ -1,7 +1,9 @@
 // eslint-disable-next-line import/no-unresolved
 const Logger = require('@framework/Logger');
 
-const { getApiToken, getAccessToken, getFitData } = require('../services/googleFitServices');
+const {
+  getApiToken, getAccessToken, getFitData, fillDb,
+} = require('../services/googleFitServices');
 
 // to obtain fit data when user logins via google-auth0
 exports.fitDataDirect = (req, res) => {
@@ -12,10 +14,16 @@ exports.fitDataDirect = (req, res) => {
         .then(accessToken => {
           getFitData(accessToken)
             .then(data => {
-              res.status(200).json({
-                success: true,
-                data,
-              });
+              fillDb(userId, data)
+                .then((result) => {
+                  console.log(result);
+                }).catch(err => {
+                  console.log(err);
+                });
+              // res.status(200).json({
+              //   success: true,
+              //   data,
+              // });
             }).catch(err => {
               Logger.error(err.response.data.error.message);
               // eslint-disable-next-line max-len

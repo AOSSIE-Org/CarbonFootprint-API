@@ -3,9 +3,8 @@ const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 
 const googleFitSchema = new mongoose.Schema({
-  email: {
+  userId: {
     type: String,
-    trim: true,
     required: true,
   },
   distance: {
@@ -24,6 +23,7 @@ const googleFitSchema = new mongoose.Schema({
   },
 });
 
+googleFitSchema.index({ userId: 1, date: 1 }, { unique: true });
 const googleFit = mongoose.model('googleFit', googleFitSchema);
 
 module.exports = googleFit;
