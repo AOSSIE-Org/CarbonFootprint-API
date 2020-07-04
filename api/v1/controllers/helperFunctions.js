@@ -2,6 +2,7 @@ const NodeGeocoder = require('node-geocoder');
 const axios = require('axios');
 // eslint-disable-next-line import/no-unresolved
 const countryToCode = require('@root/raw_data/countryToCode.json');
+const { Logger } = require('winston');
 
 const options = {
   provider: 'virtualearth',
@@ -41,7 +42,7 @@ const distance = (ori, dest) =>
         longitude: resDest[0].longitude,
       };
     } catch (err) {
-      console.log(err);
+      Logger.error(err);
       reject(new Error('Unable to locate your position'));
     }
     axios
@@ -57,8 +58,10 @@ const distance = (ori, dest) =>
           resolve(data.data.resourceSets[0].resources[0].results[0].travelDistance);
         }
       })
-      .catch(() =>
-        reject(new Error('Unable to find the distance between the origin and destination points.')));
+      .catch(() => {
+        Logger.error('Unable to find the distance between the origin and destination points.');
+        reject(new Error('Unable to find the distance between the origin and destination points.'));
+      });
   });
 
 const nearbyTrainStations = async relativeLocation => {
@@ -89,6 +92,7 @@ const nearbyTrainStations = async relativeLocation => {
         }
       })
       .catch(() => {
+        Logger.error('Unable to find nearby train stations');
         reject(new Error('Unable to find nearby train stations'));
       });
   });
@@ -119,6 +123,7 @@ const transitDistanceInCoordinates = (sourceLocation, destinationLocation) =>
         }
       })
       .catch(() => {
+        Logger.error('Unable to find distance between the origin and destination points.');
         reject(new Error('Unable to find the distance between the origin and destination points.'));
       });
   });
@@ -148,6 +153,7 @@ const railDistanceInCoordinates = (sourceLocation, destinationLocation) =>
         }
       })
       .catch(() => {
+        Logger.error('Unable to find distance between the origin and destination points.');
         reject(new Error('Unable to find the distance between the origin and destination points.'));
       });
   });
