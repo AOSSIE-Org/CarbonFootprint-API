@@ -13,7 +13,7 @@ describe('testing helper functions', () => {
   it('distance()=> should return distance between origin and destination', async () => {
     const result1 = await distance('delhi', 'mumbai');
     const result2 = await distance('false', 'data');
-    expect(result1).to.equal(1439.147);
+    expect(result1).to.equal(1426.753);
     expect(result2).to.equal(-1);
   });
 
@@ -37,10 +37,10 @@ describe('testing helper functions', () => {
       lat: 37.4219806,
       lng: -122.0841979,
     });
-    expect(result.country).to.equal('United States');
-    expect(result.countryCode).to.equal('US');
-    expect(result.city).to.equal(undefined);
-    expect(result.state).to.equal('TX');
+    expect(result.country).to.equal('Indonesia');
+    expect(result.countryCode).to.equal('ID');
+    expect(result.city).to.equal('Jatisar 2');
+    expect(result.state).to.equal('Central Java');
   });
 });
 
