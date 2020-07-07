@@ -54,7 +54,6 @@ exports.getFitData = (accessToken) => new Promise((resolve, reject) => {
       const distance = (day.dataset[1].point.length === 0) ? 0 : day.dataset[1].point[0].value[0].fpVal;
       return { date, steps, distance };
     });
-    console.log(fitData);
     resolve(fitData);
   }).catch(error => {
     reject(error);
