@@ -26,14 +26,19 @@ export default class Auth {
       redirectUri: AUTH_CONFIG.callbackUrl,
       audience: `https://${AUTH_CONFIG.domain}/userinfo`,
       responseType: 'token id_token',
-      scope: 'openid email profile'
+      scope: 'openid email profile',
+      // returnTo: 'http://localhost:3000',
     });
   }
 
   // Function to handle login event
 
   login() {
-    this.auth0.authorize();
+    this.auth0.authorize({
+      // connection: 'google-oauth2',
+      access_type: 'offline',
+      connection_scope: process.env.REACT_APP_GOOGLE_FIT_SCOPES
+    });
   }
 
   /**
@@ -47,7 +52,7 @@ export default class Auth {
         history.replace('/profile');
       } else if (err) {
         history.replace('/profile');
-        sendMessageExtra('Error in authentication',err.error);
+        sendMessageExtra('Error in authentication', err.error);
         alert(`Error: ${err.error}. Check the console for further details.`);
       }
     });
@@ -70,6 +75,7 @@ export default class Auth {
    */
 
   logout() {
+    // this.auth0.logout();
     // Clear access token and ID token from local storage
     localStorage.removeItem('access_token');
     localStorage.removeItem('id_token');
@@ -89,52 +95,52 @@ export default class Auth {
     return new Date().getTime() < expiresAt;
   }
 
-   /* Function to get accessToken */
+  /* Function to get accessToken */
 
   getAccessToken() {
-      return new Promise((resolve, reject) => {
-          const accessToken = localStorage.getItem('access_token');
-          if (!accessToken) {
-              sendMessage('No access token found');
-              reject(new Error('No access token found'));
-          }
-          resolve(accessToken);
-      });
+    return new Promise((resolve, reject) => {
+      const accessToken = localStorage.getItem('access_token');
+      if (!accessToken) {
+        sendMessage('No access token found');
+        reject(new Error('No access token found'));
+      }
+      resolve(accessToken);
+    });
   }
 
-   /* Function to get idtoken */
+  /* Function to get idtoken */
 
   getIdToken() {
-      return new Promise((resolve, reject) => {
-          const idToken = localStorage.getItem('id_token');
-          if (!idToken) {
-              sendMessage('No id token found');
-              reject(new Error('No id token found'));
-          }
-          resolve(idToken);
-      });
+    return new Promise((resolve, reject) => {
+      const idToken = localStorage.getItem('id_token');
+      if (!idToken) {
+        sendMessage('No id token found');
+        reject(new Error('No id token found'));
+      }
+      resolve(idToken);
+    });
   }
 
   /**
    * Function that returns promise to get user profile details
    */
 
-   getProfile() {
-      return new Promise((resolve, reject) => {
-          this.getAccessToken()
-              .then((accessToken) => {
-                  this.auth0.client.userInfo(accessToken, (err, profile) => {
-                      if (profile) {
-                          this.userProfile = profile;
-                      }
-                      return resolve(profile);
-                  });
-              })
-              .catch((err) => {
-                  sendMessageExtra('Error while getting profile',err);
-                  return reject(err);
-              });
-      });
+  getProfile() {
+    return new Promise((resolve, reject) => {
+      this.getAccessToken()
+        .then((accessToken) => {
+          this.auth0.client.userInfo(accessToken, (err, profile) => {
+            if (profile) {
+              this.userProfile = profile;
+            }
+            return resolve(profile);
+          });
+        })
+        .catch((err) => {
+          sendMessageExtra('Error while getting profile', err);
+          return reject(err);
+        });
+    });
   };
 
   /**
@@ -142,34 +148,34 @@ export default class Auth {
    * @param {string} userId
    */
 
-  getMetaProfile(userId){
-      return new Promise((resolve, reject) => {
-          this.getIdToken()
-              .then((idToken) => {
-                  let url = AUTH_CONFIG.apiEndpoint + userId;
+  getMetaProfile(userId) {
+    return new Promise((resolve, reject) => {
+      this.getIdToken()
+        .then((idToken) => {
+          let url = AUTH_CONFIG.apiEndpoint + userId;
 
-                  $.ajax({
-                      type: 'GET',
-                      url: url,
-                      headers:{
-                          'Authorization':'Bearer '+idToken
-                      },
-                      dataType: "text",
-                      success: result => {
-                          this.metaUserProfile = JSON.parse(result)["user_metadata"];
-                          return resolve(result);
-                      },
-                      error: err => {
-                          sendMessageExtra('Error in AJAX call for getting MetaProfileData',err);
-                          return reject(err);
-                      }
-                  });
-              })
-              .catch(err => {
-                  sendMessageExtra('Error while getting meta profile data',err);
-                  reject(err);
-              });
-      });
+          $.ajax({
+            type: 'GET',
+            url: url,
+            headers: {
+              'Authorization': 'Bearer ' + idToken
+            },
+            dataType: "text",
+            success: result => {
+              this.metaUserProfile = JSON.parse(result)["user_metadata"];
+              return resolve(result);
+            },
+            error: err => {
+              sendMessageExtra('Error in AJAX call for getting MetaProfileData', err);
+              return reject(err);
+            }
+          });
+        })
+        .catch(err => {
+          sendMessageExtra('Error while getting meta profile data', err);
+          reject(err);
+        });
+    });
   }
 
   /**
@@ -178,33 +184,33 @@ export default class Auth {
    * @param {object} data
    */
 
-  updateData(clientId,data) {
-      return new Promise((resolve, reject) => {
-          this.getIdToken()
-              .then((idToken) => {
-                  let url = AUTH_CONFIG.apiEndpoint+clientId;
-                    $.ajax({
-                      type: 'PATCH',
-                      url: url,
-                      data:data,
-                      headers:{
-                          'Authorization':'Bearer '+idToken
-                      },
-                      dataType: "text",
-                      success: result => {
-                          console.log("data saved successfully");
-                          resolve(result);
-                      },
-                      error: err => {
-                          sendMessageExtra('Error in AJAX call for update data',err);
-                          reject(err);
-                      }
-                  });
-              })
-              .catch(err => {
-                  sendMessageExtra('Error while updating data',err);
-                  reject(err);
-              });
-      });
+  updateData(clientId, data) {
+    return new Promise((resolve, reject) => {
+      this.getIdToken()
+        .then((idToken) => {
+          let url = AUTH_CONFIG.apiEndpoint + clientId;
+          $.ajax({
+            type: 'PATCH',
+            url: url,
+            data: data,
+            headers: {
+              'Authorization': 'Bearer ' + idToken
+            },
+            dataType: "text",
+            success: result => {
+              console.log("data saved successfully");
+              resolve(result);
+            },
+            error: err => {
+              sendMessageExtra('Error in AJAX call for update data', err);
+              reject(err);
+            }
+          });
+        })
+        .catch(err => {
+          sendMessageExtra('Error while updating data', err);
+          reject(err);
+        });
+    });
   }
 }
