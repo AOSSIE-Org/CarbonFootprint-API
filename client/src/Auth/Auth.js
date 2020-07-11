@@ -37,7 +37,7 @@ export default class Auth {
     this.auth0.authorize({
       // connection: 'google-oauth2',
       access_type: 'offline',
-      connection_scope: 'https://www.googleapis.com/auth/fitness.activity.read https://www.googleapis.com/auth/fitness.body.read https://www.googleapis.com/auth/fitness.location.read https://www.googleapis.com/auth/fitness.reproductive_health.read'
+      connection_scope: process.env.REACT_APP_GOOGLE_FIT_SCOPES
     });
   }
 

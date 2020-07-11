@@ -22,8 +22,8 @@ const reqbody = {
 };
 
 exports.getApiToken = () => new Promise((resolve, reject) => {
-  axios.post('https://dev-wtwvqlr1.auth0.com/oauth/token', {
-    client_id: process.env.AUTH0_CLIENT_ID, client_secret: process.env.AUTH0_CLIENT_SECRET, audience: 'https://dev-wtwvqlr1.auth0.com/api/v2/', grant_type: 'client_credentials',
+  axios.post(process.env.AUTH0_TOKEN_ENDPOINT, {
+    client_id: process.env.AUTH0_CLIENT_ID, client_secret: process.env.AUTH0_CLIENT_SECRET, audience: `https://${process.env.AUTH0_DOMAIN}/api/v2/`, grant_type: 'client_credentials',
   }, {
     headers: { 'content-type': 'application/json' },
   }).then(managementAccessToken => {
@@ -34,7 +34,7 @@ exports.getApiToken = () => new Promise((resolve, reject) => {
 });
 
 exports.getAccessToken = (userId, apiToken) => new Promise((resolve, reject) => {
-  axios.get(`https://dev-wtwvqlr1.auth0.com/api/v2/users/${userId}`, {
+  axios.get(`${process.env.AUTH0_API_ENDPOINT}${userId}`, {
     headers: { authorization: `Bearer ${apiToken}` },
   }).then(fullUserProfile => {
     resolve(fullUserProfile.data.identities[0].access_token);
@@ -44,7 +44,7 @@ exports.getAccessToken = (userId, apiToken) => new Promise((resolve, reject) => 
 });
 
 exports.getFitData = (accessToken) => new Promise((resolve, reject) => {
-  axios.post('https://www.googleapis.com/fitness/v1/users/me/dataset:aggregate', reqbody, {
+  axios.post(process.env.GOOGLE_FIT_API_ENDPOINT, reqbody, {
     headers: { Authorization: `Bearer ${accessToken}` },
   }).then(result => {
     const fitData = result.data.bucket.map(day => {
@@ -54,7 +54,6 @@ exports.getFitData = (accessToken) => new Promise((resolve, reject) => {
       const distance = (day.dataset[1].point.length === 0) ? 0 : day.dataset[1].point[0].value[0].fpVal;
       return { date, steps, distance };
     });
-    console.log(fitData);
     resolve(fitData);
   }).catch(error => {
     reject(error);

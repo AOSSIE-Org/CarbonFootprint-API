@@ -52,7 +52,7 @@ export default class GoogleFit extends Component {
         <GoogleLogin
           className='google-fit-button'
           clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID}
-          scope={process.env.REACT_APP_GOOGLE_SCOPES}
+          scope={process.env.REACT_APP_GOOGLE_FIT_SCOPES}
           onSuccess={this.handleSuccessResponse}
           onFailure={this.handleFailureResponse}
           isSignedIn={false}>
