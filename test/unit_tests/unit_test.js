@@ -13,7 +13,7 @@ describe('testing helper functions', () => {
   it('distance()=> should return distance between origin and destination', async () => {
     const result1 = await distance('delhi', 'mumbai');
     const result2 = await distance('false', 'data');
-    expect(result1).to.equal(1426.753);
+    expect(result1).to.equal(1421.879);
     expect(result2).to.equal(-1);
   });
 
