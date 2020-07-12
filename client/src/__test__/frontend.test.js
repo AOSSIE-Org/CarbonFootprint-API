@@ -53,10 +53,6 @@ describe('Snapshot tests and rendering component without crashing', () => {
 describe('functionality tests', () => {
   it('checking functionality of DailyDetails Component', (done) => {
     const wrapper = shallow(<DailyDetails />, { disableLifecycleMethods: true });
-    expect(wrapper.instance().state.calculation.length).toBe(0);
-    wrapper.find('Icon').simulate('click')
-    wrapper.find('Icon').simulate('click')
-    expect(wrapper.instance().state.calculation.length).toBe(2);
 
     const spyDidMount = jest.spyOn(DailyDetails.prototype, "componentDidMount");
     fetch.mockImplementation(() => {
@@ -76,6 +72,10 @@ describe('functionality tests', () => {
       // updating the wrapper
       wrapper.update();
       expect(wrapper.instance().state.apikey).toBe('dummy apikey 41c65600-78fe-590f-9fed-144d4c667973')
+      expect(wrapper.instance().state.calculation.length).toBe(0);
+      wrapper.find('Icon').simulate('click')
+      wrapper.find('Icon').simulate('click')
+      expect(wrapper.instance().state.calculation.length).toBe(2);
       spyDidMount.mockRestore();
       fetch.mockClear();
       done();
