@@ -22,8 +22,8 @@ test_validation:
 
 build_push:
   stage: build
-  only:
-    - master
+  # only:
+  #   - master
   variables:
     DOCKER_DRIVER: overlay2
     DOCKER_TLS_CERTDIR: ""
