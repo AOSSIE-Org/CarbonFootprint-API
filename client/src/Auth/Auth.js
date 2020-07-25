@@ -2,6 +2,7 @@ import history from '../history';
 import auth0 from 'auth0-js';
 import { AUTH_CONFIG } from './auth0-config';
 import $ from 'jquery'
+import { sendMessage, sendMessageExtra } from '../Sentry/logger';
 
 /* Auth Class */
 

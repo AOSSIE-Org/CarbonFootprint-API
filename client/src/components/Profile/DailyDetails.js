@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Card, Grid, Icon, Button } from "semantic-ui-react";
 import InputData from "./InputData";
 import { getKey, submitData, getRawData } from "./UtilDatafetch";
-import { raw } from "body-parser";
+import Loading from '../Loading/Loading'
 
 export default class DailyDetails extends Component {
   state = {
@@ -10,6 +10,7 @@ export default class DailyDetails extends Component {
     apikey: "",
     total: null,
     loading: false,
+    isLoading: true,
     rawdata: ""
   };
 
@@ -25,8 +26,9 @@ export default class DailyDetails extends Component {
   async componentDidMount() {
     const apikey = await getKey();
     this.setState({ apikey: apikey });
+
     const rawdata = await getRawData();
-    this.setState({ rawdata: rawdata });
+    this.setState({ rawdata: rawdata.item, isLoading: false });
   }
 
   changeCalculation = (index, value) => {
@@ -59,55 +61,58 @@ export default class DailyDetails extends Component {
 
   render() {
     // console.log(this.state.rawdata);
-    const { calculation, apikey, total, loading, rawdata } = this.state;
+    const { calculation, apikey, total, loading, rawdata, isLoading } = this.state;
     return (
       <Grid className="daily-grid">
-        <Grid.Row>
-          <Grid.Column mobile={16} tablet={9} computer={9}>
-            <Card fluid>
-              <Card.Content>
-                <Card.Header>Your Activity</Card.Header>
-              </Card.Content>
-              <Card.Content>
-                <Grid className="daily-grid-calculate">
-                  {calculation.map((i, index) => (
-                    <Grid.Row key={index}>
-                      <InputData
-                        rawdata={rawdata}
-                        apikey={apikey}
-                        index={index}
-                        changeCalculation={this.changeCalculation}
-                      />
+        {isLoading ? (<Loading />) : (
+          <Grid.Row>
+            <Grid.Column mobile={16} tablet={9} computer={9}>
+              <Card fluid>
+                <Card.Content>
+                  <Card.Header>Your Activity</Card.Header>
+                </Card.Content>
+                <Card.Content>
+                  <Grid className="daily-grid-calculate">
+                    {calculation.map((i, index) => (
+                      <Grid.Row key={index}>
+                        <InputData
+                          rawdata={rawdata}
+                          apikey={apikey}
+                          index={index}
+                          changeCalculation={this.changeCalculation}
+                        />
+                      </Grid.Row>
+                    ))}
+                    <Grid.Row>
+                      <Grid.Column mobile={8} computer={8} tablet={8}>
+                        <Icon
+                          link
+                          size="large"
+                          name="add"
+                          onClick={this.addValue}
+                          className="daily-icon"
+                        />
+                      </Grid.Column>
+                      <Grid.Column mobile={8} computer={8} tablet={8}>
+                        <Button
+                          primary
+                          disabled={this.state.total === null}
+                          loading={loading}
+                          onClick={this.submitToday}
+                          floated="right"
+                          className="profile-button"
+                        >
+                          Total {isNaN(total) ? "" : total}
+                        </Button>
+                      </Grid.Column>
                     </Grid.Row>
-                  ))}
-                  <Grid.Row>
-                    <Grid.Column mobile={8} computer={8} tablet={8}>
-                      <Icon
-                        link
-                        size="large"
-                        name="add"
-                        onClick={this.addValue}
-                        className="daily-icon"
-                      />
-                    </Grid.Column>
-                    <Grid.Column mobile={8} computer={8} tablet={8}>
-                      <Button
-                        primary
-                        disabled={this.state.total === null}
-                        loading={loading}
-                        onClick={this.submitToday}
-                        floated="right"
-                        className="profile-button"
-                      >
-                        Total {isNaN(total) ? "" : total}
-                      </Button>
-                    </Grid.Column>
-                  </Grid.Row>
-                </Grid>
-              </Card.Content>
-            </Card>
-          </Grid.Column>
-        </Grid.Row>
+                  </Grid>
+                </Card.Content>
+              </Card>
+            </Grid.Column>
+          </Grid.Row>
+        )}
+
       </Grid>
     );
   }

@@ -60,7 +60,9 @@ export default class Structured extends Component {
             }).then(()=>{
                 this.setState({ redirect: true });
             })
-            .catch(err=>console.log(err));
+            .catch( err => { 
+                console.log(err);
+            });
         }
 
     }

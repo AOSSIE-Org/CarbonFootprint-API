@@ -131,4 +131,29 @@ export const getData = () =>
   }).then(res => res.json());
 
 export const getRawData = () =>
-  fetch(`${url}/internal/rawdata`, { headers: headers }).then(res => res.json());  
+  fetch(`${url}/internal/rawdata`, { headers: headers }).then(res => res.json());
+
+export const fitDataDirect = (userId) =>
+  fetch(`${url}/internal/fit/direct`, {
+    method: "POST",
+    headers: {
+      ...headers,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      userId,
+    })
+  }).then(res => res.json());
+
+export const fitDataInDirect = (accessToken, userId) =>
+  fetch(`${url}/internal/fit/indirect`, {
+    method: "POST",
+    headers: {
+      ...headers,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      accessToken,
+      userId,
+    })
+  }).then(res => res.json());  

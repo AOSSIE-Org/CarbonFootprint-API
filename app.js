@@ -17,6 +17,10 @@ const helmet = require('helmet');
 const Logger = require('@framework/Logger');
 const cors = require('cors');
 
+const Sentry = require('@sentry/node');
+
+Sentry.init({ dsn: `${process.env.SENTRY_DSN}` });
+
 // database setup
 const mongoose = require('mongoose');
 
@@ -52,10 +56,16 @@ const suggestedData = require('./routes/suggestedData');
 const auth = require('./api/auth/routes/apikeyRoute');
 const individualEmission = require('./api/user/routes/dailyEmissionRoute');
 const swagger = require('./api/v1/routes/swagger');
+const fitData = require('./api/googleFit/routes/googleFitRoute');
 
 const Auth = require('./api/auth/services/authServices');
 
 const app = express();
+
+// The request handler must be the first middleware on the app
+app.use(Sentry.Handlers.requestHandler());
+
+
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
@@ -123,6 +133,10 @@ v1.use('/', emissions);
 const rawdataRoute = express.Router();
 rawdataRoute.use('/', rawData);
 
+// routes for accessing google fit data
+const fitdataRoute = express.Router();
+fitdataRoute.use('/', fitData);
+
 // route for documentation
 app.use('/api/docs', swagger);
 
@@ -141,13 +155,16 @@ app.use('/suggestedData', suggestedData);
 
 // Use v1 router for all the API requests adhering to version 1
 app.use('/v1', v1);
-// Use v2 router to access rawdata
-app.use('/internal', rawdataRoute);
+// Use internal router to make all the internal requests
+app.use('/internal', rawdataRoute, fitdataRoute);
 // Use authroute for the requests regarding user authentication
 app.use('/auth', authroute);
 
 // show the API dashboard
 app.use('/', index);
+
+// The error handler must be before any other error middleware and after all controllers
+app.use(Sentry.Handlers.errorHandler());
 
 // error handler
 app.use((err, req, res) => {

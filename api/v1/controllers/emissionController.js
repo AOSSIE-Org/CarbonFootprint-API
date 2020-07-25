@@ -44,35 +44,38 @@ exports.flight = (req, res) => {
   if (passengers < 0) {
     return res.status(400).json({ success: false, message: 'Passengers should not be negative' });
   }
-  if (airports[origin] && airports[destination]) {
-    const orig = airports[origin];
-    const dest = airports[destination];
-    let dis = getDistanceFromLatLon(orig.lat, orig.lon, dest.lat, dest.lon);
-    dis *= 0.539957; // convert distance in km to nautical miles
-    if (!model) {
-      if (type === 'international') {
-        model = 'A380';
+  if (origin && destination) {
+    if (airports[origin] && airports[destination]) {
+      const orig = airports[origin];
+      const dest = airports[destination];
+      let dis = getDistanceFromLatLon(orig.lat, orig.lon, dest.lat, dest.lon);
+      dis *= 0.539957; // convert distance in km to nautical miles
+      if (!model) {
+        if (type === 'international') {
+          model = 'A380';
+        }
+        if (type === 'domestic') {
+          model = 'A320';
+        }
       }
-      if (type === 'domestic') {
-        model = 'A320';
-      }
-    }
-    calculate(model, 'Default', dis, passengers)
-      .then(emissions => {
-        Logger.info(`\nTotal Emissions: ${emissions}`);
-        res.status(200).json({
-          success: true,
-          emissions,
-          unit: 'kg',
+      calculate(model, 'Default', dis, passengers)
+        .then(emissions => {
+          Logger.info(`\nTotal Emissions: ${emissions}`);
+          res.status(200).json({
+            success: true,
+            emissions,
+            unit: 'kg',
+          });
+        })
+        .catch(err => {
+          Logger.error(`Error: ${err}`);
+          return res.status(404).json({ success: false, message: `Unable to find emissions for airplane model ${model}` });
         });
-      })
-      .catch(err => {
-        Logger.error(`Error: ${err}`);
-        return res.status(404).json({ success: false, message: `Unable to find emissions for airplane model ${model}` });
-      });
+    } else {
+      return res.status(400).json({ success: false, message: 'Unable to find the airports. Please use IATA airport codes only' });
+    }
   } else {
-    res.sendJsonError('', 400);
-    return res.status(400).json({ success: false, message: 'Unable to find the airports. Please use IATA airport codes only' });
+    return res.status(400).json({ success: false, message: 'Origin and destination need to be entered' });
   }
 };
 
