@@ -16,6 +16,7 @@ import Unstructured from './components/DataUpload/Unstructured';
 import DataVerify from './components/DataUpload/DataVerify';
 import Footer from './components/Footer/Footer';
 import DailyDetails from './components/Profile/DailyDetails';
+import People from './components/Profile/People';
 import './App.css'
 
 const auth = new Auth();
@@ -32,7 +33,7 @@ export default class App extends React.Component {
             <BrowserRouter>
                 <div className="app-main">
                     <Header auth={auth} />
-                     <Body>
+                    <Body>
                         <Switch>
                             <Route exact path="/" component={Visuals} />
                             <Route path="/visuals/:type" component={Graph} />
@@ -62,7 +63,7 @@ export default class App extends React.Component {
                                     <Redirect to="/" />
                                 ) : (
                                         <DataUpload auth={auth} />
-                                    )   
+                                    )
                             )} />
                             <Route path="/TransportComparer" render={(props) => (
                                 !auth.isAuthenticated() ? (
@@ -92,6 +93,13 @@ export default class App extends React.Component {
                                         <Unstructured auth={auth} />
                                     )
                             )} />
+                            <Route exact path="/searchPeople" render={(props) => (
+                                !auth.isAuthenticated() ? (
+                                    <Redirect to="/" />
+                                ) : (
+                                        <People auth={auth} />
+                                    )
+                            )} />
                             <Route path="/callback" render={(props) => {
                                 handleAuthentication(props);
                                 return <Loading {...props} />
@@ -99,7 +107,7 @@ export default class App extends React.Component {
                             <Route component={NotFound} />
                         </Switch>
                     </Body>
-                    <Footer/>
+                    <Footer />
                 </div>
             </BrowserRouter>
         );
