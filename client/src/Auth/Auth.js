@@ -149,7 +149,7 @@ export default class Auth {
                         type: 'GET',
                         url: url,
                         headers: {
-                            'Authorization': 'Bearer ' + idToken
+                            'Authorization': 'Bearer '+ idToken
                         },
                         dataType: "text",
                         success: result => {
@@ -183,7 +183,7 @@ export default class Auth {
                         url: url,
                         data: data,
                         headers: {
-                            'Authorization': 'Bearer ' + idToken
+                            'Authorization': 'Bearer '+ idToken
                         },
                         dataType: "text",
                         success: result => {
@@ -211,7 +211,7 @@ export default class Auth {
         return new Promise((resolve, reject) => {
             this.getIdToken()
                 .then((idToken) => {
-                    let url = 'https://' + AUTH_CONFIG.domain + '/api/v2/users?q=user_metadata.nickname:"' + name + '"&search_engine=v3'
+                    let url = 'https://' + AUTH_CONFIG.domain + '/api/v2/users?q=user_metadata.nickname:"' + name + '"&user_metadata.profile:"true"&search_engine=v3'
                     let encodedUrl = encodeURI(url);
                     $.ajax({
                         type: 'GET',
