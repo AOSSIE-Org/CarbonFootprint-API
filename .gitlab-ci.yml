@@ -43,8 +43,8 @@ deploy_application:
   # when: manual
   # only:
   #   - master
-  # tags:
-  #   - carbon-runner
+  tags:
+    - carbon-runner
   before_script:
     - apk add --no-cache openssh-client
     - mkdir -p ~/.ssh
