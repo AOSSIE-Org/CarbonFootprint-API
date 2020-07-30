@@ -30,17 +30,18 @@ mongoose.set('useNewUrlParser', true);
 mongoose.set('useUnifiedTopology', true);
 // connect to the database
 mongoose.connect(
-  Logger.info(process.env.DB_HOST);
   `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}/${process.env.DB_NAME}`,
 );
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
+  Logger.info(process.env.DB_HOST);
   Logger.info('Connection to database established successfully');
 });
 
 // If the connection throws an error
 mongoose.connection.on('error', err => {
+  Logger.info(process.env.DB_HOST);
   Logger.error(`Error connecting to database: ${err}`);
 });
 
