@@ -41,7 +41,7 @@ mongoose.connection.on('connected', () => {
 
 // If the connection throws an error
 mongoose.connection.on('error', err => {
-  Logger.info(process.env.DB_HOST,"hello friends");
+  Logger.info(process.env.DB_HOST, 'hello friends');
   Logger.error(`Error connecting to database: ${err}`);
 });
 
