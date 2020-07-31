@@ -17,9 +17,6 @@ const helmet = require('helmet');
 const Logger = require('@framework/Logger');
 const cors = require('cors');
 
-// const Sentry = require('@sentry/node');
-
-// Sentry.init({ dsn: `${process.env.SENTRY_DSN}` });
 
 // database setup
 const mongoose = require('mongoose');
@@ -49,7 +46,9 @@ mongoose.connection.on('error', err => {
 mongoose.connection.on('disconnected', () => {
   Logger.info('Database disconnected');
 });
+const Sentry = require('@sentry/node');
 
+Sentry.init({ dsn: `${process.env.SENTRY_DSN}` });
 // get different routes required
 const index = require('./routes/index');
 const emissions = require('./api/v1/routes/emissionRoutes');
