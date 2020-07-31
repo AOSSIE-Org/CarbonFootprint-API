@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    image: "aossie/carbonfootprint-api"
+    image: "aossie/carbonfootprint-api:production"
     ports:
       - "3080:3080"
   redis:
