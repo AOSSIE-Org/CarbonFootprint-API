@@ -17,9 +17,9 @@ const helmet = require('helmet');
 const Logger = require('@framework/Logger');
 const cors = require('cors');
 
-const Sentry = require('@sentry/node');
+// const Sentry = require('@sentry/node');
 
-Sentry.init({ dsn: `${process.env.SENTRY_DSN}` });
+// Sentry.init({ dsn: `${process.env.SENTRY_DSN}` });
 
 // database setup
 const mongoose = require('mongoose');
