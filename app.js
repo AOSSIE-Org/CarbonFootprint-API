@@ -48,7 +48,7 @@ mongoose.connection.on('disconnected', () => {
 });
 const Sentry = require('@sentry/node');
 
-Sentry.init({ dsn: `${process.env.SENTRY_DSN}` });
+Sentry.init({ dsn: '' });
 // get different routes required
 const index = require('./routes/index');
 const emissions = require('./api/v1/routes/emissionRoutes');
