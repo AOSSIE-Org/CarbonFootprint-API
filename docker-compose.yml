@@ -4,5 +4,7 @@ services:
     image: "aossie/carbonfootprint-api:production"
     ports:
       - "3080:3080"
+    env_file:
+      - ./.env  
   redis:
     image: "redis"
