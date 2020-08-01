@@ -34,13 +34,11 @@ mongoose.connect(
 
 // When successfully connected
 mongoose.connection.on('connected', () => {
-  Logger.info(process.env.DB_HOST);
   Logger.info('Connection to database established successfully');
 });
 
 // If the connection throws an error
 mongoose.connection.on('error', err => {
-  Logger.info(process.env.DB_HOST, 'hello friends');
   Logger.error(`Error connecting to database: ${err}`);
 });
 
