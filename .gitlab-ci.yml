@@ -22,8 +22,8 @@ test_validation:
 
 build_push:
   stage: build
-  # only:
-  #   - master
+  only:
+    - master
   variables:
     DOCKER_DRIVER: overlay2
     DOCKER_TLS_CERTDIR: ""
@@ -40,11 +40,9 @@ build_push:
 
 deploy_application:
   stage: deploy
-  # when: manual
-  # only:
-  #   - master
-  # tags:
-  #   - carbon-runner
+  when: manual
+  only:
+    - master
   before_script:
     - apk add --no-cache openssh-client
     - mkdir -p ~/.ssh
