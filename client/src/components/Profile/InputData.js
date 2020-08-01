@@ -141,8 +141,7 @@ export default class InputData extends Component {
           </Grid.Column>
           {this.state.emissions !== undefined && (
             <Grid.Column
-              className="counter"
-              className="column-emission-value"
+              className="counter column-emission-value"
               floated="right"
               mobile={4}
               computer={4}

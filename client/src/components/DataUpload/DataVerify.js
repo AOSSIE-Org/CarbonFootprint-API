@@ -31,7 +31,7 @@ export default class DataVerify extends Component {
         this.handleApprove = this.handleApprove.bind(this);
         this.handleReject = this.handleReject.bind(this);
     }
-    
+
     componentDidMount() {
         this.props.auth.getProfile()
             .then((profile) => {
@@ -48,9 +48,9 @@ export default class DataVerify extends Component {
             .catch((err) => {
                 console.log(err);
             });
-            axios.get(`${API_URL_SERVER}/suggestedData/fetchData`).then(response => {
-                this.setState({ data: response.data });
-            });
+        axios.get(`${API_URL_SERVER}/suggestedData/fetchData`).then(response => {
+            this.setState({ data: response.data });
+        });
     }
 
     /**
@@ -76,12 +76,12 @@ export default class DataVerify extends Component {
    */
     render() {
         const { data } = this.state;
-    
+
         return (
             <Grid className="verify-grid" >
                 <Grid.Row>
 
-                <Grid.Column mobile={16} tablet={3} computer={3}>
+                    <Grid.Column mobile={16} tablet={3} computer={3}>
                         <ProfilePicture
                             profilePicture={this.state.profilePicture}
                             nickname={this.state.nickname}
@@ -130,11 +130,5 @@ export default class DataVerify extends Component {
                 </Grid.Row>
             </Grid>
         )
-    }
-}
-const styles = {
-    td: {
-        paddingLeft: '20px',
-        paddingRight: '20px'
     }
 }

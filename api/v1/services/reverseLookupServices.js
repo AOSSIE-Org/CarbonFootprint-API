@@ -1,8 +1,9 @@
 /* eslint-disable no-loop-func */
+// eslint-disable-next-line import/no-unresolved
+const Logger = require('@framework/Logger');
 const Emission = require('../../models/emissionModel');
 // get the helper functions
 const Helper = require('../controllers/helperFunctions');
-const Logger = require('@framework/Logger');
 
 const getTreesReverseLookup = emissions =>
   new Promise((resolve, reject) => {

@@ -79,7 +79,7 @@ const find = (component, region, quantity) => {
               // return an error if component is not found
               // eslint-disable-next-line prefer-promise-reject-errors
               Logger.error(`Unable to find component ${component} for ${region}`);
-              reject(`Unable to find component ${component} for ${region}`);
+              reject(new Error(`Unable to find component ${component} for ${region}`));
             }
           },
         );
