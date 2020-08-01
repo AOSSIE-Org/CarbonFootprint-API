@@ -8,7 +8,7 @@ COPY package*.json /usr/src/app/
 COPY client/package*.json /usr/src/app/client/
 
 RUN npm install --production
-RUN npm install --prefix client
+RUN npm install --prefix client --production
 
 # Bundle app source
 COPY . /usr/src/app
