@@ -13,13 +13,13 @@ describe('testing helper functions', () => {
   it('distance()=> should return distance between origin and destination', async () => {
     const result1 = await distance('delhi', 'mumbai');
     const result2 = await distance('false', 'data');
-    expect(result1).to.equal(1439.147);
+    expect(result1).to.be.within(1415, 1425);
     expect(result2).to.equal(-1);
   });
 
   it('getDistanceFromLatLon()=> should calculate distance from latitude and longitude of place', () => {
     const result = getDistanceFromLatLon(4.74, -6.66, 39.40, -119.25);
-    expect(result).to.equal(11573.767348098268);
+    expect(result).to.be.within(11570, 11580);
   });
 
   it('nearbyTrainStations()=> should return all the nearby stations of a place by its latitude and longitude', async () => {
@@ -37,10 +37,10 @@ describe('testing helper functions', () => {
       lat: 37.4219806,
       lng: -122.0841979,
     });
-    expect(result.country).to.equal('United States');
-    expect(result.countryCode).to.equal('US');
-    expect(result.city).to.equal(undefined);
-    expect(result.state).to.equal('TX');
+    expect(result.country).to.equal('Indonesia');
+    expect(result.countryCode).to.equal('ID');
+    expect(result.city).to.equal('Jatisar 2');
+    expect(result.state).to.equal('Central Java');
   });
 });
 

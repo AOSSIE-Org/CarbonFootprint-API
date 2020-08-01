@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Icon, Menu } from 'semantic-ui-react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { UI_URL } from '../../config/config';
 
 /* Extended react.Component class as Sidebar */
@@ -14,7 +14,7 @@ export default class Sidebar extends Component {
 
   constructor() {
     super();
-    this.state = { activeItem: '',url : `${UI_URL}/api/docs` };
+    this.state = { activeItem: '', url: `${UI_URL}/api/docs` };
     this.handleItemClick = this.handleItemClick.bind(this);
   }
 
@@ -29,7 +29,7 @@ export default class Sidebar extends Component {
    */
 
   render() {
-    const { activeItem,url } = this.state;
+    const { activeItem, url } = this.state;
     return (
       <Menu fluid vertical className="sidebar-body">
         <Menu.Item
@@ -62,53 +62,47 @@ export default class Sidebar extends Component {
           name="updates"
           active={activeItem === 'updates'}
         >
-        <a href="http://docs.carbonhub.org" target="_blank" rel="noopener noreferrer">
-          <span>
-            <Icon name="newspaper" /> API Documentation
+          <a href="http://docs.carbonhub.org" target="_blank" rel="noopener noreferrer">
+            <span>
+              <Icon name="newspaper" /> API Documentation
           </span>
-        </a>
+          </a>
         </Menu.Item>
 
         <Menu.Item
-          name= "Data Upload"
-          active= {activeItem === 'Data Upload'}
+          name="Data Upload"
+          active={activeItem === 'Data Upload'}
         >
-        <Link to= {"/DataUpload"}>
-          <span>
-            <Icon name= "upload" /> Data Upload
+          <Link to={"/DataUpload"}>
+            <span>
+              <Icon name="upload" /> Data Upload
           </span>
-        </Link>
+          </Link>
         </Menu.Item>
 
         <Menu.Item
-          name= "Swagger Docs"
-          active= {activeItem === 'Data Upload'}
+          name="Swagger Docs"
+          active={activeItem === 'Data Upload'}
         >
-        <a href={url} target="_blank" rel="noopener noreferrer">
-          <span>
-            <Icon name="wpforms" /> Swagger Documentation
+          <a href={url} target="_blank" rel="noopener noreferrer">
+            <span>
+              <Icon name="wpforms" /> Swagger Documentation
           </span>
-        </a>
+          </a>
         </Menu.Item>
 
         <Menu.Item
-          name= "Verify Data"
-          active= {activeItem === 'Verify Data'}
+          name="Verify Data"
+          active={activeItem === 'Verify Data'}
         >
-        <Link to= {"/dataVerify"}>
-          <span>
-            <Icon name= "check circle" /> Verify Data
+          <Link to={"/dataVerify"}>
+            <span>
+              <Icon name="check circle" /> Verify Data
           </span>
-        </Link>
+          </Link>
         </Menu.Item>
 
       </Menu>
     );
-  }
-}
-
-const styles = {
-  cardMargin: {
-    marginBottom: "15px"
   }
 }

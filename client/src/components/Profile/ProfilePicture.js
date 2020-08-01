@@ -70,14 +70,3 @@ export default class ProfilePicture extends Component {
     );
   }
 }
-
-const styles = {
-  imageContainer: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    width: '100%',
-    background: '#3498db',
-    height: '110px'
-  }
-};
