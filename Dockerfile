@@ -7,12 +7,12 @@ WORKDIR /usr/src/app
 COPY package*.json /usr/src/app/
 COPY client/package*.json /usr/src/app/client/
 
-RUN npm install --only=prod
-# RUN npm install --prefix client --only=prod
+RUN npm install
+RUN npm install --prefix client
 
 # Bundle app source
 COPY . /usr/src/app
-# RUN npm run build --prefix client
+RUN npm run build --prefix client
 
 # Add your preference
 CMD [ "npm", "start" ]
