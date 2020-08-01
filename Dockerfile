@@ -7,7 +7,7 @@ WORKDIR /usr/src/app
 COPY package*.json /usr/src/app/
 COPY client/package*.json /usr/src/app/client/
 
-RUN npm install
+RUN npm install --production
 RUN npm install --prefix client
 
 # Bundle app source
