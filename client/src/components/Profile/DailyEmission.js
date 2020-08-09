@@ -6,6 +6,8 @@ import moment from 'moment';
 import { Responsive, Segment, Header, Icon, Divider, Grid, Button } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import { getData } from './UtilDatafetch';
+import Emission from '../EmissionGraph/Emission';
+import Steps from '../StepsGraph/Steps';
 
 class DailyEmission extends Component {
 
@@ -14,6 +16,8 @@ class DailyEmission extends Component {
     this.state = {
       noOfMonths: 9,
       width: 550,
+      value: 'Emissions',
+      statement: 'Your CO2 emission for the past months'
     }
   }
   componentDidMount() {
@@ -415,7 +419,10 @@ class DailyEmission extends Component {
         })();
     });
   };
-
+  handleChange = (event) => { this.setState({ value: event.target.value }); }
+  componentDidMount(){
+    console.log(this.state);
+  }
   render() {
     return (
       // <div style={{background: "#FFFFFF"}}>
@@ -423,14 +430,19 @@ class DailyEmission extends Component {
         <Header as="h3" style={{ display: 'flex' }}>
           <Icon name="leaf" />
           <Header.Content>
-            Emissions Chart
+            <select value={this.state.value} onChange={this.handleChange} style={{ float:'left',padding:'5px' }}>
+              <option value="Emissions">Emissions</option>
+              <option value="CO2">Emissions saved</option>
+              <option value="Steps">Steps</option>
+            </select>
+            <br/><br/>
             <Header.Subheader>Your CO2 emission for the past months</Header.Subheader>
           </Header.Content>
           <Button
             as={Link}
             to="/profile/enter"
             color="twitter"
-            style={{ marginLeft: 'auto' }}
+            style={{ marginLeft: 'auto',marginBottom: 'auto' }}
             ref="entryModal">
             <Icon name="add" />
             Today's entry
@@ -439,7 +451,9 @@ class DailyEmission extends Component {
         <Divider />
         <Grid centered columns={1}>
           <Grid.Column style={{ textAlign: 'center' }}>
-            <div ref="jsHeatmap" style={{ margin: '-36px auto' }} />
+            { this.state.value==='Emissions' && <div ref="jsHeatmap" style={{ margin: '-36px auto' }} />}
+            { this.state.value==='CO2' && <Emission />}
+            { this.state.value==='Steps' && <Steps />}
           </Grid.Column>
         </Grid>
       </Responsive>

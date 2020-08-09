@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Form, Image, Modal, Icon, Header, Button } from 'semantic-ui-react';
+import { Form, Image, Modal, Icon, Header, Button, Checkbox } from 'semantic-ui-react';
 import './Profile.css'
 
 /* Options provided for the gender in edit modal */
@@ -122,7 +122,7 @@ export default class ProfileEdit extends Component {
   componentDidUpdate(nextProps) {
     if (nextProps.profile !== this.state.profile) {
       this.setState({ profile: nextProps.profile });
-      if(Object.keys(nextProps.profile).length !== 0)
+      if (Object.keys(nextProps.profile).length !== 0)
         this.setMetaData(nextProps.profile.sub);
     }
   }
@@ -220,6 +220,13 @@ export default class ProfileEdit extends Component {
                     placeholder="Website"
                     width={6}
                   />
+                </Form.Group>
+                <Form.Group>
+                  <Checkbox label='Make profile public' checked={metaProfile.profile === true} value={metaProfile.profile} onClick={(e, {value}) => {
+                      let MetaData = this.state.metaProfile;
+                      MetaData.profile = !value ;
+                      this.handleChange(MetaData);
+                    }}/>
                 </Form.Group>
                 <Form.TextArea
                   label="About"

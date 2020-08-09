@@ -100,9 +100,20 @@ export default class Sidebar extends Component {
               <Icon name="check circle" /> Verify Data
           </span>
           </Link>
+          <Link to={"/searchPeople"}>
+            <span>
+              <Icon name="check circle" /> Find People
+          </span>
+          </Link>
         </Menu.Item>
 
       </Menu>
     );
+  }
+}
+
+const styles = {
+  cardMargin: {
+    marginBottom: "15px"
   }
 }
