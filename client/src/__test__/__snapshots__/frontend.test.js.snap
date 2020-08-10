@@ -132,6 +132,17 @@ exports[`Snapshot tests and rendering component without crashing compare snapsho
            Verify Data
         </span>
       </a>
+      <a
+        href="/searchPeople"
+      >
+        <span>
+          <i
+            aria-hidden="true"
+            class="check circle icon"
+          />
+           Find People
+        </span>
+      </a>
     </div>
   </div>
   )
