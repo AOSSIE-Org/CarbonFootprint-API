@@ -14,8 +14,8 @@ test_validation:
     paths:
       - node_modules/
   before_script:
-    - npm install
-    - npm install --prefix client
+    - npm ci
+    - npm ci --prefix client
   script:
     - npm test
     - npm run lint:test
@@ -35,7 +35,7 @@ build_push:
       command: ["dockerd-entrypoint.sh"]
   script:
     - docker login -u ${REGISTRY_USER} -p ${REGISTRY_PASSWORD}
-    - docker build --build-arg REACT_APP_SENTRY_DSN --build-arg REACT_APP_AUTH0_DOMAIN --build-arg REACT_APP_AUTH0_CLIENT_ID        --build-arg REACT_APP_AUTH0_CALLBACK_URL --build-arg REACT_APP_AUTH0_TOKEN_ENDPOINT --build-arg REACT_APP_AUTH0_API_ENDPOINT --build-arg REACT_APP_GOOGLE_CLIENT_ID= --build-arg REACT_APP_GOOGLE_FIT_SCOPES . -t aossie/carbonfootprint-api:production
+    - docker build --build-arg REACT_APP_SENTRY_DSN --build-arg REACT_APP_AUTH0_DOMAIN --build-arg REACT_APP_AUTH0_CLIENT_ID --build-arg REACT_APP_AUTH0_CALLBACK_URL --build-arg REACT_APP_AUTH0_TOKEN_ENDPOINT --build-arg REACT_APP_AUTH0_API_ENDPOINT --build-arg REACT_APP_GOOGLE_CLIENT_ID --build-arg REACT_APP_GOOGLE_FIT_SCOPES . -t aossie/carbonfootprint-api:production
     - docker push aossie/carbonfootprint-api:production
 
 deploy_application:
