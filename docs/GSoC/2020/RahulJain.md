@@ -49,14 +49,20 @@ Week 9:
 
 Week 10:
 - the task was to write scripts to take backup of mongodb databse and then store this backup in google buckets at regular intervals.
-To do this regularly I was asked to write cron-job for this task therfore the next half of week was devoted writing cron jobs. To store mongodump two buckets were created, private nad public. private bucket is used to store all the user specific data and public bucket is used to store raw data.
+To do this regularly I was asked to write cron-job for this task therfore the next half of week was devoted writing cron jobs. To store mongodump, two buckets were created, one is private and other one is public. private bucket is used to store all the user specific data and public bucket is used to store raw data.
 
 Week 11:
-- the task of this week was to dockerize the cron job and run it as an independent service apart from our main server. i wrote dockerfile and made other related necessary changes.
+- the task of this week was to dockerize the cron job and run it as an independent service apart from our main server. i wrote dockerfile and made respective changes in gitlab-ci file.
 
 Week 12:
 - I used already made google-fit react components and connected them with the APIs written before. I displayed the fit data of a particular user in the form of bar graph. coming to the end of this week I prepared the work report of my entire Gsoc 2020 journey.  
 
+<br/>
+<table>
+<tr><td align="center"> <img src="../../gsoc2020.png" /> </td></tr>
+<tr><td align="center"> <b>This profile page shows the steps data of a user of last week represented using bar graph</b> </td></tr>
+</table>
+<br/>
 
 ### Merge Requests
 
@@ -74,9 +80,9 @@ Week 12:
 	- Fixed breaking changes after restructuring.
 
 - [**MR !216**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/216)(**merged**)
-  - Created new schema for storing google fit data.
-	- written APIs to fetch google-fit data
-	- written helper functions to fetch and store data in database.
+	- Created new schema for storing google fit data.
+	- Written APIs to fetch google-fit data.
+	- Written helper functions to fetch and store data in database.
 
 - [**MR !222**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/222)(**merged**)	
 	- fixed issue [188](https://gitlab.com/aossie/CarbonFootprint-API/-/issues/188) 
@@ -100,4 +106,7 @@ Week 12:
 
 - [**MR !239**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/239)(**pending**)
 	- connect google-fit backend with frontend
+
+- [**MR !240**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/240)(**pending**)
+	- written GSOC 2020 work report
 
