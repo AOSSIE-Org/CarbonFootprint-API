@@ -12,9 +12,9 @@
 - **Project Documentation:** https://docs.carbonhub.org
 
 ### Google Summer of Code '20:
-_This year the focus was to restructure the backend and add some brand new features. apart from this there was also need to smoothen the deployment process via gitlab CI/CD and take database backup regularly. new features like googlefit, Sentry were integrated._
+_This year the focus was to restructure the backend and add some brand new features. apart from this there was also need to smoothen the deployment process via gitlab CI/CD and take database backup regularly. new features like googlefit, Sentry were integrated. I knew these 3 months are going to be super excited for me and will bring a lot of challenging opportunities for me. During these three months i worked mainly on backend side of the app and fixed some ui bugs in frontend. my entire working period passed smoothly except at one place i faced some problems but with help of the mentors i managed to overcome the issue and finally it was done. i would like to give shoutout to my both mentors Sai Sankar Gochhayat and Saurabh Thakur for their helping hand and guiding me whenever i need them._
 
-I knew these 3 months are going to be super excited for me and will bring a lot of challenging opportunities for me. Before the coding period began I interacted with my mentors and tried to become friendly with them. After the introductory meeting we started to plan the work and they suggested me to make trello cards for my work. It was very nice idea and it helped me to get my work done on time.
+Before the coding period began I interacted with my mentors and tried to become friendly with them. After the introductory meeting we started to plan the work and they suggested me to make trello cards for my work. It was very nice idea and it helped me to get my work done on time.
 
 This is the entire summary of my work:-
 
@@ -60,44 +60,44 @@ Week 12:
 
 ### Merge Requests
 
-- [**MR !188**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/188)(_**merged**_)
+- [**MR !188**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/188)(**merged**)
 	- this PR improved error handling while we add daily-emissions in emissions chart. 
 	- complete set of new APIs were written for dynamic rendering of dropdown contents.
 
-- [**MR !211**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/211)(_**merged**_)
+- [**MR !211**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/211)(**merged**)
 	- Added some much needed backend tests.
 	- Configured enzyme for frontend testing and written some frontend tests.
 
-- [**MR !212**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/212)(_**merged**_)
+- [**MR !212**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/212)(**merged**)
 	- Done complete restructuring of backend side.
 	- Increased the granularity of APIs by adding services to each set of APIs.
 	- Fixed breaking changes after restructuring.
 
-- [**MR !216**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/216)(_**merged**_)
+- [**MR !216**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/216)(**merged**)
   - Created new schema for storing google fit data.
 	- written APIs to fetch google-fit data
 	- written helper functions to fetch and store data in database.
 
-- [**MR !222**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/222)(_**merged**_)	
+- [**MR !222**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/222)(**merged**)	
 	- fixed issue [188](https://gitlab.com/aossie/CarbonFootprint-API/-/issues/188) 
 
-- [**MR !224**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/224)(_**merged**_)
-	- updated readme 
-
-- [**MR !223**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/223)(_**merged**_)
+- [**MR !223**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/223)(**merged**)
 	- fixed issue [190](https://gitlab.com/aossie/CarbonFootprint-API/-/issues/190)
 	- fixed failing frontend tests
 
-- [**MR !229**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/229)(_**merged**_)
+- [**MR !224**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/224)(**merged**)
+	- updated readme 
+
+- [**MR !229**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/229)(**merged**)
 	- automated the process of deployment
 
-- [**MR !234**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/234)(_**merged**_)
-	- fixed failing tests
-
-- [**MR !231**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/231)(_**merged**_)
+- [**MR !231**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/231)(**merged**)
 	- added cron-job to take backup of database and save mongodump to google buckets
 	- dockerize cron job
 
-- [**MR !239**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/239)(_**merged**_)
+- [**MR !234**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/234)(**pending**)
+	- fixed failing tests
+
+- [**MR !239**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/239)(**pending**)
 	- connect google-fit backend with frontend
 
