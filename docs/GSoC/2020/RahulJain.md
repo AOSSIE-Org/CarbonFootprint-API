@@ -12,14 +12,14 @@
 - **Project Documentation:** https://docs.carbonhub.org
 
 ### Google Summer of Code '20:
-_This year the focus was to restructure the backend and add some brand new features. new features like googlefit, Sentry were integrated._
+_This year the focus was to restructure the backend and add some brand new features. apart from this there was also need to smoothen the deployment process via gitlab CI/CD and take database backup regularly. new features like googlefit, Sentry were integrated._
 
-Before the coding period began I interacted with my mentors and tried to become friendly with them. After the introductory meeting we started to plan the work and they suggested me to make trello cards for my work. It was very nice idea and it helped me to get my work done on time.
+I knew these 3 months are going to be super excited for me and will bring a lot of challenging opportunities for me. Before the coding period began I interacted with my mentors and tried to become friendly with them. After the introductory meeting we started to plan the work and they suggested me to make trello cards for my work. It was very nice idea and it helped me to get my work done on time.
 
-I will summarize my whole work done in weeks:
+This is the entire summary of my work:-
 
 Week 1:
-- I begin my work by fixing some existing opened issues that need to be fixed urgently ande PRs accordingly. After this i begin 			working according to my trello cards. according to 1st trello card i added some more tests to the app. first i added some 					backend tests to improve it more. Then i felt some need to add frontnd tests also, therefore i set up enzyme for frontend 					testing and some intial tests for frontend. 
+- I begin my work by fixing some existing opened issues that need to be fixed urgently and made  PRs accordingly. After this i begin working according to my trello cards. according to 1st trello card i added some more tests to the app. first i added some 		backend tests to improve it more. Then i felt some need to add frontnd tests also, therefore i set up enzyme for frontend 					testing and add some intial tests for frontend. 
 
 Week 2:
 - This week was one of the crucial weeks as my task was to restructure the backend. there was nothing any majore issue with the current structuring but as the codebase was growing day by day it was becoming difficult to track errors and the files were becoming too large. so as told by my mentor I added services folder in each type of APIs and moved the entire business logic to this folder thereby increasing the granularity further to one step. After this the routes file has become very clean and easy to  
@@ -42,42 +42,31 @@ Week 7:
 - After writing backend for google fit, my next task was to update readme and make it more informative and organised. so i refactored readme from scratch.
 
 Week 8: 
-- this week proved to be very important and challenging for me. it wouldn't be possible without the help of mentors to do this task. the task was to automate the deployment process for our app. within a single click we can deploy our app compared to previously done manual process. i was not able 
+- this week proved to be very important and challenging for me. it wouldn't be possible without the help of mentors to do this task. the task was to automate the deployment process for our app through gitlab CI/CD. within a single click we can deploy our app compared to previously done manual process. This task was extended till next week.
 
-Work done during phase 2:-
-Week 1:
-Worked on direct fetching of google fit data.
-Written controllers and services for the same with api endpoints.
-Refactored google fit schema
-Tested to ensure proper working.
-Week 2:
-Worked on indirect fetching of google fit data.
-Written controllers and services for the same with api endpoints.
-Written services to save and fetch data from database.
-Created new required credentials on Google developer console and Auth0 for production environment.
-Fix failing tests.
-Week 3:
-Refactored existing readme and made it more systematic.
-Started working on deploying app through gitlab ci/cd.
-Week 4:
-Finished working on deploying through gitlab ci/cd.
-Started working on internal apis.
-	
-Link to all the PRs:
-https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/21688(Merged)
-https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/222(Merged)
-https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/224(Merged)
-https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/223(Merged)
-https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/226(Pending)
+Week 9:
+- In this week i continued with the process of making deployment automated. actually the problem came while passing env variables during building docker image but finally with the help of mentors it became successful and our deployment process became smoother just within a single click.
+
+Week 10:
+- the task was to write scripts to take backup of mongodb databse and then store this backup in google buckets at regular intervals.
+To do this regularly I was asked to write cron-job for this task therfore the next half of week was devoted writing cron jobs. To store mongodump two buckets were created, private nad public. private bucket is used to store all the user specific data and public bucket is used to store raw data.
+
+Week 11:
+- the task of this week was to dockerize the cron job and run it as an independent service apart from our main server. i wrote dockerfile and made other related necessary changes.
+
+Week 12:
+- I used already made google-fit react components and connected them with the APIs written before. I displayed the fit data of a particular user in the form of bar graph. coming to the end of this week I prepared the work report of my entire Gsoc 2020 journey.  
+
 
 ### Merge Requests
-- [**MR !211**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/211)(_**merged**_)
-	- Added some much needed backend tests.
-	- Configured enzyme for frontend testing and written some frontend tests.
 
 - [**MR !188**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/188)(_**merged**_)
 	- this PR improved error handling while we add daily-emissions in emissions chart. 
 	- complete set of new APIs were written for dynamic rendering of dropdown contents.
+
+- [**MR !211**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/211)(_**merged**_)
+	- Added some much needed backend tests.
+	- Configured enzyme for frontend testing and written some frontend tests.
 
 - [**MR !212**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/212)(_**merged**_)
 	- Done complete restructuring of backend side.
@@ -86,3 +75,29 @@ https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/226(Pending)
 
 - [**MR !216**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/216)(_**merged**_)
   - Created new schema for storing google fit data.
+	- written APIs to fetch google-fit data
+	- written helper functions to fetch and store data in database.
+
+- [**MR !222**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/222)(_**merged**_)	
+	- fixed issue [188](https://gitlab.com/aossie/CarbonFootprint-API/-/issues/188) 
+
+- [**MR !224**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/224)(_**merged**_)
+	- updated readme 
+
+- [**MR !223**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/223)(_**merged**_)
+	- fixed issue [190](https://gitlab.com/aossie/CarbonFootprint-API/-/issues/190)
+	- fixed failing frontend tests
+
+- [**MR !229**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/229)(_**merged**_)
+	- automated the process of deployment
+
+- [**MR !234**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/234)(_**merged**_)
+	- fixed failing tests
+
+- [**MR !231**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/231)(_**merged**_)
+	- added cron-job to take backup of database and save mongodump to google buckets
+	- dockerize cron job
+
+- [**MR !239**](https://gitlab.com/aossie/CarbonFootprint-API/-/merge_requests/239)(_**merged**_)
+	- connect google-fit backend with frontend
+
